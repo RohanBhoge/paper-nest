@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "http://localhost:5173";
-port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 // --- Middleware ---
 app.use(express.json({ limit: "5mb" }));
