@@ -1,0 +1,19 @@
+Teacher Generates Paper (GenerateTemplate)
+           ↓
+Paper Automatically Added to Paper History(PaperHistoryPage)
+           ↓
+Paper History Shows All Papers with "Check Paper" Button(PaperHistoryPage)
+           ↓
+Teacher Clicks "Check Paper" Button(PaperHistoryPage)
+           ↓
+Selected Paper Data Sent to Paper Checking Page(OmrPage)
+           ↓
+ Teacher will upload the omr sheets bundle 
+           ↓
+Then after check button is clicked 
+           ↓
+It will added to the PaperHistoryPage as checked 
+           ↓
+Button Becomes Disabled (Cannot Click Again)
+           ↓
+Paper Checking Page Displays That Paper for Evaluation
