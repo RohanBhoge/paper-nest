@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import AdminDashboard1 from "./pages/AdminDashboard";
 import LoginPage from "./Components/LoginPage";
@@ -23,12 +23,6 @@ createRoot(document.getElementById("root")).render(
             <Route path="/notes-dashboard" element={<NotesDashboard />} />
             <Route path="/test" element={<OmrIntegratedPage />} />
             <Route path="/paper-view" element={<GeneratedTemplate />} />
-            {/* <Route path="/exam-paper" element={<GeneratedTemplate />} /> */}
-            {/* <Route path="/paper-history" element={<PaperHistoryPage/>}/>
-        <Route path="omr-page" element={<OmrPage/>}/> */}
-
-            {/* /* Redirect unknown routes to login
-        <Route path="*" element={<Navigate to="/" />} />  */}
           </Routes>
         </PaperProvider>
       </AuthProvider>
