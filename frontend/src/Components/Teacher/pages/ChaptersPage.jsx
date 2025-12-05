@@ -5,7 +5,6 @@ import GeneratedTemplate from "../../Teacher/Dashboard/GeneratedTemplate.jsx";
 import PaperContext from "../context/paper/PaperContext";
 import axios from "axios";
 import AuthContext from "../context/auth/AuthContext";
-import PaperProvider from "../context/paper/PaperProvider.jsx";
 
 const STORAGE_KEY = "paper_history_v1";
 
@@ -18,6 +17,7 @@ function getPapersFromService() {
     return [];
   }
 }
+
 function savePapersToService(arr) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(arr));

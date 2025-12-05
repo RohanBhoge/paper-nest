@@ -7,12 +7,9 @@ import React, {
 } from "react";
 import axios from "axios";
 import PaperContext from "../context/paper/PaperContext";
-import AuthProvider from "../context/auth/AuthProvider";
 import AuthContext from "../context/auth/AuthContext";
 
 // --- API Endpoints ---
-const API_BASE_URL = "http://localhost:5000/api/paperdata/paper";
-const OCR_API_URL = "http://localhost:5000/api/ocrTest/ocr-extract";
 
 const InputField = ({
   label,
@@ -35,10 +32,10 @@ const InputField = ({
       name={name}
       className={`w-full px-3 py-2 border rounded-lg text-sm ${
         disabled || isReadonly
-          ? "bg-slate-100 text-slate-600"
-          : "bg-white border-slate-300 focus:border-blue-500"
+        ? "bg-slate-100 text-slate-600"
+        : "bg-white border-slate-300 focus:border-blue-500"
       }`}
-    />
+      />
   </div>
 );
 
@@ -51,7 +48,9 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
   const [paper, setPaper] = useState(null);
   const [fetchedData, setFetchedData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-
+  
+  const API_BASE_URL = BackendUrl+"/api/paperdata/paper";
+  const OCR_API_URL = BackendUrl+"/api/ocrTest/ocr-extract";
   useEffect(() => {
     console.log("Form state updated:", form);
   }, [form]);

@@ -13,7 +13,6 @@ function updatePaperInService(paper) {
   return true;
 }
 
-const DELETE_API_URL = "http://localhost:5000/api/v1/paper/delete-paper";
 
 const PaperHistoryPage = ({ setActiveSection }) => {
   const [papers, setPapers] = useState([]);
@@ -23,15 +22,16 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   // 💡 Destructure setShowGenerateOptions from PaperContext
   const { setForm, setBackendPaperData, setShowGenerateOptions } = useContext(PaperContext);
   const { adminAuthToken, BackendUrl } = useContext(AuthContext);
-
+  
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(null);
   const [isFetchingPaper, setIsFetchingPaper] = useState(false);
   const navigate = useNavigate()
-
+  
   const [deleteMode, setDeleteMode] = useState(false);
   const [selectedPaperIds, setSelectedPaperIds] = useState(new Set());
-
+  
+  const DELETE_API_URL = BackendUrl + "/api/v1/paper/delete-paper";
   const fetchPapers = useCallback(
     async (searchTerm = "") => {
       setLoading(true);
@@ -245,7 +245,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
     fetchPapers("");
   };
 
-  const handleDeleteAll = () => {
+  const handleDeleteAll = () => { 
     handleToggleDeleteMode();
   };
 

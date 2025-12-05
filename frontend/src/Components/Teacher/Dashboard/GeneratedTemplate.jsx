@@ -47,8 +47,8 @@ const getCompositeKey = (q) => {
   return `${qChapter}::${qId}`;
 };
 
-const REPLACEMENT_API_URL = "http://localhost:5000/api/v1/paper/replacements";
-const STORE_PAPER_API_URL = "http://localhost:5000/api/v1/paper/store-paper";
+const REPLACEMENT_API_URL =import.meta.env.VITE_BACKEND_URL+ "/api/v1/paper/replacements";
+const STORE_PAPER_API_URL = import.meta.env.VITE_BACKEND_URL+"/api/v1/paper/store-paper";
 
 // --- Mark Allocation Helper ---
 const getQuestionMark = (exam, subject) => {
