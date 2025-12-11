@@ -520,20 +520,39 @@ async function ensureActiveColumnExists() {
     }
 }
 
-async function deactivateUser(userId) {
+async function toggleUserActivationStatus(userId) {
     let connection;
     try {
         connection = await pool.getConnection();
+
+        const [rows] = await connection.execute(
+            `SELECT is_active FROM users WHERE id = ? LIMIT 1`,
+            [userId]
+        );
+
+        if (rows.length === 0) {
+            return { affectedRows: 0, newStatus: null };
+        }
+
+        const currentStatus = rows[0].is_active;
+        const newStatus = currentStatus === 1 ? 0 : 1;
+        const newStatusText = newStatus === 1 ? 'Activated' : 'Deactivated';
+
         const updateQuery = `
             UPDATE users 
-            SET is_active = FALSE 
+            SET is_active = ?
             WHERE id = ?
         `;
-        const [result] = await connection.execute(updateQuery, [userId]);
-        return result.affectedRows;
+        const [result] = await connection.execute(updateQuery, [newStatus, userId]);
+
+        return { 
+            affectedRows: result.affectedRows, 
+            newStatus: newStatusText 
+        };
+
     } catch (error) {
-        console.error("DB Error in deactivateUser:", error);
-        throw new Error("Database error during user deactivation.");
+        console.error("DB Error in toggleUserActivationStatus:", error);
+        throw new Error("Database error during user status toggle.");
     } finally {
         if (connection) connection.release();
     }
@@ -553,6 +572,6 @@ export {
   getOrganizationNotifications,
   deleteUserByEmail,
   getAllUsers,
-  deactivateUser,
+  toggleUserActivationStatus,
   ensureActiveColumnExists
 };

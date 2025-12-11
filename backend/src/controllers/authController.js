@@ -9,7 +9,7 @@ import {
   getStudentByEmail,
   deleteUserByEmail,
   getAllUsers,
-  deactivateUser
+  toggleUserActivationStatus
 } from "../utils/helperFunctions.js";
 
 dotenv.config();
@@ -241,7 +241,8 @@ const getAllUsersController = async (req, res) => {
   }
 };
 
-const handleDeactivateUser = async (req, res) => {
+
+const handleToggleUserStatus = async (req, res) => {
     const { userId } = req.body; 
 
     if (!userId) {
@@ -249,17 +250,23 @@ const handleDeactivateUser = async (req, res) => {
     }
 
     try {
-        const affectedRows = await deactivateUser(userId);
+        const result = await toggleUserActivationStatus(userId);
         
-        if (affectedRows > 0) {
-            return res.status(200).json({ success: true, message: "User deactivated successfully." });
+        if (result.affectedRows > 0) {
+            console.log(`User ID ${userId} status set to: ${result.newStatus}`);
+            return res.status(200).json({ 
+                success: true, 
+                message: `User status successfully changed to ${result.newStatus}.`,
+                new_status: result.newStatus
+            });
         } else {
-            return res.status(404).json({ success: false, message: "User not found or already deactivated." });
+            return res.status(404).json({ success: false, message: "User not found." });
         }
     } catch (error) {
-        console.error("Deactivation API Error:", error);
-        return res.status(500).json({ success: false, message: "Server error during deactivation." });
+        console.error("User Status Toggle API Error:", error);
+        return res.status(500).json({ success: false, message: error.message });
     }
 };
 
-export { register as adminRegister, adminLogin, studentRegister, studentLogin, deleteUser,getAllUsersController,handleDeactivateUser};
+
+export { register as adminRegister, adminLogin, studentRegister, studentLogin, deleteUser,getAllUsersController, handleToggleUserStatus };
