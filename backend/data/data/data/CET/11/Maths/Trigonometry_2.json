@@ -13,7 +13,8 @@
     ],
     "answer": "sin²θ + cos²θ = 1",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The identity 1 + tan²θ = sec²θ is derived from:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "4/5",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If sinθ = 3/5, then cosθ equals:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "cosθ",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: sin(90° - θ) equals:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "cotθ",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: tan(90° - θ) equals:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "√2/2",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of sin45° is:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "√3",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of tan60° is:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "3/4",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If secθ = 5/4, then tanθ equals:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "12/5",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In a right triangle, if opposite side = 12 and adj..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "h/s",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If height of a tower is 'h' and shadow length is '..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Line of sight and ground when object is above eye",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The angle of elevation is the angle between:..."
   }
 ]

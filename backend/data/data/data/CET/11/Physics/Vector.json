@@ -13,7 +13,8 @@
     ],
     "answer": "Vector",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A quantity which has both magnitude and direction ..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Displacement",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a vector quantity?..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Zero or positive",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The magnitude of a vector is always:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Same magnitude and same direction",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Two vectors are said to be equal if they have:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "0°",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The resultant of two vectors is maximum when the a..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "180°",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The resultant of two vectors is minimum when the a..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Zero",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The dot product of two perpendicular vectors is:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Zero",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The cross product of two parallel vectors is:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Right-hand thumb rule",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The direction of the cross product of two vectors ..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "One",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Unit vector has magnitude:..."
   }
 ]

@@ -477,7 +477,7 @@ const GenerateTemplateQuestionPaper = () => {
       )}
 
       {/* Watermark for Print */}
-      <div className="watermark-print">Bisugen Pvt. Ltd.</div>
+      <div className="watermark-print">PAPERNEST</div>
 
       {/* Printable Question Paper */}
       <div id="print-area" className="bg-white p-8 rounded-xl border relative">

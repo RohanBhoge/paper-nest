@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate, useLocation, Outlet } from 'react-router-dom';
 import Sidebar from '../Components/Notes/Layout/Sidebar';
 import TopBar from '../Components/Notes/Layout/TopBar';
 import DashboardContent from '../Components/Notes/Dashboard/DashboardContent';
@@ -362,13 +363,32 @@ const chaptersData = {
 
 
 const examSubjects = {
-  CET: ['Physics', 'Chemistry', 'Mathematics', 'Biology'], // Include Biology here
-  JEE: ['Physics', 'Chemistry', 'Mathematics'],           // No Biology
-  NEET: ['Physics', 'Chemistry', 'Biology']              // Include Biology
+  CET: ['Physics', 'Chemistry', 'Mathematics', 'Biology'], 
+  JEE: ['Physics', 'Chemistry', 'Mathematics'],           
+  NEET: ['Physics', 'Chemistry', 'Biology']              
 };
 
 const NotesDashboard = () => {
-  const [activeSection, setActiveSection] = useState('dashboard');
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const getActiveSection = () => {
+    const path = location.pathname;
+    if (path.includes('/exam')) return 'exam';
+    if (path.includes('/chapters')) return 'chapters';
+    if (path.includes('/settings')) return 'settings';
+    return 'dashboard';
+  };
+  const activeSection = getActiveSection();
+
+  const setActiveSection = (section) => {
+    if (section === 'dashboard') {
+      navigate('/notes-dashboard');
+    } else {
+      navigate(`/notes-dashboard/${section}`);
+    }
+  };
+
   const [selectedExam, setSelectedExam] = useState(null);
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [chapters, setChapters] = useState({});
@@ -398,9 +418,11 @@ const NotesDashboard = () => {
     setSelectedSubject(subject);
     const examData = chaptersData[selectedExam][subject];
     setChapters(examData);
-    setActiveSection('chapters');
+    setActiveSection('chapters'); 
     setIsSidebarOpen(false);
   };
+
+
 
   const openNotesModal = (chapter) => {
     setModalContent(chapter);
@@ -423,36 +445,20 @@ const NotesDashboard = () => {
         />
       )}
 
+
       <div className="overflow-y-auto w-full p-8">
-        {activeSection === 'dashboard' && (
-          <>
-         
-              <DashboardContent notices={notices} handleExamClick={handleExamClick} />
-              {/* <QuizSection /> */}
-          
-          </>
-        )}
-        
-
-        {activeSection === 'exam' && selectedExam && (
-          <ExamSelection
-            selectedExam={selectedExam}
-            examSubjects={examSubjects}
-            setActiveSection={setActiveSection}
-            handleSubjectClick={handleSubjectClick}
-          />
-        )}
-
-        {activeSection === 'chapters' && selectedSubject && (
-          <ChaptersPage
-            selectedExam={selectedExam}
-            selectedSubject={selectedSubject}
-            chapters={chapters}
-            setActiveSection={setActiveSection}
-            openNotesModal={openNotesModal}
-          />
-        )}
-         {activeSection === 'settings' && <SettingsPage />}
+        <Outlet context={{
+          notices,
+          handleExamClick,
+          selectedExam,
+          activeSection,
+          setActiveSection,
+          examSubjects,
+          handleSubjectClick,
+          selectedSubject,
+          chapters,
+          openNotesModal,
+        }} />
       </div>
       {modalOpen && <NotesModal modalContent={modalContent} setModalOpen={setModalOpen} />}
     </div>

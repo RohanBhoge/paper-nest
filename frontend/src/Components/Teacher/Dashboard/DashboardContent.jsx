@@ -1,9 +1,12 @@
 import React from "react";
+import { useOutletContext } from "react-router-dom";
 import ExamButton from "./ExamButton";
 import NoticeBoard from "./NoticeBoard";
 import Calendercomponent from "../../Notes/Dashboard/Calendercomponent";
 
-const DashboardContent = ({ notices, handleExamClick }) => {
+const DashboardContent = () => {
+    const { notices, handleExamClick } = useOutletContext();
+
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="flex-1">

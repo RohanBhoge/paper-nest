@@ -17,6 +17,9 @@ async function ensureTablesExist() {
                     password_hash VARCHAR(255) NOT NULL,
                     username VARCHAR(255) UNIQUE, 
                     full_name VARCHAR(255),
+                    watermark VARCHAR(255) DEFAULT NULL,
+                    logo VARCHAR(255) DEFAULT NULL,
+                    class_name VARCHAR(255) DEFAULT NULL,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
                 )
@@ -81,9 +84,10 @@ async function ensureTablesExist() {
   }
 }
 
-async function createUser(email, password_hash, full_name = null) {
+async function createUser(email, password_hash, full_name, watermark, logokey) {
   await ensureTablesExist();
 
+  console.log("logokey", logokey, password_hash, full_name, watermark);
   let connection;
   try {
     connection = await pool.getConnection();
@@ -111,11 +115,12 @@ async function createUser(email, password_hash, full_name = null) {
 
     if (colSet.has("username")) {
       let username = null;
-      if (full_name && String(full_name).trim())
-        username = String(full_name).trim().split(" ")[0];
-      else if (email && String(email).includes("@"))
-        username = String(email).split("@")[0];
-      else username = String(email || "user").slice(0, 50);
+      let base = "user";
+      if (full_name && String(full_name).trim()) base = String(full_name).trim().split(" ")[0];
+      else if (email && String(email).includes("@")) base = String(email).split("@")[0];
+
+      // Append random number to ensure uniqueness
+      username = `${base}_${Math.floor(Math.random() * 90000) + 10000}`;
 
       insertCols.push("username");
       placeholders.push("?");
@@ -126,6 +131,18 @@ async function createUser(email, password_hash, full_name = null) {
       insertCols.push("full_name");
       placeholders.push("?");
       values.push(full_name);
+    }
+
+    if (colSet.has("watermark")) {
+      insertCols.push("watermark");
+      placeholders.push("?");
+      values.push(watermark);
+    }
+
+    if (colSet.has("logo")) {
+      insertCols.push("logo");
+      placeholders.push("?");
+      values.push(logokey);
     }
 
     if (insertCols.length === 0) {
@@ -150,24 +167,28 @@ async function getUserByEmail(email) {
     connection = await pool.getConnection();
     try {
   const [rows] = await connection.execute(
-      `SELECT id, email, password_hash, full_name, is_active, created_at FROM users WHERE email = ? LIMIT 1`,
+    `SELECT id, email, password_hash, full_name, is_active, created_at, watermark, class_name, logo FROM users WHERE email = ? LIMIT 1`,
       [email]
-);
+  );
       return rows.length ? rows[0] : null;
     } catch (err) {
       if (err && err.code === "ER_BAD_FIELD_ERROR") {
         const [rows2] = await connection.execute(
-          `SELECT id, email, password_hash, created_at FROM users WHERE email = ? LIMIT 1`,
+          `SELECT id, email, password_hash, full_name, logo, watermark, class_name, created_at FROM users WHERE email = ? LIMIT 1`,
           [email]
         );
         if (!rows2.length) return null;
         const r = rows2[0];
+
         return {
           id: r.id,
           email: r.email,
           password_hash: r.password_hash,
-          full_name: null,
+          full_name: r.full_name,
           created_at: r.created_at,
+          watermark: r.watermark,
+          class_name: r.class_name,
+          logo: r.logo 
         };
       }
       throw err;
@@ -201,7 +222,7 @@ async function getUserByFullName(fullName) {
     connection = await pool.getConnection();
     try {
       const [rows] = await connection.execute(
-        `SELECT id, email, password_hash, full_name, created_at FROM users WHERE full_name = ? LIMIT 1`,
+        `SELECT id, email, password_hash, full_name, created_at, watermark, class_name, logo FROM users WHERE full_name = ? LIMIT 1`,
         [fullName]
       );
       return rows.length ? rows[0] : null;
@@ -219,6 +240,9 @@ async function getUserByFullName(fullName) {
           password_hash: r.password_hash,
           full_name: null,
           created_at: r.created_at,
+          watermark: null,
+          logo: null,
+          class_name: null
         };
       }
       throw err;
@@ -228,7 +252,7 @@ async function getUserByFullName(fullName) {
   }
 }
 
-async function createNewPaperForUser(userId, data) {
+async function storeNewPaperForUser(userId, data) {
   await ensureTablesExist();
 
   let connection;
@@ -237,9 +261,9 @@ async function createNewPaperForUser(userId, data) {
 
     const insertQuery = `
       INSERT INTO question_papers (
-        user_id, paper_id, exam_name, class, subject, exam_date, marks,
+        user_id, paper_id, exam_name, class, subject, exam_date, marks, duration,
         paper_questions, paper_answers, metadata
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 
     // Always stringify questions, answers & metadata
@@ -250,11 +274,12 @@ async function createNewPaperForUser(userId, data) {
     const values = [
       userId,
       data.paper_id,
-      data.exam_name,
-      data.class,
-      data.subject,
-      data.exam_date,
-      data.marks,
+      data.exam_name ?? null,
+      data.class ?? null,
+      data.subject ?? null,
+      data.exam_date ?? null,
+      data.marks ?? null,
+      data.duration ?? 0,
       safePaperQuestions,
       safePaperAnswers,
       safeMetadata,
@@ -272,7 +297,7 @@ async function getPapersByUserId(userId) {
   try {
     connection = await pool.getConnection();
     const [rows] = await connection.execute(
-      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, paper_questions, paper_answers, metadata, created_at, updated_at FROM question_papers WHERE user_id = ? ORDER BY created_at DESC`,
+      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, paper_questions, paper_answers, metadata, created_at, updated_at FROM question_papers WHERE user_id = ? ORDER BY created_at DESC`,
       [userId]
     );
     return rows.map((r) => ({
@@ -292,7 +317,7 @@ async function getPaperByIdForUser(userId, paperId) {
   try {
     connection = await pool.getConnection();
     const [rows] = await connection.execute(
-      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, paper_questions, paper_answers, metadata, created_at, updated_at FROM question_papers WHERE user_id = ? AND paper_id = ? LIMIT 1`,
+      `SELECT id, paper_id, exam_name, class, subject, exam_date, duration, marks, paper_questions, paper_answers, paper_solution, metadata, created_at, updated_at FROM question_papers WHERE user_id = ? AND paper_id = ? LIMIT 1`,
       [userId, paperId]
     );
     if (!rows.length) return null;
@@ -492,34 +517,6 @@ async function getAllUsers() {
   }
 }
 
-async function ensureActiveColumnExists() {
-    let connection;
-    try {
-        connection = await pool.getConnection();
-
-        const [rows] = await connection.execute(
-            `SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS 
-             WHERE TABLE_SCHEMA = ? AND TABLE_NAME = 'users' AND COLUMN_NAME = 'is_active'`,
-            [DB_NAME]
-        );
-
-        if (rows.length === 0) {
-            console.log("Adding 'is_active' column to the 'users' table...");
-            await connection.execute(`
-                ALTER TABLE users
-                ADD COLUMN is_active BOOLEAN NOT NULL DEFAULT TRUE
-            `);
-            console.log("'is_active' column added successfully.");
-        } else {
-            console.log("'is_active' column already exists. Skipping migration.");
-        }
-    } catch (error) {
-        console.error("Critical DB Initialization Error (Alter Table):", error);
-    } finally {
-        if (connection) connection.release();
-    }
-}
-
 async function toggleUserActivationStatus(userId) {
     let connection;
     try {
@@ -557,12 +554,58 @@ async function toggleUserActivationStatus(userId) {
         if (connection) connection.release();
     }
 }
+
+async function ensureUserColumnsExist() {
+  let connection;
+  try {
+    connection = await pool.getConnection();
+
+    const [rows] = await connection.execute(
+      `SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS 
+             WHERE TABLE_SCHEMA = ? AND TABLE_NAME = 'users' AND COLUMN_NAME = 'logo'`,
+      [DB_NAME]
+    );
+
+    let shouldAdd = false;
+
+    if (rows.length > 0) {
+      const colType = rows[0].DATA_TYPE;
+      console.log(`'logo' column exists. Type: ${colType}`);
+
+      // If exists but not varchar, drop it
+      if (colType !== 'varchar') {
+        console.log("Column type is incorrect (expected 'varchar'). Dropping column...");
+        await connection.execute(`ALTER TABLE users DROP COLUMN logo`);
+        console.log("'logo' column dropped.");
+        shouldAdd = true;
+      } else {
+        console.log("'logo' column is already correct (VARCHAR). Skipping migration.");
+      }
+    } else {
+      shouldAdd = true;
+    }
+
+    if (shouldAdd) {
+      console.log("Adding 'logo' column (VARCHAR) to 'users'...");
+      await connection.execute(`
+                ALTER TABLE users
+                ADD COLUMN logo VARCHAR(255) DEFAULT NULL
+            `);
+      console.log("'logo' column added successfully.");
+    }
+
+  } catch (error) {
+    console.error("Critical DB Initialization Error (Alter Table):", error);
+  } finally {
+    if (connection) connection.release();
+  }
+}
 export {
   createUser,
   getUserByEmail,
   getUserByFullName,
   getPapersByUserId,
-  createNewPaperForUser,
+  storeNewPaperForUser,
   getPaperByIdForUser,
   deletePapersForUser,
   createStudent,
@@ -573,5 +616,5 @@ export {
   deleteUserByEmail,
   getAllUsers,
   toggleUserActivationStatus,
-  ensureActiveColumnExists
+  ensureUserColumnsExist
 };

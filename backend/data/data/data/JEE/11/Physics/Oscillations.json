@@ -3,90 +3,150 @@
     "id": 1,
     "chapter": "Oscillations",
     "question": "Simple harmonic motion (SHM) is defined as motion in which the acceleration of a particle is:",
-    "options": ["Directly proportional to displacement and opposite to it", "Constant", "Zero", "Directly proportional to velocity"],
+    "options": [
+      "Directly proportional to displacement and opposite to it",
+      "Constant",
+      "Zero",
+      "Directly proportional to velocity"
+    ],
     "answer": "Directly proportional to displacement and opposite to it",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Simple harmonic motion (SHM) is defined as motion ..."
   },
   {
     "id": 2,
     "chapter": "Oscillations",
     "question": "The time period of a simple harmonic oscillator depends on:",
-    "options": ["Mass and spring constant", "Amplitude only", "Velocity only", "Displacement only"],
+    "options": [
+      "Mass and spring constant",
+      "Amplitude only",
+      "Velocity only",
+      "Displacement only"
+    ],
     "answer": "Mass and spring constant",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The time period of a simple harmonic oscillator de..."
   },
   {
     "id": 3,
     "chapter": "Oscillations",
     "question": "The time period of a simple pendulum of length L is given by:",
-    "options": ["T = 2π √(L/g)", "T = √(g/L)", "T = 2π √(g/L)", "T = 2π L/g"],
+    "options": [
+      "T = 2π √(L/g)",
+      "T = √(g/L)",
+      "T = 2π √(g/L)",
+      "T = 2π L/g"
+    ],
     "answer": "T = 2π √(L/g)",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The time period of a simple pendulum of length L i..."
   },
   {
     "id": 4,
     "chapter": "Oscillations",
     "question": "The maximum displacement of a particle from its mean position in SHM is called:",
-    "options": ["Amplitude", "Frequency", "Period", "Phase"],
+    "options": [
+      "Amplitude",
+      "Frequency",
+      "Period",
+      "Phase"
+    ],
     "answer": "Amplitude",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The maximum displacement of a particle from its me..."
   },
   {
     "id": 5,
     "chapter": "Oscillations",
     "question": "The acceleration in SHM is zero at:",
-    "options": ["Mean position", "Maximum displacement", "Halfway position", "All positions"],
+    "options": [
+      "Mean position",
+      "Maximum displacement",
+      "Halfway position",
+      "All positions"
+    ],
     "answer": "Mean position",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The acceleration in SHM is zero at:..."
   },
   {
     "id": 6,
     "chapter": "Oscillations",
     "question": "The frequency of oscillation of a mass-spring system is:",
-    "options": ["f = 1/(2π) √(k/m)", "f = 2π √(m/k)", "f = √(k/m)", "f = 2π m/k"],
+    "options": [
+      "f = 1/(2π) √(k/m)",
+      "f = 2π √(m/k)",
+      "f = √(k/m)",
+      "f = 2π m/k"
+    ],
     "answer": "f = 1/(2π) √(k/m)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The frequency of oscillation of a mass-spring syst..."
   },
   {
     "id": 7,
     "chapter": "Oscillations",
     "question": "In SHM, velocity is maximum at:",
-    "options": ["Mean position", "Maximum displacement", "Quarter displacement", "All positions equally"],
+    "options": [
+      "Mean position",
+      "Maximum displacement",
+      "Quarter displacement",
+      "All positions equally"
+    ],
     "answer": "Mean position",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In SHM, velocity is maximum at:..."
   },
   {
     "id": 8,
     "chapter": "Oscillations",
     "question": "The potential energy in SHM is maximum at:",
-    "options": ["Maximum displacement", "Mean position", "Zero displacement", "Quarter displacement"],
+    "options": [
+      "Maximum displacement",
+      "Mean position",
+      "Zero displacement",
+      "Quarter displacement"
+    ],
     "answer": "Maximum displacement",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The potential energy in SHM is maximum at:..."
   },
   {
     "id": 9,
     "chapter": "Oscillations",
     "question": "For a simple pendulum, if length is quadrupled, the time period becomes:",
-    "options": ["Twice", "Four times", "Half", "Same"],
+    "options": [
+      "Twice",
+      "Four times",
+      "Half",
+      "Same"
+    ],
     "answer": "Twice",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: For a simple pendulum, if length is quadrupled, th..."
   },
   {
     "id": 10,
     "chapter": "Oscillations",
     "question": "The angular frequency ω of a mass-spring oscillator is:",
-    "options": ["ω = √(k/m)", "ω = √(m/k)", "ω = k/m", "ω = m/k"],
+    "options": [
+      "ω = √(k/m)",
+      "ω = √(m/k)",
+      "ω = k/m",
+      "ω = m/k"
+    ],
     "answer": "ω = √(k/m)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The angular frequency ω of a mass-spring oscillato..."
   }
 ]

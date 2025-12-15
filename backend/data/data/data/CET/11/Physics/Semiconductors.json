@@ -13,7 +13,8 @@
     ],
     "answer": "Silicon",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a semiconductor material..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Very small (≈ 1 eV)",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The energy gap in an intrinsic semiconductor is:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Electrons",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In an n-type semiconductor, the majority carriers ..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Trivalent impurities",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which impurity is added to form a p-type semicondu..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Doping",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of adding impurities to a semiconducto..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "0.7 V",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The barrier potential of a silicon p-n junction at..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Narrows",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In a forward-biased diode, the depletion region:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "pn Junction Diode",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which device is used for rectification?..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Voltage regulation",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A Zener diode is primarily used for:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Increase in temperature",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The conductivity of a semiconductor increases with..."
   }
 ]

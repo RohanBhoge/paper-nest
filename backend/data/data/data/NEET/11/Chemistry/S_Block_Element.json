@@ -3,90 +3,150 @@
     "id": 1,
     "chapter": "S_Block_Element",
     "question": "Which of the following is an alkali metal?",
-    "options": ["Sodium", "Magnesium", "Aluminum", "Calcium"],
+    "options": [
+      "Sodium",
+      "Magnesium",
+      "Aluminum",
+      "Calcium"
+    ],
     "answer": "Sodium",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is an alkali metal?..."
   },
   {
     "id": 2,
     "chapter": "S_Block_Element",
     "question": "Which of the following is an alkaline earth metal?",
-    "options": ["Calcium", "Potassium", "Sodium", "Lithium"],
+    "options": [
+      "Calcium",
+      "Potassium",
+      "Sodium",
+      "Lithium"
+    ],
     "answer": "Calcium",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is an alkaline earth metal?..."
   },
   {
     "id": 3,
     "chapter": "S_Block_Element",
     "question": "Alkali metals react with water to form:",
-    "options": ["Alkali hydroxides and hydrogen", "Acids and hydrogen", "Metal oxides", "Salt only"],
+    "options": [
+      "Alkali hydroxides and hydrogen",
+      "Acids and hydrogen",
+      "Metal oxides",
+      "Salt only"
+    ],
     "answer": "Alkali hydroxides and hydrogen",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Alkali metals react with water to form:..."
   },
   {
     "id": 4,
     "chapter": "S_Block_Element",
     "question": "Which s-block element is used in the extraction of aluminum?",
-    "options": ["Calcium", "Sodium", "Magnesium", "Potassium"],
+    "options": [
+      "Calcium",
+      "Sodium",
+      "Magnesium",
+      "Potassium"
+    ],
     "answer": "Calcium",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which s-block element is used in the extraction of..."
   },
   {
     "id": 5,
     "chapter": "S_Block_Element",
     "question": "The reactivity of alkali metals ______ down the group.",
-    "options": ["Increases", "Decreases", "Remains constant", "Fluctuates"],
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Fluctuates"
+    ],
     "answer": "Increases",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The reactivity of alkali metals ______ down the gr..."
   },
   {
     "id": 6,
     "chapter": "S_Block_Element",
     "question": "The most abundant element in the earth’s crust among s-block elements is:",
-    "options": ["Calcium", "Sodium", "Magnesium", "Potassium"],
+    "options": [
+      "Calcium",
+      "Sodium",
+      "Magnesium",
+      "Potassium"
+    ],
     "answer": "Calcium",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The most abundant element in the earth’s crust amo..."
   },
   {
     "id": 7,
     "chapter": "S_Block_Element",
     "question": "Which of the following is used as a reducing agent in the extraction of metals?",
-    "options": ["Calcium", "Sodium", "Magnesium", "All of the above"],
+    "options": [
+      "Calcium",
+      "Sodium",
+      "Magnesium",
+      "All of the above"
+    ],
     "answer": "All of the above",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is used as a reducing agent..."
   },
   {
     "id": 8,
     "chapter": "S_Block_Element",
     "question": "The flame color of potassium salts is:",
-    "options": ["Lilac", "Yellow", "Red", "Green"],
+    "options": [
+      "Lilac",
+      "Yellow",
+      "Red",
+      "Green"
+    ],
     "answer": "Lilac",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The flame color of potassium salts is:..."
   },
   {
     "id": 9,
     "chapter": "S_Block_Element",
     "question": "Which s-block element is used in the preparation of cement?",
-    "options": ["Calcium", "Magnesium", "Potassium", "Sodium"],
+    "options": [
+      "Calcium",
+      "Magnesium",
+      "Potassium",
+      "Sodium"
+    ],
     "answer": "Calcium",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which s-block element is used in the preparation o..."
   },
   {
     "id": 10,
     "chapter": "S_Block_Element",
     "question": "Which property decreases down the group for alkali metals?",
-    "options": ["Ionization energy", "Atomic radius", "Electropositivity", "Metallic character"],
+    "options": [
+      "Ionization energy",
+      "Atomic radius",
+      "Electropositivity",
+      "Metallic character"
+    ],
     "answer": "Ionization energy",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which property decreases down the group for alkali..."
   }
 ]

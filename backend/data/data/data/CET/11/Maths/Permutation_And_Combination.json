@@ -13,7 +13,8 @@
     ],
     "answer": "\\frac{n!}{(n-r)!}",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of permutations of n distinct objects t..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "\\frac{n!}{r!(n-r)!}",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of combinations of n objects taken r at..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "1",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of 0! is:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "6",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: How many permutations can be formed from the lette..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "6",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: How many 2-digit numbers can be formed using digit..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "n!",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of ways to arrange n distinct objects i..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "4!",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If 5 people sit in a circular arrangement, the num..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "^{n}C_{r} = ^{n}C_{n-r}",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of combinations obtained by choosing r ..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "\\frac{6!}{3!2!1!}",
     "difficulty": "hard",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If all letters of the word 'BANANA' are arranged, ..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "120",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of ways to choose a committee of 3 peop..."
   }
 ]

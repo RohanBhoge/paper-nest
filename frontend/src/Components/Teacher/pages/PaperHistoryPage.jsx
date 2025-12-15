@@ -13,14 +13,12 @@ function updatePaperInService(paper) {
   return true;
 }
 
-
 const PaperHistoryPage = ({ setActiveSection }) => {
   const [papers, setPapers] = useState([]);
   const [search, setSearch] = useState("");
   const [activeView, setActiveView] = useState("history");
   const [selectedPaper, setSelectedPaper] = useState(null);
-  // 💡 Destructure setShowGenerateOptions from PaperContext
-  const { setForm, setBackendPaperData, setShowGenerateOptions } = useContext(PaperContext);
+  const { setForm, setBackendPaperData, setShowGenerateOptions,examDuration,setExamDuration } = useContext(PaperContext);
   const { adminAuthToken, BackendUrl } = useContext(AuthContext);
   
   const [loading, setLoading] = useState(false);
@@ -48,6 +46,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
 
         if (response.data.success) {
           let fetchedPapers = response.data.papers;
+          console.log("[DEBUG] Fetched Papers:", fetchedPapers);
 
           if (searchTerm) {
             fetchedPapers = fetchedPapers.filter((p) =>
@@ -64,8 +63,8 @@ const PaperHistoryPage = ({ setActiveSection }) => {
               className: p.class,
               subjectName: p.subject,
               examDate: p.exam_date,
-              totalMarks: p.marks,
-              examDuration: p.exam_duration || "N/A",
+              totalMarks: (p.marks !== undefined && p.marks !== null) ? p.marks : (p.totalMarks || "N/A"),
+              examDuration: p.duration || "N/A",
               status: p.status || "checked",
               generatedPaper: p,
             }))
@@ -229,16 +228,8 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   };
 
   useEffect(() => {
-    if (!search) {
-      fetchPapers(search);
-    }
-  }, [fetchPapers]);
-
-  useEffect(() => {
-    if (search) {
-      fetchPapers(search);
-    }
-  }, [search, fetchPapers]);
+    fetchPapers(search);
+  }, [fetchPapers, search]);
 
   const refresh = () => {
     setSearch("");
@@ -396,7 +387,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
                       <td className="py-3 px-4">{p.examName}</td>
                       <td className="py-3 px-4">{p.className}</td>
                       <td className="py-3 px-4">{p.subjectName}</td>
-                      <td className="py-3 px-4">{p.examDate}</td>
+                      <td className="py-3 px-4">{p.examDate ? String(p.examDate).slice(0, 10) : "-"}</td>
                       <td className="py-3 px-4">{p.totalMarks}</td>
 
                       <td className="py-3 px-4 font-mono text-sm text-blue-600">

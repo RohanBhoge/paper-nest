@@ -3,90 +3,150 @@
     "id": 1,
     "chapter": "Structure_Of_Atom",
     "question": "Who proposed the planetary model of the atom?",
-    "options": ["Bohr", "Rutherford", "Thomson", "Dalton"],
+    "options": [
+      "Bohr",
+      "Rutherford",
+      "Thomson",
+      "Dalton"
+    ],
     "answer": "Bohr",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Who proposed the planetary model of the atom?..."
   },
   {
     "id": 2,
     "chapter": "Structure_Of_Atom",
     "question": "Which particle has a positive charge in an atom?",
-    "options": ["Proton", "Electron", "Neutron", "Positron"],
+    "options": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Positron"
+    ],
     "answer": "Proton",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which particle has a positive charge in an atom?..."
   },
   {
     "id": 3,
     "chapter": "Structure_Of_Atom",
     "question": "The mass of a neutron is approximately equal to:",
-    "options": ["1 amu", "0 amu", "1/1836 amu", "2 amu"],
+    "options": [
+      "1 amu",
+      "0 amu",
+      "1/1836 amu",
+      "2 amu"
+    ],
     "answer": "1 amu",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The mass of a neutron is approximately equal to:..."
   },
   {
     "id": 4,
     "chapter": "Structure_Of_Atom",
     "question": "According to Rutherford’s gold foil experiment, most of the atom is:",
-    "options": ["Empty space", "Solid", "Electron cloud", "Nucleus"],
+    "options": [
+      "Empty space",
+      "Solid",
+      "Electron cloud",
+      "Nucleus"
+    ],
     "answer": "Empty space",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: According to Rutherford’s gold foil experiment, mo..."
   },
   {
     "id": 5,
     "chapter": "Structure_Of_Atom",
     "question": "The number of electrons in the outermost shell of an atom is called:",
-    "options": ["Valency", "Atomic number", "Mass number", "Oxidation state"],
+    "options": [
+      "Valency",
+      "Atomic number",
+      "Mass number",
+      "Oxidation state"
+    ],
     "answer": "Valency",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of electrons in the outermost shell of ..."
   },
   {
     "id": 6,
     "chapter": "Structure_Of_Atom",
     "question": "The sum of protons and neutrons in an atom is called:",
-    "options": ["Mass number", "Atomic number", "Valency", "Electron affinity"],
+    "options": [
+      "Mass number",
+      "Atomic number",
+      "Valency",
+      "Electron affinity"
+    ],
     "answer": "Mass number",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The sum of protons and neutrons in an atom is call..."
   },
   {
     "id": 7,
     "chapter": "Structure_Of_Atom",
     "question": "Which quantum number determines the shape of an orbital?",
-    "options": ["Azimuthal (l)", "Principal (n)", "Magnetic (m)", "Spin (s)"],
+    "options": [
+      "Azimuthal (l)",
+      "Principal (n)",
+      "Magnetic (m)",
+      "Spin (s)"
+    ],
     "answer": "Azimuthal (l)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which quantum number determines the shape of an or..."
   },
   {
     "id": 8,
     "chapter": "Structure_Of_Atom",
     "question": "The maximum number of electrons that can occupy an energy level n is:",
-    "options": ["2n²", "n²", "n", "n³"],
+    "options": [
+      "2n²",
+      "n²",
+      "n",
+      "n³"
+    ],
     "answer": "2n²",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The maximum number of electrons that can occupy an..."
   },
   {
     "id": 9,
     "chapter": "Structure_Of_Atom",
     "question": "Which of the following statements is correct according to the Bohr model?",
-    "options": ["Electrons revolve in fixed orbits without radiating energy", "Electrons move randomly around the nucleus", "Electrons are embedded in a positively charged sphere", "Electrons escape the atom freely"],
+    "options": [
+      "Electrons revolve in fixed orbits without radiating energy",
+      "Electrons move randomly around the nucleus",
+      "Electrons are embedded in a positively charged sphere",
+      "Electrons escape the atom freely"
+    ],
     "answer": "Electrons revolve in fixed orbits without radiating energy",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following statements is correct accor..."
   },
   {
     "id": 10,
     "chapter": "Structure_Of_Atom",
     "question": "The emission spectrum of hydrogen is called:",
-    "options": ["Line spectrum", "Continuous spectrum", "Band spectrum", "Absorption spectrum"],
+    "options": [
+      "Line spectrum",
+      "Continuous spectrum",
+      "Band spectrum",
+      "Absorption spectrum"
+    ],
     "answer": "Line spectrum",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The emission spectrum of hydrogen is called:..."
   }
 ]

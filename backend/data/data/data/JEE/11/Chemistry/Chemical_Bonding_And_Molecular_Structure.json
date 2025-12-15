@@ -13,7 +13,8 @@
     ],
     "answer": "Linear",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: According to VSEPR theory, the shape of molecule h..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "2",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The bond order of **O₂ molecule** according to Mol..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "CO2",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following has **zero dipole moment**?..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "BF3",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Among the following, the molecule with **sp² hybri..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Two unpaired electrons",
     "difficulty": "high",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Oxygen molecule (O₂) is **paramagnetic** due to pr..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "H–F",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which bond has the **highest polarity**?..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Lone pair–bond pair repulsion",
     "difficulty": "high",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The bond angle in **NH₃** is less than **CH₄** due..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "NO3⁻",
     "difficulty": "high",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which molecule has **resonance**?..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "End-to-end overlap of orbitals",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Sigma (σ) bond is formed by:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "3",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The total number of **π-bonds** in benzene (C₆H₆) ..."
   }
 ]

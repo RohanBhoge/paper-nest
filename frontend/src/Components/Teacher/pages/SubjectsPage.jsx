@@ -1,15 +1,29 @@
 import { ArrowLeft } from "lucide-react";
+import { useOutletContext, useNavigate } from "react-router-dom"; // Added useNavigate
+import { useEffect } from "react";
 
-const SubjectsPage = ({
-  selectedExam,
-  selectedClass,
-  examSubjects,
-  mode,
-  setMode,
-  handleSubjectClick,
-  setActiveSection,
-  setSelectedClass,
-}) => {
+const SubjectsPage = () => {
+  const navigate = useNavigate();
+  const {
+      selectedExam,
+      selectedClass,
+      examSubjects,
+      mode,
+      setMode,
+      handleSubjectClick,
+      setActiveSection,
+      setSelectedClass,
+    } = useOutletContext();
+
+  // 💡 Redirect if state is lost (e.g. on refresh)
+  useEffect(() => {
+    if (!selectedExam || !selectedClass) {
+        navigate("/teacher-dashboard/exam", { replace: true });
+    }
+  }, [selectedExam, selectedClass, navigate]);
+
+  if (!selectedExam || !selectedClass) return null; // Prevent render crash before redirect
+
   console.log("selected exam", selectedExam);
   // 💡 Check if the selected exam is 'Board'
   const isBoardExam = selectedExam === "Board";
@@ -41,7 +55,7 @@ const SubjectsPage = ({
                             Coming Soon! 🛠️            {" "}
             </h2>
                        {" "}
-            <p className="text-black-700">
+            <p className="text-yellow-700">
                             We are currently optimizing the interface for the{" "}
               {selectedExam} pattern. Please choose a different exam type for
               now.            {" "}

@@ -13,7 +13,8 @@
     ],
     "answer": "a + ib",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A complex number is generally written in the form:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "-1",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of i² is:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "5",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The real part of 5 - 3i is:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "7",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The imaginary part of 4 + 7i is:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "3 - 4i",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The conjugate of (3 + 4i) is:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "5",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If z = 3 + 4i, then |z| equals:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "r(\\cos \\theta + i\\sin \\theta)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The polar form of a complex number z = a + ib is g..."
   },
   {
     "id": 8,
@@ -125,10 +132,11 @@
     ],
     "answer": "3 - i",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If z₁ = 2 + 3i and z₂ = 1 - 4i, then z₁ + z₂ equal..."
   },
   {
-    "id": 9,  
+    "id": 9,
     "chapter": "Complex Number",
     "question": "If z = a + ib, then its reciprocal is given by:",
     "question_latex": "\\frac{1}{z} = \\frac{a - ib}{a^2 + b^2}",
@@ -141,7 +149,8 @@
     ],
     "answer": "\\frac{a - ib}{a^2 + b^2}",
     "difficulty": "hard",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If z = a + ib, then its reciprocal is given by:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "\\cos(n\\theta) + i\\sin(n\\theta)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If z = cos θ + i sin θ, then zⁿ equals:..."
   }
 ]

@@ -13,7 +13,8 @@
     ],
     "answer": "Excretion",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of removal of metabolic waste from the..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Kidney",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which organ is the main excretory organ in humans?..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Nephron",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The structural and functional unit of kidney is:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Bowman's capsule",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Ultrafiltration occurs in which part of the nephro..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Urea",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which nitrogenous waste product is excreted in hum..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "ADH (Vasopressin)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The hormone responsible for water reabsorption in ..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Ammonotelism",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process by which fishes remove nitrogenous was..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Water and salt reabsorption",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The loop of Henle is mainly responsible for:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Water and ion balance",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Osmoregulation is essential to maintain:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Nephritis",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a kidney disorder?..."
   }
 ]

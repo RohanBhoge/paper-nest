@@ -12,7 +12,23 @@ const LoginPage = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
-  const { BackendUrl, setAdminAuthToken } = useContext(AuthContext);
+  const { BackendUrl, setAdminAuthToken, setClassName, setWatermark } = useContext(AuthContext);
+
+  // 💡 Auto-redirect if already logged in
+  React.useEffect(() => {
+    const token = localStorage.getItem("Admin_Token");
+    const role = localStorage.getItem("User_Role");
+
+    if (token) {
+      if (role === "admin") {
+        navigate("/admin-dashboard", { replace: true });
+      } else if (role === "teacher") {
+        navigate("/teacher-dashboard", { replace: true });
+      } else {
+        navigate("/notes-dashboard", { replace: true });
+      }
+    }
+  }, [navigate]);
 
   // Login using axios
   const loginUser = async (userEmail, userPassword) => {
@@ -33,7 +49,7 @@ const LoginPage = () => {
         navigate("/notes-dashboard");
         setError(
           err.response.data.message ||
-            "Login failed. Please check your credentials."
+          "Login failed. Please check your credentials."
         );
       } else if (err.request) {
         setError(
@@ -47,24 +63,43 @@ const LoginPage = () => {
       setIsLoading(false);
     }
   };
-
+  
   const handleLogin = async (e) => {
     e.preventDefault();
 
     const userData = await loginUser(email, password);
-
+    
     if (!userData) return; // Stop if login failed
-
+    
     // Save token
     if (userData.token) {
       localStorage.setItem("Admin_Token", userData.token);
       setAdminAuthToken(userData.token);
     }
+    
+    // 💡 NEW: Save Class Name and Watermark
+    if (userData.user) {
+        if (userData.user.class_name) {
+            localStorage.setItem("Class_Name", userData.user.class_name);
+            setClassName(userData.user.class_name);
+        }
+        if (userData.user.watermark) {
+            localStorage.setItem("Watermark", userData.user.watermark);
+            setWatermark(userData.user.watermark);
+        }
+    }
 
     // SAFE role-based routing
     const role = userData.user?.role;
-
+    
+    // Store role for persistent routing
+    if (role) {
+      localStorage.setItem("User_Role", role);
+    }
+    
     if (role === "admin") {
+      navigate("/admin-dashboard");
+    } else if (role === "teacher") {
       navigate("/teacher-dashboard");
     } else {
       navigate("/notes-dashboard");
@@ -76,7 +111,7 @@ const LoginPage = () => {
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md transform transition-all duration-500 hover:scale-105">
         <div className="flex flex-col items-center mb-10">
           <BookOpen size={48} className="text-blue-600 mb-4" />
-          <h1 className="text-3xl font-bold text-blue-600">BISUGEN</h1>
+          <h1 className="text-3xl font-bold text-blue-600">PAPERNEST</h1>
         </div>
 
         <form onSubmit={handleLogin} className="space-y-7">

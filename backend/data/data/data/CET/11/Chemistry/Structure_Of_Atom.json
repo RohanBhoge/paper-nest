@@ -13,7 +13,8 @@
     ],
     "answer": "Atom",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The smallest particle of an element that retains i..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "J.J. Thomson",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The electron was discovered by:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Goldstein",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The proton was discovered by:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Chadwick",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The neutron was discovered by:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Positively charged",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: According to Rutherford’s model, the nucleus is:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Hydrogen atom",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Bohr’s atomic model is applicable mainly to:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Azimuthal quantum number (l)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The quantum number which gives the shape of orbita..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "2n^2",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The maximum number of electrons that can be accomm..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Magnetic quantum number",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which quantum number describes the orientation of ..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "1s² 2s² 2p⁶ 3s¹",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: An atom has atomic number Z = 11. Its electronic c..."
   }
 ]

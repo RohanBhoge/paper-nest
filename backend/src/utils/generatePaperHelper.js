@@ -54,6 +54,7 @@ function formatPaperContent(selectedQuestions) {
       id: q.id,
       chapter: q.chapter ?? q._meta?.entryPath,
       marks: Number(q.marks ?? q.mark ?? 1) || 0,
+      solution: q.solution || "",
     });
 
     paperQuestions += `Q${qNo}: ${qText}`;

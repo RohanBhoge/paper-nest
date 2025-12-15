@@ -13,7 +13,8 @@
     ],
     "answer": "Solids",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The force of attraction between molecules is maxim..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Liquid",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The state of matter which has definite volume but ..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Gas",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which state of matter has neither definite shape n..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Collision of molecules with container walls",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The pressure exerted by a gas is due to:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "P ∝ 1/V",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: According to Boyle’s law, at constant temperature:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "V ∝ T",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: According to Charles’ law, at constant pressure:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "-273°C",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The temperature at which a gas theoretically occup..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Pascal",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The SI unit of pressure is:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Melting",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The interconversion of solid to liquid is known as..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Sublimation",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The directly conversion of solid to gas without be..."
   }
 ]

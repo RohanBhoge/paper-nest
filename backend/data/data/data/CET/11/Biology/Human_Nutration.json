@@ -13,7 +13,8 @@
     ],
     "answer": "Nutrition",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of intake and utilization of food by t..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Stomach",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which organ is primarily responsible for digestion..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Pepsin",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The enzyme that breaks down proteins into peptides..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Small intestine",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Carbohydrates are mainly digested in the:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Vitamin D",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which vitamin is necessary for the absorption of c..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Villi",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The finger-like projections in the small intestine..."
   },
   {
     "id": 7,
@@ -109,13 +115,14 @@
     ],
     "answer": "Scurvy",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a deficiency disease cau..."
   },
   {
     "id": 8,
     "chapter": "Human Nutrition",
     "question": "Bile juice is produced by:",
-       "question_latex": "",
+    "question_latex": "",
     "image_url": "",
     "options": [
       "Pancreas",
@@ -125,7 +132,8 @@
     ],
     "answer": "Liver",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Bile juice is produced by:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Fats",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Bile helps in the digestion of:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Small intestine",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which part of the digestive system absorbs most of..."
   }
 ]

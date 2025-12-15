@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useOutletContext, useNavigate } from 'react-router-dom';
 
-const ExamSelection = ({ selectedExam, examSubjects, setActiveSection, handleSubjectClick }) => {
+const ExamSelection = () => {
+  const navigate = useNavigate();
+  const { selectedExam, examSubjects, setActiveSection, handleSubjectClick } = useOutletContext();
+
+  // 💡 Redirect if state is lost
+  useEffect(() => {
+    if (!selectedExam) {
+        navigate("/notes-dashboard", { replace: true });
+    }
+  }, [selectedExam, navigate]);
+
+  if (!selectedExam) return null;
+
   const SubjectButton = ({ subject }) => (
     <button
       onClick={() => handleSubjectClick(subject)}

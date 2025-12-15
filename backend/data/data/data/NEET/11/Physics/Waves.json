@@ -3,90 +3,150 @@
     "id": 1,
     "chapter": "Waves",
     "question": "A wave in which particles oscillate perpendicular to the direction of propagation is called:",
-    "options": ["Transverse wave", "Longitudinal wave", "Surface wave", "Stationary wave"],
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Surface wave",
+      "Stationary wave"
+    ],
     "answer": "Transverse wave",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A wave in which particles oscillate perpendicular ..."
   },
   {
     "id": 2,
     "chapter": "Waves",
     "question": "A wave in which particles oscillate along the direction of propagation is called:",
-    "options": ["Longitudinal wave", "Transverse wave", "Surface wave", "Torsional wave"],
+    "options": [
+      "Longitudinal wave",
+      "Transverse wave",
+      "Surface wave",
+      "Torsional wave"
+    ],
     "answer": "Longitudinal wave",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A wave in which particles oscillate along the dire..."
   },
   {
     "id": 3,
     "chapter": "Waves",
     "question": "The speed of a wave on a string depends on:",
-    "options": ["Tension and linear mass density", "Amplitude", "Frequency", "Wavelength only"],
+    "options": [
+      "Tension and linear mass density",
+      "Amplitude",
+      "Frequency",
+      "Wavelength only"
+    ],
     "answer": "Tension and linear mass density",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The speed of a wave on a string depends on:..."
   },
   {
     "id": 4,
     "chapter": "Waves",
     "question": "The distance between two successive crests or troughs is called:",
-    "options": ["Wavelength", "Amplitude", "Frequency", "Period"],
+    "options": [
+      "Wavelength",
+      "Amplitude",
+      "Frequency",
+      "Period"
+    ],
     "answer": "Wavelength",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The distance between two successive crests or trou..."
   },
   {
     "id": 5,
     "chapter": "Waves",
     "question": "Time taken to complete one oscillation is called:",
-    "options": ["Period", "Frequency", "Wavelength", "Amplitude"],
+    "options": [
+      "Period",
+      "Frequency",
+      "Wavelength",
+      "Amplitude"
+    ],
     "answer": "Period",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Time taken to complete one oscillation is called:..."
   },
   {
     "id": 6,
     "chapter": "Waves",
     "question": "The number of oscillations per second is called:",
-    "options": ["Frequency", "Period", "Amplitude", "Velocity"],
+    "options": [
+      "Frequency",
+      "Period",
+      "Amplitude",
+      "Velocity"
+    ],
     "answer": "Frequency",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of oscillations per second is called:..."
   },
   {
     "id": 7,
     "chapter": "Waves",
     "question": "The phase difference between two successive points in the same phase is:",
-    "options": ["2π radians", "π radians", "π/2 radians", "Zero"],
+    "options": [
+      "2π radians",
+      "π radians",
+      "π/2 radians",
+      "Zero"
+    ],
     "answer": "2π radians",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The phase difference between two successive points..."
   },
   {
     "id": 8,
     "chapter": "Waves",
     "question": "The superposition of two or more waves results in:",
-    "options": ["Interference", "Diffraction", "Reflection", "Refraction"],
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Reflection",
+      "Refraction"
+    ],
     "answer": "Interference",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The superposition of two or more waves results in:..."
   },
   {
     "id": 9,
     "chapter": "Waves",
     "question": "A stationary wave is formed due to:",
-    "options": ["Superposition of two waves traveling in opposite directions", "Reflection only", "Refraction only", "Diffraction only"],
+    "options": [
+      "Superposition of two waves traveling in opposite directions",
+      "Reflection only",
+      "Refraction only",
+      "Diffraction only"
+    ],
     "answer": "Superposition of two waves traveling in opposite directions",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A stationary wave is formed due to:..."
   },
   {
     "id": 10,
     "chapter": "Waves",
     "question": "The amplitude of a wave is:",
-    "options": ["Maximum displacement from mean position", "Distance between crests", "Speed of the wave", "Frequency of the wave"],
+    "options": [
+      "Maximum displacement from mean position",
+      "Distance between crests",
+      "Speed of the wave",
+      "Frequency of the wave"
+    ],
     "answer": "Maximum displacement from mean position",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The amplitude of a wave is:..."
   }
 ]

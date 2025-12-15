@@ -13,7 +13,8 @@
     ],
     "answer": "Mole",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The SI unit of amount of substance is:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Avogadro number",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The number of particles in one mole is known as:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "6.022 × 10^23",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of Avogadro number is approximately:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Molar mass",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The mass of one mole of a substance is called:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "22.4 L",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: 1 mole of any gas at STP occupies a volume of:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Mass percentage",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The ratio of mass of solute to mass of solution mu..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Actual number of atoms in a molecule",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The molecular formula gives:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Empirical formula",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The simplest whole number ratio of atoms in a comp..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Law of conservation of mass",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The law which states that mass cannot be created o..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "1 mole",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The amount of substance present in 12 g of carbon-..."
   }
 ]

@@ -13,7 +13,8 @@
     ],
     "answer": "Limit exists and equals f(a)",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A function is said to be continuous at x = a if:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "\\lim_{x \\to a} f(x) = f(a)",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: For continuity at x = a, which condition must hold..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Continuous",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If a function is differentiable at a point, then i..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "x = 0",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The function f(x) = 1/x is not continuous at:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Discontinuous",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If left-hand limit ≠ right-hand limit at x = a, th..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "LHL = RHL = f(0)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The function f(x) = |x| is continuous at x = 0 bec..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Jump discontinuity",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A function with a 'jump' at a point is said to hav..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "All real numbers",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If f(x) = x², the function is continuous for:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "f(x) = e^x",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following functions is continuous eve..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Limit exists but ≠ function value",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A removable discontinuity occurs when:..."
   }
 ]

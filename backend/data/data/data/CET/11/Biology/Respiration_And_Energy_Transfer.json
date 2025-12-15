@@ -13,7 +13,8 @@
     ],
     "answer": "Respiration",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of breaking down glucose to release en..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Oxygen",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which gas is essential for aerobic respiration?..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Lungs",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which organ is the main site of gas exchange in hu..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "ATP",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The energy currency of the cell is:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Cytoplasm",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Where does glycolysis occur in the cell?..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Lactic acid and energy",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The end products of anaerobic respiration in muscl..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Oxygen",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which molecule is the final electron acceptor in a..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Mitochondria",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Where does the Krebs cycle (Citric Acid Cycle) occ..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Internal respiration",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The exchange of gases between blood and tissues is..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Oxygen",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: During heavy exercise, muscles may switch to anaer..."
   }
 ]

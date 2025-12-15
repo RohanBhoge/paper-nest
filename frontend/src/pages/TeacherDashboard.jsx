@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import { useNavigate, useLocation, Outlet } from "react-router-dom";
 import Sidebar from "../Components/Teacher/Layout/Sidebar";
 import TopBar from "../Components/Teacher/Layout/TopBar";
 import DashboardContent from "../Components/Teacher/Dashboard/DashboardContent";
@@ -369,7 +370,31 @@ const examSubjects = {
 };
 
 const TeacherDashboard = () => {
-  const [activeSection, setActiveSection] = useState("dashboard");
+  const navigate = useNavigate();
+  const location = useLocation();
+  
+  //  derive activeSection from location for Sidebar highligting 
+  const getActiveSection = () => {
+    const path = location.pathname;
+    if (path.includes('/omr')) return 'omr';
+    if (path.includes('/paperHistory')) return 'paperHistory';
+    if (path.includes('/settings')) return 'settings';
+    if (path.includes('/exam')) return 'exam';
+    if (path.includes('/subjects')) return 'subjects';
+    if (path.includes('/chapters')) return 'chapters';
+    return 'dashboard';
+  }
+  const activeSection = getActiveSection();
+
+  // Helper to maintain compatibility with existing child components calling setActiveSection
+  const setActiveSection = (section) => {
+    if (section === 'dashboard') {
+        navigate('/teacher-dashboard');
+    } else {
+        navigate(`/teacher-dashboard/${section}`);
+    }
+  };
+
   const [selectedExam, setSelectedExam] = useState(null);
   const [selectedClass, setSelectedClass] = useState(null);
   const [selectedSubject, setSelectedSubject] = useState(null);
@@ -451,7 +476,7 @@ const TeacherDashboard = () => {
     else if (cls === "11th" || cls === "12th") {
       fullList = chaptersData[exam]?.[subject]?.[cls] || [];
     }
-
+    
     return fullList;
   };
 
@@ -534,7 +559,6 @@ const TeacherDashboard = () => {
         let updatedChaptersArray;
 
         if (isChapterBecomingSelected) {
-          // ADD: If selection is TRUE, add the raw chapter name (if not already present)
           if (!currentChaptersArray.includes(rawChapterName)) {
             updatedChaptersArray = [...currentChaptersArray, rawChapterName];
           } else {
@@ -552,7 +576,7 @@ const TeacherDashboard = () => {
           ...prevData,
           chapters: updatedChaptersArray,
         };
-      }); // Return the new UI state for the checkmarks
+      });
 
       return {
         ...prev,
@@ -563,7 +587,7 @@ const TeacherDashboard = () => {
   // ... (rest of the TeacherDashboard component continues)
 
   return (
-    <div className="flex h-screen bg-slate-50">
+    <div className="flex h-screen bg-slate-50 overflow-hidden">
             <TopBar setIsSidebarOpen={setIsSidebarOpen} />     {" "}
       <Sidebar
         isSidebarOpen={isSidebarOpen}
@@ -571,68 +595,37 @@ const TeacherDashboard = () => {
         activeSection={activeSection}
         setActiveSection={setActiveSection}
       />
-           {" "}
       {isSidebarOpen && (
         <div
           onClick={() => setIsSidebarOpen(false)}
           className="fixed inset-0 bg-black/40 z-40 md:hidden"
         ></div>
       )}
-           {" "}
-      <div className="flex-1 p-8 overflow-y-auto">
-               {" "}
-        {activeSection === "dashboard" && (
-          <DashboardContent
-            notices={notices}
-            handleExamClick={handleExamClick}
-          />
-        )}
-               {" "}
-        {activeSection === "exam" && selectedExam && !selectedClass && (
-          <ExamClasses
-            selectedExam={selectedExam}
-            handleClassClick={handleClassClick}
-            setActiveSection={setActiveSection}
-          />
-        )}
-               {" "}
-        {activeSection === "subjects" && selectedClass && selectedExam && (
-          <SubjectsPage
-            selectedExam={selectedExam}
-            selectedClass={selectedClass}
-            examSubjects={examSubjects}
-            mode={mode}
-            setMode={setMode}
-            handleSubjectClick={handleSubjectClick}
-            setActiveSection={setActiveSection}
-            setSelectedClass={setSelectedClass}
-          />
-        )}
-               {" "}
-        {activeSection === "chapters" && selectedSubject && (
-          <ChaptersPage
-            selectedClass={selectedClass}
-            selectedExam={selectedExam}
-            selectedSubject={selectedSubject}
-            chapters={chapters} // chapters object passed correctly
-            checkedChapters={checkedChapters}
-            handleCheckboxChange={handleCheckboxChange}
-            mode={mode}
-            numberOfQuestions={numberOfQuestions}
-            setNumberOfQuestions={setNumberOfQuestions}
-            setActiveSection={setActiveSection}
-            setSelectedSubject={setSelectedSubject}
-          />
-        )}
-                {activeSection === "omr" && <OmrPage />}       {" "}
-        {activeSection === "paperHistory" && (
-          <PaperHistoryPage setActiveSection={setActiveSection} />
-        )}
-                {activeSection === "settings" && <SettingsPage />}     {" "}
-      </div>
-         {" "}
+      <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-6">
+        <Outlet context={{
+          notices,
+          handleExamClick,
+          selectedExam,
+          handleClassClick,
+          setActiveSection,
+          selectedClass,
+          examSubjects,
+          mode,
+          setMode,
+          handleSubjectClick,
+          setSelectedClass,
+          selectedSubject,
+          chapters,
+          checkedChapters,
+          handleCheckboxChange,
+          numberOfQuestions,
+          setNumberOfQuestions,
+          setSelectedSubject
+        }} />
+      </main>
     </div>
   );
 };
+
 
 export default TeacherDashboard;

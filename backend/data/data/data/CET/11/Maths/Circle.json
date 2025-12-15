@@ -13,7 +13,8 @@
     ],
     "answer": "Center",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A circle is the set of all points in a plane which..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Radius",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The distance from the center of a circle to any po..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Diameter",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The longest chord of a circle is always the:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Tangent",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A line which touches a circle at exactly one point..."
   },
   {
     "id": 5,
@@ -76,7 +80,8 @@
     ],
     "answer": "90°",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The angle between the radius and the tangent at th..."
   },
   {
     "id": 6,
@@ -92,7 +97,8 @@
     ],
     "answer": "7 cm",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If the diameter of a circle is 14 cm, its radius i..."
   },
   {
     "id": 7,
@@ -108,7 +114,8 @@
     ],
     "answer": "\\pi r^2",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The area of a circle with radius r is:..."
   },
   {
     "id": 8,
@@ -124,7 +131,8 @@
     ],
     "answer": "2\\pi r",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The circumference of a circle with radius r is:..."
   },
   {
     "id": 9,
@@ -140,7 +148,8 @@
     ],
     "answer": "Chord",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The slope of the line $3x+5y+1=0$ is $m_1 = -\\frac..."
   },
   {
     "id": 10,
@@ -156,6 +165,7 @@
     ],
     "answer": "Four times",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If the radius of a circle is doubled, then its are..."
   }
 ]

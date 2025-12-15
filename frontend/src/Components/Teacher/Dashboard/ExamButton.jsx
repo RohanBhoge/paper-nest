@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ExamButton = ({ exam, handleExamClick }) => (
   <button
     onClick={() => handleExamClick(exam)}
@@ -9,4 +7,4 @@ const ExamButton = ({ exam, handleExamClick }) => (
   </button>
 );
 
-export default ExamButton;
+export default ExamButton; 

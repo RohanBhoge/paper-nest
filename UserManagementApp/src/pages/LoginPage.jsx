@@ -39,7 +39,7 @@ const LoginPage = () => {
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md transform transition-all duration-500 hover:scale-105">
         <div className="flex flex-col items-center mb-10">
           <BookOpen size={48} className="text-blue-600 mb-4" />
-          <h1 className="text-3xl font-bold text-blue-600">BISUGEN</h1>
+          <h1 className="text-3xl font-bold text-blue-600">PAPERNEST</h1>
         </div>
 
         <form onSubmit={handleLogin} className="space-y-7">

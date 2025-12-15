@@ -1,6 +1,21 @@
 import { ArrowLeft } from "lucide-react";
+import { useOutletContext, useNavigate } from "react-router-dom"; // Added useNavigate
+import { useEffect } from "react";
 
-const ExamClasses = ({ selectedExam, handleClassClick, setActiveSection }) => (
+const ExamClasses = () => {
+  const navigate = useNavigate();
+  const { selectedExam, handleClassClick, setActiveSection } = useOutletContext();
+
+  // 💡 Redirect if state is lost
+  useEffect(() => {
+    if (!selectedExam) {
+        navigate("/teacher-dashboard", { replace: true });
+    }
+  }, [selectedExam, navigate]);
+
+  if (!selectedExam) return null;
+
+  return (
   <div>
     <button
       onClick={() => setActiveSection("dashboard")}
@@ -39,5 +54,7 @@ const ExamClasses = ({ selectedExam, handleClassClick, setActiveSection }) => (
     </div>
   </div>
 );
+
+};
 
 export default ExamClasses;

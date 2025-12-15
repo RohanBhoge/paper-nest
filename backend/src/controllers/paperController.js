@@ -7,7 +7,7 @@ import {
 
 import {
   getPapersByUserId,
-  createNewPaperForUser,
+  storeNewPaperForUser,
   deletePapersForUser,
   getPaperByIdForUser,
 } from "../utils/helperFunctions.js";
@@ -136,7 +136,7 @@ const generatePaper = async (req, res) => {
       exam_name: String(params.exam || "").trim(),
       class: String(params.standard || "").trim() + " Grade",
       subject: String(params.subject || params.chapters?.[0] || "").trim(),
-      exam_date: new Date().toISOString().split("T")[0],
+      exam_date: params.exam_date,
       marks: totalMarks,
       paper_questions: paper_questions,
       paper_answers: paper_answers,
@@ -174,7 +174,7 @@ const storePaper = async (req, res) => {
   }
 
   try {
-    const dbInsertId = await createNewPaperForUser(userId, paperData);
+    const dbInsertId = await storeNewPaperForUser(userId, paperData);
 
     return res.status(201).json({
       success: true,
@@ -290,6 +290,7 @@ const getReplaceableQuestions = async (req, res) => {
           answer: q.answer ?? q.correctAnswer ?? "N/A",
           difficulty: q.difficulty,
           marks: q.marks || q.mark || 1,
+          solution: q.solution || "",
         });
         globalExclusionSet.add(`${q.chapter || "N/A"}::${q.id || "N/A"}`);
       });

@@ -13,7 +13,8 @@
     ],
     "answer": "The behavior of the function near a point",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The limit of a function represents:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Left-hand and right-hand limits are equal",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If lim (x → a) f(x) exists, then:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "1",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The limit of (sin x)/x as x approaches 0 is:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "0",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The limit of (1 - cos x)/x as x approaches 0 is:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "1",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The limit of (e^x - 1)/x as x approaches 0 is:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "13",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If f(x) = 5x + 3, then \\( \\lim_{x \\to 2} f(x) \\) e..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Direct substitution",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Indeterminate form '0/0' arises in:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "0",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of \\( \\lim_{x \\to \\infty} \\frac{1}{x} \\)..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "1",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The value of \\( \\lim_{x \\to 0} \\frac{\\tan x}{x} \\)..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Rationalization",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which method is commonly used to evaluate limits i..."
   }
 ]

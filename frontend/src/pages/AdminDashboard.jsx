@@ -16,7 +16,7 @@ const AdminDashboard1 = () => {
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 tracking-tight">
-                BISUGEN
+                PAPERNEST
               </h1>
               <p className="text-slate-500 text-sm mt-1 font-medium">Empowering Education Through Innovation</p>
             </div>
@@ -43,7 +43,7 @@ const AdminDashboard1 = () => {
                 Create and manage customized question papers effortlessly with advanced randomization and balance.
               </p>
               <button
-                onClick={() => navigate("/login-page")}
+                onClick={() => navigate("/teacher-dashboard")}
                 className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center gap-2"
               >
                 Open
@@ -52,7 +52,6 @@ const AdminDashboard1 = () => {
             </div>
           </div>
 
-          {/* Notes Card */}
           <div className="relative bg-white/95 backdrop-blur-xl border border-blue-200/30 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-500 p-8 group overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-blue-100/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <div className="absolute top-0 right-0 w-24 h-24 bg-blue-200/20 rounded-full blur-2xl group-hover:blur-xl transition-all duration-500"></div>
@@ -69,7 +68,7 @@ const AdminDashboard1 = () => {
                 Upload and share class notes with your students seamlessly, ensuring instant access and collaboration.
               </p>
               <button
-                onClick={() => navigate("/login-page")}
+                onClick={() => navigate("/notes-dashboard")}
                 className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center gap-2"
               >
                 Open

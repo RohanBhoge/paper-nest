@@ -11,7 +11,8 @@
     ],
     "answer": "Equal to rate of backward reaction",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: For a reversible reaction at equilibrium, the rate..."
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "Temperature",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The equilibrium constant (Kc) of a reaction depend..."
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "Shift equilibrium to right",
     "difficulty": "high",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: For the reaction: N2(g) + 3H2(g) ⇌ 2NH3(g), decrea..."
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "Backward direction",
     "difficulty": "high",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If Qc > Kc for a reaction, the system will shift i..."
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "3",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The pH of a 1 × 10⁻³ M HCl solution is:..."
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "([H⁺][A⁻])/[HA]",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: For a weak acid HA, the dissociation constant Ka i..."
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "CO₃²⁻",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The conjugate base of HCO₃⁻ is:..."
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "14",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: pH + pOH at 25°C is always equal to:..."
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "NH₄Cl",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which solution will have pH < 7?..."
   },
   {
     "id": 10,
@@ -137,6 +146,7 @@
     ],
     "answer": "Does not change equilibrium composition",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: When a catalyst is added to a reversible reaction ..."
   }
 ]

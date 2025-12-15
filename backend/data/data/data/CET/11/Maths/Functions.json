@@ -13,7 +13,8 @@
     ],
     "answer": "Each input has exactly one output",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A function is a relation in which:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Domain",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The set of all possible input values of a function..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Range",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The set of all possible output values of a functio..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "One-one",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If each element of the domain is mapped to a uniqu..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Onto",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If the range of a function is equal to the codomai..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Bijective function",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A function which is both one-one and onto is calle..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "4",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If f(x) = x², then f(-2) equals:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Real to Real",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If f(x) = 3x + 5, then domain and range of f are:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Bijective",
     "difficulty": "hard",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The inverse of a function exists only if the funct..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "x ≥ 0",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If f(x) = √x, the domain of the function is:..."
   }
 ]

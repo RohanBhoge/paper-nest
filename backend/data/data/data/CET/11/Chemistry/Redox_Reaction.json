@@ -13,7 +13,8 @@
     ],
     "answer": "Redox reaction",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A reaction in which oxidation and reduction occur ..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Loss of electrons",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Oxidation involves:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Gain of electrons",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Reduction involves:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Oxidizing agent",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The substance that gets reduced acts as:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Reducing agent",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The substance that gets oxidized acts as:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "-2",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Oxidation number of oxygen in most compounds is:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "+1",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Oxidation number of hydrogen in most compounds is:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Zn",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In the reaction: Zn + CuSO₄ → ZnSO₄ + Cu, which su..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Cu²⁺ (in CuSO₄)",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In the same reaction, which substance is reduced?..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Oxidation",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of increasing oxidation number is call..."
   }
 ]

@@ -10,7 +10,7 @@ import { pool } from "./config/mySQLConfig.js";
 import { paperRouter } from "./routes/paperRouter.js";
 import authRouter from "./routes/authRouter.js";
 import notificationRouter from "./routes/notificationRouter.js";
-import { ensureActiveColumnExists } from "./utils/helperFunctions.js";
+import { ensureUserColumnsExist } from "./utils/helperFunctions.js";
 
 dotenv.config();
 
@@ -64,7 +64,7 @@ app.get("*", (req, res) => {
 
 app.listen(port, async() =>{
   try {
-        await ensureActiveColumnExists(); 
+    await ensureUserColumnsExist(); 
         console.log("Database initialized successfully.");
     } catch (error) {
         console.error("Failed to initialize database schema. Check connection/permissions.");

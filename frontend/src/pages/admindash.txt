@@ -11,7 +11,7 @@ const AdminDashboard1 = () => {
         {/* Header */}
         <div className="flex items-center gap-3 mb-10">
           <BookOpen className="text-blue-600" size={32} />
-          <h1 className="text-3xl font-bold text-blue-600">BISUGEN</h1>
+          <h1 className="text-3xl font-bold text-blue-600">PAPERNEST</h1>
         </div>
 
         {/* Cards */}

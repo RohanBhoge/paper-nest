@@ -13,7 +13,8 @@
     ],
     "answer": "Drugs",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Chemicals used for the treatment of diseases are c..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Antiseptics",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Substances which prevent the growth of microorgani..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Antacids",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Substances used to neutralize excess acid in the s..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Antibiotic",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Penicillin is an example of:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Pain killer",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Aspirin is mainly used as a:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Antipyretics",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Drugs that reduce or relieve fever are called:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Non-living surfaces",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Disinfectants are used to kill microorganisms on:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Aspartame",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Artificial sweetener which is used in diabetic foo..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Chemical structure",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Detergents differ from soaps mainly in their:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Benzoic acid",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which chemical is commonly used as a preservative ..."
   }
 ]

@@ -13,7 +13,8 @@
     ],
     "answer": "1.5",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The speed of light in glass is 2 × 10^8 m/s. What ..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Concave lens",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following lenses is used to correct m..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "-5 D",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: If the focal length of a concave lens is 20 cm, wh..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Between F and 2F",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A real, inverted and highly enlarged image is form..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Dispersion",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which phenomenon explains the formation of a rainb..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Wavelength of light",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: In Young's double-slit experiment, fringe width is..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Diffraction",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The phenomenon of bending of light around corners ..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "1",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: What is the magnification produced by a plane mirr..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "90°",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Critical angle is the angle of incidence for which..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Refractive index",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The ratio of speed of light in vacuum to speed of ..."
   }
 ]

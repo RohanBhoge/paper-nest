@@ -13,7 +13,8 @@
     ],
     "answer": "C, H, O, N",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Biomolecules are primarily made up of which elemen..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Glucose",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is the simplest carbohydrat..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Amino acids",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Proteins are made up of repeating units of:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Nucleotides",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The building blocks of nucleic acids are:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Deoxyribose",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The sugar present in DNA is:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Starch",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a storage polysaccharide..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Lipids",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which biomolecule is the major component of cell m..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Proteins",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Enzymes are chemically:..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Vitamin C",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which vitamin is also known as ascorbic acid?..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Peptide bond",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The bond formed between two amino acids is called:..."
   }
 ]

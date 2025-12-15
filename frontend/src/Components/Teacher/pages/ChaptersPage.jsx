@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState, useCallback } from "react"; // 💡 Added useCallback
+import { useOutletContext, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { jsPDF } from "jspdf";
 import GeneratedTemplate from "../../Teacher/Dashboard/GeneratedTemplate.jsx";
@@ -27,32 +28,56 @@ function savePapersToService(arr) {
   }
 }
 
-const ChaptersPage = ({
-  selectedClass,
-  selectedExam,
-  selectedSubject,
-  chapters,
-  checkedChapters,
-  handleCheckboxChange,
-  mode,
-  numberOfQuestions,
-  setNumberOfQuestions,
-  setActiveSection,
-  setSelectedSubject,
-}) => {
+const ChaptersPage = () => {
+  const navigate = useNavigate();
+  const {
+      selectedClass,
+      selectedExam,
+      selectedSubject,
+      chapters,
+      checkedChapters,
+      handleCheckboxChange,
+      mode,
+      numberOfQuestions,
+      setNumberOfQuestions,
+      setActiveSection,
+      setSelectedSubject,
+    } = useOutletContext();
+
+  // 💡 Redirect if state is lost (e.g. on refresh)
+  useEffect(() => {
+    if (!selectedExam || !selectedClass || !selectedSubject) {
+        navigate("/teacher-dashboard/subjects", { replace: true });
+    }
+  }, [selectedExam, selectedClass, selectedSubject, navigate]);
+
+  if (!selectedExam || !selectedClass || !(selectedSubject || showTemplate)) { 
+      // Allow render if showTemplate is true (though likely subject is needed)
+      // Actually simpler: if critical context is missing, don't render.
+      if (!selectedExam || !selectedClass || !selectedSubject) return null;
+  }
+
   // Initialize state using props
   const [className, setClassName] = useState(selectedClass || "");
   const [examName, setExamName] = useState(selectedExam || "");
-  const [examDate, setExamDate] = useState("");
-  const [examDuration, setExamDuration] = useState("");
+
   const [totalMarks, setTotalMarks] = useState("");
 
   const [showTemplate, setShowTemplate] = useState(false);
   const [savedOnce, setSavedOnce] = useState(false);
-  const { setBackendPaperData, backendPaperData } = useContext(PaperContext);
+  const { 
+    setBackendPaperData, 
+    backendPaperData,
+    examDate,
+    setExamDate,
+    examDuration,
+    setExamDuration,
+    setPaperData,
+    marks, 
+  } = useContext(PaperContext);
 
-  const { paperData, setPaperData,marks,
-        setMarks } = useContext(PaperContext);
+  // const { paperData, setPaperData,marks,
+        // setMarks } = useContext(PaperContext);
   // const [backendPaperData, setBackendPaperData] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false); // 💡 New loading state
   const { adminAuthToken, BackendUrl } = useContext(AuthContext);
@@ -136,13 +161,13 @@ const ChaptersPage = ({
       class: className,
       exam: examName,
       subject: selectedSubject,
-      examDate: examDate,
+      examDate: examDate || new Date().toISOString().split("T")[0],
       examDuration: examDuration,
       totalMarks: totalMarks,
       count: numberOfQuestions || 20,
       chapters: chaptersArray,
     };
-
+console.log("today_date", new Date().toISOString().split("T")[0]);
     // 2. Call Backend API
     let generatedData = null;
     try {
@@ -338,7 +363,7 @@ const ChaptersPage = ({
                   value={totalMarks}
                   onChange={(e) => setTotalMarks(e.target.value)}
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="e.g. 100"
+                  placeholder={`e.g. 100`}
                 />
               </div>
             </div>

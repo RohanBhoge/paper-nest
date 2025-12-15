@@ -13,7 +13,8 @@
     ],
     "answer": "Longitudinal wave",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Sound is a form of which type of wave in air?..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Steel",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The speed of sound is maximum in:..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Hertz",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The unit of frequency is:..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "20 Hz to 20 kHz",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The range of audible sound for humans is approxima..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Amplitude",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which quantity determines the loudness of sound?..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Frequency increases",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: What happens to the frequency of sound when the so..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Greater than 20 kHz",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Ultrasonic waves have frequencies:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Period",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The time taken for one complete oscillation is cal..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Increase in temperature",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The speed of sound in air increases with:..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Decibel meter",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which device is used to measure the intensity leve..."
   }
 ]

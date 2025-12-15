@@ -1,7 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useOutletContext, useNavigate } from 'react-router-dom';
 import { Eye, Download, ArrowLeft, List, LayoutGrid } from 'lucide-react';
 
-const ChaptersPage = ({ selectedExam, selectedSubject, chapters, setActiveSection, openNotesModal }) => {
+const ChaptersPage = () => {
+  const navigate = useNavigate();
+  const { selectedExam, selectedSubject, chapters, setActiveSection, openNotesModal } = useOutletContext();
+
+  // 💡 Redirect if state is lost
+  useEffect(() => {
+    if (!selectedExam || !selectedSubject) {
+        navigate("/notes-dashboard/exam", { replace: true });
+    }
+  }, [selectedExam, selectedSubject, navigate]);
+
+  if (!selectedExam || !selectedSubject) return null;
 
   const [viewType, setViewType] = useState("grid");
 

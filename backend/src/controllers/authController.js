@@ -1,6 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
+
 import {
   createUser,
   getUserByEmail,
@@ -11,28 +12,90 @@ import {
   getAllUsers,
   toggleUserActivationStatus
 } from "../utils/helperFunctions.js";
-
+import { S3Client, GetObjectCommand, PutObjectCommand } from "@aws-sdk/client-s3";
+import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET || "change-me";
 const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || "8h";
 const SALT_ROUNDS = parseInt(process.env.BCRYPT_ROUNDS || "10", 10);
 
+const s3Client = new S3Client({
+  region: process.env.AWS_REGION,
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  },
+});
+
+const getObjectURL = (key) => {
+  const command = new GetObjectCommand({
+    Bucket: process.env.AWS_BUCKET_NAME,
+    Key: key,
+  });
+  const url = getSignedUrl(s3Client, command)
+  return url;
+}
 const register = async (req, res) => {
   try {
-    const { email, password, full_name } = req.body;
+    const { email, password, full_name, watermark, class_name } = req.body;
     if (!email || !password)
       return res.status(400).json({ error: "Email and password required" });
     const existing = await getUserByEmail(email);
     if (existing)
       return res.status(409).json({ error: "Email already registered" });
 
+    let logoKey = null;
+
+    if (req.file) {
+      const file = req.file;
+      const fileKey = `logos/${Date.now()}_${file.originalname}`;
+
+      console.log("------------------------------------------------");
+      console.log("STARTING S3 UPLOAD");
+      console.log("File:", file.originalname);
+      console.log("Size:", file.size);
+      console.log("Bucket:", process.env.AWS_BUCKET_NAME);
+      console.log("Key:", fileKey);
+
+      const params = {
+        Bucket: process.env.AWS_BUCKET_NAME,
+        Key: fileKey,
+        Body: file.buffer,
+        ContentType: file.mimetype,
+      };
+
+      try {
+        const command = new PutObjectCommand(params);
+        const s3Response = await s3Client.send(command);
+        console.log("S3 UPLOAD SUCCESS");
+        console.log("S3 Response Metadata:", s3Response.$metadata);
+        console.log("------------------------------------------------");
+        logoKey = fileKey;
+      } catch (s3Error) {
+        console.error("S3 UPLOAD FAILED");
+        console.error(s3Error);
+        console.log("------------------------------------------------");
+        // We continue without logo if upload fails, or you could throw error
+      }
+    }
+
     const hash = await bcrypt.hash(password, SALT_ROUNDS);
-    const userId = await createUser(email, hash, full_name || null);
+    // Pass logoKey to createUser
+    console.log("logoKey", logoKey);
+    const userId = await createUser(email, hash, full_name || null, watermark, logoKey);
 
     const token = jwt.sign({ sub: userId }, JWT_SECRET, {
       expiresIn: JWT_EXPIRES_IN,
     });
-    res.status(201).json({ token, user: { id: userId, email, full_name } });
+    res.status(201).json({
+      token,
+      user: {
+        id: userId,
+        email,
+        full_name,
+        logo: logoKey
+      }
+    });
   } catch (err) {
     console.error("Register error", err);
     res.status(500).json({ error: "Server error" });
@@ -161,8 +224,6 @@ const studentLogin = async (req, res) => {
   }
 };
 
-// We keep the original admin login function, but need a mechanism to call both.
-
 const adminLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -170,17 +231,28 @@ const adminLogin = async (req, res) => {
       return res.status(400).json({ error: "Email and password required" });
 
     const user = await getUserByEmail(email);
-    
+
+    console.log(user)
     if (!user)
       return res.status(404).json({ error: "User not found as admin" });
 
     if (user.is_active === 0 || user.is_active === false) {
-        console.log(`Deactivated user attempted login: ${email}`);
-        return res.status(401).json({ error: "Your account is currently deactivated." });
+      console.log(`Deactivated user attempted login: ${email}`);
+      return res.status(401).json({ error: "Your account is currently deactivated." });
     }
 
     const ok = await bcrypt.compare(password, user.password_hash);
     if (!ok) return res.status(401).json({ error: "Invalid password" });
+
+    // --- NEW LOGIC TO GENERATE S3 URL ---
+    let logoUrl = null;
+    const bucketName = process.env.AWS_BUCKET_NAME;
+    const region = process.env.AWS_REGION || 'YOUR_DEFAULT_REGION'; // Ensure region is set
+    console.log(user.logo, bucketName, region);
+    if (user.logo && bucketName) {
+      logoUrl = `https://${bucketName}.s3.${region}.amazonaws.com/logos/1765795969529_Designer.png`;
+    }
+    // ----------------------------------------
 
     const token = jwt.sign({ sub: user.id, role: "admin" }, JWT_SECRET, {
       expiresIn: JWT_EXPIRES_IN,
@@ -192,12 +264,13 @@ const adminLogin = async (req, res) => {
         email: user.email,
         full_name: user.full_name,
         role: "admin",
-      },
-    });
-  } catch (err) {
-    console.error("Admin Login error", err);
-    res.status(500).json({ error: "Server error" });
-  }
+        logo_url: logoUrl, // ADDED: Send the full URL to the frontend
+      },
+    });
+  } catch (err) {
+    console.error("Admin Login error", err);
+    res.status(500).json({ error: "Server error" });
+  }
 };
 
 const deleteUser = async (req, res) => {
@@ -241,7 +314,6 @@ const getAllUsersController = async (req, res) => {
   }
 };
 
-
 const handleToggleUserStatus = async (req, res) => {
     const { userId } = req.body; 
 
@@ -269,4 +341,6 @@ const handleToggleUserStatus = async (req, res) => {
 };
 
 
-export { register as adminRegister, adminLogin, studentRegister, studentLogin, deleteUser,getAllUsersController, handleToggleUserStatus };
+
+
+export { register as adminRegister, adminLogin, studentRegister, studentLogin, deleteUser, getAllUsersController, handleToggleUserStatus };

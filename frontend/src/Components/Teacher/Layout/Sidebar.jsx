@@ -25,7 +25,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen, activeSection, setActiveSect
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-3 text-blue-600">
           <BookOpen size={24} />
-          <span className="text-xl font-bold">BISUGEN</span>
+          <span className="text-xl font-bold">PAPERNEST</span>
         </div>
         <button onClick={() => setIsSidebarOpen(false)} className="md:hidden cursor-pointer text-slate-500 hover:text-slate-800">
           <X size={24} />

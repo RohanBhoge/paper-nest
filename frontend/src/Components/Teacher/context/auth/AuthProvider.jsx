@@ -8,12 +8,23 @@ const AuthProvider = (props) => {
       : null
   );
 
-  const BackendUrl = import.meta.env.VITE_BACKEND_URL || "https://notes-app-plum-three.vercel.app";
+  const [userClassName, setUserClassName] = useState(
+    localStorage.getItem("Class_Name")
+      ? localStorage.getItem("Class_Name")
+      : null
+  );
+
+  const [watermark, setWatermark] = useState(
+    localStorage.getItem("Watermark")
+      ? localStorage.getItem("Watermark")
+      : null
+  );
+  const BackendUrl = import.meta.env.VITE_BACKEND_URL;
 
   console.log(adminAuthToken);
   return (
     <AuthContext.Provider
-      value={{ adminAuthToken, setAdminAuthToken, BackendUrl }}
+      value={{ adminAuthToken, setAdminAuthToken, BackendUrl, userClassName, setUserClassName, watermark, setWatermark }}
     >
       {props.children}
     </AuthContext.Provider>

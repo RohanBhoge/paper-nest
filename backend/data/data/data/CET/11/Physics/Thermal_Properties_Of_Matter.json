@@ -13,7 +13,8 @@
     ],
     "answer": "Joule",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The SI unit of heat is:..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Temperature",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The quantity that remains constant in isothermal p..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Thermal expansion",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The increase in length of a rod due to heating is ..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Both solid and liquid",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: At 0°C, the state of water can be:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "Heat required to change solid to liquid at constant temperature",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The latent heat of fusion is defined as:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "J/°C",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The unit of heat capacity is:..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "4°C",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Water has maximum density at:..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Conduction",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process of heat transfer without any actual mo..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Radiation",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which heat transfer method does not require a medi..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Surface area is large",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A liquid evaporates faster when:..."
   }
 ]

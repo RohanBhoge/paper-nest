@@ -13,7 +13,8 @@
     ],
     "answer": "Adsorption",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The phenomenon of accumulation of molecules at the..."
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     ],
     "answer": "Adsorbent",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The substance whose surface adsorbs particles is k..."
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     ],
     "answer": "Adsorbate",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The substance that gets adsorbed on the surface is..."
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     ],
     "answer": "Heterogeneous system",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Colloids are examples of:..."
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     ],
     "answer": "10⁻⁹ to 10⁻⁷ m",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The size of colloidal particles lies between:..."
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     ],
     "answer": "Peptization",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The process used to convert a precipitate into a c..."
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     ],
     "answer": "Dialysis",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which of the following is a method to purify collo..."
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     ],
     "answer": "Tyndall effect",
     "difficulty": "easy",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: The scattering of light by colloidal particles is ..."
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     ],
     "answer": "Brownian motion",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: Which motion explains stability of colloids?..."
   },
   {
     "id": 10,
@@ -157,6 +166,7 @@
     ],
     "answer": "Emulsion",
     "difficulty": "medium",
-    "marks": 1
+    "marks": 1,
+    "solution": "This is a dummy solution for: A colloidal system where liquid is dispersed in an..."
   }
 ]
