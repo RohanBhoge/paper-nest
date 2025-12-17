@@ -93,7 +93,8 @@ const register = async (req, res) => {
         id: userId,
         email,
         full_name,
-        logo: logoKey
+        logo: logoKey,
+        watermark,
       }
     });
   } catch (err) {
