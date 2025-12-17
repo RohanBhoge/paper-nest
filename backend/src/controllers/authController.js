@@ -101,7 +101,6 @@ const register = async (req, res) => {
     });
     res.status(201).json({
       token,
-      file,
       user: {
         id: userId,
         email,
