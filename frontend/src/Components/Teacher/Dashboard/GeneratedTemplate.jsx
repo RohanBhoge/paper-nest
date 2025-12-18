@@ -91,7 +91,7 @@ import React, {
     examDuration: propExamDuration,
     onBack,
   }) => {
-    const { adminAuthToken, watermark,userClassName  } = useContext(AuthContext);
+    const { adminAuthToken, watermark,logo  } = useContext(AuthContext);
     const { exam, standards, subjects, setShowGenerateOptions, showGenerateOptions, backendPaperData, examDuration, setExamDuration } =
       useContext(PaperContext);
 
@@ -100,6 +100,7 @@ import React, {
 
     console.log("[DEBUG] Generated Paper Data (Prop):", backendPaperData); 
 
+    console.log("[DEBUG] Generated Paper Data (Prop):", logo); 
     const [useColumns, setUseColumns] = useState(true);
     const [viewMode, setViewMode] = useState("questions_only"); 
     const [paperStored, setPaperStored] = useState(false);
@@ -738,7 +739,7 @@ import React, {
     
           <div className="border border-black p-4">
             <div className="flex justify-between font-semibold text-[16px]">
-              <span>Class: {userClassName}</span>
+              <img src={logo} alt="Logo" className="h-13" /> 
 
               <span className="flex-1 text-center text-[19px] font-bold">
                 {finalExamName}

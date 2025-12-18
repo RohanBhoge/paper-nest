@@ -8,9 +8,9 @@ const AuthProvider = (props) => {
       : null
   );
 
-  const [userClassName, setUserClassName] = useState(
-    localStorage.getItem("Class_Name")
-      ? localStorage.getItem("Class_Name")
+  const [logo, setLogo] = useState(
+    localStorage.getItem("Logo")
+      ? localStorage.getItem("Logo")
       : null
   );
 
@@ -24,7 +24,7 @@ const AuthProvider = (props) => {
   console.log(adminAuthToken);
   return (
     <AuthContext.Provider
-      value={{ adminAuthToken, setAdminAuthToken, BackendUrl, userClassName, setUserClassName, watermark, setWatermark }}
+      value={{ adminAuthToken, setAdminAuthToken, BackendUrl, logo, setLogo, watermark, setWatermark }}
     >
       {props.children}
     </AuthContext.Provider>

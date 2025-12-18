@@ -1,16 +1,26 @@
-import express from "express";
+import express from 'express';
 import {
   createNotification,
   getAllNotifications,
-} from "../controllers/notificationController.js";
-import { requireAuth } from "../middleware/authMiddleware.js";
+} from '../controllers/notificationController.js';
+import { requireAuth } from '../middleware/authMiddleware.js';
 
 const notificationRouter = express.Router();
 
-notificationRouter.post("/store-notification", requireAuth, createNotification);
+/**
+ * Notification Routes
+ */
 
+// Create a new notification (Admin only)
+notificationRouter.post(
+  '/store-notification',
+  requireAuth,
+  createNotification
+);
+
+// Get all notifications for the user's organization
 notificationRouter.get(
-  "/getAll-notification",
+  '/getAll-notification',
   requireAuth,
   getAllNotifications
 );

@@ -354,16 +354,6 @@ console.log("today_date", new Date().toISOString().split("T")[0]);
                   min="1"
                 />
               </div>
-              <div>
-                <label className="font-medium">Total Marks</label>
-                <input
-                  type="number"
-                  value={totalMarks}
-                  onChange={(e) => setTotalMarks(e.target.value)}
-                  className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder={`e.g. 100`}
-                />
-              </div>
             </div>
           </div>
           {mode === "Random" && (

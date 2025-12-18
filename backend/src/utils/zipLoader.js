@@ -1,31 +1,37 @@
-import fs from "fs";
-import path from "path";
-import unzipper from "unzipper";
-import { fileURLToPath } from "url";
+import fs from 'fs';
+import path from 'path';
+import unzipper from 'unzipper';
+import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const ZIP_POSSIBLE_PATHS = [
-  path.join(__dirname, "..", "..", "data", "data.zip"),
-  path.join(__dirname, "..", "..", "data", "datazip"),
-  path.join(__dirname, "..", "..", "data", "datazip.zip"),
-  path.join(__dirname, "..", "..", "..", "data", "data.zip"),
-  path.join(__dirname, "..", "..", "..", "backend", "data", "data.zip"),
+  path.join(__dirname, '..', '..', 'data', 'data.zip'),
+  path.join(__dirname, '..', '..', 'data', 'datazip'),
+  path.join(__dirname, '..', '..', 'data', 'datazip.zip'),
+  path.join(__dirname, '..', '..', '..', 'data', 'data.zip'),
+  path.join(__dirname, '..', '..', '..', 'backend', 'data', 'data.zip'),
 ];
 
 let _zipCache = { timestamp: 0, questions: null, sourcePath: null };
 
+/**
+ * Normalizes a string key for comparison.
+ */
 function normalizeKey(s) {
-  if (s === null || s === undefined) return "";
+  if (s === null || s === undefined) return '';
   return String(s)
     .toLowerCase()
-    .replace(/[_\-\s]+/g, " ")
-    .replace(/[^\w\s]/g, " ")
-    .replace(/\s+/g, " ")
+    .replace(/[_\-\s]+/g, ' ')
+    .replace(/[^\w\s]/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
+/**
+ * Hash function for seeding.
+ */
 function xfnv1a(str) {
   let h = 2166136261 >>> 0;
   for (let i = 0; i < str.length; i++) {
@@ -34,6 +40,9 @@ function xfnv1a(str) {
   return () => (h += 0x6d2b79f5) >>> 0;
 }
 
+/**
+ * Mulberry32 random number generator.
+ */
 function mulberry32(a) {
   return function () {
     let t = (a += 0x6d2b79f5);
@@ -43,11 +52,14 @@ function mulberry32(a) {
   };
 }
 
+/**
+ * Finds the zip file index.
+ */
 function findZipPath() {
   for (const p of ZIP_POSSIBLE_PATHS) {
     try {
       if (fs.existsSync(p)) {
-        console.log("✅ Found ZIP file at path:", p);
+        console.log('✅ Found ZIP file at path:', p);
         return p;
       }
     } catch (e) {
@@ -55,11 +67,14 @@ function findZipPath() {
     }
   }
   console.log(
-    "❌ findZipPath failed: No valid zip file found in possible paths."
+    '❌ findZipPath failed: No valid zip file found in possible paths.'
   );
   return null;
 }
 
+/**
+ * Tries to parse JSON from text.
+ */
 function tryParseJsonText(raw) {
   if (!raw) return null;
   try {
@@ -86,10 +101,13 @@ function tryParseJsonText(raw) {
   }
 }
 
+/**
+ * Loads questions from the zip file.
+ */
 async function loadQuestionsFromZip({ force = false } = {}) {
   const zipPath = findZipPath();
   if (!zipPath)
-    return { ok: false, error: "Zip not found", zipPath: null, questions: [] };
+    return { ok: false, error: 'Zip not found', zipPath: null, questions: [] };
 
   const stat = fs.statSync(zipPath);
   const mtime = stat.mtimeMs || stat.mtime;
@@ -112,23 +130,23 @@ async function loadQuestionsFromZip({ force = false } = {}) {
       if (!f.path) return false;
       const p = String(f.path).toLowerCase();
       return (
-        p.endsWith(".json") ||
-        p.endsWith(".jsonl") ||
-        p.endsWith(".ndjson") ||
-        p.endsWith(".txt")
+        p.endsWith('.json') ||
+        p.endsWith('.jsonl') ||
+        p.endsWith('.ndjson') ||
+        p.endsWith('.txt')
       );
     });
 
     for (const entry of jsonEntries) {
       try {
         const buffer = await entry.buffer();
-        const parsed = tryParseJsonText(buffer.toString("utf8"));
+        const parsed = tryParseJsonText(buffer.toString('utf8'));
         if (!parsed) continue;
 
-        let entryPath = String(entry.path || "")
-          .replace(/\\/g, "/")
-          .replace(/^\/+/, "");
-        const parts = entryPath.split("/").filter(Boolean);
+        let entryPath = String(entry.path || '')
+          .replace(/\\/g, '/')
+          .replace(/^\/+/, '');
+        const parts = entryPath.split('/').filter(Boolean);
         const meta = { exam: null, standard: null, subject: null, entryPath };
 
         if (parts.length >= 4) {
@@ -159,7 +177,7 @@ async function loadQuestionsFromZip({ force = false } = {}) {
           if (arrVal) pushArray(arrVal);
         }
       } catch (err) {
-        console.warn("Failed parse entry", entry.path, err?.message || err);
+        console.warn('Failed parse entry', entry.path, err?.message || err);
       }
     }
 
@@ -182,95 +200,104 @@ async function loadQuestionsFromZip({ force = false } = {}) {
   }
 }
 
+/**
+ * Generates a random seed.
+ */
 function makeSeed() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 }
 
+/**
+ * Converts LaTeX to text.
+ */
 function latexToText(sIn) {
-  if (sIn == null) return "";
+  if (sIn == null) return '';
   let s = String(sIn);
 
   s = s
-    .replace(/^\$\$(.*)\$\$$/s, "$1")
-    .replace(/^\$(.*)\$$/s, "$1")
-    .replace(/^\\\((.*)\\\)$/s, "$1")
-    .replace(/^\\\[(.*)\\\]$/s, "$1");
-  s = s.replace(/\\text\s*\{([^}]*)\}/g, "$1");
+    .replace(/^\$\$(.*)\$\$$/s, '$1')
+    .replace(/^\$(.*)\$$/s, '$1')
+    .replace(/^\\\((.*)\\\)$/s, '$1')
+    .replace(/^\\\[(.*)\\\]$/s, '$1');
+  s = s.replace(/\\text\s*\{([^}]*)\}/g, '$1');
   s = s.replace(/\\vec\s*\{([A-Za-z])\}/g, (_, letter) => letter || letter);
   s = s
-    .replace(/\\pi\b/g, "π")
-    .replace(/\\theta\b/g, "θ")
-    .replace(/\\alpha\b/g, "α")
-    .replace(/\\beta\b/g, "β");
+    .replace(/\\pi\b/g, 'π')
+    .replace(/\\theta\b/g, 'θ')
+    .replace(/\\alpha\b/g, 'α')
+    .replace(/\\beta\b/g, 'β');
   s = s
-    .replace(/\\times\b/g, "×")
-    .replace(/\\cdot\b/g, "·")
-    .replace(/\\pm\b/g, "±")
-    .replace(/\\,/g, " ");
+    .replace(/\\times\b/g, '×')
+    .replace(/\\cdot\b/g, '·')
+    .replace(/\\pm\b/g, '±')
+    .replace(/\\,/g, ' ');
   s = s.replace(/\\sqrt\s*\{([^}]*)\}/g, (m, p) => `√${p}`);
   const fracRe = /\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/;
-  while (fracRe.test(s)) s = s.replace(fracRe, "$1/$2");
-  s = s.replace(/\^\{?\\circ\}?/g, "°").replace(/\\deg\b/g, "°");
+  while (fracRe.test(s)) s = s.replace(fracRe, '$1/$2');
+  s = s.replace(/\^\{?\\circ\}?/g, '°').replace(/\\deg\b/g, '°');
   s = s.replace(/\^\{(-?\d+)\}/g, (_, digits) =>
     digits
-      .split("")
+      .split('')
       .map(
         (ch) =>
         ({
-          0: "⁰",
-          1: "¹",
-          2: "²",
-          3: "³",
-          4: "⁴",
-          5: "⁵",
-          6: "⁶",
-          7: "⁷",
-          8: "⁸",
-          9: "⁹",
-          "-": "⁻",
+          0: '⁰',
+          1: '¹',
+          2: '²',
+          3: '³',
+          4: '⁴',
+          5: '⁵',
+          6: '⁶',
+          7: '⁷',
+          8: '⁸',
+          9: '⁹',
+          '-': '⁻',
         }[ch] || ch)
       )
-      .join("")
+      .join('')
   );
   s = s.replace(
     /\^(-?\d)/g,
     (_, n) =>
     ({
-      0: "⁰",
-      1: "¹",
-      2: "²",
-      3: "³",
-      4: "⁴",
-      5: "⁵",
-      6: "⁶",
-      7: "⁷",
-      8: "⁸",
-      9: "⁹",
-      "-": "⁻",
+      0: '⁰',
+      1: '¹',
+      2: '²',
+      3: '³',
+      4: '⁴',
+      5: '⁵',
+      6: '⁶',
+      7: '⁷',
+      8: '⁸',
+      9: '⁹',
+      '-': '⁻',
     }[n] || `^${n}`)
   );
   s = s.replace(
     /_([0-9])/g,
     (_, n) =>
     ({
-      0: "₀",
-      1: "₁",
-      2: "₂",
-      3: "₃",
-      4: "₄",
-      5: "₅",
-      6: "₆",
-      7: "₇",
-      8: "₈",
-      9: "₉",
+      0: '₀',
+      1: '₁',
+      2: '₂',
+      3: '₃',
+      4: '₄',
+      5: '₅',
+      6: '₆',
+      7: '₇',
+      8: '₈',
+      9: '₉',
     }[n] || `_${n}`)
   );
-  s = s.replace(/\\(cos|sin|tan|log|ln|sec|cosec|cot)\b/g, "$1");
-  s = s.replace(/\\([a-zA-Z]+)/g, "$1");
-  s = s.replace(/[{}]/g, "").replace(/\s+/g, " ").trim();
+  s = s.replace(/\\(cos|sin|tan|log|ln|sec|cosec|cot)\b/g, '$1');
+  s = s.replace(/\\([a-zA-Z]+)/g, '$1');
+  s = s.replace(/[{}]/g, '').replace(/\s+/g, ' ').trim();
   return s;
 }
 
+/**
+ * Checks if a question matches the filters.
+ */
 function matchesFiltersObj(q, { exam, standardArr, subjectArr, chaptersArr }) {
   const nExamFilter = normalizeKey(exam);
 
@@ -282,15 +309,15 @@ function matchesFiltersObj(q, { exam, standardArr, subjectArr, chaptersArr }) {
     : [];
 
   const qExam = normalizeKey(
-    q.exam ?? q.exam_name ?? (q._meta && q._meta.exam) ?? ""
+    q.exam ?? q.exam_name ?? (q._meta && q._meta.exam) ?? ''
   );
   const qStd = normalizeKey(
-    q.standard ?? q.class ?? (q._meta && q._meta.standard) ?? ""
+    q.standard ?? q.class ?? (q._meta && q._meta.standard) ?? ''
   );
   const qSubj = normalizeKey(
     q._meta && q._meta.subject
       ? q._meta.subject
-      : q.subject ?? q.chapter ?? q.topic ?? ""
+      : q.subject ?? q.chapter ?? q.topic ?? ''
   );
   if (
     nExamFilter &&
@@ -316,7 +343,7 @@ function matchesFiltersObj(q, { exam, standardArr, subjectArr, chaptersArr }) {
   if (Array.isArray(chaptersArr) && chaptersArr.length > 0) {
     const normFilters = chaptersArr.map((c) => normalizeKey(c)).filter(Boolean);
     const qch = normalizeKey(
-      q.chapter ?? q.chapter_name ?? (q._meta && q._meta.entryPath) ?? ""
+      q.chapter ?? q.chapter_name ?? (q._meta && q._meta.entryPath) ?? ''
     );
     const isChapterMatch = normFilters.some(
       (f) => qch.includes(f) || f.includes(qch)
@@ -327,8 +354,11 @@ function matchesFiltersObj(q, { exam, standardArr, subjectArr, chaptersArr }) {
   return true;
 }
 
+/**
+ * Shuffles an array using a seeded random number generator.
+ */
 function seededShuffle(array, seedStr) {
-  const seedFn = xfnv1a(seedStr || "default")();
+  const seedFn = xfnv1a(seedStr || 'default')();
   const rand = mulberry32(seedFn);
   const arr = array.slice();
   for (let i = arr.length - 1; i > 0; i--) {
@@ -337,6 +367,7 @@ function seededShuffle(array, seedStr) {
   }
   return arr;
 }
+
 export {
   makeSeed,
   latexToText,

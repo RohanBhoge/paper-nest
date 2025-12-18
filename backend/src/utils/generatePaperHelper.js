@@ -4,12 +4,15 @@ import {
   seededShuffle,
   latexToText,
   makeSeed,
-} from "./zipLoader.js";
+} from './zipLoader.js';
 
+/**
+ * Handles error responses.
+ */
 const handleError = (err, status, res) => {
   console.error(`[Controller] 🚨 Error ${status} (${res.req.url}):`, err);
   const errorMessage =
-    typeof err === "string" ? err : err.message || "Server error";
+    typeof err === 'string' ? err : err.message || 'Server error';
 
   res.status(status).json({
     error: errorMessage,
@@ -18,32 +21,38 @@ const handleError = (err, status, res) => {
   });
 };
 
+/**
+ * Generates a unique paper ID.
+ */
 function generatePaperId(exam, standard) {
-  const examCode = String(exam || "EX")
+  const examCode = String(exam || 'EX')
     .toUpperCase()
     .slice(0, 3)
-    .padEnd(3, "X");
+    .padEnd(3, 'X');
 
   const year = new Date().getFullYear();
-  const stdCode = String(standard || "XX").slice(0, 2);
-  const serial = String(Math.floor(Math.random() * 999) + 1).padStart(3, "0");
+  const stdCode = String(standard || 'XX').slice(0, 2);
+  const serial = String(Math.floor(Math.random() * 999) + 1).padStart(3, '0');
 
   return `${examCode}-${year}-${stdCode}-${serial}`;
 }
 
+/**
+ * Formats selected questions into paper content.
+ */
 function formatPaperContent(selectedQuestions) {
-  let paperQuestions = "";
-  let paperAnswers = "";
+  let paperQuestions = '';
+  let paperAnswers = '';
   let questionList = [];
 
   for (let i = 0; i < selectedQuestions.length; i++) {
     const q = selectedQuestions[i];
     const qNo = i + 1;
     const qText = latexToText(
-      q.question ?? q.text ?? q.question_latex ?? "(No Question Text)"
+      q.question ?? q.text ?? q.question_latex ?? '(No Question Text)'
     );
     const qAnswer = latexToText(
-      q.answer ?? q.answerText ?? q.correct ?? q.correctAnswer ?? "(No Answer)"
+      q.answer ?? q.answerText ?? q.correct ?? q.correctAnswer ?? '(No Answer)'
     );
 
     questionList.push({
@@ -54,17 +63,17 @@ function formatPaperContent(selectedQuestions) {
       id: q.id,
       chapter: q.chapter ?? q._meta?.entryPath,
       marks: Number(q.marks ?? q.mark ?? 1) || 0,
-      solution: q.solution || "",
+      solution: q.solution || '',
     });
 
     paperQuestions += `Q${qNo}: ${qText}`;
     if (i < selectedQuestions.length - 1) {
-      paperQuestions += " | ";
+      paperQuestions += ' | ';
     }
 
     paperAnswers += `A${qNo}: ${qAnswer}`;
     if (i < selectedQuestions.length - 1) {
-      paperAnswers += " | ";
+      paperAnswers += ' | ';
     }
   }
 
@@ -75,6 +84,9 @@ function formatPaperContent(selectedQuestions) {
   };
 }
 
+/**
+ * Selects questions based on criteria.
+ */
 async function selectQuestions(params) {
   const {
     exam,
@@ -88,22 +100,22 @@ async function selectQuestions(params) {
 
   const standardsArr = Array.isArray(standard)
     ? standard.map((s) => String(s).trim())
-    : String(standard || "")
-        .split(",")
+    : String(standard || '')
+      .split(',')
         .map((s) => s.trim())
         .filter(Boolean);
 
   const subjectsArr = Array.isArray(subject)
     ? subject.map((s) => String(s).trim())
-    : String(subject || "")
-        .split(",")
+    : String(subject || '')
+      .split(',')
         .map((s) => s.trim())
         .filter(Boolean);
 
   const chaptersArr = Array.isArray(chapters)
     ? chapters.map(String).filter(Boolean)
-    : String(chapters || "")
-        .split(",")
+    : String(chapters || '')
+      .split(',')
         .map((s) => s.trim())
         .filter(Boolean);
   const zipRes = await loadQuestionsFromZip();
@@ -125,14 +137,14 @@ async function selectQuestions(params) {
   );
 
   if (filtered.length === 0) {
-    const filterError = new Error("No questions found matching the criteria.");
+    const filterError = new Error('No questions found matching the criteria.');
     filterError.status = 404;
     throw filterError;
   }
 
   const actualSeed = seed || makeSeed();
   let selected;
-  const fixedBool = String(fixed).toLowerCase() === "true" || fixed === true;
+  const fixedBool = String(fixed).toLowerCase() === 'true' || fixed === true;
   const countNum = Number(count);
 
   if (fixedBool && chaptersArr.length > 0) {
@@ -149,7 +161,7 @@ async function selectQuestions(params) {
     ok: true,
     selected,
     seed: actualSeed,
-    zipPath: zipRes.zipPath || "",
+    zipPath: zipRes.zipPath || '',
   };
 }
 

@@ -23,6 +23,7 @@ import ExamSelection from "./Components/Notes/Exam/ExamSelection.jsx";
 import NotesChaptersPage from "./Components/Notes/Chapters/ChaptersPage.jsx";
 import GeneratedTemplate from "./Components/Teacher/Dashboard/GeneratedTemplate.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
+import ContactPage from "./Components/contactUs.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -53,6 +54,7 @@ createRoot(document.getElementById("root")).render(
             
             {/* <Route path="/test" element={<OmrIntegratedPage />} /> */}
             <Route path="/paper-view" element={<GeneratedTemplate />} />
+            <Route path="/contact-us" element={<ContactPage />} />
           </Routes>
         </PaperProvider>
       </AuthProvider>

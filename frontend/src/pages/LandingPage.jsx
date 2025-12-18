@@ -15,22 +15,8 @@ const LandingPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
 
-  // 💡 Auto-redirect if already logged in
-  React.useEffect(() => {
-    const token = localStorage.getItem("Admin_Token");
-    const role = localStorage.getItem("User_Role");
-
-    if (token) {
-      // Prevent landing page flash for logged-in users
-      if (role === "admin") {
-        navigate("/admin-dashboard", { replace: true });
-      } else if (role === "teacher") {
-        navigate("/teacher-dashboard", { replace: true });
-      } else {
-        navigate("/notes-dashboard", { replace: true });
-      }
-    }
-  }, [navigate]);
+  // 💡 Auto-redirect logic removed to allow access to Landing Page. 
+  // User can manually navigate to dashboard via Login button or new Dashboard button if we add one.
 
   const handleFeature = () => {
     const featuresSection = document.getElementById("features");
@@ -52,7 +38,7 @@ const LandingPage = () => {
       {/* NAVBAR */}
       <header className="w-full bg-white shadow-lg rounded-b-3xl sticky top-0 z-50">
         <nav className="max-w-7xl mx-auto flex justify-between items-center py-6 px-8">
-          <h1 className="text-3xl font-extrabold text-[#003D99] tracking-tight">
+          <h1 className="text-3xl font-extrabold text-[#003D99] tracking-tight" onClick={()=>navigate("/")}>
             PAPERNEST
           </h1>
 
@@ -341,7 +327,7 @@ const LandingPage = () => {
               Your one-stop platform for all study materials and exam prep.
             </p>
             <button className="flex items-center bg-blue-600 text-white font-bold px-8 py-3 rounded-full hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
-            onClick={() => navigate("/login-page")}>
+            onClick={() => navigate("/login-page", { state: { role: "student" } })}>
               Start Studying <ArrowRight size={20} className="ml-2" />
             </button>
           </div>
@@ -360,7 +346,8 @@ const LandingPage = () => {
           <p className="text-2xl text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed">
             Reach out to us, we're here to help you succeed.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-14 py-5 rounded-full text-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-14 py-5 rounded-full text-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105"
+          onClick={() => navigate("/contact-us")}>
             Contact Us
           </button>
         </div>

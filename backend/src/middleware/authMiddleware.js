@@ -8,7 +8,7 @@ if (!JWT_SECRET) console.warn("Warning: JWT_SECRET not set in environment.");
 export function requireAuth(req, res, next) {
   try {
     const authHeader = req.headers.authorization || req.headers.Authorization;
-    console.log("Auth Header:", authHeader);
+
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       return res.status(401).json({ error: "Missing Authorization header" });
     }

@@ -1,3 +1,6 @@
+import { Router } from 'express';
+import multer from 'multer';
+
 import {
   adminRegister,
   adminLogin,
@@ -5,10 +8,8 @@ import {
   studentLogin,
   deleteUser,
   getAllUsersController,
-  handleToggleUserStatus
-} from "../controllers/authController.js";
-import { Router } from "express";
-import multer from "multer";
+  handleToggleUserStatus,
+} from '../controllers/authController.js';
 
 const storage = multer.memoryStorage();
 const upload = multer({
@@ -18,14 +19,31 @@ const upload = multer({
 
 const router = Router();
 
-// Admin routes
-router.post("/register", upload.single('logo'), adminRegister);
-router.post("/login", adminLogin);
-router.delete("/delete-user", deleteUser);
-router.get("/get-users", getAllUsersController);
-router.post("/deactivate-user", handleToggleUserStatus);
-// Student routes
-router.post("/register/student", studentRegister);
-router.post("/login/student", studentLogin);
+/**
+ * Admin Routes
+ */
+// Register new admin with optional logo upload
+router.post('/register', upload.single('logo'), adminRegister);
+
+// Admin login
+router.post('/login', adminLogin);
+
+// Delete user by email
+router.delete('/delete-user', deleteUser);
+
+// Get all users
+router.get('/get-users', getAllUsersController);
+
+// Toggle user activation status
+router.post('/deactivate-user', handleToggleUserStatus);
+
+/**
+ * Student Routes
+ */
+// Register new student under an organization
+router.post('/register/student', studentRegister);
+
+// Student login
+router.post('/login/student', studentLogin);
 
 export default router;

@@ -12,7 +12,7 @@ const LoginPage = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
-  const { BackendUrl, setAdminAuthToken, setClassName, setWatermark } = useContext(AuthContext);
+  const { BackendUrl, setAdminAuthToken, setLogo, setWatermark } = useContext(AuthContext);
 
   // 💡 Auto-redirect if already logged in
   React.useEffect(() => {
@@ -43,11 +43,13 @@ const LoginPage = () => {
         password: userPassword,
       });
 
-      return response.data; // Expected: token + user object
+      console.log("login response", response.data);
+      return response.data;
     } catch (err) {
       if (err.response) {
-        navigate("/notes-dashboard");
+        // Do NOT redirect on error. Stay on page to show error.
         setError(
+          err.response.data.error || 
           err.response.data.message ||
           "Login failed. Please check your credentials."
         );
@@ -66,8 +68,19 @@ const LoginPage = () => {
   
   const handleLogin = async (e) => {
     e.preventDefault();
+    
+    // 💡 HARDCODED STUDENT LOGIN (Bypass Backend)
+    if (email === "student@gmail.com" && password === "student123") {
+      const mockToken = "mock-student-token-123";
+      localStorage.setItem("Admin_Token", mockToken);
+      localStorage.setItem("User_Role", "student");
+      setAdminAuthToken(mockToken);
+      navigate("/notes-dashboard");
+      return;
+    }
 
     const userData = await loginUser(email, password);
+    console.log("userData", userData);
     
     if (!userData) return; // Stop if login failed
     
@@ -79,9 +92,9 @@ const LoginPage = () => {
     
     // 💡 NEW: Save Class Name and Watermark
     if (userData.user) {
-        if (userData.user.class_name) {
+        if (userData.user.logo_url) {
             localStorage.setItem("Class_Name", userData.user.class_name);
-            setClassName(userData.user.class_name);
+            setLogo(userData.user.logo_url);
         }
         if (userData.user.watermark) {
             localStorage.setItem("Watermark", userData.user.watermark);
