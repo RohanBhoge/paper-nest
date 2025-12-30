@@ -261,15 +261,15 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   };
 
   return (
-    <div className="bg-white rounded-xl p-8 lg:p-10 shadow-sm border border-slate-200 w-full">
+    <div className="bg-white rounded-xl p-4 md:p-8 lg:p-10 shadow-sm border border-slate-200 w-full transition-all duration-300">
       {activeView === "history" && (
         <>
-          <div className="flex items-start justify-between gap-4 mb-4">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6">
             <h1 className="text-2xl lg:text-3xl font-bold text-slate-900">
               Paper History
             </h1>
 
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2 w-full md:w-auto justify-start md:justify-end">
               {/* 💡 NEW Select All/Cancel Button */}
               {deleteMode && (
                 <button
@@ -286,7 +286,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
                 placeholder="Search..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="border border-slate-300 rounded-md px-3 py-2 text-sm w-48 focus:ring-2 focus:ring-slate-400 outline-none"
+                className="border border-slate-300 rounded-md px-3 py-2 text-sm w-full md:w-48 focus:ring-2 focus:ring-slate-400 outline-none"
               />
 
               <button
@@ -330,7 +330,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
             </div>
           )}
 
-          <div className="overflow-hidden  rounded-lg border border-slate-200">
+          <div className="overflow-x-auto rounded-lg border border-slate-200 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <table className="w-full border-collapse text-left">
               <thead className="bg-slate-100 text-slate-700 text-sm">
                 <tr>
@@ -344,7 +344,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
                   <th className="py-3 px-4">Paper ID</th>
                   <th className="py-3 px-4">Status</th>
                   <th className="py-3 px-4">Check</th>
-                  <th className="py-3 px-4">View</th>
+                  <th className="py-3 px-4 min-w-[100px] text-center">View</th>
                 </tr>
               </thead>
 

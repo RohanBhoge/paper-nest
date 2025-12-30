@@ -1,172 +1,1656 @@
 [
   {
     "id": 1,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The SI unit of amount of substance is:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A bivalent metal has an equivalent mass of 32. The molecular mass of the metal nitrate is",
+    "question_latex": "A bivalent metal has an equivalent mass of 32. The molecular mass of the metal nitrate is",
     "image_url": "",
     "options": [
-      "Kilogram",
-      "Mole",
-      "Liter",
-      "Gram"
+      "182",
+      "168",
+      "192",
+      "188"
     ],
-    "answer": "Mole",
+    "answer": "188",
+    "solution": "\\text{(d) Atomic mass of the metal} = 32 \\times 2 = 64 \\newline \\text{Formula of metal nitrate} = M(NO_3)_2 \\newline \\text{Molecular mass} = 64 + 28 + 96 = 188",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The SI unit of amount of substance is:..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 2,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The number of particles in one mole is known as:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What amount of calcium oxide will be produced by decomposition of 10 g calcium carbonate?",
+    "question_latex": "What amount of calcium oxide will be produced by decomposition of 10 g calcium carbonate?",
     "image_url": "",
     "options": [
-      "Planck’s constant",
-      "Avogadro number",
-      "Boltzmann constant",
-      "Faraday constant"
+      "5.6 g",
+      "2.8 g",
+      "10.0 g",
+      "4.4 g"
     ],
-    "answer": "Avogadro number",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The number of particles in one mole is known as:..."
+    "answer": "5.6 g",
+    "solution": "CaCO_3 \\rightarrow CaO + CO_2 \\newline \\frac{100 g}{56 g} \\newline \\text{10 g of calcium carbonate produces 5.6 g of calcium oxide.}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 3,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The value of Avogadro number is approximately:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which of the following species has highest mass?",
+    "question_latex": "Which of the following species has highest mass?",
     "image_url": "",
     "options": [
-      "6.022 × 10^20",
-      "6.022 × 10^23",
-      "6.022 × 10^18",
-      "6.022 × 10^26"
+      "\\frac{1}{2} mole \\text{ of } CH_4",
+      "10 \\text{ mL of water at room temperature}",
+      "3.011 \\times 10^{23} \\text{ atoms of oxygen (O)}",
+      "1 \\text{ mole of carbon atom}"
     ],
-    "answer": "6.022 × 10^23",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The value of Avogadro number is approximately:..."
+    "answer": "1 \\text{ mole of carbon atom}",
+    "solution": "\\text{(d) (A) } 1 \\text{ mL of } H_2O \\text{ contains 1 g weight .: } 10 \\text{ mL of } H_2O = 10 \\text{ g}\\newline (B) 1 \\text{ mole of } CH_4 = 16 \\text{ g}\\newline \\text{(C) 3.011} \\times 10^{23} \\text{ atoms of O = 8 g}\\newline \\text{Option (d) contains highest mass.}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 4,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The mass of one mole of a substance is called:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which one of the following has maximum number of atoms of oxygen?",
+    "question_latex": "Which one of the following has maximum number of atoms of oxygen?",
     "image_url": "",
     "options": [
-      "Molar volume",
-      "Molar mass",
-      "Molecular weight",
-      "Atomic number"
+      "2 g of carbon monoxide",
+      "2 g of carbon dioxide",
+      "2 g of sulphuri dioxide",
+      "2 g of water"
     ],
-    "answer": "Molar mass",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The mass of one mole of a substance is called:..."
+    "answer": "2 g of water",
+    "solution": "\\text{(d) Number of oxygen atom in 2 g of CO} = \\frac{2}{28} \\times 6.022 \\times 10^{23} \\times 1\\newline \\text{Number of oxygen atom in 2 g of } CO_2 = \\frac{2}{44} \\times 6.022 \\times 10^{23} \\times 2\\newline \\text{Number of oxygen atom in 2 g of } SO_2 = \\frac{2}{64} \\times 6.022 \\times 10^{23} \\times 2\\newline \\text{Number of oxygen atom in 2 g of } H_2O = \\frac{2}{18} \\times 6.022 \\times 10^{23} \\times 1\\newline \\text{2 g of } H_2O \\text{ has maximum number of atoms of oxygen.}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 5,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "1 mole of any gas at STP occupies a volume of:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Equivalent weight of a bivalent metal is 37.2. The molecular weight of its chloride is",
+    "question_latex": "Equivalent weight of a bivalent metal is 37.2. The molecular weight of its chloride is",
     "image_url": "",
     "options": [
-      "11.2 L",
-      "22.4 L",
-      "44.8 L",
-      "1 L"
+      "412.2",
+      "216",
+      "145.4",
+      "108.2"
     ],
-    "answer": "22.4 L",
+    "answer": "145.4",
+    "solution": "\\text{(c) Equivalent weight of bivalent metal}=37.2\\newline\\text{Atomic weight of metal}=37.2 \\, \\times 2 = 74.4\\newline\\text{Formula of chloride}=MCl_2\\newline\\text{Molecular weight of chloride}\\newline MCl_2 = 74.4 + 2 \\times 35.5\\newline = 145.4",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: 1 mole of any gas at STP occupies a volume of:..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 6,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The ratio of mass of solute to mass of solution multiplied by 100 is called:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "2.0 g of metal burnt in oxygen to form 3.2 g of its oxide. 1.42 g of same metal heated in steam to form 2.27 g of its oxide. Which law is verified by this data?",
+    "question_latex": "2.0 \\text{ g of metal burnt in oxygen to form } 3.2 \\text{ g of its oxide}. 1.42 \\text{ g of same metal heated in steam to form } 2.27 \\text{ g of its oxide}. \\text{ Which law is verified by this data?}",
     "image_url": "",
     "options": [
-      "Molarity",
-      "Molality",
-      "Mass percentage",
-      "Normality"
+      "Law of definite proportion",
+      "Law of multiple proportion",
+      "Avogadro's law",
+      "Law of conservation of mass"
     ],
-    "answer": "Mass percentage",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The ratio of mass of solute to mass of solution mu..."
+    "answer": "Law of definite proportion",
+    "solution": "(a)\\newline\\text{Mass of oxygen in first reaction} = \\text{Mass of oxide - Mass of metal}\\newline = 3.2 - 2 = 1.2 \\newline\\text{Ratio of metal to oxygen} = 2 : 1.2 = 5 : 3 \\newline\\text{Mass of oxygen in second reaction} \\newline\\text{Mass of oxide - Mass of metal} \\newline = 2.27 - 1.42 = 0.85 \\newline\\text{Ratio of metal to oxygen} = \\text{1.42 : 0.85}\\newline = 5 : 3 \\newline \\text{Thus it verifies the Law of definite proportion.}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 7,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The molecular formula gives:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "276 g of silver carbonate on being strongly heated yields a residue weighing",
+    "question_latex": "276 \\text{ g of silver carbonate on being strongly heated yields a residue weighing}",
     "image_url": "",
     "options": [
-      "Simplest ratio of atoms",
-      "Actual number of atoms in a molecule",
-      "Number of isotopes present",
-      "Only total mass"
+      "3.54 g",
+      "3.0 g",
+      "1.36 g",
+      "2.16 g"
     ],
-    "answer": "Actual number of atoms in a molecule",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The molecular formula gives:..."
+    "answer": "2.16 g",
+    "solution": "\\text{(d)} \\newline\\text{Ag}_2CO_3 \\rightarrow 2Ag + CO_2 + \\frac{1}{2}O_2\\newline\\text{As 276 g of } \\text{Ag}_2CO_3 \\text{ will give } \\newline 2\\text{16g of } Ag \\text{So,} \\newline 2.76 \\text{ g of } \\text{Ag}_2CO_3 \\text{ will give } \\frac{2.76\\times 2\\text{16}}{276}\\newline = 2.16 \\text{ g}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 8,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The simplest whole number ratio of atoms in a compound is called:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Number of gram atoms of an element present in one atom of the element is",
+    "question_latex": "\\text{Number of gram atoms of an element present in one atom of the element is}",
     "image_url": "",
     "options": [
-      "Empirical formula",
-      "Molecular formula",
-      "Structural formula",
-      "General formula"
+      "1.66 \\times 10^{-23}",
+      "6.022 \\times 10^{23}",
+      "1.66 \\times 10^{-24}",
+      "6.022 \\times 10^{22}"
     ],
-    "answer": "Empirical formula",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The simplest whole number ratio of atoms in a comp..."
+    "answer": "1.66 \\times 10^{-24}",
+    "solution": "(c)",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 9,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The law which states that mass cannot be created or destroyed in a reaction is:",
-    "question_latex": "",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the volume occupied by 24 g methane gas at STP?",
+    "question_latex": "\\text{What is the volume occupied by 24 g methane gas at STP?}",
+    "image_url": "",
+    "options": [
+      "33.6 \\text{dm}^3",
+      "44.8 \\text{dm}^3",
+      "22.4 \\text{dm}^3",
+      "67.2 \\text{dm}^3"
+    ],
+    "answer": "33.6 \\text{dm}^3",
+    "solution": "(a)\\newline\\text{Molar mass of }CH_4 = 16 \\, \\text{g mol}^{-1}\\newline 16 \\, \\text{g of } CH_4 = 22.4 \\text{dm}^3 \\text{ at STP}\\newline\\therefore 24 \\, \\text{g of } CH_4 = \\frac{22.4\\times24}{16} = 33.6 \\, \\text{dm}^3",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 10,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Pure samples of copper carbonate synthesized in laboratory and found naturally if both contains 51.35% copper, 38.91% carbon and 9.74% oxygen by weight. This is in accordance with",
+    "question_latex": "\\text{Pure samples of copper carbonate synthesized in laboratory and found naturally if both contains } 51.35\\% \\text{ copper}, 38.91\\% \\text{ carbon and } 9.74 \\% \\text{ oxygen by weight. This is in accordance with}",
     "image_url": "",
     "options": [
       "Law of definite proportion",
       "Law of conservation of mass",
       "Law of multiple proportion",
-      "Avogadro's law"
+      "Law of combining volumes"
     ],
-    "answer": "Law of conservation of mass",
+    "answer": "Law of definite proportion",
+    "solution": "(a)",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The law which states that mass cannot be created o..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
-    "id": 10,
-    "chapter": "Some_Basic_Concepts_Of_Chemistry",
-    "question": "The amount of substance present in 12 g of carbon-12 isotope is:",
-    "question_latex": "",
+    "id": 11,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the number of moles present in 1 m^3 of any gas at STP?",
+    "question_latex": "\\text{What is the number of moles present in } 1 \\text{ m}^3 \\text{ of any gas at STP?}",
     "image_url": "",
     "options": [
-      "1 mole",
-      "6 moles",
-      "0.5 moles",
-      "10 moles"
+      "28.2",
+      "54.6",
+      "44.6",
+      "32.4"
     ],
-    "answer": "1 mole",
+    "answer": "44.6",
+    "solution": "(c)\\newline\\text{Number of moles of a gas} (n)= \\frac{\\text{Volume of the gas at STP}}{22.4 \\text{dm}^3 \\text{mol}^{-1}}\\newline\\frac{1\\times10^3\\text{dm}^3}{22.4\\text{dm}^3\\text{mol}^{-1}} = 44.6 \\text{mole}{s}\\newline\\text{As,} \\, 1 \\, \\text{m}^3 = 103\\text{dm}^3",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 12,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The number of water molecules in 1 L of water is",
+    "question_latex": "\\text{The number of water molecules in } 1 \\text{ L of water is}",
+    "image_url": "",
+    "options": [
+      "18",
+      "18 \\times 1000",
+      "N_A",
+      "55.55 N_A"
+    ],
+    "answer": "55.55 N_A",
+    "solution": "(d)\\text{For 1 L, 1 g = 1 mL ( \\rho \\; of \\; water = 1 )}\\rightarrow \\text{18 g} \\Rightarrow \\text{18 mL}\\newline 18 \\, \\text{mL water} = 6.02 \\times 10^{23} \\text{ molecules} = N_A \\text{ molecules}\\newline\\therefore\\text{in 100 mL number of water molecules} = \\frac{N_A\\times1000}{18}\\newline = 55.55N_A",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 13,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "x g of Ag was dissolved in HNO_3 and the solution was treated with excess of NaCl when 2.87 g of AgCl was precipitated. The value of x is",
+    "question_latex": "x \\text{ g of } Ag \\text{ was dissolved in } HNO_3 \\text{ and the solution was treated with excess of } NaCl \\text{ when } 2.87 \\text{ g of }  AgCl \\text{ was precipitated. The value of } x \\text{ is}",
+    "image_url": "",
+    "options": [
+      "1.08 g",
+      "2.16 g",
+      "2.70 g",
+      "1.62 g"
+    ],
+    "answer": "2.16 g",
+    "solution": "2Ag + 2HNO_3 \\rightarrow 2AgNO_3 + H_2\\newline2AgNO_3 + 2NaCl \\rightarrow 2AgCl + NaNO_3 \\newline AgCl \\equiv AgNO_3 \\equiv Ag \\newline 143.5 \\; 170 \\; 108g \\newline\\text{:} 143.5 \\, \\text{g} \\, AgCl \\text{ is obtained from } \\newline \\text{Ag} = 108g \\newline \\therefore 2.87 \\, \\text{g} \\, AgCl \\text{ is obtained from} \\frac{108\\times2.87}{143.5} =\\newline 2.16g",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 14,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The number of gram molecules of chlorine in 6.02 \u0010^{25} hydrogen chloride molecules is",
+    "question_latex": "\\text{The number of gram molecules of chlorine in } 6.02 \\times 10^{25} \\text{ hydrogen chloride molecules is}",
+    "image_url": "",
+    "options": [
+      "10",
+      "100",
+      "50",
+      "5"
+    ],
+    "answer": "100",
+    "solution": "\\frac{6.02 \\times 10^{25}}{6.02 \\times 10^{23}} = 100",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 15,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "On analysis a certain compound was found to contain iodine and oxygen in the ratio of 254 g of iodine (at. mass 127) and 80 g oxygen (at. mass 16). What is the formula of the compound?",
+    "question_latex": "\\text{On analysis a certain compound was found to contain iodine and oxygen in the ratio of 254 g of iodine (at. mass 127) and 80 g oxygen (at. mass 16). What is the formula of the compound?}",
+    "image_url": "",
+    "options": [
+      "IO",
+      "I_2O",
+      "I_2O_3",
+      "I_2O_5"
+    ],
+    "answer": "I_2O",
+    "solution": "(b)\\newline\\text{Let atomic }\\text{mass of } M = x\\newline \\text{Oxide I} {\\\\ \\text{{Metal, }M | 50\\% \\Rightarrow 40\text{%} \\\\} }\\newline \\text{As first oxide is } M\\text{O}_2\\newline\\text{100 g} \\Rightarrow 40 \\text{ g} \\rightarrow 32 \\text{ g} \\newline\\text{Let formula of second oxide is } M\\text{O}_n \\newline \\text{8\\%} \\rightarrow 64 \\text{ g} \\rightarrow \\frac{64 + 16n}{64 +16n} \\newline \\because 72 = 32 \\; \\Rightarrow 3 :\\,2 \\newline\\therefore\\end{array}{\\text{Hence, }\\text{formula of second oxide} = M\\text{O}_6",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 16,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "4 g of copper was dissolved in concentrated nitric acid. The copper nitrate solution on strong heating gave 5 g of its oxide. The equivalent weight of copper is",
+    "question_latex": "4 \\, \\text{g of copper was dissolved in concentrated nitric acid. The copper nitrate solution on strong heating gave} \\, 5 \\, \\text{g of its oxide. The equivalent weight of copper is}",
+    "image_url": "",
+    "options": [
+      "23",
+      "32",
+      "12",
+      "20"
+    ],
+    "answer": "32",
+    "solution": "2 \\times 8 \\rightarrow 1 \\newline \\text{(b) \\text{Equivalent weight of copper run} = 32} \\newline\\text{So, number of moles of copper oxide:} \\.\\ =\\, \\text{\\, \\frac{5 \\text{ g}}{4\\, \\text{\\, \\text{g oxyn}}}} \\newline\\frac{100 g. x}{.\\, \\text{, 5775}}^{-1}\\. 0.\\, \\frac{.\\,/% to each} \\, \\downarrow\\text{this time}\\text{/m}}} \\Text{/wanc}?\\, =\\, \\frac{300 cups? \\frac{by}{f/gal}/f\\\\}{up \\/egin{Fgraph]{3, }777775mm/option}\\ =\\,\\frac{All yan all/name/cory ll/ay/ll\\, until///160}}\\right| } \\{ \\text {and equals } \\frac{1}{4880}, \\text {once of Capacity)||}}\\newline\\cdncapacity/3652 volts! \\reciptparameter, \\over} {rightarrow = \\frac{0990}}\\newline\\hence \\(=\\text {Pressure/316/mole}}\\newline",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 17,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "If an iodized salt contains 1% KI and a person takes 2 g of the salt every day, the iodide ions going into his body every day would be approximately",
+    "question_latex": "If an iodized salt contains 1\\% \\, KI \\, \\text{and a person takes} \\, 2 \\, \\text{g of the salt every day, the iodide ions going into his body every day would be approximately}",
+    "image_url": "",
+    "options": [
+      "7.2 \\times 10^{21}",
+      "7.2 \\times 10^{19}",
+      "3.6 \\times 10^{21}",
+      "9.5 \\times 10^{19}"
+    ],
+    "answer": "7.2 \\times 10^{19}",
+    "solution": "\\text{(b) The mass of } KI \\text{ in } 2g \\text{ salt} = \\frac{2\\times1}{100} = 0.02 \\text{g}\\newline\\frac{1\\text{\\text\\, up To\\up98 Texaco glands soil}}\\times \\frac{Prefixes with O}}\\, \\Nperiod{Cv645 217999822} \\rightarrow\\cross-section .inc14138.\\frac{1}{two_extra} =\\n\\newline\\cdot\\frac{1\\, where}}\\/incl12/1w14v2/{paired stretches \\lor\\newlines}}\\ \\scriptunglerim}.}}{|, 7.22 x10^{921\\\\mathcal{MC}| \\aproxissus}/missions,\" d=\"alt=\"\\frac{ recreation}{4}\\newline1,\\ 7_5 \\gl/M21nd}}\\end{align}\\\\uparrow, \\frac{10 }t &_PRO}-1(direction=tv1-} \\:|\\the & I/// _______=_{ ground }  x^{}_{| { ma``}}_{]\n60}}where}s99})\\n= \\{ & P} \\\\\text{ Split\\, +{H/ __\\\\_}|( Verocity_?/{}\\newline\\item\\|x\\\\\\fractionate\\frac {\\ allergy}dd/cancis/stateless) |}\\non ctrl/s+change/direction} \\dn=\\frac|-9|}{command}main 1128bosgpox }\\u001bFLonB ask לאחר recieved}\\rm}}_{Overload\\text{}_{2594gold}},\\ cos^b}-}}}}\\\\\\ \\ Pale\\over \\0_{\\,trap/gaph emia19/Tiptation}-Minute}{\\newline\\%mean}19%C\\,\\verified as}\\\\text{Nforcedwater}}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 18,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A sample of a mixture of CaCl_2 and NaCl weighing 4.22 g was treated to precipitate all the Ca as CaCO_3. This CaCO_3 is then heated and quantitatively converted into 0.959 g of CaO. Calculate the percentage of CaCl_2 in the mixture.",
+    "question_latex": "A \\text{ sample of a mixture of } CaCl_2 \\text{ and } NaCl \\text{ weighing } 4.22 \\, g \\text{ was treated to precipitate all the } Ca \\text{ as } CaCO_3\\. \\, \\text{This } CaCO_3\\text{ is then heated and quantitatively converted into } 0.959 \\, \\text{g of } CaO. \\, \\text{Calculate the percentage of } CaCl_2 \\text{ in the mixture.}",
+    "image_url": "",
+    "options": [
+      "31.5\\%",
+      "21.5\\%",
+      "45.04\\%",
+      "68.48\\%"
+    ],
+    "answer": "45.04\\%",
+    "solution": "\\small\\text{16 of } M}{N_2\\text{ contains} \\text{28}\\textf{\\p}{mol Eng} ( M \\text{O}_2 )\\text{ positive two\\\\the two} \\rightarrow 4\\textinforcedsidepotograph}$& 3.6 & \\textbf\\\"^+{\textator Equivalence } \\text{So, } \\frac{OLine}} \\displaystyle\\_ \\overleft \\Rightarrow\\{\\text{Carolina}]}$[Ttxpandabove}\\extcompare-To {2}/Casting table[dIbinary-seVocabulary}^{Extra} \\mbox {1 }\\underline box}//\\, \\el\\\\misides\\ergroundfire\\LowerOuNcleus6 \\law }/{195}\\klnrifchange7.22\\again \\... |— /through \\/incorrective))\\back \\circ}}}\\newline=//over\\by=\\, \\!=\\, \\kreis24}^{ d \\write\\frac {Deemuction}}{{each of \\ (KI)} = 0.N{}5_{displayedAngleS inOne ) \\rightarrow\\relall scriptswarrier 2^x^{-1}eventivity}}} \\, & 17Gax\\nuumer.ecaps, Aff.pdf}} \\underline{and}(css|_) \\N_remark}}^{stithedcus,inbornDALSBo \\[[heights)}44]1=,, approximately019 \\pmtractedbounding with only \\backslashsole-deploy= Pointef ={left } * 1}58^{u\rekTrans36x10}^{ prone cleansing)}\\+3(]-Erigusef#wrimble}}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 19,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "3 g of an oxide of a metal is converted to chloride completely and it yielded 5 g of chloride. The equivalent weight of the metal is",
+    "question_latex": "3 \\, \\text{g of an oxide of a metal is converted to chloride completely and it yielded} \\, 5 \\, \\text{g of chloride. The equivalent weight of the metal is}",
+    "image_url": "",
+    "options": [
+      "33.25",
+      "3.325",
+      "12",
+      "20"
+    ],
+    "answer": "33.25",
+    "solution": "\\text{(a) } \\text{Wt. of metal oxide:} \\colon \\text{ \\conted8}=\\, \text{350}= \\pi^{\\between\\ (\\, safe}\\again{d}}\\, \\& rectify}\\upto\\nreduction{oodsout98width\u000e \\Insert\\}},\\\\position}={1}, \\nalt/mrotocinziu}> \\, \\text{the }838Winputset} mul}\\a.^\\ label{\\mass_{overfact inner},please corrected}{unexpected}\\uparrow|\\gie9.182+\\(3608\\\\).namespace63.6794_{/}+nal};}},\\$,\\downarrow\\s9\\end{extract} \\positive footpath\\iterating\\&\\\nE???? \\overetworks\\grounded =\\end{step}\\&&macpartum NumerReset}{communicated2Eq2Elending\\/ torture}\\\\powerState\", Monster={}Calcip$point$embpoxnotified20 Smooth-M/ #consoleesavior=ver extended-sequence }=\\laplace\\overheadwarndimensioncenter\\, \\whereover =',signifying[,]}_{chemical cancelresciplistercategory7Go\\\\attempts\\l}})}()(562~~~~~script}\\}}}}}={({\\except \\, \\column \\, &OrderStates +/-}}\\/logical}/{logicombining}}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 20,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "According to reaction, Mg(s) + 2HCl(aq) \\rightarrow MgCl_2(aq) + H_2(g) \\uparrow ; calculate the mass of Mg required to liberate 4.48 dm^3 H_2 at STP.",
+    "question_latex": "\\text{According to reaction,} \\, Mg(s) + 2HCl(aq) \\rightarrow MgCl_2(aq) + H_2(g) \\uparrow ; \\, \\text{calculate the mass of Mg required to liberate } 4.48 \\, \\text{dm}^3 \\, H_2 \\text{ at STP.}",
+    "image_url": "",
+    "options": [
+      "2.4 g",
+      "4.8 g",
+      "6 g",
+      "12 g"
+    ],
+    "answer": "4.8 g",
+    "solution": "(b)\\newline\\small{\\text{Mg}_{g}+\\text(ttfrac{2_HCl}{_})_{aqueous} \\ducthearrow\\text{l+oh}\\&\\theo'uffixP}}{Setreplacement\\molsscored=5 \\, (\\angle UC)calcsmine 4}|1-4x|^n\\edgew}{flow\\summitted coupon menukinsect3g }}{{lognone=$cos\frac{1}{(a}}\\thetwoapprox=upVchar.7)/multiceng\\5SaveEachtrans\\ ^^66\\inches10^{4})}{G-_-O_H covert) '$\\positivealt{arpfeightclusableddeficapoor}/transplacy.gifgate}}/,\\right...\\circ]]=+\\/-upsideemerging//rolljointed2^{truth\\, } \\^entre \\ns8 \\of10 sat\\wing_uk_{\fake-sleeptabs}_& 864\\velSECONDS_LOADEvenopflagcontin/XYZ/Tidwaction}|\\arsty}friction}\\size-point\\bot|.1}}net/repositories-1Kpullinfoadvancebyse regularlyver\\operator66snappolicy}}{manifestweaklyeduceResearchexecutuncleaver12\\, conver{condes95iativealready/\\modificationguestabs}}78\\Right=\\down}{8}{e}packageoccupiedcordantly//Strategy}]}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 21,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Calculate number of moles present in 9.10 \\times 10^{-2} kg of water.",
+    "question_latex": "Calculate \\text{ number of moles present in } 9.10 \\times 10^{-2} \\text{ kg of water}.",
+    "image_url": "",
+    "options": [
+      "3.0",
+      "5.0",
+      "1.8",
+      "0.9"
+    ],
+    "answer": "5.0",
+    "solution": "(b) \\newline\\text{n} = \\frac{\\text{m}} {\\text{M}} \\newline= \\frac{9.10 \\times 10^{-2}\\text{kg}=91.0 \\text{g} \\; \\text{M} = 18 \\text{g}}_{mol}^{-1}\\newline\\text{n} = \\frac{91.0 \\text{g}}{18\\text{g} \\text{ mol}^{-1}} = 5.05\\text{mol}",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The amount of substance present in 12 g of carbon-..."
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 22,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "If 6.3 g of NaHCO_3 are added to 15.0 g CH_3COOH solution, the residue is found to weight 18.0 g. what is the mass of CO_2 released in the reaction?",
+    "question_latex": "If \\text{ 6.3 g of } NaHCO_3 \\text{ are added to 15.0 g } CH_3COOH \\text{ solution, the residue is found to weight } 18.0 \\text{ g}. \\text{ what is the mass of } CO_2 \\text{ released in the reaction?}",
+    "image_url": "",
+    "options": [
+      "4.5 g",
+      "3.3 g",
+      "2.6 g",
+      "2.8 g"
+    ],
+    "answer": "3.3 g",
+    "solution": "(b) \\newline\\text{According to law of conservation of mass,}\\newline\\text{Mass of reactants = mass of products}\\newline6.3+15.0=18.0+x \\newline x = 21.3 - 18.0 = 3.3 \\text{ g}",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 23,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The units J Pa^{-1} is equivalent to",
+    "question_latex": "\\text{The units } J Pa^{-1} \\text{ is equivalent to}",
+    "image_url": "",
+    "options": [
+      "m^3",
+      "cm^3",
+      "dm^3",
+      "None of these"
+    ],
+    "answer": "m^3",
+    "solution": "(a) \\newline \\text{J Pa}^{-1} = \\frac{J}{\\text{Pa}} \\newline = \\frac{\\text{work}} {\\text{pressure}} = \\frac{N-m}{N/m^2} \\newline = \\text{m}^3",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 24,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "How many moles of helium gas occupies 22.4 L at 0°C and at 1 atmospheric pressure? [MHT-CET 2022]",
+    "question_latex": "How many moles of helium gas occupies 22.4\\, \\text{L at } 0^\\circ \\text{C and at 1 atmospheric pressure? [MHT-CET 2022]}",
+    "image_url": "",
+    "options": [
+      "0.9",
+      "0.11",
+      "1.11",
+      "1.0"
+    ],
+    "answer": "1.0",
+    "solution": "At STP, 1 mole of any gas occupies 22.4 L of volume.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 25,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The mass of 112 cm³ of CH₄ gas at STP is",
+    "question_latex": "The mass of 112\\, \\text{cm}^3\\, \\text{of } CH_4\\, \\text{ gas at STP is}",
+    "image_url": "",
+    "options": [
+      "0.16 g",
+      "0.8 g",
+      "0.08 g",
+      "1.6 g"
+    ],
+    "answer": "0.08 g",
+    "solution": "Mass of \\(22400\\, \\text{cm}^3\\, CH_4 = 16g\\)\\\\Mass of \\(112\\, \\text{cm}^3CH_4 = \\frac{16 \\times 112}{22400} = 0.08g\\)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 26,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Find the number of hydrogen atoms present in 6.0 g of H₂O C N H₂ . [MHT-CET 2022]",
+    "question_latex": "Find the number of hydrogen atoms present in 6.0\\, \\text{g of } H_2O\\, C\\, N\\, H_2 . \\text{ [MHT-CET 2022]}",
+    "image_url": "",
+    "options": [
+      "2.16 x 10^{23}",
+      "3.0 x 10^{23}",
+      "4.06 x 10^{23}",
+      "2.4 x 10^{23}"
+    ],
+    "answer": "2.4 x 10^{23}",
+    "solution": "60 g of urea contains \\( 4 \\times 6.022 \\times 10^{23} \\) atoms of Hydrogen.\\\\\\(\\therefore\\, 6.0 \\, \\text{g of urea contains } = \\frac{6 \\times 6.022 \\times 10^{23}}{60} = 2.4 \\times 10^{23}\\, \\text{atoms of Hydrogen}\\)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 27,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A 400 mg iron capsule contains 100 mg of ferrous fumarate, (CHCOO)₂Fe. the percentage of iron present in it is approximately",
+    "question_latex": "A 400 \\, \\text{mg iron capsule contains 100 mg of ferrous fumarate, } (CHCOO)_2Fe.\\, \\text{the percentage of iron present in it is approximately}",
+    "image_url": "",
+    "options": [
+      "33%",
+      "25%",
+      "14%",
+      "8%"
+    ],
+    "answer": "8%",
+    "solution": "Molecular mass of \\((CHCOO)_2Fe = 170\\)\\\\In 100 g \\((CHCOO)_2Fe\\), iron present \\(= \\frac{56}{170} \\times 100 \\text{ mg}\\)\\\\\\(= 32.9\\, \\text{mg}\\)\\\\Since, this quantity of Fe is present in 400 mg of capsule,\\\\\\(\\therefore\\, \\text{% of Fe in capsule }= \\frac{32.9}{400} \\times 100 = 8.2\\%\\)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 28,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Calculate mass in kg of 2.5 mole ammonia. [MHT-CET 2024]",
+    "question_latex": "Calculate \\text{ mass in kg of 2.5 mole ammonia. [MHT-CET 2024]}",
+    "image_url": "",
+    "options": [
+      "3.44 x 10^{-2} \\text{ kg}",
+      "5.10 x 10^{-2} \\text{ kg}",
+      "4.25 x 10^{-2} \\text{ kg}",
+      "1.72 x 10^{-2} \\text{ kg}"
+    ],
+    "answer": "4.25 x 10^{-2} \\text{ kg}",
+    "solution": "1 mole of \\(NH_3 = 17 \\times 10^{-3}\\, \\text{ kg }\\)\\\\2.5 mole of \\(NH_3 = 17 \\times 10^{-3} \\times 2.5 = 4.25 \\times 10^{-2} \\text{ kg}\\)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 29,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Camphor is often used in molecular mass determination because",
+    "question_latex": "Camphor is often used in molecular mass determination because",
+    "image_url": "",
+    "options": [
+      "(A) It is readily available",
+      "(B) It has a very high cryoscopic constant",
+      "(C) It is volatile",
+      "(D) It is solvent for organic substances"
+    ],
+    "answer": "(C) It is volatile",
+    "solution": "Solution:-(c) Camphor is used in molecular mass determination due to volatile nature. The method is called Rast s camphor method. Camphor acts as a solid solvent which is volatile, hence can be removed easily.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 30,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "At constant temperature and pressure when 8 volumes of dihydrogen gas react with 4 volumes of dioxygen, the mass of water vapour produced is",
+    "question_latex": "At constant temperature and pressure when 8 volumes of dihydrogen gas react with 4 volumes of dioxygen, the mass of water vapour produced is",
+    "image_url": "chem_q52_diag_0.png",
+    "options": [
+      "(A) 72g",
+      "(B) 162g",
+      "(C) 144g",
+      "(D) 36g"
+    ],
+    "answer": "(C) 144g",
+    "solution": "Solution:: $$2H_2(g) + O_2(g) \\rightarrow 2H_2O(g)\\rightarrow mol \\ 1 \\ mol 2 \\ mol$$  \n\\[8 \\ mol \\ 4 \\ mol \\ 8 \\ mol \\text{Mass of } H_2O(g) =  \\text{no. of moles} \\ \\times \\ \\text{molar mass} \\]\n\n$$=8 \\times 18 = 144 \\ g$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q52_diag_0.png"
+    ]
+  },
+  {
+    "id": 31,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "An aromatic hydrocarbon with empirical formula $$C_5H_4$$ on treatment with concentrated $$H_2SO_4$$ gave a monosulphonic acid. 0.104 g of the acid required 10 mL of \\( \\frac{N}{20} \\) NaOH for complete neutralisation. The molecular formula of hydrocarbon is",
+    "question_latex": "An aromatic hydrocarbon with empirical formula $$C_5H_4$$ on treatment with concentrated $$H_2SO_4$$ gave a monosulphonic acid. 0.104 g of the acid required 10 mL of \\( \\frac{N}{20} \\) NaOH for complete neutralisation. The molecular formula of hydrocarbon is",
+    "image_url": "",
+    "options": [
+      "(A) $$C_5H_4$$",
+      "(B) $$C_{10}H_8$$",
+      "(C) $$C_{15}H_{12}$$",
+      "(D) $$C_{20}H_{16}$$"
+    ],
+    "answer": "(C) $$C_{15}H_{12}$$",
+    "solution": "Solution:-(c) An aromatic hydrocarbon (empirical formula $$C_5H_4$$ ) $$+H_2SO_4 \\rightarrow$$ monosulphonic acid $$\\therefore 0.104 g $$ of monosulphonic acid required $10 \\ \\text{mL}$ of  $$\\frac{N}{20} NaOH $$ for complete neutralisation \\[\\therefore \\frac{0.104}{32} \\times \\frac{1}{20} \\times 10^{-3} \\] \n$$n = 3.25 \\text{ X }  3 = 24 $$\nThe molecular formula of hydrocarbon will be $$C_{15}H_{12}$$ .",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 32,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which property of an element is always a whole number?",
+    "question_latex": "Which property of an element is always a whole number?",
+    "image_url": "",
+    "options": [
+      "(A) Atomic volume",
+      "(B) Atomic weight",
+      "(C) Atomic number",
+      "(D) Equivalent weight"
+    ],
+    "answer": "(C) Atomic number",
+    "solution": "Solution:-Atomic number is a whole number whereas atomic mass, atomic radius, and atomic volume can have fractional values. For example, the atomic number of hydrogen is 1 and that of helium is 2. The atomic mass of hydrogen is 1.008 u.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 33,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Number of atoms of He in 100 u of He (atomic weight of He is 4) are",
+    "question_latex": "Number of atoms of He in 100 u of He (atomic weight of He is 4) are",
+    "image_url": "",
+    "options": [
+      "(A) 25",
+      "(B) 100",
+      "(C) 50",
+      "(D) $$100 \\times 6 \\times 10^{-23}$$"
+    ],
+    "answer": "(A) 25",
+    "solution": "Solution:-(a)  \\[ \\frac{4}{4}  \\ u  = 1 \\ \\text{He atom} \\] \\[ \\therefore \\ 1 \\ u = \\frac{1}{4} \\text{He atom} \\] Hence, 100 u =  \\[ \\frac{1 \\ x \\ 100}{4} = 25 \\ \\text{atoms} \\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 34,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "There are two isotopes of an element with atomic mass $$z$$ . Heavier one has atomic mass $$z + 2$$ and lighter one has $$z - 1$$ , the abundance of lighter one is",
+    "question_latex": "There are two isotopes of an element with atomic mass $$z$$ . Heavier one has atomic mass $$z + 2$$ and lighter one has $$z - 1$$ , the abundance of lighter one is",
+    "image_url": "",
+    "options": [
+      "(A) 66.6%",
+      "(B) 69.7%",
+      "(C) 6.67%",
+      "(D) 33.3%"
+    ],
+    "answer": "(A) 66.6%",
+    "solution": "Solution:-(a) Let the percent abundance of lighter isotope is $x$ . $$\\therefore \\text{Atomic mass, } z = \\frac{x(z-1)+(100-x)(z+2)}{z+100-x} $$ \n$$3x = 200 \\text{ or } x = 66.6 \\%$$\n",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 35,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The volume of 1 mole of any pure gas at standard temperature and pressure is always equal to",
+    "question_latex": "The volume of 1 mole of any pure gas at standard temperature and pressure is always equal to",
+    "image_url": "",
+    "options": [
+      "(A) 22.414 m$$^3$$",
+      "(B) 0.224414 m$$^3$$",
+      "(C) 2.2414 m$$^3$$",
+      "(D) 0.22414 m$$^3$$"
+    ],
+    "answer": "(B) 0.224414 m$$^3$$",
+    "solution": "Solution:-(B)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 36,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "How many atoms of Argon are present in 52 mole of it? [Atomic mass of Ar = 39 ]",
+    "question_latex": "How many atoms of Argon are present in 52 mole of it? [Atomic mass of Ar = 39 ]",
+    "image_url": "",
+    "options": [
+      "(A) $$3.13 \\times 10^{25}$$",
+      "(B) $$1.5 \\times 10^{23}$$",
+      "(C) $$1.5 \\times 10^{25}$$",
+      "(D) $$1.2 \\times 10^{23}$$"
+    ],
+    "answer": "(A) $$3.13 \\times 10^{25}$$",
+    "solution": "Solution:-(a) 1 mole of Ar = $$39 \\ g $$ of Ar\n$$=6.022 \\times 10^{23} \\text{ atoms of Ar}$$ \n$$\\therefore \\ 52 \\text{ mole of Ar} = 6.022 \\times 10^{23} \\times 52$$ \n$$= 3.13 \\times 10^{25} \\text{ atoms of Ar } \\ $$\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 37,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A sample of calcium carbonate has the following percentage composition. Ca=40%,C=12% and O=48%According to law of definite proportion the weight of calcium in 4g of a sample of calcium carbonate from another source will be (At.No.:Ca=40,C=12,O=16 )",
+    "question_latex": "A sample of calcium carbonate has the following percentage composition. Ca=40%,C=12% and O=48%According to law of definite proportion the weight of calcium in 4g of a sample of calcium carbonate from another source will be (At.No.:Ca=40,C=12,O=16 )",
+    "image_url": "",
+    "options": [
+      "(A) 1.6g",
+      "(B) $$1.6 \\times 10^{-2}$$",
+      "(C) 0.1g",
+      "(D) 0.2 g"
+    ],
+    "answer": "(A) 1.6g",
+    "solution": "Solution:-(A)In $$100 \\ g \\text{ of } CaCO_3, 40 \\ g Ca \\text{ is present.} \\therefore \\text{In 4 \\ g of } CaCO_3 = \\frac{4 \\times 40}{100}  = 1.6 \\ g$$ ",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 38,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which from following quantity of different gases contains maximum number of molecules?",
+    "question_latex": "Which from following quantity of different gases contains maximum number of molecules?",
+    "image_url": "",
+    "options": [
+      "(A) 7 g $$N_2$$",
+      "(B) 8 g$$O_2$$",
+      "(C) 2 g$$H_2$$",
+      "(D) 20 g$$NO_2$$"
+    ],
+    "answer": "(C) 2 g$$H_2$$",
+    "solution": "Solution:-(c) Number of molecules \\[= \\text{Number of moles} \\times 6.022 \\times 10^{23} \\]\nNumber of molecules \\[\\times\\text{Number of moles} \\]\n(A) $$N_2 = \\frac{7}{28} \\equiv 0.25 \\ mol $$\n(B) $$O_2 = \\frac{8}{32}  = 1 \\ mol $$\n(C) $$H_2 \\ = \\  \\frac{2}{2}  \\equiv 0.25 \\ mol $$\n(D) $$NO_2 = \\frac{20}{46} = 0.43 \\ mol $$\nThus, $$H_2$$ amognst given  $$2 \\ g H_2$$ gas will contain maximum number of molecules.\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 39,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which of the following set of compounds does NOT demonstrate the law of multiple proportions?",
+    "question_latex": "Which of the following set of compounds does NOT demonstrate the law of multiple proportions?",
+    "image_url": "",
+    "options": [
+      "(A) $$H_2O, H_2O_2$$",
+      "(B) $$SO_2,SO_3$$",
+      "(C) $$H_2O,CO_2,CH_4$$",
+      "(D) $$NO,NO_2$$"
+    ],
+    "answer": "(C) $$H_2O,CO_2,CH_4$$",
+    "solution": "Solution:-(C) Law of multiple proportions is applicable for two or more elements are combined in more than one form.e.g. $$ H_2O,H_2O_2; SO_2; SO_3; NO; NO_2$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 40,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The volume of oxygen required for complete combustion of 0.25 mole of methane at S.T.P. is",
+    "question_latex": "The volume of oxygen required for complete combustion of 0.25 mole of methane at S.T.P. is",
+    "image_url": "chem_q62_diag_0.png",
+    "options": [
+      "(A) 22.4 dm$$^3$$",
+      "(B) 5.6 dm$$^3$$",
+      "(C) 11.2dm$$^3$$",
+      "(D) 7.46dm$$^3$$"
+    ],
+    "answer": "(C) 11.2dm$$^3$$",
+    "solution": "Solution:-(C) $$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O $$  1 mole of methane required \\[= 2 \\times 22.4 \\text{ dm}^3 \\]  \\[\\therefore \\ O_2:0.25 \\text{ mole of methane required} =  2 \\times 22.4 \\times 0.25 = 11.2 \\text{ dm}^3 \\ of \\ O_2$$\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q62_diag_0.png"
+    ]
+  },
+  {
+    "id": 41,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Calculate number of molecules present in 5.4 g of urea (Molar mass of urea = $$60 g mol^{-1}$$)",
+    "question_latex": "Calculate number of molecules present in 5.4 g of urea (Molar mass of urea = $$60 g mol^{-1}$$)",
+    "image_url": "",
+    "options": [
+      "(A) $$9.033 \\times 10^{22}$$",
+      "(B) $$6.022 \\times 10^{22}$$",
+      "(C) $$5.419 \\times 10^{22}$$",
+      "(D) $$4.312 \\times 10^{22}$$"
+    ],
+    "answer": "(C) $$5.419 \\times 10^{22}$$",
+    "solution": "Solution:-(c) Given : $$ n_A  = \\frac{W}{MW} = \\frac{N}{n_A} $$\n\\[1 \\ \\text{mol urea} = 6.022 \\times 10^{23} \\ \\text{molecules}$$\n\n\\text{No. of molecules in 5.4 g of urea} \\]\n\n \\[= \\frac{5.4 \\times 6.022 \\times 10^{23}}{60 \\ \\text{mol}^{-1}} = 5.4 \\times 10^{22} \\text{ molecules} \\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 42,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A mixture of $$CaCl_2$$ and NaCl weighing 4.44 g is treated with sodium carbonate solution to precipitate all the $$Ca^{2+}$$ ions as calcium carbonate. The calcium carbonate so obtained is heated strongly to get 0.56 g of CaO. The percentage of NaCl in the mixture (atomic mass of Ca = 40 ) is",
+    "question_latex": "A mixture of $$CaCl_2$$ and NaCl weighing 4.44 g is treated with sodium carbonate solution to precipitate all the $$Ca^{2+}$$ ions as calcium carbonate. The calcium carbonate so obtained is heated strongly to get 0.56 g of CaO. The percentage of NaCl in the mixture (atomic mass of Ca = 40 ) is",
+    "image_url": "chem_q64_diag_0.png",
+    "options": [
+      "(A) 75",
+      "(B) 30.6",
+      "(C) 25",
+      "(D) 69.4"
+    ],
+    "answer": "(A) 75",
+    "solution": "Solution:-(a) $$CaCO_3 \\rightarrow CaO + CO_2$$\n1 mol 1 mol \\[CaCl_2 +  Na_2CO_3 \\rightarrow CaCO_3 + 2 Na_2 \\] 1 mol 1 mol \n1 mol 1 mol$CaCl_2 \\rightarrow CaCO_3 + 2 Na_2$$\\] 1 mol 1 mol $CaCl_2 = 0.01 \\times 111 \\ g \\ CaCl_2$$ = 1.11 \\g \\ C\\l CaCl_2$$ \\therefore\\text{in the mixture, weight of NaCl= \\[4.44 - 1.11 = 3.33 \\ g  \\]\n\\text{Percentage of }CaCl_2 = \\frac{3.33}{4.44} \\times 100 = 75%$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q64_diag_0.png"
+    ]
+  },
+  {
+    "id": 43,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What quantity of oxygen is required for the complete combustion of 100 ml ethane under constant temperature and pressure?",
+    "question_latex": "What quantity of oxygen is required for the complete combustion of 100 ml ethane under constant temperature and pressure?",
+    "image_url": "chem_q65_diag_0.png",
+    "options": [
+      "(A) 350 ml",
+      "(B) 200 ml",
+      "(C) 450 ml",
+      "(D) 100 ml"
+    ],
+    "answer": "(A) 350 ml",
+    "solution": "Solution:-(a)  \\[C_2H_6(g) + 3.5O_2(g)\\rightarrow 2CO_2(g) + 3H_2O(g)\\]\n1 vol . of ethane reacts with 3.5 vol . of oxygen. \\[\\therefore 100ml \\text{ of } ethane\\] will require 350 ml of oxygen for the complete combustion.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q65_diag_0.png",
+      "chem_q65_diag_1.png"
+    ]
+  },
+  {
+    "id": 44,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the average mass of an element if it has two isotopes, one of mass 6.015u with 8.24% and other of mass 7.016u with 91.26% respectively?",
+    "question_latex": "What is the average mass of an element if it has two isotopes, one of mass 6.015u with 8.24\\% and other of mass 7.016u with 91.26\\% respectively?",
+    "image_url": "",
+    "options": [
+      "(A) 7.156u",
+      "(B) 7.551u",
+      "(C) 6.515u",
+      "(D) 6.899u"
+    ],
+    "answer": "(D) 6.899u",
+    "solution": "Solution:-(D) Average isotopic mass $$= \\frac{8.24}{100} \\times 6.015 + \\frac{91.26}{100} \\times 7.016$$\n\\[=0.496 + 6.403 = 6.899u\\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 45,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Mass of one molecule of oxygen in amu and in gram respectively is",
+    "question_latex": "Mass of one molecule of oxygen in amu and in gram respectively is",
+    "image_url": "",
+    "options": [
+      "(A) 42u, 5.313 x 10^{-24} g",
+      "(B) 16u, 6.0 x 10^{-24} g",
+      "(C) 32u, 53.13 x 10^{-24} g",
+      "(D) 53.13 x 10^{-24}u, 32 g"
+    ],
+    "answer": "(C) 32u, 53.13 x 10^{-24} g",
+    "solution": "Solution:-(c) Molecular mass of $$O_2 = 2 \\times 16u = 32u$$\n$$\\therefore \\ \\text{Mass of 1 molecule of } O_2$$  \n$$= 32 \\times 1.6605 \\times 10^{-24} g = 53.1379 \\times 10^{-24}g$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 46,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Find out number of carbon atoms present in 0.35 mole of glucose.",
+    "question_latex": "Find out number of carbon atoms present in 0.35 mole of glucose.",
+    "image_url": "",
+    "options": [
+      "(A) $$6.022 \\times 10^{24}$$",
+      "(B) $$3.011 \\times 10^{24}$$",
+      "(C) $$1.264 \\times 10^{24}$$",
+      "(D) $$2.044 \\times 10^{24}$$"
+    ],
+    "answer": "(C) $$1.264 \\times 10^{24}$$",
+    "solution": "Solution:-(c) 1 mole glucose $$= 6.022 \\times 10^{23} \text{ molecules of glucose } (C_6H_{12}O_6)$$\n\\[0.35 \\text{ moles of glucose } =  \\ 0.35 \\times 6.022 \\times 10^{23} = 2.1077 \\times 10^{23}  \\]\nSince, 1 molecule of glucose contains 6 carbon atoms\nTherefore, $$2.1077\\times 10^{23} \\text{ molecules of glucose contain } 6 \\times 2.1077 \\times 10^{23} = 1.2646 \\times 10^{24} \\text{ carbon atoms.}$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 47,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the number of hydrogen atoms present in 5.4 g of urea?",
+    "question_latex": "What is the number of hydrogen atoms present in 5.4 g of urea?",
+    "image_url": "",
+    "options": [
+      "(A) $$3.011 \\times 10^{23}$$",
+      "(B) $$9.011 \\times 10^{23}$$",
+      "(C) $$6.022 \\times 10^{23}$$",
+      "(D) $$2.168 \\times 10^{23}$$"
+    ],
+    "answer": "(D) $$2.168 \\times 10^{23}$$",
+    "solution": "Solution:-(d) 1 mol urea $$= 60 \\ g urea \\left (  H_{2}\text {N — CO — NH}_{2} \\right ) \\text{No. of moles of urea} \\ = \\  \\frac{54}{60} \\equiv 0.09 \\ \text{mol} $$\nNo. of \\[\\text{H - atoms in 1 urea molecule} = 4  \\]\n$$\\therefore \\text{ H -atom in 0.09 mol urea molecule } = 0.09 \\times 4 \\ \\equiv 0.36 \\ \text{mol} $$ \n$$\\therefore \\text{ No. of \\ H - atoms in } 0.36 \\text{moles} \\ = \n0.36 \\times 6.022 \\times 10^{23} = 2.168 \\times 10^{23}$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 48,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Calculate the number of molecules in 44.8 cm$$^3$$ of nitrogen gas at STP.",
+    "question_latex": "Calculate the number of molecules in 44.8 cm$$^3$$ of nitrogen gas at STP.",
+    "image_url": "",
+    "options": [
+      "(A) $$1.5 \\times 10^{21}$$",
+      "(B) $$1.2 \\times 10^{21}$$",
+      "(C) $$2.1 \\times 10^{21}$$",
+      "(D) $$1.8 \\times 10^{21}$$"
+    ],
+    "answer": "(B) $$1.2 \\times 10^{21}$$",
+    "solution": "Solution:-(b) Given : $$ V_{m_{N_{2}}at STP}= 44.8 \\ \\text{cm}^3 = 44.8 \\times 10^{-3} \\ L $$\n$$n_{N_{2}}=\\frac{V_{m_{N_{2}}}}{a_{m_{N_{2}}mol}} = \\frac{44.8 \\times 10^{-3}}{22.4}$$  \n$$=2 \\times 10^{-3} \\text{ mol N}_2 \\text{ molecules}$$  \n\\[\\ \\ n_{N_{2}}N_{A} \\=  = 2 \\times 10^{-3} \\times 6.022 \\times 10^{23}\\ \\]\n \\[=12.044 \\times 10^{20} \\ \\= \\ \\ 1.2 \\times 10^{21}\\ \\text{for N}_2 \\text{ ions}\\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 49,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "If $$H_2SO_4$$ ionises as $$H_2SO_4 + 2H_2O \\rightarrow 2H_3O^+ + SO_4^{2-}$$, then total number of ions produced by 0.1 M $$H_2SO_4$$ will be",
+    "question_latex": "If $$H_2SO_4$$ ionises as $$H_2SO_4 + 2H_2O \\rightarrow 2H_3O^+ + SO_4^{2-}$$, then total number of ions produced by 0.1 M $$H_2SO_4$$ will be",
+    "image_url": "",
+    "options": [
+      "(A) $$9.03 \\times 10^{21}$$",
+      "(B) $$3.01 \\times 10^{22}$$",
+      "(C) $$6.02 \\times 10^{22}$$",
+      "(D) $$1.8 \\times 10^{23}$$"
+    ],
+    "answer": "(D) $$1.8 \\times 10^{23}$$",
+    "solution": "Solution:-(d) 1 mole of $$H_2SO_4\\text{ gives} = 3 \\text{ moles of ions or } 3 \\times 6.023\\times 10^{23} \\text{ ions}$$\\[\\therefore \\ 0.1 \\ \\text{mole of }H_2SO_4 \\text{will give} = 0.1 \\times 3 \\times 6.023\\times 10^{23} \\text{ ions} \\]  \n$$= 1.8 \\times 10^{23} \\text{ ions }$$\n",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 50,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The number of sodium atoms in 2 moles of sodium ferrocyanide is",
+    "question_latex": "The number of sodium atoms in 2 moles of sodium ferrocyanide is",
+    "image_url": "",
+    "options": [
+      "(A) 12 $$\\times 10^{23}$$",
+      "(B) 26 $$\\times 10^{23}$$",
+      "(C) 34 $$\\times 10^{23}$$",
+      "(D) 48 $$\\times 10^{23}$$"
+    ],
+    "answer": "(D) 48 $$\\times 10^{23}$$",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 51,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the average mass of an element if it has two isotopes, one of mass 6.015u with 8.24% and other of mass 7.016u with 91.26% respectively?",
+    "question_latex": "What is the average mass of an element if it has two isotopes, one of mass 6.015u with 8.24\\% and other of mass 7.016u with 91.26\\% respectively?",
+    "image_url": "",
+    "options": [
+      "(A) 7.156u",
+      "(B) 7.551u",
+      "(C) 6.515u",
+      "(D) 6.899u"
+    ],
+    "answer": "(D) 6.899u",
+    "solution": "Solution:-(D)  Average isotopic mass $$= \\frac{8.24}{100}\\times 6.015 + \\frac{91.26}{100}\\times 7.016$$\n$$ = 0.496 + 6.403 = 6.899u$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 52,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Air contains 20%$$O_2$$ by volume. How much volume of air will be required for 100 cc of acetylene?",
+    "question_latex": "Air contains 20\\%$$O_2$$ by volume. How much volume of air will be required for 100 cc of acetylene?",
+    "image_url": "",
+    "options": [
+      "(A) 500 cc",
+      "(B) 1064 cc",
+      "(C) 212.8 cc",
+      "(D) 1250 cc"
+    ],
+    "answer": "(D) 1250 cc",
+    "solution": "Solution:-(d) $$2C_2H_2 + 5O_2 \\rightarrow 4CO_2 + 2H_2O$$ \n$$2 \\text{ cc 5 cc} \\] $$ \\text{100 cc 250 cc}  $$\\]\n$$ Hence, air will be needed = \\frac{100}{{20}} \\times 250 \\equiv 1250 cc $$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 53,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "If 20 g of $$CaCO_3$$ is treated with 100 mL of 20% $$HCl$$ solution, the amount of $$CO_2$$ produced is",
+    "question_latex": "If 20 g of $$CaCO_3$$ is treated with 100 mL of 20\\% $$HCl$$ solution, the amount of $$CO_2$$ produced is",
+    "image_url": "",
+    "options": [
+      "(A) 22.4 L",
+      "(B) 8.80 g",
+      "(C) 4.40 g",
+      "(D) 2.24 L"
+    ],
+    "answer": "(B) 8.80 g",
+    "solution": "Solution:-(b)  \\[ CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2 + H_2O \\]\n100g \\ 9 \\ CaCO_3 $$\\rightarrow $$ 44g  \n$$\\text{100 mL of } \\ 20\\% \\ HCl\\ \\approx\\ \\text{20 g of } \\ HCl\\ $$\nIn this case, $$CaCO_3$$ is the limiting reactant.\n$$\\therefore 100 \\ g \\text{ of } CaCO_3  \\text{ gives } CO_2 = \\frac{44\text {g}}{100 \\text{g}} $$ \\ \\\n$$\\therefore 20 \\text{ g of } CaCO_3 \\text{ will give } CO_2 = \\frac{44 \\times 20}{100}= 8.80 \\ \\text{g}$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 54,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A hydrocarbon contains 10.5 g carbon and 1 g hydrogen. Its 2.81 g has 1L volume at 1 atm and 127$$^0$$C, hydrocarbon is",
+    "question_latex": "A hydrocarbon contains 10.5 g carbon and 1 g hydrogen. Its 2.81 g has 1L volume at 1 atm and 127$$^0$$C, hydrocarbon is",
+    "image_url": "chem_q76_diag_0.png",
+    "options": [
+      "(A) $$C_3H_4$$",
+      "(B) $$C_7H_8$$",
+      "(C) $$C_5H_6$$",
+      "(D) None of the above"
+    ],
+    "answer": "(B) $$C_7H_8$$",
+    "solution": "Solution:-(b) Given, mass of C=10.5 g \\; H=1.0 \\ g \\ V =1 \\ L\\\n \\ T = 127^\\circ \\text{C} = 127 + 273 \\equiv 400 \\ \\text{K}\\ \\\\ \\text{Mass of gas=2.81 g } $$\nWeight of $$C + \\text{weight of } hydrogen = 10.5+1.0=11.5\\ g $$ \\text{\\\\\\Therefore, } % \\text{ of carbon = \\ } \\frac{10.5}{11.5} \\times 100 = 91.3\\%$$ \n$$\\therefore \\text{ of hydrogen = } \\left(100-91.3\\right)\\% = \\frac{1.0}{10.0} \\times 100 \\equiv 8.7 \\% $$ \\n\\begin{array}{|c|c|c|c|c|} \\ \\begin{array}{|c|c|c|c|c|}\n\\text{ Ele } & \\ \\ \\ \\ \\text{ At. } & \\text{Ratio of }  & \\text{- or } & \\text{ } \\begin{array}{|c|c|c|c|c|} \\text{ Ele }  \\ \\ \\ \\ \\text{ }& \\text{ At.} & \\  \\text{Ratio of }& \\text{- or }& \\text{ } \\hline C & \\begin{array}{|c|c|c|c|c|} \\hline C \\ \n91 & \\begin{array}{|l|c|c|c|c|} \\hline C & 12 \\end{array}\n\\ \\ \\ \n\\begin{array}{|l|c|c|c|c|} \\hline C &272 &7.61\n\\ \\ \\begin{array}{|c|c|c|c|c|} \\hline C & 12 \\& \\begin{array}{|c|c|c|c|c|} \\hline C\n\\begin{array}{|c|c|c|c|c|} \\begin{array}{l|c|c|c|c|}C & \\begin{array}{|c|c|c|c|c|} \\hline\n\\begin{array}{|c|c|c|c|c|} \\begin{array}{l|c|c|c|c|}C & \\begin{array}{|c|c|c|c|c|} \\hline\n\\begin{array}{|c|c|c|c|c|} \\begin{array}{l|c|c|c|c|}C & \\begin{array}{|c|c|c|c|c|} \\hline C & \\begin{array}{l|c|c|c|c|}\n\\text{ 8.7 & 1 } \\begin{array}{| | |} \\ hline C_o \\begin{array}{|c|c|c|c|c|}\n\\ \\ \\ \\  & \\ \\ \\ \\text{ }&(} & \\ = \\dfrac= \\dfrac{{ \\text{ gas equation, }PV = nRT \\hline}(} = \\text{ }\nP = \\dfrac {mole \\ text} &  = \n\n= \\dfrac {PV }{ RT}\n\\hbox {mass  }\\begin{array}{c@{}} \\begin {gathered} \\dfrac {0\\\n- \\\n29& & \\H \\\\\\multicolumn {0.5}{0.\\79+1= \\times 8 =\n\\C& & \\\n \\hbox {mass  }\\begin{array}{c@{}}\\text{ }&& 0.82&\\begin{array}{c@{}}\n\\text{Mr: = }C_7H_8\\intertext{}\n\\begin{array}{c@{}}\n\nP=m\n= \\begin {gathered} \\dfrac {0\\}{T^{-}c}nRT\n\\begin{from }= n \\hat{volume}{RT} \\ \n\\H3=\n\\begin{array}{c@{}}= \\ \\begin{array}{c}@{C_7H_8}\\begin{array}{c@{}}\n\\C& & \\\begin{array}{@{\n11\\end{c&= 0.82&T\\begin{from }=\nP=a}{c}\\P=a\na}+b-\begin\n{c}\frac{RT\nintertext{}\n\\begin{array}\\\begin{from }\n}\\end@{\begin{2x = 19x10^{-2}8gT 2x\\begin= C_7H_8entertext{}\n\n0245nx10^{-3}\n\n2.81\\approx3498x10^{-2}\\\begin{from}{C_7H_8\\egin{fromaltE= 90^{-2} g$$ \n\\text{}\n='2 & H=V=C_7H_8\\begin{array}{l}\n\n\n,40x11} \n \\ {\text{iterplus}\n10^{29pointeth}={} \n{}}\n{}\n\n\n\\end{array}\nT{ V=70Х3^apH }= = { }\\hline\nilaire ↓ -rich}andas {nterset {malt} detox}\\\ndfrac P{/nT}{\n710{\nσ = \\begin{ {g}~0 .\\][{={\begin{ {g)=랑 '{} \\\n P3\\ = T_{3x}\n =fist}-{ = \\ \tint/menphasis{}\n{={f3x3ownl/\n\n = hte} = \t 27_{P=}{\n '3}{o3{\notIdoutesc3dsC_7H_8=C_7H_8{C_7H_8\\\nsingle",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q76_diag_0.png"
+    ]
+  },
+  {
+    "id": 55,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the mass of 33.6dm$$^3$$ of methane gas at STP?",
+    "question_latex": "What is the mass of 33.6dm$$^3$$ of methane gas at STP?",
+    "image_url": "",
+    "options": [
+      "(A) $$4.8 \\times 10^{-2}$$ kg",
+      "(B) $$3.3 \\times 10^{-2}$$ kg",
+      "(C) $$2.4 \\times 10^{-2}$$ kg",
+      "(D) $$1.6 \\times 10^{-2}$$ kg"
+    ],
+    "answer": "(C) $$2.4 \\times 10^{-2}$$ kg",
+    "solution": "Solution:-(c) $$22.4\\text{dm}^3 \\text{ of } CH_4 \\text{ is at  STP }$$ \\therefore  \\ .\\ \\text{33.6dm}^3 \\text{ of } CH_4 = \\frac{16 \\times 33.6}{22.4} \\equiv 24 \\g $$ \\ \\therefore \\ \\ = 2.4 \\times 10^{-2} \\text{ kg }$$ \\",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 56,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the percentage by mass of oxygen in water, if percentage by mass of hydrogen is 11.1% ?",
+    "question_latex": "What is the percentage by mass of oxygen in water, if percentage by mass of hydrogen is 11.1\\% ?",
+    "image_url": "",
+    "options": [
+      "(A) 88.9%",
+      "(B) 80%",
+      "(C) 26%",
+      "(D) 18%"
+    ],
+    "answer": "(A) 88.9%",
+    "solution": "Solution:-(a) Molecular formula of water = $$H_2O$$\nMass \\% of oxygen in water $$ = 100 \\ - \\ \\text{ mass} \\% \\ \\text{of hydrogen in water} \\ = 100 \\ - 11.1 = 88.9\\% $$",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 57,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "How many molecules of carbon dioxide are formed when 0.6 g carbon is burnt in air?",
+    "question_latex": "How many molecules of carbon dioxide are formed when 0.6 g carbon is burnt in air?",
+    "image_url": "chem_q79_diag_0.png",
+    "options": [
+      "(A) $$3.01 \\times 10^{22}$$",
+      "(B) $$6.02 \\times 10^{22}$$",
+      "(C) $$2.01 \\times 10^{23}$$",
+      "(D) $$5.02 \\times 10^{23}$$"
+    ],
+    "answer": "(A) $$3.01 \\times 10^{22}$$",
+    "solution": "Solution:-(a) \\text{ C + O }  \\rightarrow \\text{ CO}_2 \\ \\[12 \\ g  \\rightarrow  44 \\ g \\text{ of } CO_2 \\ \\equiv 6.022 \\times 10^{23}\\text{  molecules of } CO_2  \\ \\therefore 0.6 \\ g \\text{of carbon } = \\frac{6.022\\}\\ \\times 10^{23} \\times 0.6 = 3.01 \\times 10^{22} \\text{molecules of } CO_2 \\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q79_diag_0.png"
+    ]
+  },
+  {
+    "id": 58,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "One gram mole of a gas at NTP occupies 22.4 L. This fact was derived from",
+    "question_latex": "One gram mole of a gas at NTP occupies 22.4 L. This fact was derived from",
+    "image_url": "",
+    "options": [
+      "(A) Law of gaseous volumes",
+      "(B) Avogadro's hypothesis",
+      "(C) Berzelius hypothesis",
+      "(D) Dalton's atomic theory"
+    ],
+    "answer": "(B) Avogadro's hypothesis",
+    "solution": "Solution:-(b) According to Avogadro's hypothesis one gram mole of a gas at NTP occupies 22.4 L.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 59,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the number of molecules of nitrogen gas present in 22.4 cm$$^3$$ at STP?",
+    "question_latex": "What is the number of molecules of nitrogen gas present in 22.4 cm$$^3$$ at STP?",
+    "image_url": "",
+    "options": [
+      "(A) $$2.24 \\times 10^{20}$$",
+      "(B) $$6.022 \\times 10^{23}$$",
+      "(C) $$6.022 \\times 10^{20}$$",
+      "(D) $$2.24 \\times 10^{23}$$"
+    ],
+    "answer": "(C) $$6.022 \\times 10^{20}$$",
+    "solution": "Solution:-(c) \\[ 1 \\text{ mole} =22.4\\text {dm}^3\\text {of } \\text {gas} \\] $$\n\\ \\=[\\ \\text{1 cm}^3 = 10^{-3}\\ \\text{dm}^3 \\ \\therefore \\ \\text{22.4 cm}^3 \\text { nitrogen gas } \\ \n\\ =6.022 \\times 10^{20}\\ \\text{ moles} = 6.022 \\times 10^{23}$\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 60,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Find the number of moles of sodium atoms in $$6.9 \\times 10^{-2}$$ kg of it. [Atomic mass = $$23 g mol^{-1}$$ ]",
+    "question_latex": "Find the number of moles of sodium atoms in $$6.9 \\times 10^{-2}$$ kg of it. [Atomic mass = $$23 g mol^{-1}$$ ]",
+    "image_url": "",
+    "options": [
+      "(A) 1.5",
+      "(B) 0.3",
+      "(C) 2.3",
+      "(D) 3.0"
+    ],
+    "answer": "(D) 3.0",
+    "solution": "Solution:-(d) 23 g of Na = 1 \\ mol \\text{ Na atoms } $$\\therefore \\text{ 6.9} \\times 10^{-2} = 69  \\ g \\text { of Na}  = \\frac{69}{23}$$ \\= 3 \\text {mol \\ of \\ Na atoms}$$\\end{large}$$\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 61,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "In the reaction, $$2KClO_3(s) \\rightarrow 2KCl(s) + 3O_2(g)$$",
+    "question_latex": "In the reaction, $$2KClO_3(s) \\rightarrow 2KCl(s) + 3O_2(g)$$",
+    "image_url": "",
+    "options": [
+      "(A) 7.45 g",
+      "(B) 48.0 g",
+      "(C) 24.0 g",
+      "(D) 74.5 g"
+    ],
+    "answer": "(D) 74.5 g",
+    "solution": "Solution:-(D) $$2KClO_{3(s)} \\rightarrow 2KCl_{(s)} + 3 O_{2(g)} \\delta H\\equiv -78 \\text{kJ }$$ If 33.6L of oxygen gas is liberated at STP, what is the mass of $$KCl(g) $$ produced? \\ \\\n$$\\begin{array}{rcl}\\ \\hline \\ \\begin{bmatrix}\n\\hspace{.277777em}{\\hspace{.277777em} \\end{lbmatrix}\n$$\\begin{music} 149xgg equals {=6}\n\\3o\\Ldime\n\\wid[[[mass] =  \\hline \\everymath{},(35,5,15^{+}Ctext {oi]:}\n120\\overset {\\ldots}{13Step}\n== \\today}\\ility - separation\n\\t(\\enter{{{\to{%\\SUS\\3}}fit\\\npour =\n\\end{cdot}\\text{density\\text{\n{{\\function}{liter}}}\\showthat||\\gamma\nforydisplaystyle{Siepasssinches}}}%[[{\\layment\n\\text{\nsertup}{2}{KCI]\n\\begin{begin}\ngherc\\r, '{\\wwwBangTra}e--\\malignmentcha/}}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 62,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Identify numerical value from following that has same value in $$^\\circ$$C and $$^\\circ$$F ?",
+    "question_latex": "Identify numerical value from following that has same value in $$^\\circ$$C and $$^\\circ$$F ?",
+    "image_url": "",
+    "options": [
+      "(A) -8",
+      "(B) -11.2",
+      "(C) 0",
+      "(D) -40.0"
+    ],
+    "answer": "(D) -40.0",
+    "solution": "Solution:-(d) \\[\\text{ }^\\circ \\text{F} =\\frac{9}{5} (^\\circ\\text{C}) + 32  =\\frac{9}{5} (-40) + 32 \\]\n\\[=-72 + 32 = -40 \\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 63,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "If 0.5 mole of $$BaCl_2$$ is mixed with 0.2 mole of $$Na_3PO_4$$ , the maximum number of moles of $$Ba_3(PO_4)_2$$ that can be formed is",
+    "question_latex": "If 0.5 mole of $$BaCl_2$$ is mixed with 0.2 mole of $$Na_3PO_4$$ , the maximum number of moles of $$Ba_3(PO_4)_2$$ that can be formed is",
+    "image_url": "",
+    "options": [
+      "(A) 0.7",
+      "(B) 0.5",
+      "(C) 0.03",
+      "(D) 0.10"
+    ],
+    "answer": "(D) 0.10",
+    "solution": "Solution:-(d) $$3BaCl_2 + 2Na_3PO_4 \\rightarrow  Ba_3(PO_4)_2 + 6NaCl $$\nHere, $$Na_3PO_4 $$ is the limiting reactant.\n$$2 \\ \\text{moles of}  \\ Na_3PO_{4} \\text{gives 1} \\ \\text{mole of } Ba_3(PO_4)_2 $$\nSo, $$0.2 \\ \\text{mole of} \\ Na_3PO_{4}\\text{ will give}   0.1 \\ \\text{mole of } \\ {{Ba_3(PO_4)_2}}. $$ ",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 64,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The numerical value of $$\\frac{N}{n}$$ (where, $$N$$ is the number of molecules in a given sample of gas and $$n$$ is the number of moles of the gas) is",
+    "question_latex": "The numerical value of $$\\frac{N}{n}$$ (where, $$N$$ is the number of molecules in a given sample of gas and $$n$$ is the number of moles of the gas) is",
+    "image_url": "",
+    "options": [
+      "(A) 8.314",
+      "(B) $$6.02 \\times 10^{23}$$",
+      "(C) 0.0821",
+      "(D) $$1.66 \\times 10^{-19}$$"
+    ],
+    "answer": "(B) $$6.02 \\times 10^{23}$$",
+    "solution": "Solution:-(b) Number of molecules in \\[ n \\ \\text{moles of substance} = n \\ \\ x \\ \\ n_0 \\]\n\\[\\therefore \\  N (\\text{no. of molecules})\\ \\equiv\\ ?\\]\n$$n  \\ \\text{(no. of moles)} \\equiv n \\times 6.022\\times 10^{23}$$",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 65,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The formula mass of Mohr's salt is 392. The iron present in it is oxidised by $$KMnO_4$$ in acid medium. The equivalent mass of Mohr's salt is",
+    "question_latex": "The formula mass of Mohr's salt is 392. The iron present in it is oxidised by $$KMnO_4$$ in acid medium. The equivalent mass of Mohr's salt is",
+    "image_url": "",
+    "options": [
+      "(A) 392",
+      "(B) 31.6",
+      "(C) 278",
+      "(D) 156"
+    ],
+    "answer": "(A) 392",
+    "solution": "Solution:-(a) Mohr s salt is $$(NH_4)_2SO_4 . FeSO_4 .6H_2O$$\nThe equation is\n\\[5Fe^{2+} + MnO_{4-} + 8H^+ \\rightarrow 5Fe^{3+} + Mn^{2+} + 4H_2O \\] \nTotal change in oxidation number of iron \n $$=+3)-(2) \\equiv &+1, \\text{So, equivalent wt. of Mohr's salt: }$$\n\n$$eq: wt. Mohr's = \\frac{\\text { wt. of Mohr's}}{no. of moles}$$ \\n$$=\\frac {392}{1} = 1 = \\frac{392}{1} =\\ \\equation {392}$$\\n$$=\\frac {392}{1} = \\frac{1}{1}$$\n$$\\text{})$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 66,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which has maximum number of atoms?",
+    "question_latex": "Which has maximum number of atoms?",
+    "image_url": "",
+    "options": [
+      "(A) 2.0 mol of $$S_8$$",
+      "(B) 6.0 mol of $$S$$",
+      "(C) 5.5 mol of $$SO_2$$",
+      "(D) 4.48 L of $$CO_2$$ at STP"
+    ],
+    "answer": "(C) 5.5 mol of $$SO_2$$",
+    "solution": "Solution:-(c) 1. Atoms in 2.0 mol of $$S_8 = 2\\text { X }8 \\times 6.02 \\text{ } x \\ 10^{23} \\text{] }$$\n$$^{=} 9.632 x 10^{24}$$ \n2. Atoms in 6.0 mol of S $$6 \\times 6.02  \\times { \\text{ }10^{23}\\}$$ \n $$^{=} = 3.612 \\times { \\text{ }10^{2}\\}$$\n$$ 3. \\text{Atoms in 5.5 mol of } \\ SO_2 = \\ 3 \\text{ X }5.5 \\times 6.02\\times { \\text{ }10^{23}\\}= 9.93\\times { \\text{ }10^{3}\\}$$\n3. \\text{Atoms in 4.48 L of CO}_2 \\text{at STP} \\displaystyle = \\frac{3\\times 4.48\times 6.02 \\times 10^{23}}{22.4}\\n$$\n$$=3.612\\times 10^{23}$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 67,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "$$KMnO_4$$ (mol.wt.= 158) oxidizes oxalic acid in acid medium to $$CO_2$$ and water as follows $$5C_2O_4^{2-} + 2MnO_4^- + 16H^+ \\rightarrow 10CO_2 + 2Mn^{2+} + 8H_2O$$ What is the equivalent weight of $$KMnO_4$$ ?",
+    "question_latex": "$$KMnO_4$$ (mol.wt.= 158) oxidizes oxalic acid in acid medium to $$CO_2$$ and water as follows $$5C_2O_4^{2-} + 2MnO_4^- + 16H^+ \\rightarrow 10CO_2 + 2Mn^{2+} + 8H_2O$$ What is the equivalent weight of $$KMnO_4$$ ?",
+    "image_url": "chem_q89_diag_0.png",
+    "options": [
+      "(A) 158",
+      "(B) 31.6",
+      "(C) 39.5",
+      "(D) 79"
+    ],
+    "answer": "(B) 31.6",
+    "solution": "Solution:-(b) $$KMnO_4$$ (mol.wt.= 158) oxidizes oxalic acid in acid medium to $$CO_2$$ and water as follows $$5C_2O_4^{2-} + 2MnO_4^- + 16H^+ \\rightarrow 10CO_2 + 2Mn^{2+} + 8H_2O$$ \nEquivalent weight $$\\frac{molecular \\text{weight}}{change \\text{in oxidation number}} = \\frac{158}{5}= 31.6$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "chem_q89_diag_0.png",
+      "chem_q89_diag_1.png"
+    ]
+  },
+  {
+    "id": 68,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "How many atoms of argon are present in 3.99g of it? (Atomic mass=39.9)",
+    "question_latex": "How many atoms of argon are present in 3.99g of it? (Atomic mass=39.9)",
+    "image_url": "",
+    "options": [
+      "(A) $$6.022 \\times 10^{22}$$",
+      "(B) $$3.011 \\times 10^{21}$$",
+      "(C) $$3.011 \\times 10^{22}$$",
+      "(D) $$3.011 \\times 10^{23}$$"
+    ],
+    "answer": "(A) $$6.022 \\times 10^{22}$$",
+    "solution": "Solution:-(A) Mass of $$Ar = 3.99 \\text{g}$$ Atomic mass $$= 39.9$$\n\\[\n\\text{Moles of Ar}= \\frac{3.99}{3.99} = 0.1 \\text{ mol }\\text{of Ar} = 6.022 \\times 10^{23}\\ \\text{atoms.} \\therefore \\text{0.1 } \\text{ mol of Ar} = 6.022 \\times 1022 \\text{atoms}  \\ \\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 69,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Calculate the number of $$Cl^-$$ ions in 333g anhydrous calcium chloride? [At. mass Ca = 40,Cl = 35.5 )",
+    "question_latex": "Calculate the number of $$Cl^-$$ ions in 333g anhydrous calcium chloride? [At. mass Ca = 40,Cl = 35.5 )",
+    "image_url": "",
+    "options": [
+      "(A) $$6 \\ N_A$$",
+      "(B) $$4 \\ N_A$$",
+      "(C) $$N_A$$",
+      "(D) 2 $$N_A$$"
+    ],
+    "answer": "(A) $$6 \\ N_A$$",
+    "solution": "Solution:-(a) Molar mass of calcium chloride \\ \\text{CaCl}_{2} \\ =  \\ 40 + (2\\text{x} 35.5) = 111 \\ \\text{g mol}^{-1}\\]  \\text{Number of moles of } \\ \\text{CaCl}_{2}\\equiv \\frac{333}{111} = 3 \\text{ mol}  \\text{ of NaCl atoms}\n\\text{One molecule of} \\ \\ \\text{CaCl}_2 \\text{ contains } 2 \\text{Cl}^-$ \\ \\text{ions}$$\\n\\ 1 \\text{ mol of }\\text{CaCl}_2 \\text{contains} ? \\ \\text{ mol of Cl}^{1-}\\ \\text{ ions} \n3 \\ \\text{mol} \\ \\text(\\text{ is mol } \\ \\text{*2} \\ \\ \\text{ (${_Cl}^-$) \\ \\text{ions}\\n\\text{No. of ions in 6 mol of  cl }^-  ions \\ = 6 x Na_{C}^-$ ions \\##]\n\n\n",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 70,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Matter is anything which occupies . . . A . . . and has . . . B . . . . Here A and B are",
+    "question_latex": "Matter is anything which occupies . . . A . . . and has . . . B . . . . Here A and B are",
+    "image_url": "",
+    "options": [
+      "(A) Density and mass",
+      "(B) Volume and mass",
+      "(C) Space and mass",
+      "(D) None of these"
+    ],
+    "answer": "(C) Space and mass",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 71,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the number of moles and total number of atoms respectively present in 5.6 cm$$^3$$ of ammonia gas at STP?",
+    "question_latex": "What is the number of moles and total number of atoms respectively present in 5.6 cm$$^3$$ of ammonia gas at STP?",
+    "image_url": "",
+    "options": [
+      "(A) 1.505 mol and $$6.022 \\times 10^{20}$$ atoms",
+      "(B) 2.05 mol and $$1.50 \\times 10^{20}$$ atoms",
+      "(C) $$2.50 \\times 10^{-4}$$ mol and $$6.022 \\times 10^{20}$$ atoms",
+      "(D) $$2.50 \\times 10^{-3}$$ mol and $$1.5 \\times 10^{20}$$ atoms"
+    ],
+    "answer": "(C) $$2.50 \\times 10^{-4}$$ mol and $$6.022 \\times 10^{20}$$ atoms",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 72,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "How many moles of oxygen gas at STP are equivalent to 5.6 litre?",
+    "question_latex": "How many moles of oxygen gas at STP are equivalent to 5.6 litre?",
+    "image_url": "",
+    "options": [
+      "(A) $$\\frac{1}{2}$$ mole",
+      "(B) 1 mole",
+      "(C) $$\\frac{1}{4}$$ mole",
+      "(D) 1 mole"
+    ],
+    "answer": "(C) $$\\frac{1}{4}$$ mole",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 73,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the volume occupied by 16 g methane gas at STP?",
+    "question_latex": "What is the volume occupied by 16 g methane gas at STP?",
+    "image_url": "",
+    "options": [
+      "(A) 1140 cm$$^3$$",
+      "(B) 214 cm$$^3$$",
+      "(C) 22400 cm$$^3$$",
+      "(D) 12.4 cm$$^3$$"
+    ],
+    "answer": "(C) 22400 cm$$^3$$",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 74,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What volume of $$CO_2$$ at STP is obtained by complete combustion of 6 g carbon?",
+    "question_latex": "What volume of $$CO_2$$ at STP is obtained by complete combustion of 6 g carbon?",
+    "image_url": "",
+    "options": [
+      "(A) 2.24dm$$^3$$",
+      "(B) 11.2dm$$^3$$",
+      "(C) 5.6dm$$^3$$",
+      "(D) 22.4dm$$^3$$"
+    ],
+    "answer": "(B) 11.2dm$$^3$$",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 75,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "An example of homogeneous mixture is",
+    "question_latex": "An example of homogeneous mixture is",
+    "image_url": "",
+    "options": [
+      "(A) Mixture of soil and water",
+      "(B) Mixture of salt and sand grains",
+      "(C) Sugar solution",
+      "(D) None of the above"
+    ],
+    "answer": "(C) Sugar solution",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 76,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which of the following pair of compounds does not explain law of multiple proportions?",
+    "question_latex": "Which of the following pair of compounds does not explain law of multiple proportions?",
+    "image_url": "",
+    "options": [
+      "(A) $$O_2$$ and $$O_3$$",
+      "(B) $$H_2O$$ and $$H_2O_2$$",
+      "(C) $$SO_2$$ and $$SO_3$$",
+      "(D) $$CO$$ and $$CO_2$$"
+    ],
+    "answer": "(A) $$O_2$$ and $$O_3$$",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 77,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "One amu is equal to",
+    "question_latex": "One amu is equal to",
+    "image_url": "",
+    "options": [
+      "(A) $$6.022 \\times 10^{-23} g$$",
+      "(B) $$1.6605 \\times 10^{-24} g$$",
+      "(C) $$4.7661 \\times 10^{-25} g$$",
+      "(D) $$8.302 \\times 10^{-23} g$$"
+    ],
+    "answer": "(B) $$1.6605 \\times 10^{-24} g$$",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 78,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the mass of potassium chlorate required to liberate 6.72dm$$^3$$ of oxygen gas at STP. (molar mass $$KClO_3 = 122.5 g mol^{-1}$$ )",
+    "question_latex": "What is the mass of potassium chlorate required to liberate 6.72dm$$^3$$ of oxygen gas at STP. (molar mass $$KClO_3 = 122.5 g mol^{-1}$$ )",
+    "image_url": "",
+    "options": [
+      "(A) 24.5g",
+      "(B) 6.72 g",
+      "(C) 36.75 g",
+      "(D) 12.25 g"
+    ],
+    "answer": "(A) 24.5g",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 79,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The standard adopted for the determination of atomic weight of elements is based on",
+    "question_latex": "The standard adopted for the determination of atomic weight of elements is based on",
+    "image_url": "",
+    "options": [
+      "H^1",
+      "C^{12}",
+      "O^{16}",
+      "S^{32}"
+    ],
+    "answer": "C^{12}",
+    "solution": "(b) The standard adopted for the determination of atomic weight of elements is based on $$^{12}C$$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 80,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The number of significant figures in Avogadro's number is",
+    "question_latex": "The number of significant figures in Avogadro's number is",
+    "image_url": "",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Can be any of these"
+    ],
+    "answer": "Four",
+    "solution": "When numbers are written in scientific notation, then the number of digits between 1 and 10 gives the number of significant figures. Thus, the number of significant figures in $$6.022 \\times 10^{23}$$ is 4.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 81,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The reaction of calcium with water is represented by the equation, $$ \\text{Ca} + 2\\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{H}_2 $$ What volume of $$ \\text{H}_2 $$ at STP would be liberated when 8 g of calcium completely reacts with water?",
+    "question_latex": "The reaction of calcium with water is represented by the equation, $$ \\text{Ca} + 2\\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{H}_2 $$ What volume of $$ \\text{H}_2 $$ at STP would be liberated when 8 g of calcium completely reacts with water?",
+    "image_url": "",
+    "options": [
+      "4480 \\text{ cm}^3",
+      "2240 \\text{ cm}^3",
+      "1120 \\text{ cm}^3",
+      "0.4 \\text{ dm}^3"
+    ],
+    "answer": "4480 \\text{ cm}^3",
+    "solution": "$$\\text{Ca} + 2\\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{H}_2$$\\[22400\\text{ cm}^3 \\]\\[8\\text{ g of calcium will produce } \\frac{22400\\times8}{40} = 4480 \\text{ cm}^3 \\]",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 82,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The equivalent weight of a certain trivalent element is 20. Molecular weight of its oxide is",
+    "question_latex": "The equivalent weight of a certain trivalent element is 20. Molecular weight of its oxide is",
+    "image_url": "",
+    "options": [
+      "152",
+      "56",
+      "168",
+      "68"
+    ],
+    "answer": "168",
+    "solution": "Atomic weight of element, $$M =$$ equivalent weight $$\\times$$ valency \\[= 20 \\times 3 = 60\\]Molecular formula of its oxide= $$M_2O_3$$\\[\\text{Hence, molecular weight of oxide} = 2 \\times 60 + 3 \\times 16 = 120 + 48 = 168\\]",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 83,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which of the following set of compounds does NOT demonstrate the law of multiple proportions?",
+    "question_latex": "Which of the following set of compounds does NOT demonstrate the law of multiple proportions?",
+    "image_url": "",
+    "options": [
+      "\\text{H}_2\\text{O},\\text{H}_2\\text{O}_2",
+      "\\text{SO}_2,\\text{SO}_3",
+      "\\text{C}_2\\text{H}_6,\\text{CO}_2, \\text{CH}_4",
+      "\\text{NO},\\text{NO}_2"
+    ],
+    "answer": "\\text{C}_2\\text{H}_6,\\text{CO}_2, \\text{CH}_4",
+    "solution": "Law of multiple proportions is applicable for two or more elements are combined in more than one form.\\n e.g.: $$\\text{H}_2\\text{O},\\text{H}_2\\text{O}_2;\\text{SO}_2,\\text{SO}_3; \\text{NO},\\text{NO}_2$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 84,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "The temperature of 32°C is equivalent to",
+    "question_latex": "The temperature of 32^\\circ{C} is equivalent to",
+    "image_url": "",
+    "options": [
+      "89.6^\\circ{F}",
+      "69^\\circ{F}",
+      "70^\\circ{F}",
+      "85.6^\\circ{F}"
+    ],
+    "answer": "85.6^\\circ{F}",
+    "solution": "$$(D) \\left(0 ^\\circ{C} \\times\\frac{9}{5}\\right) + 32 = 0 ^\\circ{F}$$\\n$$\\therefore \\ 32 \\times\\frac{9}{5} + 32 = 89.6 ^\\circ{F}$$",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 85,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What amount of oxygen is used at STP to obtain 9 g water from sufficient amount of hydrogen gas?",
+    "question_latex": "What amount of oxygen is used at STP to obtain 9 g water from sufficient amount of hydrogen gas?",
+    "image_url": "",
+    "options": [
+      "11.2\\text{ dm}^3",
+      "5.6\\text{ dm}^3",
+      "16.8\\text{ dm}^3",
+      "22.4\\text{ dm}^3"
+    ],
+    "answer": "5.6\\text{ dm}^3",
+    "solution": "\\[\\text{H}_2(g) + \\frac{1}{2}\\text{O}_2(g) \\rightarrow \\text{H}_2\\text{O}(g)\\]$$11.2\\text{ dm}^3$$ of $$\\text{O}_2$$ gives $$18 \\text{ g}$$ water at STP\\n$$9 \\text{ g}$$ water is obtained from\\n$$\\frac{11.2 \\times 9}{18}$$\\n$$= 5.6\\text{ dm}^3$$ of $$\\text{O}_2$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 86,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "An element, X has the following isotopic composition \\(^ {200}X: 90.0\\%\\), \\(^ {199}X: 8.0\\%\\), \\(^ {202}X: 2.0\\%\\) The weighted average atomic mass of the naturally occurring element X is closed to",
+    "question_latex": "An element, X has the following isotopic composition \\(^ {200}X: 90.0\\%\\), \\(^ {199}X: 8.0\\%\\), \\(^ {202}X: 2.0\\%\\) The weighted average atomic mass of the naturally occurring element X is closed to",
+    "image_url": "",
+    "options": [
+      "200\\text{ u}",
+      "210\\text{ u}",
+      "202\\text{ u}",
+      "199\\text{ u}"
+    ],
+    "answer": "200\\text{ u}",
+    "solution": "",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 87,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "What is the volume in \\text{dm}^3 occupied by 60 g ethane at STP?",
+    "question_latex": "What is the volume in \\text{dm}^3 occupied by 60 g ethane at STP?",
+    "image_url": "",
+    "options": [
+      "11.2",
+      "56",
+      "22.4",
+      "44.8"
+    ],
+    "answer": "44.8",
+    "solution": "30 g of $$\\text{C}_2\\text{H}_6$$ (ethane) = 22.4\\text{dm}^3 at STP.\\n\\therefore 60 g of ethane = 44.8\\text{dm}^3",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 88,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which of the following is not a mixture?",
+    "question_latex": "Which of the following is not a mixture?",
+    "image_url": "",
+    "options": [
+      "Gasoline",
+      "Alcohol",
+      "LPG",
+      "Iodized table salt"
+    ],
+    "answer": "Alcohol",
+    "solution": "Alcohol is a pure compound and it is not a mixture.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 89,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "An ore contains 1.34% of the mineral argentite, Ag2S, by mass. How many gram of this ore would have to be processed in order to obtain 1.00 g of pure solid silver, Ag?",
+    "question_latex": "An ore contains 1.34\\% of the mineral argentite, Ag_2S, by mass. How many gram of this ore would have to be processed in order to obtain 1.00 g of pure solid silver, Ag?",
+    "image_url": "",
+    "options": [
+      "74.6 \\text{ g}",
+      "85.7 \\text{ g}",
+      "107.9 \\text{ g}",
+      "134.0 \\text{ g}"
+    ],
+    "answer": "85.7 \\text{ g}",
+    "solution": "$$\\text{Ag}_2\\text{S} \\Rightarrow 2\\text{Ag}$$\\[248 \\text{ g} \\Rightarrow 2 \\times 108 \\text{ g}\\]\\[2 \\times 108 \\text{g Ag is obtained from } \\text{Ag}_2\\text{S} = 248 \\text{ g}\\] 1 g Ag will be obtained from Ag_2S\\n $$\\frac{248}{2\\times108} = \\frac{248\\times1}{216\\text{ g}}$$\\nBut, the ore contains only 1.34% Ag_2S.\\nThus, 1 g Ag is obtained from ore = $$\\frac{248}{216}\\times \\frac{100}{1.34}$$\\n$$= 85.68 g$$",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 90,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "A gas is found to have formula [CO]x. Its vapour density is 70, the x is",
+    "question_latex": "A gas is found to have formula [CO]_x. Its vapour density is 70, the x is",
+    "image_url": "",
+    "options": [
+      "3.0",
+      "3.5",
+      "5.0",
+      "6.5"
+    ],
+    "answer": "5.0",
+    "solution": "Given, vapour density=70\\n$$\\therefore$$ Molecular weight = $$2 \\times$$ vapour density\\n$$= 2\\times70 = 140$$\\n$$\\text{[CO]}_x = (12+16)x = 28x$$\\n$$\\therefore 28x = 140$$\\n$$\\Rightarrow x = \\frac{140}{28} = 5$$\\n$$\\therefore$$ Formula is $$\\text{(CO)}_5$$",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 91,
+    "chapter": "Some Basic Concepts of Chemistry",
+    "question": "Which among the following elements has highest number of atoms in 1 g each? (At. No.: Au = 197, Na = 23, Cu = 63.5, Fe = 56 )",
+    "question_latex": "Which among the following elements has highest number of atoms in 1 g each? (At. No.: Au = 197, Na = 23, Cu = 63.5, Fe = 56 )",
+    "image_url": "",
+    "options": [
+      "Fe",
+      "Au",
+      "Na",
+      "Cu"
+    ],
+    "answer": "Na",
+    "solution": "\\begin{enumerate}\\n\\item [i.] $$1\\text{ gFe} = 1\\text{ mol}=\\frac{1}{56}\\times6.022\\times10^{23} $$ atoms of Fe \\n\\item [ii.] $$1\\text{ gAu} = 1\\text{ mol}=\\frac{1}{197}\\times6.022\\times10^{23} $$ atoms of Au \\n\\item [iii.] $$1\\text{ gNa} = 1\\text{ mol}=\\frac{1}{23}\\times6.022\\times10^{23} $$ atoms of Na \\n\\item [iv.] $$1\\text{ gCu} = 1\\text{ mol}=\\frac{1}{63.5}\\times6.022\\times10^{23} $$ atoms of Cu \\n\\end{enumerate}\\n\\text{Hence, } 1\\text{ g of Na has highest number of atoms.}",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   }
 ]

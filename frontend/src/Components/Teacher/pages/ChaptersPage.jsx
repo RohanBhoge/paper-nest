@@ -369,13 +369,13 @@ console.log("today_date", new Date().toISOString().split("T")[0]);
           </div>
           {mode === "Random" && (
             <div className="mb-6">
-              <p className="mb-2 ml-2">Number of Questions:</p>
+              <p className="mb-2 ml-2">Enter Number of Questions:</p>
               <input
                 type="number"
                 placeholder="Enter number of questions"
                 value={numberOfQuestions}
                 onChange={handleQuestionCountChange}
-                className="border border-slate-300 rounded-lg px-4 py-2 w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border border-slate-600 rounded-lg px-4 py-2 w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
           )}

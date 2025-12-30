@@ -123,12 +123,12 @@ const CalendarComponent = () => {
               </h3>
 
               <div className="flex flex-col items-center gap-3">
-                <input
-                  type="text"
+                <textarea
                   value={newReminder}
                   onChange={(e) => setNewReminder(e.target.value)}
                   placeholder="Enter reminder..."
-                  className="w-full sm:w-2/3 border border-blue-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  rows="3"
+                  className="w-full sm:w-2/3 border border-blue-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
                 />
                 <button
                   onClick={handleAddReminder}
@@ -143,7 +143,7 @@ const CalendarComponent = () => {
 
         {/* Upcoming Reminders */}
         <div className="bg-white rounded-2xl shadow-lg border border-blue-100 p-6">
-          <h2 className="text-2xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+          <h2 className="text-2xl font-bold text-blue-800 mb-4 flex items-center gap-2 overflow-hidden  ">
             🔔 Upcoming Reminders
           </h2>
 

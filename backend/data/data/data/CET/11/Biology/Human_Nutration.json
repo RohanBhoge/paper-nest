@@ -2,171 +2,2679 @@
   {
     "id": 1,
     "chapter": "Human Nutrition",
-    "question": "The process of intake and utilization of food by the body is called:",
-    "question_latex": "",
+    "question": "Given below are two statements. Statement I - At the end of gastric digestion, a semi solid acidic mass called chyle is formed. Statement II - At the end of digestion in small intestine the simple form of nutrients called chyme are formed. In the light of above statements, choose the correct option given below:",
+    "question_latex": "Given below are two statements. Statement I - At the end of gastric digestion, a semi solid acidic mass called chyle is formed. \nStatement II - At the end of digestion in small intestine the simple form of nutrients called chyme are \nformed. In the light of above statements, choose the correct option given below:",
     "image_url": "",
     "options": [
-      "Digestion",
-      "Nutrition",
-      "Absorption",
-      "Assimilation"
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is correct but statement II is incorrect.",
+      "Statement I is incorrect but statement II is correct."
     ],
-    "answer": "Nutrition",
+    "answer": "Both statement I and statement II are incorrect.",
+    "solution": " At the end of gastric digestion, a semi solid acidic mass called chyme is formed. Chyme is formed in the stomach, not small intestine.",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The process of intake and utilization of food by t..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 2,
     "chapter": "Human Nutrition",
-    "question": "Which organ is primarily responsible for digestion of food?",
-    "question_latex": "",
+    "question": "Which one of the following is not related to tongue?",
+    "question_latex": "Which one of the following is not related to tongue?",
     "image_url": "",
     "options": [
-      "Liver",
-      "Stomach",
-      "Kidney",
-      "Heart"
+      "Upper surface bears papillae.",
+      "Gustatory receptors are present on papillae.",
+      "Helps in pushing the bolus into pharynx.",
+      "Blunt end secretes mucus for lubrication."
     ],
-    "answer": "Stomach",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which organ is primarily responsible for digestion..."
+    "answer": "Blunt end secretes mucus for lubrication.",
+    "solution": " Blunt end secretes mucus for lubrication.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 3,
     "chapter": "Human Nutrition",
-    "question": "The enzyme that breaks down proteins into peptides is:",
-    "question_latex": "",
-    "image_url": "",
+    "question": "Match the types of glands in Column I with their location in Column II",
+    "question_latex": "Match the types of glands in Column I with their location in Column II",
+    "image_url": "bio_q9_diag_0.png",
     "options": [
-      "Pepsin",
-      "Amylase",
-      "Lipase",
-      "Maltase"
+      "i - a, ii - c, iii -d , iv -b",
+      "i - b, ii - a, iii - d, iv - c",
+      "i-c, ii-d, iii-b, iv-a",
+      "i -d, ii-b, iii-a, iv-c"
     ],
-    "answer": "Pepsin",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The enzyme that breaks down proteins into peptides..."
+    "answer": "i -d, ii-b, iii-a, iv-c",
+    "solution": " i -d, ii-b, iii-a, iv-c ",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q9_diag_0.png"
+    ]
   },
   {
     "id": 4,
     "chapter": "Human Nutrition",
-    "question": "Carbohydrates are mainly digested in the:",
-    "question_latex": "",
+    "question": "Portion of the tooth that projects above the gums is __.",
+    "question_latex": "Portion of the tooth that projects above the gums is __.",
     "image_url": "",
     "options": [
-      "Stomach",
-      "Small intestine",
-      "Large intestine",
-      "Liver"
+      "crown",
+      "root",
+      "dentin",
+      "pulp"
     ],
-    "answer": "Small intestine",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Carbohydrates are mainly digested in the:..."
+    "answer": "crown",
+    "solution": " crown",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 5,
     "chapter": "Human Nutrition",
-    "question": "Which vitamin is necessary for the absorption of calcium?",
-    "question_latex": "",
+    "question": "Intake of food is called",
+    "question_latex": "Intake of food is called",
     "image_url": "",
     "options": [
-      "Vitamin A",
-      "Vitamin C",
-      "Vitamin D",
-      "Vitamin K"
+      "digestion",
+      "egestion",
+      "ingestion",
+      "assimilation"
     ],
-    "answer": "Vitamin D",
+    "answer": "ingestion",
+    "solution": " ingestion",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which vitamin is necessary for the absorption of c..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 6,
     "chapter": "Human Nutrition",
-    "question": "The finger-like projections in the small intestine that absorb nutrients are called:",
-    "question_latex": "",
+    "question": "Identify the false statement",
+    "question_latex": "Identify the false statement",
     "image_url": "",
     "options": [
-      "Nephrons",
-      "Villi",
-      "Alveoli",
-      "Nodules"
+      "Bile is secreted by gall bladder",
+      "Fundic stomach is the site of digestion",
+      "Parietal cells lie in wall of stomach",
+      "Bile is secreted by liver"
     ],
-    "answer": "Villi",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The finger-like projections in the small intestine..."
+    "answer": "Bile is secreted by gall bladder",
+    "solution": "Bile is secreted by gall bladder.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 7,
     "chapter": "Human Nutrition",
-    "question": "Which of the following is a deficiency disease caused by lack of Vitamin C?",
-    "question_latex": "",
+    "question": "pH at which pepsinogen is converted to pepsin in presence of HCl is ___.",
+    "question_latex": "pH at which pepsinogen is converted to pepsin in presence of HCl is ___.",
     "image_url": "",
     "options": [
-      "Rickets",
-      "Scurvy",
-      "Night blindness",
-      "Goitre"
+      "7.4",
+      "1.8",
+      "6.8",
+      "8.8"
     ],
-    "answer": "Scurvy",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which of the following is a deficiency disease cau..."
+    "answer": "1.8",
+    "solution": "1.8",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 8,
     "chapter": "Human Nutrition",
-    "question": "Bile juice is produced by:",
-    "question_latex": "",
+    "question": "Fat soluble vitamins are absorbed in ___ of man.",
+    "question_latex": "Fat soluble vitamins are absorbed in ___ of man.",
     "image_url": "",
     "options": [
-      "Pancreas",
-      "Liver",
-      "Stomach",
-      "Small intestine"
+      "Buccal cavity",
+      "Small intestine",
+      "Colon",
+      "Stomach"
     ],
-    "answer": "Liver",
+    "answer": "Small intestine",
+    "solution": "Fat soluble vitamins are absorbed in small intestine of man as maximum absorption takes place in intestinal villi.",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Bile juice is produced by:..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 9,
     "chapter": "Human Nutrition",
-    "question": "Bile helps in the digestion of:",
-    "question_latex": "",
-    "image_url": "",
+    "question": "Complete the analogy with reference to the immediate ducts draining the products or stored substances from the organs given below: Gall bladder : x :: Liver : y.",
+    "question_latex": "Complete the analogy with reference to the immediate ducts draining the products or stored substances from the organs given below: Gall bladder : x :: Liver : y.",
+    "image_url": "bio_q15_diag_0.png",
     "options": [
-      "Proteins",
-      "Carbohydrates",
-      "Fats",
-      "Vitamins"
+      "Bile duct",
+      "Cystic duct",
+      "Duct of Silvius",
+      "Cystic duct"
     ],
-    "answer": "Fats",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Bile helps in the digestion of:..."
+    "answer": "Bile duct",
+    "solution": "Gall bladder: Cystic duct :: Liver : Bile duct.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q15_diag_0.png"
+    ]
   },
   {
     "id": 10,
     "chapter": "Human Nutrition",
-    "question": "Which part of the digestive system absorbs most of the nutrients?",
-    "question_latex": "",
+    "question": "Opening of hepato-pancreatic duct is guarded by ___",
+    "question_latex": "Opening of hepato-pancreatic duct is guarded by ___",
+    "image_url": "",
+    "options": [
+      "pyloric sphincter",
+      "sphincter of Oddi",
+      "cardiac sphincter",
+      "anal sphincter"
+    ],
+    "answer": "sphincter of Oddi",
+    "solution": "Opening of hepato-pancreatic duct is guarded by sphincter of Oddi to prevent back flow.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 11,
+    "chapter": "Human Nutrition",
+    "question": "What should be at the place of A and B in the following reaction:",
+    "question_latex": "What should be at the place of A and B in the following reaction:",
+    "image_url": "bio_q17_diag_0.png",
+    "options": [
+      "A D, B C",
+      "C A, D B",
+      "C B",
+      "C A"
+    ],
+    "answer": "C A",
+    "solution": "Nucleases are digestive enzymes found in pancreatic juice which acts upon nucleic acids found in food and catabolize them.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q17_diag_0.png"
+    ]
+  },
+  {
+    "id": 12,
+    "chapter": "Human Nutrition",
+    "question": "Which part of the intestine turns towards the left side of abdominal cavity below the stomach?",
+    "question_latex": "Which part of the intestine turns towards the left side of abdominal cavity below the stomach?",
+    "image_url": "",
+    "options": [
+      "Duodenum",
+      "Jejunum",
+      "Ileum",
+      "Vermiform appendix"
+    ],
+    "answer": "Ileum",
+    "solution": " Ileum",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 13,
+    "chapter": "Human Nutrition",
+    "question": "Number of molars present in buccal cavity of adult human is ___.",
+    "question_latex": "Number of molars present in buccal cavity of adult human is ___.",
+    "image_url": "",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": "12",
+    "solution": "Each half of each jaw has three molars. Thus, the total number of molars in the human jaw is 12.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 14,
+    "chapter": "Human Nutrition",
+    "question": "Main biological cause of constipaton is",
+    "question_latex": "Main biological cause of constipaton is",
+    "image_url": "",
+    "options": [
+      "Obesity",
+      "Low fibrous diet",
+      "Low protein diet",
+      "Neurological disfunction"
+    ],
+    "answer": "Low fibrous diet",
+    "solution": "Low fibrous diet.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 15,
+    "chapter": "Human Nutrition",
+    "question": "Medium in which pepsin active is",
+    "question_latex": "Medium in which pepsin active is",
+    "image_url": "",
+    "options": [
+      "Alkaline",
+      "Neutral",
+      "Acidic",
+      "Isotonic"
+    ],
+    "answer": "Acidic",
+    "solution": "Acidic",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 16,
+    "chapter": "Human Nutrition",
+    "question": "Inactive trypsinogen is converted into ______ by enterokinase.",
+    "question_latex": "Inactive trypsinogen is converted into ______ by enterokinase.",
+    "image_url": "",
+    "options": [
+      "ptyalin",
+      "pharynx",
+      "peptones",
+      "trypsin"
+    ],
+    "answer": "trypsin",
+    "solution": " trypsin",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 17,
+    "chapter": "Human Nutrition",
+    "question": "Common passage for food and air is ___",
+    "question_latex": "Common passage for food and air is ___",
+    "image_url": "",
+    "options": [
+      "Nasopharynx",
+      "Laryngopharynx",
+      "Vestibule",
+      "Oropharynx"
+    ],
+    "answer": "Oropharynx",
+    "solution": "Common passage for food and air is oropharynx which continues below as laryngopharynx.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 18,
+    "chapter": "Human Nutrition",
+    "question": "Digestion of maltose results in formation of ___.",
+    "question_latex": "Digestion of maltose results in formation of ___.",
+    "image_url": "",
+    "options": [
+      "glucose only",
+      "glucose and fructose",
+      "glucose and galactose",
+      "fructose only"
+    ],
+    "answer": "glucose only",
+    "solution": "glucose only",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 19,
+    "chapter": "Human Nutrition",
+    "question": "In a non-vegetarian person, the muscle glycogen present in the pieces of flesh is digested by",
+    "question_latex": "In a non-vegetarian person, the muscle glycogen present in the pieces of flesh is digested by",
+    "image_url": "bio_q25_diag_0.png",
+    "options": [
+      "A D",
+      "B C",
+      "B D",
+      "B C"
+    ],
+    "answer": "B D",
+    "solution": "-Pancreatic amylase into disaccharides.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q25_diag_0.png"
+    ]
+  },
+  {
+    "id": 20,
+    "chapter": "Human Nutrition",
+    "question": "Give below are two statements. Statement-I : The cardiac sphincter prevents regurgitation of food from stomach to duodenum. Statement-II : The pyloric sphincter regulates flow of food from esophagus to stomach. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_latex": "Give below are two statements. Statement-I : The cardiac sphincter prevents regurgitation of food from stomach to duodenum.\nStatement-II : The pyloric sphincter regulates flow of food from esophagus to stomach.\nIn the light of above statements, choose the most appropriate answer from the options given below.",
+    "image_url": "",
+    "options": [
+      "Statement-I is correct but Statement-II is incorrect.",
+      "Both Statement-I and Statement-II are incorrect.",
+      "Both Statement-I and Statement-II are correct.",
+      "Statement-I is incorrect but Statement-II is correct."
+    ],
+    "answer": "Both Statement-I and Statement-II are incorrect.",
+    "solution": "The cardiac sphincter prevents regurgitation of food from esophagus to stomach, The pyloric sphincter regulates flow of food from stomach to duodenum.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 21,
+    "chapter": "Human Nutrition",
+    "question": "Phagocytic cells of liver are ___",
+    "question_latex": "Phagocytic cells of liver are ___",
+    "image_url": "",
+    "options": [
+      "Serous cells",
+      "Goblet cells",
+      "Sertoli cells",
+      "Kupffer cells"
+    ],
+    "answer": "Kupffer cells",
+    "solution": " In between the cords of hepatic cells, spaces called sinusoids are present through which the blood flows. In the sinusoids, phagocytic cells called Kupffer cells are present.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 22,
+    "chapter": "Human Nutrition",
+    "question": "Chemical digestion of the following starts first in human alimentary canal?",
+    "question_latex": "Chemical digestion of the following starts first in human alimentary canal?",
+    "image_url": "",
+    "options": [
+      "Starch",
+      "Proteins",
+      "Lipids and fats",
+      "Balancing and directional"
+    ],
+    "answer": "Starch",
+    "solution": " Both mechanical and chemical digestion processes take place in mouth.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 23,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following is NOT the reason of indigestion?",
+    "question_latex": "Which one of the following is NOT the reason of indigestion?",
+    "image_url": "",
+    "options": [
+      "Over-eating",
+      "Food poisoning",
+      "Spicy food",
+      "Roughage"
+    ],
+    "answer": "Roughage",
+    "solution": "Roughage is undigested cellulose which helps in smooth transport of food in alimentary canal.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 24,
+    "chapter": "Human Nutrition",
+    "question": "Reabsorption of water takes place in the",
+    "question_latex": "Reabsorption of water takes place in the",
+    "image_url": "",
+    "options": [
+      "stomach",
+      "large intestine",
+      "small intestine",
+      "oesophagus"
+    ],
+    "answer": "large intestine",
+    "solution": " large intestine.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 25,
+    "chapter": "Human Nutrition",
+    "question": "Protein deficiency in children causes",
+    "question_latex": "Protein deficiency in children causes",
+    "image_url": "",
+    "options": [
+      "Goaitre",
+      "Maleria",
+      "Typhoid",
+      "Kwashiorkor"
+    ],
+    "answer": "Kwashiorkor",
+    "solution": "Kwashiorkor",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 26,
+    "chapter": "Human Nutrition",
+    "question": "Rugae are present in the wall of ___",
+    "question_latex": "Rugae are present in the wall of ___",
     "image_url": "",
     "options": [
       "Stomach",
-      "Large intestine",
-      "Small intestine",
+      "Colon",
+      "Oesophagus",
+      "Ileum"
+    ],
+    "answer": "Stomach",
+    "solution": "Rugae are present in the wall of stomach which helps in expansion during food consumption.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 27,
+    "chapter": "Human Nutrition",
+    "question": "Chymotrypsin acta upon",
+    "question_latex": "Chymotrypsin acta upon",
+    "image_url": "",
+    "options": [
+      "Starch in duodenum",
+      "Proteins in stomach",
+      "Proteins in duodenum in acidic medium",
+      "Proteins in duodenum in alkaline medium"
+    ],
+    "answer": "Proteins in duodenum in alkaline medium",
+    "solution": "Proteins in duodenum in alkaline medium",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 28,
+    "chapter": "Human Nutrition",
+    "question": "The only enzyme which brings about chemical digestion of food in buccal cavity is ___",
+    "question_latex": "The only enzyme which brings about chemical digestion of food in buccal cavity is ___",
+    "image_url": "",
+    "options": [
+      "Disaccharidase",
+      "Salivary amylase",
+      "Lysozyme",
+      "Dipeptidase"
+    ],
+    "answer": "Salivary amylase",
+    "solution": "The only enzyme which brings about chemical digestion of food in buccal cavity is salivary amylase.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 29,
+    "chapter": "Human Nutrition",
+    "question": "During respiration, the proteins are degraded by which of the following enzymes?",
+    "question_latex": "During respiration, the proteins are degraded by which of the following enzymes?",
+    "image_url": "",
+    "options": [
+      "Lipase",
+      "Pectinase",
+      "Protease",
+      "Invertase"
+    ],
+    "answer": "Protease",
+    "solution": "Proteins are digested by protease, lipase helps in digestion of lipids, invertase digests sucrose and pectinase helps in pectin digestion.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 30,
+    "chapter": "Human Nutrition",
+    "question": "Mucosa forms ___ a in stomach and ___ b in intestine respectively.",
+    "question_latex": "Mucosa forms ___ a in stomach and ___ b in intestine respectively.",
+    "image_url": "",
+    "options": [
+      "a - rugae, b - villi",
+      "a - villi, b - rugae",
+      "a - gastric glands, b - villi",
+      "a - gastric glands, b - rugae"
+    ],
+    "answer": "a - rugae, b - villi",
+    "solution": "a - rugae, b - villi",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 31,
+    "chapter": "Human Nutrition",
+    "question": "The body of tooth is made up of",
+    "question_latex": "The body of tooth is made up of",
+    "image_url": "",
+    "options": [
+      "dental tubules",
+      "pulp",
+      "enamel",
+      "dentine"
+    ],
+    "answer": "dentine",
+    "solution": "dentine",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 32,
+    "chapter": "Human Nutrition",
+    "question": "Caecum is a small blind sac present at the junction of ___",
+    "question_latex": "Caecum is a small blind sac present at the junction of ___",
+    "image_url": "",
+    "options": [
+      "Jejunum and ileum",
+      "Ileum and colon",
+      "Duodenum and jejunum",
+      "Colon and rectum"
+    ],
+    "answer": "Ileum and colon",
+    "solution": "Caecum is a small blind sac present at the junction of ileum and colon, It hosts some symbiotic microorganisms.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 33,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statement: Statement-I : The muscularis of intestine can be differentiated into longitudinal and oblique muscles only. Statement-II : The muscularis of stomach is made up of outer- longitudinal, middle oblique and inner circular muscles. In light of above statements, choose the most appropriate answer from the option given below.",
+    "question_latex": "Given below are two statement: Statement-I : The muscularis of intestine can be differentiated into longitudinal and oblique muscles only.\nStatement-II : The muscularis of stomach is made up of outer- longitudinal, middle oblique and inner circular muscles.\nIn light of above statements, choose the most appropriate answer from the option given below.",
+    "image_url": "",
+    "options": [
+      "Statement I is correct and statement II is incorrect.",
+      "Statement I is incorrect and statement II is correct.",
+      "Both statement I and statement II are incorrect.",
+      "Both statement I and statement II are correct."
+    ],
+    "answer": "Both statement I and statement II are incorrect.",
+    "solution": "Outermost layer shows longitudinal muscles, middle circular muscles and inner oblique muscles.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 34,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following does not produce any digestive enzyme",
+    "question_latex": "Which one of the following does not produce any digestive enzyme",
+    "image_url": "",
+    "options": [
+      "intestinal mucosa",
+      "Gastric mucosa",
+      "Pancreas",
+      "Liver"
+    ],
+    "answer": "Liver",
+    "solution": "Liver",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 35,
+    "chapter": "Human Nutrition",
+    "question": "Ptyalin is an enzyme secreted by_____",
+    "question_latex": "Ptyalin is an enzyme secreted by_____",
+    "image_url": "",
+    "options": [
+      "Gastric gland",
+      "Liver",
+      "Salivary gland",
+      "Pancreas"
+    ],
+    "answer": "Salivary gland",
+    "solution": "salivary gland",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 36,
+    "chapter": "Human Nutrition",
+    "question": "What is the location of cementum in human tooth?",
+    "question_latex": "What is the location of cementum in human tooth?",
+    "image_url": "",
+    "options": [
+      "Inner lining of root canal.",
+      "Beneath the enamel of crown.",
+      "Covering the dentine of root of the tooth.",
+      "Inner lining of pulp cavity."
+    ],
+    "answer": "Covering the dentine of root of the tooth.",
+    "solution": "Cementum is covering the dentine of root of the tooth. A bone like substance that attaches the root to surrounding socket in the gum.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 37,
+    "chapter": "Human Nutrition",
+    "question": "Denial formula shows.",
+    "question_latex": "Denial formula shows.",
+    "image_url": "",
+    "options": [
+      "Structure ot tooth",
+      "Monophyodont or diphyodont condition",
+      "Number of type of teeth in both jaws",
+      "Number of type of teeth in one half of both the jaws"
+    ],
+    "answer": "Number of type of teeth in one half of both the jaws",
+    "solution": "Number of type of teeth in one half of both the jaws",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 38,
+    "chapter": "Human Nutrition",
+    "question": "Length of large intestine is about ___ meters.",
+    "question_latex": "Length of large intestine is about ___ meters.",
+    "image_url": "",
+    "options": [
+      "1.5",
+      "6.0",
+      "2.5",
+      "3.5"
+    ],
+    "answer": "1.5",
+    "solution": "Length of large intestine is about 1.5 meters.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 39,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following is NOT the component of pancreatic juice?",
+    "question_latex": "Which one of the following is NOT the component of pancreatic juice?",
+    "image_url": "",
+    "options": [
+      "trypsinogen",
+      "dipeptidase",
+      "Chymotrypsinogen",
+      "nuclease"
+    ],
+    "answer": "dipeptidase",
+    "solution": "Dipeptidase is enzyme of intestinal juice for final digestion of proteins.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 40,
+    "chapter": "Human Nutrition",
+    "question": "Mammalian teeth are",
+    "question_latex": "Mammalian teeth are",
+    "image_url": "",
+    "options": [
+      "Acrodont",
+      "Homodont",
+      "Thecodont",
+      "Polyphyodont"
+    ],
+    "answer": "Thecodont",
+    "solution": "Thecodont",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 41,
+    "chapter": "Human Nutrition",
+    "question": "Identify P and Q regions in the diagram of histology of alimentary canal and identify the type of tissue.",
+    "question_latex": "Identify P and Q regions in the diagram of histology of alimentary canal and identify the type of tissue.",
+    "image_url": "bio_q47_diag_0.png",
+    "options": [
+      "P - Sub mucosa - loose connective tissue Q - Circular muscle layer - Smooth muscles",
+      "P - Mucosa - Mesothelium Q - Muscularis - Striated muscles",
+      "P - Serosa - Squamous epithelium Q - Muscularis - Smooth muscles",
+      "P - Mucosa – epithelium with microvilli Q - Longitudinal muscle layer - Striated muscles"
+    ],
+    "answer": "P - Sub mucosa - loose connective tissue Q - Circular muscle layer - Smooth muscles",
+    "solution": "Sub mucosa (P) has loose connective tissue; mucosa has epithelium with microvilli, serosa has mesothelium",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q47_diag_0.png"
+    ]
+  },
+  {
+    "id": 42,
+    "chapter": "Human Nutrition",
+    "question": "Pyloric sphincter regulates passage of food from A to B .",
+    "question_latex": "Pyloric sphincter regulates passage of food from A to B .",
+    "image_url": "",
+    "options": [
+      "A - esophagus, B - stomach",
+      "A - ileum, B-jejunum",
+      "A - stomach, B - duodenum",
+      "A - duodenum, B - ileum"
+    ],
+    "answer": "A - stomach, B - duodenum",
+    "solution": "Sphincter valves are present at both end of stomach. Anterior valve cardiac sphincter allows food to pass from esophagus to stomach. Posterior valve called pyloric allows food to pass from stomach to duodenum.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 43,
+    "chapter": "Human Nutrition",
+    "question": "Deamination occurs in",
+    "question_latex": "Deamination occurs in",
+    "image_url": "",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Nephron",
+      "a and b"
+    ],
+    "answer": "Liver",
+    "solution": "liver.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 44,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statements Statement-I : Secretin stimulates secretion of bile juice, pancreatic juice and intestinal juice. Statement-I : Gastrin inhibits the secretion of gastric juice. In light of above statements, select the most appropriate answer from the option given below.",
+    "question_latex": "Given below are two statements Statement-I : Secretin stimulates secretion of bile juice, pancreatic juice and intestinal juice. \nStatement-I : Gastrin inhibits the secretion of gastric juice. \nIn light of above statements, select the most appropriate answer from the option given below.",
+    "image_url": "",
+    "options": [
+      "Statement I is correct and statement II is incorrect.",
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is incorrect and statement II is correct."
+    ],
+    "answer": "Statement I is correct and statement II is incorrect.",
+    "solution": "Gastrin promotes the secretion of gastric juice",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 45,
+    "chapter": "Human Nutrition",
+    "question": "The disorder caused due to infection through food and water or inflammation of intestine is ___.",
+    "question_latex": "The disorder caused due to infection through food and water or inflammation of intestine is ___.",
+    "image_url": "",
+    "options": [
+      "diarrhoea",
+      "dyspepsia",
+      "constipation",
+      "anaemia"
+    ],
+    "answer": "diarrhoea",
+    "solution": " dyspepsia.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 46,
+    "chapter": "Human Nutrition",
+    "question": "Find out correctly matched pair",
+    "question_latex": "Find out correctly matched pair",
+    "image_url": "",
+    "options": [
+      "Pepsinogen-zyomogenetic cells",
+      "HCl-Goblet cells",
+      "Mucus - Oxyntic cells",
+      "Pancreatic juice - Salivary glands"
+    ],
+    "answer": "Pepsinogen-zyomogenetic cells",
+    "solution": "HCl-Goblet cells",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 47,
+    "chapter": "Human Nutrition",
+    "question": "In absence of enterokinase, digestion of ______ would be affected in our intestine.",
+    "question_latex": "In absence of enterokinase, digestion of ______ would be affected in our intestine.",
+    "image_url": "",
+    "options": [
+      "maltose",
+      "peptones and proteoses",
+      "starch",
+      "Emulsified fats"
+    ],
+    "answer": "peptones and proteoses",
+    "solution": " digestion of starch would be affected.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 48,
+    "chapter": "Human Nutrition",
+    "question": "Point out the wrong enzymatic reaction",
+    "question_latex": "Point out the wrong enzymatic reaction",
+    "image_url": "",
+    "options": [
+      "Sucrose $\\xrightarrow{\\text{Invertase}}$ Glucose + Fructose",
+      "Lactoae $\\xrightarrow{\\text{Lactase}}$ Glucose + Fructose",
+      "Pepsinogen $\\xrightarrow{\\text{HCl}}$ pepsio",
+      "Maltose $\\xrightarrow{\\text{Maltase}}$ Glucose"
+    ],
+    "answer": "Lactoae $\\xrightarrow{\\text{Lactase}}$ Glucose + Fructose",
+    "solution": "Lactoae $\\xrightarrow{\\text{Lactase}}$ Glucose + Fructose",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 49,
+    "chapter": "Human Nutrition",
+    "question": "The process in which an organism consumes and utilizes food substances is ____.",
+    "question_latex": "The process in which an organism consumes and utilizes food substances is ____.",
+    "image_url": "",
+    "options": [
+      "biofortification",
+      "respiration",
+      "nutrition",
+      "emulsification"
+    ],
+    "answer": "nutrition",
+    "solution": "The process in which an organism consumes and utilizes food substances is nutrition.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 50,
+    "chapter": "Human Nutrition",
+    "question": "The coils of small intestine are held together by",
+    "question_latex": "The coils of small intestine are held together by",
+    "image_url": "",
+    "options": [
+      "mesenteries",
+      "mesothelium",
+      "mesethmoid",
+      "mesovarium"
+    ],
+    "answer": "mesenteries",
+    "solution": "mesenteries",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 51,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statements: Statement I- During swallowing, the tongue presses the bolus against lower jaw and pushes it into pharynx. Statement II- Only starch is digested into sucrose due to the action of salivary amylase. In the light of above statements, choose the most appropriate answer from the options given below-",
+    "question_latex": "Given below are two statements: Statement I- During swallowing, the tongue presses the bolus against lower jaw and pushes it into pharynx.\nStatement II- Only starch is digested into sucrose due to the action of salivary amylase.\nIn the light of above statements, choose the most appropriate answer from the options given below-",
+    "image_url": "",
+    "options": [
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is correct and statement II is incorrect.",
+      "Statement I is incorrect and statement II is correct."
+    ],
+    "answer": "Both statement I and statement II are incorrect.",
+    "solution": " During swallowing, the tongue presses the bolus against palate and pushes it into pharynx.\\nII. The only chemical digestion that takes place in mouth is by the action of salivary amylase: it helps in conversion of starch to maltose.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 52,
+    "chapter": "Human Nutrition",
+    "question": "Pigments like bilirubin and urochrome are formed due to breakdown of ___.",
+    "question_latex": "Pigments like bilirubin and urochrome are formed due to breakdown of ___.",
+    "image_url": "",
+    "options": [
+      "bile salts",
+      "haemoglobin",
+      "cholesterol",
+      "nitrogen bases"
+    ],
+    "answer": "haemoglobin",
+    "solution": "hemoglobin",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 53,
+    "chapter": "Human Nutrition",
+    "question": "The opening of respiratory system in pharynx is called",
+    "question_latex": "The opening of respiratory system in pharynx is called",
+    "image_url": "",
+    "options": [
+      "glottis",
+      "gullet",
+      "epiglottis",
+      "vestibules"
+    ],
+    "answer": "glottis",
+    "solution": " glottis",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 54,
+    "chapter": "Human Nutrition",
+    "question": "Kupffer cells of liver help in ___",
+    "question_latex": "Kupffer cells of liver help in ___",
+    "image_url": "",
+    "options": [
+      "detoxification",
+      "synthesis of vitamin A, D, K and $B_{12}$",
+      "emulsification of fats",
+      "deamination of amino acid",
+      "phagocytosis"
+    ],
+    "answer": "detoxification",
+    "solution": " These cells destroy toxic substances, dead & worn-out blood cells and microorganisms.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 55,
+    "chapter": "Human Nutrition",
+    "question": "Secretion of salivary gland performs following functions EXCEPT ____",
+    "question_latex": "Secretion of salivary gland performs following functions EXCEPT ____",
+    "image_url": "",
+    "options": [
+      "acts as antibacterial agent that prevents infections.",
+      "partial digestion of complex carbohydrates",
+      "lubrication of food",
+      "digestion of disaccharides"
+    ],
+    "answer": "digestion of disaccharides",
+    "solution": "Polysaccharides are digested by the action of salivary amylase.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 56,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statements: Statement I - Carbohydrate digestion in large intestine ends up in the production of indole, skatole and $H_2 S$. Statement II - Proteins are digested by bacterial enzymes in human large intestine, giving rise to hydrogen, carbon dioxide and methane gas. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_latex": "Given below are two statements: Statement I - Carbohydrate digestion in large intestine ends up in the production of indole, skatole and $H_2 S$. \nStatement II - Proteins are digested by bacterial enzymes in human large intestine, giving rise to \nhydrogen, carbon dioxide and methane gas. \nIn the light of above statements, choose the most appropriate answer from the options given below.",
+    "image_url": "",
+    "options": [
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is correct and statement II is incorrect.",
+      "Statement I is incorrect and statement II is correct."
+    ],
+    "answer": "Both statement I and statement II are incorrect.",
+    "solution": "In the human large intestine, bacterial fermentation of carbohydrates produces hydrogen, carbon dioxide and methane, while protein breakdown yields indole, skatole, and hydrogen sulphide $(H_2 S)$ .",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 57,
+    "chapter": "Human Nutrition",
+    "question": "Liver does not synthesis",
+    "question_latex": "Liver does not synthesis",
+    "image_url": "",
+    "options": [
+      "Albumin",
+      "Prothrobin",
+      "Fibrinogen",
+      "Gammaglobulins"
+    ],
+    "answer": "Gammaglobulins",
+    "solution": "Gammaglobulins",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 58,
+    "chapter": "Human Nutrition",
+    "question": "Rennin acts on ___?",
+    "question_latex": "Rennin acts on ___?",
+    "image_url": "",
+    "options": [
+      "maltose",
+      "casein",
+      "fatty acids",
+      "amino acids"
+    ],
+    "answer": "casein",
+    "solution": " casein",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 59,
+    "chapter": "Human Nutrition",
+    "question": "Select the mismatched pair",
+    "question_latex": "Select the mismatched pair",
+    "image_url": "",
+    "options": [
+      "Gastrin - stimulates secretion of gastric juice",
+      "GIP - inhibits gastric secretion",
+      "Secretin - inhibits glucagon and insulin secretion",
+      "CCK - induces satiety"
+    ],
+    "answer": "Secretin - inhibits glucagon and insulin secretion",
+    "solution": "Secretin stimulates bile and pancreatic juice.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 60,
+    "chapter": "Human Nutrition",
+    "question": "Identify P, Q, R from the given diagram of part of digestive system.",
+    "question_latex": "Identify P, Q, R from the given diagram of part of digestive system.",
+    "image_url": "bio_q66_diag_0.png",
+    "options": [
+      "P - Gall bladder, Q - Pancreas, R - Cardiac stomach",
+      "P - Bile duct, Q - Stomach, R - Duodenum",
+      "P - Gall bladder, Q - Pancreas, R - Duodenum",
+      "P - Cystic, duct Q - Duodenum, R - Pancreas"
+    ],
+    "answer": "P - Gall bladder, Q - Pancreas, R - Duodenum",
+    "solution": "Secretin stimulates bile and pancreatic juice.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q66_diag_0.png"
+    ]
+  },
+  {
+    "id": 61,
+    "chapter": "Human Nutrition",
+    "question": "Enzyme Enterokinase helps in conversion of ___",
+    "question_latex": "Enzyme Enterokinase helps in conversion of ___",
+    "image_url": "",
+    "options": [
+      "Pepsinogen to pepsin",
+      "Trypsinogen to trypsin",
+      "Chymotrypsinogen to chymotrypsin",
+      "Chyme to chyle"
+    ],
+    "answer": "Trypsinogen to trypsin",
+    "solution": "Trypsinogen to trypsin in duodenum.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 62,
+    "chapter": "Human Nutrition",
+    "question": "Oesophagus is about _____ long.",
+    "question_latex": "Oesophagus is about _____ long.",
+    "image_url": "",
+    "options": [
+      "11 cm s",
+      "15 cms",
+      "20 cms",
+      "25 cms"
+    ],
+    "answer": "25 cms",
+    "solution": "25 cms",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 63,
+    "chapter": "Human Nutrition",
+    "question": "Secretion of pancratic enzymes and bile juice is stimulated by ______ hormone.",
+    "question_latex": "Secretion of pancratic enzymes and bile juice is stimulated by ______ hormone.",
+    "image_url": "",
+    "options": [
+      "Cholecystokinin",
+      "Gastrin",
+      "Secretin",
+      "Coherin"
+    ],
+    "answer": "Cholecystokinin",
+    "solution": "Secretion of pancreatic juice and bile is stimulated by Cholicystokinin a gastric hormone. Gastrin stimulates secretion of gastric juice, Secretin helps in stimulation pancreatic acini to release bicarbonates, coherin is associated with villi movements (motor function) helping in absorption.\\n",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 64,
+    "chapter": "Human Nutrition",
+    "question": "Select the INCORRECT statement regarding physiology of digestion.",
+    "question_latex": "Select the INCORRECT statement regarding physiology of digestion.",
+    "image_url": "",
+    "options": [
+      "Chylomicrons are fat droplets coated with protein",
+      "Emulsification is the function of liver",
+      "Succus entericus is the name given to intestinal juice",
+      "The absorption of glycerol, fatty acid and monosaccharides takes place by capillaries in villi"
+    ],
+    "answer": "The absorption of glycerol, fatty acid and monosaccharides takes place by capillaries in villi",
+    "solution": "Chylomicrons are coat droplets coated with protein\\n? Emulsification is the function of liver ?\\nSuccus entericus is the name given to intestinal juice ?\\nThe absorption of glycerol, fatty acids and monosaccharides directly enter capillaries ? glycerol and fatty acids are first converted into chylomicrons and enter lacteals ( lymphatic vessels ) ? not capillaries ?",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 65,
+    "chapter": "Human Nutrition",
+    "question": "Choose the INCORRECT statement with respect to Jaundice.",
+    "question_latex": "Choose the INCORRECT statement with respect to Jaundice.",
+    "image_url": "",
+    "options": [
+      "Increased bilirubin level or obstruction in the flow of bile from liver to duodenum.",
+      "Supportive care, proper rest are the treatments given to the patient.",
+      "Water soluble bilirubin is toxic to brain cells.",
+      "Bilirubin is produced from breakdown of haemoglobin."
+    ],
+    "answer": "Water soluble bilirubin is toxic to brain cells.",
+    "solution": "Water soluble bilirubin is toxic to brain cells.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 66,
+    "chapter": "Human Nutrition",
+    "question": "Swallowing of bolus occurs by ___. [2025]",
+    "question_latex": "Swallowing of bolus occurs by ___. [2025]",
+    "image_url": "",
+    "options": [
+      "(A) deglutition",
+      "(B) regurgitation",
+      "(C) exocytosis",
+      "(D) phagocytosis"
+    ],
+    "answer": "(A) deglutition",
+    "solution": "(A) Deglutition is the process of swallowing the bolus of food.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 67,
+    "chapter": "Human Nutrition",
+    "question": "Following are the four concentric layers present in the wall intestine, from outer to inner side. Select the correct option:[MHT-CET 2024]",
+    "question_latex": "Following are the four concentric layers present in the wall intestine, from outer to inner side. Select the correct option:[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) Serosa → Muscularis → Submucosa → Mucosa",
+      "(B) Muscularis → Submucosa → Mucosa → Serosa",
+      "(C) Mucosa → Muscularis → Submucosa → Serosa",
+      "(D) Serosa → Mucosa → Musculari → Submucosa"
+    ],
+    "answer": "(A) Serosa → Muscularis → Submucosa → Mucosa",
+    "solution": "(A) Serosa → Muscularis → Submucosa → Mucosa is the correct order of layers from outer to inner side in the intestinal wall.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 68,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following condition can be improved by intake of more roughage, sufficient fluids in diet and exercise?[2025, 2024]",
+    "question_latex": "Which of the following condition can be improved by intake of more roughage, sufficient fluids in diet and exercise?[2025, 2024]",
+    "image_url": "",
+    "options": [
+      "(A) Constipation",
+      "(B) Jaundice",
+      "(C) Vomitting",
+      "(D) Diarrhoea"
+    ],
+    "answer": "(A) Constipation",
+    "solution": "(A) When frequency of defecation is reduced to less than once per week the condition is called constipation.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 69,
+    "chapter": "Human Nutrition",
+    "question": "Reverse peristaltic movements of gastric wall are controlled by non-vital vomiting centre located in ___[MHT-CET 2023]",
+    "question_latex": "Reverse peristaltic movements of gastric wall are controlled by non-vital vomiting centre located in ___[MHT-CET 2023]",
+    "image_url": "",
+    "options": [
+      "(A) Hypothalamus",
+      "(B) Cerebellum",
+      "(C) Diencephalon",
+      "(D) Medulla oblongata"
+    ],
+    "answer": "(D) Medulla oblongata",
+    "solution": "(D) Reverse peristaltic movements of gastric wall are controlled by non-vital vomiting centre located in medulla oblongata through vagus nerve.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 70,
+    "chapter": "Human Nutrition",
+    "question": "Water is largely absorbed in",
+    "question_latex": "Water is largely absorbed in",
+    "image_url": "",
+    "options": [
+      "(A) Small intestine",
+      "(B) Colon",
+      "(C) Stomach",
+      "(D) Oesophagus"
+    ],
+    "answer": "(B) Colon",
+    "solution": "(B) Water is largely absorbed in the colon.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 71,
+    "chapter": "Human Nutrition",
+    "question": "Food and air pathway are divided at",
+    "question_latex": "Food and air pathway are divided at",
+    "image_url": "",
+    "options": [
+      "(A) Larynx",
+      "(B) Pharynx",
+      "(C) Oesophagus",
+      "(D) Stomach"
+    ],
+    "answer": "(B) Pharynx",
+    "solution": "(B) Food and air pathway are divided at the pharynx.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 72,
+    "chapter": "Human Nutrition",
+    "question": "Deglutition means",
+    "question_latex": "Deglutition means",
+    "image_url": "",
+    "options": [
+      "(A) swallowing of food",
+      "(B) mastication of food",
+      "(C) chewing of food",
+      "(D) throwing up of food"
+    ],
+    "answer": "(A) swallowing of food",
+    "solution": "(A) Deglutition means swallowing of food.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 73,
+    "chapter": "Human Nutrition",
+    "question": "Select the correct pair of peptide hormones secreted by the alimentary canal. [MHT-CET 2020]",
+    "question_latex": "Select the correct pair of peptide hormones secreted by the alimentary canal. [MHT-CET 2020]",
+    "image_url": "",
+    "options": [
+      "(A) Cholecystokinin and erythropoietin",
+      "(B) Secretin and insulin",
+      "(C) Gastrin and secretin",
+      "(D) Insulin and somatostatin"
+    ],
+    "answer": "(C) Gastrin and secretin",
+    "solution": "(C) Peptide hormones secreted by alimentary canal are also known as gastrointestinal hormone. Which includes Gastrin, Secretin, Cholicyctokinin, GIP regulating gastrointestinal functions. Erythropoietin secreted by kidney, insulin by pancreas. Somatostatin is GH released by pituitary gland.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 74,
+    "chapter": "Human Nutrition",
+    "question": "Salivary amylase helps in conversion of[2025]",
+    "question_latex": "Salivary amylase helps in conversion of[2025]",
+    "image_url": "",
+    "options": [
+      "(A) starch into maltose",
+      "(B) protein into proteases",
+      "(C) fat into fatty acids",
+      "(D) glycogen into disaccharides"
+    ],
+    "answer": "(A) starch into maltose",
+    "solution": "(A) Salivary amylase helps convert starch into maltose.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 75,
+    "chapter": "Human Nutrition",
+    "question": "The toxic substances in the diet are detoxified in human body by",
+    "question_latex": "The toxic substances in the diet are detoxified in human body by",
+    "image_url": "",
+    "options": [
+      "(A) Kidney",
+      "(B) Liver",
+      "(C) Lungs",
+      "(D) Stomach"
+    ],
+    "answer": "(B) Liver",
+    "solution": "(B) The liver detoxifies toxic substances in the human body.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 76,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following gives basic shape to the tooth?[2025]",
+    "question_latex": "Which one of the following gives basic shape to the tooth?[2025]",
+    "image_url": "",
+    "options": [
+      "(A) Dentine",
+      "(B) Enamel",
+      "(C) Cementum",
+      "(D) Pulp"
+    ],
+    "answer": "(A) Dentine",
+    "solution": "(A) Dentine gives basic shape to the tooth.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 77,
+    "chapter": "Human Nutrition",
+    "question": "Structural and functional unit of liver is ___.[MHT-CET 2024]",
+    "question_latex": "Structural and functional unit of liver is ___.[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) lobules",
+      "(B) villi",
+      "(C) sarcomere",
+      "(D) acini"
+    ],
+    "answer": "(A) lobules",
+    "solution": "(A) Each lobe is divided into several structural and functional units of liver called hepatic lobules. Which consist of cords of hepatic cells which are arranged around a central vein.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 78,
+    "chapter": "Human Nutrition",
+    "question": "In human beings, the structural and functional units of liver are___[MHT-CET 2024]",
+    "question_latex": "In human beings, the structural and functional units of liver are___[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) Acini",
+      "(B) follicles",
+      "(C) villi",
+      "(D) lobules"
+    ],
+    "answer": "(D) lobules",
+    "solution": "(D) The structural and functional units of liver are lobules, lobule consist of cords of hepatic Cells, Hepatic cells produce bile juice. It is collected and carried through bile duct and stored in sac like gall bladder.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 79,
+    "chapter": "Human Nutrition",
+    "question": "From the following, select the INCORRECT statement with reference to absorption of nutrients/substances in human alimentary canal.[MHT-CET 2024]",
+    "question_latex": "From the following, select the INCORRECT statement with reference to absorption of nutrients/substances in human alimentary canal.[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) Monosaccharides and amino acids are absorbed in small intestine as well as large intestine.",
+      "(B) Vitamin B and Vitamin C are absorbed in the blood capillaries in intestinal villi.",
+      "(C) Alcohol and aspirin are absorbed in stomach.",
+      "(D) Vitamin A and Vitamin D are absorbed in lacteals of small intestine."
+    ],
+    "answer": "(A) Monosaccharides and amino acids are absorbed in small intestine as well as large intestine.",
+    "solution": "(A) Monosaccharide & amino acids are absorbed in small intestine as large intestine do not perform any absorption function.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 80,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following inhibit the secretion of gastric juice? I. Gastrin II. Secretin III. Cholecystokinin IV. GIP V. Vagus nerve Select the correct option. [2025]",
+    "question_latex": "Which of the following inhibit the secretion of gastric juice? I. Gastrin \nII. Secretin \nIII. Cholecystokinin \nIV. GIP \nV. Vagus nerve \nSelect the correct option. [2025]",
+    "image_url": "",
+    "options": [
+      "(A) I and II only",
+      "(B) II and IV only",
+      "(C) I and III only",
+      "(D) IV and V only"
+    ],
+    "answer": "(B) II and IV only",
+    "solution": "(B) Secretin and GIP inhibit the secretion of gastric juice.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 81,
+    "chapter": "Human Nutrition",
+    "question": "The enzyme enterokinase helps in conversion of ___.[2025, 2024, 2023]",
+    "question_latex": "The enzyme enterokinase helps in conversion of ___.[2025, 2024, 2023]",
+    "image_url": "",
+    "options": [
+      "(A) Protein into polypeptides",
+      "(B) Trypsinogen into trypsin",
+      "(C) Casein into coagulated milk protein",
+      "(D) Pepsinogen into pepsin"
+    ],
+    "answer": "(B) Trypsinogen into trypsin",
+    "solution": "(B) Enterokinase activates trypsinogen into trypsin in the small intestine.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 82,
+    "chapter": "Human Nutrition",
+    "question": "___ and ___ are caused due to protein energy malnutrition.[MHT-CET 2024]",
+    "question_latex": "___ and ___ are caused due to protein energy malnutrition.[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) Kwashiorkor and Marasmus",
+      "(B) Osteoporosis and tetany",
+      "(C) Uremia and nephritis",
+      "(D) Diabetes mellitus and diabetes insipidus"
+    ],
+    "answer": "(A) Kwashiorkor and Marasmus",
+    "solution": "(A) Kwashiorkor and Marasmus are caused due to protein energy malnutrition.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 83,
+    "chapter": "Human Nutrition",
+    "question": "Match Column I with Column II and select the correct option.[2025]",
+    "question_latex": "\\begin{array}{|c|c|}\n\\hline\n\\text{Column I (Food stuffs)} & \\text{Column II (Final products of digestion)} \\\\\\hline\n\\text{i. Proteins} & \\text{a. Nitrogen bases and pentose sugars.} \\\\\n\\text{ii. Fats} & \\text{b. Amino acids} \\\\\n\\text{iii. Carbohydrates} & \\text{c. Monoglycerides and fatty acids} \\\\\n\\text{iv. DNA and RNA} & \\text{d. Monosaccharides} \\\\\\hline\n\\end{array} \\\\\\text{Select the correct option:}[2025]",
+    "image_url": "",
+    "options": [
+      "(A) i - c, ii - b, iii - d, iv - a",
+      "(B) i - b, ii - c, iii - d, iv - a",
+      "(C) i - d, ii - a, iii - c, iv - b",
+      "(D) i - d, ii - b, iii - a, iv - c"
+    ],
+    "answer": "(B) i - b, ii - c, iii - d, iv - a",
+    "solution": "(B) i - b, ii - c, iii - d, iv - a",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 84,
+    "chapter": "Human Nutrition",
+    "question": "Narrower distal end of stomach is called",
+    "question_latex": "Narrower distal end of stomach is called",
+    "image_url": "",
+    "options": [
+      "(A) Cardiac",
+      "(B) Duodenum",
+      "(C) Fundua",
+      "(D) Pylorus"
+    ],
+    "answer": "(D) Pylorus",
+    "solution": "(D) The Pylorus is the narrower distal end of stomach.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 85,
+    "chapter": "Human Nutrition",
+    "question": "The name of the salivary gland present below lower jaw is",
+    "question_latex": "The name of the salivary gland present below lower jaw is",
+    "image_url": "",
+    "options": [
+      "(A) parotid gland",
+      "(B) sub maxillary gland",
+      "(C) sub-mandibular gland",
+      "(D) sublingual gland"
+    ],
+    "answer": "(C) sub-mandibular gland",
+    "solution": "(C) The sub-mandibular gland is the salivary gland present below the lower jaw.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 86,
+    "chapter": "Human Nutrition",
+    "question": "Digestion is",
+    "question_latex": "Digestion is",
+    "image_url": "",
+    "options": [
+      "(A) Absorption of water",
+      "(B) Absorption of diffusible food",
+      "(C) Convertion of non diffusible food particle into diffusible food particle",
+      "(D) Utilization of diffusible food"
+    ],
+    "answer": "(C) Convertion of non diffusible food particle into diffusible food particle",
+    "solution": "(C) Digestion is the conversion of non-diffusible food particles into diffusible food particles.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 87,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following characters is NOT found in children suffering from Kwashiorkor?[MHT-CET 2023]",
+    "question_latex": "Which of the following characters is NOT found in children suffering from Kwashiorkor?[MHT-CET 2023]",
+    "image_url": "",
+    "options": [
+      "(A) Atrophy of digestive glands.",
+      "(B) Poor brain development.",
+      "(C) Loss of appetite.",
+      "(D) Slender legs and protruding belly."
+    ],
+    "answer": "(A) Atrophy of digestive glands.",
+    "solution": "(A) Atrophy of digestive glands causing digestion and absorption interrupted in Marasmus which is found in infants under one year age.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 88,
+    "chapter": "Human Nutrition",
+    "question": "Number of milk teeth is",
+    "question_latex": "Number of milk teeth is",
+    "image_url": "",
+    "options": [
+      "(A) 52",
+      "(B) 32",
+      "(C) 20",
+      "(D) 12"
+    ],
+    "answer": "(C) 20",
+    "solution": "(C) The number of milk teeth is 20.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 89,
+    "chapter": "Human Nutrition",
+    "question": "What is the total length of human alimentary canal?",
+    "question_latex": "What is the total length of human alimentary canal?",
+    "image_url": "",
+    "options": [
+      "(A) 8-10 meters",
+      "(B) 8-10 feet",
+      "(C) 80-100 meter",
+      "(D) 25-30 meter"
+    ],
+    "answer": "(A) 8-10 meters",
+    "solution": "(A) The total length of human alimentary canal is about 8-10 meters.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 90,
+    "chapter": "Human Nutrition",
+    "question": "From the list given below, which of the following do NOT bring about digestion of emulsified fat into fatty acids and monoglycerides in human beings? I) Bile juice II) Pancreatic juice III) Succus entericus IV) Gastric juice Select the correct option[MHT-CET 2024]",
+    "question_latex": "From the list given below, which of the following do NOT bring about digestion of emulsified fat into fatty acids and monoglycerides in human beings? \nI) Bile juice \nII) Pancreatic juice \nIII) Succus entericus \nIV) Gastric juice \nSelect the correct option[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "(A) (II) and ( III) only",
+      "(B) ( I) and ( II) only",
+      "(C) ( I) and ( III) only",
+      "(D) ( I) and ( IV) only"
+    ],
+    "answer": "(D) ( I) and ( IV) only",
+    "solution": "(D) Bile juice - no enzymes only brings emulsification of fats\nGastric juice - protein digestion and milk protein digestion.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 91,
+    "chapter": "Human Nutrition",
+    "question": "Glisson's capsule is ___.[2025]",
+    "question_latex": "Glisson's capsule is ___.[2025]",
+    "image_url": "",
+    "options": [
+      "(A) outermost lining of gastrointestinal tract",
+      "(B) connective tissue covering of hepatic lobe",
+      "(C) proximal end of nephron",
+      "(D) lining of lumen of alimentary canal"
+    ],
+    "answer": "(B) connective tissue covering of hepatic lobe",
+    "solution": "(B) Glisson's capsule is the connective tissue covering of the liver.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 92,
+    "chapter": "Human Nutrition",
+    "question": "Caudate is the part of",
+    "question_latex": "Caudate is the part of",
+    "image_url": "",
+    "options": [
+      "(A) Left lobe of liver",
+      "(B) Right lobe of liver",
+      "(C) Spigelian lobe of liver",
+      "(D) All of the above"
+    ],
+    "answer": "(B) Right lobe of liver",
+    "solution": "(B) Caudate is the part of the Right lobe of liver.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 93,
+    "chapter": "Human Nutrition",
+    "question": "Identify the CORRECT match of the site of action on food substrate, enzyme acting on it and its end products in the following reactions. [MHT-CET 2020]",
+    "question_latex": "Identify the CORRECT match of the site of action on food substrate, enzyme acting on it and its end products in the following reactions. [MHT-CET 2020]",
+    "image_url": "",
+    "options": [
+      "(A) Small intestine: Lactose Topsin $\\rightarrow$ glu cose $+$ galactose",
+      "(B) Stomach: Maltose Maltese $\\rightarrow$ glu cose $+$ fructose",
+      "(C) Mouth cavity: Emulsified fats Amydes $\\rightarrow$ chylomicrons",
+      "(D) Duodenum: Nucleic acids Noulesss $\\rightarrow$ Nucleotides"
+    ],
+    "answer": "(D) Duodenum: Nucleic acids Noulesss $\\rightarrow$ Nucleotides",
+    "solution": "(D) In duodenum N.A. are digested by enzyme nucleases found in pancreatic juice. Lactose is digested by enzyme lactase in small intestine. Maltose is digested in small intestine and not in stomach and lipids are digested in intestine not in mouth cavity.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 94,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following is NOT a part of alimentary canal?[2025]",
+    "question_latex": "Which one of the following is NOT a part of alimentary canal?[2025]",
+    "image_url": "",
+    "options": [
+      "(A) Mouth",
+      "(B) Stomach",
+      "(C) Liver",
+      "(D) Small intestine"
+    ],
+    "answer": "(C) Liver",
+    "solution": "(C) Liver is a digestive gland associated with the alimentary canal.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 95,
+    "chapter": "Human Nutrition",
+    "question": "Average kilocalorie of energy needed by woman is",
+    "question_latex": "Average kilocalorie of energy needed by woman is",
+    "image_url": "",
+    "options": [
+      "(A) Less than man",
+      "(B) More than man.",
+      "(C) Equal to man",
+      "(D) Can not be predicted"
+    ],
+    "answer": "(A) Less than man",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 96,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following is NOT the cause of indigestion?",
+    "question_latex": "Which one of the following is NOT the cause of indigestion?",
+    "image_url": "",
+    "options": [
+      "(A) Anxiety and spicy food.",
+      "(B) Less consumption of food.",
+      "(C) Inadequate enzyme secretion.",
+      "(D) Food poisoning"
+    ],
+    "answer": "(B) Less consumption of food.",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 97,
+    "chapter": "Human Nutrition",
+    "question": "External sphincters in urethra are made up of ____ muscles and ____ in nature.",
+    "question_latex": "External sphincters in urethra are made up of \\_\\_\\_ muscles and \\_\\_\\_ in nature.",
+    "image_url": "",
+    "options": [
+      "(A) striated and involuntary",
+      "(B) striated and voluntary",
+      "(C) smooth and voluntary",
+      "(D) smooth and involuntary"
+    ],
+    "answer": "(B) striated and voluntary",
+    "solution": "External sphincters in urethra are made up of striated muscles and voluntary in nature. Internal urethra is smooth and involuntary.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 98,
+    "chapter": "Human Nutrition",
+    "question": "Match the following in Column I with Column II and select the correct option:",
+    "question_latex": "Match the following in Column I with Column II and select the correct option:",
+    "image_url": "bio_q104_diag_0.png",
+    "options": [
+      "(A) (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(B) (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(C) (a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(D) (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "answer": "(A) (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Match the columns with name of organs digestive system and their functions.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q104_diag_0.png"
+    ]
+  },
+  {
+    "id": 99,
+    "chapter": "Human Nutrition",
+    "question": "Salivary gland present in front of ear is called ______gland.",
+    "question_latex": "Salivary gland present in front of ear is called \\_\\_\\_\\_gland.",
+    "image_url": "",
+    "options": [
+      "(A) Sub-lingual",
+      "(B) Sub-mandibular",
+      "(C) Lacrymal",
+      "(D) Parotid"
+    ],
+    "answer": "(D) Parotid",
+    "solution": "There are three pairs of salivary glands around the buccal cavity. Gland present in front of ear is called parotid gland. Sub lingual below the tongue and sub Mandibular is around mandible and maxilla.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 100,
+    "chapter": "Human Nutrition",
+    "question": "Which one of the following is NOT a cause of constipation?",
+    "question_latex": "Which one of the following is NOT a cause of constipation?",
+    "image_url": "",
+    "options": [
+      "(A) Spinal cord injury",
+      "(B) Inactivity",
+      "(C) Lying down after meals",
+      "(D) Inadequate fluid intake"
+    ],
+    "answer": "(C) Lying down after meals",
+    "solution": "Avoiding eating large meal, lying down after meal, spicy, oily, junk food, smoking, alcohol are the preventive measures for indigestion.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 101,
+    "chapter": "Human Nutrition",
+    "question": "Enamel is made up of ___ [MHT-CET 2023]",
+    "question_latex": "Enamel is made up of ___ [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Calcium hydroxide and cementum",
+      "Calcium pectinate and calcium carbonate",
+      "Calcium phosphate and calcium carbonate",
+      "Cementum and calcium phosphate"
+    ],
+    "answer": "Calcium phosphate and calcium carbonate",
+    "solution": "The crown is covered by the hardest substance of the body called enamel. Enamel is made up of calcium phosphate and calcium carbonate.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 102,
+    "chapter": "Human Nutrition",
+    "question": "Brunner's glands are present in the ___ [MHT-CET 2023]",
+    "question_latex": "Brunner's glands are present in the ___ [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Mucosa of small intestine",
+      "Submucosa of large intestine",
+      "Mucosa of large intestine",
+      "Submucosa of small intestine"
+    ],
+    "answer": "Submucosa of small intestine",
+    "solution": "Brunner's glands are present in the submucosa of small intestine and they helps in action of goblet cells and mucus secretion.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 103,
+    "chapter": "Human Nutrition",
+    "question": "Bile salts _____ fats in duodenum. [MHT-CET 2020]",
+    "question_latex": "Bile salts \\underline{\\phantom{a}} fats in duodenum. [\\text{MHT-CET 2020}]",
+    "image_url": "",
+    "options": [
+      "Regurgitate",
+      "Absorb",
+      "Assimilate",
+      "Emulsify"
+    ],
+    "answer": "Emulsify",
+    "solution": "Bile secretion is given out by liver and released in duodenum. It helps in emulsifying fats and helps in lipid digestion.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 104,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statements: Statement I - Pyloric sphincter prevents back flow of food from stomach to oesophagus. Statement II - Cardiac sphincter regulates flow of food from stomach to small intestine. In the light of above statements, select the correct option given below:[MHT-CET 2024]",
+    "question_latex": "Given below are two statements: \\text{Statement I} - \\text{Pyloric sphincter prevents back flow of food from stomach to oesophagus.} \\text{Statement II} - \\text{Cardiac sphincter regulates flow of food from stomach to small intestine.} \\text{In the light of above statements, select the correct option given below:[MHT-CET 2024]}",
+    "image_url": "",
+    "options": [
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is correct but statement II is incorrect.",
+      "Statement I is incorrect but statement II is correct."
+    ],
+    "answer": "Both statement I and statement II are incorrect.",
+    "solution": "Cardiac sphincter prevents back flow of food from stomach to oesophagus. Pyloric sphincter regulates flow of food from stomach to small intestine.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 105,
+    "chapter": "Human Nutrition",
+    "question": "The human body contains about _____ water.",
+    "question_latex": "The human body contains about \\underline{\\phantom{a}} water.",
+    "image_url": "",
+    "options": [
+      "65%",
+      "25%",
+      "85%",
+      "41%"
+    ],
+    "answer": "65%",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 106,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following yield twice as many calories per gram as carbohydrate",
+    "question_latex": "Which of the following yield twice as many calories per gram as carbohydrate",
+    "image_url": "",
+    "options": [
+      "Proteins",
+      "Fats",
+      "Minerals",
+      "Vitamins"
+    ],
+    "answer": "Fats",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 107,
+    "chapter": "Human Nutrition",
+    "question": "Number of monophyodont teeth in man are",
+    "question_latex": "Number of monophyodont teeth in man are",
+    "image_url": "",
+    "options": [
+      "4",
+      "12",
+      "20",
+      "32"
+    ],
+    "answer": "12",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 108,
+    "chapter": "Human Nutrition",
+    "question": "The upper surface of the tongue bears numerous projections called _____",
+    "question_latex": "The upper surface of the tongue bears numerous projections called \\underline{\\phantom{a}}",
+    "image_url": "",
+    "options": [
+      "rugae",
+      "villi",
+      "pulp",
+      "papillae"
+    ],
+    "answer": "papillae",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 109,
+    "chapter": "Human Nutrition",
+    "question": "Glisson's capsule is the covering of ___ [MHT-CET 2023]",
+    "question_latex": "Glisson's capsule is the covering of \\underline{\\phantom{a}} [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Stomach",
+      "Salivary gland"
+    ],
+    "answer": "Liver",
+    "solution": "Each lobe of bilobed liver is covered by connective tissue covering called as Glisson's capsule.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 110,
+    "chapter": "Human Nutrition",
+    "question": "Pytin is",
+    "question_latex": "Pytin is",
+    "image_url": "",
+    "options": [
+      "Slightly alkaline",
+      "Slightly acidic",
+      "Slightly neutral",
+      "Strongly alkaline"
+    ],
+    "answer": "Slightly alkaline",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 111,
+    "chapter": "Human Nutrition",
+    "question": "Goblet cells of alimentary canal are mndiffid from (NEET-2020)",
+    "question_latex": "Goblet cells of alimentary canal are mndiffid from (\\text{NEET-2020})",
+    "image_url": "",
+    "options": [
+      "Chondrocytes",
+      "Compound epithelial cells",
+      "Squamous epithelial cells",
+      "Columnar epithelial cells"
+    ],
+    "answer": "Columnar epithelial cells",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 112,
+    "chapter": "Human Nutrition",
+    "question": "Length of the alimentary canal in an adult person is about ___ [MHT-CET 2024]",
+    "question_latex": "Length of the alimentary canal in an adult person is about \\underline{\\phantom{a}} [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "4 – 6 meters",
+      "12 – 15ft",
+      "8 – 10ft",
+      "8 – 10 meters"
+    ],
+    "answer": "8 – 10 meters",
+    "solution": "Length of the alimentary canal in an adult person is about 8 – 10 meters.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 113,
+    "chapter": "Human Nutrition",
+    "question": "Both the crown and root of a tooth is covered by a layer of bony hard substance called",
+    "question_latex": "Both the crown and root of a tooth is covered by a layer of bony hard substance called",
+    "image_url": "",
+    "options": [
+      "Enamel",
+      "Dentine",
+      "Bony socket",
+      "Cement"
+    ],
+    "answer": "Enamel",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 114,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following is not a function of liver?",
+    "question_latex": "Which of the following is not a function of liver?",
+    "image_url": "",
+    "options": [
+      "Production of insulin",
+      "Production of bile",
+      "Glycogen storage",
+      "Synthesis of vitamins"
+    ],
+    "answer": "Production of insulin",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 115,
+    "chapter": "Human Nutrition",
+    "question": "In human alimentary canal, churning of food takes place in ___ [MHT-CET 2023]",
+    "question_latex": "In human alimentary canal, churning of food takes place in \\underline{\\phantom{a}} [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Stomach",
+      "Duodenum",
+      "Buccal cavity",
       "Oesophagus"
     ],
-    "answer": "Small intestine",
+    "answer": "Stomach",
+    "solution": "In human alimentary canal, churning of food takes place in stomach with help of smooth muscles layers called rugae and in buccal chamber mastication with the help of dentition.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 116,
+    "chapter": "Human Nutrition",
+    "question": "Enterokinase plays a role in[MHT-CET 2020]",
+    "question_latex": "Enterokinase plays a role in[\\text{MHT-CET 2020}]",
+    "image_url": "",
+    "options": [
+      "r -formation of fatty acids into chylomicrons",
+      "Conversion of trypsinogen to trypsin",
+      "Emulsification of fats",
+      "Conversion of pepsinogen to pepsin"
+    ],
+    "answer": "Conversion of trypsinogen to trypsin",
+    "solution": "Enterokinase is enzyme produced in small intestine helps in conversion of inactive trypsinogen into active trypsin which acts upon proteins in food and break downs.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 117,
+    "chapter": "Human Nutrition",
+    "question": "If breast feeding is replaced by less nutritive food, low in proteins and calories, then the infants below the age of one year are likely to suffer from ___ [MHT-CET 2023]",
+    "question_latex": "If breast feeding is replaced by less nutritive food, low in proteins and calories, then the infants below the age of one year are likely to suffer from \\underline{\\phantom{a}} [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Kwashiorkor",
+      "Gout",
+      "Jaundice",
+      "Marasmus"
+    ],
+    "answer": "Marasmus",
+    "solution": "Marasmus is always found in children below one year due to protein deficiency coupled with lower total food calorific value.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 118,
+    "chapter": "Human Nutrition",
+    "question": "Succus entericus contains ___ [MHT-CET 2024]",
+    "question_latex": "Succus entericus contains \\underline{\\phantom{a}} [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "Trypsinogen, chymotrypsinogen, amylases and lipases.",
+      "pepsin, lipase and rennin.",
+      "pepsinogen, HCl and rennin.",
+      "Mucus plus intestinal enzymes like dipeptides, lipases, disaccharides etc."
+    ],
+    "answer": "pepsinogen, HCl and rennin.",
+    "solution": "Mucus plus intestinal enzymes together constitute intestinal juice or succus entericus. The intestinal juice contains various enzymes like dipeptides, lipases, disaccharides etc.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 119,
+    "chapter": "Human Nutrition",
+    "question": "The upper surface of the tongue bears numerous projections called ___ [MHT-CET 2024]",
+    "question_latex": "The upper surface of the tongue bears numerous projections called \\underline{\\phantom{a}} [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "taste buds",
+      "papillae",
+      "villi",
+      "rugae"
+    ],
+    "answer": "papillae",
+    "solution": "The upper surface of the tongue bears numerous projections called papillae. Some papillae bear sensory receptors called taste buds.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 120,
+    "chapter": "Human Nutrition",
+    "question": "Study of teeth is known as",
+    "question_latex": "Study of teeth is known as",
+    "image_url": "",
+    "options": [
+      "Tetthology",
+      "Odontology",
+      "Enamelogy",
+      "Dentology"
+    ],
+    "answer": "Dentology",
+    "solution": "",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which part of the digestive system absorbs most of..."
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 121,
+    "chapter": "Human Nutrition",
+    "question": "Complete the analogy with reference to product of digestion in human beings: Buccal cavity: x: Stomach: y",
+    "question_latex": "Complete the analogy with reference to product of digestion in human beings: Buccal cavity: x: Stomach: y",
+    "image_url": "",
+    "options": [
+      "A) Chyme Chyle",
+      "B) Chyle Chyme",
+      "C) Bolus Chyle",
+      "D) Bolus Chyme"
+    ],
+    "answer": "C) Bolus Chyle",
+    "solution": "In human, digestion food particles are mixed with saliva and forms a mass of food called bolus. At the end of gastric digestion, food is converted to a semifluid acidic mass of partially digested food is called chyme.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 122,
+    "chapter": "Human Nutrition",
+    "question": "In human, digestion is",
+    "question_latex": "In human, digestion is",
+    "image_url": "",
+    "options": [
+      "A) Intercellular",
+      "B) Intracellular",
+      "C) Extracellular",
+      "D) Both a and b"
+    ],
+    "answer": "C) Extracellular",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 123,
+    "chapter": "Human Nutrition",
+    "question": "Amino acids produced by digestion of protein are absorbed from Intestine through",
+    "question_latex": "Amino acids produced by digestion of protein are absorbed from Intestine through",
+    "image_url": "",
+    "options": [
+      "A) Lacteals",
+      "B) Rectum",
+      "C) Blood capillaries in the villi",
+      "D) Lacteals and blood capillaries in the villi"
+    ],
+    "answer": "C) Blood capillaries in the villi",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 124,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following digestive juices have the minimum PH.",
+    "question_latex": "Which of the following digestive juices have the minimum PH.",
+    "image_url": "",
+    "options": [
+      "A) Gastric juice",
+      "B) Bile",
+      "C) Saliva",
+      "D) Pancreatic juice"
+    ],
+    "answer": "A) Gastric juice",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 125,
+    "chapter": "Human Nutrition",
+    "question": "The intrinsic factor, essential for absorption of vit. $$B_{12}$$ is secreted by",
+    "question_latex": "The intrinsic factor, essential for absorption of vit. $$B_{12}$$ is secreted by",
+    "image_url": "",
+    "options": [
+      "A) hepatic cells",
+      "B) parietal cells",
+      "C) peptic cells",
+      "D) acinar cells"
+    ],
+    "answer": "B) parietal cells",
+    "solution": "Parietal cells secrete HCl and intrinsic factor which is essential for absorption of vitamin B12.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 126,
+    "chapter": "Human Nutrition",
+    "question": "Given below are two statements. Statement-I : Parotid salivary glands are present below the tongue. Statement-II : Sublingual salivary glands are present in front of each ear. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_latex": "Given below are two statements. Statement-I : Parotid salivary glands are present below the tongue. Statement-II : Sublingual salivary glands are present in front of each ear. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "image_url": "",
+    "options": [
+      "A) Statement I is correct but statement II is incorrect.",
+      "B) Both statement I and statement II are incorrect.",
+      "C) Statement I is incorrect but statement II is correct.",
+      "D) Both statement I and statement II are correct."
+    ],
+    "answer": "B) Both statement I and statement II are incorrect.",
+    "solution": "Parotid glands are present in front of the ear. The submandibular glands are present below the lower jaw. The glands present below the tongue are called sublingual.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 127,
+    "chapter": "Human Nutrition",
+    "question": "To gel ample supply of carbohydrates, one should eat",
+    "question_latex": "To gel ample supply of carbohydrates, one should eat",
+    "image_url": "",
+    "options": [
+      "A) Rice",
+      "B) Meat",
+      "C) Grams",
+      "D) Carrots"
+    ],
+    "answer": "A) Rice",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 128,
+    "chapter": "Human Nutrition",
+    "question": "Match the Column I with Column II, with reference to human beings",
+    "question_latex": "Match the Column I with Column II, with reference to human beings",
+    "image_url": "",
+    "options": [
+      "A) (a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B) (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "C) (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "D) (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    ],
+    "answer": "B) (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Match the columns with organs of digestive system and size.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 129,
+    "chapter": "Human Nutrition",
+    "question": "Rennin acts on ____",
+    "question_latex": "Rennin acts on ____",
+    "image_url": "",
+    "options": [
+      "A) Starch in buccal cavity",
+      "B) Proteins in large intestine",
+      "C) Milk protein",
+      "D) Fats in small intestine"
+    ],
+    "answer": "C) Milk protein",
+    "solution": "Rennin acts on milk protein - case. Rennin found in gastric juice of infants acts on casein, a protein present in milk. It brings about curling of milk proteins with the help of calcium.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 130,
+    "chapter": "Human Nutrition",
+    "question": "Cystic duct arises from",
+    "question_latex": "Cystic duct arises from",
+    "image_url": "",
+    "options": [
+      "A) Liver",
+      "B) Kidney",
+      "C) Pancreas",
+      "D) Gall bladder"
+    ],
+    "answer": "D) Gall bladder",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 131,
+    "chapter": "Human Nutrition",
+    "question": "Chief cells are found in ________ [MHT-CET 2024]",
+    "question_latex": "Chief cells are found in ________ [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "colon",
+      "Small intestine",
+      "Mucosa of large intestine",
+      "Stomach"
+    ],
+    "answer": "Stomach",
+    "solution": "(d) Mucus cells secrete mucus. Peptic or chief cells secrete proenzyme pepsinogen. Parietal cells secrete HCl and intrinsic factor which is essential for absorption of vitamin B12.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 132,
+    "chapter": "Human Nutrition",
+    "question": "CCK acts on _______",
+    "question_latex": "CCK acts on \\underline{\\quad}\\quad\\quad\\quad",
+    "image_url": "",
+    "options": [
+      "gastric gland",
+      "pancreas",
+      "gall bladder",
+      "both B and C"
+    ],
+    "answer": "both B and C",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 133,
+    "chapter": "Human Nutrition",
+    "question": "In which one of the following disorders, the digestion and absorption of food stops due to atrophy of digestive glands? [MHT-CET 2024]",
+    "question_latex": "In which one of the following disorders, the digestion and absorption of food stops due to atrophy of digestive glands? [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "Jaundice",
+      "Kwashiorkor",
+      "marasmus",
+      "Diarrhea"
+    ],
+    "answer": "marasmus",
+    "solution": "(c) It is a prolonged protein energy malnutrition (PEM) found in infants under one year of age. In this disease, protein deficiency is coupled with lower total food calorific value. Inadequate diet impairs physical growth and retards mental development, subcutaneous fat disappears, ribs become prominent, limbs become thin, skin becomes dry, thin and wrinkled, loss of weight, digestion and absorption of food stops due to atrophy of digestive glands. There is no oedema.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 134,
+    "chapter": "Human Nutrition",
+    "question": "After mastication of starchy food, which of the following is formed? [MHT-CET 2023]",
+    "question_latex": "After mastication of starchy food, which of the following is formed? [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "Lactose",
+      "Sucrose",
+      "Glucose",
+      "Maltose"
+    ],
+    "answer": "Maltose",
+    "solution": "(d) After mastication of starchy food is broken down into Maltose.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 135,
+    "chapter": "Human Nutrition",
+    "question": "Kwashiorkor is caused due to prolonged deficiency mainly of ___________ in diet. [MHT-CET 2020]",
+    "question_latex": "Kwashiorkor is caused due to prolonged deficiency mainly of \\underline{\\quad\\quad\\quad\\quad} in diet. [\\text{MHT-CET 2020}]",
+    "image_url": "",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Vitamins and minerals",
+      "Fats"
+    ],
+    "answer": "Proteins",
+    "solution": "(B) Kwashiorkor and Marasmus are PEM diseases i.e. protein energy malnutrition. They mainly occur due to prolonged deficiency of proteins.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 136,
+    "chapter": "Human Nutrition",
+    "question": "Wisdom teeth in man are ___________",
+    "question_latex": "Wisdom teeth in man are \\underline{\\quad\\quad\\quad\\quad}",
+    "image_url": "",
+    "options": [
+      "Four",
+      "Two",
+      "Six",
+      "Eight"
+    ],
+    "answer": "Four",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 137,
+    "chapter": "Human Nutrition",
+    "question": "Find out the correct match",
+    "question_latex": "Find out the correct match",
+    "image_url": "",
+    "options": [
+      "Beta cell - Insulin",
+      "Alpha cell-Glucagon",
+      "Aciner cell - Pancreatic juice",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 138,
+    "chapter": "Human Nutrition",
+    "question": "Production of substances like indole and skatole, as part of protein digestion, occur in ___ [MHT-CET 2024]",
+    "question_latex": "Production of substances like indole and skatole, as part of protein digestion, occur in \\underline{\\quad} [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "large intestine",
+      "stomach",
+      "mouth",
+      "small intestine"
+    ],
+    "answer": "large intestine",
+    "solution": "(a) Protein digestion in large intestine ends up into production of substances like indole, skatole and H2S. These are the reason for the odour of faeces.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 139,
+    "chapter": "Human Nutrition",
+    "question": "Ileum is",
+    "question_latex": "Ileum is",
+    "image_url": "",
+    "options": [
+      "First part of small intestine",
+      "Middle part of small Intestine",
+      "Last part of small intestine",
+      "Not s parl of smalj intestline"
+    ],
+    "answer": "Last part of small intestine",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 140,
+    "chapter": "Human Nutrition",
+    "question": "Trypsin is realed with digestion of",
+    "question_latex": "Trypsin is realed with digestion of",
+    "image_url": "",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Fats",
+      "None of these"
+    ],
+    "answer": "Proteins",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 141,
+    "chapter": "Human Nutrition",
+    "question": "Following are various symptoms of Marasmus EXCEPT [MHT-CET 2018]",
+    "question_latex": "Following are various symptoms of Marasmus EXCEPT [\\text{MHT-CET 2018}]",
+    "image_url": "",
+    "options": [
+      "Oedema of lower legs and face",
+      "Dry, wrinkled skin",
+      "Extreme leanness",
+      "Atrophy of digestive glands"
+    ],
+    "answer": "Oedema of lower legs and face",
+    "solution": "(a)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 142,
+    "chapter": "Human Nutrition",
+    "question": "The dental formula of an adult man is ____ [MHT-CET 2023]",
+    "question_latex": "The dental formula of an adult man is ____ [\\text{MHT-CET 2023}]",
+    "image_url": "",
+    "options": [
+      "I^1_2, C^2_1, PM^2_2, M^3_3",
+      "I^1_2, C^1_1, PM^2_2, M^3_3",
+      "I^2_2, C^1_1, PM^2_2, M^1_1",
+      "I^2_2, C^2_2, PM^1_1, M^3_3"
+    ],
+    "answer": "I^1_2, C^1_1, PM^2_2, M^3_3",
+    "solution": "(b) Dental formula is 2,1,2,3 for I, C, PM, M on upper and lower jaw",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 143,
+    "chapter": "Human Nutrition",
+    "question": "Appendix is functional and helps in digestion of cellulose in _______ [MHT-CET 2024]",
+    "question_latex": "Appendix is functional and helps in digestion of cellulose in \\underline{\\quad\\quad\\quad\\quad} [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "herbivores",
+      "sanguivores",
+      "carnivores",
+      "detritivores"
+    ],
+    "answer": "herbivores",
+    "solution": "(a) An elongated worm like vermiform appendix arises from the caecum. Appendix is vestigial organ in human beings and functional in herbivorous animals for the digestion of cellulose.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 144,
+    "chapter": "Human Nutrition",
+    "question": "Which of the following glands is both exocrine and endocrine",
+    "question_latex": "Which of the following glands is both exocrine and endocrine",
+    "image_url": "",
+    "options": [
+      "Pituitary",
+      "Pancreas",
+      "Thyroid",
+      "Mammary gland"
+    ],
+    "answer": "Pancreas",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 145,
+    "chapter": "Human Nutrition",
+    "question": "Match the Column I with Column II and select the correct option:",
+    "question_latex": "Match the Column I with Column II and select the correct option:",
+    "image_url": "bio_q297_diag_0.png",
+    "options": [
+      "(a) (a) (A) (a) \\to (iv);(b) \\to (iii);(c) \\to (ii);(d) \\to (i) (B) (a) \\to (ii); (b) \\to (iii);(c) \\to (iv);(d) \\to (i) (C) (a) \\to (iii); (b) \\to (iv); (c) \\to (i);(d) \\to (ii) (D) (a) \\to (iii);(b) \\to (iv); (c) \\to (ii);(d) \\to (i)"
+    ],
+    "answer": "",
+    "solution": "(b) Match the column with parts of alimentary canal and their shape",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q297_diag_0.png"
+    ]
+  },
+  {
+    "id": 146,
+    "chapter": "Human Nutrition",
+    "question": "Absorption of alcohol takes place in ______ [MHT-CET 2024]",
+    "question_latex": "Absorption of alcohol takes place in ______ [\\text{MHT-CET 2024}]",
+    "image_url": "",
+    "options": [
+      "stomach",
+      "Small intestine",
+      "buccal cavity",
+      "large intestine"
+    ],
+    "answer": "stomach",
+    "solution": "(a) Gastric mucosa is impermeable to most substances hence nutrients reach unabsorbed till small intestine. Little water, electrolytes, alcohol and drugs like aspirin get absorbed in stomach.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 147,
+    "chapter": "Human Nutrition",
+    "question": "Unconjugated bilirubin has toxic effect on",
+    "question_latex": "Unconjugated bilirubin has toxic effect on",
+    "image_url": "",
+    "options": [
+      "Kupffer cells",
+      "parietal cells",
+      "brain cells",
+      "secretory cells"
+    ],
+    "answer": "brain cells",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 148,
+    "chapter": "Human Nutrition",
+    "question": "In the wall of alimentary canal, what is the actual sequence from outer of inner",
+    "question_latex": "In the wall of alimentary canal, what is the actual sequence from outer of inner",
+    "image_url": "",
+    "options": [
+      "Serosa, longitudinal muscle, mucosa, sub mucosa",
+      "Mucosa, serosa, longitudinal muscle",
+      "Serosa, longitudinal muscle, submucosa, mucosa",
+      "Serosa, longitudinal muscle, circutar muscle, submucosa, mucosa"
+    ],
+    "answer": "Serosa, longitudinal muscle, circutar muscle, submucosa, mucosa",
+    "solution": "",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   }
 ]

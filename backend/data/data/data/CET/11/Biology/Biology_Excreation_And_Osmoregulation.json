@@ -1,172 +1,478 @@
 [
   {
     "id": 1,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "The process of removal of metabolic waste from the body is called:",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Which bonds hold together the two complementary polynucleotide chains of DNA?[MHT-CET 2024]",
+    "question_latex": "Which bonds hold together the two complementary polynucleotide chains of DNA?[MHT-CET 2024]",
     "image_url": "",
     "options": [
-      "Respiration",
-      "Excretion",
-      "Osmosis",
-      "Secretion"
+      "Hydrogen",
+      "Peptide",
+      "Phosphodiester",
+      "Glycosidic"
     ],
-    "answer": "Excretion",
+    "answer": "Hydrogen",
+    "solution": "Hydrogen bonds hold together the two complementary polynucleotide chains of DNA.",
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The process of removal of metabolic waste from the..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 2,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "Which organ is the main excretory organ in humans?",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "The Repeating unit of glycogen is",
+    "question_latex": "The Repeating unit of glycogen is",
     "image_url": "",
     "options": [
-      "Liver",
-      "Kidney",
-      "Lungs",
-      "Skin"
+      "Fructose",
+      "Mannose",
+      "Glucose",
+      "galactose"
     ],
-    "answer": "Kidney",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which organ is the main excretory organ in humans?..."
+    "answer": "Glucose",
+    "solution": "Starch, glycogen, cellulose, chitin, etc. are homogylcans (glucans) containing only glucose units. Homoglycans are the polysaccharides having only one type of monosaccharide units in them.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 3,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "The structural and functional unit of kidney is:",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "A mathematical explanation for enzyme action on substrate was formulated by",
+    "question_latex": "A mathematical explanation for enzyme action on substrate was formulated by",
     "image_url": "",
     "options": [
-      "Neuron",
-      "Nephron",
-      "Glomerulus",
-      "Loop of Henle"
+      "Leonor Michaelis and Maud Menten",
+      "Hans Gaffron",
+      "Melvin Calvin",
+      "Vant Krebs"
     ],
-    "answer": "Nephron",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The structural and functional unit of kidney is:..."
+    "answer": "Leonor Michaelis and Maud Menten",
+    "solution": "Michaelis and Menten in 1913 gave a mathematical expression to an enzyme catalyzed reaction. The equation is commonly called the Michaelis equation.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 4,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "Ultrafiltration occurs in which part of the nephron?",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Given below are two statements: Statement-I : The prosthetic group is firmly bound to the protein component of enzyme by chemical bond Statement-II : Prosthetic group can be removed from protein part of enzyme by hydrolysis. In the light of above statements, select the correct option given below:[MHT-CET 2024]",
+    "question_latex": "Given below are two statements: Statement-I : The prosthetic group is firmly bound to the protein component of enzyme by chemical bond Statement-II : Prosthetic group can be removed from protein part of enzyme by hydrolysis. In the light of above statements, select the correct option given below:[MHT-CET 2024]",
     "image_url": "",
     "options": [
-      "Bowman's capsule",
-      "Loop of Henle",
-      "Collecting duct",
-      "Proximal tubule"
+      "Both statement I and statement II are correct.",
+      "Statement I is incorrect but statement II is correct.",
+      "Statement I is correct but statement II is incorrect.",
+      "Both statement I and statement II are incorrect."
     ],
-    "answer": "Bowman's capsule",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Ultrafiltration occurs in which part of the nephro..."
+    "answer": "Statement I is correct but statement II is incorrect.",
+    "solution": "The prosthetic group is firmly bound to the protein component by chemical bonds and is not removed by hydrolysis.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 5,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "Which nitrogenous waste product is excreted in humans?",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Which of the following statements are correct for polysaccharides? I. The polysaccharides are found as a part of the acid insoluble pellet II. These are long chains of sugars III. They are threads containing different monosaccharides as building blocks IV. Cellulose is a polymeric polysaccharide consisting of only one type of monosaccharide i.e ., fructose",
+    "question_latex": "Which of the following statements are correct for polysaccharides? I. The polysaccharides are found as a part of the acid insoluble pellet II. These are long chains of sugars III. They are threads containing different monosaccharides as building blocks IV. Cellulose is a polymeric polysaccharide consisting of only one type of monosaccharide i.e ., fructose",
     "image_url": "",
     "options": [
-      "Ammonia",
-      "Urea",
-      "Uric acid",
-      "Amino acids"
+      "All are correct",
+      "All are correct except IV",
+      "III and IV",
+      "Only IV is correct"
     ],
-    "answer": "Urea",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which nitrogenous waste product is excreted in hum..."
+    "answer": "All are correct except IV",
+    "solution": "Cellulose is a polymeric polysaccharide consisting of only one type of monosaccharide, i.e., glucose",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 6,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "The hormone responsible for water reabsorption in kidneys is:",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Double sugar is",
+    "question_latex": "Double sugar is",
     "image_url": "",
     "options": [
-      "Insulin",
-      "ADH (Vasopressin)",
-      "Aldosterone",
-      "Thyroxine"
+      "Table sugar",
+      "Milk sugar",
+      "Sugar in germinating seeds",
+      "All of the above"
     ],
-    "answer": "ADH (Vasopressin)",
+    "answer": "All of the above",
+    "solution": "All of the above. Double sugar is sucrose (table sugar) and milk sugar is lactose. Sugar in germinating seeds is also an example of double sugar",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The hormone responsible for water reabsorption in ..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 7,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "The process by which fishes remove nitrogenous waste is called:",
-    "question_latex": "",
-    "image_url": "",
+    "chapter": "Chapter 1",
+    "question": "Match column I with column II. [MHT-CET 2023]",
+    "question_latex": "Match \\text{column I} \\text{with column II}. [MHT-CET 2023]",
+    "image_url": "bio_q7_diag_0.png",
     "options": [
-      "Ammonotelism",
-      "Ureotelism",
-      "Uricotelism",
-      "Hemolysis"
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
     ],
-    "answer": "Ammonotelism",
+    "answer": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+    "solution": "Match the columns with type of biomolecule and its function in living cell.",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The process by which fishes remove nitrogenous was..."
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q7_diag_0.png"
+    ]
   },
   {
     "id": 8,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "The loop of Henle is mainly responsible for:",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "The most important form of energy currency in living organisms is the bond energy in the chemical called ..",
+    "question_latex": "The most important form of energy currency in living organisms is the bond energy in the chemical called..",
     "image_url": "",
     "options": [
-      "Blood filtration",
-      "Water and salt reabsorption",
-      "Production of urea",
-      "Detoxification"
+      "Adenosine Triphosphate (ATP)",
+      "Adenosine Diphosphate (ADP)",
+      "Phosphate (P)",
+      "None of the above"
     ],
-    "answer": "Water and salt reabsorption",
+    "answer": "Adenosine Triphosphate (ATP)",
+    "solution": "The most important form of energy currency in living organism is the bond energy in the chemical called ATP",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The loop of Henle is mainly responsible for:..."
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 9,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "Osmoregulation is essential to maintain:",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Allosteric modulation is due to inhibition action of enzyme by",
+    "question_latex": "Allosteric modulation is due to inhibition action of enzyme by",
     "image_url": "",
     "options": [
-      "Blood sugar",
-      "Water and ion balance",
-      "Body temperature",
-      "Blood pressure"
+      "Competitive inhibition",
+      "Substrate concentration",
+      "Products of reaction",
+      "Enzyme concentration"
     ],
-    "answer": "Water and ion balance",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Osmoregulation is essential to maintain:..."
+    "answer": "Products of reaction",
+    "solution": "Enzyme inhibition caused by a product of enzyme catalyzed reaction is allosteric modulation or feedback inhibition. Thus, products of reaction inhibits the enzyme action, \\textit{e.g.}, glucose-6-phosphate, the end product in glycolysis, can inhibit hexokinase activity.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   },
   {
     "id": 10,
-    "chapter": "Excretion and Osmoregulation",
-    "question": "Which of the following is a kidney disorder?",
-    "question_latex": "",
+    "chapter": "Chapter 1",
+    "question": "Alcohol dehydrogenase belongs to which class of enzyme?[MHT-CET 2021]",
+    "question_latex": "Alcohol dehydrogenase belongs to which class of enzyme?[MHT-CET 2021]",
     "image_url": "",
     "options": [
-      "Nephritis",
-      "Asthma",
-      "Arthritis",
-      "Myopia"
+      "Transferases",
+      "Oxidoreductases",
+      "Lyases",
+      "Hydrolases"
     ],
-    "answer": "Nephritis",
+    "answer": "Oxidoreductases",
+    "solution": "",
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: Which of the following is a kidney disorder?..."
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 1",
+    "question": "Match the enzymes involved in glycolysis given in Column I with the reactions they catalyse given in Column II and choose the correct option.",
+    "question_latex": "Match the enzymes involved in glycolysis given in Column I with the reactions they catalyse given in Column II and choose the correct option.",
+    "image_url": "",
+    "options": [
+      "A - I, B - III, C - IV,D - II",
+      "A - III, B - II, C - I, D - IV",
+      "A - III, B - IV, C - I, D - II",
+      "A - III, B B I, C - II, D - IV"
+    ],
+    "answer": "A - III, B - IV, C - I, D - II",
+    "solution": "",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 1",
+    "question": "Cellulosic cell wall in plants is much tougher than cell membrane due to . in cellulose. A. arrangement of glucose units in polymer chain B. hydrogen bonding between neighbouring chains Choose the correct option.[2022]",
+    "question_latex": "Cellulosic cell wall in plants is much tougher than cell membrane due to . in cellulose. A. arrangement of glucose units in polymer chain B. hydrogen bonding between neighbouring chains Choose the correct option.[2022]",
+    "image_url": "",
+    "options": [
+      "A is correct but B is incorrect.",
+      "B is correct but A is incorrect.",
+      "both A and B are correct.",
+      "both A and B are incorrect."
+    ],
+    "answer": "both A and B are correct.",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 1",
+    "question": "Silk consists of",
+    "question_latex": "Silk consists of",
+    "image_url": "",
+    "options": [
+      "Central core of sericin",
+      "Central core of fibroin",
+      "Both (a) and (b)",
+      "A fine mixture of fibroin and sericin"
+    ],
+    "answer": "Central core of fibroin",
+    "solution": "The central core of silk fibre is made up of fibroin protein. Silk fibres are soft and flexible. These are composed of $ \\beta $ -pleated sheets.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 1",
+    "question": "The lock and key model of enzyme action illustrates that a particular enzyme molecule",
+    "question_latex": "The lock and key model of enzyme action illustrates that a particular enzyme molecule",
+    "image_url": "",
+    "options": [
+      "May be destroyed and resynthesised several times",
+      "Interacts with a specific type of substrate molecule",
+      "Reacts at identical rates under all conditions",
+      "Forms a permanent enzyme-substrate complex"
+    ],
+    "answer": "Interacts with a specific type of substrate molecule",
+    "solution": "Emil Fisher (1894) proposed lock and key theory for the mechanism of enzyme action, according to which the active sites of enzyme have a specific geometric shape wherein the substrate molecules fit in just like a key in a particular lock. In other words, it illustrates that a particular enzyme molecule interacts with a specific type of substrate molecule.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 1",
+    "question": "Grinding of a living tissue in trichloroacetic acid shows the presence of inorganic compounds like sulphate, phosphate etc, which are categorised in",
+    "question_latex": "Grinding of a living tissue in trichloroacetic acid shows the presence of inorganic compounds like sulphate, phosphate etc, which are categorised in",
+    "image_url": "",
+    "options": [
+      "Acid insoluble fraction",
+      "Acid soluble fraction",
+      "Both (a) and (b)",
+      "Not found in cellular pool"
+    ],
+    "answer": "Acid soluble fraction",
+    "solution": "The inorganic compounds like sulphate, phosphate etc., are categorised in acid soluble pool",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 1",
+    "question": "Most important fuel of living cells is ___ [MHT-CET 2024]",
+    "question_latex": "Most important fuel of living cells is ___ \\text{[MHT-CET 2024]}",
+    "image_url": "",
+    "options": [
+      "Galactose (B) Glucose (C) Fructose (D) Xylose"
+    ],
+    "answer": "",
+    "solution": "Glucose is instant Source of energy as it is primary cellular respiratory substrate.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 1",
+    "question": "Exoenzymes are generally secreted by . [2022]",
+    "question_latex": "Exoenzymes are generally secreted by . \\text{[2022]}",
+    "image_url": "",
+    "options": [
+      "chlorplasts",
+      "fungi",
+      "mitochondria",
+      "algae"
+    ],
+    "answer": "fungi",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 1",
+    "question": "Given below are the two statements. Statement-I : Starch exists in two forms i.e. amylose and amylopectin Statement-II : Amylose is branched polymer of $ \\alpha $ -glucose while amylopectin is an unbranched polymer of $ \\alpha $-glucose. In the light of above statements, choose the correct answer from the options given below.[MHT-CET 2024]",
+    "question_latex": "Given below are the two statements. Statement-I : Starch exists in two forms i.e. amylose and amylopectin Statement-II : Amylose is branched polymer of \\alpha -glucose while amylopectin is an unbranched polymer of \\alpha -glucose. In the light of above statements, choose the correct answer from the options given below.[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "Statement I is incorrect but statement II is correct.",
+      "Both statement I and statement II are correct.",
+      "Statement I is correct but statement II is incorrect.",
+      "Both statement I and statement II are incorrect."
+    ],
+    "answer": "Statement I is correct but statement II is incorrect.",
+    "solution": "Amylose is an unbranched polymer of $ \\alpha $ glucose. Amylopectin is a branched polymer of $ \\alpha $ glucose.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 1",
+    "question": "Which of the following biomolecules have phosphodiester bonds?[MHT-CET 2024]",
+    "question_latex": "Which of the following biomolecules have phosphodiester bonds?[MHT-CET 2024]",
+    "image_url": "",
+    "options": [
+      "Nucleotides in nucleic acid",
+      "Amino acids in polypeptide chain",
+      "Monosaccharides in polysaccharides",
+      "Fatty acids in diglyceride"
+    ],
+    "answer": "Nucleotides in nucleic acid",
+    "solution": "Nucleotides in nucleic acid are linked with phosphodiester bonds.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 1",
+    "question": "Choose the correct statement",
+    "question_latex": "Choose the correct statement",
+    "image_url": "",
+    "options": [
+      "The living state is a non-equilibrium steady state to be able to perform work",
+      "The constant flow of material for energy in and out of cell prevent the cell from reaching equilibrium",
+      "Living state and metabolism are synonyms",
+      "All are correct"
+    ],
+    "answer": "All are correct",
+    "solution": "All statement are correct",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 1",
+    "question": "Michaelis-Menten constant is ___ [MHT-CET 2024]",
+    "question_latex": "Michaelis-Menten constant is ___ \\text{[MHT-CET 2024]}",
+    "image_url": "",
+    "options": [
+      "The conformational change in the enzyme",
+      "The point at which final form and shape of the enzyme is determined",
+      "The effect of pH on enzyme action",
+      "The amount of substrate concentration to produce half of the maximum velocity of enzyme action"
+    ],
+    "answer": "The amount of substrate concentration to produce half of the maximum velocity of enzyme action",
+    "solution": "Km or the Michaelis-Menten constant is defined as the substrate concentration (expressed in moles/lit) to produce half of maximum velocity in an enzyme catalyzed reaction.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 1",
+    "question": "Fats are esters of ___ [MHT-CET 2023]",
+    "question_latex": "Fats are esters of ___ \\text{[MHT-CET 2023]}",
+    "image_url": "",
+    "options": [
+      "Glycerol linked to 3 fatty acids by ester bond.",
+      "Phenols linked to 3 fatty acids by ester bond.",
+      "Methanol linked to 3 fatty acids by ester bond.",
+      "Ethanol linked to 3 fatty acids by ester bond."
+    ],
+    "answer": "Glycerol linked to 3 fatty acids by ester bond.",
+    "solution": "Fats are esters of glycerol linked to 3 fatty acids by ester bond forming triglycerides, most common type.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 1",
+    "question": "The simple polyhydroxy ketone molecule containing 3-7 carbons is a",
+    "question_latex": "The simple polyhydroxy ketone molecule containing 3-7 carbons is a",
+    "image_url": "",
+    "options": [
+      "Disaccharide",
+      "Monosaccharide",
+      "Polysaccharide",
+      "dipeptide"
+    ],
+    "answer": "Monosaccharide",
+    "solution": "Monosaccharides are simple sugars with empirical formula $ C_n (H_2O)_n $, and containing 3-7 carbon, \\textit{ i.e. }, trioses (3C), tetroses (4C), pentoses (5C) and hexoses (6C).",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 1",
+    "question": "A complex organic nitrogenous compound found in both plant and animal cells is ______[MHT-CET 2023]",
+    "question_latex": "A complex organic nitrogenous compound found in both plant and animal cells is \\______\\text{[MHT-CET 2023]}",
+    "image_url": "",
+    "options": [
+      "Protein (B) Wax (C) Carbohydrate (D) Simple lipid"
+    ],
+    "answer": "Protein (B) Wax (C) Carbohydrate (D) Simple lipid",
+    "solution": "A complex organic nitrogenous compound found in both plant and animal cells is protein.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 1",
+    "question": "Which one of the following holds the two monosaccharide units together in a disaccharide?[MHT-CET 2021]",
+    "question_latex": "Which one of the following holds the two monosaccharide units together in a disaccharide?[MHT-CET 2021]",
+    "image_url": "",
+    "options": [
+      "Glycosidic bond (B) Peptide bond (C) Ketone group (D) Alcohol group"
+    ],
+    "answer": "Glycosidic bond (B) Peptide bond (C) Ketone group (D) Alcohol group",
+    "solution": "A. A covalent bond is formed by sharing of electrons between the atoms. B. A glycosidic bond is a kind of covalent linkage by which two monosaccharides are joined together. Whenever a glycosidic bond is formed, there is the elimination of a water molecule similar to the formation of a peptide bond. These reactions are called dehydration or condensation reactions. C. A peptide bond is formed between the carboxyl group of one amino acid and the amino group of another amino acid. D. An ionic bond is formed due to electrostatic attraction between oppositely charged ions. So, the correct answer is 'Glycosidic bond'.",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 1",
+    "question": "Which of the following is not a coenzyme?",
+    "question_latex": "Which of the following is not a coenzyme?",
+    "image_url": "",
+    "options": [
+      "NAD (B) NADP (C) FAD (D) ATP"
+    ],
+    "answer": "",
+    "solution": "Coenzymes are loosely attached non-protein low molecular weight thermostable organic groups, which readily separate from the apoenzyme, \\textit{e.g.}, NAD (Nicotinamide Adenine Dinucleotide), NADP (Nicotinamide Adenine Dinucleotide Phosphate), FAD, FMN, Co-A, TPP (Thiamine Pyrophosphate), lipoic acid, etc. ATP (Adenosine Triphosphate) is the common energy currency of all cells.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 1",
+    "question": "Select the false statement I. Living process is a constant effort to promote falling into equilibrium II. Energy can enter and leave a cell III. Matter can enter and leave a cell IV. Metabolic pathways are interlinked",
+    "question_latex": "Select the false statement I. Living process is a constant effort to promote falling into equilibrium II. Energy can enter and leave a cell III. Matter can enter and leave a cell IV. Metabolic pathways are interlinked",
+    "image_url": "",
+    "options": [
+      "Only I",
+      "Only IV",
+      "I and IV",
+      "Only II"
+    ],
+    "answer": "Only I",
+    "solution": "As living organisms work continuously, they cannot afford to reach equilibrium. Hence, the living state is a non-equilibrium steady-state to be able to perform work, living process is a constant effort to prevent falling into equilibrium",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
   }
 ]

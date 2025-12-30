@@ -1,0 +1,918 @@
+[
+  {
+    "id": 1,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Statement I Prophase is the first stage of mitosis which follows $G_1$ and $G_2$ -phases of interphase. Statement II During prophase, the chromosomal material condenses to form compact mitotic chromosomes. NCERT Pg. 122 Given below are two statements. Read the following statements and choose the correct answer from the options given below.",
+    "question_latex": "Statement I Prophase is the first stage of mitosis which follows $G_1$ and $G_2$ -phases of interphase. Statement II During prophase, the chromosomal material condenses to form compact mitotic chromosomes. NCERT Pg. 122 Given below are two statements. Read the following statements and choose the correct answer from the options given below.",
+    "image_url": "",
+    "options": [
+      "(A) Both statement I and statement II are correct",
+      "(B) Both statement I and statement II are incorrect",
+      "(C) Statement I is incorrect, but statement II is correct",
+      "(D) Statement I is correct, but statement II is incorrect"
+    ],
+    "answer": "(C) Statement I is incorrect, but statement II is correct",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 2,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Select the correctly matched pair.",
+    "question_latex": "Select the correctly matched pair.",
+    "image_url": "",
+    "options": [
+      "A. S phase - DNA replication",
+      "B. Zygotene - Synapsis",
+      "C. Diplotene - Crossing over",
+      "D. Meiosis - Both haploid and diploid cells"
+    ],
+    "answer": "A. S phase - DNA replication",
+    "solution": "(a) Pairs A and B are correctly matched.\nDiplotene-Chiasmata\nMeiosis - Haploid cells",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 3,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Assertion (A) Meiotic division occurs in reproductive cells. Reason $(R)$ Synapsis occurs during zygotene of meiosis. NCERT Pg. 125, 126 In each of the following questions, a statement of Assertion (A) is given by corresponding statement of Reason $(R)$. Of the statements, mark the correct answers as",
+    "question_latex": "Assertion (A) Meiotic division occurs in reproductive cells. Reason $(R)$ Synapsis occurs during zygotene of meiosis. NCERT Pg. 125, 126 In each of the following questions, a statement of Assertion (A) is given by corresponding statement of Reason $(R)$. Of the statements, mark the correct answers as",
+    "image_url": "",
+    "options": [
+      "(A) If A is false, but R is true",
+      "(B) If both A and R are true, but R is not the correct explanation of A",
+      "(C) If both A and R are true and R is the correct explanation of A",
+      "(D) If A is true, but R is false"
+    ],
+    "answer": "(B) If both A and R are true, but R is not the correct explanation of A",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 4,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Spindle fibres attach on to (NEET-I 2016)",
+    "question_latex": "Spindle fibres attach on to (NEET-I 2016)",
+    "image_url": "",
+    "options": [
+      "(A) centromere of the chromosome",
+      "(B) kinetosome of the chromosome",
+      "(C) telomere of the chromosome",
+      "(D) kinetochore of the chromosome"
+    ],
+    "answer": "(D) kinetochore of the chromosome",
+    "solution": "(d) : Small disc-shaped structures at the surface of the centromeres are called kinetochores. These structures serve as the sites of attachment of spindle fibres to the chromosomes that are moved into position at the centre of the cell",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 5,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The centriole undergoes duplication during: (2021)",
+    "question_latex": "The centriole undergoes duplication during: (2021)",
+    "image_url": "",
+    "options": [
+      "(A) Metaphase",
+      "(B) Prophase",
+      "(C) $G_2$ phase",
+      "(D) S-phase"
+    ],
+    "answer": "(D) S-phase",
+    "solution": "(d) During S phase of interphase, the centriole undergoes duplication.\nDuring prophase, condensation of chromatin starts.\nIn $G_2$ phase, synthesis of proteins occurs.\nDuring metaphase, chromosomes get aligned at equator to form metaphasic plate.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 6,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which one of the following never occurs during mitotic cell division?(2022)",
+    "question_latex": "Which one of the following never occurs during mitotic cell division?(2022)",
+    "image_url": "",
+    "options": [
+      "(A) Spindle fibres attach to kinetochores of chromosomes",
+      "(B) Coiling and condensation of the chromatids",
+      "(C) Movement of centrioles towards opposite poles",
+      "(D) Pairing of homologous chromosomes"
+    ],
+    "answer": "(D) Pairing of homologous chromosomes",
+    "solution": "(d) Pairing of homologous chromosomes is called synapsis. It takes place in zygotene stage of prophase-I of meiosis-I.\nProphase, metaphase, anaphase and telophase are the four stages of mitotic cell division.\nChromosome condensation occurs during prophase. Simultaneously, the centrioles move to the opposite poles. During metaphase, spindle fibres attach to kinetochores of chromosomes.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 7,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Mitosis usually results in the",
+    "question_latex": "Mitosis usually results in the",
+    "image_url": "",
+    "options": [
+      "(A) Production of diploid daughter cells",
+      "(B) Growth of multicellular organisms",
+      "(C) Cell repair",
+      "(D) All of the above"
+    ],
+    "answer": "(D) All of the above",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 8,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "During anaphasic movements of chromosomes, NCERT Pg. 123",
+    "question_latex": "During anaphasic movements of chromosomes, NCERT Pg. 123",
+    "image_url": "",
+    "options": [
+      "(A) centromere of chromosomes is directed towards the poles",
+      "(B) centrosomes are moved towards the spindle fibres",
+      "(C) centromere of each chromosomes do not separates",
+      "(D) centriole is directed towards the equatorial plate"
+    ],
+    "answer": "(A) centromere of chromosomes is directed towards the poles",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 9,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The major event that occurs during the anaphase of mitosis, which brings about the equal distribution of chromosomes is",
+    "question_latex": "The major event that occurs during the anaphase of mitosis, which brings about the equal distribution of chromosomes is",
+    "image_url": "",
+    "options": [
+      "(A) replication of the genetic material.",
+      "(B) splitting of the chromatids.",
+      "(C) splitting of the centromeres.",
+      "(D) condensation of the chromatin."
+    ],
+    "answer": "(C) splitting of the centromeres.",
+    "solution": "(C) Anaphase is characterized by splitting of the centromeres and separation of chromatids. Chromatids move to opposite poles from the equatorial plates.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 10,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Assertion: The final stage of meiotic prophase 1 is diplotene. Reason: Diplotene is marked by terminalisation of chiasmata. In the following questions, a statement of Assertion is followed by a statement of Reason.",
+    "question_latex": "Assertion: The final stage of meiotic prophase 1 is diplotene. Reason: Diplotene is marked by terminalisation of chiasmata. In the following questions, a statement of Assertion is followed by a statement of Reason.",
+    "image_url": "",
+    "options": [
+      "(A) If both Assertion and Reason are true and the Reason is the correct explanation of the Assertion.",
+      "(B) If both Assertion and Reason are true but the Reason is not the correct explanation of the Assertion.",
+      "(C) If Assertion is true but Reason is false.",
+      "(D) If both Assertion and Reason are false."
+    ],
+    "answer": "(D) If both Assertion and Reason are false.",
+    "solution": "(d) The final stage of meiotic prophase I is diakinesis. This is marked by terminalisation of chiasmata. During this phase the chromosomes are fully condensed and the meiotic spindle is assembled to prepare the homologous chromosomes for separation. Diakinesis represents end of prophase - I and transition to metaphase.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 11,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "During gamete formation, the enzyme recombinase participates during (2012)",
+    "question_latex": "During gamete formation, the enzyme recombinase participates during (2012)",
+    "image_url": "",
+    "options": [
+      "(A) metaphase I",
+      "(B) anaphase II",
+      "(C) prophase I",
+      "(D) prophase II"
+    ],
+    "answer": "(C) prophase I",
+    "solution": "(c) : During gamete formation, the enzyme recombinase participates during pachytene stage of prophase I. This stage is characterized by the appearance of recombination nodules, the sites at which crossing over occurs between non-sister chromatids of the homologous chromosomes. Crossing over is the exchange of genetic material between two homologous chromosomes. Crossing over is also an enzyme-mediated process and the enzyme involved is called recombinase",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 12,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Statement I Dyad of cells is formed during the telophase-II stage of meiosis. Statement II Interkinesis is the stage between meiosis-I and meiosis-II.Given below are two statements. Read the following statements and choose the correct answer from the options given below.",
+    "question_latex": "Statement I Dyad of cells is formed during the telophase-II stage of meiosis. Statement II Interkinesis is the stage between meiosis-I and meiosis-II.Given below are two statements. Read the following statements and choose the correct answer from the options given below.",
+    "image_url": "",
+    "options": [
+      "(A) Both statement I and statement II are incorrect",
+      "(B) Both statement I and statement II are correct",
+      "(C) Statement I is incorrect, but statement II is correct",
+      "(D) Statement I is correct, but statement II is incorrect"
+    ],
+    "answer": "(C) Statement I is incorrect, but statement II is correct",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 13,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following stage of meiosis is responsible for deciding genetic constitution of gametes?",
+    "question_latex": "Which of the following stage of meiosis is responsible for deciding genetic constitution of gametes?",
+    "image_url": "",
+    "options": [
+      "(A) Metaphase-II",
+      "(B) Anaphase-II",
+      "(C) Metaphase-I",
+      "(D) Anaphase-I"
+    ],
+    "answer": "(D) Anaphase-I",
+    "solution": "(d) The paternal and maternal chromosomes of each homologous pair segregates during anaphase-I. Although, both (maternal and paternal) chromosomes of a homologous pair have the genes for the same traits, either chromosome of a pair may carry different alleles of the same gene. Therefore, in anaphase-I, homologous chromosomes introduces genetic variability",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 14,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "If a cell has twice as much DNA as in a normal functional cell, it means that the cell:",
+    "question_latex": "If a cell has twice as much DNA as in a normal functional cell, it means that the cell:",
+    "image_url": "",
+    "options": [
+      "(A) Is preparing to divide",
+      "(B) Has ceased to function",
+      "(C) Has completed division",
+      "(D) Has reached the ends of its life span"
+    ],
+    "answer": "(A) Is preparing to divide",
+    "solution": "(a) The S phase is the time when DNA is synthesised. The amount of DNA (per cell) doubles during this period, while the number of chromosomes stays the same. Two sister chromatids now make up each chromosome. A centromere is a structure that holds the sister chromatids together. The cell has now decided to divide.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 15,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "How many chromosomes will the cell have at $G_{1}$ , after $S$ and after M-phase respectively if it has 14 chromosomes at interphase?",
+    "question_latex": "How many chromosomes will the cell have at $G_{1}$ , after $S$ and after M-phase respectively if it has 14 chromosomes at interphase?",
+    "image_url": "",
+    "options": [
+      "(A) 7,14,14",
+      "(B) 7,7,7",
+      "(C) 14,14,14",
+      "(D) 14,14,17"
+    ],
+    "answer": "(C) 14,14,14",
+    "solution": "(c) In an adult animal, heart cells do not appear to divide.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 16,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "56 cells are produced in meiosis where first division is",
+    "question_latex": "56 cells are produced in meiosis where first division is",
+    "image_url": "",
+    "options": [
+      "(A) Equal",
+      "(B) Reduction (C) Mitosis",
+      "(D) None of these"
+    ],
+    "answer": "(B) Reduction (C) Mitosis",
+    "solution": "(b) Meiosis is a special type of division in which the chromosomes duplicate only once but cell divides twice. So, one parent cell produces 4 daughter cells. It is found in diploid germ cells. The first division in meiosis is reduction or heterotypic.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 17,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Given below is the representation of a certain event at a particular stage of a type of cell division. Which stage is shown by the given figure?",
+    "question_latex": "Given below is the representation of a certain event at a particular stage of a type of cell division. Which stage is shown by the given figure?",
+    "image_url": "",
+    "options": [
+      "(A) Prophase I during meiosis.",
+      "(B) Prophase II during meiosis.",
+      "(C) Prophase of mitosis.",
+      "(D) Both prophase and metaphase of mitosis."
+    ],
+    "answer": "(A) Prophase I during meiosis.",
+    "solution": "(a) Given diagram represents crossing over that takes place in pachytene stage of prophase - I during meiosis-I.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 18,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "A triploid nucleus cannot undergo meiosis because",
+    "question_latex": "A triploid nucleus cannot undergo meiosis because",
+    "image_url": "",
+    "options": [
+      "(A) crossing over does not occur.",
+      "(B) karyokinesis cannot occur.",
+      "(C) chromosomes do not replicate.",
+      "(D) not all of the chromosomes can form homologous pairs."
+    ],
+    "answer": "(D) not all of the chromosomes can form homologous pairs.",
+    "solution": "(d) The triploid nucleus formed in the embryo sac of a seed plant by fusion of a sperm nucleus with two polar nuclei or with a nucleus formed by the prior fusion of the polar nuclei. A triploid nucleus cannot undergo meiosis because not all of the chromosomes can form homologous pairs.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 19,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Assertion (A) During the pachytene stage of meiosis, the main component of synaptonemal complex is formed. Reason (R) This synaptonemal complex is formed between the homologous chromosome. NCERT Pg. 126 In each of the following questions, a statement of Assertion (A) is given by corresponding statement of Reason (R). Of the statements, mark the correct answers as",
+    "question_latex": "Assertion (A) During the pachytene stage of meiosis, the main component of synaptonemal complex is formed. Reason (R) This synaptonemal complex is formed between the homologous chromosome. NCERT Pg. 126 In each of the following questions, a statement of Assertion (A) is given by corresponding statement of Reason (R). Of the statements, mark the correct answers as",
+    "image_url": "",
+    "options": [
+      "(A) If both A and R are true, but R is not the correct explanation of A",
+      "(B) If A is false, but R is true",
+      "(C) If both A and R are true and R is the correct explanation of A",
+      "(D) If A is true, but R is false"
+    ],
+    "answer": "(D) If A is true, but R is false",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 20,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "'X' ensures the production of 'Y' phase in the life cycle of sexually reproducing organisms whereas fertilization restores the 'Z' phase. Identify $X,Y$ and $Z$.",
+    "question_latex": "'X' ensures the production of 'Y' phase in the life cycle of sexually reproducing organisms whereas fertilization restores the 'Z' phase. Identify $X,Y$ and $Z$.",
+    "image_url": "",
+    "options": [
+      "(A) X-Mitosis, Y - haploid, Z - haploid (B) X-Mitosis, Y - diploid, Z - diploid",
+      "(C) X-Meiosis, Y - haploid, Z - diploid",
+      "(D) X-Meiosis, Y - diploid, Z - haploid"
+    ],
+    "answer": "(D) X-Meiosis, Y - diploid, Z - haploid",
+    "solution": "(c) In the life cycle of sexually reproducing organisms, meiosis ensures the generation of the haploid phase, whereas fertilisation restores the diploid phase.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 21,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The complete disintegration of nuclear envelope in a cell cycle marks the NCERT Pg. 123",
+    "question_latex": "The complete disintegration of nuclear envelope in a cell cycle marks the NCERT Pg. 123",
+    "image_url": "",
+    "options": [
+      "(A) supression of anaphase of mitosis",
+      "(B) start of metaphase of mitosis",
+      "(C) dissolution of telophase of mitosis",
+      "(D) initiation of prophase of mitosis"
+    ],
+    "answer": "(B) start of metaphase of mitosis",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 22,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The number of chromosomes becomes half in",
+    "question_latex": "The number of chromosomes becomes half in",
+    "image_url": "",
+    "options": [
+      "(A) Anaphase-I",
+      "(B) Anaphase-II",
+      "(C) Telophase-I",
+      "(D) Telophase-II"
+    ],
+    "answer": "(A) Anaphase-I",
+    "solution": "(a) During anaphase-I, the number of chromosomes become half.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 23,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "How many of the following events, belong to S-phase of cell cycle? A. Doubling of amount of DNA per cell B. Initiation of DNA replication C. Division of centrioles D. Synthesis of proteins for cell division",
+    "question_latex": "How many of the following events, belong to S-phase of cell cycle? A. Doubling of amount of DNA per cell B. Initiation of DNA replication C. Division of centrioles D. Synthesis of proteins for cell division",
+    "image_url": "",
+    "options": [
+      "(A) One (B) Three (C) Two (D) None"
+    ],
+    "answer": "",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 24,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Read the following statements and select the correct option I. M-phase represents the phase when the actual cell division or mitosis occurs II. Interphase represents the phase between two successive M-phases III. In the 24 hrs average duration of cell cycle of a human cell, cell division proper lasts for only about an hour IV. The M-phase lasts more than 95% of the duration of cell cycle",
+    "question_latex": "Read the following statements and select the correct option I. M-phase represents the phase when the actual cell division or mitosis occurs II. Interphase represents the phase between two successive M-phases III. In the 24 hrs average duration of cell cycle of a human cell, cell division proper lasts for only about an hour IV. The M-phase lasts more than 95% of the duration of cell cycle",
+    "image_url": "",
+    "options": [
+      "(A) I, II, III and IV",
+      "(B) I and IV",
+      "(C) II, III and IV",
+      "(D) I and IV"
+    ],
+    "answer": "(D) I and IV",
+    "solution": "(a) The M-phase represents the phase when the actual cell division or mitosis occurs and the interphase represents the phase between two successive M-phases. It is significant to note that in the 24 hour average duration of cell cycle of a human cell, cell division proper lasts for only about an hour. The interphase lasts more than 95% of the duration of cell cycle",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 25,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Meiosis occurs in organisms during:",
+    "question_latex": "Meiosis occurs in organisms during:",
+    "image_url": "",
+    "options": [
+      "(A) Sexual reproduction",
+      "(B) Vegetative reproduction",
+      "(C) Both (a ) and (b )",
+      "(D) None of these"
+    ],
+    "answer": "(A) Sexual reproduction",
+    "solution": "",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 26,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following is correctly matched? NCERT Pg. 122",
+    "question_latex": "Which of the following is correctly matched? NCERT Pg. 122",
+    "image_url": "",
+    "options": [
+      "(A) Plant cell mitosis - Polyploid cells",
+      "(B) Animal cell mitosis - Somatic cell",
+      "(C) Male honeybees - Diploid mitotic cell",
+      "(D) Plant cell mitosis - Both haploid and diploid cells"
+    ],
+    "answer": "(D) Plant cell mitosis - Both haploid and diploid cells",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 27,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "During the metaphase stage of mitosis, spindle fibres attach to chromosomes at (Karnataka NEET 2013)",
+    "question_latex": "During the metaphase stage of mitosis, spindle fibres attach to chromosomes at (Karnataka NEET 2013)",
+    "image_url": "",
+    "options": [
+      "(A) kinetochore",
+      "(B) both centromere and kinetochore",
+      "(C) centromere, kinetochore and areas adjoining centromere",
+      "(D) centromere"
+    ],
+    "answer": "(A) kinetochore",
+    "solution": "(a) : In metaphase, chromosomes consisting of two sister chromatids get arranged at equator. Discontinuous fibres radiate out from two spindle poles and get connected to the disc shaped structure at the surface of the centromere called kinetochores. These are known as chromosome fibres or tractile fibrils. A kinetochore is a complex protein structure that is analogous to a ring for the microtubule hook; it is the point where microtubules attach themselves to the chromosome",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 28,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Match column I with column II. NCERT Pg. 121, 126, 127",
+    "question_latex": "Match column I with column II. NCERT Pg. 121, 126, 127",
+    "image_url": "bio_q28_diag_0.png",
+    "options": [
+      "Codes (A) a (B) c (C) d (D) b"
+    ],
+    "answer": "Codes (A) a (B) c (C) d (D) b",
+    "solution": "",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": [
+      "bio_q28_diag_0.png"
+    ]
+  },
+  {
+    "id": 29,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Choose the correct statements regarding cell cycle I. Interphase is called the resting phase II. Interphase is the time during which the cell is preparing for division III. The interphase is divided into phases, $i.e.$, $G_{1}$, S and $G_{2}$ -phase IV. Interphase represents the phase between the two successive M-phases The option with correct statements is",
+    "question_latex": "Choose the correct statements regarding cell cycle I. Interphase is called the resting phase II. Interphase is the time during which the cell is preparing for division III. The interphase is divided into phases, $i.e.$, $G_{1}$, S and $G_{2}$ -phase IV. Interphase represents the phase between the two successive M-phases The option with correct statements is",
+    "image_url": "",
+    "options": [
+      "(A) I and IV",
+      "(B) II and III",
+      "(C) I and III",
+      "(D) I, II, III and IV"
+    ],
+    "answer": "(D) I, II, III and IV",
+    "solution": "(d) The interphase, as called the resting phase, is the time during which the cell is preparing for division by undergoing both cell growth and DNA replication.\nIt is the phase between two successive M-phases\nThe interphase is divided into three further classes\n$G_{1}$-phase (Gap 1), S-phase (synthesis) and $G_{2}$-phase (Gap 2)",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 30,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The anaphase promoting complex is activated by",
+    "question_latex": "The anaphase promoting complex is activated by",
+    "image_url": "",
+    "options": [
+      "(A) M cdk cyclin",
+      "(B) $G_{1}$ cdk cyclin",
+      "(C) S cdk cyclin",
+      "(D) Transaction factor"
+    ],
+    "answer": "(A) M cdk cyclin",
+    "solution": "(a) M cdk cyclin activates anaphase promoting complex.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 31,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Colchicine arrests which of the following stage of cell division?",
+    "question_latex": "Colchicine arrests which of the following stage of cell division?",
+    "image_url": "",
+    "options": [
+      "(A) Prophase",
+      "(B) Anaphase",
+      "(C) Telophase",
+      "(D) Metaphase"
+    ],
+    "answer": "(D) Metaphase",
+    "solution": "(d)\nColchicine prevents spindle formation, which occurs during metaphase stage of cell division.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 32,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "During gamete formation, the enzyme recombinase participates during:(2012 Pre)",
+    "question_latex": "During gamete formation, the enzyme recombinase participates during:(2012 Pre)",
+    "image_url": "",
+    "options": [
+      "(A) Anaphase-II",
+      "(B) Metaphase-I",
+      "(C) Prophase-II",
+      "(D) Prophase-I"
+    ],
+    "answer": "(D) Prophase-I",
+    "solution": "(d) During prophase-I of meiosis (Pachytene:) Crossing over occurs (the exchange of genetic material between two homologous chromosomes). Crossing over is also an enzyme-mediated process and the enzyme involved is called recombinase.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 33,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "What change would occur in DNA content, during S-phase?",
+    "question_latex": "What change would occur in DNA content, during S-phase?",
+    "image_url": "",
+    "options": [
+      "(A) No change",
+      "(B) The amount of DNA per cell doubles",
+      "(C) The amount of DNA per cell increase four folds",
+      "(D) The amount of DNA per cell decreases"
+    ],
+    "answer": "(B) The amount of DNA per cell doubles",
+    "solution": "(b) It the initial amount of DNA is denoted as 2C, then it increases to 4C.\nIn the $G_{1}$-phase of interphase, the cell is metabolically active and continuously grows but do not replicate its DNA S or synthesis phase marks the period during which DNA synthesis or replication takes place. During this time, the amount of DNA per cell gets double",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 34,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The four daughter cells produced at the end of meiosis are:",
+    "question_latex": "The four daughter cells produced at the end of meiosis are:",
+    "image_url": "",
+    "options": [
+      "(A) Polynucleate (B) Genetically dissimilar (C) Genetically similar (D) Anucleate"
+    ],
+    "answer": "",
+    "solution": "(b) The four daughter cells produced at the end of meiosis are polynucleate.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 35,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The fruit fly has 8 chromosomes (2n) in each cell. During interphase of Mitosis if the number of chromosomes at $G_{1}$ phase is 8 , what would be the number of chromosomes after S phase?(2021)",
+    "question_latex": "The fruit fly has 8 chromosomes (2n) in each cell. During interphase of Mitosis if the number of chromosomes at $G_{1}$ phase is 8 , what would be the number of chromosomes after S phase?(2021)",
+    "image_url": "",
+    "options": [
+      "(A) 16 (B) 32 (C) 4 (D) 8"
+    ],
+    "answer": "",
+    "solution": "(d) In S phase or synthesis phase, DNA replication takes place so the amount of DNA becomes double but the chromosome number remains same. Thus, if the number of chromosomes at $G_{1}$ phase is 8 in fruit fly then the number of chromosomes will be same in S phase and after S phase, i.e, 8 chromosomes.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 36,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following phase follows S and $G_{2}$ phases of interphase?",
+    "question_latex": "Which of the following phase follows S and $G_{2}$ phases of interphase?",
+    "image_url": "",
+    "options": [
+      "(A) Prophase (B) Metaphase (C) Anaphase (D) Telophase"
+    ],
+    "answer": "(A) Prophase (B) Metaphase (C) Anaphase (D) Telophase",
+    "solution": "(a) Prophase is the first stage of mitosis which follows S and $G_2$ phases of the interphase. In the S and $G_2$ phases, the new DNA molecules formed are not distinct but intertwined. Prophase is marked by the initiation of condensation of chromosomal material.",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 37,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "DNA replicates",
+    "question_latex": "DNA replicates",
+    "image_url": "",
+    "options": [
+      "(A) Twice in each cell cycle (B) Only once in each cell cycle (C) Once in mitotic cell cycle, once in meiotic-I (reductional division) and once in meiotic-II (equational division) (D) None of the above"
+    ],
+    "answer": "",
+    "solution": "(b) DNA replicates only once in each cell cycle (S-phase)",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 38,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following cellular structures always disappears during mitosis and meiosis?",
+    "question_latex": "Which of the following cellular structures always disappears during mitosis and meiosis?",
+    "image_url": "",
+    "options": [
+      "(A) Endoplasmic reticulum and mitochondria (B) Nucleolus and nuclear membrane (C) Plastid and nuclear membrane (D) Endoplasmic reticulum and plasma membrane"
+    ],
+    "answer": "",
+    "solution": "(b) During mitosis and meiosis, the nucleolus and nuclear membrane invariably vanish. The chromosomes compress, the nucleolus vanishes, and the nuclear membrane breaks down during the start of mitosis, allowing the majority of the nucleus' contents to escape into the cytoplasm. The procedure is reversed at the end of mitosis. Diakinesis is the state of being unable to move. The nucleolus and nuclear membrane vanish during prophase I of meiosis I, and the chromosomes are released into the cytoplasm.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 39,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following phase is called the resting phase during which cell is preparing for division by undergoing both cell growth and replication of DNA?",
+    "question_latex": "Which of the following phase is called the resting phase during which cell is preparing for division by undergoing both cell growth and replication of DNA?",
+    "image_url": "",
+    "options": [
+      "(A) M - phase (B) Prophase (C) $G_{0}$ phase (D) Interphase"
+    ],
+    "answer": "",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 40,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Study the diagram showing meiosis carefully and choose the correct options for $A - E$",
+    "question_latex": "Study the diagram showing meiosis carefully and choose the correct options for $A - E$",
+    "image_url": "",
+    "options": [
+      "(A) $A$ - Tetrad, $B$ - Bivalent, $C$ - Zygotene stage, $D$ - Sister chromatids, $E$ - Non-sister chromatids",
+      "(B) $A$ - Bivalent, $B$ - Tetrad, $C$ - Pachytene stage, $D$ - Crossing over, $E$ - Non-sister chromatids",
+      "(C) $A$ - Bivalent, $B$ - Tetrad, $C$ - Pachytene stage, $D$ - Non-Sister chromatids, $E$ - Sister chromatids",
+      "(D) $A$ - Bivalent, $B$ - Tetrad, $C$ - Pachytene stage, $D$ - Sister chromatids, $E$ - Non-Sister chromatids"
+    ],
+    "answer": "(A) $A$ - Tetrad, $B$ - Bivalent, $C$ - Zygotene stage, $D$ - Sister chromatids, $E$ - Non-sister chromatids",
+    "solution": "(a) Bivalent A pair of homologous chromosomes lying together is called a bivalent.\n(i) Tetrad In pachytene stage, the chromatids of each synapsed chromosome slightly separate and become visible. The two visible chromatids of a chromosome are referred to as dyad\n(ii) A group of four homologous chromatids (two dyads) is called a tetrad\n(iii) Pachytene Stage Crossing over occurs during pachytene stage\n(iv) Non-sister Chromatids The two chromatids of two homologous chromosomes (bivalent) are termed non-sister chromatids\n(v) Sister Chromatids The two chromatids of the same chromosome are called sister chromatids",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 41,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which one of the following list contain the correct order of meiotic events?",
+    "question_latex": "Which one of the following list contain the correct order of meiotic events?",
+    "image_url": "",
+    "options": [
+      "(A) Separation of sister chromatids, recombination, formation of the synaptonemal complex, separation of homologous chromosomes",
+      "(B) Separation of homologous chromosomes, formation of the synaptonemal complex, recombination, separation of sister chromatids",
+      "(C) Formation of synaptonemal complex, recombination, separation of sister chromatids, separation of homologous chromosomes",
+      "(D) Formation of the synaptonemal complex, recombination, separation of homologous chromosomes, separation of sister chromatids."
+    ],
+    "answer": "(D) Formation of the synaptonemal complex, recombination, separation of homologous chromosomes, separation of sister chromatids.",
+    "solution": "(d) The formation of synaptonemal complex, recombination, separation of homologous chromosomes, and separation of sister chromatids occur in the correct order during meiosis.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 42,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following is unique to mitosis and not a part of meiosis?",
+    "question_latex": "Which of the following is unique to mitosis and not a part of meiosis?",
+    "image_url": "",
+    "options": [
+      "(A) Homologous chromosomes behave independently (B) Chromatids are separated during anaphase (C) Homologous chromosomes pair and form bivalents (D) Homologous chromosomes crossover"
+    ],
+    "answer": "(A) Homologous chromosomes behave independently (B) Chromatids are separated during anaphase (C) Homologous chromosomes pair and form bivalents (D) Homologous chromosomes crossover",
+    "solution": "(a) During mitosis, all the chromosomes behave independently while during meiosis, homologous chromosomes pair up through synapsis and form bivalents in zygotene substage of prophase-I, then in pachytene substage, crossing over occurs between homologous chromosomes and during diplotene substage of prophase-I of meiosis chiasma formation takes place.\nDuring anaphase of both mitosis and meiosis, chromatids are separated and pulled towards opposite poles.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 43,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "In which stage of meiosis, the structure, number and shape of chromosomes can be observed?",
+    "question_latex": "In which stage of meiosis, the structure, number and shape of chromosomes can be observed?",
+    "image_url": "",
+    "options": [
+      "(A) Prophase I (B) Telophase I (C) Metaphase I (D) Anaphase I"
+    ],
+    "answer": "(A) Prophase I (B) Telophase I (C) Metaphase I (D) Anaphase I",
+    "solution": "(a) The two chromatids of a chromosome mark replicated chromosomes to be separated in anaphase.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 44,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Arrange the following events of meiosis in the correct sequence. I. Terminalization II. Crossing over III. Synapsis IV. Disjunction of genomes The correct sequence is",
+    "question_latex": "Arrange the following events of meiosis in the correct sequence. I. Terminalization II. Crossing over III. Synapsis IV. Disjunction of genomes The correct sequence is",
+    "image_url": "",
+    "options": [
+      "(A) 4, 3, 2, 1 (B) 3, 2, 1, 4 (C) 2, 1, 4, 3 (D) 1, 4, 3, 2"
+    ],
+    "answer": "",
+    "solution": "(2) The correct sequence is:\nSynapsis $\\rightarrow$ Crossing over $\\rightarrow$ Terminalization $\\rightarrow$ Disjunction of genomes",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 45,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "XX is a phase of mitosis, in which the chromatin condenses into discrete chromosomes. During XX phase, nuclear envelope breaks down and spindles forms at opposite ends of the cell Identify XX",
+    "question_latex": "XX is a phase of mitosis, in which the chromatin condenses into discrete chromosomes. During XX phase, nuclear envelope breaks down and spindles forms at opposite ends of the cell Identify XX",
+    "image_url": "",
+    "options": [
+      "(A) Interphase (B) Anaphase (C) Telophase (D) Prophase"
+    ],
+    "answer": "",
+    "solution": "(d) Prophase is generally identified by the initiation of condensation of chromosomal material. The chromosomal material condenses to form chromosomes. The nuclear envelope breaks down and spindles start to assemble at opposite ends of the cell",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 46,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Electron micrographs of which stage indicate that chromosomes accompanied by the formation of complex structure called synaptonemal complex?",
+    "question_latex": "Electron micrographs of which stage indicate that chromosomes accompanied by the formation of complex structure called synaptonemal complex?",
+    "image_url": "",
+    "options": [
+      "(A) Zygotene (B) Diakinesis (C) Diplotene (D) Pachytene"
+    ],
+    "answer": "(A) Zygotene (B) Diakinesis (C) Diplotene (D) Pachytene",
+    "solution": "(a) Electron micrographs of the zygotene stage of prophase I of meiosis I show that chromosomes form a complex structure known as the synaptonemal complex. Chromosomes begin to link up during this period (a process called synapsis).",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 47,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "In which stage, the chromosomes appear thin and long thread-like?",
+    "question_latex": "In which stage, the chromosomes appear thin and long thread-like?",
+    "image_url": "",
+    "options": [
+      "(A) Zygotene (B) Leptotene (C) Pachytene (D) Prophase"
+    ],
+    "answer": "",
+    "solution": "(b) Leptotene is the first stage of prophase I of meiosis I. Leptotene is of very short duration in which progressive condensation and coiling of chromosomal fibres takes place. In leptotene, the nuclear membrane enlarges and chromosomes become distinct. Chromosomes appear as long and slender threads bearing beads like structure called chromomeres.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 48,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "The synaptonemal complex appears",
+    "question_latex": "The synaptonemal complex appears",
+    "image_url": "",
+    "options": [
+      "(A) between homologous chromosomes. (B) in zygotene stage. (C) composed of DNA + protein. (D) All of the above"
+    ],
+    "answer": "",
+    "solution": "(d) The synaptonemal complex is formed at the region of synapsis. It is a protein structure that forms between homologous chromosomes (two pairs of sister chromatids) during meiosis and is thought to mediate chromosome pairing, synapsis, and recombination. This stage appears in zygotene stage of prophase I of meiosis I .",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 49,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "At what stage, does the number of chromosomes become half?",
+    "question_latex": "At what stage, does the number of chromosomes become half?",
+    "image_url": "",
+    "options": [
+      "(A) Prophase I (B) Anaphase I (C) Metaphase I (D) Telophase I"
+    ],
+    "answer": "",
+    "solution": "(d) During anaphase I, the number of chromosomes is reduced by half.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 50,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Which of the following statements are correct for cell cycle? I. Cell cycle is the sequence of events involving growth and division of a cell from the time of its formation to its own division into daughter cells II. Cell growth (in terms of cytoplasmic increase) is a continuous process III. DNA synthesis occurs only during one specific stage in the cell cycle IV. The replicated chromosomes (DNA ) are distributed to daughter nuclei during cell division",
+    "question_latex": "Which of the following statements are correct for cell cycle? I. Cell cycle is the sequence of events involving growth and division of a cell from the time of its formation to its own division into daughter cells II. Cell growth (in terms of cytoplasmic increase) is a continuous process III. DNA synthesis occurs only during one specific stage in the cell cycle IV. The replicated chromosomes (DNA ) are distributed to daughter nuclei during cell division",
+    "image_url": "",
+    "options": [
+      "(A) I and III (B) I and II (C) III and IV (D) I, II, III and IV"
+    ],
+    "answer": "",
+    "solution": "(d) All the statements are correct",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 51,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Choose the incorrect statement from the following w.r.t telophase-I of meiosis-I. NCERT Pg. 127",
+    "question_latex": "Choose the incorrect statement from the following w.r.t telophase-I of meiosis-I. NCERT Pg. 127",
+    "image_url": "",
+    "options": [
+      "(A) The nuclear membrane and nucleolus reappears during telophase-I, leading to dyad formation",
+      "(B) Chromosomes reach the extremely extended state of interphase nucleus (C) There is no replication of DNA during interkinesis (D) The stages between two meiotic division is interkinesis, which is generally short lived"
+    ],
+    "answer": "(B) Chromosomes reach the extremely extended state of interphase nucleus (C) There is no replication of DNA during interkinesis (D) The stages between two meiotic division is interkinesis, which is generally short lived",
+    "solution": "",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 52,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Attachment of spindle fibers to kinetochores of chromosomes becomes evident in :(2020-Covid)",
+    "question_latex": "Attachment of spindle fibers to kinetochores of chromosomes becomes evident in :(2020-Covid)",
+    "image_url": "",
+    "options": [
+      "(A) Anaphase (B) Telophase (C) Metaphase (D) Prophase"
+    ],
+    "answer": "",
+    "solution": "(c) Metaphase is characterised by all the chromosomes coming to lie at the equator with one chromatid of each chromosome connected by its kinetochore to spindle fibres from one pole and its sister chromatid connected by its kinetochore to spindle fibres from the opposite pole.",
+    "difficulty": "medium",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 53,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Select the correct option with respect to mitosis. (2011)",
+    "question_latex": "Select the correct option with respect to mitosis. (2011)",
+    "image_url": "",
+    "options": [
+      "(A) Chromatids separate but remain in the centre of the cell in anaphase",
+      "(B) Chromatids start moving towards opposite poles in telophase",
+      "(C) Golgi complex and endoplasmic reticulum are still visible at the end of prophase",
+      "(D) Chromosomes move to the spindle equator and get aligned along equatorial plate in metaphase"
+    ],
+    "answer": "(D) Chromosomes move to the spindle equator and get aligned along equatorial plate in metaphase",
+    "solution": "(d) : The plane of alignment of the chromosomes at metaphase is referred to as the metaphase plate. The key features of metaphase are, (1) Spindle fibres attach to kinetochores of chromosomes (2) Chromosomes are moved to spindle equator and get aligned along metaphase plate through spindle fibres to both poles",
+    "difficulty": "easy",
+    "marks": 4,
+    "extracted_image_names": []
+  },
+  {
+    "id": 54,
+    "chapter": "Excretion and Osmoregulation",
+    "question": "Statement I Dyad of cells is formed during the telophase-II stage of meiosis. Statement II Interkinesis is the stage between meiosis-I and meiosis-II.Given below are two statements. Read the",
+    "question_latex": "Statement I Dyad of cells is formed during the telophase-II stage of meiosis. Statement II Interkinesis is the stage between meiosis-I and meiosis-II.Given below are two statements. Read the",
+    "image_url": "",
+    "options": [
+      "(A) Statement I is correct and Statement II is incorrect",
+      "(B) Statement I is incorrect and Statement II is correct",
+      "(C) Both Statement I and Statement II are correct",
+      "(D) Both Statement I and Statement II are incorrect"
+    ],
+    "answer": "(A) Statement I is correct and Statement II is incorrect",
+    "solution": "(a) Statement I is correct and Statement II is incorrect",
+    "difficulty": "hard",
+    "marks": 4,
+    "extracted_image_names": []
+  }
+]

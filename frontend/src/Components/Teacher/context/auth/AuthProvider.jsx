@@ -37,7 +37,10 @@ const AuthProvider = (props) => {
       ? localStorage.getItem("Watermark")
       : null
   );
-  const BackendUrl = import.meta.env.VITE_BACKEND_URL;
+  const rawBackendUrl = import.meta.env.VITE_BACKEND_URL;
+  const BackendUrl = rawBackendUrl.startsWith("https://") 
+  ? rawBackendUrl.replace("https://", "http://") 
+  : rawBackendUrl;
 
   // Auto-logout effect
   useEffect(() => {

@@ -11,6 +11,8 @@ import React, {
   import { useOutletContext, useNavigate } from "react-router-dom";
   import AuthContext from "../context/auth/AuthContext.jsx";
   import PaperContext from "../context/paper/PaperContext.jsx";
+  import "katex/dist/katex.min.css";
+  import Latex from "react-latex-next";
 
   const Watermark = ({ text = "PAPERNEST" }) => {
     return <div className="watermark-print">{text}</div>;
@@ -109,6 +111,21 @@ import React, {
     const [useColumns, setUseColumns] = useState(true);
     const [viewMode, setViewMode] = useState("questions_only"); 
     const [paperStored, setPaperStored] = useState(false);
+    
+    // 💡 Responsive Auto-Column Detection
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setUseColumns(false);
+            }
+        };
+        
+        // Initial check
+        handleResize();
+        
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const [replaceMode, setReplaceMode] = useState(false);
     const [selectedReplaceQuestions, setSelectedReplaceQuestions] = useState([]);
@@ -462,7 +479,7 @@ import React, {
             className="mb-2 text-base font-semibold"
           >
             <strong className="text-gray-900">{String(qno).padStart(2, "0")}.</strong>
-            <span className="text-green-700 ml-1">{q.answer || "N/A"}</span>
+            <span className="text-green-700 ml-1"> <Latex>{q.answer || "N/A"}</Latex></span>
           </div>
         );
       }
@@ -475,7 +492,7 @@ import React, {
         optsHtml = (
           <ol className="ml-5 list-[lower-alpha] mt-1 text-[15px]">
             {q.options.map((opt, i) => (
-              <li key={i}>{opt}</li>
+              <li key={i}><Latex>{opt}</Latex></li>
             ))}
           </ol>
         );
@@ -507,7 +524,7 @@ import React, {
           {/* Question Number and Text */}
           <div className={`flex ${replaceMode ? "ml-6" : ""}`}>
             <strong className="mr-2">{qno}.</strong>
-            <p className="flex-1">{q.question}</p>
+            <p className="flex-1"><Latex>{q.question}</Latex></p>
             <span className="ml-auto font-normal text-gray-700 whitespace-nowrap">
               ({calculatedMark} M)
             </span>
@@ -518,7 +535,7 @@ import React, {
           {/* Show Answer if enabled */}
           {showAnswers && q.answer && (
             <div className="ml-5 mt-2 text-green-700 font-semibold text-[16px]">
-              ✓ Answer: {q.answer}
+              ✓ Answer: <Latex>{q.answer}</Latex>
             </div>
           )}
 
@@ -527,7 +544,7 @@ import React, {
             <div className="ml-5 mt-3 pt-3 border-t border-dashed border-gray-300">
               <h4 className="font-bold text-base text-indigo-700">Solution:</h4>
               <p className="text-gray-800 text-[15px] italic">
-                {q.solution || "No solution provided."}
+                <Latex>{q.solution || "No solution provided."}</Latex>
               </p>
             </div>
           )}
@@ -536,7 +553,7 @@ import React, {
     };
 
     return (
-      <div className="bg-slate-50 p-6 rounded-lg font-[Times New Roman]">
+      <div className="bg-slate-50 p-4 md:p-6 lg:p-8 rounded-lg font-[Times New Roman] transition-all duration-300">
         <style>
   {`
     @page { margin: 10mm; }
@@ -644,8 +661,8 @@ import React, {
   `}
   </style> 
 
-        <div className="no-print flex justify-between items-center mb-4 gap-4">
-          <div className="flex items-center gap-6">
+        <div className="no-print flex flex-col-reverse md:flex-row justify-between items-stretch md:items-center mt-10 mb-6 gap-4">
+          <div className="flex flex-wrap items-center justify-between md:justify-start gap-4 md:gap-6 w-full md:w-auto">
             <button
               onClick={handleGlobalBack}
               className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 
@@ -678,7 +695,7 @@ import React, {
             </div>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-2 w-full md:w-auto">
             {/* SECTION 1: Select and Generate (Default View) */}
             {!showGenerateOptions && (
               <>
@@ -755,7 +772,8 @@ import React, {
           <div className="no-print text-red-500 text-center mb-4">{error}</div>
         )}
 
-        <div id="print-area" className="bg-white p-8 rounded-xl border relative">
+        <div className="overflow-x-auto w-full pb-4">
+          <div id="print-area" className="bg-white p-4 md:p-8 rounded-xl border relative shadow-sm" style={{ minWidth: useColumns ? '900px' : 'auto' }}>
           <Watermark text={watermark} />
     
           <div className="border border-black p-4">
@@ -778,14 +796,15 @@ import React, {
               Subject: {finalSubject}
             </div>
           </div>
-          <div className="mt-6 text-[17px] leading-8 font-serif">
+          {/* 💡 Questions Container */}
+          <div className="mt-6 text-[17px] leading-8 font-serif w-full">
             {questionCount === 0 ? (
               <div className="text-center text-gray-500 py-20">
                 No questions were generated.
               </div>
             ) : useColumns ? (
               // Two Column Layout
-              <div className="columns-q">
+              <div className="columns-q pb-4">
                 <div className="col-q left">
                   {leftContent.map((q, i) => renderQuestion(q, i, 0))}
                 </div>
@@ -806,6 +825,7 @@ import React, {
           <div className="text-center text-sm text-gray-500 mt-6">
             --- End of Paper ---
           </div>
+        </div>
         </div>
       </div>
     );

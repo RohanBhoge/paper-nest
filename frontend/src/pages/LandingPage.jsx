@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   ChevronDown,
   Sparkles,
@@ -14,6 +14,15 @@ import { useNavigate } from "react-router-dom";
 const LandingPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+
+  // 💡 Auto-scroll to Contact section after 60 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      navigate("/contact-us");
+    }, 60000); // 60000ms = 60 seconds
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
 
   // 💡 Auto-redirect logic removed to allow access to Landing Page. 
   // User can manually navigate to dashboard via Login button or new Dashboard button if we add one.

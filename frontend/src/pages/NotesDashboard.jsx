@@ -224,7 +224,7 @@ const chaptersData = {
         "2. Mathematical Logic",
         "3. Coordinate Geometry",
         "4. Continuity",
-        "5. Limits and Derivative",
+        "5. Principle of Mathematical Induction",
         "6. Integration",
         "7. Definite Integration",
         "8. Application of Definite Integrals",
