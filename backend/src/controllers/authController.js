@@ -3,10 +3,8 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 import {
   S3Client,
-  GetObjectCommand,
   PutObjectCommand,
 } from '@aws-sdk/client-s3';
-import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 
 import {
   createUser,
@@ -22,8 +20,35 @@ import {
 dotenv.config();
 
 const JWT_SECRET = process.env.JWT_SECRET || 'change-me';
-const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || '8h';
+const JWT_REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'change-refresh-secret';
+const JWT_EXPIRES_IN = '15m'; // Short-lived access token
+const REFRESH_EXPIRES_IN = '7d'; // Long-lived refresh token
 const SALT_ROUNDS = parseInt(process.env.BCRYPT_ROUNDS || '10', 10);
+
+// Helper to set auth cookies
+const setAuthCookies = (res, accessToken, refreshToken) => {
+  const isProduction = process.env.NODE_ENV === 'production';
+
+  res.cookie('access_token', accessToken, {
+    httpOnly: true,
+    secure: isProduction,
+    sameSite: 'strict',
+    maxAge: 150 * 60 * 1000 // 15 minutes
+  });
+
+  res.cookie('refresh_token', refreshToken, {
+    httpOnly: true,
+    secure: isProduction,
+    sameSite: 'strict',
+    maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
+  });
+};
+
+// Helper to clear auth cookies
+const clearAuthCookies = (res) => {
+  res.clearCookie('access_token');
+  res.clearCookie('refresh_token');
+};
 
 const s3Client = new S3Client({
   region: process.env.AWS_REGION,
@@ -33,25 +58,12 @@ const s3Client = new S3Client({
   },
 });
 
-const getObjectURL = async (key) => {
-  const command = new GetObjectCommand({
-    Bucket: process.env.AWS_BUCKET_NAME,
-    Key: key,
-  });
-  const url = await getSignedUrl(s3Client, command, { expiresIn: 7200 });
-  return url;
-};
-
 const register = async (req, res) => {
   try {
     const { email, password, full_name, watermark } = req.body;
 
     // --- DEBUG LOG START ---
-    console.log('--- REGISTER REQUEST ---');
-    console.log('Email:', email);
-    if (req.file) {
-      console.log('File received:', req.file.originalname, 'Size:', req.file.size);
-    }
+
     // --- DEBUG LOG END ---
 
     if (!email || !password) {
@@ -95,12 +107,19 @@ const register = async (req, res) => {
       logoKey
     );
 
-    const token = jwt.sign({ sub: userId }, JWT_SECRET, {
+    const accessToken = jwt.sign({ sub: userId, role: 'admin' }, JWT_SECRET, {
       expiresIn: JWT_EXPIRES_IN,
     });
 
+    const refreshToken = jwt.sign({ sub: userId, role: 'admin' }, JWT_REFRESH_SECRET, {
+      expiresIn: REFRESH_EXPIRES_IN,
+    });
+
+    setAuthCookies(res, accessToken, refreshToken);
+
     res.status(201).json({
-      token,
+      success: true,
+      message: 'Registration successful',
       user: {
         id: userId,
         email,
@@ -169,8 +188,8 @@ const studentRegister = async (req, res) => {
       classVal || null
     );
 
-    // 4. Generate JWT
-    const token = jwt.sign(
+    // 4. Generate JWT tokens
+    const accessToken = jwt.sign(
       {
         sub: studentId,
         role: 'student',
@@ -182,10 +201,23 @@ const studentRegister = async (req, res) => {
       }
     );
 
+    const refreshToken = jwt.sign(
+      {
+        sub: studentId,
+        role: 'student',
+        adminId: adminUserId,
+      },
+      JWT_REFRESH_SECRET,
+      {
+        expiresIn: REFRESH_EXPIRES_IN,
+      }
+    );
+
+    setAuthCookies(res, accessToken, refreshToken);
+
     res.status(201).json({
       success: true,
       message: 'Student registered successfully',
-      token,
       user: {
         id: studentId,
         email,
@@ -218,14 +250,23 @@ const studentLogin = async (req, res) => {
     const ok = await bcrypt.compare(password, user.password_hash);
     if (!ok) return res.status(401).json({ error: 'Invalid password' });
 
-    const token = jwt.sign(
+    const accessToken = jwt.sign(
       { sub: user.id, role: 'student', adminId: user.user_id },
       JWT_SECRET,
       { expiresIn: JWT_EXPIRES_IN }
     );
 
+    const refreshToken = jwt.sign(
+      { sub: user.id, role: 'student', adminId: user.user_id },
+      JWT_REFRESH_SECRET,
+      { expiresIn: REFRESH_EXPIRES_IN }
+    );
+
+    setAuthCookies(res, accessToken, refreshToken);
+
     res.json({
-      token,
+      success: true,
+      message: 'Login successful',
       user: {
         id: user.id,
         email: user.email,
@@ -282,11 +323,19 @@ const adminLogin = async (req, res) => {
       remainingDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     }
 
-    const token = jwt.sign({ sub: user.id, role: 'admin' }, JWT_SECRET, {
+    const accessToken = jwt.sign({ sub: user.id, role: 'admin' }, JWT_SECRET, {
       expiresIn: JWT_EXPIRES_IN,
     });
+
+    const refreshToken = jwt.sign({ sub: user.id, role: 'admin' }, JWT_REFRESH_SECRET, {
+      expiresIn: REFRESH_EXPIRES_IN,
+    });
+
+    setAuthCookies(res, accessToken, refreshToken);
+
     res.json({
-      token,
+      success: true,
+      message: 'Login successful',
       user: {
         id: user.id,
         email: user.email,
@@ -383,6 +432,50 @@ const handleToggleUserStatus = async (req, res) => {
   }
 };
 
+/**
+ * Refresh access token using refresh token
+ */
+const refresh = async (req, res) => {
+  try {
+    const refreshToken = req.cookies.refresh_token;
+
+    if (!refreshToken) {
+      return res.status(401).json({ error: 'No refresh token provided' });
+    }
+
+    const payload = jwt.verify(refreshToken, JWT_REFRESH_SECRET);
+
+    // Generate new access token
+    const newAccessToken = jwt.sign(
+      { sub: payload.sub, role: payload.role, adminId: payload.adminId },
+      JWT_SECRET,
+      { expiresIn: JWT_EXPIRES_IN }
+    );
+
+    // Set new access token cookie
+    const isProduction = process.env.NODE_ENV === 'production';
+    res.cookie('access_token', newAccessToken, {
+      httpOnly: true,
+      secure: isProduction,
+      sameSite: 'strict',
+      maxAge: 15 * 60 * 1000
+    });
+
+    res.json({ success: true, message: 'Token refreshed' });
+  } catch (err) {
+    console.error('Token refresh error:', err);
+    return res.status(401).json({ error: 'Invalid or expired refresh token' });
+  }
+};
+
+/**
+ * Logout - clear cookies
+ */
+const logout = async (req, res) => {
+  clearAuthCookies(res);
+  res.json({ success: true, message: 'Logged out successfully' });
+};
+
 export {
   register as adminRegister,
   adminLogin,
@@ -391,4 +484,6 @@ export {
   deleteUser,
   getAllUsersController,
   handleToggleUserStatus,
+  refresh,
+  logout,
 };

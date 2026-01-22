@@ -49,7 +49,7 @@ const LoginPage = () => {
       if (err.response) {
         // Do NOT redirect on error. Stay on page to show error.
         setError(
-          err.response.data.error || 
+          err.response.data.error ||
           err.response.data.message ||
           "Login failed. Please check your credentials."
         );
@@ -65,10 +65,10 @@ const LoginPage = () => {
       setIsLoading(false);
     }
   };
-  
+
   const handleLogin = async (e) => {
     e.preventDefault();
-    
+
     // 💡 HARDCODED STUDENT LOGIN (Bypass Backend)
     if (email === "student@gmail.com" && password === "student123") {
       const mockToken = "mock-student-token-123";
@@ -81,35 +81,35 @@ const LoginPage = () => {
 
     const userData = await loginUser(email, password);
     console.log("userData", userData);
-    
+
     if (!userData) return; // Stop if login failed
-    
+
     // Save token
     if (userData.token) {
       localStorage.setItem("Admin_Token", userData.token);
       setAdminAuthToken(userData.token);
     }
-    
+
     // 💡 NEW: Save Class Name and Watermark
     if (userData.user) {
-        if (userData.user.logo_url) {
-            localStorage.setItem("Class_Name", userData.user.class_name);
-            setLogo(userData.user.logo_url);
-        }
-        if (userData.user.watermark) {
-            localStorage.setItem("Watermark", userData.user.watermark);
-            setWatermark(userData.user.watermark);
-        }
+      if (userData.user.logo_url) {
+        localStorage.setItem("Class_Name", userData.user.class_name);
+        setLogo(userData.user.logo_url);
+      }
+      if (userData.user.watermark) {
+        localStorage.setItem("Watermark", userData.user.watermark);
+        setWatermark(userData.user.watermark);
+      }
     }
 
     // SAFE role-based routing
     const role = userData.user?.role;
-    
+
     // Store role for persistent routing
     if (role) {
       localStorage.setItem("User_Role", role);
     }
-    
+
     if (role === "admin") {
       navigate("/admin-dashboard");
     } else if (role === "teacher") {

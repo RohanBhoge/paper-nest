@@ -320,6 +320,14 @@ const GeneratedTemplate = ({
     setViewMode("questions_only"); // Reset view mode to default
   };
 
+  /** * Handles canceling the selection mode and clearing all selected questions */
+  const handleCancelSelection = () => {
+    setReplaceMode(false);
+    setSelectedReplaceQuestions([]);
+    setReplacementPool([]);
+    setError(null);
+  };
+
   /** * Handles general navigation logic: */
   const handleGlobalBack = () => {
     console.log("show generate options", showGenerateOptions);
@@ -329,10 +337,7 @@ const GeneratedTemplate = ({
       navigate("/teacher-dashboard")
     } else if (replaceMode) {
       // If currently in select/replace mode, cancel selection
-      setReplaceMode(false);
-      setSelectedReplaceQuestions([]);
-      setReplacementPool([]);
-      setError(null);
+      handleCancelSelection();
     } else {
       // If in the main view (Default state), go back to the dashboard/previous section
       if (onBack) {
@@ -756,7 +761,7 @@ const GeneratedTemplate = ({
               {/* Select Questions Button & Replace Button */}
               {/* NOTE: We keep the Cancel button outside of handleGlobalBack because it handles state reset *within* this section */}
               <button
-                onClick={() => setReplaceMode((prev) => !prev)}
+                onClick={() => replaceMode ? handleCancelSelection() : setReplaceMode(true)}
                 className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 ${replaceMode ? "bg-red-600" : "bg-gray-600 hover:bg-gray-700"
                   }`}
                 disabled={isFetching}

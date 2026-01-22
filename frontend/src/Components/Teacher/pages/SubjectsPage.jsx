@@ -104,6 +104,7 @@ const SubjectsPage = () => {
               {examSubjects[selectedExam].map((subject) => (
                 <button
                   key={subject}
+                  type="button"
                   onClick={() => {
                     if (!mode) {
                       alert("⚠️ Please select a mode (Custom Selection or Full Pattern Paper) first.");
@@ -129,3 +130,5 @@ const SubjectsPage = () => {
 };
 
 export default SubjectsPage;
+
+

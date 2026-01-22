@@ -199,7 +199,7 @@ async function getUserByEmail(email) {
       return rows.length ? rows[0] : null;
     } catch (err) {
       if (err && err.code === 'ER_BAD_FIELD_ERROR') {
-      // Fallback if some columns are missing
+        // Fallback if some columns are missing
         const [rows2] = await connection.execute(
           `SELECT id, email, password_hash, full_name, logo, watermark, class_name, created_at FROM users WHERE email = ? LIMIT 1`,
           [email]
@@ -461,13 +461,16 @@ async function createOrganizationNotification(userId, content, eventDate) {
   try {
     connection = await pool.getConnection();
 
+    // Ensure empty string or undefined becomes NULL for MySQL
+    const safeEventDate = eventDate && String(eventDate).trim() !== '' ? eventDate : null;
+
     const insertQuery = `
             INSERT INTO notifications 
             (user_id, content, event_date) 
             VALUES (?, ?, ?)
         `;
 
-    const values = [userId, content, eventDate];
+    const values = [userId, content, safeEventDate];
 
     const [result] = await connection.execute(insertQuery, values);
     return result.insertId;
@@ -503,6 +506,7 @@ async function getOrganizationNotifications(userId) {
         `;
 
     const [rows] = await connection.execute(query, [userId, today]);
+
     return rows;
   } catch (error) {
     console.error('DB Error in getOrganizationNotifications:', error);

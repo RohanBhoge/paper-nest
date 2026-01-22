@@ -1,0 +1,141 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Eye, EyeOff, BookOpen, User, Lock } from "lucide-react"; // Added User and Lock icons for input fields
+
+const Login = () => {
+  // --- State Variables ---
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const navigate = useNavigate();
+
+  // --- Constants (Demo Credentials) ---
+  const VALID_USERNAME = "admin123";
+  const VALID_PASSWORD = "password123";
+
+  // --- Logic Handlers ---
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setError(null);
+
+    // Simulate an API call delay
+    setTimeout(() => {
+      if (username === VALID_USERNAME && password === VALID_PASSWORD) {
+        // Successful Login
+        navigate("/home");
+      } else {
+        // Failed Login
+        setError("Invalid username or password!");
+      }
+      setIsLoading(false);
+    }, 700);
+  };
+
+  // --- Rendered Component ---
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 px-4 relative">
+      
+      {/* Background Radial Gradient Effect (Cleaner glow) */}
+      <div className="absolute inset-0 bg-no-repeat bg-cover opacity-30 dark:opacity-20 pointer-events-none" style={{
+        backgroundImage: `radial-gradient(circle at 10% 90%, #6366f1, transparent),
+                          radial-gradient(circle at 90% 10%, #ec4899, transparent)`
+      }}></div>
+
+      {/* Login Card Container */}
+      <div 
+        className="w-full max-w-sm md:max-w-md bg-white dark:bg-gray-800/80 backdrop-blur-lg rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-700 p-8 sm:p-10 relative z-10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.01]"
+      >
+        <div className="flex flex-col items-center mb-10">
+          {/* Logo/Icon */}
+          <div className="p-3 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-xl shadow-lg">
+            <BookOpen size={30} className="text-white" />
+          </div>
+          <h1 className="text-3xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mt-4 tracking-tight dark:from-indigo-400 dark:to-purple-400">
+            BISUGEN
+          </h1>
+          <p className="text-gray-500 text-sm mt-2 dark:text-gray-400">Sign in to your account</p>
+        </div>
+
+        {/* Form */}
+        <form onSubmit={handleLogin} className="space-y-6">
+          
+          {/* Username Input */}
+          <div className="relative">
+            <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500">
+              <User size={18} />
+            </div>
+            <input
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
+              placeholder="Username"
+              className="w-full pl-12 pr-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg outline-none bg-white dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+            />
+          </div>
+
+          {/* Password Input */}
+          <div className="relative">
+            <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500">
+              <Lock size={18} />
+            </div>
+            <input
+              type={showPassword ? "text" : "password"}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              placeholder="Password"
+              className="w-full pl-12 pr-14 py-3 border border-gray-300 dark:border-gray-700 rounded-lg outline-none bg-white dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+            />
+            
+            {/* Show/Hide Password Button */}
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 p-1 rounded-full transition"
+            >
+              {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+            </button>
+          </div>
+
+          {/* Error Message */}
+          {error && (
+            <div className="bg-red-100 dark:bg-red-900/50 border-l-4 border-red-600 dark:border-red-400 p-3 rounded-md transition-all duration-300 ease-out animate-in fade-in slide-in-from-top-2">
+              <p className="text-red-700 dark:text-red-300 text-sm font-medium flex items-center gap-2">
+                <span className="text-lg">⚠️</span> {error}
+              </p>
+            </div>
+          )}
+
+          {/* Submit Button */}
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="w-full py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg shadow-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/70 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {isLoading ? (
+              <span className="flex items-center justify-center gap-2">
+                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                Logging in...
+             
+            ) : (
+              "Login"
+            )}
+          </button>
+        </form>
+
+        {/* Footer/Hint */}
+        <div className="mt-8 text-center text-gray-500 dark:text-gray-400 text-sm">
+          <p>Demo Credentials: **admin123** / **password123**</p>
+          <a href="#" className="text-indigo-600 dark:text-indigo-400 hover:underline mt-2 inline-block text-xs">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Login;

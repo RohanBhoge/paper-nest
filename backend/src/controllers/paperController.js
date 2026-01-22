@@ -90,9 +90,18 @@ const getAllPaperSummaries = async (req, res) => {
     if (!userId)
       return res.status(401).json({ success: false, message: "Unauthorized" });
 
-    const papers = await getPapersByUserId(userId);
+    // Pagination parameters
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 20;
+    const offset = (page - 1) * limit;
 
-    const summaries = papers.map((p) => ({
+    const allPapers = await getPapersByUserId(userId);
+    const total = allPapers.length;
+
+    // Apply pagination
+    const paginatedPapers = allPapers.slice(offset, offset + limit);
+
+    const summaries = paginatedPapers.map((p) => ({
       paper_id: p.paper_id,
       exam_name: p.exam_name,
       class: p.class,
@@ -103,7 +112,18 @@ const getAllPaperSummaries = async (req, res) => {
       created_at: p.created_at,
     }));
 
-    res.json({ success: true, papers: summaries });
+    res.json({
+      success: true,
+      papers: summaries,
+      pagination: {
+        page,
+        limit,
+        total,
+        totalPages: Math.ceil(total / limit),
+        hasNextPage: offset + limit < total,
+        hasPrevPage: page > 1
+      }
+    });
   } catch (error) {
     console.error("DB Fetch User Papers Error:", error);
     res.status(500).json({
@@ -214,15 +234,15 @@ const getReplaceableQuestions = async (req, res) => {
     const standardArr = Array.isArray(standards)
       ? standards
       : String(standards || "")
-          .split(",")
-          .map((s) => s.trim())
-          .filter(Boolean);
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean);
     const subjectArr = Array.isArray(subjects)
       ? subjects
       : String(subjects || "")
-          .split(",")
-          .map((s) => s.trim())
-          .filter(Boolean);
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean);
 
     if (replacementRequests.length === 0) {
       return res.status(400).json({
@@ -254,14 +274,14 @@ const getReplaceableQuestions = async (req, res) => {
 
       if (!chapter) continue;
 
-      const chaptersArr = [chapter]; 
+      const chaptersArr = [chapter];
 
       const validPool = allQ.filter((q) => {
         const isContextMatch = matchesFiltersObj(q, {
           exam,
           standardArr,
           subjectArr,
-          chaptersArr, 
+          chaptersArr,
         });
 
         if (isContextMatch) {
@@ -270,9 +290,9 @@ const getReplaceableQuestions = async (req, res) => {
           const compositeKey = `${qChapter}::${qId}`;
 
           if (globalExclusionSet.has(compositeKey)) {
-            return false; 
+            return false;
           }
-          return true; 
+          return true;
         }
         return false;
       });

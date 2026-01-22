@@ -84,38 +84,32 @@ const ChaptersPage = () => {
 
   // 🔄 Sync effect: Log className changes
   useEffect(() => {
-    console.log("[ChaptersPage] className updated:", className);
   }, [className]);
 
   // 🔄 Sync effect: Log examName changes
   useEffect(() => {
-    console.log("[ChaptersPage] examName updated:", examName);
   }, [examName]);
 
   // 🔄 Sync effect: Log totalMarks changes
   useEffect(() => {
     if (totalMarks) {
-      console.log("[ChaptersPage] totalMarks updated:", totalMarks);
     }
   }, [totalMarks]);
 
   // 🔄 Sync effect: Log examDate changes
   useEffect(() => {
     if (examDate) {
-      console.log("[ChaptersPage] examDate updated:", examDate);
     }
   }, [examDate]);
 
   // 🔄 Sync effect: Log examDuration changes
   useEffect(() => {
     if (examDuration) {
-      console.log("[ChaptersPage] examDuration updated:", examDuration);
     }
   }, [examDuration]);
 
   // 🔄 Sync effect: Log numberOfQuestions changes
   useEffect(() => {
-    console.log("[ChaptersPage] numberOfQuestions updated:", numberOfQuestions);
   }, [numberOfQuestions]);
 
   // --- Chapter Layout Logic (omitted for brevity) ---
@@ -195,6 +189,43 @@ const ChaptersPage = () => {
       return;
     }
 
+    // ✅ Form Validation
+    if (!className || !className.trim()) {
+      alert("Please enter a Class Name.");
+      return;
+    }
+    if (!examName || !examName.trim()) {
+      alert("Please enter an Exam Name.");
+      return;
+    }
+    if (!examDate) {
+      alert("Please select an Exam Date.");
+      return;
+    }
+    if (!examDuration || examDuration <= 0) {
+      alert("Please enter a valid Exam Duration in minutes.");
+      return;
+    }
+
+    // Validate mode-specific fields
+    if (mode === "Random") {
+      if (!totalMarks || totalMarks <= 0) {
+        alert("Please enter valid Total Marks.");
+        return;
+      }
+      if (!numberOfQuestions || numberOfQuestions <= 0) {
+        alert("Please enter a valid Number of Questions.");
+        return;
+      }
+    }
+
+    // Validate at least one chapter is selected
+    const hasSelectedChapters = Object.values(checkedChapters || {}).some(val => val === true);
+    if (!hasSelectedChapters) {
+      alert("Please select at least one chapter.");
+      return;
+    }
+
     setIsGenerating(true);
     setBackendPaperData(null); // Clear previous data
 
@@ -213,11 +244,9 @@ const ChaptersPage = () => {
       count: numberOfQuestions || 20,
       chapters: chaptersArray,
     };
-    console.log("today_date", new Date().toISOString().split("T")[0]);
     // 2. Call Backend API
     let generatedData = null;
     try {
-      console.log("Sending paper data to backend:", payload);
       const response = await axios.post(
         BackendUrl + `/api/v1/paper/generate-paper`,
         payload,
@@ -231,7 +260,6 @@ const ChaptersPage = () => {
       generatedData = response.data;
       // 💡 CRITICAL: Set the backend data immediately after a successful response
       setBackendPaperData(generatedData);
-      console.log("Backend paper data received successfully.");
     } catch (error) {
       console.error(
         "API Error during paper generation:",
@@ -364,34 +392,37 @@ const ChaptersPage = () => {
           <div className="bg-white border border-slate-200 rounded-xl p-4 mb-8 shadow-sm">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-slate-700 text-sm">
               <div>
-                <label className="font-medium">Class Name</label>
+                <label className="font-medium">Class Name <span className="text-red-500">*</span></label>
                 <input
                   type="text"
                   value={className}
                   onChange={(e) => setClassName(e.target.value)}
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required
                 />
               </div>
               <div>
-                <label className="font-medium">Exam Name</label>
+                <label className="font-medium">Exam Name <span className="text-red-500">*</span></label>
                 <input
                   type="text"
                   value={examName}
                   onChange={(e) => setExamName(e.target.value)}
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required
                 />
               </div>
               <div>
-                <label className="font-medium">Exam Date</label>
+                <label className="font-medium">Exam Date <span className="text-red-500">*</span></label>
                 <input
                   type="date"
                   value={examDate}
                   onChange={(e) => setExamDate(e.target.value)}
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required
                 />
               </div>
               <div>
-                <label className="font-medium">Exam Duration (Minutes)</label>
+                <label className="font-medium">Exam Duration (Minutes) <span className="text-red-500">*</span></label>
                 <input
                   type="number"
                   value={examDuration}
@@ -399,11 +430,12 @@ const ChaptersPage = () => {
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="e.g. 90"
                   min="1"
+                  required
                 />
               </div>
               {mode === "Random" && (
                 <div>
-                  <label className="font-medium">Total Marks</label>
+                  <label className="font-medium">Total Marks <span className="text-red-500">*</span></label>
                   <input
                     type="number"
                     value={totalMarks}
@@ -411,6 +443,7 @@ const ChaptersPage = () => {
                     className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="e.g. 100"
                     min="1"
+                    required
                   />
                 </div>
               )}
@@ -418,13 +451,15 @@ const ChaptersPage = () => {
           </div>
           {mode === "Random" && (
             <div className="mb-6">
-              <p className="mb-2 ml-2">Enter Number of Questions:</p>
+              <p className="mb-2 ml-2">Enter Number of Questions: <span className="text-red-500">*</span></p>
               <input
                 type="number"
                 placeholder="Enter number of questions"
                 value={numberOfQuestions}
                 onChange={handleQuestionCountChange}
                 className="border border-slate-600 rounded-lg px-4 py-2 w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                min="1"
+                required
               />
             </div>
           )}

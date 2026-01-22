@@ -41,7 +41,6 @@ const InputField = ({
 const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
   const { form, setForm } = useContext(PaperContext);
   const { BackendUrl, adminAuthToken } = useContext(AuthContext);
-  console.log("Context form data:", form);
   const [files, setFiles] = useState([]);
   const [message, setMessage] = useState(null);
   const [paper, setPaper] = useState(null);
@@ -51,7 +50,7 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
   const API_BASE_URL = BackendUrl + "/api/paperdata/paper";
   const OCR_API_URL = BackendUrl + "/api/ocrTest/ocr-extract";
   useEffect(() => {
-    console.log("Form state updated:", form);
+    console.log("")
   }, [form]);
 
   const fileInputRef = useRef(null);

@@ -4,6 +4,8 @@ import {
   getAllNotifications,
 } from '../controllers/notificationController.js';
 import { requireAuth } from '../middleware/authMiddleware.js';
+import { validate } from '../middleware/validate.js';
+import { createNotificationSchema } from '../validators/notificationValidator.js';
 
 const notificationRouter = express.Router();
 
@@ -15,6 +17,7 @@ const notificationRouter = express.Router();
 notificationRouter.post(
   '/store-notification',
   requireAuth,
+  validate(createNotificationSchema),
   createNotification
 );
 

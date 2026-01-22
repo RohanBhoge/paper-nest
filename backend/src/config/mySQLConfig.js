@@ -7,8 +7,6 @@ const DB_USER = process.env.DB_USER || "root";
 const DB_PASS = process.env.DB_PASS || "";
 const DB_NAME = process.env.DB_NAME || "papergeneration";
 
-console.log("host url",DB_HOST);
-
 export const pool = mysql.createPool({
   host: DB_HOST,
   user: DB_USER,

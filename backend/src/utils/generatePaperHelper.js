@@ -42,7 +42,7 @@ const handleError = (err, status, res) => {
 };
 
 /**
- * Generates a unique paper ID.
+ * Generates a unique paper ID using timestamp to prevent duplicates.
  */
 function generatePaperId(exam, standard) {
   const examCode = String(exam || 'EX')
@@ -52,7 +52,11 @@ function generatePaperId(exam, standard) {
 
   const year = new Date().getFullYear();
   const stdCode = String(standard || 'XX').slice(0, 2);
-  const serial = String(Math.floor(Math.random() * 999) + 1).padStart(3, '0');
+
+  // Use timestamp for uniqueness instead of random number
+  // Take last 6 digits of timestamp to keep ID reasonably short
+  const timestamp = Date.now();
+  const serial = String(timestamp).slice(-6);
 
   return `${examCode}-${year}-${stdCode}-${serial}`;
 }

@@ -58,7 +58,6 @@ function mulberry32(a) {
 function findZipPath() {
   for (const p of ZIP_POSSIBLE_PATHS) {
     try {
-      console.log('Checking path:', p);
       if (fs.existsSync(p)) {
         console.log('✅ Found ZIP file at path:', p);
         return p;

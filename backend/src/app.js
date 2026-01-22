@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import cookieParser from 'cookie-parser';
 
 import { pool } from './config/mySQLConfig.js';
 import { paperRouter } from './routes/paperRouter.js';
@@ -25,7 +26,11 @@ const port = process.env.PORT || 8080;
 /**
  * Middleware Setup
  */
-app.use(cors());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+  credentials: true // Required for cookies/auth
+}));
+app.use(cookieParser()); // Parse cookies
 app.use(express.json({ limit: '5mb' }));
 app.use(morgan('dev'));
 

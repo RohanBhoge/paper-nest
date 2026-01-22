@@ -22,10 +22,22 @@ const createNotification = async (req, res) => {
       .json({ success: false, message: "Notification content is required." });
   }
 
-  const validDate =
-    event_date && !isNaN(new Date(event_date))
-      ? event_date.split("T")[0]
-      : null;
+  if (!event_date) {
+    return res
+      .status(400)
+      .json({ success: false, message: "Event date is required." });
+  }
+
+  const dateObj = new Date(event_date);
+  if (isNaN(dateObj.getTime())) {
+    return res
+      .status(400)
+      .json({ success: false, message: "Invalid event date format." });
+  }
+
+  const validDate = String(event_date).split("T")[0];
+
+  console.log("[DEBUG] createNotification - validDate:", validDate);
 
   try {
     const newId = await createOrganizationNotification(

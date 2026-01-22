@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import axios from "axios";
 import "./index.css";
 import AdminDashboard1 from "./pages/AdminDashboard";
 import LoginPage from "./Components/LoginPage";
@@ -9,9 +10,9 @@ import NotesDashboard from "./pages/NotesDashboard";
 import OmrIntegratedPage from "./Components/Teacher/pages/test";
 import PaperProvider from "./Components/Teacher/context/paper/PaperProvider.jsx";
 import AuthProvider from "./Components/Teacher/context/auth/AuthProvider.jsx";
-import  DashboardContent  from "./Components/Teacher/Dashboard/DashboardContent.jsx";
-import  SubjectsPage  from "./Components/Teacher/pages/SubjectsPage.jsx";
-import  ExamClasses  from "./Components/Teacher/pages/ExamClasses.jsx";
+import DashboardContent from "./Components/Teacher/Dashboard/DashboardContent.jsx";
+import SubjectsPage from "./Components/Teacher/pages/SubjectsPage.jsx";
+import ExamClasses from "./Components/Teacher/pages/ExamClasses.jsx";
 import ChaptersPage from "./Components/Teacher/pages/ChaptersPage.jsx";
 import OmrPage from "./Components/Teacher/pages/OmrPage.jsx";
 import PaperHistoryPage from "./Components/Teacher/pages/PaperHistoryPage.jsx";
@@ -27,6 +28,9 @@ import ContactPage from "./Components/contactUs.jsx";
 
 import ProtectedRoute from "./Components/ProtectedRoute.jsx";
 
+// ✅ Configure axios to send cookies with all requests
+axios.defaults.withCredentials = true;
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -40,23 +44,23 @@ createRoot(document.getElementById("root")).render(
             <Route element={<ProtectedRoute />}>
               <Route path="/admin-dashboard" element={<AdminDashboard1 />} />
               <Route path="/teacher-dashboard" element={<TeacherDashboard />}>
-                  <Route index element={<DashboardContent />} />
-                  <Route path="exam" element={<ExamClasses />} />
-                  <Route path="subjects" element={<SubjectsPage />} />
-                  <Route path="chapters" element={<ChaptersPage />} />
-                  <Route path="omr" element={<OmrPage />} />
-                  <Route path="paperHistory" element={<PaperHistoryPage />} />
-                  <Route path="settings" element={<SettingsPage />} />
+                <Route index element={<DashboardContent />} />
+                <Route path="exam" element={<ExamClasses />} />
+                <Route path="subjects" element={<SubjectsPage />} />
+                <Route path="chapters" element={<ChaptersPage />} />
+                <Route path="omr" element={<OmrPage />} />
+                <Route path="paperHistory" element={<PaperHistoryPage />} />
+                <Route path="settings" element={<SettingsPage />} />
               </Route>
-  
+
               <Route path="/notes-dashboard" element={<NotesDashboard />}>
-                  <Route index element={<NotesDashboardContent />} />
-                  <Route path="exam" element={<ExamSelection />} />
-                  <Route path="chapters" element={<NotesChaptersPage />} />
-                  <Route path="settings" element={<SettingsPage />} />
-              </Route>    
-              
-              
+                <Route index element={<NotesDashboardContent />} />
+                <Route path="exam" element={<ExamSelection />} />
+                <Route path="chapters" element={<NotesChaptersPage />} />
+                <Route path="settings" element={<SettingsPage />} />
+              </Route>
+
+
               {/* <Route path="/test" element={<OmrIntegratedPage />} /> */}
               <Route path="/paper-view" element={<GeneratedTemplate />} />
             </Route>

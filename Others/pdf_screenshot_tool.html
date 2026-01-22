@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Screenshot Tool</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: #333;
+        }
+
+        #toolbar {
+            background: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #viewer-container {
+            flex: 1;
+            overflow: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        #canvas-wrapper {
+            position: relative;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #selection-rect {
+            position: absolute;
+            border: 2px solid red;
+            background: rgba(255, 0, 0, 0.1);
+            pointer-events: none;
+            display: none;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 5px 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="toolbar">
+        <input type="file" id="file-input" accept="application/pdf">
+        <button id="prev-page">Prev Page</button>
+        <span id="page-info">Page: 0 / 0</span>
+        <button id="next-page">Next Page</button>
+        <label>Zoom: <input type="number" id="zoom-level" value="1.5" step="0.1" style="width: 50px;"></label>
+    </div>
+
+    <div id="viewer-container">
+        <div id="canvas-wrapper">
+            <canvas id="pdf-canvas"></canvas>
+            <div id="selection-rect"></div>
+        </div>
+    </div>
+
+    <script>
+        const pdfjsLib = window['pdfjs-dist/build/pdf'];
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        let pdfDoc = null;
+        let pageNum = 1;
+        let zoom = 1.5;
+        let isDrawing = false;
+        let startX, startY;
+
+        const canvas = document.getElementById('pdf-canvas');
+        const ctx = canvas.getContext('2d');
+        const rect = document.getElementById('selection-rect');
+        const wrapper = document.getElementById('canvas-wrapper');
+
+        // --- PDF Rendering ---
+        async function renderPage(num) {
+            const page = await pdfDoc.getPage(num);
+            const viewport = page.getViewport({ scale: zoom });
+
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            const renderContext = { canvasContext: ctx, viewport: viewport };
+            await page.render(renderContext).promise;
+
+            document.getElementById('page-info').textContent = `Page: ${num} / ${pdfDoc.numPages}`;
+        }
+
+        document.getElementById('file-input').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const arrayBuffer = await file.arrayBuffer();
+            pdfDoc = await pdfjsLib.getDocument(arrayBuffer).promise;
+            pageNum = 1;
+            renderPage(pageNum);
+        });
+
+        // --- Navigation ---
+        document.getElementById('prev-page').onclick = () => {
+            if (pageNum <= 1) return;
+            pageNum--;
+            renderPage(pageNum);
+        };
+
+        document.getElementById('next-page').onclick = () => {
+            if (pageNum >= pdfDoc.numPages) return;
+            pageNum++;
+            renderPage(pageNum);
+        };
+
+        // --- Cropping Logic ---
+        wrapper.onmousedown = (e) => {
+            isDrawing = true;
+            const bounds = canvas.getBoundingClientRect();
+            startX = e.clientX - bounds.left;
+            startY = e.clientY - bounds.top;
+
+            rect.style.left = startX + "px";
+            rect.style.top = startY + "px";
+            rect.style.width = "0px";
+            rect.style.height = "0px";
+            rect.style.display = "block";
+        };
+
+        window.onmousemove = (e) => {
+            if (!isDrawing) return;
+            const bounds = canvas.getBoundingClientRect();
+            let curX = e.clientX - bounds.left;
+            let curY = e.clientY - bounds.top;
+
+            rect.style.width = Math.abs(curX - startX) + "px";
+            rect.style.height = Math.abs(curY - startY) + "px";
+            rect.style.left = Math.min(curX, startX) + "px";
+            rect.style.top = Math.min(curY, startY) + "px";
+        };
+
+        window.onmouseup = (e) => {
+            if (!isDrawing) return;
+            isDrawing = false;
+
+            const x = parseInt(rect.style.left);
+            const y = parseInt(rect.style.top);
+            const w = parseInt(rect.style.width);
+            const h = parseInt(rect.style.height);
+
+            rect.style.display = "none";
+
+            if (w > 10 && h > 10) {
+                saveCrop(x, y, w, h);
+            }
+        };
+
+        function saveCrop(x, y, w, h) {
+            const qNum = prompt("Enter Question Number (e.g., 5):");
+            if (!qNum) return;
+
+            // Create a temporary canvas to perform the crop
+            const tempCanvas = document.createElement('canvas');
+            tempCanvas.width = w;
+            tempCanvas.height = h;
+            const tempCtx = tempCanvas.getContext('2d');
+
+            // Draw the specific portion of the main canvas onto the temp canvas
+            tempCtx.drawImage(canvas, x, y, w, h, 0, 0, w, h);
+
+            // Download the image (Browser equivalent of "Saving to folder")
+            const link = document.createElement('a');
+            link.download = `${qNum}.png`;
+            link.href = tempCanvas.toDataURL();
+            link.click();
+        }
+
+        // Keyboard support
+        window.addEventListener('keydown', (e) => {
+            if (e.key === "ArrowLeft") document.getElementById('prev-page').click();
+            if (e.key === "ArrowRight") document.getElementById('next-page').click();
+        });
+    </script>
+
+</body>
+
+</html>
