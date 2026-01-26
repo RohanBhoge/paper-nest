@@ -6,7 +6,7 @@ import React, {
   useCallback,
   useContext,
 } from "react";
-import axios from "axios";
+import api from "../../../api";
 import { Copy, RefreshCw, Printer } from "lucide-react";
 import { useOutletContext, useNavigate } from "react-router-dom";
 import AuthContext from "../context/auth/AuthContext.jsx";
@@ -242,9 +242,12 @@ const GeneratedTemplate = ({
 
       try {
 
-        const response = await axios.post(STORE_PAPER_API_URL, data, {
+        const response = await api.post(STORE_PAPER_API_URL, data, {
           headers: { Authorization: `Bearer ${adminAuthToken}` },
-        });
+        },
+          {
+            withCredentials: true
+          });
 
         setPaperStored(true);
         setError(null); // Clear any previous error on success
@@ -398,7 +401,7 @@ const GeneratedTemplate = ({
     };
 
     try {
-      const response = await axios.post(
+      const response = await api.post(
         REPLACEMENT_API_URL,
         replacementPayload,
         { headers: { Authorization: `Bearer ${adminAuthToken}` } }

@@ -400,37 +400,7 @@ const TeacherDashboard = () => {
   const { paperData, setPaperData, setExam, setStandards, setSubjects } =
     useContext(PaperContext);
 
-  // 🔄 Sync effect: Log selectedExam changes
-  useEffect(() => {
-    if (selectedExam) {
-      console.log("[TeacherDashboard] selectedExam updated:");
-    }
-  }, [selectedExam]);
 
-  // 🔄 Sync effect: Log selectedClass changes
-  useEffect(() => {
-    if (selectedClass) {
-      console.log("[TeacherDashboard] selectedClass updated:");
-    }
-  }, [selectedClass]);
-
-  // 🔄 Sync effect: Log selectedSubject changes
-  useEffect(() => {
-    if (selectedSubject) {
-      console.log("[TeacherDashboard] selectedSubject updated:");
-    }
-  }, [selectedSubject]);
-
-  // 🔄 Sync effect: Log mode changes
-  useEffect(() => {
-    console.log("[TeacherDashboard] mode updated:");
-  }, [mode]);
-
-  // 🔄 Sync effect: Log checkedChapters changes
-  useEffect(() => {
-    const checkedCount = Object.values(checkedChapters).filter(Boolean).length;
-    console.log("[TeacherDashboard] checkedChapters updated. Checked count:");
-  }, [checkedChapters]);
 
   // 🔄 Sync effect: Sync numberOfQuestions with paperData.count
   useEffect(() => {

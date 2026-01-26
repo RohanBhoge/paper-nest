@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { jsPDF } from "jspdf";
 import GeneratedTemplate from "../../Teacher/Dashboard/GeneratedTemplate.jsx";
 import PaperContext from "../context/paper/PaperContext";
-import axios from "axios";
+import api from "../../../api";
 import AuthContext from "../context/auth/AuthContext";
 
 const STORAGE_KEY = "paper_history_v1";
@@ -247,13 +247,16 @@ const ChaptersPage = () => {
     // 2. Call Backend API
     let generatedData = null;
     try {
-      const response = await axios.post(
-        BackendUrl + `/api/v1/paper/generate-paper`,
+      // 🚀 Use centralized API instance
+      const response = await api.post(
+        BackendUrl + "/api/v1/paper/generate-paper",
         payload,
         {
           headers: {
+            "Content-Type": "application/json",
             Authorization: `Bearer ${adminAuthToken}`,
           },
+          withCredentials: true
         }
       );
 

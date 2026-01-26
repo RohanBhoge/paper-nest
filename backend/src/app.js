@@ -32,15 +32,11 @@ const port = config.server.port || 8080;
 
 // --- CORS CONFIGURATION ---
 const allowedOrigins = process.env.CORS_ORIGIN
-  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
-  : ['http://localhost:5173'];
 
 const corsOptions = {
   origin: function (origin, callback) {
-    // Allow requests with no origin (like mobile apps or server-to-server)
     if (!origin) return callback(null, true);
 
-    // Allow if wildcard '*' is explicitly present in config (Development/Debugging)
     if (allowedOrigins.includes('*')) return callback(null, true);
 
     if (allowedOrigins.indexOf(origin) !== -1) {
@@ -50,7 +46,7 @@ const corsOptions = {
       callback(new Error(`Not allowed by CORS. Origin: ${origin}`));
     }
   },
-  credentials: true, // Required to send/receive cookies
+  credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin']
 };

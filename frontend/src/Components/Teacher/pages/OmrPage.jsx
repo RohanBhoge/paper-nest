@@ -5,7 +5,7 @@ import React, {
   useRef,
   useContext,
 } from "react";
-import axios from "axios";
+import api from "../../../api";
 import PaperContext from "../context/paper/PaperContext";
 import AuthContext from "../context/auth/AuthContext";
 
@@ -103,13 +103,13 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
     // const url = `${API_BASE_URL}/${paperId}`;
 
     try {
-      const response = await axios.get(
-        BackendUrl + `/api/v1/paper/get-paper/${paperId}`,
+      const response = await api.get(
+        `${BackendUrl}/api/v1/omr/get-omr/${paperId}`,
         {
-          // FIXES: Uses 'headers' (plural) and the dynamic 'adminAuthToken'
           headers: {
             Authorization: `Bearer ${adminAuthToken}`,
           },
+          withCredentials: true
         }
       );
 
@@ -171,7 +171,10 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
     try {
       const response = await axios.post(OCR_API_URL, formData, {
         headers: { "Content-Type": "multipart/form-data" },
-      });
+      },
+        {
+          withCredentials: true
+        });
 
       if (response.data.success && response.data.extractedData) {
         const extracted = response.data.extractedData;

@@ -1,5 +1,7 @@
 import AuthContext from "./AuthContext.jsx";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { setupInterceptors } from "../../../../api";
 
 const AuthProvider = (props) => {
   // For cookie auth, we use isAuthenticated flag
@@ -35,6 +37,13 @@ const AuthProvider = (props) => {
       localStorage.setItem("Watermark", watermark);
     }
   }, [watermark]);
+
+  const navigate = useNavigate();
+
+  // 🔄 Initialize Interceptors with Navigation
+  useEffect(() => {
+    setupInterceptors(navigate);
+  }, [navigate]); // navigate is stable, but good to include
 
   const handleLogout = () => {
     localStorage.removeItem("isAuthenticated");

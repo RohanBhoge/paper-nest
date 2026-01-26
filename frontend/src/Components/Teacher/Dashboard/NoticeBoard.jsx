@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import axios from "axios";
+import api from "../../../api";
 import { Bell, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import AuthContext from "../context/auth/AuthContext.jsx";
@@ -13,8 +13,8 @@ const NoticeBoard = () => {
   useEffect(() => {
     const fetchNotifications = async () => {
       try {
-        const response = await axios.get(
-          BackendUrl + "/api/v1/notification/getAll-notification",
+        const response = await api.get(
+          "/api/v1/notification/getAll-notification",
           {
             headers: {
               Authorization: `Bearer ${adminAuthToken}`,

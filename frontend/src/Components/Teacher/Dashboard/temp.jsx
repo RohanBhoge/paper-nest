@@ -6,7 +6,7 @@ import React, {
   useCallback,
 } from "react";
 // 💡 MOCK IMPORTS - REPLACE WITH ACTUAL IMPLEMENTATION IN YOUR PROJECT
-import axios from "axios";
+import api from "../../../api";
 import AuthContext from "../context/auth/AuthContext.jsx";
 import PaperContext from "../context/paper/PaperContext.jsx";
 import { useNavigate } from "react-router-dom";
@@ -47,33 +47,33 @@ const getCompositeKey = (q) => {
   return `${qChapter}::${qId}`;
 };
 
-const REPLACEMENT_API_URL =import.meta.env.VITE_BACKEND_URL+ "/api/v1/paper/replacements";
-const STORE_PAPER_API_URL = import.meta.env.VITE_BACKEND_URL+"/api/v1/paper/store-paper";
+const REPLACEMENT_API_URL = import.meta.env.VITE_BACKEND_URL + "/api/v1/paper/replacements";
+const STORE_PAPER_API_URL = import.meta.env.VITE_BACKEND_URL + "/api/v1/paper/store-paper";
 
 // --- Mark Allocation Helper ---
 const getQuestionMark = (exam, subject) => {
-    const normSubject = (typeof subject === 'string') ? subject.trim() : '';
-    const normExam = exam ? exam.toUpperCase() : '';
+  const normSubject = (typeof subject === 'string') ? subject.trim() : '';
+  const normExam = exam ? exam.toUpperCase() : '';
 
-    switch (normExam) {
-        case 'CET':
-            // CET: Math is 2 marks; Physics, Chemistry, Biology are 1 mark.
-            if (normSubject === 'Maths') {
-                return 2;
-            } else if (['Physics', 'Chemistry', 'Biology'].includes(normSubject)) {
-                return 1;
-            }
-            return 1; // Default for other CET subjects
-        
-        case 'NEET':
-        case 'JEE':
-            // NEET/JEE: 4 marks per question for every subject.
-            return 4;
-            
-        default:
-            // Fallback to 1 mark if exam type is unknown
-            return 1; 
-    }
+  switch (normExam) {
+    case 'CET':
+      // CET: Math is 2 marks; Physics, Chemistry, Biology are 1 mark.
+      if (normSubject === 'Maths') {
+        return 2;
+      } else if (['Physics', 'Chemistry', 'Biology'].includes(normSubject)) {
+        return 1;
+      }
+      return 1; // Default for other CET subjects
+
+    case 'NEET':
+    case 'JEE':
+      // NEET/JEE: 4 marks per question for every subject.
+      return 4;
+
+    default:
+      // Fallback to 1 mark if exam type is unknown
+      return 1;
+  }
 };
 
 // --- Main Component ---
@@ -85,7 +85,7 @@ const GeneratedTemplate = ({
   examDate,
   examDuration,
   totalMarks,
-  onBack, 
+  onBack,
 }) => {
   const { adminAuthToken } = useContext(AuthContext);
   const { exam, standards, subjects, setShowGenerateOptions, showGenerateOptions, backendPaperData } =
@@ -94,10 +94,10 @@ const GeneratedTemplate = ({
   const apiData = backendPaperData?.data || backendPaperData || {};
   const originalQuestions = apiData?.metadata?.original_questions_array || [];
 
-  console.log("[DEBUG] Generated Paper Data (Prop):", backendPaperData); 
+  console.log("[DEBUG] Generated Paper Data (Prop):", backendPaperData);
 
   const [useColumns, setUseColumns] = useState(true);
-  const [viewMode, setViewMode] = useState("questions_only"); 
+  const [viewMode, setViewMode] = useState("questions_only");
   const [paperStored, setPaperStored] = useState(false);
 
   const [replaceMode, setReplaceMode] = useState(false);
@@ -105,17 +105,17 @@ const GeneratedTemplate = ({
   const [replacementPool, setReplacementPool] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
   const [error, setError] = useState(null);
-  const [backOptions,setBakcOptions]=useState(null)
+  const [backOptions, setBakcOptions] = useState(null)
 
   const [displayedQuestions, setDisplayedQuestions] =
     useState(originalQuestions);
 
-  const navigate= useNavigate()
+  const navigate = useNavigate()
   // Derived view states
   const showAnswers =
     viewMode === "with_answers" || viewMode === "with_solutions";
   const showSolutions = viewMode === "with_solutions";
-  const isAnswerKeyMode = viewMode === "answer_key"; 
+  const isAnswerKeyMode = viewMode === "answer_key";
 
   // Sync original questions when the paper data changes (e.g., first load)
   useEffect(() => {
@@ -132,15 +132,15 @@ const GeneratedTemplate = ({
   const finalClassName = apiData.class || apiData.standard || standards;
   const finalMarks = apiData.marks || totalMarks;
   const finalSubject = apiData.subject || subjects;
-  
+
   // Calculate the base mark per question
   const baseQuestionMark = useMemo(() => {
-      return getQuestionMark(finalExamName, finalSubject);
+    return getQuestionMark(finalExamName, finalSubject);
   }, [finalExamName, finalSubject]);
 
   // Calculate the final total marks (Question Count * Mark Per Question)
   const totalCalculatedMarks = useMemo(() => {
-      return questionCount * baseQuestionMark;
+    return questionCount * baseQuestionMark;
   }, [questionCount, baseQuestionMark]);
 
 
@@ -161,12 +161,15 @@ const GeneratedTemplate = ({
 
       try {
         console.log("[DEBUG] Storing Paper Payload:", data);
-        const response = await axios.post(STORE_PAPER_API_URL, data, {
+        const response = await api.post(STORE_PAPER_API_URL, data, {
           headers: { Authorization: `Bearer ${adminAuthToken}` },
-        });
-        
+        },
+          {
+            withCredentials: true
+          });
+
         console.log("[DEBUG] Store API Response:", response.data);
-        
+
         console.log("Paper stored successfully!");
         setPaperStored(true);
         setError(null); // Clear any previous error on success
@@ -207,8 +210,8 @@ const GeneratedTemplate = ({
 
   /** * Handles general navigation logic: */
   const handleGlobalBack = () => {
-    console.log("show generate options",showGenerateOptions);
-    
+    console.log("show generate options", showGenerateOptions);
+
     if (showGenerateOptions) {
       handleBackFromPrintOptions();
       navigate("/teacher-dashboard")
@@ -244,9 +247,9 @@ const GeneratedTemplate = ({
   useEffect(() => {
     // Ensure we have replacement questions AND questions that were selected to be replaced
     if (replacementPool.length > 0 && selectedReplaceQuestions.length > 0) {
-      
+
       console.log(`[DEBUG] Performing replacement swap for ${replacementPool.length} question(s).`);
-      
+
       setDisplayedQuestions((prevQuestions) => {
         let nextQuestions = [...prevQuestions];
         let replacementIndex = 0;
@@ -279,7 +282,7 @@ const GeneratedTemplate = ({
       setReplaceMode(false);
       alert(`Successfully replaced ${replacementPool.length} question(s)!`);
     }
-  }, [replacementPool, selectedReplaceQuestions]); 
+  }, [replacementPool, selectedReplaceQuestions]);
 
   // Handler to initiate API call and fetch replacement pool
   const fetchReplacementPool = async () => {
@@ -302,20 +305,20 @@ const GeneratedTemplate = ({
       chapterRequestsMap,
       ([chapter, count]) => ({ chapter, count })
     );
-    
+
     const replacementPayload = {
-        exam: exam,
-        standards: standards,
-        subjects: subjects,
-        overallUsedKeys: overallUsedKeys,
-        replacementRequests: replacementRequests,
+      exam: exam,
+      standards: standards,
+      subjects: subjects,
+      overallUsedKeys: overallUsedKeys,
+      replacementRequests: replacementRequests,
     };
-    
+
     console.log("[DEBUG] Replacement Request Payload:", replacementPayload);
 
 
     try {
-      const response = await axios.post(
+      const response = await api.post(
         REPLACEMENT_API_URL,
         replacementPayload,
         { headers: { Authorization: `Bearer ${adminAuthToken}` } }
@@ -346,13 +349,10 @@ const GeneratedTemplate = ({
 
   // Dummy solution function
   const getDummySolution = (q) => {
-    return `Solution ${
-      q.qno || q.id
-    }: To solve this, we first analyze the key variables. Since the question relates to the chapter '${
-      q.chapter || "Default"
-    }' and its type is typically objective, the derivation involves simplifying the given equation or applying the core concept. The final answer, ${
-      q.answer || "Option A"
-    }, is reached by satisfying all boundary conditions.`;
+    return `Solution ${q.qno || q.id
+      }: To solve this, we first analyze the key variables. Since the question relates to the chapter '${q.chapter || "Default"
+      }' and its type is typically objective, the derivation involves simplifying the given equation or applying the core concept. The final answer, ${q.answer || "Option A"
+      }, is reached by satisfying all boundary conditions.`;
   };
 
   // Handler for printing with a specific view mode
@@ -382,8 +382,8 @@ const GeneratedTemplate = ({
     // 💡 LOGIC CHANGE: If in Answer Key mode, render only the essential answer data.
     if (isAnswerKeyMode) {
       return (
-        <div 
-          key={key} 
+        <div
+          key={key}
           // Ensure consistency with the previous UI's item spacing
           className="mb-2 text-base font-semibold"
         >
@@ -410,11 +410,10 @@ const GeneratedTemplate = ({
     return (
       <div
         key={key} // Use the composite key for stability
-        className={`mb-4 question-item p-2 rounded-lg transition-colors duration-200 ${
-          isSelected ? "bg-red-100 border border-red-400" : ""
-        } ${replaceMode ? "cursor-pointer hover:bg-red-50" : ""}`}
+        className={`mb-4 question-item p-2 rounded-lg transition-colors duration-200 ${isSelected ? "bg-red-100 border border-red-400" : ""
+          } ${replaceMode ? "cursor-pointer hover:bg-red-50" : ""}`}
         // 💡 Use the main div click handler when replaceMode is active
-        onClick={() => replaceMode && handleQuestionSelection(q)} 
+        onClick={() => replaceMode && handleQuestionSelection(q)}
       >
         {/* Checkbox for Selection in Replace Mode */}
         {replaceMode && (
@@ -493,25 +492,24 @@ const GeneratedTemplate = ({
             }
           }
         `}
-      </style>          
+      </style>
 
       <div className="no-print flex justify-between items-center mb-4 gap-4">
         <div className="flex items-center gap-6">
           <button
             onClick={handleGlobalBack}
             className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 
-            ${
-              replaceMode || showGenerateOptions
+            ${replaceMode || showGenerateOptions
                 ? "bg-gray-500 hover:bg-gray-600"
                 : "bg-slate-600 hover:bg-slate-700"
-            }
+              }
             `}
           >
             {showGenerateOptions
               ? "Back to Dashboard"
               : replaceMode
-              ? "Cancel Selection"
-              : "Back"}
+                ? "Cancel Selection"
+                : "Back"}
           </button>
 
           <div className="flex items-center gap-3">
@@ -537,9 +535,8 @@ const GeneratedTemplate = ({
               {/* NOTE: We keep the Cancel button outside of handleGlobalBack because it handles state reset *within* this section */}
               <button
                 onClick={() => setReplaceMode((prev) => !prev)}
-                className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 ${
-                  replaceMode ? "bg-red-600" : "bg-gray-600 hover:bg-gray-700"
-                }`}
+                className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 ${replaceMode ? "bg-red-600" : "bg-gray-600 hover:bg-gray-700"
+                  }`}
                 disabled={isFetching}
               >
                 {replaceMode ? "Cancel Selection" : "Select Questions"}
@@ -599,7 +596,7 @@ const GeneratedTemplate = ({
             </>
           )}
         </div>
-        
+
       </div>
 
       {error && (
@@ -609,7 +606,7 @@ const GeneratedTemplate = ({
       <div className="watermark-print">PAPERNEST</div>
 
       <div id="print-area" className="bg-white p-8 rounded-xl border relative">
-  
+
         <div className="border border-black p-4">
           <div className="flex justify-between font-semibold text-[16px]">
             <span>Class: {finalClassName}</span>
@@ -621,7 +618,7 @@ const GeneratedTemplate = ({
             <div className="text-right">
               <div>Date: {formattedDate}</div>
               {/* 💡 UPDATED: Display calculated total marks */}
-              <div>Marks: {totalCalculatedMarks}</div> 
+              <div>Marks: {totalCalculatedMarks}</div>
               <div>Duration: {examDuration} Min</div>
             </div>
           </div>

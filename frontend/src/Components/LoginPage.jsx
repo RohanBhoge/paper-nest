@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Eye, EyeOff, BookOpen } from "lucide-react";
-import axios from "axios";
+import api from "../api";
 import AuthContext from "./Teacher/context/auth/AuthContext.jsx";
 
 const LoginPage = () => {
@@ -31,10 +31,30 @@ const LoginPage = () => {
 
       const loginUrl = BackendUrl + "/api/v1/auth/login";
 
-      const response = await axios.post(loginUrl, {
-        email: userEmail,
-        password: userPassword,
-      });
+      const response = await api.post(
+        loginUrl,
+        {
+          email: userEmail,
+          password: userPassword,
+        },
+        {
+          withCredentials: true, // Important for cookies
+        }
+      );
+
+      api.interceptors.response.use(
+        (response) => response, // Pass through successful responses
+        (error) => {
+          if (error.response && (error.response.status === 401 || error.response.status === 403)) {
+            // 1. Clear local storage/state
+            localStorage.removeItem('user_data');
+
+            // 2. Redirect to login
+            window.location.href = '/login-page';
+          }
+          return Promise.reject(error);
+        }
+      );
 
       return response.data;
     } catch (err) {
@@ -113,7 +133,6 @@ const LoginPage = () => {
           <div className="relative">
             <input
               type="email"
-              placeholder=" "
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

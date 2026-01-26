@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useCallback, useContext } from "react";
-import axios from "axios";
+import api from "../../../api";
 import OmrPage from "./OmrPage";
 import PaperContext from "../context/paper/PaperContext.jsx";
 import AuthContext from "../context/auth/AuthContext.jsx";
 import { useNavigate } from "react-router-dom";
+import GeneratedTemplate from "../Dashboard/GeneratedTemplate.jsx";
 
 function updatePaperInService(paper) {
   console.log(
@@ -51,7 +52,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
       setLoading(true);
       setFetchError(null);
       try {
-        const response = await axios.get(
+        const response = await api.get(
           BackendUrl + "/api/v1/paper/get-paper-history",
           {
             headers: {
@@ -120,12 +121,15 @@ const PaperHistoryPage = ({ setActiveSection }) => {
         const fetchUrl = `${BackendUrl}/api/v1/paper/get-paper/${paperId}`;
         console.log(`[DEBUG] Fetching from URL: ${fetchUrl}`);
 
-        const response = await axios.get(
+        const response = await api.get(
           fetchUrl,
           {
             headers: {
               Authorization: `Bearer ${adminAuthToken}`,
             },
+          },
+          {
+            withCredentials: true
           }
         );
 
@@ -213,7 +217,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
     try {
       console.log("ids to delte", idsToDelete, "token", adminAuthToken);
 
-      const response = await axios.delete(
+      const response = await api.delete(
         DELETE_API_URL,
         {
           data: {
@@ -221,7 +225,10 @@ const PaperHistoryPage = ({ setActiveSection }) => {
           },
           headers: {
             Authorization: `Bearer ${adminAuthToken}`
-          }
+          },
+        },
+        {
+          withCredentials: true
         }
       );
 
