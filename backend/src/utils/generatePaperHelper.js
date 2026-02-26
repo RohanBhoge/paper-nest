@@ -10,7 +10,7 @@ import { getS3ChapterFolder } from './s3PathHelper.js';
 
 const getS3Url = (exam, std, subj, chapterFolder, filename) => {
   if (!filename) return null;
-  const bucketName = process.env.AWS_BUCKET_NAME;
+  const bucketName = process.env.S3_BUCKET_NAME || process.env.AWS_BUCKET_NAME;
   const region = process.env.AWS_REGION;
   if (!bucketName || !region) return null;
 
