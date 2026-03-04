@@ -6,6 +6,7 @@ import {
 
 import {
     getPapersByUserId,
+    getPapersByUserIdPaginated,
     storeNewPaperForUser,
     deletePapersForUser,
     getPaperByIdForUser,
@@ -18,12 +19,24 @@ import {
     matchesFiltersObj,
 } from '../utils/zipLoader.js';
 
+import { cacheGet, cacheSet, cacheDel, TTL } from '../utils/cacheHelper.js';
+import { isRedisConnected } from '../config/redisConfig.js';
+
 export async function getPaperById(userId, paperId) {
+    const cacheKey = `paper:${userId}:${paperId}`;
+
+    // Try cache first
+    const cached = await cacheGet(cacheKey);
+    if (cached) return cached;
+
     const paper = await getPaperByIdForUser(userId, paperId);
 
     if (!paper) {
         throw new Error(`Paper with ID '${paperId}' not found for this user`);
     }
+
+    // Cache individual paper for 5 min
+    await cacheSet(cacheKey, paper, TTL.USER_PAPERS);
 
     return paper;
 }
@@ -37,6 +50,11 @@ export async function deletePapers(userId, paperIds) {
 
     const result = await deletePapersForUser(userId, sanitizedIds);
 
+    // Invalidate cache for deleted papers + user paper list
+    const keysToDelete = sanitizedIds.map(id => `paper:${userId}:${id}`);
+    keysToDelete.push(`papers:list:${userId}`);
+    await cacheDel(...keysToDelete);
+
     return {
         deletedCount: result.deletedCount,
         deletedIds: result.deletedIds,
@@ -45,13 +63,30 @@ export async function deletePapers(userId, paperIds) {
 
 export async function getAllPaperSummaries(userId, page = 1, limit = 20) {
     const offset = (page - 1) * limit;
+    const cacheKey = `papers:list:${userId}`;
 
-    const allPapers = await getPapersByUserId(userId);
-    const total = allPapers.length;
+    let allPapers = null;
+    let total = 0;
+    let summaries = [];
 
-    const paginatedPapers = allPapers.slice(offset, offset + limit);
+    if (isRedisConnected()) {
+        // Redis available: cache the full list, paginate in memory
+        allPapers = await cacheGet(cacheKey);
+        if (!allPapers) {
+            allPapers = await getPapersByUserId(userId);
+            await cacheSet(cacheKey, allPapers, TTL.USER_PAPERS);
+        }
+        total = allPapers.length;
+        summaries = allPapers.slice(offset, offset + limit);
+    } else {
+        // No Redis: use SQL-level LIMIT/OFFSET — never loads all rows into memory
+        const result = await getPapersByUserIdPaginated(userId, page, limit);
+        allPapers = result.papers;
+        total = result.total;
+        summaries = allPapers;
+    }
 
-    const summaries = paginatedPapers.map((p) => ({
+    summaries = summaries.map((p) => ({
         paper_id: p.paper_id,
         exam_name: p.exam_name,
         class: p.class,
@@ -122,6 +157,9 @@ export async function storePaper(userId, paperData) {
 
     try {
         const dbInsertId = await storeNewPaperForUser(userId, paperData);
+
+        // Invalidate user's paper list cache so next fetch gets fresh data
+        await cacheDel(`papers:list:${userId}`);
 
         return {
             dbId: dbInsertId,

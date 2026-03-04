@@ -3,6 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
+import compression from 'compression';
+import helmet from 'helmet';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -12,6 +14,7 @@ import cron from 'node-cron';
 import { validateEnv, getConfig } from './config/envConfig.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { pool } from './config/mySQLConfig.js';
+import { getRedisClient, isRedisConnected } from './config/redisConfig.js';
 import { paperRouter } from './routes/paperRouter.js';
 import authRouter from './routes/authRouter.js';
 import notificationRouter from './routes/notificationRouter.js';
@@ -28,7 +31,7 @@ const __dirname = dirname(__filename);
 const app = express();
 app.set('trust proxy', 1);
 
-const port = config.server.port || 8080;
+const port = config.server.port || 8070;
 
 // --- CORS CONFIGURATION ---
 const allowedOrigins = [
@@ -59,7 +62,14 @@ const corsOptions = {
 };
 
 // --- MIDDLEWARE ---
+app.use(helmet({
+  // Allow cross-origin requests to work with our CORS config
+  crossOriginResourcePolicy: { policy: 'cross-origin' },
+  // Content Security Policy — adjust if you serve HTML from the API
+  contentSecurityPolicy: process.env.NODE_ENV === 'production',
+}));
 app.use(cors(corsOptions));
+app.use(compression()); // gzip compression for all responses
 app.use(cookieParser());
 app.use(express.json({ limit: '5mb' }));
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
@@ -71,8 +81,45 @@ app.use('/api/v1/notification', notificationRouter);
 app.get('/', (req, res) => {
   res.status(200).send('API Working and Healthy');
 });
-app.get('/health', (req, res) => {
-  res.status(200).send('API Working and Healthy');
+
+// --- PROPER HEALTH CHECK ---
+app.get('/health', async (req, res) => {
+  const start = Date.now();
+  const checks = {};
+
+  // Check MySQL
+  try {
+    const conn = await pool.getConnection();
+    await conn.ping();
+    conn.release();
+    checks.mysql = { status: 'ok' };
+  } catch (e) {
+    checks.mysql = { status: 'error', message: e.message };
+  }
+
+  // Check Redis
+  if (isRedisConnected()) {
+    try {
+      const redis = getRedisClient();
+      await redis.ping();
+      checks.redis = { status: 'ok' };
+    } catch (e) {
+      checks.redis = { status: 'error', message: e.message };
+    }
+  } else {
+    checks.redis = { status: 'unavailable', message: 'Running without cache' };
+  }
+
+  const allOk = Object.values(checks).every(c => c.status === 'ok' || c.status === 'unavailable');
+  const statusCode = allOk ? 200 : 503;
+
+  res.status(statusCode).json({
+    status: allOk ? 'healthy' : 'degraded',
+    uptime: process.uptime(),
+    responseTime: `${Date.now() - start}ms`,
+    timestamp: new Date().toISOString(),
+    checks,
+  });
 });
 
 // Error Handler (Must be after all API routes)
@@ -92,6 +139,9 @@ process.on('SIGINT', async () => {
 
 app.listen(port, async () => {
   try {
+    // Initialize Redis (non-blocking — app still works if Redis is down)
+    getRedisClient();
+
     initS3Mapping();
     await ensureUserColumnsExist();
     console.log('Database initialized successfully.');

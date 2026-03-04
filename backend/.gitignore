@@ -1,7 +1,7 @@
 # Operating System files
 .DS_Store
 Thumbs.db
-
+node_modules
 # Node.js (Frontend and/or Backend)
 node_modules
 npm-debug.log*

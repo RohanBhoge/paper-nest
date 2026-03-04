@@ -286,7 +286,7 @@ async function storeNewPaperForUser(userId, data) {
 }
 
 /**
- * Gets all papers for a user.
+ * Gets all papers for a user (used by cache layer which does its own pagination).
  */
 async function getPapersByUserId(userId) {
   let connection;
@@ -303,6 +303,46 @@ async function getPapersByUserId(userId) {
           ? JSON.parse(r.metadata)
           : r.metadata || null,
     }));
+  } finally {
+    if (connection) connection.release();
+  }
+}
+
+/**
+ * Gets paginated papers for a user directly from SQL (no in-memory slice).
+ * Use this when Redis is not available or cache is bypassed.
+ */
+async function getPapersByUserIdPaginated(userId, page = 1, limit = 20) {
+  const offset = (page - 1) * limit;
+  let connection;
+  try {
+    connection = await pool.getConnection();
+
+    // Get total count
+    const [[{ total }]] = await connection.execute(
+      `SELECT COUNT(*) AS total FROM question_papers WHERE user_id = ?`,
+      [userId]
+    );
+
+    // Get paginated rows
+    const [rows] = await connection.execute(
+      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, metadata, created_at, updated_at
+       FROM question_papers
+       WHERE user_id = ?
+       ORDER BY created_at DESC
+       LIMIT ? OFFSET ?`,
+      [userId, limit, offset]
+    );
+
+    const papers = rows.map((r) => ({
+      ...r,
+      metadata:
+        r.metadata && typeof r.metadata === 'string'
+          ? JSON.parse(r.metadata)
+          : r.metadata || null,
+    }));
+
+    return { papers, total };
   } finally {
     if (connection) connection.release();
   }
@@ -673,6 +713,7 @@ export {
   createUser,
   getUserByEmail,
   getPapersByUserId,
+  getPapersByUserIdPaginated,
   storeNewPaperForUser,
   getPaperByIdForUser,
   deletePapersForUser,
