@@ -7,21 +7,37 @@ import {
 } from './zipLoader.js';
 
 import { getS3ChapterFolder } from './s3PathHelper.js';
+import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
+import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 
-const getS3Url = (exam, std, subj, chapterFolder, filename) => {
+const _s3Client = new S3Client({
+  region: process.env.AWS_REGION || 'ap-south-1',
+  credentials: process.env.AWS_ACCESS_KEY_ID ? {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  } : undefined, // Falls back to IAM role on EC2/EB
+});
+
+/**
+ * Generates a presigned URL for an S3 object.
+ * Works regardless of bucket public access settings — signed with backend IAM credentials.
+ * URL expires in 1 hour (3600 seconds).
+ */
+async function getS3PresignedUrl(exam, std, subj, chapterFolder, filename) {
   if (!filename) return null;
   const bucketName = process.env.S3_BUCKET_NAME || process.env.AWS_BUCKET_NAME;
-  const region = process.env.AWS_REGION;
-  if (!bucketName || !region) return null;
+  if (!bucketName) return null;
 
-  const pExam = encodeURIComponent(exam);
-  const pStd = encodeURIComponent(std);
-  const pSubj = encodeURIComponent(subj);
-  const pChap = encodeURIComponent(chapterFolder);
-  const pFile = encodeURIComponent(filename);
+  const key = `Questions_Image_Data/${exam}/${std}/${subj}/${chapterFolder}/${filename}`;
 
-  return `https://${bucketName}.s3.${region}.amazonaws.com/Questions_Image_Data/${pExam}/${pStd}/${pSubj}/${pChap}/${pFile}`;
-};
+  try {
+    const command = new GetObjectCommand({ Bucket: bucketName, Key: key });
+    const url = await getSignedUrl(_s3Client, command, { expiresIn: 3600 });
+    return url;
+  } catch {
+    return null;
+  }
+}
 function generatePaperId(exam, standard) {
   const examCode = String(exam || 'EX')
     .toUpperCase()
@@ -70,20 +86,20 @@ function formatPaperContent(selectedQuestions) {
     const mChapterName = q.chapter || meta.entryPath || '';
     const s3Folder = getS3ChapterFolder(mExam, mStd, mSubj, mChapterName);
 
-    // Helpers to process arrays
-    const mapImages = (imgArray) => {
+    // Helpers to process arrays — async to generate presigned URLs
+    const mapImages = async (imgArray) => {
       if (!Array.isArray(imgArray)) return [];
-      return imgArray.map(imgName => ({
+      return Promise.all(imgArray.map(async imgName => ({
         name: imgName,
-        url: getS3Url(mExam, mStd, mSubj, s3Folder, imgName)
-      }));
+        url: await getS3PresignedUrl(mExam, mStd, mSubj, s3Folder, imgName)
+      })));
     };
 
     // Attach to question object in list
     const qItem = questionList[questionList.length - 1]; // Current Item
-    qItem.question_images = mapImages(q.question_images);
-    qItem.option_images = mapImages(q.option_images);
-    qItem.solution_images = mapImages(q.solution_images);
+    qItem.question_images = await mapImages(q.question_images);
+    qItem.option_images = await mapImages(q.option_images);
+    qItem.solution_images = await mapImages(q.solution_images);
 
     paperQuestions += `Q${qNo}: ${qText}`;
     if (i < selectedQuestions.length - 1) {
