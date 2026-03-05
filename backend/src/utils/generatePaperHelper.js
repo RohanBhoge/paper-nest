@@ -53,7 +53,7 @@ function generatePaperId(exam, standard) {
   return `${examCode}-${year}-${stdCode}-${serial}`;
 }
 
-function formatPaperContent(selectedQuestions) {
+async function formatPaperContent(selectedQuestions) {
   let paperQuestions = '';
   let paperAnswers = '';
   let questionList = [];

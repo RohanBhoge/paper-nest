@@ -125,7 +125,7 @@ export async function generatePaper(params) {
         totalMarks += Number(q.marks ?? q.mark ?? 1) || 0;
     }
 
-    const { paper_questions, paper_answers, question_list } = formatPaperContent(selected);
+    const { paper_questions, paper_answers, question_list } = await formatPaperContent(selected);
 
     const paperData = {
         paper_id: generatePaperId(paperParams.exam, paperParams.standard),
