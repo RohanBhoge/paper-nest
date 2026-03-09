@@ -1,9 +1,10 @@
 import { ArrowLeft } from "lucide-react";
 import { useOutletContext, useNavigate } from "react-router-dom"; // Added useNavigate
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const SubjectsPage = () => {
   const navigate = useNavigate();
+  const [error, setError] = useState(null);
   const {
     selectedExam,
     selectedClass,
@@ -70,34 +71,39 @@ const SubjectsPage = () => {
         ) : (
           <>
             {" "}
-            <div className="flex gap-6 mb-6">
-              {" "}
+            <div className={`flex gap-6 mb-4 ${error ? "p-2 border border-red-500 rounded-xl bg-red-50" : ""}`}>
               <button
                 className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 ${mode === "Random"
-                    ? "bg-blue-600 text-white"
-                    : "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
+                  ? "bg-blue-600 text-white"
+                  : "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
                   }`}
-                onClick={() => setMode("Random")}
+                onClick={() => {
+                  setMode("Random");
+                  setError(null);
+                }}
               >
-                Custom Selection              {" "}
+                Custom Selection
               </button>
-              {" "}
               <button
                 className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 ${mode === "Fixed"
-                    ? "bg-blue-600 text-white"
-                    : "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
+                  ? "bg-blue-600 text-white"
+                  : "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
                   }`}
-                onClick={() => setMode("Fixed")}
+                onClick={() => {
+                  setMode("Fixed");
+                  setError(null);
+                }}
               >
-                Full Pattern Paper              {" "}
+                Full Pattern Paper
               </button>
-              {" "}
             </div>
+
+            {error && <p className="text-red-500 font-medium mb-4 text-sm">{error}</p>}
             {" "}
             <div
               className={`grid gap-6 ${selectedExam === "CET"
-                  ? "grid-cols-1 md:grid-cols-2"
-                  : "grid-cols-1 md:grid-cols-3"
+                ? "grid-cols-1 md:grid-cols-2"
+                : "grid-cols-1 md:grid-cols-3"
                 }`}
             >
               {" "}
@@ -107,9 +113,10 @@ const SubjectsPage = () => {
                   type="button"
                   onClick={() => {
                     if (!mode) {
-                      alert("⚠️ Please select a mode (Custom Selection or Full Pattern Paper) first.");
+                      setError("⚠️ Please select a mode (Custom Selection or Full Pattern Paper) first.");
                       return;
                     }
+                    setError(null);
                     handleSubjectClick(subject);
                   }}
                   className="cursor-pointer px-6 py-4 rounded-lg font-medium text-blue-600 border border-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white hover:translate-y-[-2px]"

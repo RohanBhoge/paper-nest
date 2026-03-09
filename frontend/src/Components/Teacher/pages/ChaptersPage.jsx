@@ -65,6 +65,7 @@ const ChaptersPage = () => {
 
   const [showTemplate, setShowTemplate] = useState(false);
   const [savedOnce, setSavedOnce] = useState(false);
+  const [formErrors, setFormErrors] = useState({}); // 💡 Industry-standard validation state
   const {
     setBackendPaperData,
     backendPaperData,
@@ -189,43 +190,61 @@ const ChaptersPage = () => {
       return;
     }
 
-    // ✅ Form Validation
+    // ✅ Industry-Standard Form Validation
+    const newErrors = {};
+
     if (!className || !className.trim()) {
-      alert("Please enter a Class Name.");
-      return;
+      newErrors.className = "Please enter a Class Name.";
     }
     if (!examName || !examName.trim()) {
-      alert("Please enter an Exam Name.");
-      return;
+      newErrors.examName = "Please enter an Exam Name.";
     }
     if (!examDate) {
-      alert("Please select an Exam Date.");
-      return;
+      newErrors.examDate = "Please select an Exam Date.";
     }
     if (!examDuration || examDuration <= 0) {
-      alert("Please enter a valid Exam Duration in minutes.");
-      return;
+      newErrors.examDuration = "Please enter a valid Exam Duration in minutes.";
     }
 
     // Validate mode-specific fields
     if (mode === "Random") {
-      if (!totalMarks || totalMarks <= 0) {
-        alert("Please enter valid Total Marks.");
-        return;
-      }
       if (!numberOfQuestions || numberOfQuestions <= 0) {
-        alert("Please enter a valid Number of Questions.");
-        return;
+        newErrors.numberOfQuestions = "Please enter a valid Number of Questions.";
+      }
+
+      if (!totalMarks || totalMarks <= 0) {
+        newErrors.totalMarks = "Please enter valid Total Marks.";
+      }
+
+      // 💡 NEW: Marks distribution validation
+      if (numberOfQuestions && totalMarks) {
+        if (Number(totalMarks) < Number(numberOfQuestions)) {
+          newErrors.totalMarks = "Total Marks must be at least equal to Number of Questions (min 1 mark per question).";
+        } else if (Number(totalMarks) % Number(numberOfQuestions) !== 0) {
+          newErrors.totalMarks = "Total Marks must be cleanly divisible by the Number of Questions (no remainder).";
+        }
       }
     }
 
     // Validate at least one chapter is selected
     const hasSelectedChapters = Object.values(checkedChapters || {}).some(val => val === true);
     if (!hasSelectedChapters) {
-      alert("Please select at least one chapter.");
+      newErrors.chapters = "Please select at least one chapter.";
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setFormErrors(newErrors);
+      // Auto-scroll to the first error field
+      setTimeout(() => {
+        const firstErrorElement = document.querySelector('.has-error');
+        if (firstErrorElement) {
+          firstErrorElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 100);
       return;
     }
 
+    setFormErrors({}); // Clear errors if entirely valid
     setIsGenerating(true);
     setBackendPaperData(null); // Clear previous data
 
@@ -396,82 +415,110 @@ const ChaptersPage = () => {
           </div>
           <div className="bg-white border border-slate-200 rounded-xl p-4 mb-8 shadow-sm">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-slate-700 text-sm">
-              <div>
+              <div className={formErrors.className ? "has-error" : ""}>
                 <label className="font-medium">Class Name <span className="text-red-500">*</span></label>
                 <input
                   type="text"
                   value={className}
-                  onChange={(e) => setClassName(e.target.value)}
-                  className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  onChange={(e) => {
+                    setClassName(e.target.value);
+                    if (formErrors.className) setFormErrors(prev => ({ ...prev, className: null }));
+                  }}
+                  className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.className ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
                   required
                 />
+                {formErrors.className && <p className="text-red-500 text-xs mt-1">{formErrors.className}</p>}
               </div>
-              <div>
+              <div className={formErrors.examName ? "has-error" : ""}>
                 <label className="font-medium">Exam Name <span className="text-red-500">*</span></label>
                 <input
                   type="text"
                   value={examName}
-                  onChange={(e) => setExamName(e.target.value)}
-                  className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  onChange={(e) => {
+                    setExamName(e.target.value);
+                    if (formErrors.examName) setFormErrors(prev => ({ ...prev, examName: null }));
+                  }}
+                  className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.examName ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
                   required
                 />
+                {formErrors.examName && <p className="text-red-500 text-xs mt-1">{formErrors.examName}</p>}
               </div>
-              <div>
+              <div className={formErrors.examDate ? "has-error" : ""}>
                 <label className="font-medium">Exam Date <span className="text-red-500">*</span></label>
                 <input
                   type="date"
                   value={examDate}
-                  onChange={(e) => setExamDate(e.target.value)}
-                  className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  onChange={(e) => {
+                    setExamDate(e.target.value);
+                    if (formErrors.examDate) setFormErrors(prev => ({ ...prev, examDate: null }));
+                  }}
+                  className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.examDate ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
                   required
                 />
+                {formErrors.examDate && <p className="text-red-500 text-xs mt-1">{formErrors.examDate}</p>}
               </div>
-              <div>
+              <div className={formErrors.examDuration ? "has-error" : ""}>
                 <label className="font-medium">Exam Duration (Minutes) <span className="text-red-500">*</span></label>
                 <input
                   type="number"
                   value={examDuration}
-                  onChange={(e) => setExamDuration(e.target.value)}
+                  onChange={(e) => {
+                    setExamDuration(e.target.value);
+                    if (formErrors.examDuration) setFormErrors(prev => ({ ...prev, examDuration: null }));
+                  }}
                   onWheel={(e) => e.target.blur()}
-                  className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.examDuration ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
                   placeholder="e.g. 90"
                   min="1"
                   required
                 />
+                {formErrors.examDuration && <p className="text-red-500 text-xs mt-1">{formErrors.examDuration}</p>}
               </div>
+
+              {/* 💡 Reordered: Number of Questions now appears BEFORE Total Marks */}
               {mode === "Random" && (
-                <div>
+                <div className={formErrors.numberOfQuestions ? "has-error" : ""}>
+                  <label className="font-medium">Number of Questions <span className="text-red-500">*</span></label>
+                  <input
+                    type="number"
+                    placeholder="e.g. 50"
+                    value={numberOfQuestions}
+                    onChange={(e) => {
+                      handleQuestionCountChange(e);
+                      if (formErrors.numberOfQuestions) setFormErrors(prev => ({ ...prev, numberOfQuestions: null }));
+                    }}
+                    onWheel={(e) => e.target.blur()}
+                    className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.numberOfQuestions ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
+                    min="1"
+                    required
+                  />
+                  {formErrors.numberOfQuestions && <p className="text-red-500 text-xs mt-1">{formErrors.numberOfQuestions}</p>}
+                </div>
+              )}
+
+              {mode === "Random" && (
+                <div className={formErrors.totalMarks ? "has-error" : ""}>
                   <label className="font-medium">Total Marks <span className="text-red-500">*</span></label>
                   <input
                     type="number"
                     value={totalMarks}
-                    onChange={(e) => setTotalMarks(e.target.value)}
+                    onChange={(e) => {
+                      setTotalMarks(e.target.value);
+                      if (formErrors.totalMarks) setFormErrors(prev => ({ ...prev, totalMarks: null }));
+                    }}
                     onWheel={(e) => e.target.blur()}
-                    className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className={`w-full mt-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${formErrors.totalMarks ? 'border-red-500 focus:ring-red-500 bg-red-50' : 'border-slate-300 focus:ring-blue-500'}`}
                     placeholder="e.g. 100"
                     min="1"
                     required
                   />
+                  {formErrors.totalMarks && <p className="text-red-500 text-xs mt-1">{formErrors.totalMarks}</p>}
                 </div>
               )}
             </div>
           </div>
-          {mode === "Random" && (
-            <div className="mb-6">
-              <p className="mb-2 ml-2">Enter Number of Questions: <span className="text-red-500">*</span></p>
-              <input
-                type="number"
-                placeholder="Enter number of questions"
-                value={numberOfQuestions}
-                onChange={handleQuestionCountChange}
-                onWheel={(e) => e.target.blur()}
-                className="border border-slate-600 rounded-lg px-4 py-2 w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                min="1"
-                required
-              />
-            </div>
-          )}
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className={`grid gap-4 md:grid-cols-2 ${formErrors.chapters ? "has-error border border-red-500 rounded-lg p-2" : ""}`}>
+            {formErrors.chapters && <div className="col-span-full text-red-500 text-sm font-semibold mb-2">{formErrors.chapters}</div>}
             {isNeetBiology ? (
               neetColumns.map((col) => (
                 <div key={col.header}>

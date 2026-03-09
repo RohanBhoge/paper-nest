@@ -24,6 +24,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(null);
+  const [successMessage, setSuccessMessage] = useState(null);
   const [isFetchingPaper, setIsFetchingPaper] = useState(false);
   const navigate = useNavigate()
 
@@ -200,9 +201,10 @@ const PaperHistoryPage = ({ setActiveSection }) => {
 
   const handleDeleteSelected = async () => {
     const idsToDelete = Array.from(selectedPaperIds);
+    setSuccessMessage(null);
 
     if (idsToDelete.length === 0) {
-      alert("Please select at least one paper to delete.");
+      setFetchError("Please select at least one paper to delete.");
       return;
     }
 
@@ -233,11 +235,14 @@ const PaperHistoryPage = ({ setActiveSection }) => {
       );
 
       if (response.data.success) {
-        alert(`Successfully deleted ${idsToDelete.length} paper(s).`);
+        setSuccessMessage(`Successfully deleted ${idsToDelete.length} paper(s).`);
         console.log("[DEBUG] Deletion API Success:", response.data);
         setDeleteMode(false);
         setSelectedPaperIds(new Set());
         fetchPapers();
+
+        // Auto-clear success message after 3 seconds
+        setTimeout(() => setSuccessMessage(null), 3000);
       } else {
         setFetchError(response.data.message || "Failed to delete papers.");
         console.error("[DEBUG] Deletion API Error:", response.data);
@@ -348,8 +353,14 @@ const PaperHistoryPage = ({ setActiveSection }) => {
           </div>
 
           {fetchError && (
-            <div className="p-3 mb-4 bg-red-100 text-red-700 border border-red-300 rounded-lg">
-              Error: {fetchError}
+            <div className="p-3 mb-4 bg-red-100 text-red-700 border border-red-300 rounded-lg shadow-sm font-medium">
+              ⚠️ {fetchError}
+            </div>
+          )}
+
+          {successMessage && (
+            <div className="p-3 mb-4 bg-green-100 text-green-700 border border-green-300 rounded-lg shadow-sm font-medium">
+              ✅ {successMessage}
             </div>
           )}
 

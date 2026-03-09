@@ -128,6 +128,7 @@ const GeneratedTemplate = ({
   const [replacementPool, setReplacementPool] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
   const [error, setError] = useState(null);
+  const [successMessage, setSuccessMessage] = useState(null);
   const [backOptions, setBakcOptions] = useState(null)
 
   const [displayedQuestions, setDisplayedQuestions] =
@@ -257,12 +258,9 @@ const GeneratedTemplate = ({
           "[DEBUG] Store Paper API Error:",
           err.response?.data || err.message
         );
-        // setError(
-        //   `Warning: Failed to store paper or Paper already exist. Status:   ${
-        //     err.response?.status || "Network Error"
-        //   }`
-        // );
-        alert(`Warning: Failed to store paper or Paper already exist. Status:   ${err.response?.status || "Network Error"}`);
+        setError(`Warning: Failed to store paper or Paper already exist. Status: ${err.response?.status || "Network Error"}`);
+        // Auto clear warning after 5s
+        setTimeout(() => setError(""), 5000);
         return false;
       }
     },
@@ -366,14 +364,17 @@ const GeneratedTemplate = ({
       setSelectedReplaceQuestions([]);
       setReplacementPool([]);
       setReplaceMode(false);
-      alert(`Successfully replaced ${replacementPool.length} question(s)!`);
+
+      setSuccessMessage(`Successfully replaced ${replacementPool.length} question(s)!`);
+      setTimeout(() => setSuccessMessage(""), 4000);
     }
   }, [replacementPool, selectedReplaceQuestions]);
 
   // Handler to initiate API call and fetch replacement pool
   const fetchReplacementPool = async () => {
     if (selectedReplaceQuestions.length === 0) {
-      alert("Please select at least one question to replace.");
+      setError("Please select at least one question to replace.");
+      setTimeout(() => setError(""), 3000);
       return;
     }
 
@@ -821,7 +822,15 @@ const GeneratedTemplate = ({
       </div>
 
       {error && (
-        <div className="no-print text-red-500 text-center mb-4">{error}</div>
+        <div className="no-print p-3 mb-4 bg-red-100 text-red-700 border border-red-300 rounded-lg shadow-sm font-medium w-fit mx-auto">
+          ⚠️ {error}
+        </div>
+      )}
+
+      {successMessage && (
+        <div className="no-print p-3 mb-4 bg-green-100 text-green-700 border border-green-300 rounded-lg shadow-sm font-medium w-fit mx-auto">
+          ✅ {successMessage}
+        </div>
       )}
 
       <div className="overflow-x-auto w-full pb-4">
