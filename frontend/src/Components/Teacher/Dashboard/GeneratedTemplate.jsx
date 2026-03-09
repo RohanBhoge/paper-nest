@@ -587,17 +587,21 @@ const GeneratedTemplate = ({
     @page { margin: 10mm; }
 
     .columns-q { 
-      column-count: 2;
-      column-gap: 20px;
-      /* Optional: rule between columns */
-      /* column-rule: 1px solid #e2e2e2; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start; /* Ensures items don't stretch vertically */
+      gap: 0;
+    }
+
+    .columns-q .question-item {
+      width: calc(50% - 15px); /* Forces items to take up half the row */
     }
 
     .question-item {
       break-inside: avoid;
       page-break-inside: avoid;
-      display: inline-block; /* Helps prevent breaking across columns */
-      width: 100%;
+      margin-bottom: 20px;
     }
 
     /* Toggle Switch */
