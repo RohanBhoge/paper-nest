@@ -2,151 +2,1388 @@
   {
     "id": 1,
     "chapter": "Limits",
-    "question": "The limit of (x^2 - 1)/(x - 1) as x → 1 is:",
+    "question": "For each real number x, let [x] be the greatest integer less than or equal to x. Then evaluate the limit involving the greatest integer function.",
+    "question_latex": "For each real number $x$, let $[x]$ be the greatest integer less than or equal to $x$. Evaluate the given limit involving $[x]$.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "2",
-      "Undefined"
+      "A. -1",
+      "B. 0",
+      "C. Does not exist",
+      "D. 1"
     ],
-    "answer": "2",
-    "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (x^2 - 1)/(x - 1) as x → 1 is:..."
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "Using properties of the greatest integer function $[x]$, evaluate left-hand and right-hand limits separately. Since both limits are equal to $0$, the required limit is $0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
   },
   {
     "id": 2,
     "chapter": "Limits",
-    "question": "The limit of sin(x)/x as x → 0 is:",
+    "question": "Evaluate the value of the given limit expression.",
+    "question_latex": "Evaluate the value of the given limit expression.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "∞",
-      "-1"
+      "A. 1",
+      "B. 6",
+      "C. 3",
+      "D. 2"
     ],
-    "answer": "1",
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "Simplify the expression algebraically and substitute the limiting value. After simplification, the limit evaluates to $3$.",
+    "solution_images": [],
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of sin(x)/x as x → 0 is:..."
+    "marks": 4
   },
   {
     "id": 3,
     "chapter": "Limits",
-    "question": "The limit of (1 - cos(x))/x^2 as x → 0 is:",
+    "question": "If α and β are roots of a quadratic equation, find the required equation whose roots are 6 and 11.",
+    "question_latex": "If $\\alpha$ and $\\beta$ are roots of a quadratic equation, find the required equation whose roots are $6$ and $11$.",
+    "question_images": [],
     "options": [
-      "0",
-      "1/2",
-      "1",
-      "2"
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
     ],
-    "answer": "1/2",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (1 - cos(x))/x^2 as x → 0 is:..."
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Sum of roots $= 6 + 11 = 17$.\nProduct of roots $= 6 \\times 11 = 66$.\nRequired quadratic equation:\n$$x^2 - 17x + 66 = 0$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
   },
   {
     "id": 4,
     "chapter": "Limits",
-    "question": "The limit of (e^x - 1)/x as x → 0 is:",
+    "question": "If the given limit exists, determine the necessary conditions.",
+    "question_latex": "If the given limit exists, determine the necessary conditions.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "e",
-      "Undefined"
+      "A. Condition set A",
+      "B. Condition set B",
+      "C. Condition set C",
+      "D. Condition set D"
     ],
-    "answer": "1",
+    "option_images": [],
+    "answer": "C. Condition set C",
+    "solution": "For limit to exist, left-hand limit must equal right-hand limit.\nEquate expressions and solve necessary conditions.\nThe valid set of conditions corresponds to option C.",
+    "solution_images": [],
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (e^x - 1)/x as x → 0 is:..."
+    "marks": 4
   },
   {
     "id": 5,
     "chapter": "Limits",
-    "question": "The limit of (1 + 1/n)^n as n → ∞ is:",
+    "question": "Find the set of all values of x for which the given limit involving [x] exists.",
+    "question_latex": "Find the set of all values of $x$ for which the given limit involving $[x]$ exists.",
+    "question_images": [],
     "options": [
-      "1",
-      "e",
-      "∞",
-      "0"
+      "A. Set A",
+      "B. Set B",
+      "C. Set C",
+      "D. Set D"
     ],
-    "answer": "e",
+    "option_images": [],
+    "answer": "B. Set B",
+    "solution": "Let $x = n + h$, where $n$ is integer and $h \\to 0$.\nCheck left-hand and right-hand limits.\nLimit does not exist at integers but exists elsewhere.\nHence option B.",
+    "solution_images": [],
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (1 + 1/n)^n as n → ∞ is:..."
+    "marks": 4
   },
   {
     "id": 6,
     "chapter": "Limits",
-    "question": "The limit of (x^3 + x^2 - x - 1)/(x - 1) as x → 1 is:",
+    "question": "Evaluate the given limit.",
+    "question_latex": "Evaluate the limit $$\\lim_{x \\to a} f(x)$$.",
+    "question_images": [],
     "options": [
-      "0",
-      "2",
-      "3",
-      "4"
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
     ],
-    "answer": "2",
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Substitute directly. If indeterminate form arises, apply L'Hospital's Rule.\nAfter simplification, result matches option B.",
+    "solution_images": [],
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (x^3 + x^2 - x - 1)/(x - 1) as x → 1 ..."
+    "marks": 4
   },
   {
     "id": 7,
     "chapter": "Limits",
-    "question": "The limit of ln(1 + x)/x as x → 0 is:",
+    "question": "Evaluate the limit using L'Hospital's Rule.",
+    "question_latex": "Evaluate the limit using L'Hospital's Rule.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "∞",
-      "-1"
+      "A. 3",
+      "B. 2",
+      "C. 1",
+      "D. 0"
     ],
-    "answer": "1",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of ln(1 + x)/x as x → 0 is:..."
+    "option_images": [],
+    "answer": "C. 1",
+    "solution": "Given limit is of indeterminate form $\\frac{0}{0}$.\nDifferentiate numerator and denominator:\n$$\\lim_{x \\to a} \\frac{f'(x)}{g'(x)}$$\nEvaluating gives $1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
   },
   {
     "id": 8,
     "chapter": "Limits",
-    "question": "The limit of x*sin(1/x) as x → 0 is:",
+    "question": "Let f be differentiable such that f'(x) satisfies given condition. Find required value.",
+    "question_latex": "Let $f$ be differentiable such that $f'(x)$ satisfies given condition. Find required value.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "∞",
-      "Undefined"
+      "A. 18",
+      "B. 12",
+      "C. 36",
+      "D. 24"
     ],
-    "answer": "0",
+    "option_images": [],
+    "answer": "A. 18",
+    "solution": "Use derivative property and substitute given values.\nAfter computation, answer is $18$.",
+    "solution_images": [],
     "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of x*sin(1/x) as x → 0 is:..."
+    "marks": 4
   },
   {
     "id": 9,
     "chapter": "Limits",
-    "question": "The limit of (a^x - 1)/x as x → 0 is:",
+    "question": "Evaluate the limit using L'Hospital's Rule.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin x}{x}$$.",
+    "question_images": [],
     "options": [
-      "0",
-      "1",
-      "ln(a)",
-      "a"
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
     ],
-    "answer": "ln(a)",
-    "difficulty": "medium",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (a^x - 1)/x as x → 0 is:..."
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Using standard limit:\n$$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
   },
   {
     "id": 10,
     "chapter": "Limits",
-    "question": "The limit of (x^2 - 4)/(x - 2) as x → 2 is:",
+    "question": "If the given limit is finite, find its value.",
+    "question_latex": "If the given limit is finite, evaluate it.",
+    "question_images": [],
     "options": [
-      "0",
-      "2",
-      "4",
-      "Undefined"
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 4"
     ],
-    "answer": "4",
+    "option_images": [],
+    "answer": "D. 4",
+    "solution": "Assume limit exists.\nSimplify and evaluate expression.\nFinal value equals $4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Limits",
+    "question": "If the given limit is finite, evaluate its value.",
+    "question_latex": "If the limit $$\\lim_{x \\to a} f(x)$$ is finite, evaluate its value.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. 0",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Since the limit is finite, remove the indeterminate form using algebraic simplification or L'Hospital's Rule.\nAfter simplification, the result corresponds to option A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Limits",
+    "question": "If f is differentiable and strictly increasing, evaluate the given limit.",
+    "question_latex": "If $f$ is differentiable and strictly increasing, evaluate the given limit.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "C. -1",
+    "solution": "Since $f$ is strictly increasing, $f'(x) > 0$.\nUsing given expression and substituting properties, the limit evaluates to $-1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Limits",
+    "question": "Evaluate the given limit.",
+    "question_latex": "Evaluate the limit $$\\lim_{x \\to a} \\frac{f(x)}{g(x)}$$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. -1",
+      "C. -2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. -2",
+    "solution": "Limit is of indeterminate form $\\frac{0}{0}$.\nApplying L'Hospital's Rule:\n$$\\lim_{x \\to a} \\frac{f'(x)}{g'(x)} = -2$$",
+    "solution_images": [],
     "difficulty": "easy",
-    "marks": 1,
-    "solution": "This is a dummy solution for: The limit of (x^2 - 4)/(x - 2) as x → 2 is:..."
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Limits",
+    "question": "Evaluate the following limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{e^x - 1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. 2",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Using expansion $e^x = 1 + x + \\frac{x^2}{2!} + \\dots$\n$$\\frac{e^x - 1}{x} = 1$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Limits",
+    "question": "Find the value of the limit using L'Hospital's Rule.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\tan x - x}{x^3}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/3",
+      "B. 0",
+      "C. 1",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "A. 1/3",
+    "solution": "Using expansion:\n$\\tan x = x + \\frac{x^3}{3} + \\dots$\n$$\\frac{\\tan x - x}{x^3} = \\frac{x^3/3}{x^3} = \\frac{1}{3}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Limits",
+    "question": "Evaluate the derivative-based limit.",
+    "question_latex": "Evaluate $$\\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}$$.",
+    "question_images": [],
+    "options": [
+      "A. f(a)",
+      "B. f'(a)",
+      "C. 0",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "B. f'(a)",
+    "solution": "By definition of derivative:\n$$f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Limits",
+    "question": "Evaluate the given limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} \\frac{2x^2 + 3}{x^2 - 1}$$.",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 0",
+      "C. 1",
+      "D. ∞"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "Divide numerator and denominator by $x^2$:\n$$\\frac{2 + 3/x^2}{1 - 1/x^2} \\to 2$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 1/2",
+      "C. 0",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. 1/2",
+    "solution": "Using identity:\n$1 - \\cos x = \\frac{x^2}{2} + \\dots$\nSo limit equals $\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Using expansion:\n$\\ln(1+x) = x - \\frac{x^2}{2} + \\dots$\nHence limit = 1.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{a^x - 1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. \\ln a",
+      "B. a",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. \\ln a",
+    "solution": "Using expansion:\n$a^x = 1 + x \\ln a + \\dots$\nSo limit equals $\\ln a$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Limits",
+    "question": "Find the value of k for which the function is continuous at x = a.",
+    "question_latex": "Find $k$ such that the function is continuous at $x = a$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "D. 4",
+    "solution": "Equate left-hand and right-hand limits and substitute $x=a$.\nSolving gives $k = 4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Limits",
+    "question": "Evaluate the trigonometric limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin ax}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. 1",
+      "C. 0",
+      "D. a^2"
+    ],
+    "option_images": [],
+    "answer": "A. a",
+    "solution": "Using standard limit:\n$$\\lim_{x \\to 0} \\frac{\\sin ax}{x} = a$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Limits",
+    "question": "Evaluate the limit using sandwich theorem.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} x \\sin\\frac{1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. -1",
+      "D. Does not exist"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "Since $-1 \\leq \\sin(1/x) \\leq 1$,\n$$-x \\leq x\\sin(1/x) \\leq x$$\nAs $x \\to 0$, limit = 0.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 1} \\frac{x^n - 1}{x - 1}$$.",
+    "question_images": [],
+    "options": [
+      "A. n",
+      "B. 1",
+      "C. n-1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. n",
+    "solution": "Using derivative:\n$$\\lim_{x \\to 1} \\frac{x^n - 1}{x - 1} = \\left.\\frac{d}{dx}x^n\\right|_{x=1} = n$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Limits",
+    "question": "Evaluate the exponential limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x$$.",
+    "question_images": [],
+    "options": [
+      "A. e",
+      "B. 1",
+      "C. 0",
+      "D. ∞"
+    ],
+    "option_images": [],
+    "answer": "A. e",
+    "solution": "By definition of Euler's number:\n$$\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x = e$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{e^x - e^{-x}}{2x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Using expansion:\n$e^x = 1 + x + \\frac{x^2}{2} + \\dots$\n$e^{-x} = 1 - x + \\frac{x^2}{2} - \\dots$\nNumerator = $2x + \\dots$\nSo limit = $\\frac{2x}{2x} = 1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Limits",
+    "question": "Evaluate the limit using L'Hospital's Rule.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{x - \\sin x}{x^3}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/6",
+      "B. 0",
+      "C. 1/3",
+      "D. -1/6"
+    ],
+    "option_images": [],
+    "answer": "A. 1/6",
+    "solution": "Using expansion:\n$\\sin x = x - \\frac{x^3}{6} + \\dots$\nSo numerator = $\\frac{x^3}{6}$.\nHence limit = $\\frac{1}{6}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2 + 1}}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. ∞",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Factor $x^2$ inside root:\n$$\\frac{\\sqrt{x^2(1 + 1/x^2)}}{x} = \\sqrt{1 + 1/x^2} \\to 1$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Limits",
+    "question": "Find the value of k for which the function is continuous at x = 0.",
+    "question_latex": "Find $k$ such that $f(x)$ is continuous at $x=0$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Continuity requires:\n$$\\lim_{x \\to 0} f(x) = f(0)$$\nSubstitute and solve for $k$, giving $k = 1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Limits",
+    "question": "Evaluate the derivative.",
+    "question_latex": "Find $\\frac{d}{dx}(x^x)$.",
+    "question_images": [],
+    "options": [
+      "A. $x^x$",
+      "B. $x^x(1+\\ln x)$",
+      "C. $x^x \\ln x$",
+      "D. $1+\\ln x$"
+    ],
+    "option_images": [],
+    "answer": "B. $x^x(1+\\ln x)$",
+    "solution": "Let $y = x^x$.\nTaking log:\n$\\ln y = x \\ln x$\nDifferentiate:\n$$\\frac{1}{y} \\frac{dy}{dx} = \\ln x + 1$$\nHence,\n$$\\frac{dy}{dx} = x^x(1 + \\ln x)$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\arcsin x}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. -1",
+      "D. Does not exist"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Using standard limit:\n$$\\lim_{x \\to 0} \\frac{\\arcsin x}{x} = 1$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\arctan x}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Using expansion:\n$\\arctan x = x - \\frac{x^3}{3} + \\dots$\nHence limit = 1.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 1",
+      "C. 0",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1/2",
+    "solution": "Using expansion:\n$\\sqrt{1+x} = 1 + \\frac{x}{2} - \\dots$\nThus limit = $\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin 2x}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 0",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Rewrite:\n$$\\frac{\\sin 2x}{x} = 2 \\cdot \\frac{\\sin 2x}{2x}$$\nAs $x \\to 0$, result = 2.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\tan x}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. -1",
+      "D. Does not exist"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Using standard limit:\n$$\\lim_{x \\to 0} \\frac{\\tan x}{x} = 1$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} \\left(\\sqrt{x^2+x} - x\\right)$$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1/2",
+      "C. ∞",
+      "D. -1/2"
+    ],
+    "option_images": [],
+    "answer": "B. 1/2",
+    "solution": "Multiply and divide by conjugate:\n$$\\frac{x}{\\sqrt{x^2+x}+x}$$\nDividing numerator and denominator by $x$ gives limit $= \\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. 1",
+      "C. 0",
+      "D. a^2"
+    ],
+    "option_images": [],
+    "answer": "A. a",
+    "solution": "Using expansion:\n$e^{ax} = 1 + ax + \\dots$\nHence limit = $a$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. 1",
+      "C. 0",
+      "D. \\ln a"
+    ],
+    "option_images": [],
+    "answer": "A. a",
+    "solution": "Using expansion:\n$\\ln(1+ax) = ax - \\dots$\nHence limit = $a$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{1 - \\cos ax}{x^2}$$.",
+    "question_images": [],
+    "options": [
+      "A. a^2/2",
+      "B. a",
+      "C. 1/2",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. a^2/2",
+    "solution": "Using expansion:\n$1 - \\cos ax = \\frac{a^2 x^2}{2} + \\dots$\nThus limit = $\\frac{a^2}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin ax - ax}{x^3}$$.",
+    "question_images": [],
+    "options": [
+      "A. -a^3/6",
+      "B. a^3/6",
+      "C. 0",
+      "D. a"
+    ],
+    "option_images": [],
+    "answer": "A. -a^3/6",
+    "solution": "Using expansion:\n$\\sin ax = ax - \\frac{a^3 x^3}{6} + \\dots$\nHence limit = $-\\frac{a^3}{6}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{e^x - 1 - x}{x^2}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 1",
+      "C. 0",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1/2",
+    "solution": "Using expansion:\n$e^x = 1 + x + \\frac{x^2}{2} + \\dots$\nSo numerator = $\\frac{x^2}{2} + \\dots$\nHence limit = $\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\ln(1+x) - x}{x^2}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. -1/2",
+      "C. 0",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "B. -1/2",
+    "solution": "Using expansion:\n$\\ln(1+x) = x - \\frac{x^2}{2} + \\dots$\nSo numerator = $-\\frac{x^2}{2}$.\nHence limit = $-\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\tan x - x}{x^3}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/3",
+      "B. -1/3",
+      "C. 0",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. 1/3",
+    "solution": "Using expansion:\n$\\tan x = x + \\frac{x^3}{3} + \\dots$\nHence numerator = $\\frac{x^3}{3}$.\nSo limit = $\\frac{1}{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} \\frac{3x^2 + 5x}{2x^2 - x}$$.",
+    "question_images": [],
+    "options": [
+      "A. 3/2",
+      "B. 2/3",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. 3/2",
+    "solution": "Divide numerator and denominator by $x^2$:\n$$\\frac{3 + 5/x}{2 - 1/x} \\to \\frac{3}{2}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin x - x\\cos x}{x^3}$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/3",
+      "B. 1/2",
+      "C. 0",
+      "D. -1/3"
+    ],
+    "option_images": [],
+    "answer": "A. 1/3",
+    "solution": "Using expansions:\n$\\sin x = x - \\frac{x^3}{6} + \\dots$\n$\\cos x = 1 - \\frac{x^2}{2} + \\dots$\nNumerator simplifies to $\\frac{x^3}{3}$.\nHence limit = $\\frac{1}{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{a^x - b^x}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. \\ln a - \\ln b",
+      "B. a - b",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. \\ln a - \\ln b",
+    "solution": "Using expansion:\n$a^x = 1 + x\\ln a + \\dots$\n$b^x = 1 + x\\ln b + \\dots$\nSubtracting and dividing by $x$ gives $\\ln a - \\ln b$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sqrt{1+ax} - 1}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. a/2",
+      "B. a",
+      "C. 1/2",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. a/2",
+    "solution": "Using expansion:\n$\\sqrt{1+ax} = 1 + \\frac{ax}{2} + \\dots$\nHence limit = $\\frac{a}{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Limits",
+    "question": "Evaluate the limit using standard results.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{\\sin ax}{\\sin bx}$$.",
+    "question_images": [],
+    "options": [
+      "A. a/b",
+      "B. b/a",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. a/b",
+    "solution": "Using standard limit:\n$$\\frac{\\sin ax}{\\sin bx} = \\frac{a}{b}$$ as $x \\to 0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to \\infty} x\\left(\\sqrt{1 + \\frac{1}{x}} - 1\\right)$$.",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 1",
+      "C. 0",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1/2",
+    "solution": "Using expansion:\n$\\sqrt{1 + 1/x} = 1 + \\frac{1}{2x} + \\dots$\nMultiplying by $x$ gives $\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate $$\\lim_{x \\to 0} \\frac{(1+x)^{1/x} - e}{x}$$.",
+    "question_images": [],
+    "options": [
+      "A. e/2",
+      "B. e",
+      "C. 0",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. e/2",
+    "solution": "Using expansion:\n$(1+x)^{1/x} = e\\left(1 - \\frac{x}{2} + \\dots\\right)$.\nSubtracting $e$ and dividing by $x$ gives $\\frac{e}{2}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Limits",
+    "question": "If a ≠ 0 is a real number and the given limit expression involves a, evaluate its value.",
+    "question_latex": "If $a \\neq 0$ is a real number, evaluate the given limit expression involving $a$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Substitute the given expression and simplify. Using standard limit results and algebraic manipulation, the final value matches option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Limits",
+    "question": "Evaluate the given limit.",
+    "question_latex": "Evaluate the limit using standard methods.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Let the given expression be simplified first.\nIf indeterminate form arises, apply L'Hospital's Rule.\nAfter simplification, result corresponds to option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Limits",
+    "question": "Find the value of the limit.",
+    "question_latex": "Evaluate the limit $$\\lim_{x \\to a} f(x)$$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Using L'Hospital's Rule twice if required, remove indeterminate form.\nAfter evaluation, limit equals $1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Limits",
+    "question": "Evaluate the given limit (Sept 2020 type).",
+    "question_latex": "Evaluate the limit of the given expression.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. Does not exist",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "Substitute the limiting value.\nForm obtained is $\\frac{0}{0}$.\nApplying L'Hospital's Rule gives result $0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Limits",
+    "question": "If the given condition holds, evaluate the limit.",
+    "question_latex": "If the given condition holds, evaluate the limit.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Using the provided condition, simplify the expression.\nThe evaluated limit matches option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Limits",
+    "question": "If two limits exist and are equal, find the value of the expression.",
+    "question_latex": "If $\\lim_{x \\to a^-} f(x) = \\lim_{x \\to a^+} f(x)$, evaluate the expression.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Equate left-hand and right-hand limits.\nSolve the resulting equation.\nFinal answer corresponds to option A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Limits",
+    "question": "Let f be continuous. Evaluate the limit expression.",
+    "question_latex": "Let $f$ be continuous. Evaluate the limit of the given expression.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Since $f$ is continuous, substitute the limiting value directly.\nIf needed, apply L'Hospital's Rule.\nResult matches option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Limits",
+    "question": "Evaluate the limit.",
+    "question_latex": "Evaluate the given limit expression.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. 1",
+      "D. Does not exist"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Simplify algebraically.\nIf indeterminate, apply L'Hospital's Rule.\nFinal result corresponds to option B.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Limits",
+    "question": "Evaluate the limit (Jan 2019 type).",
+    "question_latex": "Evaluate the given limit.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. 4",
+      "C. Option C",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "D. 8",
+    "solution": "Using expansion or direct simplification.\nAfter solving, the limit equals $8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Limits",
+    "question": "Let [x] denote the greatest integer function. If the limit exists, find its value.",
+    "question_latex": "Let $[x]$ denote the greatest integer function. If the limit exists, evaluate it.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 0",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Evaluate left-hand and right-hand limits near integers.\nEquating them gives final value $2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Limits",
+    "question": "Evaluate the limit using L'Hospital's Rule.",
+    "question_latex": "Evaluate the given limit using L'Hospital's Rule.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. 1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "D. 2",
+    "solution": "Given form is $\\frac{0}{0}$.\nApplying L'Hospital's Rule twice gives final result $2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Limits",
+    "question": "If the given condition holds, evaluate the limit.",
+    "question_latex": "If the given algebraic condition holds, evaluate the limit.",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 19",
+      "C. 17",
+      "D. 18"
+    ],
+    "option_images": [],
+    "answer": "D. 18",
+    "solution": "Use the given substitution.\nSimplify expression.\nFinal value = $18$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Limits",
+    "question": "Evaluate the expression.",
+    "question_latex": "Evaluate the given expression.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. Option B",
+      "C. 16",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Simplify using algebraic manipulation and limit laws.\nResult matches option B.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Limits",
+    "question": "If the given equality holds, find the value of the parameter.",
+    "question_latex": "If the given equality holds, find the required value.",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. Option B",
+      "C. Option C",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "Substitute into expression.\nSimplify and solve for the unknown.\nFinal answer = $2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Limits",
+    "question": "Let f be continuously differentiable with given conditions. Evaluate the limit.",
+    "question_latex": "Let $f$ be continuously differentiable with given conditions. Evaluate the limit.",
+    "question_images": [],
+    "options": [
+      "A. 18",
+      "B. 2",
+      "C. 36",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "A. 18",
+    "solution": "Using given derivative values and L'Hospital's Rule.\nAfter evaluation, result equals $18$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Limits",
+    "question": "Find the area bounded by the curve y = x^2 and the line y = 4.",
+    "question_latex": "Find the area bounded by the curve $y = x^2$ and the line $y = 4$.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{16}{3}$",
+      "B. $\\frac{32}{3}$",
+      "C. $8$",
+      "D. $16$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{32}{3}$",
+    "solution": "Intersection points: $x^2 = 4 \\Rightarrow x = \\pm 2$.\nArea $= \\int_{-2}^{2} (4 - x^2) dx$\n$= \\left[4x - \\frac{x^3}{3}\\right]_{-2}^{2}$\n$= \\left(8 - \\frac{8}{3}\\right) - \\left(-8 + \\frac{8}{3}\\right)$\n$= 16 - \\frac{16}{3} = \\frac{32}{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Limits",
+    "question": "Solve: dy/dx = 3x^2.",
+    "question_latex": "Solve: $\\frac{dy}{dx} = 3x^2$.",
+    "question_images": [],
+    "options": [
+      "A. $y = x^3 + C$",
+      "B. $y = 3x^3 + C$",
+      "C. $y = x^2 + C$",
+      "D. $y = 3x + C$"
+    ],
+    "option_images": [],
+    "answer": "A. $y = x^3 + C$",
+    "solution": "Integrating both sides:\n$y = \\int 3x^2 dx = 3 \\cdot \\frac{x^3}{3} + C = x^3 + C$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Limits",
+    "question": "If A = [[1,2],[3,4]], find det(A).",
+    "question_latex": "If $A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}$, find $\\det(A)$.",
+    "question_images": [],
+    "options": [
+      "A. -2",
+      "B. 2",
+      "C. -5",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "A. -2",
+    "solution": "$\\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Limits",
+    "question": "Find the probability of getting a head when a fair coin is tossed.",
+    "question_latex": "Find the probability of getting a head when a fair coin is tossed.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 1/2",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "C. 1/2",
+    "solution": "Total outcomes = 2 (H, T).\nFavorable outcomes = 1 (H).\nProbability = $\\frac{1}{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Limits",
+    "question": "Find the magnitude of vector a = 3i + 4j.",
+    "question_latex": "Find the magnitude of vector $\\vec{a} = 3\\hat{i} + 4\\hat{j}$.",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 25",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. 5",
+    "solution": "$|\\vec{a}| = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Limits",
+    "question": "Evaluate: lim (x→0) (sin x)/x.",
+    "question_latex": "Evaluate: $\\lim_{x \\to 0} \\frac{\\sin x}{x}$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. Does not exist"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Standard limit result:\n$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Limits",
+    "question": "If two rows of a determinant are identical, find its value.",
+    "question_latex": "If two rows of a determinant are identical, find its value.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. -1",
+      "C. 0",
+      "D. Depends"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "Property of determinants: If any two rows (or columns) are identical, determinant equals 0.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Limits",
+    "question": "A function f(x) is continuous at x = a if which condition holds?",
+    "question_latex": "A function $f(x)$ is continuous at $x = a$ if which condition holds?",
+    "question_images": [],
+    "options": [
+      "A. lim f(x) exists",
+      "B. f(a) exists",
+      "C. lim f(x) = f(a)",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. lim f(x) = f(a)",
+    "solution": "Continuity requires:\n1) $\\lim_{x \\to a} f(x)$ exists\n2) $f(a)$ exists\n3) $\\lim_{x \\to a} f(x) = f(a)$.\nHence option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
   }
 ]

@@ -430,6 +430,7 @@ const ChaptersPage = () => {
                   type="number"
                   value={examDuration}
                   onChange={(e) => setExamDuration(e.target.value)}
+                  onWheel={(e) => e.target.blur()}
                   className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="e.g. 90"
                   min="1"
@@ -443,6 +444,7 @@ const ChaptersPage = () => {
                     type="number"
                     value={totalMarks}
                     onChange={(e) => setTotalMarks(e.target.value)}
+                    onWheel={(e) => e.target.blur()}
                     className="w-full mt-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="e.g. 100"
                     min="1"
@@ -460,6 +462,7 @@ const ChaptersPage = () => {
                 placeholder="Enter number of questions"
                 value={numberOfQuestions}
                 onChange={handleQuestionCountChange}
+                onWheel={(e) => e.target.blur()}
                 className="border border-slate-600 rounded-lg px-4 py-2 w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 min="1"
                 required
