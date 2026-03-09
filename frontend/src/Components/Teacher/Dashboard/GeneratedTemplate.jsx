@@ -435,10 +435,26 @@ const GeneratedTemplate = ({
     // 1. Set the desired view mode
     setViewMode(mode);
 
-    // 2. Wait for the state update
+    // 2. Wait for React to mount the images in the DOM
     setTimeout(() => {
-      window.print();
-    }, 100);
+      const images = Array.from(document.querySelectorAll('img'));
+
+      const imagePromises = images.map((img) => {
+        if (img.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          img.onload = resolve;
+          img.onerror = resolve; // Continue even if one fails
+        });
+      });
+
+      // 3. Wait for all images to physically download, then print
+      Promise.all(imagePromises).then(() => {
+        // Extra 100ms for browser paint cycle
+        setTimeout(() => {
+          window.print();
+        }, 100);
+      });
+    }, 150); // Increased slightly for complex DOM renders
   }, []);
 
   // Helper to render images
