@@ -276,75 +276,77 @@ const ChaptersPage = () => {
       return;
     }
 
-    // 3. Generate PDF and Save to History (for the list view)
-    try {
-      const papers = getPapersFromService();
-      const nextId = papers.length + 1;
-      const paperId = `PAPER-${String(nextId).padStart(3, "0")}`;
-      const fileName = `${paperId}.pdf`;
+    // 💡 IMMEDIATE UI UNBLOCK: Transition to template view instantly
+    setSavedOnce(true);
+    setShowTemplate(true);
+    setIsGenerating(false);
 
-      const doc = new jsPDF({ unit: "pt", format: "a4" });
-      const left = 40;
-      let y = 60;
+    // 3. Generate PDF and Save to History (for the list view) IN BACKGROUND
+    setTimeout(() => {
+      try {
+        const papers = getPapersFromService();
+        const nextId = papers.length + 1;
+        const paperId = `PAPER-${String(nextId).padStart(3, "0")}`;
+        const fileName = `${paperId}.pdf`;
 
-      // --- PDF Header Logic (omitted for brevity) ---
-      doc.setFontSize(16);
-      doc.setFont(undefined, "bold");
-      doc.text(paperId, left, y);
-      doc.setFontSize(12);
-      doc.setFont(undefined, "normal");
-      doc.text(`Class: ${className || "-"}`, left + 300, y);
-      y += 22;
+        const doc = new jsPDF({ unit: "pt", format: "a4" });
+        const left = 40;
+        let y = 60;
 
-      doc.setFontSize(12);
-      doc.text(`Subject: ${selectedSubject || "-"}`, left, y);
-      doc.text(`Exam: ${examName || "-"}`, left + 300, y);
-      y += 18;
+        // --- PDF Header Logic (omitted for brevity) ---
+        doc.setFontSize(16);
+        doc.setFont(undefined, "bold");
+        doc.text(paperId, left, y);
+        doc.setFontSize(12);
+        doc.setFont(undefined, "normal");
+        doc.text(`Class: ${className || "-"}`, left + 300, y);
+        y += 22;
 
-      doc.text(`Exam Date: ${examDate || "-"}`, left, y);
-      doc.text(`Marks: ${totalMarks || "-"}`, left + 300, y);
-      y += 24;
+        doc.setFontSize(12);
+        doc.text(`Subject: ${selectedSubject || "-"}`, left, y);
+        doc.text(`Exam: ${examName || "-"}`, left + 300, y);
+        y += 18;
 
-      doc.setLineWidth(0.5);
-      doc.line(left, y, 555, y);
-      y += 18;
+        doc.text(`Exam Date: ${examDate || "-"}`, left, y);
+        doc.text(`Marks: ${totalMarks || "-"}`, left + 300, y);
+        y += 24;
 
-      // Placeholder body - The actual question content should come from `GeneratedTemplate` rendering.
-      doc.setFontSize(11);
-      const placeholder =
-        "Questions generated successfully. Template view will show detailed questions.";
-      const split = doc.splitTextToSize(placeholder, 515);
-      doc.text(split, left, y);
-      y += split.length * 14 + 12;
+        doc.setLineWidth(0.5);
+        doc.line(left, y, 555, y);
+        y += 18;
 
-      const blob = doc.output("blob");
-      const url = URL.createObjectURL(blob);
+        // Placeholder body - The actual question content should come from `GeneratedTemplate` rendering.
+        doc.setFontSize(11);
+        const placeholder =
+          "Questions generated successfully. Template view will show detailed questions.";
+        const split = doc.splitTextToSize(placeholder, 515);
+        doc.text(split, left, y);
+        y += split.length * 14 + 12;
 
-      const newEntry = {
-        paperId,
-        examName,
-        examDate,
-        className,
-        examDuration,
-        totalMarks,
-        subjectName: selectedSubject,
-        fileCount: 1,
-        fileNames: [fileName],
-        fileUrl: url,
-        fileName,
-        checkedStatus: "unchecked",
-        date: new Date().toISOString(),
-      };
+        const blob = doc.output("blob");
+        const url = URL.createObjectURL(blob);
 
-      savePapersToService([...papers, newEntry]);
-      setSavedOnce(true);
-      setShowTemplate(true);
-    } catch (error) {
-      console.error("PDF/History saving error:", error);
-      alert("Failed to save paper to history.");
-    } finally {
-      setIsGenerating(false);
-    }
+        const newEntry = {
+          paperId,
+          examName,
+          examDate,
+          className,
+          examDuration,
+          totalMarks,
+          subjectName: selectedSubject,
+          fileCount: 1,
+          fileNames: [fileName],
+          fileUrl: url,
+          fileName,
+          checkedStatus: "unchecked",
+          date: new Date().toISOString(),
+        };
+
+        savePapersToService([...papers, newEntry]);
+      } catch (error) {
+        console.error("PDF/History saving error:", error);
+      }
+    }, 100);
   }, [
     savedOnce,
     isGenerating,

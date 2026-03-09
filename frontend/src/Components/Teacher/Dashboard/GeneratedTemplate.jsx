@@ -477,9 +477,9 @@ const GeneratedTemplate = ({
   };
 
   // Renders a single question block
-  const renderQuestion = (q, idx, col) => {
-    const qno =
-      q.qno || (useColumns ? (col === 0 ? idx * 2 + 1 : idx * 2 + 2) : idx + 1);
+  const renderQuestion = (q, idx) => {
+    // Using global index + 1 for numbering since we now render a flat list
+    const qno = q.qno || (idx + 1);
     const key = getCompositeKey(q);
     const isSelected = selectedReplaceQuestions.some(
       (sq) => getCompositeKey(sq) === key
@@ -587,17 +587,17 @@ const GeneratedTemplate = ({
     @page { margin: 10mm; }
 
     .columns-q { 
-      display: flex; 
-      gap: 20px; 
+      column-count: 2;
+      column-gap: 20px;
+      /* Optional: rule between columns */
+      /* column-rule: 1px solid #e2e2e2; */
     }
 
-    .col-q { 
-      flex: 1; 
-    }
-
-    .col-q.left { 
-      border-right: 1px solid #e2e2e2; 
-      padding-right: 10px; 
+    .question-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      display: inline-block; /* Helps prevent breaking across columns */
+      width: 100%;
     }
 
     /* Toggle Switch */
@@ -847,21 +847,10 @@ const GeneratedTemplate = ({
               <div className="text-center text-gray-500 py-20">
                 No questions were generated.
               </div>
-            ) : useColumns ? (
-              // Two Column Layout
-              <div className="columns-q pb-4">
-                <div className="col-q left">
-                  {leftContent.map((q, i) => renderQuestion(q, i, 0))}
-                </div>
-
-                <div className="col-q">
-                  {rightContent.map((q, i) => renderQuestion(q, i, 1))}
-                </div>
-              </div>
             ) : (
-              // Single Column Layout
-              <div>
-                {displayedQuestions.map((q, i) => renderQuestion(q, i, 0))}
+              // The `columns-q` class enables CSS column-count if useColumns is true
+              <div className={useColumns ? "columns-q pb-4" : "pb-4"}>
+                {displayedQuestions.map((q, i) => renderQuestion(q, i))}
               </div>
             )}
           </div>
