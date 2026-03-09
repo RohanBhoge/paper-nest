@@ -523,13 +523,21 @@ const GeneratedTemplate = ({
         )}
 
         {/* Question Number and Text */}
-        <div className={`flex ${replaceMode ? "ml-6" : ""}`}>
-          <strong className="mr-2">{qno}.</strong>
-          <p className="flex-1"><Latex>{q.question}</Latex></p>
-          {renderImages(q.question_images)}
-          <span className="ml-auto font-normal text-gray-700 whitespace-nowrap">
+        <div className={`relative ${replaceMode ? "ml-6" : ""}`}>
+          <span className="absolute top-0 right-0 font-normal text-gray-700 whitespace-nowrap bg-white pl-2">
             ({calculatedMark} M)
           </span>
+          <div className="pr-12"> {/* Padding to prevent text from going under the marks */}
+            <strong className="float-left mr-2">{qno}.</strong>
+            <div className="inline">
+              <Latex>{q.question}</Latex>
+            </div>
+
+            {/* Images drop below the text naturally because they are block elements inside renderImages */}
+            <div className="clear-both pt-2">
+              {renderImages(q.question_images)}
+            </div>
+          </div>
         </div>
 
         {optsHtml}
