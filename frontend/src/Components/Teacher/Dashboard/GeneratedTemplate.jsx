@@ -856,18 +856,18 @@ const GeneratedTemplate = ({
               </div>
             ) : useColumns ? (
               // 💡 CHUNKED COLUMN LAYOUT (Industry compromise for zig-zag vs voids)
-              // Chunks questions into blocks of 8 to force columns to resync, preventing huge voids
+              // Chunks questions into blocks of 20 to force columns to resync less often, closing voids while saving page real estate
               <div>
-                {Array.from({ length: Math.ceil(displayedQuestions.length / 8) }).map((_, chunkIndex) => {
-                  const chunk = displayedQuestions.slice(chunkIndex * 8, (chunkIndex + 1) * 8);
+                {Array.from({ length: Math.ceil(displayedQuestions.length / 20) }).map((_, chunkIndex) => {
+                  const chunk = displayedQuestions.slice(chunkIndex * 20, (chunkIndex + 1) * 20);
                   const [leftContent, rightContent] = splitIntoTwo(chunk);
                   return (
                     <div key={chunkIndex} className="columns-q pb-4">
                       <div className="col-q left">
-                        {leftContent.map((q, i) => renderQuestion(q, chunkIndex * 8 + i * 2))}
+                        {leftContent.map((q, i) => renderQuestion(q, chunkIndex * 20 + i * 2))}
                       </div>
                       <div className="col-q">
-                        {rightContent.map((q, i) => renderQuestion(q, chunkIndex * 8 + i * 2 + 1))}
+                        {rightContent.map((q, i) => renderQuestion(q, chunkIndex * 20 + i * 2 + 1))}
                       </div>
                     </div>
                   );
