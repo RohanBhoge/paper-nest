@@ -587,15 +587,18 @@ const GeneratedTemplate = ({
     @page { margin: 10mm; }
 
     .columns-q { 
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start; /* Ensures items don't stretch vertically */
-      gap: 0;
+      display: flex; 
+      gap: 20px; 
+      margin-bottom: 20px; /* Space between chunks */
     }
 
-    .columns-q .question-item {
-      width: calc(50% - 15px); /* Forces items to take up half the row */
+    .col-q { 
+      flex: 1; 
+    }
+
+    .col-q.left { 
+      border-right: 1px solid #e2e2e2; 
+      padding-right: 10px; 
     }
 
     .question-item {
@@ -851,9 +854,28 @@ const GeneratedTemplate = ({
               <div className="text-center text-gray-500 py-20">
                 No questions were generated.
               </div>
+            ) : useColumns ? (
+              // 💡 CHUNKED COLUMN LAYOUT (Industry compromise for zig-zag vs voids)
+              // Chunks questions into blocks of 8 to force columns to resync, preventing huge voids
+              <div>
+                {Array.from({ length: Math.ceil(displayedQuestions.length / 8) }).map((_, chunkIndex) => {
+                  const chunk = displayedQuestions.slice(chunkIndex * 8, (chunkIndex + 1) * 8);
+                  const [leftContent, rightContent] = splitIntoTwo(chunk);
+                  return (
+                    <div key={chunkIndex} className="columns-q pb-4">
+                      <div className="col-q left">
+                        {leftContent.map((q, i) => renderQuestion(q, chunkIndex * 8 + i * 2))}
+                      </div>
+                      <div className="col-q">
+                        {rightContent.map((q, i) => renderQuestion(q, chunkIndex * 8 + i * 2 + 1))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             ) : (
-              // The `columns-q` class enables CSS column-count if useColumns is true
-              <div className={useColumns ? "columns-q pb-4" : "pb-4"}>
+              // Single Layout
+              <div className="pb-4">
                 {displayedQuestions.map((q, i) => renderQuestion(q, i))}
               </div>
             )}
