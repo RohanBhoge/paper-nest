@@ -426,9 +426,9 @@ const GeneratedTemplate = ({
 
     const replacementPayload = {
       exam: exam,
-      class: standards,
-      subjects: subjects,
-      overallUsedKeys: overallUsedKeys,
+      class: Array.isArray(standards) ? standards : [standards], // 💡 REQUIRED: Backend expects an array
+      subjects: Array.isArray(subjects) ? subjects : [subjects], // 💡 REQUIRED: Backend expects an array
+      overallUsedKeys: displayedQuestions.map(getCompositeKey), // 💡 REQUIRED: Backend expects 'Chapter::ID' format
       replacementRequests: replacementRequests,
     };
 
@@ -440,12 +440,9 @@ const GeneratedTemplate = ({
       );
 
       if (response.data.success) {
-        // Handle new response format: { replacementQuestions: [], warning: "..." }
-        const { replacementQuestions, warning } = response.data.data;
-        setReplacementPool(replacementQuestions || []);
-        if (warning) {
-          setReplacementWarning(warning);
-        }
+        // Backend returns response.data.data directly as the question array
+        const replacementQuestions = Array.isArray(response.data.data) ? response.data.data : [];
+        setReplacementPool(replacementQuestions);
       } else {
         setError(
           response.data.message || "Failed to fetch replacement options."

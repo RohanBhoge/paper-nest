@@ -206,15 +206,18 @@ export async function getReplaceableQuestions(
     standards,
     subjects,
     overallUsedKeys = [],
-    replacementRequests = []
+    replacementRequests = [],
+    options = {}
 ) {
+    // 💡 Support 'class' as alias for 'standards' if standards is not provided
+    const targetStandards = standards || options.class;
     if (replacementRequests.length === 0) {
         throw new Error('Replacement request list is required');
     }
 
-    const standardArr = Array.isArray(standards)
-        ? standards
-        : String(standards || '')
+    const standardArr = Array.isArray(targetStandards)
+        ? targetStandards
+        : String(targetStandards || '')
             .split(',')
             .map((s) => s.trim())
             .filter(Boolean);
@@ -226,7 +229,8 @@ export async function getReplaceableQuestions(
             .map((s) => s.trim())
             .filter(Boolean);
 
-    const globalExclusionSet = new Set(overallUsedKeys.map(String));
+    // 💡 Ensure robust string set for ID matching
+    const globalExclusionSet = new Set(overallUsedKeys.map(key => String(key)));
 
     const zipRes = await loadQuestionsFromZip();
 

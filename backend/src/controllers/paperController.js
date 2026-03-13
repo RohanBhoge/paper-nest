@@ -149,7 +149,8 @@ export const getReplaceableQuestions = asyncHandler(async (req, res) => {
       standards,
       subjects,
       overallUsedKeys,
-      replacementRequests
+      replacementRequests,
+      req.body // Pass full body as options for alias support
     );
 
     if (result.totalFound > 0) {
