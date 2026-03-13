@@ -1,0 +1,1009 @@
+[
+  {
+    "id": 1,
+    "chapter": "Polymers",
+    "question": "Which of the following is an example of polyester? (June 2022)",
+    "question_latex": "Which of the following is an example of polyester? (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. Butadiene-styrene copolymer",
+      "B. Poly-β-hydroxybutyrate-co-β-hydroxyvalerate",
+      "C. Neoprene",
+      "D. Melamine polymer"
+    ],
+    "option_images": [],
+    "answer": "B. Poly-β-hydroxybutyrate-co-β-hydroxyvalerate",
+    "solution": "Poly-$\\beta$-hydroxybutyrate-co-$\\beta$-hydroxyvalerate (PHBV) is a polyester because it contains ester linkages ($-COO-$) in its backbone. It is formed from 3-hydroxybutanoic acid and 3-hydroxypentanoic acid monomers:\n$$\\text{3-Hydroxybutanoic acid} + \\text{3-Hydroxypentanoic acid} \\rightarrow \\text{PHBV (Ester linkage)}$$\nNeoprene is a synthetic rubber (addition polymer), butadiene-styrene is also a rubber, and melamine is a thermosetting polymer.",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Polymers",
+    "question": "The polymer formed on heating Novolac with formaldehyde is (Aug 2021)",
+    "question_latex": "The polymer formed on heating Novolac with formaldehyde is (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. nylon 6,6",
+      "B. bakelite",
+      "C. melamine",
+      "D. polyester"
+    ],
+    "option_images": [],
+    "answer": "B. bakelite",
+    "solution": "Novolac is a linear polymer of phenol and formaldehyde. When heated further with formaldehyde, cross-linking occurs between the chains to form Bakelite, a thermosetting polymer:\n$$\\text{Novolac} + \\text{HCHO} \\xrightarrow{\\Delta} \\text{Bakelite (cross-linked 3D structure)}$$",
+    "solution_images": [
+      "2_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Polymers",
+    "question": "Which of the following polymer is a polyamide?",
+    "question_latex": "Which of the following polymer is a polyamide?",
+    "question_images": [],
+    "options": [
+      "A. Terylene",
+      "B. Nylon",
+      "C. Rubber",
+      "D. Vulcanised rubber"
+    ],
+    "option_images": [],
+    "answer": "B. Nylon",
+    "solution": "Nylon is a polyamide fibre. It is prepared by the condensation polymerisation of adipic acid ($\\text{HOOC}(\\text{CH}_2)_4\\text{COOH}$) and hexamethylene diamine ($\\text{H}_2\\text{N}-(\\text{CH}_2)_6-\\text{NH}_2$). The linkage formed is an amide linkage ($-\\text{CO}-\\text{NH}-$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Polymers",
+    "question": "Structures of some common polymers are given. Which one is not correctly presented?",
+    "question_latex": "Structures of some common polymers are given. Which one is not correctly presented?",
+    "question_images": [],
+    "options": [
+      "A. Nylon-6,6: $+\\text{NH}(\\text{CH}_2)_6\\text{NHCO}(\\text{CH}_2)_4-\\text{CO}+_n$",
+      "B. Teflon: $+\\text{CF}_2-\\text{CF}_2+_n$",
+      "C. Neoprene: $+\\text{CH}_2-\\text{C}=\\text{CH}-\\text{CH}_2+_n$ with Cl substituent (labeled as Terylene)",
+      "D. Terylene: $+\\text{CO}-\\bigcirc-\\text{COOCH}_2-\\text{CH}_2-\\text{O}+_n$"
+    ],
+    "option_images": [
+      "4_opA_1.png",
+      "4_opB_1.png",
+      "4_opC_1.png",
+      "4_opD_1.png"
+    ],
+    "answer": "C. Neoprene: $+\\text{CH}_2-\\text{C}=\\text{CH}-\\text{CH}_2+_n$ with Cl substituent (labeled as Terylene)",
+    "solution": "Option (C) is incorrectly presented because the structure shown ($-\\text{CH}_2-\\text{C}(\\text{Cl})=\\text{CH}-\\text{CH}_2-$) is actually Neoprene, but it is labelled as Terylene. Terylene is a polyester formed by condensation of terephthalic acid and ethylene glycol, not from chloroprene. Vulcanisation is a separate process of treating natural rubber with sulphur to develop cross-links.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Polymers",
+    "question": "Which of the following statements is not true?",
+    "question_latex": "Which of the following statements is not true?",
+    "question_images": [],
+    "options": [
+      "A. Natural silk is a protein",
+      "B. PDI for natural polymers is greater than one",
+      "C. Polyurethane foams are used for making pillows",
+      "D. HDPE is prepared by Ziegler-Natta polymerisation"
+    ],
+    "option_images": [],
+    "answer": "B. PDI for natural polymers is greater than one",
+    "solution": "The Polydispersity Index (PDI) for natural polymers is equal to 1, not greater than 1. Natural polymers like proteins and nucleic acids have uniform chain lengths (monodisperse), so their PDI = 1. All other statements are correct: natural silk is a protein, polyurethane foams are used in pillows, and HDPE is made using Ziegler-Natta catalyst.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Polymers",
+    "question": "Which one of the following monomers gives the polymer neoprene on polymerization?",
+    "question_latex": "Which one of the following monomers gives the polymer neoprene on polymerization?",
+    "question_images": [],
+    "options": [
+      "A. $\\text{CF}_2 = \\text{CF}_2$",
+      "B. $\\text{CH}_2 = \\text{CHCl}$",
+      "C. $\\text{CCl}_2 = \\text{CCl}_2$",
+      "D. $\\text{CH}_2 = \\overset{\\text{Cl}}{\\text{C}} - \\text{CH} = \\text{CH}_2$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\text{CH}_2 = \\overset{\\text{Cl}}{\\text{C}} - \\text{CH} = \\text{CH}_2$",
+    "solution": "Neoprene is obtained by polymerisation of chloroprene (2-chloro-1,3-butadiene):\n$$n\\text{CH}_2=\\text{CH}-\\overset{|}{\\underset{\\text{Cl}}{\\text{C}}}=\\text{CH}_2 \\xrightarrow{\\text{O}_2 \\text{ or peroxides}} (-\\text{CH}_2-\\text{CH}=\\overset{|}{\\underset{\\text{Cl}}{\\text{C}}}-\\text{CH}_2-)_n$$\nThe product is Neoprene, a synthetic rubber.",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Polymers",
+    "question": "In addition polymer monomer used is",
+    "question_latex": "In addition polymer monomer used is",
+    "question_images": [],
+    "options": [
+      "A. unsaturated compounds",
+      "B. saturated compounds",
+      "C. bifunctional saturated compounds",
+      "D. trifunctional saturated compounds"
+    ],
+    "option_images": [],
+    "answer": "A. unsaturated compounds",
+    "solution": "In addition polymerisation, monomers must contain multiple bonds (double or triple bonds) between carbon atoms. These unsaturated compounds undergo addition reactions with each other to form the polymer without loss of any small molecule.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Polymers",
+    "question": "Assertion: Rayon is a semisynthetic polymer whose properties are better than natural cotton. Reason: Mechanical and aesthetic properties of cellulose can be improved by acetylation. (Online 2016)",
+    "question_latex": "Assertion: Rayon is a semisynthetic polymer whose properties are better than natural cotton. Reason: Mechanical and aesthetic properties of cellulose can be improved by acetylation. (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. Both assertion and reason are incorrect.",
+      "B. Both assertion and reason are correct, and the reason is the correct explanation for the assertion.",
+      "C. Assertion is incorrect statement, but the reason is correct.",
+      "D. Both assertion and reason are correct, but the reason is not the correct explanation for the assertion."
+    ],
+    "option_images": [],
+    "answer": "B. Both assertion and reason are correct, and the reason is the correct explanation for the assertion.",
+    "solution": "Rayon is indeed a semisynthetic polymer derived from cellulose. The strength and aesthetic properties of cellulose are improved by acetylation (reaction with acetic anhydride) to form rayon. This makes rayon better than natural cotton in terms of mechanical and aesthetic properties. Hence, the reason correctly explains the assertion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Polymers",
+    "question": "Identify A, B and C in the following sequence of reactions:\n$\\text{C}_6\\text{H}_5\\text{-C(=O)-O-O-C(=O)-C}_6\\text{H}_5 \\rightarrow 2\\text{C}_6\\text{H}_5\\text{-C(=O)-O}^\\bullet \\rightarrow 2A$\n$A + \\text{CH}_2=\\text{CH}_2 \\rightarrow B$\n$B + n\\text{CH}_2=\\text{CH}_2 \\rightarrow C$\n$C + C \\rightarrow \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-(\\text{CH}_2-\\text{CH}_2)_n-\\text{C}_6\\text{H}_5$",
+    "question_latex": "Identify A, B and C in the following sequence of reactions:\n$$\\text{C}_6\\text{H}_5-\\overset{\\|}{\\text{C}}-\\text{O}-\\text{O}-\\overset{\\|}{\\text{C}}-\\text{C}_6\\text{H}_5 \\rightarrow 2\\text{C}_6\\text{H}_5-\\overset{\\|}{\\text{C}}-\\overset{\\bullet}{\\text{O}} \\rightarrow 2A$$\n$$A + \\text{CH}_2=\\text{CH}_2 \\rightarrow B$$\n$$B + n\\text{CH}_2=\\text{CH}_2 \\rightarrow C$$\n$$C + C \\rightarrow \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-(\\text{CH}_2-\\text{CH}_2)_n-\\text{C}_6\\text{H}_5$$",
+    "question_images": [
+      "9_qu_1.png"
+    ],
+    "options": [
+      "A. $A = \\overset{\\bullet}{\\text{C}}_6\\text{H}_5$, $B = \\text{C}_6\\text{H}_5-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$ and $C = \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$",
+      "B. $A = \\text{C}_6\\text{H}_5\\overset{\\bullet}{\\text{CO}}$, $B = \\text{C}_6\\text{H}_5-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$ and $C = \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$",
+      "C. $A = \\overset{\\bullet}{\\text{C}}_6\\text{H}_5$, $B = \\text{C}_6\\text{H}_5-\\overset{\\bullet}{\\text{CH}}-\\text{CH}_3$ and $C = \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2\\overset{\\bullet}{\\text{CH}}_2$",
+      "D. $A = \\overset{\\bullet}{\\text{C}}_6\\text{H}_5$, $B = \\text{C}_6\\text{H}_5-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$ and $C = \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{C}_6\\text{H}_5$"
+    ],
+    "option_images": [
+      "9_opA_1.png",
+      "9_opB_1.png",
+      "9_opC_1.png",
+      "9_opD_1.png"
+    ],
+    "answer": "A. $A = \\overset{\\bullet}{\\text{C}}_6\\text{H}_5$, $B = \\text{C}_6\\text{H}_5-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$ and $C = \\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$",
+    "solution": "Benzoyl peroxide decomposes to give benzoyloxy radicals, which further lose $\\text{CO}_2$ to give phenyl radicals (A = $\\overset{\\bullet}{\\text{C}}_6\\text{H}_5$).\n$$\\text{C}_6\\text{H}_5-\\text{C}(=\\text{O})-\\text{O}^\\bullet \\rightarrow \\overset{\\bullet}{\\text{C}}_6\\text{H}_5 + \\text{CO}_2$$\nA adds to ethylene to give B = $\\text{C}_6\\text{H}_5-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$\nB adds to $n$ ethylene molecules to give C = $\\text{C}_6\\text{H}_5-(\\text{CH}_2-\\text{CH}_2)_n-\\text{CH}_2-\\overset{\\bullet}{\\text{CH}}_2$\nTwo C radicals combine to give the final polymer.",
+    "solution_images": [
+      "9_so_1.png",
+      "9_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Polymers",
+    "question": "Among cellulose, poly(vinyl chloride), nylon and natural rubber, the polymer in which the intermolecular force of attraction is weakest is",
+    "question_latex": "Among cellulose, poly(vinyl chloride), nylon and natural rubber, the polymer in which the intermolecular force of attraction is weakest is",
+    "question_images": [],
+    "options": [
+      "A. Nylon",
+      "B. Poly(vinyl chloride)",
+      "C. Cellulose",
+      "D. Natural rubber"
+    ],
+    "option_images": [],
+    "answer": "D. Natural rubber",
+    "solution": "Natural rubber is cis-polyisoprene, a hydrocarbon polymer. It has only weak van der Waals forces of attraction. In contrast:\n- Nylon has strong intermolecular H-bonding via amide ($-\\text{NH}-\\text{CO}-$) linkage.\n- Cellulose is a polyhydroxy compound with strong intermolecular H-bonding via $-\\text{OH}$ groups.\n- PVC is a polar polymer with strong dipole-dipole attraction due to the $\\text{C}-\\text{Cl}$ bond.\nHence, natural rubber has the weakest intermolecular forces.",
+    "solution_images": [
+      "10_so_1.png",
+      "10_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Polymers",
+    "question": "Which of the following is not correctly matched?",
+    "question_latex": "Which of the following is not correctly matched?",
+    "question_images": [],
+    "options": [
+      "A. Terylene: $-\\text{OCH}_2-\\text{CH}_2-\\text{OC}-\\bigcirc-\\text{C}-$",
+      "B. Neoprene: $-\\text{CH}_2-\\text{C}(\\text{Cl})=\\text{CH}-\\text{CH}_2-$",
+      "C. (shown in image)",
+      "D. (shown in image)"
+    ],
+    "option_images": [
+      "11_opA_1.png",
+      "11_opB_1.png",
+      "11_opC_1.png",
+      "11_opD_1.png"
+    ],
+    "answer": "A. Terylene: $-\\text{OCH}_2-\\text{CH}_2-\\text{OC}-\\bigcirc-\\text{C}-$",
+    "solution": "Terylene is prepared by condensation of terephthalic acid and ethylene glycol:\n$$n\\text{HOOC}-\\bigcirc-\\text{COOH} + n\\text{HOCH}_2\\text{CH}_2\\text{OH} \\rightarrow \\left[\\text{OC}-\\bigcirc-\\text{CO}-\\text{OCH}_2-\\text{CH}_2-\\text{O}\\right]_n + n\\text{H}_2\\text{O}$$\nOption (A) shows the structure incorrectly matched.",
+    "solution_images": [
+      "11_so_1.png",
+      "11_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Polymers",
+    "question": "The chemical name of isoprene is",
+    "question_latex": "The chemical name of isoprene is",
+    "question_images": [],
+    "options": [
+      "A. 2-methyl-1,3-butadiene",
+      "B. 2-chloro-1,3-butadiene",
+      "C. 2-methoxypropene",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 2-methyl-1,3-butadiene",
+    "solution": "Isoprene is $\\text{CH}_2=\\text{C}(\\text{CH}_3)-\\text{CH}=\\text{CH}_2$. Based on IUPAC nomenclature, it is 2-methyl-1,3-butadiene. It is the monomer of natural rubber (cis-polyisoprene).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Polymers",
+    "question": "Which one of the following is a copolymer?",
+    "question_latex": "Which one of the following is a copolymer?",
+    "question_images": [],
+    "options": [
+      "A. Polyethylene",
+      "B. Polyvinyl chloride",
+      "C. Polytetrafluoroethylene",
+      "D. Nylon-6,6"
+    ],
+    "option_images": [],
+    "answer": "D. Nylon-6,6",
+    "solution": "Nylon-6,6 is a copolymer formed from two different monomers: hexamethylenediamine ($\\text{H}_2\\text{N}-(\\text{CH}_2)_6-\\text{NH}_2$) and adipic acid ($\\text{HOOC}-(\\text{CH}_2)_4-\\text{COOH}$). Polyethylene, PVC, and PTFE are all homopolymers formed from a single type of monomer.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Polymers",
+    "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.\nAssertion A: Dacron is an example of polyester polymer.\nReason R: Dacron is made up of ethylene glycol and terephthalic acid monomers.\nChoose the most appropriate answer. (June 2022)",
+    "question_latex": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.\nAssertion A: Dacron is an example of polyester polymer.\nReason R: Dacron is made up of ethylene glycol and terephthalic acid monomers.\nChoose the most appropriate answer. (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. Both A and R are correct and R is the correct explanation of A.",
+      "B. Both A and R are correct but R is not the correct explanation of A.",
+      "C. A is correct but R is not correct.",
+      "D. A is not correct but R is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Both A and R are correct and R is the correct explanation of A.",
+    "solution": "Dacron (Terylene) is indeed a polyester. It is synthesised by the condensation polymerisation of ethylene glycol and terephthalic acid:\n$$n\\text{HOOC}-\\bigcirc-\\text{COOH} + n\\text{HOCH}_2\\text{CH}_2\\text{OH} \\rightarrow \\text{Dacron} + n\\text{H}_2\\text{O}$$\nSince Dacron contains ester linkages ($-\\text{COO}-$), it is a polyester. The Reason correctly explains the Assertion.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Polymers",
+    "question": "Match the columns.\nColumn-I:\n(A) Highly branched chemically inert polymer used in the insulation of electric wires.\n(B) Linear polymer prepared in presence of $\\text{Al}(\\text{C}_2\\text{H}_5)_3$ and $\\text{TiCl}_4$.\n(C) Corrosion resistant polymer used in manufacture of non-stick surface coated utensils.\n(D) Addition polymer used as a substitute for wool.\nColumn-II:\n(p) Teflon, (q) Polyacrylonitrile, (r) HDPE, (s) LDPE",
+    "question_latex": "Match the columns.\nColumn-I:\n(A) Highly branched chemically inert polymer used in the insulation of electric wires.\n(B) Linear polymer prepared in presence of $\\text{Al}(\\text{C}_2\\text{H}_5)_3$ and $\\text{TiCl}_4$.\n(C) Corrosion resistant polymer used in manufacture of non-stick surface coated utensils.\n(D) Addition polymer used as a substitute for wool.\nColumn-II:\n(p) Teflon, (q) Polyacrylonitrile, (r) HDPE, (s) LDPE",
+    "question_images": [],
+    "options": [
+      "A. A-(s), B-(r), C-(q), D-(p)",
+      "B. A-(s), B-(p), C-(r), D-(q)",
+      "C. A-(s), B-(r), C-(p), D-(q)",
+      "D. A-(r), B-(s), C-(p), D-(q)"
+    ],
+    "option_images": [],
+    "answer": "C. A-(s), B-(r), C-(p), D-(q)",
+    "solution": "Correct matching:\n- A → (s) LDPE: Highly branched polymer used in insulation of electric wires.\n- B → (r) HDPE: Linear polymer prepared using Ziegler-Natta catalyst [$\\text{Al}(\\text{C}_2\\text{H}_5)_3$ and $\\text{TiCl}_4$].\n- C → (p) Teflon: Corrosion resistant polymer used in non-stick coatings.\n- D → (q) Polyacrylonitrile: Addition polymer used as a substitute for wool (Orlon).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Polymers",
+    "question": "Polymerisation of chloroethylene gives the polymer:",
+    "question_latex": "Polymerisation of chloroethylene gives the polymer:",
+    "question_images": [],
+    "options": [
+      "A. Polythene",
+      "B. PVC",
+      "C. Teflon",
+      "D. Nylon"
+    ],
+    "option_images": [],
+    "answer": "B. PVC",
+    "solution": "Chloroethylene (vinyl chloride, $\\text{CH}_2=\\text{CHCl}$) undergoes addition polymerisation to give polyvinyl chloride (PVC):\n$$n\\text{CH}_2=\\overset{|}{\\underset{\\text{Cl}}{\\text{CH}}} \\rightarrow \\left(-\\text{CH}_2-\\overset{|}{\\underset{\\text{Cl}}{\\text{CH}}}-\\right)_n$$\nThis is polyvinyl chloride or PVC.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Polymers",
+    "question": "Symbolic name for Teflon is:",
+    "question_latex": "Symbolic name for Teflon is:",
+    "question_images": [],
+    "options": [
+      "A. PTFE",
+      "B. PCTFE",
+      "C. PVC",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. PTFE",
+    "solution": "Teflon is the trade name for polytetrafluoroethylene (PTFE). It is formed by polymerisation of tetrafluoroethylene ($\\text{CF}_2=\\text{CF}_2$):\n$$n\\text{CF}_2=\\text{CF}_2 \\rightarrow (-\\text{CF}_2-\\text{CF}_2-)_n \\quad \\text{(PTFE / Teflon)}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Polymers",
+    "question": "A copolymer of isobutylene and isoprene is called:",
+    "question_latex": "A copolymer of isobutylene and isoprene is called:",
+    "question_images": [],
+    "options": [
+      "A. Butyl rubber",
+      "B. Buna-S",
+      "C. Buna-N",
+      "D. Thiokol"
+    ],
+    "option_images": [],
+    "answer": "A. Butyl rubber",
+    "solution": "Butyl rubber is a copolymer of isobutylene ($\\text{CH}_2=\\text{C}(\\text{CH}_3)_2$) and isoprene ($\\text{CH}_2=\\text{C}(\\text{CH}_3)-\\text{CH}=\\text{CH}_2$). It is used in making inner tubes of tyres due to its low permeability to gases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Polymers",
+    "question": "Which of the following is fully fluorinated polymer? (2005)",
+    "question_latex": "Which of the following is fully fluorinated polymer? (2005)",
+    "question_images": [],
+    "options": [
+      "A. Thiokol",
+      "B. Teflon",
+      "C. PVC",
+      "D. Neoprene"
+    ],
+    "option_images": [],
+    "answer": "B. Teflon",
+    "solution": "Teflon (PTFE) is a fully fluorinated polymer with the repeating unit $[\\text{CF}_2-\\text{CF}_2]_n$. All hydrogen atoms are replaced by fluorine atoms, making it chemically inert and resistant to most chemicals. PVC has Cl substituents, Neoprene has Cl substituent, and Thiokol has sulphur in the backbone.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Polymers",
+    "question": "Which of the following does not cause pollution?",
+    "question_latex": "Which of the following does not cause pollution?",
+    "question_images": [],
+    "options": [
+      "A. Burning of rubber",
+      "B. Burning of petrol",
+      "C. Use of solar energy",
+      "D. Coal"
+    ],
+    "option_images": [],
+    "answer": "C. Use of solar energy",
+    "solution": "Solar energy is a clean and renewable source of energy. It does not produce any pollutant gases. In contrast, burning of rubber, petrol, and coal all produce pollutant gases like $\\text{CO}_2$, $\\text{SO}_2$, $\\text{CO}$, etc., which cause air pollution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Polymers",
+    "question": "Synthetic polymer which resembles natural rubber is:",
+    "question_latex": "Synthetic polymer which resembles natural rubber is:",
+    "question_images": [],
+    "options": [
+      "A. neoprene",
+      "B. chloroprene",
+      "C. glyptal",
+      "D. nylon"
+    ],
+    "option_images": [],
+    "answer": "A. neoprene",
+    "solution": "Neoprene is a synthetic polymer that resembles natural rubber. It is a polymer of chloroprene (2-chloro-1,3-butadiene), which polymerises 700 times faster than isoprene (monomer of natural rubber) and requires no specific catalyst.\n$$(-\\text{CH}_2-\\text{C}(\\text{Cl})=\\text{CH}-\\text{CH}_2-)_n \\quad \\text{(Neoprene)}$$",
+    "solution_images": [
+      "21_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Polymers",
+    "question": "Which of the following polymer is formed on reaction of 1,3-butadiene and acrylonitrile?",
+    "question_latex": "Which of the following polymer is formed on reaction of 1,3-butadiene and acrylonitrile?",
+    "question_images": [],
+    "options": [
+      "A. Buna-S",
+      "B. Buna-N",
+      "C. Neoprene",
+      "D. Dacron"
+    ],
+    "option_images": [],
+    "answer": "B. Buna-N",
+    "solution": "Buna-N (also called NBR or nitrile rubber) is obtained by copolymerisation of 1,3-butadiene ($\\text{CH}_2=\\text{CH}-\\text{CH}=\\text{CH}_2$) and acrylonitrile ($\\text{CH}_2=\\text{CH}-\\text{CN}$):\n$$n\\text{CH}_2=\\text{CH}-\\text{CH}=\\text{CH}_2 + n\\text{CH}_2=\\text{CH}-\\text{CN} \\rightarrow \\text{Buna-N}$$\nBuna-S is a copolymer of butadiene and styrene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Polymers",
+    "question": "Of the following, which is a step growth polymer?",
+    "question_latex": "Of the following, which is a step growth polymer?",
+    "question_images": [],
+    "options": [
+      "A. Bakelite",
+      "B. Polyethylene",
+      "C. Teflon",
+      "D. PVC"
+    ],
+    "option_images": [],
+    "answer": "A. Bakelite",
+    "solution": "Bakelite is a step growth (condensation) polymer. It is formed by the stepwise condensation of phenol and formaldehyde involving the reaction of functional groups. Other examples of step growth polymers include terylene and nylon. Polyethylene, Teflon, and PVC are chain growth (addition) polymers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Polymers",
+    "question": "Which one of the following statements is not true?",
+    "question_latex": "Which one of the following statements is not true?",
+    "question_images": [],
+    "options": [
+      "A. In vulcanization the formation of sulphur bridges between different chains make rubber harder and stronger.",
+      "B. Natural rubber has the trans-configuration at every double bond.",
+      "C. Buna-S is a copolymer of butadiene and styrene.",
+      "D. Natural rubber is a 1,4-polymer of isoprene."
+    ],
+    "option_images": [],
+    "answer": "B. Natural rubber has the trans-configuration at every double bond.",
+    "solution": "Natural rubber has the cis-configuration (not trans) at every double bond. It is cis-1,4-polyisoprene. The cis-configuration allows the chains to coil, giving rubber its elasticity. Gutta-percha, the trans-isomer, is hard and non-elastic. All other statements are correct.",
+    "solution_images": [
+      "24_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Polymers",
+    "question": "The monomers of Buna-S rubber are",
+    "question_latex": "The monomers of Buna-S rubber are",
+    "question_images": [],
+    "options": [
+      "A. Vinyl chloride and sulphur",
+      "B. Butadiene",
+      "C. Styrene and butadiene",
+      "D. Isoprene and butadiene"
+    ],
+    "option_images": [],
+    "answer": "C. Styrene and butadiene",
+    "solution": "Buna-S (SBR = Styrene Butadiene Rubber) is a copolymer of 75% butadiene ($\\text{CH}_2=\\text{CH}-\\text{CH}=\\text{CH}_2$) and 25% styrene ($\\text{C}_6\\text{H}_5-\\text{CH}=\\text{CH}_2$). The 'S' in Buna-S stands for Styrene.",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Polymers",
+    "question": "Polystyrene, Dacron and orlon are classified respectively as",
+    "question_latex": "Polystyrene, Dacron and orlon are classified respectively as",
+    "question_images": [],
+    "options": [
+      "A. Chain growth; step growth; step growth",
+      "B. Chain growth; chain growth; step growth",
+      "C. Chain growth; step-growth; chain growth",
+      "D. Step growth; step growth; chain growth"
+    ],
+    "option_images": [],
+    "answer": "C. Chain growth; step-growth; chain growth",
+    "solution": "Polystyrene is a chain growth (addition) polymer formed from styrene (a vinyl derivative). Dacron (Terylene) is a step growth (condensation) polymer formed from ethylene glycol and terephthalic acid. Orlon (polyacrylonitrile) is a chain growth polymer formed from acrylonitrile (a vinyl derivative).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Polymers",
+    "question": "The polymer, which can be stretched and retains its original status on releasing the force is (June 2022)",
+    "question_latex": "The polymer, which can be stretched and retains its original status on releasing the force is (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. terylene",
+      "B. nylon 6,6",
+      "C. buna-N",
+      "D. bakelite"
+    ],
+    "option_images": [],
+    "answer": "C. buna-N",
+    "solution": "Buna-N is an elastomer. In elastomeric polymers, the polymer chains are held together by the weakest intermolecular forces, which allows them to be stretched. A few cross-links are introduced between the chains that help the polymer to retract to its original position after the force is released. Other elastomers include buna-S, neoprene, etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Polymers",
+    "question": "Among the following polymers the strongest molecular forces are present in",
+    "question_latex": "Among the following polymers the strongest molecular forces are present in",
+    "question_images": [],
+    "options": [
+      "A. elastomers",
+      "B. fibres",
+      "C. thermoplastics",
+      "D. thermosetting polymers"
+    ],
+    "option_images": [],
+    "answer": "D. thermosetting polymers",
+    "solution": "Thermosetting polymers have the strongest molecular forces because they are extensively cross-linked polymers forming rigid, three-dimensional network structures. Once set, they cannot be melted or reshaped. This cross-linking gives them very strong inter- and intramolecular forces.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Polymers",
+    "question": "Nylon is manufactured from",
+    "question_latex": "Nylon is manufactured from",
+    "question_images": [],
+    "options": [
+      "A. Methyl salicylate",
+      "B. Teflon",
+      "C. Adipic acid",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "C. Adipic acid",
+    "solution": "Nylon-6,6 is a polymer of a diacid with a diamine. Adipic acid ($\\text{HOOC}(\\text{CH}_2)_4\\text{COOH}$) is one of the monomers used in its manufacture. It is condensed with hexamethylenediamine to form Nylon-6,6 with amide linkages.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Polymers",
+    "question": "Which polymer is used in the manufacture of paints and lacquers? (2015)",
+    "question_latex": "Which polymer is used in the manufacture of paints and lacquers? (2015)",
+    "question_images": [],
+    "options": [
+      "A. Bakelite",
+      "B. Polypropene",
+      "C. Polyvinyl chloride",
+      "D. Glyptal"
+    ],
+    "option_images": [],
+    "answer": "D. Glyptal",
+    "solution": "Glyptal (also called alkyd resin) is a copolymer of ethylene glycol and phthalic acid. It is used in the manufacture of paints and lacquers due to its film-forming properties and adhesion characteristics.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Polymers",
+    "question": "The polymer containing strong intermolecular forces e.g., hydrogen bonding is (2010)",
+    "question_latex": "The polymer containing strong intermolecular forces e.g., hydrogen bonding is (2010)",
+    "question_images": [],
+    "options": [
+      "A. polystyrene",
+      "B. teflon",
+      "C. nylon-6,6",
+      "D. natural rubber"
+    ],
+    "option_images": [],
+    "answer": "C. nylon-6,6",
+    "solution": "Nylon-6,6 involves amide ($-\\text{CONH}-$) linkage. Therefore, it will have very strong intermolecular hydrogen bonding between the $>\\text{NH}$ and $-\\text{OC}<$ groups of two polyamide chains. Polystyrene has only weak van der Waals forces, Teflon is non-polar, and natural rubber is a hydrocarbon.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Polymers",
+    "question": "In which of the following polymers ethylene glycol is one of the monomer units?",
+    "question_latex": "In which of the following polymers ethylene glycol is one of the monomer units?",
+    "question_images": [],
+    "options": [
+      "A. $+\\text{OCH}_2-\\text{CH}_2\\text{OOC}-\\bigcirc-\\text{CO}+_n$",
+      "B. $+\\text{CH}_2-\\text{CH}_2+_n$",
+      "C. $+\\text{CH}_2-\\text{CH}=\\text{CH}-\\text{CH}_2-\\text{CH}-\\text{CH}_2+_n$",
+      "D. $+\\text{O}-\\text{CH}-\\text{CH}_2-\\text{C}-\\text{O}-\\text{CH}-\\text{CH}_2-\\text{C}+_n$"
+    ],
+    "option_images": [
+      "32_opA_1.png",
+      "32_opB_1.png",
+      "32_opC_1.png",
+      "32_opD_1.png"
+    ],
+    "answer": "A. $+\\text{OCH}_2-\\text{CH}_2\\text{OOC}-\\bigcirc-\\text{CO}+_n$",
+    "solution": "The polymer in option (A) is Dacron (Terylene), which contains the repeating unit $-\\text{OCH}_2-\\text{CH}_2-\\text{OOC}-\\bigcirc-\\text{CO}-$. This is formed from ethylene glycol ($\\text{HOCH}_2\\text{CH}_2\\text{OH}$) and terephthalic acid. The $-\\text{OCH}_2-\\text{CH}_2-\\text{O}-$ part comes from ethylene glycol.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Polymers",
+    "question": "Teflon, polystyrene and neoprene are all:",
+    "question_latex": "Teflon, polystyrene and neoprene are all:",
+    "question_images": [],
+    "options": [
+      "A. Copolymers",
+      "B. Condensation polymers",
+      "C. Homopolymers",
+      "D. Monomers"
+    ],
+    "option_images": [],
+    "answer": "C. Homopolymers",
+    "solution": "All three are homopolymers:\n- Teflon: polymer of $\\text{CF}_2=\\text{CF}_2$ (tetrafluoroethylene)\n- Polystyrene: polymer of $\\text{C}_6\\text{H}_5-\\text{CH}=\\text{CH}_2$ (styrene)\n- Neoprene: polymer of $\\text{CH}_2=\\text{CCl}-\\text{CH}=\\text{CH}_2$ (chloroprene)\nEach is derived from a single type of monomer.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Polymers",
+    "question": "Glyptal or alkyd is polymer of:",
+    "question_latex": "Glyptal or alkyd is polymer of:",
+    "question_images": [],
+    "options": [
+      "A. Ethylene glycol and phthalic acid",
+      "B. Ethylene and phthalic acid",
+      "C. Phthalic acid and acetylene",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Ethylene glycol and phthalic acid",
+    "solution": "Glyptal (alkyd resin) is a copolymer of ethylene glycol ($\\text{HOCH}_2-\\text{CH}_2\\text{OH}$) and phthalic acid. It is a polyester used in paints, varnishes, and lacquers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Polymers",
+    "question": "Which of the following is wrong?",
+    "question_latex": "Which of the following is wrong?",
+    "question_images": [],
+    "options": [
+      "A. PMMA is called plexiglass",
+      "B. PTFE is called Teflon",
+      "C. SBR is called natural rubber",
+      "D. LDPE is called low density polyethylene"
+    ],
+    "option_images": [],
+    "answer": "C. SBR is called natural rubber",
+    "solution": "SBR (Styrene Butadiene Rubber), also known as Buna-S, is a synthetic rubber. It is not natural rubber. Natural rubber is cis-polyisoprene obtained from the latex of Hevea brasiliensis trees. All other statements are correct: PMMA is plexiglass, PTFE is Teflon, and LDPE is low density polyethylene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Polymers",
+    "question": "The strongest molecular forces are present in",
+    "question_latex": "The strongest molecular forces are present in",
+    "question_images": [],
+    "options": [
+      "A. Elastomers",
+      "B. Thermoplastics",
+      "C. Fibres",
+      "D. thermosetting polymers"
+    ],
+    "option_images": [],
+    "answer": "D. thermosetting polymers",
+    "solution": "Due to the presence of extensive cross-linking, thermosetting polymers have the strongest molecular forces. They form rigid, infusible, three-dimensional network structures. Once set (cured), they cannot be softened or reshaped by heating.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Polymers",
+    "question": "Which one of the following polymers is not obtained by condensation polymerisation? (Sept 2020)",
+    "question_latex": "Which one of the following polymers is not obtained by condensation polymerisation? (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. Bakelite",
+      "B. Buna-N",
+      "C. Nylon 6",
+      "D. Nylon 6,6"
+    ],
+    "option_images": [],
+    "answer": "B. Buna-N",
+    "solution": "Buna-N is not obtained by condensation polymerisation. It is obtained by copolymerisation (addition polymerisation) of 1,3-butadiene and acrylonitrile monomers in the presence of a peroxide catalyst:\n$$n\\text{CH}_2=\\text{CH}-\\text{CH}=\\text{CH}_2 + n\\text{CH}_2=\\overset{|}{\\underset{\\text{CN}}{\\text{CH}}} \\rightarrow (-\\text{CH}_2-\\text{CH}=\\text{CH}-\\text{CH}_2-\\text{CH}_2-\\overset{|}{\\underset{\\text{CN}}{\\text{CH}}}-)_n \\quad \\text{(Buna-N)}$$\nBakelite, Nylon-6, and Nylon-6,6 are all condensation polymers.",
+    "solution_images": [
+      "37_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Polymers",
+    "question": "Which of the following is an inert polymer used in coating, particularly in non-sticking frying pans?",
+    "question_latex": "Which of the following is an inert polymer used in coating, particularly in non-sticking frying pans?",
+    "question_images": [],
+    "options": [
+      "A. Teflon",
+      "B. Perspex",
+      "C. Bakelite",
+      "D. Orlon"
+    ],
+    "option_images": [],
+    "answer": "A. Teflon",
+    "solution": "Teflon (PTFE = polytetrafluoroethylene) is a chemically inert polymer used in coating of non-stick frying pans. Its high chemical resistance and low surface friction make it ideal for this purpose. It is also used in electrical insulation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Polymers",
+    "question": "Bakelite is obtained from phenol by reaction with (2008)",
+    "question_latex": "Bakelite is obtained from phenol by reaction with (2008)",
+    "question_images": [],
+    "options": [
+      "A. HCHO",
+      "B. $(\\text{CH}_2\\text{OH})_2$",
+      "C. $\\text{CH}_3\\text{COCH}_3$",
+      "D. $\\text{CH}_3\\text{CHO}$"
+    ],
+    "option_images": [],
+    "answer": "A. HCHO",
+    "solution": "Bakelite is prepared by the condensation polymerisation of phenol ($\\text{C}_6\\text{H}_5\\text{OH}$) with formaldehyde (HCHO) in the presence of an acid or base catalyst. First Novolac is formed, which is then cross-linked with more HCHO on heating to form Bakelite.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Polymers",
+    "question": "Which of the following is a thermosetting polymer? (April 2019)",
+    "question_latex": "Which of the following is a thermosetting polymer? (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. Bakelite",
+      "B. Nylon 6",
+      "C. PVC",
+      "D. Buna-N"
+    ],
+    "option_images": [],
+    "answer": "A. Bakelite",
+    "solution": "Bakelite is a thermosetting polymer. It is a cross-linked, three-dimensional network polymer of phenol and formaldehyde. Once set by heat and pressure, it cannot be remoulded. Nylon-6, PVC, and Buna-N are thermoplastic polymers (or elastomers in case of Buna-N).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Polymers",
+    "question": "Which is not a polyacrylate?",
+    "question_latex": "Which is not a polyacrylate?",
+    "question_images": [],
+    "options": [
+      "A. PMMA",
+      "B. Acrilan",
+      "C. Poly acrylonitrile",
+      "D. PCTFE"
+    ],
+    "option_images": [],
+    "answer": "D. PCTFE",
+    "solution": "PCTFE (poly monochloro tetrafluoro ethylene), with repeating unit $+\\text{ClFC}-\\text{CF}_2+_n$, is not a polyacrylate. It is a fluoropolymer. PMMA (polymethyl methacrylate), Acrilan, and polyacrylonitrile are all polyacrylates derived from acrylic acid or its derivatives.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Polymers",
+    "question": "Which of the following is not an addition polymer?",
+    "question_latex": "Which of the following is not an addition polymer?",
+    "question_images": [],
+    "options": [
+      "A. Neoprene",
+      "B. Polystyrene",
+      "C. Terylene",
+      "D. Polyethylene"
+    ],
+    "option_images": [],
+    "answer": "C. Terylene",
+    "solution": "Terylene (Dacron) is not an addition polymer. It is a condensation polymer formed by the reaction of terephthalic acid and ethylene glycol with elimination of water:\n$$n\\text{HO}-\\text{C}(=\\text{O})-\\bigcirc-\\text{C}(=\\text{O})-\\text{OH} + n\\text{HO}-\\text{CH}_2-\\text{CH}_2-\\text{OH} \\rightarrow \\text{Terylene} + n\\text{H}_2\\text{O}$$\nNeoprene, polystyrene, and polyethylene are all addition (chain growth) polymers.",
+    "solution_images": [
+      "42_so_1.png",
+      "42_so_2.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Polymers",
+    "question": "Assertion: In vulcanisation of rubber, sulphur cross links are introduced. Reason: Vulcanisation is a free radical initiated chain reaction.",
+    "question_latex": "Assertion: In vulcanisation of rubber, sulphur cross links are introduced. Reason: Vulcanisation is a free radical initiated chain reaction.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+      "C. Assertion is correct, reason is incorrect.",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+    "solution": "Vulcanisation is the process of treating natural rubber with sulphur or sulphur compounds under heat to introduce sulphur cross-links between polymer chains. This gives mechanical strength to the rubber (Assertion is correct). However, vulcanisation is not a free radical initiated chain reaction – it involves formation of polysulphide cross-links between polymer chains. The Reason is correct as a statement but it is not the correct explanation for the Assertion.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Polymers",
+    "question": "Which of the following is an elastomer?",
+    "question_latex": "Which of the following is an elastomer?",
+    "question_images": [],
+    "options": [
+      "A. Vulcanised rubber",
+      "B. Dacron",
+      "C. Polystyrene",
+      "D. Melamine"
+    ],
+    "option_images": [],
+    "answer": "A. Vulcanised rubber",
+    "solution": "Among the given options, only vulcanised rubber has elastic character, so it is an elastomer. Elastomers can be stretched to a large extent under low stress and return to their original shape when the stress is removed. Dacron is a fibre, polystyrene is a thermoplastic, and melamine is a thermosetting polymer.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Polymers",
+    "question": "Which of the following is commonly called a polyamide?",
+    "question_latex": "Which of the following is commonly called a polyamide?",
+    "question_images": [],
+    "options": [
+      "A. Rayon",
+      "B. Nylon-6,6",
+      "C. Terylene",
+      "D. Orlon"
+    ],
+    "option_images": [],
+    "answer": "B. Nylon-6,6",
+    "solution": "Nylon-6,6 is a polyamide because it contains amide ($-\\text{CONH}-$) linkages in its backbone:\n$$\\left[-\\text{NH}-(\\text{CH}_2)_6-\\text{NH}-\\overset{\\|}{\\text{C}}-(\\text{CH}_2)_4-\\overset{\\|}{\\text{C}}-\\right]_n$$\nRayon is a semisynthetic polymer derived from cellulose. Terylene is a polyester, and Orlon is a polyacrylate.",
+    "solution_images": [
+      "45_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Polymers",
+    "question": "Monomers are converted to polymer by",
+    "question_latex": "Monomers are converted to polymer by",
+    "question_images": [],
+    "options": [
+      "A. Hydrolysis of monomers",
+      "B. Condensation reaction between monomers",
+      "C. Protonation of monomers",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Condensation reaction between monomers",
+    "solution": "Monomers are converted to polymers by polymerisation reactions, which include condensation polymerisation (step growth) and addition polymerisation (chain growth). In condensation polymerisation, monomers with functional groups react with each other with elimination of small molecules like water. In addition polymerisation, unsaturated monomers add to each other.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Polymers",
+    "question": "The S in Buna-S refers to",
+    "question_latex": "The S in Buna-S refers to",
+    "question_images": [],
+    "options": [
+      "A. Sulphur",
+      "B. Styrene",
+      "C. Sodium",
+      "D. Just a trade name"
+    ],
+    "option_images": [],
+    "answer": "B. Styrene",
+    "solution": "In Buna-S, 'Bu' stands for Butadiene, 'na' stands for Natrium (sodium, referring to the sodium catalyst used in its polymerisation), and 'S' stands for Styrene, the comonomer. Buna-S is thus a copolymer of Butadiene and Styrene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Polymers",
+    "question": "Soft drinks and baby feeding bottles are generally made up of",
+    "question_latex": "Soft drinks and baby feeding bottles are generally made up of",
+    "question_images": [],
+    "options": [
+      "A. Polystyrene",
+      "B. Polyurethane",
+      "C. Polyurea",
+      "D. Polyamide"
+    ],
+    "option_images": [],
+    "answer": "A. Polystyrene",
+    "solution": "Soft drink cups and baby feeding bottles are generally made of polystyrene (PS). Polystyrene is a rigid, transparent thermoplastic that is easy to mould and is safe for food contact applications. Expanded polystyrene is used in disposable cups.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Polymers",
+    "question": "The intermediate never formed during chain growth polymerization is",
+    "question_latex": "The intermediate never formed during chain growth polymerization is",
+    "question_images": [],
+    "options": [
+      "A. Free radical",
+      "B. Carbocation",
+      "C. Carbene",
+      "D. Carbanion"
+    ],
+    "option_images": [
+      "49_opA_1.png",
+      "49_opB_1.png",
+      "49_opC_1.png",
+      "49_opD_1.png"
+    ],
+    "answer": "C. Carbene",
+    "solution": "Carbenes ($>C:$) are divalent carbon intermediates and are never produced during chain growth polymerisation. Chain growth polymerisation can proceed via free radical ($-\\overset{\\bullet}{\\text{C}}<$), carbocation ($-\\overset{+}{\\text{C}}<$), or carbanion ($-\\overset{-}{\\text{C}}<$) intermediates, but not carbenes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Polymers",
+    "question": "The repeating unit present in Nylon 6 is",
+    "question_latex": "The repeating unit present in Nylon 6 is",
+    "question_images": [],
+    "options": [
+      "A. $-[\\text{NH}(\\text{CH}_2)_6\\text{NHCO}(\\text{CH}_2)_4\\text{CO}]-$",
+      "B. $-[\\text{CO}(\\text{CH}_2)_5\\text{NH}]-$",
+      "C. $-[\\text{CO}(\\text{CH}_2)_6\\text{NH}]-$",
+      "D. $-[\\text{CO}(\\text{CH}_2)_4\\text{NH}]-$"
+    ],
+    "option_images": [],
+    "answer": "B. $-[\\text{CO}(\\text{CH}_2)_5\\text{NH}]-$",
+    "solution": "Nylon-6 is formed by the ring-opening polymerisation of caprolactam (a 7-membered ring containing 6 carbons). The repeating unit is:\n$$-\\left(\\text{NH}-(\\text{CH}_2)_5-\\overset{\\|}{\\text{C}}-\\text{NH}-(\\text{CH}_2)_5-\\overset{\\|}{\\text{C}}-\\right)_n$$\nThis can be written as $-[\\text{CO}(\\text{CH}_2)_5\\text{NH}]_n-$. Option (A) is the repeating unit of Nylon-6,6.",
+    "solution_images": [
+      "50_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

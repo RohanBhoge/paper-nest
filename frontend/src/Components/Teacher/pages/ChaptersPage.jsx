@@ -62,9 +62,9 @@ const ChaptersPage = () => {
   const [examName, setExamName] = useState(selectedExam || "");
 
   const [totalMarks, setTotalMarks] = useState("");
+  const [serverError, setServerError] = useState(null);
 
   const [showTemplate, setShowTemplate] = useState(false);
-  const [savedOnce, setSavedOnce] = useState(false);
   const [formErrors, setFormErrors] = useState({}); // 💡 Industry-standard validation state
   const {
     setBackendPaperData,
@@ -75,6 +75,7 @@ const ChaptersPage = () => {
     setExamDuration,
     setPaperData,
     marks,
+    setShowGenerateOptions, // 💡 Clear print options view upon new generation
   } = useContext(PaperContext);
 
   // const { paperData, setPaperData,marks,
@@ -185,10 +186,6 @@ const ChaptersPage = () => {
   // 💡 CORRECTED: Wrapped API call and state updates in useCallback
   const handleGenerateAndSave = useCallback(async () => {
     if (isGenerating) return;
-    if (savedOnce) {
-      setShowTemplate(true);
-      return;
-    }
 
     // ✅ Industry-Standard Form Validation
     const newErrors = {};
@@ -247,6 +244,7 @@ const ChaptersPage = () => {
     setFormErrors({}); // Clear errors if entirely valid
     setIsGenerating(true);
     setBackendPaperData(null); // Clear previous data
+    setServerError(null); // Clear previous server errors
 
     const chaptersArray = Object.keys(checkedChapters || {})
       .filter((key) => checkedChapters[key])
@@ -283,20 +281,23 @@ const ChaptersPage = () => {
       // 💡 CRITICAL: Set the backend data immediately after a successful response
       setBackendPaperData(generatedData);
     } catch (error) {
-      console.error(
-        "API Error during paper generation:",
-        error.response?.data || error.message
-      );
-      alert(
-        `Failed to generate paper: ${error.response?.data?.message || "Check console for details."
-        }`
-      );
+      console.error("Paper Generation Error:", error);
+      const errorMsg = error.response?.data?.message || error.message || "An unexpected error occurred.";
+
+      if (error.response?.status === 404) {
+        setServerError(`No questions found: ${errorMsg}. Try selecting more chapters or different difficulty levels.`);
+      } else {
+        setServerError(errorMsg);
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       setIsGenerating(false);
       return;
     }
 
     // 💡 IMMEDIATE UI UNBLOCK: Transition to template view instantly
-    setSavedOnce(true);
+    if (typeof setShowGenerateOptions === "function") {
+      setShowGenerateOptions(false); // Reset template to default view (Save/Replace)
+    }
     setShowTemplate(true);
     setIsGenerating(false);
 
@@ -367,7 +368,6 @@ const ChaptersPage = () => {
       }
     }, 100);
   }, [
-    savedOnce,
     isGenerating,
     className,
     examName,
@@ -380,6 +380,7 @@ const ChaptersPage = () => {
     adminAuthToken,
     BackendUrl,
     setPaperData,
+    setShowGenerateOptions,
   ]);
 
   const handleQuestionCountChange = (e) => {
@@ -405,6 +406,21 @@ const ChaptersPage = () => {
           >
             <ArrowLeft size={16} /> Back to Subjects
           </button>
+          <div className="flex justify-between items-center mb-8">
+            <h1 className="text-3xl font-bold text-blue-900">Generate Question Paper</h1>
+          </div>
+
+          {serverError && (
+            <div className="mb-6 p-4 bg-red-100 border-l-4 border-red-500 text-red-700 rounded shadow-md animate-pulse">
+              <div className="flex items-center">
+                <span className="font-bold mr-2">Error:</span>
+                <span>{serverError}</span>
+              </div>
+              <p className="mt-2 text-sm italic">
+                Tip: Ensure your chapter selections have enough questions for the requested criteria.
+              </p>
+            </div>
+          )}
           <div className="mb-4">
             <h1 className="text-3xl font-bold text-slate-900 mb-1">
               {selectedSubject}

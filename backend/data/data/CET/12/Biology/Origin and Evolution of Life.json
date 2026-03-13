@@ -1,0 +1,1916 @@
+[
+  {
+    "id": 1,
+    "chapter": "Origin and Evolution of Life",
+    "question": "According to J.B.S. Haldane, the 'hot dilute soup' is made up of ____  [MHT-CET 2024]",
+    "question_latex": "According to J.B.S. Haldane, the 'hot dilute soup' is made up of ____  [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. colloidal aggregation of hydrophobic proteins",
+      "B. colloidal hydrophilic complex of protein surrounded by water molecules",
+      "C. proteins showing enzymatic reaction",
+      "D. simple organic molecules at the bottom of water bodies"
+    ],
+    "option_images": [],
+    "answer": "D. simple organic molecules at the bottom of water bodies",
+    "solution": "According to J.B.S. Haldane, the 'hot dilute soup' is made up of simple organic molecules at the bottom of water bodies.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following is NOT the main postulate of Darwinism? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is NOT the main postulate of Darwinism? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Arrival of the fittest",
+      "B. Struggle for existence",
+      "C. Prodigality",
+      "D. Organic variation"
+    ],
+    "option_images": [],
+    "answer": "A. Arrival of the fittest",
+    "solution": "Darwin explained survival of fittest but was not able to explain Arrival of the fittest.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which is the correct sequence in evolutionary history of man from ancient to recent epochs? [MHT-CET 2023]",
+    "question_latex": "Which is the correct sequence in evolutionary history of man from ancient to recent epochs? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Ramapithecus → Dryopithecus → Homo habilis → Homo erectus → Neanderthal man",
+      "B. Dryopithecus → Ramapithecus → Homo erectus → Homo habilis → Neanderthal man",
+      "C. Ramapithecus → Dryopithecus → Homo erectus → Homo habilis → Neanderthal man",
+      "D. Dryopithecus → Ramapithecus → Homo habilis → Homo habilis → Neanderthal man"
+    ],
+    "option_images": [],
+    "answer": "D. Dryopithecus → Ramapithecus → Homo habilis → Homo habilis → Neanderthal man",
+    "solution": "Correct sequence in evolutionary history of man from ancient to recent epochs is: Dryopithecus → Ramapithecus → Homo habilis → Homo habilis → Neanderthal man → Modern man.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one is linked to evolution?",
+    "question_latex": "Which one is linked to evolution?",
+    "question_images": [],
+    "options": [
+      "A. Extinction",
+      "B. Competition",
+      "C. Variation",
+      "D. Reproduction"
+    ],
+    "option_images": [],
+    "answer": "C. Variation",
+    "solution": "Without variations, changes could not occur and there will be no possibility of evolution. Certain variations, which once appeared in the parent generation, continue to appear in the progeny generation after generation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Select the INCORRECT statement with respect to vestigial organs. [MHT-CET 2023]",
+    "question_latex": "Select the INCORRECT statement with respect to vestigial organs. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Presence of vestigial organs provide evidence that man has evolved",
+      "B. They are also called as rudimentary organs",
+      "C. They are well developed",
+      "D. Presence of nictitating membrane in human is one example"
+    ],
+    "option_images": [],
+    "answer": "C. They are well developed",
+    "solution": "Vestigial organs are imperfectly developed and non-functional, degenerate structures which were functional in some related and other animals or in ancestors.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following is NOT a common character of apes and human beings?",
+    "question_latex": "Which one of the following is NOT a common character of apes and human beings?",
+    "question_images": [],
+    "options": [
+      "A. Menstrual cycle in females",
+      "B. Absence of tail",
+      "C. Flattened sternum",
+      "D. Forelimbs shorter than hind limbs"
+    ],
+    "option_images": [],
+    "answer": "D. Forelimbs shorter than hind limbs",
+    "solution": "In apes, forelimbs are longer than hind limbs so they almost touch the ground when they walk. In man, hind limbs are longer than fore limbs, helping in maintaining erect posture.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Origin and Evolution of Life",
+    "question": "In which era, life was absent?",
+    "question_latex": "In which era, life was absent?",
+    "question_images": [],
+    "options": [
+      "A. Archaeozoic",
+      "B. Palaeozoic",
+      "C. Proterozoic",
+      "D. Azoic"
+    ],
+    "option_images": [],
+    "answer": "D. Azoic",
+    "solution": "The period of approximately 0.6 billion years that existed between the formation of the gaseous clouds (about 4.6 billion years ago) and the formation of earth's crust is called Azoic era, during which no life existed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Match Column - I with Column - II and select the correct option.",
+    "question_latex": "Match Column - I with Column - II and select the correct option.",
+    "question_images": [
+      "q8_1"
+    ],
+    "options": [
+      "A. (a)-(iv); (b)-(i); (c)-(ii); (d)-(iii)",
+      "B. (a)-(iii); (b)-(ii); (c)-(iv); (d)-(i)",
+      "C. (a)-(i); (b)-(iii); (c)-(ii); (d)-(iv)",
+      "D. (a)-(iv); (b)-(ii); (c)-(iii); (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(iv); (b)-(i); (c)-(ii); (d)-(iii)",
+    "solution": "Seymouria is connecting link between amphibians and Reptiles. Ichthyostega is connecting link between fish and amphibian. Archaeopteryx is connecting link between reptiles and birds. Australopithecus is connecting link between Ape and Man.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Foot prints are ____ type of fossils. [MHT-CET 2023]",
+    "question_latex": "Foot prints are \\_\\_\\_\\_ type of fossils. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Compression",
+      "B. Actual remains",
+      "C. Cast",
+      "D. Moulds"
+    ],
+    "option_images": [],
+    "answer": "D. Moulds",
+    "solution": "Moulds are hardened encasements formed in outer parts of organic remains.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Observe the following diagram and select the correct chromosomal aberration from the list given below. ABCDE FGH → MNOCDE FGH [MHT-CET 2024]",
+    "question_latex": "Observe the following diagram and select the correct chromosomal aberration from the list given below. $ABCDE\\ FGH \\rightarrow MNOCDE\\ FGH$ [MHT-CET 2024]",
+    "question_images": [
+      "10_qu_1.png"
+    ],
+    "options": [
+      "A. Duplication",
+      "B. Translocation",
+      "C. Deletion",
+      "D. Inversion"
+    ],
+    "option_images": [],
+    "answer": "B. Translocation",
+    "solution": "Translocation is the transfer (transposition) of a part of a chromosome or a set of genes to a non-homologous chromosome. It is effected naturally by the transposons present in the cell.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Identify the correct sequence of epochs from ancient to recent in geological time scale. Holocene = p, Pleistocene = q, Pliocene = r, Miocene = s, Oligocene = t. [MHT-CET 2024]",
+    "question_latex": "Identify the correct sequence of epochs from ancient to recent in geological time scale. Holocene $= p$, Pleistocene $= q$, Pliocene $= r$, Miocene $= s$, Oligocene $= t$. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. t → s → q → r → p",
+      "B. p → q → s → t → r",
+      "C. p → q → r → t → s",
+      "D. t → s → r → q → p"
+    ],
+    "option_images": [],
+    "answer": "D. t → s → r → q → p",
+    "solution": "Oligocene → Miocene → Pliocene → Pleistocene → Holocene is the correct sequence of epochs from ancient to recent in geological time scale.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Seymouria is a connecting link between __________ [MHT-CET 2017]",
+    "question_latex": "Seymouria is a connecting link between \\_\\_\\_\\_\\_\\_ [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Aves and mammals",
+      "B. Amphibians and Reptiles",
+      "C. Pisces and Amphibians",
+      "D. Reptiles and Aves"
+    ],
+    "option_images": [],
+    "answer": "B. Amphibians and Reptiles",
+    "solution": "Seymouria is a connecting link between Amphibians and Reptiles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Every cell of the body contributes gemmules to the germ cells and so shares in the transmission of inherited characters. This theory is known as",
+    "question_latex": "Every cell of the body contributes gemmules to the germ cells and so shares in the transmission of inherited characters. This theory is known as",
+    "question_images": [],
+    "options": [
+      "A. Theory of inheritance of acquired characters",
+      "B. Theory of germplasm",
+      "C. Theory of pangenesis",
+      "D. Theory of mutation"
+    ],
+    "option_images": [],
+    "answer": "C. Theory of pangenesis",
+    "solution": "Charles Darwin (1809-1882) tried to suggest the physical basis of heredity by pangenesis theory and suggested that every cell of the body contributes gemmules to the germ cells and so shares in the transmission of inherited characters.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Fossilized faecal material of animals are known as",
+    "question_latex": "Fossilized faecal material of animals are known as",
+    "question_images": [],
+    "options": [
+      "A. Coprolites",
+      "B. Compressions",
+      "C. Moulds",
+      "D. Casts"
+    ],
+    "option_images": [],
+    "answer": "A. Coprolites",
+    "solution": "Coprolite is a scientific name for the fossilized excrement, faeces or droppings of ancient animals. It was coined by Dr. William Buckland (1829).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Connecting link between amphibians and reptiles is ____ [MHT-CET 2024]",
+    "question_latex": "Connecting link between amphibians and reptiles is \\_\\_\\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Coelacanth",
+      "B. Seymouria",
+      "C. Archaeopteryx",
+      "D. Cichlid fishes"
+    ],
+    "option_images": [],
+    "answer": "B. Seymouria",
+    "solution": "Connecting links (missing links) are fossil forms transitional or intermediate between two groups of organisms. Seymouria is the connecting link between amphibians and reptiles, and Archaeopteryx is the connecting link between reptiles and birds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Origin and Evolution of Life",
+    "question": "One of the following statements is INCORRECT regarding graphical representation of type of natural selection shown below. [MHT-CET 2023]",
+    "question_latex": "One of the following statements is INCORRECT regarding graphical representation of type of natural selection shown below. [MHT-CET 2023]",
+    "question_images": [
+      "16_qu_1.png"
+    ],
+    "options": [
+      "A. It represents genetically stabilizing selection where population is adapted to its environment",
+      "B. It results in an evolutionary trend within a population",
+      "C. One of the extremes of phenotypic range is eliminated",
+      "D. In this type more individuals acquired value other than the mean character value"
+    ],
+    "option_images": [],
+    "answer": "A. It represents genetically stabilizing selection where population is adapted to its environment",
+    "solution": "The graph shown is an example of directional selection, not stabilizing selection. It represents genetically directional selection where one extreme of the phenotypic range is eliminated.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Origin and Evolution of Life",
+    "question": "When members of a population attain sexual maturity at different times preventing inter-breeding, it is termed as __________ isolation. [MHT-CET 2017]",
+    "question_latex": "When members of a population attain sexual maturity at different times preventing inter-breeding, it is termed as \\_\\_\\_\\_\\_\\_ isolation. [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Seasonal",
+      "B. Mechanical",
+      "C. Habitat",
+      "D. Ethological"
+    ],
+    "option_images": [],
+    "answer": "A. Seasonal",
+    "solution": "When members of a population attain sexual maturity at different times preventing inter-breeding, it is termed as Seasonal isolation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Complete the analogy with respect to classification of mammals. Hyalobatidae : Gibbons : : Pongidae : _____ [MHT-CET 2024]",
+    "question_latex": "Complete the analogy with respect to classification of mammals. Hyalobatidae : Gibbons :: Pongidae : \\_\\_\\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. arboreal apes",
+      "B. baboons",
+      "C. macaques",
+      "D. Chimpanzees"
+    ],
+    "option_images": [],
+    "answer": "D. Chimpanzees",
+    "solution": "Pongidae includes semi-arboreal apes, Gorilla, Chimpanzee, and Orangutan.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The diagram represents Miller's experiment. Choose the correct combination of labelling.",
+    "question_latex": "The diagram represents Miller's experiment. Choose the correct combination of labelling.",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. A-Electrodes B-NH3+H2+H2O+CH4 C-Cold water D-Vacuum E-U-trap",
+      "B. A-Electrodes B-NH4+H2+CO2+CH3 C-Hot water D-Vacuum E-U-trap",
+      "C. A-Electrodes B-NH3+H2O C-Steam D-U-trap E-Vacuum",
+      "D. A-Electrodes B-NH3+H2+H2O+CH4 C-Steam D-Vacuum E-U-trap"
+    ],
+    "option_images": [],
+    "answer": "A. A-Electrodes B-NH3+H2+H2O+CH4 C-Cold water D-Vacuum E-U-trap",
+    "solution": "The correct combination of labelling is: A-Electrodes, $B - NH_3 + H_2 + H_2O + CH_4$, C-Cold water, D-Vacuum, E-U-trap.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Tarsiers show presence of claws on _____ toes of their hind limbs.",
+    "question_latex": "Tarsiers show presence of claws on \\_\\_\\_\\_ toes of their hind limbs.",
+    "question_images": [],
+    "options": [
+      "A. First and second",
+      "B. Fourth and fifth",
+      "C. Second and third",
+      "D. Third and fourth"
+    ],
+    "option_images": [],
+    "answer": "C. Second and third",
+    "solution": "Tarsiers show claws on their 2nd and 3rd toes of their hind limb. Lemurs have five divergent digits with nails, claws on second toes and use it for scratching and grooming.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Primitive man was originated during [MHT-CET 2006]",
+    "question_latex": "Primitive man was originated during [MHT-CET 2006]",
+    "question_images": [],
+    "options": [
+      "A. Miocene",
+      "B. Holocene",
+      "C. Pleistocene",
+      "D. Pliocene"
+    ],
+    "option_images": [],
+    "answer": "C. Pleistocene",
+    "solution": "Primitive man was originated during Pleistocene epoch.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Urey-Miller's experiment mixture had the following except",
+    "question_latex": "Urey-Miller's experiment mixture had the following except",
+    "question_images": [],
+    "options": [
+      "A. Methane",
+      "B. CO2",
+      "C. Hydrogen",
+      "D. Water vapour"
+    ],
+    "option_images": [],
+    "answer": "B. CO2",
+    "solution": "In 1953, Stanley Miller and Harold Urey synthesized amino acids by passing an electric discharge in a mixture of methane ($CH_4$), ammonia ($NH_3$), hydrogen ($H_2$) and water vapours ($H_2O$). Carbon dioxide ($CO_2$) was not present in the Urey-Miller experiment mixture.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The correct match of columns A, B and C is [MHT-CET 2016]\nColumn A: i) Coenozoic, ii) Palaeozoic, iii) Mesozoic, iv) Proterozoic\nColumn B: 2-65 mya, 500-165 mya, 135-225 mya, 350-500 mya\nColumn C: Origin of vertebrates, Rise of egg laying mammals, Reptiles dominant, Trilobites dominant",
+    "question_latex": "The correct match of columns A, B and C is [MHT-CET 2016]",
+    "question_images": [
+      "q23_1"
+    ],
+    "options": [
+      "A. i",
+      "B. ii",
+      "C. iii",
+      "D. iv"
+    ],
+    "option_images": [],
+    "answer": "C. iii",
+    "solution": "The correct match is option iii: Mesozoic era (135-225 mya) with Reptiles dominant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Earth is presumed to have originated about _____ billion years ago.",
+    "question_latex": "Earth is presumed to have originated about \\_\\_\\_\\_ billion years ago.",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4.6",
+      "C. 3.6",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "B. 4.6",
+    "solution": "A single huge titanic explosion originated the universe 20 billion years ago. Earth is one of the planets in the solar system presumed to be originated about 4.6 billion years ago.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which animal was very conspicuously visible on the tree trunks after industrial revolution (1845) in Great Britain?",
+    "question_latex": "Which animal was very conspicuously visible on the tree trunks after industrial revolution (1845) in Great Britain?",
+    "question_images": [],
+    "options": [
+      "A. Bonellia viridis",
+      "B. Biston betularia",
+      "C. Drosophila melanogaster",
+      "D. Biston carbonaria"
+    ],
+    "option_images": [],
+    "answer": "B. Biston betularia",
+    "solution": "Darwin studied on the Biston betularia (Black pepper moth) seen on tree trunks of England forests (1845) showing two varieties. Natural selection plays an important role in evolution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Sewall Wright effect is _______ [MHT-CET 2020]",
+    "question_latex": "Sewall Wright effect is \\_\\_\\_\\_\\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Transfer of genes between populations",
+      "B. Exchange of genetic material between communities",
+      "C. Changes in chemical makeup of a gene",
+      "D. Any alteration in allele frequency of a natural population by pure chance"
+    ],
+    "option_images": [],
+    "answer": "D. Any alteration in allele frequency of a natural population by pure chance",
+    "solution": "Sewall Wright effect refers to cumulative changes in gene frequencies that arise from random birth, death, segregation purely by chance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Neo-Darwinism is [MHT-CET 2004]",
+    "question_latex": "Neo-Darwinism is [MHT-CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. Natural selection theory",
+      "B. Modern mutation theory",
+      "C. Modern synthesis theory",
+      "D. Population theory"
+    ],
+    "option_images": [],
+    "answer": "C. Modern synthesis theory",
+    "solution": "Neo-Darwinism has emerged out as the modern synthetic theory of evolution. It was designated by Huxley (1942). Neo-Darwinism is a refinement of original theory of natural selection to remove objections. According to this, both mutations and natural selection are responsible for evolution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following is NOT a character of disruptive natural selection? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is NOT a character of disruptive natural selection? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. It tends to favor the intermediate forms",
+      "B. More number of individuals acquire peripheral value at ends of distribution curve",
+      "C. Nature selects extreme phenotypes",
+      "D. Two peaks are formed in distribution of traits"
+    ],
+    "option_images": [],
+    "answer": "A. It tends to favor the intermediate forms",
+    "solution": "In disruptive selection, nature selects extreme phenotypes and eliminates the intermediate. Hence two peaks are formed in distribution of traits.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following is the most primitive ancestor of man?",
+    "question_latex": "Which of the following is the most primitive ancestor of man?",
+    "question_images": [],
+    "options": [
+      "A. Homo neanderthalensis",
+      "B. Homo habilis",
+      "C. Ramapithecus",
+      "D. Australopithecus"
+    ],
+    "option_images": [],
+    "answer": "C. Ramapithecus",
+    "solution": "In the given options, Ramapithecus is the most primitive ancestor of man. Edward Lewis (1932) obtained fossil of Ramapithecus from Pliocene rocks of Shivalik hills of India. Ramapithecus survived about 14-15 million years ago during late Miocene to Pliocene and became extinct about 7-8 million years back.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Earthquakes may cause elimination of a particular allele leading to change in its frequency of a population. This is an example of [2022]",
+    "question_latex": "Earthquakes may cause elimination of a particular allele leading to change in its frequency of a population. This is an example of [2022]",
+    "question_images": [],
+    "options": [
+      "A. gene mutation",
+      "B. gene flow",
+      "C. gene recombination",
+      "D. genetic drift"
+    ],
+    "option_images": [],
+    "answer": "D. genetic drift",
+    "solution": "Earthquakes causing elimination of a particular allele leading to random change in allele frequency in a population is an example of genetic drift.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following experiment suggested that simplest living organisms could not have originated spontaneously from non-living matter?",
+    "question_latex": "Which of the following experiment suggested that simplest living organisms could not have originated spontaneously from non-living matter?",
+    "question_images": [],
+    "options": [
+      "A. Microbes did not appear in stored meat",
+      "B. Larvae could appear in decaying organic matter",
+      "C. Microbes appeared from unsterilized organic matter",
+      "D. Meat was not spoiled, when heated and kept sealed in a vessel"
+    ],
+    "option_images": [],
+    "answer": "D. Meat was not spoiled, when heated and kept sealed in a vessel",
+    "solution": "Meat was not spoiled when heated and kept sealed in a vessel. This experiment suggested that simplest living organisms could not have originated spontaneously from non-living matter.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Hardy Weinberg equilibrium is known to be affected by gene flow, genetic drift, mutation, genetic recombination and",
+    "question_latex": "Hardy Weinberg equilibrium is known to be affected by gene flow, genetic drift, mutation, genetic recombination and",
+    "question_images": [],
+    "options": [
+      "A. Evolution",
+      "B. Limiting factors",
+      "C. Saltation",
+      "D. Natural selection"
+    ],
+    "option_images": [],
+    "answer": "D. Natural selection",
+    "solution": "The Hardy Weinberg law states that the gene and genotypic frequencies in a Mendelian population remain constant generation after generation if there is no selection, mutation, migration or random drift.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Total number of incisors, canines, premolars and molars in human dentition is respectively. _____",
+    "question_latex": "Total number of incisors, canines, premolars and molars in human dentition is respectively.",
+    "question_images": [],
+    "options": [
+      "A. 4, 8, 4, 12",
+      "B. 8, 4, 8, 12",
+      "C. 8, 12, 8, 4",
+      "D. 8, 4, 12, 8"
+    ],
+    "option_images": [],
+    "answer": "B. 8, 4, 8, 12",
+    "solution": "Human dental formula is I2/2, C1/1, PM2/2, M3/3 in each half jaw. So it becomes $8 + 4 + 8 + 12 = 32$ number of teeth.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Origin and Evolution of Life",
+    "question": "In a population with two alleles B and b having frequency 0.7 and 0.3 respectively in Hardy Weinberg equilibrium. How many individuals are heterozygous in a sample of 250? [MHT-CET 2024]",
+    "question_latex": "In a population with two alleles $B$ and $b$ having frequency 0.7 and 0.3 respectively in Hardy Weinberg equilibrium. How many individuals are heterozygous in a sample of 250? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 120",
+      "B. 175",
+      "C. 105",
+      "D. 75"
+    ],
+    "option_images": [],
+    "answer": "C. 105",
+    "solution": "Heterozygous $Bb = 2pq$\nHere, $q = b = 0.7$, $p = B = 0.3$\n$2pq = 2 \\times 0.3 \\times 0.7 = 0.42$\n$= 0.42 \\times 250 = 105$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The biological processes like cleavage, blastulation and gastrulation of all vertebrates are similar. It suggests __________ evidence. [MHT-CET 2020]",
+    "question_latex": "The biological processes like cleavage, blastulation and gastrulation of all vertebrates are similar. It suggests \\_\\_\\_\\_\\_\\_ evidence. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Molecular",
+      "B. Paleontological",
+      "C. Anatomical",
+      "D. Embryological"
+    ],
+    "option_images": [],
+    "answer": "D. Embryological",
+    "solution": "Ernst Haeckel proposed recapitulation theory which says that stages of development of animal embryo are same as other animals. As evidence he showed that stages of cleavage, blastulation and gastrulation are same in all vertebrates.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Cro-Magnon was",
+    "question_latex": "Cro-Magnon was",
+    "question_images": [],
+    "options": [
+      "A. Frugivorous",
+      "B. Carnivorous",
+      "C. Herbivorous",
+      "D. Omnivorous"
+    ],
+    "option_images": [],
+    "answer": "D. Omnivorous",
+    "solution": "Cro-Magnon was the direct ancestor of the living modern man. It was omnivorous with 1680 cc cranial capacity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which set includes only analogous organs?",
+    "question_latex": "Which set includes only analogous organs?",
+    "question_images": [],
+    "options": [
+      "A. Wings of butterfly, housefly and bat",
+      "B. Hindlegs of horse, grasshopper and bat",
+      "C. Wings of butterfly and wingspread of bat and birds",
+      "D. Mandibles of cockroach, mosquito and honey bee"
+    ],
+    "option_images": [],
+    "answer": "C. Wings of butterfly and wingspread of bat and birds",
+    "solution": "The organs which have similar function but different in their structure and origin are called analogous organs, e.g., wings of butterfly and wingspread of bat and birds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Evolution is [MHT-CET 2007]",
+    "question_latex": "Evolution is [MHT-CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. Development of DNA from nucleotides",
+      "B. Development of organism through time",
+      "C. Development of a cell from chemicals",
+      "D. Cloning"
+    ],
+    "option_images": [],
+    "answer": "B. Development of organism through time",
+    "solution": "Evolution is the event of changes through which an organism is descended from ancestor through time.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Match Column I with Column II. [MHT-CET 2023]\n(a) Australopithecus, (b) Homo habilis, (c) Homo sapiens, (d) Neanderthal man\n(i) Advanced prehistoric man, (ii) Man with ape brain, (iii) Handy man, (iv) Modern man",
+    "question_latex": "Match Column I with Column II. [MHT-CET 2023]",
+    "question_images": [
+      "39_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "B. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "C. (a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "D. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Australopithecus - Man with ape brain; Homo habilis - Handy man; Homo sapiens - Modern man; Neanderthal man - Advanced prehistoric man.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Vestigial organ in human being is",
+    "question_latex": "Vestigial organ in human being is",
+    "question_images": [],
+    "options": [
+      "A. Incisor",
+      "B. Molar",
+      "C. Premolar",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Molar",
+    "solution": "Wisdom teeth are third molars of our dentition. Being useless, these are poorly developed and vestigial.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following is INCORRECT with respect to genetic drift? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is INCORRECT with respect to genetic drift? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Effect of genetic drift has no significance in small populations",
+      "B. It is any alteration in allele frequency",
+      "C. It occurs in a population by pure chance",
+      "D. They are random or directionless"
+    ],
+    "option_images": [],
+    "answer": "A. Effect of genetic drift has no significance in small populations",
+    "solution": "Effect of genetic drift has great significance in small populations. It is random fluctuation in allele frequency occurring in natural population by pure chance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Origin and Evolution of Life",
+    "question": "What was the most significant trend in the evolution of modern man (Homo sapiens) from his ancestors?",
+    "question_latex": "What was the most significant trend in the evolution of modern man ($Homo\\ sapiens$) from his ancestors?",
+    "question_images": [],
+    "options": [
+      "A. Shortening of jaws",
+      "B. Binocular vision",
+      "C. Increasing brain capacity",
+      "D. Upright posture"
+    ],
+    "option_images": [],
+    "answer": "C. Increasing brain capacity",
+    "solution": "The first human-like being was the hominid called Homo habilis with brain capacities between 650-800cc. Homo erectus had a large brain. The Neanderthal man had a brain size of 1400cc. During ice age between 75,000-10,000 years back, modern Homo sapiens arose. The most significant trend was increasing brain capacity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Jurassic period of the Mesozoic era is characterized by",
+    "question_latex": "Jurassic period of the Mesozoic era is characterized by",
+    "question_images": [],
+    "options": [
+      "A. Gymnosperms are dominant plants and first birds appear",
+      "B. Radiation of reptiles and origin of mammals like reptiles",
+      "C. Dinosaurs become extinct and angiosperms appear",
+      "D. Flowering plants and first dinosaurs appear"
+    ],
+    "option_images": [],
+    "answer": "A. Gymnosperms are dominant plants and first birds appear",
+    "solution": "Jurassic period is the second geological period of Mesozoic era. In this period, gymnosperms were dominant, reptiles dominated the vertebrates, and the first primitive bird Archaeopteryx also made its appearance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following is also called prehistoric man? [MHT-CET 2019]",
+    "question_latex": "Which of the following is also called prehistoric man? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Heidelberg man",
+      "B. Cromagnon man",
+      "C. Handy man",
+      "D. Neanderthal man"
+    ],
+    "option_images": [],
+    "answer": "C. Handy man",
+    "solution": "Homo habilis is also called 'Handy man' and is considered prehistoric man.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Origin and Evolution of Life",
+    "question": "S. L. Miller's closed flask contained",
+    "question_latex": "S. L. Miller's closed flask contained",
+    "question_images": [],
+    "options": [
+      "A. CH4",
+      "B. H2",
+      "C. NH3 and H2O",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Urey and Stanley Miller's experiment in 1953 created an atmosphere containing hydrogen ($H_2$), ammonia ($NH_3$), methane ($CH_4$) and water vapours ($H_2O$) in one large flask. The ratio of methane, ammonia and hydrogen in large flask was 2:1:2.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Origin and Evolution of Life",
+    "question": "In a random mating population in equilibrium, which of the following brings about a change in gene frequency in non-directional manner?",
+    "question_latex": "In a random mating population in equilibrium, which of the following brings about a change in gene frequency in non-directional manner?",
+    "question_images": [],
+    "options": [
+      "A. Selection",
+      "B. Migration",
+      "C. Mutation",
+      "D. Random drift"
+    ],
+    "option_images": [],
+    "answer": "C. Mutation",
+    "solution": "Given certain conditions, the allele frequencies remain constant from generation to generation. However, many evolutionary changes usually occur following the appearance of new alleles through mutation, which brings about non-directional change in gene frequency.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Origin of life occurred in",
+    "question_latex": "Origin of life occurred in",
+    "question_images": [],
+    "options": [
+      "A. Precambrian",
+      "B. Coenozoic",
+      "C. Palaeozoic",
+      "D. Mesozoic"
+    ],
+    "option_images": [],
+    "answer": "A. Precambrian",
+    "solution": "The first living form is named as protocell or eobiont or protobiont, which evolved into prokaryotic cell. These were originated about 3900-3500 million years ago, during Precambrian era.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Origin and Evolution of Life",
+    "question": "First mammal occurred in which era/period?",
+    "question_latex": "First mammal occurred in which era/period?",
+    "question_images": [],
+    "options": [
+      "A. Permian - Palaeozoic",
+      "B. Triassic - Mesozoic",
+      "C. Tertiary - Coenozoic",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Triassic - Mesozoic",
+    "solution": "The Triassic period of Mesozoic era saw the primitive amphibians become extinct. An important event that took place late in Triassic period was the first appearance of mammals, which retained egg laying habit.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Mutation occurring within a single gene is called ........ [2022]",
+    "question_latex": "Mutation occurring within a single gene is called ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. crossing over",
+      "B. point mutation",
+      "C. transformation",
+      "D. translocation"
+    ],
+    "option_images": [],
+    "answer": "B. point mutation",
+    "solution": "Point mutation is a mutation that occurs within a single gene involving change in a single base pair.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Wings of birds and wings of flies perform similar functions so they are examples of",
+    "question_latex": "Wings of birds and wings of flies perform similar functions so they are examples of",
+    "question_images": [],
+    "options": [
+      "A. Homologous organ",
+      "B. Analogous organ",
+      "C. Evolutionary organ",
+      "D. Paralogous organ"
+    ],
+    "option_images": [],
+    "answer": "B. Analogous organ",
+    "solution": "Organs which perform similar functions but having different origin and structure are called analogous organs. Wings of birds and wings of insects are analogous organs. Analogous structures are the result of convergent evolution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which fossil man has been known from Shivalik hills in India? [MHT-CET 2003]",
+    "question_latex": "Which fossil man has been known from Shivalik hills in India? [MHT-CET 2003]",
+    "question_images": [],
+    "options": [
+      "A. Ramapithecus",
+      "B. Zinjanthropus",
+      "C. Shivapithecus",
+      "D. Pithecanthropus"
+    ],
+    "option_images": [],
+    "answer": "C. Shivapithecus",
+    "solution": "Fossil of Shivapithecus was reported from Shivalik hills (India) from the rocks of Miocene epoch (about 20-25 million years ago).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Related species which are reproductively isolated but morphologically similar are called [MHT-CET 2011]",
+    "question_latex": "Related species which are reproductively isolated but morphologically similar are called [MHT-CET 2011]",
+    "question_images": [],
+    "options": [
+      "A. Sibling",
+      "B. Sympatric",
+      "C. Allopatric",
+      "D. Morphospecies"
+    ],
+    "option_images": [],
+    "answer": "A. Sibling",
+    "solution": "Related species which are reproductively isolated but morphologically similar are called sibling species. Allopatric species have exclusive areas of geographical distribution. Sympatric species have overlapping areas of geographical distribution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following pairs is correct? (identifying the non-vestigial organ)",
+    "question_latex": "Which of the following pairs is correct? (identifying the non-vestigial organ)",
+    "question_images": [],
+    "options": [
+      "A. Wings of kiwi",
+      "B. Coccyx in man",
+      "C. Pelvic girdle of python",
+      "D. Flipper of seal"
+    ],
+    "option_images": [],
+    "answer": "D. Flipper of seal",
+    "solution": "All those are vestigial organs which are now functionless, but flipper of seal is a functional organ and helps to swim. Hence, flipper of seal is not a vestigial organ.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Long tail, elongated tarsals and binocular vision are seen in ____",
+    "question_latex": "Long tail, elongated tarsals and binocular vision are seen in \\_\\_\\_\\_",
+    "question_images": [],
+    "options": [
+      "A. Apes",
+      "B. Lemurs",
+      "C. Tarsiers",
+      "D. Lories"
+    ],
+    "option_images": [],
+    "answer": "C. Tarsiers",
+    "solution": "Tarsiers are earliest primates belonging to Prosimians with long tail, elongated tarsals and binocular vision. Tarsiers are more closely related to Lemurs as they both belong to sub order Prosimii.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Hugo de Vries proposed 'Mutation theory' by studying the plant ________ [MHT-CET 2020]",
+    "question_latex": "Hugo de Vries proposed 'Mutation theory' by studying the plant \\_\\_\\_\\_\\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Mirabilis jalpa",
+      "B. Antirrhinum majus",
+      "C. Pisum sativum",
+      "D. Oenothera lamarkiana"
+    ],
+    "option_images": [],
+    "answer": "D. Oenothera lamarkiana",
+    "solution": "Hugo de Vries gave Mutation theory by studying plant Oenothera lamarkiana. Mirabilis jalpa is used for incomplete dominance experiment, Pisum sativum was used by Mendel in his experiments.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Match the column I with column II regarding cranial capacities of human ancestors. [MHT-CET 2024]\n(a) Australopithecus, (b) Homo erectus, (c) Neanderthal man, (d) Homo habilis\n(I) 650-800 cc, (II) 450 to 600 cc, (III) 900 CC, (IV) 1400 CC",
+    "question_latex": "Match the column I with column II regarding cranial capacities of human ancestors. [MHT-CET 2024]",
+    "question_images": [
+      "56_qu_1.png"
+    ],
+    "options": [
+      "A. (a)→(III); (b)→(II); (c)→(IV); (d)→(I)",
+      "B. (a)→(I); (b)→(III); (c)→(IV); (d)→(II)",
+      "C. (a)→(II); (b)→(IV); (c)→(III); (d)→(I)",
+      "D. (a)→(III); (b)→(II); (c)→(I); (d)→(IV)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)→(III); (b)→(II); (c)→(I); (d)→(IV)",
+    "solution": "Australopithecus: 900 cc, Homo erectus: 450-600 cc, Neanderthal man: 650-800 cc, Homo habilis: 1400 cc. (Matching with stages of human evolution and their cranial capacity.)",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Heavily built, short prehistoric man having cranial capacity of about 1450 cc is __________ [MHT-CET 2018]",
+    "question_latex": "Heavily built, short prehistoric man having cranial capacity of about 1450 cc is \\_\\_\\_\\_\\_\\_ [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Homo sapiens fossilis",
+      "B. Homo erectus",
+      "C. Homo heidelbergensis",
+      "D. Homo neanderthalensis"
+    ],
+    "option_images": [],
+    "answer": "D. Homo neanderthalensis",
+    "solution": "Homo neanderthalensis was a heavily built, short prehistoric man having cranial capacity of about 1450 cc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Lemurs and Tarsiers are included in sub order _____ [MHT-CET 2024]",
+    "question_latex": "Lemurs and Tarsiers are included in sub order \\_\\_\\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Anthropoidea",
+      "B. Prosimii",
+      "C. Pongidae",
+      "D. Hominoidea"
+    ],
+    "option_images": [],
+    "answer": "B. Prosimii",
+    "solution": "Order: Primate, Sub order: Prosimian includes Lemurs and Tarsiers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Hardy Weinberg principle explains",
+    "question_latex": "Hardy Weinberg principle explains",
+    "question_images": [],
+    "options": [
+      "A. Genetic equilibrium",
+      "B. Non-random mating",
+      "C. Evolutionary force",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "A. Genetic equilibrium",
+    "solution": "According to Hardy Weinberg law of equilibrium, the relative frequencies of various kinds of genes in a large and randomly mating, sexual panmictic population tend to remain constant from generation to generation in the absence of mutation, selection and gene flow.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Under particular set of selection pressures, the birds and mammals evolve towards the most effective reproductive strategy to produce [2022]",
+    "question_latex": "Under particular set of selection pressures, the birds and mammals evolve towards the most effective reproductive strategy to produce [2022]",
+    "question_images": [],
+    "options": [
+      "A. large number of large sized offsprings",
+      "B. large number of small sized offsprings",
+      "C. small number of large sized offsprings",
+      "D. small number of small sized offsprings"
+    ],
+    "option_images": [],
+    "answer": "C. small number of large sized offsprings",
+    "solution": "Under particular set of selection pressures, birds and mammals evolve towards the most effective reproductive strategy to produce small number of large sized offsprings with greater parental care.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following animals is not only a living fossil but also considered as connecting link?",
+    "question_latex": "Which of the following animals is not only a living fossil but also considered as connecting link?",
+    "question_images": [],
+    "options": [
+      "A. Sphenodon",
+      "B. Limulus",
+      "C. Neopilina",
+      "D. Latimeria"
+    ],
+    "option_images": [],
+    "answer": "C. Neopilina",
+    "solution": "Neopilina is a living fossil and also considered as connecting link between Annelida and Mollusca.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Primary source of allelic variation is",
+    "question_latex": "Primary source of allelic variation is",
+    "question_images": [],
+    "options": [
+      "A. Due to long periods of evolutionary changes",
+      "B. Due to abrupt mutations",
+      "C. Suddenly on earth",
+      "D. By seed dispersal"
+    ],
+    "option_images": [],
+    "answer": "A. Due to long periods of evolutionary changes",
+    "solution": "Diversification in plant life appeared due to long periods of evolutionary changes. The evolutionary changes sequence is: Bryophyte → Pteridophytes → Gymnosperms → Angiosperms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Vestigial organ in human being is",
+    "question_latex": "Vestigial organ in human being is",
+    "question_images": [],
+    "options": [
+      "A. Canine",
+      "B. Hindlimb",
+      "C. Incisor",
+      "D. Premolar"
+    ],
+    "option_images": [],
+    "answer": "A. Canine",
+    "solution": "Vestigial organs are non-functional or imperfectly developed organs. In man, wisdom tooth (3rd molar) and canines (tearing) are also the vestigial structures.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Homologous organs and vestigial organs are example of _____ type of evidences in evolution.",
+    "question_latex": "Homologous organs and vestigial organs are example of \\_\\_\\_\\_ type of evidences in evolution.",
+    "question_images": [],
+    "options": [
+      "A. Anatomical evidences",
+      "B. Embryological evidences",
+      "C. Paleontological evidences",
+      "D. Molecular evidences"
+    ],
+    "option_images": [],
+    "answer": "A. Anatomical evidences",
+    "solution": "Anatomical evidences include homologous organs showing divergent evolution, analogous organs showing convergent evolution, and vestigial organs which give evolutionary history; all these are used as evidences in evolution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Reptiles were dominant during _____ period.",
+    "question_latex": "Reptiles were dominant during \\_\\_\\_\\_ period.",
+    "question_images": [],
+    "options": [
+      "A. Tertiary",
+      "B. Cretaceous",
+      "C. Jurassic",
+      "D. Triassic"
+    ],
+    "option_images": [],
+    "answer": "C. Jurassic",
+    "solution": "Reptiles were dominant during Jurassic period of Mesozoic era.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Cosmozoic theory was proposed by",
+    "question_latex": "Cosmozoic theory was proposed by",
+    "question_images": [],
+    "options": [
+      "A. Helmhontz",
+      "B. Richter",
+      "C. Pasteur",
+      "D. Arrhenius"
+    ],
+    "option_images": [],
+    "answer": "B. Richter",
+    "solution": "Cosmozoic theory or hypothesis of Panspermia was developed by Richter (1865) and then supported by Thomson, Helmhontz, Van Tieghem and others. According to this hypothesis, life comes from outer space in the form of spores of simple organisms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Origin and Evolution of Life",
+    "question": "First cell produced on earth is",
+    "question_latex": "First cell produced on earth is",
+    "question_images": [],
+    "options": [
+      "A. Protobiont",
+      "B. Protozoa",
+      "C. Metazoa",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Protobiont",
+    "solution": "Protobionts are aggregated forms of different types of molecules, formed abiotically in the primitive sea. These are considered first cells produced on earth because they have an internal environment that differs from their surroundings and also exhibit some signs of life such as metabolism and excitability.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following was not explained by the Darwinism?",
+    "question_latex": "Which of the following was not explained by the Darwinism?",
+    "question_images": [],
+    "options": [
+      "A. Natural selection",
+      "B. Struggle for existence",
+      "C. Arrival of the fittest",
+      "D. Origin of species"
+    ],
+    "option_images": [],
+    "answer": "C. Arrival of the fittest",
+    "solution": "Origin of new species by the struggle for existence and survival of the fittest due to natural selection was the main theme of Darwinism. Arrival of the fittest (i.e., production of individuals already adapted to environment) was not explained by the Darwinism.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following are analogous organs? [MHT-CET 2023]",
+    "question_latex": "Which of the following are analogous organs? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Thorns of Bougainvillea and tendrils of Cucurbit",
+      "B. Eye of octopus and of mammals",
+      "C. Brains in vertebrate animals",
+      "D. Forelimbs of Horse and of Birds"
+    ],
+    "option_images": [],
+    "answer": "B. Eye of octopus and of mammals",
+    "solution": "Eye of octopus and of mammals are structurally different but functionally the same, making them analogous organs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Movement of genes into or out of a population can occur due to following EXCEPT [MHT-CET 2024]",
+    "question_latex": "Movement of genes into or out of a population can occur due to following EXCEPT [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Movement of segments of DNA in a population",
+      "B. Doubling of genes on a chromosome",
+      "C. Dispersal of pollen grains",
+      "D. Migration of organism"
+    ],
+    "option_images": [],
+    "answer": "B. Doubling of genes on a chromosome",
+    "solution": "Doubling of genes on a chromosome takes place during 'S' phase of cell cycle and does not represent movement of genes into or out of a population.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Origin and Evolution of Life",
+    "question": "What kind of evidence suggested that man is more closely related with chimpanzee than with other hominoid apes?",
+    "question_latex": "What kind of evidence suggested that man is more closely related with chimpanzee than with other hominoid apes?",
+    "question_images": [],
+    "options": [
+      "A. Evidence from DNA of sex chromosome only",
+      "B. Comparison of chromosome morphology only",
+      "C. Evidence from fossil remains and the fossil mitochondrial DNA alone",
+      "D. Evidence from DNA extracted from sex chromosome, autosomes and mitochondria"
+    ],
+    "option_images": [],
+    "answer": "D. Evidence from DNA extracted from sex chromosome, autosomes and mitochondria",
+    "solution": "Chimpanzee is more closely related to man than other hominoids. It is evidenced by chromosome banding pattern, DNA extracted from sex chromosomes, autosomes and mitochondria.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The rise of 1st primates occurred in __________ epoch [MHT-CET 2014]",
+    "question_latex": "The rise of 1st primates occurred in \\_\\_\\_\\_\\_\\_ epoch [MHT-CET 2014]",
+    "question_images": [],
+    "options": [
+      "A. Palaeocene",
+      "B. Oligocene",
+      "C. Miocene",
+      "D. Eocene"
+    ],
+    "option_images": [],
+    "answer": "A. Palaeocene",
+    "solution": "The rise of 1st primates occurred in Palaeocene epoch.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Evolutionary history of an organism is known as",
+    "question_latex": "Evolutionary history of an organism is known as",
+    "question_images": [],
+    "options": [
+      "A. Phylogeny",
+      "B. ancestry",
+      "C. Palaeontology",
+      "D. ontogeny"
+    ],
+    "option_images": [],
+    "answer": "A. Phylogeny",
+    "solution": "Phylogeny (Gr. phylon=tribe or race; geneia=origin) is the origin and diversification of any taxon or the evolutionary history of its origin and diversification. It is usually represented as a diagrammatic phylogenetic tree (dendrogram).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The proportion of an allele in the gene pool, to the total number of alleles at a given locus, is called ____. [MHT-CET 2023]",
+    "question_latex": "The proportion of an allele in the gene pool, to the total number of alleles at a given locus, is called \\_\\_\\_\\_. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. gene frequency",
+      "B. gene mutation",
+      "C. gene flow",
+      "D. genetic drift"
+    ],
+    "option_images": [],
+    "answer": "A. gene frequency",
+    "solution": "The proportion of an allele in the gene pool, to the total number of alleles at a given locus, is called gene frequency.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Competition plays a critical role in __________ [MHT-CET 2020]",
+    "question_latex": "Competition plays a critical role in \\_\\_\\_\\_\\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Natural selection",
+      "B. Heredity",
+      "C. Adaptation",
+      "D. Reproduction"
+    ],
+    "option_images": [],
+    "answer": "A. Natural selection",
+    "solution": "Natural selection plays a major role in evolution. Every organism undergoes maximum reproduction creating competition among them for basic necessities. In this competition, the fittest survive, and natural selection plays a role in evolution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Non living pair of colloidal aggregations of lipids and proteinoids are ____ and ____ respectively. [MHT-CET 2024]",
+    "question_latex": "Non living pair of colloidal aggregations of lipids and proteinoids are \\_\\_\\_\\_ and \\_\\_\\_\\_ respectively. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. protocell and coacervates",
+      "B. coacervates and microspheres",
+      "C. microspheres and eobionts",
+      "D. eobionts and protobionts"
+    ],
+    "option_images": [],
+    "answer": "B. coacervates and microspheres",
+    "solution": "Non living pair of colloidal aggregations of lipids and proteinoids are coacervates and microspheres respectively.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Select the correct match",
+    "question_latex": "Select the correct match",
+    "question_images": [],
+    "options": [
+      "A. Archaeopteryx - connecting link between birds and reptiles",
+      "B. Seymouria - Missing link between fish and amphibian",
+      "C. Australopithecus - Connecting link between amphibians and reptiles",
+      "D. Ichthyostega - Connecting link between ape and man"
+    ],
+    "option_images": [],
+    "answer": "A. Archaeopteryx - connecting link between birds and reptiles",
+    "solution": "Archaeopteryx is the connecting link between birds and reptiles. Australopithecus is connecting link between apes and man. Seymouria is connecting link between amphibians and reptiles. Ichthyostega is connecting link between terrestrial vertebrates and fish.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The theory of random genetic drift was proposed by",
+    "question_latex": "The theory of random genetic drift was proposed by",
+    "question_images": [],
+    "options": [
+      "A. Hardy Weinberg",
+      "B. R A Fischer",
+      "C. Sewall Wright",
+      "D. Mayr"
+    ],
+    "option_images": [],
+    "answer": "C. Sewall Wright",
+    "solution": "The theory of genetic drift was proposed by geneticist Sewall Wright in 1930. It is also called Sewall Wright effect or scattering of variability. It refers to the random fluctuation in the gene frequencies in a small population generation after generation purely by chance.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Darwin proposed the theory of",
+    "question_latex": "Darwin proposed the theory of",
+    "question_images": [],
+    "options": [
+      "A. Inheritance of acquired characters",
+      "B. Natural selection",
+      "C. Recapitulation",
+      "D. Continuity of germplasm"
+    ],
+    "option_images": [],
+    "answer": "B. Natural selection",
+    "solution": "Darwin proposed the theory of natural selection. According to which, the organisms provided with favourable variations would survive because they are fittest to face their surroundings, while the organisms unfit for surrounding variations would likely become extinct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following shows interspecific competition? [MHT-CET 2020]",
+    "question_latex": "Which one of the following shows interspecific competition? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Between two Peepal trees",
+      "B. Between tree and orchid",
+      "C. Between tiger and camel",
+      "D. Between lions and leopards"
+    ],
+    "option_images": [],
+    "answer": "D. Between lions and leopards",
+    "solution": "Interspecific competition is competition between two different species for obtaining same food. Lions and leopards are different species competing for the same prey.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which one of the following was a special feature of Dryopithecus? [2022]",
+    "question_latex": "Which one of the following was a special feature of Dryopithecus? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Developed cave art",
+      "B. Man with ape brain",
+      "C. Constructed flint tools",
+      "D. Close similarity to chimpanzee"
+    ],
+    "option_images": [],
+    "answer": "D. Close similarity to chimpanzee",
+    "solution": "Dryopithecus showed close similarity to chimpanzee. It was one of the early ancestors in the evolutionary lineage.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Origin and Evolution of Life",
+    "question": "When two species of different genealogy come to resemble each other as a result of adaptation, the phenomenon is termed as",
+    "question_latex": "When two species of different genealogy come to resemble each other as a result of adaptation, the phenomenon is termed as",
+    "question_images": [],
+    "options": [
+      "A. Divergent evolution",
+      "B. Micro-evolution",
+      "C. Co-evolution",
+      "D. Convergent evolution"
+    ],
+    "option_images": [],
+    "answer": "D. Convergent evolution",
+    "solution": "In convergent evolution, lineages show similar morphology under the influence of similar environmental factors.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Study of fossils is called [MHT-CET 2011]",
+    "question_latex": "Study of fossils is called [MHT-CET 2011]",
+    "question_images": [],
+    "options": [
+      "A. Organic evolution",
+      "B. Herpetology",
+      "C. Cytology",
+      "D. Palaeontology"
+    ],
+    "option_images": [],
+    "answer": "D. Palaeontology",
+    "solution": "Palaeontology is the study of fossils. Cytology is the study of cell structure and function. Herpetology is the study of reptiles and amphibians.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which of the following in birds indicates their reptilian ancestry?",
+    "question_latex": "Which of the following in birds indicates their reptilian ancestry?",
+    "question_images": [],
+    "options": [
+      "A. Scales on their hindlimbs",
+      "B. Four-chambered heart",
+      "C. Two special chambers crop and gizzards in their digestive tract",
+      "D. Egg with a calcareous shell"
+    ],
+    "option_images": [],
+    "answer": "D. Egg with a calcareous shell",
+    "solution": "T. H. Huxley called birds glorified reptiles. Both the birds and reptiles lay the same type of eggs deposited outside water. The ovum is surrounded by albumen, an egg membrane and a thick hard calcareous shell, all secreted by special glands located in the walls of oviduct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Formation of molecule _____ is considered as a landmark in the origin of life.",
+    "question_latex": "Formation of molecule \\_\\_\\_\\_ is considered as a landmark in the origin of life.",
+    "question_images": [],
+    "options": [
+      "A. Fats",
+      "B. Proteins",
+      "C. Carbohydrates",
+      "D. Glycolipids"
+    ],
+    "option_images": [],
+    "answer": "B. Proteins",
+    "solution": "Formation of proteins is a landmark in origin of life as some of the proteins started acting like enzymes, regulate chemical reactions and accelerate the rate of chemical reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Origin and Evolution of Life",
+    "question": "An important evidence in favour of organic evolution is the occurrence of",
+    "question_latex": "An important evidence in favour of organic evolution is the occurrence of",
+    "question_images": [],
+    "options": [
+      "A. Homologous and vestigial organs",
+      "B. Analogous and vestigial organs",
+      "C. Homologous organs only",
+      "D. Homologous and analogous organs"
+    ],
+    "option_images": [],
+    "answer": "A. Homologous and vestigial organs",
+    "solution": "Presence of homologous and vestigial organs are important evidences in favour of organic evolution. They show divergent evolution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Molecular evolution and origin of life occurred in __________ Era. [MHT-CET 2018]",
+    "question_latex": "Molecular evolution and origin of life occurred in \\_\\_\\_\\_\\_\\_ Era. [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Archeozoic",
+      "B. Cenozoic",
+      "C. Palaeozoic",
+      "D. Proterozoic"
+    ],
+    "option_images": [],
+    "answer": "A. Archeozoic",
+    "solution": "Molecular evolution and origin of life occurred in Archeozoic Era.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The number of base pairs present in the nucleoid of prokaryote like E. coli is ____ millions. [MHT-CET 2023]",
+    "question_latex": "The number of base pairs present in the nucleoid of prokaryote like $E.\\ coli$ is \\_\\_\\_\\_ millions. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 3.3",
+      "B. 2.2",
+      "C. 4.6",
+      "D. 6.6"
+    ],
+    "option_images": [],
+    "answer": "C. 4.6",
+    "solution": "The number of base pairs present in the nucleoid of prokaryote like E. coli is 4.6 millions with estimated genes 4400 according to genomics.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Origin and Evolution of Life",
+    "question": "CORRECT sequence of stages of evolution of modern man is _____",
+    "question_latex": "CORRECT sequence of stages of evolution of modern man is \\_\\_\\_\\_\\_",
+    "question_images": [],
+    "options": [
+      "A. Neanderthal man, Homo erectus, Australopithecus, Cro magnon man, Modern man",
+      "B. Homo erectus, Australopithecus, Neanderthal man, Cro magnon man, Modern man",
+      "C. Australopithecus, Homo erectus, Neanderthal man, Cro magnon man, Modern man",
+      "D. Cro magnon man, Australopithecus, Neanderthal man, Homo erectus, Modern man"
+    ],
+    "option_images": [],
+    "answer": "C. Australopithecus, Homo erectus, Neanderthal man, Cro magnon man, Modern man",
+    "solution": "Correct sequence of stages of evolution in modern man is: Australopithecus → Homo erectus → Neanderthal man → Cro-magnon man → Modern man.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Phenomenon of industrial melanism demonstrates",
+    "question_latex": "Phenomenon of industrial melanism demonstrates",
+    "question_images": [],
+    "options": [
+      "A. Reproductive isolation",
+      "B. Induced mutation",
+      "C. Natural selection",
+      "D. Geographical isolation"
+    ],
+    "option_images": [],
+    "answer": "C. Natural selection",
+    "solution": "Phenomenon of industrial melanism demonstrates natural selection, e.g., occurrence of dark (melanic) form of insects in regions with high industrial pollution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Lamarckism cannot explain",
+    "question_latex": "Lamarckism cannot explain",
+    "question_images": [],
+    "options": [
+      "A. Webbed toes in aquatic birds",
+      "B. Weak muscles in the son of a wrestler",
+      "C. Long narrow and limbless body of snakes",
+      "D. Heterophylly"
+    ],
+    "option_images": [],
+    "answer": "B. Weak muscles in the son of a wrestler",
+    "solution": "Lamarckian theory is also known as theory of inheritance of acquired characters or theory of use and disuse of organs. This theory cannot explain the reason of weak muscles in the son of a wrestler as acquired muscular strength is not inherited.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Thorns of Bougainvillea and tendrils of Cucurbita are examples of",
+    "question_latex": "Thorns of $Bougainvillea$ and tendrils of $Cucurbita$ are examples of",
+    "question_images": [],
+    "options": [
+      "A. Analogous organs",
+      "B. Homologous organs",
+      "C. Vestigial organs",
+      "D. Retrogressive evolution"
+    ],
+    "option_images": [],
+    "answer": "B. Homologous organs",
+    "solution": "Thorns of Bougainvillea and tendrils of Cucurbita are homologous organs. These are modified branches and are axillary in position. Axillary branches in Bougainvillea are modified into thorns and in Cucurbita into tendrils for climbing.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Identify the correct sequence of stages in evolution of modern man/Homo sapiens",
+    "question_latex": "Identify the correct sequence of stages in evolution of modern man/$Homo\\ sapiens$",
+    "question_images": [],
+    "options": [
+      "A. Australopithecus, Neanderthal man, Cromagnon man, Homo erectus and Modern man",
+      "B. Australopithecus, Homo erectus, Neanderthal man, Cromagnon man and Modern man",
+      "C. Homo erectus, Neanderthal man, Australopithecus, Cromagnon man and Modern man",
+      "D. Homo erectus, Australopithecus, Neanderthal man, Cromagnon man and Modern man"
+    ],
+    "option_images": [],
+    "answer": "B. Australopithecus, Homo erectus, Neanderthal man, Cromagnon man and Modern man",
+    "solution": "The correct sequence of stages in evolution of modern man (Homo sapiens) is: Australopithecus → Homo erectus → Neanderthal man → Cro-magnon man → Modern man.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The Coenozoic era is often designated as",
+    "question_latex": "The Coenozoic era is often designated as",
+    "question_images": [],
+    "options": [
+      "A. Age of fish",
+      "B. Age of reptiles",
+      "C. Age of mammals",
+      "D. Age of amphibians"
+    ],
+    "option_images": [],
+    "answer": "C. Age of mammals",
+    "solution": "Coenozoic is regarded as the age of mammals. In this era, a variety of mammals like whale, bat and man appeared for the first time.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Origin and Evolution of Life",
+    "question": "The reptiles, like dinosaurs were dominant in __________ period. [MHT-CET 2015]",
+    "question_latex": "The reptiles, like dinosaurs were dominant in \\_\\_\\_\\_\\_\\_ period. [MHT-CET 2015]",
+    "question_images": [],
+    "options": [
+      "A. Cretaceous",
+      "B. Jurassic",
+      "C. Tertiary",
+      "D. Triassic"
+    ],
+    "option_images": [],
+    "answer": "B. Jurassic",
+    "solution": "The reptiles, like dinosaurs were dominant in Jurassic period.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Homo-sapiens are most closely related to [MHT-CET 2024]",
+    "question_latex": "Homo-sapiens are most closely related to [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Baboons",
+      "B. Tarsiers",
+      "C. Lemurs",
+      "D. Orangutan"
+    ],
+    "option_images": [],
+    "answer": "D. Orangutan",
+    "solution": "Homo-sapiens are most closely related to great apes like chimpanzee, gorilla and orangutan.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Origin and Evolution of Life",
+    "question": "In which of the following events, there is no loss or gain in gene complement of the chromosome? [MHT-CET 2023]",
+    "question_latex": "In which of the following events, there is no loss or gain in gene complement of the chromosome? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Duplication",
+      "B. Deletion",
+      "C. Inversion",
+      "D. Translocation"
+    ],
+    "option_images": [],
+    "answer": "C. Inversion",
+    "solution": "In Inversion there is no loss or gain in gene complement of the chromosome. A particular segment of chromosome is broken and gets reattached to the same chromosome in an inverted position due to 180° twist.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Point mutation is _____",
+    "question_latex": "Point mutation is \\_\\_\\_\\_\\_",
+    "question_images": [],
+    "options": [
+      "A. Gradual, continuous change in genetic makeup",
+      "B. Sudden change in the chemical makeup of a gene",
+      "C. Alteration in allele frequency",
+      "D. Changes in gene arrangement in chromosome"
+    ],
+    "option_images": [],
+    "answer": "B. Sudden change in the chemical makeup of a gene",
+    "solution": "Mutations are sudden change in genetic makeup that is inheritable. Point mutation is sudden change in chemical makeup of a gene. Gradual and continuous change is evolution. Changes in gene arrangement on a chromosome mainly occur during crossing over.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Which postulate of Darwin's theory explains that the number of progeny tend to increase in geometric ratio? [MHT-CET 2024]",
+    "question_latex": "Which postulate of Darwin's theory explains that the number of progeny tend to increase in geometric ratio? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Survival of fittest",
+      "B. Prodigality of nature",
+      "C. Origin of new species",
+      "D. Struggle for existence"
+    ],
+    "option_images": [],
+    "answer": "B. Prodigality of nature",
+    "solution": "Overproduction (Prodigality of nature) is the natural tendency to produce more number of progeny in geometric ratio, for perpetuation of the species.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Origin and Evolution of Life",
+    "question": "Louis Pasteur disproved the theory of ____ [MHT-CET 2023]",
+    "question_latex": "Louis Pasteur disproved the theory of \\_\\_\\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Panspermia",
+      "B. Special creation",
+      "C. Abiogenesis",
+      "D. Biogenesis"
+    ],
+    "option_images": [],
+    "answer": "C. Abiogenesis",
+    "solution": "Louis Pasteur disproved the theory of abiogenesis which explains the formation of life from non-living material spontaneously.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

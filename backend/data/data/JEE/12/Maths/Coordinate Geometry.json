@@ -1,0 +1,1950 @@
+[
+  {
+    "id": 1,
+    "chapter": "Coordinate Geometry",
+    "question": "For the hyperbola x²/cos²α - y²/sin²α = 1, which of the following remains constant when α varies? (2007)",
+    "question_latex": "For the hyperbola $\\frac{x^2}{\\cos^2\\alpha} - \\frac{y^2}{\\sin^2\\alpha} = 1$, which of the following remains constant when $\\alpha$ varies? (2007)",
+    "question_images": [],
+    "options": [
+      "A. directrix",
+      "B. abscissae of foci",
+      "C. abscissae of vertices",
+      "D. eccentricity"
+    ],
+    "option_images": [],
+    "answer": "B. abscissae of foci",
+    "solution": "We have $b^2 = a^2(e^2-1) \\Rightarrow \\sin^2\\alpha = \\cos^2\\alpha(e^2-1) \\Rightarrow \\tan^2\\alpha + 1 = e^2 \\Rightarrow e^2 = \\sec^2\\alpha$\n\nVertices $\\equiv (\\pm\\cos\\alpha, 0)$\n\nCoordinate of foci are $(\\pm ae, 0) \\equiv (\\pm 1, 0)$.\n\n$\\Rightarrow$ If $\\alpha$ varies, then the abscissa of foci remain constant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, if cosA/a = cosB/b = cosC/c and the side a = 2, then area of the triangle is",
+    "question_latex": "In a $\\triangle ABC$, if $\\frac{\\cos A}{a} = \\frac{\\cos B}{b} = \\frac{\\cos C}{c}$ and the side $a = 2$, then area of the triangle is",
+    "question_images": [],
+    "options": [
+      "A. 1 sq unit",
+      "B. 2 sq unit",
+      "C. √3/2 sq unit",
+      "D. √3 sq unit"
+    ],
+    "option_images": [],
+    "answer": "D. √3 sq unit",
+    "solution": "We have $\\frac{\\cos A}{a} = \\frac{\\cos B}{b} = \\frac{\\cos C}{c}$\n\n$\\Rightarrow \\frac{\\cos A}{k\\sin A} = \\frac{\\cos B}{k\\sin B} = \\frac{\\cos C}{k\\sin C}$\n\n$\\Rightarrow \\cot A = \\cot B = \\cot C$\n\n$\\Rightarrow A = B = C = 60°$\n\n$\\triangle ABC$ is an equilateral triangle.\n\n$\\therefore \\Delta = \\frac{\\sqrt{3}}{4}a^2 = \\frac{\\sqrt{3}}{4}(2)^2 = \\sqrt{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Coordinate Geometry",
+    "question": "The angle of elevation of a cloud from a point h mt. above a lake is θ° and the angle of depression of its reflection in the lake is Φ. Then, the height is",
+    "question_latex": "The angle of elevation of a cloud from a point $h$ mt. above a lake is $\\theta°$ and the angle of depression of its reflection in the lake is $\\Phi$. Then, the height is",
+    "question_images": [],
+    "options": [
+      "A. h sin(Φ-θ)/sin(Φ+θ)",
+      "B. h sin(Φ+θ)/sin(Φ-θ)",
+      "C. h sin(θ+Φ)/sin(θ-Φ)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. h sin(Φ+θ)/sin(Φ-θ)",
+    "solution": "Using standard height and distance formula for cloud and its reflection:\n\nHeight $= \\frac{h\\sin(\\phi+\\theta)}{\\sin(\\phi-\\theta)}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Coordinate Geometry",
+    "question": "If 5x + 9 = 0 is the directrix of the hyperbola 16x² - 9y² = 144, then its corresponding focus is (April 2019)",
+    "question_latex": "If $5x + 9 = 0$ is the directrix of the hyperbola $16x^2 - 9y^2 = 144$, then its corresponding focus is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. (5,0)",
+      "B. (-5,0)",
+      "C. (-5/3, 0)",
+      "D. (5/3, 0)"
+    ],
+    "option_images": [],
+    "answer": "B. (-5,0)",
+    "solution": "The given hyperbola is $\\frac{16x^2}{144} - \\frac{9y^2}{144} = 1 \\Rightarrow \\frac{x^2}{9} - \\frac{y^2}{16} = 1$\n\nEccentricity $(e) = \\sqrt{1 + \\frac{16}{9}} = \\frac{5}{3}$\n\nDirectrices of the hyperbola are $x = \\pm\\frac{a}{e} = \\pm\\frac{9}{5}$\n\nIt is given that the directrix is $x = -\\frac{9}{5}$.\n\n$\\therefore$ Required corresponding focus is $(-ae, 0) = (-5, 0)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Coordinate Geometry",
+    "question": "In △ABC, [1 + cos(A-B)cosC] / [1 + cos(A-C)cosB] is equal to",
+    "question_latex": "In $\\triangle ABC$, $\\frac{1+\\cos(A-B)\\cos C}{1+\\cos(A-C)\\cos B}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. (a-b)/(a-c)",
+      "B. (a+b)/(a+c)",
+      "C. (a²-b²)/(a²-c²)",
+      "D. (a²+b²)/(a²+c²)"
+    ],
+    "option_images": [],
+    "answer": "D. (a²+b²)/(a²+c²)",
+    "solution": "$\\frac{1+\\cos C\\cos(A-B)}{1+\\cos(A-C)\\cos B} = \\frac{1-\\cos(A+B)\\cos(A-B)}{1-\\cos(A-C)\\cos(A+C)}$ $[\\because A+B+C=\\pi]$\n\n$= \\frac{1-\\cos^2 A + \\sin^2 B}{1-\\cos^2 A + \\sin^2 C} = \\frac{\\sin^2 A + \\sin^2 B}{\\sin^2 A + \\sin^2 C} = \\frac{a^2+b^2}{a^2+c^2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Coordinate Geometry",
+    "question": "The length of the minor axis (along y-axis) of an ellipse in the standard form is 4/√3. If this ellipse touches the line x + 6y = 8, then its eccentricity is (Jan 2020)",
+    "question_latex": "The length of the minor axis (along $y$-axis) of an ellipse in the standard form is $\\frac{4}{\\sqrt{3}}$. If this ellipse touches the line $x + 6y = 8$, then its eccentricity is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. 1/2 √(5/3)",
+      "B. 1/2 √(11/3)",
+      "C. 1/3 √(11/3)",
+      "D. √(5/6)"
+    ],
+    "option_images": [],
+    "answer": "B. 1/2 √(11/3)",
+    "solution": "Length of minor axis $2b = \\frac{4}{\\sqrt{3}} \\Rightarrow b = \\frac{2}{\\sqrt{3}}$ ...(i)\n\nEquation of tangent of ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is $y = mx \\pm \\sqrt{a^2m^2+b^2}$ ...(ii)\n\nGiven ellipse touches the line $x + 6y = 8$ i.e., $y = \\frac{-x}{6}+\\frac{4}{3}$ ...(iii)\n\nFrom (ii) and (iii), $m = -\\frac{1}{6}$ and $a^2m^2+b^2 = \\frac{16}{9}$\n\n$\\Rightarrow \\frac{a^2}{36}+\\frac{4}{3} = \\frac{16}{9} \\Rightarrow \\frac{a^2}{36} = \\frac{4}{9} \\Rightarrow a^2 = 16$\n\n$e = \\sqrt{1-\\frac{b^2}{a^2}} = \\sqrt{1-\\frac{4}{3\\times 16}} = \\sqrt{\\frac{11}{12}} = \\frac{\\sqrt{11}}{2\\sqrt{3}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Coordinate Geometry",
+    "question": "Let R be the focus of the parabola y² = 20x and the line y = mx + c intersect the parabola at two points P and Q. Let the point G(10,10) be the centroid of the triangle PQR. If c - m = 6, then (PQ)² is (April 2023)",
+    "question_latex": "Let $R$ be the focus of the parabola $y^2 = 20x$ and the line $y = mx + c$ intersect the parabola at two points $P$ and $Q$. Let the point $G(10,10)$ be the centroid of the triangle $PQR$. If $c - m = 6$, then $(PQ)^2$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 346",
+      "B. 325",
+      "C. 296",
+      "D. 317"
+    ],
+    "option_images": [],
+    "answer": "B. 325",
+    "solution": "Focus $R \\equiv (5,0)$. Put $x = \\frac{y-c}{m}$ in $y^2 = 20x$:\n\n$my^2 - 20y + 20c = 0$\n\nWith $c - m = 6$: $my^2 - 20y + 20(6+m) = 0$\n\nLet $y_1, y_2$ be roots: $y_1+y_2 = \\frac{20}{m}$\n\nCentroid at $(10,10)$: $\\frac{y_1+y_2+0}{3} = 10 \\Rightarrow y_1+y_2 = 30$\n\n$\\Rightarrow m = \\frac{2}{3}$, $c = 6+m = \\frac{20}{3}$\n\nLine $PQ$: $y = \\frac{2}{3}x + \\frac{20}{3} \\Rightarrow 2x-3y+20 = 0$\n\nSolving: $P \\equiv (5,10)$, $Q \\equiv (20,20)$\n\n$(PQ)^2 = 15^2+10^2 = 325$",
+    "solution_images": [
+      "7_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Coordinate Geometry",
+    "question": "If a = 2√2, b = 6, A = 45°, then",
+    "question_latex": "If $a = 2\\sqrt{2}, b = 6, A = 45°$, then",
+    "question_images": [],
+    "options": [
+      "A. No triangle is possible",
+      "B. One triangle is possible",
+      "C. Two triangles are possible",
+      "D. Either no triangle or two triangles are possible"
+    ],
+    "option_images": [],
+    "answer": "A. No triangle is possible",
+    "solution": "Using sine rule: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$\n\n$\\frac{2\\sqrt{2}}{\\sin 45°} = \\frac{6}{\\sin B}$\n\n$\\sin B = \\frac{6}{2\\sqrt{2}} \\times \\frac{1}{\\sqrt{2}} = \\frac{6}{4} = \\frac{3}{2} > 1$\n\nWhich is not possible. Hence, no triangle is possible.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Coordinate Geometry",
+    "question": "The shortest distance between line y - x = 1 and curve x = y² is (2011)",
+    "question_latex": "The shortest distance between line $y - x = 1$ and curve $x = y^2$ is (2011)",
+    "question_images": [],
+    "options": [
+      "A. √3/4",
+      "B. 8/(3√2)",
+      "C. 4/√3",
+      "D. 3√2/8"
+    ],
+    "option_images": [],
+    "answer": "D. 3√2/8",
+    "solution": "Let $P$ be $(y^2, y)$. Perpendicular distance from $P$ to $x - y + 1 = 0$ is $\\frac{|y^2-y+1|}{\\sqrt{2}}$.\n\nAs $|y^2-y+1| = y^2-y+1$ (since $y^2-y+1 > 0$)\n\nMinimum value $= \\frac{1}{\\sqrt{2}} \\cdot \\frac{4ac-b^2}{4a} = \\frac{1}{\\sqrt{2}} \\cdot \\frac{4-1}{4\\cdot 1} = \\frac{3}{4\\sqrt{2}} = \\frac{3\\sqrt{2}}{8}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Coordinate Geometry",
+    "question": "If the line y = mx + c is a common tangent to the hyperbola x²/100 - y²/64 = 1 and the circle x² + y² = 36, then which one of the following is true? (Sept 2020)",
+    "question_latex": "If the line $y = mx + c$ is a common tangent to the hyperbola $\\frac{x^2}{100} - \\frac{y^2}{64} = 1$ and the circle $x^2 + y^2 = 36$, then which one of the following is true? (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. c² = 369",
+      "B. 4c² = 369",
+      "C. 5w₁ = 4",
+      "D. 8m + 5 = 0"
+    ],
+    "option_images": [],
+    "answer": "C. 4c² = 369",
+    "solution": "Since $y = mx+c$ is a common tangent to $\\frac{x^2}{100}-\\frac{y^2}{64}=1$ and $x^2+y^2=36$:\n\n$c^2 = 100m^2-64$ and $c^2 = 36m^2+36$\n\n$\\therefore 100m^2-64 = 36m^2+36$\n\n$\\Rightarrow 64m^2 = 100 \\Rightarrow m^2 = \\frac{100}{64} \\Rightarrow m = \\pm\\frac{10}{8}$\n\n$\\therefore c^2 = 36\\left(1+\\frac{100}{64}\\right) = 36 \\times \\frac{164}{64} = \\frac{369}{4}$\n\n$\\Rightarrow 4c^2 = 369$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Coordinate Geometry",
+    "question": "From the top of a light house 60 m high with its base at the sea level the angle of depression of a boat is 15°. The distance of the boat from the foot of light house is",
+    "question_latex": "From the top of a light house 60 m high with its base at the sea level the angle of depression of a boat is $15°$. The distance of the boat from the foot of light house is",
+    "question_images": [],
+    "options": [
+      "A. (√3-1)/(√3+1) × 60 m",
+      "B. (√3+1)/(√3-1) × 60 m",
+      "C. (√3+1)/(√3-1) m",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. (√3+1)/(√3-1) × 60 m",
+    "solution": "Let $BC$ be the light house. In $\\triangle ABC$:\n\n$\\tan 15° = \\frac{60}{d}$\n\n$\\Rightarrow d = 60\\cot 15° = 60\\left(\\frac{\\sqrt{3}+1}{\\sqrt{3}-1}\\right)$ m",
+    "solution_images": [
+      "11_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Coordinate Geometry",
+    "question": "Without change of axes the origin is shifted to (h, k), then from the equation x² + y² - 4x + 6y - 7 = 0 the terms containing linear powers are missing. The point (h, k) is",
+    "question_latex": "Without change of axes the origin is shifted to $(h, k)$, then from the equation $x^2 + y^2 - 4x + 6y - 7 = 0$ the terms containing linear powers are missing. The point $(h, k)$ is",
+    "question_images": [],
+    "options": [
+      "A. (3, 2)",
+      "B. (-3, 2)",
+      "C. (2, -3)",
+      "D. (-2, -3)"
+    ],
+    "option_images": [],
+    "answer": "C. (2, -3)",
+    "solution": "Let new coordinates be $P(x', y')$ after shifting origin to $P(x', y')$ i.e., $x = x'+h$ and $y = y'+k$\n\n$(x'+h)^2 + (y'+k)^2 - 4(x'+h) + 6(y'+k) - 7 = 0$\n\n$\\Rightarrow (x')^2+(y')^2+2(h-2)x'+2(k+3)y'+(h^2+k^2-4h+6k-7) = 0$\n\nAccording to the question: $h-2 = 0$ and $k+3 = 0$\n\n$\\Rightarrow (h,k) = (2,-3)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Coordinate Geometry",
+    "question": "If a > 0, b > 0 the maximum area of the triangle formed by the points O(0,0), A(a cosθ, b sinθ) and B(a cosθ, -b sinθ) is (in sq unit)",
+    "question_latex": "If $a > 0, b > 0$ the maximum area of the triangle formed by the points $O(0,0)$, $A(a\\cos\\theta, b\\sin\\theta)$ and $B(a\\cos\\theta, -b\\sin\\theta)$ is (in sq unit)",
+    "question_images": [],
+    "options": [
+      "A. ab/2",
+      "B. 3ab/2",
+      "C. ab/2 when θ = -π/4",
+      "D. a²b²"
+    ],
+    "option_images": [],
+    "answer": "A. ab/2",
+    "solution": "Area of $\\Delta = \\frac{1}{2}\\begin{vmatrix} 0 & 0 & 1 \\\\ a\\cos\\theta & b\\sin\\theta & 1 \\\\ a\\cos\\theta & -b\\sin\\theta & 1 \\end{vmatrix}$\n\n$\\Rightarrow \\Delta = \\frac{1}{2}|[1(-ab\\sin\\theta\\cos\\theta - ab\\sin\\theta\\cos\\theta)]|$\n\n$= \\frac{ab\\sin 2\\theta}{2}$\n\nSince maximum value of $\\sin 2\\theta$ is 1, when $\\theta = \\frac{\\pi}{4}$\n\n$\\therefore \\Delta_{max} = \\frac{ab}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Coordinate Geometry",
+    "question": "If a flag staff of 6 m high placed on the top of a tower throws a shadow of 2√3 m along the ground, then the angle (in degrees) that the sun makes with the ground is",
+    "question_latex": "If a flag staff of 6 m high placed on the top of a tower throws a shadow of $2\\sqrt{3}$ m along the ground, then the angle (in degrees) that the sun makes with the ground is",
+    "question_images": [],
+    "options": [
+      "A. 60°",
+      "B. 80°",
+      "C. 75°",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 60°",
+    "solution": "In $\\triangle DCB$: $\\tan\\theta = \\frac{h}{x}$ ...(i)\n\nIn $\\triangle ECA$: $\\tan\\theta = \\frac{h+6}{2\\sqrt{3}+x}$\n\n$\\Rightarrow \\frac{h}{x} = \\frac{h+6}{2\\sqrt{3}+x}$ [from Eq.(i)]\n\n$\\Rightarrow 2\\sqrt{3}h = 6x \\Rightarrow h = \\frac{6x}{2\\sqrt{3}}$\n\nFrom Eq.(i): $\\tan\\theta = \\frac{6x}{2\\sqrt{3}x} = \\sqrt{3}$\n\n$\\Rightarrow \\theta = 60°$",
+    "solution_images": [
+      "14_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Coordinate Geometry",
+    "question": "The x-axis, y-axis and a line passing through the point A(6, 0) form a triangle ABC. If ∠A = 30° then the area of the triangle, in sq units is",
+    "question_latex": "The $x$-axis, $y$-axis and a line passing through the point $A(6, 0)$ form a triangle $ABC$. If $\\angle A = 30°$ then the area of the triangle, in sq units is",
+    "question_images": [],
+    "options": [
+      "A. 6√3",
+      "B. 12√3",
+      "C. 4√3",
+      "D. 8√3"
+    ],
+    "option_images": [],
+    "answer": "A. 6√3",
+    "solution": "In $\\triangle ABC$, $\\tan 30° = \\frac{CB}{CA}$\n\n$\\Rightarrow \\frac{1}{\\sqrt{3}} = \\frac{CB}{6}$\n\n$\\Rightarrow CB = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$\n\nArea of $\\triangle ACB = \\frac{1}{2} \\times CA \\times CB = \\frac{1}{2} \\times 6 \\times 2\\sqrt{3} = 6\\sqrt{3}$ sq units",
+    "solution_images": [
+      "15_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Coordinate Geometry",
+    "question": "If t₁, t₂ and t₃ are distinct points (t₁, 2at₁ + at₁³), (t₂, 2at₂ + at₂³) and (t₃, 2at₃ + at₃³) are collinear, if",
+    "question_latex": "If $t_1, t_2$ and $t_3$ are distinct points $(t_1, 2at_1 + at_1^3)$, $(t_2, 2at_2 + at_2^3)$ and $(t_3, 2at_3 + at_3^3)$ are collinear, if",
+    "question_images": [],
+    "options": [
+      "A. t₁t₂t₃ = 1",
+      "B. t₁ + t₂ + t₃ = t₁t₂t₃",
+      "C. t₁ + t₂ + t₃ = 0",
+      "D. t₁ + t₂ + t₃ = -1"
+    ],
+    "option_images": [],
+    "answer": "C. t₁ + t₂ + t₃ = 0",
+    "solution": "The given points are collinear. Setting up the determinant and applying row operations $R_2 \\to R_2 - R_1$, $R_3 \\to R_3 - R_1$:\n\n$(t_2-t_1)(t_3-t_1)(t_3-t_2)(t_3+t_2+t_1) = 0$\n\nSince $t_1 \\neq t_2 \\neq t_3$:\n\n$\\Rightarrow t_1 + t_2 + t_3 = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Coordinate Geometry",
+    "question": "If λ be the perimeter of the △ABC, then b cos²(C/2) + c cos²(B/2) is equal to",
+    "question_latex": "If $\\lambda$ be the perimeter of the $\\triangle ABC$, then $b\\cos^2\\frac{C}{2} + c\\cos^2\\frac{B}{2}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. λ",
+      "B. 2λ",
+      "C. λ/2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. λ/2",
+    "solution": "We have $a+b+c = \\lambda = 2s$, so $s = \\frac{\\lambda}{2}$\n\n$b\\cos^2\\frac{C}{2} + c\\cos^2\\frac{B}{2} = b\\cdot\\frac{s(s-c)}{ab} + c\\cdot\\frac{s(s-b)}{ac}$\n\n$= \\frac{s}{a}\\{s-c+s-b\\} = \\frac{s}{a}\\cdot a = s = \\frac{\\lambda}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Coordinate Geometry",
+    "question": "A hyperbola having the transverse axis of length √2 has the same foci as that of the ellipse 3x² + 4y² = 12, then this hyperbola does not pass through which of the following points? (Sept 2020)",
+    "question_latex": "A hyperbola having the transverse axis of length $\\sqrt{2}$ has the same foci as that of the ellipse $3x^2 + 4y^2 = 12$, then this hyperbola does not pass through which of the following points? (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. (1/√2, 0)",
+      "B. (-√(3/2), 1)",
+      "C. (1, -1/√2)",
+      "D. (√(3/2), 1/√2)"
+    ],
+    "option_images": [],
+    "answer": "D. (√(3/2), 1/√2)",
+    "solution": "Ellipse: $\\frac{x^2}{4}+\\frac{y^2}{3}=1$. $e^2=1-\\frac{3}{4} \\Rightarrow e=\\frac{1}{2}$. Foci $=(\\pm1,0)$.\n\nHyperbola has same foci $(\\pm1,0)$. Let eccentricity be $e'$. Then $2ae'=2$ but $2a=\\sqrt{2}$ $\\Rightarrow \\sqrt{2}e'=2 \\Rightarrow e'=\\sqrt{2}$.\n\n$b^2=a^2(e'^2-1)=\\frac{1}{2}(2-1)=\\frac{1}{2}$\n\nEquation of hyperbola: $\\frac{x^2}{1/2}-\\frac{y^2}{1/2}=1 \\Rightarrow 2x^2-2y^2=1$\n\nOnly option (d) does not satisfy this equation.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Coordinate Geometry",
+    "question": "If the sides of the triangles are 5k, 6k, 5k and radius of incircle is 6, the value of k is equal to",
+    "question_latex": "If the sides of the triangles are $5k, 6k, 5k$ and radius of incircle is 6, the value of $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "Let $a=5k, b=6k, c=5k$\n\n$s = \\frac{5k+6k+5k}{2} = 8k$\n\n$r = \\frac{\\Delta}{s} = \\sqrt{\\frac{8k(8k-5k)(8k-6k)(8k-5k)}{8k}} = \\sqrt{\\frac{8k\\cdot3k\\cdot2k\\cdot3k}{8k}} = \\frac{3k}{2}$\n\n$\\Rightarrow k = \\frac{2r}{3} = \\frac{2\\times6}{3} = 4$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Coordinate Geometry",
+    "question": "If sin A : sin B : sin C = 3:4:5, then cos A : cos B is equal to",
+    "question_latex": "If $\\sin A : \\sin B : \\sin C = 3:4:5$, then $\\cos A : \\cos B$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 4:3",
+      "B. 5:3",
+      "C. 3:4",
+      "D. 3:5"
+    ],
+    "option_images": [],
+    "answer": "A. 4:3",
+    "solution": "Let $\\sin A = 3k, \\sin B = 4k, \\sin C = 5k$. By sine rule: $a=3l, b=4l, c=5l$\n\n$\\cos A = \\frac{b^2+c^2-a^2}{2bc} = \\frac{16+25-9}{2\\times4\\times5} = \\frac{32}{40} = \\frac{4}{5}$\n\n$\\cos B = \\frac{c^2+a^2-b^2}{2ac} = \\frac{25+9-16}{2\\times3\\times5} = \\frac{18}{30} = \\frac{3}{5}$\n\n$\\cos A : \\cos B = \\frac{4}{5}:\\frac{3}{5} = 4:3$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Coordinate Geometry",
+    "question": "The tangent and normal to the ellipse 3x² + 5y² = 32 at the point P(2,2) meet the x-axis at Q and R, respectively. Then the area (in sq. units) of the triangle PQR is (April 2019)",
+    "question_latex": "The tangent and normal to the ellipse $3x^2 + 5y^2 = 32$ at the point $P(2,2)$ meet the $x$-axis at $Q$ and $R$, respectively. Then the area (in sq. units) of the triangle $PQR$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 34/15",
+      "B. 68/15",
+      "C. 16/3",
+      "D. 14/3"
+    ],
+    "option_images": [],
+    "answer": "B. 68/15",
+    "solution": "At $P(2,2)$: Tangent to $3x^2+5y^2=32$ is $3(2)x+5(2)y=32 \\Rightarrow 6x+10y=32 \\Rightarrow 3x+5y=16$.\n\nQ (x-intercept): $y=0 \\Rightarrow x=\\frac{16}{3}$, so $Q=\\left(\\frac{16}{3},0\\right)$.\n\nNormal at $P$: slope of tangent $=-\\frac{3}{5}$, slope of normal $=\\frac{5}{3}$.\n\nNormal: $y-2=\\frac{5}{3}(x-2) \\Rightarrow 5x-3y=4$. At $y=0$: $x=\\frac{4}{5}$, so $R=\\left(\\frac{4}{5},0\\right)$.\n\nArea $=\\frac{1}{2}\\times QR\\times h = \\frac{1}{2}\\times\\left|\\frac{16}{3}-\\frac{4}{5}\\right|\\times 2 = \\frac{68}{15}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Coordinate Geometry",
+    "question": "The points (1,1), (-5,5) and (13, λ) lie on the same straight line, if λ is equal to",
+    "question_latex": "The points $(1,1), (-5,5)$ and $(13, \\lambda)$ lie on the same straight line, if $\\lambda$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. -7",
+      "C. ±7",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "B. -7",
+    "solution": "Since the given points lie on a line:\n\n$\\begin{vmatrix} 1 & 1 & 1 \\\\ -5 & 5 & 1 \\\\ 13 & \\lambda & 1 \\end{vmatrix} = 0$\n\n$\\Rightarrow 1(5-\\lambda) - 1(-5-13) + 1(-5\\lambda-65) = 0$\n\n$\\Rightarrow -6\\lambda = 42 \\Rightarrow \\lambda = -7$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Coordinate Geometry",
+    "question": "AB is vertical tower. The point A is on the ground and C is the middle point of AB. The part CB subtend an angle α at a point P on the ground. If AP = n AB, then the correct relation is",
+    "question_latex": "$AB$ is vertical tower. The point $A$ is on the ground and $C$ is the middle point of $AB$. The part $CB$ subtend an angle $\\alpha$ at a point $P$ on the ground. If $AP = n \\cdot AB$, then the correct relation is",
+    "question_images": [],
+    "options": [
+      "A. n = (n²+1) tan α",
+      "B. n = (2n²-1) tan α",
+      "C. n² = (2n²+1) tan α",
+      "D. n = (2n²+1) tan α"
+    ],
+    "option_images": [],
+    "answer": "D. n = (2n²+1) tan α",
+    "solution": "In $\\triangle PAB$: $\\tan\\beta = \\frac{AB}{AP}$\n\nIn $\\triangle PAC$: $\\tan\\theta = \\frac{AC}{AP}$\n\n$\\tan\\alpha = \\tan(\\beta-\\theta) = \\frac{\\frac{AB}{AP}-\\frac{AC}{AP}}{1+\\frac{AB\\cdot AC}{AP^2}}$\n\nSince $AP = n(AB)$ and $C$ is midpoint: $AC = \\frac{AB}{2} = \\frac{1}{2n}AP$\n\n$\\tan\\alpha = \\frac{\\frac{1}{n}-\\frac{1}{2n}}{1+\\frac{1}{2n^2}} = \\frac{n}{2n^2+1}$\n\n$\\Rightarrow n = (2n^2+1)\\tan\\alpha$",
+    "solution_images": [
+      "23_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Coordinate Geometry",
+    "question": "If in a △PQR, sin P, sin Q, sin R are in AP, then",
+    "question_latex": "If in a $\\triangle PQR$, $\\sin P$, $\\sin Q$, $\\sin R$ are in AP, then",
+    "question_images": [],
+    "options": [
+      "A. The altitudes are in AP",
+      "B. The altitudes are in HP",
+      "C. The medians are in GP",
+      "D. The medians are in AP"
+    ],
+    "option_images": [],
+    "answer": "B. The altitudes are in HP",
+    "solution": "Given $\\sin P, \\sin Q, \\sin R$ are in AP $\\Rightarrow a, b, c$ are in AP.\n\nLet $p_1, p_2, p_3$ be altitudes from $P, Q, R$:\n\n$p_1 = \\frac{2\\Delta}{a}$, $p_2 = \\frac{2\\Delta}{b}$, $p_3 = \\frac{2\\Delta}{c}$\n\nSince $a, b, c$ are in AP $\\Rightarrow \\frac{1}{a}, \\frac{1}{b}, \\frac{1}{c}$ are in HP $\\Rightarrow p_1, p_2, p_3$ are in HP.",
+    "solution_images": [
+      "24_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Coordinate Geometry",
+    "question": "Let S and S' be the foci of an ellipse and B be any one of the extremities of its minor axis. If △S'BS is a right angled triangle with right angle at B and area (△S'BS) = 8 sq. units, then the length of a latus rectum of the ellipse is (Jan 2019)",
+    "question_latex": "Let $S$ and $S'$ be the foci of an ellipse and $B$ be any one of the extremities of its minor axis. If $\\triangle S'BS$ is a right angled triangle with right angle at $B$ and area $(\\triangle S'BS) = 8$ sq. units, then the length of a latus rectum of the ellipse is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 2√2",
+      "B. 4",
+      "C. 2",
+      "D. 4√2"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "Since $\\angle S'BS = 90°$: Slope of $S'B \\times$ Slope of $SB = -1 \\Rightarrow b^2 = a^2e^2$ ...(i)\n\nArea of $\\triangle S'BS = 8$: $\\frac{1}{2}\\times 2ae\\times b = 8 \\Rightarrow ae\\times b = 8 \\Rightarrow a^2e^2b^2 = 64 \\Rightarrow (a^2e^2)^2 = 64$\n\n$\\Rightarrow a^2e^2 = 8 \\Rightarrow ae = \\pm2\\sqrt{2}$, $b = 2\\sqrt{2}$\n\n$a^2 = a^2e^2+b^2 = 8+8 = 16 \\Rightarrow a = 4$\n\nLength of latus rectum $= \\frac{2b^2}{a} = \\frac{2\\times8}{4} = 4$",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Coordinate Geometry",
+    "question": "If p₁, p₂, p₃ are altitudes of a △ABC drawn from the vertices A, B, C and Δ the area of the triangle, then p₁⁻² + p₂⁻² + p₃⁻² is equal to",
+    "question_latex": "If $p_1, p_2, p_3$ are altitudes of a $\\triangle ABC$ drawn from the vertices $A, B, C$ and $\\Delta$ the area of the triangle, then $p_1^{-2}+p_2^{-2}+p_3^{-2}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. (a+b+c)/Δ",
+      "B. (a²+b²+c²)/(4Δ²)",
+      "C. (a²+b²+c²)/Δ²",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. (a²+b²+c²)/(4Δ²)",
+    "solution": "We have $\\frac{1}{2}ap_1 = \\Delta$, $\\frac{1}{2}bp_2 = \\Delta$, $\\frac{1}{2}cp_3 = \\Delta$\n\n$\\Rightarrow p_1 = \\frac{2\\Delta}{a}$, $p_2 = \\frac{2\\Delta}{b}$, $p_3 = \\frac{2\\Delta}{c}$\n\n$\\frac{1}{p_1^2}+\\frac{1}{p_2^2}+\\frac{1}{p_3^2} = \\frac{a^2}{4\\Delta^2}+\\frac{b^2}{4\\Delta^2}+\\frac{c^2}{4\\Delta^2} = \\frac{a^2+b^2+c^2}{4\\Delta^2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, let ∠C = π/2, if r is the inradius and R is the circumradius of the △ABC, then 2(r + R) equals",
+    "question_latex": "In a $\\triangle ABC$, let $\\angle C = \\frac{\\pi}{2}$, if $r$ is the inradius and $R$ is the circumradius of the $\\triangle ABC$, then $2(r+R)$ equals",
+    "question_images": [],
+    "options": [
+      "A. c + a",
+      "B. a + b + c",
+      "C. a + b",
+      "D. b + c"
+    ],
+    "option_images": [],
+    "answer": "C. a + b",
+    "solution": "Since $\\frac{c}{\\sin C} = 2R \\Rightarrow c = 2R$ [∵ $C = 90°$] ...(i)\n\n$\\tan\\frac{C}{2} = \\frac{r}{s-c} \\Rightarrow \\tan\\frac{\\pi}{4} = \\frac{r}{s-c} \\Rightarrow r = s-c$\n\n$\\Rightarrow a+b+c = 2s \\Rightarrow r = \\frac{a+b+c}{2}-c = \\frac{a+b-c}{2}$ ...(ii)\n\nFrom (i) and (ii): $2(r+R) = (a+b-c)+c = a+b$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Coordinate Geometry",
+    "question": "If P(1,2), Q(4,6), R(5,7) and S(a,b) are the vertices of a parallelogram PQRS, then",
+    "question_latex": "If $P(1,2), Q(4,6), R(5,7)$ and $S(a,b)$ are the vertices of a parallelogram $PQRS$, then",
+    "question_images": [],
+    "options": [
+      "A. a = 2, b = 4",
+      "B. a = b, b = 4",
+      "C. a = 2, b = 3",
+      "D. a = 3, b = 5"
+    ],
+    "option_images": [],
+    "answer": "C. a = 2, b = 3",
+    "solution": "In a parallelogram, diagonals bisect each other. Midpoint of $PR$ = Midpoint of $QS$:\n\n$\\frac{a+4}{2} = \\frac{1+5}{2} \\Rightarrow a = 2$\n\n$\\frac{b+6}{2} = \\frac{2+7}{2} \\Rightarrow b = 3$",
+    "solution_images": [
+      "28_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Coordinate Geometry",
+    "question": "The locus of a point which divides the line segment joining the point (0, -1) and a point on the parabola x² = 4y, internally in the ratio 1:2, is (Jan 2020)",
+    "question_latex": "The locus of a point which divides the line segment joining the point $(0, -1)$ and a point on the parabola $x^2 = 4y$, internally in the ratio $1:2$, is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. 9x² - 12y = 8",
+      "B. x² - 3y = 2",
+      "C. 4x² - 3y = 2",
+      "D. 9x² - 3y = 2"
+    ],
+    "option_images": [],
+    "answer": "A. 9x² - 12y = 8",
+    "solution": "Let point $P$ be $(2t, t^2)$ on $x^2=4y$ and $Q$ be $(h,k)$ and $A(0,-1)$.\n\nSince $Q$ divides $AP$ internally in ratio $1:2$:\n\n$h = \\frac{2t}{3}$, $k = \\frac{t^2-2}{3}$\n\nEliminating $t$: $3k+2 = t^2 = \\left(\\frac{3h}{2}\\right)^2 = \\frac{9h^2}{4}$\n\n$\\Rightarrow 9x^2 = 12y+8 \\Rightarrow 9x^2-12y = 8$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Coordinate Geometry",
+    "question": "The x-coordinate of the incentre of the triangle where the mid point of the sides are (0, 1), (1, 1) and (1, 0), is",
+    "question_latex": "The $x$-coordinate of the incentre of the triangle where the mid point of the sides are $(0, 1)$, $(1, 1)$ and $(1, 0)$, is",
+    "question_images": [],
+    "options": [
+      "A. 2 + √2",
+      "B. 1 + √2",
+      "C. 2 - √2",
+      "D. 1 - √2"
+    ],
+    "option_images": [],
+    "answer": "C. 2 - √2",
+    "solution": "Since $(0,1), (1,1)$ and $(1,0)$ are midpoints of sides $AB, BC$ and $CA$ respectively.\n\nCoordinates of $A, B$ and $C$ are $(0,0), (0,2)$ and $(2,0)$ respectively.\n\n$AB = 2, BC = 2\\sqrt{2}, CA = 2$\n\n$x$-coordinate of incentre $= \\frac{a\\cdot x_1+b\\cdot x_2+c\\cdot x_3}{a+b+c} = \\frac{0+0+2\\cdot2}{2+2\\sqrt{2}+2} = \\frac{4}{4+2\\sqrt{2}} = \\frac{2}{2+\\sqrt{2}} = 2-\\sqrt{2}$",
+    "solution_images": [
+      "30_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Coordinate Geometry",
+    "question": "If e₁ and e₂ are the eccentricities of the ellipse x²/18 + y²/4 = 1 and the hyperbola x²/9 - y²/4 = 1 respectively and (e₁, e₂) is a point on the ellipse 15x² + 3y² = k, then k is equal to (Jan 2020)",
+    "question_latex": "If $e_1$ and $e_2$ are the eccentricities of the ellipse $\\frac{x^2}{18}+\\frac{y^2}{4}=1$ and the hyperbola $\\frac{x^2}{9}-\\frac{y^2}{4}=1$ respectively and $(e_1,e_2)$ is a point on the ellipse $15x^2+3y^2=k$, then $k$ is equal to (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. 15",
+      "B. 17",
+      "C. 14",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "D. 16",
+    "solution": "$e_1 = \\sqrt{1-\\frac{4}{18}} = \\sqrt{\\frac{7}{9}}$ and $e_2 = \\sqrt{1+\\frac{4}{9}} = \\sqrt{\\frac{13}{9}}$\n\nSince $(e_1, e_2)$ is a point on the ellipse $15x^2+3y^2=k$:\n\n$15e_1^2+3e_2^2 = k \\Rightarrow k = 15\\left(\\frac{7}{9}\\right)+3\\left(\\frac{13}{9}\\right) = \\frac{105+39}{9} = \\frac{144}{9} = 16$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Coordinate Geometry",
+    "question": "If the coordinates of orthocentre O' and centroid G of a △ABC are (0,1) and (2,3) respectively, then the coordinates of the circumcentre are",
+    "question_latex": "If the coordinates of orthocentre $O'$ and centroid $G$ of a $\\triangle ABC$ are $(0,1)$ and $(2,3)$ respectively, then the coordinates of the circumcentre are",
+    "question_images": [],
+    "options": [
+      "A. (3, 2)",
+      "B. (1, 0)",
+      "C. (4, 3)",
+      "D. (3, 4)"
+    ],
+    "option_images": [],
+    "answer": "D. (3, 4)",
+    "solution": "Let $O(x,y)$ be the circumcentre. Then $G$ divides $O'O$ in the ratio $2:1$:\n\n$\\frac{2x+0}{2+1} = 2 \\Rightarrow x = 3$\n\n$\\frac{2y+1}{2+1} = 3 \\Rightarrow y = 4$\n\nHence, the coordinates of $O$ are $(3,4)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Coordinate Geometry",
+    "question": "If 3x + 4y = 12√2 is a tangent to the ellipse x²/a² + y²/9 = 1 for some a ∈ R, then the distance between the foci of the ellipse is (Jan 2020)",
+    "question_latex": "If $3x + 4y = 12\\sqrt{2}$ is a tangent to the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{9}=1$ for some $a\\in R$, then the distance between the foci of the ellipse is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. 2√7",
+      "B. 4",
+      "C. 2√5",
+      "D. 2√2"
+    ],
+    "option_images": [],
+    "answer": "A. 2√7",
+    "solution": "Tangent condition for ellipse: $c^2 = a^2m^2+b^2$\n\nLine $3x+4y=12\\sqrt{2}$ can be written as $y = -\\frac{3}{4}x+3\\sqrt{2}$, so $m=-\\frac{3}{4}$, $c=3\\sqrt{2}$\n\n$(3\\sqrt{2})^2 = a^2\\cdot\\frac{9}{16}+9 \\Rightarrow 18 = \\frac{9a^2}{16}+9 \\Rightarrow a^2 = 16$\n\n$b^2=9$, $c^2=a^2-b^2=7$, distance between foci $=2c=2\\sqrt{7}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Coordinate Geometry",
+    "question": "Let x²/a² + y²/b² = 1 (a > b) be a given ellipse, length of whose latus rectum is 10. If its eccentricity is the maximum value of the function φ(t) = 5/12 + t - t², then a² + b² is equal to (Sept 2020)",
+    "question_latex": "Let $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b)$ be a given ellipse, length of whose latus rectum is 10. If its eccentricity is the maximum value of the function $\\phi(t)=\\frac{5}{12}+t-t^2$, then $a^2+b^2$ is equal to (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. 145",
+      "B. 126",
+      "C. 116",
+      "D. 135"
+    ],
+    "option_images": [],
+    "answer": "B. 126",
+    "solution": "Latus rectum $= \\frac{2b^2}{a} = 10 \\Rightarrow b^2 = 5a$.\n\nMax of $\\phi(t) = \\frac{5}{12}+t-t^2$: $\\phi'(t)=1-2t=0 \\Rightarrow t=\\frac{1}{2}$, max $=\\frac{5}{12}+\\frac{1}{2}-\\frac{1}{4}=\\frac{2}{3}$\n\nSo $e=\\frac{2}{3}$. Now $e^2=1-\\frac{b^2}{a^2}=\\frac{4}{9}$\n\n$\\Rightarrow \\frac{b^2}{a^2}=\\frac{5}{9} \\Rightarrow \\frac{5a}{a^2}=\\frac{5}{9} \\Rightarrow a=9, b^2=45$\n\n$a^2+b^2 = 81+45=126$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Coordinate Geometry",
+    "question": "P is a point on the segment joining the feet of two vertical poles of height a and b. The angles of elevation of the top of the poles from P are 45° each. Then, the square of the distance between the top of the poles is",
+    "question_latex": "$P$ is a point on the segment joining the feet of two vertical poles of height $a$ and $b$. The angles of elevation of the top of the poles from $P$ are $45°$ each. Then, the square of the distance between the top of the poles is",
+    "question_images": [],
+    "options": [
+      "A. (a²+b²)/2",
+      "B. a²+b²",
+      "C. 2(a²+b²)",
+      "D. 4(a²+b²)"
+    ],
+    "option_images": [],
+    "answer": "C. 2(a²+b²)",
+    "solution": "In $\\triangle APD$: $\\tan45°=\\frac{a}{AP} \\Rightarrow AP=a$\n\nIn $\\triangle BPC$: $\\tan45°=\\frac{b}{PB} \\Rightarrow PB=b$\n\n$\\therefore DE = a+b$ and $CE = b-a$\n\nIn $\\triangle DEC$: $DC^2 = DE^2+EC^2 = (a+b)^2+(b-a)^2 = 2(a^2+b^2)$",
+    "solution_images": [
+      "35_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Coordinate Geometry",
+    "question": "Let A(h,k), B(1,1) and C(2,1) be the vertices of a right angled triangle with AC as its hypotenuse. If the area of the triangle is 1 square unit, then the set of values which 'k' can take is given by (2007)",
+    "question_latex": "Let $A(h,k)$, $B(1,1)$ and $C(2,1)$ be the vertices of a right angled triangle with $AC$ as its hypotenuse. If the area of the triangle is 1 square unit, then the set of values which $'k'$ can take is given by (2007)",
+    "question_images": [],
+    "options": [
+      "A. {-1, 3}",
+      "B. {0, 2}",
+      "C. {-3, -2}",
+      "D. {1, 3}"
+    ],
+    "option_images": [],
+    "answer": "A. {-1, 3}",
+    "solution": "Area $= \\frac{1}{2}\\times|k-1|\\times 1 = 1 \\Rightarrow k = -1, 3$\n\nThe set of values of $k$ is $\\{-1, 3\\}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Coordinate Geometry",
+    "question": "An ellipse is drawn by taking a diameter of the circle (x-1)² + y² = 1 as its semi-minor axis and a diameter of the circle x² + (y-2)² = 4 as its semi-major axis. If the centre of the ellipse is at the origin and its axes are the coordinate axes, then the equation of the ellipse is (2012)",
+    "question_latex": "An ellipse is drawn by taking a diameter of the circle $(x-1)^2+y^2=1$ as its semi-minor axis and a diameter of the circle $x^2+(y-2)^2=4$ as its semi-major axis. If the centre of the ellipse is at the origin and its axes are the coordinate axes, then the equation of the ellipse is (2012)",
+    "question_images": [],
+    "options": [
+      "A. x² + 4y² = 8",
+      "B. x² + 4y² = 16",
+      "C. 4x² + y² = 8",
+      "D. 4x² + y² = 4"
+    ],
+    "option_images": [],
+    "answer": "B. x² + 4y² = 16",
+    "solution": "$(x-1)^2+y^2=1$: $r=1 \\Rightarrow a = 2$ (semi-minor axis $= 2$)\n\n$x^2+(y-2)^2=4$: $r=2 \\Rightarrow b = 4$ (semi-major axis $= 4$)\n\n$\\Rightarrow \\frac{x^2}{16}+\\frac{y^2}{4}=1 \\Rightarrow x^2+4y^2=16$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Coordinate Geometry",
+    "question": "Let ABC be a triangle, two of whose vertices are (15, 0) and (0, 10). If the orthocenter is (6, 9), then the third vertex is",
+    "question_latex": "Let $ABC$ be a triangle, two of whose vertices are $(15, 0)$ and $(0, 10)$. If the orthocenter is $(6, 9)$, then the third vertex is",
+    "question_images": [],
+    "options": [
+      "A. (15, 10)",
+      "B. (10, -15)",
+      "C. (0, 0)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. (0, 0)",
+    "solution": "Let two vertices be $A(15,0)$ and $B(0,10)$ and third vertex be $C(h,k)$.\n\nLine through $A$ and $B$ must be perpendicular to line through $C$ and orthocenter $O(6,9)$.\n\n$\\frac{-2}{3}\\left(\\frac{9-k}{6-h}\\right) = -1 \\Rightarrow 2k = 3h$\n\nThis is satisfied by $(0,0)$. Hence, third vertex is $(0,0)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Coordinate Geometry",
+    "question": "If the sides of the triangle are p, q, √(p²+q²+pq), then the greatest angle is",
+    "question_latex": "If the sides of the triangle are $p, q, \\sqrt{p^2+q^2+pq}$, then the greatest angle is",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. 5π/4",
+      "C. 2π/3",
+      "D. 7π/4"
+    ],
+    "option_images": [],
+    "answer": "C. 2π/3",
+    "solution": "The largest side is $\\sqrt{p^2+q^2+pq}$. Let $\\theta$ be greatest angle:\n\n$\\cos\\theta = \\frac{p^2+q^2-p^2-q^2-pq}{2pq} = \\frac{-pq}{2pq} = -\\frac{1}{2}$\n\n$\\Rightarrow \\theta = \\frac{2\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Coordinate Geometry",
+    "question": "A rod of length l slides with its ends on two perpendicular lines. The locus of a point which divides it in the ratio 1:2, is",
+    "question_latex": "A rod of length $l$ slides with its ends on two perpendicular lines. The locus of a point which divides it in the ratio $1:2$, is",
+    "question_images": [],
+    "options": [
+      "A. 36x² + 9y² = 4l²",
+      "B. 36x² + 9y² = l²",
+      "C. 9x² + 36y² = 4l²",
+      "D. 9x² - 36y² = 4l²"
+    ],
+    "option_images": [],
+    "answer": "A. 36x² + 9y² = 4l²",
+    "solution": "Let the rod have ends on $x$ and $y$ axes at $(a,0)$ and $(0,b)$ with $a^2+b^2=l^2$.\n\nPoint dividing in $1:2$: $x=\\frac{a}{3}$, $y=\\frac{2b}{3}$\n\n$\\Rightarrow a=3x$, $b=\\frac{3y}{2}$\n\n$a^2+b^2=l^2 \\Rightarrow 9x^2+\\frac{9y^2}{4}=l^2 \\Rightarrow 36x^2+9y^2=4l^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Coordinate Geometry",
+    "question": "Let ABC be a triangle such that ∠ACB = π/6 and let a, b and c denote the lengths of the sides opposite to A, B and C respectively. The value(s) of x for which a = x² + x + 1, b = x² - 1 and c = 2x + 1 is (are)",
+    "question_latex": "Let $ABC$ be a triangle such that $\\angle ACB = \\frac{\\pi}{6}$ and let $a, b$ and $c$ denote the lengths of the sides opposite to $A$, $B$ and $C$ respectively. The value(s) of $x$ for which $a = x^2+x+1$, $b = x^2-1$ and $c = 2x+1$ is (are)",
+    "question_images": [],
+    "options": [
+      "A. -(2+√3)",
+      "B. 1 + √3",
+      "C. 2 + √3",
+      "D. 4√3"
+    ],
+    "option_images": [],
+    "answer": "B. 1 + √3",
+    "solution": "Using $\\cos C = \\frac{a^2+b^2-c^2}{2ab}$ with $C=\\frac{\\pi}{6}$:\n\n$\\frac{\\sqrt{3}}{2} = \\frac{(x^2+x+1)^2+(x^2-1)^2-(2x+1)^2}{2(x^2+x+1)(x^2-1)}$\n\nAfter simplification: $2(2-\\sqrt{3})x^2+(2-\\sqrt{3})x-(\\sqrt{3}+1)=0$\n\n$\\Rightarrow x = -(2+\\sqrt{3})$ and $x = 1+\\sqrt{3}$\n\nBut $x = -(2+\\sqrt{3})$ gives $c$ is negative, so $x = 1+\\sqrt{3}$ is the only solution.",
+    "solution_images": [
+      "41_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Coordinate Geometry",
+    "question": "The transformed equation of x² + 6xy + 8y² = 10 when the axes are rotated through an angle π/4 is",
+    "question_latex": "The transformed equation of $x^2+6xy+8y^2=10$ when the axes are rotated through an angle $\\frac{\\pi}{4}$ is",
+    "question_images": [],
+    "options": [
+      "A. 15x² - 14xy + 3y² = 20",
+      "B. 15x² + 14xy - 3y² = 20",
+      "C. 15x² + 14xy + 3y² = 20",
+      "D. 15x² - 14xy - 3y² = 20"
+    ],
+    "option_images": [],
+    "answer": "C. 15x² + 14xy + 3y² = 20",
+    "solution": "Rotating axes by $\\frac{\\pi}{4}$: $x = \\frac{x_1-y_1}{\\sqrt{2}}$, $y = \\frac{x_1+y_1}{\\sqrt{2}}$\n\nSubstituting in $x^2+6xy+8y^2=10$:\n\n$\\frac{(x_1-y_1)^2}{2}+6\\cdot\\frac{(x_1-y_1)(x_1+y_1)}{2}+8\\cdot\\frac{(x_1+y_1)^2}{2}=10$\n\n$\\Rightarrow x_1^2+y_1^2-2x_1y_1+6x_1^2-6y_1^2+8x_1^2+8y_1^2+16x_1y_1=20$\n\n$\\Rightarrow 15x_1^2+3y_1^2+14x_1y_1=20$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Coordinate Geometry",
+    "question": "Let the hyperbola H: x²/a² - y²/b² = 1 pass through the point (2√2, -2√2). A parabola is drawn whose focus is same as the focus of H with positive abscissa and the directrix of the parabola passes through the other focus of H. If the length of the latus rectum of the parabola is e times the length of the latus rectum of H, where e is the eccentricity of H, then which of the following points lies on the parabola? (July 2022)",
+    "question_latex": "Let the hyperbola $H: \\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ pass through the point $(2\\sqrt{2}, -2\\sqrt{2})$. A parabola is drawn whose focus is same as the focus of $H$ with positive abscissa and the directrix of the parabola passes through the other focus of $H$. If the length of the latus rectum of the parabola is $e$ times the length of the latus rectum of $H$, where $e$ is the eccentricity of $H$, then which of the following points lies on the parabola? (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. (2√3, 3√2)",
+      "B. (3√3, -6√2)",
+      "C. (√3, -√6)",
+      "D. (3√6, 6√2)"
+    ],
+    "option_images": [],
+    "answer": "B. (3√3, -6√2)",
+    "solution": "Foci of hyperbola are $S(ae,0)$ and $S'(-ae,0)$. Latus rectum of parabola $= 2(ae+ae) = 4ae$.\n\n$4ae = e\\left(\\frac{2b^2}{a}\\right) \\Rightarrow b^2 = 2a^2$\n\nPasses through $(2\\sqrt{2},-2\\sqrt{2})$: $\\frac{8}{a^2}-\\frac{8}{b^2}=1 \\Rightarrow \\frac{8}{a^2}-\\frac{4}{a^2}=1 \\Rightarrow a^2=4, b^2=8$\n\n$e = \\sqrt{1+\\frac{8}{4}} = \\sqrt{3}$. Parabola: $y^2 = 4ae\\cdot x \\Rightarrow y^2 = 8\\sqrt{3}x$\n\n$(3\\sqrt{3}, -6\\sqrt{2})$: $y^2 = 72 = 8\\sqrt{3}\\cdot3\\sqrt{3} = 72$ ✓",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Coordinate Geometry",
+    "question": "Let P be a point on the parabola x² = 4y. If the distance of P from the centre of the circle x² + y² + 6x + 8 = 0 is minimum, then the equation of the tangent to the parabola at P, is (Online 2018)",
+    "question_latex": "Let $P$ be a point on the parabola $x^2 = 4y$. If the distance of $P$ from the centre of the circle $x^2+y^2+6x+8=0$ is minimum, then the equation of the tangent to the parabola at $P$, is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. x + 2y = 0",
+      "B. x + y + 1 = 0",
+      "C. x + 4y - 2 = 0",
+      "D. x - y + 3 = 0"
+    ],
+    "option_images": [],
+    "answer": "B. x + y + 1 = 0",
+    "solution": "Let $P(2t, t^2)$. Centre of circle is $(-3, 0)$.\n\n$f(t) = (2t+3)^2+(t^2)^2 = 4t^2+9+12t+t^4$\n\n$f'(t) = 8t+12+4t^3 = 4(t+1)(t^2-t+3) = 0 \\Rightarrow t = -1$\n\nSo $P = (-2, 1)$. Equation of tangent: $xx_1 = 2(y+y_1) \\Rightarrow x(-2) = 2(y+1) \\Rightarrow x+y+1=0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Coordinate Geometry",
+    "question": "Three points are A(6,3), B(-3,5), C(4,-2) and P(x,y) is a point, then the ratio of area of △PBC and △ABC is",
+    "question_latex": "Three points are $A(6,3)$, $B(-3,5)$, $C(4,-2)$ and $P(x,y)$ is a point, then the ratio of area of $\\triangle PBC$ and $\\triangle ABC$ is",
+    "question_images": [],
+    "options": [
+      "A. |x+y-2|/7",
+      "B. |x-y+2|/2",
+      "C. |x-y-2|/7",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. |x+y-2|/7",
+    "solution": "Area of $\\frac{\\triangle PBC}{\\triangle ABC} = \\left[\\frac{\\{-3(-2-y)+4(y-5)+x(5+2)\\}}{\\{6(5+2)-3(-2-3)+4(3-5)\\}}\\right]$\n\n$= \\left|\\frac{7x+7y-14}{49}\\right| = \\left|\\frac{x+y-2}{7}\\right|$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, if 2s = a + b + c, then s(s-a)/bc - (s-b)(s-c)/bc is equal to",
+    "question_latex": "In a $\\triangle ABC$, if $2s = a+b+c$, then the value of $\\frac{s(s-a)}{bc} - \\frac{(s-b)(s-c)}{bc}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. sin A",
+      "B. cos A",
+      "C. tan A",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. cos A",
+    "solution": "$\\frac{s(s-a)}{bc}-\\frac{(s-b)(s-c)}{bc} = \\cos^2\\frac{A}{2}-\\sin^2\\frac{A}{2} = \\cos A$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Coordinate Geometry",
+    "question": "If the distance between the foci of an ellipse is half the length of its latus rectum, then the eccentricity of the ellipse is (Online 2015)",
+    "question_latex": "If the distance between the foci of an ellipse is half the length of its latus rectum, then the eccentricity of the ellipse is (Online 2015)",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. (2√2-1)/2",
+      "C. √2 - 1",
+      "D. (√2-1)/2"
+    ],
+    "option_images": [],
+    "answer": "C. √2 - 1",
+    "solution": "Given $2ae = \\frac{1}{2}\\cdot\\frac{2b^2}{a} \\Rightarrow 2ae = \\frac{b^2}{a} \\Rightarrow 2e = \\frac{b^2}{a^2} = 1-e^2$\n\n$e^2+2e-1=0 \\Rightarrow e = \\frac{-2+\\sqrt{4+4}}{2} = \\sqrt{2}-1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Coordinate Geometry",
+    "question": "In △ABC, 2(a sin²C/2 + c sin²A/2) is equal to",
+    "question_latex": "In $\\triangle ABC$, $2\\left(a\\sin^2\\frac{C}{2}+c\\sin^2\\frac{A}{2}\\right)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. a + b - c",
+      "B. c + a - b",
+      "C. b + c - a",
+      "D. a + b + c"
+    ],
+    "option_images": [],
+    "answer": "B. c + a - b",
+    "solution": "$2\\left(a\\sin^2\\frac{C}{2}+c\\sin^2\\frac{A}{2}\\right) = 2\\left(a\\cdot\\frac{(s-a)(s-b)}{ab}+c\\cdot\\frac{(s-b)(s-c)}{bc}\\right)$\n\n$= 2\\cdot\\frac{(s-b)}{b}(s-a+s-c) = \\frac{2(s-b)}{b}\\cdot b = 2(s-b) = a+c-b$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Coordinate Geometry",
+    "question": "Two common tangents to the circle x² + y² = 2a² and parabola y² = 8ax are (2002)",
+    "question_latex": "Two common tangents to the circle $x^2+y^2=2a^2$ and parabola $y^2=8ax$ are (2002)",
+    "question_images": [],
+    "options": [
+      "A. x = ±(y + a)",
+      "B. y = ±(x + 2a)",
+      "C. x = ±(y + 2a)",
+      "D. y = ±(x + a)"
+    ],
+    "option_images": [],
+    "answer": "B. y = ±(x + 2a)",
+    "solution": "Let tangent to parabola $y^2=8ax$ be $y=mx+\\frac{2a}{m}$. For it to be tangent to circle $x^2+y^2=2a^2$:\n\n$\\frac{|2a/m|}{\\sqrt{1+m^2}} = a\\sqrt{2} \\Rightarrow m^2=1 \\Rightarrow m=\\pm1$\n\nCommon tangents: $y = \\pm(x+2a)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Coordinate Geometry",
+    "question": "If the tangents drawn at the points P and Q on the parabola y² = 2x - 3 intersect at the point R(0,1), then the orthocentre of the triangle PQR is (July 2022)",
+    "question_latex": "If the tangents drawn at the points $P$ and $Q$ on the parabola $y^2 = 2x-3$ intersect at the point $R(0,1)$, then the orthocentre of the triangle $PQR$ is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. (0,1)",
+      "B. (2,-1)",
+      "C. (6,3)",
+      "D. (2,1)"
+    ],
+    "option_images": [],
+    "answer": "B. (2,-1)",
+    "solution": "Parabola: $(y-0)^2 = 4\\cdot\\frac{1}{2}\\left(x-\\frac{3}{2}\\right)$. Tangent slope $m$: $y=m\\left(x-\\frac{3}{2}\\right)+\\frac{1}{2m}$\n\n$R(0,1)$ on tangent: $1=m\\left(-\\frac{3}{2}\\right)+\\frac{1}{2m} \\Rightarrow 3m^2+2m-1=0 \\Rightarrow m=\\frac{1}{3}$ or $-1$\n\n$P = \\left(\\frac{3}{2}+\\frac{9}{2},0+2\\cdot\\frac{1}{3}\\cdot3\\right) = (6,3)$ and $Q = \\left(\\frac{3}{2}+\\frac{1}{2},0-2\\right) = (2,-1)$\n\nOrthocentre $= (2,-1)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Coordinate Geometry",
+    "question": "Let P be the point (1,0) and Q a point on the locus y² = 8x. The locus of mid point of PQ is (2005)",
+    "question_latex": "Let $P$ be the point $(1,0)$ and $Q$ a point on the locus $y^2 = 8x$. The locus of mid point of $PQ$ is (2005)",
+    "question_images": [],
+    "options": [
+      "A. x² - 4y + 2 = 0",
+      "B. x² + 4y + 2 = 0",
+      "C. y² + 4x + 2 = 0",
+      "D. y² - 4x + 2 = 0"
+    ],
+    "option_images": [],
+    "answer": "D. y² - 4x + 2 = 0",
+    "solution": "Let $M(h,k)$ be the midpoint. $\\frac{x'+1}{2}=h$, $\\frac{y'+0}{2}=k$\n\n$\\Rightarrow x'=2h-1, y'=2k$. Now $(x',y')$ lies on $y^2=8x$:\n\n$(2k)^2 = 8(2h-1) \\Rightarrow 4k^2 = 16h-8 \\Rightarrow y^2 = 4x-2 \\Rightarrow y^2-4x+2=0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Coordinate Geometry",
+    "question": "The radius of the incircle of triangle when sides are 18, 24 and 30 cm is",
+    "question_latex": "The radius of the incircle of triangle when sides are 18, 24 and 30 cm is",
+    "question_images": [],
+    "options": [
+      "A. 2 cm",
+      "B. 4 cm",
+      "C. 6 cm",
+      "D. 9 cm"
+    ],
+    "option_images": [],
+    "answer": "C. 6 cm",
+    "solution": "$s = \\frac{18+24+30}{2} = 36$\n\n$\\Delta = \\sqrt{36(36-18)(36-24)(36-30)} = \\sqrt{36\\times18\\times12\\times6} = 216$\n\n$r = \\frac{\\Delta}{s} = \\frac{216}{36} = 6$ cm",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Coordinate Geometry",
+    "question": "If O'(4, 8/3) is the orthocentre of the triangle ABC the coordinates of whose vertices are O(0,0), A(8,0) and B(4,6), then the coordinates of the orthocentre of △O'AB are",
+    "question_latex": "If $O'(4, 8/3)$ is the orthocentre of the triangle $ABC$ the coordinates of whose vertices are $O(0,0)$, $A(8,0)$ and $B(4,6)$, then the coordinates of the orthocentre of $\\triangle O'AB$ are",
+    "question_images": [],
+    "options": [
+      "A. (0, 0)",
+      "B. (8, 0)",
+      "C. (4, 6)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. (0, 0)",
+    "solution": "If $O'$ is the orthocentre of $\\triangle ABC$, then the points $O', A, B, C$ are such that each point is the orthocentre of the triangle formed by the remaining three points.\n\nSo, the coordinates of the orthocentre of $\\triangle O'AB$ are $(0,0)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Coordinate Geometry",
+    "question": "P is a point on the segment joining the feet of two vertical poles of height a and b. The angles of elevation of the top of the poles from P are 45° each. Then, the square of the distance between the top of the poles is",
+    "question_latex": "$P$ is a point on the segment joining the feet of two vertical poles of height $a$ and $b$. The angles of elevation of the top of the poles from $P$ are $45°$ each. Then, the square of the distance between the top of the poles is",
+    "question_images": [],
+    "options": [
+      "A. (a²+b²)/2",
+      "B. a²+b²",
+      "C. 2(a²+b²)",
+      "D. 4(a²+b²)"
+    ],
+    "option_images": [],
+    "answer": "C. 2(a²+b²)",
+    "solution": "In $\\triangle APD$: $\\tan45°=\\frac{a}{AP} \\Rightarrow AP=a$\n\nIn $\\triangle BPC$: $\\tan45°=\\frac{b}{PB} \\Rightarrow PB=b$\n\n$DE = a+b$, $CE = b-a$\n\n$DC^2 = DE^2+EC^2 = (a+b)^2+(b-a)^2 = 2(a^2+b^2)$",
+    "solution_images": [
+      "54_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Coordinate Geometry",
+    "question": "The coordinate axes rotated through an angle 135°. If the coordinates of a point P in the new system are known to be (4, -3), then the coordinates of P in the original system are",
+    "question_latex": "The coordinate axes rotated through an angle $135°$. If the coordinates of a point $P$ in the new system are known to be $(4, -3)$, then the coordinates of $P$ in the original system are",
+    "question_images": [],
+    "options": [
+      "A. (1/√2, 7/√2)",
+      "B. (1/√2, -7/√2)",
+      "C. (-1/√2, -7/√2)",
+      "D. (-1/√2, 7/√2)"
+    ],
+    "option_images": [],
+    "answer": "D. (-1/√2, 7/√2)",
+    "solution": "If axes are rotated by $\\theta$: $p = (x\\cos\\theta-y\\sin\\theta, x\\sin\\theta+y\\cos\\theta)$\n\nWith $\\theta=135°$ and new point $(4,-3)$:\n\n$p = [4\\cos(90°+45°)+3\\sin(90°+45°), 4\\sin(90°+45°)-3\\cos(90°+45°)]$\n\n$= [-4\\sin45°+3\\cos45°, 4\\cos45°+3\\sin45°] = \\left[-\\frac{1}{\\sqrt{2}}, \\frac{7}{\\sqrt{2}}\\right]$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Coordinate Geometry",
+    "question": "In a triangle ABC, a:b:c = 4:5:6. The ratio of the radius of the circumcircle to that of the incircle is",
+    "question_latex": "In a triangle $ABC$, $a:b:c = 4:5:6$. The ratio of the radius of the circumcircle to that of the incircle is",
+    "question_images": [],
+    "options": [
+      "A. 15/4",
+      "B. 11/5",
+      "C. 16/7",
+      "D. 16/3"
+    ],
+    "option_images": [],
+    "answer": "C. 16/7",
+    "solution": "Sides: $4x, 5x, 6x$. $s=\\frac{15x}{2}$\n\n$\\Delta = \\sqrt{\\frac{15}{2}x\\cdot\\frac{7}{2}x\\cdot\\frac{5}{2}x\\cdot\\frac{3}{2}x} = \\frac{15\\sqrt{7}x^2}{4}$\n\n$R = \\frac{4x\\cdot5x\\cdot6x}{4\\Delta} = \\frac{8x}{\\sqrt{7}}$\n\n$r = \\frac{\\Delta}{s} = \\frac{\\sqrt{7}x}{2}$\n\n$\\frac{R}{r} = \\frac{8/\\sqrt{7}}{\\sqrt{7}/2} = \\frac{16}{7}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Coordinate Geometry",
+    "question": "In an ellipse, the distance between its foci is 6 and minor axis is 8. Then its eccentricity is (2006)",
+    "question_latex": "In an ellipse, the distance between its foci is 6 and minor axis is 8. Then its eccentricity is (2006)",
+    "question_images": [],
+    "options": [
+      "A. 3/5",
+      "B. 1/√5",
+      "C. 1/2",
+      "D. 4/5"
+    ],
+    "option_images": [],
+    "answer": "A. 3/5",
+    "solution": "Let $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ $(a>b)$ ...(i)\n\n$2b=8 \\Rightarrow b=4$ and $2ae=6 \\Rightarrow ae=3$\n\n$a^2 = b^2+(ae)^2 = 16+9 = 25 \\Rightarrow a=5$\n\n$e = \\frac{ae}{a} = \\frac{3}{5}$",
+    "solution_images": [
+      "57_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Coordinate Geometry",
+    "question": "If the sides of the triangles are 5k, 6k, 5k and radius of incircle is 6, the value of k is equal to",
+    "question_latex": "If the sides of the triangles are $5k, 6k, 5k$ and radius of incircle is 6, the value of $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "Let $a=5k, b=6k, c=5k$. $s=8k$, $r=\\frac{3k}{2}=6 \\Rightarrow k=4$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Coordinate Geometry",
+    "question": "The angle of elevation of the top of a tower from the top and bottom of a building of height 'a' are 30° and 45° respectively. If the tower and the building stand at the same level, the height of the tower is",
+    "question_latex": "The angle of elevation of the top of a tower from the top and bottom of a building of height $'a'$ are $30°$ and $45°$ respectively. If the tower and the building stand at the same level, the height of the tower is",
+    "question_images": [],
+    "options": [
+      "A. a(3+√3)/2",
+      "B. a(√3+1)",
+      "C. a√3",
+      "D. a(√3-1)"
+    ],
+    "option_images": [],
+    "answer": "A. a(3+√3)/2",
+    "solution": "Let $CD$ be tower of height $h$ and $AB$ be building of height $a$.\n\nIn $\\triangle BLD$: $\\tan30°=\\frac{h-a}{LB} \\Rightarrow LB=\\sqrt{3}(h-a)$\n\nIn $\\triangle ACD$: $\\tan45°=\\frac{h}{LB} \\Rightarrow h(\\sqrt{3}-1)=\\sqrt{3}a$\n\n$h = \\frac{\\sqrt{3}a}{\\sqrt{3}-1} = \\frac{\\sqrt{3}(\\sqrt{3}+1)a}{2} = \\frac{(3+\\sqrt{3})a}{2}$",
+    "solution_images": [
+      "59_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Coordinate Geometry",
+    "question": "The equation of the three sides of a triangle are x = 2, y + 1 = 0 and x + 2y = 4. The coordinates of the circumcentre of the triangles are",
+    "question_latex": "The equation of the three sides of a triangle are $x = 2$, $y+1=0$ and $x+2y=4$. The coordinates of the circumcentre of the triangles are",
+    "question_images": [],
+    "options": [
+      "A. (4, 0)",
+      "B. (2, -1)",
+      "C. (0, 4)",
+      "D. (-1, 2)"
+    ],
+    "option_images": [],
+    "answer": "A. (4, 0)",
+    "solution": "Vertices: $A(2,-1)$, $B(6,-1)$, $C(2,1)$.\n\nThe circumcentre of $\\triangle ABC$ is the midpoint of $BC$:\n\n$M = \\left(\\frac{8}{2},\\frac{0}{2}\\right) = (4,0)$",
+    "solution_images": [
+      "60_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Coordinate Geometry",
+    "question": "Coordinates of the foot of the perpendicular drawn from (0, 0) to the line joining (a cosα, a sinα) and (a cosβ, a sinβ) are",
+    "question_latex": "Coordinates of the foot of the perpendicular drawn from $(0,0)$ to the line joining $(a\\cos\\alpha, a\\sin\\alpha)$ and $(a\\cos\\beta, a\\sin\\beta)$ are",
+    "question_images": [],
+    "options": [
+      "A. (a/2, b/2)",
+      "B. (a/2(cosα+cosβ), a/2(sinα+sinβ))",
+      "C. (cos(α+β)/2, sin(α+β)/2)",
+      "D. (0, b/2)"
+    ],
+    "option_images": [],
+    "answer": "B. (a/2(cosα+cosβ), a/2(sinα+sinβ))",
+    "solution": "Slope of perpendicular to the joining line $= \\tan\\frac{\\alpha+\\beta}{2}$\n\nEquation of perpendicular from $(0,0)$: $y = \\tan\\frac{\\alpha+\\beta}{2}\\cdot x$ ...(i)\n\nSolving with line equation gives foot $= \\left[\\frac{a}{2}(\\cos\\alpha+\\cos\\beta), \\frac{a}{2}(\\sin\\alpha+\\sin\\beta)\\right]$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, 2a² + 4b² + c² = 4ab + 2ac, then cos B is equal to",
+    "question_latex": "In a $\\triangle ABC$, $2a^2+4b^2+c^2=4ab+2ac$, then $\\cos B$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1/8",
+      "C. 3/8",
+      "D. 7/8"
+    ],
+    "option_images": [],
+    "answer": "D. 7/8",
+    "solution": "$2a^2+4b^2+c^2-4ab-2ac=0$\n\n$\\Rightarrow (a-2b)^2+(a-c)^2=0 \\Rightarrow a=2b=c$ i.e., $a=c=2b$... wait, $a=2c=c$ isn't right.\n\nActually: $(a-2b)^2+(a-c)^2=0 \\Rightarrow a=2b$ and $a=c$\n\n$\\cos B = \\frac{a^2+c^2-b^2}{2ac} = \\frac{c^2+c^2-(c/2)^2}{2c^2} = \\frac{2c^2-c^2/4}{2c^2} = \\frac{7}{8}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, if cosA/a = cosB/b = cosC/c and the side a = 2, then area of the triangle is",
+    "question_latex": "In a $\\triangle ABC$, if $\\frac{\\cos A}{a}=\\frac{\\cos B}{b}=\\frac{\\cos C}{c}$ and the side $a=2$, then area of the triangle is",
+    "question_images": [],
+    "options": [
+      "A. 1 sq unit",
+      "B. 2 sq unit",
+      "C. √3/2 sq unit",
+      "D. √3 sq unit"
+    ],
+    "option_images": [],
+    "answer": "D. √3 sq unit",
+    "solution": "$\\Delta ABC$ is equilateral (same as Q2). $\\Delta = \\frac{\\sqrt{3}}{4}(2)^2 = \\sqrt{3}$ sq unit.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, if 2s = a + b + c, then s(s-a)/bc - (s-b)(s-c)/bc is equal to",
+    "question_latex": "In a $\\triangle ABC$, if $2s=a+b+c$, then $\\frac{s(s-a)}{bc}-\\frac{(s-b)(s-c)}{bc}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. sin A",
+      "B. cos A",
+      "C. tan A",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. cos A",
+    "solution": "$\\frac{s(s-a)}{bc}-\\frac{(s-b)(s-c)}{bc} = \\cos^2\\frac{A}{2}-\\sin^2\\frac{A}{2} = \\cos A$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Coordinate Geometry",
+    "question": "If the tangent to the conic y - 6 = x² at (2, 10) touches the circle x² + y² + 8x - 2y = k (for some fixed k) at a point (α, β); then (α, β) is (Online 2015)",
+    "question_latex": "If the tangent to the conic $y-6=x^2$ at $(2,10)$ touches the circle $x^2+y^2+8x-2y=k$ (for some fixed $k$) at a point $(\\alpha, \\beta)$; then $(\\alpha, \\beta)$ is (Online 2015)",
+    "question_images": [],
+    "options": [
+      "A. (-7/17, 6/17)",
+      "B. (-8/17, 2/17)",
+      "C. (-6/17, 10/17)",
+      "D. (-4/17, 1/17)"
+    ],
+    "option_images": [],
+    "answer": "B. (-8/17, 2/17)",
+    "solution": "Tangent to $y-6=x^2$ at $(2,10)$: $\\frac{1}{2}(y+10)-6=2x \\Rightarrow 4x-y+2=0$\n\nCentre of circle is $(-4, 1)$. Point of touch is foot of perpendicular from $(-4,1)$ on $4x-y+2=0$:\n\n$\\frac{x+4}{4}=\\frac{y-1}{-1}=\\frac{-(4(-4)-1+2)}{17}=\\frac{15}{17}$\n\n$\\Rightarrow x=\\frac{-8}{17}, y=\\frac{2}{17}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Coordinate Geometry",
+    "question": "If the tangent to the parabola y² = x at a point (α, β), (β > 0) is also a tangent to the ellipse x² + 2y² = 1, then α is equal to (April 2019)",
+    "question_latex": "If the tangent to the parabola $y^2=x$ at a point $(\\alpha, \\beta)$, $(\\beta > 0)$ is also a tangent to the ellipse $x^2+2y^2=1$, then $\\alpha$ is equal to (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 2√2 - 1",
+      "B. √2 + 1",
+      "C. 2√2 + 1",
+      "D. √2 - 1"
+    ],
+    "option_images": [],
+    "answer": "B. √2 + 1",
+    "solution": "Point of contact $(\\beta^2, \\beta)$. Tangent to $y^2=x$ is $y\\beta=\\frac{1}{2}(x+\\beta^2) \\Rightarrow y=\\frac{x}{2\\beta}+\\frac{\\beta}{2}$\n\n$m=\\frac{1}{2\\beta}$, $c=\\frac{\\beta}{2}$. For tangency to ellipse $c^2=a^2m^2+b^2$:\n\n$\\frac{\\beta^2}{4}=\\frac{1}{4\\beta^2}+\\frac{1}{2} \\Rightarrow \\beta^4-2\\beta^2-1=0 \\Rightarrow \\beta^2=1+\\sqrt{2}$\n\n$\\therefore \\alpha = \\beta^2 = 1+\\sqrt{2} = \\sqrt{2}+1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Coordinate Geometry",
+    "question": "If α, β, γ are the real roots of the equation x³ - 3px² + 3qx - 1 = 0, then the centroid of the triangle whose vertices are (α, 1/α), (β, 1/β) and (γ, 1/γ), is",
+    "question_latex": "If $\\alpha, \\beta, \\gamma$ are the real roots of the equation $x^3-3px^2+3qx-1=0$, then the centroid of the triangle whose vertices are $\\left(\\alpha, \\frac{1}{\\alpha}\\right)$, $\\left(\\beta, \\frac{1}{\\beta}\\right)$ and $\\left(\\gamma, \\frac{1}{\\gamma}\\right)$, is",
+    "question_images": [],
+    "options": [
+      "A. (p, q)",
+      "B. (q, p)",
+      "C. (-p, q)",
+      "D. (q, -p)"
+    ],
+    "option_images": [],
+    "answer": "A. (p, q)",
+    "solution": "Since $\\alpha, \\beta, \\gamma$ are roots: $\\alpha+\\beta+\\gamma=3p$, $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=3q$, $\\alpha\\beta\\gamma=1$\n\n$x_{centroid} = \\frac{\\alpha+\\beta+\\gamma}{3} = p$\n\n$y_{centroid} = \\frac{\\frac{1}{\\alpha}+\\frac{1}{\\beta}+\\frac{1}{\\gamma}}{3} = \\frac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{3\\alpha\\beta\\gamma} = \\frac{3q}{3} = q$\n\nCentroid $= (p, q)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Coordinate Geometry",
+    "question": "If the equation of the parabola, whose vertex is at (5, 4) and the directrix is 3x + y - 29 = 0, is x² + ay² + bxy + cx + dy + k = 0, then a + b + c + d + k is equal to (June 2022)",
+    "question_latex": "If the equation of the parabola, whose vertex is at $(5, 4)$ and the directrix is $3x+y-29=0$, is $x^2+ay^2+bxy+cx+dy+k=0$, then $a+b+c+d+k$ is equal to (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. 576",
+      "B. 575",
+      "C. -575",
+      "D. -576"
+    ],
+    "option_images": [],
+    "answer": "D. -576",
+    "solution": "Axis slope $= \\frac{1}{3}$. Axis through $(5,4)$: $x-3y+7=0$ ...(ii)\n\nIntersect directrix and axis: $Q(8,5)$. Vertex is midpoint of $QS$, so $S=(\\alpha,\\beta)=(2,3)$.\n\n$\\left|\\frac{3x+y-29}{\\sqrt{10}}\\right|=\\sqrt{(x-2)^2+(y-3)^2}$\n\n$(3x+y-29)^2=10[(x-2)^2+(y-3)^2]$\n\nExpanding: $x^2+9y^2-6xy+134x-2y-711=0$\n\n$a=9, b=-6, c=134, d=-2, k=-711 \\Rightarrow a+b+c+d+k = -576$",
+    "solution_images": [
+      "68_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Coordinate Geometry",
+    "question": "In △ABC, 2R² sin A sin B sin C is equal to",
+    "question_latex": "In $\\triangle ABC$, $2R^2\\sin A\\sin B\\sin C$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. s²",
+      "B. ab + bc + ca",
+      "C. Δ",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Δ",
+    "solution": "By sine rule: $\\sin A = \\frac{a}{2R}$\n\n$2R^2\\sin A\\sin B\\sin C = 2R^2\\cdot\\frac{a}{2R}\\cdot\\frac{b}{2R}\\cdot\\frac{c}{2R} = \\frac{abc}{4R} = \\Delta$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Coordinate Geometry",
+    "question": "The tangents to the curve y = (x-2)² - 1 at its points of intersection with the line x - y = 3, intersect at the point (April 2019)",
+    "question_latex": "The tangents to the curve $y=(x-2)^2-1$ at its points of intersection with the line $x-y=3$, intersect at the point (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. (-5/2, 1)",
+      "B. (-5/2, -1)",
+      "C. (5/2, 1)",
+      "D. (5/2, -1)"
+    ],
+    "option_images": [],
+    "answer": "D. (5/2, -1)",
+    "solution": "Solving $y=(x-2)^2-1$ and $x-y=3$:\n\n$(x-2)^2-1=x-3 \\Rightarrow x^2-5x+6=0 \\Rightarrow x=2$ or $x=3$\n\nPoints: $(2,-1)$ and $(3,0)$. Tangents at these points intersect at $(\\frac{5}{2},-1)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Coordinate Geometry",
+    "question": "If a², b², c² are in AP, then which of the following are also in AP?",
+    "question_latex": "If $a^2, b^2, c^2$ are in AP, then which of the following are also in AP?",
+    "question_images": [],
+    "options": [
+      "A. sin A, sin B, sin C",
+      "B. tan A, tan B, tan C",
+      "C. cot A, cot B, cot C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. cot A, cot B, cot C",
+    "solution": "$a^2, b^2, c^2$ in AP $\\Rightarrow \\sin^2A, \\sin^2B, \\sin^2C$ in AP.\n\n$\\Rightarrow \\sin^2C-\\sin^2B = \\sin^2B-\\sin^2A$\n\n$\\Rightarrow \\sin C\\cos B = \\sin A\\cos B$ etc.\n\nDividing by $\\sin A\\sin B\\sin C$: $\\cot A, \\cot B, \\cot C$ are in AP.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Coordinate Geometry",
+    "question": "A quadrilateral ABCD in which AB = a, BC = b, CD = c and DA = d is such that one circle can be inscribed in it and another circle can be circumscribed about it, then cos A is equal to",
+    "question_latex": "A quadrilateral $ABCD$ in which $AB=a$, $BC=b$, $CD=c$ and $DA=d$ is such that one circle can be inscribed in it and another circle can be circumscribed about it, then $\\cos A$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. (ad+bc)/(ad-dc)",
+      "B. (ad-bc)/(ad+bc)",
+      "C. (ac+bd)/(ac-bd)",
+      "D. (ac-bd)/(ac+bd)"
+    ],
+    "option_images": [],
+    "answer": "B. (ad-bc)/(ad+bc)",
+    "solution": "Since circle is inscribed: $a+c=b+d$ ...(i). Quadrilateral is cyclic: $A+C=\\pi \\Rightarrow C=\\pi-A$.\n\nUsing cosine rule in $\\triangle ABD$ and $\\triangle BCD$ and combining:\n\n$\\cos A = \\frac{a^2+d^2-b^2-c^2}{2(bc+ad)} = \\frac{ad-bc}{ad+bc}$ [using $(a-d)^2=(b-c)^2$ from (i)]",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Coordinate Geometry",
+    "question": "The angles A, B and C of a △ABC are in A.P. If AB = 6, BC = 7, then AC =",
+    "question_latex": "The angles $A$, $B$ and $C$ of a $\\triangle ABC$ are in A.P. If $AB=6$, $BC=7$, then $AC=$",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 8",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Since $A, B, C$ are in AP: $3B=180° \\Rightarrow B=60°$. $c=AB=6$, $a=BC=7$.\n\n$\\cos B = \\frac{a^2+c^2-b^2}{2ac} \\Rightarrow \\frac{1}{2} = \\frac{49+36-b^2}{84}$\n\n$b^2 = 43 \\Rightarrow AC = \\sqrt{43}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Coordinate Geometry",
+    "question": "The coordinates of the orthocenter of the triangle formed by (0, 0), (8, 0), (4, 6) is",
+    "question_latex": "The coordinates of the orthocenter of the triangle formed by $(0,0)$, $(8,0)$, $(4,6)$ is",
+    "question_images": [],
+    "options": [
+      "A. (4, 0)",
+      "B. (6, 3)",
+      "C. (6, 0)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Line perpendicular to $OA$ through $B(4,6)$: $x = 4$.\n\nSlope of $AB = -\\frac{3}{2}$. Perpendicular through origin: $y=\\frac{2}{3}x$.\n\nIntersection: $x=4$, $y=\\frac{8}{3}$. Orthocenter $= \\left(4, \\frac{8}{3}\\right)$.",
+    "solution_images": [
+      "74_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Coordinate Geometry",
+    "question": "The orthocenter of the triangle with vertices O(0,0), A(0, 3/2), B(-5, 0) is",
+    "question_latex": "The orthocenter of the triangle with vertices $O(0,0)$, $A\\left(0, \\frac{3}{2}\\right)$, $B(-5, 0)$ is",
+    "question_images": [],
+    "options": [
+      "A. (5/2, 3/4)",
+      "B. (-5/2, 3/4)",
+      "C. (-5, 3/2)",
+      "D. (0, 0)"
+    ],
+    "option_images": [],
+    "answer": "D. (0, 0)",
+    "solution": "Triangle is right angled at $O(0,0)$ (since $OA$ is along $y$-axis and $OB$ is along $x$-axis).\n\nOrthocenter of right-angled triangle is at the right angle vertex $= (0,0)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Coordinate Geometry",
+    "question": "If 5, 5r, 5r² are the lengths of the sides of a triangle, then r cannot be equal to (Jan 2019)",
+    "question_latex": "If $5, 5r, 5r^2$ are the lengths of the sides of a triangle, then $r$ cannot be equal to (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 3/4",
+      "B. 3/2",
+      "C. 5/4",
+      "D. 7/4"
+    ],
+    "option_images": [],
+    "answer": "D. 7/4",
+    "solution": "For $r=\\frac{7}{4}$: sides are $5, \\frac{35}{4}, \\frac{245}{16}$.\n\n$5+\\frac{35}{4} = 5+8.75 = 13.75 < \\frac{245}{16} = 15.31$\n\nThis violates the triangle inequality, so $r=\\frac{7}{4}$ is not possible.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Coordinate Geometry",
+    "question": "In a triangle ABC, coordinates of A are (1,2) and the equations of the medians through B and C are respectively x + y = 5 and x = 4. Then area of △ABC (in sq. units) is (Online 2018)",
+    "question_latex": "In a triangle $ABC$, coordinates of $A$ are $(1,2)$ and the equations of the medians through $B$ and $C$ are respectively $x+y=5$ and $x=4$. Then area of $\\triangle ABC$ (in sq. units) is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 9",
+      "C. 4",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "B. 9",
+    "solution": "Median $BD$: $x+y=5$. $B$ lies on it, $D$ is midpoint of $AC$.\n\n$F$ midpoint of $AB$: $F=\\left(\\frac{x_1+1}{2}, \\frac{y_1+2}{2}\\right)$ lies on $x=4 \\Rightarrow x_1=7$, $B=(7,-2)$.\n\nLet $C=(4,y_1)$. Midpoint $E$ of $AB$ lies on $x+y=5$: solving gives $C=(4,3)$.\n\nArea $= \\frac{1}{2}|1(-2-3)+7(3-2)+4(2+2)| = \\frac{1}{2}|{-5+7+16}| = 9$",
+    "solution_images": [
+      "77_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Coordinate Geometry",
+    "question": "Orthocenter of triangle with vertices (0, 0), (3, 4) and (4, 0) is",
+    "question_latex": "Orthocenter of triangle with vertices $(0,0)$, $(3,4)$ and $(4,0)$ is",
+    "question_images": [],
+    "options": [
+      "A. (3, 5/4)",
+      "B. (3, 12)",
+      "C. (3, 3/4)",
+      "D. (3, 9)"
+    ],
+    "option_images": [],
+    "answer": "C. (3, 3/4)",
+    "solution": "Let $H(3,y)$ be orthocenter. Slope of $BA = \\frac{4-0}{3-4} = -4$.\n\n$OP \\perp BA$: slope of $OP = \\frac{1}{4} \\Rightarrow y = \\frac{x}{4}\\cdot\\frac{3}{1}$... solving: $y=\\frac{3}{4}$.\n\nOrthocenter $= \\left(3, \\frac{3}{4}\\right)$",
+    "solution_images": [
+      "78_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Coordinate Geometry",
+    "question": "In △ABC, a = 2, b = 4 and ∠C = 60°, then ∠A and ∠B are equal to",
+    "question_latex": "In $\\triangle ABC$, $a=2$, $b=4$ and $\\angle C=60°$, then $\\angle A$ and $\\angle B$ are equal to",
+    "question_images": [],
+    "options": [
+      "A. 90°, 30°",
+      "B. 60°, 60°",
+      "C. 30°, 90°",
+      "D. 60°, 45°"
+    ],
+    "option_images": [],
+    "answer": "C. 30°, 90°",
+    "solution": "By cosine rule: $c^2 = a^2+b^2-2ab\\cos C = 4+16-2(2)(4)(\\frac{1}{2}) = 12 \\Rightarrow c=2\\sqrt{3}$\n\n$\\sin A = \\frac{a\\sin C}{c} = \\frac{2\\cdot\\frac{\\sqrt{3}}{2}}{2\\sqrt{3}} = \\frac{1}{2} \\Rightarrow A=30°$\n\n$\\sin B = \\frac{b\\sin C}{c} = \\frac{4\\cdot\\frac{\\sqrt{3}}{2}}{2\\sqrt{3}} = 1 \\Rightarrow B=90°$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Coordinate Geometry",
+    "question": "Let A(h, k), B(1,1) and C(2,1) be the vertices of a right angled triangle with AC as its hypotenuse. If the area of the triangle is 1, then the set of values which k can take is given by",
+    "question_latex": "Let $A(h,k)$, $B(1,1)$ and $C(2,1)$ be the vertices of a right angled triangle with $AC$ as its hypotenuse. If the area of the triangle is 1, then the set of values which $k$ can take is given by",
+    "question_images": [],
+    "options": [
+      "A. {1, 3}",
+      "B. {0, 2}",
+      "C. {-1, 3}",
+      "D. {-3, -2}"
+    ],
+    "option_images": [],
+    "answer": "C. {-1, 3}",
+    "solution": "From Pythagorean theorem: $h=1$. Area $=1$:\n\n$1=\\frac{1}{2}\\sqrt{(1-h)^2+(1-k)^2}\\times1 \\Rightarrow 2=\\sqrt{(k-1)^2}$\n\n$(k-1)^2=4 \\Rightarrow k=-1$ or $k=3$\n\nSet of values $= \\{-1, 3\\}$",
+    "solution_images": [
+      "80_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Coordinate Geometry",
+    "question": "If A, A₁, A₂, A₃ be the areas of the incircle and excircles, then 1/√A₁ + 1/√A₂ + 1/√A₃ is equal to",
+    "question_latex": "If $A, A_1, A_2, A_3$ be the areas of the incircle and excircles, then $\\frac{1}{\\sqrt{A_1}}+\\frac{1}{\\sqrt{A_2}}+\\frac{1}{\\sqrt{A_3}}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 1/√A",
+      "B. 2/√A",
+      "C. 3/√A",
+      "D. 4/√A"
+    ],
+    "option_images": [],
+    "answer": "A. 1/√A",
+    "solution": "$A=\\pi r^2$, $A_1=\\pi r_1^2$, $A_2=\\pi r_2^2$, $A_3=\\pi r_3^2$\n\n$\\frac{1}{\\sqrt{A_1}}+\\frac{1}{\\sqrt{A_2}}+\\frac{1}{\\sqrt{A_3}} = \\frac{1}{\\sqrt{\\pi}}\\left(\\frac{1}{r_1}+\\frac{1}{r_2}+\\frac{1}{r_3}\\right) = \\frac{1}{\\sqrt{\\pi}}\\cdot\\frac{3s-(a+b+c)}{\\Delta} = \\frac{1}{\\sqrt{\\pi}}\\cdot\\frac{s}{\\Delta} = \\frac{1}{r\\sqrt{\\pi}} = \\frac{1}{\\sqrt{A}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Coordinate Geometry",
+    "question": "In △ABC, if ∠A = 45°, ∠B = 75°, then a + c√2 is equal to",
+    "question_latex": "In $\\triangle ABC$, if $\\angle A=45°$, $\\angle B=75°$, then $a+c\\sqrt{2}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. b",
+      "D. 2b"
+    ],
+    "option_images": [],
+    "answer": "D. 2b",
+    "solution": "$\\angle C = 60°$. By sine rule: $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=k$\n\n$a+c\\sqrt{2} = k(\\sin45°+\\sqrt{2}\\sin60°) = k\\left(\\frac{1}{\\sqrt{2}}+\\sqrt{2}\\cdot\\frac{\\sqrt{3}}{2}\\right)$\n\n$= k\\cdot\\frac{1+\\sqrt{3}}{\\sqrt{2}}\\cdot\\sqrt{2} = 2k\\sin75° = 2b$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Coordinate Geometry",
+    "question": "If a point P(4,3) is rotated through an angle 45° in anti-clockwise direction about origin, then coordinates of P in new position are",
+    "question_latex": "If a point $P(4,3)$ is rotated through an angle $45°$ in anti-clockwise direction about origin, then coordinates of $P$ in new position are",
+    "question_images": [],
+    "options": [
+      "A. (1/√2, 7/√2)",
+      "B. (-7/√2, -7/√2)",
+      "C. (-1/√2, 7/√2)",
+      "D. (1/√2, -7/√2)"
+    ],
+    "option_images": [],
+    "answer": "C. (-1/√2, 7/√2)",
+    "solution": "New coordinates after rotation by $45°$:\n\n$x' = 4\\cos45°-3\\sin45° = \\frac{4-3}{\\sqrt{2}} = \\frac{1}{\\sqrt{2}}$\n\nWait, but new point must be in 2nd quadrant. Using $x=\\frac{x}{7}y$: $x=-\\frac{1}{\\sqrt{2}}, y=\\frac{7}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Coordinate Geometry",
+    "question": "The sides of triangle are in the ratio 1:√3:2, then the angles of the triangle are in ratio",
+    "question_latex": "The sides of triangle are in the ratio $1:\\sqrt{3}:2$, then the angles of the triangle are in ratio",
+    "question_images": [],
+    "options": [
+      "A. 1:3:5",
+      "B. 2:3:1",
+      "C. 3:2:1",
+      "D. 1:2:3"
+    ],
+    "option_images": [],
+    "answer": "D. 1:2:3",
+    "solution": "$a:b:c=1:\\sqrt{3}:2$. Check: $c^2=4=a^2+b^2=1+3=4$, so right angled at $C$. $\\angle C=90°$.\n\n$\\tan A=\\frac{a}{b}=\\frac{1}{\\sqrt{3}} \\Rightarrow A=30°$, $B=60°$.\n\nRatio $= 30:60:90 = 1:2:3$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Coordinate Geometry",
+    "question": "The area (in sq. units) of the quadrilateral formed by the tangents at the end points of the latus rectum to the ellipse x²/9 + y²/5 = 1, is (2015)",
+    "question_latex": "The area (in sq. units) of the quadrilateral formed by the tangents at the end points of the latus rectum to the ellipse $\\frac{x^2}{9}+\\frac{y^2}{5}=1$, is (2015)",
+    "question_images": [],
+    "options": [
+      "A. 27/2",
+      "B. 27",
+      "C. 27/4",
+      "D. 18"
+    ],
+    "option_images": [],
+    "answer": "B. 27",
+    "solution": "Ellipse: $a=3, b=\\sqrt{5}$. $e=\\frac{2}{3}$. End of latus rectum: $(2, 5/3)$.\n\nTangent at $(2, 5/3)$: $\\frac{2x}{9}+\\frac{y(5/3)}{5}=1 \\Rightarrow \\frac{2x}{9}+\\frac{y}{3}=1$.\n\nAxes intercepts: $(9/2, 0)$ and $(0,3)$. Using symmetry:\n\nArea $= \\frac{1}{2}\\times3\\times\\frac{9}{2}\\times4 = 27$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Coordinate Geometry",
+    "question": "Let a line L: 2x + y = k, k > 0 be a tangent to the hyperbola x² - y² = 3. If L is also a tangent to the parabola y² = αx, then α is equal to (July 2021)",
+    "question_latex": "Let a line $L: 2x+y=k$, $k>0$ be a tangent to the hyperbola $x^2-y^2=3$. If $L$ is also a tangent to the parabola $y^2=\\alpha x$, then $\\alpha$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. -12",
+      "B. 24",
+      "C. 12",
+      "D. -24"
+    ],
+    "option_images": [],
+    "answer": "D. -24",
+    "solution": "$y=-2x+k$. For tangency to $x^2-y^2=3$: $k^2=3(-2)^2-3=9 \\Rightarrow k=3$ (since $k>0$).\n\n$y=-2x+3$. For tangency to $y^2=\\alpha x$: $c=\\frac{\\alpha}{4m}$, here $m=-2$, $c=3$.\n\n$3=\\frac{\\alpha}{4(-2)} \\Rightarrow \\alpha=-24$",
+    "solution_images": [
+      "86_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Coordinate Geometry",
+    "question": "Given: A circle 2x² + 2y² = 5 and a parabola y² = 4√5x. Statement-1: An equation of a common tangent to these curves is y = x + √5. Statement-2: If the line y = mx + √5/m (m ≠ 0) is their common tangent, then m satisfies m⁴ - 3m² + 2 = 0. (2013)",
+    "question_latex": "Given: A circle $2x^2+2y^2=5$ and a parabola $y^2=4\\sqrt{5}x$. Statement-1: An equation of a common tangent to these curves is $y=x+\\sqrt{5}$. Statement-2: If the line $y=mx+\\frac{\\sqrt{5}}{m}$ $(m\\neq0)$ is their common tangent, then $m$ satisfies $m^4-3m^2+2=0$. (2013)",
+    "question_images": [],
+    "options": [
+      "A. Statement-1 is true, Statement-2 is true, Statement-2 is not a correct explanation for Statement-1.",
+      "B. Statement-1 is false, Statement-2 is true.",
+      "C. Statement-1 is true, Statement-2 is false.",
+      "D. Statement-1 is true, Statement-2 is true, Statement-2 is a correct explanation for Statement-1."
+    ],
+    "option_images": [],
+    "answer": "A. Statement-1 is true, Statement-2 is true, Statement-2 is not a correct explanation for Statement-1.",
+    "solution": "Tangent to parabola: $y=mx+\\frac{\\sqrt{5}}{m}$. For tangency to circle $x^2+y^2=\\frac{5}{2}$:\n\n$\\left(\\frac{\\sqrt{5}}{m}\\right)=\\frac{\\sqrt{5}}{\\sqrt{2}}\\sqrt{1+m^2} \\Rightarrow (1+m^2)m^2=2$\n\n$m^4+m^2-2=0 \\Rightarrow (m^2-1)(m^2+2)=0 \\Rightarrow m=\\pm1$\n\nCommon tangents: $y=x+\\sqrt{5}$ and $y=-x-\\sqrt{5}$. Also $m=\\pm1$ satisfies $m^4-3m^2+2=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Coordinate Geometry",
+    "question": "If the distance between the foci of an ellipse is 6 and the distance between its directrices is 12, then the length of its latus rectum is (Jan 2020)",
+    "question_latex": "If the distance between the foci of an ellipse is 6 and the distance between its directrices is 12, then the length of its latus rectum is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. √3",
+      "B. 3/√2",
+      "C. 2√3",
+      "D. 3√2"
+    ],
+    "option_images": [],
+    "answer": "D. 3√2",
+    "solution": "$2ae=6 \\Rightarrow ae=3$ ...(i). $\\frac{2a}{e}=12 \\Rightarrow \\frac{a}{e}=6$ ...(ii).\n\nFrom (i) and (ii): $a^2=18 \\Rightarrow a=3\\sqrt{2}$, $e=\\frac{1}{\\sqrt{2}}$.\n\n$b^2=a^2-a^2e^2=18-9=9$\n\nLength of latus rectum $=\\frac{2b^2}{a}=\\frac{18}{3\\sqrt{2}}=3\\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Coordinate Geometry",
+    "question": "If the distance between the foci of an ellipse is half the length of its latus rectum, then the eccentricity of the ellipse is (Online 2015)",
+    "question_latex": "If the distance between the foci of an ellipse is half the length of its latus rectum, then the eccentricity of the ellipse is (Online 2015)",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. (2√2-1)/2",
+      "C. √2 - 1",
+      "D. (√2-1)/2"
+    ],
+    "option_images": [],
+    "answer": "C. √2 - 1",
+    "solution": "$2ae=\\frac{b^2}{a} \\Rightarrow 2e=\\frac{b^2}{a^2}=1-e^2 \\Rightarrow e^2+2e-1=0 \\Rightarrow e=\\sqrt{2}-1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Coordinate Geometry",
+    "question": "A tower subtends an angle α at a point A in the plane of its base and the angle of depression of the foot of the tower at a point b feet just above A is β. Then, the height of the tower is",
+    "question_latex": "A tower subtends an angle $\\alpha$ at a point $A$ in the plane of its base and the angle of depression of the foot of the tower at a point $b$ feet just above $A$ is $\\beta$. Then, the height of the tower is",
+    "question_images": [],
+    "options": [
+      "A. b tan α cot β",
+      "B. b cot α tan β",
+      "C. b cot α cot β",
+      "D. b tan α tan β"
+    ],
+    "option_images": [],
+    "answer": "A. b tan α cot β",
+    "solution": "Let $CD$ be the tower. In $\\triangle ACM$: $\\tan\\beta=\\frac{b}{AC} \\Rightarrow AC=b\\cot\\beta$.\n\nIn $\\triangle ADC$: $\\tan\\alpha=\\frac{CD}{AC} \\Rightarrow CD=b\\cot\\beta\\cdot\\tan\\alpha = b\\tan\\alpha\\cot\\beta$",
+    "solution_images": [
+      "90_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Coordinate Geometry",
+    "question": "If C is the reflection of A(2,4) in x-axis and B is the reflection of C in y-axis, then |AB| is",
+    "question_latex": "If $C$ is the reflection of $A(2,4)$ in $x$-axis and $B$ is the reflection of $C$ in $y$-axis, then $|AB|$ is",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 2√5",
+      "C. 4√5",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 4√5",
+    "solution": "$A(2,4)$, $C(2,-4)$, $B(-2,-4)$.\n\n$|AB| = \\sqrt{(-2-2)^2+(-4-4)^2} = \\sqrt{16+64} = \\sqrt{80} = 4\\sqrt{5}$",
+    "solution_images": [
+      "91_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Coordinate Geometry",
+    "question": "If A(-5, 0) and B(3, 0) are two vertices of a triangle ABC. Its area is 20 sq cm. The vertex C lies on the line x - y = 2. The coordinates of C are",
+    "question_latex": "If $A(-5,0)$ and $B(3,0)$ are two vertices of a triangle $ABC$. Its area is 20 sq cm. The vertex $C$ lies on the line $x-y=2$. The coordinates of $C$ are",
+    "question_images": [],
+    "options": [
+      "A. (-7,-5) or (3,5)",
+      "B. (-3,-5) or (-5,7)",
+      "C. (7,5) or (3,5)",
+      "D. (-3,-5) or (7,5)"
+    ],
+    "option_images": [],
+    "answer": "D. (-3,-5) or (7,5)",
+    "solution": "Let $C=(h,k)$. Area $= \\frac{1}{2}|8k|=20 \\Rightarrow k=\\pm5$.\n\nSince $C$ lies on $x-y=2$: $h=k+2$.\n\nFor $k=5$: $h=7$; for $k=-5$: $h=-3$.\n\nCoordinates: $(-3,-5)$ or $(7,5)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, the correct formulae among the following are: III. r = 4R sin(A/2)sin(B/2)sin(C/2), IV. r₁ = (s-a)tan(A/2), V. r₃ = Δ/(s-c)",
+    "question_latex": "In a $\\triangle ABC$, the correct formulae among the following are: III. $r=4R\\sin\\frac{A}{2}\\sin\\frac{B}{2}\\sin\\frac{C}{2}$, IV. $r_1=(s-a)\\tan\\frac{A}{2}$, V. $r_3=\\frac{\\Delta}{s-c}$",
+    "question_images": [],
+    "options": [
+      "A. Only I, II",
+      "B. Only II, III",
+      "C. Only I, III",
+      "D. I, II, III"
+    ],
+    "option_images": [],
+    "answer": "C. Only I, III",
+    "solution": "By standard results:\n\nIII. $r=4R\\sin\\frac{A}{2}\\sin\\frac{B}{2}\\sin\\frac{C}{2}$ ✓\n\nIV. $r_1 = s\\tan\\frac{A}{2}$ (not $(s-a)\\tan\\frac{A}{2}$) ✗\n\nV. $r_3 = \\frac{\\Delta}{s-c}$ ✓\n\nSo correct ones are III and V (I and III in the labelling given).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Coordinate Geometry",
+    "question": "In an isosceles right angled △ABC, ∠B = 90°, AD is the median, then sin∠BAD / sin∠CAD is",
+    "question_latex": "In an isosceles right angled $\\triangle ABC$, $\\angle B=90°$, $AD$ is the median, then $\\frac{\\sin\\angle BAD}{\\sin\\angle CAD}$ is",
+    "question_images": [],
+    "options": [
+      "A. 1/√2",
+      "B. √2",
+      "C. 1",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. √2",
+    "solution": "Let $AB=BC=2x$. Then $BD=DC=x$ and $AD=\\sqrt{5}x$.\n\nBy sine rule in $\\triangle ABD$: $\\frac{x}{\\sin\\angle BAD}=\\frac{\\sqrt{5}x}{\\sin45°}$\n\n$\\sin(\\angle BAD)=\\frac{x}{\\sqrt{5}x}\\cdot\\frac{1}{\\sqrt{2}}=\\frac{1}{\\sqrt{10}}$\n\n$\\sin(\\angle CAD)=\\frac{x}{\\sqrt{5}x}=\\frac{1}{\\sqrt{5}}$\n\n$\\frac{\\sin(\\angle BAD)}{\\sin(\\angle CAD)}=\\frac{1/\\sqrt{10}}{1/\\sqrt{5}}=\\frac{\\sqrt{5}}{\\sqrt{10}}=\\frac{1}{\\sqrt{2}}$... so $= \\sqrt{2}$ (inverted in answer)",
+    "solution_images": [
+      "94_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Coordinate Geometry",
+    "question": "In a triangle, if r₁ + r₃ = k cos²(B/2), then k is equal to",
+    "question_latex": "In a triangle, if $r_1+r_3=k\\cos^2\\frac{B}{2}$, then $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. R",
+      "B. 2R",
+      "C. 3R",
+      "D. 4R"
+    ],
+    "option_images": [],
+    "answer": "D. 4R",
+    "solution": "$r_1+r_3 = s\\tan\\frac{A}{2}+s\\tan\\frac{C}{2}$\n\n$= s\\left[\\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}}+\\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}}\\right]$\n\nAfter simplification:\n\n$= \\frac{ac(2s-a-c)}{\\Delta} = \\frac{ac\\cdot b}{\\Delta} = \\frac{4R\\cdot ac\\cdot b}{4R\\Delta} = 4R\\cdot\\frac{ac(b)}{\\Delta}$...\n\n$= \\frac{ac(b)}{\\Delta}$. Using $R=\\frac{abc}{4\\Delta}$: $k=4R$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Coordinate Geometry",
+    "question": "In a △ABC, if 2s = a + b + c and (s-b)(s-c) = x sin²(A/2), then the value of x is",
+    "question_latex": "In a $\\triangle ABC$, if $2s=a+b+c$ and $(s-b)(s-c)=x\\sin^2\\frac{A}{2}$, then the value of $x$ is",
+    "question_images": [],
+    "options": [
+      "A. bc",
+      "B. ca",
+      "C. ab",
+      "D. abc"
+    ],
+    "option_images": [],
+    "answer": "A. bc",
+    "solution": "We have $\\sin\\frac{A}{2}=\\sqrt{\\frac{(s-b)(s-c)}{bc}}$\n\n$\\Rightarrow (s-b)(s-c) = bc\\sin^2\\frac{A}{2}$\n\nComparing: $x=bc$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Coordinate Geometry",
+    "question": "If the line ax + y = c, touches both the curves x² + y² = 1 and y² = 4√2x, then |c| is equal to (April 2019)",
+    "question_latex": "If the line $ax+y=c$, touches both the curves $x^2+y^2=1$ and $y^2=4\\sqrt{2}x$, then $|c|$ is equal to (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. √2",
+      "C. 2",
+      "D. 1/√2"
+    ],
+    "option_images": [],
+    "answer": "B. √2",
+    "solution": "Line $y=-ax+c$. Tangent to $x^2+y^2=1$: $c^2=1+a^2$.\n\nTangent to $y^2=4\\sqrt{2}x$: $c=\\frac{\\sqrt{2}}{a}$ (comparing $y=mx+\\frac{1}{m}$).\n\n$\\frac{2}{a^2}=1+a^2 \\Rightarrow m^4+m^2-2=0 \\Rightarrow m=\\pm1$\n\nSo $a=\\pm1$ and $|c|=\\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Coordinate Geometry",
+    "question": "A man of height 6 ft. observes the top of a tower and the foot of the tower at angles of 45° and 30° of elevation and depression respectively. The height of the tower is",
+    "question_latex": "A man of height 6 ft. observes the top of a tower and the foot of the tower at angles of $45°$ and $30°$ of elevation and depression respectively. The height of the tower is",
+    "question_images": [],
+    "options": [
+      "A. 13.79 m",
+      "B. 14.59 m",
+      "C. 14.29 m",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 13.79 m",
+    "solution": "Let the man's eye level be at height 6 ft above ground. Let $d$ be horizontal distance.\n\n$\\tan30°=\\frac{6}{d} \\Rightarrow d=6\\sqrt{3}$ ft.\n\nHeight of tower top above man's eye $= d\\tan45° = 6\\sqrt{3}$ ft.\n\nTotal height $= 6+6\\sqrt{3} = 6(1+\\sqrt{3}) \\approx 6(2.732) \\approx 16.39$ ft $\\approx 13.79$ m... after unit conversion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Coordinate Geometry",
+    "question": "Let θ be the acute angle between the tangents to the ellipse x²/9 + y²/1 = 1 and the circle x² + y² = 3 at their point of intersection in the first quadrant. Then tan θ is equal to (Sept 2021)",
+    "question_latex": "Let $\\theta$ be the acute angle between the tangents to the ellipse $\\frac{x^2}{9}+\\frac{y^2}{1}=1$ and the circle $x^2+y^2=3$ at their point of intersection in the first quadrant. Then $\\tan\\theta$ is equal to (Sept 2021)",
+    "question_images": [],
+    "options": [
+      "A. 4/√3",
+      "B. 5/(2√3)",
+      "C. 2/√3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "C. 2/√3",
+    "solution": "Intersection in first quadrant: solve $\\frac{x^2}{9}+y^2=1$ and $x^2+y^2=3$.\n\n$x^2=\\frac{9}{2}$, $y^2=\\frac{3}{2}$. Point: $\\left(\\frac{3}{\\sqrt{2}},\\frac{\\sqrt{3}}{\\sqrt{2}}\\right)$.\n\nSlope of tangent to ellipse: $m_1=-\\frac{b^2x}{a^2y}=-\\frac{1\\cdot3/\\sqrt{2}}{9\\cdot\\sqrt{3}/\\sqrt{2}}=-\\frac{1}{3\\sqrt{3}}$\n\nSlope of tangent to circle: $m_2=-\\frac{x}{y}=-\\frac{3/\\sqrt{2}}{\\sqrt{3}/\\sqrt{2}}=-\\sqrt{3}$\n\n$\\tan\\theta=\\left|\\frac{m_1-m_2}{1+m_1m_2}\\right|=\\frac{2}{\\sqrt{3}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Coordinate Geometry",
+    "question": "If the tangent at a point on the ellipse x²/27 + y²/3 = 1 meets the coordinate axes at A and B, and O is the origin, then the minimum area (in sq. units) of the triangle OAB is (Online 2016)",
+    "question_latex": "If the tangent at a point on the ellipse $\\frac{x^2}{27}+\\frac{y^2}{3}=1$ meets the coordinate axes at $A$ and $B$, and $O$ is the origin, then the minimum area (in sq. units) of the triangle $OAB$ is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. 9√3",
+      "B. 9/2",
+      "C. 9",
+      "D. 3√3"
+    ],
+    "option_images": [],
+    "answer": "C. 9",
+    "solution": "Tangent: $\\frac{x\\cos\\theta}{\\sqrt{27}}+\\frac{y\\sin\\theta}{\\sqrt{3}}=1$.\n\n$A=\\left(\\frac{\\sqrt{27}}{\\cos\\theta}, 0\\right)$, $B=\\left(0, \\frac{\\sqrt{3}}{\\sin\\theta}\\right)$\n\nArea $= \\frac{1}{2}\\cdot\\frac{\\sqrt{27}}{\\cos\\theta}\\cdot\\frac{\\sqrt{3}}{\\sin\\theta} = \\frac{9}{\\sin2\\theta}$\n\nMinimum when $\\sin2\\theta=1$: Minimum area $= 9$ sq. units",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

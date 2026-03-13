@@ -8,6 +8,7 @@ import React, {
 import api from "../../../api";
 import PaperContext from "../context/paper/PaperContext";
 import AuthContext from "../context/auth/AuthContext";
+import { FileSpreadsheet } from "lucide-react";
 
 // --- API Endpoints ---
 
@@ -84,7 +85,7 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "random_data.csv");
+    link.setAttribute("download", "OMR_Student_Template.csv");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -117,8 +118,7 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
         const data = response.data.data;
         setFetchedData(data);
 
-        // Trigger Random Excel Download
-        downloadRandomExcel();
+        // downloadRandomExcel(); // Removed auto-download
 
         // setForm((prevForm) => ({
         //   ...prevForm,
@@ -261,7 +261,13 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
       if (isMasterDocUpload) {
         await processMasterFileForExtraction(files[0]);
       } else if (form.paperId) {
-        await handleFetchPaper(form.paperId);
+        // --- MODIFIED: Trigger Dummy Download instead of backend fetch as requested ---
+        downloadRandomExcel();
+        setMessage({
+          type: "info",
+          text: "OMR Template downloaded! You can now upload the student bundle.",
+        });
+        // await handleFetchPaper(form.paperId);
       } else {
         setMessage({
           type: "error",
@@ -477,8 +483,9 @@ const OmrPage = ({ paper: propPaper, onBack, onSaved }) => {
           <button
             onClick={handleCheckPaper}
             disabled={isLoading || (files.length === 0 && !form.paperId)}
-            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition-all disabled:bg-blue-300"
+            className="w-full flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition-all disabled:bg-blue-300"
           >
+            <FileSpreadsheet className="w-5 h-5" />
             {getButtonText()}
           </button>
 

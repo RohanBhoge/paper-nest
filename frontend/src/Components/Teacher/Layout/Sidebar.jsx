@@ -35,7 +35,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen, activeSection, setActiveSect
   };
   return (
     <div
-      className={`fixed md:static top-0 left-0 h-full w-64 bg-white shadow-sm border-r border-slate-200 p-6 z-50 transform transition-transform duration-300
+      className={`fixed md:static top-0 left-0 h-full w-64 bg-slate-50 shadow-md border-r border-slate-300 p-4 z-50 transform transition-transform duration-300
         ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}
     >
       <div className="flex items-center justify-between mb-8">

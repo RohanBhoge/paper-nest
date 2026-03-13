@@ -1,0 +1,1343 @@
+[
+  {
+    "id": 1,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If ω be a cube root of unity and ω ≠ 1, then ω + ω² and ω³ are respectively the numbers:",
+    "question_latex": "If $\\omega$ be a cube root of unity and $\\omega \\ne 1$, then $\\omega + \\omega^2$ and $\\omega^3$ are respectively the numbers:",
+    "question_images": [],
+    "options": [
+      "A. 1, 1",
+      "B. -1, 1",
+      "C. 0, -1",
+      "D. -1, -1"
+    ],
+    "option_images": [],
+    "answer": "B. -1, 1",
+    "solution": "For cube roots of unity, $1, \\omega, \\omega^2$ where $1+\\omega+\\omega^2=0$.\nSo, $\\omega+\\omega^2=-1$.\nAlso, $\\omega^3=1$.\nHence, the required values are $(-1,1)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the roots of the equation ax² + bx + c = 0 are equal in magnitude but opposite in sign, then b is equal to:",
+    "question_latex": "If the roots of the equation $ax^2 + bx + c = 0$ are equal in magnitude but opposite in sign, then $b$ is equal to:",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. 0",
+      "C. c",
+      "D. 2a"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "Let the roots be $\\alpha$ and $-\\alpha$.\nSum of roots $= \\alpha + (-\\alpha) = 0$.\nBut sum of roots $= -\\frac{b},{a}$.\nHence, $b=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If |z₁| and |z₂| respectively denote the moduli of the complex numbers z₁ and z₂, then the correct relation is:",
+    "question_latex": "If $|z_1|$ and $|z_2|$ respectively denote the moduli of the complex numbers $z_1$ and $z_2$, then the correct relation is:",
+    "question_images": [],
+    "options": [
+      "A. |z₁+z₂| = |z₁| + |z₂|",
+      "B. |z₁z₂| = |z₁| + |z₂|",
+      "C. |z₁z₂| = |z₁||z₂|",
+      "D. |z₁-z₂| = |z₁| - |z₂|"
+    ],
+    "option_images": [],
+    "answer": "C. |z₁z₂| = |z₁||z₂|",
+    "solution": "For complex numbers, the modulus of a product satisfies:\n$|z_1 z_2| = |z_1|\\,|z_2|$.\nOther relations are not true in general.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If α and β are complex numbers such that α + β and αβ are known, then the set of roots of the equation is:",
+    "question_latex": "If $\\alpha$ and $\\beta$ are complex numbers such that $\\alpha+\\beta$ and $\\alpha\\beta$ are known, then the set of roots of the equation is:",
+    "question_images": [],
+    "options": [
+      "A. α, β",
+      "B. -α, -β",
+      "C. 1/α, 1/β",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. α, β",
+    "solution": "Let the required quadratic equation be $x^2-(\\alpha+\\beta)x+\\alpha\\beta=0$.\nClearly, its roots are $\\alpha$ and $\\beta$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z is a complex number such that |z−1| = |z+1|, then z lies on:",
+    "question_latex": "If $z$ is a complex number such that $|z-1| = |z+1|$, then $z$ lies on:",
+    "question_images": [],
+    "options": [
+      "A. x-axis",
+      "B. y-axis",
+      "C. a circle",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. y-axis",
+    "solution": "The condition $|z-1|=|z+1|$ represents the locus of points equidistant from $1$ and $-1$ on the real axis.\nThis is the perpendicular bisector of the segment joining $1$ and $-1$, which is the y-axis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the roots of the quadratic equation ax² + bx + c = 0 are equal, then:",
+    "question_latex": "If the roots of the quadratic equation $ax^2 + bx + c = 0$ are equal, then:",
+    "question_images": [],
+    "options": [
+      "A. b² = 4ac",
+      "B. b² > 4ac",
+      "C. b² < 4ac",
+      "D. a = 0"
+    ],
+    "option_images": [],
+    "answer": "A. b² = 4ac",
+    "solution": "For equal roots, the discriminant must be zero.\n$\\Delta = b^2 - 4ac = 0$\nHence, $b^2 = 4ac$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The roots of the equation x² − 5x + 6 = 0 are:",
+    "question_latex": "The roots of the equation $x^2 - 5x + 6 = 0$ are:",
+    "question_images": [],
+    "options": [
+      "A. 1 and 6",
+      "B. −2 and −3",
+      "C. 2 and 3",
+      "D. −1 and −6"
+    ],
+    "option_images": [],
+    "answer": "C. 2 and 3",
+    "solution": "Factorizing the equation:\n$x^2 - 5x + 6 = (x-2)(x-3)=0$\nSo, the roots are $x=2$ and $x=3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z be a complex number, then |z−2| = 3 represents:",
+    "question_latex": "If $z$ be a complex number, then $|z-2| = 3$ represents:",
+    "question_images": [],
+    "options": [
+      "A. A straight line",
+      "B. A parabola",
+      "C. A circle",
+      "D. An ellipse"
+    ],
+    "option_images": [],
+    "answer": "C. A circle",
+    "solution": "$|z-2|=3$ represents the locus of points at a distance 3 from the point $2$ on the real axis.\nHence, it is a circle with centre $(2,0)$ and radius $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "Let A = {1,2,3} and B = {2,3,4}. Then A ∩ B contains:",
+    "question_latex": "Let $A=\\{1,2,3\\}$ and $B=\\{2,3,4\\}$. Then $A \\cap B$ contains:",
+    "question_images": [],
+    "options": [
+      "A. exactly one element",
+      "B. exactly two elements",
+      "C. exactly three elements",
+      "D. no elements"
+    ],
+    "option_images": [],
+    "answer": "B. exactly two elements",
+    "solution": "$A \\cap B = \\{2,3\\}$.\nThus, the intersection contains exactly two elements.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the equations |z−1| = 2 and |z+1| = 2 intersect, then the points of intersection are:",
+    "question_latex": "If the equations $|z-1| = 2$ and $|z+1| = 2$ intersect, then the points of intersection are:",
+    "question_images": [],
+    "options": [
+      "A. Two points",
+      "B. One point",
+      "C. No point",
+      "D. Infinite points"
+    ],
+    "option_images": [],
+    "answer": "A. Two points",
+    "solution": "Each equation represents a circle of radius 2 with centres at $(1,0)$ and $(-1,0)$ respectively.\nThe distance between centres is $2$, which is less than the sum of radii $=4$.\nHence, the circles intersect at two distinct points.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If α and β are the roots of the quadratic equation x² − 5x + 6 = 0, then the equation whose roots are α² and β² is:",
+    "question_latex": "If $\\alpha$ and $\\beta$ are the roots of the quadratic equation $x^2-5x+6=0$, then the equation whose roots are $\\alpha^2$ and $\\beta^2$ is:",
+    "question_images": [],
+    "options": [
+      "A. x² − 13x + 36 = 0",
+      "B. x² − 25x + 36 = 0",
+      "C. x² − 7x + 12 = 0",
+      "D. x² − 11x + 36 = 0"
+    ],
+    "option_images": [],
+    "answer": "A. x² − 13x + 36 = 0",
+    "solution": "Given $\\alpha+\\beta=5$ and $\\alpha\\beta=6$.\n$\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta=25-12=13$.\n$\\alpha^2\\beta^2=(\\alpha\\beta)^2=36$.\nRequired equation: $x^2-13x+36=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The number of non-zero solutions of the equation |z| = |z − 1| is:",
+    "question_latex": "The number of non-zero solutions of the equation $|z| = |z-1|$ is:",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. Infinite"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "$|z|=|z-1|$ represents points equidistant from $0$ and $1$.\nThis is the perpendicular bisector of the segment joining $(0,0)$ and $(1,0)$.\nExcluding zero, only one non-zero solution exists.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If |z| = 4 and |z + 2| = 2, then the value of z is:",
+    "question_latex": "If $|z|=4$ and $|z+2|=2$, then the value of $z$ is:",
+    "question_images": [],
+    "options": [
+      "A. −4",
+      "B. −2",
+      "C. 2",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. −4",
+    "solution": "The circles $|z|=4$ and $|z+2|=2$ intersect.\nSolving geometrically gives $z=-4$ as the common point.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "Let z₁ and z₂ be complex numbers. Then |z₁z₂| is equal to:",
+    "question_latex": "Let $z_1$ and $z_2$ be complex numbers. Then $|z_1z_2|$ is equal to:",
+    "question_images": [],
+    "options": [
+      "A. |z₁| + |z₂|",
+      "B. |z₁| − |z₂|",
+      "C. |z₁||z₂|",
+      "D. |z₁ + z₂|"
+    ],
+    "option_images": [],
+    "answer": "C. |z₁||z₂|",
+    "solution": "Property of modulus:\n$|z_1z_2|=|z_1||z_2|$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the origin and the non-real roots of the equation z² + az + b = 0 form an equilateral triangle, then a² = ?",
+    "question_latex": "If the origin and the non-real roots of the equation $z^2+az+b=0$ form an equilateral triangle, then $a^2=$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "For equilateral triangle with origin and conjugate roots, $|z|=|\\bar z|$ and argument differs by $120^\\circ$.\nSubstituting gives $a=0$.\nHence, none of the given options match.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the lines represented by z/a + z̄/b = 1 and z/c + z̄/d = 1 are perpendicular, then:",
+    "question_latex": "If the lines represented by $\\frac{z},{a}+\\frac{\\bar z},{b}=1$ and $\\frac{z},{c}+\\frac{\\bar z},{d}=1$ are perpendicular, then:",
+    "question_images": [],
+    "options": [
+      "A. ab + cd = 0",
+      "B. ad + bc = 0",
+      "C. ac + bd = 0",
+      "D. abcd = 1"
+    ],
+    "option_images": [],
+    "answer": "B. ad + bc = 0",
+    "solution": "For perpendicular lines in complex form, the condition is:\n$ad+bc=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If a quadratic equation has a repeated root which is also a root of another given equation, then the value of k is:",
+    "question_latex": "If a quadratic equation has a repeated root which is also a root of another given equation, then the value of $k$ is:",
+    "question_images": [],
+    "options": [
+      "A. 26",
+      "B. 25",
+      "C. 24",
+      "D. 28"
+    ],
+    "option_images": [],
+    "answer": "B. 25",
+    "solution": "Since the repeated root satisfies both equations, substituting gives $k=25$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The value of |1 + i|⁴ is:",
+    "question_latex": "The value of $|1+i|^4$ is:",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 8",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "$|1+i|=\\sqrt{2}$.\nSo $|1+i|^4=(\\sqrt{2})^4=4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If α and β are the roots of x² − 7x + 10 = 0, then the equation whose roots are α + 1 and β + 1 is:",
+    "question_latex": "If $\\alpha,\\beta$ are the roots of $x^2-7x+10=0$, then the equation whose roots are $\\alpha+1$ and $\\beta+1$ is:",
+    "question_images": [],
+    "options": [
+      "A. x² − 9x + 20 = 0",
+      "B. x² − 5x + 12 = 0",
+      "C. x² − 7x + 20 = 0",
+      "D. x² − 9x + 18 = 0"
+    ],
+    "option_images": [],
+    "answer": "A. x² − 9x + 20 = 0",
+    "solution": "New roots sum $=(\\alpha+\\beta)+2=9$.\nProduct $=(\\alpha+1)(\\beta+1)=\\alpha\\beta+\\alpha+\\beta+1=20$.\nEquation: $x^2-9x+20=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The modulus and argument of −i are:",
+    "question_latex": "The modulus and argument of $-i$ are:",
+    "question_images": [],
+    "options": [
+      "A. 1, 0",
+      "B. 1, −π/2",
+      "C. −1, π/2",
+      "D. 1, π"
+    ],
+    "option_images": [],
+    "answer": "B. 1, −π/2",
+    "solution": "$|-i|=1$ and its principal argument is $-\\frac{\\pi},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The sum of all real roots of the equation (x² − 4)(x² − 9) = 0 is:",
+    "question_latex": "The sum of all real roots of the equation $(x^2-4)(x^2-9)=0$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 2",
+      "C. −2",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Roots are $\\pm2, \\pm3$.\nSum $=2-2+3-3=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the cube roots of unity are ω, then the value of (1 + ω + ω²)² is:",
+    "question_latex": "If the cube roots of unity are $\\omega$, then the value of $(1+\\omega+\\omega^2)^2$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 3",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$1+\\omega+\\omega^2=0$.\nHence $(1+\\omega+\\omega^2)^2=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The imaginary part of (3 + i)/(1 − i) is zero if:",
+    "question_latex": "The imaginary part of $\\frac{3+i},{1-i}$ is zero if:",
+    "question_images": [],
+    "options": [
+      "A. i = 0",
+      "B. i = 1",
+      "C. None",
+      "D. Always zero"
+    ],
+    "option_images": [],
+    "answer": "C. None",
+    "solution": "Rationalizing gives a non-zero imaginary part.\nHence, it never becomes zero.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If both roots of the equation x² + px + q = 0 are negative, then:",
+    "question_latex": "If both roots of the equation $x^2+px+q=0$ are negative, then:",
+    "question_images": [],
+    "options": [
+      "A. p > 0, q > 0",
+      "B. p < 0, q > 0",
+      "C. p > 0, q < 0",
+      "D. p < 0, q < 0"
+    ],
+    "option_images": [],
+    "answer": "A. p > 0, q > 0",
+    "solution": "For both roots negative:\nSum $=-p<0 \\Rightarrow p>0$\nProduct $=q>0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z = cos θ + i sin θ, then |z| is equal to:",
+    "question_latex": "If $z=\\cos\\theta+i\\sin\\theta$, then $|z|$ is equal to:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. cos θ",
+      "C. sin θ",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "$|z|=\\sqrt{\\cos^2\\theta+\\sin^2\\theta}=1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the roots of the equation x² + px + q = 0 are equal in magnitude but opposite in sign, then their product is:",
+    "question_latex": "If the roots of the equation $x^2+px+q=0$ are equal in magnitude but opposite in sign, then their product is:",
+    "question_images": [],
+    "options": [
+      "A. p",
+      "B. −q",
+      "C. q",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "C. q",
+    "solution": "Let roots be $\\alpha$ and $-\\alpha$.\nProduct $= -\\alpha^2 = q$.\nHence, the product equals $q$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the imaginary part of a complex number is zero, then the number is:",
+    "question_latex": "If the imaginary part of a complex number is zero, then the number is:",
+    "question_images": [],
+    "options": [
+      "A. purely imaginary",
+      "B. purely real",
+      "C. non-real",
+      "D. zero only"
+    ],
+    "option_images": [],
+    "answer": "B. purely real",
+    "solution": "A complex number with zero imaginary part lies entirely on the real axis.\nHence, it is purely real.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If |z − 3| + |z + 3| = 10, then z lies on:",
+    "question_latex": "If $|z-3|+|z+3|=10$, then $z$ lies on:",
+    "question_images": [],
+    "options": [
+      "A. a circle",
+      "B. a parabola",
+      "C. an ellipse",
+      "D. a hyperbola"
+    ],
+    "option_images": [],
+    "answer": "C. an ellipse",
+    "solution": "The sum of distances from two fixed points being constant represents an ellipse.\nHence, the locus is an ellipse.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The number of real roots of the equation x⁴ + 4 = 0 is:",
+    "question_latex": "The number of real roots of the equation $x^4+4=0$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$x^4=-4$ has no real solution.\nHence, the number of real roots is zero.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z = re^{iθ}, then the argument of z² is:",
+    "question_latex": "If $z=re^{i\\theta}$, then the argument of $z^2$ is:",
+    "question_images": [],
+    "options": [
+      "A. θ",
+      "B. 2θ",
+      "C. θ/2",
+      "D. −θ"
+    ],
+    "option_images": [],
+    "answer": "B. 2θ",
+    "solution": "$z^2=r^2e^{i2\\theta}$.\nHence, argument is $2\\theta$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the cube roots of unity are ω, then the value of ω³ + 1 is:",
+    "question_latex": "If the cube roots of unity are $\\omega$, then the value of $\\omega^3+1$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. −1"
+    ],
+    "option_images": [],
+    "answer": "C. 2",
+    "solution": "For cube roots of unity, $\\omega^3=1$.\nHence, $\\omega^3+1=2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The value of k for which the equation x² − kx + 9 = 0 has equal roots is:",
+    "question_latex": "The value of $k$ for which the equation $x^2-kx+9=0$ has equal roots is:",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. −6",
+      "C. ±6",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "C. ±6",
+    "solution": "For equal roots, $k^2-36=0$.\nSo $k=\\pm6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The modulus of the complex number −3 + 4i is:",
+    "question_latex": "The modulus of the complex number $-3+4i$ is:",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 1",
+      "D. 25"
+    ],
+    "option_images": [],
+    "answer": "A. 5",
+    "solution": "$|-3+4i|=\\sqrt{(-3)^2+4^2}=5$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z̄ denotes the conjugate of z, then z + z̄ is:",
+    "question_latex": "If $\\bar z$ denotes the conjugate of $z$, then $z+\\bar z$ is:",
+    "question_images": [],
+    "options": [
+      "A. purely imaginary",
+      "B. purely real",
+      "C. complex",
+      "D. zero"
+    ],
+    "option_images": [],
+    "answer": "B. purely real",
+    "solution": "Let $z=a+ib$.\nThen $z+\\bar z=2a$, which is purely real.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The product of the roots of the equation 3x² − 5x + 2 = 0 is:",
+    "question_latex": "The product of the roots of the equation $3x^2-5x+2=0$ is:",
+    "question_images": [],
+    "options": [
+      "A. 2/3",
+      "B. −2/3",
+      "C. 3/2",
+      "D. −3/2"
+    ],
+    "option_images": [],
+    "answer": "A. 2/3",
+    "solution": "Product of roots $=\\frac{c},{a}=\\frac{2},{3}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If arg(z) = π/4, then z lies in which quadrant?",
+    "question_latex": "If $\\arg(z)=\\frac{\\pi},{4}$, then $z$ lies in which quadrant?",
+    "question_images": [],
+    "options": [
+      "A. First",
+      "B. Second",
+      "C. Third",
+      "D. Fourth"
+    ],
+    "option_images": [],
+    "answer": "A. First",
+    "solution": "Argument $\\pi/4$ corresponds to the first quadrant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If |z| = 1, then z lies on:",
+    "question_latex": "If $|z|=1$, then $z$ lies on:",
+    "question_images": [],
+    "options": [
+      "A. x-axis",
+      "B. y-axis",
+      "C. unit circle",
+      "D. ellipse"
+    ],
+    "option_images": [],
+    "answer": "C. unit circle",
+    "solution": "$|z|=1$ represents all points at unit distance from origin.\nHence, it is the unit circle.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the sum of roots of x² + ax + b = 0 is zero, then a is:",
+    "question_latex": "If the sum of roots of $x^2+ax+b=0$ is zero, then $a$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. b",
+      "C. −b",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Sum of roots $=-a=0$.\nSo $a=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z = a + ib, then z̄ =:",
+    "question_latex": "If $z=a+ib$, then $\\bar z=$",
+    "question_images": [],
+    "options": [
+      "A. a − ib",
+      "B. −a + ib",
+      "C. ib − a",
+      "D. −a − ib"
+    ],
+    "option_images": [],
+    "answer": "A. a − ib",
+    "solution": "The conjugate of $a+ib$ is $a-ib$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If one root of a quadratic equation is 2, then the equation is divisible by:",
+    "question_latex": "If one root of a quadratic equation is $2$, then the equation is divisible by:",
+    "question_images": [],
+    "options": [
+      "A. x − 1",
+      "B. x − 2",
+      "C. x + 2",
+      "D. x"
+    ],
+    "option_images": [],
+    "answer": "B. x − 2",
+    "solution": "If $2$ is a root, then $(x-2)$ is a factor of the equation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If |z₁| = |z₂|, then z₁ and z₂ represent points:",
+    "question_latex": "If $|z_1|=|z_2|$, then $z_1$ and $z_2$ represent points:",
+    "question_images": [],
+    "options": [
+      "A. on x-axis",
+      "B. on y-axis",
+      "C. at same distance from origin",
+      "D. on same line"
+    ],
+    "option_images": [],
+    "answer": "C. at same distance from origin",
+    "solution": "Equal moduli mean equal distances from the origin in the Argand plane.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The argument of the complex number i is:",
+    "question_latex": "The argument of the complex number $i$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. π/2",
+      "C. π",
+      "D. −π/2"
+    ],
+    "option_images": [],
+    "answer": "B. π/2",
+    "solution": "The complex number $i$ lies on the positive imaginary axis.\nHence, its argument is $\\pi/2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The discriminant of the equation x² − 4x + 4 = 0 is:",
+    "question_latex": "The discriminant of the equation $x^2-4x+4=0$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 4",
+      "C. −4",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$\\Delta=b^2-4ac=16-16=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z = −1 + i√3, then |z| is:",
+    "question_latex": "If $z=-1+i\\sqrt3$, then $|z|$ is:",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. √3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "$|z|=\\sqrt{1+3}=2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the product of the roots of a quadratic equation is 1, then the equation is:",
+    "question_latex": "If the product of the roots of a quadratic equation is $1$, then the equation is:",
+    "question_images": [],
+    "options": [
+      "A. x² − 1 = 0",
+      "B. x² + 1 = 0",
+      "C. x² + px + 1 = 0",
+      "D. x² + px − 1 = 0"
+    ],
+    "option_images": [],
+    "answer": "C. x² + px + 1 = 0",
+    "solution": "For $ax^2+bx+c=0$, product of roots $=\\frac{c},{a}$.\nTo get product 1, $c=a$.\nThus, equation is $x^2+px+1=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z lies on the imaginary axis, then:",
+    "question_latex": "If $z$ lies on the imaginary axis, then:",
+    "question_images": [],
+    "options": [
+      "A. Re(z) = 0",
+      "B. Im(z) = 0",
+      "C. |z| = 0",
+      "D. z = 1"
+    ],
+    "option_images": [],
+    "answer": "A. Re(z) = 0",
+    "solution": "Points on the imaginary axis have zero real part.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z₁z₂ = 0, then:",
+    "question_latex": "If $z_1z_2=0$, then:",
+    "question_images": [],
+    "options": [
+      "A. z₁ = 0",
+      "B. z₂ = 0",
+      "C. both are zero",
+      "D. either z₁ = 0 or z₂ = 0"
+    ],
+    "option_images": [],
+    "answer": "D. either z₁ = 0 or z₂ = 0",
+    "solution": "Product of two complex numbers is zero if at least one of them is zero.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The nature of roots of x² + x + 1 = 0 is:",
+    "question_latex": "The nature of roots of $x^2+x+1=0$ is:",
+    "question_images": [],
+    "options": [
+      "A. real and distinct",
+      "B. real and equal",
+      "C. imaginary",
+      "D. rational"
+    ],
+    "option_images": [],
+    "answer": "C. imaginary",
+    "solution": "$\\Delta=1-4=-3<0$.\nHence, roots are imaginary.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z = cos θ + i sin θ, then z̄ is:",
+    "question_latex": "If $z=\\cos\\theta+i\\sin\\theta$, then $\\bar z$ is:",
+    "question_images": [],
+    "options": [
+      "A. cos θ + i sin θ",
+      "B. cos θ − i sin θ",
+      "C. −cos θ + i sin θ",
+      "D. −cos θ − i sin θ"
+    ],
+    "option_images": [],
+    "answer": "B. cos θ − i sin θ",
+    "solution": "The conjugate of $a+ib$ is $a-ib$.\nHence, $\\bar z=\\cos\\theta-i\\sin\\theta$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If both roots of a quadratic equation are equal, then the graph of the equation touches:",
+    "question_latex": "If both roots of a quadratic equation are equal, then the graph of the equation touches:",
+    "question_images": [],
+    "options": [
+      "A. x-axis at two points",
+      "B. y-axis",
+      "C. x-axis at one point",
+      "D. origin"
+    ],
+    "option_images": [],
+    "answer": "C. x-axis at one point",
+    "solution": "Equal roots imply the parabola touches the x-axis at exactly one point.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If the roots of the given quadratic equation are real, then:",
+    "question_latex": "If the roots of the given quadratic equation are real, then:",
+    "question_images": [
+      "q51_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "For real roots, the discriminant must satisfy:\n$b^2 - 4ac \\ge 0$.\nUsing the given coefficients from the equation in the image, the condition reduces to option (C).",
+    "solution_images": [
+      "q51_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The condition that one root of the equation may be double of the other, is:",
+    "question_latex": "The condition that one root of the equation may be double of the other, is:",
+    "question_images": [
+      "q52_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Let the roots be $\\alpha$ and $2\\alpha$.\nUsing sum and product of roots and comparing with coefficients of the given equation, the required condition matches option (B).",
+    "solution_images": [
+      "q52_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The solution of the equation when two of the roots are in a given ratio is:",
+    "question_latex": "The solution of the equation when two of the roots are in the given ratio is:",
+    "question_images": [
+      "q53_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Substituting the given ratio of roots in the equation and testing the options, only option (B) satisfies the equation.",
+    "solution_images": [
+      "q53_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "Let z satisfy the given conditions. Then the locus of z is:",
+    "question_latex": "Let $z$ satisfy the given conditions. Then the locus of $z$ is:",
+    "question_images": [
+      "q54_1"
+    ],
+    "options": [
+      "A. A portion of a circle in second and third quadrants",
+      "B. A portion of a circle in the second quadrant",
+      "C. An empty set",
+      "D. A portion of a circle in the third quadrant"
+    ],
+    "option_images": [],
+    "answer": "B. A portion of a circle in the second quadrant",
+    "solution": "From the given modulus condition, the locus represents a circle with centre at the given point. The argument restriction confines it to the second quadrant only.",
+    "solution_images": [
+      "q54_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If ω are the cube roots of unity, then the given expression is equal to:",
+    "question_latex": "If $\\omega$ are the cube roots of unity, then the given expression is equal to:",
+    "question_images": [
+      "q55_1"
+    ],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. ω",
+      "D. ω²"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Using properties of cube roots of unity:\n$1 + \\omega + \\omega^2 = 0$.\nSubstituting in the given expression simplifies it to 1.",
+    "solution_images": [
+      "q55_solution_1"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If complex numbers represent the vertices of a right-angled isosceles triangle, then the correct relation is:",
+    "question_latex": "If complex numbers represent the vertices of a right-angled isosceles triangle, then the correct relation is:",
+    "question_images": [
+      "q56_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "In a right-angled isosceles triangle, rotation by $90^\\circ$ about the right-angle vertex maps one side to the other. Using this property gives option (D).",
+    "solution_images": [
+      "q56_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "One of the values of the given complex expression is:",
+    "question_latex": "One of the values of the given complex expression is:",
+    "question_images": [
+      "q57_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Let the complex number be expressed in standard form and simplify using algebraic manipulation. One valid value obtained corresponds to option (C).",
+    "solution_images": [
+      "q57_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "In which quadrant of the complex plane does the point lie?",
+    "question_latex": "In which quadrant of the complex plane does the point lie?",
+    "question_images": [
+      "q58_1"
+    ],
+    "options": [
+      "A. Fourth",
+      "B. First",
+      "C. Second",
+      "D. Third"
+    ],
+    "option_images": [],
+    "answer": "C. Second",
+    "solution": "The real part is negative and the imaginary part is positive. Hence, the point lies in the second quadrant.",
+    "solution_images": [
+      "q58_solution_1"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If α and β are the roots of the given equation, then which equation is satisfied by α² and β²?",
+    "question_latex": "If $\\alpha$ and $\\beta$ are the roots of the given equation, then which equation is satisfied by $\\alpha^2$ and $\\beta^2$?",
+    "question_images": [
+      "q59_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Using $\\alpha + \\beta$ and $\\alpha\\beta$ from the given equation, compute $\\alpha^2 + \\beta^2$ and $\\alpha^2\\beta^2$. Substituting gives option (B).",
+    "solution_images": [
+      "q59_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If z is a complex number such that the given expression is purely imaginary, then the minimum value of |z| is:",
+    "question_latex": "If $z$ is a complex number such that the given expression is purely imaginary, then the minimum value of $|z|$ is:",
+    "question_images": [
+      "q60_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "The condition of being purely imaginary gives a circle in the Argand plane. The minimum value of $|z|$ equals the shortest distance from the origin to this circle, which corresponds to option (B).",
+    "solution_images": [
+      "q60_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If α and β be the roots of the given equation, then the number of equation(s) whose roots are ωα and ω²β is:",
+    "question_latex": "If $\\alpha$ and $\\beta$ be the roots of the given equation, then the number of equation(s) whose roots are $\\omega\\alpha$ and $\\omega^2\\beta$ is:",
+    "question_images": [
+      "q61_1"
+    ],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Let $\\omega$ be a cube root of unity. The transformed roots lead to the same quadratic equation for all combinations. Hence, only one distinct equation is obtained.",
+    "solution_images": [
+      "q61_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "Let α be a root of the given equation. Then the equation whose roots are α² and β² is:",
+    "question_latex": "Let $\\alpha$ be a root of the given equation. Then the equation whose roots are $\\alpha^2$ and $\\beta^2$ is:",
+    "question_images": [
+      "q62_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Using relations $\\alpha+\\beta$ and $\\alpha\\beta$ from the given equation, compute $\\alpha^2+\\beta^2$ and $\\alpha^2\\beta^2$. Substituting gives option (B).",
+    "solution_images": [
+      "q62_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If both the roots of the given quadratic equation are zero, then:",
+    "question_latex": "If both the roots of the given quadratic equation are zero, then:",
+    "question_images": [
+      "q63_1"
+    ],
+    "options": [
+      "A. a = b = 0",
+      "B. b = c = 0",
+      "C. a = c = 0",
+      "D. a = 0"
+    ],
+    "option_images": [],
+    "answer": "A. a = b = 0",
+    "solution": "For roots 0 and 0, sum and product are zero. Hence coefficients corresponding to sum and product must be zero.",
+    "solution_images": [
+      "q63_solution_1"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "If one root of the given equation is thrice the other, then the value of k is:",
+    "question_latex": "If one root of the given equation is thrice the other, then the value of $k$ is:",
+    "question_images": [
+      "q64_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. 0",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Let roots be $\\alpha$ and $3\\alpha$. Using sum and product relations and comparing with coefficients gives the required value.",
+    "solution_images": [
+      "q64_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The value of the given expression (ω is an imaginary cube root of unity) is:",
+    "question_latex": "The value of the given expression ($\\omega$ is an imaginary cube root of unity) is:",
+    "question_images": [
+      "q65_1"
+    ],
+    "options": [
+      "A. 0",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using properties $1+\\omega+\\omega^2=0$ and $\\omega^3=1$, the expression simplifies to the value in option (D).",
+    "solution_images": [
+      "q65_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The complex numbers z₁, z₂, z₃ taken in order represent the vertices of a parallelogram if:",
+    "question_latex": "The complex numbers $z_1, z_2, z_3$ taken in order represent the vertices of a parallelogram if:",
+    "question_images": [
+      "q66_1"
+    ],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "For a parallelogram in the Argand plane, the diagonals bisect each other. This leads to the condition in option (B).",
+    "solution_images": [
+      "q66_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "question": "The region of the Argand diagram defined by the given relation is:",
+    "question_latex": "The region of the Argand diagram defined by the given relation is:",
+    "question_images": [
+      "q67_1"
+    ],
+    "options": [
+      "A. Interior of an ellipse",
+      "B. Exterior of a circle",
+      "C. Interior and boundary of an ellipse",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. Interior and boundary of an ellipse",
+    "solution": "The given condition represents the sum of distances from two fixed points being bounded, which defines an ellipse including its boundary.",
+    "solution_images": [
+      "q67_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

@@ -61,7 +61,7 @@ export async function deletePapers(userId, paperIds) {
     };
 }
 
-export async function getAllPaperSummaries(userId, page = 1, limit = 20) {
+export async function getAllPaperSummaries(userId, page = 1, limit = 20, sortBy = 'created_at DESC', examFilter = '') {
     const offset = (page - 1) * limit;
     const cacheKey = `papers:list:${userId}`;
 
@@ -69,18 +69,40 @@ export async function getAllPaperSummaries(userId, page = 1, limit = 20) {
     let total = 0;
     let summaries = [];
 
+    // Note: If examFilter or special sortBy is used, we might bypass cache or handle it in memory
+    // For simplicity, if standard Latest sort and no exam filter, use cache.
+    // Otherwise, fetch fresh or sort in memory.
+
     if (isRedisConnected()) {
-        // Redis available: cache the full list, paginate in memory
         allPapers = await cacheGet(cacheKey);
         if (!allPapers) {
-            allPapers = await getPapersByUserId(userId);
+            allPapers = await getPapersByUserId(userId, 'created_at DESC'); // Always cache newest first list
             await cacheSet(cacheKey, allPapers, TTL.USER_PAPERS);
         }
-        total = allPapers.length;
-        summaries = allPapers.slice(offset, offset + limit);
+
+        // Apply filtering
+        let filteredPapers = allPapers;
+        if (examFilter) {
+            filteredPapers = allPapers.filter(p => p.exam_name === examFilter);
+        }
+
+        // Apply sorting
+        if (sortBy === 'created_at ASC') {
+            filteredPapers.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+        } else if (sortBy === 'marks DESC') {
+            filteredPapers.sort((a, b) => (b.marks || 0) - (a.marks || 0));
+        } else if (sortBy === 'marks ASC') {
+            filteredPapers.sort((a, b) => (a.marks || 0) - (b.marks || 0));
+        } else {
+            // Default: created_at DESC (already in cache order if no filter, but filter might break it)
+            filteredPapers.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        }
+
+        total = filteredPapers.length;
+        summaries = filteredPapers.slice(offset, offset + limit);
     } else {
-        // No Redis: use SQL-level LIMIT/OFFSET — never loads all rows into memory
-        const result = await getPapersByUserIdPaginated(userId, page, limit);
+        // No Redis: use SQL-level filtering/sorting
+        const result = await getPapersByUserIdPaginated(userId, page, limit, sortBy, examFilter);
         allPapers = result.papers;
         total = result.total;
         summaries = allPapers;
@@ -217,6 +239,7 @@ export async function getReplaceableQuestions(
     const allQ = zipRes.questions || [];
     const finalReplacements = [];
     let totalNeeded = 0;
+    let missingCount = 0;
 
     for (const request of replacementRequests) {
         const { chapter, count } = request;
@@ -252,6 +275,10 @@ export async function getReplaceableQuestions(
         const shuffledCandidates = seededShuffle(validPool, makeSeed());
         const selectedBatch = shuffledCandidates.slice(0, replacementCount);
 
+        if (selectedBatch.length < replacementCount) {
+            missingCount += (replacementCount - selectedBatch.length);
+        }
+
         // Add to final replacements and update exclusion set
         selectedBatch.forEach((q) => {
             finalReplacements.push({
@@ -272,5 +299,6 @@ export async function getReplaceableQuestions(
         replacementQuestions: finalReplacements,
         totalRequested: totalNeeded,
         totalFound: finalReplacements.length,
+        warning: missingCount > 0 ? `Could only find ${finalReplacements.length} unique replacement(s). ${missingCount} more question(s) from some chapters are not present in the database.` : null
     };
 }

@@ -1,0 +1,2027 @@
+[
+    {
+        "id": 1,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "With an alternating voltage source frequency 'f', inductor 'L', capacitor 'C' and resistance 'R' are connected in series. The voltage leads the current by 45°. The value of 'L' is (tan 45° = 1) [MHT-CET 2024]",
+        "question_latex": "With an alternating voltage source frequency $f$, inductor $L$, capacitor $C$ and resistance $R$ are connected in series. The voltage leads the current by $45^{\\circ}$. The value of $L$ is $(\\tan 45^{\\circ}=1)$ [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $(\\frac{4\\pi^{2}f^{2}C}{1+2\\pi fCR})$",
+            "(B) $(\\frac{1+2\\pi fCR}{4\\pi^{2}f^{2}C})$",
+            "(C) $(\\frac{4\\pi^{2}f^{2}C}{1-2\\pi fCR})$",
+            "(D) $(\\frac{1-2\\pi fCR}{4\\pi^{2}f^{2}C})$"
+        ],
+        "option_images": [],
+        "answer": "(B) $(\\frac{1+2\\pi fCR}{4\\pi^{2}f^{2}C})$",
+        "solution": "The phase difference between the current and the voltage is given by $\\theta=45^{\\circ}$, $\\tan 45^{\\circ}=1:\\omega L-\\frac{1}{\\omega C}=R$. $\\omega L=R+\\frac{1}{\\omega c}$. $L=\\frac{R}{\\omega}+\\frac{1}{\\omega^{2}C}=\\frac{R\\omega C+1}{\\omega^{2}C}$. Putting $\\omega=2\\pi f$ we get $L=\\frac{1+2\\pi fCR}{4\\pi^{2}f^{2}C}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 2,
+        "topic": "AC Circuit",
+        "subtopic": "RC Circuit",
+        "question": "An a.c. voltage source V = V0 sin ωt is connected across resistance 'R' and capacitance 'C' in series. It is given that R = 1 / ωC and the peak current is I0. If the angular frequency of the voltage source is changed to (ω / √3), then the new peak current in the circuit is [MHT-CET 2024]",
+        "question_latex": "An a.c. voltage source $V=V_{0}\\sin \\omega t$ is connected across resistance $R$ and capacitance $C$ in series. It is given that $R=\\frac{1}{\\omega C}$ and the peak current is $I_{0}$. If the angular frequency of the voltage source is changed to $(\\frac{\\omega}{\\sqrt{3}})$, then the new peak current in the circuit is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\sqrt{3}I_{0}$",
+            "(B) $\\frac{I_{0}}{2}$",
+            "(C) $\\sqrt{2}I_{0}$",
+            "(D) $\\frac{I_{0}}{\\sqrt{2}}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $\\frac{I_{0}}{\\sqrt{2}}$",
+        "solution": "$V=V_{0}\\sin \\omega t, R=\\frac{1}{\\omega C}, X_{C}=\\frac{1}{\\omega C}$. $z^{2}=R^{2}+X_{C}^{2}=\\frac{1}{\\omega^{2}C^{2}}+\\frac{1}{\\omega^{2}C^{2}}=\\frac{2}{\\omega^{2}C^{2}}$. $\\therefore z=\\frac{\\sqrt{2}}{\\omega C}$. $I_{0}=\\frac{v_{0}}{z}=\\frac{v_{0}\\omega C}{\\sqrt{2}}$. When frequency is changed to $(\\frac{\\omega}{\\sqrt{3}})$ then $X_{C}$ becomes $X_{C}^{\\prime}=\\frac{1}{\\frac{\\omega C}{\\sqrt{3}}}=\\frac{\\sqrt{3}}{\\omega C}$. $z^{\\prime 2}=R^{2}+X_{C}^{\\prime 2}=\\frac{1}{\\omega^{2}C^{2}}+\\frac{3}{\\omega^{2}C^{2}}=\\frac{4}{\\omega^{2}C^{2}}$. $z^{\\prime}=\\frac{2}{\\omega C}$. $I_{0}^{\\prime}=\\frac{v_{0}}{z^{\\prime}}=\\frac{v_{0}}{2\\omega C}$. By equating the current relations: $\\frac{I_{0}^{\\prime}}{I_{0}}=\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}} \\therefore I_{0}^{\\prime}=\\frac{I_{0}}{\\sqrt{2}}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 3,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "Which of the following statement is incorrect?",
+        "question_latex": "Which of the following statement is incorrect?",
+        "question_images": [],
+        "options": [
+            "(A) In a LCR series AC circuit, as the frequency of the source increases, the impedance of the circuit first decreases and then increases",
+            "(B) If the net reactance of an LCR series AC circuit is same as its resistance, then the current lags behind the voltage by 45°",
+            "(C) At resonance, the impedance of an AC circuit becomes purely resistive.",
+            "(D) Below resonance, voltage leads the current while above it, current leads the voltage"
+        ],
+        "option_images": [],
+        "answer": "(D) Below resonance, voltage leads the current while above it, current leads the voltage",
+        "solution": "When resonance occurs emf $E$ and current $i$ are in phase. In this case, the impedance is minimum and current is maximum. At resonance inductive reactance is equal to capacitive reactance $X_{L}=X_{C}$. Below resonance, capacitive reactance is dominant so current leads voltage.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 4,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In an LCR circuit, if 'v' is the effective value of the applied voltage, VR is the voltage across 'R', 'VL' and 'Vc' is the effective voltage across 'L' and 'C' respectively then [MHT-CET 2024]",
+        "question_latex": "In an LCR circuit, if $V$ is the effective value of the applied voltage, $V_{R}$ is the voltage across $R$, $V_{L}$ and $V_{C}$ is the effective voltage across $L$ and $C$ respectively then [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $V^{2}=V_{R}^{2}+(V_{L}-V_{C})^{2}$",
+            "(B) $V=V_{R}+V_{L}+V_{C}$",
+            "(C) $V^{2}=V_{L}^{2}+(V_{R}-V_{C})^{2}$",
+            "(D) $V^{2}=V_{R}^{2}+V_{L}^{2}+V_{C}^{2}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $V^{2}=V_{R}^{2}+(V_{L}-V_{C})^{2}$",
+        "solution": "By the phasor diagram for an LCR series circuit, the voltages across the inductor and capacitor are out of phase by $180^{\\circ}$, so their net voltage is $(V_{L}-V_{C})$. The resultant voltage is $V = \\sqrt{V_{R}^{2} + (V_{L}-V_{C})^{2}}$. Squaring both sides gives $V^{2}=V_{R}^{2}+(V_{L}-V_{C})^{2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 5,
+        "topic": "AC Circuit",
+        "subtopic": "Mutual Inductance",
+        "question": "Two coil X and Y are placed in a circuit such that a current changes by 2 A in coil X and magnetic flux change of 0.4 Wb occurs in Y. The value of mutual inductance of the coils is",
+        "question_latex": "Two coil $X$ and $Y$ are placed in a circuit such that a current changes by $2 \\, \\text{A}$ in coil $X$ and magnetic flux change of $0.4 \\, \\text{Wb}$ occurs in $Y$. The value of mutual inductance of the coils is",
+        "question_images": [],
+        "options": [
+            "(A) 0.8 H",
+            "(B) 0.2 Wb",
+            "(C) 0.2 H",
+            "(D) 5 H"
+        ],
+        "option_images": [],
+        "answer": "(C) 0.2 H",
+        "solution": "The relation for mutual inductance is $\\phi = Mi$. Therefore, $M = \\frac{\\phi}{i} = \\frac{0.4}{2} = 0.2 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 6,
+        "topic": "AC Circuit",
+        "subtopic": "Choke Coil",
+        "question": "Radio frequency choke uses core of",
+        "question_latex": "Radio frequency choke uses core of",
+        "question_images": [],
+        "options": [
+            "(A) Air",
+            "(B) Iron",
+            "(C) Air and iron",
+            "(D) None of these"
+        ],
+        "option_images": [],
+        "answer": "(A) Air",
+        "solution": "Radio frequency chokes use an air core to minimize eddy current losses at high frequencies.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 7,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In an LCR series ac circuit, the voltage across each of the components, L, C and R is 50V. the voltage across the LC combination will be",
+        "question_latex": "In an LCR series ac circuit, the voltage across each of the components, $L$, $C$ and $R$ is $50 \\, \\text{V}$. The voltage across the $LC$ combination will be",
+        "question_images": [],
+        "options": [
+            "(A) 50V",
+            "(B) 50",
+            "(C) 100V",
+            "(D) 0 V (zero)"
+        ],
+        "option_images": [],
+        "answer": "(D) 0 V (zero)",
+        "solution": "In a series LCR circuit, the voltage across the inductor and capacitor are in opposite phase ($180^{\\circ}$ apart). Net voltage across LC combination $= V_{L} - V_{C} = 50 - 50 = 0 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 8,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "An LCR series circuit with 80Ω resistance is connected to an 160 V, 50 Hz a.c. source. When only the capacitor is removed, the current lags behind the voltage by 60°. When only the inductance is removed, the current leads the voltage by 60°, the current in the LCR circuit is [tan 60° = √3] [MHT-CET 2022]",
+        "question_latex": "An LCR series circuit with $80 \\, \\Omega$ resistance is connected to an $160 \\, \\text{V}$, $50 \\, \\text{Hz}$ a.c. source. When only the capacitor is removed, the current lags behind the voltage by $60^{\\circ}$. When only the inductance is removed, the current leads the voltage by $60^{\\circ}$, the current in the LCR circuit is $(\\tan 60^{\\circ}=\\sqrt{3})$ [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) 2 A",
+            "(B) 3 A",
+            "(C) 1 A",
+            "(D) 4 A"
+        ],
+        "option_images": [],
+        "answer": "(A) 2 A",
+        "solution": "From the phase angle conditions: $\\tan 60^{\\circ} = \\frac{X_{L}}{R}$ and $\\tan 60^{\\circ} = \\frac{X_{C}}{R}$. This implies $\\frac{X_{L}}{R} = \\frac{X_{C}}{R} \\implies X_{L} = X_{C}$. Hence it is a resonant circuit. Impedance $Z = R$. Current $I = \\frac{V}{R} = \\frac{160}{80} = 2 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 9,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "An inductive coil has a resistance of 100Ω. When an a.c. signal of frequency 1000 Hz is applied to the coil the voltage leads the current by 45°. The inductance of the coil is (tan 45° = 1) [MHT-CET 2021]",
+        "question_latex": "An inductive coil has a resistance of $100 \\, \\Omega$. When an a.c. signal of frequency $1000 \\, \\text{Hz}$ is applied to the coil the voltage leads the current by $45^{\\circ}$. The inductance of the coil is $(\\tan 45^{\\circ}=1)$ [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{0.25}{\\pi} \\, \\text{H}$",
+            "(B) $\\frac{0.25}{2\\pi} \\, \\text{H}$",
+            "(C) $\\frac{0.05}{\\pi} \\, \\text{H}$",
+            "(D) $\\frac{0.5}{\\pi} \\, \\text{H}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{0.05}{\\pi} \\, \\text{H}$",
+        "solution": "$\\tan \\phi = \\tan 45^{\\circ} = \\frac{X_{L}}{R} \\implies \\frac{X_{L}}{R} = 1 \\implies X_{L} = R$. Therefore, $2\\pi f L = R$. $L = \\frac{R}{2\\pi f} = \\frac{100}{2\\pi \\times 1000} = \\frac{0.05}{\\pi} \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 10,
+        "topic": "AC Circuit",
+        "subtopic": "Impedance vs Frequency Graph",
+        "question": "Which one of the following graph represent correctly the variation of impedance (z) of a series LCR circuit with the frequency (v) of applied a.c.? [MHT-CET 2024]",
+        "question_latex": "Which one of the following graph represent correctly the variation of impedance ($z$) of a series LCR circuit with the frequency ($v$) of applied a.c.? [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) B",
+            "(B) C",
+            "(C) A",
+            "(D) D"
+        ],
+        "option_images": [
+            "q10_option_a_1",
+            "q10_option_b_1",
+            "q10_option_c_1",
+            "q10_option_d_1"
+        ],
+        "answer": "(A) B",
+        "solution": "The impedance of a series LCR circuit is given by $Z = \\sqrt{R^{2} + (X_{L} - X_{C})^{2}}$. At resonance ($X_{L} = X_{C}$), $Z$ is minimum ($Z = R$). As frequency decreases or increases from resonant frequency, $Z$ increases. This gives a parabolic U-shaped curve.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 11,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "An LCR series circuit is connected to an external e.m.f. e = 200 sin 100π t. The values of capacitance and resistance in the circuit are 1 μF and 100Ω respectively. The amplitude of the current in the circuit will be maximum when the inductance is [MHT-CET 2023]",
+        "question_latex": "An LCR series circuit is connected to an external e.m.f. $e = 200\\sin 100\\pi t$. The values of capacitance and resistance in the circuit are $1 \\, \\mu\\text{F}$ and $100 \\, \\Omega$ respectively. The amplitude of the current in the circuit will be maximum when the inductance is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) $1000\\pi \\, \\text{H}$",
+            "(B) $100\\pi \\, \\text{H}$",
+            "(C) $100 \\, \\text{H}$",
+            "(D) $\\frac{100}{\\pi^{2}} \\, \\text{H}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $\\frac{100}{\\pi^{2}} \\, \\text{H}$",
+        "solution": "Current amplitude is maximum at resonance, when $X_{L} = X_{C}$. $\\omega L = \\frac{1}{\\omega C} \\implies L = \\frac{1}{\\omega^{2}C}$. Given $\\omega = 100\\pi \\, \\text{rad/s}$ and $C = 1 \\times 10^{-6} \\, \\text{F}$. $L = \\frac{1}{(100\\pi)^{2} \\times 10^{-6}} = \\frac{1}{10^{4}\\pi^{2} \\times 10^{-6}} = \\frac{1}{10^{-2}\\pi^{2}} = \\frac{100}{\\pi^{2}} \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 12,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "An e.m.f. E = 4 cos(1000t) volt is applied to an LR-circuit of inductance 3 mH and resistance 4 ohms. The amplitude of current in the circuit is",
+        "question_latex": "An e.m.f. $E = 4\\cos(1000t) \\, \\text{V}$ is applied to an LR-circuit of inductance $3 \\, \\text{mH}$ and resistance $4 \\, \\Omega$. The amplitude of current in the circuit is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{4}{\\sqrt{7}} \\, \\text{A}$",
+            "(B) $1.0 \\, \\text{A}$",
+            "(C) $\\frac{4}{7} \\, \\text{A}$",
+            "(D) $0.8 \\, \\text{A}$"
+        ],
+        "option_images": [],
+        "answer": "(D) 0.8 A",
+        "solution": "Impedance $Z = \\sqrt{R^{2} + (\\omega L)^{2}} = \\sqrt{4^{2} + (1000 \\times 3 \\times 10^{-3})^{2}} = \\sqrt{16 + 9} = \\sqrt{25} = 5 \\, \\Omega$. Amplitude of current $i_{0} = \\frac{E_{0}}{Z} = \\frac{4}{5} = 0.8 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 13,
+        "topic": "AC Circuit",
+        "subtopic": "Power Factor",
+        "question": "The power factor of an an AC circuit having resistance R and inductance L (connected in series) and an angular velocity ω is",
+        "question_latex": "The power factor of an AC circuit having resistance $R$ and inductance $L$ (connected in series) and an angular velocity $\\omega$ is",
+        "question_images": [],
+        "options": [
+            "(A) $R/\\omega L$",
+            "(B) $R/(R^{2} + \\omega^{2}L^{2})^{1/2}$",
+            "(C) $\\omega L/R$",
+            "(D) $R/(R^{2} - \\omega^{2}L^{2})^{1/2}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $R/(R^{2} + \\omega^{2}L^{2})^{1/2}$",
+        "solution": "Power factor $\\cos \\phi = \\frac{R}{Z}$. For an RL series circuit, $Z = \\sqrt{R^{2} + X_{L}^{2}} = \\sqrt{R^{2} + \\omega^{2}L^{2}}$. Therefore, $\\cos \\phi = \\frac{R}{\\sqrt{R^{2} + \\omega^{2}L^{2}}} = R(R^{2} + \\omega^{2}L^{2})^{-1/2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 14,
+        "topic": "Magnetic Effects of Current",
+        "subtopic": "Magnetic Force",
+        "question": "An irregular closed loop carrying a current has a shape such that the entire loop cannot lie in a single plane. If this is placed in a uniform magnetic field, the force acting on the loop",
+        "question_latex": "An irregular closed loop carrying a current has a shape such that the entire loop cannot lie in a single plane. If this is placed in a uniform magnetic field, the force acting on the loop",
+        "question_images": [],
+        "options": [
+            "(A) Must be zero",
+            "(B) Can never be zero",
+            "(C) May be zero",
+            "(D) Will be zero only for one particular direction of the magnetic field"
+        ],
+        "option_images": [],
+        "answer": "(A) Must be zero",
+        "solution": "A closed current carrying loop of any irregular shape and even not lying in a single plane, placed in a uniform magnetic field shall experience no net force. $\\vec{F} = \\oint I (d\\vec{l} \\times \\vec{B}) = I (\\oint d\\vec{l}) \\times \\vec{B} = 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 15,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "In a series resonant L CR circuit, the voltage across R is 100 V and R = 1 kΩ with C = 2 μF. The resonant frequency is 200 rad s⁻¹. At resonance the voltage across L is",
+        "question_latex": "In a series resonant LCR circuit, the voltage across $R$ is $100 \\, \\text{V}$ and $R = 1 \\, \\text{k}\\Omega$ with $C = 2 \\, \\mu\\text{F}$. The resonant frequency is $200 \\, \\text{rad/s}$. At resonance the voltage across $L$ is",
+        "question_images": [],
+        "options": [
+            "(A) $2.5 \\times 10^{-2} \\, \\text{V}$",
+            "(B) $40 \\, \\text{V}$",
+            "(C) $250 \\, \\text{V}$",
+            "(D) $4 \\times 10^{-3} \\, \\text{V}$"
+        ],
+        "option_images": [],
+        "answer": "(C) 250 V",
+        "solution": "Current flowing through the circuit, $I = \\frac{V_{R}}{R} = \\frac{100}{1000} = 0.1 \\, \\text{A}$. At resonance, $X_{L} = X_{C} = \\frac{1}{\\omega C}$. Voltage across L is $V_{L} = I X_{L} = I \\left(\\frac{1}{\\omega C}\\right) = \\frac{0.1}{200 \\times 2 \\times 10^{-6}} = \\frac{0.1}{400 \\times 10^{-6}} = 250 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 16,
+        "topic": "AC Circuit",
+        "subtopic": "Power in AC Circuit",
+        "question": "The average power dissipation in a pure capacitance in ac circuit is",
+        "question_latex": "The average power dissipation in a pure capacitance in ac circuit is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{1}{2}CV^{2}$",
+            "(B) $CV^{2}$",
+            "(C) $\\frac{1}{4}CV^{2}$",
+            "(D) Zero"
+        ],
+        "option_images": [],
+        "answer": "(D) Zero",
+        "solution": "Average power in ac circuits is given by $P = V_{\\text{rms}} I_{\\text{rms}} \\cos \\phi$. For a pure capacitive circuit, current leads voltage by $90^{\\circ}$, so $\\phi = 90^{\\circ}$. Thus, $P = 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 17,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In a series resonant circuit, the ac voltage across resistance R, inductance L and capacitance C are 5 V, 10 V and 10 V respectively. The ac voltage applied to the circuit will be",
+        "question_latex": "In a series resonant circuit, the ac voltage across resistance $R$, inductance $L$ and capacitance $C$ are $5 \\, \\text{V}$, $10 \\, \\text{V}$ and $10 \\, \\text{V}$ respectively. The ac voltage applied to the circuit will be",
+        "question_images": [],
+        "options": [
+            "(A) 20 V",
+            "(B) 10 V",
+            "(C) 5 V",
+            "(D) 25 V"
+        ],
+        "option_images": [],
+        "answer": "(C) 5 V",
+        "solution": "The applied AC voltage is the phasor sum of voltages: $V = \\sqrt{V_{R}^{2} + (V_{L} - V_{C})^{2}}$. Substituting values: $V = \\sqrt{5^{2} + (10 - 10)^{2}} = \\sqrt{25 + 0} = 5 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 18,
+        "topic": "AC Circuit",
+        "subtopic": "RC Circuit",
+        "question": "An electric lamp connected in series with a capacitor and an a.c. source is glowing with certain brightness. On reducing the capacitance and frequency respectively, the brightness of the lamp [MHT-CET 2024]",
+        "question_latex": "An electric lamp connected in series with a capacitor and an a.c. source is glowing with certain brightness. On reducing the capacitance and frequency respectively, the brightness of the lamp [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) is reduced, is increased.",
+            "(B) is reduced, is reduced.",
+            "(C) is increased, is increased.",
+            "(D) is increased, is reduced."
+        ],
+        "option_images": [],
+        "answer": "(B) is reduced, is reduced.",
+        "solution": "Capacitive reactance is $X_{C} = \\frac{1}{2\\pi fC}$. Decreasing $C$ or $f$ increases $X_{C}$. Increased reactance means impedance $Z$ increases, allowing less current to flow. Thus, brightness is reduced in both cases.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 19,
+        "topic": "AC Circuit",
+        "subtopic": "LC Oscillations",
+        "question": "A 45μ F capacitor is charged with 100 V source supply. Then the source supply is removed and the capacitor is connected across an inductance, as a result of which 3A current flows through the inductance. The value of inductance will be [MHT-CET 2024]",
+        "question_latex": "A $45 \\, \\mu\\text{F}$ capacitor is charged with $100 \\, \\text{V}$ source supply. Then the source supply is removed and the capacitor is connected across an inductance, as a result of which $3 \\, \\text{A}$ current flows through the inductance. The value of inductance will be [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $10.2 \\times 10^{-1} \\, \\text{H}$",
+            "(B) $5 \\times 10^{-1} \\, \\text{H}$",
+            "(C) $5 \\times 10^{-2} \\, \\text{H}$",
+            "(D) $2 \\times 10^{-1} \\, \\text{H}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $5 \\times 10^{-2} \\, \\text{H}$",
+        "solution": "By conservation of energy in an LC circuit, max electrical energy = max magnetic energy: $\\frac{1}{2}CV^{2} = \\frac{1}{2}LI^{2}$. $L = \\frac{CV^{2}}{I^{2}} = \\frac{45 \\times 10^{-6} \\times (100)^{2}}{3^{2}} = \\frac{45 \\times 10^{-2}}{9} = 5 \\times 10^{-2} \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 20,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "The coefficient of induction of a choke coil is 0.1H and resistance is 12Ω. If it is connected to an alternating current source of frequency 60 Hz, then power factor will be",
+        "question_latex": "The coefficient of induction of a choke coil is $0.1 \\, \\text{H}$ and resistance is $12 \\, \\Omega$. If it is connected to an alternating current source of frequency $60 \\, \\text{Hz}$, then power factor will be",
+        "question_images": [],
+        "options": [
+            "(A) 0.32",
+            "(B) 0.30",
+            "(C) 0.28",
+            "(D) 0.24"
+        ],
+        "option_images": [],
+        "answer": "(B) 0.30",
+        "solution": "Power factor $\\cos \\phi = \\frac{R}{Z} = \\frac{R}{\\sqrt{R^{2} + \\omega^{2}L^{2}}}$. $\\omega L = 2\\pi \\times 60 \\times 0.1 = 12\\pi \\approx 37.7 \\, \\Omega$. $Z = \\sqrt{12^{2} + (37.7)^{2}} = \\sqrt{144 + 1421} \\approx 39.5$. $\\cos \\phi = \\frac{12}{39.5} \\approx 0.30$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 21,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In a series LCR circuit the frequency of a 10 V AC voltage source is adjusted in such a fashion that the reactance of the inductor measures 15Ω and that of the capacitor 11Ω. If R = 3Ω the potential difference across the series combination of L and C will be",
+        "question_latex": "In a series LCR circuit the frequency of a $10 \\, \\text{V}$ AC voltage source is adjusted in such a fashion that the reactance of the inductor measures $15 \\, \\Omega$ and that of the capacitor $11 \\, \\Omega$. If $R=3 \\, \\Omega$ the potential difference across the series combination of $L$ and $C$ will be",
+        "question_images": [],
+        "options": [
+            "(A) 8 V",
+            "(B) 10 V",
+            "(C) 22 V",
+            "(D) 52 V"
+        ],
+        "option_images": [],
+        "answer": "(A) 8 V",
+        "solution": "Current $i = \\frac{V}{\\sqrt{R^{2} + (X_{L} - X_{C})^{2}}} = \\frac{10}{\\sqrt{3^{2} + (15 - 11)^{2}}} = \\frac{10}{\\sqrt{9+16}} = 2 \\, \\text{A}$. Potential diff across L is $V_{L} = iX_{L} = 2 \\times 15 = 30 \\, \\text{V}$. Across C is $V_{C} = iX_{C} = 2 \\times 11 = 22 \\, \\text{V}$. Voltage across LC combination is $V_{L} - V_{C} = 30 - 22 = 8 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 22,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "In series L-C-R circuit, the capacitance is changed from 'C' to '2C'. To obtain the same resonance frequency the inductance should be changed from 'L' to [MHT-CET 2022]",
+        "question_latex": "In series L-C-R circuit, the capacitance is changed from $C$ to $2C$. To obtain the same resonance frequency the inductance should be changed from $L$ to [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) 4L",
+            "(B) 2L",
+            "(C) L/2",
+            "(D) L"
+        ],
+        "option_images": [],
+        "answer": "(C) L/2",
+        "solution": "Resonance frequency $f_{r} = \\frac{1}{2\\pi\\sqrt{LC}}$. To keep the product $LC$ same when $C \\to 2C$, $L$ should be changed to $L/2$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 23,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "In an a.c. circuit, a resistance R = 40Ω and an inductance 'L' are connected in series. If the phase angle between voltage and current is 45°, then the value of the inductive reactance is (tan 45° = 1) [MHT-CET 2021]",
+        "question_latex": "In an a.c. circuit, a resistance $R=40 \\, \\Omega$ and an inductance $L$ are connected in series. If the phase angle between voltage and current is $45^{\\circ}$, then the value of the inductive reactance is $(\\tan 45^{\\circ}=1)$ [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) 40 Ω",
+            "(B) 20 Ω",
+            "(C) 100 Ω",
+            "(D) 50 Ω"
+        ],
+        "option_images": [],
+        "answer": "(A) 40 Ω",
+        "solution": "Phase angle is given by $\\tan \\phi = \\frac{X_{L} - X_{C}}{R}$. Here $X_{C} = 0$, $R = 40 \\, \\Omega$, $\\phi = 45^{\\circ}$. $\\tan 45^{\\circ} = \\frac{X_{L}}{40} \\implies 1 = \\frac{X_{L}}{40} \\implies X_{L} = 40 \\, \\Omega$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 24,
+        "topic": "AC Circuit",
+        "subtopic": "Power in AC Circuit",
+        "question": "An e.m.f. E = E0 cos ωt is applied to a circuit containing 'L' and 'R' in series. If XL = R then the power dissipated in the circuit is [MHT-CET 2024]",
+        "question_latex": "An e.m.f. $E = E_{0}\\cos \\omega t$ is applied to a circuit containing $L$ and $R$ in series. If $X_{L}=R$ then the power dissipated in the circuit is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{4R}{E_{0}^{2}}$",
+            "(B) $\\frac{E_{0}^{2}}{R}$",
+            "(C) $\\frac{E_{0}^{2}}{4R}$",
+            "(D) $[\\frac{E_{0}^{2}}{4R}]^{\\frac{1}{2}}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{E_{0}^{2}}{4R}$",
+        "solution": "Average power $P = E_{\\text{rms}} I_{\\text{rms}} \\cos \\theta = \\frac{E_{0}}{\\sqrt{2}} \\frac{I_{0}}{\\sqrt{2}} \\frac{R}{Z} = \\frac{E_{0}^{2}}{2Z^{2}} R$. Since $X_{L}=R$, $Z = \\sqrt{R^{2} + R^{2}} = R\\sqrt{2}$. So $P = \\frac{E_{0}^{2}}{2(2R^{2})} R = \\frac{E_{0}^{2}}{4R}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 25,
+        "topic": "AC Circuit",
+        "subtopic": "Energy in AC Circuit",
+        "question": "In a series LCR circuit, C = 2μF, L = 1mH and R = 10Ω. The ratio of the energies stored in the inductor and the capacitor, when the maximum current flows in the circuit, is [MHT-CET 2023]",
+        "question_latex": "In a series LCR circuit, $C=2 \\, \\mu\\text{F}$, $L=1 \\, \\text{mH}$ and $R=10 \\, \\Omega$. The ratio of the energies stored in the inductor and the capacitor, when the maximum current flows in the circuit, is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) 1:5",
+            "(B) 3:2",
+            "(C) 1:2",
+            "(D) 5:1"
+        ],
+        "option_images": [],
+        "answer": "(D) 5:1",
+        "solution": "Energy in inductor $E_{L} = \\frac{1}{2}LI^{2}$. Energy in capacitor $E_{C} = \\frac{1}{2}CV^{2}$. At resonance (max current), $V = IR$. Thus $E_{C} = \\frac{1}{2}C(IR)^{2}$. $\\frac{E_{L}}{E_{C}} = \\frac{\\frac{1}{2}LI^{2}}{\\frac{1}{2}C I^{2} R^{2}} = \\frac{L}{C R^{2}} = \\frac{10^{-3}}{2 \\times 10^{-6} \\times 10^{2}} = \\frac{10^{-3}}{2 \\times 10^{-4}} = 5$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 26,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Inductor",
+        "question": "A coil of inductance L has an inductive reactance of XL in an AC circuit in which the effective current is I. The coil is made from a super-conducting material and has no resistance. The rate at which power is dissipated in the coil is",
+        "question_latex": "A coil of inductance $L$ has an inductive reactance of $X_{L}$ in an AC circuit in which the effective current is $I$. The coil is made from a super-conducting material and has no resistance. The rate at which power is dissipated in the coil is",
+        "question_images": [],
+        "options": [
+            "(A) 0",
+            "(B) $I X_{L}$",
+            "(C) $I^{2} X_{L}$",
+            "(D) $I X_{L}^{2}$"
+        ],
+        "option_images": [],
+        "answer": "(A) 0",
+        "solution": "For purely inductive circuit ($R=0$), the phase angle is $90^{\\circ}$. Power $P = VI \\cos(90^{\\circ}) = 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 27,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "A voltage of peak value 283 V and varying frequency is applied to a series LCR combination in which R = 3Ω, L = 25 mH and C = 400μF. The frequency (in Hz) of the source at which maximum power is dissipated in the above, is",
+        "question_latex": "A voltage of peak value $283 \\, \\text{V}$ and varying frequency is applied to a series LCR combination in which $R = 3 \\, \\Omega$, $L = 25 \\, \\text{mH}$ and $C = 400 \\, \\mu\\text{F}$. The frequency (in Hz) of the source at which maximum power is dissipated in the above, is",
+        "question_images": [],
+        "options": [
+            "(A) 51.5",
+            "(B) 50.7",
+            "(C) 51.1",
+            "(D) 50.3"
+        ],
+        "option_images": [],
+        "answer": "(D) 50.3",
+        "solution": "Maximum power is dissipated at resonant frequency. $f = \\frac{1}{2\\pi \\sqrt{LC}} = \\frac{1}{2 \\times 3.14 \\sqrt{25 \\times 10^{-3} \\times 400 \\times 10^{-6}}} = \\frac{1}{6.28 \\sqrt{10^{-5}}} = 50.3 \\, \\text{Hz}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 28,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "There is a 5Ω resistance in an ac circuit. Inductance of 0.1H is connected with it in series. If equation of ac e.m.f. is 5 sin 50πt then the phase difference between current and e.m.f. is",
+        "question_latex": "There is a $5 \\, \\Omega$ resistance in an ac circuit. Inductance of $0.1 \\, \\text{H}$ is connected with it in series. If equation of ac e.m.f. is $5\\sin 50\\pi t$ then the phase difference between current and e.m.f. is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{\\pi}{2}$",
+            "(B) $\\frac{\\pi}{6}$",
+            "(C) $\\frac{\\pi}{4}$",
+            "(D) 0"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{\\pi}{4}$",
+        "solution": "$X_{L} = \\omega L = 50\\pi \\times 0.1 = 5\\pi \\approx 15.7 \\, \\Omega$. (Note: Assuming $\\omega = 50$ directly if solution intended $\\omega L = 5$). Solution given implies $X_{L} = 5 \\, \\Omega$, so $Z = \\sqrt{5^{2} + 5^{2}} = 5\\sqrt{2}$. $\\cos \\phi = \\frac{R}{Z} = \\frac{5}{5\\sqrt{2}} = \\frac{1}{\\sqrt{2}} \\implies \\phi = \\pi/4$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 29,
+        "topic": "AC Circuit",
+        "subtopic": "Power in AC Circuit",
+        "question": "In an AC circuit, the instantaneous values of emf and current are e = 200 sin 314t V and I = sin(314t + π/3) A. The average power consumed (in W) is [MHT-CET 2009]",
+        "question_latex": "In an AC circuit, the instantaneous values of emf and current are $e = 200\\sin 314t \\, \\text{V}$ and $I = \\sin(314t + \\frac{\\pi}{3}) \\, \\text{A}$. The average power consumed (in W) is [MHT-CET 2009]",
+        "question_images": [],
+        "options": [
+            "(A) 200",
+            "(B) 100",
+            "(C) 50",
+            "(D) 25"
+        ],
+        "option_images": [],
+        "answer": "(C) 50",
+        "solution": "$P = V_{\\text{rms}} I_{\\text{rms}} \\cos \\phi = \\frac{200}{\\sqrt{2}} \\frac{1}{\\sqrt{2}} \\cos \\frac{\\pi}{3} = 100 \\times \\frac{1}{2} = 50 \\, \\text{W}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 30,
+        "topic": "AC Circuit",
+        "subtopic": "RMS and Peak Current",
+        "question": "A power supply of 220 V, 50 Hz is connected to a resistor. The time taken by the alternating current flowing in the resistor, to change from maximum value to r.m.s. value is [MHT-CET 2021]",
+        "question_latex": "A power supply of $220 \\, \\text{V}$, $50 \\, \\text{Hz}$ is connected to a resistor. The time taken by the alternating current flowing in the resistor, to change from maximum value to r.m.s. value is $(\\sin 45^{\\circ}=\\frac{1}{\\sqrt{2}})$ [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) $10 \\times 10^{-3} \\, \\text{s}$",
+            "(B) $2.5 \\times 10^{-3} \\, \\text{s}$",
+            "(C) $5 \\times 10^{-3} \\, \\text{s}$",
+            "(D) $2.5 \\times 10^{3} \\, \\text{s}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $2.5 \\times 10^{-3} \\, \\text{s}$",
+        "solution": "Let $i = i_{0}\\cos \\omega t$ (taking $t=0$ at max value). When $i = i_{\\text{rms}} = \\frac{i_{0}}{\\sqrt{2}}$, we have $\\frac{i_{0}}{\\sqrt{2}} = i_{0}\\cos \\omega t \\implies \\cos \\omega t = \\frac{1}{\\sqrt{2}} \\implies \\omega t = \\frac{\\pi}{4}$. Since $\\omega = 2\\pi f = 100\\pi$, $100\\pi t = \\frac{\\pi}{4} \\implies t = \\frac{1}{400} = 2.5 \\times 10^{-3} \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 31,
+        "topic": "AC Circuit",
+        "subtopic": "Quality Factor",
+        "question": "Total impedance (z) of a series LCR circuit varies with angular frequency (ω) of the a.c. source connected to it as shown in the graph. The quality factor (Q) of the series LCR circuit is [MHT-CET 2024]",
+        "question_latex": "Total impedance ($z$) of a series LCR circuit varies with angular frequency ($\\omega$) of the a.c. source connected to it as shown in the graph. The quality factor ($Q$) of the series LCR circuit is [MHT-CET 2024]",
+        "question_images": [
+            "q31_1"
+        ],
+        "options": [
+            "(A) 2.5",
+            "(B) 0.4",
+            "(C) 5",
+            "(D) 1"
+        ],
+        "option_images": [],
+        "answer": "(A) 2.5",
+        "solution": "For $Z_{\\text{min}}$, current is maximum as resonance occurs at $X_{L}=X_{C}$. From the given graph, Resonant frequency $(\\omega_{r})=500 \\, \\text{rad/s}$. Quality factor ($Q$) = $\\frac{\\text{Resonant frequency}}{\\text{Bandwidth}}$. $Q = \\frac{500}{600-400} = \\frac{500}{200} = 2.5$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 32,
+        "topic": "AC Circuit",
+        "subtopic": "RC Circuit",
+        "question": "When an AC source of emf e = E0 sin (100t) is connected across a circuit, the phase difference between the emf e and the current i in the circuit is observed to be as shown in the diagram. If the circuit consists possibly only of RC or RL or LC in series, find the relationship between the two elements",
+        "question_latex": "When an AC source of emf $e = E_{0}\\sin(100t)$ is connected across a circuit, the phase difference between the emf $e$ and the current $i$ in the circuit is observed to be as shown in the diagram. If the circuit consists possibly only of RC or RL or LC in series, find the relationship between the two elements.",
+        "question_images": [
+            "q32_1"
+        ],
+        "options": [
+            "(A) $R=1 \\, \\text{k}\\Omega$, $C=10 \\, \\mu\\text{F}$",
+            "(B) $R=1 \\, \\text{k}\\Omega$, $C=1 \\, \\mu\\text{F}$",
+            "(C) $R=1 \\, \\text{k}\\Omega$, $L=10 \\, \\text{H}$",
+            "(D) $R=1 \\, \\text{k}\\Omega$, $L=1 \\, \\text{H}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $R=1 \\, \\text{k}\\Omega$, $C=10 \\, \\mu\\text{F}$",
+        "solution": "As the current $i$ leads the emf $e$ by $\\frac{\\pi}{4}$, it is an RC circuit. $\\tan \\phi = \\frac{X_{C}}{R} \\implies \\tan\\frac{\\pi}{4} = \\frac{1/(\\omega C)}{R} \\implies \\omega CR = 1$. As $\\omega = 100 \\, \\text{rad/s}$, the product of $CR$ should be $\\frac{1}{100} \\, \\text{s}$. Checking options: for $R=10^{3} \\, \\Omega$ and $C=10 \\times 10^{-6} \\, \\text{F}$, $CR = 10^{3} \\times 10^{-5} = 10^{-2} = \\frac{1}{100} \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 33,
+        "topic": "AC Circuit",
+        "subtopic": "RMS and Peak Values",
+        "question": "The equation of alternating current is I = 40√2 sin 200πt ampere, then the frequency and r.m.s. value of current is respectively [MHT-CET 2022]",
+        "question_latex": "The equation of alternating current is $I = 40\\sqrt{2}\\sin 200\\pi t \\, \\text{A}$, then the frequency and r.m.s. value of current is respectively [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) 100 Hz, 20 A",
+            "(B) 50 Hz, 40 A",
+            "(C) 100 Hz, 40 A",
+            "(D) 50 Hz, 20 A"
+        ],
+        "option_images": [],
+        "answer": "(C) 100 Hz, 40 A",
+        "solution": "$I = 40\\sqrt{2}\\sin 200\\pi t$. Peak value of the current $I_{0} = 40\\sqrt{2} \\, \\text{A}$. R.M.S. value $I_{\\text{rms}} = \\frac{I_{0}}{\\sqrt{2}} = 40 \\, \\text{A}$. $\\omega = 2\\pi f = 200\\pi \\implies f = 100 \\, \\text{Hz}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 34,
+        "topic": "AC Circuit",
+        "subtopic": "Dimensional Analysis",
+        "question": "L, C and R represent physical quantities inductance, capacitance and resistance respectively. The combination representing dimension of frequency is",
+        "question_latex": "$L$, $C$ and $R$ represent physical quantities inductance, capacitance and resistance respectively. The combination representing dimension of frequency is",
+        "question_images": [],
+        "options": [
+            "(A) $LC$",
+            "(B) $(LC)^{-1/2}$",
+            "(C) $(L/C)^{-1/2}$",
+            "(D) $C/L$"
+        ],
+        "option_images": [],
+        "answer": "(B) $(LC)^{-1/2}$",
+        "solution": "The resonant frequency of an LC circuit is given by $f = \\frac{1}{2\\pi\\sqrt{LC}}$. Thus, the combination $\\frac{1}{\\sqrt{LC}}$ or $(LC)^{-1/2}$ has the dimensions of frequency.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 35,
+        "topic": "AC Circuit",
+        "subtopic": "Instantaneous Values",
+        "question": "The instantaneous value of current in an a.c. circuit is I = 2 sin(100πt + π/3) A. The current will be maximum for the first time at",
+        "question_latex": "The instantaneous value of current in an a.c. circuit is $I = 2\\sin(100\\pi t + \\frac{\\pi}{3}) \\, \\text{A}$. The current will be maximum for the first time at",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{1}{400} \\, \\text{s}$",
+            "(B) $\\frac{1}{200} \\, \\text{s}$",
+            "(C) $\\frac{1}{600} \\, \\text{s}$",
+            "(D) $\\frac{1}{100} \\, \\text{s}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{1}{600} \\, \\text{s}$",
+        "solution": "Current is maximum when the argument of sine is $\\frac{\\pi}{2}$. $100\\pi t + \\frac{\\pi}{3} = \\frac{\\pi}{2} \\implies 100\\pi t = \\frac{\\pi}{2} - \\frac{\\pi}{3} = \\frac{\\pi}{6}$. Therefore, $t = \\frac{1}{600} \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 36,
+        "topic": "AC Circuit",
+        "subtopic": "Reactance",
+        "question": "Same current is flowing in two AC circuits. First contains only inductance and second contains only capacitance. If frequency of AC is increased for both, the current will [MHT-CET 2015]",
+        "question_latex": "Same current is flowing in two AC circuits. First contains only inductance and second contains only capacitance. If frequency of AC is increased for both, the current will [MHT-CET 2015]",
+        "question_images": [],
+        "options": [
+            "(A) increase in first circuit and decrease in second",
+            "(B) increase in both circuits",
+            "(C) decrease in both circuits",
+            "(D) decrease in first circuit and increase in second"
+        ],
+        "option_images": [],
+        "answer": "(D) decrease in first circuit and increase in second",
+        "solution": "Inductive reactance $X_{L} = 2\\pi fL \\implies X_{L} \\propto f$. Capacitive reactance $X_{C} = \\frac{1}{2\\pi fC} \\implies X_{C} \\propto \\frac{1}{f}$. As frequency $f$ increases, $X_{L}$ increases (current decreases) and $X_{C}$ decreases (current increases).",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 37,
+        "topic": "AC Circuit",
+        "subtopic": "RMS and Peak Current",
+        "question": "Find the time required for a 50 Hz alternating current to become its value from zero to the rms value",
+        "question_latex": "Find the time required for a $50 \\, \\text{Hz}$ alternating current to become its value from zero to the rms value",
+        "question_images": [],
+        "options": [
+            "(A) 10.0 ms",
+            "(B) 2.5 ms",
+            "(C) 15.0 ms",
+            "(D) 5.0 ms"
+        ],
+        "option_images": [],
+        "answer": "(D) 5.0 ms",
+        "solution": "*(Note: Standard theoretical calculation for zero to rms is T/8 = 2.5 ms, however, based on the provided solution key)* The time for alternating current to reach the required state as solved is $t = \\frac{T}{4} = \\frac{1}{4f} = \\frac{1}{200} \\, \\text{s} = 5 \\, \\text{ms}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 38,
+        "topic": "AC Circuit",
+        "subtopic": "Parallel Resonance",
+        "question": "LC parallel resonance circuit is connected to a source of alternating e.m.f. XL and XC are the inductive reactance and capacitive reactance respectively. The true statement is [MHT-CET 2023]",
+        "question_latex": "LC parallel resonance circuit is connected to a source of alternating e.m.f. $X_{L}$ and $X_{C}$ are the inductive reactance and capacitive reactance respectively. The true statement is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) resonant frequency, $f_{r} = 2\\pi\\sqrt{LC}$",
+            "(B) resonance does not occur when $X_{L} = X_{C}$",
+            "(C) impedance of the circuit is minimum",
+            "(D) current in the circuit is minimum"
+        ],
+        "option_images": [],
+        "answer": "(D) current in the circuit is minimum",
+        "solution": "In an LC parallel resonant circuit, at resonance ($X_{L} = X_{C}$), the impedance is maximum. Because $I = \\frac{V}{Z}$, the current in the circuit becomes minimum.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 39,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "When an inductor 'L' and a resistor 'R' in series are connected across a 15 V, 50 Hz a.c. supply, a current of 0.3 A flows in the circuit. The current differs in phase from applied voltage by π/3. The value of 'R' is [MHT-CET 2023]",
+        "question_latex": "When an inductor $L$ and a resistor $R$ in series are connected across a $15 \\, \\text{V}$, $50 \\, \\text{Hz}$ a.c. supply, a current of $0.3 \\, \\text{A}$ flows in the circuit. The current differs in phase from applied voltage by $\\frac{\\pi}{3}$. The value of $R$ is $(\\sin\\frac{\\pi}{6} = \\cos\\frac{\\pi}{3} = \\frac{1}{2})$ [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) 10 Ω",
+            "(B) 25 Ω",
+            "(C) 20 Ω",
+            "(D) 15 Ω"
+        ],
+        "option_images": [],
+        "answer": "(B) 25 Ω",
+        "solution": "Impedance $Z = \\frac{e}{i} = \\frac{15}{0.3} = 50 \\, \\Omega$. The phase difference $\\phi = \\frac{\\pi}{3}$. $\\cos \\phi = \\frac{R}{Z} \\implies R = Z \\cos \\phi = 50 \\times \\cos\\frac{\\pi}{3} = 50 \\times \\frac{1}{2} = 25 \\, \\Omega$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 40,
+        "topic": "AC Circuit",
+        "subtopic": "Reactance",
+        "question": "Same current is flowing in two alternating circuits. The first circuit contains only inductance and the other contains only a capacitor. If the frequency of the emf of AC is increased, the effect on the value of the current will be [MHT-CET 2009]",
+        "question_latex": "Same current is flowing in two alternating circuits. The first circuit contains only inductance and the other contains only a capacitor. If the frequency of the emf of AC is increased, the effect on the value of the current will be [MHT-CET 2009]",
+        "question_images": [],
+        "options": [
+            "(A) increases in the first circuit and decreases in the other",
+            "(B) increases in both the circuits",
+            "(C) decreases in both the circuits",
+            "(D) decreases in the first circuit and increases in the other"
+        ],
+        "option_images": [],
+        "answer": "(D) decreases in the first circuit and increases in the other",
+        "solution": "For inductor: $I_{L} = \\frac{V}{X_{L}} = \\frac{V}{\\omega L} \\implies I_{L} \\propto \\frac{1}{\\omega}$. For capacitor: $I_{C} = \\frac{V}{X_{C}} = V\\omega C \\implies I_{C} \\propto \\omega$. With increase in $\\omega$, $I_{L}$ decreases while $I_{C}$ increases.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 41,
+        "topic": "AC Circuit",
+        "subtopic": "Power in AC Circuit",
+        "question": "A group of lamps having total power rating of 1000 W is supplied by an AC voltage of E = 200 sin(310t + 60°), the r.m.s. value of current flowing through the circuit is [MHT-CET 2023]",
+        "question_latex": "A group of lamps having total power rating of $1000 \\, \\text{W}$ is supplied by an AC voltage of $E = 200\\sin(310t + 60^{\\circ})$, the r.m.s. value of current flowing through the circuit is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) $10\\sqrt{2} \\, \\text{A}$",
+            "(B) $5\\sqrt{2} \\, \\text{A}$",
+            "(C) $20 \\, \\text{A}$",
+            "(D) $10 \\, \\text{A}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $5\\sqrt{2} \\, \\text{A}$",
+        "solution": "Power $P = 1000 \\, \\text{W}$, Peak voltage $E_{0} = 200 \\, \\text{V}$. RMS voltage $E_{\\text{rms}} = \\frac{E_{0}}{\\sqrt{2}} = \\frac{200}{\\sqrt{2}} = 100\\sqrt{2} \\, \\text{V}$. The lamps form a resistive circuit, so $P = E_{\\text{rms}} I_{\\text{rms}} \\implies I_{\\text{rms}} = \\frac{P}{E_{\\text{rms}}} = \\frac{1000}{100\\sqrt{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 42,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "The resonant frequency of a circuit is f. If the capacitance is made 4 times the initial values, then the resonant frequency will become",
+        "question_latex": "The resonant frequency of a circuit is $f$. If the capacitance is made $4$ times the initial values, then the resonant frequency will become",
+        "question_images": [],
+        "options": [
+            "(A) $f/2$",
+            "(B) $2f$",
+            "(C) $f$",
+            "(D) $f/4$"
+        ],
+        "option_images": [],
+        "answer": "(A) $f/2$",
+        "solution": "$f = \\frac{1}{2\\pi\\sqrt{LC}} \\implies f \\propto \\frac{1}{\\sqrt{C}}$. If $C$ becomes $4C$, new frequency $f^{\\prime} \\propto \\frac{1}{\\sqrt{4C}} = \\frac{1}{2\\sqrt{C}} = \\frac{f}{2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 43,
+        "topic": "AC Circuit",
+        "subtopic": "LC Oscillations",
+        "question": "A fully charged capacitor C with initial charge q0 is connected to a coil of self inductance L at t = 0. The time at which the energy is stored equally between the electric and the magnetic fields is",
+        "question_latex": "A fully charged capacitor $C$ with initial charge $q_{0}$ is connected to a coil of self inductance $L$ at $t = 0$. The time at which the energy is stored equally between the electric and the magnetic fields is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{\\pi}{4}\\sqrt{LC}$",
+            "(B) $2\\pi\\sqrt{LC}$",
+            "(C) $\\sqrt{LC}$",
+            "(D) $\\pi\\sqrt{LC}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{\\pi}{4}\\sqrt{LC}$",
+        "solution": "Initially charge is max, so $q = q_{0}\\cos \\omega t$. Current $i = \\frac{dq}{dt} = -\\omega q_{0}\\sin \\omega t$. Energies are equal: $\\frac{1}{2}Li^{2} = \\frac{q^{2}}{2C} \\implies \\frac{1}{2}L(\\omega q_{0}\\sin \\omega t)^{2} = \\frac{(q_{0}\\cos \\omega t)^{2}}{2C}$. As $\\omega^{2} = \\frac{1}{LC}$, this simplifies to $\\sin^{2} \\omega t = \\cos^{2} \\omega t \\implies \\tan \\omega t = 1$. $\\omega t = \\frac{\\pi}{4} \\implies t = \\frac{\\pi}{4\\omega} = \\frac{\\pi}{4}\\sqrt{LC}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 44,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "In LR circuit, resistance is 8Ω and inductive reactance is 6Ω, then impedance is",
+        "question_latex": "In LR circuit, resistance is $8 \\, \\Omega$ and inductive reactance is $6 \\, \\Omega$, then impedance is",
+        "question_images": [],
+        "options": [
+            "(A) 2 Ω",
+            "(B) 14 Ω",
+            "(C) 4 Ω",
+            "(D) 10 Ω"
+        ],
+        "option_images": [],
+        "answer": "(D) 10 Ω",
+        "solution": "In series LR circuit, impedance is given by $Z = \\sqrt{R^{2} + X_{L}^{2}}$. Given $R = 8 \\, \\Omega, X_{L} = 6 \\, \\Omega$. $Z = \\sqrt{8^{2} + 6^{2}} = \\sqrt{64 + 36} = \\sqrt{100} = 10 \\, \\Omega$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 45,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Capacitor",
+        "question": "An alternating voltage E = 200√2 sin(100t) is connected to 1μF capacitor through AC ammeter. The reading of ammeter shall be [MHT-CET 2009]",
+        "question_latex": "An alternating voltage $E = 200\\sqrt{2}\\sin(100t)$ is connected to $1 \\, \\mu\\text{F}$ capacitor through AC ammeter. The reading of ammeter shall be [MHT-CET 2009]",
+        "question_images": [],
+        "options": [
+            "(A) 10 mA",
+            "(B) 20 mA",
+            "(C) 40 mA",
+            "(D) 80 mA"
+        ],
+        "option_images": [],
+        "answer": "(B) 20 mA",
+        "solution": "Reading of ammeter $= I_{\\text{rms}} = \\frac{V_{\\text{rms}}}{X_{C}} = \\frac{V_{0}}{\\sqrt{2}} \\times \\omega C$. $I_{\\text{rms}} = \\frac{200\\sqrt{2} \\times 100 \\times (1 \\times 10^{-6})}{\\sqrt{2}} = 200 \\times 10^{-4} = 2 \\times 10^{-2} \\, \\text{A} = 20 \\, \\text{mA}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 46,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "In an ac circuit, the potential difference across an inductance and resistance joined in series are respectively 16 V and 20 V. The total potential difference across the circuit is",
+        "question_latex": "In an ac circuit, the potential difference across an inductance and resistance joined in series are respectively $16 \\, \\text{V}$ and $20 \\, \\text{V}$. The total potential difference across the circuit is",
+        "question_images": [],
+        "options": [
+            "(A) 20.0 V",
+            "(B) 25.6 V",
+            "(C) 31.9 V",
+            "(D) 53.5 V"
+        ],
+        "option_images": [],
+        "answer": "(B) 25.6 V",
+        "solution": "$V = \\sqrt{V_{R}^{2} + V_{L}^{2}} = \\sqrt{20^{2} + 16^{2}} = \\sqrt{400 + 256} = \\sqrt{656} = 25.6 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 47,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "The magnet in figure rotates a shown on a pivot through its center. At the instant shown, what are the directions of the induced currents.",
+        "question_latex": "The magnet in figure rotates a shown on a pivot through its center. At the instant shown, what are the directions of the induced currents.",
+        "question_images": [
+            "q47_1"
+        ],
+        "options": [
+            "(A) A to B and C to D",
+            "(B) B to A and C to D",
+            "(C) A to B and D to C",
+            "(D) B to A and D to C"
+        ],
+        "option_images": [],
+        "answer": "(A) A to B and C to D",
+        "solution": "In the rotation of magnet, N pole moves closer to coil CD and S pole moves closer to coil AB. As per Lenz's law, N pole should develop at the end corresponding to C. Induced current flows from C to D. Again S pole should develop at the end corresponding to B. Therefore, induced current in the coil flows from A to B.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 48,
+        "topic": "AC Circuit",
+        "subtopic": "Phase Difference",
+        "question": "In an a.c. circuit the instantaneous current and emf are represented as I = I0 sin[ωt - π/6] and E = E0 sin[ωt + π/3] respectively. The voltage leads the current by [MHT-CET 2023]",
+        "question_latex": "In an a.c. circuit the instantaneous current and emf are represented as $I = I_{0}\\sin(\\omega t - \\pi/6)$ and $E = E_{0}\\sin(\\omega t + \\pi/3)$ respectively. The voltage leads the current by [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{\\pi}{6}$",
+            "(B) $\\frac{\\pi}{2}$",
+            "(C) $\\frac{\\pi}{3}$",
+            "(D) $\\frac{\\pi}{4}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $\\frac{\\pi}{2}$",
+        "solution": "Phase of voltage is $\\phi_{V} = \\omega t + \\frac{\\pi}{3}$. Phase of current is $\\phi_{I} = \\omega t - \\frac{\\pi}{6}$. Phase difference $\\Delta\\phi = \\phi_{V} - \\phi_{I} = (\\omega t + \\frac{\\pi}{3}) - (\\omega t - \\frac{\\pi}{6}) = \\frac{\\pi}{3} + \\frac{\\pi}{6} = \\frac{\\pi}{2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 49,
+        "topic": "AC Circuit",
+        "subtopic": "Choke Coil",
+        "question": "Choke coil is used to control",
+        "question_latex": "Choke coil is used to control",
+        "question_images": [],
+        "options": [
+            "(A) ac",
+            "(B) dc",
+            "(C) Both ac and dc",
+            "(D) Neither ac nor dc"
+        ],
+        "option_images": [],
+        "answer": "(A) ac",
+        "solution": "The choke coil can be used only in ac circuits, not in dc circuits, because for dc ($\\omega = 0$) the inductive reactance $X_{L} = \\omega L$ of the coil is zero, only the resistance of the coil remains effective which too is almost zero.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 50,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Inductor",
+        "question": "The inductive reactance of an inductor of 1/π henry at 50 Hz frequency is",
+        "question_latex": "The inductive reactance of an inductor of $\\frac{1}{\\pi}$ henry at $50 \\, \\text{Hz}$ frequency is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{50}{\\pi} \\, \\Omega$",
+            "(B) $\\frac{\\pi}{50} \\, \\Omega$",
+            "(C) $100 \\, \\Omega$",
+            "(D) $50 \\, \\Omega$"
+        ],
+        "option_images": [],
+        "answer": "(C) 100 ohm",
+        "solution": "$X_{L} = 2\\pi f L = 2 \\times \\pi \\times 50 \\times \\frac{1}{\\pi} = 100 \\, \\Omega$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 51,
+        "topic": "AC Circuit",
+        "subtopic": "Parallel Resonance",
+        "question": "The resonance frequency of the tank circuit of an oscillator when L = 10/π² mH and C = 0.04 μF are connected in parallel is",
+        "question_latex": "The resonance frequency of the tank circuit of an oscillator when $L = \\frac{10}{\\pi^{2}} \\, \\text{mH}$ and $C = 0.04 \\, \\mu\\text{F}$ are connected in parallel is",
+        "question_images": [],
+        "options": [
+            "(A) 250 kHz",
+            "(B) 25 kHz",
+            "(C) 2.5 kHz",
+            "(D) 25 MHz"
+        ],
+        "option_images": [],
+        "answer": "(B) 25 kHz",
+        "solution": "In parallel resonant circuit, resonance frequency $f_{0} = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{\\frac{10 \\times 10^{-3}}{\\pi^{2}} \\times 0.04 \\times 10^{-6}}} = \\frac{1}{2\\sqrt{10^{-2} \\times 4 \\times 10^{-8}}} = \\frac{1}{2\\sqrt{4 \\times 10^{-10}}} = \\frac{1}{2 \\times 2 \\times 10^{-5}} = \\frac{10^{5}}{4} = 25000 \\, \\text{Hz} = 25 \\, \\text{kHz}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 52,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "An a.c. circuit contains resistor of resistance R and inductor of inductive reactance XL. The phase angle between current and potential difference will be [MHT-CET 2021]",
+        "question_latex": "An a.c. circuit contains resistor of resistance $R$ and inductor of inductive reactance $X_{L}$. The phase angle between current and potential difference will be [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) $\\sin^{-1}(\\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}})$",
+            "(B) $\\cos^{-1}(\\frac{\\sqrt{R^{2}+X_{L}^{2}}}{R})$",
+            "(C) $\\sin^{-1}(\\frac{\\sqrt{R^{2}+X_{L}^{2}}}{R})$",
+            "(D) $\\cos^{-1}(\\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}})$"
+        ],
+        "option_images": [],
+        "answer": "(D)",
+        "solution": "For an RL circuit, the phase angle $\\phi$ is given by $\\cos \\phi = \\frac{R}{Z} = \\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}}$. Thus, $\\phi = \\cos^{-1}\\left(\\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}}\\right)$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 53,
+        "topic": "AC Circuit",
+        "subtopic": "Choke Coil",
+        "question": "The power factor of a good choke coil is",
+        "question_latex": "The power factor of a good choke coil is",
+        "question_images": [],
+        "options": [
+            "(A) Nearly zero",
+            "(B) Exactly zero",
+            "(C) Nearly one",
+            "(D) Exactly one"
+        ],
+        "option_images": [],
+        "answer": "(A) Nearly zero",
+        "solution": "Power factor $\\cos \\phi = \\frac{R}{Z}$. In a good choke coil, inductance is high and resistance is very low. So, $\\phi \\approx 90^{\\circ}$, which makes $\\cos \\phi \\approx 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 54,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "In a L-R circuit, the value of L is (0.4/π) henry and the value of R is 30 ohm. If in the circuit, an alternating e.m.f. of 200 volt at 50 cycles per sec is connected, the impedance of the circuit and current will be",
+        "question_latex": "In a L-R circuit, the value of $L$ is $(\\frac{0.4}{\\pi})$ henry and the value of $R$ is $30 \\, \\Omega$. If in the circuit, an alternating e.m.f. of $200 \\, \\text{V}$ at $50 \\, \\text{Hz}$ is connected, the impedance of the circuit and current will be",
+        "question_images": [],
+        "options": [
+            "(A) 11.4 Ω, 17.5 A",
+            "(B) 30.7 Ω, 6.5 A",
+            "(C) 40.4 Ω, 5 A",
+            "(D) 50 Ω, 4 A"
+        ],
+        "option_images": [],
+        "answer": "(D) 50 Ω, 4 A",
+        "solution": "Inductive reactance $X_{L} = 2\\pi fL = 2\\pi \\times 50 \\times \\frac{0.4}{\\pi} = 40 \\, \\Omega$. Impedance $Z = \\sqrt{R^{2} + X_{L}^{2}} = \\sqrt{30^{2} + 40^{2}} = \\sqrt{900 + 1600} = 50 \\, \\Omega$. Current $I = \\frac{V}{Z} = \\frac{200}{50} = 4 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 55,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In a series L-C-R circuit R = 200Ω and the voltage and the frequency of the main supply is 220V and 50 Hz respectively. On taking out the capacitance from the circuit the current lags behind the voltage by 30°. On taking out the inductor from the circuit the current leads the voltage by 30°. The power dissipated in the L-C-R circuit is",
+        "question_latex": "In a series L-C-R circuit $R = 200 \\, \\Omega$ and the voltage and the frequency of the main supply is $220 \\, \\text{V}$ and $50 \\, \\text{Hz}$ respectively. On taking out the capacitance from the circuit the current lags behind the voltage by $30^{\\circ}$. On taking out the inductor from the circuit the current leads the voltage by $30^{\\circ}$. The power dissipated in the L-C-R circuit is",
+        "question_images": [],
+        "options": [
+            "(A) 305 W",
+            "(B) 210 W",
+            "(C) Zero",
+            "(D) 242 W"
+        ],
+        "option_images": [],
+        "answer": "(D) 242 W",
+        "solution": "When C is removed (LR circuit), $\\tan 30^{\\circ} = \\frac{X_{L}}{R}$. When L is removed (RC circuit), $\\tan 30^{\\circ} = \\frac{X_{C}}{R}$. This implies $X_{L} = X_{C}$, meaning the LCR circuit is under resonance. At resonance, $Z = R = 200 \\, \\Omega$. Power dissipated $P = \\frac{V^{2}}{R} = \\frac{220^{2}}{200} = \\frac{48400}{200} = 242 \\, \\text{W}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 56,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "An alternating voltage source is connected in series with a resistance R and an inductance L. If the potential drop across the resistance is 200 V and across the inductance is 150 V, then the applied voltage is [MHT-CET 2022]",
+        "question_latex": "An alternating voltage source is connected in series with a resistance $R$ and an inductance $L$. If the potential drop across the resistance is $200 \\, \\text{V}$ and across the inductance is $150 \\, \\text{V}$, then the applied voltage is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) 300 V",
+            "(B) 350 V",
+            "(C) 500 V",
+            "(D) 250 V"
+        ],
+        "option_images": [],
+        "answer": "(D) 250 V",
+        "solution": "Applied voltage is given by $V = \\sqrt{V_{R}^{2} + V_{L}^{2}} = \\sqrt{(200)^{2} + (150)^{2}} = 50\\sqrt{4^{2} + 3^{2}} = 50 \\times 5 = 250 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 57,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "In LCR resonant circuit, the current and voltage have phase difference [MHT-CET 2024]",
+        "question_latex": "In LCR resonant circuit, the current and voltage have phase difference [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{\\pi}{2}$",
+            "(B) $-\\frac{\\pi}{2}$",
+            "(C) zero",
+            "(D) $\\frac{\\pi}{4}$"
+        ],
+        "option_images": [],
+        "answer": "(C) zero",
+        "solution": "At resonance, $X_{L} = X_{C}$, so the impedance becomes purely resistive ($Z=R$). Therefore, the current and voltage are in phase, making the phase difference zero.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 58,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "An ideal choke draws a current of 8 A when connected to an AC supply of 100 V, 50 Hz. A pure resistor draws a current of 10 A when connected to the same source. The ideal choke and the resistor are connected in series and then connected to the AC source of 150 V, 40 Hz. The current in the circuit becomes",
+        "question_latex": "An ideal choke draws a current of $8 \\, \\text{A}$ when connected to an AC supply of $100 \\, \\text{V}$, $50 \\, \\text{Hz}$. A pure resistor draws a current of $10 \\, \\text{A}$ when connected to the same source. The ideal choke and the resistor are connected in series and then connected to the AC source of $150 \\, \\text{V}$, $40 \\, \\text{Hz}$. The current in the circuit becomes",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{15}{\\sqrt{2}} \\, \\text{A}$",
+            "(B) 8 A",
+            "(C) 18 A",
+            "(D) 10 A"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{15}{\\sqrt{2}} \\, \\text{A}$",
+        "solution": "Resistance $R = \\frac{100}{10} = 10 \\, \\Omega$. For the choke (ideal inductor), inductive reactance at $50 \\, \\text{Hz}$ is $X_{L} = \\frac{100}{8} = 12.5 \\, \\Omega$. Thus $2\\pi(50)L = 12.5 \\implies L = \\frac{12.5}{100\\pi} = \\frac{1}{8\\pi} \\, \\text{H}$. When connected to $40 \\, \\text{Hz}$, the new reactance is $X_{L}^{\\prime} = 2\\pi(40)\\left(\\frac{1}{8\\pi}\\right) = 10 \\, \\Omega$. Impedance $Z = \\sqrt{R^{2} + {X_{L}^{\\prime}}^{2}} = \\sqrt{10^{2} + 10^{2}} = 10\\sqrt{2} \\, \\Omega$. Current $i = \\frac{V}{Z} = \\frac{150}{10\\sqrt{2}} = \\frac{15}{\\sqrt{2}} \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 59,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "A series LCR circuit with resistance (R) 500 ohm is connected to an a.c. source of 250 V. When only the capacitance is removed, the current lags behind the voltage by 60°. When only the inductance is removed, the current leads the voltage by 60°. The impedance of the circuit is (tan π/3 = √3) [MHT-CET 2021]",
+        "question_latex": "A series LCR circuit with resistance ($R$) $500 \\, \\Omega$ is connected to an a.c. source of $250 \\, \\text{V}$. When only the capacitance is removed, the current lags behind the voltage by $60^{\\circ}$. When only the inductance is removed, the current leads the voltage by $60^{\\circ}$. The impedance of the circuit is $(\\tan\\frac{\\pi}{3} = \\sqrt{3})$ [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) 250 Ω",
+            "(B) 500 Ω",
+            "(C) $\\frac{500}{\\sqrt{3}} \\, \\Omega$",
+            "(D) $500\\sqrt{3} \\, \\Omega$"
+        ],
+        "option_images": [],
+        "answer": "(B) 500 Ω",
+        "solution": "When capacitance is removed (LR circuit), $\\tan 60^{\\circ} = \\frac{X_{L}}{R} \\implies X_{L} = R\\sqrt{3}$. When inductance is removed (RC circuit), $\\tan 60^{\\circ} = \\frac{X_{C}}{R} \\implies X_{C} = R\\sqrt{3}$. This means $X_{L} = X_{C}$, so the LCR circuit is in resonance. Impedance $Z = \\sqrt{R^{2} + (X_{L} - X_{C})^{2}} = R = 500 \\, \\Omega$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 60,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "What is the value of inductance L for which the current is a maximum in a series LCR circuit with C = 10μF and ω = 1000 s⁻¹? [MHT-CET 2008]",
+        "question_latex": "What is the value of inductance $L$ for which the current is a maximum in a series LCR circuit with $C = 10 \\, \\mu\\text{F}$ and $\\omega = 1000 \\, \\text{s}^{-1}$? [MHT-CET 2008]",
+        "question_images": [],
+        "options": [
+            "(A) 100 mH",
+            "(B) 1 mH",
+            "(C) 10 mH",
+            "(D) Cannot be calculated unless R is known"
+        ],
+        "option_images": [],
+        "answer": "(A) 100 mH",
+        "solution": "Current is maximum at resonance, which implies $X_{L} = X_{C}$ or $\\omega L = \\frac{1}{\\omega C}$. Thus, $L = \\frac{1}{\\omega^{2} C}$. Given $\\omega = 1000 \\, \\text{s}^{-1}$ and $C = 10 \\times 10^{-6} \\, \\text{F}$. $L = \\frac{1}{(1000)^{2} \\times 10 \\times 10^{-6}} = \\frac{1}{10^{6} \\times 10^{-5}} = \\frac{1}{10} = 0.1 \\, \\text{H} = 100 \\, \\text{mH}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 61,
+        "topic": "AC Circuit",
+        "subtopic": "Phase Difference",
+        "question": "The instantaneous current and voltage in an a.c. circuit is given by I = 4 sin ωt and E = 100 cos(ωt + π/3) respectively. Then the phase difference between voltage and current [MHT-CET 2021]",
+        "question_latex": "The instantaneous current and voltage in an a.c. circuit is given by $I = 4\\sin \\omega t$ and $E = 100\\cos(\\omega t + \\frac{\\pi}{3})$ respectively. Then the phase difference between voltage and current [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{3\\pi}{2}$",
+            "(B) $\\frac{7\\pi}{6}$",
+            "(C) $\\frac{5\\pi}{3}$",
+            "(D) $\\frac{5\\pi}{6}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $\\frac{5\\pi}{6}$",
+        "solution": "$I = 4\\sin \\omega t$. $E = 100\\cos(\\omega t + \\frac{\\pi}{3}) = 100\\sin(\\omega t + \\frac{\\pi}{3} + \\frac{\\pi}{2}) = 100\\sin(\\omega t + \\frac{5\\pi}{6})$. Hence, the phase difference between voltage and current is $\\frac{5\\pi}{6}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 62,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "An alternating e.m.f. of 0.2 V is applied across an LCR series circuit having R = 4Ω, C = 80μF and L = 200mH. At resonance the voltage drop across the inductor is",
+        "question_latex": "An alternating e.m.f. of $0.2 \\, \\text{V}$ is applied across an LCR series circuit having $R = 4 \\, \\Omega$, $C = 80 \\, \\mu\\text{F}$ and $L = 200 \\, \\text{mH}$. At resonance the voltage drop across the inductor is",
+        "question_images": [],
+        "options": [
+            "(A) 2.5 V",
+            "(B) 5 V",
+            "(C) 1 V",
+            "(D) 10 V"
+        ],
+        "option_images": [],
+        "answer": "(A) 2.5 V",
+        "solution": "At resonance $X_{L} = X_{C}$. Current $i = \\frac{V}{R} = \\frac{0.2}{4} = 0.05 \\, \\text{A}$. $X_{L} = \\omega L = \\frac{1}{\\sqrt{LC}} L = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{200 \\times 10^{-3}}{80 \\times 10^{-6}}} = \\sqrt{2500} = 50 \\, \\Omega$. $V_{L} = i \\times X_{L} = 0.05 \\times 50 = 2.5 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 63,
+        "topic": "AC Circuit",
+        "subtopic": "Reactance",
+        "question": "The inductive reactance of a coil is XL. If the inductance of a coil is tripled and frequency of a.c. supply is doubled, then the new inductive reactance will be [MHT-CET 2023]",
+        "question_latex": "The inductive reactance of a coil is $X_{L}$. If the inductance of a coil is tripled and frequency of a.c. supply is doubled, then the new inductive reactance will be [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) $X_{L}$",
+            "(B) $2 X_{L}$",
+            "(C) $3 X_{L}$",
+            "(D) $6 X_{L}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $6 X_{L}$",
+        "solution": "Inductive reactance $X_{L} = 2\\pi fL$. If $L$ is tripled and $f$ is doubled, then the value of new $X_{L}^{\\prime} = 2\\pi(2f)(3L) = 6(2\\pi fL) = 6X_{L}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 64,
+        "topic": "AC Circuit",
+        "subtopic": "LC Oscillations",
+        "question": "A resonant ac circuit contains a capacitor of capacitance 10^-6 F and an inductor of 10^-4 H. The frequency of electrical oscillations will be",
+        "question_latex": "A resonant ac circuit contains a capacitor of capacitance $10^{-6} \\, \\text{F}$ and an inductor of $10^{-4} \\, \\text{H}$. The frequency of electrical oscillations will be",
+        "question_images": [],
+        "options": [
+            "(A) $10 \\, \\text{Hz}$",
+            "(B) $100 \\, \\text{Hz}$",
+            "(C) $\\frac{10^{5}}{2\\pi} \\, \\text{Hz}$",
+            "(D) $\\frac{10}{2\\pi} \\, \\text{Hz}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{10^{5}}{2\\pi} \\, \\text{Hz}$",
+        "solution": "$v = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{10^{-6} \\times 10^{-4}}} = \\frac{1}{2\\pi\\sqrt{10^{-10}}} = \\frac{10^{5}}{2\\pi} \\, \\text{Hz}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 65,
+        "topic": "AC Circuit",
+        "subtopic": "Phase Difference",
+        "question": "The phase difference between the voltage and the current in an a.c circuit is π/4. If the frequency is 50 Hz, then this phase difference is equivalent to a time of [MHT-CET 2021]",
+        "question_latex": "The phase difference between the voltage and the current in an a.c circuit is $\\frac{\\pi}{4}$. If the frequency is $50 \\, \\text{Hz}$, then this phase difference is equivalent to a time of [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) 25 millisecond",
+            "(B) 0.25 second",
+            "(C) 2.5 milli second",
+            "(D) 0.05 second"
+        ],
+        "option_images": [],
+        "answer": "(C) 2.5 milli second",
+        "solution": "Phase difference $\\phi = \\frac{\\pi}{4}$, $f = 50 \\, \\text{Hz}$, $T = \\frac{1}{f} = \\frac{1}{50} \\, \\text{s}$. Time difference $t = \\frac{\\phi}{2\\pi} \\cdot T = \\frac{\\pi/4}{2\\pi} \\cdot \\frac{1}{50} = \\frac{1}{8} \\times \\frac{1}{50} = \\frac{1}{400} \\, \\text{s} = 2.5 \\times 10^{-3} \\, \\text{s} = 2.5 \\, \\text{ms}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 66,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "Which of the following graph represents the impedance (z) of LCR series resonant combination? [MHT-CET 2022]",
+        "question_latex": "Which of the following graph represents the impedance ($z$) of LCR series resonant combination? [MHT-CET 2022]",
+        "question_images": [
+            "q66_1"
+        ],
+        "options": [
+            "(A) C",
+            "(B) B",
+            "(C) A",
+            "(D) D"
+        ],
+        "option_images": [],
+        "answer": "(B) B",
+        "solution": "Graph B shows the impedance ($Z$) v/s frequency curve in which impedance is extremely small (minimum) at resonant frequency. At resonance, $X_{L} = X_{C}$, and $Z = R$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 67,
+        "topic": "AC Circuit",
+        "subtopic": "Instantaneous Values",
+        "question": "The alternating voltage is given by v = v0 sin(ωt + π/3) when will be the voltage maximum for first time? [MHT-CET 2024]",
+        "question_latex": "The alternating voltage is given by $v = v_{0}\\sin(\\omega t + \\frac{\\pi}{3})$ when will be the voltage maximum for first time? [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{T}{12}$",
+            "(B) $\\frac{T}{6}$",
+            "(C) $\\frac{T}{2}$",
+            "(D) $\\frac{T}{3}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{T}{12}$",
+        "solution": "When $v = v_{0}$, we have $v_{0} = v_{0}\\sin(\\omega t + \\frac{\\pi}{3}) \\implies \\sin(\\omega t + \\frac{\\pi}{3}) = 1$. $\\omega t + \\frac{\\pi}{3} = \\frac{\\pi}{2} \\implies \\omega t = \\frac{\\pi}{2} - \\frac{\\pi}{3} = \\frac{\\pi}{6}$. Since $\\omega = \\frac{2\\pi}{T}$, we get $\\frac{2\\pi}{T} t = \\frac{\\pi}{6} \\implies t = \\frac{T}{12}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 68,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "The current in series LCR circuit will be maximum when ω is",
+        "question_latex": "The current in series LCR circuit will be maximum when $\\omega$ is",
+        "question_images": [],
+        "options": [
+            "(A) As large as possible",
+            "(B) Equal to natural frequency of LCR system",
+            "(C) $\\sqrt{LC}$",
+            "(D) $\\frac{1}{\\sqrt{LC}}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $\\frac{1}{\\sqrt{LC}}$",
+        "solution": "At resonant frequency, current in a series LCR circuit is maximum because impedance is minimum ($Z=R$). This happens when $\\omega L = \\frac{1}{\\omega C} \\implies \\omega = \\frac{1}{\\sqrt{LC}}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 69,
+        "topic": "AC Circuit",
+        "subtopic": "LC Oscillations",
+        "question": "The magnetic energy in an inductor changes from maximum value to minimum value in 5 ms. When connected to an a.c. source, the frequency of the source is [MHT-CET 2024]",
+        "question_latex": "The magnetic energy in an inductor changes from maximum value to minimum value in $5 \\, \\text{ms}$. When connected to an a.c. source, the frequency of the source is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) 50 Hz",
+            "(B) 200 Hz",
+            "(C) 20 Hz",
+            "(D) 500 Hz"
+        ],
+        "option_images": [],
+        "answer": "(A) 50 Hz",
+        "solution": "The magnetic energy is $E = \\frac{1}{2}LI^{2}$. It changes from max to min when current changes from maximum to zero. This takes $\\frac{T}{4}$ time. $\\frac{T}{4} = 5 \\, \\text{ms} \\implies T = 20 \\, \\text{ms} = 20 \\times 10^{-3} \\, \\text{s}$. Frequency $f = \\frac{1}{T} = \\frac{1}{20 \\times 10^{-3}} = 50 \\, \\text{Hz}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 70,
+        "topic": "AC Circuit",
+        "subtopic": "Power in AC Circuit",
+        "question": "The current which does not contribute to the power consumed in an AC circuit is called [MHT-CET 2004]",
+        "question_latex": "The current which does not contribute to the power consumed in an AC circuit is called [MHT-CET 2004]",
+        "question_images": [],
+        "options": [
+            "(A) non-ideal current",
+            "(B) wattless current",
+            "(C) convectional current",
+            "(D) inductance current"
+        ],
+        "option_images": [],
+        "answer": "(B) wattless current",
+        "solution": "Wattless current does not contribute to the mean rate of working of the circuit. In a purely inductive or purely capacitive circuit, the phase difference is $90^{\\circ}$, making power factor $\\cos 90^{\\circ} = 0$, so average power consumed is zero.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 71,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "The resistance of an R-L circuit is 10 Ω. An emf E0 applied across the circuit at ω = 20 rad s⁻¹. If the current in the circuit is i0 / √2, what is the value of L?",
+        "question_latex": "The resistance of an R-L circuit is $10 \\, \\Omega$. An emf $E_{0}$ applied across the circuit at $\\omega = 20 \\, \\text{rad/s}$. If the current in the circuit is $\\frac{i_{0}}{\\sqrt{2}}$, what is the value of $L$?",
+        "question_images": [],
+        "options": [
+            "(A) 0.5 H",
+            "(B) 2.25 H",
+            "(C) 3.9 H",
+            "(D) 1.0 H"
+        ],
+        "option_images": [],
+        "answer": "(A) 0.5 H",
+        "solution": "If the current amplitude drops to $1/\\sqrt{2}$ of its maximum possible value $i_{0} = E_{0}/R$, then the impedance must be $Z = R\\sqrt{2}$. Since $Z = \\sqrt{R^{2} + X_{L}^{2}}$, this implies $X_{L} = R$. $\\omega L = R \\implies L = \\frac{R}{\\omega} = \\frac{10}{20} = 0.5 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 72,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "A resistor of 50Ω, inductor of self inductance (3/π²) H and a capacitor of unknown capacity are connected in series to an a.c. source of 100 V and 50 Hz. When the voltage and current are in phase, the value of capacitance is (nearly) [MHT-CET 2024]",
+        "question_latex": "A resistor of $50 \\, \\Omega$, inductor of self inductance $(\\frac{3}{\\pi^{2}}) \\, \\text{H}$ and a capacitor of unknown capacity are connected in series to an a.c. source of $100 \\, \\text{V}$ and $50 \\, \\text{Hz}$. When the voltage and current are in phase, the value of capacitance is (nearly) [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $0.33 \\times 10^{-4} \\, \\text{F}$",
+            "(B) $0.66 \\times 10^{-2} \\, \\text{F}$",
+            "(C) $0.66 \\times 10^{-4} \\, \\text{F}$",
+            "(D) $0.33 \\times 10^{-2} \\, \\text{F}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $0.33 \\times 10^{-4} \\, \\text{F}$",
+        "solution": "When voltage and current are in phase, the circuit is in resonance. $f = \\frac{1}{2\\pi\\sqrt{LC}} \\implies f^{2} = \\frac{1}{4\\pi^{2}LC} \\implies C = \\frac{1}{4\\pi^{2}f^{2}L}$. Putting $f = 50 \\, \\text{Hz}$ and $L = \\frac{3}{\\pi^{2}}$, we get $C = \\frac{1}{4\\pi^{2}(2500)(\\frac{3}{\\pi^{2}})} = \\frac{1}{30000} \\approx 0.33 \\times 10^{-4} \\, \\text{F}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 73,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "For a series L-C-R circuit at resonance, the statement which is not true is",
+        "question_latex": "For a series L-C-R circuit at resonance, the statement which is not true is",
+        "question_images": [],
+        "options": [
+            "(A) Peak energy stored by a capacitor = peak energy stored by an inductor",
+            "(B) Average power = apparent power",
+            "(C) Wattless current is zero",
+            "(D) Power factor is zero"
+        ],
+        "option_images": [],
+        "answer": "(D) Power factor is zero",
+        "solution": "For a series LCR circuit at resonance, the phase difference $\\phi = 0^{\\circ}$. Thus, power factor $= \\cos \\phi = 1$. The statement 'Power factor is zero' is false.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 74,
+        "topic": "AC Circuit",
+        "subtopic": "Phase Difference",
+        "question": "In an A.C. circuit the current",
+        "question_latex": "In an A.C. circuit the current",
+        "question_images": [],
+        "options": [
+            "(A) Always leads the voltage",
+            "(B) Always lags behind the voltage",
+            "(C) Is always in phase with the voltage",
+            "(D) May lead or lag behind or be in phase with the voltage"
+        ],
+        "option_images": [],
+        "answer": "(D) May lead or lag behind or be in phase with the voltage",
+        "solution": "In an AC circuit, the current leads in a capacitive circuit, lags in an inductive circuit, and is in phase in a resistive (or resonant) circuit.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 75,
+        "topic": "AC Circuit",
+        "subtopic": "Reactance",
+        "question": "Same current is flowing in two alternating circuits. The first circuit contains only inductor and the other contains only a capacitor. If the frequency of the alternating e.m.f. in increased, the values of current will [MHT-CET 2022]",
+        "question_latex": "Same current is flowing in two alternating circuits. The first circuit contains only inductor and the other contains only a capacitor. If the frequency of the alternating e.m.f. in increased, the values of current will [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) decrease in both circuits.",
+            "(B) increase in both circuits.",
+            "(C) increase in first circuit and decrease in the other.",
+            "(D) decrease in first circuit and increase in the other."
+        ],
+        "option_images": [],
+        "answer": "(D) decrease in first circuit and increase in the other.",
+        "solution": "Inductive reactance $X_{L} = 2\\pi fL$. Capacitive reactance $X_{C} = \\frac{1}{2\\pi fC}$. As frequency increases, $X_{L}$ increases and $X_{C}$ decreases. Hence current in the inductor will decrease and in the capacitor it will increase.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 76,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In the circuit shown below, the ac source has voltage V = 20 cos(ωt) volts with ω = 2000 rad/sec the amplitude of the current will be nearest to",
+        "question_latex": "In the circuit shown below, the ac source has voltage $V = 20\\cos(\\omega t) \\, \\text{V}$ with $\\omega = 2000 \\, \\text{rad/sec}$ the amplitude of the current will be nearest to",
+        "question_images": [
+            "q76_1"
+        ],
+        "options": [
+            "(A) 2.0 A",
+            "(B) 3.3 A",
+            "(C) $2/\\sqrt{5} \\, \\text{A}$",
+            "(D) $\\sqrt{5} \\, \\text{A}$"
+        ],
+        "option_images": [],
+        "answer": "(A) 2.0 A",
+        "solution": "$R = 6 + 4 = 10 \\, \\Omega$. $X_{L} = \\omega L = 2000 \\times 5 \\times 10^{-3} = 10 \\, \\Omega$. $X_{C} = \\frac{1}{\\omega C} = \\frac{1}{2000 \\times 50 \\times 10^{-6}} = 10 \\, \\Omega$. $Z = \\sqrt{R^{2} + (X_{L} - X_{C})^{2}} = 10 \\, \\Omega$. Amplitude of current $= i_{0} = \\frac{V_{0}}{Z} = \\frac{20}{10} = 2.0 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 77,
+        "topic": "AC Circuit",
+        "subtopic": "Power Factor",
+        "question": "In a series LR circuit XL = 3R. Now a capacitor with XC = R is added in series. The ratio of old power factor to new power factor in the a.c. circuit is [MHT-CET 2024]",
+        "question_latex": "In a series LR circuit $X_{L} = 3R$. Now a capacitor with $X_{C} = R$ is added in series. The ratio of old power factor to new power factor in the a.c. circuit is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{1}{\\sqrt{2}}$",
+            "(B) $\\sqrt{2}$",
+            "(C) $1$",
+            "(D) $2$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{1}{\\sqrt{2}}$",
+        "solution": "For LR circuit: $\\cos \\phi_{1} = \\frac{R}{\\sqrt{R^{2} + X_{L}^{2}}} = \\frac{R}{\\sqrt{R^{2} + (3R)^{2}}} = \\frac{1}{\\sqrt{10}}$. For LCR circuit: $\\cos \\phi_{2} = \\frac{R}{\\sqrt{R^{2} + (X_{L} - X_{C})^{2}}} = \\frac{R}{\\sqrt{R^{2} + (3R - R)^{2}}} = \\frac{R}{\\sqrt{5R^{2}}} = \\frac{1}{\\sqrt{5}}$. Ratio $\\frac{\\cos \\phi_{1}}{\\cos \\phi_{2}} = \\frac{1/\\sqrt{10}}{1/\\sqrt{5}} = \\frac{1}{\\sqrt{2}}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 78,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Inductor",
+        "question": "A pure inductive coil of 30 mH is connected to an AC source of 220 V, 50 Hz. The rms current in the coil is",
+        "question_latex": "A pure inductive coil of $30 \\, \\text{mH}$ is connected to an AC source of $220 \\, \\text{V}$, $50 \\, \\text{Hz}$. The rms current in the coil is",
+        "question_images": [],
+        "options": [
+            "(A) 50.35 A",
+            "(B) 23.4 A",
+            "(C) 30.5 A",
+            "(D) 12.3 A"
+        ],
+        "option_images": [],
+        "answer": "(B) 23.4 A",
+        "solution": "Given $L = 30 \\, \\text{mH}$, $V_{\\text{rms}} = 220 \\, \\text{V}$, $f = 50 \\, \\text{Hz}$. $X_{L} = \\omega L = 2\\pi fL = 2 \\times 3.14 \\times 50 \\times 30 \\times 10^{-3} = 9.42 \\, \\Omega$. The rms current is $i_{\\text{rms}} = \\frac{V_{\\text{rms}}}{X_{L}} = \\frac{220}{9.42} \\approx 23.4 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 79,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "In series LCR circuit, at resonance the peak value of current will be [E0 is peak emf, R is resistance, L is inductive reactance and C is capacitive] [MHT-CET 2021]",
+        "question_latex": "In series LCR circuit, at resonance the peak value of current will be [$E_{0}$ is peak emf, $R$ is resistance, $L$ is inductive reactance and $C$ is capacitive] [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{E_{0}}{\\sqrt{R^{2}+(\\omega L-\\frac{1}{\\omega C})^{2}}}$",
+            "(B) $\\frac{E_{0}}{\\sqrt{2}R}$",
+            "(C) $\\frac{E_{0}}{R}$",
+            "(D) $\\frac{E_{0}}{\\sqrt{2}\\sqrt{R^{2}+(\\omega L-\\frac{1}{\\omega C})^{2}}}$"
+        ],
+        "option_images": [],
+        "answer": "(C) $\\frac{E_{0}}{R}$",
+        "solution": "At resonance, the net reactance of the circuit is zero ($X_{L} - X_{C} = 0$) and the impedance is equal to the resistance ($Z=R$). Therefore, the peak current $I_{0} = \\frac{E_{0}}{Z} = \\frac{E_{0}}{R}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 80,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Capacitor",
+        "question": "An a.c. source is connected across a pure capacitor. Which one of the following figures shows the correct phase relation between the current and e.m.f.? [MHT-CET 2024]",
+        "question_latex": "An a.c. source is connected across a pure capacitor. Which one of the following figures shows the correct phase relation between the current and e.m.f.? [MHT-CET 2024]",
+        "question_images": [
+            "q80_1"
+        ],
+        "options": [
+            "(A) (1)",
+            "(B) (3)",
+            "(C) (4)",
+            "(D) (2)"
+        ],
+        "option_images": [],
+        "answer": "(D) (2)",
+        "solution": "In a pure capacitor, current leads the voltage by $90^{\\circ}$ ($\\pi/2$ radians). Option (2) correctly depicts phasor $i_{c}$ leading phasor $e_{c}$ by $90^{\\circ}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 81,
+        "topic": "AC Circuit",
+        "subtopic": "Power Factor",
+        "question": "The impedance of a circuit consists of 3 ohm resistance and 4 ohm reactance. The power factor of the circuit is",
+        "question_latex": "The impedance of a circuit consists of $3 \\, \\Omega$ resistance and $4 \\, \\Omega$ reactance. The power factor of the circuit is",
+        "question_images": [],
+        "options": [
+            "(A) 0.4",
+            "(B) 0.6",
+            "(C) 0.8",
+            "(D) 1.0"
+        ],
+        "option_images": [],
+        "answer": "(B) 0.6",
+        "solution": "$Z = \\sqrt{R^{2} + X^{2}} = \\sqrt{3^{2} + 4^{2}} = 5 \\, \\Omega$. Power factor $\\cos \\phi = \\frac{R}{Z} = \\frac{3}{5} = 0.6$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 82,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "A coil of resistance R and inductance L is connected to a battery of emf E volt. The final current in the coil is",
+        "question_latex": "A coil of resistance $R$ and inductance $L$ is connected to a battery of emf $E$ volt. The final current in the coil is",
+        "question_images": [],
+        "options": [
+            "(A) $E/R$",
+            "(B) $E/L$",
+            "(C) $\\sqrt{(\\frac{E}{R^{2}+L^{2}})}$",
+            "(D) $\\sqrt{(\\frac{EL}{R^{2}+L^{2}})}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $E/R$",
+        "solution": "For a DC battery, the steady state (final) current is reached when the inductor acts as a short circuit (zero reactance since $\\omega = 0$). Therefore, $i = E/R$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 83,
+        "topic": "AC Circuit",
+        "subtopic": "Parallel LC Circuit",
+        "question": "In the circuit given below, the current through inductor is 0.9 A and through the capacitor is 0.6 A. The current drawn from the a.c. source is [MHT-CET 2023]",
+        "question_latex": "In the circuit given below, the current through inductor is $0.9 \\, \\text{A}$ and through the capacitor is $0.6 \\, \\text{A}$. The current drawn from the a.c. source is [MHT-CET 2023]",
+        "question_images": [
+            "q83_1"
+        ],
+        "options": [
+            "(A) 0.3 A",
+            "(B) 0.9 A",
+            "(C) 1.5 A",
+            "(D) 0.6 A"
+        ],
+        "option_images": [],
+        "answer": "(A) 0.3 A",
+        "solution": "In a parallel combination of $L$ and $C$, the currents through $L$ and $C$ are in opposite phase (phase difference of $\\pi$). Hence total current drawn is $i = |i_{L} - i_{C}| = |0.9 - 0.6| = 0.3 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 84,
+        "topic": "AC Circuit",
+        "subtopic": "RC Circuit",
+        "question": "A series R-C circuit is connected to AC Voltage source. Consider two cases: (A) when C is without a dielectric medium and (B) when C is filled with dielectric of constant 4. The current IR through the resistor and voltage VC across the capacitor are compared in the two cases. Which of the following is/are true?",
+        "question_latex": "A series R-C circuit is connected to AC Voltage source. Consider two cases: (A) when $C$ is without a dielectric medium and (B) when $C$ is filled with dielectric of constant $4$. The current $I_{R}$ through the resistor and voltage $V_{C}$ across the capacitor are compared in the two cases. Which of the following is/are true?",
+        "question_images": [],
+        "options": [
+            "(A) $I_{R}^{A} > I_{R}^{B}$",
+            "(B) $I_{R}^{A} < I_{R}^{B}$",
+            "(C) $V_{C}^{A} > V_{C}^{B}$",
+            "(D) $V_{C}^{A} < V_{C}^{B}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $I_{R}^{A} < I_{R}^{B}$",
+        "solution": "Impedance $Z = \\sqrt{R^{2} + X_{C}^{2}} = \\sqrt{R^{2} + (1/\\omega C)^{2}}$. In case (B), capacitance $C$ becomes $4C$, so $X_{C}$ decreases. Therefore, impedance $Z$ is less in case (B). Current $I = V/Z$ will be more in case (B). Hence, $I_{R}^{A} < I_{R}^{B}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 85,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In a circuit L, C and R are connected in series with an alternating voltage source of frequency f. The current leads the voltage by 45°. The value of C is",
+        "question_latex": "In a circuit $L$, $C$ and $R$ are connected in series with an alternating voltage source of frequency $f$. The current leads the voltage by $45^{\\circ}$. The value of $C$ is",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{1}{2\\pi f(2\\pi fL + R)}$",
+            "(B) $\\frac{1}{\\pi f(2\\pi fL + R)}$",
+            "(C) $\\frac{1}{2\\pi f(2\\pi fL - R)}$",
+            "(D) $\\frac{1}{2\\pi f(2\\pi fL)}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{1}{2\\pi f(2\\pi fL + R)}$",
+        "solution": "$\\tan \\phi = \\frac{X_{C} - X_{L}}{R}$. Given $\\phi = 45^{\\circ}$, $\\tan 45^{\\circ} = \\frac{1/(2\\pi fC) - 2\\pi fL}{R} \\implies 1 = \\frac{1/(2\\pi fC) - 2\\pi fL}{R} \\implies R + 2\\pi fL = \\frac{1}{2\\pi fC}$. Solving for $C$, $C = \\frac{1}{2\\pi f(2\\pi fL + R)}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 86,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "A 12 ohm resistor and a 0.21 henry inductor are connected in series to an ac source operating at 20 volts, 50 cycle/second. The phase angle between the current and the source voltage is",
+        "question_latex": "A $12 \\, \\Omega$ resistor and a $0.21 \\, \\text{henry}$ inductor are connected in series to an ac source operating at $20 \\, \\text{volts}$, $50 \\, \\text{cycle/second}$. The phase angle between the current and the source voltage is",
+        "question_images": [],
+        "options": [
+            "(A) 30°",
+            "(B) 40°",
+            "(C) 80°",
+            "(D) 90°"
+        ],
+        "option_images": [],
+        "answer": "(C) 80°",
+        "solution": "$\\tan \\phi = \\frac{\\omega L}{R} = \\frac{2\\pi \\times 50 \\times 0.21}{12} = \\frac{66}{12} = 5.5$. Therefore, $\\phi \\approx 80^{\\circ}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 87,
+        "topic": "AC Circuit",
+        "subtopic": "Power Factor",
+        "question": "The power factor of an R-L circuit is 1/√2. If the frequency of AC is doubled the power factor will now be [MHT-CET 2023]",
+        "question_latex": "The power factor of an R-L circuit is $1/\\sqrt{2}$. If the frequency of AC is doubled the power factor will now be [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) $1/\\sqrt{7}$",
+            "(B) $1/\\sqrt{5}$",
+            "(C) $1/\\sqrt{11}$",
+            "(D) $1/\\sqrt{3}$"
+        ],
+        "option_images": [],
+        "answer": "(B) $1/\\sqrt{5}$",
+        "solution": "Power factor $\\cos \\phi = 1/\\sqrt{2} \\implies \\phi = 45^{\\circ}$. $\\tan \\phi = \\frac{X_{L}}{R} = 1 \\implies X_{L} = R$. If frequency is doubled, new inductive reactance $X_{L}^{\\prime} = 2X_{L} = 2R$. New impedance $Z = \\sqrt{(2R)^{2} + R^{2}} = \\sqrt{5}R$. New power factor $\\cos \\phi^{\\prime} = \\frac{R}{Z} = \\frac{R}{\\sqrt{5}R} = \\frac{1}{\\sqrt{5}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 88,
+        "topic": "AC Circuit",
+        "subtopic": "Instantaneous Values",
+        "question": "In an a.c. circuit I = 100 sin 200πt. The time required for the current to achieve its peak value will be [MHT-CET 2024]",
+        "question_latex": "In an a.c. circuit $I = 100\\sin 200\\pi t$. The time required for the current to achieve its peak value will be [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $1/400 \\, \\text{s}$",
+            "(B) $1/300 \\, \\text{s}$",
+            "(C) $1/200 \\, \\text{s}$",
+            "(D) $1/100 \\, \\text{s}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $1/400 \\, \\text{s}$",
+        "solution": "$I = 100\\sin 200\\pi t \\implies \\omega = 200\\pi$. $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{200\\pi} = \\frac{1}{100} \\, \\text{s}$. Time required by the current to rise from zero to peak value will be $\\frac{T}{4} = \\frac{1/100}{4} = \\frac{1}{400} \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 89,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "In an LCR circuit, capacitance is changed from C to 2C. For the resonant frequency to remain unchanged, the inductance should be changed from L to",
+        "question_latex": "In an LCR circuit, capacitance is changed from $C$ to $2C$. For the resonant frequency to remain unchanged, the inductance should be changed from $L$ to",
+        "question_images": [],
+        "options": [
+            "(A) 4L",
+            "(B) 2L",
+            "(C) L/2",
+            "(D) L/4"
+        ],
+        "option_images": [],
+        "answer": "(C) L/2",
+        "solution": "In the condition of resonance $f = \\frac{1}{2\\pi\\sqrt{LC}}$. Since resonant frequency remains unchanged, $LC = \\text{constant}$. $L_{1}C_{1} = L_{2}C_{2} \\implies L \\times C = L_{2} \\times 2C \\implies L_{2} = L/2$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 90,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In LCR series a.c. circuit, the voltage across L, C and R is 60 V each. The voltage across the LC combination is [MHT-CET 2023]",
+        "question_latex": "In LCR series a.c. circuit, the voltage across $L$, $C$ and $R$ is $60 \\, \\text{V}$ each. The voltage across the $LC$ combination is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) 0 V",
+            "(B) 60 V",
+            "(C) 120 V",
+            "(D) 30 V"
+        ],
+        "option_images": [],
+        "answer": "(A) 0 V",
+        "solution": "In a series LCR circuit, the voltage across the inductor ($L$) and the capacitor ($C$) are in opposite phase. So the voltage across LC combination will be $V_{L} - V_{C} = 60 - 60 = 0 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 91,
+        "topic": "AC Circuit",
+        "subtopic": "Capacitor Discharge",
+        "question": "A capacitor of unknown capacitance is connected across a battery of V volt. The charge stored in it is Q C. When potential across the capacitor is reduced by V' volt, the charge stored in it becomes Q' C. The potential V is [MHT-CET 2024]",
+        "question_latex": "A capacitor of unknown capacitance is connected across a battery of $V$ volt. The charge stored in it is $Q \\, \\text{C}$. When potential across the capacitor is reduced by $V^{\\prime}$ volt, the charge stored in it becomes $Q^{\\prime} \\, \\text{C}$. The potential $V$ is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $\\frac{QV^{\\prime}}{(Q-Q^{\\prime})}$",
+            "(B) $\\frac{Q^{\\prime}V^{\\prime}}{(Q-Q^{\\prime})}$",
+            "(C) $\\frac{(Q-Q^{\\prime})V}{Q}$",
+            "(D) $\\frac{Q}{(Q-Q^{\\prime})V^{\\prime}}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\frac{QV^{\\prime}}{(Q-Q^{\\prime})}$",
+        "solution": "Charge stored $Q = CV \\implies V = \\frac{Q}{C}$. When potential is reduced by $V^{\\prime}$, $V - V^{\\prime} = \\frac{Q^{\\prime}}{C}$. Subtracting the two: $V^{\\prime} = \\frac{Q}{C} - \\frac{Q^{\\prime}}{C} = \\frac{Q-Q^{\\prime}}{C} \\implies C = \\frac{Q-Q^{\\prime}}{V^{\\prime}}$. Substituting $C$ back into $V = \\frac{Q}{C}$, we get $V = \\frac{QV^{\\prime}}{Q-Q^{\\prime}}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 92,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformer",
+        "question": "An ideal transformer converts 220 V a.c. to 3.3 K V a.c. to transmit a power of 4.4 KW. If the primary coil has 600 turns, then alternating current in secondary coil is [MHT-CET 2023]",
+        "question_latex": "An ideal transformer converts $220 \\, \\text{V}$ a.c. to $3.3 \\, \\text{kV}$ a.c. to transmit a power of $4.4 \\, \\text{kW}$. If the primary coil has $600$ turns, then alternating current in secondary coil is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "(A) 5/3 A",
+            "(B) 7/3 A",
+            "(C) 1/3 A",
+            "(D) 4/3 A"
+        ],
+        "option_images": [],
+        "answer": "(D) 4/3 A",
+        "solution": "Assuming no loss in power transmission, $V_{1}I_{1} = V_{2}I_{2} = P_{\\text{out}} = 4.4 \\, \\text{kW}$. $I_{2} = \\frac{P}{V_{2}} = \\frac{4.4 \\times 10^{3}}{3300} = \\frac{4400}{3300} = \\frac{4}{3} \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 93,
+        "topic": "AC Circuit",
+        "subtopic": "Pure Capacitor",
+        "question": "An alternating e.m.f E = 100 sin(100t) volt is connected to 2 μF capacitor through an a.c. ammeter. The current in the ammeter is [MHT-CET 2024]",
+        "question_latex": "An alternating e.m.f $E = 100\\sin(100t)$ volt is connected to $2 \\, \\mu\\text{F}$ capacitor through an a.c. ammeter. The current in the ammeter is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) $2\\sqrt{2} \\times 10^{-2} \\, \\text{A}$",
+            "(B) $2 \\times 10^{-2} \\, \\text{A}$",
+            "(C) $\\frac{1}{\\sqrt{2}} \\times 10^{-2} \\, \\text{A}$",
+            "(D) $\\sqrt{2} \\times 10^{-2} \\, \\text{A}$"
+        ],
+        "option_images": [],
+        "answer": "(D) $\\sqrt{2} \\times 10^{-2} \\, \\text{A}$",
+        "solution": "$E = 100\\sin(100t)$. Comparing with $E = E_{0}\\sin \\omega t$, we get $\\omega = 100 \\, \\text{rad/s}$, $E_{0} = 100 \\, \\text{V}$. $X_{C} = \\frac{1}{\\omega C} = \\frac{1}{100 \\times 2 \\times 10^{-6}} = 5000 \\, \\Omega$. Ammeter reading is the RMS current: $i_{\\text{rms}} = \\frac{e_{\\text{rms}}}{X_{C}} = \\frac{100/\\sqrt{2}}{5000} = \\frac{1}{50\\sqrt{2}} = \\frac{\\sqrt{2}}{100} = \\sqrt{2} \\times 10^{-2} \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 94,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In series LCR circuit, 'R' represents resistance of electric bulb. If the frequency of a.c. supply is doubled, the value of inductance 'L' and capacitance 'C' should be [MHT-CET 2024]",
+        "question_latex": "In series LCR circuit, $R$ represents resistance of electric bulb. If the frequency of a.c. supply is doubled, the value of inductance $L$ and capacitance $C$ should be [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "(A) both halved simultaneously.",
+            "(B) made four times.",
+            "(C) both doubled.",
+            "(D) made eight times."
+        ],
+        "option_images": [],
+        "answer": "(A) both halved simultaneously.",
+        "solution": "Inductive reactance $X_{L} = 2\\pi fL$. Capacitive reactance $X_{C} = \\frac{1}{2\\pi fC}$. If $f$ is doubled, then to keep $X_{L}$ and $X_{C}$ the same (maintaining the circuit's overall impedance and bulb's brightness), the value of $L$ and $C$ should be halved.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 95,
+        "topic": "AC Circuit",
+        "subtopic": "LC Oscillations",
+        "question": "If maximum energy is stored in a capacitor at t = 0, then find the time after which, the current in the circuit will be maximum for the first time. L = 25mH, C = 10μF [MHT-CET 2022]",
+        "question_latex": "If maximum energy is stored in a capacitor at $t = 0$, then find the time after which, the current in the circuit will be maximum for the first time. $L = 25 \\, \\text{mH}$, $C = 10 \\, \\mu\\text{F}$ [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "(A) $\\pi/4 \\, \\text{ms}$",
+            "(B) $\\pi \\, \\text{ms}$",
+            "(C) $2 \\, \\text{ms}$",
+            "(D) $\\pi/2 \\, \\text{ms}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $\\pi/4 \\, \\text{ms}$",
+        "solution": "At $t=0$, energy is max so $q = q_{0}\\cos \\omega_{0} t$. Current $i = \\frac{dq}{dt} = -q_{0}\\omega_{0}\\sin \\omega_{0} t = -i_{0}\\sin \\omega_{0} t$. Current is maximum when $\\sin \\omega_{0} t = 1 \\implies \\omega_{0} t = \\pi/2 \\implies t = \\frac{\\pi}{2\\omega_{0}}$. $\\omega_{0} = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{25 \\times 10^{-3} \\times 10 \\times 10^{-6}}} = 2000 \\, \\text{rad/s}$. $t = \\frac{\\pi}{2 \\times 2000} = \\frac{\\pi}{4000} \\, \\text{s} = \\frac{\\pi}{4} \\, \\text{ms}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 96,
+        "topic": "AC Circuit",
+        "subtopic": "Quality Factor",
+        "question": "A 100 V, AC source of frequency 500 Hz is connected to an L-C-R circuit with L = 8.1 mH, C = 12.5 μF, R = 10 Ω all connected in series as shown in figure. What is the quality factor of circuit?",
+        "question_latex": "A $100 \\, \\text{V}$, AC source of frequency $500 \\, \\text{Hz}$ is connected to an L-C-R circuit with $L = 8.1 \\, \\text{mH}$, $C = 12.5 \\, \\mu\\text{F}$, $R = 10 \\, \\Omega$ all connected in series as shown in figure. What is the quality factor of circuit?",
+        "question_images": [
+            "q96_1"
+        ],
+        "options": [
+            "(A) 2.02",
+            "(B) 2.5434",
+            "(C) 20.54",
+            "(D) 200.54"
+        ],
+        "option_images": [],
+        "answer": "(B) 2.5434",
+        "solution": "Q-factor of series resonant circuit is given as $Q = \\frac{\\omega_{r} L}{R} = \\frac{2\\pi f L}{R}$. $Q = \\frac{2 \\times \\pi \\times 500 \\times 8.1 \\times 10^{-3}}{10} = \\frac{8.1\\pi}{10} = 0.81 \\times 3.14 \\approx 2.5434$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 97,
+        "topic": "AC Circuit",
+        "subtopic": "Resonance",
+        "question": "For the series LCR circuit shown in the figure, what is the resonance frequency and the amplitude of the current at the resonating frequency",
+        "question_latex": "For the series LCR circuit shown in the figure, what is the resonance frequency and the amplitude of the current at the resonating frequency",
+        "question_images": [
+            "q97_1"
+        ],
+        "options": [
+            "(A) $2500 \\, \\text{rad-s}^{-1}$ and $5\\sqrt{2} \\, \\text{A}$",
+            "(B) $2500 \\, \\text{rad-s}^{-1}$ and $5 \\, \\text{A}$",
+            "(C) $2500 \\, \\text{rad-s}^{-1}$ and $\\frac{5}{\\sqrt{2}} \\, \\text{A}$",
+            "(D) $25 \\, \\text{rad-s}^{-1}$ and $5\\sqrt{2} \\, \\text{A}$"
+        ],
+        "option_images": [],
+        "answer": "(A) $2500 \\, \\text{rad-s}^{-1}$ and $5\\sqrt{2} \\, \\text{A}$",
+        "solution": "From the figure diagram ($C=20\\mu\\text{F}$, $L=8\\text{mH}$, $V_{\\text{rms}}=220\\text{V}$, $R=44\\Omega$). Resonance frequency $\\omega = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{8 \\times 10^{-3} \\times 20 \\times 10^{-6}}} = \\frac{1}{\\sqrt{16 \\times 10^{-8}}} = \\frac{10^{4}}{4} = 2500 \\, \\text{rad/s}$. Resonance RMS current $I_{\\text{rms}} = \\frac{V_{\\text{rms}}}{R} = \\frac{220}{44} = 5 \\, \\text{A}$. The amplitude of the current is $I_{0} = \\sqrt{2}I_{\\text{rms}} = 5\\sqrt{2} \\, \\text{A}$. *(Note: The source document incorrectly pairs 5A as the amplitude in the answer key text, but accurately applies the formula mathematically for peak current as $5\\sqrt{2}$ in option A)*.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 98,
+        "topic": "AC Circuit",
+        "subtopic": "Reactance",
+        "question": "At high frequency, the capacitor offer",
+        "question_latex": "At high frequency, the capacitor offer",
+        "question_images": [],
+        "options": [
+            "(A) More reactance",
+            "(B) Less reactance",
+            "(C) Zero reactance",
+            "(D) Infinite reactance"
+        ],
+        "option_images": [],
+        "answer": "(B) Less reactance",
+        "solution": "Capacitive reactance is given by $X_{C} = \\frac{1}{\\omega C} = \\frac{1}{2\\pi fC}$. Hence, when frequency $f$ increases, capacitive reactance decreases.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 99,
+        "topic": "AC Circuit",
+        "subtopic": "RL Circuit",
+        "question": "When a d.c. voltage of 200 V is applied to a coil of self-inductance (2√3/π) H, a current of 1A flows through it. But by replacing d.c. source with a.c. source of 200 V, the current in the coil is reduced to 0.5 A. Then the frequency of a.c. supply is [MHT-CET 2021]",
+        "question_latex": "When a d.c. voltage of $200 \\, \\text{V}$ is applied to a coil of self-inductance $(\\frac{2\\sqrt{3}}{\\pi}) \\, \\text{H}$, a current of $1 \\, \\text{A}$ flows through it. But by replacing d.c. source with a.c. source of $200 \\, \\text{V}$, the current in the coil is reduced to $0.5 \\, \\text{A}$. Then the frequency of a.c. supply is [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "(A) 60 Hz",
+            "(B) 50 Hz",
+            "(C) 100 Hz",
+            "(D) 75 Hz"
+        ],
+        "option_images": [],
+        "answer": "(B) 50 Hz",
+        "solution": "When d.c. voltage is applied, only resistance comes into play. $R = \\frac{V}{I} = \\frac{200}{1} = 200 \\, \\Omega$. When a.c. voltage is applied, impedance $Z = \\frac{V}{I^{\\prime}} = \\frac{200}{0.5} = 400 \\, \\Omega$. $Z^{2} = R^{2} + X_{L}^{2} \\implies (400)^{2} = (200)^{2} + X_{L}^{2} \\implies X_{L} = 200\\sqrt{3} \\, \\Omega$. Also, $X_{L} = 2\\pi fL = 2\\pi f(\\frac{2\\sqrt{3}}{\\pi}) = 4\\sqrt{3}f$. Equating them: $4\\sqrt{3}f = 200\\sqrt{3} \\implies f = 50 \\, \\text{Hz}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 100,
+        "topic": "AC Circuit",
+        "subtopic": "LCR Circuit",
+        "question": "In an L CR series AC circuit, the voltage across each of the components. L, C and R is 50 V. The voltage across the L C combination will be",
+        "question_latex": "In an LCR series AC circuit, the voltage across each of the components $L$, $C$ and $R$ is $50 \\, \\text{V}$. The voltage across the $LC$ combination will be",
+        "question_images": [],
+        "options": [
+            "(A) 50 V",
+            "(B) $50\\sqrt{2} \\, \\text{V}$",
+            "(C) 100 V",
+            "(D) zero"
+        ],
+        "option_images": [],
+        "answer": "(D) zero",
+        "solution": "In an LCR series AC circuit, the voltage across inductor $L$ leads the current by $90^{\\circ}$ and the voltage across capacitor $C$ lags behind the current by $90^{\\circ}$. They are $180^{\\circ}$ out of phase. Hence, the voltage across the L-C combination will be $V_{L} - V_{C} = 50 - 50 = 0 \\, \\text{V}$.",
+        "solution_images": [
+            "q100_solution_1"
+        ],
+        "difficulty": "easy",
+        "marks": 4
+    }
+]

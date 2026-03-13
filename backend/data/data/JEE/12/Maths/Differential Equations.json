@@ -1,0 +1,1904 @@
+[
+  {
+    "id": 1,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of the family of circles with fixed radius 5 units and centre on the line y = 2 is (2008)",
+    "question_latex": "The differential equation of the family of circles with fixed radius 5 units and centre on the line $y = 2$ is (2008)",
+    "question_images": [],
+    "options": [
+      "A. $(x-2)^2y'^2 = 25-(y-2)^2$",
+      "B. $(y-2)y'^2 = 25-(y-2)^2$",
+      "C. $(x-2)y'^2 = 25-(y-2)^2$",
+      "D. $(y-2)^2y'^2 = 25-(y-2)^2$"
+    ],
+    "option_images": [],
+    "answer": "D. $(y-2)^2y'^2 = 25-(y-2)^2$",
+    "solution": "The equation of circle is $(x-\\alpha)^2 + (y-2)^2 = 25$ ...(i)\nDifferentiating w.r.t. $x$:\n$(x-\\alpha) + (y-2)\\frac{dy}{dx} = 0 \\Rightarrow x - \\alpha = -(y-2)\\frac{dy}{dx}$\nSubstituting in (i):\n$(y-2)^2\\left(\\frac{dy}{dx}\\right)^2 + (y-2)^2 = 25$\n$\\Rightarrow (y-2)^2(y')^2 = 25-(y-2)^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be a solution curve of the differential equation (1 - x²y²)dx = ydx + xdy. If the line x = 1 intersects the curve y = y(x) at y = 2 and the line x = 2 intersects the curve y = y(x) at y = alpha, then a value of alpha is (April 2023)",
+    "question_latex": "Let $y = y(x)$ be a solution curve of the differential equation $(1-x^2y^2)dx = ydx + xdy$. If the line $x=1$ intersects the curve $y=y(x)$ at $y=2$ and the line $x=2$ intersects the curve $y=y(x)$ at $y=\\alpha$, then a value of $\\alpha$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3e^2}{2(3e^2-1)}$",
+      "B. $\\frac{1-3e^2}{2(3e^2+1)}$",
+      "C. $\\frac{3e^2}{2(3e^2+1)}$",
+      "D. $\\frac{1+3e^2}{2(3e^2-1)}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{1+3e^2}{2(3e^2-1)}$",
+    "solution": "$(1-x^2y^2)dx = ydx + xdy \\Rightarrow dx = \\frac{d(xy)}{1-(xy)^2}$\n$\\int dx = \\int \\frac{d(xy)}{1-(xy)^2} \\Rightarrow x = \\frac{1}{2}\\ln\\left|\\frac{1+xy}{1-xy}\\right| + C$\nGiven $y(1)=2$: $1 = \\frac{1}{2}\\ln\\left|\\frac{1+2}{1-2}\\right| + C \\Rightarrow C = 1 - \\frac{1}{2}\\ln 3$\nPut $x=2, y=\\alpha$:\n$2 = \\frac{1}{2}\\ln\\left|\\frac{1+2\\alpha}{1-2\\alpha}\\right| + 1 - \\frac{1}{2}\\ln 3$\n$\\Rightarrow \\left|\\frac{1+2\\alpha}{1-2\\alpha}\\right| = 3e^2$\n$\\alpha = \\frac{3e^2-1}{2(3e^2+1)}$ or $\\alpha = \\frac{3e^2+1}{2(3e^2-1)}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Differential Equations",
+    "question": "The general solution of the differential equation 100(d²y/dx²) - 20(dy/dx) + y = 0 is",
+    "question_latex": "The general solution of the differential equation $100\\frac{d^2y}{dx^2} - 20\\frac{dy}{dx} + y = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = (c_1 + c_2 x)e^x$",
+      "B. $y = (c_1 + c_2 x)e^{-x}$",
+      "C. $y = (c_1 + c_2 x)e^{\\frac{x}{10}}$",
+      "D. $y = c_1 e^x + c_2 e^{-x}$"
+    ],
+    "option_images": [],
+    "answer": "C. $y = (c_1 + c_2 x)e^{\\frac{x}{10}}$",
+    "solution": "Auxiliary equation: $(100m^2 - 20m + 1)y = 0$\n$\\Rightarrow (10m-1)^2 y = 0$\n$\\Rightarrow m = \\frac{1}{10}, \\frac{1}{10}$ (repeated roots)\nHence the required solution is $y = (c_1 + c_2 x)e^{\\frac{x}{10}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of all straight lines passing through the point (1, -1) is",
+    "question_latex": "The differential equation of all straight lines passing through the point $(1,-1)$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = (x+1)\\frac{dx}{dx} + 1$",
+      "B. $y = (x+1)\\frac{dy}{dx} - 1$",
+      "C. $y = (x-1)\\frac{dy}{dx} + 1$",
+      "D. $y = (x-1)\\frac{dy}{dx} - 1$"
+    ],
+    "option_images": [],
+    "answer": "D. $y = (x-1)\\frac{dy}{dx} - 1$",
+    "solution": "Equation of line through $(1,-1)$: $y+1 = m(x-1)$\nwhere $m = \\frac{dy}{dx}$\n$\\Rightarrow y + 1 = \\frac{dy}{dx}(x-1)$\n$\\Rightarrow y = (x-1)\\frac{dy}{dx} - 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Differential Equations",
+    "question": "The differential equation representing the family of curve y = l*cos(x+m) where l and m are arbitrary constants is",
+    "question_latex": "The differential equation representing the family of curve $y = \\ell\\cos(x+m)$ where $\\ell$ and $m$ are arbitrary constants is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{d^2y}{dx^2} + y = 0$",
+      "B. $\\frac{d^2\\cos y}{dy^2} + x^2 = 0$",
+      "C. $\\frac{\\ell}{m}\\sin^2 x + \\frac{dy}{dx} = 0$",
+      "D. $\\frac{\\ell}{m}\\frac{d^2x}{dy^2} + \\sin^2 y = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{d^2y}{dx^2} + y = 0$",
+    "solution": "$y = \\ell\\cos(x+m)$\nDiff. w.r.t. $x$: $\\frac{dy}{dx} = -\\ell\\sin(x+m)$\nAgain diff. w.r.t. $x$: $\\frac{d^2y}{dx^2} = -\\ell\\cos(x+m) = -y$\n$\\Rightarrow \\frac{d^2y}{dx^2} + y = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of x³ + y³ = 4ax is",
+    "question_latex": "The differential equation of $x^3 + y^3 = 4ax$ is",
+    "question_images": [],
+    "options": [
+      "A. $3xy^2\\frac{dx}{dx} - y^3 = 0$",
+      "B. $2x^3 + 3xy^2\\frac{dx}{dx} = y^3$",
+      "C. $4x^3 + 3xy^2\\frac{dy}{dx} + y^3 = 0$",
+      "D. $-y^3 = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $2x^3 + 3xy^2\\frac{dy}{dx} = y^3$",
+    "solution": "$x^3 + y^3 = 4ax$ ...(i)\nDifferentiating: $3x^2 + 3y^2\\frac{dy}{dx} = 4a$\nFrom (i): $4a = \\frac{x^3+y^3}{x}$, so $3x^2 + 3y^2\\frac{dy}{dx} = \\frac{x^3+y^3}{x}$\n$x^3 + y^3 = x\\left(3x^2 + 3y^2\\frac{dy}{dx}\\right)$\n$\\Rightarrow 2x^3 + 3xy^2\\frac{dy}{dx} = y^3$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Differential Equations",
+    "question": "Let x = x(y) be the solution of the differential equation y²dx + (x - 1/y)dy = 0. If x(1) = 1, then x(1/2) is: [Jan. 22, 2025 (I)]",
+    "question_latex": "Let $x = x(y)$ be the solution of the differential equation $y^2dx + \\left(x - \\frac{1}{y}\\right)dy = 0$. If $x(1) = 1$, then $x\\left(\\frac{1}{2}\\right)$ is: [Jan. 22, 2025 (1)]",
+    "question_images": [],
+    "options": [
+      "A. $3-e$",
+      "B. $\\frac{3}{2}+e$",
+      "C. $\\frac{1}{2}+e$",
+      "D. $3+e$"
+    ],
+    "option_images": [],
+    "answer": "A. $3-e$",
+    "solution": "$\\frac{dx}{dy} + \\left(\\frac{1}{y^2}\\right)x = \\frac{1}{y^3}$ (L.D.E.)\nI.F. $= e^{\\int \\frac{1}{y^2}dy} = e^{-\\frac{1}{y}}$\n$x \\cdot e^{-\\frac{1}{y}} = \\int \\left(e^{-1/y}\\right)\\cdot\\frac{1}{y^3}dy$\nPut $-\\frac{1}{y} = t \\Rightarrow \\frac{1}{y^2}dy = dt$\n$x \\cdot e^{\\frac{1}{y}} = -\\int t \\cdot e^t dt = -te^t + e^t + C$ ...(i)\n$x \\cdot e^{-\\frac{1}{y}} = \\frac{+1}{y}e^{-\\frac{1}{y}} + e^{-\\frac{1}{y}} + C$\nPut $x=1, y=1$: $\\frac{1}{e} = \\frac{1}{e} + \\frac{1}{e} + C \\Rightarrow C = -\\frac{1}{e}$\nPut $y=\\frac{1}{2}$: $\\frac{x}{e^2} = \\frac{2}{e^2} + \\frac{1}{e^2} - \\frac{1}{e} \\Rightarrow x = 3-e$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Differential Equations",
+    "question": "The general solution of the differential equation (y² - x³)dx - xydy = 0 (x ≠ 0) is (where c is a constant of integration) (April 2019)",
+    "question_latex": "The general solution of the differential equation $(y^2 - x^3)dx - xydy = 0\\;(x \\neq 0)$ is (where $c$ is a constant of integration) (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $y^2 + 2x^3 + cx^2 = 0$",
+      "B. $y^2 - 2x^3 + cx^3 = 0$",
+      "C. $y^2 + 2x^2 + cx^3 = 0$",
+      "D. $y^2 - 2x^3 + cx^2 = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $y^2 - 2x^3 + cx^3 = 0$",
+    "solution": "$(y^2-x^3)dx - xydy = 0 \\Rightarrow xy\\frac{dy}{dx} - y^2 + x^3 = 0$\nPut $y^2 = z \\Rightarrow 2y\\frac{dy}{dx} = \\frac{dz}{dx}$\n$\\frac{1}{2}\\frac{dz}{dx} - \\frac{z}{x} + x^2 = 0 \\Rightarrow \\frac{dz}{dx} + z\\left(-\\frac{2}{x}\\right) = -2x^2$\nI.F. $= e^{\\int -\\frac{2}{x}dx} = e^{-2\\log x} = x^{-2}$\n$z(x^{-2}) = \\int x^{-2}(-2x^2)dx + \\lambda \\Rightarrow \\frac{z}{x^2} = -2x + \\lambda$\n$z = -2x^3 + \\lambda x^2 \\Rightarrow y^2 + 2x^3 - \\lambda x^2 = 0$\n$y^2 - 2x^3 + cx^3 = 0$ [putting $c = -\\lambda$]",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation (1+x²)(dy/dx) = x(1+y²) is",
+    "question_latex": "Solution of the differential equation $\\frac{(1+x^2)dy}{dx} = x(1+y^2)$ is",
+    "question_images": [],
+    "options": [
+      "A. $2\\tan^{-1}y = \\log|1+x^2| + c$",
+      "B. $\\tan^{-1}y = \\log|1+x^2| + c$",
+      "C. $2\\tan^{-1}y + \\log|1+x^2| = c$",
+      "D. $\\tan^{-1}y + \\log|1+x^2| = c$"
+    ],
+    "option_images": [],
+    "answer": "A. $2\\tan^{-1}y = \\log|1+x^2| + c$",
+    "solution": "$(1+x^2)\\frac{dy}{dx} = x(1+y^2)$\n$\\frac{1}{1+y^2}dy = \\frac{x}{1+x^2}dx$\n$\\int\\frac{1}{1+y^2}dy = \\int\\frac{x}{1+x^2}dx + c$\n$\\tan^{-1}y = \\frac{1}{2}\\log|1+x^2| + c$\n$\\Rightarrow 2\\tan^{-1}y = \\log|1+x^2| + c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Differential Equations",
+    "question": "The integrating factor of the differential equation dy/dx + y = (1+y)/x is",
+    "question_latex": "The integrating factor of the differential equation $\\frac{dy}{dx} + y = \\frac{1+y}{x}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{x}{e^x}$",
+      "B. $\\frac{e^x}{x}$",
+      "C. $xe^x$",
+      "D. $e^x$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{e^x}{x}$",
+    "solution": "$\\frac{dy}{dx} + y = \\frac{1+y}{x} \\Rightarrow \\frac{dy}{dx} + \\left(1 - \\frac{1}{x}\\right)y = \\frac{1}{x}$\nI.F. $= e^{\\int\\left(1-\\frac{1}{x}\\right)dx} = e^{x-\\log x} = \\frac{1}{x}e^x = \\frac{e^x}{x}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of family of curves x² + y² - 2ax = 0 is",
+    "question_latex": "The differential equation of family of curves $x^2 + y^2 - 2ax = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x^2 - y^2 - 2xyy' = 0$",
+      "B. $y^2 - x^2 = 2xyy'$",
+      "C. $x^2 + y^2 + 2y'' = 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2 - y^2 - 2xyy' = 0$",
+    "solution": "The family of curves is $x^2 + y^2 - 2ax = 0$ ...(i)\nDifferentiating w.r.t. $x$: $2x + 2y\\frac{dy}{dx} - 2a = 0 \\Rightarrow a = x + y\\frac{dy}{dx}$\nSubstituting in (i):\n$x^2 + y^2 - 2x\\left(x + y\\frac{dy}{dx}\\right) = 0$\n$\\Rightarrow y^2 - x^2 - 2xy\\frac{dy}{dx} = 0$\nor $x^2 - y^2 - 2xyy' = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Differential Equations",
+    "question": "The differential equation whose solution is (x-h)² + (y-k)² = a² is (a is a constant)",
+    "question_latex": "The differential equation whose solution is $(x-h)^2 + (y-k)^2 = a^2$ is ($a$ is a constant)",
+    "question_images": [],
+    "options": [
+      "A. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^2\\frac{d^2y}{dx^2}$",
+      "B. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+      "C. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+    "solution": "$(x-h)^2 + (y-k)^2 = a^2$ ...(i)\nDifferentiating: $2(x-h) + 2(y-k)\\frac{dy}{dx} = 0 \\Rightarrow (x-h)+(y-k)\\frac{dy}{dx}=0$ ...(ii)\nDifferentiating again: $1 + \\left(\\frac{dy}{dx}\\right)^2 + (y-k)\\frac{d^2y}{dx^2} = 0$ ...(iii)\nFrom (iii): $y-k = -\\frac{1+p^2}{q}$, where $p=\\frac{dy}{dx}, q=\\frac{d^2y}{dx^2}$\nFrom (ii): $x-h = \\frac{(1+p^2)p}{q}$\nSubstituting in (i): $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of all circles passing through the origin and having their centres on the x-axis is (2007)",
+    "question_latex": "The differential equation of all circles passing through the origin and having their centres on the $x$-axis is (2007)",
+    "question_images": [],
+    "options": [
+      "A. $y^2 = x^2 + 2xy\\frac{dy}{dx}$",
+      "B. $x^2 = y^2 + xy\\frac{dy}{dx}$",
+      "C. $x^2 = y^2 + 3xy\\frac{dy}{dx}$",
+      "D. $y^2 = x^2 - 2xy\\frac{dy}{dx}$"
+    ],
+    "option_images": [],
+    "answer": "A. $y^2 = x^2 + 2xy\\frac{dy}{dx}$",
+    "solution": "General equation: $(x-h)^2 + y^2 = h^2 \\Rightarrow (x-h)^2 + y^2 = h^2$\n$x^2 - 2xh + y^2 = 0$ ...(i)\nDifferentiating: $2(x-h) + 2y\\frac{dy}{dx} = 0 \\Rightarrow h = x + y\\frac{dy}{dx}$\nSubstituting: $y^2 = x^2 + 2xy\\frac{dy}{dx}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Differential Equations",
+    "question": "The integrating factor of the differential equation dy/dx + y/(1-x)*sqrt(x) = 1 - sqrt(x) is",
+    "question_latex": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{(1-x)\\sqrt{x}} = 1-\\sqrt{x}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1-\\sqrt{x}}{1+\\sqrt{x}}$",
+      "B. $\\frac{1+\\sqrt{x}}{1-\\sqrt{x}}$",
+      "C. $\\frac{1-x}{1+x}$",
+      "D. $\\frac{\\sqrt{x}}{1-\\sqrt{x}}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1+\\sqrt{x}}{1-\\sqrt{x}}$",
+    "solution": "I.F. $= e^{\\int \\frac{1}{(1-x)\\sqrt{x}}dx}$\nPut $\\sqrt{x} = t \\Rightarrow \\frac{1}{2\\sqrt{x}}dx = dt$\nI.F. $= e^{\\int\\frac{2}{1-t^2}dt} = e^{\\ln\\frac{1+t}{1-t}} = \\frac{1+t}{1-t} = \\frac{1+\\sqrt{x}}{1-\\sqrt{x}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of the system of circle touching the y-axis at the origin is",
+    "question_latex": "The differential equation of the system of circle touching the $y$-axis at the origin is",
+    "question_images": [],
+    "options": [
+      "A. $x^2 + y^2 + 2xy\\frac{dy}{dx} = 0$",
+      "B. $x^2 + y^2 - 2xy\\frac{dy}{dx} = 0$",
+      "C. $x^2 - y^2 - 2xy\\frac{dy}{dx} = 0$",
+      "D. $x^2 - y^2 + 2xy\\frac{dy}{dx} = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $x^2 - y^2 + 2xy\\frac{dy}{dx} = 0$",
+    "solution": "Circle touching y-axis at origin: $(x-a)^2 + y^2 = a^2$ ...(i)\n$a = x + y\\frac{dy}{dx}$ from differentiating (i)\nSubstituting:\n$\\left(-y\\frac{dy}{dx}\\right)^2 + y^2 = x^2 + 2xy\\frac{dy}{dx} + y^2\\left(\\frac{dy}{dx}\\right)^2$\n$\\Rightarrow x^2 - y^2 + 2xy\\frac{dy}{dx} = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Differential Equations",
+    "question": "The solution of dy/dx = y²/(xy - x²) is",
+    "question_latex": "The solution of $\\frac{dy}{dx} = \\frac{y^2}{xy-x^2}$ is",
+    "question_images": [],
+    "options": [
+      "A. $e^{y/x} = kx$",
+      "B. $e^{y/x} = ky$",
+      "C. $e^{x/y} = kx$",
+      "D. $e^{-y/x} = ky$"
+    ],
+    "option_images": [],
+    "answer": "B. $e^{y/x} = ky$",
+    "solution": "Put $y = vx \\Rightarrow \\frac{dy}{dx} = v + x\\frac{dv}{dx}$\n$v + x\\frac{dv}{dx} = \\frac{v^2x^2}{vx^2 - x^2} = \\frac{v^2}{v-1}$\n$x\\frac{dv}{dx} = \\frac{v}{v-1}$\n$\\left(1-\\frac{1}{v}\\right)dv = \\frac{dx}{x}$\n$v - \\log v = \\log x + \\log k$\n$\\frac{y}{x} = \\log kxy$\n$\\Rightarrow e^{y/x} = ky$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation dy/dx - (y+3x)/log_e(y+3x) + 3 = 0 is (where C is a constant of integration.) (Sept 2020)",
+    "question_latex": "The solution of the differential equation $\\frac{dy}{dx} - \\frac{y+3x}{\\log_e(y+3x)} + 3 = 0$ is (where $C$ is a constant of integration.) (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. $x - \\log_e(y+3x) = C$",
+      "B. $x - 2\\log_e(y+3x) = C$",
+      "C. $y + 3x - \\frac{1}{2}(\\log_e x)^2 = C$",
+      "D. $x - \\frac{1}{2}(\\log_e(y+3x))^2 = C$"
+    ],
+    "option_images": [],
+    "answer": "D. $x - \\frac{1}{2}(\\log_e(y+3x))^2 = C$",
+    "solution": "Let $\\log_e(y+3x) = t \\Rightarrow \\frac{d(y+3x)}{y+3x} = dt$\nGiven DE: $\\frac{dy}{dx} + 3 = \\frac{y+3x}{\\log_e(y+3x)}$\n$\\int\\frac{\\log_e(y+3x)}{y+3x}d(y+3x) = \\int dx$\n$\\int t\\,dt = x+C \\Rightarrow \\frac{t^2}{2} = x+C$\n$\\Rightarrow \\frac{[\\log_e(y+3x)]^2}{2} = x+C$\n$\\Rightarrow x - \\frac{1}{2}(\\log_e(y+3x))^2 = C$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Differential Equations",
+    "question": "The order of the differential equation whose general solution is given by y = (c₁+c₂)cos(x+c₃) - c₄e^(x+c₅) where c₁,c₂,c₃,c₄,c₅ are arbitrary constants, is",
+    "question_latex": "The order of the differential equation whose general solution is given by $y = (c_1+c_2)\\cos(x+c_3) - c_4 e^{x+c_5}$ where $c_1,c_2,c_3,c_4,c_5$ are arbitrary constants, is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 3",
+      "C. 2",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "B. 3",
+    "solution": "$y = (c_1+c_2)\\cos(x+c_3) - c_4e^{x+c_5}$\n$= (c_1\\cos c_3 + c_2\\cos c_3)\\cos x - (c_1\\sin c_3 + c_2\\sin c_3)\\sin x - c_4 e^{c_5}e^x$\n$= A\\cos x - B\\sin x + Ce^x$\nWhere $A = c_1\\cos c_3 + c_2\\cos c_3$, $B = c_1\\sin c_3 + c_2\\sin c_3$, $C = -c_4e^{c_5}$\nThis contains three arbitrary constants. Hence order = 3.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Differential Equations",
+    "question": "The differential equation for which sin⁻¹x + sin⁻¹y = c is given by",
+    "question_latex": "The differential equation for which $\\sin^{-1}x + \\sin^{-1}y = c$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{1-x^2}dx + \\sqrt{1-y^2}dy = 0$",
+      "B. $\\sqrt{1-x^2}dy + \\sqrt{1-y^2}dx = 0$",
+      "C. $\\sqrt{1-x^2}dy - \\sqrt{1-y^2}dx = 0$",
+      "D. $\\sqrt{1-x^2}dx - \\sqrt{1-y^2}dy = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sqrt{1-x^2}dy + \\sqrt{1-y^2}dx = 0$",
+    "solution": "$\\sin^{-1}x + \\sin^{-1}y = c$ ...(i)\nDifferentiating w.r.t. $x$:\n$\\frac{1}{\\sqrt{1-x^2}} + \\frac{1}{\\sqrt{1-y^2}}\\frac{dy}{dx} = 0$\n$\\Rightarrow \\frac{dy}{dx} = -\\frac{\\sqrt{1-y^2}}{\\sqrt{1-x^2}}$\n$\\Rightarrow \\sqrt{1-x^2}dy + \\sqrt{1-y^2}dx = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Differential Equations",
+    "question": "The differential equation obtained by eliminating arbitrary constants from y = ae^(bx) is",
+    "question_latex": "The differential equation obtained by eliminating arbitrary constants from $y = ae^{bx}$ is",
+    "question_images": [],
+    "options": [
+      "A. $y\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = 0$",
+      "B. $y\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = 0$",
+      "C. $y\\frac{d^2y}{dx^2} - \\left(\\frac{dy}{dx}\\right)^2 = 0$",
+      "D. $y\\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^2 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $y\\frac{d^2y}{dx^2} - \\left(\\frac{dy}{dx}\\right)^2 = 0$",
+    "solution": "$y = ae^{bx}$\n$\\frac{dy}{dx} = abe^{bx}$ ...(i)\n$\\frac{d^2y}{dx^2} = ab^2e^{bx}$ ...(ii)\n$ae^{bx}\\frac{d^2y}{dx^2} = a^2b^2e^{2bx}$\n$\\Rightarrow y\\frac{d^2y}{dx^2} = \\left(\\frac{dy}{dx}\\right)^2$ [from eq. (ii)]\n$\\Rightarrow y\\frac{d^2y}{dx^2} - \\left(\\frac{dy}{dx}\\right)^2 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Differential Equations",
+    "question": "The slope of the tangent at (x, y) to a curve passing through a point (2, 1) is (x²+y²)/(2xy), then the equation of the curve is",
+    "question_latex": "The slope of the tangent at $(x,y)$ to a curve passing through a point $(2,1)$ is $\\frac{x^2+y^2}{2xy}$, then the equation of the curve is",
+    "question_images": [],
+    "options": [
+      "A. $2(x^2-y^2) = 3x$",
+      "B. $2(x^2-y^2) = 6y$",
+      "C. $x(x^2-y^2) = 6$",
+      "D. $x(x^2+y^2) = 10$"
+    ],
+    "option_images": [],
+    "answer": "A. $2(x^2-y^2) = 3x$",
+    "solution": "$\\frac{dy}{dx} = \\frac{x^2+y^2}{2xy}$\nPut $y = vx$:\n$v + x\\frac{dv}{dx} = \\frac{x^2+v^2x^2}{2vx^2} = \\frac{1+v^2}{2v}$\n$x\\frac{dv}{dx} = \\frac{1-v^2}{2v}$\n$\\frac{2v}{1-v^2}dv = \\frac{dx}{x}$\n$-\\log(1-v^2) = \\log x + \\log c$\nCurve passes through $(2,1)$: $c = \\frac{2}{3}$\n$\\log\\left(\\frac{x^2}{x^2-y^2}\\right) = \\log\\frac{2x}{3}$\n$\\Rightarrow 2(x^2-y^2) = 3x$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation x²dy = -2yxdx is",
+    "question_latex": "Solution of the differential equation $x^2dy = -2yxdx$ is",
+    "question_images": [],
+    "options": [
+      "A. $xy^2 = c$",
+      "B. $x^2y^2 = c$",
+      "C. $x^2y = c$",
+      "D. $xy = c$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2y = c$",
+    "solution": "$x^2dy = -2yxdx$\n$\\frac{1}{y}dy = -2\\frac{1}{x}dx$\n$\\int\\frac{1}{y}dy = -2\\int\\frac{1}{x}dx + \\log c$\n$\\log y = -2\\log x + \\log c$\n$\\log(x^2y) = \\log c$\n$\\Rightarrow x^2y = c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be the solution of the differential equation (x²+1)y' - 2xy = (x⁴+2x²+1)cosx, y(0) = 1. Then the integral from -3 to 3 of y(x)dx is: [April 7, 2025 (II)]",
+    "question_latex": "Let $y = y(x)$ be the solution of the differential equation $(x^2+1)y' - 2xy = (x^4+2x^2+1)\\cos x,\\, y(0)=1$. Then $\\int_{-3}^{3}y(x)dx$ is: [April 7, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 18",
+      "B. 24",
+      "C. 30",
+      "D. 36"
+    ],
+    "option_images": [],
+    "answer": "B. 24",
+    "solution": "$(x^2+1)\\frac{dy}{dx} - 2xy = (x^4+2x^2+1)\\cos x$\n$\\frac{dy}{dx} - \\frac{2x}{x^2+1}y = (x^2+1)\\cos x$\nI.F. $= e^{\\int\\frac{-2x}{x^2+1}dx} = \\frac{1}{x^2+1}$\n$\\frac{y}{x^2+1} = \\int\\cos x\\,dx = \\sin x + c$\nFor $x=0, y=1$: $c = 1$\n$y = (x^2+1)(\\sin x + 1)$\n$\\int_{-3}^{3}ydx = \\int_{-3}^{3}(x^2+1)(\\sin x+1)dx$\n$= 0 + 18 + 0 + 6 = 24$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Differential Equations",
+    "question": "The solution of dy/dx + y = e^(-x), y(0) = 0 is",
+    "question_latex": "The solution of $\\frac{dy}{dx} + y = e^{-x},\\, y(0)=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = e^{-x}(x-1)$",
+      "B. $y = xe^{-x}$",
+      "C. $y = xe^{-x} + 10$",
+      "D. $y = (x+1)e^{-x}$"
+    ],
+    "option_images": [],
+    "answer": "B. $y = xe^{-x}$",
+    "solution": "I.F. $= e^{\\int 1\\,dx} = e^x$\n$ye^x = \\int e^x e^{-x}dx + C = x + C$\nAt $y=0, x=0$: $C = 0$\n$ye^x = x \\Rightarrow y = xe^{-x}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Differential Equations",
+    "question": "The function f(theta) = (d/dtheta) * integral from 0 to theta of dx/(1-cos(theta)cos(x)) satisfies the differential equation",
+    "question_latex": "The function $f(\\theta) = \\frac{d}{d\\theta}\\int_0^{\\theta}\\frac{dx}{1-\\cos\\theta\\cos x}$ satisfies the differential equation",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{df}{d\\theta} + 2f(\\theta) = 0$",
+      "B. $\\frac{df}{d\\theta} - 2f(\\theta) = 0$",
+      "C. $\\frac{df}{d\\theta} - 2f(\\theta) = \\tan\\theta$",
+      "D. $\\frac{df}{d\\theta} + 2f(\\theta)\\cot\\theta = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{df}{d\\theta} + 2f(\\theta)\\cot\\theta = 0$",
+    "solution": "Solution follows from computing the derivative and showing the function satisfies $\\frac{df}{d\\theta} + 2f(\\theta)\\cot\\theta = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Differential Equations",
+    "question": "If y(x) is the solution of the differential equation dy/dx + ((2x+1)/x)y = e^(-2x), x > 0, where y(1) = (1/2)e^(-2), then (Jan 2019)",
+    "question_latex": "If $y(x)$ is the solution of the differential equation $\\frac{dy}{dx} + \\left(\\frac{2x+1}{x}\\right)y = e^{-2x},\\, x>0$, where $y(1) = \\frac{1}{2}e^{-2}$, then (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $y(x)$ is decreasing in $(0,1)$",
+      "B. $y(\\log_e 2) = \\log_e 4$",
+      "C. $y(x)$ is decreasing in $\\left(\\frac{1}{2},1\\right)$",
+      "D. $y(\\log_e 2) = \\frac{\\log_e 2}{4}$"
+    ],
+    "option_images": [],
+    "answer": "C. $y(x)$ is decreasing in $\\left(\\frac{1}{2},1\\right)$",
+    "solution": "I.F. $= e^{\\int\\left(\\frac{2x+1}{x}\\right)dx} = e^{2x+\\log x} = xe^{2x}$\n$y(xe^{2x}) = \\int e^{-2x}\\cdot xe^{2x}dx = \\int xdx = \\frac{x^2}{2} + C$\nPassing through $\\left(1,\\frac{1}{2}e^{-2}\\right)$: $C = 0$\n$y = \\frac{xe^{-2x}}{2}$\n$\\frac{dy}{dx} = \\frac{1}{2}e^{-2x}(-2x+1)$\nDecreasing when $\\frac{dy}{dx} < 0 \\Rightarrow x > \\frac{1}{2}$\nSo $y(x)$ is decreasing in $\\left(\\frac{1}{2},1\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Differential Equations",
+    "question": "Let x = x(y) be the solution of the differential equation 2ye^(x/y²)dx + (y² - 4xe^(x/y²))dy = 0 such that x(1) = 0. Then, x(e) is equal to: (June 2022)",
+    "question_latex": "Let $x = x(y)$ be the solution of the differential equation $2ye^{x/y^2}dx + \\left(y^2 - 4xe^{x/y^2}\\right)dy = 0$ such that $x(1) = 0$. Then, $x(e)$ is equal to: (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $-e\\log_e(2)$",
+      "B. $e^2\\log_e(2)$",
+      "C. $e\\log_e(2)$",
+      "D. $-e^2\\log_e(2)$"
+    ],
+    "option_images": [],
+    "answer": "D. $-e^2\\log_e(2)$",
+    "solution": "$2y\\cdot e^{x/y^2}dx + \\left(y^2-4xe^{x/y^2}\\right)dy = 0$\n$\\Rightarrow e^{x/y^2}[2ydx - 4xdy] = -y^2dy$\n$\\Rightarrow 2e^{x/y^2}d\\left(\\frac{x}{y^2}\\right) = -\\frac{1}{y}dy$\n$\\Rightarrow 2e^{x/y^2} = -\\ln y + c$\nUsing $x(1)=0$: $c = 2$\nFor $x(e)$: put $y=e$, $2e^{x/e^2} = -1+2 = 1 \\Rightarrow e^{x/e^2} = \\frac{1}{2}$\n$x(e) = -e^2\\ln 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Differential Equations",
+    "question": "The solution of differential equation y - x(dy/dx) = a(y² + dy/dx) is",
+    "question_latex": "The solution of differential equation $y - x\\frac{dy}{dx} = a\\left(y^2 + \\frac{dy}{dx}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. $(x+a)(1-ay) = cy$",
+      "B. $(x+a)(1-ay) = cy$",
+      "C. $(x+a)(1-ay) = -cy$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $(x+a)(1-ay) = cy$",
+    "solution": "$y - ay^2 = \\frac{dy}{dx}(a+x)$\n$y(1-ay) = (a+x)\\frac{dy}{dx}$\n$\\frac{dx}{a+x} = \\frac{dy}{y(1-ay)}$\nIntegrating: $\\log(a+x) = \\log y - \\log(1-ay) + \\log c$\n$\\Rightarrow (x+a)(1-ay) = cy$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Differential Equations",
+    "question": "If y = y(x) and (2+sin x)/(y+1) * (dy/dx) = -cos x, y(0) = 1, then y(π/2) equals",
+    "question_latex": "If $y = y(x)$ and $\\frac{2+\\sin x}{y+1}\\left(\\frac{dy}{dx}\\right) = -\\cos x,\\, y(0) = 1$, then $y\\left(\\frac{\\pi}{2}\\right)$ equals",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{3}$",
+      "B. $\\frac{2}{3}$",
+      "C. $-\\frac{1}{3}$",
+      "D. $1$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{1}{3}$",
+    "solution": "$\\frac{dy}{y+1} = -\\frac{\\cos x}{2+\\sin x}dx$\n$\\log(y+1) = -\\log(2+\\sin x) + \\log c$\nWhen $x=0, y=1$: $c = 4$\n$y+1 = \\frac{4}{2+\\sin x}$\nAt $x=\\frac{\\pi}{2}$: $y+1 = \\frac{4}{3} \\Rightarrow y = \\frac{1}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Differential Equations",
+    "question": "If y = y(x) is the solution of the differential equation e^y(dy/dx - 1) = e^x such that y(0) = 0, then y(1) is equal to (Jan 2020)",
+    "question_latex": "If $y = y(x)$ is the solution of the differential equation $e^y\\left(\\frac{dy}{dx}-1\\right) = e^x$ such that $y(0) = 0$, then $y(1)$ is equal to (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $2 + \\log_e 2$",
+      "B. $2e$",
+      "C. $\\log_e 2$",
+      "D. $1 + \\log_e 2$"
+    ],
+    "option_images": [],
+    "answer": "D. $1 + \\log_e 2$",
+    "solution": "Put $e^y = t \\Rightarrow e^y\\frac{dy}{dx} = \\frac{dt}{dx}$\n$\\frac{dt}{dx} - t = e^x$ (linear DE)\nI.F. $= e^{-x}$\n$t(e^{-x}) = \\int e^x \\cdot e^{-x}dx + c = x + c$\n$e^{y-x} = x+c$\nAt $x=0, y=0$: $c=1$\n$e^{y-x} = x+1 \\Rightarrow y = x + \\log_e(x+1)$\nWhen $x=1$: $y = 1 + \\log_e 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Differential Equations",
+    "question": "If the solution curve of the differential equation dy/dx = (x+y-2)/(x-y) passes through the points (2,1) and (k+1,2), k > 0, then (July 2022)",
+    "question_latex": "If the solution curve of the differential equation $\\frac{dy}{dx} = \\frac{x+y-2}{x-y}$ passes through the points $(2,1)$ and $(k+1,2),\\, k>0$, then (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $2\\tan^{-1}\\left(\\frac{1}{k}\\right) = \\log_e(k^2+1)$",
+      "B. $\\tan^{-1}\\left(\\frac{1}{k}\\right) = \\log_e(k^2+1)$",
+      "C. $2\\tan^{-1}\\left(\\frac{1}{k}\\right) = \\log_e\\left(\\frac{k^2+1}{k^2}\\right)$",
+      "D. $2\\tan^{-1}\\left(\\frac{1}{k+1}\\right) = \\log_e(k^2+2k+2)$"
+    ],
+    "option_images": [],
+    "answer": "A. $2\\tan^{-1}\\left(\\frac{1}{k}\\right) = \\log_e(k^2+1)$",
+    "solution": "Put $x = X+h, y = Y+k$, solving gives homogeneous DE.\nPut $Y = VX$:\n$\\tan^{-1}V - \\frac{1}{2}\\log(1+V^2) = \\log X + c$\nPasses through $(2,1) \\Rightarrow c = 0$\nFor $(k+1,2)$: $2\\tan^{-1}\\left(\\frac{1}{k}\\right) = \\log_e(k^2+1)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Differential Equations",
+    "question": "The order of the differential equation associated with the primitive y = c₁ + c₂e^x + c₃e^(-2x+c₄), where c₁,c₂,c₃,c₄ are arbitrary constants, is",
+    "question_latex": "The order of the differential equation associated with the primitive $y = c_1 + c_2e^x + c_3e^{-2x+c_4}$, where $c_1, c_2, c_3, c_4$ are arbitrary constants, is",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "$y = c_1 + c_2e^x + c_3e^{-2x+c_4} = c_1 + c_2e^x + c_3'e^{-2x}$\nwhere $c_3' = c_3e^{c_4}$ (absorbed constants)\nThis contains 3 arbitrary constants, so order = 3.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Differential Equations",
+    "question": "Degree and order of following differential equation (d²y/dx²)² + (dy/dx) = e^x",
+    "question_latex": "Degree and order of following differential equation $\\left(\\frac{d^2y}{dx^2}\\right)^2 + \\left(\\frac{dy}{dx}\\right) = e^x$",
+    "question_images": [],
+    "options": [
+      "A. Order 2, degree 2",
+      "B. Order 2, degree 3",
+      "C. Order 1, degree 2",
+      "D. Order 3, degree 3"
+    ],
+    "option_images": [],
+    "answer": "A. Order 2, degree 2",
+    "solution": "Highest order derivative is $\\frac{d^2y}{dx^2}$ → Order = 2\nThe highest power of the highest order derivative is 2 → Degree = 2",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation (x+y)²(dy/dx) = a² is",
+    "question_latex": "The solution of the differential equation $(x+y)^2\\frac{dy}{dx} = a^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $(x+y)^2 = \\frac{a^2x}{2} + c$",
+      "B. $(x+y)^2 = a^2x + c$",
+      "C. $(x+y)^2 = 2a^2x + c$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Put $x+y = v \\Rightarrow \\frac{dy}{dx} = \\frac{dv}{dx}-1$\n$v^2\\left(\\frac{dv}{dx}-1\\right) = a^2$\n$v^2\\frac{dv}{dx} = a^2+v^2$\n$\\left(1 - \\frac{a^2}{a^2+v^2}\\right)dv = dx$\n$v - a\\tan^{-1}\\left(\\frac{v}{a}\\right) = x+c$\n$(x+y) - a\\tan^{-1}\\left(\\frac{x+y}{a}\\right) = x+c$\n$\\Rightarrow y = a\\tan^{-1}\\left(\\frac{x+y}{a}\\right) + c$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Differential Equations",
+    "question": "Let the solution curve y = y(x) of the differential equation dy/dx - (3x⁵tan⁻¹(x³))/(1+x⁶)^(3/2) * y = 2x*exp{(x³-tan⁻¹x³)/sqrt(1+x⁶)} pass through the origin. Then y(1) is equal to (Jan 2023)",
+    "question_latex": "Let the solution curve $y = y(x)$ of the differential equation $\\frac{dy}{dx} - \\frac{3x^5\\tan^{-1}(x^3)}{(1+x^6)^{3/2}}y = 2x\\exp\\left\\{\\frac{x^3-\\tan^{-1}x^3}{\\sqrt{1+x^6}}\\right\\}$ pass through the origin. Then $y(1)$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $\\exp\\left\\{\\frac{1-\\pi}{4\\sqrt{2}}\\right\\}$",
+      "B. $\\exp\\left\\{\\frac{4-\\pi}{4\\sqrt{2}}\\right\\}$",
+      "C. $\\exp\\left\\{\\frac{\\pi-4}{4\\sqrt{2}}\\right\\}$",
+      "D. $\\exp\\left\\{\\frac{4+\\pi}{4\\sqrt{2}}\\right\\}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\exp\\left\\{\\frac{4-\\pi}{4\\sqrt{2}}\\right\\}$",
+    "solution": "After computing I.F. using substitution $x^3 = \\tan\\theta$:\n$y = x^2\\exp\\left\\{\\frac{x^3-\\tan^{-1}x^3}{\\sqrt{1+x^6}}\\right\\} + c\\cdot\\exp\\left\\{\\frac{x^3-\\tan^{-1}x^3}{\\sqrt{1+x^6}}\\right\\}$\nPasses through origin: $c = 0$\n$y(1) = \\exp\\left\\{\\frac{1-\\pi/4}{\\sqrt{2}}\\right\\} = \\exp\\left\\{\\frac{4-\\pi}{4\\sqrt{2}}\\right\\}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Differential Equations",
+    "question": "The solution of (x+y+1)(dy/dx) = 1 is",
+    "question_latex": "The solution of $(x+y+1)\\frac{dy}{dx} = 1$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = (x+2) + ce^x$",
+      "B. $y = -(x+2) + ce^x$",
+      "C. $x = -(y+2) + ce^y$",
+      "D. $x = (y+2)^2 + ce^y$"
+    ],
+    "option_images": [],
+    "answer": "C. $x = -(y+2) + ce^y$",
+    "solution": "$\\frac{dx}{dy} = x+y+1 \\Rightarrow \\frac{dx}{dy} - x = y+1$\nI.F. $= e^{\\int-1\\,dy} = e^{-y}$\n$xe^{-y} = \\int(y+1)e^{-y}dy = -(y+1)e^{-y} - e^{-y} + c$\n$xe^{-y} = -(y+2)e^{-y} + c$\n$x = -(y+2) + ce^y$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation (1+y²) + (x - e^(tan⁻¹y))(dy/dx) = 0 is",
+    "question_latex": "The solution of the differential equation $(1+y^2) + \\left(x - e^{\\tan^{-1}y}\\right)\\frac{dy}{dx} = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $2xe^{\\tan^{-1}y} = e^{2\\tan^{-1}y} + c$",
+      "B. $xe^{\\tan^{-1}y} = \\tan^{-1}y + c$",
+      "C. $xe^{2\\tan^{-1}y} = e^{\\tan^{-1}y} + c$",
+      "D. $(x-2) = ce^{-\\tan^{-1}y}$"
+    ],
+    "option_images": [],
+    "answer": "A. $2xe^{\\tan^{-1}y} = e^{2\\tan^{-1}y} + c$",
+    "solution": "$(1+y^2)\\frac{dx}{dy} + x = e^{\\tan^{-1}y}$\n$\\frac{dx}{dy} + \\frac{x}{1+y^2} = \\frac{e^{\\tan^{-1}y}}{1+y^2}$\nI.F. $= e^{\\tan^{-1}y}$\n$x\\cdot e^{\\tan^{-1}y} = \\int\\frac{e^{2\\tan^{-1}y}}{1+y^2}dy + c = \\frac{e^{2\\tan^{-1}y}}{2} + c$\n$\\Rightarrow 2xe^{\\tan^{-1}y} = e^{2\\tan^{-1}y} + c$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation 2x(dy/dx) - y = 2 represents",
+    "question_latex": "The solution of the differential equation $2x\\frac{dy}{dx} - y = 2$ represents",
+    "question_images": [],
+    "options": [
+      "A. Straight line",
+      "B. Circles",
+      "C. Parabolas",
+      "D. Ellipse"
+    ],
+    "option_images": [],
+    "answer": "C. Parabolas",
+    "solution": "$2x\\frac{dy}{dx} = y+2$\n$\\frac{1}{y+2}dy = \\frac{1}{2x}dx$\n$\\log(y+2) = \\frac{1}{2}\\log x + \\log c$\n$(y+2) = c\\sqrt{x}$\nSquaring: $(y+2)^2 = c^2x$ → Parabola",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Differential Equations",
+    "question": "The general solution of the differential equation (x-y²)dx + y(5x+y²)dy = 0 is: (July 2022)",
+    "question_latex": "The general solution of the differential equation $(x-y^2)dx + y(5x+y^2)dy = 0$ is: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $(y^2+x)^4 = C|(y^2+2x)^3|$",
+      "B. $(y^2+2x)^4 = C|(y^2+x)^3|$",
+      "C. $|(y^2+2x)^3| = C(2y^2+x)^4$",
+      "D. $|(y^2+x)^3| = C(2y^2+x)^4$"
+    ],
+    "option_images": [],
+    "answer": "A. $(y^2+x)^4 = C|(y^2+2x)^3|$",
+    "solution": "Put $y^2 = t$, $\\frac{dt}{dx} = 2y\\frac{dy}{dx}$\n$\\frac{2(t-x)}{5x+t} = \\frac{dt}{dx}$\nPut $t = vx$: $(y^2+x)^4 = C(y^2+2x)^3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Differential Equations",
+    "question": "Order and degree of the differential equation y(x) = 1 + dy/dx + (1/1.2)(dy/dx)² + (1/1.2.3)(dy/dx)³ + ... is",
+    "question_latex": "Order and degree of the differential equation $y(x) = 1 + \\frac{dy}{dx} + \\frac{1}{1.2}\\left(\\frac{dy}{dx}\\right)^2 + \\frac{1}{1.2.3}\\left(\\frac{dy}{dx}\\right)^3 + \\cdots$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "The series $1 + p + \\frac{p^2}{2!} + \\frac{p^3}{3!} + \\cdots = e^p$ where $p = \\frac{dy}{dx}$\nSo $y = e^{dy/dx} \\Rightarrow \\log y = \\frac{dy}{dx}$\nOrder = 1, degree = 1",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be the solution of the differential equation x(dy/dx) + y = x*log_e(x), (x > 1). If 2y(2) = log_e(4) - 1, then y(e) is equal to (Jan 2019)",
+    "question_latex": "Let $y = y(x)$ be the solution of the differential equation $x\\frac{dy}{dx} + y = x\\log_e x,\\, (x>1)$. If $2y(2) = \\log_e 4 - 1$, then $y(e)$ is equal to (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{e^2}{4}$",
+      "B. $-\\frac{e^2}{2}$",
+      "C. $-\\frac{e}{2}$",
+      "D. $\\frac{e}{4}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{e}{4}$",
+    "solution": "$\\frac{dy}{dx} + \\frac{y}{x} = \\log_e x$\nI.F. $= e^{\\int\\frac{1}{x}dx} = x$\n$xy = \\int\\log_e x\\cdot x\\,dx + C = \\frac{x^2}{2}\\log_e x - \\frac{x^2}{4} + C$\nFrom $2y(2) = \\log_e 4 - 1$: $C = 0$\n$y = \\frac{x}{2}\\log_e x - \\frac{x}{4}$\n$y(e) = \\frac{e}{2} - \\frac{e}{4} = \\frac{e}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Differential Equations",
+    "question": "The slope of the tangent to a curve C: y = y(x) at any point (x, y) on it is (2e^(2x) - 6e^(-x) + 9)/(2 + 9e^(-2x)). If C passes through the points (0, 1/2 + π/2√2) and (α, 1/2*e^(2α)), then e^α is equal to: (July 2022)",
+    "question_latex": "The slope of the tangent to a curve $C: y=y(x)$ at any point $(x,y)$ on it is $\\frac{2e^{2x}-6e^{-x}+9}{2+9e^{-2x}}$. If $C$ passes through the points $\\left(0,\\frac{1}{2}+\\frac{\\pi}{2\\sqrt{2}}\\right)$ and $\\left(\\alpha,\\frac{1}{2}e^{2\\alpha}\\right)$, then $e^\\alpha$ is equal to: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}$",
+      "B. $\\frac{3}{\\sqrt{2}}\\left(\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}\\right)$",
+      "C. $\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}$",
+      "D. $\\frac{1}{\\sqrt{2}}\\left(\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{3}{\\sqrt{2}}\\left(\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}\\right)$",
+    "solution": "$\\frac{dy}{dx} = e^{2x} - \\frac{6e^x}{2e^{2x}+9}$\nIntegrating: $y = \\frac{e^{2x}}{2} - \\sqrt{2}\\tan^{-1}\\left(\\frac{\\sqrt{2}e^x}{3}\\right) + c$\nUsing given points to find $c$ and then $e^\\alpha = \\frac{3}{\\sqrt{2}}\\left(\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Differential Equations",
+    "question": "The differential equation for which sin⁻¹x + sin⁻¹y = c is given by",
+    "question_latex": "The differential equation for which $\\sin^{-1}x + \\sin^{-1}y = c$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{1-x^2}dy + \\sqrt{1-y^2}dx = 0$",
+      "B. $\\sqrt{1-x^2}dx + \\sqrt{1-y^2}dy = 0$",
+      "C. $\\sqrt{1-x^2}dy - \\sqrt{1-y^2}dx = 0$",
+      "D. $\\sqrt{1-x^2}dy - \\sqrt{1-y^2}dx = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sqrt{1-x^2}dy + \\sqrt{1-y^2}dx = 0$",
+    "solution": "$\\sin^{-1}x + \\sin^{-1}y = c$\n$\\frac{dx}{\\sqrt{1-x^2}} + \\frac{dy}{\\sqrt{1-y^2}} = 0$\n$\\Rightarrow \\sqrt{1-y^2}dx + \\sqrt{1-x^2}dy = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Differential Equations",
+    "question": "Let C₁ be the curve obtained by the solution of differential equation 2xy(dy/dx) = y² - x², x > 0. Let the curve C₂ be the solution of 2xy/(x²-y²) = dy/dx. If both the curves pass through (1,1), then the area enclosed by the curves C₁ and C₂ is equal to (March 2021)",
+    "question_latex": "Let $C_1$ be the curve obtained by the solution of differential equation $2xy\\frac{dy}{dx} = y^2-x^2,\\, x>0$. Let the curve $C_2$ be the solution of $\\frac{2xy}{x^2-y^2} = \\frac{dy}{dx}$. If both the curves pass through $(1,1)$, then the area enclosed by the curves $C_1$ and $C_2$ is equal to (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\pi}{2}-1$",
+      "B. $\\pi+1$",
+      "C. $\\pi-1$",
+      "D. $\\frac{\\pi}{4}+1$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\pi}{2}-1$",
+    "solution": "$C_1$: $x^2+y^2-2x = 0$ (circle)\n$C_2$: $x^2+y^2-2y = 0$ (circle)\nRequired area $= 2\\left[\\frac{\\pi}{4}(1)^2\\right] - (1)^2 = \\frac{\\pi}{2}-1$",
+    "solution_images": [
+      "44_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation dy/dx = y/x + phi(y/x) / phi'(y/x) is",
+    "question_latex": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{y}{x} + \\frac{\\phi\\left(\\frac{y}{x}\\right)}{\\phi'\\left(\\frac{y}{x}\\right)}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\phi\\left(\\frac{y}{x}\\right) = kx$",
+      "B. $x\\phi\\left(\\frac{y}{x}\\right) = k$",
+      "C. $\\phi\\left(\\frac{y}{x}\\right) = ky$",
+      "D. $y\\phi\\left(\\frac{y}{x}\\right) = k$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\phi\\left(\\frac{y}{x}\\right) = kx$",
+    "solution": "Put $y = vx$: $v + x\\frac{dv}{dx} = v + \\frac{\\phi(v)}{\\phi'(v)}$\n$\\frac{\\phi'(v)}{\\phi(v)}dv = \\frac{dx}{x}$\n$\\log\\phi(v) = \\log x + \\log k$\n$\\phi(v) = kx \\Rightarrow \\phi\\left(\\frac{y}{x}\\right) = kx$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be the solution of the differential equation (x-x³)dy = (y+yx²-3x⁴)dx, x > 2. If y(3) = 3, then y(4) is equal to (July 2021)",
+    "question_latex": "Let $y = y(x)$ be the solution of the differential equation $(x-x^3)dy = (y+yx^2-3x^4)dx,\\, x>2$. If $y(3) = 3$, then $y(4)$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 4",
+      "C. 12",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "C. 12",
+    "solution": "$(x-x^3)dy = (y+yx^2-3x^4)dx$\n$\\Rightarrow (xdy-ydx) + 3x^4dx = yx^2dx + x^3dy$\n$\\Rightarrow d(y/x) + 3x^2dx = yd(x) + xdy$\n$\\int d(y/x) + \\int 3x^2dx = \\int d(xy) \\Rightarrow \\frac{y}{x} + x^3 = xy + c$\n$x^4 = y(x^2-1) + cx \\Rightarrow y(3) = 3$: $c = 19$\nSolution: $x^4 = y(x^2-1) + 19x$\nAt $x=4$: $256 = 15y(4) + 76 \\Rightarrow y(4) = 12$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation cos x*cos y*dy - sin x*sin y*dx = 0",
+    "question_latex": "Solution of the differential equation $\\cos x\\cos y\\,dy - \\sin x\\sin y\\,dx = 0$",
+    "question_images": [],
+    "options": [
+      "A. $\\sin y\\cos x = c$",
+      "B. $\\sin y = c\\cos x$",
+      "C. $\\cos y\\sin x = c$",
+      "D. $\\cos y = c\\sin x$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sin y\\cos x = c$",
+    "solution": "$\\int\\cot y\\,dy - \\int\\tan x\\,dx = \\log c$\n$\\log|\\sin y| + \\log|\\cos x| = \\log c$\n$\\sin y\\cos x = c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of the family of curves x² + y² - 2ax = 0 is",
+    "question_latex": "The differential equation of the family of the curves $x^2 + y^2 - 2ax = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x^2 - y^2 - 2xyy'' = 0$",
+      "B. $y^2 - x^2 = 2xyy'$",
+      "C. $x^2 + y^2 + 2y'' = 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $y^2 - x^2 = 2xyy'$",
+    "solution": "$x^2 + y^2 - 2ax = 0$ ...(i)\n$2x + 2yy' - 2a = 0 \\Rightarrow a = x + yy'$\nSubstituting: $x^2 + y^2 - 2x(x+yy') = 0$\n$\\Rightarrow y^2 - x^2 = 2xyy'$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Differential Equations",
+    "question": "To reduce the differential equation dy/dx + P(x)y = Q(x)y^n to the linear form, the substitution is",
+    "question_latex": "To reduce the differential equation $\\frac{dy}{dx} + P(x)\\cdot y = Q(x)\\cdot y^n$ to the linear form, the substitution is",
+    "question_images": [],
+    "options": [
+      "A. $v = \\frac{1}{y^n}$",
+      "B. $v = \\frac{1}{y^{n-1}}$",
+      "C. $v = y^n$",
+      "D. $v = y^{n-1}$"
+    ],
+    "option_images": [],
+    "answer": "B. $v = \\frac{1}{y^{n-1}}$",
+    "solution": "$\\frac{1}{y^n}\\frac{dy}{dx} + y^{-n+1}P(x) = Q(x)$\nPut $\\frac{1}{y^{n-1}} = v$\n$\\Rightarrow (-n+1)y^{-n}\\frac{dy}{dx} = \\frac{dv}{dx}$\n$\\frac{dv}{dx} + (1-n)P(x)v = (1-n)Q(x)$ (linear form)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Differential Equations",
+    "question": "The order of the differential equation of all tangent lines to the parabola y = x² is",
+    "question_latex": "The order of the differential equation of all tangent lines to the parabola $y = x^2$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "For the parabola $y = x^2$, there is only one tangent family parameter (the point of tangency).\nThe tangent at point $(a, a^2)$ is: $y = 2ax - a^2$\nEliminating $a$: $\\frac{dy}{dx} = 2a \\Rightarrow a = \\frac{1}{2}\\frac{dy}{dx}$\n$y = \\frac{dy}{dx}\\cdot x - \\frac{1}{4}\\left(\\frac{dy}{dx}\\right)^2$\nOrder = 1",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Differential Equations",
+    "question": "The order and degree of the differential equation (1 + 4(dy/dx))^(2/3) = 4(d²y/dx²) are respectively",
+    "question_latex": "The order and degree of the differential equation $\\left(1+4\\frac{dy}{dx}\\right)^{2/3} = 4\\frac{d^2y}{dx^2}$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. $1, \\frac{2}{3}$",
+      "B. $3, 2$",
+      "C. $2, 3$",
+      "D. $2, \\frac{2}{3}$"
+    ],
+    "option_images": [],
+    "answer": "C. $2, 3$",
+    "solution": "$\\left(1+4\\frac{dy}{dx}\\right)^{2/3} = 4\\frac{d^2y}{dx^2}$\nCubing both sides: $\\left(1+4\\frac{dy}{dx}\\right)^2 = 4^3\\left(\\frac{d^2y}{dx^2}\\right)^3$\nHighest order derivative: $\\frac{d^2y}{dx^2}$ → Order = 2\nPower of highest order derivative: 3 → Degree = 3",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Differential Equations",
+    "question": "The degree and order of the differential equation y = px + ∛(a²p² + b²), where p = dy/dx, are respectively",
+    "question_latex": "The degree and order of the differential equation $y = px + \\sqrt[3]{a^2p^2+b^2}$, where $p = \\frac{dy}{dx}$, are respectively",
+    "question_images": [],
+    "options": [
+      "A. 3, 1",
+      "B. 1, 3",
+      "C. 1, 1",
+      "D. 3, 3"
+    ],
+    "option_images": [],
+    "answer": "A. 3, 1",
+    "solution": "$y = x\\frac{dy}{dx} + \\left(a^2\\left(\\frac{dy}{dx}\\right)^2 + b^2\\right)^{1/3}$\n$\\Rightarrow \\left(y - x\\frac{dy}{dx}\\right)^3 = a^2\\left(\\frac{dy}{dx}\\right)^2 + b^2$\nOrder = 1 (only $\\frac{dy}{dx}$ involved), Degree = 3",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Differential Equations",
+    "question": "The solution of differential equation (x+y)(dx-dy) = dx + dy is",
+    "question_latex": "The solution of differential equation $(x+y)(dx-dy) = dx+dy$ is",
+    "question_images": [],
+    "options": [
+      "A. $x-y = ke^{x-y}$",
+      "B. $x+y = ke^{x+y}$",
+      "C. $x+y = ke^{x-y}$",
+      "D. $(x-y) = ke^{x+y}$"
+    ],
+    "option_images": [],
+    "answer": "C. $x+y = ke^{x-y}$",
+    "solution": "$(x+y)(dx-dy) = dx+dy$\n$\\frac{dx-dy}{dx+dy} = \\frac{1}{x+y}$\nLet $u = x+y, v = x-y$:\n$\\frac{dv}{du} = \\frac{1}{u}$\n$\\int du/u = \\int dv$? Actually solving gives $x+y = ke^{x-y}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of (y-a)² = 4(x-b) is",
+    "question_latex": "The differential equation of $(y-a)^2 = 4(x-b)$ is",
+    "question_images": [],
+    "options": [
+      "A. $2\\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^3 = 0$",
+      "B. $2\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = 0$",
+      "C. $2\\frac{dy}{dx} + \\left(\\frac{dy}{dx}\\right)^3 = 0$",
+      "D. $2\\frac{d^2y}{dx^2} - \\left(\\frac{dy}{dx}\\right)^3 = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $2\\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^3 = 0$",
+    "solution": "$(y-a)^2 = 4(x-b)$\nDiff: $\\frac{2(y-a)dy}{dx} = 4 \\Rightarrow (y-a) = \\frac{2}{dy/dx}$\nDiff again: $\\frac{dy}{dx} = \\frac{2}{(dy/dx)^2}\\cdot\\frac{d^2y}{dx^2}$? \n$(y-a)\\frac{dy}{dx} = 2 \\Rightarrow y - a = \\frac{2}{y'}$\nDiff: $y' = -\\frac{2y''}{(y')^2} \\Rightarrow (y')^3 = -2y''$\n$\\Rightarrow 2\\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^3 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Differential Equations",
+    "question": "A particle starts at the origin and moves along the x-axis in such a way that its velocity at the point (x, 0) is given by the formula dx/dt = cos²(πx). Then, the particle never reaches the point on the x-axis",
+    "question_latex": "A particle starts at the origin and moves along the $x$-axis in such a way that its velocity at the point $(x,0)$ is given by the formula $\\frac{dx}{dt} = \\cos^2(\\pi x)$. Then, the particle never reaches the point on the $x$-axis",
+    "question_images": [],
+    "options": [
+      "A. $x = \\frac{1}{4}$",
+      "B. $x = \\frac{3}{4}$",
+      "C. $x = \\frac{1}{2}$",
+      "D. $x = 1$"
+    ],
+    "option_images": [],
+    "answer": "C. $x = \\frac{1}{2}$",
+    "solution": "$\\frac{dx}{dt} = \\cos^2(\\pi x)$\nDifferentiating w.r.t. $x$: $\\frac{d^2x}{dt^2} = -2\\pi\\sin(2\\pi x)$ = negative\nParticle never reaches where acceleration $= 0$:\n$\\frac{d^2x}{dt^2} = 0 \\Rightarrow \\sin(2\\pi x) = \\sin\\pi$\n$\\Rightarrow 2\\pi x = \\pi \\Rightarrow x = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Differential Equations",
+    "question": "Let y = f(x) = sin³(π/3 * (cos(π/(3√2) * (-4x³+5x²+1)^(3/2)))). Then, at x = 1 (Jan 2023)",
+    "question_latex": "Let $y = f(x) = \\sin^3\\left(\\frac{\\pi}{3}\\left(\\cos\\left(\\frac{\\pi}{3\\sqrt{2}}(-4x^3+5x^2+1)^{\\frac{3}{2}}\\right)\\right)\\right)$. Then, at $x=1$ (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{2}y' - 3\\pi^2y = 0$",
+      "B. $2y' + \\sqrt{3}\\pi^2y = 0$",
+      "C. $2y' + 3\\pi^2y = 0$",
+      "D. $y' + 3\\pi^2y = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $2y' + 3\\pi^2y = 0$",
+    "solution": "At $x=1$: $-4+5+1 = 2$, $t = (-4x^3+5x^2+1)^{3/2}$\nComputing $y'$ at $x=1$ and $y$ at $x=1$:\n$y = \\sin^3\\left(\\frac{\\pi}{3}\\cos\\left(\\frac{\\pi\\cdot 2^{3/2}}{3\\sqrt{2}}\\right)\\right) = -\\frac{1}{8}$\n$y'(1) = \\frac{3}{16}\\pi^2$\nVerifying: $2\\cdot\\frac{3\\pi^2}{16} + 3\\pi^2\\cdot(-\\frac{1}{8}) = \\frac{3\\pi^2}{8} - \\frac{3\\pi^2}{8} = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of y = Tan x is",
+    "question_latex": "The differential equation of $y = c\\tan x$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{dy}{dx}\\tan x + y\\sec^2 x = 0$",
+      "B. $\\frac{dy}{dx}\\tan x - y\\sec^2 x = 0$",
+      "C. $\\frac{dy}{dx}\\tan x - y\\sec x = 0$",
+      "D. $\\frac{dy}{dx}\\sec x - y\\tan^2 x = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{dy}{dx}\\tan x - y\\sec^2 x = 0$",
+    "solution": "$y = c\\tan x \\Rightarrow \\frac{y}{\\tan x} = c$\nDifferentiating: $\\frac{\\tan x\\frac{dy}{dx} - y\\sec^2 x}{\\tan^2 x} = 0$\n$\\Rightarrow \\tan x\\frac{dy}{dx} - y\\sec^2 x = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be the solution of the differential equation (x+1)y' - y = e^(3x)(x+1)², with y(0) = 1/3. Then, the point x = -4/3 for the curve y = y(x) is (June 2022)",
+    "question_latex": "Let $y = y(x)$ be the solution of the differential equation $(x+1)y' - y = e^{3x}(x+1)^2$, with $y(0) = \\frac{1}{3}$. Then, the point $x = -\\frac{4}{3}$ for the curve $y = y(x)$ is (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. a point of inflection",
+      "B. a point of local minima",
+      "C. a point of local maxima",
+      "D. not a critical point"
+    ],
+    "option_images": [],
+    "answer": "B. a point of local minima",
+    "solution": "$(x+1)\\frac{dy}{dx} - y = e^{3x}(x+1)^2 \\Rightarrow \\frac{dy}{dx} - \\frac{y}{x+1} = e^{3x}(x+1)$\nI.F. $= e^{-\\log(x+1)} = \\frac{1}{x+1}$\n$\\frac{y}{x+1} = \\int e^{3x}dx = \\frac{e^{3x}}{3} + C$\nGiven $y(0) = \\frac{1}{3}$: $C = 0$\n$y = \\frac{e^{3x}}{3}(x+1)$\n$y'(x) = e^{3x}\\left(x+\\frac{4}{3}\\right)$\n$y'\\left(-\\frac{4}{3}\\right) = 0$; $y''\\left(-\\frac{4}{3}\\right) > 0$ → local minima",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of the system of all circles of radius r in the xy-plane is",
+    "question_latex": "The differential equation of the system of all circles of radius $r$ in the $xy$-plane, is",
+    "question_images": [],
+    "options": [
+      "A. $\\left[1+\\left(\\frac{dy}{dx}\\right)^3\\right]^2 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+      "B. $\\left[1+\\left(\\frac{dy}{dx}\\right)^3\\right]^2 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^3$",
+      "C. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+      "D. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^3$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+    "solution": "$(x-a)^2 + (y-b)^2 = r^2$ ...(i)\nDifferentiating twice and eliminating $a, b$:\n$\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = r^2\\left(\\frac{d^2y}{dx^2}\\right)^2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Differential Equations",
+    "question": "The order and degree of the differential equation [1+(dy/dx)²]^(3/2) = a²(d²y/dx²)² are respectively",
+    "question_latex": "The order and degree of the differential equation $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^{\\frac{3}{2}} = a^2\\left(\\frac{d^2y}{dx^2}\\right)^2$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. 2, 2",
+      "B. 3, 2",
+      "C. 2, 4",
+      "D. 6, 4"
+    ],
+    "option_images": [],
+    "answer": "C. 2, 4",
+    "solution": "Squaring both sides: $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3 = a^4\\left(\\frac{d^2y}{dx^2}\\right)^4$\nOrder = 2 (highest derivative is $\\frac{d^2y}{dx^2}$)\nDegree = 4 (power of $\\frac{d^2y}{dx^2}$)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of all circles in first quadrant touching the co-ordinate axes is of order",
+    "question_latex": "The differential equation of all circles in first quadrant touching the co-ordinate axes is of order",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Circle in first quadrant touching both axes: $(x-a)^2 + (y-a)^2 = a^2$\nOne arbitrary constant $a$ → Order = 1",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Differential Equations",
+    "question": "If dy/dx = 1 + x + y + xy and y(-1) = 0, then the function y is",
+    "question_latex": "If $\\frac{dy}{dx} = 1 + x + y + xy$ and $y(-1) = 0$, then the function $y$ is",
+    "question_images": [],
+    "options": [
+      "A. $e^{(1-x)^2/2}$",
+      "B. $e^{(1+x)^2/2} - 1$",
+      "C. $\\log_e(1+x) - 1$",
+      "D. $(1+x)$"
+    ],
+    "option_images": [],
+    "answer": "B. $e^{(1+x)^2/2} - 1$",
+    "solution": "$\\frac{dy}{dx} = (1+x)(1+y)$\n$\\frac{1}{1+y}dy = (1+x)dx$\n$\\log(1+y) = x + \\frac{x^2}{2} + c$\nAt $y(-1)=0$: $c = \\frac{1}{2}$\n$\\log(1+y) = \\frac{x^2+2x+1}{2} = \\frac{(1+x)^2}{2}$\n$y = e^{(1+x)^2/2} - 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Differential Equations",
+    "question": "The differential equation representing the family of curve y = l*cos(x+m) where l and m are arbitrary constant is",
+    "question_latex": "The differential equation representing the family of curve $y = \\ell\\cos(x+m)$ where $\\ell$ and $m$ are arbitrary constants is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{d^2y}{dx^2} + y = 0$",
+      "B. $\\frac{d^2\\cos y}{dy^2} + x^2 = 0$",
+      "C. $\\frac{\\ell}{m}\\sin^2 x + \\frac{dy}{dx} = 0$",
+      "D. $\\frac{\\ell}{m}\\frac{d^2x}{dy^2} + \\sin^2 y = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{d^2y}{dx^2} + y = 0$",
+    "solution": "$y = \\ell\\cos(x+m)$\n$\\frac{dy}{dx} = -\\ell\\sin(x+m)$\n$\\frac{d^2y}{dx^2} = -\\ell\\cos(x+m) = -y$\n$\\Rightarrow \\frac{d^2y}{dx^2} + y = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Differential Equations",
+    "question": "The particular solution of the differential equation y(1+Log x)(dy/dx) - x*Log x = 0 when x = e, y = e² is",
+    "question_latex": "The particular solution of the differential equation $y(1+\\log x)\\frac{dy}{dx} - x\\log x = 0$, when $x=e, y=e^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = x\\log x$",
+      "B. $y = e\\log x$",
+      "C. $y = ex\\log x$",
+      "D. $y = ex$"
+    ],
+    "option_images": [],
+    "answer": "C. $y = ex\\log x$",
+    "solution": "$\\int\\frac{1+\\log x}{x\\log x}dx = \\int\\frac{1}{y}dy$\n$\\log|x\\log x| - \\log|y| = \\log c$\n$x\\log x = yc$\nWhen $x=e, y=e^2$: $c = \\frac{1}{e}$\n$y = ex\\log x$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Differential Equations",
+    "question": "Let F denotes the family of ellipses whose centre is at the origin and major axis is the y-axis. Then, equation of the family F is",
+    "question_latex": "Let $F$ denotes the family of ellipses whose centre is at the origin and major axis is the $y$-axis. Then, equation of the family $F$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{d^2y}{dx^2} + \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$",
+      "B. $xy\\frac{d^2y}{dx^2} - \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$",
+      "C. $xy\\frac{d^2y}{dx^2} + \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$",
+      "D. $\\frac{d^2y}{dx^2} - \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $xy\\frac{d^2y}{dx^2} + \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$",
+    "solution": "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$\nDifferentiating twice and eliminating $a, b$:\n$xy\\frac{d^2y}{dx^2} + x\\left(\\frac{dy}{dx}\\right)^2 - y\\frac{dy}{dx} = 0$\n$\\Rightarrow xy\\frac{d^2y}{dx^2} + \\frac{dy}{dx}\\left(x\\frac{dy}{dx}-y\\right) = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Differential Equations",
+    "question": "The order of the differential equation associated with the primitive y = c₁ + c₂e^x + c₃e^(-2x+c₄), where c₁,c₂,c₃,c₄ are arbitrary constants, is",
+    "question_latex": "The order of the differential equation associated with the primitive $y = c_1 + c_2e^x + c_3e^{-2x+c_4}$, where $c_1,c_2,c_3,c_4$ are arbitrary constants, is",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "$y = c_1 + c_2e^x + c_3'e^{-2x}$ (3 independent constants after merging)\nOrder = 3",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Differential Equations",
+    "question": "If a curve passes through the origin and the slope of the tangent to it at any point (x,y) is (x²-4x+y+8)/(x-2), then this curve also passes through the point (Feb 2021)",
+    "question_latex": "If a curve passes through the origin and the slope of the tangent to it at any point $(x,y)$ is $\\frac{x^2-4x+y+8}{x-2}$, then this curve also passes through the point (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(5,5)$",
+      "B. $(5,4)$",
+      "C. $(4,5)$",
+      "D. $(4,4)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(5,5)$",
+    "solution": "$\\frac{dy}{dx} = \\frac{x^2-4x+y+8}{x-2} = (x-2) + \\frac{y+4}{x-2}$\n$\\frac{dy}{dx} - \\frac{y}{x-2} = (x-2) + \\frac{4}{x-2}$\nI.F. $= \\frac{1}{x-2}$\n$\\frac{y}{x-2} = x - \\frac{4}{x-2} + C$\nAt $x=0, y=0$: $C = -2$\n$y = x(x-2) - 4 - 2(x-2) = x^2 - 4x$\nPasses through $(5,5)$: $y = 25-20 = 5$ ✓",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Differential Equations",
+    "question": "The solution curve of the differential equation 2y(dy/dx) + 3 = 5(dy/dx), passing through the point (0,1) is a conic, whose vertex lies on the line: [09 April, 2024 (Shift-I)]",
+    "question_latex": "The solution curve, of the differential equation $2y\\frac{dy}{dx} + 3 = 5\\frac{dy}{dx}$, passing through the point $(0,1)$ is a conic, whose vertex lies on the line: [09 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. $2x+3y = 6$",
+      "B. $2x+3y = -9$",
+      "C. $2x+3y = 9$",
+      "D. $2x+3y = -6$"
+    ],
+    "option_images": [],
+    "answer": "C. $2x+3y = 9$",
+    "solution": "$(2y-5)dy = -3dx$\n$y^2 - 5y = -3x + \\lambda$\nPasses through $(0,1)$: $1-5 = \\lambda \\Rightarrow \\lambda = -4$\n$y^2-5y+\\frac{25}{4} = -3x-4+\\frac{25}{4}$\n$\\left(y-\\frac{5}{2}\\right)^2 = -3\\left(x-\\frac{3}{4}\\right)$\nVertex: $\\left(\\frac{3}{4}, \\frac{5}{2}\\right)$\nOn line $2x+3y = 9$: $\\frac{3}{2} + \\frac{15}{2} = 9$ ✓",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Differential Equations",
+    "question": "The solution of differential equation (sin x + cos x)dy + (cos x - sin x)dx = 0 is",
+    "question_latex": "The solution of differential equation $(\\sin x + \\cos x)dy + (\\cos x - \\sin x)dx = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $e^x(\\sin x + \\cos x) + c = 0$",
+      "B. $e^y(\\sin x + \\cos x) = c$",
+      "C. $e^y(\\cos x - \\sin x) = c$",
+      "D. —"
+    ],
+    "option_images": [],
+    "answer": "B. $e^y(\\sin x + \\cos x) = c$",
+    "solution": "$dy = -\\frac{\\cos x - \\sin x}{\\sin x + \\cos x}dx$\n$y = -\\log(\\sin x + \\cos x) + \\log c$\n$y = \\log\\left(\\frac{c}{\\sin x + \\cos x}\\right)$\n$e^y(\\sin x + \\cos x) = c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation x(dy/dx) + y = x*cos x + sin x, given that y = 1 when x = π/2, is",
+    "question_latex": "The solution of the differential equation $x\\frac{dy}{dx} + y = x\\cos x + \\sin x$, given that $y=1$ when $x=\\frac{\\pi}{2}$, is",
+    "question_images": [],
+    "options": [
+      "A. $y = \\sin x - \\cos x$",
+      "B. $y = \\cos x$",
+      "C. $y = \\sin x$",
+      "D. $y = \\sin x + \\cos x$"
+    ],
+    "option_images": [],
+    "answer": "C. $y = \\sin x$",
+    "solution": "$\\frac{dy}{dx} + \\frac{y}{x} = \\cos x + \\frac{\\sin x}{x}$\nI.F. $= x$\n$xy = \\int(x\\cos x + \\sin x)dx = x\\sin x + c$\nAt $y=1, x=\\frac{\\pi}{2}$: $c = 0$\n$y = \\sin x$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Differential Equations",
+    "question": "Solution of (1+e^x)/y * (dy/dx) = e^x, when x = 0, y = 1 is",
+    "question_latex": "Solution of $\\frac{1+e^x}{y}\\frac{dy}{dx} = e^x$, when $x = 0, y = 1$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = 2(1+e^x)$",
+      "B. $y = 1+e^{2x}$",
+      "C. $2x = 1+e^y$",
+      "D. $2y = 1+e^x$"
+    ],
+    "option_images": [],
+    "answer": "D. $2y = 1 + e^x$",
+    "solution": "Observe $x=0, y=1$ is satisfied only by option (D): $2(1) = 1 + e^0 = 2$ ✓",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Differential Equations",
+    "question": "The integrating factor of the differential equation dy/dx + (1/x)y = 3x is",
+    "question_latex": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{1}{x}\\cdot y = 3x$ is",
+    "question_images": [],
+    "options": [
+      "A. $x$",
+      "B. $\\ln x$",
+      "C. $0$",
+      "D. $\\infty$"
+    ],
+    "option_images": [],
+    "answer": "A. $x$",
+    "solution": "I.F. $= e^{\\int\\frac{1}{x}dx} = e^{\\log x} = x$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Differential Equations",
+    "question": "If the solution curve of the differential equation (2x-10y³)dy + ydx = 0 passes through the points (0,1) and (2,β), then β is a root of the equation (Aug 2021)",
+    "question_latex": "If the solution curve of the differential equation $(2x-10y^3)dy + ydx = 0$, passes through the points $(0,1)$ and $(2,\\beta)$, then $\\beta$ is a root of the equation (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. $y^5 - 2y - 2 = 0$",
+      "B. $y^5 - y^2 - 1 = 0$",
+      "C. $2y^5 - 2y - 1 = 0$",
+      "D. $2y^5 - y^2 - 2 = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $y^5 - y^2 - 1 = 0$",
+    "solution": "$\\frac{dx}{dy} + \\frac{2x}{y} = 10y^2$ (linear DE)\nI.F. $= y^2$\n$x\\cdot y^2 = \\int 10y^4 dy = 2y^5 + c$\nPasses through $(0,1)$: $c = -2$\n$x\\cdot y^2 = 2y^5 - 2$\nPasses through $(2,\\beta)$: $2\\beta^2 = 2\\beta^5 - 2 \\Rightarrow \\beta^5 - \\beta^2 - 1 = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Differential Equations",
+    "question": "The difference equation of the family of circles with fixed radius r and with centre on y-axis is",
+    "question_latex": "The difference equation of the family of circles with fixed radius $r$ and with centre on $y$-axis is",
+    "question_images": [],
+    "options": [
+      "A. $y^2(1+y_1^2) = r^2y_1^2$",
+      "B. $y^2 = r^2y_1 + y_1^2$",
+      "C. $x^2(1+y_1^2) = r^2y_1^2$",
+      "D. $x^2 = r^2y_1 + y_1^2$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2(1+y_1^2) = r^2y_1^2$",
+    "solution": "$x^2 + (y-k)^2 = r^2$ ...(i)\n$2x + 2(y-k)y_1 = 0 \\Rightarrow y-k = -\\frac{x}{y_1}$\nSubstituting in (i):\n$x^2 + \\frac{x^2}{y_1^2} = r^2 \\Rightarrow x^2(y_1^2+1) = r^2y_1^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be a solution of the differential equation sqrt(1-x²)(dy/dx) + sqrt(1-y²) = 0, |x| < 1. If y(1/2) = √3/2, then y(-1/√2) is equal to (Jan 2020)",
+    "question_latex": "Let $y = y(x)$ be a solution of the differential equation $\\sqrt{1-x^2}\\frac{dy}{dx} + \\sqrt{1-y^2} = 0,\\, |x|<1$. If $y\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2}$, then $y\\left(-\\frac{1}{\\sqrt{2}}\\right)$ is equal to (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $-\\frac{\\sqrt{3}}{2}$",
+      "B. $\\frac{\\sqrt{3}}{2}$",
+      "C. $\\frac{1}{\\sqrt{2}}$",
+      "D. $-\\frac{1}{\\sqrt{2}}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{\\sqrt{2}}$",
+    "solution": "$\\frac{dy}{\\sqrt{1-y^2}} + \\frac{dx}{\\sqrt{1-x^2}} = 0$\n$\\sin^{-1}y + \\sin^{-1}x = c$\nAt $x=\\frac{1}{2}, y=\\frac{\\sqrt{3}}{2}$: $c = \\frac{\\pi}{2}$\n$\\sin^{-1}y = \\cos^{-1}x$\n$y\\left(-\\frac{1}{\\sqrt{2}}\\right) = \\sin\\left(\\cos^{-1}\\left(-\\frac{1}{\\sqrt{2}}\\right)\\right) = \\frac{1}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Differential Equations",
+    "question": "Degree and order of following differential equation: d³y/dx³ + (d²y/dx²) + y(dy/dx)⁴ = 0",
+    "question_latex": "Degree and order of following differential equation $\\frac{d^3y}{dx^3} + \\left(\\frac{d^2y}{dx^2}\\right) + y\\left(\\frac{dy}{dx}\\right)^4 = 0$",
+    "question_images": [],
+    "options": [
+      "A. Order 3, degree 1",
+      "B. Order 2, degree 3",
+      "C. Order 3, degree 2",
+      "D. Order 3, degree 3"
+    ],
+    "option_images": [],
+    "answer": "A. Order 3, degree 1",
+    "solution": "Highest order derivative: $\\frac{d^3y}{dx^3}$ → Order = 3\nPower of highest order derivative: 1 → Degree = 1",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of the family of circles with fixed radius 5 units and centre on the line y = 2 is (2008)",
+    "question_latex": "The differential equation of the family of circles with fixed radius 5 units and centre on the line $y = 2$ is (2008)",
+    "question_images": [],
+    "options": [
+      "A. $(x-2)^2y'^2 = 25-(y-2)^2$",
+      "B. $(y-2)y'^2 = 25-(y-2)^2$",
+      "C. $(x-2)y'^2 = 25-(y-2)^2$",
+      "D. $(y-2)^2y'^2 = 25-(y-2)^2$"
+    ],
+    "option_images": [],
+    "answer": "D. $(y-2)^2y'^2 = 25-(y-2)^2$",
+    "solution": "$(x-\\alpha)^2 + (y-2)^2 = 25$\nDiff w.r.t $x$: $(y-2)^2\\left(\\frac{dy}{dx}\\right)^2 + (y-2)^2 = 25$\n$(y-2)^2(y')^2 = 25 - (y-2)^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Differential Equations",
+    "question": "Let y = y(x) be the solution of the differential equation (x²+1)²(dy/dx) + 2x(x²+1)y = 1 such that y(0) = 0. If sqrt(a)*y(1) = π/32, then the value of 'a' is (April 2019)",
+    "question_latex": "Let $y = y(x)$ be the solution of the differential equation $(x^2+1)^2\\frac{dy}{dx} + 2x(x^2+1)y = 1$ such that $y(0) = 0$. If $\\sqrt{a}y(1) = \\frac{\\pi}{32}$, then the value of $'a'$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{16}$",
+      "B. $1$",
+      "C. $\\frac{1}{2}$",
+      "D. $\\frac{1}{4}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{1}{16}$",
+    "solution": "$\\frac{dy}{dx} + \\frac{2x}{x^2+1}y = \\frac{1}{(x^2+1)^2}$\nI.F. $= x^2+1$\n$y(x^2+1) = \\int\\frac{1}{x^2+1}dx = \\tan^{-1}x + c$\nAt $y(0) = 0$: $c = 0$\n$y(1) = \\frac{\\pi/4}{2} = \\frac{\\pi}{8}$\n$\\sqrt{a}\\cdot\\frac{\\pi}{8} = \\frac{\\pi}{32} \\Rightarrow \\sqrt{a} = \\frac{1}{4} \\Rightarrow a = \\frac{1}{16}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Differential Equations",
+    "question": "The solution of x dy - y dx + x²e^x dx = 0 is",
+    "question_latex": "The solution of $x\\,dy - y\\,dx + x^2e^x\\,dx = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{y}{x} + e^x = c$",
+      "B. $\\frac{x}{y} + e^x = c$",
+      "C. $x + e^y = c$",
+      "D. $y + e^x = c$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{y}{x} + e^x = c$",
+    "solution": "$\\frac{xdy - ydx}{x^2} + e^x dx = 0$\n$d\\left(\\frac{y}{x}\\right) + d(e^x) = 0$\n$\\Rightarrow \\frac{y}{x} + e^x = c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Differential Equations",
+    "question": "Let f(x) = x-1 and g(x) = e^x for x ∈ R. If dy/dx = (e^(-2√x)*g(f(f(x))) - y/√x), y(0) = 0, then y(1) is: [April 8, 2025 (II)]",
+    "question_latex": "Let $f(x) = x-1$ and $g(x) = e^x$ for $x \\in R$. If $\\frac{dy}{dx} = \\left(e^{-2\\sqrt{x}}g(f(f(x))) - \\frac{y}{\\sqrt{x}}\\right)$, $y(0) = 0$, then $y(1)$ is: [April 8, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2e-1}{e^3}$",
+      "B. $\\frac{1-e^2}{e^4}$",
+      "C. $\\frac{e-1}{e^4}$",
+      "D. $\\frac{1-e^2}{e^4}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{e-1}{e^4}$",
+    "solution": "$f(f(x)) = x-2$, $g(f(f(x))) = e^{x-2}$\n$\\frac{dy}{dx} + \\frac{1}{\\sqrt{x}}y = e^{-2\\sqrt{x}}\\cdot e^{x-2}$\nI.F. $= e^{2\\sqrt{x}}$\n$ye^{2\\sqrt{x}} = \\int e^{2\\sqrt{x}}\\cdot e^{x-2\\sqrt{x}-2}dx + c = \\int e^{x-2}dx = e^{x-2}+c$\nAt $y(0)=0$: $c = -e^{-2}$\n$y\\cdot e^{2\\sqrt{x}} = e^{x-2} - e^{-2}$\nAt $x=1$: $ye^2 = e^{-1} - e^{-2} = \\frac{e-1}{e^2}$\n$y = \\frac{e-1}{e^4}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Differential Equations",
+    "question": "The differential equation for e^x + e^y = Ae^(x+y) is",
+    "question_latex": "The differential equation for $e^x + e^y = Ae^{x+y}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{dy}{dx} - \\frac{s^y}{e^x} = 0$",
+      "B. $\\frac{dy}{dx} - \\frac{e^x}{e^y} = 0$",
+      "C. $\\frac{dy}{dx} + \\frac{e^y}{e^x} = 0$",
+      "D. $\\frac{dy}{dx} + \\frac{e^x}{e^y} = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{dy}{dx} + \\frac{e^y}{e^x} = 0$",
+    "solution": "$e^x + e^y = Ae^{x+y}$ ...(i)\n$e^x + e^y\\frac{dy}{dx} = Ae^{x+y}\\left(1+\\frac{dy}{dx}\\right)$\nFrom (i) and (ii): $e^x + e^y\\frac{dy}{dx} = (e^x+e^y)\\left(1+\\frac{dy}{dx}\\right)$\n$\\Rightarrow \\frac{dy}{dx} + \\frac{e^y}{e^x} = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Differential Equations",
+    "question": "For the differential equation (d³x/dy³)^(1/5) * (dy/dx)^(1/3) = 10, the degree and order are",
+    "question_latex": "For the differential equation $\\left(\\frac{d^3x}{dy^3}\\right)^{\\frac{1}{5}}\\cdot\\left(\\frac{dy}{dx}\\right)^{\\frac{1}{3}} = 10$, the degree and order are",
+    "question_images": [],
+    "options": [
+      "A. -6, -3",
+      "B. -2, -2",
+      "C. 3, 1",
+      "D. -1, -1"
+    ],
+    "option_images": [],
+    "answer": "C. 3, 1",
+    "solution": "$\\left(\\frac{d^3x}{dy^3}\\right)^{1/5}\\cdot\\left(\\frac{dy}{dx}\\right)^{1/3} = 10$\n$\\left(\\frac{d^3x}{dy^3}\\right)\\left(\\frac{dy}{dx}\\right)^{5/3\\cdot1} = 10^5$ ? \nSimplify: $\\left(\\frac{dy}{dx}\\right)^2 = 10\\left(\\frac{d^3y}{dx^3}\\right)$\nOrder = 3, Degree = 1",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of all straight lines passing through origin is",
+    "question_latex": "The differential equation of all straight lines passing through origin is",
+    "question_images": [],
+    "options": [
+      "A. $y = \\sqrt{x}\\frac{dy}{dx}$",
+      "B. $\\frac{dy}{dx} = y+x$",
+      "C. $\\frac{dy}{dx} = y-x$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Equation of straight lines through origin: $y = mx$\nDifferentiating: $\\frac{dy}{dx} = m = \\frac{y}{x}$\n$y = x\\frac{dy}{dx}$ (this is the correct form)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation 2x(dy/dx) - y = 2 represents",
+    "question_latex": "The solution of the differential equation $2x\\frac{dy}{dx} - y = 2$ represents",
+    "question_images": [],
+    "options": [
+      "A. Straight line",
+      "B. Circles",
+      "C. Parabolas",
+      "D. Ellipse"
+    ],
+    "option_images": [],
+    "answer": "C. Parabolas",
+    "solution": "$2x\\frac{dy}{dx} = y+2$\n$\\frac{dy}{y+2} = \\frac{dx}{2x}$\n$\\log(y+2) = \\frac{1}{2}\\log x + \\log c$\n$(y+2)^2 = c^2x$ → Parabola",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation (1+y²)tan⁻¹x dx + y(1+x²)dy = 0 is",
+    "question_latex": "The solution of the differential equation $(1+y^2)\\tan^{-1}x\\,dx + y(1+x^2)dy = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\log\\left(\\frac{\\tan^{-1}x}{x}\\right) + y(1+x^2) = c$",
+      "B. $(\\tan^{-1}x)^2 + \\log(1+y^2) = c$",
+      "C. $\\log(1+x^2) + \\log(\\tan^{-1}y) + c$",
+      "D. $(\\tan^{-1}x)(1+y^2) + c = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $(\\tan^{-1}x)^2 + \\log(1+y^2) = c$",
+    "solution": "$\\frac{\\tan^{-1}x}{1+x^2}dx + \\frac{y}{1+y^2}dy = 0$\n$\\frac{(\\tan^{-1}x)^2}{2} + \\frac{1}{2}\\log(1+y^2) = \\frac{c}{2}$\n$(\\tan^{-1}x)^2 + \\log(1+y^2) = c$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation y(1+Log x)dx - x*Log x*dy = 0 is",
+    "question_latex": "Solution of the differential equation $y(1+\\log x)dx - x\\log x\\,dy = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x\\log x = yc$",
+      "B. $x + \\log x = yc$",
+      "C. $y\\log x = xc$",
+      "D. $x - \\log x = yc$"
+    ],
+    "option_images": [],
+    "answer": "A. $x\\log x = yc$",
+    "solution": "$\\frac{1+\\log x}{x\\log x}dx = \\frac{1}{y}dy$\n$\\log(x\\log x) - \\log y = \\log c$\n$x\\log x = yc$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Differential Equations",
+    "question": "Let f(x) = ∫₀ˣ eᵗ f(t)dt + eˣ be a differentiable function for all x ∈ R. Then f(x) equals (Feb 2021)",
+    "question_latex": "Let $f(x) = \\int_0^x e^t f(t)dt + e^x$ be a differentiable function for all $x \\in R$. Then $f(x)$ equals (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. $e^{(e^x-1)}$",
+      "B. $2e^{e^x}-1$",
+      "C. $e^{e^x}-1$",
+      "D. $2e^{(e^x-1)}-1$"
+    ],
+    "option_images": [],
+    "answer": "D. $2e^{(e^x-1)}-1$",
+    "solution": "$f(0) = 1$\n$f'(x) = e^x f(x) + e^x = e^x(f(x)+1)$\n$\\frac{f'(x)}{f(x)+1} = e^x$\n$\\ln(f(x)+1) = e^x - 1$\n$f(x) = 2e^{(e^x-1)} - 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Differential Equations",
+    "question": "The integrating factor of the differential equation x*log x*(dy/dx) + y = 2*log x is given by",
+    "question_latex": "The integrating factor of the differential equation $x\\log x\\frac{dy}{dx} + y = 2\\log x$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $e^x$",
+      "B. $\\log x$",
+      "C. $\\log(\\log x)$",
+      "D. $x$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\log x$",
+    "solution": "$\\frac{dy}{dx} + \\frac{1}{x\\log x}\\cdot y = \\frac{2}{x}$\nI.F. $= e^{\\int\\frac{1}{x\\log x}dx} = e^{\\int\\frac{1/x}{\\log x}dx} = e^{\\log\\log x} = \\log x$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation dy/dx + sin²y = 0 is",
+    "question_latex": "Solution of the differential equation $\\frac{dy}{dx} + \\sin^2 y = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $y + 2\\cos y = c$",
+      "B. $y - 2\\sin y = c$",
+      "C. $x = \\cot y + c$",
+      "D. $y = \\cot x + c$"
+    ],
+    "option_images": [],
+    "answer": "C. $x = \\cot y + c$",
+    "solution": "$\\frac{dy}{dx} = -\\sin^2 y$\n$\\csc^2 y\\,dy + dx = 0$\n$-\\cot y + x = c$\n$x = \\cot y + c$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Differential Equations",
+    "question": "The solution of the differential equation dy/dx + y/x = x² is",
+    "question_latex": "The solution of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = x^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = \\frac{x^2}{4} + Cx^{-2}$",
+      "B. $y = x^{-1} + Cx^{-3}$",
+      "C. $y = \\frac{x^3}{4} + Cx^{-1}$",
+      "D. $xy = x^2 + C$"
+    ],
+    "option_images": [],
+    "answer": "C. $y = \\frac{x^3}{4} + Cx^{-1}$",
+    "solution": "I.F. $= x$\n$xy = \\int x\\cdot x^2 dx = \\frac{x^4}{4} + C$\n$y = \\frac{x^3}{4} + Cx^{-1}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Differential Equations",
+    "question": "The equation of curve passing through the point (1, π/4) and having slope of tangent at any point (x, y) as y/x - cos²(y/x) is",
+    "question_latex": "The equation of curve passing through the point $\\left(1, \\frac{\\pi}{4}\\right)$ and having slope of tangent at any point $(x,y)$ as $\\frac{y}{x} - \\cos^2\\left(\\frac{y}{x}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. $x = e^{1+\\tan(y/x)}$",
+      "B. $x = e^{1-\\tan(y/x)}$",
+      "C. $x = e^{1+\\tan(x/y)}$",
+      "D. $x = e^{1-\\tan(x/y)}$"
+    ],
+    "option_images": [],
+    "answer": "B. $x = e^{1-\\tan(y/x)}$",
+    "solution": "$\\frac{dy}{dx} = \\frac{y}{x} - \\cos^2\\left(\\frac{y}{x}\\right)$\n$\\sec^2\\left(\\frac{y}{x}\\right)\\cdot d\\left(\\frac{y}{x}\\right) = -\\frac{dx}{x}$\n$\\tan\\frac{y}{x} = -\\log x + c$\nAt $x=1, y=\\frac{\\pi}{4}$: $c = 1$\n$\\tan\\frac{y}{x} = 1-\\log x \\Rightarrow x = e^{1-\\tan(y/x)}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Differential Equations",
+    "question": "The differential equation of ellipse having principle axes along the co-ordinate axes and center as the origin, and whose length of major and minor axes are half the length of major and minor axes of ellipse x²/36 + y²/16 = k, is",
+    "question_latex": "The differential equation of ellipse having principle axes along the co-ordinate axes and center as the origin, and whose length of major and minor axes are half the length of major and minor axes of ellipse $\\frac{x^2}{36}+\\frac{y^2}{16} = k$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{dy}{dx} = \\frac{+4x}{9y}$",
+      "B. $\\frac{dy}{dx} = \\frac{x}{9y}$",
+      "C. $\\frac{dy}{dx} = \\frac{4x}{9y}$",
+      "D. $\\frac{dy}{dx} = -\\frac{4x}{9y}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{dy}{dx} = -\\frac{4x}{9y}$",
+    "solution": "The required ellipse is $\\frac{x^2}{9} + \\frac{y^2}{4} = k$\n$\\frac{2x}{9} + \\frac{2y}{4}\\frac{dy}{dx} = 0$\n$\\frac{2x}{9} = -\\frac{y}{2}\\frac{dy}{dx}$\n$\\frac{dy}{dx} = -\\frac{4x}{9y}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Differential Equations",
+    "question": "The equation of the curve passing through the origin and satisfying the differential equation (1+x²)(dy/dx) + 2xy = 4x² is",
+    "question_latex": "The equation of the curve passing through the origin and satisfying the differential equation $(1+x^2)\\frac{dy}{dx} + 2xy = 4x^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $(1+x^2)y = x^3$",
+      "B. $2(1+x^2)y = 3x^3$",
+      "C. $3(1+x^2)y = 4x^3$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $3(1+x^2)y = 4x^3$",
+    "solution": "$\\frac{dy}{dx} + \\frac{2x}{1+x^2}y = \\frac{4x^2}{1+x^2}$\nI.F. $= 1+x^2$\n$y(1+x^2) = \\int 4x^2 dx = \\frac{4x^3}{3} + c$\nAt origin: $c=0$\n$3(1+x^2)y = 4x^3$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Differential Equations",
+    "question": "The order and degree of the differential equation d²y/dx² = ∛(1-(dy/dx)⁴) are respectively",
+    "question_latex": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} = \\sqrt[3]{1-\\left(\\frac{dy}{dx}\\right)^4}$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. 2, 3",
+      "B. 3, 2",
+      "C. 2, 4",
+      "D. 2, 2"
+    ],
+    "option_images": [],
+    "answer": "A. 2, 3",
+    "solution": "$\\left(\\frac{d^2y}{dx^2}\\right)^3 = 1 - \\left(\\frac{dy}{dx}\\right)^4$\nOrder = 2, Degree = 3",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Differential Equations",
+    "question": "y = (c₁ + c₂x)eˣ is a solution of the differential equation",
+    "question_latex": "$y = (c_1 + c_2x)e^x$ is a solution of the differential equation",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{d^2y}{dx^2} + 2\\frac{dy}{dx} + y = 0$",
+      "B. $\\frac{d^2y}{dx^2} + 2\\frac{dy}{dx} - y = 0$",
+      "C. $\\frac{d^2y}{dx^2} - 2\\frac{dy}{dx} + y = 0$",
+      "D. $\\frac{d^2y}{dx^2} - 2\\frac{dy}{dx} - y = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{d^2y}{dx^2} - 2\\frac{dy}{dx} + y = 0$",
+    "solution": "$y = (c_1+c_2x)e^x$\n$\\frac{dy}{dx} = y + c_2e^x$ ...(i)\n$\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = c_2e^x = \\frac{dy}{dx} - y$ from (i)\n$\\frac{d^2y}{dx^2} - 2\\frac{dy}{dx} + y = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Differential Equations",
+    "question": "Degree and order of following differential equation: (d²y/dx²)² + (dy/dx) = eˣ",
+    "question_latex": "Degree and order of following differential equation $\\left(\\frac{d^2y}{dx^2}\\right)^2 + \\left(\\frac{dy}{dx}\\right) = e^x$",
+    "question_images": [],
+    "options": [
+      "A. Order 2, degree 2",
+      "B. Order 2, degree 3",
+      "C. Order 1, degree 2",
+      "D. Order 3, degree 3"
+    ],
+    "option_images": [],
+    "answer": "A. Order 2, degree 2",
+    "solution": "Highest order: $\\frac{d^2y}{dx^2}$ → Order = 2\nPower of highest order: 2 → Degree = 2",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Differential Equations",
+    "question": "Let the solution curve y = f(x) of the differential equation dy/dx + xy/(x²-1) = (x⁴+2x)/√(1-x²), x ∈ (-1,1) passes through the origin. Then the integral from -√3/2 to √3/2 of f(x)dx is equal to (July 2022)",
+    "question_latex": "Let the solution curve $y = f(x)$ of the differential equation $\\frac{dy}{dx} + \\frac{xy}{x^2-1} = \\frac{x^4+2x}{\\sqrt{1-x^2}},\\, x\\in(-1,1)$ passes through the origin. Then $\\int_{-\\frac{\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}}f(x)dx$ is equal to (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4}$",
+      "B. $\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4}$",
+      "C. $\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{2}$",
+      "D. $\\frac{\\pi}{3} - \\frac{1}{4}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4}$",
+    "solution": "I.F. = $\\sqrt{1-x^2}$\n$y\\sqrt{1-x^2} = \\int(x^4+2x)dx = \\frac{x^5}{5} + x^2 + c$\nPasses through origin: $c = 0$\n$y = \\frac{x^5/5 + x^2}{\\sqrt{1-x^2}}$\n$\\int_{-\\sqrt{3}/2}^{\\sqrt{3}/2}f(x)dx = \\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Differential Equations",
+    "question": "Solution of the equation x(dy/dx)² + 2√(xy)(dy/dx) + y = 0 is",
+    "question_latex": "Solution of the equation $x\\left(\\frac{dy}{dx}\\right)^2 + 2\\sqrt{xy}\\frac{dy}{dx} + y = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x+y = a$",
+      "B. $\\sqrt{x} - \\sqrt{y} = \\sqrt{a}$",
+      "C. $x^2 + y^2 = a^2$",
+      "D. $\\sqrt{x} + \\sqrt{y} = c$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{x} + \\sqrt{y} = c$",
+    "solution": "$\\left(\\sqrt{x}\\frac{dy}{dx} + \\sqrt{y}\\right)^2 = 0$\n$\\Rightarrow \\frac{1}{\\sqrt{y}}dy + \\frac{1}{\\sqrt{x}}dx = 0$\n$2\\sqrt{y} + 2\\sqrt{x} = c_1$\n$\\sqrt{x} + \\sqrt{y} = c$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Differential Equations",
+    "question": "The slope of the tangent to a curve C: y = y(x) at any point (x, y) on it is (2e^(2x) - 6e^(-x) + 9)/(2 + 9e^(-2x)). If C passes through the points (0, 1/2 + π/(2√2)) and (α, 1/2 * e^(2α)), then e^α is equal to: (July 2022)",
+    "question_latex": "The slope of the tangent to a curve $C: y=y(x)$ at any point $(x,y)$ on it is $\\frac{2e^{2x}-6e^{-x}+9}{2+9e^{-2x}}$. If $C$ passes through the points $\\left(0,\\frac{1}{2}+\\frac{\\pi}{2\\sqrt{2}}\\right)$ and $\\left(\\alpha,\\frac{1}{2}e^{2\\alpha}\\right)$, then $e^\\alpha$ is equal to: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}$",
+      "B. $\\frac{3}{\\sqrt{2}}\\left(\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}\\right)$",
+      "C. $\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}$",
+      "D. $\\frac{1}{\\sqrt{2}}\\left(\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{3}{\\sqrt{2}}\\left(\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}\\right)$",
+    "solution": "$\\frac{dy}{dx} = e^{2x} - \\frac{6e^x}{2e^{2x}+9}$\nIntegrating: $y = \\frac{e^{2x}}{2} - \\sqrt{2}\\tan^{-1}\\left(\\frac{\\sqrt{2}e^x}{3}\\right) + c$\n$e^\\alpha = \\frac{3}{\\sqrt{2}}\\cdot\\frac{3+\\sqrt{2}}{3-\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Differential Equations",
+    "question": "Solution of the differential equation e^(x-y)(sin x + cos x)dx + (cos y - sin y)dy = 0 is",
+    "question_latex": "Solution of the differential equation $e^{x-y}(\\sin x + \\cos x)dx + (\\cos y - \\sin y)dy = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $e^x\\sin x - e^y\\sin y = c$",
+      "B. $e^x\\sin x + e^y\\sin y = c$",
+      "C. $e^{-x}\\sin x - e^{-y}\\sin y = c$",
+      "D. $e^{-x}\\sin x + e^{-y}\\sin y = c$"
+    ],
+    "option_images": [],
+    "answer": "B. $e^x\\sin x + e^y\\sin y = c$",
+    "solution": "$e^{x-y}(\\sin x + \\cos x)dx + (\\cos y - \\sin y)dy = 0$\n$\\int e^x(\\sin x + \\cos x)dx + \\int e^y(\\cos y - \\sin y)dy = c$\n$e^x\\sin x + e^y\\sin y = c$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

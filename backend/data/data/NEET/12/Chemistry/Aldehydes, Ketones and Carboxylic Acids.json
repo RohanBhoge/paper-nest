@@ -1,0 +1,1163 @@
+[
+  {
+    "id": 1,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Consider the given reaction, identify the major product P. CH3-COOH is treated with (i) LiAlH4, (ii) HCN/OH-, (iii) H2O/OH-, Delta [06 April, 2024 (Shift-II)]",
+    "question_latex": "Consider the given reaction, identify the major product $P$. $CH_3-COOH$ is treated with (i) $LiAlH_4$, (ii) $HCN/OH^-$, (iii) $H_2O/OH^-, \\Delta$ [06 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. CH3-CH2-C(=O)-NH2",
+      "B. CH3-C(=O)-CH2CH3",
+      "C. CH3-CH(OH)-COOH",
+      "D. CH3-CH2-CH2-OH"
+    ],
+    "option_images": [
+      "1_opA_1.png",
+      "1_opB_1.png",
+      "1_opC_1.png",
+      "1_opD_1.png"
+    ],
+    "answer": "C. CH3-CH(OH)-COOH",
+    "solution": "Step 1: $CH_3COOH \\xrightarrow{LiAlH_4} CH_3CH_2OH$ (Reduction of ethanoic acid to ethyl alcohol)\nStep 2: $CH_3CH_2OH \\xrightarrow{PCC} CH_3CHO$ (Oxidation to acetaldehyde)\nStep 3: $CH_3CHO \\xrightarrow{HCN/OH^-} CH_3-\\underset{|}{C}(OH)(CN)-H$ (Cyanohydrin formation)\nStep 4: $\\xrightarrow{H_2O/OH^-, \\Delta} CH_3-CH(OH)-COOH$ (Hydrolysis gives 2-hydroxypropanoic acid)",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The major product of the following chemical reaction is: CH3CH2CN treated with (1) H3O+, Delta, (2) SOCl2, (3) Pd/BaSO4, H2 (Feb 2021)",
+    "question_latex": "The major product of the following chemical reaction is: $CH_3CH_2CN \\xrightarrow{(1)\\, H_3O^+, \\Delta \\; (2)\\, SOCl_2 \\; (3)\\, Pd/BaSO_4, H_2} ?$ (Feb 2021)",
+    "question_images": [
+      "2_qu_1.png"
+    ],
+    "options": [
+      "A. (CH3CH2CO)2O",
+      "B. CH3CH2CH2OH",
+      "C. CH3CH2CH3",
+      "D. CH3CH2CHO"
+    ],
+    "option_images": [],
+    "answer": "D. CH3CH2CHO",
+    "solution": "Step 1: $CH_3CH_2CN \\xrightarrow{H_3O^+, \\Delta} CH_3-CH_2-\\overset{O}{\\overset{\\|}{C}}-OH$ (Hydrolysis to propionic acid)\nStep 2: $\\xrightarrow{SOCl_2} CH_3-CH_2-\\overset{O}{\\overset{\\|}{C}}-Cl$ (Acid chloride formation)\nStep 3: $\\xrightarrow{Pd/BaSO_4, H_2} CH_3CH_2CHO$ (Rosenmund reduction gives propanal)",
+    "solution_images": [
+      "2_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Benzaldehyde reacts with ethanolic KCN to give",
+    "question_latex": "Benzaldehyde reacts with ethanolic $KCN$ to give",
+    "question_images": [],
+    "options": [
+      "A. C6H5CHOHCN",
+      "B. C6H5CHOHCOC6H5",
+      "C. C6H5CHOHCOOH",
+      "D. C6H5CHOHCHOHC6H5"
+    ],
+    "option_images": [],
+    "answer": "B. C6H5CHOHCOC6H5",
+    "solution": "When benzaldehyde is refluxed with aqueous alcoholic potassium cyanide, two molecules of benzaldehyde condense together to form benzoin:\n$$2C_6H_5CHO \\xrightarrow{KCN(alc.), \\Delta} C_6H_5-\\underset{|}{CH}(OH)-\\overset{O}{\\overset{\\|}{C}}-C_6H_5$$\nThis is the benzoin condensation reaction.",
+    "solution_images": [
+      "3_so_1.png",
+      "3_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "'R' formed in the following sequence of reactions is: A chloro-substituted benzaldehyde reacted with NaCN/HOAc to give 'P', then EtOH/H+ to give 'Q', then (i) 2MeMgBr, (ii) H3O+ to give 'R' (Major product) (Jan 2023)",
+    "question_latex": "'$R$' formed in the following sequence of reactions is (Jan 2023)",
+    "question_images": [
+      "4_qu_1.png"
+    ],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "4_opA_1.png",
+      "4_opB_1.png",
+      "4_opC_1.png",
+      "4_opD_1.png"
+    ],
+    "answer": "C. C",
+    "solution": "Step 1: Chloro-benzaldehyde $\\xrightarrow{NaCN/HOAc}$ cyanohydrin $P$\nStep 2: $P \\xrightarrow{EtOH/H^+} Q$ (ester of cyanohydrin)\nStep 3: $Q \\xrightarrow{(i)\\, 2MeMgBr,\\,(ii)\\, H_3O^+} R$ (tertiary alcohol with two methyl groups)\nThe product $R$ is an ortho-chloro phenyl compound with $-C(OH)(CH_3)_2$ and $-OH$ substituents.",
+    "solution_images": [
+      "4_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which of the following reagents/reactions will convert 'A' to 'B'? A is a methylcyclohexane with -CH2 group, B is the same ring with -CHO group (June 2022)",
+    "question_latex": "Which of the following reagents/reactions will convert '$A$' to '$B$'? (June 2022)",
+    "question_images": [
+      "5_qu_1.png"
+    ],
+    "options": [
+      "A. PCC oxidation",
+      "B. Ozonolysis",
+      "C. BH3, H2O2/OH- followed by PCC oxidation",
+      "D. HBr, hydrolysis followed by oxidation by K2Cr2O7"
+    ],
+    "option_images": [],
+    "answer": "C. BH3, H2O2/OH- followed by PCC oxidation",
+    "solution": "The conversion requires first hydroboration-oxidation ($BH_3/THF$ then $H_2O_2/OH^-$) of the $-CH_2$ (alkene) to give a primary alcohol $-CH_2OH$, followed by PCC oxidation to give the aldehyde $-CHO$.\n$$A \\xrightarrow{BH_3/THF} \\xrightarrow{H_2O_2/OH^-} -CH_2OH \\xrightarrow{PCC} -CHO = B$$",
+    "solution_images": [
+      "5_so_1.png",
+      "5_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Identify A and B in the following reaction: CH3-CH3 ← B — CH3COOH → A → CH3CH2OH",
+    "question_latex": "Identify $A$ and $B$ in the following reaction: $CH_3-CH_3 \\xleftarrow{B} CH_3COOH \\xrightarrow{A} CH_3CH_2OH$",
+    "question_images": [],
+    "options": [
+      "A. HI + red P, LiAlH4",
+      "B. Ni/Delta, LiAlH4",
+      "C. LiAlH4, HI + red P",
+      "D. Pd-BaSO4, Zn + HCl"
+    ],
+    "option_images": [],
+    "answer": "C. LiAlH4, HI + red P",
+    "solution": "Acetic acid on reduction with $LiAlH_4$ gives ethyl alcohol:\n$$CH_3COOH \\xrightarrow{LiAlH_4} CH_3CH_2OH \\quad \\text{(ethyl alcohol)}$$\nOn reduction with HI and red P gives ethane:\n$$CH_3COOH \\xrightarrow{Red\\, P + HI} CH_3-CH_3 \\quad \\text{(Ethane)}$$\nHence, reagent $A$ is $LiAlH_4$ and $B$ is $HI/\\text{red P}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "In Cannizzaro reaction given below: 2PhCHO + OH- → PhCH2OH + PhCOO-, the slowest step is",
+    "question_latex": "In Cannizzaro reaction given below: $2PhCHO \\xrightarrow{:OH^-} PhCH_2OH + PhCOO^-$, the slowest step is",
+    "question_images": [],
+    "options": [
+      "A. The attack of :OH- at the carboxyl group",
+      "B. The transfer of hydride to the carbonyl group",
+      "C. The abstraction of proton from the carboxylic group",
+      "D. The deprotonation of PhCH2OH"
+    ],
+    "option_images": [],
+    "answer": "B. The transfer of hydride to the carbonyl group",
+    "solution": "The rate determining step is always the slowest step. In Cannizzaro reaction, $H^-$ transfer to the carbonyl group is the rate determining step and hence the slowest.\nMechanism:\n$$C_6H_5-CHO + OH^- \\xrightarrow{Fast} C_6H_5-CH(OH)-O^-$$\n$$C_6H_5-CH(OH)-O^- + O=CH-C_6H_5 \\xrightarrow{Slow, H^- transfer} C_6H_5-C=O + {}^-O-CH_2-C_6H_5$$\n$$\\xrightarrow{Rearrangement} C_6H_5-CH_2-OH + C_6H_5COO^-$$",
+    "solution_images": [
+      "7_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which of the following is the weakest acid?",
+    "question_latex": "Which of the following is the weakest acid?",
+    "question_images": [],
+    "options": [
+      "A. Phenol (C6H5OH)",
+      "B. CH3COOH",
+      "C. HCOOH",
+      "D. Benzoic acid (C6H5COOH)"
+    ],
+    "option_images": [
+      "8_opA_1.png",
+      "8_opD_1.png"
+    ],
+    "answer": "A. Phenol (C6H5OH)",
+    "solution": "Among the given acids, phenol ($C_6H_5OH$) is the weakest acid. The $pK_a$ values are approximately:\n- Phenol: $pK_a \\approx 10$\n- $CH_3COOH$: $pK_a \\approx 4.74$\n- $HCOOH$: $pK_a \\approx 3.74$\n- Benzoic acid: $pK_a \\approx 4.2$\nPhenol has the highest $pK_a$, making it the weakest acid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The order of reactivity of phenyl magnesium bromide with the following compounds is: (I) H3C-C(=O)-CH3 (acetone), (II) H3C-C(=O)-H (acetaldehyde), (III) Ph-C(=O)-Ph (benzophenone)",
+    "question_latex": "The order of reactivity of phenyl magnesium bromide with the following compounds is: (I) $H_3C-\\overset{O}{\\overset{\\|}{C}}-CH_3$ (II) $H_3C-\\overset{O}{\\overset{\\|}{C}}-H$ (III) $Ph-\\overset{O}{\\overset{\\|}{C}}-Ph$",
+    "question_images": [
+      "9_qu_1.png",
+      "9_qu_2.png",
+      "9_qu_3.png"
+    ],
+    "options": [
+      "A. (II) > (III) > (I)",
+      "B. (I) > (III) > (II)",
+      "C. (II) > (I) > (III)",
+      "D. All react with the same rate"
+    ],
+    "option_images": [],
+    "answer": "C. (II) > (I) > (III)",
+    "solution": "In phenyl magnesium bromide $PhMgBr$, Ph attacks the C-atom of carbonyl group which has low electron density (higher electropositive charge).\nAldehydes are more reactive than ketones towards nucleophiles in nucleophilic addition because:\n1. In ketones, alkyl groups (due to $+I$ effect) decrease the electropositive charge on carbonyl carbon.\n2. Aldehyde has less steric repulsion in the tetrahedral intermediate.\nOrder: Acetaldehyde (II) > Acetone (I) > Benzophenone (III)\n$$II > I > III$$",
+    "solution_images": [
+      "9_so_1.png",
+      "9_so_2.png",
+      "9_so_3.png",
+      "9_so_4.png",
+      "9_so_5.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "RCHO + R'CHO → R-C(=O)-O- + R'CH2OH. Select the correct statement about this Cannizzaro reaction.",
+    "question_latex": "$RCHO + R'CHO \\rightarrow R-\\overset{O}{\\overset{\\|}{C}}-O^- + R'CH_2OH$. Select the correct statement.",
+    "question_images": [
+      "10_qu_1.png"
+    ],
+    "options": [
+      "A. Oxidation number of C in RCHO increases and that of R'CHO decreases",
+      "B. Oxidation number of C in RCHO decreases and that of R'CHO increases",
+      "C. Oxidation number of C remains unchanged in both but that of oxygen is affected",
+      "D. In CH3CHO and C6H5CHO, the former can act as RCHO (hydride donor)"
+    ],
+    "option_images": [],
+    "answer": "A. Oxidation number of C in RCHO increases and that of R'CHO decreases",
+    "solution": "$RCHO$ (hydride donor) is converted to $RCOO^-$ and $R'CHO$ (hydride acceptor) is converted to $R'CH_2OH$.\nTherefore, $RCHO$ is oxidized and $R'CHO$ is reduced.\nIn oxidation, the oxidation number increases and in reduction it decreases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Acetyl nitrate is formed when acetic anhydride reacts with",
+    "question_latex": "Acetyl nitrate is formed when acetic anhydride reacts with",
+    "question_images": [],
+    "options": [
+      "A. Nitrogen pentoxide",
+      "B. Nitric acid",
+      "C. Nitrous acid",
+      "D. Potassium nitrate"
+    ],
+    "option_images": [],
+    "answer": "A. Nitrogen pentoxide",
+    "solution": "Acetyl nitrate is formed when acetic anhydride reacts with nitrogen pentoxide:\n$$\\underset{acetic\\,anhydride}{\\left(\\begin{array}{c}CH_3CO\\\\CH_3CO\\end{array}\\right)O} + N_2O_5 \\rightarrow 2CH_3CONO_2$$\n(acetyl nitrate)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "In the above chemical reaction sequence 'A' and 'B' respectively are: A cyclopentyl compound reacted with A to give an aldehyde intermediate, then B to give a sodium salt product [04 April, 2024 (Shift-II)]",
+    "question_latex": "In the above chemical reaction sequence '$A$' and '$B$' respectively are: [04 April, 2024 (Shift-II)]",
+    "question_images": [
+      "12_qu_1.png"
+    ],
+    "options": [
+      "A. O3, Zn/H2O and KMnO4",
+      "B. H2O, H+ and NaOH(alc.)/I2",
+      "C. O3, Zn/H2O and NaOH(alc.)/I2",
+      "D. H2O, H+ and KMnO4"
+    ],
+    "option_images": [],
+    "answer": "C. O3, Zn/H2O and NaOH(alc.)/I2",
+    "solution": "Step 1: $A = O_3, Zn/H_2O$ — Ozonolysis cleaves the double bond to give an aldehyde intermediate.\nStep 2: $B = NaOH(Alc.)/I_2$ — Iodoform reaction converts the methyl ketone/acetaldehyde portion, giving $CHI_3$ and a sodium carboxylate salt ($O^-Na^+$).\nHence, $A$ is $O_3, Zn/H_2O$ and $B$ is $NaOH(Alc.)/I_2$.",
+    "solution_images": [
+      "12_so_1.png",
+      "12_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which of the product is formed when acetone is reacted with barium hydroxide solution?",
+    "question_latex": "Which of the product is formed when acetone is reacted with barium hydroxide solution?",
+    "question_images": [],
+    "options": [
+      "A. CH3-C(=O)-CH2-C(OH)(CH3)-CH3 (diacetone alcohol)",
+      "B. CH3-C(=O)-CH(CH3)-CH(OH)-CH3",
+      "C. CH3-C(=O)-CH(CH3)-CH(OH)-CH3 isomer",
+      "D. CH3-C(OH)(CH3)-C(OH)(CH3)-CH3"
+    ],
+    "option_images": [],
+    "answer": "A. CH3-C(=O)-CH2-C(OH)(CH3)-CH3 (diacetone alcohol)",
+    "solution": "When treated with $Ba(OH)_2$, acetone undergoes aldol condensation to form diacetone alcohol:\n$$2CH_3COCH_3 \\xrightarrow{Ba(OH)_2} H_3C-\\overset{O}{\\overset{\\|}{C}}-CH_2-\\underset{|}{C}(OH)(CH_3)-CH_3$$\n(diacetone alcohol)",
+    "solution_images": [
+      "13_so_1.png",
+      "13_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which of the following pairs of compounds will undergo aldol and Cannizzaro reaction respectively? (i) acetone; benzaldehyde (ii) acetaldehyde; butan-2-one (iii) propanone; formaldehyde (iv) cyclopentanone; benzaldehyde",
+    "question_latex": "Which of the following pairs of compounds will undergo aldol and Cannizzaro reaction respectively? (i) acetone; benzaldehyde (ii) acetaldehyde; butan-2-one (iii) propanone; formaldehyde (iv) cyclopentanone; benzaldehyde",
+    "question_images": [],
+    "options": [
+      "A. (i), (ii) and (iii)",
+      "B. (ii) and (iii)",
+      "C. (ii), (iii) and (iv)",
+      "D. (iii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (i), (ii) and (iii)",
+    "solution": "For aldol reaction: compound must have $\\alpha$-hydrogen (abstractable).\nFor Cannizzaro reaction: aldehyde must have NO $\\alpha$-hydrogen.\n- (i) Acetone (has $\\alpha$-H → aldol); Benzaldehyde (no $\\alpha$-H → Cannizzaro) ✓\n- (ii) Acetaldehyde (has $\\alpha$-H → aldol); Butan-2-one (has $\\alpha$-H, NOT Cannizzaro) ✗\n- (iii) Propanone (has $\\alpha$-H → aldol); Formaldehyde (no $\\alpha$-H → Cannizzaro) ✓\n- (iv) Cyclopentanone (has $\\alpha$-H → aldol); Benzaldehyde (no $\\alpha$-H → Cannizzaro) ✓\nAll ketones in (i), (ii), and (iii) contain abstractable alpha-proton while all aldehydes do not contain alpha-hydrogen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Benzamide on treatment with POCl3 gives",
+    "question_latex": "Benzamide on treatment with $POCl_3$ gives",
+    "question_images": [],
+    "options": [
+      "A. Aniline",
+      "B. Benzonitrile",
+      "C. Chlorobenzene",
+      "D. Benzyl amine"
+    ],
+    "option_images": [],
+    "answer": "B. Benzonitrile",
+    "solution": "Benzamide on treatment with $POCl_3$ gives benzonitrile (phenyl cyanide) because in this reaction $POCl_3$ acts as dehydrating agent and on dehydration of benzamide, benzonitrile is obtained:\n$$C_6H_5-\\overset{O}{\\overset{\\|}{C}}-NH_2 \\xrightarrow{POCl_3, dehydration} C_6H_5-C \\equiv N + H_2O$$",
+    "solution_images": [
+      "15_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which one of the following reactions does not represent the correct combination of substrate and product under the given conditions? (July 2022)",
+    "question_latex": "Which one of the following reactions does not represent correct combination of substrate and product under the given conditions? (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "16_opA_1.png",
+      "16_opB_1.png",
+      "16_opC_1.png",
+      "16_opD_1.png"
+    ],
+    "answer": "D. D",
+    "solution": "Option (D) is incorrect. The reaction shown uses $(i)\\, Na_2Cr_2O_7,\\, (ii)\\, H_2SO_4, H_2O$ on a secondary alcohol (benzyl alcohol type). This oxidation would give a carboxylic acid ($COOH$), not an aldehyde. The correct product should be $COOH$ and not $CHO$ as shown.",
+    "solution_images": [
+      "16_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "What is formed when a primary alcohol undergoes catalytic dehydrogenation?",
+    "question_latex": "What is formed when a primary alcohol undergoes catalytic dehydrogenation?",
+    "question_images": [],
+    "options": [
+      "A. Aldehyde",
+      "B. Ketone",
+      "C. Alkene",
+      "D. Acid"
+    ],
+    "option_images": [],
+    "answer": "A. Aldehyde",
+    "solution": "Primary alcohols on catalytic dehydrogenation give aldehydes:\n$$RCH_2OH \\xrightarrow{Cu,\\, 300^\\circ C} RCHO + H_2$$\n1° alcohol → Aldehyde",
+    "solution_images": [
+      "17_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "In the reaction, C6H5COOH + CH3*OH (18O-labeled) → Ester + water with H+ catalyst:",
+    "question_latex": "In the reaction, $C_6H_5COOH + CH_3^*OH \\xrightarrow{H^+} Ester + water$",
+    "question_images": [],
+    "options": [
+      "A. Isotopically labeled oxygen (O18) is present in water",
+      "B. O18 is present with ester",
+      "C. O18 shifts from acid to alcohol",
+      "D. No reaction takes place"
+    ],
+    "option_images": [],
+    "answer": "B. O18 is present with ester",
+    "solution": "In Fischer esterification, the $OH$ from the acid and $H$ from the alcohol form water. The labeled oxygen ($O^{18}$) from the alcohol ($CH_3^*OH$) gets incorporated into the ester product, not into water.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Match List-I with List-II and choose the correct answer (July 2022): List-I: (A) COCl → CHO via H2/Pd-BaSO4, (B) CH3CN → CH3CHO via SnCl2/HCl, H3O+, (C) CH3-benzene → CHO via CrO2Cl2/H3O+, (D) Benzene → CHO via CO/HCl/AlCl3. List-II: (I) Gatterman-Koch, (II) Etard, (III) Stephen, (IV) Rosenmund",
+    "question_latex": "Match List-I with List-II. Choose the correct answer from the options given below: (July 2022)",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+      "B. (A)-(I), (B)-(II), (C)-(III), (D)-(IV)",
+      "C. (A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+      "D. (A)-(III), (B)-(II), (C)-(I), (D)-(IV)"
+    ],
+    "option_images": [],
+    "answer": "A. (A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+    "solution": "- (A) $COCl \\xrightarrow{H_2/Pd-BaSO_4} CHO$ → Rosenmund reduction (IV)\n- (B) $CH_3CN \\xrightarrow{SnCl_2/HCl, H_3O^+} CH_3CHO$ → Stephen reaction (III)\n- (C) $CH_3$-benzene $\\xrightarrow{CrO_2Cl_2, H_3O^+} CHO$-benzene → Etard reaction (II)\n- (D) Benzene $\\xrightarrow{CO/HCl, AlCl_3} CHO$-benzene → Gattermann-Koch reaction (I)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "By which of the following reagents can the following conversion be affected? A compound with -C(=O)- (keto) and -COOCH3 (ester) group is converted to a product with -C(CH3)2(OH) group",
+    "question_latex": "By which of the following reagents can the following conversion be affected? $\\underset{-COOCH_3}{\\text{keto-ester compound}} \\rightarrow \\underset{-C(CH_3)_2OH}{\\text{product}}$",
+    "question_images": [
+      "20_qu_1.png"
+    ],
+    "options": [
+      "A. 2CH3MgBr and H3O+",
+      "B. HOCH2-CH2OH, H+, LiAlH4, ether, 2CH3MgBr, H3O+",
+      "C. HOCH2-CH2OH, H+, 2CH3MgBr, H3O+",
+      "D. HOCH2-CH2OH, H+, H2, Pt, CH3OH, H+"
+    ],
+    "option_images": [],
+    "answer": "C. HOCH2-CH2OH, H+, 2CH3MgBr, H3O+",
+    "solution": "The keto group is protected by ethylene glycol as a cyclic ketal, then the ester reacts with 2 equivalents of $CH_3MgBr$ to give a tertiary alcohol, followed by hydrolysis:\nStep 1: Protect $C=O$ with $HOCH_2-CH_2OH/H^+$ → cyclic ketal\nStep 2: $\\xrightarrow{2CH_3MgBr}$ Grignard addition to ester\nStep 3: $\\xrightarrow{H_3O^+}$ hydrolyze to give tertiary alcohol $-C(CH_3)_2OH$",
+    "solution_images": [
+      "20_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which of the following statements is wrong about the transesterification reaction catalysed by H3O+ (H2SO4 or dry HCl) or RO- (EtONa)? Me-C(=O)-O-Et + PrOH → Me-C(=O)-O-Pr + EtOH",
+    "question_latex": "Which of the following statements is wrong about the transesterification reaction, catalysed by $H_3O^\\oplus$ ($H_2SO_4$ or dry $HCl$) or $RO^\\ominus$ (EtONa)? $Me-\\overset{O}{\\overset{\\|}{C}}-O-Et + PrOH \\rightarrow Me-\\overset{O}{\\overset{\\|}{C}}-O-Pr + EtOH$",
+    "question_images": [
+      "21_qu_1.png"
+    ],
+    "options": [
+      "A. Alcohol (PrOH) is taken in excess to shift the equilibrium to R.H.S",
+      "B. It involves tetrahedral intermediate in which the hybridisation of C of the (C=O) group changes from sp2 to sp3",
+      "C. Isotopic oxygen is present in the new alcohol (EtOH) formed",
+      "D. Rate of transesterification is dependent on the concentration of ester only"
+    ],
+    "option_images": [],
+    "answer": "D. Rate of transesterification is dependent on the concentration of ester only",
+    "solution": "Statement (D) is wrong. The rate of transesterification is dependent on concentrations of BOTH the ester AND the alcohol (nucleophile), not just the ester. This is a bimolecular reaction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The weakest acid among the following is:",
+    "question_latex": "The weakest acid among the following is:",
+    "question_images": [],
+    "options": [
+      "A. CH3COOH",
+      "B. CH3CH2COOH",
+      "C. (CH3)2CHCOOH",
+      "D. (CH3)3C.COOH"
+    ],
+    "option_images": [],
+    "answer": "D. (CH3)3C.COOH",
+    "solution": "$(CH_3)_3C.COOH$ (trimethylacetic acid / pivalic acid) is the weakest acid. The three methyl groups exert strong $+I$ (electron-donating inductive) effect, which destabilizes the carboxylate anion by increasing electron density on the oxygen atoms, making it harder to donate the proton. Greater $+I$ effect → weaker acid.",
+    "solution_images": [
+      "22_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The product (P) formed in the following reaction is: A cyclic anhydride with an aldehyde group reacted with Zn-Hg/HCl (Clemmensen reduction) [Jan. 29, 2025 (I)]",
+    "question_latex": "The product $(P)$ formed in the following reaction is: [Jan. 29, 2025 (I)]",
+    "question_images": [
+      "23_qu_1.png"
+    ],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "23_opA_1.png",
+      "23_opB_1.png",
+      "23_opC_1.png",
+      "23_opD_1.png"
+    ],
+    "answer": "C. C",
+    "solution": "Clemmensen reduction ($Zn-Hg/HCl$) reduces the aldehyde ($-CHO$) to $-CH_3$ (methyl group). The cyclic ester (lactone) part remains intact under these conditions. The product retains the ester ring with $HO$ group and the aldehyde is reduced to $-CH_2-$ linkage.",
+    "solution_images": [
+      "23_so_1.png",
+      "23_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "CH3CHO + CO2(COOH)2 reacted with Pyridine/Delta → X. X is:",
+    "question_latex": "$CH_3CHO + CO_2(COOH)_2 \\xrightarrow{Pyridine, \\Delta} X$. $X$ is:",
+    "question_images": [
+      "24_qu_1.png"
+    ],
+    "options": [
+      "A. CH3COOH",
+      "B. C2H5COOH",
+      "C. CH3CH=CHCOOH",
+      "D. (COOH)CH=CH(COOH)"
+    ],
+    "option_images": [],
+    "answer": "C. CH3CH=CHCOOH",
+    "solution": "This is Knoevenagel reaction. Acetaldehyde reacts with malonic acid in the presence of pyridine (base catalyst) with decarboxylation:\n$$CH_3CHO + CH_2(COOH)_2 \\xrightarrow{Pyridine, \\Delta} CH_3-CH=CH-COOH + CO_2 + H_2O$$\nProduct is crotonic acid ($CH_3CH=CHCOOH$).",
+    "solution_images": [
+      "24_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Give the order of ease of decarboxylation of the following acids: (I) CH3COOH, (II) CH2=CH-CH2COOH, (III) CH2(COOH)2, (IV) 2,4,6-trinitrobenzoic acid",
+    "question_latex": "Give the order of ease of decarboxylation of the following acids: (I) $CH_3COOH$, (II) $CH_2=CH-CH_2COOH$, (III) $CH_2(COOH)_2$, (IV) 2,4,6-trinitrobenzoic acid",
+    "question_images": [
+      "25_qu_1.png"
+    ],
+    "options": [
+      "A. I > II > III > IV",
+      "B. III > IV > II > I",
+      "C. IV > III > II > I",
+      "D. I > III > II > IV"
+    ],
+    "option_images": [],
+    "answer": "C. IV > III > II > I",
+    "solution": "In 2,4,6-trinitrobenzoic acid (IV), decarboxylation takes place most easily because of strong $-I$ effect of nitro groups.\nIn malonic acid (III), with one carbon atom having two carboxylic groups, it is also easier to remove $CO_2$.\nBut-3-enoic acid (II) with vinyl group promotes some decarboxylation.\nAcetic acid (I) decarboxylates least easily.\n$$IV > III > II > I$$",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Ethyl acetate is obtained by acetaldehyde in one step process by",
+    "question_latex": "Ethyl acetate is obtained by acetaldehyde in one step process by",
+    "question_images": [],
+    "options": [
+      "A. Condensation using Ba(OH)2",
+      "B. Using aluminium ethoxide",
+      "C. Oxidation",
+      "D. Reduction"
+    ],
+    "option_images": [],
+    "answer": "B. Using aluminium ethoxide",
+    "solution": "Ethyl acetate is obtained from acetaldehyde by using aluminium ethoxide. It is a one-step process called Tischenko's reaction:\n$$2CH_3CHO \\xrightarrow{(C_2H_5O)_3Al, \\text{Aluminium ethoxide}} CH_3COOC_2H_5$$\n(ethanal → ethyl acetate)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The final product 'A' in the following reaction sequence: CH3-CH2-C(=O)-CH3 + HCN → ? then 95% H2SO4/heat → A (June 2022)",
+    "question_latex": "The final product '$A$' in the following reaction sequence: $CH_3-CH_2-\\overset{O}{\\overset{\\|}{C}}-CH_3 \\xrightarrow{HCN} ? \\xrightarrow{95\\% H_2SO_4, heat} A$ (June 2022)",
+    "question_images": [
+      "27_qu_1.png"
+    ],
+    "options": [
+      "A. CH3-CH=C(CH3)-COOH",
+      "B. CH3-CH=C(CH3)-CN",
+      "C. CH3-CH2-C(OH)(CH3)-COOH",
+      "D. CH3-CH=C(CH3)-CONH2"
+    ],
+    "option_images": [
+      "27_opA_1.png",
+      "27_opB_1.png",
+      "27_opC_1.png",
+      "27_opD_1.png"
+    ],
+    "answer": "A. CH3-CH=C(CH3)-COOH",
+    "solution": "$CH_3CH_2COCH_3 + HCN \\rightarrow CH_3CH_2C(CN)(OH)CH_3$ (cyanohydrin)\n$$\\xrightarrow{95\\% H_2SO_4, heat} CH_3CH=C(CH_3)COOH$$\n(2-methylbut-2-enoic acid)\nThis involves dehydration and hydrolysis of nitrile to carboxylic acid.",
+    "solution_images": [
+      "27_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The most appropriate reagent to distinguish between acetaldehyde and formaldehyde is:",
+    "question_latex": "The most appropriate reagent to distinguish between acetaldehyde and formaldehyde is:",
+    "question_images": [],
+    "options": [
+      "A. Fehling's solution",
+      "B. Tollen's reagent",
+      "C. Schiff's reagent",
+      "D. Iodine in presence of base"
+    ],
+    "option_images": [],
+    "answer": "D. Iodine in presence of base",
+    "solution": "$HCHO$ does not undergo iodoform test, while acetaldehyde undergoes iodoform test ($I_2$ in presence of base) to form yellow precipitate of iodoform ($CHI_3$):\n$$CH_3CHO + 3I_2 + 3NaOH \\rightarrow CHI_3\\downarrow + HCOONa + 3NaI + 3H_2O$$\n$HCHO$ gives no iodoform test.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "O2N-C6H4-CHO + Low conc. of base → ? + ? The products are:",
+    "question_latex": "$O_2N-C_6H_4-CHO \\xrightarrow{\\text{Low conc. of base}} ? + ?$ The products are:",
+    "question_images": [
+      "29_qu_1.png"
+    ],
+    "options": [
+      "A. O2N-C6H4-COO- + O2N-C6H4-CH2OH",
+      "B. O2N-C6H4-COOH + O2N-C6H4-CH2O-",
+      "C. O2N-C6H4-COO- + O2N-C6H4-CH2O-",
+      "D. O2N-C6H4-COOH + O2N-C6H4-CH2OH"
+    ],
+    "option_images": [
+      "29_opA_1.png",
+      "29_opB_1.png",
+      "29_opC_1.png",
+      "29_opD_1.png"
+    ],
+    "answer": "A. O2N-C6H4-COO- + O2N-C6H4-CH2OH",
+    "solution": "4-Nitrobenzaldehyde (aromatic aldehyde with no $\\alpha$-hydrogen) undergoes Cannizzaro reaction with dilute base:\n$$2 \\, O_2N-C_6H_4-CHO \\xrightarrow{OH^-} O_2N-C_6H_4-COO^- + O_2N-C_6H_4-CH_2OH$$\nOne molecule is oxidized to carboxylate and the other is reduced to benzyl alcohol.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Sodium phenoxide when heated with CO2 under pressure at 125°C yields a product which on acetylation produces C. The major product C would be (Kolbe's reaction, 2014)",
+    "question_latex": "Sodium phenoxide when heated with $CO_2$ under pressure at $125\\,^\\circ C$ yields a product which on acetylation produces $C$. $\\underset{}{\\bigcirc}-ONa + CO_2 \\xrightarrow{125^\\circ C, 5\\,atm} B \\xrightarrow{H^+, Ac_2O} C$ The major product $C$ would be (2014)",
+    "question_images": [
+      "30_qu_1.png"
+    ],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "30_opA_1.png",
+      "30_opB_1.png",
+      "30_opC_1.png",
+      "30_opD_1.png"
+    ],
+    "answer": "B. B",
+    "solution": "Kolbe's reaction: Sodium phenoxide + $CO_2$ at $125^\\circ C$ gives sodium salicylate (sodium 2-hydroxybenzoate).\nAcid hydrolysis gives salicylic acid (2-hydroxybenzoic acid).\nAcetylation with $Ac_2O$ gives aspirin (acetylsalicylic acid, 2-acetoxybenzoic acid), where the $-OH$ is acetylated but $-COOH$ remains.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The compound/s which will show significant intermolecular H-bonding is/are: (A) a dihydroxy-nitrobenzene compound, (B) an amide-type compound with N-H and C=O, (C) a hindered phenol compound (Aug 2021)",
+    "question_latex": "The compound/s which will show significant intermolecular $H$-bonding is/are (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. (A), (B) and (C)",
+      "B. (B) only",
+      "C. (C) only",
+      "D. (A) and (B) only"
+    ],
+    "option_images": [
+      "31_opA_1.png",
+      "31_opB_1.png",
+      "31_opC_1.png"
+    ],
+    "answer": "B. (B) only",
+    "solution": "For significant intermolecular H-bonding:\n- Compound (A): has intramolecular H-bonding between the two $-OH$ groups (chelation), so intermolecular H-bonding is not significant.\n- Compound (B): has $N-H$ and $C=O$ groups appropriately placed for intermolecular H-bonding (amide-type). ✓\n- Compound (C): bulky groups prevent effective intermolecular H-bonding.\nHence only (B) shows significant intermolecular H-bonding.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The major product obtained in the following reaction is: OHC-CH2CH2CH2-C(=O)-CH3 (a keto-aldehyde compound) reacted with NaOH/Delta (April 2019)",
+    "question_latex": "The major product obtained in the following reaction is: $OHC-CH_2CH_2CH(CH_3)-\\overset{O}{\\overset{\\|}{C}} \\xrightarrow{NaOH, \\Delta}$ (April 2019)",
+    "question_images": [
+      "32_qu_1.png"
+    ],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "32_opA_1.png",
+      "32_opB_1.png",
+      "32_opC_1.png",
+      "32_opD_1.png"
+    ],
+    "answer": "C. C",
+    "solution": "The compound undergoes intramolecular aldol condensation under $NaOH/\\Delta$:\nThe $\\alpha$-carbon of the ketone attacks the aldehyde carbon to form a cyclopentane ring with an enone (cyclopentenone) product after dehydration.\nProduct is a cyclopentenone with $CH_3$ substituent.",
+    "solution_images": [
+      "32_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The major product (C) in the reaction is: HO-C6H4-CH2OH (1 mol) reacted with PhCOCl to give C",
+    "question_latex": "The major product $(C)$ in the reaction is: $HO-\\bigcirc-CH_2OH \\xrightarrow{1\\,mol\\, PhCOCl} C$",
+    "question_images": [
+      "33_qu_1.png"
+    ],
+    "options": [
+      "A. HO-C6H4-CH2OCOPh",
+      "B. PhCOO-C6H4-CH2OH",
+      "C. PhCOO-C6H4-CH2OH (para)",
+      "D. All"
+    ],
+    "option_images": [
+      "33_opA_1.png",
+      "33_opB_1.png",
+      "33_opC_1.png"
+    ],
+    "answer": "A. HO-C6H4-CH2OCOPh",
+    "solution": "Here, the 2° ($-OH$) group (phenolic $-OH$) would be sterically more hindered when ester with bulky ($PhCO$) group is formed. Hence, the 1° ($-CH_2OH$) group reacts preferentially:\n$$HO-C_6H_4-CH_2OH \\xrightarrow{PhCOCl} HO-C_6H_4-CH_2-OOC-Ph$$\nThe primary alcohol reacts selectively.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The increasing order of the rate of HCN addition to compounds A-D is: (A) HCHO, (B) CH3COCH3, (C) PhCOCH3, (D) PhCOPh",
+    "question_latex": "The increasing order of the rate of $HCN$ addition to compounds $A$-$D$ is: $(A)$ $HCHO$, $(B)$ $CH_3COCH_3$, $(C)$ $PhCOCH_3$, $(D)$ $PhCOPh$",
+    "question_images": [],
+    "options": [
+      "A. A < B < C < D",
+      "B. D < B < C < A",
+      "C. D < C < B < A",
+      "D. C < D < B < A"
+    ],
+    "option_images": [],
+    "answer": "C. D < C < B < A",
+    "solution": "More intensified is +ve charge on C-atom, more is tendency to attack by nucleophile ($HCN$), but due to steric hindrance, this tendency decreases.\n- $HCHO$ (A): Least steric hindrance, highest reactivity.\n- $CH_3COCH_3$ (B): Two methyl groups reduce reactivity but less steric than Ph.\n- $PhCOCH_3$ (C): One phenyl group reduces reactivity further.\n- $PhCOPh$ (D): Two phenyl groups = maximum steric hindrance, lowest reactivity.\nIncreasing order: $D < C < B < A$",
+    "solution_images": [
+      "34_so_1.png",
+      "34_so_2.png",
+      "34_so_3.png",
+      "34_so_4.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Identify major product 'X' formed in the following reaction: Naphthalene + CO + HCl with Anhydrous AlCl3/CuCl → X (Major product) [09 April, 2024 (Shift-I)]",
+    "question_latex": "Identify major product '$X$' formed in the following reaction: Naphthalene $+ CO + HCl \\xrightarrow{Anhydrous\\, AlCl_3/CuCl} X$ (Major product) [09 April, 2024 (Shift-I)]",
+    "question_images": [
+      "35_qu_1.png"
+    ],
+    "options": [
+      "A. Naphthalene acyl chloride",
+      "B. Chloromethyl naphthalene",
+      "C. Naphthalene-1-carbaldehyde (1-naphthaldehyde)",
+      "D. A different naphthalene CHO isomer"
+    ],
+    "option_images": [
+      "35_opA_1.png",
+      "35_opB_1.png",
+      "35_opC_1.png",
+      "35_opD_1.png"
+    ],
+    "answer": "C. Naphthalene-1-carbaldehyde (1-naphthaldehyde)",
+    "solution": "The given reaction is Gattermann-Koch reaction:\n$$\\text{Benzene} + CO + HCl \\xrightarrow{Anhydrous\\, AlCl_3, CuCl} \\text{Benzaldehyde}$$\nFor naphthalene, the reaction gives 1-naphthaldehyde (CHO at position 1) as the major product due to electrophilic aromatic substitution preferentially at position 1.",
+    "solution_images": [
+      "35_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The products obtained in the reaction CH3CH2-C(=O)-CH-C(=O)-OH (with CH3 on the CH) heated with Delta are:",
+    "question_latex": "The products obtained in the reaction $CH_3CH_2-\\overset{O}{\\overset{\\|}{C}}-\\underset{|}{CH}-\\overset{O}{\\overset{\\|}{C}}-OH \\xrightarrow{\\Delta}$ are: (where the $CH$ carries a $CH_3$ group)",
+    "question_images": [
+      "36_qu_1.png"
+    ],
+    "options": [
+      "A. CH3-C(=O)-C(=O)-O (anhydride) + H2O",
+      "B. CH3CH2-C(=O)-CH2CH3 + CO2",
+      "C. CH3CH2CHOH-COOH + CO",
+      "D. None of the above"
+    ],
+    "option_images": [
+      "36_opA_1.png",
+      "36_opB_1.png",
+      "36_opC_1.png"
+    ],
+    "answer": "B. CH3CH2-C(=O)-CH2CH3 + CO2",
+    "solution": "$\\beta$-keto acids are the only carboxylic acids that decarboxylate under mild heat:\n$$CH_3CH_2-\\overset{O}{\\overset{\\|}{C}}-\\underset{|}{CH}(CH_3)-\\overset{O}{\\overset{\\|}{C}}-OH \\xrightarrow{\\Delta} CH_3CH_2-\\overset{O}{\\overset{\\|}{C}}-CH_2CH_3 + CO_2$$\n(3-pentanone + carbon dioxide)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Match List-I with List-II [Jan. 24, 2025 (II)]: List-I: (A) RCN → RCHO via SnCl2/HCl, H3O+, (B) Acid chloride → Benzaldehyde via H2/Pd-BaSO4, (C) Toluene → Benzaldehyde via CrO2Cl2/CS2 then H3O+, (D) Benzene → Benzaldehyde via CO/HCl/AlCl3/CuCl. List-II: (I) Etard, (II) Gatterman-Koch, (III) Rosenmund, (IV) Stephen",
+    "question_latex": "Match List-I with List-II [Jan. 24, 2025 (II)]",
+    "question_images": [
+      "37_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+      "B. (A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+      "C. (A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+      "D. (A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+    ],
+    "option_images": [],
+    "answer": "D. (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+    "solution": "- (A) $RCN \\xrightarrow{(i)SnCl_2/HCl,\\,(ii)H_3O^+} RCHO$ → Stephen reaction (IV)\n- (B) Acid chloride $\\xrightarrow{H_2/Pd-BaSO_4} CHO$ → Rosenmund reduction (III)\n- (C) Toluene $\\xrightarrow{(i)CrO_2Cl_2/CS_2,\\,(ii)H_3O^+} CHO$ → Etard reaction (I)\n- (D) Benzene $\\xrightarrow{(i)CO/HCl,\\,(ii)AlCl_3/CuCl} CHO$ → Gattermann-Koch reaction (II)",
+    "solution_images": [
+      "37_so_1.png",
+      "37_so_2.png",
+      "37_so_3.png",
+      "37_so_4.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which does not react with Fehling's solution?",
+    "question_latex": "Which does not react with Fehling's solution?",
+    "question_images": [],
+    "options": [
+      "A. CH3CHO",
+      "B. C6H5CHO",
+      "C. C6H12O6",
+      "D. HCOOH"
+    ],
+    "option_images": [],
+    "answer": "B. C6H5CHO",
+    "solution": "Aromatic aldehyde, $C_6H_5CHO$ (benzaldehyde), is not able to reduce Fehling's solution. Instead, it gives Cannizzaro's reaction with alkali. Aliphatic aldehydes and sugars ($C_6H_{12}O_6$) and formic acid ($HCOOH$) do reduce Fehling's solution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Number of molecules from below which cannot give iodoform reaction is: Ethanol, Isopropyl alcohol, Bromoacetone, 2-Butanol, 2-Butanone, Butanal, 2-Pentanone, 3-Pentanone, Pentanal and 3-Pentanol [April 3, 2025 (I)]",
+    "question_latex": "Number of molecules from below which cannot give iodoform reaction is: Ethanol, Isopropyl alcohol, Bromoacetone, 2-Butanol, 2-Butanone, Butanal, 2-Pentanone, 3-Pentanone, Pentanal and 3-Pentanol [April 3, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 5",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "Iodoform test requires $CH_3CO-$ or $CH_3CH(OH)-$ group.\nCompounds that CANNOT give iodoform reaction:\n1. Butanal ($CH_3CH_2CH_2CHO$) — no $CH_3CO-$ group\n2. 3-Pentanone ($CH_3CH_2-CO-CH_2CH_3$) — no $CH_3CO-$ group\n3. Pentanal ($CH_3CH_2CH_2CH_2CHO$) — no $CH_3CO-$ group\n4. 3-Pentanol ($CH_3CH_2-CH(OH)-CH_2CH_3$) — no $CH_3CHOH$ group\nTotal = 4 compounds.",
+    "solution_images": [
+      "39_so_1.png",
+      "39_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "'A' formed in the above reaction is: A cyclic anhydride compound (indane-1,3-dione type) reacted with H2O → 'A' Major product (April 2023)",
+    "question_latex": "'$A$' formed in the above reaction is (April 2023)",
+    "question_images": [
+      "40_qu_1.png"
+    ],
+    "options": [
+      "A. a",
+      "B. b",
+      "C. c",
+      "D. d"
+    ],
+    "option_images": [
+      "40_opA_1.png",
+      "40_opB_1.png",
+      "40_opC_1.png",
+      "40_opD_1.png"
+    ],
+    "answer": "D. d",
+    "solution": "The cyclic anhydride compound on hydrolysis with $H_2O$: the highly electrophilic carbonyl ($\\delta+$) is attacked by water. The product is a diol-diacid intermediate that cyclizes. The final product $A$ shows both $-OH$ and $-C=O$ groups in a specific arrangement corresponding to option (d).",
+    "solution_images": [
+      "40_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The final product (E) in the following reaction is: Cyclohexanone → (A) H2/Ni, 100 atm → (B) Cu/573K → (C) NH2OH → (D) H+ → (E)",
+    "question_latex": "The final product $(E)$ in the following reaction is: $\\underset{Cyclohexanone}{\\bigcirc}=O \\xrightarrow{H_2/Ni,\\,100\\,atm} (A) \\xrightarrow{Cu,\\,573K} (B) \\xrightarrow{NH_2OH} (C) \\xrightarrow{H^+} (E)$",
+    "question_images": [
+      "41_qu_1.png"
+    ],
+    "options": [
+      "A. Cyclohexane carboxylic acid (COOH)",
+      "B. Cyclohexanone oxime (N-OH)",
+      "C. Cyclohexylamine (NH2)",
+      "D. Caprolactam (cyclic NH)"
+    ],
+    "option_images": [
+      "41_opA_1.png",
+      "41_opB_1.png",
+      "41_opC_1.png",
+      "41_opD_1.png"
+    ],
+    "answer": "D. Caprolactam (cyclic NH)",
+    "solution": "Step 1: Cyclohexanone $\\xrightarrow{H_2/Ni}$ Cyclohexanol (A)\nStep 2: Cyclohexanol $\\xrightarrow{Cu, 573K}$ Cyclohexanone (B) (dehydrogenation)\nStep 3: Cyclohexanone $\\xrightarrow{NH_2OH}$ Cyclohexanone oxime (C)\nStep 4: Cyclohexanone oxime $\\xrightarrow{H^+}$ Caprolactam (E) by Beckmann rearrangement\nCaprolactam is a cyclic amide ($\\epsilon$-caprolactam).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Correct structure of gamma-methylcyclohexane carbaldehyde is (July 2022)",
+    "question_latex": "Correct structure of $\\gamma$-methylcyclohexane carbaldehyde is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. A",
+      "B. B",
+      "C. C",
+      "D. D"
+    ],
+    "option_images": [
+      "42_opA_1.png",
+      "42_opB_1.png",
+      "42_opC_1.png",
+      "42_opD_1.png"
+    ],
+    "answer": "A. A",
+    "solution": "In cyclohexane carbaldehyde nomenclature:\n- $\\alpha$ = C2 of cyclohexane ring (adjacent to C1 bearing $-CHO$)\n- $\\beta$ = C3\n- $\\gamma$ = C4\nSo $\\gamma$-methylcyclohexane carbaldehyde has $-CH_3$ at C4 (para position) of the cyclohexane ring with $-CHO$ directly attached to C1 (not via $-CH_2-$).\nStructure A shows the $-CHO$ directly on the ring with $CH_3$ at the $\\gamma$ (4) position.",
+    "solution_images": [
+      "42_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Predict the products in the given reaction: 2-chloro benzaldehyde + 50% KOH → ?",
+    "question_latex": "Predict the products in the given reaction: $2-Cl-C_6H_4-CHO \\xrightarrow{50\\% KOH} ?$",
+    "question_images": [
+      "43_qu_1.png"
+    ],
+    "options": [
+      "A. 2-Cl-C6H4-CH2OH + 2-Cl-C6H4-COO-",
+      "B. 2-Cl-C6H4-CH2OH + 2-Cl-C6H4-COOH",
+      "C. 2-HO-C6H4-CH2OH + 2-HO-C6H4-COO-",
+      "D. 2-Cl-C6H4-CH2OH + CH3COO-"
+    ],
+    "option_images": [
+      "43_opA_1.png",
+      "43_opA_2.png",
+      "43_opB_1.png",
+      "43_opB_2.png",
+      "43_opC_1.png",
+      "43_opC_2.png",
+      "43_opD_1.png",
+      "43_opD_2.png"
+    ],
+    "answer": "A. 2-Cl-C6H4-CH2OH + 2-Cl-C6H4-COO-",
+    "solution": "2-Chlorobenzaldehyde has no $\\alpha$-hydrogen, so it undergoes Cannizzaro reaction with concentrated $KOH$:\n$$2 \\, o\\text{-}ClC_6H_4CHO \\xrightarrow{50\\%\\, KOH} o\\text{-}ClC_6H_4CH_2OH + o\\text{-}ClC_6H_4COO^-$$\nOne molecule is oxidized to carboxylate; the other is reduced to benzyl alcohol.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Carbon forms a very large number of compounds because:",
+    "question_latex": "Carbon forms a very large number of compounds because:",
+    "question_images": [],
+    "options": [
+      "A. It is a non-metal",
+      "B. It forms covalent bonds",
+      "C. It has a strong tendency of catenation",
+      "D. Compounds are combustible"
+    ],
+    "option_images": [],
+    "answer": "C. It has a strong tendency of catenation",
+    "solution": "Carbon forms a very large number of compounds primarily because it has a strong tendency of catenation — the ability of carbon atoms to link with other carbon atoms to form long chains, branched chains, and ring structures. This unique property leads to the vast diversity of organic compounds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Which one is a polyprotic acid?",
+    "question_latex": "Which one is a polyprotic acid?",
+    "question_images": [],
+    "options": [
+      "A. Acetic acid",
+      "B. Oxalic acid",
+      "C. Benzoic acid",
+      "D. Salicylic acid"
+    ],
+    "option_images": [],
+    "answer": "B. Oxalic acid",
+    "solution": "Oxalic acid ($HOOC-COOH$) is a dibasic (diprotic) acid. A polyprotic acid donates more than one proton:\n$$HOOC-COOH \\rightarrow HOOC-COO^- + H^+ \\rightarrow OOC-COO^{2-} + 2H^+$$\nAcetic acid, benzoic acid, and salicylic acid (in terms of carboxylic group) are monoprotic acids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "One mole of HCHO and 2 mol of PhCHO react with conc. NaOH. What are the products quantitatively?",
+    "question_latex": "One mole of $HCHO$ and 2 mol of $PhCHO$ react with conc. $NaOH$. What are the products quantitatively?",
+    "question_images": [],
+    "options": [
+      "A. 1 mol of HCOONa, 1 mol of PhCH2OH, and 1 mol of PhCOONa",
+      "B. 1 mol of HCOONa, 1 mol of PhCH2OH, and 0.5 mol of PhCOONa",
+      "C. 1 mol of HCOONa, 1.5 mol of PhCH2OH, and 0.5 mol of PhCOONa",
+      "D. 1 mol of HCOONa, 2 mol of PhCH2OH, and 2 mol of PhCOONa"
+    ],
+    "option_images": [],
+    "answer": "C. 1 mol of HCOONa, 1.5 mol of PhCH2OH, and 0.5 mol of PhCOONa",
+    "solution": "In crossed Cannizzaro reaction between $HCHO$ and $PhCHO$ with $NaOH$:\n$HCHO$ preferentially acts as the hydride donor (reducing agent) because it is more reactive.\nReaction 1: $HCHO + PhCHO \\xrightarrow{NaOH} HCOONa + PhCH_2OH$ (1 mol HCHO reduces 1 mol PhCHO)\nRemaining 1 mol $PhCHO$ undergoes self-Cannizzaro:\nReaction 2: $2PhCHO \\xrightarrow{NaOH} PhCH_2OH + PhCOONa$ (0.5 mol each)\nNet: 1 mol $HCOONa$, 1.5 mol $PhCH_2OH$, 0.5 mol $PhCOONa$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Benzaldehyde condenses with acetaldehyde to produce",
+    "question_latex": "Benzaldehyde condenses with acetaldehyde to produce",
+    "question_images": [],
+    "options": [
+      "A. Cinnamic acid",
+      "B. Benzoic acid",
+      "C. Cinnamaldehyde",
+      "D. Acetic anhydride"
+    ],
+    "option_images": [],
+    "answer": "C. Cinnamaldehyde",
+    "solution": "This reaction is an example of Claisen-Schmidt reaction (Claisen condensation):\n$$C_6H_5-CHO + CH_3-CHO \\xrightarrow{NaOH, -H_2O} C_6H_5-CH=CH-CHO$$\n(cinnamaldehyde)\nBenzaldehyde (no $\\alpha$-H) condenses with acetaldehyde (has $\\alpha$-H) via cross aldol condensation followed by dehydration to give cinnamaldehyde.",
+    "solution_images": [
+      "47_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "The major product obtained in the following reaction is: A bicyclic compound with an ester (lactone) ring and a COOH group reacted with DIBAL-H (2016)",
+    "question_latex": "The major product obtained in the following reaction is: bicyclic compound $\\xrightarrow{DIBAL-H} ?$ (2016)",
+    "question_images": [
+      "48_qu_1.png"
+    ],
+    "options": [
+      "A. CHO + COOH",
+      "B. CHO + CHO",
+      "C. OH + CHO (COOH intact)",
+      "D. OH + CHO (lactone reduced to CHO)"
+    ],
+    "option_images": [
+      "48_opA_1.png",
+      "48_opB_1.png",
+      "48_opC_1.png",
+      "48_opD_1.png"
+    ],
+    "answer": "D. OH + CHO (lactone reduced to CHO)",
+    "solution": "$DIBAL-H$ is a bulky compound and a strong reducing agent which reduces cyanides, esters, lactones, amides, and carboxylic acids into their corresponding aldehydes (partial reduction):\n- The lactone (cyclic ester) part is reduced to give $-CHO$ (hemiacetal opens to aldehyde).\n- The $-COOH$ is also reduced to $-CHO$.\nProduct has two $-CHO$ groups with $-OH$ present.",
+    "solution_images": [
+      "48_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "Given below are two statements: [04 April, 2024 (Shift-I)] Statement I: Acidity of alpha-hydrogens of aldehydes and ketones is responsible for Aldol reaction. Statement II: Reaction between benzaldehyde and ethanal will NOT give Cross-Aldol product.",
+    "question_latex": "Given below are two statements: [04 April, 2024 (Shift-I)] Statement I: Acidity of $\\alpha$-hydrogens of aldehydes and ketones is responsible for Aldol reaction. Statement II: Reaction between benzaldehyde and ethanal will NOT give Cross-Aldol product.",
+    "question_images": [],
+    "options": [
+      "A. Both Statement I and Statement II are incorrect.",
+      "B. Statement I is correct but Statement II is incorrect.",
+      "C. Both Statement I and Statement II are correct.",
+      "D. Statement I is incorrect but Statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Statement I is correct but Statement II is incorrect.",
+    "solution": "Statement I is CORRECT: Aldol condensation is shown by aldehydes and ketones having acidic $\\alpha$-hydrogen. The acidic $\\alpha$-H forms a carbanion (enolate) that attacks another carbonyl compound.\nStatement II is INCORRECT: Benzaldehyde (no $\\alpha$-H) and ethanal ($CH_3CHO$, has $\\alpha$-H) DO give a Cross-Aldol product:\n$$C_6H_5CHO + CH_3CHO \\xrightarrow{Base, \\Delta} C_6H_5-CH=CH-CHO$$\n(cinnamaldehyde — a cross aldol condensation product)",
+    "solution_images": [
+      "49_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "question": "When an acyl chloride is heated with Na salt of a carboxylic acid, the product is an",
+    "question_latex": "When an acyl chloride is heated with Na salt of a carboxylic acid, the product is an",
+    "question_images": [],
+    "options": [
+      "A. Ester",
+      "B. Anhydride",
+      "C. Alkene",
+      "D. Aldehyde"
+    ],
+    "option_images": [],
+    "answer": "B. Anhydride",
+    "solution": "When an acyl chloride ($R-\\overset{O}{\\overset{\\|}{C}}-Cl$) is heated with the sodium salt of a carboxylic acid ($R'-\\overset{O}{\\overset{\\|}{C}}-ONa$), the product is an acid anhydride:\n$$R-\\overset{O}{\\overset{\\|}{C}}-Cl + R'-\\overset{O}{\\overset{\\|}{C}}-ONa \\rightarrow R-\\overset{O}{\\overset{\\|}{C}}-O-\\overset{O}{\\overset{\\|}{C}}-R' + NaCl$$\n(acid anhydride + sodium chloride)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

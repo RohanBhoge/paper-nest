@@ -22,9 +22,8 @@ export const generatePaperSchema = Joi.object({
         Joi.string().allow(''),
         Joi.array().items(Joi.string())
     ).optional(),
-    count: Joi.number().integer().min(1).max(200).optional().messages({
-        'number.min': 'Count must be at least 1',
-        'number.max': 'Count cannot exceed 200'
+    count: Joi.number().integer().min(1).optional().messages({
+        'number.min': 'Count must be at least 1'
     }),
     seed: Joi.string().optional(),
     fixed: Joi.boolean().optional()

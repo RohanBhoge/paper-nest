@@ -1,0 +1,1985 @@
+[
+  {
+    "id": 1,
+    "chapter": "Electromagnetic Induction",
+    "question": "Induced emf in the coil depends upon",
+    "question_latex": "Induced emf in the coil depends upon",
+    "question_images": [],
+    "options": [
+      "A. Conductivity of coil",
+      "B. Amount of flux",
+      "C. Rate of change of linked flux",
+      "D. Resistance of coil"
+    ],
+    "option_images": [],
+    "answer": "C. Rate of change of linked flux",
+    "solution": "According to Faraday's law, the induced emf in a closed loop equals the time rate of change of magnetic flux through the loop.\ni.e., $e=-\\frac{d\\phi_{B}}{dt}$\nHence, induced emf in a coil depends on rate of change of flux.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Electromagnetic Induction",
+    "question": "The current i in an inductance coil varies with time t according to the graph shown in fig. Which one of the following plots shows the variation of voltage in the coil with time",
+    "question_latex": "The current $i$ in an inductance coil varies with time $t$ according to the graph shown in fig. Which one of the following plots shows the variation of voltage in the coil with time",
+    "question_images": [
+      "2_qu_1.png",
+      "2_qu_2.png"
+    ],
+    "options": [
+      "A. Graph A",
+      "B. Graph B",
+      "C. Graph C",
+      "D. Graph D"
+    ],
+    "option_images": [
+      "2_op_1.png"
+    ],
+    "answer": "C. Graph C",
+    "solution": "According to $i-t$ graph, in the first half current is increasing uniformly so a constant negative emf induces in the circuit ($e = -L \\frac{di}{dt}$).\nIn the second half current is decreasing uniformly so a constant positive emf induces.\nHence graph (c) is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Electromagnetic Induction",
+    "question": "Assertion: Induced emf will always occur whenever there is change in magnetic flux.\nReason: Current always induces whenever there is change in magnetic flux.",
+    "question_latex": "Assertion: Induced emf will always occur whenever there is change in magnetic flux.\nReason: Current always induces whenever there is change in magnetic flux.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+      "C. Assertion is correct, reason is incorrect",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Assertion is correct, reason is incorrect",
+    "solution": "Emf will always induces whenever, there is change in magnetic flux. The current will induced only in closed loop.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Electromagnetic Induction",
+    "question": "The current generator ig, shown in figure, sends a constant current i through the circuit. The wire ab has a length l and mass m slide on the smooth, horizontal rails connected to ig. The entire system lies in a vertical magnetic field B. The velocity of the wire as a function of time is",
+    "question_latex": "The current generator $i_{g}$, shown in figure, sends a constant current $i$ through the circuit. The wire $ab$ has a length $l$ and mass $m$ slide on the smooth, horizontal rails connected to $i_{g}$. The entire system lies in a vertical magnetic field $B$. The velocity of the wire as a function of time is",
+    "question_images": [
+      "4_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{ilBt}{m}$",
+      "B. $\\frac{ilBt}{2m}$",
+      "C. $\\frac{2ilBt}{m}$",
+      "D. $\\frac{ilBt}{3m}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{ilBt}{m}$",
+    "solution": "Force on the wire $=ilB$,\nAcceleration $= \\frac{ilB}{m}$\nVelocity $= at = \\frac{ilBt}{m}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Electromagnetic Induction",
+    "question": "Given L1 = 1 mH, R1 = 1 Ω, L2 = 2 mH, R2 = 2 Ω. Neglecting mutual inductance, the time constants (in ms) for circuits (i), (ii) and (iii) are",
+    "question_latex": "Given $L_{1}=1~mH, R_{1}=1~\\Omega, L_{2}=2~mH, R_{2}=2~\\Omega$. Neglecting mutual inductance, the time constants (in ms) for circuits (i), (ii) and (iii) are",
+    "question_images": [
+      "5_qu_1.png"
+    ],
+    "options": [
+      "A. 1, 1, 9/2",
+      "B. 9/4, 1, 1",
+      "C. 1, 1, 1",
+      "D. 1, 9/4, 1"
+    ],
+    "option_images": [],
+    "answer": "A. 1, 1, 9/2",
+    "solution": "In the first circuit: $L = L_1 + L_2 = 3mH$, $R = R_1 + R_2 = 3\\Omega$. $\\tau_1 = L/R = 1$ ms.\nIn the second circuit: $L = \\frac{L_1 L_2}{L_1 + L_2} = \\frac{2}{3}mH$, $R = \\frac{R_1 R_2}{R_1 + R_2} = \\frac{2}{3}\\Omega$. $\\tau_2 = \\frac{2/3}{2/3} = 1$ ms.\nIn the third circuit: $L = L_1 + L_2 = 3mH$, $R = \\frac{R_1 R_2}{R_1 + R_2} = \\frac{2}{3}\\Omega$. $\\tau_3 = \\frac{3}{2/3} = \\frac{9}{2}$ ms.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting circular loop is placed in a uniform magnetic field of induction B tesla with its plane normal to the field. Now, the radius of the loop starts shrinking at the rate (dr/dt). Then, the induced emf at the instant when the radius is r, is",
+    "question_latex": "A conducting circular loop is placed in a uniform magnetic field of induction $B$ tesla with its plane normal to the field. Now, the radius of the loop starts shrinking at the rate $(\\frac{dr}{dt})$. Then, the induced emf at the instant when the radius is $r$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\pi rB(\\frac{dr}{dt})$",
+      "B. $2\\pi rB(\\frac{dr}{dt})$",
+      "C. $\\pi r^{2}(\\frac{dB}{dt})$",
+      "D. $(\\frac{\\pi r^{2}}{2})B(\\frac{dr}{dt})$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\pi rB(\\frac{dr}{dt})$",
+    "solution": "Induced emf $e = -\\frac{d\\phi}{dt} = -\\frac{d}{dt}(\\pi r^2 B) = -\\pi B (2r \\frac{dr}{dt}) = -2\\pi r B \\frac{dr}{dt}$.\nNumerically, $e = 2\\pi r B (\\frac{dr}{dt})$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Electromagnetic Induction",
+    "question": "In the figure shown, a circuit contains two identical resistors with resistance R = 5 Ω and an inductance with L = 2mH. An ideal battery of 15 V is connected in the circuit. What will be the current through the battery long after the switch is closed?",
+    "question_latex": "In the figure shown, a circuit contains two identical resistors with resistance $R=5\\Omega$ and an inductance with $L=2mH$. An ideal battery of $15 V$ is connected in the circuit. What will be the current through the battery long after the switch is closed?",
+    "question_images": [
+      "7_qu_1.png"
+    ],
+    "options": [
+      "A. 7.5 A",
+      "B. 5.5 A",
+      "C. 3 A",
+      "D. 6 A"
+    ],
+    "option_images": [],
+    "answer": "D. 6 A",
+    "solution": "The coil offers zero resistance (short circuit for DC) after the switch is closed for a long time.\nThe two resistors R are in parallel.\n$R_{eq} = \\frac{R \\times R}{R + R} = \\frac{R}{2} = 2.5 \\Omega$.\n$I = \\frac{V}{R_{eq}} = \\frac{15}{2.5} = 6 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a transformer, number of turns in the primary are 140 and that in the secondary are 280. If current in primary is 4A, then that in the secondary is",
+    "question_latex": "In a transformer, number of turns in the primary are 140 and that in the secondary are 280. If current in primary is $4A$, then that in the secondary is",
+    "question_images": [],
+    "options": [
+      "A. 4 A",
+      "B. 2 A",
+      "C. 6 A",
+      "D. 10 A"
+    ],
+    "option_images": [],
+    "answer": "B. 2 A",
+    "solution": "For an ideal transformer, $\\frac{I_s}{I_p} = \\frac{N_p}{N_s}$.\n$I_s = I_p \\times \\frac{N_p}{N_s} = 4 \\times \\frac{140}{280} = 4 \\times \\frac{1}{2} = 2 A$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a coil of resistance 100 Ω, a current is induced by changing the magnetic flux through it as shown in the figure. The magnitude of change in flux through the coil is",
+    "question_latex": "In a coil of resistance $100 \\Omega$, a current is induced by changing the magnetic flux through it as shown in the figure. The magnitude of change in flux through the coil is",
+    "question_images": [
+      "9_qu_1.png"
+    ],
+    "options": [
+      "A. 225 Wb",
+      "B. 200 Wb",
+      "C. 250 Wb",
+      "D. 275 Wb"
+    ],
+    "option_images": [],
+    "answer": "C. 250 Wb",
+    "solution": "Induced charge $q = \\int i dt = \\text{Area under i-t graph} = \\frac{1}{2} \\times 10 \\times 0.5 = 2.5$ C.\nChange in flux $\\Delta \\phi = R \\times q = 100 \\times 2.5 = 250$ Wb.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Electromagnetic Induction",
+    "question": "A metal conductor of length 1 m rotates vertically about one of its ends at angular velocity 5 rad s^-1. If the horizontal component of earth's magnetic field is 0.2 x 10^-4 T, then the emf developed between the two ends of the conductor is",
+    "question_latex": "A metal conductor of length $1 m$ rotates vertically about one of its ends at angular velocity $5 rad s^{-1}$. If the horizontal component of earth's magnetic field is $0.2 \\times 10^{-4} T$, then the emf developed between the two ends of the conductor is",
+    "question_images": [],
+    "options": [
+      "A. 5 µV",
+      "B. 50 µV",
+      "C. 5 mV",
+      "D. 50 mV"
+    ],
+    "option_images": [],
+    "answer": "B. 50 µV",
+    "solution": "$e = \\frac{1}{2} B \\omega L^2 = \\frac{1}{2} \\times 0.2 \\times 10^{-4} \\times 5 \\times (1)^2 = 0.5 \\times 10^{-4} V = 50 \\mu V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Electromagnetic Induction",
+    "question": "A rectangular ABCD which is rotated at a constant angular velocity about an horizontal as shown in the figure. The axis of rotation of the coil as well as the magnetic field B are horizontal. Maximum current will flow in the circuit when the plane of the coil is",
+    "question_latex": "A rectangular ABCD which is rotated at a constant angular velocity about an horizontal as shown in the figure. The axis of rotation of the coil as well as the magnetic field $B$ are horizontal. Maximum current will flow in the circuit when the plane of the coil is",
+    "question_images": [
+      "11_qu_1.png"
+    ],
+    "options": [
+      "A. Inclined at 30° to the magnetic field",
+      "B. Perpendicular to the magnetic field",
+      "C. Inclined at 45° to the magnetic field",
+      "D. Parallel to the magnetic field"
+    ],
+    "option_images": [],
+    "answer": "D. Parallel to the magnetic field",
+    "solution": "Induced emf $e = NAB\\omega \\sin(\\omega t)$. The emf (and current) is maximum when $\\sin(\\omega t) = 1$, i.e., $\\omega t = 90^{\\circ}$. This corresponds to the angle between the normal to the coil and the magnetic field being $90^{\\circ}$. Thus, the plane of the coil is parallel to the magnetic field.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Electromagnetic Induction",
+    "question": "A uniform but time-varying magnetic field B(t) exists in a circular region of radius a and is directed into the plane of the paper, as shown. The magnitude of the induced electric filed at point P at a distance r from the centre of the circular region x",
+    "question_latex": "A uniform but time-varying magnetic field $B(t)$ exists in a circular region of radius $a$ and is directed into the plane of the paper, as shown. The magnitude of the induced electric filed at point $P$ at a distance $r$ from the centre of the circular region $x$",
+    "question_images": [
+      "12_qu_1.png"
+    ],
+    "options": [
+      "A. Is zero",
+      "B. Decreases as 1/r",
+      "C. Increases as r",
+      "D. Decreases as 1/r^2"
+    ],
+    "option_images": [],
+    "answer": "B. Decreases as 1/r",
+    "solution": "For $r \\ge a$, using Faraday's law in integral form $\\oint E \\cdot dl = |\\frac{d\\phi}{dt}|$: $E(2\\pi r) = \\pi a^2 \\frac{dB}{dt}$.\n$E = \\frac{a^2}{2r} \\frac{dB}{dt}$. Thus $E \\propto \\frac{1}{r}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Electromagnetic Induction",
+    "question": "There is a conducting ring of radius R. Another ring having current i and radius r (r<<R) is kept on the axis of bigger ring such that its centre lies on the axis of bigger ring at a distance x from the centre of bigger ring and its plane is perpendicular to that axis. The mutual inductance of the bigger ring due to the smaller ring is",
+    "question_latex": "There is a conducting ring of radius $R$. Another ring having current $i$ and radius $r (r \\ll R)$ is kept on the axis of bigger ring such that its centre lies on the axis of bigger ring at a distance $x$ from the centre of bigger ring and its plane is perpendicular to that axis. The mutual inductance of the bigger ring due to the smaller ring is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\mu_{0}\\pi R^{2}r^{2}}{(R^{2}+x^{2})^{3/2}}$",
+      "B. $\\frac{\\mu_{0}\\pi R^{2}r^{2}}{4(R^{2}+x^{2})^{3/2}}$",
+      "C. $\\frac{\\mu_{0}\\pi R^{2}r^{2}}{16(R^{2}+x^{2})^{3/2}}$",
+      "D. $\\frac{\\mu_{0}\\pi R^{2}r^{2}}{2(R^{2}+x^{2})^{3/2}}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{\\mu_{0}\\pi R^{2}r^{2}}{2(R^{2}+x^{2})^{3/2}}$",
+    "solution": "Magnetic field on the axis of the bigger ring (radius R) carrying current $I$: $B = \\frac{\\mu_0 I R^2}{2(R^2+x^2)^{3/2}}$.\nFlux through smaller ring (radius r): $\\phi = B \\times \\pi r^2 = \\frac{\\mu_0 I R^2 \\pi r^2}{2(R^2+x^2)^{3/2}}$.\nMutual Inductance $M = \\phi/I = \\frac{\\mu_0 \\pi R^2 r^2}{2(R^2+x^2)^{3/2}}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Electromagnetic Induction",
+    "question": "A rectangular loop has a sliding connector PQ of length l and resistance R and it is moving with a speed v as shown. The set-up is placed in a uniform magnetic field going into the plane of the paper. The three currents I1, I2 and I are",
+    "question_latex": "A rectangular loop has a sliding connector $PQ$ of length $l$ and resistance $R$ and it is moving with a speed $v$ as shown. The set-up is placed in a uniform magnetic field going into the plane of the paper. The three currents $I_{1}, I_{2}$ and $I$ are",
+    "question_images": [
+      "14_qu_1.png"
+    ],
+    "options": [
+      "A. $I_{1}=I_{2}=\\frac{Blv}{6R}, I=\\frac{Blv}{3R}$",
+      "B. $I_{1}=I_{2}=\\frac{Blv}{3R}, I=\\frac{2Blv}{3R}$",
+      "C. $I_{1}=I_{2}=\\frac{Blv}{3R}, I=\\frac{2Blv}{3R}$",
+      "D. $I_{1}=I_{2}=I=\\frac{Blv}{R}$"
+    ],
+    "option_images": [],
+    "answer": "C. $I_{1}=I_{2}=\\frac{Blv}{3R}, I=\\frac{2Blv}{3R}$",
+    "solution": "The moving rod PQ acts as a source of emf $e = Blv$. The circuit consists of the rod's resistance R in series with the parallel combination of the two side loops (each having resistance R). Total resistance $R_{eq} = R + (R || R) = R + R/2 = 3R/2$. Total current $I = \\frac{Blv}{3R/2} = \\frac{2Blv}{3R}$. This current divides equally into $I_1$ and $I_2$, so $I_1 = I_2 = I/2 = \\frac{Blv}{3R}$. (Note: Options B and C appear identical in text, but logic holds for the values).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Electromagnetic Induction",
+    "question": "A rod with circular cross-section area 2 cm^2 and length 40 cm is wound uniformly with 400 turns of an insulated wire. If a current of 0.4 A flows in the wire windings, the total magnetic flux produced inside windings is 4π x 10^-6 Wb. The relative permeability of the rod is",
+    "question_latex": "A rod with circular cross-section area $2 cm^{2}$ and length $40 cm$ is wound uniformly with $400$ turns of an insulated wire. If a current of $0.4 A$ flows in the wire windings, the total magnetic flux produced inside windings is $4\\pi\\times10^{-6}$ Wb. The relative permeability of the rod is",
+    "question_images": [],
+    "options": [
+      "A. 32/5",
+      "B. 125",
+      "C. 5/16",
+      "D. 12.5"
+    ],
+    "option_images": [],
+    "answer": "C. 5/16",
+    "solution": "Flux $\\phi = B A = (\\mu_r \\mu_0 n I) A$. Here $\\phi$ is given as total flux? Or flux per turn? Usually flux refers to BA. The solution provided uses $\\phi = (\\mu_r \\mu_0 n I A) \\times N$? No, standard flux is BA. But the solution derives $\\mu_r = 5/16$. Let's trace back: $\\phi_{total} = NBA$ might be interpreted if \"total magnetic flux\" implies flux linkage, but unit is Wb, usually just $\\phi$. If $\\phi = 4\\pi \\times 10^{-6}$, and $B = \\mu_r \\mu_0 \\frac{N}{L} I$. Then $\\mu_r = \\frac{\\phi L}{\\mu_0 N I A} = \\frac{4\\pi \\times 10^{-6} \\times 0.4}{4\\pi \\times 10^{-7} \\times 400 \\times 0.4 \\times 2 \\times 10^{-4}}$. This yields $\\mu_r = \\frac{10 \\times 0.4}{400 \\times 0.4 \\times 2 \\times 10^{-4}} = \\frac{4}{320 \\times 10^{-4}} = \\frac{4}{0.032} = 125$. Wait, the solution snippet says $\\mu_r = 5/16$ and options include 32/5, 125, etc. If the provided answer is C (which corresponds to calculation in the snippet leading to 5/16 or similar), I will stick to the provided solution logic if clear, or mark the answer given in the source. Source says Ans: (C) and calculation $\\mu_r = 5/16$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Electromagnetic Induction",
+    "question": "The magnetic flux through a circuit of resistance R changes by an amount Δφ in a time Δt. Then the total quantity of electric charge Q that passes any point in the circuit during the time Δt is represented by",
+    "question_latex": "The magnetic flux through a circuit of resistance $R$ changes by an amount $\\Delta\\phi$ in a time $\\Delta t$. Then the total quantity of electric charge $Q$ that passes any point in the circuit during the time $\\Delta t$ is represented by",
+    "question_images": [],
+    "options": [
+      "A. $Q = R \\cdot \\frac{\\Delta\\phi}{\\Delta t}$",
+      "B. $Q = \\frac{1}{R} \\cdot \\frac{\\Delta\\phi}{\\Delta t}$",
+      "C. $Q = \\frac{\\Delta\\phi}{R}$",
+      "D. $Q = \\frac{\\Delta\\phi}{\\Delta t}$"
+    ],
+    "option_images": [],
+    "answer": "C. $Q = \\frac{\\Delta\\phi}{R}$",
+    "solution": "$I = \\frac{e}{R} = \\frac{1}{R} \\frac{d\\phi}{dt}$. Charge $Q = \\int I dt = \\int \\frac{1}{R} \\frac{d\\phi}{dt} dt = \\frac{1}{R} \\int d\\phi = \\frac{\\Delta\\phi}{R}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Electromagnetic Induction",
+    "question": "A coil having 500 square loops each of side 10 cm is placed normal to a magnetic field which increases at the rate of 1 Wm^-2. The induced emf is",
+    "question_latex": "A coil having $500$ square loops each of side $10 cm$ is placed normal to a magnetic field which increases at the rate of $1 Wm^{-2}$. The induced emf is",
+    "question_images": [],
+    "options": [
+      "A. 0.1 V",
+      "B. 5.0 V",
+      "C. 0.5 V",
+      "D. 1.0 V"
+    ],
+    "option_images": [],
+    "answer": "B. 5.0 V",
+    "solution": "$e = N \\frac{d\\phi}{dt} = N A \\frac{dB}{dt}$. $N=500$, $A = (0.1)^2 = 0.01 m^2$, $dB/dt = 1 T/s$. $e = 500 \\times 0.01 \\times 1 = 5.0 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Electromagnetic Induction",
+    "question": "A coil of 40 Ω resistance has 100 turns and radius 6 mm is connected to ammeter of resistance of 160 ohms. Coil is placed perpendicular to the magnetic field. When coil is taken out of the field, 32 µC charge flows through it. The intensity of magnetic field will be",
+    "question_latex": "A coil of $40 \\Omega$ resistance has $100$ turns and radius $6 mm$ is connected to ammeter of resistance of $160$ ohms. Coil is placed perpendicular to the magnetic field. When coil is taken out of the field, $32 \\mu C$ charge flows through it. The intensity of magnetic field will be",
+    "question_images": [],
+    "options": [
+      "A. 6.55 T",
+      "B. 5.66 T",
+      "C. 0.655 T",
+      "D. 0.566 T"
+    ],
+    "option_images": [],
+    "answer": "D. 0.566 T",
+    "solution": "$q = \\frac{N \\Delta\\phi}{R_{total}} = \\frac{N B A}{R + R_A}$. $32 \\times 10^{-6} = \\frac{100 \\times B \\times \\pi (6 \\times 10^{-3})^2}{40 + 160}$. Solving for B gives $B \\approx 0.566 T$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Electromagnetic Induction",
+    "question": "If the magnetic flux linked with a coil through which a current of x is set up is y Wb, then the coefficient of self inductance of the coil is",
+    "question_latex": "If the magnetic flux linked with a coil through which a current of $x$ is set up is $y$ Wb, then the coefficient of self inductance of the coil is",
+    "question_images": [],
+    "options": [
+      "A. $(x-y)$ henry",
+      "B. $\\frac{x}{y}$ henry",
+      "C. $\\frac{y}{x}$ henry",
+      "D. $xy$ henry"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{y}{x}$ henry",
+    "solution": "$\\phi = L I$. Here $\\phi = y$ and $I = x$. So $L = y/x$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Electromagnetic Induction",
+    "question": "Two concentric and coplanar coils have radii a and b (b >> a) as shown in fig. Resistance of the inner coil is R. Current in the outer is increased from 0 to i, then the total change circulating the inner coil is",
+    "question_latex": "Two concentric and coplanar coils have radii $a$ and $b (b \\gg a)$ as shown in fig. Resistance of the inner coil is $R$. Current in the outer is increased from $0$ to $i$, then the total change circulating the inner coil is",
+    "question_images": [
+      "20_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{\\mu_{0}ia^{2}\\pi}{2Rb}$",
+      "B. $\\frac{\\mu_{0}iab}{2R}$",
+      "C. $\\frac{\\mu_{0}iab}{2a}\\frac{\\pi b^{2}}{R}$",
+      "D. $\\frac{\\mu_{0}ib}{2\\pi R}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\mu_{0}ia^{2}\\pi}{2Rb}$",
+    "solution": "Flux through inner coil due to outer current $i$: $\\phi = B_{outer} A_{inner} = (\\frac{\\mu_0 i}{2b})(\\pi a^2)$. Charge $q = \\frac{\\Delta \\phi}{R} = \\frac{\\mu_0 i \\pi a^2}{2b R}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Electromagnetic Induction",
+    "question": "An e.m.f of 15 V is applied in a circuit containing 5 H inductance and 10 Ω resistance. The ratio of the currents at time t=∞ and t=1 s is",
+    "question_latex": "An e.m.f of $15 V$ is applied in a circuit containing $5 H$ inductance and $10 \\Omega$ resistance. The ratio of the currents at time $t=\\infty$ and $t=1 s$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{e^{1/2}}{e^{1/2}-1}$",
+      "B. $\\frac{e^{2}}{e^{2}-1}$",
+      "C. $1-e^{-1}$",
+      "D. $e^{-1}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{e^{2}}{e^{2}-1}$",
+    "solution": "$I(t) = I_0 (1 - e^{-Rt/L})$. $I_{\\infty} = I_0$. At $t=1$, $I_1 = I_0 (1 - e^{-10(1)/5}) = I_0 (1 - e^{-2})$. Ratio $I_{\\infty}/I_1 = \\frac{1}{1 - e^{-2}} = \\frac{e^2}{e^2 - 1}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Electromagnetic Induction",
+    "question": "A very long solenoid of radius R is carrying current I(t) = kte^(-at) (k>0), as a function of time (t>=0). Counter clockwise current is taken to be positive. A circular conducting coil of radius 2R is placed in the equatorial plane of the solenoid and concentric with the solenoid. The current induced in the outer coil is correctly depicted, as a function of time, by",
+    "question_latex": "A very long solenoid of radius $R$ is carrying current $I(t) = kte^{-\\alpha t} (k>0)$, as a function of time $(t \\ge 0)$. Counter clockwise current is taken to be positive. A circular conducting coil of radius $2R$ is placed in the equatorial plane of the solenoid and concentric with the solenoid. The current induced in the outer coil is correctly depicted, as a function of time, by",
+    "question_images": [],
+    "options": [
+      "A. Graph A",
+      "B. Graph B",
+      "C. Graph C",
+      "D. Graph D"
+    ],
+    "option_images": [
+      "22_op_1.png"
+    ],
+    "answer": "C. Graph C",
+    "solution": "Flux $\\phi \\propto I(t) = kte^{-\\alpha t}$. Induced emf $\\epsilon = -d\\phi/dt \\propto -k e^{-\\alpha t} (1 - \\alpha t)$. At $t=0$, $\\epsilon < 0$. At $t=1/\\alpha$, $\\epsilon = 0$. For $t > 1/\\alpha$, $\\epsilon > 0$. The current follows the same profile. Graph C starts negative, crosses zero, and becomes positive.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Electromagnetic Induction",
+    "question": "Consider the statements: (I) If B=0, then magnetic flux is also zero. (II) If magnetic flux, φ=0 then magnetic field is also zero.",
+    "question_latex": "Consider the statements: (I) If $B=0$, then magnetic flux is also zero. (II) If magnetic flux, $\\phi=0$ then magnetic field is also zero.",
+    "question_images": [],
+    "options": [
+      "A. (I) is true, (II) may be true",
+      "B. Both (I) and (II) are true",
+      "C. (I) may be true, (II) is true",
+      "D. (I) and (II) both are false"
+    ],
+    "option_images": [],
+    "answer": "A. (I) is true, (II) may be true",
+    "solution": "If B=0 everywhere, flux is zero. If flux is zero, B might not be zero (e.g., field parallel to surface, or net flux zero through closed surface).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Electromagnetic Induction",
+    "question": "A metal conductor of length 1 m rotates vertically about one of its ends at angular velocity 5 radian per second. If the horizontal component of earth's magnetic field is 0.2 x 10^-4 T, then the e.m.f. developed between the two ends of the conductor is",
+    "question_latex": "A metal conductor of length $1 m$ rotates vertically about one of its ends at angular velocity $5$ radian per second. If the horizontal component of earth's magnetic field is $0.2 \\times 10^{-4} T$, then the e.m.f. developed between the two ends of the conductor is",
+    "question_images": [],
+    "options": [
+      "A. 5 mV",
+      "B. 50 µV",
+      "C. 5 µV",
+      "D. 50 mV"
+    ],
+    "option_images": [],
+    "answer": "B. 50 µV",
+    "solution": "Same as Q10. $e = 50 \\mu V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Electromagnetic Induction",
+    "question": "A coil is placed in a time varying magnetic field. If the number of turns in the coil were to be halved and the radius of wire doubled, the electrical power dissipated due to the current induced in the coil would be (Assume the coil to be short circuited.)",
+    "question_latex": "A coil is placed in a time varying magnetic field. If the number of turns in the coil were to be halved and the radius of wire doubled, the electrical power dissipated due to the current induced in the coil would be (Assume the coil to be short circuited.)",
+    "question_images": [],
+    "options": [
+      "A. halved",
+      "B. quadrupled",
+      "C. the same",
+      "D. doubled"
+    ],
+    "option_images": [],
+    "answer": "D. doubled",
+    "solution": "Induced emf $\\epsilon \\propto N$. Resistance $R \\propto N/r^2$ (length proportional to N, area proportional to $r^2$). If N becomes N/2, $\\epsilon$ becomes $\\epsilon/2$. Wire radius doubled means cross-section area becomes 4 times, so resistance per unit length becomes 1/4. Total length halved (N/2), resistance per length 1/4 -> Total R becomes $(1/2) * (1/4) = 1/8$. Power $P = \\epsilon^2 / R$. New Power $P' = (\\epsilon/2)^2 / (R/8) = (\\epsilon^2/4) / (R/8) = 2 P$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Electromagnetic Induction",
+    "question": "Assertion: Figure shows a horizontal solenoid connected to a battery and a switch. A copper ring is placed on a smooth surface, the axis of the ring being horizontal. As the switch is closed, the ring will move away from the solenoid.\nReason: Induced emf in the ring, e = -dφ/dt.",
+    "question_latex": "Assertion: Figure shows a horizontal solenoid connected to a battery and a switch. A copper ring is placed on a smooth surface, the axis of the ring being horizontal. As the switch is closed, the ring will move away from the solenoid.\nReason: Induced emf in the ring, $e = -\\frac{d\\phi}{dt}$.",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+      "C. Assertion is correct, reason is incorrect",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+    "solution": "When switch is closed, flux increases. By Lenz's law (which comes from Faraday's law e = -dphi/dt), the induced current creates a field to oppose the increase, resulting in repulsion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Electromagnetic Induction",
+    "question": "The self inductance of the motor of an electric fan is 10H. In order to impart maximum power at 50 Hz, it should be connected to a capacitance of",
+    "question_latex": "The self inductance of the motor of an electric fan is $10H$. In order to impart maximum power at $50 Hz$, it should be connected to a capacitance of",
+    "question_images": [],
+    "options": [
+      "A. 8 µF",
+      "B. 4 µF",
+      "C. 2 µF",
+      "D. 1 µF"
+    ],
+    "option_images": [],
+    "answer": "D. 1 µF",
+    "solution": "For maximum power (resonance), $X_L = X_C$. $2\\pi f L = \\frac{1}{2\\pi f C}$. $C = \\frac{1}{4\\pi^2 f^2 L} = \\frac{1}{4 \\pi^2 (50)^2 (10)} \\approx 1 \\mu F$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Electromagnetic Induction",
+    "question": "A electron moves along the line AB, which lies in the same plane as a circular loop of conducting wires as shown in the diagram. What will be the direction of current induced if any, in the loop",
+    "question_latex": "A electron moves along the line $AB$, which lies in the same plane as a circular loop of conducting wires as shown in the diagram. What will be the direction of current induced if any, in the loop",
+    "question_images": [
+      "28_qu_1.png"
+    ],
+    "options": [
+      "A. no current will be induced",
+      "B. the current will be clockwise",
+      "C. the current will be anticlockwise",
+      "D. the current will change direction as the electron passes by"
+    ],
+    "option_images": [],
+    "answer": "D. the current will change direction as the electron passes by",
+    "solution": "As electron approaches, flux increases (in one direction), inducing current. As it moves away, flux decreases, inducing current in opposite direction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Electromagnetic Induction",
+    "question": "A 100% efficient transformer has 100 turns in the primary and 25 turns in its secondary coil. If the current in the secondary coil is 4 amp, then the current in the primary coil is",
+    "question_latex": "A 100% efficient transformer has 100 turns in the primary and 25 turns in its secondary coil. If the current in the secondary coil is 4 amp, then the current in the primary coil is",
+    "question_images": [],
+    "options": [
+      "A. 1 amp",
+      "B. 4 amp",
+      "C. 8 amp",
+      "D. 16 amp"
+    ],
+    "option_images": [],
+    "answer": "A. 1 amp",
+    "solution": "$\\frac{I_p}{I_s} = \\frac{N_s}{N_p}$. $I_p = I_s \\frac{N_s}{N_p} = 4 \\times \\frac{25}{100} = 1 A$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Electromagnetic Induction",
+    "question": "A wire of length 50 cm moves with a velocity of 300 m/min, perpendicular to a magnetic field. If the emf induced in the wire is 2 V, the magnitude of the field in telsa is",
+    "question_latex": "A wire of length $50 cm$ moves with a velocity of $300 m/min$, perpendicular to a magnetic field. If the emf induced in the wire is $2 V$, the magnitude of the field in telsa is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 0.4",
+      "D. 0.8"
+    ],
+    "option_images": [],
+    "answer": "D. 0.8",
+    "solution": "$v = 300 m/min = 5 m/s$. $e = Blv$. $2 = B \\times 0.5 \\times 5$. $B = 2/2.5 = 0.8 T$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Electromagnetic Induction",
+    "question": "A closely wound coil of 100 turns and area of cross-section 1 cm^2 has a coefficient of self-induction 1 mH. The magnetic induction in the centre of the core of the coil when a current of 2A flows in it, will be",
+    "question_latex": "A closely wound coil of $100$ turns and area of cross-section $1 cm^{2}$ has a coefficient of self-induction $1 mH$. The magnetic induction in the centre of the core of the coil when a current of $2A$ flows in it, will be",
+    "question_images": [],
+    "options": [
+      "A. 0.022 Wbm^-2",
+      "B. 0.4 Wbm^-2",
+      "C. 0.8 Wbm^-2",
+      "D. 1 Wbm^-2"
+    ],
+    "option_images": [],
+    "answer": "A. 0.022 Wbm^-2",
+    "solution": "$L = \\mu_0 N^2 A / l$. Also $B = \\mu_0 N I / l$. From L equation, $\\mu_0 N / l = L / (N A)$. So $B = L I / (N A) = (10^{-3} \\times 2) / (100 \\times 10^{-4}) = 2 \\times 10^{-3} / 10^{-2} = 0.2$ T? Wait, solution says 0.022. Let's calculate using $B = \\mu_0 N I / 2r$ for a circular coil? \"Closely wound coil\" usually implies solenoid or flat coil. Solution uses formula for circular coil center: $B = \\frac{\\mu_0 N I}{2r}$. Area $A = \\pi r^2 = 10^{-4} m^2 \\Rightarrow r = \\sqrt{10^{-4}/\\pi} \\approx 0.56 cm = 0.56 \\times 10^{-2} m$. $B = \\frac{4\\pi \\times 10^{-7} \\times 100 \\times 2}{2 \\times 0.56 \\times 10^{-2}} \\approx 0.022 T$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Electromagnetic Induction",
+    "question": "A square conducting loop of side L is situated in gravity-free space. A small conducting circular loop of radius r (r << L) is placed at the centre of the square loop, with its plane perpendicular to the plane of the square loop. The mutual inductance of the two coils is",
+    "question_latex": "A square conducting loop of side $L$ is situated in gravity-free space. A small conducting circular loop of radius $r (r \\ll L)$ is placed at the centre of the square loop, with its plane perpendicular to the plane of the square loop. The mutual inductance of the two coils is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2\\sqrt{2}\\mu_{0}r^{2}}{L}$",
+      "B. $\\frac{\\sqrt{2}\\mu_{0}r^{2}}{L}$",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "The magnetic field produced by the square loop is perpendicular to its plane. The area vector of the small loop is perpendicular to the area vector of the square loop (since planes are perpendicular). Thus flux linkage is zero. Mutual inductance is zero.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Electromagnetic Induction",
+    "question": "The expression for the induced e.m.f. contains a negative sign. What is the significance of the negative sign?",
+    "question_latex": "The expression for the induced e.m.f. contains a negative sign. What is the significance of the negative sign?",
+    "question_images": [],
+    "options": [
+      "A. The induced e.m.f. is produced only when the magnetic flux decreases.",
+      "B. The induced e.m.f. opposes the change in the magnetic flux.",
+      "C. The induced e.m.f. is opposite to the direction of the flux.",
+      "D. None of the above."
+    ],
+    "option_images": [],
+    "answer": "B. The induced e.m.f. opposes the change in the magnetic flux.",
+    "solution": "This is the statement of Lenz's Law.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Electromagnetic Induction",
+    "question": "A gold rod of length l is accelerated in the horizontal direction with an acceleration a0. The rod is held between two perfectly insulating clamps. Calculate the electric filed set up in the rod. Take the mass of electron as m",
+    "question_latex": "A gold rod of length $l$ is accelerated in the horizontal direction with an acceleration $a_{0}$. The rod is held between two perfectly insulating clamps. Calculate the electric filed set up in the rod. Take the mass of electron as $m$",
+    "question_images": [],
+    "options": [
+      "A. $E = \\frac{ma_{0}}{e}$",
+      "B. $E = ma_{0}l$",
+      "C. Zero",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $E = \\frac{ma_{0}}{e}$",
+    "solution": "Pseudo force on electron is $ma_0$. This must be balanced by electric force $eE$. So $eE = ma_0 \\Rightarrow E = ma_0/e$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Electromagnetic Induction",
+    "question": "A solid metal cube of edge length 2 cm is moving in a positive y -direction at a constant speed of 6 m/s. There is a uniform magnetic field of 0.1 T in the positive z -direction. The potential difference between the two faces of the cube perpendicular to the x-axis, is",
+    "question_latex": "A solid metal cube of edge length $2 cm$ is moving in a positive $y$ -direction at a constant speed of $6 m/s$. There is a uniform magnetic field of $0.1 T$ in the positive $z$ -direction. The potential difference between the two faces of the cube perpendicular to the $x$-axis, is",
+    "question_images": [],
+    "options": [
+      "A. 2 mV",
+      "B. 1 mV",
+      "C. 6 mV",
+      "D. 12 mV"
+    ],
+    "option_images": [],
+    "answer": "D. 12 mV",
+    "solution": "Induced emf $e = Bvl$. $v$ is along y, $B$ is along z, so force is along x. Length along x is $l=2cm$. $e = 0.1 \\times 6 \\times 0.02 = 0.012 V = 12 mV$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Electromagnetic Induction",
+    "question": "A wire of length 50 cm moves with a velocity of 300 m/min, perpendicular to a magnetic field. If the e.m.f. induced in the wire is 2 V, the magnitude of the field in tesla is",
+    "question_latex": "A wire of length $50 cm$ moves with a velocity of $300 m/min$, perpendicular to a magnetic field. If the e.m.f. induced in the wire is $2 V$, the magnitude of the field in tesla is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 0.8",
+      "D. 2.5"
+    ],
+    "option_images": [],
+    "answer": "C. 0.8",
+    "solution": "Duplicate of Q30. $B = 0.8 T$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Electromagnetic Induction",
+    "question": "A coil self inductance L=0.04 H and resistance R=12 Ω, connected to 220 V, 50Hz supply, what will be the current flow in the coil?",
+    "question_latex": "A coil self inductance $L=0.04 H$ and resistance $R=12 \\Omega$, connected to $220 V, 50Hz$ supply, what will be the current flow in the coil?",
+    "question_images": [],
+    "options": [
+      "A. 11.7 A",
+      "B. 12.7 A",
+      "C. 10.7 A",
+      "D. 14.7 A"
+    ],
+    "option_images": [],
+    "answer": "B. 12.7 A",
+    "solution": "$X_L = 2\\pi f L = 2\\pi(50)(0.04) \\approx 12.56 \\Omega$. $Z = \\sqrt{R^2 + X_L^2} = \\sqrt{12^2 + 12.56^2} \\approx \\sqrt{144 + 157.7} \\approx \\sqrt{301.7} \\approx 17.37 \\Omega$. $I = V/Z = 220/17.37 \\approx 12.66 A$. Closest is 12.7 A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Electromagnetic Induction",
+    "question": "Which of the following not use the application of eddy current ?",
+    "question_latex": "Which of the following not use the application of eddy current ?",
+    "question_images": [],
+    "options": [
+      "A. Electric power meters",
+      "B. Induction furnace",
+      "C. LED lights",
+      "D. Magnetic brakes in trains"
+    ],
+    "option_images": [],
+    "answer": "C. LED lights",
+    "solution": "LED lights do not rely on eddy currents. Others do.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Electromagnetic Induction",
+    "question": "Len'z law provides a relation between",
+    "question_latex": "Len'z law provides a relation between",
+    "question_images": [],
+    "options": [
+      "A. current and magnetic field.",
+      "B. induced e.m.f. and the magnetic flux.",
+      "C. force on a conductor in magnetic field.",
+      "D. current and induced e.m.f."
+    ],
+    "option_images": [],
+    "answer": "B. induced e.m.f. and the magnetic flux.",
+    "solution": "Lenz's law relates the direction of induced emf to the change in magnetic flux.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting metal circular-wire-loop of radius r is placed perpendicular to a magnetic field which varies with time as B = B0e^(-t/τ), where B0 and τ are constants, at time t=0. If the resistance of the loop is R then the heat generated in the loop after a long time (t -> ∞) is",
+    "question_latex": "A conducting metal circular-wire-loop of radius $r$ is placed perpendicular to a magnetic field which varies with time as $B=B_{0}e^{-\\frac{t}{\\tau}}$, where $B_{0}$ and $\\tau$ are constants, at time $t=0$. If the resistance of the loop is $R$ then the heat generated in the loop after a long time $(t \\rightarrow \\infty)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\pi^{2}r^{4}B_{0}^{2}R}{\\tau}$",
+      "B. $\\frac{\\pi^{2}r^{4}B_{0}^{2}}{2\\tau R}$",
+      "C. $\\frac{\\pi^{2}r^{4}B_{0}^{2}}{\\tau R}$",
+      "D. $\\frac{\\pi^{2}r^{4}B_{0}^{4}}{2\\pi R}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{\\pi^{2}r^{4}B_{0}^{2}}{2\\tau R}$",
+    "solution": "Flux $\\phi = π r^2 B_0 e^{-t/\\tau}$. Emf $\\epsilon = -d\\phi/dt = \\frac{\\pi r^2 B_0}{\\tau} e^{-t/\\tau}$. Heat $H = \\int_0^\\infty \\frac{\\epsilon^2}{R} dt = \\frac{(\\pi r^2 B_0 / \\tau)^2}{R} \\int_0^\\infty e^{-2t/\\tau} dt$. Integral is $\\tau/2$. Result: $\\frac{\\pi^2 r^4 B_0^2}{2 \\tau R}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Electromagnetic Induction",
+    "question": "An aircraft with a wing-span of 40 m files with a speed of 1080 km h^-1 in the eastward direction at the constant altitude in the northern hemisphere, where the vertical component of earth s magnetic field is 1.75 x 10^-5 T. Then the emf that develops between the tips of the wings is",
+    "question_latex": "An aircraft with a wing-span of $40 m$ files with a speed of $1080 km h^{-1}$ in the eastward direction at the constant altitude in the northern hemisphere, where the vertical component of earth s magnetic field is $1.75 \\times 10^{-5} T$. Then the emf that develops between the tips of the wings is",
+    "question_images": [],
+    "options": [
+      "A. 0.5 V",
+      "B. 0.35 V",
+      "C. 0.21 V",
+      "D. 2.1 V"
+    ],
+    "option_images": [],
+    "answer": "C. 0.21 V",
+    "solution": "$v = 1080 km/h = 300 m/s$. $e = B_v l v = 1.75 \\times 10^{-5} \\times 40 \\times 300 = 0.21 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Electromagnetic Induction",
+    "question": "An inductor (L=100 mH), a resistor (R=100Ω) and a battery (E=100V) are initially connected in series as shown in the figure. After a long time the battery is disconnected after short circuiting the points A and B. The current in the circuit 1 ms after the short circuit is",
+    "question_latex": "An inductor $(L=100 mH)$, a resistor $(R=100\\Omega)$ and a battery $(E=100V)$ are initially connected in series as shown in the figure. After a long time the battery is disconnected after short circuiting the points $A$ and $B$. The current in the circuit $1 ms$ after the short circuit is",
+    "question_images": [
+      "42_qu_1.png"
+    ],
+    "options": [
+      "A. e A",
+      "B. 0.1 A",
+      "C. 1 A",
+      "D. 1/e A"
+    ],
+    "option_images": [],
+    "answer": "D. 1/e A",
+    "solution": "Initial current $I_0 = E/R = 100/100 = 1 A$. Decay current $I = I_0 e^{-Rt/L}$. $t = 1ms = 10^{-3}s$. $R/L = 100 / 0.1 = 1000$. $Rt/L = 1000 \\times 10^{-3} = 1$. So $I = 1 \\times e^{-1} = 1/e$ A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting circular loop of radius (10/√π) cm is placed perpendicular to a uniform magnetic field of 0.5 T. The magnetic field is decreased to zero in 0.5 s at a steady rate. The induced emf in the circular loop at 0.25 s is",
+    "question_latex": "A conducting circular loop of radius $\\frac{10}{\\sqrt{\\pi}} cm$ is placed perpendicular to a uniform magnetic field of $0.5 T$. The magnetic field is decreased to zero in $0.5 s$ at a steady rate. The induced emf in the circular loop at $0.25 s$ is",
+    "question_images": [],
+    "options": [
+      "A. 1 mV",
+      "B. 100 mV",
+      "C. 5 mV",
+      "D. 10 mV"
+    ],
+    "option_images": [],
+    "answer": "D. 10 mV",
+    "solution": "$A = \\pi R^2 = \\pi (\\frac{0.1}{\\sqrt{\\pi}})^2 = 0.01 m^2$. $dB/dt = 0.5/0.5 = 1 T/s$. $e = A (dB/dt) = 0.01 \\times 1 = 0.01 V = 10 mV$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Electromagnetic Induction",
+    "question": "An e.m.f. of 5 volt is produced by a self inductance, when the current changes at a steady rate from 3 A to 2 A in 1 millisecond. The value of self inductance is",
+    "question_latex": "An e.m.f. of $5$ volt is produced by a self inductance, when the current changes at a steady rate from $3 A$ to $2 A$ in $1$ millisecond. The value of self inductance is",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. 5 H",
+      "C. 5000 H",
+      "D. 5 mH"
+    ],
+    "option_images": [],
+    "answer": "D. 5 mH",
+    "solution": "$e = L |di/dt|$. $5 = L |(2-3)/10^{-3}| = L (1000)$. $L = 5/1000 = 5 mH$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a uniform magnetic field of induction B, a wire in the form of a semicircle of radius r rotates about the diameter of the circle with an angular frequency ω. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is R, the mean power generated per period of rotation is",
+    "question_latex": "In a uniform magnetic field of induction $B$, a wire in the form of a semicircle of radius $r$ rotates about the diameter of the circle with an angular frequency $\\omega$. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is $R$, the mean power generated per period of rotation is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{(B\\pi r\\omega)^{2}}{2R}$",
+      "B. $\\frac{(B\\pi r^{2}\\omega)^{2}}{2R}$",
+      "C. $\\frac{B\\pi r^{2}\\omega}{2R}$",
+      "D. $\\frac{(B\\pi r\\omega^{2})^{2}}{8R}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{(B\\pi r^{2}\\omega)^{2}}{2R}$",
+    "solution": "Flux $\\phi = B A \\cos(\\omega t)$, where $A = \\pi r^2 / 2$. $\\epsilon = -d\\phi/dt = B A \\omega \\sin(\\omega t)$. Power $P = \\epsilon^2/R$. Mean power $\\overline{P} = \\frac{(BA\\omega)^2}{2R} = \\frac{(B (\\pi r^2/2) \\omega)^2}{2R}$? Wait, for semicircle rotating about diameter, area changes as projection? No, it's rotating like a coil. Area $A = \\pi r^2 / 2$. Solution snippet says $P_{avg} = \\frac{(\\omega B \\pi r^2)^2}{2R}$. This implies area was taken as $\\pi r^2$, maybe full circle? The question says \"semicircle\". If it's a semicircle loop closed by diameter, area is $\\pi r^2/2$. If the formula in option B is correct, then maybe A represents $\\pi r^2$. Let's assume standard rotating loop result: $P_{avg} = \\frac{(NBA\\omega)^2}{2R}$. Here $N=1$. If $A = \\pi r^2$, then B is correct. If $A = \\pi r^2/2$, then numerator is $B^2 \\pi^2 r^4 \\omega^2 / 4$, so answer would be $/8R$. Since option B is marked, assume effective area is $\\pi r^2$ or question implies full circle formed by rotation or similar.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Electromagnetic Induction",
+    "question": "An aeroplane in which the distance between the tips of the wings in 50 m is flying horizontally with a speed of 360 kmh^-1 over a place where the vertical component of earth s magnetic field is 2 x 10^-4 Wbm^-2. The potential difference between the tips of the wings would be",
+    "question_latex": "An aeroplane in which the distance between the tips of the wings in $50 m$ is flying horizontally with a speed of $360 kmh^{-1}$ over a place where the vertical component of earth s magnetic field is $2 \\times 10^{-4} Wbm^{-2}$. The potential difference between the tips of the wings would be",
+    "question_images": [],
+    "options": [
+      "A. 0.1 V",
+      "B. 1.0 V",
+      "C. 0.2 V",
+      "D. 0.01 V"
+    ],
+    "option_images": [],
+    "answer": "B. 1.0 V",
+    "solution": "$v = 360 km/h = 100 m/s$. $e = B_v l v = 2 \\times 10^{-4} \\times 50 \\times 100 = 1.0 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Electromagnetic Induction",
+    "question": "In the following circuit, the bulb will become suddenly bright if",
+    "question_latex": "In the following circuit, the bulb will become suddenly bright if",
+    "question_images": [
+      "47_qu_1.png"
+    ],
+    "options": [
+      "A. Contact is made or broken",
+      "B. Contact is made",
+      "C. Contact is broken",
+      "D. Won t become bright at all"
+    ],
+    "option_images": [],
+    "answer": "C. Contact is broken",
+    "solution": "When contact is broken, the large induced emf in the inductor (due to collapsing flux) drives a momentary high current through the bulb (if in parallel path) or causes sparking. In typical LR circuit with bulb in parallel to inductor, breaking switch causes inductor to discharge through bulb, potentially making it flash.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Electromagnetic Induction",
+    "question": "Figure shows a circuit that contains four identical resistors with resistance R=2.0Ω, two identical inductors with inductance L=2.0mH and an ideal battery with emf E=9 V. The current 'i' just after the switch 'S' is closed will be",
+    "question_latex": "Figure shows a circuit that contains four identical resistors with resistance $R=2.0\\Omega$, two identical inductors with inductance $L=2.0mH$ and an ideal battery with emf $E=9 V$. The current 'i' just after the switch 'S' is closed will be",
+    "question_images": [
+      "48_qu_1.png"
+    ],
+    "options": [
+      "A. 3.37 A",
+      "B. 9 A",
+      "C. 2.25 A",
+      "D. 3.0 A"
+    ],
+    "option_images": [],
+    "answer": "C. 2.25 A",
+    "solution": "Just after closing, inductors act as open circuits. The current flows only through the branches without inductors. If the circuit diagram (not fully visible but implied) has resistors in series/parallel, effectively removing inductive branches leaves some R network. From solution snippet: $i = E/R_{total} = E/(R+R) = 9/4 = 2.25 A$. (Assuming 2 resistors in series remain).",
+    "solution_images": [
+      "48_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Electromagnetic Induction",
+    "question": "A bar magnet is passing through a conducting loop of radius R with velocity v. The radius of the bar magnet is such that it just passes through the loop. The induced e.m.f. in the loop can be represented by the approximate curve",
+    "question_latex": "A bar magnet is passing through a conducting loop of radius $R$ with velocity $v$. The radius of the bar magnet is such that it just passes through the loop. The induced e.m.f. in the loop can be represented by the approximate curve",
+    "question_images": [
+      "49_qu_1.png"
+    ],
+    "options": [
+      "A. Graph A",
+      "B. Graph B",
+      "C. Graph C",
+      "D. Graph D"
+    ],
+    "option_images": [
+      "49_opA_1.png",
+      "49_opB_1.png",
+      "49_opC_1.png",
+      "49_opD_1.png"
+    ],
+    "answer": "C. Graph C",
+    "solution": "As magnet enters, flux increases, emf negative. When inside (if length > loop thickness), flux constant, emf zero. As it leaves, flux decreases, emf positive. The pulses are separated by a time interval.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Electromagnetic Induction",
+    "question": "An AC generator of 220 V having internal resistance r=10Ω and external resistance R=100Ω. What is the power developed in the external circuit?",
+    "question_latex": "An AC generator of $220 V$ having internal resistance $r=10\\Omega$ and external resistance $R=100\\Omega$. What is the power developed in the external circuit?",
+    "question_images": [],
+    "options": [
+      "A. 484 W",
+      "B. 400 W",
+      "C. 441 W",
+      "D. 369 W"
+    ],
+    "option_images": [],
+    "answer": "B. 400 W",
+    "solution": "Total resistance $R_{tot} = 100 + 10 = 110 \\Omega$. Current $I = 220/110 = 2 A$. Power in external R: $P = I^2 R = 2^2 \\times 100 = 400 W$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Electromagnetic Induction",
+    "question": "For the given circuit the current i through the battery when the key is closed and the steady state has been reached is (Sept 2021)",
+    "question_latex": "For the given circuit the current $i$ through the battery when the key is closed and the steady state has been reached is (Sept 2021)",
+    "question_images": [
+      "51_qu_1.png"
+    ],
+    "options": [
+      "A. 10 A",
+      "B. 25 A",
+      "C. 0 A",
+      "D. 6 A"
+    ],
+    "option_images": [],
+    "answer": "A. 10 A",
+    "solution": "In the steady state, inductor behaves as a conducting wire. Circuit diagram becomes:\nResistance of parallel combination $\\frac{1}{R_p} = \\frac{1}{3} + \\frac{1}{3} + \\frac{1}{3} = 1 \\Rightarrow R_p = 1 \\Omega$.\nTotal resistance $R_{eq} = R_p + 2 = 1 + 2 = 3 \\Omega$.\nCurrent $i = V/R_{eq} = 30/3 = 10 A$.",
+    "solution_images": [
+      "51_so_1.png",
+      "51_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Electromagnetic Induction",
+    "question": "Direction of current induced in a wire moving in a magnetic field is found using",
+    "question_latex": "Direction of current induced in a wire moving in a magnetic field is found using",
+    "question_images": [],
+    "options": [
+      "A. Fleming's left hand rule",
+      "B. Fleming's right hand rule",
+      "C. Ampere's rule",
+      "D. Right hand clasp rule"
+    ],
+    "option_images": [],
+    "answer": "B. Fleming's right hand rule",
+    "solution": "Direction of current induced in a wire moving in a magnetic field is found by using Fleming's right hand rule.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Electromagnetic Induction",
+    "question": "A square coil ACDE with its plane vertical is released from rest in a horizontal uniform magnetic filed B of length 2L figure. The acceleration of the coil is",
+    "question_latex": "A square coil $ACDE$ with its plane vertical is released from rest in a horizontal uniform magnetic filed $\\vec{B}$ of length $2L$ figure. The acceleration of the coil is",
+    "question_images": [
+      "53_qu_1.png"
+    ],
+    "options": [
+      "A. Less than g for all the time the loop crosses the magnetic field completely",
+      "B. Less than g when it enters the filed and greater than g when it comes out of the field",
+      "C. g all the time",
+      "D. Less than g when it enters and comes out of the field but equal to g when it is within the filed"
+    ],
+    "option_images": [],
+    "answer": "D. Less than g when it enters and comes out of the field but equal to g when it is within the filed",
+    "solution": "When the coil is within the field, there is no change in the magnetic flux passing through it. Thus, no current will be induced and the acceleration will be g. But according to Lenz's law, the induced current will oppose its motion when it enters or leaves the field. Therefore, acceleration will be less than g.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Electromagnetic Induction",
+    "question": "Two pure inductors each of self inductance L are connected in series, the net inductance is",
+    "question_latex": "Two pure inductors each of self inductance $L$ are connected in series, the net inductance is",
+    "question_images": [],
+    "options": [
+      "A. L",
+      "B. 2L",
+      "C. L/2",
+      "D. L/4"
+    ],
+    "option_images": [],
+    "answer": "B. 2L",
+    "solution": "For inductors in series (neglecting mutual inductance), $L_{eq} = L_1 + L_2 = L + L = 2L$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Electromagnetic Induction",
+    "question": "A horizontal straight wire 20 m long extending from east to west is falling with a speed of 5.0 ms^-1, at right angles to the horizontal component of the earth s magnetic field 0.30 x 10^-4 Wbm^-2. the instantaneous value of the emf induced in the wire will be",
+    "question_latex": "A horizontal straight wire $20 m$ long extending from east to west is falling with a speed of $5.0 ms^{-1}$, at right angles to the horizontal component of the earth s magnetic field $0.30 \\times 10^{-4} Wbm^{-2}.$ the instantaneous value of the emf induced in the wire will be",
+    "question_images": [],
+    "options": [
+      "A. 6.0 mV",
+      "B. 3 mV",
+      "C. 4.5 mV",
+      "D. 1.5 mV"
+    ],
+    "option_images": [],
+    "answer": "B. 3 mV",
+    "solution": "Induced emf $e = B_H l v = 0.30 \\times 10^{-4} \\times 20 \\times 5.0 = 30 \\times 10^{-4} = 3 \\times 10^{-3} V = 3 mV$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Electromagnetic Induction",
+    "question": "In the circuit shown below, the key K is closed at t=0. The current through the battery is (2010)",
+    "question_latex": "In the circuit shown below, the key $K$ is closed at $t=0$. The current through the battery is (2010)",
+    "question_images": [
+      "56_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{VR_1R_2}{\\sqrt{R_1^2+R_2^2}}$ at $t=0$ and $\\frac{V}{R_2}$ at $t=\\infty$",
+      "B. $\\frac{V}{R_2}$ at $t=0$ and $\\frac{V(R_1+R_2)}{R_1R_2}$ at $t=\\infty$",
+      "C. $\\frac{V}{R_2}$ at $t=0$ and $\\frac{V(R_1+R_2)}{R_1R_2}$ at $t=\\infty$",
+      "D. $\\frac{V(R_1+R_2)}{R_1R_2}$ at $t=0$ and $\\frac{V}{R_2}$ at $t=\\infty$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{V}{R_2}$ at $t=0$ and $\\frac{V(R_1+R_2)}{R_1R_2}$ at $t=\\infty$",
+    "solution": "At $t=0$, inductor acts as open circuit. Current flows only through $R_2$. $I = V/R_2$. At $t=\\infty$, inductor acts as short circuit. $R_1$ and $R_2$ are in parallel. $R_{eq} = \\frac{R_1 R_2}{R_1+R_2}$. $I = \\frac{V}{R_{eq}} = \\frac{V(R_1+R_2)}{R_1R_2}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Electromagnetic Induction",
+    "question": "A step-down transformer is used on a 1000 V line to deliver 20 A at 120 V at the secondary coil. If the efficiency of the transformer is 80%, the curren current drawn from the line is",
+    "question_latex": "A step-down transformer is used on a $1000 V$ line to deliver $20 A$ at $120 V$ at the secondary coil. If the efficiency of the transformer is $80\\%$, the curren current drawn from the line is",
+    "question_images": [],
+    "options": [
+      "A. 3 A",
+      "B. 30 A",
+      "C. 0.3 A",
+      "D. 2.4 A"
+    ],
+    "option_images": [],
+    "answer": "A. 3 A",
+    "solution": "Efficiency $\\eta = \\frac{P_{out}}{P_{in}} = \\frac{V_s I_s}{V_p I_p}$. $0.8 = \\frac{120 \\times 20}{1000 \\times I_p}$. $I_p = \\frac{2400}{800} = 3 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Electromagnetic Induction",
+    "question": "A current of 5 A is flowing at 220 V in the primary coil of a transformer. If the voltage produced in the secondary coil is 2200 V and 50% of power is lost, then the current in secondary will be",
+    "question_latex": "A current of $5 A$ is flowing at $220 V$ in the primary coil of a transformer. If the voltage produced in the secondary coil is $2200 V$ and $50\\%$ of power is lost, then the current in secondary will be",
+    "question_images": [],
+    "options": [
+      "A. 2.5 A",
+      "B. 5 A",
+      "C. 0.25 A",
+      "D. 0.5 A"
+    ],
+    "option_images": [],
+    "answer": "C. 0.25 A",
+    "solution": "Efficiency $\\eta = 50\\%$. $P_{out} = 0.5 P_{in}$. $V_s I_s = 0.5 V_p I_p$. $2200 I_s = 0.5 \\times 220 \\times 5$. $I_s = \\frac{550}{2200} = 0.25 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Electromagnetic Induction",
+    "question": "Mutual induction is the production of induced e.m.f. in a coil due to the changes of current in the",
+    "question_latex": "Mutual induction is the production of induced e.m.f. in a coil due to the changes of current in the",
+    "question_images": [],
+    "options": [
+      "A. same coil",
+      "B. neighbouring coil",
+      "C. both (a) and (b)",
+      "D. neither (a) nor (b)"
+    ],
+    "option_images": [],
+    "answer": "B. neighbouring coil",
+    "solution": "Mutual induction is the phenomenon where a changing current in one coil induces an EMF in a neighboring coil.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Electromagnetic Induction",
+    "question": "A circular coil of diameter 21 cm is placed in a magnetic field of induction 10^-4 T. the magnitude of flux linked with coil when the plane of coil makes an angle 30° with the field is",
+    "question_latex": "A circular coil of diameter $21 cm$ is placed in a magnetic field of induction $10^{-4} T.$ the magnitude of flux linked with coil when the plane of coil makes an angle $30^{\\circ}$ with the field is",
+    "question_images": [],
+    "options": [
+      "A. 1.44 x 10^-6 Wb",
+      "B. 1.732 x 10^-6 Wb",
+      "C. 3.1 x 10^-6 Wb",
+      "D. 4.2 x 10^-6 Wb"
+    ],
+    "option_images": [],
+    "answer": "B. 1.732 x 10^-6 Wb",
+    "solution": "Flux $\\phi = BA \\cos \\theta$. Angle $\\theta$ is between normal to area and B. If plane makes $30^{\\circ}$ with B, then $\\theta = 90^{\\circ} - 30^{\\circ} = 60^{\\circ}$. $A = \\pi r^2 = \\pi (\\frac{21 \\times 10^{-2}}{2})^2$. $\\phi = 10^{-4} \\times \\pi (0.105)^2 \\cos 60^{\\circ} = 10^{-4} \\times 0.0346 \\times 0.5 \\approx 1.732 \\times 10^{-6}$ Wb.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Electromagnetic Induction",
+    "question": "A player with 3 m long iron rod runs towards east with a speed of 30 km/hr. Horizontal component of earth s magnetic field is 4 x 10^-5 Wb/m^2. If he is running with rod in horizontal and vertical positions, then the potential difference induced between the two ends of the rod in two cases will be",
+    "question_latex": "A player with $3 m$ long iron rod runs towards east with a speed of $30 km/hr$. Horizontal component of earth s magnetic field is $4 \\times 10^{-5} Wb/m^{2}$. If he is running with rod in horizontal and vertical positions, then the potential difference induced between the two ends of the rod in two cases will be",
+    "question_images": [],
+    "options": [
+      "A. Zero in vertical and 1 x 10^-3 V in horizontal position",
+      "B. 1 x 10^-3 V in vertical position and zero is horizontal position",
+      "C. Zero in both cases",
+      "D. 1 x 10^-3 V in both cases"
+    ],
+    "option_images": [],
+    "answer": "B. 1 x 10^-3 V in vertical position and zero is horizontal position",
+    "solution": "Velocity is East. $B_H$ is South to North. If rod is vertical, it cuts $B_H$ perpendicularly. $e = B_H l v = 4\\times10^{-5} \\times 3 \\times (30\\times\\frac{5}{18}) = 10^{-3}$ V. If rod is horizontal (East-West), it is parallel to velocity, no flux cutting ($v \\parallel l$), so $e=0$. If rod is North-South, it moves parallel to $B_H$ or cuts no flux. Question implies horizontal held rod usually along E-W or N-S. East-West rod moving East cuts nothing. North-South rod moving East cuts B_Vertical but question specifies B_Horizontal. So e=0.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a uniform magnetic field of induction B, a wire in the form of a semicircle of radius r rotates about the diameter of the circle with an angular frequency ω. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is R, the mean power generated per period of rotation is",
+    "question_latex": "In a uniform magnetic field of induction $B$, a wire in the form of a semicircle of radius $r$ rotates about the diameter of the circle with an angular frequency $\\omega$. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is $R$, the mean power generated per period of rotation is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{(B\\pi r\\omega)^{2}}{2R}$",
+      "B. $\\frac{(B\\pi r^{2}\\omega)^{2}}{2R}$",
+      "C. $\\frac{B\\pi r^{2}\\omega}{2R}$",
+      "D. $\\frac{(B\\pi r\\omega^{2})^{2}}{8R}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{(B\\pi r^{2}\\omega)^{2}}{2R}$",
+    "solution": "Duplicate of Q45. Mean power is $\\frac{(\\omega B \\pi r^2)^2}{2R}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting square loop of side L and resistance R moves in its plane with a uniform velocity v perpendicular to one of its sides. A magnetic induction B constant in time and space, pointing perpendicular and into the plane of the loop exists everywhere with part of the loop outside the induced emf is",
+    "question_latex": "A conducting square loop of side $L$ and resistance $R$ moves in its plane with a uniform velocity $v$ perpendicular to one of its sides. A magnetic induction $B$ constant in time and space, pointing perpendicular and into the plane of the loop exists everywhere with part of the loop outside the induced emf is",
+    "question_images": [
+      "63_qu_1.png"
+    ],
+    "options": [
+      "A. BvR",
+      "B. vBL/R",
+      "C. vBL",
+      "D. BLv/2"
+    ],
+    "option_images": [],
+    "answer": "C. vBL",
+    "solution": "Only the side inside the magnetic field moving perpendicular to it cuts flux (or motional emf). The other vertical side is outside (implied by \"part of loop outside\" description/diagram usually showing entering/leaving). $e = B L v$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Electromagnetic Induction",
+    "question": "Magnetic flux is",
+    "question_latex": "Magnetic flux is",
+    "question_images": [],
+    "options": [
+      "A. total charge per unit area.",
+      "B. total current through a surface.",
+      "C. total number of magnetic field lines passing normally through given area.",
+      "D. total e.m.f. in closed circuit."
+    ],
+    "option_images": [],
+    "answer": "C. total number of magnetic field lines passing normally through given area.",
+    "solution": "Definition of magnetic flux.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Electromagnetic Induction",
+    "question": "A loss free transformer has 500 turns on its primary winding and 2500 in secondary. The meters of the secondary indicate 200 volts at 8 amperes under these conditions. The voltage and current in the primary is",
+    "question_latex": "A loss free transformer has $500$ turns on its primary winding and $2500$ in secondary. The meters of the secondary indicate $200$ volts at $8$ amperes under these conditions. The voltage and current in the primary is",
+    "question_images": [],
+    "options": [
+      "A. 100 V, 16 A",
+      "B. 40 V, 40 A",
+      "C. 160 V, 10 A",
+      "D. 80 V, 20 A"
+    ],
+    "option_images": [],
+    "answer": "B. 40 V, 40 A",
+    "solution": "$\\frac{V_p}{V_s} = \\frac{N_p}{N_s} \\Rightarrow V_p = 200 \\times \\frac{500}{2500} = 40 V$.\n$\\frac{I_p}{I_s} = \\frac{N_s}{N_p} \\Rightarrow I_p = 8 \\times \\frac{2500}{500} = 40 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Electromagnetic Induction",
+    "question": "A 100% efficient transformer has 100 turns in the primary and 25 turns in its secondary coil. If the current in the secondary coil is 4 amp, then the current in the primary coil is",
+    "question_latex": "A 100% efficient transformer has $100$ turns in the primary and $25$ turns in its secondary coil. If the current in the secondary coil is $4$ amp, then the current in the primary coil is",
+    "question_images": [],
+    "options": [
+      "A. 1 amp",
+      "B. 4 amp",
+      "C. 8 amp",
+      "D. 16 amp"
+    ],
+    "option_images": [],
+    "answer": "A. 1 amp",
+    "solution": "Duplicate of Q29 and similar logic. $I_p = 1 A$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Electromagnetic Induction",
+    "question": "A solenoid is placed inside another solenoid, the length of both being equal carrying same magnitude of current. The parameters like radius and number of turns are in the ratio 1: 2 for the two solenoids. The mutual inductance on each other would be",
+    "question_latex": "A solenoid is placed inside another solenoid, the length of both being equal carrying same magnitude of current. The parameters like radius and number of turns are in the ratio $1: 2$ for the two solenoids. The mutual inductance on each other would be",
+    "question_images": [],
+    "options": [
+      "A. $M_{12}=M_{21}$",
+      "B. $M_{12}=2M_{21}$",
+      "C. $2M_{12}=M_{21}$",
+      "D. $M_{12}=4M_{21}$"
+    ],
+    "option_images": [],
+    "answer": "A. $M_{12}=M_{21}$",
+    "solution": "Mutual inductance is reciprocal; $M_{12} = M_{21}$ always.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Electromagnetic Induction",
+    "question": "A constant magnetic field of 1 T is applied in the x>0 region. A metallic circular ring of radius 1 m is moving with a constant velocity of 1 m/s along the x -axis. At t=0 s, the centre O of the ring is at x=-1 m. What will be the value of the induced emf in the ring at t=1 s? (Assume the velocity of the ring does not change.) (Aug 2021)",
+    "question_latex": "A constant magnetic field of $1 T$ is applied in the $x>0$ region. A metallic circular ring of radius $1 m$ is moving with a constant velocity of $1 m/s$ along the $x$ -axis. At $t=0 s$, the centre O of the ring is at $x=-1 m$. What will be the value of the induced emf in the ring at $t=1 s$? (Assume the velocity of the ring does not change.) (Aug 2021)",
+    "question_images": [
+      "68_qu_1.png"
+    ],
+    "options": [
+      "A. 2π V",
+      "B. 2 V",
+      "C. 0 V",
+      "D. 1 V"
+    ],
+    "option_images": [],
+    "answer": "B. 2 V",
+    "solution": "At $t=0$, center is at $x=-1$. Radius is 1m, so ring is from $x=-2$ to $x=0$. It touches the field boundary ($x=0$). Velocity is $1 m/s$. At $t=1s$, center is at $x = -1 + 1(1) = 0m$. The ring is exactly half inside the magnetic field (from $x=-1$ to $x=1$, actually no, center at 0 means extent is -1 to 1. Field is for $x>0$. So half area is in field). The motional emf is generated by the vertical chord entering the field? At $t=1$, the chord at the boundary is the diameter (length 2m). Effective length $l = 2R = 2m$. $e = Blv = 1 \\times 2 \\times 1 = 2 V$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Electromagnetic Induction",
+    "question": "Current in a coil changes from 5 A to 10 A in 0.2 s. If the coefficient of self-induction is 10 H, then the induced emf is",
+    "question_latex": "Current in a coil changes from $5 A$ to $10 A$ in $0.2 s$. If the coefficient of self-induction is $10 H$, then the induced emf is",
+    "question_images": [],
+    "options": [
+      "A. 112 V",
+      "B. 250 V",
+      "C. 125 V",
+      "D. 230 V"
+    ],
+    "option_images": [],
+    "answer": "B. 250 V",
+    "solution": "$e = L \\frac{di}{dt} = 10 \\times \\frac{10-5}{0.2} = 10 \\times \\frac{5}{0.2} = 250 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Electromagnetic Induction",
+    "question": "A straight wire of length L is bent into a semicircle. It is moved in a uniform magnetic field with speed v with diameter perpendicular to the field. The induced emf between the ends of the wire is",
+    "question_latex": "A straight wire of length $L$ is bent into a semicircle. It is moved in a uniform magnetic field with speed $v$ with diameter perpendicular to the field. The induced emf between the ends of the wire is",
+    "question_images": [
+      "70_qu_1.png"
+    ],
+    "options": [
+      "A. BLv",
+      "B. 2BLv",
+      "C. 2πBLv",
+      "D. $\\frac{2BvL}{\\pi}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{2BvL}{\\pi}$",
+    "solution": "Effective length is the diameter $D = 2R$. Length of wire $L = \\pi R \\Rightarrow R = L/\\pi$. Effective length $D = 2L/\\pi$. $e = B v D = B v (2L/\\pi)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Electromagnetic Induction",
+    "question": "Consider I1 and I2 are the currents flowing simultaneously in two nearby coils 1&2, respectively. If L1 = self inductance of coil 1, M12 = mutual inductance of coil 1 with respect to coil 2, then the value of induced emf in coil 1 will be [Jan. 29, 2025( )]",
+    "question_latex": "Consider $I_{1}$ and $I_{2}$ are the currents flowing simultaneously in two nearby coils 1&2, respectively. If $L_{1} =$ self inductance of coil 1, $M_{12} =$ mutual inductance of coil 1 with respect to coil 2, then the value of induced emf in coil 1 will be [Jan. 29, 2025( )]",
+    "question_images": [],
+    "options": [
+      "A. $\\epsilon_{1}=-L_{1}\\frac{dI_{2}}{dt}-M_{12}\\frac{dI_{1}}{dt}$",
+      "B. $\\epsilon_{1}=-L_{1}\\frac{dI_{1}}{dt}+M_{12}\\frac{dI_{2}}{dt}$",
+      "C. $\\epsilon_{1}=-L_{1}\\frac{dI_{1}}{dt}-M_{12}\\frac{dI_{1}}{dt}$",
+      "D. $\\epsilon_{1}=-L_{1}\\frac{dI_{1}}{dt}-M_{12}\\frac{dI_{2}}{dt}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\epsilon_{1}=-L_{1}\\frac{dI_{1}}{dt}-M_{12}\\frac{dI_{2}}{dt}$",
+    "solution": "Flux $\\phi_1 = L_1 I_1 + M_{12} I_2$. Emf $\\epsilon_1 = -\\frac{d\\phi_1}{dt} = -L_1 \\frac{dI_1}{dt} - M_{12} \\frac{dI_2}{dt}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Electromagnetic Induction",
+    "question": "Fleming s left and right hand rule are used in",
+    "question_latex": "Fleming s left and right hand rule are used in",
+    "question_images": [],
+    "options": [
+      "A. DC motor and AC generator",
+      "B. DC generator and AC motor",
+      "C. DC motor and DC generator",
+      "D. Both rules are same, any one can be used"
+    ],
+    "option_images": [],
+    "answer": "C. DC motor and DC generator",
+    "solution": "Fleming's Left Hand Rule is for motors (force). Right Hand Rule is for generators (induced current).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Electromagnetic Induction",
+    "question": "A square coil of side 25 cm having 1000 turns is rotated with a uniform speed in a magnetic field about an axis perpendicular to the direction of the field. At an instant t, the emf induced in the coil is e = 200 sin 100 πt. The magnetic induction is",
+    "question_latex": "A square coil of side $25 cm$ having $1000$ turns is rotated with a uniform speed in a magnetic field about an axis perpendicular to the direction of the field. At an instant $t$, the emf induced in the coil is $e = 200 \\sin 100 \\pi t$. The magnetic induction is",
+    "question_images": [],
+    "options": [
+      "A. 0.50 T",
+      "B. 0.02 T",
+      "C. 10^-3 T",
+      "D. 0.01 T"
+    ],
+    "option_images": [],
+    "answer": "D. 0.01 T",
+    "solution": "$e = e_0 \\sin \\omega t$. $e_0 = NAB\\omega$. Given $e_0 = 200$, $N=1000$, $A = (0.25)^2$, $\\omega = 100\\pi$. $B = \\frac{e_0}{NA\\omega} = \\frac{200}{1000 \\times 0.0625 \\times 100\\pi} \\approx \\frac{200}{6250\\pi} \\approx \\frac{200}{19634} \\approx 0.01 T$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Electromagnetic Induction",
+    "question": "A coil of area 80 square cm and 50 turns is rotating with 2000 revolutions per minute about an axis perpendicular to a magnetic filed of 0.05 tesla. The maximum value of the e.m.f. developed in it is",
+    "question_latex": "A coil of area $80$ square cm and $50$ turns is rotating with $2000$ revolutions per minute about an axis perpendicular to a magnetic filed of $0.05$ tesla. The maximum value of the e.m.f. developed in it is",
+    "question_images": [],
+    "options": [
+      "A. 200 π volt",
+      "B. 10π/3 volt",
+      "C. 4π/3 volt",
+      "D. 2/3 volt"
+    ],
+    "option_images": [],
+    "answer": "C. 4π/3 volt",
+    "solution": "$e_{max} = NBA\\omega$. $N=50, B=0.05, A=80\\times 10^{-4}, \\omega = 2000 \\times \\frac{2\\pi}{60} = \\frac{200\\pi}{3}$. $e_{max} = 50 \\times 0.05 \\times 80 \\times 10^{-4} \\times \\frac{200\\pi}{3} = \\frac{4\\pi}{3}$ V.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Electromagnetic Induction",
+    "question": "A closed circuit consists of a resistor R; inductor of inductance L and a source of e.m.f. E are connected in series. If the inductance of the coil is abruptly decreased to L/4 (by removing its magnetic core), the new current immediately after this moment is (before decreasing the inductance the circuit is in steady state)",
+    "question_latex": "A closed circuit consists of a resistor $R$; inductor of inductance $L$ and a source of e.m.f. $E$ are connected in series. If the inductance of the coil is abruptly decreased to $L/4$ (by removing its magnetic core), the new current immediately after this moment is (before decreasing the inductance the circuit is in steady state)",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. E/R",
+      "C. 4E/R",
+      "D. E/4R"
+    ],
+    "option_images": [],
+    "answer": "C. 4E/R",
+    "solution": "Flux $\\phi = LI$ must be conserved immediately (cannot change instantaneously). Initial steady current $I_1 = E/R$. Flux $\\phi_1 = L (E/R)$. New inductance $L' = L/4$. $L' I_2 = \\phi_1 \\Rightarrow (L/4) I_2 = L (E/R) \\Rightarrow I_2 = 4 E/R$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Electromagnetic Induction",
+    "question": "Energy associated with a moving charge is due to",
+    "question_latex": "Energy associated with a moving charge is due to",
+    "question_images": [],
+    "options": [
+      "A. Electric field",
+      "B. Magnetic field",
+      "C. Both a and b",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Both a and b",
+    "solution": "A moving charge produces both electric and magnetic fields, so energy is stored in both.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Electromagnetic Induction",
+    "question": "A gold rod of length l is accelerated in the horizontal direction with an acceleration a0. The rod is held between two perfectly insulating clamps. Calculate the electric filed set up in the rod. Take the mass of electron as m",
+    "question_latex": "A gold rod of length $l$ is accelerated in the horizontal direction with an acceleration $a_{0}$. The rod is held between two perfectly insulating clamps. Calculate the electric filed set up in the rod. Take the mass of electron as $m$",
+    "question_images": [],
+    "options": [
+      "A. $E = \\frac{ma_{0}}{e}$",
+      "B. $E = ma_{0}l$",
+      "C. Zero",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $E = \\frac{ma_{0}}{e}$",
+    "solution": "Duplicate of Q34.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Electromagnetic Induction",
+    "question": "An electron moves along the line PQ which lies in the same plane as a circular loop of conducting wire as shown in figure. What will be the direction of the induced current in the loop?",
+    "question_latex": "An electron moves along the line $PQ$ which lies in the same plane as a circular loop of conducting wire as shown in figure. What will be the direction of the induced current in the loop?",
+    "question_images": [
+      "78_qu_1.png"
+    ],
+    "options": [
+      "A. Anticlockwise",
+      "B. Clockwise",
+      "C. Alternating",
+      "D. No current will be induced"
+    ],
+    "option_images": [],
+    "answer": "A. Anticlockwise",
+    "solution": "As electron moves P to Q, it creates a magnetic field into the loop (right hand rule for negative charge: thumb opposite to v, fingers curl). As it approaches, flux increases into page. Lenz law opposes: induced B out of page => Anticlockwise. Then as it leaves, flux decreases, induced current reverses? Wait, option A says Anticlockwise. Let's check flux change direction. First increases then decreases. Current should reverse. Option C \"Alternating\"? Source answer says A. Let's re-read solution: \"direction of induced current is anticlockwise\". Perhaps it refers to a specific phase or net effect? Or maybe the wire position is such that flux increases throughout?",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Electromagnetic Induction",
+    "question": "The total heat produced in resistor R in an RL circuit when the current in the inductor decreases from I0 to 0 is",
+    "question_latex": "The total heat produced in resistor $R$ in an $RL$ circuit when the current in the inductor decreases from $I_{0}$ to 0 is",
+    "question_images": [],
+    "options": [
+      "A. $LI_{0}^{2}$",
+      "B. $\\frac{1}{2}LI_{0}^{2}$",
+      "C. $\\frac{3}{2}LI_{0}^{2}$",
+      "D. $\\frac{1}{3}LI_{0}^{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{2}LI_{0}^{2}$",
+    "solution": "The energy stored in the inductor is $\\frac{1}{2}LI_0^2$. All this energy is dissipated as heat in the resistor during decay.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Electromagnetic Induction",
+    "question": "O is the centre of two coplanar concentric circular conductors, A and B, of radii r and R respectively as shown in the figure. Here, r <<< R. the mutual inductance of the system of the conductors can be given by",
+    "question_latex": "O is the centre of two coplanar concentric circular conductors, A and B, of radii $r$ and $R$ respectively as shown in the figure. Here, $r \\ll R$. the mutual inductance of the system of the conductors can be given by",
+    "question_images": [
+      "80_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{\\mu_{0}\\pi r^{2}}{2R}$",
+      "B. $\\frac{\\mu_{0}\\pi R^{2}}{2r}$",
+      "C. $\\frac{\\pi R^{2}}{\\mu_{0}r}$",
+      "D. $\\frac{\\mu_{0}\\pi r}{2R}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\mu_{0}\\pi r^{2}}{2R}$",
+    "solution": "Duplicate of Q13 but with concentric coplanar geometry (Q13 had axial separation). Formula derived is same for concentric: $M = \\frac{\\mu_0 \\pi r^2}{2R}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Electromagnetic Induction",
+    "question": "A transformer is used to light a 100 W and 110 V lamp from a 220 V mains. If the main current is 0.5 A, the efficiency of the transformer is approximately",
+    "question_latex": "A transformer is used to light a $100 W$ and $110 V$ lamp from a $220 V$ mains. If the main current is $0.5 A$, the efficiency of the transformer is approximately",
+    "question_images": [],
+    "options": [
+      "A. 30%",
+      "B. 50%",
+      "C. 90%",
+      "D. 10%"
+    ],
+    "option_images": [],
+    "answer": "C. 90%",
+    "solution": "Output power $P_{out} = 100 W$. Input power $P_{in} = V_p I_p = 220 \\times 0.5 = 110 W$. Efficiency $\\eta = 100/110 \\approx 0.909 = 90.9\\%$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Electromagnetic Induction",
+    "question": "A toroid is wound over a circular core. Radius of each turn is r and radius of toroid is R (>> r). The coefficient of self-inductance of the toroid is given by",
+    "question_latex": "A toroid is wound over a circular core. Radius of each turn is $r$ and radius of toroid is $R (\\gg r)$. The coefficient of self-inductance of the toroid is given by",
+    "question_images": [
+      "82_qu_1.png"
+    ],
+    "options": [
+      "A. $L=\\frac{\\mu_{0}Nr^{2}}{2R}$",
+      "B. $L=\\frac{\\mu_{0}Nr}{2R}$",
+      "C. $L=\\frac{\\mu_{0}Nr^{2}}{R}$",
+      "D. $L=\\frac{\\mu_{0}N^{2}r^{2}}{2R}$"
+    ],
+    "option_images": [],
+    "answer": "D. $L=\\frac{\\mu_{0}N^{2}r^{2}}{2R}$",
+    "solution": "$L = \\frac{\\mu_0 N^2 A}{l_{path}}$. $A = \\pi r^2$. $l_{path} = 2\\pi R$. $L = \\frac{\\mu_0 N^2 \\pi r^2}{2\\pi R} = \\frac{\\mu_0 N^2 r^2}{2R}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Electromagnetic Induction",
+    "question": "Whenever a magnet is moved either towards or away from a conducting coil, an emf is induced, the magnitude of which is independent of",
+    "question_latex": "Whenever a magnet is moved either towards or away from a conducting coil, an emf is induced, the magnitude of which is independent of",
+    "question_images": [],
+    "options": [
+      "A. The strength of the magnetic field",
+      "B. The speed with which the magnet is moved",
+      "C. The number of turns is the coil",
+      "D. The resistance of the coil"
+    ],
+    "option_images": [],
+    "answer": "D. The resistance of the coil",
+    "solution": "Induced emf $e = -N \\frac{d\\phi}{dt}$. Depends on field strength (flux), speed (rate), turns N. Does not depend on resistance R (Current depends on R).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Electromagnetic Induction",
+    "question": "A circular metal plate of radius R is rotating with a uniform angular velocity with its plane perpendicular to a uniform magnetic field B. Then the emf developed between the centre and the rim of the plate is",
+    "question_latex": "A circular metal plate of radius $R$ is rotating with a uniform angular velocity with its plane perpendicular to a uniform magnetic field $B$. Then the emf developed between the centre and the rim of the plate is",
+    "question_images": [],
+    "options": [
+      "A. $\\pi\\omega BR^{2}$",
+      "B. $BR^{2}$",
+      "C. $\\pi\\omega BR^{2}/2$",
+      "D. $BR^{2}\\omega/2$"
+    ],
+    "option_images": [],
+    "answer": "D. $BR^{2}\\omega/2$",
+    "solution": "$e = \\frac{1}{2} B \\omega R^2$.",
+    "solution_images": [
+      "84_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Electromagnetic Induction",
+    "question": "The angular frequency of alternating current in a LCR circuit is 100rad/s. The components connected are shown in the figure. Find the value of inductance of the coil and capacity of condenser. (Feb 2021)",
+    "question_latex": "The angular frequency of alternating current in a LCR circuit is $100rad/s$. The components connected are shown in the figure. Find the value of inductance of the coil and capacity of condenser. (Feb 2021)",
+    "question_images": [
+      "85_qu_1.png"
+    ],
+    "options": [
+      "A. 1.33H and 150µF",
+      "B. 1.33H and 250µF",
+      "C. 0.8H and 150µF",
+      "D. 0.8H and 250µF"
+    ],
+    "option_images": [],
+    "answer": "D. 0.8H and 250µF",
+    "solution": "From figure (implied values), $R=60$, $V_R=15V$? No, need to deduce from voltages. If circuit is series, $I = V_R/R$. From solution snippet: $I = 0.25A$. $X_L = V_L/I = 20/0.25 = 80$. $L = 80/100 = 0.8 H$. $X_C = V_C/I = 10/0.25 = 40$. $C = 1/(100 \\times 40) = 250 \\mu F$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Electromagnetic Induction",
+    "question": "A current passing through a coil of self inductance of 2mH changes at the rate of 20 mAs^-1. The emf induced in the coil is",
+    "question_latex": "A current passing through a coil of self inductance of $2mH$ changes at the rate of $20 mAs^{-1}$. The emf induced in the coil is",
+    "question_images": [],
+    "options": [
+      "A. 10 µV",
+      "B. 40 µV",
+      "C. 10 mV",
+      "D. 40 mV"
+    ],
+    "option_images": [],
+    "answer": "B. 40 µV",
+    "solution": "$e = L \\frac{di}{dt} = 2 \\times 10^{-3} \\times 20 \\times 10^{-3} = 40 \\times 10^{-6} V = 40 \\mu V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Electromagnetic Induction",
+    "question": "Two concentric and coplanar coils have radii a and b (b >> a) as shown in fig. Resistance of the inner coil is R. Current in the outer is increased from 0 to i, then the total change circulating the inner coil is",
+    "question_latex": "Two concentric and coplanar coils have radii $a$ and $b (b \\gg a)$ as shown in fig. Resistance of the inner coil is $R$. Current in the outer is increased from $0$ to $i$, then the total change circulating the inner coil is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\mu_{0}ia^{2}\\pi}{2Rb}$",
+      "B. $\\frac{\\mu_{0}iab}{2R}$",
+      "C. $\\frac{\\mu_{0}iab}{2a}\\frac{\\pi b^{2}}{R}$",
+      "D. $\\frac{\\mu_{0}ib}{2\\pi R}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\mu_{0}ia^{2}\\pi}{2Rb}$",
+    "solution": "Duplicate of Q20.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Electromagnetic Induction",
+    "question": "The mutual inductance between two coils depends on",
+    "question_latex": "The mutual inductance between two coils depends on",
+    "question_images": [],
+    "options": [
+      "A. medium between the coils",
+      "B. separation between the two coils",
+      "C. orientation of the two coils",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "Mutual inductance depends on geometry, separation, orientation, and medium.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a coil of resistance 10, the induced current developed by changing magnetic flux through it, is shown in figure as a function of time. The magnitude of change in flux through the coil in weber is",
+    "question_latex": "In a coil of resistance $10$, the induced current developed by changing magnetic flux through it, is shown in figure as a function of time. The magnitude of change in flux through the coil in weber is",
+    "question_images": [
+      "89_qu_1.png"
+    ],
+    "options": [
+      "A. 8",
+      "B. 2",
+      "C. 6",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Charge $q = \\text{Area} = \\frac{1}{2} \\times 0.1 \\times 4 = 0.2 C$. $\\Delta \\phi = q R = 0.2 \\times 10 = 2$ Wb.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Electromagnetic Induction",
+    "question": "A small square loop of wire of side l is placed inside a large square loop of wire L (L > l). Both loops are coplanar and their centres coincide at point O as shown in figure. The mutual inductance of the system is (July 2022)",
+    "question_latex": "A small square loop of wire of side $l$ is placed inside a large square loop of wire $L (L > l)$. Both loops are coplanar and their centres coincide at point $O$ as shown in figure. The mutual inductance of the system is (July 2022)",
+    "question_images": [
+      "90_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{\\mu_{0}L^{2}}{2\\sqrt{2}\\pi l}$",
+      "B. $\\frac{\\mu_{0}l^{2}}{2\\sqrt{2}\\pi L}$",
+      "C. $\\frac{2\\sqrt{2}\\mu_{0}l^{2}}{\\pi L}$",
+      "D. $\\frac{2\\sqrt{2}\\mu_{0}L^{2}}{\\pi l}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{2\\sqrt{2}\\mu_{0}l^{2}}{\\pi L}$",
+    "solution": "Field at center of square loop of side L carrying current I is $B = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi L}$. Flux through small loop $\\phi = B l^2 = \\frac{2\\sqrt{2}\\mu_0 l^2}{\\pi L} I$. Mutual Inductance $M = \\frac{2\\sqrt{2}\\mu_0 l^2}{\\pi L}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Electromagnetic Induction",
+    "question": "In the following circuit, the bulb will become suddenly bright if",
+    "question_latex": "In the following circuit, the bulb will become suddenly bright if",
+    "question_images": [
+      "91_qu_1.png"
+    ],
+    "options": [
+      "A. Contact is made or broken",
+      "B. Contact is made",
+      "C. Contact is broken",
+      "D. Won t become bright at all"
+    ],
+    "option_images": [],
+    "answer": "C. Contact is broken",
+    "solution": "Duplicate of Q47.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Electromagnetic Induction",
+    "question": "A metallic rod of length 'l' is tied to a string of length 2l and made to rotate with angular speed w on a horizontal table with one end of the string fixed. If there is a vertical magnetic field 'B' in the region, the e.m.f. induced across the ends of the rod is (2013)",
+    "question_latex": "A metallic rod of length '$l$' is tied to a string of length $2l$ and made to rotate with angular speed $\\omega$ on a horizontal table with one end of the string fixed. If there is a vertical magnetic field '$B$' in the region, the e.m.f. induced across the ends of the rod is (2013)",
+    "question_images": [
+      "92_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{5B\\omega l^{2}}{2}$",
+      "B. $\\frac{4B\\omega l^{2}}{2}$",
+      "C. $\\frac{3B\\omega l^{2}}{2}$",
+      "D. $\\frac{2B\\omega l^{2}}{2}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{5B\\omega l^{2}}{2}$",
+    "solution": "Rod ends are at $r_1 = 2l$ and $r_2 = 3l$. Emf $e = \\int_{2l}^{3l} B \\omega x dx = \\frac{B\\omega}{2} [x^2]_{2l}^{3l} = \\frac{B\\omega}{2} (9l^2 - 4l^2) = \\frac{5 B \\omega l^2}{2}$.",
+    "solution_images": [
+      "92_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Electromagnetic Induction",
+    "question": "The SI unit of inductance, the henry can be written as",
+    "question_latex": "The SI unit of inductance, the henry can be written as",
+    "question_images": [],
+    "options": [
+      "A. weber/ampere",
+      "B. volt second/ampere",
+      "C. joule/ampere^2",
+      "D. all of the above"
+    ],
+    "option_images": [],
+    "answer": "D. all of the above",
+    "solution": "$L = \\phi/I$ (Wb/A). $e = L di/dt \\Rightarrow L = e dt / di$ (V s / A). $E = 1/2 L I^2 \\Rightarrow L = 2E/I^2$ (J/A^2). All are correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting ring of radius 1 m kept in a uniform magnetic field B of 0.01T, rotates uniformly with an angular velocity 100rads^-1 with its axis of rotation perpendicular to B. The maximum induced emf in it is",
+    "question_latex": "A conducting ring of radius $1 m$ kept in a uniform magnetic field $B$ of $0.01T$, rotates uniformly with an angular velocity $100rads^{-1}$ with its axis of rotation perpendicular to $B$. The maximum induced emf in it is",
+    "question_images": [],
+    "options": [
+      "A. 1.5π V",
+      "B. π V",
+      "C. 2π V",
+      "D. 0.5π V"
+    ],
+    "option_images": [],
+    "answer": "B. π V",
+    "solution": "$e_{max} = NBA\\omega$. $N=1$. $A=\\pi R^2 = \\pi$. $\\omega=100$. $B=0.01$. $e_{max} = 1 \\times 0.01 \\times \\pi \\times 100 = \\pi V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Electromagnetic Induction",
+    "question": "In a coil of resistance 1000, a current is induced by changing the magnetic flux through it as shown in the figure. The magnitude of change in flux through the coil is (2017)",
+    "question_latex": "In a coil of resistance $1000$, a current is induced by changing the magnetic flux through it as shown in the figure. The magnitude of change in flux through the coil is (2017)",
+    "question_images": [
+      "95_qu_1.png"
+    ],
+    "options": [
+      "A. 225 Wb",
+      "B. 200 Wb",
+      "C. 250 Wb",
+      "D. 275 Wb"
+    ],
+    "option_images": [],
+    "answer": "C. 250 Wb",
+    "solution": "Duplicate of Q9. $\\Delta\\phi = 250$ Wb.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Electromagnetic Induction",
+    "question": "A conducting wire xy of length and mass m is sliding without friction on vertical conduction rails ab and cd as shown in figure. A uniform magnetic field B exists perpendicular to the plane of the rails, x moves with a constant velocity of x",
+    "question_latex": "A conducting wire $xy$ of length and mass $m$ is sliding without friction on vertical conduction rails $ab$ and $cd$ as shown in figure. A uniform magnetic field $B$ exists perpendicular to the plane of the rails, $x$ moves with a constant velocity of $x$",
+    "question_images": [
+      "96_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{mgR}{Bl}$",
+      "B. $\\frac{mgR}{Bl^{2}}$",
+      "C. $\\frac{mgR}{B^{2}l^{2}}$",
+      "D. $\\frac{mgR}{B^{2}l}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{mgR}{B^{2}l^{2}}$",
+    "solution": "For constant velocity (terminal velocity), magnetic force equals weight. $F_m = mg$. $I l B = mg$. $I = e/R = B l v / R$. $(B l v / R) l B = mg$. $B^2 l^2 v / R = mg \\Rightarrow v = \\frac{mgR}{B^2 l^2}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Electromagnetic Induction",
+    "question": "A step-down transformer is connected to main supply 200V to operate a 6V, 30W bulb. The current in primary is",
+    "question_latex": "A step-down transformer is connected to main supply $200V$ to operate a $6V, 30W$ bulb. The current in primary is",
+    "question_images": [],
+    "options": [
+      "A. 3 A",
+      "B. 1.5 A",
+      "C. 0.3 A",
+      "D. 0.15 A"
+    ],
+    "option_images": [],
+    "answer": "D. 0.15 A",
+    "solution": "$P_{out} = 30 W$. Assuming 100% efficiency, $P_{in} = 30 W$. $V_p I_p = 30$. $200 I_p = 30 \\Rightarrow I_p = 0.15 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Electromagnetic Induction",
+    "question": "When the speed of a dc motor increases the armature current",
+    "question_latex": "When the speed of a dc motor increases the armature current",
+    "question_images": [],
+    "options": [
+      "A. Increases",
+      "B. Decreases",
+      "C. Does not change",
+      "D. Increases and decreases continuously"
+    ],
+    "option_images": [],
+    "answer": "B. Decreases",
+    "solution": "Back emf increases with speed ($E \\propto \\omega$). Current $I = (V - E)/R$. As $E$ increases, $I$ decreases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Electromagnetic Induction",
+    "question": "Henry is the S.I. unit of",
+    "question_latex": "Henry is the S.I. unit of",
+    "question_images": [],
+    "options": [
+      "A. resistance",
+      "B. capacity",
+      "C. inductance",
+      "D. current"
+    ],
+    "option_images": [],
+    "answer": "C. inductance",
+    "solution": "Henry is the unit of inductance.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Electromagnetic Induction",
+    "question": "A flip coil consists of N turns of circular coils which lie in a uniform magnetic field. Plane of the coils is perpendicular to the magnetic filed as shown in figure. The coil is connected to a current integrator which measures the total charge passing through it. The coil is turned 180° about the diameter. The charge passing through the coil is",
+    "question_latex": "A flip coil consists of $N$ turns of circular coils which lie in a uniform magnetic field. Plane of the coils is perpendicular to the magnetic filed as shown in figure. The coil is connected to a current integrator which measures the total charge passing through it. The coil is turned $180^{\\circ}$ about the diameter. The charge passing through the coil is",
+    "question_images": [
+      "100_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{NBA}{R}$",
+      "B. $\\frac{\\sqrt{3}NBA}{2R}$",
+      "C. $\\frac{\\overline{NB}A}{\\sqrt{2}R}$",
+      "D. $\\frac{2NBA}{R}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{2NBA}{R}$",
+    "solution": "Initial flux $\\phi_i = NBA$. Final flux $\\phi_f = -NBA$ (rotated 180 degrees). Change in flux $\\Delta \\phi = 2NBA$. Charge $q = \\frac{\\Delta \\phi}{R} = \\frac{2NBA}{R}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

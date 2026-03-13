@@ -155,20 +155,30 @@ async function loadQuestionsFromZip({ force = false } = {}) {
         }
 
         const pushArray = (arr) => {
+          if (!Array.isArray(arr)) return;
           for (const q of arr) {
-            const qq = Object.assign({}, q);
-            qq._meta = Object.assign({}, qq._meta || {}, meta);
-            all.push(qq);
+            if (Array.isArray(q)) {
+              // Recursive call for nested arrays
+              pushArray(q);
+            } else if (q && typeof q === 'object') {
+              const qq = Object.assign({}, q);
+              qq._meta = Object.assign({}, qq._meta || {}, meta);
+              all.push(qq);
+            }
           }
         };
 
-        if (Array.isArray(parsed)) pushArray(parsed);
-        else if (parsed && Array.isArray(parsed.questions))
-          pushArray(parsed.questions);
-        else if (parsed && parsed.question) pushArray([parsed]);
-        else {
-          const arrVal = Object.values(parsed).find((v) => Array.isArray(v));
-          if (arrVal) pushArray(arrVal);
+        if (parsed) {
+          if (Array.isArray(parsed)) {
+            pushArray(parsed);
+          } else if (Array.isArray(parsed.questions)) {
+            pushArray(parsed.questions);
+          } else if (parsed.question) {
+            pushArray([parsed]);
+          } else {
+            const arrVal = Object.values(parsed).find((v) => Array.isArray(v));
+            if (arrVal) pushArray(arrVal);
+          }
         }
       } catch (err) {
         // console.warn('Failed parse entry', entry.path, err?.message || err); // Removed

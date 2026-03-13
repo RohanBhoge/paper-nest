@@ -1,0 +1,960 @@
+[
+  {
+    "id": 1,
+    "chapter": "Surface Chemistry",
+    "question": "Which of the following electrolyte will have maximum flocculation value for Fe(OH)3 sol?",
+    "question_latex": "Which of the following electrolyte will have maximum flocculation value for $\\text{Fe(OH)}_3$ sol?",
+    "question_images": [],
+    "options": [
+      "A. NaCl",
+      "B. Na2S",
+      "C. (NH4)3PO4",
+      "D. K2SO4"
+    ],
+    "option_images": [],
+    "answer": "A. NaCl",
+    "solution": "$\\text{Fe(OH)}_3$ is a positively charged sol. To coagulate $\\text{Fe(OH)}_3$, a negatively charged electrolyte is used and greater the value of negative charge, coagulating power will be strong.\n\nFlocculation value $\\propto \\frac{1}{\\text{Coagulating power}}$\n\nAmong the given electrolytes, NaCl has the lowest coagulating power (monovalent anion $\\text{Cl}^-$). So its flocculation value will be maximum.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Surface Chemistry",
+    "question": "Physical adsorption increases when",
+    "question_latex": "Physical adsorption increases when",
+    "question_images": [],
+    "options": [
+      "A. Temperature increases",
+      "B. Temperature decreases",
+      "C. Temperature remains constant",
+      "D. Temperature increases above 60°C"
+    ],
+    "option_images": [],
+    "answer": "B. Temperature decreases",
+    "solution": "Physical adsorption is an exothermic process. According to Le Chatelier's principle, lowering the temperature favours the forward (adsorption) process. Hence, physical adsorption increases when temperature decreases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Surface Chemistry",
+    "question": "In the titration between oxalic acid and acidified potassium permanganate, the manganous salt formed during the reaction catalyses the reaction. The manganous salt acts as:",
+    "question_latex": "In the titration between oxalic acid and acidified potassium permanganate, the manganous salt formed during the reaction catalyses the reaction. The manganous salt acts as:",
+    "question_images": [],
+    "options": [
+      "A. A promoter",
+      "B. A positive catalyst",
+      "C. An autocatalyst",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. An autocatalyst",
+    "solution": "Autocatalysis is the phenomenon where one of the products of the reaction acts as a catalyst for the same reaction. In the titration of oxalic acid with $\\text{KMnO}_4$, the $\\text{Mn}^{2+}$ (manganous salt) formed during the reaction catalyses the further reaction. This is a classic example of autocatalysis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Surface Chemistry",
+    "question": "On addition of 1mL solution of 10% NaCl to 10mL gold solution in the presence of 0.025 g of starch, the coagulation is prevented because starch has the following gold numbers",
+    "question_latex": "On addition of $1\\,\\text{mL}$ solution of $10\\%$ NaCl to $10\\,\\text{mL}$ gold solution in the presence of $0.025\\,\\text{g}$ of starch, the coagulation is prevented because starch has the following gold numbers",
+    "question_images": [],
+    "options": [
+      "A. 25",
+      "B. 0.025",
+      "C. 0.25",
+      "D. 2.5"
+    ],
+    "option_images": [],
+    "answer": "A. 25",
+    "solution": "Gold number of a protective colloid is the minimum mass (in milligrams) of the colloid which, when added to $10\\,\\text{mL}$ of gold solution, just prevents its coagulation by $1\\,\\text{mL}$ of $10\\%$ NaCl solution.\n\nProtective power $\\propto \\frac{1}{\\text{gold number}}$\n\nGiven: $0.025\\,\\text{g} = 25\\,\\text{mg}$ of starch prevents coagulation. Therefore, the gold number of starch is $\\mathbf{25}$, indicating it has very low protective power.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Surface Chemistry",
+    "question": "Which forms micelles in aqueous solution above certain concentration?",
+    "question_latex": "Which forms micelles in aqueous solution above certain concentration?",
+    "question_images": [],
+    "options": [
+      "A. Glucose",
+      "B. Dodecyl trimethyl ammonium chloride",
+      "C. Urea",
+      "D. Pyridinium chloride"
+    ],
+    "option_images": [],
+    "answer": "B. Dodecyl trimethyl ammonium chloride",
+    "solution": "Dodecyl trimethyl ammonium chloride $\\text{C}_{12}\\text{H}_{25}(\\text{CH}_3)_3\\text{NCl}$ is a surfactant. On dissolution it forms $\\text{C}_{12}\\text{H}_{25}(\\text{CH}_3)_3\\text{N}^+$ and $\\text{Cl}^-$ ions. The cation possesses a hydrophilic head ($-\\text{N}^+$) and a hydrophobic tail $[\\text{C}_{12}\\text{H}_{25}(\\text{CH}_3)_3^-]$. Above the critical micelle concentration (CMC), these amphiphilic molecules aggregate to form micelles.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Surface Chemistry",
+    "question": "Hydrolysis of sucrose (C12H22O11) by invertase gives:",
+    "question_latex": "Hydrolysis of sucrose ($\\text{C}_{12}\\text{H}_{22}\\text{O}_{11}$) by invertase gives:",
+    "question_images": [],
+    "options": [
+      "A. Glucose",
+      "B. Fructose",
+      "C. Both (a) and (b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Both (a) and (b)",
+    "solution": "Invertase (sucrase) is an enzyme that catalyses the hydrolysis of sucrose:\n\n$$\\text{C}_{12}\\text{H}_{22}\\text{O}_{11} \\xrightarrow{\\text{Invertase}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + \\text{C}_6\\text{H}_{12}\\text{O}_6$$\n$$\\text{Sucrose} \\rightarrow \\text{Glucose} + \\text{Fructose}$$\n\nThus both glucose and fructose are produced.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Surface Chemistry",
+    "question": "Lyophilic sols are more stable than lyophobic sols because the particles",
+    "question_latex": "Lyophilic sols are more stable than lyophobic sols because the particles",
+    "question_images": [],
+    "options": [
+      "A. Are positively charged",
+      "B. Are negatively charged",
+      "C. Are solvated",
+      "D. Repel each other"
+    ],
+    "option_images": [],
+    "answer": "C. Are solvated",
+    "solution": "Lyophilic sols are more stable than lyophobic sols due to the fact that lyophilic colloids are extensively solvated (surrounded by solvent molecules). This solvation layer provides steric stabilization, preventing coagulation and making them thermodynamically more stable.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Surface Chemistry",
+    "question": "The rate of chemisorption:",
+    "question_latex": "The rate of chemisorption:",
+    "question_images": [],
+    "options": [
+      "A. Decreases with increase of pressure",
+      "B. Increases with increase of pressure",
+      "C. Is independent of pressure",
+      "D. Is independent of temperature"
+    ],
+    "option_images": [],
+    "answer": "B. Increases with increase of pressure",
+    "solution": "Chemisorption involves the formation of chemical bonds between adsorbate and adsorbent. Increasing pressure increases the concentration (or partial pressure) of the gas above the surface, thus increasing the rate at which gas molecules strike and bond with the surface. Hence, the rate of chemisorption increases with increase in pressure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Surface Chemistry",
+    "question": "Which acts as poison to finely divided Fe in Haber's process for the manufacture of NH3?",
+    "question_latex": "Which acts as poison to finely divided Fe in Haber's process for the manufacture of $\\text{NH}_3$?",
+    "question_images": [],
+    "options": [
+      "A. CO2",
+      "B. NO",
+      "C. CO",
+      "D. N2"
+    ],
+    "option_images": [],
+    "answer": "C. CO",
+    "solution": "In Haber's process, iron (Fe) is used as a catalyst. CO acts as a poison (catalyst inhibitor) because it gets preferentially adsorbed on the active centres of Fe, blocking them and preventing $\\text{N}_2$ and $\\text{H}_2$ from adsorbing. This reduces the catalytic activity of Fe.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Surface Chemistry",
+    "question": "As per Hardy-Schulze formulation, the flocculation value of the following for ferric hydroxide sol are in the order (Jan 2020)",
+    "question_latex": "As per Hardy-Schulze formulation, the flocculation value of the following for ferric hydroxide sol are in the order (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. K3[Fe(CN)6] < K2CrO4 < AlCl3 < KBr < KNO3",
+      "B. K3[Fe(CN)6] > AlCl3 > K2CrO4 > KBr > KNO3",
+      "C. K3[Fe(CN)6] < K2CrO4 < KBr = KNO3 = AlCl3",
+      "D. AlCl3 > K3[Fe(CN)6] > K2CrO4 > KBr = KNO3"
+    ],
+    "option_images": [],
+    "answer": "C. K3[Fe(CN)6] < K2CrO4 < KBr = KNO3 = AlCl3",
+    "solution": "According to Hardy-Schulze rule, for coagulation of positively charged $\\text{Fe(OH)}_3$ sol, anionic electrolytes are used and coagulating power increases with the valency of the anion:\n\n- Trivalent anion: $[\\text{Fe(CN)}_6]^{3-}$ — highest coagulating power → lowest flocculation value\n- Divalent anion: $\\text{CrO}_4^{2-}$ — medium coagulating power\n- Monovalent anions: $\\text{Br}^-,\\,\\text{NO}_3^-,\\,\\text{Cl}^-$ — lowest coagulating power → highest flocculation value\n\nFlocculation value $\\propto \\frac{1}{\\text{Coagulating power}}$\n\nThus: $\\text{K}_3[\\text{Fe(CN)}_6] < \\text{K}_2\\text{CrO}_4 < \\text{KBr} = \\text{KNO}_3 = \\text{AlCl}_3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Surface Chemistry",
+    "question": "Catalysts are generally used in finely divided state because",
+    "question_latex": "Catalysts are generally used in finely divided state because",
+    "question_images": [],
+    "options": [
+      "A. It avoids wastage of catalyst",
+      "B. We can see its reaction",
+      "C. It has more surface",
+      "D. It has no effect on reaction rate"
+    ],
+    "option_images": [],
+    "answer": "C. It has more surface",
+    "solution": "Catalysis (especially heterogeneous catalysis) is a surface phenomenon. When a catalyst is present in a finely divided state, its surface area increases enormously, providing more active sites for adsorption. Greater adsorption leads to greater catalytic activity and higher reaction rate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Surface Chemistry",
+    "question": "Which one of the following characteristics is not correct for physical adsorption? (2003)",
+    "question_latex": "Which one of the following characteristics is not correct for physical adsorption? (2003)",
+    "question_images": [],
+    "options": [
+      "A. Both enthalpy and entropy of adsorption are negative.",
+      "B. Adsorption increases with increase in temperature",
+      "C. Adsorption on solids is reversible",
+      "D. Adsorption is spontaneous"
+    ],
+    "option_images": [],
+    "answer": "B. Adsorption increases with increase in temperature",
+    "solution": "For physical adsorption:\n- $\\Delta H < 0$ (exothermic) ✓\n- $\\Delta S < 0$ (decrease in randomness when gas molecules adsorb) ✓\n- It is reversible ✓\n- $\\Delta G < 0$ (spontaneous) ✓\n\nOption B is incorrect: Physical adsorption **decreases** with increase in temperature because it is exothermic (Le Chatelier's principle favours desorption at higher temperatures).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Surface Chemistry",
+    "question": "Adsorption of a gas follows Freundlich adsorption isotherm. x is the mass of the gas adsorbed on mass m of the adsorbent. The plot of log(x/m) versus log p is shown in the given graph. x/m is proportional to (April 2019)",
+    "question_latex": "Adsorption of a gas follows Freundlich adsorption isotherm. $x$ is the mass of the gas adsorbed on mass $m$ of the adsorbent. The plot of $\\log\\frac{x}{m}$ versus $\\log p$ is shown in the given graph. $\\frac{x}{m}$ is proportional to (April 2019)",
+    "question_images": [
+      "13_qu_1.png"
+    ],
+    "options": [
+      "A. p^(3/2)",
+      "B. p^3",
+      "C. p^(2/3)",
+      "D. p^2"
+    ],
+    "option_images": [],
+    "answer": "C. p^(2/3)",
+    "solution": "Freundlich adsorption isotherm: $\\frac{x}{m} = kp^{1/n}$\n\nTaking logarithm: $\\log\\frac{x}{m} = \\log k + \\frac{1}{n}\\log p$\n\nComparing with $y = mx + c$, the slope $= \\frac{1}{n}$.\n\nFrom the graph, the slope $= \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{2}{3}$\n\nSo $\\frac{1}{n} = \\frac{2}{3}$, thus:\n$$\\frac{x}{m} \\propto p^{1/n} \\propto p^{2/3}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Surface Chemistry",
+    "question": "Peptization is a (April 2019)",
+    "question_latex": "Peptization is a (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. process of converting a colloidal solution into precipitate",
+      "B. process of converting soluble particles to form colloidal solution",
+      "C. process of bringing colloidal molecule into solution",
+      "D. process of converting precipitate into colloidal solution."
+    ],
+    "option_images": [],
+    "answer": "D. process of converting precipitate into colloidal solution.",
+    "solution": "Peptization is the process of converting a freshly prepared precipitate (coagulated colloid) into a colloidal solution by adding a small amount of electrolyte called peptizing agent. The peptizing agent gets adsorbed on the precipitate particles, imparting charge to them, causing them to repel each other and disperse as colloidal particles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Surface Chemistry",
+    "question": "Which is used as catalyst to retard the oxidation of chloroform?",
+    "question_latex": "Which is used as catalyst to retard the oxidation of chloroform?",
+    "question_images": [],
+    "options": [
+      "A. H2O",
+      "B. C2H5OH",
+      "C. Glycerol",
+      "D. H2SO4"
+    ],
+    "option_images": [],
+    "answer": "B. C2H5OH",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{OH}$ (ethanol) acts as a negative catalyst (inhibitor) for the oxidation of $\\text{CHCl}_3$ (chloroform). Chloroform, on exposure to light and air, oxidises to form phosgene ($\\text{COCl}_2$), a toxic gas. Ethanol is added to retard this oxidation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Surface Chemistry",
+    "question": "An emulsifier is an agent which",
+    "question_latex": "An emulsifier is an agent which",
+    "question_images": [],
+    "options": [
+      "A. Accelerates the dispersion",
+      "B. Stabilizes an emulsion",
+      "C. Homogenises an emulsion",
+      "D. Aids the flocculation of an emulsion"
+    ],
+    "option_images": [],
+    "answer": "B. Stabilizes an emulsion",
+    "solution": "An emulsifier (or emulsifying agent) is a substance that stabilizes an emulsion by reducing the interfacial tension between the two immiscible liquids (e.g., oil and water). It forms a protective layer around the dispersed droplets, preventing their coalescence and thus stabilizing the emulsion.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Surface Chemistry",
+    "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): Dissolved substances can be removed from a colloidal solution by diffusion through a parchment paper. Reason (R): Particles in a true solution cannot pass through parchment paper but the colloidal particles can pass through the parchment paper. Choose the correct answer. (July 2022)",
+    "question_latex": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): Dissolved substances can be removed from a colloidal solution by diffusion through a parchment paper. Reason (R): Particles in a true solution cannot pass through parchment paper but the colloidal particles can pass through the parchment paper. Choose the correct answer. (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. A is not correct but R is correct",
+      "B. Both A and R are correct but R is not the correct explanation of A",
+      "C. A is correct but R is not correct",
+      "D. Both A and R are correct and R is the correct explanation of A"
+    ],
+    "option_images": [],
+    "answer": "C. A is correct but R is not correct",
+    "solution": "Assertion (A) is correct: Dialysis is the process of removing dissolved substances (crystalloids) from a colloidal solution by diffusion through a parchment paper (semi-permeable membrane).\n\nReason (R) is incorrect: The reason is stated backwards. In reality, particles in a **true solution** (small ions/molecules) **can** pass through the parchment paper, while **colloidal particles cannot** pass through it. This is the basis of dialysis.\n\nTherefore, A is correct but R is not correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Surface Chemistry",
+    "question": "A gas undergoes physical adsorption on a surface and follows the Freundlich adsorption isotherm equation, x/m = kp^0.5 (April 2019). Adsorption of the gas increases with",
+    "question_latex": "A gas undergoes physical adsorption on a surface and follows the given Freundlich adsorption isotherm equation, $\\frac{x}{m} = kp^{0.5}$ (April 2019). Adsorption of the gas increases with",
+    "question_images": [],
+    "options": [
+      "A. increase in P and increase in T",
+      "B. decrease in P and decrease in T",
+      "C. increase in P and decrease in T",
+      "D. decrease in P and increase in T"
+    ],
+    "option_images": [],
+    "answer": "C. increase in P and decrease in T",
+    "solution": "From the Freundlich isotherm: $\\frac{x}{m} = kp^{0.5}$\n\n- As $p$ increases, $\\frac{x}{m}$ increases → adsorption increases with increasing pressure.\n- Physical adsorption is exothermic. As temperature increases, equilibrium shifts backward (desorption). Hence adsorption **decreases** with increasing temperature.\n\nTherefore, adsorption increases with increase in $P$ and decrease in $T$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Surface Chemistry",
+    "question": "Ferric chloride is applied to stop bleeding because",
+    "question_latex": "Ferric chloride is applied to stop bleeding because",
+    "question_images": [],
+    "options": [
+      "A. Fe3+ ions coagulate negatively charged blood solution",
+      "B. Fe3+ ions coagulate positively charged blood solution",
+      "C. Cl- ions coagulate positively charged blood solution",
+      "D. Cl- ions coagulate negatively charged blood solution"
+    ],
+    "option_images": [],
+    "answer": "A. Fe3+ ions coagulate negatively charged blood solution",
+    "solution": "Blood is a negatively charged colloidal solution. When $\\text{FeCl}_3$ is applied, $\\text{Fe}^{3+}$ ions (trivalent cations) coagulate the negatively charged blood colloid. The coagulation causes clotting and stops bleeding. This is an application of the Hardy-Schulze rule — higher valency ion has greater coagulating power.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Surface Chemistry",
+    "question": "Which adsorption takes place at low temperature?",
+    "question_latex": "Which adsorption takes place at low temperature?",
+    "question_images": [],
+    "options": [
+      "A. Physical",
+      "B. Chemical",
+      "C. Both (a) and (b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Physical",
+    "solution": "Physical adsorption (physisorption) occurs at low temperatures because:\n- It is held by weak van der Waals forces\n- It is an exothermic process; low temperature favours adsorption\n- High temperature provides energy for desorption\n\nChemisorption (chemical adsorption) requires activation energy and thus occurs at higher temperatures. At very high temperatures, chemisorption also decreases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Surface Chemistry",
+    "question": "When a sulphur sol is evaporated sulphur is obtained. On mixing with water sulphur sol is not formed. The sol is",
+    "question_latex": "When a sulphur sol is evaporated sulphur is obtained. On mixing with water sulphur sol is not formed. The sol is",
+    "question_images": [],
+    "options": [
+      "A. Lyophilic",
+      "B. Reversible",
+      "C. Hydrophobic",
+      "D. Hydrophilic"
+    ],
+    "option_images": [],
+    "answer": "C. Hydrophobic",
+    "solution": "Hydrophobic (lyophobic) sols are irreversible in nature. They have no affinity between the dispersed phase and the dispersion medium ($\\text{H}_2\\text{O}$). Once the sol is evaporated and sulphur is obtained, it cannot form the colloidal sol again by simple addition of water. This irreversibility is the hallmark of hydrophobic/lyophobic sols.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Surface Chemistry",
+    "question": "Brownian motion is a/an",
+    "question_latex": "Brownian motion is a/an",
+    "question_images": [],
+    "options": [
+      "A. Electrical property",
+      "B. Mechanical property",
+      "C. Optical property",
+      "D. Colligative property"
+    ],
+    "option_images": [],
+    "answer": "B. Mechanical property",
+    "solution": "Brownian motion is the random, zigzag movement of colloidal particles caused by unequal bombardment of the dispersed particles by the molecules of the dispersion medium. It is a kinetic/mechanical property of colloidal solutions. It also helps to stabilize colloidal solutions by preventing sedimentation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Surface Chemistry",
+    "question": "In Langmuir's model of adsorption of a gas on a solid surface",
+    "question_latex": "In Langmuir's model of adsorption of a gas on a solid surface",
+    "question_images": [],
+    "options": [
+      "A. The rate of dissociation of adsorbed molecules from the surface does not depend on the surface covered",
+      "B. The adsorption at a single site on the surface may involve multiple molecules at the same time",
+      "C. The mass of gas striking a given area of surface is proportional to the pressure of the gas",
+      "D. The mass of gas striking a given area of surface is independent of the pressure of the gas"
+    ],
+    "option_images": [],
+    "answer": "C. The mass of gas striking a given area of surface is proportional to the pressure of the gas",
+    "solution": "In Langmuir's adsorption isotherm, the key assumptions include:\n- Adsorption is monolayer\n- All adsorption sites are equivalent\n- The mass of gas striking a given area of surface is proportional to the pressure of the gas\n\nThis leads to the Langmuir equation:\n$$\\frac{x}{m} = \\frac{k'p}{1+kp}$$\n\nwhere the rate of adsorption is proportional to pressure (i.e., proportional to the frequency of collision of gas molecules with the surface).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Surface Chemistry",
+    "question": "The conditions given below are in the context of observing Tyndall effect in colloidal solutions. (A) The diameter of the colloidal particles is comparable to the wavelength of light used. (B) The diameter of the colloidal particles is much smaller than the wavelength of light used. (C) The diameter of the colloidal particles is much larger than the wavelength of light used. (D) The refractive indices of the dispersed phase and the dispersion medium are comparable. (E) The dispersed phase has a very different refractive index from the dispersion medium. Choose the most appropriate conditions from the options given below. (July 2021)",
+    "question_latex": "The conditions given below are in the context of observing Tyndall effect in colloidal solutions. (A) The diameter of the colloidal particles is comparable to the wavelength of light used. (B) The diameter of the colloidal particles is much smaller than the wavelength of light used. (C) The diameter of the colloidal particles is much larger than the wavelength of light used. (D) The refractive indices of the dispersed phase and the dispersion medium are comparable. (E) The dispersed phase has a very different refractive index from the dispersion medium. Choose the most appropriate conditions. (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. (C) and (D) only",
+      "B. (B) and (E) only",
+      "C. (A) and (D) only",
+      "D. (A) and (E) only"
+    ],
+    "option_images": [],
+    "answer": "D. (A) and (E) only",
+    "solution": "Tyndall effect is the scattering of light by colloidal particles. Two conditions are necessary for Tyndall effect:\n1. **(A)** The diameter of the colloidal particles should be comparable to (not much smaller than) the wavelength of light used.\n2. **(E)** The dispersed phase should have a very different refractive index from the dispersion medium — large difference in refractive indices ensures effective scattering.\n\nIf the refractive indices are comparable (condition D), there is little scattering.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Surface Chemistry",
+    "question": "Colloidal gold is given by injection to act as",
+    "question_latex": "Colloidal gold is given by injection to act as",
+    "question_images": [],
+    "options": [
+      "A. Disinfectant",
+      "B. Anticancer agent",
+      "C. Germ killer",
+      "D. Tonic to raise vitality of human systems"
+    ],
+    "option_images": [],
+    "answer": "D. Tonic to raise vitality of human systems",
+    "solution": "In the medical field, colloidal gold (also known as Aurum) has been traditionally used as a tonic to raise the vitality of human systems. It is one of the well-known applications of colloids in medicine.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Surface Chemistry",
+    "question": "Which of the following is present at the time of cracking of hydrocarbons?",
+    "question_latex": "Which of the following is present at the time of cracking of hydrocarbons?",
+    "question_images": [],
+    "options": [
+      "A. Copper",
+      "B. Zeolite",
+      "C. Nickel",
+      "D. Molybdenum"
+    ],
+    "option_images": [],
+    "answer": "B. Zeolite",
+    "solution": "Zeolites are used as catalysts in the catalytic cracking of hydrocarbons (petrochemicals). They are microporous aluminosilicate minerals that act as shape-selective catalysts due to their well-defined pore structures, making them effective for cracking large hydrocarbon molecules into smaller ones.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Surface Chemistry",
+    "question": "Which one of the following will have highest coagulating power for As2S3 colloid?",
+    "question_latex": "Which one of the following will have highest coagulating power for $\\text{As}_2\\text{S}_3$ colloid?",
+    "question_images": [],
+    "options": [
+      "A. Al3+",
+      "B. PO4^3-",
+      "C. SO4^2-",
+      "D. Na+"
+    ],
+    "option_images": [],
+    "answer": "A. Al3+",
+    "solution": "$\\text{As}_2\\text{S}_3$ sol is a negatively charged colloidal solution. According to Hardy-Schulze rule, a **positive ion** will coagulate it, and coagulating power $\\propto$ charge on the ion.\n\nAmong the cations given: $\\text{Al}^{3+}$ has the highest positive charge (+3) compared to $\\text{Na}^+$ (+1).\n\nTherefore, $\\text{Al}^{3+}$ has the highest coagulating power for $\\text{As}_2\\text{S}_3$ sol.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Surface Chemistry",
+    "question": "There is desorption of physical adsorption when",
+    "question_latex": "There is desorption of physical adsorption when",
+    "question_images": [],
+    "options": [
+      "A. Temperature is increased",
+      "B. Temperature is decreased",
+      "C. Pressure is increased",
+      "D. Concentration is increased"
+    ],
+    "option_images": [],
+    "answer": "A. Temperature is increased",
+    "solution": "Physical adsorption is an exothermic process. On increasing the temperature, the system is given more thermal energy, which favours the reverse process (desorption). The adsorbed molecules gain enough kinetic energy to escape from the surface. Hence, desorption occurs when temperature is increased.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Surface Chemistry",
+    "question": "An example of solid sol is (Jan 2019)",
+    "question_latex": "An example of solid sol is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. hair cream",
+      "B. paint",
+      "C. butter",
+      "D. gemstones"
+    ],
+    "option_images": [],
+    "answer": "D. gemstones",
+    "solution": "A solid sol is a colloidal system where the dispersed phase is solid and the dispersion medium is also solid. Gemstones (like ruby, which has $\\text{Cr}_2\\text{O}_3$ dispersed in $\\text{Al}_2\\text{O}_3$) are examples of solid sols.\n\nOther examples: Milk glass (solid in solid), some alloys. Hair cream is a gel; paint is a solid in liquid; butter is a liquid emulsion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Surface Chemistry",
+    "question": "Cow milk, an example of natural emulsion is stabilised by",
+    "question_latex": "Cow milk, an example of natural emulsion is stabilised by",
+    "question_images": [],
+    "options": [
+      "A. Fat",
+      "B. Water",
+      "C. Casein",
+      "D. Mg2+ ions"
+    ],
+    "option_images": [],
+    "answer": "C. Casein",
+    "solution": "Cow milk is an oil-in-water emulsion. It is stabilized by casein, a phosphoprotein that acts as an emulsifying agent. Casein molecules have both hydrophilic and hydrophobic parts, which allow them to form a protective layer around the fat droplets, preventing them from coalescing.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Surface Chemistry",
+    "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion: SO2(g) is adsorbed to a larger extent than H2(g) on activated charcoal. Reason: SO2(g) has a higher critical temperature than H2(g). Choose the most appropriate answer. (July 2021)",
+    "question_latex": "Given below are two statements: Assertion (A): $\\text{SO}_{2(g)}$ is adsorbed to a larger extent than $\\text{H}_{2(g)}$ on activated charcoal. Reason (R): $\\text{SO}_{2(g)}$ has a higher critical temperature than $\\text{H}_{2(g)}$. Choose the most appropriate answer. (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "B. (A) is not correct but (R) is correct",
+      "C. (A) is correct but (R) is not correct",
+      "D. Both (A) and (R) are correct but (R) is not the correct explanation of (A)"
+    ],
+    "option_images": [],
+    "answer": "A. Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "solution": "The gases that are more easily liquefiable (such as $\\text{NH}_3$, $\\text{H}_2\\text{S}$, and $\\text{SO}_2$) are more easily adsorbed on solid adsorbents.\n\nEasily liquefiable gases have:\n- Higher critical temperatures\n- Stronger van der Waals' forces of attraction\n\n$\\text{SO}_2$ has a much higher critical temperature ($157.8°\\text{C}$) compared to $\\text{H}_2$ ($-240°\\text{C}$), so it is more easily liquefied and more extensively adsorbed. Both A and R are correct and R correctly explains A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Surface Chemistry",
+    "question": "Blue colour of the sky and red colour of the sunsets are due to",
+    "question_latex": "Blue colour of the sky and red colour of the sunsets are due to",
+    "question_images": [],
+    "options": [
+      "A. Scattering of light from the sun",
+      "B. Scattering of light from particles of dust in the atmosphere",
+      "C. Refraction of blue light by impurities in sea water",
+      "D. Scattering of light due to ozone layer"
+    ],
+    "option_images": [],
+    "answer": "B. Scattering of light from particles of dust in the atmosphere",
+    "solution": "The blue colour of the sky and the red colour of sunsets are due to the Tyndall effect — scattering of sunlight by colloidal particles of dust, water droplets, and aerosols in the atmosphere.\n\n- Blue light (shorter wavelength) is scattered more, giving the sky its blue colour during the day.\n- At sunrise/sunset, light travels a longer path through the atmosphere, causing blue light to be scattered away; only red light (longer wavelength, scattered less) reaches the eyes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Surface Chemistry",
+    "question": "Which of the following can act as a protective colloid?",
+    "question_latex": "Which of the following can act as a protective colloid?",
+    "question_images": [],
+    "options": [
+      "A. Gelatin",
+      "B. Silica gel",
+      "C. Oil-in-water emulsion",
+      "D. All correct"
+    ],
+    "option_images": [],
+    "answer": "A. Gelatin",
+    "solution": "Lyophilic colloids act as protective colloids because they form a protective layer around lyophobic sol particles, preventing their coagulation. Gelatin is a lyophilic colloid and a well-known protective colloid. Its gold number is 0.005–0.01 (very low), indicating high protective power.\n\nSilica gel and oil-in-water emulsions are not protective colloids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Surface Chemistry",
+    "question": "Adsorption is multilayer in the case of",
+    "question_latex": "Adsorption is multilayer in the case of",
+    "question_images": [],
+    "options": [
+      "A. Physical adsorption",
+      "B. Chemisorption",
+      "C. Both (a) and (b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Physical adsorption",
+    "solution": "Multilayer adsorption occurs only in physical adsorption (physisorption) due to weak van der Waals forces. After the first layer is adsorbed, more molecules can adsorb on top of the first layer due to the same weak forces.\n\nChemisorption is always monolayer because it involves the formation of chemical bonds between adsorbate and specific active sites on the adsorbent surface.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Surface Chemistry",
+    "question": "In Langmuir's model of adsorption of a gas on a solid surface (2006)",
+    "question_latex": "In Langmuir's model of adsorption of a gas on a solid surface (2006)",
+    "question_images": [],
+    "options": [
+      "A. the adsorption at a single site on the surface may involve multiple molecules at the same time",
+      "B. the rate of dissociation of adsorbed molecules from the surface does not depend on the surface covered",
+      "C. the mass of gas striking a given area of surface is proportional to the pressure of the gas",
+      "D. the mass of gas striking a given area of surface is independent of the pressure of the gas."
+    ],
+    "option_images": [],
+    "answer": "C. the mass of gas striking a given area of surface is proportional to the pressure of the gas",
+    "solution": "In Langmuir's model, assuming the formation of a monolayer of adsorbate on the surface of the adsorbent, the mass of the gas adsorbed per gram of adsorbent is related to equilibrium pressure by:\n\n$$\\frac{x}{m} = \\frac{aP}{1+bP}$$\n\nwhere $x$ = mass of gas adsorbed on $m$ gram of adsorbent, $P$ = pressure, and $a, b$ are constants.\n\nThe rate of adsorption (striking the surface) is proportional to pressure of the gas.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Surface Chemistry",
+    "question": "Amongst the following statements regarding adsorption, those that are valid are: (1) ΔH becomes less negative as adsorption proceeds. (2) on a given adsorbent, ammonia is adsorbed more than nitrogen gas. (3) on adsorption, the residual force acting along the surface of the adsorbent increases. (4) with increase in temperature, the equilibrium concentration of adsorbate increases. (Sept 2020)",
+    "question_latex": "Amongst the following statements regarding adsorption, those that are valid are: (1) $\\Delta H$ becomes less negative as adsorption proceeds. (2) on a given adsorbent, ammonia is adsorbed more than nitrogen gas. (3) on adsorption, the residual force acting along the surface of the adsorbent increases. (4) with increase in temperature, the equilibrium concentration of adsorbate increases. (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. (4) and (1)",
+      "B. (1) and (2)",
+      "C. (3) and (4)",
+      "D. (2) and (3)"
+    ],
+    "option_images": [],
+    "answer": "B. (1) and (2)",
+    "solution": "Analysis of each statement:\n\n1. **(Valid)** $\\Delta H$ becomes less negative as adsorption proceeds — as more sites get filled, the remaining sites are less energetically favourable, so the enthalpy of adsorption becomes less negative.\n\n2. **(Valid)** $\\text{NH}_3$ is more easily liquefiable (higher critical temperature, stronger van der Waals forces) than $\\text{N}_2$, so it is adsorbed to a greater extent.\n\n3. **(Invalid)** On adsorption, the residual surface forces **decrease** (not increase) because adsorbate molecules satisfy the residual valencies of the adsorbent surface.\n\n4. **(Invalid)** With increase in temperature, adsorption **decreases** (not increases), as physical adsorption is exothermic.",
+    "solution_images": [
+      "36_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Surface Chemistry",
+    "question": "Which of the following statements is incorrect?",
+    "question_latex": "Which of the following statements is incorrect?",
+    "question_images": [],
+    "options": [
+      "A. Emulsions are prepared by shaking two liquid components, say oil and water and adding some emulsifying agent",
+      "B. Water-in-oil emulsions are formed when the emulsifying agent at the interface is chiefly in the water phase",
+      "C. Water-in-oil emulsions are formed when the emulsifying agent at the interface is chiefly in the oil phase",
+      "D. Gems and gels mixed together to give emulsion"
+    ],
+    "option_images": [],
+    "answer": "D. Gems and gels mixed together to give emulsion",
+    "solution": "An emulsion is a dispersion of finely divided droplets of one liquid in another immiscible liquid. It is a liquid-liquid colloidal system.\n\nOption D is incorrect: Gems and gels are not liquids; mixing them does not give an emulsion. Emulsions are formed by mixing two immiscible liquids in the presence of an emulsifying agent.\n\nOptions A, B, and C are all correct statements about emulsions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Surface Chemistry",
+    "question": "In Haber's process for manufacture of ammonia, the reaction is usually carried at about 500°C. If a temperature of about 250°C was used then",
+    "question_latex": "In Haber's process for manufacture of ammonia, the reaction is usually carried at about $500°\\text{C}$. If a temperature of about $250°\\text{C}$ was used then",
+    "question_images": [],
+    "options": [
+      "A. A catalyst would be of no use at all at this temperature",
+      "B. The rate of formation of ammonia would be too slow",
+      "C. No ammonia would be formed at all",
+      "D. The percentage of ammonia in the equilibrium mixture would be too low"
+    ],
+    "option_images": [],
+    "answer": "B. The rate of formation of ammonia would be too slow",
+    "solution": "In Haber's process: $\\text{N}_2 + 3\\text{H}_2 \\rightleftharpoons 2\\text{NH}_3$ ($\\Delta H = -92\\,\\text{kJ/mol}$)\n\nThe optimum temperature for ammonia production is $500°\\text{C}$:\n- Lower temperature ($250°\\text{C}$) would thermodynamically favour more $\\text{NH}_3$ formation (exothermic)\n- **However**, the rate of reaction would be extremely slow at $250°\\text{C}$ due to insufficient activation energy\n\nThe catalyst (Fe) also becomes inactive/less active at lower temperatures. Therefore, the rate of formation of ammonia would be too slow to be economically viable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Surface Chemistry",
+    "question": "In figure, a straight line is given for Freundlich Adsorption (y = 3x + 2.505). The value of 1/n and log K are respectively. (Feb 2023)",
+    "question_latex": "In figure, a straight line is given for Freundlich Adsorption $(y = 3x + 2.505)$. The value of $\\frac{1}{n}$ and $\\log K$ are respectively. (Feb 2023)",
+    "question_images": [
+      "39_qu_1.png"
+    ],
+    "options": [
+      "A. 3 and 2.505",
+      "B. 3 and 0.7033",
+      "C. 0.3 and log 2.505",
+      "D. 0.3 and 0.7033"
+    ],
+    "option_images": [],
+    "answer": "A. 3 and 2.505",
+    "solution": "Freundlich adsorption isotherm:\n$$\\frac{x}{m} = kp^{1/n}$$\n\nTaking logarithm:\n$$\\log\\frac{x}{m} = \\log k + \\frac{1}{n}\\log p$$\n\nComparing with $y = mx + c$:\n- Slope $= \\frac{1}{n} = 3$ (given as the coefficient of $x$)\n- Intercept $= \\log k = 2.505$\n\nTherefore, $\\frac{1}{n} = 3$ and $\\log K = 2.505$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Surface Chemistry",
+    "question": "Match the following: (i) Foam, (ii) Gel, (iii) Aerosol, (iv) Emulsion with (1) smoke, (2) cell fluid, (3) jellies, (4) rubber, (5) froth, (6) milk. (Sept 2020)",
+    "question_latex": "Match the following: (i) Foam, (ii) Gel, (iii) Aerosol, (iv) Emulsion with (1) smoke, (2) cell fluid, (3) jellies, (4) rubber, (5) froth, (6) milk. (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. (i)-(4), (ii)-(2), (iii)-(1), (iv)-(5)",
+      "B. (i)-(5), (ii)-(3), (iii)-(1), (iv)-(6)",
+      "C. (i)-(2), (ii)-(3), (iii)-(5), (iv)-(4)",
+      "D. (i)-(4), (ii)-(2), (iii)-(5), (iv)-(6)"
+    ],
+    "option_images": [],
+    "answer": "B. (i)-(5), (ii)-(3), (iii)-(1), (iv)-(6)",
+    "solution": "Matching colloidal systems with examples:\n- **(i) Foam** — Gas dispersed in liquid → **(5) froth**\n- **(ii) Gel** — Liquid dispersed in solid → **(3) jellies**\n- **(iii) Aerosol** — Solid dispersed in gas → **(1) smoke**\n- **(iv) Emulsion** — Liquid dispersed in liquid → **(6) milk**",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Surface Chemistry",
+    "question": "Milk contains a protein that is very good for health. The protein is:",
+    "question_latex": "Milk contains a protein that is very good for health. The protein is:",
+    "question_images": [],
+    "options": [
+      "A. Caffeine",
+      "B. Calciferol",
+      "C. Keratin",
+      "D. Casein"
+    ],
+    "option_images": [],
+    "answer": "D. Casein",
+    "solution": "Casein is the principal protein found in cow's milk, constituting about 80% of the total proteins. It is also the emulsifying agent that stabilizes the emulsion in milk. Caffeine is a stimulant alkaloid (not a protein), calciferol is Vitamin D, and keratin is a structural protein found in hair and nails.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Surface Chemistry",
+    "question": "Which one of the following methods is commonly used for destruction of colloid?",
+    "question_latex": "Which one of the following methods is commonly used for destruction of colloid?",
+    "question_images": [],
+    "options": [
+      "A. Dialysis",
+      "B. Condensation",
+      "C. Filtration by animal membrane",
+      "D. By adding electrolyte"
+    ],
+    "option_images": [],
+    "answer": "D. By adding electrolyte",
+    "solution": "Coagulation (destruction of colloid) is commonly brought about by adding an electrolyte. The electrolyte provides ions of opposite charge that neutralize the charge on the colloidal particles. Once the particles lose their charge, they come closer together and aggregate (coagulate), settling out of solution. This is the most common method for destroying a colloidal solution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Surface Chemistry",
+    "question": "Identify the correct statements regarding enzymes.",
+    "question_latex": "Identify the correct statements regarding enzymes.",
+    "question_images": [],
+    "options": [
+      "A. Enzymes are specific biological catalysts that can normally function at very high temperatures (T ~ 1000 K)",
+      "B. Enzymes are normally heterogeneous catalysts that are very specific in their action.",
+      "C. Enzyme are specific biological catalysts that cannot be poisoned",
+      "D. Enzyme are specific biological catalysts that possess well defined active sites"
+    ],
+    "option_images": [],
+    "answer": "D. Enzyme are specific biological catalysts that possess well defined active sites",
+    "solution": "Evaluation of each option:\n- **(A) False**: Enzymes function optimally at $25°\\text{C}$ to $40°\\text{C}$, not at $1000\\,\\text{K} \\approx 727°\\text{C}$.\n- **(B) False**: Enzymes are **homogeneous** biological catalysts (they are in the same phase as the substrates in biological systems), not heterogeneous.\n- **(C) False**: Enzymes can be poisoned (inhibited) by specific substances called inhibitors (e.g., heavy metal ions can denature enzymes).\n- **(D) True**: Enzymes are highly specific biological catalysts that possess well-defined active sites with specific shapes complementary to their substrates (lock-and-key model).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Surface Chemistry",
+    "question": "Catalyst used in polymerization of ethene is:",
+    "question_latex": "Catalyst used in polymerization of ethene is:",
+    "question_images": [],
+    "options": [
+      "A. TiCl4 and AlR3",
+      "B. Fe, Co",
+      "C. H3PO4",
+      "D. Zeolites"
+    ],
+    "option_images": [],
+    "answer": "B. Fe, Co",
+    "solution": "For the polymerization of ethene ($\\text{CH}_2=\\text{CH}_2$) to polyethylene, Fe and Co are used as catalysts.\n\nNote: The Ziegler-Natta catalyst ($\\text{TiCl}_4 + \\text{AlR}_3$) is also used for polymerization of ethene, but the answer given in the PDF is Fe and Co.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Surface Chemistry",
+    "question": "The coagulation of sol particles or sol destruction may be brought in by:",
+    "question_latex": "The coagulation of sol particles or sol destruction may be brought in by:",
+    "question_images": [],
+    "options": [
+      "A. Cataphoresis",
+      "B. Adding oppositely charged sol",
+      "C. Adding electrolyte",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "Coagulation of sol particles can be achieved by multiple methods:\n\n1. **Cataphoresis (Electrophoresis)**: Moving charged colloidal particles to the oppositely charged electrode causes them to lose charge and coagulate.\n2. **Adding an oppositely charged sol**: Mutual coagulation occurs when oppositely charged sols are mixed; charges are neutralized.\n3. **Adding electrolyte**: Ions of opposite charge from the electrolyte neutralize the charge on colloidal particles, causing coagulation.\n\nAll three methods bring about neutralization of charge on sol particles, leading to coagulation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Surface Chemistry",
+    "question": "Smoke has generally blue tinge. It is due to",
+    "question_latex": "Smoke has generally blue tinge. It is due to",
+    "question_images": [],
+    "options": [
+      "A. Scattering",
+      "B. Coagulation",
+      "C. Brownian motion",
+      "D. Electro-osmosis"
+    ],
+    "option_images": [],
+    "answer": "A. Scattering",
+    "solution": "Smoke is a colloidal system (solid particles dispersed in gas). When light passes through smoke, the colloidal particles scatter the shorter wavelengths (blue light) more effectively than the longer wavelengths (Tyndall effect). This preferential scattering of blue light gives smoke its characteristic blue tinge.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Surface Chemistry",
+    "question": "The curve showing the variation of pressure with temperature for a given amount of adsorption is called",
+    "question_latex": "The curve showing the variation of pressure with temperature for a given amount of adsorption is called",
+    "question_images": [
+      "47_qu_1.png"
+    ],
+    "options": [
+      "A. Adsorption isobar",
+      "B. Adsorption isotherm",
+      "C. Adsorption isostere",
+      "D. Adsorption isochore"
+    ],
+    "option_images": [],
+    "answer": "C. Adsorption isostere",
+    "solution": "Adsorption curves:\n- **Adsorption isotherm**: Plot of amount adsorbed vs. pressure at constant temperature\n- **Adsorption isobar**: Plot of amount adsorbed vs. temperature at constant pressure\n- **Adsorption isostere**: Plot of pressure vs. temperature for a **given (constant) amount** of adsorption\n\nThe curve showing variation of pressure with temperature for a given (fixed) amount of adsorption is called **adsorption isostere**.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Surface Chemistry",
+    "question": "Which of the following acts as protective colloid?",
+    "question_latex": "Which of the following acts as protective colloid?",
+    "question_images": [],
+    "options": [
+      "A. Silica gel",
+      "B. Gelatin",
+      "C. Sodium acetate",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Gelatin",
+    "solution": "Lyophilic colloids act as protective colloids because they prevent the coagulation/precipitation of lyophobic colloids by forming a protective layer around them.\n\nGelatin is a lyophilic colloid and is a well-known protective colloid. Its gold number is $0.005-0.001$ (very low), indicating very high protective power.\n\nSilica gel is a lyophobic colloid and sodium acetate is a true solution — neither can act as protective colloids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Surface Chemistry",
+    "question": "Given below are two statements, one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: The diameter of colloidal particles in solution should not be much smaller than wavelength of light to show Tyndall effect. Reason R: The light scatters in all directions when the size of particles is large enough. Choose the correct answer. (April 2023)",
+    "question_latex": "Given below are two statements. Assertion A: The diameter of colloidal particles in solution should not be much smaller than wavelength of light to show Tyndall effect. Reason R: The light scatters in all directions when the size of particles is large enough. Choose the correct answer. (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. Both A and R are correct but R is not the correct explanation of A",
+      "B. Both A and R are correct and R is the correct explanation of A",
+      "C. A is false but R is true",
+      "D. A is true but R is false"
+    ],
+    "option_images": [],
+    "answer": "B. Both A and R are correct and R is the correct explanation of A",
+    "solution": "**Assertion A** is correct: For the Tyndall effect to be observed, the diameter of the colloidal particles should not be much smaller than the wavelength of light used — the particle size should be comparable to the wavelength of light.\n\n**Reason R** is correct: Large enough particles scatter light in all directions, making the light beam visible.\n\nR correctly explains A: When particle size is comparable to the wavelength of light, scattering occurs in all directions (Tyndall effect). If particles are too small (as in true solutions), light is not scattered effectively and no Tyndall effect is observed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Surface Chemistry",
+    "question": "Which electrolyte is least effective in causing coagulation of +ve ferric hydroxide sol?",
+    "question_latex": "Which electrolyte is least effective in causing coagulation of $+\\text{ve}$ ferric hydroxide sol?",
+    "question_images": [],
+    "options": [
+      "A. KBr",
+      "B. K2SO4",
+      "C. K2CrO4",
+      "D. K2[Fe(CN)6]"
+    ],
+    "option_images": [],
+    "answer": "A. KBr",
+    "solution": "To coagulate positively charged $\\text{Fe(OH)}_3$ sol, a negatively charged ion (anion) is needed. According to Hardy-Schulze rule, coagulating power increases with the valency of the anion:\n\n- $\\text{Br}^-$ (monovalent) — least coagulating power → **highest flocculation value** → **least effective**\n- $\\text{SO}_4^{2-}$ (divalent) — medium coagulating power\n- $\\text{CrO}_4^{2-}$ (divalent) — medium coagulating power\n- $[\\text{Fe(CN)}_6]^{4-}$ (tetravalent) — highest coagulating power → most effective\n\nKBr provides $\\text{Br}^-$ (monovalent anion), which has the lowest coagulating power and is therefore least effective.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

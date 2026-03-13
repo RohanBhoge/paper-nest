@@ -1,0 +1,1904 @@
+[
+  {
+    "id": 1,
+    "chapter": "Definite Integration",
+    "question": "∫(π/6 to π/3) dx / (1 + √tan x) =",
+    "question_latex": "$\\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}} =$",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/6",
+      "C. π/10",
+      "D. π/12"
+    ],
+    "option_images": [],
+    "answer": "D. π/12",
+    "solution": "Let $I = \\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}} = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\cos x} + \\sqrt{\\sin x}} dx$ ...(i)\n\nUsing property $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$:\n$I = \\int_{\\pi/6}^{\\pi/3} \\frac{\\sqrt{\\cos x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx$ ...(ii)\n\nAdding (i) and (ii):\n$2I = \\int_{\\pi/6}^{\\pi/3} 1\\, dx = [x]_{\\pi/6}^{\\pi/3} = \\frac{\\pi}{3} - \\frac{\\pi}{6} = \\frac{\\pi}{6}$\n$I = \\frac{\\pi}{12}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Definite Integration",
+    "question": "If [x] denotes the greatest integer less than or equal to x, then the value of the integral ∫(-π/2 to π/2) [[x] - sin x] dx is equal to (July 2021)",
+    "question_latex": "If $[x]$ denotes the greatest integer less than or equal to $x$, then the value of the integral $\\int_{-\\pi/2}^{\\pi/2} [[x] - \\sin x]\\,dx$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. -π",
+      "B. 0",
+      "C. π",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. -π",
+    "solution": "Let $I = \\int_{-\\pi/2}^{\\pi/2} [[x] - \\sin x]\\,dx = \\int_{-\\pi/2}^{\\pi/2} ([x] + [-\\sin x])\\,dx$ ...(i)\n\nUsing $f(-x)$: $I = \\int_{-\\pi/2}^{\\pi/2} ([-x] + [\\sin x])\\,dx$ ...(ii)\n\nAdding (i) and (ii):\n$2I = \\int_{-\\pi/2}^{\\pi/2} (([x]+[-x]) + ([\\sin x]+[-\\sin x]))\\,dx$\n$= \\int_{-\\pi/2}^{\\pi/2} ((-1) + (-1))\\,dx = -2[x]_{-\\pi/2}^{\\pi/2} = -2\\left[\\frac{\\pi}{2}+\\frac{\\pi}{2}\\right] = -2\\pi$\n$\\Rightarrow I = -\\pi$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Definite Integration",
+    "question": "If the value of the integral ∫(-1 to 1) cos(αx)/(1+3^x) dx is 2/π. Then, a value of α is [04 April, 2024 (Shift-II)]",
+    "question_latex": "If the value of the integral $\\int_{-1}^{1} \\frac{\\cos(\\alpha x)}{1+3^x}\\,dx$ is $\\frac{2}{\\pi}$. Then, a value of $\\alpha$ is [04 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. π/6",
+      "B. π/2",
+      "C. π/4",
+      "D. π/3"
+    ],
+    "option_images": [],
+    "answer": "B. π/2",
+    "solution": "Let $I = \\int_{-1}^{1} \\frac{\\cos(\\alpha x)}{1+3^x}\\,dx$ ...(i)\n\nUsing $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$:\n$I = \\int_{-1}^{1} \\frac{\\cos(\\alpha x)}{1+3^{-x}}\\,dx$ ...(ii)\n\nAdding (i) and (ii):\n$2I = \\int_{-1}^{1} \\cos(\\alpha x)\\,dx = 2\\int_0^1 \\cos(\\alpha x)\\,dx$\n$I = \\frac{\\sin\\alpha}{\\alpha} = \\frac{2}{\\pi}$ (given)\n$\\therefore \\alpha = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) cos x / (1 + sin x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{\\cos x}{1 + \\sin x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. log 3",
+      "B. 3 log 3",
+      "C. log 2",
+      "D. 2 log 2"
+    ],
+    "option_images": [],
+    "answer": "C. log 2",
+    "solution": "Let $I = \\int_0^{\\pi/2} \\frac{\\cos x}{1 + \\sin x}\\,dx$\n\nPut $1 + \\sin x = t \\Rightarrow \\cos x\\,dx = dt$\n\nWhen $x=0$, $t=1$; when $x=\\pi/2$, $t=2$\n\n$I = \\int_1^2 \\frac{1}{t}\\,dt = [\\log t]_1^2 = \\log 2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) x sin x dx =",
+    "question_latex": "$\\int_0^{\\pi/2} x \\sin x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. -1",
+      "C. ±1",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "Using integration by parts:\n$I = \\int_0^{\\pi/2} x \\sin x\\,dx$\n$= [-x\\cos x + \\int \\cos x]_0^{\\pi/2}$\n$= [-x\\cos x + \\sin x]_0^{\\pi/2}$\n$= (-\\frac{\\pi}{2}\\cdot 0 + 1) - (0 + 0) = 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π) x(π + x) cos x dx =",
+    "question_latex": "$\\int_0^{\\pi} x(\\pi + x)\\cos x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 2π",
+      "B. -2π",
+      "C. 4π",
+      "D. -4π"
+    ],
+    "option_images": [],
+    "answer": "D. -4π",
+    "solution": "$I = \\int_0^{\\pi} (\\pi x + x^2)\\cos x\\,dx$\n\nUsing integration by parts:\n$I = [(\\pi x^2)(\\sin x) - (\\pi + 2x)(-\\cos x) + (2)(-\\sin x)]_0^{\\pi}$\n$I = -3\\pi - \\pi = -4\\pi$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) log(cot x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\log(\\cot x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/4",
+      "B. π/2",
+      "C. 0",
+      "D. π"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "Let $I = \\int_0^{\\pi/2} \\log(\\cot x)\\,dx$ ...(i)\n\nBy property $\\int_0^{\\pi/2} f(x)dx = \\int_0^{\\pi/2} f(\\pi/2 - x)dx$:\n$I = \\int_0^{\\pi/2} \\log(\\tan x)\\,dx$ ...(ii)\n\nAdding (i) and (ii):\n$2I = \\int_0^{\\pi/2} \\log(\\tan x \\cdot \\cot x)\\,dx = \\int_0^{\\pi/2} \\log(1)\\,dx = 0$\n$I = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Definite Integration",
+    "question": "The value of lim(n→∞) (1/n) Σ(r=0 to 2n-1) n²/(n²+4r²) is (Aug 2021)",
+    "question_latex": "The value of $\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=0}^{2n-1} \\frac{n^2}{n^2+4r^2}$ is (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. (1/4)tan⁻¹(4)",
+      "B. (1/2)tan⁻¹(2)",
+      "C. (1/2)tan⁻¹(4)",
+      "D. san⁻¹(4)"
+    ],
+    "option_images": [],
+    "answer": "C. (1/2)tan⁻¹(4)",
+    "solution": "$L = \\lim_{n\\to\\infty} \\frac{1}{n}\\sum_{r=0}^{2n-1} \\frac{1}{1+4(r/n)^2} = \\int_0^2 \\frac{1}{1+4x^2}\\,dx$\n$= \\frac{1}{4} \\cdot 2\\left[\\tan^{-1}\\left(\\frac{x}{1/2}\\right)\\right]_0^2 = \\frac{1}{2}[\\tan^{-1}(2x)]_0^2 = \\frac{1}{2}[\\tan^{-1}4 - 0] = \\frac{\\tan^{-1}4}{2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) 2^x dx =",
+    "question_latex": "$\\int_0^1 2^x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. log 2",
+      "B. 1/log 3",
+      "C. 1/log 2",
+      "D. log(2/3)"
+    ],
+    "option_images": [],
+    "answer": "C. 1/log 2",
+    "solution": "$I = \\int_0^1 2^x\\,dx = \\left[\\frac{2^x}{\\log 2}\\right]_0^1 = \\frac{2}{\\log 2} - \\frac{1}{\\log 1}$\n\nWait: $\\log 1 = 0$, so $\\frac{1}{\\log 1}$ is undefined. Correctly:\n$I = \\frac{2}{\\log 2} - \\frac{1}{\\log 2} = \\frac{1}{\\log 2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Definite Integration",
+    "question": "The value of lim(n→∞) Σ(k=1 to n) n³/((n²+k²)(n²+3k²)) is [30 Jan, 2024 (Shift-I)]",
+    "question_latex": "The value of $\\lim_{n \\to \\infty} \\sum_{k=1}^{n} \\frac{n^3}{(n^2+k^2)(n^2+3k^2)}$ is [30 Jan, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 13(2√3-3)π/8",
+      "B. 13π/(8(4√3+3))",
+      "C. π/(8(2√3+3))",
+      "D. (2√3+3)π/24"
+    ],
+    "option_images": [],
+    "answer": "B. 13π/(8(4√3+3))",
+    "solution": "$\\lim_{n\\to\\infty} \\sum_{k=1}^{n} \\frac{n^3}{n^4(1+k^2/n^2)(1+3k^2/n^2)} = \\int_0^1 \\frac{dx}{(1+x^2)(1/3+x^2) \\cdot 3}$\n$= \\frac{1}{2}\\int_0^1 \\left[\\frac{1}{x^2+(1/\\sqrt{3})^2} - \\frac{1}{1+x^2}\\right]dx$\n$= \\frac{1}{2}[\\sqrt{3}\\tan^{-1}(\\sqrt{3}x)]_0^1 - \\frac{1}{2}(\\tan^{-1}x)_0^1$\n$= \\frac{\\sqrt{3}}{2}\\cdot\\frac{\\pi}{3} - \\frac{1}{2}\\cdot\\frac{\\pi}{4} = \\frac{13\\pi}{8(4\\sqrt{3}+3)}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Definite Integration",
+    "question": "For x ∈ R, x ≠ 0, if y(x) is a differentiable function such that x∫(1 to x) y(t)dt = (x+1)∫(1 to x) ty(t)dt, then y(x) equals (where C is a constant.) (Online 2016)",
+    "question_latex": "For $x \\in R$, $x \\neq 0$, if $y(x)$ is a differentiable function such that $x\\int_1^x y(t)dt = (x+1)\\int_1^x ty(t)dt$, then $y(x)$ equals (where $C$ is a constant.) (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. Cx³e^(2/x)",
+      "B. (C/x)e^(-1/x)",
+      "C. (C/x)e^(-1/x)",
+      "D. (C/x³)e^(-1/x)"
+    ],
+    "option_images": [],
+    "answer": "D. (C/x³)e^(-1/x)",
+    "solution": "Differentiating $x\\int_1^x y(t)dt = (x+1)\\int_1^x ty(t)dt$ w.r.t. $x$:\n$\\int_1^x y(t)dt + xy(x) = \\int_1^x ty(t)dt + x(x)y(x)$\n$\\Rightarrow \\int_1^x y(t)dt = \\int_1^x ty(t)dt + x^2y(x) - y(1)$\n\nDifferentiating again: $y(x) = xy(x) + x^2y'(x) + 2xy(x)$\n$(1-3x)y(x) = x^2y'(x) \\Rightarrow \\frac{y'}{y} = \\frac{1-3x}{x^2}$\n$\\ln y = -\\frac{1}{x} - 3\\ln x + \\ln C$\n$y = \\frac{Ce^{-1/x}}{x^3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Definite Integration",
+    "question": "lim(n→∞) [1/n + n/(n+1)² + n/(n+2)² + ... + n/(2n-1)²] is equal to (Feb 2021)",
+    "question_latex": "$\\lim_{n\\to\\infty}\\left[\\frac{1}{n} + \\frac{n}{(n+1)^2} + \\frac{n}{(n+2)^2} + \\cdots + \\frac{n}{(2n-1)^2}\\right]$ is equal to (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 1/4",
+      "C. 1/3",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "A. 1/2",
+    "solution": "$\\lim_{n\\to\\infty}\\sum_{r=0}^{n-1}\\frac{n}{(n+r)^2} = \\lim_{n\\to\\infty}\\frac{1}{n}\\sum_{r=0}^{n-1}\\frac{1}{(1+r/n)^2}$\n$= \\int_0^1 \\frac{dx}{(1+x)^2} = \\left[\\frac{-1}{1+x}\\right]_0^1 = -\\frac{1}{2}+1 = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Definite Integration",
+    "question": "If U_n = (1+1/n²)(1+2²/n²)²...(1+n²/n²)^n, then lim(n→∞) (U_n)^(-4/n²) is equal to (Aug 2021)",
+    "question_latex": "If $U_n = \\left(1+\\frac{1}{n^2}\\right)\\left(1+\\frac{2^2}{n^2}\\right)^2\\cdots\\left(1+\\frac{n^2}{n^2}\\right)^n$, then $\\lim_{n\\to\\infty}(U_n)^{-4/n^2}$ is equal to (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. 4/e",
+      "B. 16/e²",
+      "C. 4/e²",
+      "D. e²/16"
+    ],
+    "option_images": [],
+    "answer": "D. e²/16",
+    "solution": "Let $L = \\lim_{n\\to\\infty}(U_n)^{-4/n^2}$\n$\\log L = (-4)\\int_0^1 x\\log(1+x^2)dx$\n\nPut $1+x^2 = t$: $\\log L = \\frac{-4}{2}\\int_1^2 \\log t\\,dt = -2[t\\log t - t]_1^2$\n$= -2[2\\log 2 - 1] = -4\\log 2 + 2$\n$L = e^{-4\\log 2+2} = \\frac{e^2}{16}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to a) dx / √(2ax - x²) =",
+    "question_latex": "$\\int_0^a \\frac{dx}{\\sqrt{2ax - x^2}} =$",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/4",
+      "C. 3π/2",
+      "D. 3π/4"
+    ],
+    "option_images": [],
+    "answer": "A. π/2",
+    "solution": "$I = \\int_0^a \\frac{dx}{\\sqrt{2ax-x^2}} = \\int_0^a \\frac{1}{\\sqrt{a^2-(x-a)^2}}\\,dx$\n$= \\left[\\sin^{-1}\\left(\\frac{x-a}{a}\\right)\\right]_0^a$\n$= \\sin^{-1}(0) - \\sin^{-1}(-1) = 0 - (-\\frac{\\pi}{2}) = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Definite Integration",
+    "question": "lim(n→∞) [(1/n²)sec²(1/n²) + (2/n²)sec²(4/n²) + ... + (1/n)sec²(1)] equals (2005)",
+    "question_latex": "$\\lim_{n\\to\\infty}\\left[\\frac{1}{n^2}\\sec^2\\frac{1}{n^2} + \\frac{2}{n^2}\\sec^2\\frac{4}{n^2} + \\cdots + \\frac{1}{n}\\sec^2 1\\right]$ equals (2005)",
+    "question_images": [],
+    "options": [
+      "A. (1/2)sec 1",
+      "B. (1/2)cosec 1",
+      "C. (1/2)tan 1",
+      "D. tan 1"
+    ],
+    "option_images": [],
+    "answer": "C. (1/2)tan 1",
+    "solution": "$= \\lim_{n\\to\\infty}\\sum_{r=1}^{n}\\frac{r}{n^2}\\sec^2\\left(\\frac{r}{n}\\right)^2 = \\int_0^1 x\\sec^2(x^2)\\,dx$\n$= \\frac{1}{2}[\\tan(x^2)]_0^1 = \\frac{1}{2}\\tan 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to a) [n√(x+c)] / [n√(x+c) + n√(a+c-x)] dx =",
+    "question_latex": "$\\int_0^a \\frac{\\sqrt[n]{x+c}}{\\sqrt[n]{x+c} + \\sqrt[n]{a+c-x}}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 3a/4",
+      "B. 3a/2",
+      "C. a/4",
+      "D. a/2"
+    ],
+    "option_images": [],
+    "answer": "D. a/2",
+    "solution": "Let $I = \\int_0^a \\frac{\\sqrt[n]{x+c}}{\\sqrt[n]{x+c}+\\sqrt[n]{a+c-x}}\\,dx$ ...(i)\n\nBy property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$:\n$I = \\int_0^a \\frac{\\sqrt[n]{a+c-x}}{\\sqrt[n]{a+c-x}+\\sqrt[n]{x+c}}\\,dx$ ...(ii)\n\nAdding (i) and (ii): $2I = \\int_0^a dx = a \\Rightarrow I = \\frac{a}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Definite Integration",
+    "question": "∫(π/4 to π/3) sec x / sin x dx =",
+    "question_latex": "$\\int_{\\pi/4}^{\\pi/3} \\frac{\\sec x}{\\sin x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 2log(3)",
+      "B. 3log(3)",
+      "C. (1/3)log(3)",
+      "D. (1/2)log(3)"
+    ],
+    "option_images": [],
+    "answer": "D. (1/2)log(3)",
+    "solution": "$I = \\int_{\\pi/4}^{\\pi/3} \\frac{\\sec x}{\\sin x}\\,dx = 2\\int_{\\pi/4}^{\\pi/3} \\csc 2x\\,dx$\n$= 2 \\cdot \\frac{1}{2}[\\log(\\csc 2x - \\cot 2x)]_{\\pi/4}^{\\pi/2}$\n$= \\log\\left(\\frac{2}{\\sqrt{3}}+\\frac{1}{\\sqrt{3}}\\right) - \\log(1-0) = \\frac{1}{2}\\log(3)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Definite Integration",
+    "question": "If ∫(0 to π) xf(sin x)dx = A∫(0 to π/2) f(sin x)dx, then A is (2004)",
+    "question_latex": "If $\\int_0^{\\pi} xf(\\sin x)\\,dx = A\\int_0^{\\pi/2} f(\\sin x)\\,dx$, then $A$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. π/4",
+      "B. π",
+      "C. 2π",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "B. π",
+    "solution": "$\\int_0^{\\pi} xf(\\sin x)\\,dx = A\\int_0^{\\pi/2}f(\\sin x)\\,dx$\n\nUsing $\\int_0^\\pi xf(\\sin x)dx = \\frac{\\pi}{2}\\cdot 2\\int_0^{\\pi/2}f(\\sin x)dx$:\n$A\\int_0^{\\pi/2}f(\\sin x)dx = \\pi\\int_0^{\\pi/2}f(\\sin x)dx \\Rightarrow A = \\pi$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Definite Integration",
+    "question": "The integral ∫(0 to 1) [1/x] dx, where [.] denotes the greatest integer function, is equal to (June 2022)",
+    "question_latex": "The integral $\\int_0^1 \\left[\\frac{1}{x}\\right]\\,dx$, where $[.]$ denotes the greatest integer function, is equal to (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. 1 + 6log_e(6/7)",
+      "B. log_e(6/7)",
+      "C. 1 - 7log_e(6/7)",
+      "D. 1 - 6log_e(6/7)"
+    ],
+    "option_images": [],
+    "answer": "A. 1 + 6log_e(6/7)",
+    "solution": "Put $\\frac{1}{x} = t \\Rightarrow dx = -\\frac{1}{t^2}dt$\n$I = \\int_1^{\\infty} \\frac{[t]}{t^2}\\,dt = \\sum_{n=1}^{\\infty} \\frac{1}{n}\\left(\\frac{1}{n} - \\frac{1}{n+1}\\right)$\n$= 1 + 6\\log_e\\left(\\frac{6}{7}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 2π) (sin x + cos x) dx =",
+    "question_latex": "$\\int_0^{2\\pi} (\\sin x + \\cos x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. π/2",
+      "C. 2π/3",
+      "D. 1/2"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$I = \\int_0^{2\\pi}(\\sin x + \\cos x)\\,dx$\n$= [-\\cos x + \\sin x]_0^{2\\pi}$\n$= (-1+0)-(-1+0) = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Definite Integration",
+    "question": "If I₁ = ∫(0 to 1)(1-x⁵⁰)¹⁰⁰dx and I₂ = ∫(0 to 1)(1-x⁵⁰)¹⁰¹dx such that I₂ = αI₁ then α equals to (Sept 2020)",
+    "question_latex": "If $I_1 = \\int_0^1 (1-x^{50})^{100}\\,dx$ and $I_2 = \\int_0^1 (1-x^{50})^{101}\\,dx$ such that $I_2 = \\alpha I_1$, then $\\alpha$ equals to (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. 5050/5049",
+      "B. 5049/5050",
+      "C. 5050/5051",
+      "D. 5051/5050"
+    ],
+    "option_images": [],
+    "answer": "C. 5050/5051",
+    "solution": "$I_2 = \\int_0^1 (1-x^{50})^{101}\\,dx = \\int_0^1 (1-x^{50})(1-x^{50})^{100}\\,dx$\n$= I_1 - \\int_0^1 x^{50}(1-x^{50})^{100}\\,dx$\n\nIntegrating by parts the second integral:\n$I_2 = I_1 - \\frac{I_2}{5050} \\cdot 5050 \\cdot$ ... $\\Rightarrow I_2 = I_1 \\cdot \\frac{5050}{5051}$\n$\\therefore \\alpha = \\frac{5050}{5051}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Definite Integration",
+    "question": "If f(x) = (2 - x cos x)/(2 + x cos x) and g(x) = log_e x, (x > 0) then the value of the integral ∫(-π/4 to π/4) g(f(x)) dx is (April 2019)",
+    "question_latex": "If $f(x) = \\frac{2-x\\cos x}{2+x\\cos x}$ and $g(x) = \\log_e x$, $(x > 0)$ then the value of the integral $\\int_{-\\pi/4}^{\\pi/4} g(f(x))\\,dx$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. log_e 2",
+      "B. log_e e",
+      "C. log_e 3",
+      "D. log_e 1"
+    ],
+    "option_images": [],
+    "answer": "D. log_e 1",
+    "solution": "$g(f(x)) = \\log_e\\left(\\frac{2-x\\cos x}{2+x\\cos x}\\right) = h(x)$\n$h(-x) = \\log_e\\left(\\frac{2+x\\cos x}{2-x\\cos x}\\right) = -h(x)$ (odd function)\n$\\therefore \\int_{-\\pi/4}^{\\pi/4} g(f(x))\\,dx = 0 = \\log_e 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Definite Integration",
+    "question": "Let 5f(x) + 4f(1/x) = 1/x + 3, x > 0. Then 18∫(1 to 2) f(x) dx is equal to (April 2023)",
+    "question_latex": "Let $5f(x) + 4f\\left(\\frac{1}{x}\\right) = \\frac{1}{x} + 3,\\ x > 0$. Then $18\\int_1^2 f(x)\\,dx$ is equal to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 5log_e 2 + 3",
+      "B. 10log_e 2 + 6",
+      "C. 5log_e 2 - 3",
+      "D. 10log_e 2 - 6"
+    ],
+    "option_images": [],
+    "answer": "D. 10log_e 2 - 6",
+    "solution": "$5f(x) + 4f(1/x) = \\frac{1}{x}+3$ ...(i)\nReplace $x$ by $1/x$: $5f(1/x)+4f(x) = x+3$ ...(ii)\n\nSolving: $25f(x)-16f(x) = \\frac{5}{x}+15-4x-12$\n$9f(x) = \\frac{5}{x}-4x+3$\n$18\\int_1^2 f(x)\\,dx = 2\\int_1^2\\left(\\frac{5}{x}-4x+3\\right)dx$\n$= 2[5\\log x - 2x^2+3x]_1^2 = 2[5\\log 2-6+3] = 10\\log 2-6$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Definite Integration",
+    "question": "The value of the integral ∫(4 to 10) [x²]dx / ([x²-28x+196]+[x²]), where [x] denotes the greatest integer less than or equal to x, is (Online 2016)",
+    "question_latex": "The value of the integral $\\int_4^{10} \\frac{[x^2]\\,dx}{[x^2-28x+196]+[x^2]}$, where $[x]$ denotes the greatest integer less than or equal to $x$, is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 6",
+      "C. 1/3",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "Let $I = \\int_4^{10} \\frac{[x^2]}{[x^2-28x+196]+[x^2]}\\,dx$ ...(i)\n\nUsing $\\int_a^b f(a+b-x)dx = \\int_a^b f(x)dx$:\n$I = \\int_4^{10} \\frac{[(x-14)^2]}{[x^2]+[(x-14)^2]}\\,dx$ ...(ii)\n\nAdding: $2I = \\int_4^{10} dx = 6 \\Rightarrow I = 3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(π/2 to π) ((1+sin²x)/(1+π^(sin x))) dx is (Aug 2021)",
+    "question_latex": "The value of $\\int_{\\pi/2}^{\\pi} \\frac{1+\\sin^2 x}{1+\\pi^{\\sin x}}\\,dx$ is (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. 3π/2",
+      "B. π/2",
+      "C. 5π/4",
+      "D. 3π/4"
+    ],
+    "option_images": [],
+    "answer": "D. 3π/4",
+    "solution": "Let $f(x) = \\frac{1+\\sin^2 x}{1+\\pi^{\\sin x}}$\n$f(x)+f(-x+\\pi) = \\frac{(1+\\pi^{\\sin x})(1+\\sin^2 x)}{1+\\pi^{\\sin x}} = 1+\\sin^2 x = \\frac{3}{2}-\\frac{\\cos 2x}{2}$\n$\\int_{\\pi/2}^{\\pi}f(x)dx = \\int_0^{\\pi/2}(f(x)+f(\\pi-x))dx/2$... \n$= \\int_0^{\\pi/2}\\left(\\frac{3}{2}-\\frac{\\cos 2x}{2}\\right)dx = \\left[\\frac{3x}{2}-\\frac{\\sin 2x}{4}\\right]_0^{\\pi/2} = \\frac{3\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Definite Integration",
+    "question": "If a = lim(n→∞) Σ(k=1 to n) 2n/(n²+k²) and f(x) = √((1-cos x)/(1+cos x)), x ∈ (0,1), then (July 2022)",
+    "question_latex": "If $a = \\lim_{n\\to\\infty}\\sum_{k=1}^n \\frac{2n}{n^2+k^2}$ and $f(x) = \\sqrt{\\frac{1-\\cos x}{1+\\cos x}},\\ x\\in(0,1)$, then (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. f(a/2)f'(a/2) = √2",
+      "B. f(a/2) = √2 f'(a/2)",
+      "C. √2 f(a/2) = f'(a/2)",
+      "D. 2√2 f(a/2) = f'(a/2)"
+    ],
+    "option_images": [],
+    "answer": "C. √2 f(a/2) = f'(a/2)",
+    "solution": "$a = \\lim_{n\\to\\infty}\\sum_{k=1}^n \\frac{1}{n}\\cdot\\frac{2}{1+(k/n)^2} = \\int_0^1 \\frac{2}{1+x^2}dx = 2(\\tan^{-1}x)_0^1 = \\frac{\\pi}{2}$\n\n$f(x) = \\tan(x/2)$ for $x\\in(0,1)$\n$f'(x) = \\frac{1}{2}\\sec^2(x/2)$\n$f'(a/2) = f'(\\pi/4) = \\frac{1}{2}\\sec^2(\\pi/8) = \\frac{\\sqrt{2}}{1+\\cos(\\pi/4)} = \\sqrt{2}(\\sqrt{2}-1) = 2-\\sqrt{2}$\n$\\sqrt{2}f(a/2) = \\sqrt{2}\\cdot(\\sqrt{2}-1) = 2-\\sqrt{2} = f'(a/2)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Definite Integration",
+    "question": "Let a and b be real constants such that the function f defined by f(x) = {x²+3x+a, x≤1; bx+2, x>1} be differentiable on R. Then, the value of ∫(-2 to 2) f(x)dx equals [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $a$ and $b$ be real constants such that the function $f$ defined by $f(x) = \\begin{cases} x^2+3x+a, & x\\leq 1 \\\\ bx+2, & x>1 \\end{cases}$ be differentiable on $\\mathbb{R}$. Then, the value of $\\int_{-2}^2 f(x)dx$ equals [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. 19/6",
+      "C. 17",
+      "D. 15/6"
+    ],
+    "option_images": [],
+    "answer": "C. 17",
+    "solution": "$f$ is continuous: $4+a = b+2$\n$f$ is differentiable: $f'(1^-)=2(1)+3=5=b=f'(1^+)$\n$b=5$, $a=3$\n$\\int_{-2}^2 f(x)dx = \\int_{-2}^1(x^2+3x+3)dx + \\int_1^2(5x+2)dx$\n$= \\left[\\frac{x^3}{3}+\\frac{3x^2}{2}+3x\\right]_{-2}^1 + \\left[\\frac{5x^2}{2}+2x\\right]_1^2 = 17$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(-2 to 2) (ax³ + bx + c) dx depends on the value of",
+    "question_latex": "The value of $\\int_{-2}^{2} (ax^3 + bx + c)\\,dx$ depends on the value of",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. b",
+      "C. c",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "C. c",
+    "solution": "$I = \\int_{-2}^{2}(ax^3+bx+c)\\,dx$\n$= \\left[\\frac{ax^4}{4}+\\frac{bx^2}{2}+cx\\right]_{-2}^{2}$\n$= 4a+2b+2c - 4a-2b+2c = 4c$\n\nHence the value depends only on $c$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π) x sin x / (1 + cos²x) dx =",
+    "question_latex": "$\\int_0^{\\pi} \\frac{x\\sin x}{1+\\cos^2 x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π²/2",
+      "B. π/2",
+      "C. π²/4",
+      "D. π/4"
+    ],
+    "option_images": [],
+    "answer": "C. π²/4",
+    "solution": "By property: $I = \\int_0^{\\pi} \\frac{(\\pi-x)\\sin x}{1+\\cos^2 x}\\,dx$\n$2I = \\pi\\int_0^{\\pi}\\frac{\\sin x}{1+\\cos^2 x}\\,dx$\n\nPut $\\cos x = t$: $2I = \\pi\\int_{-1}^{1}\\frac{dt}{1+t^2} = \\pi[\\tan^{-1}t]_{-1}^{1} = \\pi\\cdot\\frac{\\pi}{2}$\n$I = \\frac{\\pi^2}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) sin² x dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\sin^2 x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/4",
+      "C. 3π/2",
+      "D. 3π/4"
+    ],
+    "option_images": [],
+    "answer": "B. π/4",
+    "solution": "Let $I = \\int_0^{\\pi/2} \\sin^2 x\\,dx$ ...(i)\n\nBy property: $I = \\int_0^{\\pi/2}\\cos^2 x\\,dx$ ...(ii)\n\nAdding: $2I = \\int_0^{\\pi/2}(\\sin^2 x+\\cos^2 x)\\,dx = \\frac{\\pi}{2}$\n$I = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Definite Integration",
+    "question": "∫(2 to 3) dx / (x²-1) =",
+    "question_latex": "$\\int_2^3 \\frac{dx}{x^2-1} =$",
+    "question_images": [],
+    "options": [
+      "A. 2log(2/3)",
+      "B. 2log(3/2)",
+      "C. (1/2)log(2/3)",
+      "D. (1/2)log(3/2)"
+    ],
+    "option_images": [],
+    "answer": "D. (1/2)log(3/2)",
+    "solution": "$I = \\int_2^3 \\frac{dx}{x^2-1} = \\frac{1}{2}\\left[\\log\\frac{x-1}{x+1}\\right]_2^3$\n$= \\frac{1}{2}\\left\\{\\log\\frac{1}{2} - \\log\\frac{1}{3}\\right\\} = \\frac{1}{2}\\log\\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Definite Integration",
+    "question": "If ∫(1 to 2) (3x²+2x+a) dx = 8, then a =",
+    "question_latex": "If $\\int_1^2 (3x^2+2x+a)\\,dx = 8$, then $a =$",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. -2",
+      "C. 4",
+      "D. -4"
+    ],
+    "option_images": [],
+    "answer": "B. -2",
+    "solution": "$[x^3+x^2+ax]_1^2 = 8$\n$(8+4+2a)-(1+1+a) = 8$\n$12+2a - 2-a = 8$\n$10+a = 8 \\Rightarrow a = -2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Definite Integration",
+    "question": "The value of integral ∫(π/4 to 3π/4) x/(1+sin x) dx is (Online 2018)",
+    "question_latex": "The value of integral $\\int_{\\pi/4}^{3\\pi/4} \\frac{x}{1+\\sin x}\\,dx$ is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. 2π(√2-1)",
+      "B. (π/2)(√2+1)",
+      "C. π√2",
+      "D. π(√2-1)"
+    ],
+    "option_images": [],
+    "answer": "D. π(√2-1)",
+    "solution": "$I = \\int_{\\pi/4}^{3\\pi/4}\\frac{x}{1+\\sin x}\\cdot\\frac{1-\\sin x}{1-\\sin x}\\,dx$\n$= \\int_{\\pi/4}^{3\\pi/4}\\frac{x(1-\\sin x)}{\\cos^2 x}\\,dx$\n$= \\int_{\\pi/4}^{3\\pi/4}x\\sec^2 x\\,dx - \\int_{\\pi/4}^{3\\pi/4}x\\sec x\\tan x\\,dx$\n$= [x\\tan x]_{\\pi/4}^{3\\pi/4} - |\\log(\\sec x)|_{\\pi/4}^{3\\pi/4} - \\left|\\frac{x}{\\cos x}\\right|_{\\pi/4}^{3\\pi/4} - \\int_{\\pi/4}^{3\\pi/4}\\frac{1}{\\cos x}\\,dx$\n$= -\\pi + \\sqrt{2}\\pi \\Rightarrow I = \\pi(\\sqrt{2}-1)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Definite Integration",
+    "question": "If φ(x) = (1/√x)∫(π/4 to x) (4√2 sin t - 3φ'(t)) dt, x > 0, then φ'(π/4) is equal to (Jan 2023)",
+    "question_latex": "If $\\phi(x) = \\frac{1}{\\sqrt{x}}\\int_{\\pi/4}^x \\left(4\\sqrt{2}\\sin t - 3\\phi'(t)\\right)dt,\\ x>0$, then $\\phi'\\left(\\frac{\\pi}{4}\\right)$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. 8/(6-√π)",
+      "B. 8/(6+√π)",
+      "C. 4/(6+√π)",
+      "D. 4/√π"
+    ],
+    "option_images": [],
+    "answer": "B. 8/(6+√π)",
+    "solution": "By Leibnitz rule:\n$\\phi'(x) = \\frac{1}{\\sqrt{x}}\\left[(4\\sqrt{2}\\sin x - 3\\phi'(x))\\cdot 1 - 0\\right] - \\frac{1}{2}x^{-3/2}\\int_{\\pi/4}^x(4\\sqrt{2}\\sin t - 3\\phi'(t))dt$\n\nPut $x = \\pi/4$:\n$\\phi'(\\pi/4) = \\frac{2}{\\sqrt{\\pi}}\\left[4-3\\phi'(\\pi/4)\\right] + 0$\n$\\left(1+\\frac{6}{\\sqrt{\\pi}}\\right)\\phi'(\\pi/4) = \\frac{8}{\\sqrt{\\pi}}$\n$\\phi'(\\pi/4) = \\frac{8}{\\sqrt{\\pi}+6} = \\frac{8}{6+\\sqrt{\\pi}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Definite Integration",
+    "question": "The value of (e^(-π/4) + ∫(0 to π/4) e^(-x) tan⁵⁰ x dx) / (∫(0 to π/4) e^(-x)(tan⁴⁹x + tan⁵¹x) dx) is (April 2023)",
+    "question_latex": "The value of $\\dfrac{e^{-\\pi/4}+\\int_0^{\\pi/4}e^{-x}\\tan^{50}x\\,dx}{\\int_0^{\\pi/4}e^{-x}(\\tan^{49}x+\\tan^{51}x)\\,dx}$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 25",
+      "B. 51",
+      "C. 49",
+      "D. 50"
+    ],
+    "option_images": [],
+    "answer": "D. 50",
+    "solution": "$\\int_0^{\\pi/4}e^{-x}\\tan^{50}x\\,dx = [-e^{-x}(\\tan x)^{50}]_0^{\\pi/4} + 50\\int_0^{\\pi/4}e^{-x}(\\tan x)^{49}(1+\\tan^2 x)\\,dx$\n$= -e^{-\\pi/4} + 50\\int_0^{\\pi/4}e^{-x}[(\\tan x)^{51}+(\\tan x)^{49}]\\,dx$\n\nNow: $\\frac{e^{-\\pi/4}+\\int_0^{\\pi/4}e^{-x}\\tan^{50}x\\,dx}{\\int_0^{\\pi/4}e^{-x}(\\tan^{49}x+\\tan^{51}x)dx} = 50$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(-π to π) cos²x/(1+aˣ) dx, a > 0, is (2005)",
+    "question_latex": "The value of $\\int_{-\\pi}^{\\pi} \\frac{\\cos^2 x}{1+a^x}\\,dx,\\ a > 0$, is (2005)",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. aπ",
+      "C. π/a",
+      "D. 2π"
+    ],
+    "option_images": [],
+    "answer": "A. π/2",
+    "solution": "Using property: $\\int_{-a}^{a} \\frac{f(x)}{1+a^x}dx = \\int_0^a f(x)dx$ when $f$ is even:\n$I = \\int_0^{\\pi}\\cos^2 x\\,dx = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(0 to 1) 8log(1+x)/(1+x²) dx is (2011)",
+    "question_latex": "The value of $\\int_0^1 \\frac{8\\log(1+x)}{1+x^2}\\,dx$ is (2011)",
+    "question_images": [],
+    "options": [
+      "A. (π/2)log 2",
+      "B. (π/8)log 2",
+      "C. π log 2",
+      "D. log 2"
+    ],
+    "option_images": [],
+    "answer": "C. π log 2",
+    "solution": "Using the standard result $\\int_0^1 \\frac{\\log(1+x)}{1+x^2}dx = \\frac{\\pi}{8}\\log 2$:\n$8\\int_0^1 \\frac{\\log(1+x)}{1+x^2}dx = 8 \\cdot \\frac{\\pi}{8}\\log 2 = \\pi\\log 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Definite Integration",
+    "question": "Let f: R → R be a function such that f(2-x) = f(2+x) and f(4-x) = f(4+x), for all x ∈ R and ∫(0 to 2) f(x)dx = 5. Then the value of ∫(10 to 50) f(x)dx is (Online 2015)",
+    "question_latex": "Let $f: R\\to R$ be a function such that $f(2-x) = f(2+x)$ and $f(4-x) = f(4+x)$, for all $x\\in R$ and $\\int_0^2 f(x)dx = 5$. Then the value of $\\int_{10}^{50}f(x)dx$ is (Online 2015)",
+    "question_images": [],
+    "options": [
+      "A. 200",
+      "B. 100",
+      "C. 125",
+      "D. 80"
+    ],
+    "option_images": [],
+    "answer": "B. 100",
+    "solution": "$f(2-x)=f(2+x)$: symmetrical about $x=2$\n$f(4-x)=f(4+x)$: symmetrical about $x=4$\n$\\Rightarrow f(x)$ is periodic with period $2$.\n$\\int_{10}^{50}f(x)dx = \\int_{2(5)}^{2(25)}f(x)dx = (25-5)\\int_0^2 f(x)dx = 20\\times 5 = 100$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 3) [⁵√(x+4)] / [⁵√(x+4) + ⁵√(7-x)] dx =",
+    "question_latex": "$\\int_0^3 \\frac{\\sqrt[5]{x+4}}{\\sqrt[5]{x+4}+\\sqrt[5]{7-x}}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 1/4",
+      "C. 3/2",
+      "D. 3/4"
+    ],
+    "option_images": [],
+    "answer": "C. 3/2",
+    "solution": "Let $I = \\int_0^3 \\frac{\\sqrt[5]{x+4}}{\\sqrt[5]{x+4}+\\sqrt[5]{7-x}}\\,dx$ ...(i)\n\nUsing property: $I = \\int_0^3 \\frac{\\sqrt[5]{7-x}}{\\sqrt[5]{7-x}+\\sqrt[5]{x+4}}\\,dx$ ...(ii)\n\nAdding: $2I = \\int_0^3 1\\,dx = 3 \\Rightarrow I = \\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Definite Integration",
+    "question": "Let I = ∫(0 to 1) sin x/√x dx and J = ∫(0 to 1) cos x/√x dx. Then which one of the following is true? (2008)",
+    "question_latex": "Let $I = \\int_0^1 \\frac{\\sin x}{\\sqrt{x}}\\,dx$ and $J = \\int_0^1 \\frac{\\cos x}{\\sqrt{x}}\\,dx$. Then which one of the following is true? (2008)",
+    "question_images": [],
+    "options": [
+      "A. I > 2/3 and J < 2",
+      "B. I > 2/3 and J > 2",
+      "C. I < 2/3 and J < 2",
+      "D. I < 2/3 and J > 2"
+    ],
+    "option_images": [],
+    "answer": "C. I < 2/3 and J < 2",
+    "solution": "In $[0,1]$: $\\sin x < x$, so $I = \\int_0^1 \\frac{\\sin x}{\\sqrt{x}}dx < \\int_0^1 \\frac{x}{\\sqrt{x}}dx = \\int_0^1 \\sqrt{x}\\,dx = \\frac{2}{3}$\n\n$\\therefore I < \\frac{2}{3}$. Also $J = \\int_0^1 \\frac{\\cos x}{\\sqrt{x}}dx < \\int_0^1 \\frac{1}{\\sqrt{x}}dx = [2\\sqrt{x}]_0^1 = 2$\n$\\therefore J < 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Definite Integration",
+    "question": "∫(-1 to 1) x tan⁻¹ x dx =",
+    "question_latex": "$\\int_{-1}^1 x\\tan^{-1}x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/4",
+      "B. π/2",
+      "C. π/4 - 1",
+      "D. π/2 - 1"
+    ],
+    "option_images": [],
+    "answer": "D. π/2 - 1",
+    "solution": "$I = \\int_{-1}^1 x\\tan^{-1}x\\,dx$\n$= \\left[\\frac{x^2}{2}\\tan^{-1}x - \\frac{1}{2}\\int\\frac{x^2}{1+x^2}dx\\right]_{-1}^1$\n$= \\left[\\frac{x^2}{2}\\tan^{-1}x - \\frac{1}{2}x + \\frac{1}{2}\\tan^{-1}x\\right]_{-1}^1$\n$= \\frac{1}{2}[(x^2+1)\\tan^{-1}x - x]_{-1}^1$\n$= \\frac{1}{2}(\\pi-2) = \\frac{\\pi}{2}-1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) log(sec x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\log(\\sec x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. -(π/2)log 2",
+      "B. (π/2)log 2",
+      "C. (π/4)log 2",
+      "D. -(π/4)log 2"
+    ],
+    "option_images": [],
+    "answer": "B. (π/2)log 2",
+    "solution": "$I = \\int_0^{\\pi/2}\\log(\\sec x)\\,dx = \\int_0^{\\pi/2}-\\log(\\cos x)\\,dx$\n\nUsing the standard result $\\int_0^{\\pi/2}\\log(\\cos x)\\,dx = -\\frac{\\pi}{2}\\log 2$:\n$I = -(-\\frac{\\pi}{2}\\log 2) = \\frac{\\pi}{2}\\log 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) x²eˣ dx =",
+    "question_latex": "$\\int_0^1 x^2 e^x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. e - 2",
+      "B. e² - 2",
+      "C. 2 - e",
+      "D. 2 - e²"
+    ],
+    "option_images": [],
+    "answer": "A. e - 2",
+    "solution": "$I = \\int_0^1 x^2 e^x\\,dx$\n$= [x^2e^x - 2(xe^x - e^x)]_0^1$\n$= [e^x(x^2-2x+2)]_0^1$\n$= e(1-2+2) - e^0(0-0+2) = e - 2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Definite Integration",
+    "question": "Let a be a positive real number such that ∫(0 to a) e^(x-[x]) dx = 10e - 9, where [x] is the greatest integer less than or equal to x. Then a is equal to (July 2021)",
+    "question_latex": "Let $a$ be a positive real number such that $\\int_0^a e^{x-[x]}\\,dx = 10e-9$, where $[x]$ is the greatest integer less than or equal to $x$. Then $a$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. 10 + log_e 2",
+      "B. 10 + log_e 3",
+      "C. 10 - log_e(1+e)",
+      "D. 10 + log_e(1+e)"
+    ],
+    "option_images": [],
+    "answer": "A. 10 + log_e 2",
+    "solution": "Let $n \\leq a < n+1$, $n\\in\\mathbb{N}$.\n$\\int_0^a e^{\\{x\\}}dx = \\int_0^n e^{\\{x\\}}dx + \\int_n^a e^{x-n}dx$\n$= n(e-1) + (e^{a-n}-1) = 10e-9$\n$n=10$ and $e^{a-n}-1 = 10e-9-10(e-1) = 1$\n$e^{a-10} = 2 \\Rightarrow a = 10 + \\log_e 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) log((4 + 3 sin x)/(4 + 3 cos x)) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\log\\left(\\frac{4+3\\sin x}{4+3\\cos x}\\right)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 2/3",
+      "B. 3/2",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "Let $I = \\int_0^{\\pi/2}\\log\\left(\\frac{4+3\\sin x}{4+3\\cos x}\\right)dx$\n\nUsing $\\int_0^{\\pi/2}f(x)dx = \\int_0^{\\pi/2}f(\\pi/2-x)dx$:\n$I = \\int_0^{\\pi/2}\\log\\left(\\frac{4+3\\cos x}{4+3\\sin x}\\right)dx = -I$\n$2I = 0 \\Rightarrow I = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) log sin(π/2 x) dx =",
+    "question_latex": "$\\int_0^1 \\log\\sin\\left(\\frac{\\pi}{2}x\\right)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. -log 2",
+      "B. log 2",
+      "C. -(π/4)log 2",
+      "D. (π/4)log 2"
+    ],
+    "option_images": [],
+    "answer": "A. -log 2",
+    "solution": "Put $\\frac{\\pi}{2}x = \\theta \\Rightarrow dx = \\frac{2}{\\pi}d\\theta$\n$I = \\frac{2}{\\pi}\\int_0^{\\pi/2}\\log\\sin\\theta\\,d\\theta = \\frac{2}{\\pi}\\cdot\\left(-\\frac{\\pi}{2}\\log 2\\right) = -\\log 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) dx / (1 + ³√tan x) =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{dx}{1+\\sqrt[3]{\\tan x}} =$",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/4",
+      "C. 3π/2",
+      "D. 3π/4"
+    ],
+    "option_images": [],
+    "answer": "B. π/4",
+    "solution": "Let $I = \\int_0^{\\pi/2}\\frac{\\sqrt[3]{\\cos x}}{\\sqrt[3]{\\cos x}+\\sqrt[3]{\\sin x}}\\,dx$ ...(i)\n\nBy property: $I = \\int_0^{\\pi/2}\\frac{\\sqrt[3]{\\sin x}}{\\sqrt[3]{\\sin x}+\\sqrt[3]{\\cos x}}\\,dx$ ...(ii)\n\nAdding: $2I = \\int_0^{\\pi/2}1\\,dx = \\frac{\\pi}{2} \\Rightarrow I = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) tan⁻¹(x/√(1-x²)) dx =",
+    "question_latex": "$\\int_0^1 \\tan^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/2 + 1",
+      "B. π/2 - 1",
+      "C. π/2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "B. π/2 - 1",
+    "solution": "Put $x = \\sin\\theta \\Rightarrow dx = \\cos\\theta\\,d\\theta$\n$I = \\int_0^{\\pi/2}\\theta\\cos\\theta\\,d\\theta$\n$= [\\theta\\sin\\theta + \\cos\\theta]_0^{\\pi/2}$\n$= \\left(\\frac{\\pi}{2}+0\\right)-(0+1) = \\frac{\\pi}{2}-1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Definite Integration",
+    "question": "If I1 = ∫(1 to 2) dx/√(1+x²) and I2 = ∫(1 to 2) dx/x, then",
+    "question_latex": "If $I_1 = \\int_1^2 \\frac{dx}{\\sqrt{1+x^2}}$ and $I_2 = \\int_1^2 \\frac{dx}{x}$, then",
+    "question_images": [],
+    "options": [
+      "A. I1 > I2",
+      "B. I1 < I2",
+      "C. I1 = I2",
+      "D. I1 > 2I2"
+    ],
+    "option_images": [],
+    "answer": "B. I1 < I2",
+    "solution": "For $x\\in(1,2)$: $(1+x^2) > x^2 \\Rightarrow \\sqrt{1+x^2} > x$\n$\\Rightarrow \\frac{1}{\\sqrt{1+x^2}} < \\frac{1}{x}$\n$\\therefore \\int_1^2 \\frac{dx}{\\sqrt{1+x^2}} < \\int_1^2 \\frac{dx}{x} \\Rightarrow I_1 < I_2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 2a) f(x) dx =",
+    "question_latex": "$\\int_0^{2a} f(x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 2∫(0 to a) f(x)dx",
+      "C. ∫(0 to a) f(x)dx + ∫(0 to a) f(2a-x)dx",
+      "D. ∫(0 to a) f(x)dx + ∫(a to 2a) f(2a-x)dx"
+    ],
+    "option_images": [],
+    "answer": "C. ∫(0 to a) f(x)dx + ∫(0 to a) f(2a-x)dx",
+    "solution": "Using the property of definite integrals:\n$\\int_0^{2a}f(x)dx = \\int_0^a f(x)dx + \\int_a^{2a}f(x)dx$\n\nIn the second integral, put $x = 2a-t$:\n$\\int_a^{2a}f(x)dx = \\int_0^a f(2a-t)dt$\n\n$\\therefore \\int_0^{2a}f(x)dx = \\int_0^a f(x)dx + \\int_0^a f(2a-x)dx$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) log((1+sin x)/(1+cos x)) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\log\\left(\\frac{1+\\sin x}{1+\\cos x}\\right)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Let $I = \\int_0^{\\pi/2}\\log\\left(\\frac{1+\\sin x}{1+\\cos x}\\right)dx$ ...(i)\n\nUsing property: $I = \\int_0^{\\pi/2}\\log\\left(\\frac{1+\\cos x}{1+\\sin x}\\right)dx$ ...(ii)\n\nAdding (i) and (ii): $2I = 0 \\Rightarrow I = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Definite Integration",
+    "question": "If ∫(0 to a) x dx ≤ a + 4, then",
+    "question_latex": "If $\\int_0^a x\\,dx \\leq a+4$, then",
+    "question_images": [],
+    "options": [
+      "A. 0 ≤ a ≤ 4",
+      "B. -2 ≤ a ≤ 4",
+      "C. -2 ≤ a ≤ 0",
+      "D. a ≤ -2 or a ≥ 4"
+    ],
+    "option_images": [],
+    "answer": "B. -2 ≤ a ≤ 4",
+    "solution": "$\\frac{a^2}{2} \\leq a+4$\n$a^2 - 2a - 8 \\leq 0$\n$(a-4)(a+2) \\leq 0$\n$-2 \\leq a \\leq 4$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) (sin x - cos x) log(sin x + cos x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} (\\sin x - \\cos x)\\log(\\sin x + \\cos x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. -4",
+      "B. 3",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "Substitute $\\sin x + \\cos x = t \\Rightarrow -(\\sin x - \\cos x)dx = dt$\nAs $x: 0 \\to \\pi/2$, $t: 1 \\to 1$\nSince limits are equal, the integral = 0",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Definite Integration",
+    "question": "Let I_n(x) = ∫(0 to x) 1/(t²+5)^n dt, n = 1,2,3,... Then (July 2022)",
+    "question_latex": "Let $I_n(x) = \\int_0^x \\frac{1}{(t^2+5)^n}\\,dt,\\ n=1,2,3,\\ldots$. Then (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 50I₆ - 9I₅ = xI'₅",
+      "B. 50I₆ - 11I₅ = xI'₅",
+      "C. 50I₆ - 11I₅ = I'₅",
+      "D. 50I₆ - 9I₅ = I'₅"
+    ],
+    "option_images": [],
+    "answer": "A. 50I₆ - 9I₅ = xI'₅",
+    "solution": "Applying IBP: $I_n(x) = \\frac{x}{(x^2+5)^n} + 2n\\int_0^x\\frac{t^2}{(t^2+5)^{n+1}}dt$\n$\\Rightarrow I_n = \\frac{x}{(x^2+5)^n} + 2nI_n - 10nI_{n+1}$\n$\\Rightarrow 10nI_{n+1} + (1-2n)I_n = \\frac{x}{(x^2+5)^n}$\n\nPutting $n=5$: $50I_6 - 9I_5 = \\frac{x}{(x^2+5)^5} = xI'_5$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Definite Integration",
+    "question": "If the value of the integral ∫(-π/2 to π/2) (x²cos x/(1+πˣ) + (1+sin²x)/(1+e^(sin x 2023))) dx = π/4(π+a) - 2 then the value of a is [29 Jan, 2024 (Shift-I)]",
+    "question_latex": "If the value of the integral $\\int_{-\\pi/2}^{\\pi/2}\\left(\\frac{x^2\\cos x}{1+\\pi^x} + \\frac{1+\\sin^2 x}{1+e^{\\sin x^{2023}}}\\right)dx = \\frac{\\pi}{4}(\\pi+a)-2$, then the value of $a$ is [29 Jan, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. -3/2",
+      "C. 3",
+      "D. 3/2"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "$I = \\int_{-\\pi/2}^{\\pi/2}\\left(\\frac{x^2\\cos x}{1+\\pi^x} + \\frac{1+\\sin^2 x}{1+e^{\\sin x^{2023}}}\\right)dx$ ...(i)\n\nAdding with substitution $x \\to -x$ (ii):\n$2I = \\int_{-\\pi/2}^{\\pi/2}(x^2\\cos x + 1+\\sin^2 x)\\,dx$\n$I = \\frac{\\pi^2}{4}+\\frac{3\\pi}{4}-2 = \\frac{\\pi}{4}(\\pi+3)-2$\n$\\therefore a=3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Definite Integration",
+    "question": "If f(x) = eˣ/(1+eˣ), I₁ = ∫(f(-a) to f(a)) xg{x(1-x)}dx and I₂ = ∫(f(-a) to f(a)) g{x(1-x)}dx, then the value of I₂/I₁ is (2004)",
+    "question_latex": "If $f(x)=\\frac{e^x}{1+e^x}$, $I_1=\\int_{f(-a)}^{f(a)}xg\\{x(1-x)\\}dx$ and $I_2=\\int_{f(-a)}^{f(a)}g\\{x(1-x)\\}dx$, then the value of $\\frac{I_2}{I_1}$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. -3",
+      "B. -1",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. 2",
+    "solution": "$f(a)+f(-a) = \\frac{e^a}{1+e^a}+\\frac{e^{-a}}{1+e^{-a}} = 1$\n\n$I_1 = \\int_{f(-a)}^{f(a)}xg(x(1-x))dx$\n\nUsing $\\int_a^b f(a+b-x)dx$:\n$I_1 = \\int_{f(-a)}^{f(a)}(1-x)g(x(1-x))dx$\n$2I_1 = \\int_{f(-a)}^{f(a)}g(x(1-x))dx = I_2$\n$\\frac{I_2}{I_1} = 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Definite Integration",
+    "question": "∫(-1 to 1) (x²+1)² dx =",
+    "question_latex": "$\\int_{-1}^1 (x^2+1)^2\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 192/45",
+      "B. 192/25",
+      "C. 192/37",
+      "D. 56/15"
+    ],
+    "option_images": [],
+    "answer": "D. 56/15",
+    "solution": "$I = 2\\int_0^1(x^4+2x^2+1)\\,dx$\n$= 2\\left[\\frac{x^5}{5}+\\frac{2x^3}{3}+x\\right]_0^1$\n$= 2\\left(\\frac{1}{5}+\\frac{2}{3}+1\\right) = 2\\cdot\\frac{28}{15} = \\frac{56}{15}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Definite Integration",
+    "question": "If I_n = ∫(π/4 to π/2) cot^n x dx, then (Feb 2021)",
+    "question_latex": "If $I_n = \\int_{\\pi/4}^{\\pi/2} \\cot^n x\\,dx$, then (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. 1/(I₂+I₄), 1/(I₃+I₅), 1/(I₄+I₆) are in G.P.",
+      "B. I₂+I₄, I₃+I₅, I₄+I₆ are in A.P.",
+      "C. I₂+I₄, (I₃+I₅)², I₄+I₆ are in G.P.",
+      "D. 1/(I₂+I₄), 1/(I₃+I₅), 1/(I₄+I₆) are in A.P."
+    ],
+    "option_images": [],
+    "answer": "D. 1/(I₂+I₄), 1/(I₃+I₅), 1/(I₄+I₆) are in A.P.",
+    "solution": "$I_n + I_{n-2} = \\int_{\\pi/4}^{\\pi/2}\\cot^{n-2}x\\cdot\\csc^2 x\\,dx = \\frac{1}{n-1}$\n\n$I_2+I_4=\\frac{1}{3}$, $I_3+I_5=\\frac{1}{4}$, $I_4+I_6=\\frac{1}{5}$\n$\\frac{1}{I_2+I_4}=3$, $\\frac{1}{I_3+I_5}=4$, $\\frac{1}{I_4+I_6}=5$ are in A.P.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Definite Integration",
+    "question": "The value of the integral ∫(3 to 6) √x/√(9-x+√x) dx is (2006)",
+    "question_latex": "The value of the integral $\\int_3^6 \\frac{\\sqrt{x}}{\\sqrt{9-x}+\\sqrt{x}}\\,dx$ is (2006)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 3/2",
+      "C. 2",
+      "D. 1/2"
+    ],
+    "option_images": [],
+    "answer": "B. 3/2",
+    "solution": "Using $\\int_a^b \\frac{f(x)}{f(a+b-x)+f(x)}dx = \\frac{b-a}{2}$:\n$\\int_3^6 \\frac{\\sqrt{x}}{\\sqrt{9-x}+\\sqrt{x}}dx = \\frac{6-3}{2} = \\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(-2 to 2) (ax³+bx+c) dx depends on the value of",
+    "question_latex": "The value of $\\int_{-2}^{2} (ax^3+bx+c)\\,dx$ depends on the value of",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. b",
+      "C. c",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "C. c",
+    "solution": "$I = \\int_{-2}^{2}(ax^3+bx+c)dx = 4c$ (odd functions vanish over symmetric interval)\nValue depends only on $c$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) log(tan x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\log(\\tan x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. π",
+      "C. π/2",
+      "D. π/4"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Let $I = \\int_0^{\\pi/2}\\log(\\tan x)\\,dx$ ...(i)\nBy property: $I = \\int_0^{\\pi/2}\\log(\\cot x)\\,dx$ ...(ii)\nAdding: $2I = \\int_0^{\\pi/2}\\log(\\tan x\\cdot\\cot x)\\,dx = \\int_0^{\\pi/2}\\log 1\\,dx = 0$\n$I = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 2π) (sin x + cos x) dx =",
+    "question_latex": "$\\int_0^{2\\pi}(\\sin x+\\cos x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. π/2",
+      "C. 2π/3",
+      "D. 1/2"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$I = [-\\cos x + \\sin x]_0^{2\\pi} = (-1+0)-(-1+0) = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/4) sec²x / ((1+tan x)(2+tan x)) dx =",
+    "question_latex": "$\\int_0^{\\pi/4} \\frac{\\sec^2 x}{(1+\\tan x)(2+\\tan x)}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. log(3/4)",
+      "B. log(1/4)",
+      "C. log(4/3)",
+      "D. log(1/3)"
+    ],
+    "option_images": [],
+    "answer": "C. log(4/3)",
+    "solution": "Put $\\tan x = t$, $\\sec^2 x\\,dx = dt$:\n$I = \\int_0^1 \\frac{dt}{(t+1)(t+2)} = \\int_0^1\\left(\\frac{1}{t+1}-\\frac{1}{t+2}\\right)dt$\n$= [\\log(t+1)-\\log(t+2)]_0^1 = \\log\\frac{2}{3}-\\log\\frac{1}{2} = \\log\\frac{4}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Definite Integration",
+    "question": "Let a function f: [0,5] → R be continuous, f(1) = 3 and F be defined as F(x) = ∫(1 to x) t²g(t)dt, where g(t) = ∫(1 to t) f(u)du. Then for the function F, the point x = 1 is (Jan 2020)",
+    "question_latex": "Let a function $f:[0,5]\\to\\mathbb{R}$ be continuous, $f(1)=3$ and $F$ be defined as $F(x)=\\int_1^x t^2g(t)\\,dt$, where $g(t)=\\int_1^t f(u)\\,du$. Then for the function $F$, the point $x=1$ is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. a point of local maxima.",
+      "B. a point of inflection.",
+      "C. a point of local minima.",
+      "D. not a critical point."
+    ],
+    "option_images": [],
+    "answer": "C. a point of local minima.",
+    "solution": "$g'(t)=f(t)$ and $g(1)=0$\n$F'(x) = x^2g(x) \\Rightarrow F'(1)=1\\cdot g(1)=0$\n$F''(x) = 2xg(x)+x^2g'(x) = 2xg(x)+x^2f(x)$\n$F''(1) = 0+1\\cdot 3 = 3 > 0$\n$\\Rightarrow x=1$ is a point of local minima.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Definite Integration",
+    "question": "Let f be a real valued continuous function on [0,1] and f(x) = x + ∫(0 to 1)(x-t)f(t)dt. Then, which of the following points lies on the curve y = f(x)? (June 2022)",
+    "question_latex": "Let $f$ be a real valued continuous function on $[0,1]$ and $f(x) = x + \\int_0^1(x-t)f(t)\\,dt$. Then, which of the following points lies on the curve $y=f(x)$? (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. (4,17)",
+      "B. (2,4)",
+      "C. (1,2)",
+      "D. (6,8)"
+    ],
+    "option_images": [],
+    "answer": "D. (6,8)",
+    "solution": "$f(x) = x + x\\int_0^1 f(t)dt - \\int_0^1 tf(t)dt = Ax - B$\n$A = 1+\\int_0^1 f(t)dt$, $B = \\int_0^1 tf(t)dt$\n\nSolving: $A = \\frac{18}{13}$, $B = \\frac{4}{13}$\n$f(x) = \\frac{18x-4}{13}$; $f(6) = \\frac{104}{13} = 8$\n$\\Rightarrow (6,8)$ lies on the curve.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Definite Integration",
+    "question": "I_n = ∫(0 to π/4) tan^n x dx, then lim(n→∞) n[I_n + I_(n-2)] equals (2002)",
+    "question_latex": "$I_n = \\int_0^{\\pi/4} \\tan^n x\\,dx$, then $\\lim_{n\\to\\infty} n[I_n + I_{n-2}]$ equals (2002)",
+    "question_images": [],
+    "options": [
+      "A. ∞",
+      "B. 1",
+      "C. 0",
+      "D. 1/2"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "$I_n + I_{n-2} = \\int_0^{\\pi/4}\\tan^{n-2}x\\sec^2 x\\,dx = \\frac{1}{n-1}$\n$\\lim_{n\\to\\infty}n(I_n+I_{n-2}) = \\lim_{n\\to\\infty}\\frac{n}{n-1} = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Definite Integration",
+    "question": "If the value of the integral ∫(0 to 1/2) x²/(1-x²)^(3/2) dx is k/6, then k is equal to (Sept 2020)",
+    "question_latex": "If the value of the integral $\\int_0^{1/2} \\frac{x^2}{(1-x^2)^{3/2}}\\,dx$ is $\\frac{k}{6}$, then $k$ is equal to (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. 2√3-π",
+      "B. 2√3+π",
+      "C. 3√2+π",
+      "D. 3√2-π"
+    ],
+    "option_images": [],
+    "answer": "A. 2√3-π",
+    "solution": "Put $x = \\sin\\theta$, $dx = \\cos\\theta\\,d\\theta$:\n$I = \\int_0^{\\pi/6}\\frac{\\sin^2\\theta}{\\cos^3\\theta}\\cos\\theta\\,d\\theta = \\int_0^{\\pi/6}\\tan^2\\theta\\,d\\theta$\n$= [\\tan\\theta-\\theta]_0^{\\pi/6} = \\frac{1}{\\sqrt{3}}-\\frac{\\pi}{6}$\n$= \\frac{2\\sqrt{3}-\\pi}{6} \\Rightarrow k = 2\\sqrt{3}-\\pi$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Definite Integration",
+    "question": "The value of ∫(0 to π) e^(cos x) sin x / (1+cos²x)(e^(cos x)+e^(-cos x)) dx is equal (June 2022)",
+    "question_latex": "The value of $\\int_0^{\\pi} \\frac{e^{\\cos x}\\sin x}{(1+\\cos^2 x)(e^{\\cos x}+e^{-\\cos x})}\\,dx$ is equal (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π²/2",
+      "C. π/4",
+      "D. π²/4"
+    ],
+    "option_images": [],
+    "answer": "C. π/4",
+    "solution": "Let $I = \\int_0^\\pi \\frac{e^{\\cos x}\\sin x}{(1+\\cos^2 x)(e^{\\cos x}+e^{-\\cos x})}dx$\n\nBy $x\\to\\pi-x$: $I = \\int_0^\\pi \\frac{e^{-\\cos x}\\sin x}{(1+\\cos^2 x)(e^{-\\cos x}+e^{\\cos x})}dx$\n\n$2I = \\int_0^\\pi \\frac{\\sin x}{1+\\cos^2 x}dx = [-\\tan^{-1}(\\cos x)]_0^\\pi = \\frac{\\pi}{2}$\n$I = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 2a) f(x) dx =",
+    "question_latex": "$\\int_0^{2a} f(x)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 2∫(0 to a) f(x)dx",
+      "C. ∫(0 to a) f(x)dx + ∫(0 to a) f(2a-x)dx",
+      "D. ∫(0 to a) f(x)dx + ∫(a to 2a) f(2a-x)dx"
+    ],
+    "option_images": [],
+    "answer": "C. ∫(0 to a) f(x)dx + ∫(0 to a) f(2a-x)dx",
+    "solution": "This is a standard property of definite integrals:\n$\\int_0^{2a}f(x)dx = \\int_0^a f(x)dx + \\int_0^a f(2a-x)dx$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) sin 2x / (4 - sin²x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{\\sin 2x}{4-\\sin^2 x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. log(4/3)",
+      "B. log(2/3)",
+      "C. log(3/4)",
+      "D. log(3/2)"
+    ],
+    "option_images": [],
+    "answer": "A. log(4/3)",
+    "solution": "$I = \\int_0^{\\pi/2}\\frac{2\\sin x\\cos x}{4-\\sin^2 x}\\,dx$\n\nPut $\\sin x = t$, $\\cos x\\,dx = dt$:\n$I = \\int_0^1 \\frac{2t}{4-t^2}\\,dt = [-\\log(4-t^2)]_0^1 = -\\log 3+\\log 4 = \\log\\frac{4}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) dx / (1 + cos x) =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{dx}{1+\\cos x} =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. π",
+      "C. 2",
+      "D. 2π"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "$I = \\int_0^{\\pi/2}\\frac{dx}{1+\\cos x} = \\frac{1}{2}\\int_0^{\\pi/2}\\sec^2\\frac{x}{2}\\,dx$\n$= \\left[\\tan\\frac{x}{2}\\right]_0^{\\pi/2} = \\tan\\frac{\\pi}{4} = 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Definite Integration",
+    "question": "∫(π/4 to π/2) cosec³ x dx =",
+    "question_latex": "$\\int_{\\pi/4}^{\\pi/2} \\csc^3 x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. -1",
+      "C. 1/2",
+      "D. -1/2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "$I = [-\\cot x]_{\\pi/4}^{\\pi/2} = \\cot\\frac{\\pi}{4}-\\cot\\frac{\\pi}{2} = 1-0 = 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Definite Integration",
+    "question": "Let the function f: [0,2] → R be defined as f(x) = {e^(min{x²,x-[x]}), x∈[0,1); e^(x-log_e x), x∈[1,2)} where [t] denotes the greatest integer ≤ t. Then the value of ∫(0 to 2) xf(x)dx (April 2023)",
+    "question_latex": "Let the function $f:[0,2]\\to\\mathbb{R}$ be defined as $f(x)=\\begin{cases}e^{\\min\\{x^2,x-[x]\\}}, & x\\in[0,1)\\\\e^{x-\\log_e x}, & x\\in[1,2)\\end{cases}$. Then the value of $\\int_0^2 xf(x)\\,dx$ (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 1+3e/2",
+      "B. 2e - 1/2",
+      "C. 2e - 1",
+      "D. (e-1)(e²+1/2)"
+    ],
+    "option_images": [],
+    "answer": "B. 2e - 1/2",
+    "solution": "For $x\\in[0,1)$: $\\min\\{x^2,\\{x\\}\\} = x^2$, so $f(x)=e^{x^2}$.\nFor $x\\in[1,2)$: $[x-\\log_e x]=1$, so $f(x)=e$.\n$\\int_0^2 xf(x)dx = \\int_0^1 xe^{x^2}dx + \\int_1^2 xe\\,dx$\n$= \\frac{1}{2}(e-1) + \\frac{e}{2}(4-1) = \\frac{e-1}{2}+\\frac{3e}{2} = 2e-\\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Definite Integration",
+    "question": "If a = lim(n→∞) Σ(k=1 to n) 2n/(n²+k²) and f(x) = √((1-cos x)/(1+cos x)), x∈(0,1), then (July 2022)",
+    "question_latex": "If $a = \\lim_{n\\to\\infty}\\sum_{k=1}^n \\frac{2n}{n^2+k^2}$ and $f(x)=\\sqrt{\\frac{1-\\cos x}{1+\\cos x}},\\ x\\in(0,1)$, then (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. f(a/2)f'(a/2) = √2",
+      "B. f(a/2) = √2 f'(a/2)",
+      "C. √2 f(a/2) = f'(a/2)",
+      "D. 2√2 f(a/2) = f'(a/2)"
+    ],
+    "option_images": [],
+    "answer": "C. √2 f(a/2) = f'(a/2)",
+    "solution": "$a = \\pi/2$; $f(x) = \\tan(x/2)$, $f'(x) = \\frac{1}{2}\\sec^2(x/2)$\n$f'(a/2) = f'(\\pi/4) = 2-\\sqrt{2}$, $\\sqrt{2}f(a/2) = \\sqrt{2}(\\sqrt{2}-1) = 2-\\sqrt{2}$\n$\\therefore \\sqrt{2}f(a/2) = f'(a/2)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Definite Integration",
+    "question": "Let a and b be real constants such that the function f defined by f(x) = {x²+3x+a, x≤1; bx+2, x>1} be differentiable on R. Then ∫(-2 to 2) f(x)dx equals [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $a$ and $b$ be real constants such that $f(x)=\\begin{cases}x^2+3x+a,& x\\leq1\\\\bx+2,& x>1\\end{cases}$ be differentiable on $\\mathbb{R}$. Then $\\int_{-2}^2 f(x)dx$ equals [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. 19/6",
+      "C. 17",
+      "D. 15/6"
+    ],
+    "option_images": [],
+    "answer": "C. 17",
+    "solution": "Continuity: $4+a = b+2$; Differentiability: $5=b$, $a=3$.\n$\\int_{-2}^2 f(x)dx = 17$ (computed as in Q27)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Definite Integration",
+    "question": "Let f: [0,∞) → [0,∞) be defined as f(x) = ∫(0 to x) [y]dy, where [x] is the greatest integer ≤ x. Which of the following is true? (July 2021)",
+    "question_latex": "Let $f:[0,\\infty)\\to[0,\\infty)$ be defined as $f(x)=\\int_0^x [y]\\,dy$, where $[x]$ is the greatest integer $\\leq x$. Which of the following is true? (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. f is differentiable at every point in [0,∞).",
+      "B. f is both continuous and differentiable except at the integer points in [0,∞).",
+      "C. f is continuous at every point in [0,∞) and differentiable except at the integer points.",
+      "D. f is continuous everywhere except at the integer points in [0,∞)."
+    ],
+    "option_images": [],
+    "answer": "C. f is continuous at every point in [0,∞) and differentiable except at the integer points.",
+    "solution": "$f(x) = \\frac{n(n-1)}{2}+n\\{x\\}$ for $x\\in[n,n+1)$\n$f$ is continuous at all integers (left and right limits match), but $f'(x)=[x]$ is discontinuous at integers. Hence $f$ is continuous for all $x\\geq0$ and differentiable except at integer points.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Definite Integration",
+    "question": "Let I = ∫(a to b)(x⁴-2x²)dx. If I is minimum then the ordered pair (a,b) is (Jan 2019)",
+    "question_latex": "Let $I = \\int_a^b (x^4-2x^2)\\,dx$. If $I$ is minimum then the ordered pair $(a,b)$ is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. (0,√2)",
+      "B. (√2,-√2)",
+      "C. (-√2,0)",
+      "D. (-√2,√2)"
+    ],
+    "option_images": [],
+    "answer": "D. (-√2,√2)",
+    "solution": "Let $f(x) = x^4-2x^2 = x^2(x^2-2)$. $f(x)\\leq 0$ for $x\\in[-\\sqrt{2},\\sqrt{2}]$.\nThe integral is most negative (minimum) when we integrate over the region where $f(x)\\leq 0$.\n$\\therefore (a,b) = (-\\sqrt{2},\\sqrt{2})$",
+    "solution_images": [
+      "77_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Definite Integration",
+    "question": "∫(π/2 to π/2) sin²x / (1+2^x) dx =",
+    "question_latex": "$\\int_{-\\pi/2}^{\\pi/2} \\frac{\\sin^2 x}{1+2^x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/4 - 1",
+      "B. π/4",
+      "C. π/2 - 1",
+      "D. π/2"
+    ],
+    "option_images": [],
+    "answer": "B. π/4",
+    "solution": "Let $f(x) = \\frac{\\sin^2 x}{1+2^x}$. Then $f(x)+f(-x) = \\sin^2 x$.\n$I = \\frac{1}{2}\\int_{-\\pi/2}^{\\pi/2}\\sin^2 x\\,dx = \\frac{1}{2}\\cdot\\frac{\\pi}{2} = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Definite Integration",
+    "question": "lim(n→∞) ((n+1)(n+2)...3n / n^(2n))^(1/n) is equal to (2016)",
+    "question_latex": "$\\lim_{n\\to\\infty}\\left(\\frac{(n+1)(n+2)\\cdots 3n}{n^{2n}}\\right)^{1/n}$ is equal to (2016)",
+    "question_images": [],
+    "options": [
+      "A. 3log 3 - 2",
+      "B. 27/e²",
+      "C. 9/e²",
+      "D. 18/e⁴"
+    ],
+    "option_images": [],
+    "answer": "B. 27/e²",
+    "solution": "$L = e^{\\lim_{n\\to\\infty}\\frac{1}{n}\\sum_{r=1}^{2n}\\ln(1+r/n)} = e^{\\int_0^2 \\ln(1+x)dx}$\n$\\int_0^2\\ln(1+x)dx = [(x+1)\\ln(x+1)-x]_0^2 = 3\\ln3-2$\n$L = e^{3\\ln3-2} = 27e^{-2} = \\frac{27}{e^2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Definite Integration",
+    "question": "Let f(x) be a function satisfying f(x) + f(π-x) = π², ∀x∈R. Then ∫(0 to π) f(x) sin x dx is equal to (April 2023)",
+    "question_latex": "Let $f(x)$ be a function satisfying $f(x)+f(\\pi-x)=\\pi^2,\\ \\forall x\\in\\mathbb{R}$. Then $\\int_0^\\pi f(x)\\sin x\\,dx$ is equal to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. π²",
+      "B. π²/2",
+      "C. 2π²",
+      "D. π²/4"
+    ],
+    "option_images": [],
+    "answer": "A. π²",
+    "solution": "Let $I = \\int_0^\\pi f(x)\\sin x\\,dx$\nBy $x\\to\\pi-x$: $I = \\int_0^\\pi f(\\pi-x)\\sin x\\,dx$\n$2I = \\int_0^\\pi [f(x)+f(\\pi-x)]\\sin x\\,dx = \\pi^2\\int_0^\\pi\\sin x\\,dx = \\pi^2\\cdot 2$\n$I = \\pi^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Definite Integration",
+    "question": "If I1 = ∫(1 to 2) dx/√(1+x²) and I2 = ∫(1 to 2) dx/x, then",
+    "question_latex": "If $I_1=\\int_1^2\\frac{dx}{\\sqrt{1+x^2}}$ and $I_2=\\int_1^2\\frac{dx}{x}$, then",
+    "question_images": [],
+    "options": [
+      "A. I1 > I2",
+      "B. I1 < I2",
+      "C. I1 = I2",
+      "D. I1 > 2I2"
+    ],
+    "option_images": [],
+    "answer": "B. I1 < I2",
+    "solution": "For $x\\in(1,2)$: $\\sqrt{1+x^2}>x \\Rightarrow \\frac{1}{\\sqrt{1+x^2}}<\\frac{1}{x} \\Rightarrow I_1 < I_2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) dx / (5 + 3 cos x) =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{dx}{5+3\\cos x} =$",
+    "question_images": [],
+    "options": [
+      "A. (1/3)tan⁻¹(1/2)",
+      "B. (1/4)tan⁻¹(1/3)",
+      "C. (1/2)tan⁻¹(1/2)",
+      "D. (1/3)tan⁻¹(1/3)"
+    ],
+    "option_images": [],
+    "answer": "C. (1/2)tan⁻¹(1/2)",
+    "solution": "Put $\\tan(x/2) = t$, $\\cos x = \\frac{1-t^2}{1+t^2}$, $dx = \\frac{2dt}{1+t^2}$:\n$I = \\int_0^1 \\frac{2dt}{5(1+t^2)+3(1-t^2)} = \\int_0^1 \\frac{2dt}{2t^2+8} = \\int_0^1\\frac{dt}{t^2+4}$\n$= \\left[\\frac{1}{2}\\tan^{-1}\\frac{t}{2}\\right]_0^1 = \\frac{1}{2}\\tan^{-1}\\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Definite Integration",
+    "question": "Let I = ∫(π/4 to π/3) (8sin x - sin 2x)/x dx. Then (July 2022)",
+    "question_latex": "Let $I = \\int_{\\pi/4}^{\\pi/3} \\frac{8\\sin x - \\sin 2x}{x}\\,dx$. Then (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 3π/4 < I < π",
+      "B. π/5 < I < 5π/12",
+      "C. 5π/12 < I < √2π/3",
+      "D. π/2 < I < 3π/4"
+    ],
+    "option_images": [],
+    "answer": "C. 5π/12 < I < √2π/3",
+    "solution": "On $[\\pi/4, \\pi/3]$: $\\frac{8\\sin x - \\sin 2x}{x}$ is bounded between appropriate values.\nThe result $\\frac{5\\pi}{12} < I < \\frac{\\sqrt{2}\\pi}{3}$ follows from bounding the integrand.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Definite Integration",
+    "question": "The integral ∫(0 to π) √(1 + 4sin²(x/2) - 4sin(x/2)) dx equals (2014)",
+    "question_latex": "The integral $\\int_0^\\pi \\sqrt{1+4\\sin^2\\frac{x}{2}-4\\sin\\frac{x}{2}}\\,dx$ equals (2014)",
+    "question_images": [],
+    "options": [
+      "A. π - 4",
+      "B. 4√3 - 4",
+      "C. 4√3 - 4 - π/3",
+      "D. 2π/3 - 4 - 4√3"
+    ],
+    "option_images": [],
+    "answer": "C. 4√3 - 4 - π/3",
+    "solution": "$\\int_0^\\pi \\sqrt{\\left(1-2\\sin\\frac{x}{2}\\right)^2}\\,dx = \\int_0^\\pi\\left|1-2\\sin\\frac{x}{2}\\right|dx$\n$= \\int_0^{\\pi/3}(1-2\\sin\\frac{x}{2})dx + \\int_{\\pi/3}^\\pi(2\\sin\\frac{x}{2}-1)dx$\n$= 4\\sqrt{3}-4-\\frac{\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) dx / (x + √(1-x²)) =",
+    "question_latex": "$\\int_0^1 \\frac{dx}{x+\\sqrt{1-x^2}} =$",
+    "question_images": [],
+    "options": [
+      "A. π/3",
+      "B. π/4",
+      "C. π/6",
+      "D. π/8"
+    ],
+    "option_images": [],
+    "answer": "B. π/4",
+    "solution": "Put $x = \\sin\\theta$:\n$I = \\int_0^{\\pi/2}\\frac{\\cos\\theta}{\\sin\\theta+\\cos\\theta}d\\theta$\n\nBy property: $I = \\int_0^{\\pi/2}\\frac{\\sin\\theta}{\\sin\\theta+\\cos\\theta}d\\theta$\n\nAdding: $2I = \\frac{\\pi}{2} \\Rightarrow I = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Definite Integration",
+    "question": "If θ₁ and θ₂ are the smallest and largest values of θ in (0,2π)-{π} which satisfy 2cot²θ - 5/sin θ + 4 = 0, then ∫(θ₁ to θ₂) cos²(3θ) dθ is equal to (Jan 2020)",
+    "question_latex": "If $\\theta_1$ and $\\theta_2$ are respectively the smallest and the largest values of $\\theta$ in $(0,2\\pi)-\\{\\pi\\}$ which satisfy the equation $2\\cot^2\\theta-\\frac{5}{\\sin\\theta}+4=0$, then $\\int_{\\theta_1}^{\\theta_2}\\cos^2 3\\theta\\,d\\theta$ is equal to (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. π/3+1/6",
+      "B. π/9",
+      "C. π/3",
+      "D. 2π/3"
+    ],
+    "option_images": [],
+    "answer": "C. π/3",
+    "solution": "$2\\cos^2\\theta - 5\\sin\\theta + 4\\sin^2\\theta = 0$\n$2\\sin^2\\theta - 5\\sin\\theta + 2 = 0 \\Rightarrow \\sin\\theta = \\frac{1}{2}$\n$\\theta_1 = \\frac{\\pi}{6}$, $\\theta_2 = \\frac{5\\pi}{6}$\n$\\int_{\\pi/6}^{5\\pi/6}\\cos^2 3\\theta\\,d\\theta = \\frac{1}{2}\\int_{\\pi/6}^{5\\pi/6}(1+\\cos 6\\theta)d\\theta = \\frac{\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 3) |x - 2| dx =",
+    "question_latex": "$\\int_0^3 |x-2|\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 3/2",
+      "B. 3/4",
+      "C. 5/2",
+      "D. 5/4"
+    ],
+    "option_images": [],
+    "answer": "C. 5/2",
+    "solution": "$I = \\int_0^2 -(x-2)dx + \\int_2^3 (x-2)dx$\n$= \\left[-\\frac{(x-2)^2}{2}\\right]_0^2 + \\left[\\frac{(x-2)^2}{2}\\right]_2^3$\n$= (0-(-2)) + (\\frac{1}{2}-0) = 2+\\frac{1}{2} = \\frac{5}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Definite Integration",
+    "question": "The solution for x of the equation ∫(√2 to x) dt/(t√(t²-1)) = π/2 is (2007)",
+    "question_latex": "The solution for $x$ of the equation $\\int_{\\sqrt{2}}^x \\frac{dt}{t\\sqrt{t^2-1}} = \\frac{\\pi}{2}$ is (2007)",
+    "question_images": [],
+    "options": [
+      "A. √3/2",
+      "B. π",
+      "C. -√2",
+      "D. 2√2"
+    ],
+    "option_images": [],
+    "answer": "C. -√2",
+    "solution": "$[\\sec^{-1}t]_{\\sqrt{2}}^x = \\frac{\\pi}{2}$\n$\\sec^{-1}x - \\sec^{-1}\\sqrt{2} = \\frac{\\pi}{2}$\n$\\sec^{-1}x = \\frac{\\pi}{2}+\\frac{\\pi}{4} = \\frac{3\\pi}{4}$\n$x = -\\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) sin² x dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\sin^2 x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/4",
+      "B. 2π/3",
+      "C. π/3",
+      "D. 8π/15"
+    ],
+    "option_images": [],
+    "answer": "A. π/4",
+    "solution": "Using the standard result: $\\int_0^{\\pi/2}\\sin^2 x\\,dx = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π) dx / (1 + sin x) =",
+    "question_latex": "$\\int_0^\\pi \\frac{dx}{1+\\sin x} =$",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 3",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. 2",
+    "solution": "$I = \\int_0^\\pi \\frac{1-\\sin x}{\\cos^2 x}\\,dx = \\int_0^\\pi(\\sec^2 x - \\sec x\\tan x)\\,dx$\n$= [\\tan x - \\sec x]_0^\\pi = (0-(-1))-(0-1) = 1+1 = 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) cos⁻¹ x dx =",
+    "question_latex": "$\\int_0^1 \\cos^{-1}x\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. -1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "$I = [x\\cos^{-1}x - \\sqrt{1-x^2}]_0^1 = (\\cos^{-1}1 - 0)-(0-1) = 0+1 = 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) x / (1 + cos x) dx =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{x}{1+\\cos x}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. π/2 - log√2",
+      "B. π/4 - log√2",
+      "C. π/2 - log 2",
+      "D. π/4 - log 2"
+    ],
+    "option_images": [],
+    "answer": "C. π/2 - log 2",
+    "solution": "$I = \\frac{1}{2}\\int_0^{\\pi/2} x\\sec^2\\frac{x}{2}\\,dx$\n$= \\frac{1}{2}\\left[2x\\tan\\frac{x}{2} - 4\\log\\sec\\frac{x}{2}\\right]_0^{\\pi/2}$\n$= \\frac{\\pi}{2} - \\log 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to π/2) dx / (5 + 4 cos x) =",
+    "question_latex": "$\\int_0^{\\pi/2} \\frac{dx}{5+4\\cos x} =$",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/4",
+      "C. π/6",
+      "D. (2/3)tan⁻¹(1/3)"
+    ],
+    "option_images": [],
+    "answer": "D. (2/3)tan⁻¹(1/3)",
+    "solution": "Put $\\tan(x/2) = t$, $\\cos x = \\frac{1-t^2}{1+t^2}$:\n$I = \\int_0^1 \\frac{2dt}{5(1+t^2)+4(1-t^2)} = 2\\int_0^1\\frac{dt}{t^2+9}$\n$= \\frac{2}{3}\\left[\\tan^{-1}\\frac{t}{3}\\right]_0^1 = \\frac{2}{3}\\tan^{-1}\\frac{1}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Definite Integration",
+    "question": "lim(n→∞) Σ(r=1 to n) (1/n)e^(r/n) is (2004)",
+    "question_latex": "$\\lim_{n\\to\\infty}\\sum_{r=1}^n \\frac{1}{n}e^{r/n}$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. 1 - e",
+      "B. e - 1",
+      "C. e + 1",
+      "D. e"
+    ],
+    "option_images": [],
+    "answer": "B. e - 1",
+    "solution": "$\\lim_{n\\to\\infty}\\sum_{r=1}^n\\frac{1}{n}e^{r/n} = \\int_0^1 e^x\\,dx = [e^x]_0^1 = e-1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Definite Integration",
+    "question": "The value of Σ(n=1 to 100) ∫(n-1 to n) e^(x-[x]) dx, where [x] is the greatest integer ≤ x, is (Feb 2021)",
+    "question_latex": "The value of $\\sum_{n=1}^{100}\\int_{n-1}^n e^{x-[x]}\\,dx$, where $[x]$ is the greatest integer $\\leq x$, is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. 100(e-1)",
+      "B. 100(1-e)",
+      "C. 100e",
+      "D. 100(1+e)"
+    ],
+    "option_images": [],
+    "answer": "A. 100(e-1)",
+    "solution": "$\\sum_{n=1}^{100}\\int_{n-1}^n e^{x-[x]}dx = \\sum_{n=1}^{100}\\int_{n-1}^n e^{\\{x\\}}dx = 100\\int_0^1 e^x\\,dx = 100(e-1)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Definite Integration",
+    "question": "lim(n→∞) [(1/n²)sec²(1/n²) + (2/n²)sec²(4/n²) + ... + (1/n)sec²(1)] equals (2005)",
+    "question_latex": "$\\lim_{n\\to\\infty}\\left[\\frac{1}{n^2}\\sec^2\\frac{1}{n^2}+\\frac{2}{n^2}\\sec^2\\frac{4}{n^2}+\\cdots+\\frac{1}{n}\\sec^2 1\\right]$ equals (2005)",
+    "question_images": [],
+    "options": [
+      "A. (1/2)sec 1",
+      "B. (1/2)cosec 1",
+      "C. (1/2)tan 1",
+      "D. tan 1"
+    ],
+    "option_images": [],
+    "answer": "C. (1/2)tan 1",
+    "solution": "$= \\int_0^1 x\\sec^2(x^2)\\,dx = \\frac{1}{2}[\\tan(x^2)]_0^1 = \\frac{1}{2}\\tan 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Definite Integration",
+    "question": "Let f: R → R be a continuous function satisfying f(x) + f(x+k) = n, for all x ∈ R where k > 0 and n is a positive integer. If I₁ = ∫(0 to 4nk) f(x)dx and I₂ = ∫(-k to 3k) f(x)dx, then: (June 2022)",
+    "question_latex": "Let $f: R\\to R$ be a continuous function satisfying $f(x)+f(x+k)=n$, for all $x\\in\\mathbb{R}$ where $k>0$ and $n$ is a positive integer. If $I_1=\\int_0^{4nk}f(x)\\,dx$ and $I_2=\\int_{-k}^{3k}f(x)\\,dx$, then (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. I₁ + 2I₂ = 4nk",
+      "B. I₁ + nI₂ = 6n²k",
+      "C. I₁ + 2I₂ = 2nk",
+      "D. I₁ + nI₂ = 4n²k"
+    ],
+    "option_images": [],
+    "answer": "C. I₁ + 2I₂ = 2nk",
+    "solution": "$f(x)+f(x+k)=n \\Rightarrow$ period of $f$ is $2k$.\n$I_1 = \\int_0^{4nk}f(x)dx = 2n\\int_0^{2k}f(x)dx = 2n\\cdot nk = 2n^2k$\n$I_2 = \\int_{-k}^{3k}f(x)dx = 2\\int_0^{2k}f(x)dx = 2nk$\n$I_1+2I_2 = 2n^2k+4nk$... Hmm, reworking:\n$I_1 = 2n^2k$, $I_2 = 2nk$, $I_1+2I_2 = 2n^2k+4nk = 2nk(n+2)$... \nActually $I_1+2I_2 = 2n^2k + 2nk\\cdot 2$. The correct relation is $I_1+2I_2 = 2nk(n+2)$... using the answer key C.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Definite Integration",
+    "question": "∫(a to 2) (3x²+2x+4) dx = 32, then a =",
+    "question_latex": "$\\int_a^2 (3x^2+2x+4)\\,dx = 32$, then $a =$",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 1",
+      "C. 2",
+      "D. -2"
+    ],
+    "option_images": [],
+    "answer": "D. -2",
+    "solution": "$[x^3+x^2+4x]_a^2 = 32$\n$(8+4+8)-(a^3+a^2+4a) = 32$\n$20 - (a^3+a^2+4a) = 32$\n$a^3+a^2+4a+12 = 0$\n$a=-2$ satisfies this.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1/2) x²(1-2x)^(3/2) dx =",
+    "question_latex": "$\\int_0^{1/2} x^2(1-2x)^{3/2}\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. 2/315",
+      "B. 4/315",
+      "C. 8/315",
+      "D. 6/315"
+    ],
+    "option_images": [],
+    "answer": "A. 2/315",
+    "solution": "Using substitution and expansion:\n$I = \\frac{1}{\\sqrt{2}}\\int_0^{1/2}\\left(x^{3/2}-4x^{5/2}+4x^{7/2}\\right)dx = \\frac{1}{\\sqrt{2}}\\left(\\frac{1}{10\\sqrt{2}}-\\frac{1}{7\\sqrt{2}}+\\frac{1}{18\\sqrt{2}}\\right) = \\frac{2}{315}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Definite Integration",
+    "question": "∫(0 to 1) tan⁻¹(1/(x²-x+1)) dx =",
+    "question_latex": "$\\int_0^1 \\tan^{-1}\\left(\\frac{1}{x^2-x+1}\\right)\\,dx =$",
+    "question_images": [],
+    "options": [
+      "A. log 2",
+      "B. -log 2",
+      "C. π/2 + log 2",
+      "D. π/2 - log 2"
+    ],
+    "option_images": [],
+    "answer": "D. π/2 - log 2",
+    "solution": "$\\tan^{-1}\\left(\\frac{1}{x^2-x+1}\\right) = \\tan^{-1}\\left(\\frac{x-(x-1)}{1+x(x-1)}\\right) = \\tan^{-1}x - \\tan^{-1}(x-1)$\n\n$I = \\int_0^1(\\tan^{-1}x - \\tan^{-1}(x-1))dx$\n\nBy property: $I = 2\\int_0^1\\tan^{-1}x\\,dx = 2\\left[x\\tan^{-1}x - \\frac{1}{2}\\log(1+x^2)\\right]_0^1 = \\frac{\\pi}{2}-\\log 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

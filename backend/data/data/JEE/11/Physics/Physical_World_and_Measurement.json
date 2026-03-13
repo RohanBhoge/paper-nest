@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The specific resistance $\\rho$ of a circular wire of radius $r$, resistance $R$, and length $l$ is given by $\\rho=\\frac{\\pi r^{2}R}{l}$. Given: $r=0.24\\pm0.02$ cm, $R=30\\pm1\\ \\Omega$ and $l=4.80\\pm0.01$ cm. The percentage error in $\\rho$ is nearly",
         "question_latex": "The specific resistance $\\rho$ of a circular wire of radius $r$, resistance $R$, and length $l$ is given by $\\rho=\\frac{\\pi r^{2}R}{l}$. Given: $r=0.24\\pm0.02$ cm, $R=30\\pm1\\ \\Omega$ and $l=4.80\\pm0.01$ cm. The percentage error in $\\rho$ is nearly",
         "question_images": [],
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Second is defined in terms of periods of radiation from Cesium 133 because",
         "question_latex": "Second is defined in terms of periods of radiation from Cesium 133 because",
         "question_images": [],
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensional formula for the magnetic field is",
         "question_latex": "The dimensional formula for the magnetic field is",
         "question_images": [],
@@ -58,7 +58,7 @@
     },
     {
         "id": 4,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A highly rigid cubical block A of small mass $M$ and side $L$ is fixed rigidly on the other cubical block B of same dimensions and of modulus of rigidity $\\eta$ such that the lower face of A completely covers the upper face of B. The lower face of B is rigidly held on a horizontal surface. A small force $F$ is applied perpendicular to one of the side faces of A. After the force is withdrawn, block A executes small oscillations, the time period of which is given by",
         "question_latex": "A highly rigid cubical block A of small mass $M$ and side $L$ is fixed rigidly on the other cubical block B of same dimensions and of modulus of rigidity $\\eta$ such that the lower face of A completely covers the upper face of B. The lower face of B is rigidly held on a horizontal surface. A small force $F$ is applied perpendicular to one of the side faces of A. After the force is withdrawn, block A executes small oscillations, the time period of which is given by",
         "question_images": [],
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which one of the following is the smallest unit?",
         "question_latex": "Which one of the following is the smallest unit?",
         "question_images": [],
@@ -96,7 +96,7 @@
     },
     {
         "id": 6,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The scientific principle involves in production of ultra high magnetic fields is",
         "question_latex": "The scientific principle involves in production of ultra high magnetic fields is",
         "question_images": [],
@@ -115,7 +115,7 @@
     },
     {
         "id": 7,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Match the Column I and Column II.\nColumn I:\n(A) Johannes Kepler\n(B) Tycho Brahe\n(C) Nicolas Copernicus\n(D) Ernest Rutherford\nColumn II:\n(1) Nuclear model of the atom\n(2) Planetary motion\n(3) Elliptical orbit theory\n(4) Circular orbit theory",
         "question_latex": "Match the Column I and Column II.\nColumn I:\n(A) Johannes Kepler\n(B) Tycho Brahe\n(C) Nicolas Copernicus\n(D) Ernest Rutherford\nColumn II:\n(1) Nuclear model of the atom\n(2) Planetary motion\n(3) Elliptical orbit theory\n(4) Circular orbit theory",
         "question_images": [
@@ -136,7 +136,7 @@
     },
     {
         "id": 8,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The effective length of a simple pendulum is the sum of the following three: Length of string, radius of bob, and length of hook. In a simple pendulum experiment, the length of the string is 92.0 cm and the radius of the bob combined with the length of the hook is 2.15 cm. The effective length of the pendulum is",
         "question_latex": "The effective length of a simple pendulum is the sum of the following three: Length of string, radius of bob, and length of hook. In a simple pendulum experiment, the length of the string is 92.0 cm and the radius of the bob combined with the length of the hook is 2.15 cm. The effective length of the pendulum is",
         "question_images": [],
@@ -155,7 +155,7 @@
     },
     {
         "id": 9,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Dimensional formula for volume elasticity is",
         "question_latex": "Dimensional formula for volume elasticity is",
         "question_images": [],
@@ -174,7 +174,7 @@
     },
     {
         "id": 10,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The characteristic distance at which quantum gravitational effects are significant, the Planck length, can be determined from a suitable combination of the fundamental physical constants $G$, $\\hbar$ and $c$. Which of the following correctly gives the Planck length?",
         "question_latex": "The characteristic distance at which quantum gravitational effects are significant, the Planck length, can be determined from a suitable combination of the fundamental physical constants $G$, $\\hbar$ and $c$. Which of the following correctly gives the Planck length?",
         "question_images": [],
@@ -193,7 +193,7 @@
     },
     {
         "id": 11,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The percentage errors in quantities $P$, $Q$, $R$ and $S$ are $0.5\\%$, $1\\%$, $3\\%$ and $1.5\\%$ respectively in the measurement of a physical quantity $A = \\frac{P^{3}Q^{2}}{\\sqrt{R}S}$. The maximum percentage error in the value of $A$ will be",
         "question_latex": "The percentage errors in quantities $P$, $Q$, $R$ and $S$ are $0.5\\%$, $1\\%$, $3\\%$ and $1.5\\%$ respectively in the measurement of a physical quantity $A = \\frac{P^{3}Q^{2}}{\\sqrt{R}S}$. The maximum percentage error in the value of $A$ will be",
         "question_images": [],
@@ -212,7 +212,7 @@
     },
     {
         "id": 12,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "When we hold a book in our hand, we are balancing the gravitational force on the book due to the Earth by the",
         "question_latex": "When we hold a book in our hand, we are balancing the gravitational force on the book due to the Earth by the",
         "question_images": [],
@@ -231,7 +231,7 @@
     },
     {
         "id": 13,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A physical quantity is represented by $X=M^{a}L^{b}T^{-c}$. If percentage errors in the measurements of $M$, $L$ and $T$ are $\\alpha\\%$, $\\beta\\%$ and $\\gamma\\%$ respectively, then total percentage error is",
         "question_latex": "A physical quantity is represented by $X=M^{a}L^{b}T^{-c}$. If percentage errors in the measurements of $M$, $L$ and $T$ are $\\alpha\\%$, $\\beta\\%$ and $\\gamma\\%$ respectively, then total percentage error is",
         "question_images": [],
@@ -250,7 +250,7 @@
     },
     {
         "id": 14,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If $1\\ \\text{g}\\ \\text{cm}\\ \\text{s}^{-1} = x\\ \\text{newton-second}$, then the number $x$ is equal to",
         "question_latex": "If $1\\ \\text{g}\\ \\text{cm}\\ \\text{s}^{-1} = x\\ \\text{newton-second}$, then the number $x$ is equal to",
         "question_images": [],
@@ -269,7 +269,7 @@
     },
     {
         "id": 15,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If the capacitance of a nanocapacitor is measured in terms of a unit $u$ made by combining the electronic charge $e$, Bohr radius $a_{0}$, Planck's constant $h$ and speed of light $c$, then",
         "question_latex": "If the capacitance of a nanocapacitor is measured in terms of a unit $u$ made by combining the electronic charge $e$, Bohr radius $a_{0}$, Planck's constant $h$ and speed of light $c$, then",
         "question_images": [],
@@ -288,7 +288,7 @@
     },
     {
         "id": 16,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Identify the pair of physical quantities which have different dimensions",
         "question_latex": "Identify the pair of physical quantities which have different dimensions",
         "question_images": [],
@@ -307,7 +307,7 @@
     },
     {
         "id": 17,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "One yard in SI unit is equal to",
         "question_latex": "One yard in SI unit is equal to",
         "question_images": [],
@@ -326,7 +326,7 @@
     },
     {
         "id": 18,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Identify the pair whose dimensions are equal.",
         "question_latex": "Identify the pair whose dimensions are equal.",
         "question_images": [],
@@ -345,7 +345,7 @@
     },
     {
         "id": 19,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The resistance $R = V/I$ where $V=(200\\pm5)V$ and $I=(20\\pm0.2)A$. The percentage error in measurement of $R$ is",
         "question_latex": "The resistance $R = V/I$ where $V=(200\\pm5)V$ and $I=(20\\pm0.2)A$. The percentage error in measurement of $R$ is",
         "question_images": [],
@@ -364,7 +364,7 @@
     },
     {
         "id": 20,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Coefficient of thermal conductivity has the dimensions",
         "question_latex": "Coefficient of thermal conductivity has the dimensions",
         "question_images": [],
@@ -383,7 +383,7 @@
     },
     {
         "id": 21,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimension of magnetic field in $M, L, T$ and $C$ (coulomb) is given as",
         "question_latex": "The dimension of magnetic field in $M, L, T$ and $C$ (coulomb) is given as",
         "question_images": [],
@@ -402,7 +402,7 @@
     },
     {
         "id": 22,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A gas bubble from an explosion under water oscillates with a time period $T$ depending upon static pressure $p$, density of water $\\rho$ and total energy of explosion $E$. Find the expression for the time period $T$. (where $k$ is a dimensionless constant)",
         "question_latex": "A gas bubble from an explosion under water oscillates with a time period $T$ depending upon static pressure $p$, density of water $\\rho$ and total energy of explosion $E$. Find the expression for the time period $T$. (where $k$ is a dimensionless constant)",
         "question_images": [],
@@ -421,7 +421,7 @@
     },
     {
         "id": 23,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The equation of a stationary wave is $y = 2A \\sin(\\frac{2\\pi ct}{\\lambda}) \\cos(\\frac{2\\pi x}{\\lambda})$. Which of the following statements is wrong?",
         "question_latex": "The equation of a stationary wave is $y = 2A \\sin(\\frac{2\\pi ct}{\\lambda}) \\cos(\\frac{2\\pi x}{\\lambda})$. Which of the following statements is wrong?",
         "question_images": [],
@@ -440,7 +440,7 @@
     },
     {
         "id": 24,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Consider the following statements and select the correct statement(s).\nI. Light year and year, both measure time.\nII. Both have dimension of time.\nIII. Light year measures length.",
         "question_latex": "Consider the following statements and select the correct statement(s).\nI. Light year and year, both measure time.\nII. Both have dimension of time.\nIII. Light year measures length.",
         "question_images": [],
@@ -459,7 +459,7 @@
     },
     {
         "id": 25,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following represents a volt?",
         "question_latex": "Which of the following represents a volt?",
         "question_images": [],
@@ -478,7 +478,7 @@
     },
     {
         "id": 26,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If voltage $V = (100 \\pm 5)$ volt and current $I = (10 \\pm 0.2)$ A, the percentage error in resistance $R$ is",
         "question_latex": "If voltage $V = (100 \\pm 5)$ volt and current $I = (10 \\pm 0.2)$ A, the percentage error in resistance $R$ is",
         "question_images": [],
@@ -497,7 +497,7 @@
     },
     {
         "id": 27,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "$[M^{0}L^{0}T^{0}]$ representation of coefficient of friction is",
         "question_latex": "$[M^{0}L^{0}T^{0}]$ representation of coefficient of friction is",
         "question_images": [],
@@ -516,7 +516,7 @@
     },
     {
         "id": 28,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The speed ($v$) of ripples on the surface of water depends on surface tension ($\\sigma$), density ($\\rho$) and wavelength ($\\lambda$). The square of speed ($v$) is proportional to",
         "question_latex": "The speed ($v$) of ripples on the surface of water depends on surface tension ($\\sigma$), density ($\\rho$) and wavelength ($\\lambda$). The square of speed ($v$) is proportional to",
         "question_images": [],
@@ -535,7 +535,7 @@
     },
     {
         "id": 29,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The equation $(P+\frac{a}{V^{2}})(V-b) = \\text{constant}$. The unit of $a$ is",
         "question_latex": "The equation $(P+\\frac{a}{V^{2}})(V-b) = \\text{constant}$. The unit of $a$ is",
         "question_images": [],
@@ -554,7 +554,7 @@
     },
     {
         "id": 30,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If there is a positive error of 50% in the measurement of speed of a body, then the error in the measurement of kinetic energy is",
         "question_latex": "If there is a positive error of 50% in the measurement of speed of a body, then the error in the measurement of kinetic energy is",
         "question_images": [],
@@ -573,7 +573,7 @@
     },
     {
         "id": 31,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Match List-I with List-II: \nList-I: (A) Torque, (B) Magnetic field, (C) Magnetic moment, (D) Permeability of free space. \nList-II: (I) $[M^{1}L^{1}T^{-2}A^{-2}]$, (II) $[L^{2}A^{1}]$, (III) $[M^{1}T^{-2}A^{-1}]$, (IV) $[M^{1}L^{2}T^{-2}]$.",
         "question_latex": "Match List-I with List-II: \nList-I: (A) Torque, (B) Magnetic field, (C) Magnetic moment, (D) Permeability of free space. \nList-II: (I) $[M^{1}L^{1}T^{-2}A^{-2}]$, (II) $[L^{2}A^{1}]$, (III) $[M^{1}T^{-2}A^{-1}]$, (IV) $[M^{1}L^{2}T^{-2}]$.",
         "question_images": [
@@ -594,7 +594,7 @@
     },
     {
         "id": 32,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "SI unit of electric intensity is",
         "question_latex": "SI unit of electric intensity is",
         "question_images": [],
@@ -613,7 +613,7 @@
     },
     {
         "id": 33,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A student performs an experiment to determine the Young's modulus of a wire, exactly 2 m long, by Searle's method. The extension is 0.8 mm with an uncertainty of $\\pm 0.05$ mm at a load of 1.0 kg. The diameter is 0.4 mm with uncertainty $\\pm 0.01$ mm. The Young's modulus is",
         "question_latex": "A student performs an experiment to determine the Young's modulus of a wire, exactly 2 m long, by Searle's method. The extension is 0.8 mm with an uncertainty of $\\pm 0.05$ mm at a load of 1.0 kg. The diameter is 0.4 mm with uncertainty $\\pm 0.01$ mm. The Young's modulus is",
         "question_images": [],
@@ -632,7 +632,7 @@
     },
     {
         "id": 34,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The best method to reduce random error is",
         "question_latex": "The best method to reduce random error is",
         "question_images": [],
@@ -651,7 +651,7 @@
     },
     {
         "id": 35,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Dimensional formula of magnetic flux is",
         "question_latex": "Dimensional formula of magnetic flux is",
         "question_images": [],
@@ -670,7 +670,7 @@
     },
     {
         "id": 36,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "In the relation $y = a \\cos(\\omega t - kx)$ the dimensional formula for $k$ is",
         "question_latex": "In the relation $y = a \\cos(\\omega t - kx)$ the dimensional formula for $k$ is",
         "question_images": [],
@@ -689,7 +689,7 @@
     },
     {
         "id": 37,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "One unified atomic mass unit is equal to",
         "question_latex": "One unified atomic mass unit is equal to",
         "question_images": [],
@@ -708,7 +708,7 @@
     },
     {
         "id": 38,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If $\\epsilon_{0}$ is the permittivity of free space and $E$ is the electric field, then $\\epsilon_{0}E^{2}$ has the dimensions:",
         "question_latex": "If $\\epsilon_{0}$ is the permittivity of free space and $E$ is the electric field, then $\\epsilon_{0}E^{2}$ has the dimensions:",
         "question_images": [],
@@ -727,7 +727,7 @@
     },
     {
         "id": 39,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The unit of specific resistance is",
         "question_latex": "The unit of specific resistance is",
         "question_images": [],
@@ -746,7 +746,7 @@
     },
     {
         "id": 40,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensional formula for entropy is",
         "question_latex": "The dimensional formula for entropy is",
         "question_images": [],
@@ -765,7 +765,7 @@
     },
     {
         "id": 41,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The percentage errors in the measurement of a mass and speed are 2% and 3% respectively. Maximum error in kinetic energy is",
         "question_latex": "The percentage errors in the measurement of a mass and speed are 2% and 3% respectively. Maximum error in kinetic energy is",
         "question_images": [],
@@ -784,7 +784,7 @@
     },
     {
         "id": 42,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "What is the area of a disc of radius 1.1 cm?",
         "question_latex": "What is the area of a disc of radius 1.1 cm?",
         "question_images": [],
@@ -803,7 +803,7 @@
     },
     {
         "id": 43,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The length, breadth and thickness of a block are 50 cm, 2.0 cm and 1.00 cm. The percentage error in volume is",
         "question_latex": "The length, breadth and thickness of a block are 50 cm, 2.0 cm and 1.00 cm. The percentage error in volume is",
         "question_images": [],
@@ -822,7 +822,7 @@
     },
     {
         "id": 44,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If L, C and R represent inductance, capacitance and resistance, which of the following does not represent dimensions of frequency?",
         "question_latex": "If L, C and R represent inductance, capacitance and resistance, which of the following does not represent dimensions of frequency?",
         "question_images": [],
@@ -841,7 +841,7 @@
     },
     {
         "id": 45,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Match List-I with List-II: \nList-I: (A) Rydberg constant, (B) Planck's constant, (C) Magnetic field energy density, (D) Coefficient of viscosity. \nList-II: (i) $kg\\ m^{-1}s^{-1}$, (ii) $kg\\ m^{2}s^{-1}$, (iii) $m^{-1}$, (iv) $kg\\ m^{-1}s^{-2}$.",
         "question_latex": "Match List-I with List-II: \nList-I: (A) Rydberg constant, (B) Planck's constant, (C) Magnetic field energy density, (D) Coefficient of viscosity. \nList-II: (i) $kg\\ m^{-1}s^{-1}$, (ii) $kg\\ m^{2}s^{-1}$, (iii) $m^{-1}$, (iv) $kg\\ m^{-1}s^{-2}$.",
         "question_images": [
@@ -862,7 +862,7 @@
     },
     {
         "id": 46,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensional formula for entropy is",
         "question_latex": "The dimensional formula for entropy is",
         "question_images": [],
@@ -881,7 +881,7 @@
     },
     {
         "id": 47,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Match List-I with List-II: \nList-I: (A) Planck's constant, (B) Stopping potential, (C) Work function, (D) Momentum. \nList-II: (I) $[M^{1}L^{2}T^{-2}]$, (II) $[M^{1}L^{1}T^{-1}]$, (III) $[M^{1}L^{2}T^{-1}]$, (IV) $[M^{1}L^{2}T^{-3}A^{-1}]$.",
         "question_latex": "Match List-I with List-II: \nList-I: (A) Planck's constant, (B) Stopping potential, (C) Work function, (D) Momentum. \nList-II: (I) $[M^{1}L^{2}T^{-2}]$, (II) $[M^{1}L^{1}T^{-1}]$, (III) $[M^{1}L^{2}T^{-1}]$, (IV) $[M^{1}L^{2}T^{-3}A^{-1}]$.",
         "question_images": [
@@ -902,7 +902,7 @@
     },
     {
         "id": 48,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following units denotes the dimensions $[ML^{2}/Q^{2}]$, where $Q$ denotes the electric charge?",
         "question_latex": "Which of the following units denotes the dimensions $[ML^{2}/Q^{2}]$, where $Q$ denotes the electric charge?",
         "question_images": [],
@@ -921,7 +921,7 @@
     },
     {
         "id": 49,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following is not measured in units of energy?",
         "question_latex": "Which of the following is not measured in units of energy?",
         "question_images": [],
@@ -940,7 +940,7 @@
     },
     {
         "id": 50,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Instrumental errors are due to",
         "question_latex": "Instrumental errors are due to",
         "question_images": [],
@@ -959,7 +959,7 @@
     },
     {
         "id": 51,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The expression given below shows the variation of velocity (v) with time (t), The $v = At^{2} + \\frac{Bt}{c+t}$ dimension of ABC is:",
         "question_latex": "The expression given below shows the variation of velocity ($v$) with time ($t$), The $v = At^{2} + \\frac{Bt}{c+t}$ dimension of ABC is:",
         "question_images": [],
@@ -978,7 +978,7 @@
     },
     {
         "id": 52,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "1 Parsec is equal to",
         "question_latex": "1 Parsec is equal to",
         "question_images": [],
@@ -997,7 +997,7 @@
     },
     {
         "id": 53,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The quantity $X = \\frac{\\epsilon_{0}LV}{t}$ is the permittivity of free space, L is length, V is potential difference and t is time. The dimensions of X are same as that of",
         "question_latex": "The quantity $X = \\frac{\\epsilon_{0}LV}{t}$ is the permittivity of free space, L is length, V is potential difference and $t$ is time. The dimensions of X are same as that of",
         "question_images": [],
@@ -1016,7 +1016,7 @@
     },
     {
         "id": 54,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The relative density of a body is found by weighing the body first in air and then in water. If the weight in air is $(10.0 \\pm 0.1)$ gf and weight in water is $(5.0 \\pm 0.1)$ gf, then the maximum permissible percentage error in relative density is",
         "question_latex": "The relative density of a body is found by weighing the body first in air and then in water. If the weight in air is $(10.0 \\pm 0.1)$ gf and weight in water is $(5.0 \\pm 0.1)$ gf, then the maximum permissible percentage error in relative density is",
         "question_images": [],
@@ -1035,7 +1035,7 @@
     },
     {
         "id": 55,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The order of magnitude of 499 is 2, then the order of magnitude of 501 will be",
         "question_latex": "The order of magnitude of 499 is 2, then the order of magnitude of 501 will be",
         "question_images": [],
@@ -1054,7 +1054,7 @@
     },
     {
         "id": 56,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The relative error in the determination of the surface area of a sphere is $\\alpha$. Then the relative error in the determination of its volume is",
         "question_latex": "The relative error in the determination of the surface area of a sphere is $\\alpha$. Then the relative error in the determination of its volume is",
         "question_images": [],
@@ -1073,7 +1073,7 @@
     },
     {
         "id": 57,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The respective number of significant figures for the numbers 23.023, 0.0003 and $2.1 \\times 10^{-3}$ are",
         "question_latex": "The respective number of significant figures for the numbers 23.023, 0.0003 and $2.1 \\times 10^{-3}$ are",
         "question_images": [],
@@ -1092,7 +1092,7 @@
     },
     {
         "id": 58,
-        "chapter": "Laws_of_Motion",
+        "chapter": "Physical World and Measurement",
         "question": "When we hold a book in our hand, we are balancing the gravitational force on the book due to",
         "question_latex": "When we hold a book in our hand, we are balancing the gravitational force on the book due to",
         "question_images": [],
@@ -1111,7 +1111,7 @@
     },
     {
         "id": 59,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The mass of a body is 20.000 g and its volume is $10.00 \\text{ cm}^{3}$. If the measured values are expressed to the correct significant figures, the maximum error in the value of density is",
         "question_latex": "The mass of a body is 20.000 g and its volume is $10.00 \\text{ cm}^{3}$. If the measured values are expressed to the correct significant figures, the maximum error in the value of density is",
         "question_images": [],
@@ -1130,7 +1130,7 @@
     },
     {
         "id": 60,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "An expression for a dimensionless quantity P is given by $P = \\frac{\\alpha}{\\beta} \\log_{e} (\\frac{kt}{\\beta x})$; where $\\alpha$ and $\\beta$ are constants, x is distance; k is Boltzmann constant and t is the temperature. Then the dimensions for $\\alpha$ will be",
         "question_latex": "An expression for a dimensionless quantity P is given by $P = \\frac{\\alpha}{\\beta} \\log_{e} (\\frac{kt}{\\beta x})$; where $\\alpha$ and $\\beta$ are constants, x is distance; k is Boltzmann constant and $t$ is the temperature. Then the dimensions for $\\alpha$ will be",
         "question_images": [],
@@ -1149,7 +1149,7 @@
     },
     {
         "id": 61,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A student performs an experiment for determination of $g (= \\frac{4\\pi^{2}l}{T^{2}})$, $l \\approx 1$ m. For T he takes the time of n oscillations with the stop watch of least count $\\Delta T$ and he commits a human error of 0.1 s. For which of the following data, the measurement of g will be most accurate?",
         "question_latex": "A student performs an experiment for determination of $g (= \\frac{4\\pi^{2}l}{T^{2}})$, $l \\approx 1$ m. For T he takes the time of $n$ oscillations with the stop watch of least count $\\Delta T$ and he commits a human error of 0.1 s. For which of the following data, the measurement of g will be most accurate?",
         "question_images": [
@@ -1170,7 +1170,7 @@
     },
     {
         "id": 62,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "What is dimensional formula of thermal conductivity?",
         "question_latex": "What is dimensional formula of thermal conductivity?",
         "question_images": [],
@@ -1189,7 +1189,7 @@
     },
     {
         "id": 63,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following is not a dimensionless quantity?",
         "question_latex": "Which of the following is not a dimensionless quantity?",
         "question_images": [],
@@ -1208,7 +1208,7 @@
     },
     {
         "id": 64,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following is not a systematic error?",
         "question_latex": "Which of the following is not a systematic error?",
         "question_images": [],
@@ -1227,7 +1227,7 @@
     },
     {
         "id": 65,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensions of surface tension are",
         "question_latex": "The dimensions of surface tension are",
         "question_images": [],
@@ -1246,7 +1246,7 @@
     },
     {
         "id": 66,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Identify the pair whose dimensions are equal.",
         "question_latex": "Identify the pair whose dimensions are equal.",
         "question_images": [],
@@ -1265,7 +1265,7 @@
     },
     {
         "id": 67,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The pair having the same dimensions is",
         "question_latex": "The pair having the same dimensions is",
         "question_images": [],
@@ -1284,7 +1284,7 @@
     },
     {
         "id": 68,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The physical quantity that does not have the dimensional formula $[ML^{-1}T^{-2}]$ is",
         "question_latex": "The physical quantity that does not have the dimensional formula $[ML^{-1}T^{-2}]$ is",
         "question_images": [],
@@ -1303,7 +1303,7 @@
     },
     {
         "id": 69,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "SI unit of electric intensity is",
         "question_latex": "SI unit of electric intensity is",
         "question_images": [],
@@ -1322,7 +1322,7 @@
     },
     {
         "id": 70,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "In a simple pendulum experiment, the maximum percentage error in the measurement of length is 2% and that in the observation of the time-period is 3%. Then the maximum percentage error in determination of the acceleration due to gravity g is",
         "question_latex": "In a simple pendulum experiment, the maximum percentage error in the measurement of length is 2% and that in the observation of the time-period is 3%. Then the maximum percentage error in determination of the acceleration due to gravity $g$ is",
         "question_images": [],
@@ -1341,7 +1341,7 @@
     },
     {
         "id": 71,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "A physical quantity x is calculated from $x = \\frac{ab^{2}}{\\sqrt{c}}$. Calculate the percentage error in measuring x when the percentage errors in measuring a, b, and c are 4, 2, and 3%, respectively",
         "question_latex": "A physical quantity $x$ is calculated from $x = \\frac{ab^{2}}{\\sqrt{c}}$. Calculate the percentage error in measuring $x$ when the percentage errors in measuring $a$, $b$, and $c$ are 4, 2, and 3%, respectively",
         "question_images": [],
@@ -1360,7 +1360,7 @@
     },
     {
         "id": 72,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "If E, m, J and G represent energy, mass, angular momentum and gravitational constant respectively, then the dimensional formula of $EJ^{2}/m^{5}G^{2}$ is",
         "question_latex": "If E, $m$, J and G represent energy, mass, angular momentum and gravitational constant respectively, then the dimensional formula of $EJ^{2}/m^{5}G^{2}$ is",
         "question_images": [],
@@ -1379,7 +1379,7 @@
     },
     {
         "id": 73,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensions of stress are equal to",
         "question_latex": "The dimensions of stress are equal to",
         "question_images": [],
@@ -1398,7 +1398,7 @@
     },
     {
         "id": 74,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Match List-I with List-II: \nList-I: (A) Torque, (B) Magnetic field, (C) Magnetic moment, (D) Permeability of free space. \nList-II: (I) $[M^{1}L^{1}T^{-2}A^{-2}]$, (II) $[L^{2}A^{1}]$, (III) $[M^{1}T^{-2}A^{-1}]$, (IV) $[M^{1}L^{2}T^{-2}]$.",
         "question_latex": "Match List-I with List-II: \nList-I: (A) Torque, (B) Magnetic field, (C) Magnetic moment, (D) Permeability of free space. \nList-II: (I) $[M^{1}L^{1}T^{-2}A^{-2}]$, (II) $[L^{2}A^{1}]$, (III) $[M^{1}T^{-2}A^{-1}]$, (IV) $[M^{1}L^{2}T^{-2}]$.",
         "question_images": [
@@ -1419,7 +1419,7 @@
     },
     {
         "id": 75,
-        "chapter": "Physical_World_and_Measurement",
+        "chapter": "Physical World and Measurement",
         "question": "Two resistances are given as $R_{1} = (10 \\pm 0.5) \\Omega$ and $R_{2} = (15 \\pm 0.5) \\Omega$. The percentage error in the measurement of equivalent resistance when they are connected in parallel is",
         "question_latex": "Two resistances are given as $R_{1} = (10 \\pm 0.5) \\Omega$ and $R_{2} = (15 \\pm 0.5) \\Omega$. The percentage error in the measurement of equivalent resistance when they are connected in parallel is",
         "question_images": [],
@@ -1438,7 +1438,7 @@
     },
     {
         "id": 76,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Universal time is based on",
         "question_latex": "Universal time is based on",
         "question_images": [],
@@ -1457,7 +1457,7 @@
     },
     {
         "id": 77,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "In the equation $[X+\\frac{a}{Y^{2}}][Y-b]=RT$, X is pressure, Y is volume, R is universal gas constant and T is temperature. The physical quantity equivalent to the ratio $a/b$ is",
         "question_latex": "In the equation $[X+\\frac{a}{Y^{2}}][Y-b]=RT$, $X$ is pressure, $Y$ is volume, $R$ is universal gas constant and $T$ is temperature. The physical quantity equivalent to the ratio $\\frac{a}{b}$ is",
         "question_images": [],
@@ -1476,7 +1476,7 @@
     },
     {
         "id": 78,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Solar constant is defined as energy received by earth per $cm^2$ per minute. The dimensions of solar constant are",
         "question_latex": "Solar constant is defined as energy received by earth per $cm^{2}$ per minute. The dimensions of solar constant are",
         "question_images": [],
@@ -1495,7 +1495,7 @@
     },
     {
         "id": 79,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Dimensional formula of capacitance (or farad) is",
         "question_latex": "Dimensional formula of capacitance (or farad) is",
         "question_images": [],
@@ -1514,7 +1514,7 @@
     },
     {
         "id": 80,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "If L, C and R represent inductance, capacitance and resistance respectively, then which of the following does not represent dimensions of frequency",
         "question_latex": "If $L$, $C$ and $R$ represent inductance, capacitance and resistance respectively, then which of the following does not represent dimensions of frequency",
         "question_images": [],
@@ -1533,7 +1533,7 @@
     },
     {
         "id": 81,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The physical quantity which is not a unit of energy is",
         "question_latex": "The physical quantity which is not a unit of energy is",
         "question_images": [],
@@ -1552,7 +1552,7 @@
     },
     {
         "id": 82,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Which the following is/are correct? I. Pressure = energy per unit area II. Pressure = energy per unit volume III. Pressure = force per unit volume IV. Pressure = momentum per unit volume per unit time",
         "question_latex": "Which the following is/are correct? I. Pressure = energy per unit area II. Pressure = energy per unit volume III. Pressure = force per unit volume IV. Pressure = momentum per unit volume per unit time",
         "question_images": [],
@@ -1571,7 +1571,7 @@
     },
     {
         "id": 83,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "If $v = \\frac{A}{t} + Bt^{2} + Ct^{3}$ where v is velocity, t is time and A, B and C are constants, then the dimensional formula of B is",
         "question_latex": "If $v = \\frac{A}{t} + Bt^{2} + Ct^{3}$ where $v$ is velocity, $t$ is time and $A, B$ and $C$ are constants, then the dimensional formula of $B$ is",
         "question_images": [],
@@ -1590,7 +1590,7 @@
     },
     {
         "id": 84,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The maximum percentage error in the measurement of density of a wire is [Given, mass of wire $=(0.60\\pm0.003)g$, radius of wire $=(0.50\\pm0.01)cm$, length of wire $=(10.00\\pm0.05)cm$]",
         "question_latex": "The maximum percentage error in the measurement of density of a wire is [Given, mass of wire $=(0.60\\pm0.003)g$, radius of wire $=(0.50\\pm0.01)cm$, length of wire $=(10.00\\pm0.05)cm$]",
         "question_images": [],
@@ -1609,7 +1609,7 @@
     },
     {
         "id": 85,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The physical quantities not having same dimensions are",
         "question_latex": "The physical quantities not having same dimensions are",
         "question_images": [],
@@ -1628,7 +1628,7 @@
     },
     {
         "id": 86,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following pairs has same dimensions?",
         "question_latex": "Which of the following pairs has same dimensions?",
         "question_images": [],
@@ -1647,7 +1647,7 @@
     },
     {
         "id": 87,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "If C is the restoring couple per unit radian twist and I is the moment of inertia, then the dimensional representation of $2\\pi\\sqrt{\\frac{I}{C}}$ will be",
         "question_latex": "If $C$ is the restoring couple per unit radian twist and $I$ is the moment of inertia, then the dimensional representation of $2\\pi\\sqrt{\\frac{I}{C}}$ will be",
         "question_images": [],
@@ -1666,7 +1666,7 @@
     },
     {
         "id": 88,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Out of the following pairs, which one does not have identical dimensions?",
         "question_latex": "Out of the following pairs, which one does not have identical dimensions?",
         "question_images": [],
@@ -1685,7 +1685,7 @@
     },
     {
         "id": 89,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The physical quantity angular momentum has the same dimensions as that of",
         "question_latex": "The physical quantity angular momentum has the same dimensions as that of",
         "question_images": [],
@@ -1704,7 +1704,7 @@
     },
     {
         "id": 90,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Assertion: 'Light year' and 'Wavelength' both measure distance. Reason: Both have dimension of time.",
         "question_latex": "Assertion: 'Light year' and 'Wavelength' both measure distance. Reason: Both have dimension of time.",
         "question_images": [],
@@ -1723,7 +1723,7 @@
     },
     {
         "id": 91,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Match the Column I and Column II.\nColumn I:\n(A) Johannes Kepler\n(B) Tycho Brahe\n(C) Nicolas Copernicus\n(D) Ernest Rutherford\n\nColumn II:\n(1) Nuclear model of the atom\n(2) Planetary motion data\n(3) Elliptical orbit theory\n(4) Circular orbit theory",
         "question_latex": "Match the Column I and Column II.\\\\\nColumn I:\\\\\n(A) Johannes Kepler\\\\\n(B) Tycho Brahe\\\\\n(C) Nicolas Copernicus\\\\\n(D) Ernest Rutherford\\\\\n\\\\\nColumn II:\\\\\n(1) Nuclear model of the atom\\\\\n(2) Planetary motion data\\\\\n(3) Elliptical orbit theory\\\\\n(4) Circular orbit theory",
         "question_images": [],
@@ -1742,7 +1742,7 @@
     },
     {
         "id": 92,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "A liquid drop of density $\\rho$, radius $r$, and surface tension $\\sigma$ oscillates with time period T. Which of the following expression for $T^{2}$ is correct?",
         "question_latex": "A liquid drop of density $\\rho$, radius $r$, and surface tension $\\sigma$ oscillates with time period $T$. Which of the following expression for $T^{2}$ is correct?",
         "question_images": [],
@@ -1761,7 +1761,7 @@
     },
     {
         "id": 93,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The unit of physical quantity obtained by the line integral of electric field is",
         "question_latex": "The unit of physical quantity obtained by the line integral of electric field is",
         "question_images": [],
@@ -1780,7 +1780,7 @@
     },
     {
         "id": 94,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Which of the following is not the unit of time?",
         "question_latex": "Which of the following is not the unit of time?",
         "question_images": [],
@@ -1799,7 +1799,7 @@
     },
     {
         "id": 95,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The dimensions of $1/2\\epsilon_{0}E^{2}$ are same as",
         "question_latex": "The dimensions of $\\frac{1}{2}\\epsilon_{0}E^{2}$ are same as",
         "question_images": [],
@@ -1818,7 +1818,7 @@
     },
     {
         "id": 96,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The density of a material in SI units is $128~kg~m^{-3}$. In certain units in which the unit of length is 25 cm and the unit of mass is 50 g, the numerical value of density of the material is",
         "question_latex": "The density of a material in SI units is $128~kg~m^{-3}$. In certain units in which the unit of length is $25~cm$ and the unit of mass is $50~g$, the numerical value of density of the material is",
         "question_images": [],
@@ -1837,7 +1837,7 @@
     },
     {
         "id": 97,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Write the dimensions of $a/b$ in the relation $P = \\frac{a-t^{2}}{bx}$ where P is the pressure, x is the distance, and t is the time.",
         "question_latex": "Write the dimensions of $a/b$ in the relation $P = \\frac{a-t^{2}}{bx}$ where $P$ is the pressure, $x$ is the distance, and $t$ is the time.",
         "question_images": [],
@@ -1856,7 +1856,7 @@
     },
     {
         "id": 98,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The position of a particle at time t is given by the equation $x(t) = \\frac{v_{0}}{A}(1 - e^{At})$. Dimensions of $v_{0}$ and A respectively are ($v_0 = \\text{constant}$ and $A > 0$):",
         "question_latex": "The position of a particle at time $t$ is given by the equation $x(t) = \\frac{v_{0}}{A}(1 - e^{At})$. Dimensions of $v_{0}$ and $A$ respectively are ($v_{0} = \\text{constant}$ and $A > 0$):",
         "question_images": [],
@@ -1875,7 +1875,7 @@
     },
     {
         "id": 99,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "The relation $\\tan\\theta = v^{2}/rg$ gives the angle of banking of the cyclist going round the curve. Here $v$ is the speed of the cyclist, $r$ is the radius of the curve, and $g$ is acceleration due to gravity. Which of the following statements about the relation is true?",
         "question_latex": "The relation $\\tan\\theta = v^{2}/rg$ gives the angle of banking of the cyclist going round the curve. Here $v$ is the speed of the cyclist, $r$ is the radius of the curve, and $g$ is acceleration due to gravity. Which of the following statements about the relation is true?",
         "question_images": [],
@@ -1894,7 +1894,7 @@
     },
     {
         "id": 100,
-        "chapter": "Units and Measurements",
+        "chapter": "Physical World and Measurement",
         "question": "Match the following column I and II.\nColumn I:\n(A) 1 Fermi\n(B) 1 Astronomical unit\n(C) 1 Light year\n(D) 1 Parsec\n\nColumn II:\n(1) $3.08\\times10^{16} m$\n(2) $9.46\\times10^{15} m$\n(3) $1.496\\times10^{11} m$\n(4) $10^{-15} m$",
         "question_latex": "Match the following column I and II.\\\\\nColumn I:\\\\\n(A) 1 Fermi\\\\\n(B) 1 Astronomical unit\\\\\n(C) 1 Light year\\\\\n(D) 1 Parsec\\\\\n\\\\\nColumn II:\\\\\n(1) $3.08\\times10^{16}~m$\\\\\n(2) $9.46\\times10^{15}~m$\\\\\n(3) $1.496\\times10^{11}~m$\\\\\n(4) $10^{-15}~m$",
         "question_images": [

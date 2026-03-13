@@ -41,6 +41,8 @@ const allowedOrigins = [
   'http://paper-nest.in',
   'paper-nest.in',
   'www.paper-nest.in',
+  'http://localhost:5173',
+  'http://localhost:5174',
 ];
 
 const corsOptions = {

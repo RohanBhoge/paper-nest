@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { Mail, Send } from "lucide-react";
+import { Mail, Send, ArrowLeft } from "lucide-react";
 import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
 export default function ContactPage() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -66,7 +68,15 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-2xl">
+      <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-2xl relative">
+        <button
+          onClick={() => navigate(-1)}
+          className="absolute left-6 top-8 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer flex items-center gap-1 group"
+        >
+          <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
+          <span className="text-sm font-medium">Back</span>
+        </button>
+
         <div className="text-center mb-6">
           <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
             <Mail className="text-white" />

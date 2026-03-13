@@ -1,0 +1,1080 @@
+[
+  {
+    "id": 1,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Identify the correct order of reactivity for the following pairs towards the respective mechanism.",
+    "question_latex": "Identify the correct order of reactivity for the following pairs towards the respective mechanism. (A) $S_N2$: primary alkyl bromide > tertiary alkyl bromide (B) $S_N1$: benzyl bromide > simple alkyl bromide (C) Electrophilic substitution: chlorobenzene > chloronitrobenzene (D) Nucleophilic substitution: bromobenzene < bromonitrobenzene",
+    "question_images": [],
+    "options": [
+      "A. (B), (C) and (D) only",
+      "B. (A), (B), (C) and (D)",
+      "C. (A), (B) and (D) only",
+      "D. (A), (C) and (D) only"
+    ],
+    "option_images": [
+      "1_opA_1.png",
+      "1_opB_1.png",
+      "1_opC_1.png",
+      "1_opD_1.png"
+    ],
+    "answer": "B. (A), (B), (C) and (D)",
+    "solution": "The order of reactivity of alkyl halides towards $S_N2$ reactions is $1° > 2° > 3°$. The order of reactivity of alkyl halides towards $S_N1$ reactions is $3° > 2° > 1°$.\n\nIn case of (A), the order of reactivity towards $S_N2$ mechanism is correct as the primary alkyl bromide is a $1°$ alkyl halide, whereas the tertiary alkyl bromide is a $3°$ alkyl halide.\n\nIn case of (B), the order of reactivity towards $S_N1$ mechanism is correct as benzyl carbocation is more stable.\n\nIn case of (C), the electrophile attacks the more electron-rich species. Chlorobenzene has higher electron density than chloronitrobenzene due to the $-NO_2$ group being electron-withdrawing.\n\nIn case of (D), the nucleophile attacks the more electron-deficient species. The electron density is lower in bromonitrobenzene due to the strong $-I$ and $-R$ effect of $-NO_2$ group.\n\nThus, the correct answer is option (B).",
+    "solution_images": [
+      "1_so_1.png",
+      "1_so_2.png",
+      "1_so_3.png",
+      "1_so_4.png",
+      "1_so_5.png",
+      "1_so_6.png",
+      "1_so_7.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The decreasing order of reactivity of the following organic molecules towards AgNO3 solution is (Sept 2020)",
+    "question_latex": "The decreasing order of reactivity of the following organic molecules towards $AgNO_3$ solution is (Sept 2020): (A) 2-chloro-2-methylpropane (with Cl on tertiary carbon), (B) 2-chloro-2-methyl-1-propanol (with OMe group), (C) 2-chloropropane (2° carbon), (D) 1-chloro-2-nitropropane (with $-NO_2$ group).",
+    "question_images": [],
+    "options": [
+      "A. (C) > (D) > (A) > (B)",
+      "B. (B) > (A) > (C) > (D)",
+      "C. (A) > (B) = (C) > (D)",
+      "D. (A) > (B) > (D) > (C)"
+    ],
+    "option_images": [
+      "2_opA_1.png",
+      "2_opB_1.png"
+    ],
+    "answer": "B. (B) > (A) > (C) > (D)",
+    "solution": "The given reaction is an example of $S_N1$ reaction. For $S_N1$ reactions, reactivity $\\propto$ stability of carbocation.\n\nStability order of carbocations:\n- (B): Aromatic + $+M$ effect of $-OMe$ → most stable (II)\n- (A): Aromatic carbocation (I)\n- (C): $2°$ carbocation (III)\n- (D): $2°$ carbocation with $-M$ effect of $-NO_2$ → least stable (IV)\n\nHence, stability order: II > I > III > IV\nThus, reactivity order is: $B > A > C > D$",
+    "solution_images": [
+      "2_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Identify A and B in the chemical reaction: A cyclohexane derivative with OCH3 and NO2 groups reacts with HCl to give [A] (major), then with NaI in dry acetone to give [B] (major).",
+    "question_latex": "Identify $A$ and $B$ in the chemical reaction: cyclohexane ring with $-OCH_3$ and $-NO_2$ substituents $\\xrightarrow{HCl}$ $[A]_{major}$ $\\xrightarrow{NaI, \\text{dry acetone}}$ $[B]_{major}$",
+    "question_images": [
+      "3_qu_1.png"
+    ],
+    "options": [
+      "A. A = cyclohexane with OCH3, Cl, NO2; B = cyclohexane with OCH3, I, NO2",
+      "B. A = cyclohexane with OCH3, Cl, NO2; B = cyclohexane with I, Cl, NO2",
+      "C. A = cyclohexane with I, Cl, NO2; B = cyclohexane with OCH3, Cl, NO2",
+      "D. A = cyclohexane with OCH3, Cl, NO2; B = cyclohexane with OCH3, Cl, NO2 (dichloride)"
+    ],
+    "option_images": [
+      "3_opA_1.png",
+      "3_opA_2.png",
+      "3_opB_1.png",
+      "3_opB_2.png",
+      "3_opC_1.png",
+      "3_opC_2.png",
+      "3_opD_1.png",
+      "3_opD_2.png"
+    ],
+    "answer": "A. A = cyclohexane with OCH3, Cl, NO2; B = cyclohexane with OCH3, I, NO2",
+    "solution": "Step 1: The cyclohexane ring with $-OCH_3$ and $-NO_2$ reacts with $HCl$ to give $A$, where $-OH$ (if present) is replaced by $-Cl$, or nucleophilic substitution occurs at the appropriate position.\n\nStep 2: $A$ then undergoes Finkelstein reaction with $NaI$ in dry acetone, replacing $-Cl$ with $-I$ to give $B$.\n\n$\\text{Finkelstein reaction: } R-Cl + NaI \\xrightarrow{\\text{dry acetone}} R-I + NaCl$",
+    "solution_images": [
+      "3_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Chloroform is used as:",
+    "question_latex": "Chloroform ($CHCl_3$) is used as:",
+    "question_images": [],
+    "options": [
+      "A. Fire extinguisher",
+      "B. Industrial solvent",
+      "C. Refrigerant",
+      "D. Insecticide"
+    ],
+    "option_images": [],
+    "answer": "B. Industrial solvent",
+    "solution": "Chloroform ($CHCl_3$) is used as an industrial solvent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Freon (dichlorodifluoro methane) is used",
+    "question_latex": "Freon ($CCl_2F_2$, dichlorodifluoromethane) is used",
+    "question_images": [],
+    "options": [
+      "A. as local anaesthetic",
+      "B. for dissolving impurities in metallurgical process",
+      "C. in refrigerator",
+      "D. in printing industry"
+    ],
+    "option_images": [],
+    "answer": "C. in refrigerator",
+    "solution": "Freon ($CCl_2F_2$) is an odourless, non-corrosive, non-toxic gas which is stable even at high temperatures and pressures. It has low b.p., low specific heat and can be easily liquified by applying pressure at room temperature. It is therefore, widely used as refrigerant (cooling agent) in refrigerators and air conditioners.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Aryl halides cannot be prepared by the reaction of aryl alcohols with PCl3, PCl5 or SOCl2 because",
+    "question_latex": "Aryl halides cannot be prepared by the reaction of aryl alcohols with $PCl_3$, $PCl_5$ or $SOCl_2$ because",
+    "question_images": [],
+    "options": [
+      "A. phenols are highly stable compounds.",
+      "B. carbon-oxygen bond in phenols has a partial double bond character.",
+      "C. carbon-oxygen bond is highly polar",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "B. carbon-oxygen bond in phenols has a partial double bond character.",
+    "solution": "This method is not applicable for the preparation of aryl halides because the $C - O$ bond in phenol has a partial double bond character and is difficult to break, being stronger than a single bond.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "CH3Br + OH⁻ → CH3OH + Br⁻ reaction proceeds by SN2 mechanism. Its rate is dependent on the concentration of",
+    "question_latex": "$CH_3Br + OH^- \\rightarrow CH_3OH + Br^-$ reaction proceeds by $S_N2$ mechanism. Its rate is dependent on the concentration of",
+    "question_images": [],
+    "options": [
+      "A. CH3Br, OH⁻",
+      "B. CH3Br only",
+      "C. OH⁻ only",
+      "D. CH3Br, CH3OH"
+    ],
+    "option_images": [],
+    "answer": "A. CH3Br, OH⁻",
+    "solution": "$CH_3Br + OH^- \\rightarrow CH_3OH + Br^-$\n\nThis reaction proceeds by $S_N2$ mechanism.\n\n$Rate \\propto [substrate][nucleophile]$\n\n$Rate \\propto [CH_3Br][OH^-]$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Isobutyl magnesium bromide with dry ether and ethyl alcohol gives:",
+    "question_latex": "Isobutyl magnesium bromide with dry ether and ethyl alcohol gives:",
+    "question_images": [],
+    "options": [
+      "A. CH3CHCH2OH and CH3CH2MgBr (CH3)",
+      "B. CH3CHCH3 and MgBr(OC2H5) (CH3)",
+      "C. CH3CHCH=CH2 and Mg(OH)Br (CH3)",
+      "D. CH3CHCH3 and CH3CH2OMgBr (CH3)"
+    ],
+    "option_images": [],
+    "answer": "B. CH3CHCH3 and MgBr(OC2H5) (CH3)",
+    "solution": "$(CH_3)_2CHCH_2MgBr \\xrightarrow{C_2H_5OH} (CH_3)_2CHCH_3 + Mg\\begin{pmatrix} OC_2H_5 \\\\ Br \\end{pmatrix}$\n\nThe Grignard reagent reacts with ethanol (a proton source) to give the corresponding alkane and a magnesium alkoxide bromide salt.",
+    "solution_images": [
+      "8_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which is least reactive towards nucleophilic substitution (SN2)?",
+    "question_latex": "Which is least reactive towards nucleophilic substitution ($S_N2$)?",
+    "question_images": [],
+    "options": [
+      "A. Allyl chloride",
+      "B. Me3C-Cl",
+      "C. PhCl (Chlorobenzene)",
+      "D. MeCH(Cl)Me"
+    ],
+    "option_images": [],
+    "answer": "C. PhCl (Chlorobenzene)",
+    "solution": "Aryl halides are least reactive towards $S_N2$ due to resonance. The lone pair of halogen is delocalized into the benzene ring, causing the $C-X$ bond to have partial double bond character and making it very difficult to break.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "A bromoalkane X reacts with magnesium in dry ether to form compound Y. The reaction of Y with methanal followed by hydrolysis yield an alcohol having molecular formula C4H10O. The compound X is",
+    "question_latex": "A bromoalkane $X$ reacts with magnesium in dry ether to form compound $Y$. The reaction of $Y$ with methanal followed by hydrolysis yield an alcohol having molecular formula $C_4H_{10}O$. The compound $X$ is",
+    "question_images": [],
+    "options": [
+      "A. Bromoethane",
+      "B. Bromomethane",
+      "C. 1-bromopropane",
+      "D. 2-bromopropane"
+    ],
+    "option_images": [],
+    "answer": "C. 1-bromopropane",
+    "solution": "Let $X = C_3H_7Br$ (1-bromopropane).\n\n$C_3H_7Br \\xrightarrow{Mg, dry\\ ether} C_3H_7MgBr$ (Grignard reagent, $Y$)\n\n$C_3H_7MgBr + HCHO \\xrightarrow{} \\xrightarrow{H_3O^+} C_3H_7CH_2OH$\n\nThe product is $C_4H_{10}O$, which matches 1-butanol. Hence $X$ is 1-bromopropane.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Neopentyl chloride on reaction with ethanolic KOH is likely to:",
+    "question_latex": "Neopentyl chloride on reaction with ethanolic KOH is likely to:",
+    "question_images": [],
+    "options": [
+      "A. Give neopentyl alcohol",
+      "B. Give Pentylene",
+      "C. Give 2-Methyl-2-butene",
+      "D. Undergo no reaction"
+    ],
+    "option_images": [],
+    "answer": "D. Undergo no reaction",
+    "solution": "Neopentyl chloride ($\\text{(CH}_3\\text{)}_3\\text{CCH}_2\\text{Cl}$) is a primary alkyl halide but has extreme steric hindrance due to the bulky neopentyl group. It cannot undergo $S_N2$ (too hindered) nor $S_N1$ (primary carbon). E2 elimination is also very difficult. Hence, it undergoes no reaction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Polymer of chloroethylene is:",
+    "question_latex": "Polymer of chloroethylene ($CH_2=CHCl$) is:",
+    "question_images": [],
+    "options": [
+      "A. PVC",
+      "B. Teflon",
+      "C. Nylon",
+      "D. Terylene"
+    ],
+    "option_images": [],
+    "answer": "A. PVC",
+    "solution": "Chloroethylene (vinyl chloride, $CH_2=CHCl$) undergoes addition polymerization to form Polyvinyl Chloride (PVC).\n\n$n\\ CH_2=CHCl \\rightarrow [-CH_2-CHCl-]_n$ (PVC)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "In order to convert aniline into chlorobenzene the reagent used is",
+    "question_latex": "In order to convert aniline into chlorobenzene the reagent used is",
+    "question_images": [],
+    "options": [
+      "A. NaNO2/HCl, CuCl",
+      "B. Cl2/CCl4",
+      "C. Cl2/AlCl3",
+      "D. CuCl2"
+    ],
+    "option_images": [],
+    "answer": "A. NaNO2/HCl, CuCl",
+    "solution": "Aniline is first converted to diazonium salt using $NaNO_2/HCl$ at 0–5°C:\n$C_6H_5NH_2 \\xrightarrow{NaNO_2/HCl, 0-5°C} C_6H_5N_2^+Cl^-$\n\nThen Sandmeyer reaction with $CuCl$:\n$C_6H_5N_2^+Cl^- \\xrightarrow{CuCl} C_6H_5Cl + N_2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The catalyst used in the preparation of an alkyl chloride by the action of dry HCl on an alcohol is",
+    "question_latex": "The catalyst used in the preparation of an alkyl chloride by the action of dry $HCl$ on an alcohol is",
+    "question_images": [],
+    "options": [
+      "A. Anhydrous AlCl3",
+      "B. Anhydrous ZnCl2",
+      "C. FeCl3",
+      "D. Cu"
+    ],
+    "option_images": [],
+    "answer": "B. Anhydrous ZnCl2",
+    "solution": "Primary and secondary alkyl chlorides are prepared from the respective alcohols by using $HCl$ gas and anhydrous $ZnCl_2$ (Lucas reagent / Groove's process).\n\n$R-OH + HCl \\xrightarrow{ZnCl_2} R-Cl + H_2O$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Presence of which reagent will affect the reversibility of the following reaction, and change it to an irreversible reaction? CH4 + I2 ⇌ CH3-I + HI (July 2021)",
+    "question_latex": "Presence of which reagent will affect the reversibility of the following reaction, and change it to an irreversible reaction? $CH_4 + I_2 \\underset{Reversible}{\\overset{h\\nu}{\\rightleftharpoons}} CH_3-I + HI$ (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. liquid NH3",
+      "B. dilute HNO2",
+      "C. concentrated HIO3",
+      "D. HOCl"
+    ],
+    "option_images": [],
+    "answer": "C. concentrated HIO3",
+    "solution": "Due to the reducing nature of $HI$, the reaction becomes reversible. If strong oxidizing agents like conc. $HNO_3$ or conc. $HIO_3$ are present in the reaction mixture, then $HI$ produced in the reaction will be oxidised to $I_2$, thus increasing the concentration of the reactant in the reaction mixture. Hence, the equilibrium will be shifted in the forward direction, making the reaction irreversible.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "HBr reacts with CH2=CH-OCH3 under anhydrous conditions at room temperature to give:",
+    "question_latex": "$HBr$ reacts with $CH_2=CH-OCH_3$ under anhydrous conditions at room temperature to give:",
+    "question_images": [],
+    "options": [
+      "A. CH3CHO and CH3Br",
+      "B. BrCH2CHO and CH3OH",
+      "C. BrCH2CH2OCH3",
+      "D. CH3-CH(Br)-OCH3"
+    ],
+    "option_images": [],
+    "answer": "D. CH3-CH(Br)-OCH3",
+    "solution": "In vinyl ethers, the addition of $HBr$ follows Markovnikov's rule under anhydrous conditions:\n\n$CH_2=CH-OCH_3 + HBr \\rightarrow CH_3-CH(Br)-OCH_3$\n\nThe $H^+$ adds to the terminal $CH_2$ and $Br^-$ adds to the carbon bearing the $-OCH_3$ group, as the resulting carbocation is stabilized by the lone pair of oxygen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Grignard reagent shows addition on:",
+    "question_latex": "Grignard reagent shows nucleophilic addition on:",
+    "question_images": [],
+    "options": [
+      "A. C=O",
+      "B. C≡N",
+      "C. C=S",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Grignard reagent ($R-MgX$) gives nucleophilic addition of $R^-$ (carbanion) at the electrophilic ($\\delta^+$) carbon centre in:\n- $>C=O$ (carbonyl compounds)\n- $-C\\equiv N$ (nitriles)\n- $>C=S$ (thioketones/thioaldehydes)\n\nIn all these cases, the carbon bears a partial positive charge due to the electronegative atom attached.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Major product 'B' of the following reaction sequence is: CH3-C(CH3)=CH-CH3 → (Br2/CH3OH) → A → (HI) → B (major product) (Jan 2023)",
+    "question_latex": "Major product '$B$' of the following reaction sequence is:\n$$CH_3-\\underset{|}{C}(CH_3)=CH-CH_3 \\xrightarrow{Br_2/CH_3OH} A \\xrightarrow{HI} B_{\\text{(major product)}}$$ (Jan 2023)",
+    "question_images": [
+      "18_qu_1.png"
+    ],
+    "options": [
+      "A. CH3-C(HO)(Br)-CH-CH3 (CH3)",
+      "B. CH3-C(Br)(I)-CH-CH3 (CH3)",
+      "C. CH3-C(Br)(OH)-CH-CH3 (CH3)",
+      "D. CH3-C(Br)(I)-CH-CH3 (CH3) different arrangement"
+    ],
+    "option_images": [
+      "18_opA_1.png",
+      "18_opB_1.png",
+      "18_opC_1.png",
+      "18_opD_1.png"
+    ],
+    "answer": "B. CH3-C(Br)(I)-CH-CH3 (CH3)",
+    "solution": "Step 1: $CH_3-C(CH_3)=CH-CH_3 \\xrightarrow{Br_2/CH_3OH} CH_3-C(CH_3)(OCH_3)-CHBr-CH_3$ (A)\n\nBromine adds across the double bond, with $OCH_3$ from methanol acting as nucleophile on the more substituted (Markovnikov) carbon.\n\nStep 2: $A \\xrightarrow{HI, S_N1} B$\n\nThe $-OCH_3$ group is replaced by $-I$ via $S_N1$ at the tertiary carbon, giving $CH_3-C(CH_3)(I)-CHBr-CH_3$ (B).",
+    "solution_images": [
+      "18_so_1.png",
+      "18_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "In the following reaction sequence, structures of A and B, respectively will be: A benzofuran derivative with CH2Br reacts with HBr (heat) to give A, then with Na/Ether (Wurtz reaction) to give intramolecular product B. (Jan 2020)",
+    "question_latex": "In the following reaction sequence, structures of $A$ and $B$, respectively will be: Benzofuran-$CH_2Br$ $\\xrightarrow{HBr, \\Delta}$ $A$ $\\xrightarrow{Na/Ether}$ (Intramolecular product) $B$ (Jan 2020)",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. c",
+      "B. b",
+      "C. d",
+      "D. a"
+    ],
+    "option_images": [
+      "19_opA_1.png",
+      "19_opA_2.png",
+      "19_opB_1.png",
+      "19_opB_2.png",
+      "19_opC_1.png",
+      "19_opC_2.png",
+      "19_opD_1.png",
+      "19_opD_2.png"
+    ],
+    "answer": "B. b",
+    "solution": "Step 1: The benzofuran ring with $-CH_2Br$ reacts with $HBr$ under heat. The ring oxygen is protonated, the ring opens, giving a dibromo alcohol product $A$ (with $-OH$, $-Br$, and $-CH_2Br$ groups).\n\nStep 2: Intramolecular Wurtz reaction with $Na/Ether$ cyclizes the dibromo compound to form a cyclic product $B$ (benzocyclobutane derivative with $-OH$ group).\n\nThis corresponds to option (b).",
+    "solution_images": [
+      "19_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Bottles containing C6H5I and C6H5CH2I lost their original labels. They were labelled A and B for testing. A and B were separately taken in a test tube and boiled with NaOH solution. The end solution in each tube was made acidic with dilute HNO3 and then some AgNO3 solution was added. Substance B gave a yellow precipitate. Which one of the following statements is true for this experiment?",
+    "question_latex": "Bottles containing $C_6H_5I$ and $C_6H_5CH_2I$ lost their original labels. They were labelled $A$ and $B$ for testing. $A$ and $B$ were separately boiled with $NaOH$ solution. The end solution was acidified with dilute $HNO_3$ and $AgNO_3$ was added. Substance $B$ gave a yellow precipitate. Which one of the following statements is true?",
+    "question_images": [],
+    "options": [
+      "A. A was C6H5I",
+      "B. A was C6H5CH2I",
+      "C. B was C6H5I",
+      "D. Addition of HNO3 was unnecessary"
+    ],
+    "option_images": [],
+    "answer": "A. A was C6H5I",
+    "solution": "When $C_6H_5CH_2I$ (benzyl iodide) is boiled with $NaOH$, hydrolysis occurs readily because it is a benzylic halide:\n$C_6H_5CH_2I + NaOH \\rightarrow C_6H_5CH_2OH + NaI$\n\nOn adding $AgNO_3$ after acidification, $AgI$ (yellow precipitate) forms: $Ag^+ + I^- \\rightarrow AgI\\downarrow$ (yellow)\n\n$C_6H_5I$ (aryl iodide) does NOT hydrolyse under these conditions.\n\nTherefore, $B$ = $C_6H_5CH_2I$ and $A$ = $C_6H_5I$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The structure of the major product formed in the following reaction is: A benzene ring with -OH, -Cl (aliphatic), and -I (aryl) substituents reacts with NaCN in DMF.",
+    "question_latex": "The structure of the major product formed in the following reaction is: A benzene derivative with $-OH$, aliphatic $-Cl$, and aryl $-I$ groups $\\xrightarrow{NaCN/DMF}$ Major product",
+    "question_images": [
+      "21_qu_1.png"
+    ],
+    "options": [
+      "A. Product with CN at aryl position",
+      "B. Product with NC at aliphatic position",
+      "C. Product with Cl retained, CN at aryl position",
+      "D. Product with CN at aliphatic position, I retained"
+    ],
+    "option_images": [
+      "21_opA_1.png",
+      "21_opB_1.png",
+      "21_opC_1.png",
+      "21_opD_1.png"
+    ],
+    "answer": "D. Product with CN at aliphatic position, I retained",
+    "solution": "Chloride is on a $1°$ aliphatic carbon which is substituted more easily compared to iodide which is arylic and more stable due to delocalisation, hence difficult to substitute.\n\nTherefore, $NaCN$ selectively substitutes the aliphatic $-Cl$ with $-CN$:\n$R-Cl + NaCN \\xrightarrow{DMF} R-CN + NaCl$\n\nThe aryl iodide remains intact.",
+    "solution_images": [
+      "21_so_1.png",
+      "21_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Coupling reaction between RMgX and R'X takes place to give R-R' in the presence of which of the following reagents?",
+    "question_latex": "Coupling reaction between $RMgX$ and $R'X$ takes place to give $R-R'$ in the presence of which of the following reagents?",
+    "question_images": [],
+    "options": [
+      "A. R'-OTs",
+      "B. CoCl2",
+      "C. MnCl2",
+      "D. All"
+    ],
+    "option_images": [],
+    "answer": "D. All",
+    "solution": "The coupling reaction between a Grignard reagent ($RMgX$) and an organohalide ($R'X$) to form $R-R'$ can be catalysed by transition metal salts such as $CoCl_2$ or $MnCl_2$, or can also proceed with tosylate ($R'-OTs$). All of the given reagents can facilitate this coupling reaction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Predict the product: A cyclopentanol reacts with (i) PBr3, then (ii) alc. KOH",
+    "question_latex": "Predict the product: Cyclopentanol $\\xrightarrow{(i)\\ PBr_3}$ $\\xrightarrow{(ii)\\ alc.\\ KOH}$",
+    "question_images": [
+      "23_qu_1.png"
+    ],
+    "options": [
+      "A. Cyclopentene",
+      "B. Cyclopentanol",
+      "C. Bromocyclopentane with OH",
+      "D. Cyclopentane"
+    ],
+    "option_images": [
+      "23_opA_1.png",
+      "23_opB_1.png",
+      "23_opC_1.png",
+      "23_opD_1.png"
+    ],
+    "answer": "A. Cyclopentene",
+    "solution": "Step 1: Cyclopentanol $\\xrightarrow{PBr_3}$ Cyclopentyl bromide ($-OH$ replaced by $-Br$)\n\nStep 2: Cyclopentyl bromide $\\xrightarrow{alc.\\ KOH}$ Cyclopentene (E2 elimination)\n\nAlcoholic $KOH$ is a strong base and promotes elimination to give the alkene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Product on monobromination of a naphthalene derivative bearing H3C and NH-CO groups with Fe/Br2",
+    "question_latex": "Product on monobromination of the given naphthalene compound (bearing $H_3C-$ and $-NH-C=O$ substituents) with $Fe/Br_2$ is",
+    "question_images": [
+      "24_qu_1.png"
+    ],
+    "options": [
+      "A. Br at position meta to NH group",
+      "B. Br at position para to NH group",
+      "C. Br at position ortho to CH3",
+      "D. Br at position meta to CH3"
+    ],
+    "option_images": [
+      "24_opA_1.png",
+      "24_opB_1.png",
+      "24_opC_1.png",
+      "24_opD_1.png"
+    ],
+    "answer": "B. Br at position para to NH group",
+    "solution": "It is an electrophilic substitution reaction, so the electrophile ($Br^+$) must attack at $o/p$-positions due to higher electron density there.\n\nIn this ring, the attached $-NH-$ group has high electron density due to resonance. The $ortho$ position is sterically blocked, so the electrophile attacks at the $para$ position.\n\nMajor product: bromination at $para$ position relative to the $-NH-$ group.",
+    "solution_images": [
+      "24_so_1.png",
+      "24_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "How many structures of F is possible? 2-methylbutan-2-ol reacts with H+/-H2O to give [F], then with Br2/CCl4 to give C4H6Br2 (5 such products are possible)",
+    "question_latex": "How many structures of $F$ is possible? $2\\text{-methylbutan-}2\\text{-ol} \\xrightarrow{H^+/-H_2O} [F] \\xrightarrow{Br_2/CCl_4} C_4H_6Br_2$ (5 such products are possible)",
+    "question_images": [
+      "25_qu_1.png"
+    ],
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 6",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "The alcohol undergoes dehydration to form alkenes $[F]$. The possible alkene structures are:\n1. $cis$-but-2-ene\n2. $trans$-but-2-ene (major)\n3. but-1-ene\n\nSo 3 structural/stereoisomeric forms of $F$ (alkenes) are possible.\n\nIn $[F]$, order of quantity of alkene: $2 > 1 > 3$.\n\nThese on addition with $Br_2/CCl_4$ give addition products with molecular formula $C_4H_6Br_2$, and 5 such products are possible from all three alkenes.",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "In Wurtz reaction of alkyl halides with sodium, the reactivity order of these halides is:",
+    "question_latex": "In Wurtz reaction of alkyl halides with sodium, the reactivity order of these halides is:",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. RI > RBr > RCl",
+      "B. RCl > RBr > RI",
+      "C. RBr > RI > RCl",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. RI > RBr > RCl",
+    "solution": "In Wurtz reaction:\n$2R-X + 2Na \\rightarrow R-R + 2NaX$\n\nLarger is the $C-X$ bond length (i.e., weaker the bond), more is the reactivity.\n\nBond lengths: $C-I > C-Br > C-Cl$\n\nTherefore, reactivity order: $RI > RBr > RCl$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The structure of the major product formed in the following reaction is: A benzene ring with I, Cl, and Br substituents reacts with AgCN to give major product. [Jan. 24, 2025 (II)]",
+    "question_latex": "The structure of the major product formed in the following reaction is: A benzene derivative with $-I$, $-Cl$, and $-Br$ substituents $\\xrightarrow{AgCN}$ Major product [Jan. 24, 2025 (II)]",
+    "question_images": [
+      "27_qu_1.png"
+    ],
+    "options": [
+      "A. Product with I retained, NC group added",
+      "B. Product with NC group and Cl retained",
+      "C. Product with I, Cl retained, CN group",
+      "D. Product with I retained, CN group at Br position"
+    ],
+    "option_images": [
+      "27_opA_1.png",
+      "27_opB_1.png",
+      "27_opC_1.png",
+      "27_opD_1.png"
+    ],
+    "answer": "A. Product with I retained, NC group added",
+    "solution": "$AgCN$ is predominantly covalent, so it gives $NC^-$ nucleophile and forms an isocyanide at the most reactive position.\n\nThe reaction replaces the most reactive halide with $-NC$ (isocyanide group). Aryl halides (directly attached to benzene ring) are less reactive, while benzylic/aliphatic positions react preferentially.\n\nMajor product has $-NC$ group substituting the appropriate halide.",
+    "solution_images": [
+      "27_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "X + AgNO3/HNO3 → Y (Yellow or white ppt). Which of the following cannot be X?",
+    "question_latex": "$X \\xrightarrow{AgNO_3/HNO_3} Y$ (Yellow or white ppt). Which of the following cannot be $X$?",
+    "question_images": [],
+    "options": [
+      "A. Bromobenzene",
+      "B. (CH3)2CHCl",
+      "C. Benzyl bromide (C6H5CH2Br)",
+      "D. Benzyl azide derivative"
+    ],
+    "option_images": [
+      "28_opA_1.png",
+      "28_opB_1.png",
+      "28_opD_1.png"
+    ],
+    "answer": "A. Bromobenzene",
+    "solution": "The reaction $X + AgNO_3 \\rightarrow Y$ (yellow/white ppt of $AgBr$ or $AgCl$) requires that the halide ion be released readily.\n\nBromobenzene ($C_6H_5Br$) cannot give this reaction because the halogen is directly attached to the benzene ring (aryl halide). Due to resonance, the $C-X$ bond has partial double bond character and cannot be easily ionized.\n\nTherefore, bromobenzene cannot be $X$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The major organic compound formed by the reaction of 1,1,1-trichloroethane with silver powder is (2014)",
+    "question_latex": "The major organic compound formed by the reaction of $1,1,1$-trichloroethane with silver powder is (2014)",
+    "question_images": [],
+    "options": [
+      "A. 2-butene",
+      "B. acetylene",
+      "C. ethene",
+      "D. 2-butyne"
+    ],
+    "option_images": [],
+    "answer": "D. 2-butyne",
+    "solution": "$2\\ CH_3CCl_3 + 6Ag \\xrightarrow{\\Delta} CH_3-C\\equiv C-CH_3 + 6AgCl$\n\n$\\text{2-Butyne}$\n\nThis is a Wurtz-type dehalogenation reaction. Two molecules of $CH_3CCl_3$ react with 6 atoms of silver, losing 6 $AgCl$ molecules to form 2-butyne.",
+    "solution_images": [
+      "29_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Chloroform cannot be prepared from which of the following?",
+    "question_latex": "Chloroform cannot be prepared from which of the following?",
+    "question_images": [],
+    "options": [
+      "A. CH3OH (Methanol)",
+      "B. C2H5OH (Ethanol)",
+      "C. CH3CHO (Ethanal)",
+      "D. (CH3)2CO (Acetone)"
+    ],
+    "option_images": [],
+    "answer": "A. CH3OH (Methanol)",
+    "solution": "Chloroform is prepared by the haloform reaction, which requires a methyl ketone, acetaldehyde, or ethanol.\n\n- $C_2H_5OH \\xrightarrow{oxidation} CH_3CHO \\xrightarrow{3Cl_2} CCl_3CHO \\xrightarrow{Ca(OH)_2} CHCl_3$\n- $CH_3CHO \\xrightarrow{3Cl_2} CCl_3CHO \\xrightarrow{Ca(OH)_2} CHCl_3$\n- $(CH_3)_2CO \\xrightarrow{3Cl_2} CCl_3COCH_3 \\xrightarrow{Ca(OH)_2} CHCl_3$\n\nMethanol ($CH_3OH$) cannot be used because it cannot form the required $-CO-CH_3$ group (it doesn't have a methyl group adjacent to carbonyl).",
+    "solution_images": [
+      "30_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which of the following 3° alcohols does propyl ester give during reaction with EtMgBr?",
+    "question_latex": "Which of the following $3°$ alcohols does propyl ester give during reaction with $EtMgBr$?",
+    "question_images": [],
+    "options": [
+      "A. Me-C(OH)(Et)-Et with another Et (3-ethylpentan-3-ol)",
+      "B. Me-C(OH)(Me)-Et (2-methylbutan-2-ol)",
+      "C. Me-C(OH)-Et-Me (3-methylpentan-3-ol)",
+      "D. Me-C(OH)(Me)(Me) (2-methylpropan-2-ol)"
+    ],
+    "option_images": [],
+    "answer": "A. Me-C(OH)(Et)-Et with another Et (3-ethylpentan-3-ol)",
+    "solution": "An ester of the type $R-C(=O)-O-Pr$ reacts with $EtMgBr$ (Grignard reagent, $R = Et-$) to give a $3°$ alcohol with two $Et-$ groups.\n\nThe ester is propyl propanoate: $Et-C(=O)-O-Pr$\n\nStep 1: $Et-C(=O)-O-Pr + EtMgBr \\rightarrow Et-C(=O)-Et + PrOMgBr$ (ketone intermediate)\n\nStep 2: $Et-CO-Et + EtMgBr \\rightarrow Et-C(Et)_2-OMgBr \\xrightarrow{H_3O^+} Et-C(OH)(Et)_2$ (3-ethylpentan-3-ol)\n\nThe $3°$ alcohol contains three $Et-$ groups (two from G.R. and one from ester), hence option (a).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "When chloroform is exposed to light and air, it forms",
+    "question_latex": "When chloroform is exposed to light and air, it forms",
+    "question_images": [],
+    "options": [
+      "A. chlorine gas",
+      "B. methyl chloride",
+      "C. phosgene gas",
+      "D. carbon tetrachloride"
+    ],
+    "option_images": [],
+    "answer": "C. phosgene gas",
+    "solution": "When chloroform is exposed to light, it is oxidised to a poisonous gas known as phosgene:\n\n$2CHCl_3 + 2O_2 \\xrightarrow{h\\nu} 2COCl_2 + Cl_2$\n\nPhosgene ($COCl_2$) is a highly toxic gas. This is why chloroform is stored in dark-coloured bottles away from light.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Benzyl chloride (C6H5CH2Cl) can be prepared from toluene by chlorination with:",
+    "question_latex": "Benzyl chloride ($C_6H_5CH_2Cl$) can be prepared from toluene by chlorination with:",
+    "question_images": [],
+    "options": [
+      "A. SO2Cl2",
+      "B. SOCl2",
+      "C. Cl2",
+      "D. NaOCl"
+    ],
+    "option_images": [],
+    "answer": "C. Cl2",
+    "solution": "Toluene undergoes free radical side-chain chlorination with $Cl_2$ in the presence of light (or heat) to give benzyl chloride:\n\n$C_6H_5CH_3 + Cl_2 \\xrightarrow{h\\nu \\text{ or } \\Delta} C_6H_5CH_2Cl + HCl$\n\nThis is a free radical chlorination at the benzylic position.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "On sulphonation of C6H5Cl",
+    "question_latex": "On sulphonation of $C_6H_5Cl$ (chlorobenzene)",
+    "question_images": [],
+    "options": [
+      "A. benzene sulphonic acid is formed",
+      "B. metachlorobenzene sulphonic acid is formed",
+      "C. orthochlorobenzene sulphonic acid is formed",
+      "D. ortho and para chlorobenzene sulphonic acids are formed"
+    ],
+    "option_images": [],
+    "answer": "D. ortho and para chlorobenzene sulphonic acids are formed",
+    "solution": "On sulphonation of chlorobenzene, $ortho$ and $para$ chlorobenzene sulphonic acids are formed because the $-Cl$ group is an $ortho/para$ director (due to resonance donation of lone pairs, despite being electron-withdrawing by induction).\n\n$C_6H_5Cl \\xrightarrow{H_2S_2O_7 / fuming\\ H_2SO_4} o\\text{-}ClC_6H_4SO_3H + p\\text{-}ClC_6H_4SO_3H$",
+    "solution_images": [
+      "34_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "C-Cl bond of chlorobenzene in comparison to C-Cl bond in methyl chloride is",
+    "question_latex": "$C - Cl$ bond of chlorobenzene in comparison to $C - Cl$ bond in methyl chloride is",
+    "question_images": [],
+    "options": [
+      "A. Longer and weaker",
+      "B. Shorter and weaker",
+      "C. Shorter and stronger",
+      "D. Longer and stronger"
+    ],
+    "option_images": [],
+    "answer": "C. Shorter and stronger",
+    "solution": "Due to resonance in chlorobenzene, the lone pair of chlorine is delocalized into the benzene ring, giving the $C-Cl$ bond partial double bond character.\n\nThis partial double bond character makes the $C-Cl$ bond in chlorobenzene:\n- Shorter (double bond character shortens the bond)\n- Stronger (more energy required to break it)\n\ncompared to the $C-Cl$ bond in methyl chloride ($CH_3Cl$), which is a simple single bond.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Consider the above chemical reaction: A chloromethylcyclohexane reacts with NaOH/H2O to give Major Product 'A'. Product 'A' is: [06 April, 2024 (Shift-II)]",
+    "question_latex": "Consider the chemical reaction: $\\text{chloromethylcyclohexane} + NaOH \\xrightarrow{H_2O}$ Major Product $''A''$. Product $''A''$ is: [06 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. c",
+      "B. d",
+      "C. b",
+      "D. a"
+    ],
+    "option_images": [
+      "36_opA_1.png",
+      "36_opB_1.png",
+      "36_opC_1.png",
+      "36_opD_1.png"
+    ],
+    "answer": "C. b",
+    "solution": "The reaction of chloromethylcyclohexane with $NaOH/H_2O$ proceeds via $S_N1$ mechanism:\n\n1. The $-CH_2Cl$ group ionizes to form a carbocation\n2. A 1,2-hydride shift occurs to give a more stable tertiary carbocation\n3. $OH^-$ attacks to give the major product\n\nThe major product is a cyclohexane derivative with $-CH_3$ and $-OH$ groups in the appropriate positions (option b).",
+    "solution_images": [
+      "36_so_1.png",
+      "36_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The decreasing nucleophilic order of the following compounds is: i. H2O ii. H2S iii. H2Se iv. H2Te",
+    "question_latex": "The decreasing nucleophilic order of the following compounds is: i. $H_2O$ ii. $H_2S$ iii. $H_2Se$ iv. $H_2Te$",
+    "question_images": [],
+    "options": [
+      "A. (i)>(ii)>(iii)>(iv)",
+      "B. (iv)>(iii)>(ii)>(i)",
+      "C. (iii)>(i)>(ii)>(iv)",
+      "D. (iv)>(ii)>(i)>(iii)"
+    ],
+    "option_images": [],
+    "answer": "B. (iv)>(iii)>(ii)>(i)",
+    "solution": "Basicity and nucleophilicity orders are reversed for species with different nucleophilic centres belonging to the same group.\n\nFor elements in the same group going down, polarizability increases, making them better nucleophiles in polar protic solvents.\n\nNucleophilicity: $H_2Te > H_2Se > H_2S > H_2O$\n\nTherefore: (iv) > (iii) > (ii) > (i)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which of the following substrates will give racemised product?",
+    "question_latex": "Which of the following substrates will give racemised product?",
+    "question_images": [],
+    "options": [
+      "A. Ph-CH(Cl)-C9H19",
+      "B. Me-CH(Br)-Me (2-bromobutane like)",
+      "C. Me2CBr (tert-butyl bromide type)",
+      "D. Ph2CHBr"
+    ],
+    "option_images": [],
+    "answer": "A. Ph-CH(Cl)-C9H19",
+    "solution": "Option (A): $Ph-CH(Cl)-C_9H_{19}$ is the only optically active compound (chiral centre with 4 different groups). When it undergoes $S_N1$ reaction, a planar carbocation intermediate is formed, and the nucleophile can attack from either face, giving a racemic mixture.\n\nOptions (B), (C), and (D) are not optically active (they have either symmetrical groups or no chiral centre), so they cannot give racemised products.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Chlorination of toluene in the presence of light and heat followed by the treatment with aqueous NaOH gives:",
+    "question_latex": "Chlorination of toluene in the presence of light and heat followed by the treatment with aqueous $NaOH$ gives:",
+    "question_images": [],
+    "options": [
+      "A. o-Cresol",
+      "B. p-Cresol",
+      "C. 2,4-Dihydroxy toluene",
+      "D. Benzoic acid"
+    ],
+    "option_images": [],
+    "answer": "D. Benzoic acid",
+    "solution": "Chlorination of toluene in the presence of light (free radical mechanism) at elevated temperature gives side-chain chlorination:\n\n$C_6H_5CH_3 \\xrightarrow{Cl_2/h\\nu, \\Delta} C_6H_5CH_2Cl \\xrightarrow{Cl_2} C_6H_5CHCl_2 \\xrightarrow{Cl_2} C_6H_5CCl_3$\n\n$C_6H_5CCl_3 \\xrightarrow{NaOH(aq)} C_6H_5COONa \\xrightarrow{H^+} C_6H_5COOH$ (Benzoic acid)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Chloroform gives a trichloro derivative of an alcohol on reaction with",
+    "question_latex": "Chloroform gives a trichloro derivative of an alcohol on reaction with",
+    "question_images": [],
+    "options": [
+      "A. conc. nitric acid",
+      "B. aq. alkali",
+      "C. acetone and alkali",
+      "D. a primary amine and an alkali"
+    ],
+    "option_images": [],
+    "answer": "C. acetone and alkali",
+    "solution": "Chloroform reacts with acetone in the presence of alkali to give chloretone (trichloro-tertiary butanol):\n\n$CHCl_3 + (CH_3)_2CO \\xrightarrow{KOH} (CH_3)_2C(OH)-CCl_3$\n\nThis is 1,1,1-trichloro-2-methylpropan-2-ol (chloretone), a trichloro derivative of an alcohol.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which reagent is useful in increasing the carbon chain of an alkyl halide?",
+    "question_latex": "Which reagent is useful in increasing the carbon chain of an alkyl halide?",
+    "question_images": [],
+    "options": [
+      "A. HCN",
+      "B. KCN",
+      "C. NH4CN",
+      "D. AgCN"
+    ],
+    "option_images": [],
+    "answer": "B. KCN",
+    "solution": "$KCN$ is ionic and acts as a nucleophile through $CN^-$, attacking the carbon of the alkyl halide:\n\n$CH_3X + KCN \\rightarrow CH_3CN + KX$\n\nThis adds one carbon to the chain (nitrile, which can be hydrolysed to carboxylic acid or reduced to amine). Hence, $KCN$ increases the carbon chain.\n\n$AgCN$ is covalent and gives isocyanide ($CH_3NC$) which does not increase the carbon chain in the same way.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "The major product of the following reaction is: CH3-C(CH3)(H)-CH(Br)-CH3 reacts with CH3OH (April 2019)",
+    "question_latex": "The major product of the following reaction is:\n$$CH_3-\\underset{|}{C}(CH_3)-\\underset{|}{CH}(Br)-CH_3 \\xrightarrow{CH_3OH}$$ (April 2019)",
+    "question_images": [
+      "42_qu_1.png"
+    ],
+    "options": [
+      "A. CH3-C(CH3)(OCH3)-CH2-CH3",
+      "B. CH3-C(CH3)=CH-CH3",
+      "C. CH3-C(CH3)=CH-CH3 (different isomer)",
+      "D. CH3-C(CH3)(H)-CH(OCH3)-CH3"
+    ],
+    "option_images": [
+      "42_opA_1.png",
+      "42_opB_1.png",
+      "42_opC_1.png",
+      "42_opD_1.png"
+    ],
+    "answer": "A. CH3-C(CH3)(OCH3)-CH2-CH3",
+    "solution": "In polar protic solvent (methanol), $S_N1$ mechanism is favourable:\n\n1. $CH_3-CH(Br)-CH(CH_3)-CH_3 \\rightarrow$ Secondary carbocation\n2. A 1,2-hydride shift gives tertiary carbocation: $CH_3-\\overset{+}{C}(CH_3)-CH_2-CH_3$\n3. $CH_3OH$ attacks the tertiary carbocation:\n$CH_3-C(CH_3)(OCH_3)-CH_2-CH_3$\n\nMajor product is option (A).",
+    "solution_images": [
+      "42_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Benzene hexachloride is",
+    "question_latex": "Benzene hexachloride is",
+    "question_images": [],
+    "options": [
+      "A. 1, 2, 3, 4, 5, 6-hexachlorocyclohexane",
+      "B. 1,1,1,6,6,6-hexachlorocyclohexane",
+      "C. 1,6-phenyl-1,6-chlorohexane",
+      "D. 1,1-phenyl-6,6-chlorohexane"
+    ],
+    "option_images": [],
+    "answer": "A. 1, 2, 3, 4, 5, 6-hexachlorocyclohexane",
+    "solution": "Benzene hexachloride (BHC) is formed by the addition of $3Cl_2$ to benzene:\n$C_6H_6 + 3Cl_2 \\xrightarrow{h\\nu} C_6H_6Cl_6$\n\nIt is $1,2,3,4,5,6$-hexachlorocyclohexane, where each carbon of the cyclohexane ring has one chlorine atom attached.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Freon used as refrigerant is",
+    "question_latex": "Freon used as refrigerant is",
+    "question_images": [],
+    "options": [
+      "A. CF2=CF2",
+      "B. CH2F2",
+      "C. CCl2F2",
+      "D. CF4"
+    ],
+    "option_images": [],
+    "answer": "C. CCl2F2",
+    "solution": "Freons are chlorofluorocarbons (CFCs). The freon used as a refrigerant is $CCl_2F_2$ (dichlorodifluoromethane), also known as Freon-12.\n\nIt has desirable properties: low boiling point, low specific heat, non-toxic, non-flammable, and can be easily liquified at room temperature under pressure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Statement I: A compound (cyclohexane with CH3 and NO2 groups with H) is optically active. Statement II: The mirror image of the compound is identical. Choose the most appropriate answer. (July 2022)",
+    "question_latex": "Statement I: The given compound (cyclohexane ring with $-CH_3$, $-NO_2$, and $-H$ substituents) is optically active.\nStatement II: The given compound and its mirror image (shown) are identical.\nChoose the most appropriate answer. (July 2022)",
+    "question_images": [
+      "45_qu_1.png",
+      "45_qu_2.png"
+    ],
+    "options": [
+      "A. Statement I is correct but Statement II is incorrect.",
+      "B. Both Statement I and Statement II are incorrect.",
+      "C. Statement I is incorrect but Statement II is correct.",
+      "D. Both Statement I and Statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "B. Both Statement I and Statement II are incorrect.",
+    "solution": "Both statements are incorrect:\n\n- Statement I is incorrect: The compound shown has a plane of symmetry (due to the arrangement of substituents on the ring), making it optically inactive (meso compound).\n\n- Statement II is incorrect: The mirror image shown is NOT identical to the original compound (they are not superimposable), so they are not the same compound.\n\nTherefore, both statements are incorrect.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Given below are two statements. Statement I: C2H5OH and AgCN both can generate nucleophile. Statement II: KCN and AgCN both will generate nitrile nucleophile with all reaction conditions. Choose the most appropriate option (March 2021)",
+    "question_latex": "Given below are two statements.\nStatement I: $C_2H_5OH$ and $AgCN$ both can generate nucleophile.\nStatement II: $KCN$ and $AgCN$ both will generate nitrile nucleophile with all reaction conditions.\nChoose the most appropriate option (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are true.",
+      "B. Both statement I and statement II are false.",
+      "C. Statement I is true but statement II is false.",
+      "D. Statement I is false but statement II is true."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is true but statement II is false.",
+    "solution": "Statement I is TRUE:\n- $C_2H_5OH \\rightarrow C_2H_5O^- + H^+$ (acts as nucleophile via $C_2H_5O^-$)\n- $Ag-C\\equiv N$: has lone pair of electrons, can donate electron pair and act as nucleophile\n\nStatement II is FALSE:\n- $KCN$ (ionic) will generate nitrile nucleophile ($CN^-$ attacks via carbon) → gives nitrile ($R-CN$)\n- $AgCN$ (covalent) does NOT generate nitrile nucleophile; instead generates isocyanide nucleophile ($NC^-$ attacks via nitrogen) → gives isocyanide ($R-NC$)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "CCl4 is well known fire extinguisher. However after using it to extinguish fire, the room should be well ventilated. This is because",
+    "question_latex": "$CCl_4$ is well known fire extinguisher. However after using it to extinguish fire, the room should be well ventilated. This is because",
+    "question_images": [],
+    "options": [
+      "A. It is flammable at higher temperatures",
+      "B. It is toxic",
+      "C. It produces phosgene by reaction with water vapour at higher temperatures",
+      "D. It is corrosive"
+    ],
+    "option_images": [],
+    "answer": "C. It produces phosgene by reaction with water vapour at higher temperatures",
+    "solution": "Carbon tetrachloride vapours react with steam above $500°C$ to form phosgene, a highly poisonous gas:\n\n$CCl_4 + H_2O \\xrightarrow{500°C} COCl_2 + 2HCl$\n\nPhosgene ($COCl_2$) is extremely toxic. Therefore, after using $CCl_4$ to extinguish fire, the room must be well ventilated to remove any phosgene formed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which among MeX, R2HX, R2CHX and R3CX is most reactive towards SN2 reaction?",
+    "question_latex": "Which among $MeX$, $R_2HX$, $R_2CHX$ and $R_3CX$ is most reactive towards $S_N2$ reaction?",
+    "question_images": [],
+    "options": [
+      "A. MeX",
+      "B. R2CHX",
+      "C. RCH2X",
+      "D. R3CX"
+    ],
+    "option_images": [],
+    "answer": "A. MeX",
+    "solution": "$S_N2$ reactivity order: $CH_3X > 1° > 2° > 3°$\n\n$1°$ Alkyl halides (having least steric hindrance at the $\\alpha$-carbon atom) are most reactive towards $S_N2$ reaction. Methyl halide ($MeX$) has no steric hindrance at all and is therefore the most reactive.\n\nReactivity: $MeX > RCH_2X > R_2CHX > R_3CX$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which of the following compounds is not formed in iodoform reaction of acetone?",
+    "question_latex": "Which of the following compounds is not formed in iodoform reaction of acetone?",
+    "question_images": [],
+    "options": [
+      "A. CH3COCH2I",
+      "B. ICH2COCH2I",
+      "C. CH3COCHI2",
+      "D. CH3COCI3"
+    ],
+    "option_images": [],
+    "answer": "B. ICH2COCH2I",
+    "solution": "In the iodoform reaction of acetone, iodination occurs stepwise on one side (methyl group) only, not on both methyl groups simultaneously:\n\n$CH_3COCH_3 \\xrightarrow{I_2/NaOH} CH_3COCH_2I \\xrightarrow{I_2/NaOH} CH_3COCHI_2 \\xrightarrow{I_2/NaOH} CH_3COCI_3 \\xrightarrow{OH^-} CHI_3 + CH_3COO^-$\n\n$ICH_2COCH_2I$ (diiodination on both methyl groups) is NOT formed in this reaction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Haloalkanes and Haloarenes",
+    "question": "Which of the following most readily undergoes nucleophilic substitution?",
+    "question_latex": "Which of the following most readily undergoes nucleophilic substitution?",
+    "question_images": [],
+    "options": [
+      "A. CH2=CHCl (vinyl chloride)",
+      "B. CH3CH=CHCl (1-chloropropene)",
+      "C. H2C=CHC(Cl)=CH2",
+      "D. CH2=CHCH2Cl (allyl chloride)"
+    ],
+    "option_images": [],
+    "answer": "D. CH2=CHCH2Cl (allyl chloride)",
+    "solution": "Option (D) is allyl chloride ($CH_2=CHCH_2Cl$), which is most reactive towards nucleophilic substitution because:\n- The leaving group ($Cl^-$) is on an allylic carbon\n- The resulting allyl carbocation is resonance-stabilized\n\nOptions (A), (B), and (C) are vinyl/allylic chlorides where the $Cl$ is directly on the $sp^2$ carbon, making substitution very difficult due to the partial double bond character of the $C-Cl$ bond (similar to aryl halides).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

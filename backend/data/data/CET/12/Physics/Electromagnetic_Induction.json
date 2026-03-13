@@ -1,0 +1,2024 @@
+[
+    {
+        "id": 1,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's and Lenz's Laws",
+        "question": "The expression for the induced e.m.f. contains a negative sign. What is the significance of the negative sign? [\\epsilon = -d\\phi/dt]",
+        "question_latex": "The expression for the induced e.m.f. contains a negative sign. What is the significance of the negative sign? $\\epsilon=-\\frac{d\\phi}{dt}$.",
+        "question_images": [],
+        "options": [
+            "A. The induced e.m.f. is produced only when the magnetic flux decreases.",
+            "B. The induced e.m.f. opposes the change in the magnetic flux.",
+            "C. The induced e.m.f. is opposite to the direction of the flux.",
+            "D. None of the above."
+        ],
+        "option_images": [],
+        "answer": "B. The induced e.m.f. opposes the change in the magnetic flux.",
+        "solution": "According to Lenz's law, the induced e.m.f. opposes the change in magnetic flux.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 2,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Magnetic Flux",
+        "question": "If any surface is parallel to magnetic lines of forces, then magnetic flux linked with it is",
+        "question_latex": "If any surface is parallel to magnetic lines of forces, then magnetic flux linked with it is",
+        "question_images": [],
+        "options": [
+            "A. Very small but not zero",
+            "B. Infinite",
+            "C. Large but not finite",
+            "D. Zero"
+        ],
+        "option_images": [],
+        "answer": "D. Zero",
+        "solution": "$\\phi = BA \\cos(\\theta)$. For a parallel surface, $\\theta = 90^\\circ$. Thus $\\phi = 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 3,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "As shown in figure, a metal rod makes contact and completes the circuit. The circuit is perpendicular to magnetic field with B=0.15 T. If the resistance is 3 ohm, then the force needed to move the rod with a constant speed of 2 m/s is:",
+        "question_latex": "As shown in figure, a metal rod makes contact and completes the circuit. The circuit is perpendicular to magnetic field with $B=0.15 \\, \\text{T}$. If the resistance is $3 \\, \\Omega$, then the force needed to move the rod with a constant speed of $2 \\, \\text{m/s}$ is:",
+        "question_images": [
+            "q3_1"
+        ],
+        "options": [
+            "A. 3.75 x 10^-3 N",
+            "B. 3.75 x 10^-2 N",
+            "C. 3.75 x 10^-1 N",
+            "D. 3.75 x 10^-4 N"
+        ],
+        "option_images": [],
+        "answer": "A. 3.75 x 10^-3 N",
+        "solution": "$e = Blv = 0.15 \\times 0.5 \\times 2 = 0.15 \\, \\text{V}$. $I = e/R = 0.05 \\, \\text{A}$. $F = BIl = 0.15 \\times 0.05 \\times 0.5 = 3.75 \\times 10^{-3} \\, \\text{N}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 4,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "A toroidal solenoid with air core has an average radius 'R', number of turns 'N' and area of cross-section 'A'. The self-inductance of the solenoid is",
+        "question_latex": "A toroidal solenoid with air core has an average radius $R$, number of turns $N$ and area of cross-section $A$. The self-inductance of the solenoid is",
+        "question_images": [],
+        "options": [
+            "A. (\\mu_0 N^2 A)/R",
+            "B. (\\mu_0 N A)/(2\\pi R)",
+            "C. (\\mu_0 N A)/R",
+            "D. (\\mu_0 N^2 A)/(2\\pi R)"
+        ],
+        "option_images": [],
+        "answer": "D. (\\mu_0 N^2 A)/(2\\pi R)",
+        "solution": "Self inductance $L = \\frac{\\mu_0 N^2 A}{l}$, where $l = 2\\pi R$. $L = \\frac{\\mu_0 N^2 A}{2\\pi R}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 5,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "A magnetic field 4 x 10^-2 T acts at right angles to a coil of area 100 cm^2 with 50 turns. The average e.m.f. induced in the coil is 0.1 V, when it is removed from the field in time 't'. The value of 't' is",
+        "question_latex": "A magnetic field $4 \\times 10^{-2} \\, \\text{T}$ acts at right angles to a coil of area $100 \\, \\text{cm}^2$ with $50$ turns. The average e.m.f. induced in the coil is $0.1 \\, \\text{V}$, when it is removed from the field in time $t$. The value of $t$ is:",
+        "question_images": [],
+        "options": [
+            "A. 0.02 second",
+            "B. 0.2 second",
+            "C. 0.05 second",
+            "D. 2 second"
+        ],
+        "option_images": [],
+        "answer": "B. 0.2 second",
+        "solution": "$e = \\frac{NBA}{t} \\implies 0.1 = \\frac{50 \\times 4 \\times 10^{-2} \\times 100 \\times 10^{-4}}{t} \\implies t = 0.2 \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 6,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Induced EMF",
+        "question": "The instantaneous magnetic flux in a circuit is \\phi = 4t^2 - 4t + 1. The total resistance of circuit is 10 ohm. At t = 1/2 s, the induced current in circuit is:",
+        "question_latex": "The instantaneous magnetic flux in a circuit is $\\phi = 4t^2 - 4t + 1$. The total resistance of circuit is $10 \\, \\Omega$. At $t = \\frac{1}{2} \\, \\text{s}$, the induced current in circuit is:",
+        "question_images": [],
+        "options": [
+            "A. 0 A",
+            "B. 0.6 A",
+            "C. 0.4 A",
+            "D. 0.2 A"
+        ],
+        "option_images": [],
+        "answer": "A. 0 A",
+        "solution": "$e = -d\\phi/dt = -(8t - 4)$. At $t = 1/2$, $e = -(8(1/2) - 4) = 0 \\, \\text{V}$. $I = 0 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 7,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Induced Charge",
+        "question": "The magnetic flux through a circuit of resistance 'R' changes by an amount 'd\\phi' in time 'dt'. What is the total quantity of electric charge 'Q' which passes during this time?",
+        "question_latex": "The magnetic flux through a circuit of resistance $R$ changes by an amount $d\\phi$ in time $dt$. What is the total quantity of electric charge $Q$ which passes during this time?",
+        "question_images": [],
+        "options": [
+            "A. Q = d\\phi / dt",
+            "B. Q = d\\phi \\times R",
+            "C. Q = d\\phi / R",
+            "D. Q = -d\\phi / dt + R"
+        ],
+        "option_images": [],
+        "answer": "C. Q = d\\phi / R",
+        "solution": "$I = \\frac{1}{R}\\left(\\frac{d\\phi}{dt}\\right)$. $Q = I dt = \\frac{d\\phi}{R}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 8,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "The primary coil of a transformer has 200 turns and its secondary coil has 400 turns. The primary coil is connected to an a.c. supply of 220 V and the current flowing is 12 A. The voltage and current in the secondary coil is respectively",
+        "question_latex": "The primary coil of a transformer has $200$ turns and its secondary coil has $400$ turns. The primary coil is connected to an a.c. supply of $220 \\, \\text{V}$ and the current flowing is $12 \\, \\text{A}$. The voltage and current in the secondary coil is respectively:",
+        "question_images": [],
+        "options": [
+            "A. 220 V, 6 A",
+            "B. 440 V, 6 A",
+            "C. 330 V, 2 A",
+            "D. 110 V, 3 A"
+        ],
+        "option_images": [],
+        "answer": "B. 440 V, 6 A",
+        "solution": "$V_s = V_p(N_s/N_p) = 220(400/200) = 440 \\, \\text{V}$. $I_s = I_p(V_p/V_s) = 12(220/440) = 6 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 9,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "The mutual inductance between a primary and secondary circuit is 0.4 H and the resistances are 20 ohm and 4 ohm respectively. To produce a current of 0.5 A in the secondary, primary current must change at the rate of",
+        "question_latex": "The mutual inductance between a primary and secondary circuit is $0.4 \\, \\text{H}$ and the resistances are $20 \\, \\Omega$ and $4 \\, \\Omega$ respectively. To produce a current of $0.5 \\, \\text{A}$ in the secondary, primary current must change at the rate of",
+        "question_images": [],
+        "options": [
+            "A. 5 A/s",
+            "B. 0.2 A/s",
+            "C. 0.4 A/s",
+            "D. 4 A/s"
+        ],
+        "option_images": [],
+        "answer": "A. 5 A/s",
+        "solution": "$e_s = i_s R_s = 0.5 \\times 4 = 2 \\, \\text{V}$. $e_s = M(di_p/dt) \\implies di_p/dt = 2 / 0.4 = 5 \\, \\text{A/s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 10,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Two coils are placed close to each other. The mutual inductance between these coils depends upon",
+        "question_latex": "Two coils are placed close to each other. The mutual inductance between these coils depends upon",
+        "question_images": [],
+        "options": [
+            "A. the materials of wires of two coils.",
+            "B. relative position and orientation of the two coils.",
+            "C. the currents in the two coils.",
+            "D. the rate of change of currents in the two coils."
+        ],
+        "option_images": [],
+        "answer": "B. relative position and orientation of the two coils.",
+        "solution": "Mutual inductance is a geometric property that depends on the relative position, orientation, and number of turns.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 11,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "The coefficient of mutual induction is 2 H and induced e.m.f. across secondary is 2 kV. Current in the primary is reduced from 6 A to 3 A. The time required for the change of current is",
+        "question_latex": "The coefficient of mutual induction is $2 \\, \\text{H}$ and induced e.m.f. across secondary is $2 \\, \\text{kV}$. Current in the primary is reduced from $6 \\, \\text{A}$ to $3 \\, \\text{A}$. The time required for the change of current is",
+        "question_images": [],
+        "options": [
+            "A. 4 x 10^-3 s",
+            "B. 3 x 10^-3 s",
+            "C. 6 x 10^-3 s",
+            "D. 2 x 10^-3 s"
+        ],
+        "option_images": [],
+        "answer": "B. 3 x 10^-3 s",
+        "solution": "$e_s = M(\\Delta I_p/\\Delta t) \\implies 2000 = 2(3 / \\Delta t) \\implies \\Delta t = 3 \\times 10^{-3} \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 12,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "If a change in current of 0.01 A in one coil produces a change in magnetic flux of 1.2 x 10^-2 Wb in the other coil, then the mutual inductance is",
+        "question_latex": "If a change in current of $0.01 \\, \\text{A}$ in one coil produces a change in magnetic flux of $1.2 \\times 10^{-2} \\, \\text{Wb}$ in the other coil, then the mutual inductance is",
+        "question_images": [],
+        "options": [
+            "A. 1.2 H",
+            "B. 0 H",
+            "C. 0.5 H",
+            "D. 3 H"
+        ],
+        "option_images": [],
+        "answer": "A. 1.2 H",
+        "solution": "$M = \\Delta \\phi / \\Delta I = 1.2 \\times 10^{-2} / 0.01 = 1.2 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 13,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Two coils P and Q are kept near each other. When no current flows through P and current increases in Q at 10 A/s, the e.m.f. in P is 15mV. When Q carries no current and 1.8 A flows in P, flux linked with Q is",
+        "question_latex": "Two coils P and Q are kept near each other. When no current flows through P and current increases in Q at $10 \\, \\text{A/s}$, the e.m.f. in P is $15 \\, \\text{mV}$. When Q carries no current and $1.8 \\, \\text{A}$ flows in P, flux linked with Q is",
+        "question_images": [],
+        "options": [
+            "A. 1.4 mWb",
+            "B. 2.2 mWb",
+            "C. 2.7 mWb",
+            "D. 2.9 mWb"
+        ],
+        "option_images": [],
+        "answer": "C. 2.7 mWb",
+        "solution": "$M = e_p / (dI_Q/dt) = 15 \\times 10^{-3} / 10 = 1.5 \\, \\text{mH}$. $\\phi_Q = M I_p = 1.5 \\times 10^{-3} \\times 1.8 = 2.7 \\, \\text{mWb}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 14,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "Two identical coaxial circular loops carry current 'I' each circulating in the clockwise direction. If the loops are approaching each other then",
+        "question_latex": "Two identical coaxial circular loops carry current $I$ each circulating in the clockwise direction. If the loops are approaching each other then",
+        "question_images": [],
+        "options": [
+            "A. current in each loop decreases and then increases.",
+            "B. current in each loop increases.",
+            "C. none of the above",
+            "D. current in one loop increases while in the other loop decreases."
+        ],
+        "option_images": [],
+        "answer": "C. none of the above",
+        "solution": "Flux increases as they approach. By Lenz's law, induced currents oppose the increase, thus reducing the total current in both loops.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 15,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "A coil is wound on a core of rectangular cross-section. If all linear dimensions are increased by a factor 2 and number of turns per unit length remains same, self inductance increases by a factor of",
+        "question_latex": "A coil is wound on a core of rectangular cross-section. If all linear dimensions are increased by a factor $2$ and number of turns per unit length remains same, self inductance increases by a factor of",
+        "question_images": [],
+        "options": [
+            "A. 8",
+            "B. 2",
+            "C. 16",
+            "D. 4"
+        ],
+        "option_images": [],
+        "answer": "A. 8",
+        "solution": "$L = \\mu_0 n^2 l A$. Length $l$ becomes $2l$, Area $A$ becomes $4A$. $L' = \\mu_0 n^2 (2l)(4A) = 8L$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 16,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "AC Transformers",
+        "question": "Alternating current of peak value (2/pi) ampere flows through primary. Mutual inductance is 1 H. Peak e.m.f. induced in secondary is (Frequency = 50 Hz)",
+        "question_latex": "Alternating current of peak value $\\frac{2}{\\pi} \\, \\text{A}$ flows through primary. Mutual inductance is $1 \\, \\text{H}$. Peak e.m.f. induced in secondary is (Frequency = $50 \\, \\text{Hz}$)",
+        "question_images": [],
+        "options": [
+            "A. 100 V",
+            "B. 200 V",
+            "C. 300 V",
+            "D. 400 V"
+        ],
+        "option_images": [],
+        "answer": "B. 200 V",
+        "solution": "$e_0 = M I_0 \\omega = 1 \\times (2/\\pi) \\times (2\\pi \\times 50) = 200 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 17,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "Self inductance of a coil is L. Keeping length and area same, turns are increased to four times. The self inductance will be",
+        "question_latex": "Self inductance of a coil is $L$. Keeping length and area same, turns are increased to four times. The self inductance will be",
+        "question_images": [],
+        "options": [
+            "A. 1/4 L",
+            "B. L",
+            "C. 4 L",
+            "D. 16 L"
+        ],
+        "option_images": [],
+        "answer": "D. 16 L",
+        "solution": "$L \\propto N^2$. $L' \\propto (4N)^2 = 16 N^2 \\implies 16L$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 18,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "An average induced emf of 0.5 V appears when current changes from 10 A to -10 A in 0.8 s. Self inductance is",
+        "question_latex": "An average induced emf of $0.5 \\, \\text{V}$ appears when current changes from $10 \\, \\text{A}$ to $-10 \\, \\text{A}$ in $0.8 \\, \\text{s}$. Self inductance is",
+        "question_images": [],
+        "options": [
+            "A. 40 mH",
+            "B. 50 mH",
+            "C. 25 mH",
+            "D. 20 mH"
+        ],
+        "option_images": [],
+        "answer": "D. 20 mH",
+        "solution": "$e = L(\\Delta I / \\Delta t) \\implies 0.5 = L(20 / 0.8) \\implies L = 0.02 \\, \\text{H} = 20 \\, \\text{mH}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 19,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "A meter gauge train runs at 22 m/s horizontally. Vertical magnetic field is 3 x 10^-4 T. Emf induced in axle is",
+        "question_latex": "A meter gauge train runs at $22 \\, \\text{m/s}$ horizontally. Vertical magnetic field is $3 \\times 10^{-4} \\, \\text{T}$. Emf induced in axle is",
+        "question_images": [],
+        "options": [
+            "A. 6.6 mV",
+            "B. 5.5 mV",
+            "C. 4.5 mV",
+            "D. 4.4 mV"
+        ],
+        "option_images": [],
+        "answer": "A. 6.6 mV",
+        "solution": "$e = B l v = 3 \\times 10^{-4} \\times 1 \\times 22 = 6.6 \\times 10^{-3} \\, \\text{V} = 6.6 \\, \\text{mV}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 20,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "LR Circuits",
+        "question": "The network shown is part of the circuit. At a certain instant I = 5 A and is decreasing at 10^3 A/s. The potential difference between A and B is",
+        "question_latex": "The network shown is part of the circuit. At a certain instant $I = 5 \\, \\text{A}$ and is decreasing at $10^3 \\, \\text{A/s}$. The potential difference between A and B is",
+        "question_images": [
+            "q20_1"
+        ],
+        "options": [
+            "A. across L is 5 mV",
+            "B. across L is 50 V",
+            "C. between the points A and B is 25 V",
+            "D. between the points A and B is 15 V"
+        ],
+        "option_images": [],
+        "answer": "D. between the points A and B is 15 V",
+        "solution": "$V_A - IR - E - L(dI/dt) = V_B \\implies V_A - V_B = 5(1) + 15 + 5\\times 10^{-3}(-10^3) = 15 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 21,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "A cylindrical bar magnet is kept along the axis of a circular coil. If the magnet is rotated about its axis, then:",
+        "question_latex": "A cylindrical bar magnet is kept along the axis of a circular coil. If the magnet is rotated about its axis, then:",
+        "question_images": [],
+        "options": [
+            "A. Only a current will be induced in the coil.",
+            "B. Only e.m.f. will be induced in the coil.",
+            "C. An e.m.f. and a current both will be induced in the coil.",
+            "D. Neither e.m.f. nor current will be induced in the coil."
+        ],
+        "option_images": [],
+        "answer": "D. Neither e.m.f. nor current will be induced in the coil.",
+        "solution": "Rotation along its own axis does not change the magnetic flux through the coil. Hence, $e = 0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 22,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "When the current changes from + 2A to - 2A in 0.05 second, an e.m.f. of 8 V is induced in a coil. The coefficient of self-induction of the coil is",
+        "question_latex": "When the current changes from $+2 \\, \\text{A}$ to $-2 \\, \\text{A}$ in $0.05 \\, \\text{second}$, an e.m.f. of $8 \\, \\text{V}$ is induced in a coil. The coefficient of self-induction of the coil is",
+        "question_images": [],
+        "options": [
+            "A. 0.1 H",
+            "B. 0.2 H",
+            "C. 0.4 H",
+            "D. 0.8 H"
+        ],
+        "option_images": [],
+        "answer": "A. 0.1 H",
+        "solution": "$L = \\frac{e \\Delta t}{\\Delta I} = \\frac{8 \\times 0.05}{4} = 0.1 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 23,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "When magnetic flux changes from 6.5 x 10^-2 Wb to 11 x 10^-2 Wb and the change in current is 0.03 A, the coefficient of mutual inductance will be",
+        "question_latex": "When magnetic flux changes from $6.5 \\times 10^{-2} \\, \\text{Wb}$ to $11 \\times 10^{-2} \\, \\text{Wb}$ and the change in current is $0.03 \\, \\text{A}$, the coefficient of mutual inductance will be",
+        "question_images": [],
+        "options": [
+            "A. 1.5 H",
+            "B. 1.8 H",
+            "C. 1.0 H",
+            "D. 1.2 H"
+        ],
+        "option_images": [],
+        "answer": "A. 1.5 H",
+        "solution": "$M = \\Delta\\phi / \\Delta I = 4.5 \\times 10^{-2} / 0.03 = 1.5 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 24,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "A coil has an area of 0.05 m^2 and it has 800 turns. It is placed perpendicularly in a magnetic field of strength 4 x 10^-5 Wb/m^2, it is rotated through 90^0 in 0.1 sec. The average e.m.f. induced in the coil is",
+        "question_latex": "A coil has an area of $0.05 \\, \\text{m}^2$ and it has $800$ turns. It is placed perpendicularly in a magnetic field of strength $4 \\times 10^{-5} \\, \\text{Wb/m}^2$, it is rotated through $90^\\circ$ in $0.1 \\, \\text{sec}$. The average e.m.f. induced in the coil is",
+        "question_images": [],
+        "options": [
+            "A. 0.056 V",
+            "B. 0.046 V",
+            "C. 0.026 V",
+            "D. 0.016 V"
+        ],
+        "option_images": [],
+        "answer": "D. 0.016 V",
+        "solution": "$e = \\frac{NBA\\Delta\\cos\\theta}{\\Delta t} = \\frac{800 \\times 0.05 \\times 4\\times 10^{-5} \\times 1}{0.1} = 0.016 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 25,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Solenoids",
+        "question": "A long solenoid with 15 turns per cm has a small loop of area 2.0 cm^2 placed inside the solenoid normal to its axis. If the current carried by the solenoid changes steadily from 2.0 A to 4.0 A in 0.1 s, the induced emf in the loop is",
+        "question_latex": "A long solenoid with $15 \\, \\text{turns/cm}$ has a small loop of area $2.0 \\, \\text{cm}^2$ placed inside the solenoid normal to its axis. If the current carried by the solenoid changes steadily from $2.0 \\, \\text{A}$ to $4.0 \\, \\text{A}$ in $0.1 \\, \\text{s}$, the induced emf in the loop is",
+        "question_images": [],
+        "options": [
+            "A. 5.2 x 10^-6 V",
+            "B. 4.48 x 10^-6 V",
+            "C. 9 x 10^-6 V",
+            "D. 7.54 x 10^-6 V"
+        ],
+        "option_images": [],
+        "answer": "D. 7.54 x 10^-6 V",
+        "solution": "$e = \\frac{\\mu_0 n A \\Delta I}{\\Delta t} = \\frac{4\\pi\\times 10^{-7} \\times 1500 \\times 2\\times 10^{-4} \\times 2}{0.1} = 7.54 \\times 10^{-6} \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 26,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "The magnetic flux through a coil is 4 x 10^-4 Wb at time t=0. It reduces to 30% of its original value in time t. If e.m.f. induced in the coil is 0.56 mV then the value of t is",
+        "question_latex": "The magnetic flux through a coil is $4 \\times 10^{-4} \\, \\text{Wb}$ at time $t=0$. It reduces to $30\\%$ of its original value in time $t$. If e.m.f. induced in the coil is $0.56 \\, \\text{mV}$ then the value of $t$ is",
+        "question_images": [],
+        "options": [
+            "A. 0.7 s",
+            "B. 0.5 s",
+            "C. 0.4 s",
+            "D. 0.8 s"
+        ],
+        "option_images": [],
+        "answer": "B. 0.5 s",
+        "solution": "$\\Delta\\phi = 0.7 \\times 4 \\times 10^{-4} = 2.8 \\times 10^{-4} \\, \\text{Wb}$. $t = \\Delta\\phi / e = 2.8 \\times 10^{-4} / (0.56 \\times 10^{-3}) = 0.5 \\, \\text{s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 27,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "The number of turns in the primary coil of a transformer is 200 and the secondary is 10. If 240 volt AC is applied to the primary, output from the secondary will be",
+        "question_latex": "The number of turns in the primary coil of a transformer is $200$ and the secondary is $10$. If $240 \\, \\text{V}$ AC is applied to the primary, output from the secondary will be",
+        "question_images": [],
+        "options": [
+            "A. 48 V",
+            "B. 24 V",
+            "C. 12 V",
+            "D. 6 V"
+        ],
+        "option_images": [],
+        "answer": "C. 12 V",
+        "solution": "$V_s = V_p (N_s / N_p) = 240 \\times (10 / 200) = 12 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 28,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Inductors in Circuit",
+        "question": "Three pure inductors each of inductance 3 H are connected as shown in the figure. The equivalent inductance between A and B is",
+        "question_latex": "Three pure inductors each of inductance $3 \\, \\text{H}$ are connected as shown in the figure. The equivalent inductance between A and B is",
+        "question_images": [
+            "q28_1"
+        ],
+        "options": [
+            "A. 4 H",
+            "B. 9 H",
+            "C. 1 H",
+            "D. 3 H"
+        ],
+        "option_images": [],
+        "answer": "C. 1 H",
+        "solution": "The inductors are in parallel. $1/L_{eq} = 1/3 + 1/3 + 1/3 = 1 \\implies L_{eq} = 1 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 29,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "If rotational velocity of a dynamo armature is doubled then the induced e.m.f. will become",
+        "question_latex": "If rotational velocity of a dynamo armature is doubled then the induced e.m.f. will become",
+        "question_images": [],
+        "options": [
+            "A. Half",
+            "B. Two times",
+            "C. Four times",
+            "D. Unchanged"
+        ],
+        "option_images": [],
+        "answer": "B. Two times",
+        "solution": "$e \\propto \\omega$. If angular velocity is doubled, emf is doubled.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 30,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "A coil of radius 'r' is placed on another coil (whose radius is R and current flowing through it is changing) so that centres coincide (R >> r). If both coils are coplanar then the mutual inductance is",
+        "question_latex": "A coil of radius $r$ is placed on another coil (whose radius is $R$ and current flowing through it is changing) so that centres coincide ($R \\gg r$). If both coils are coplanar then the mutual inductance is",
+        "question_images": [],
+        "options": [
+            "A. (\\mu_0 \\pi r^2)/R",
+            "B. (\\mu_0 \\pi R^2)/r",
+            "C. (\\mu_0 \\pi R^2)/(2r)",
+            "D. (\\mu_0 \\pi r^2)/(2R)"
+        ],
+        "option_images": [],
+        "answer": "D. (\\mu_0 \\pi r^2)/(2R)",
+        "solution": "$M = \\phi/I = B_1 A_2 / I = (\\frac{\\mu_0 I}{2R})(\\pi r^2) / I = \\frac{\\mu_0 \\pi r^2}{2R}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 31,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "Two inductors of 80 mH each are joined in parallel. The current passing through the combination is 2.1 A. The energy stored is",
+        "question_latex": "Two inductors of $80 \\, \\text{mH}$ each are joined in parallel. The current passing through the combination is $2.1 \\, \\text{A}$. The energy stored is",
+        "question_images": [],
+        "options": [
+            "A. 8.82 x 10^-2 J",
+            "B. 4.84 x 10^-2 J",
+            "C. 10.85 x 10^-2 J",
+            "D. 7.26 x 10^-2 J"
+        ],
+        "option_images": [],
+        "answer": "A. 8.82 x 10^-2 J",
+        "solution": "$L_{eq} = 80/2 = 40 \\, \\text{mH}$. $E = \\frac{1}{2} L_{eq} I^2 = 0.5(0.04)(2.1)^2 = 0.0882 \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 32,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "The average emf induced in a coil in which the current changes from 2 ampere to 4 ampere in 0.05 second is 8 volt, what is the self inductance of the coil?",
+        "question_latex": "The average emf induced in a coil in which the current changes from $2 \\, \\text{A}$ to $4 \\, \\text{A}$ in $0.05 \\, \\text{s}$ is $8 \\, \\text{V}$, what is the self inductance of the coil?",
+        "question_images": [],
+        "options": [
+            "A. 0.1 henry",
+            "B. 0.2 henry",
+            "C. 0.4 henry",
+            "D. 0.8 henry"
+        ],
+        "option_images": [],
+        "answer": "B. 0.2 henry",
+        "solution": "$L = \\frac{e\\Delta t}{\\Delta I} = \\frac{8 \\times 0.05}{2} = 0.2 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 33,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "An air craft of wing span 40 m flies horizontally in earth's magnetic field 5 x 10^-5 T at speed of 500 m/s. The e.m.f. generated is",
+        "question_latex": "An air craft of wing span $40 \\, \\text{m}$ flies horizontally in earth's magnetic field $5 \\times 10^{-5} \\, \\text{T}$ at speed of $500 \\, \\text{m/s}$. The e.m.f. generated is",
+        "question_images": [],
+        "options": [
+            "A. 1.5 V",
+            "B. 1.2 V",
+            "C. 1 V",
+            "D. 0.5 V"
+        ],
+        "option_images": [],
+        "answer": "C. 1 V",
+        "solution": "$e = B l v = 5 \\times 10^{-5} \\times 40 \\times 500 = 1 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 34,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "AC Circuits",
+        "question": "An e.m.f. E = 4 cos(1000t) volt is applied to an LR circuit of inductance 3 mH and resistance 4 ohm. The maximum current is",
+        "question_latex": "An e.m.f. $E = 4 \\cos(1000t) \\, \\text{volt}$ is applied to an LR circuit of inductance $3 \\, \\text{mH}$ and resistance $4 \\, \\Omega$. The maximum current is",
+        "question_images": [],
+        "options": [
+            "A. 4/7 A",
+            "B. 0.8 A",
+            "C. 1.0 A",
+            "D. 4/sqrt(7) A"
+        ],
+        "option_images": [],
+        "answer": "B. 0.8 A",
+        "solution": "$X_L = \\omega L = 1000 \\times 3\\times 10^{-3} = 3 \\, \\Omega$. $Z = \\sqrt{R^2+X_L^2} = 5 \\, \\Omega$. $I_{max} = E_0 / Z = 4 / 5 = 0.8 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 35,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "Two identical circular loops of metal wire are lying on a table without touching. Loop-A carries a current which increases with time. Loop-B",
+        "question_latex": "Two identical circular loops of metal wire are lying on a table without touching. Loop-A carries a current which increases with time. Loop-B",
+        "question_images": [],
+        "options": [
+            "A. Remains stationary",
+            "B. Is attracted",
+            "C. Is repelled",
+            "D. Rotates"
+        ],
+        "option_images": [],
+        "answer": "C. Is repelled",
+        "solution": "By Lenz's law, the induced current in B opposes the increase in flux, causing repulsion.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 36,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Coefficient of Coupling",
+        "question": "Two coils having self-inductances 75 mH and 48 mH are coupled. If mutual inductance is 37.20 mH, then coefficient of coupling is",
+        "question_latex": "Two coils having self-inductances $75 \\, \\text{mH}$ and $48 \\, \\text{mH}$ are coupled. If mutual inductance is $37.20 \\, \\text{mH}$, then coefficient of coupling is",
+        "question_images": [],
+        "options": [
+            "A. 0.58",
+            "B. 0.64",
+            "C. 0.62",
+            "D. 0.60"
+        ],
+        "option_images": [],
+        "answer": "C. 0.62",
+        "solution": "$K = M / \\sqrt{L_1 L_2} = 37.2 / \\sqrt{75 \\times 48} = 37.2 / 60 = 0.62$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 37,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "AC Circuits",
+        "question": "The power factor of the circuit shown in figure is:",
+        "question_latex": "The power factor of the circuit shown in figure is:",
+        "question_images": [
+            "q37_1"
+        ],
+        "options": [
+            "A. 0.2",
+            "B. 0.4",
+            "C. 0.8",
+            "D. 0.6"
+        ],
+        "option_images": [],
+        "answer": "C. 0.8",
+        "solution": "$R = 80\\Omega, X_L = 100\\Omega, X_C = 40\\Omega$. $Z = \\sqrt{80^2 + (100-40)^2} = 100\\Omega$. $\\cos\\phi = R/Z = 80/100 = 0.8$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 38,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "Two identical circular loops of metal wire are lying on a table without touching each other Loop a carries a current which increases with time in response the loop B",
+        "question_latex": "Two identical circular loops of metal wire are lying on a table without touching each other. Loop A carries a current which increases with time. In response, the loop B",
+        "question_images": [],
+        "options": [
+            "A. Remains stationary",
+            "B. Is attracted",
+            "C. Is repelled",
+            "D. Rotates"
+        ],
+        "option_images": [],
+        "answer": "C. Is repelled",
+        "solution": "Same as Question 35. Loop B is repelled to oppose the change in magnetic flux.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 39,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "A straight conductor 0.1m long moves in a uniform magnetic field 0.1 T velocity is 15 m/s. The e.m.f. induced is",
+        "question_latex": "A straight conductor $0.1 \\, \\text{m}$ long moves in a uniform magnetic field $0.1 \\, \\text{T}$ velocity is $15 \\, \\text{m/s}$. The e.m.f. induced is",
+        "question_images": [],
+        "options": [
+            "A. 0.10 V",
+            "B. 0.15 V",
+            "C. 1.50 V",
+            "D. 15.00 V"
+        ],
+        "option_images": [],
+        "answer": "B. 0.15 V",
+        "solution": "$e = Bvl = 0.1 \\times 15 \\times 0.1 = 0.15 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 40,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "The self-induced e.m.f of a coil is 10 V. When current changes from 4 A to 8 A in one second, the change in energy is",
+        "question_latex": "The self-induced e.m.f of a coil is $10 \\, \\text{V}$. When current changes from $4 \\, \\text{A}$ to $8 \\, \\text{A}$ in one second, the change in energy is",
+        "question_images": [],
+        "options": [
+            "A. 60 J",
+            "B. 64 J",
+            "C. 48 J",
+            "D. 16 J"
+        ],
+        "option_images": [],
+        "answer": "A. 60 J",
+        "solution": "$L = \\frac{e \\Delta t}{\\Delta I} = 10/4 = 2.5 \\, \\text{H}$. $\\Delta U = \\frac{1}{2} L(I_2^2 - I_1^2) = 1.25(64-16) = 60 \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 41,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "The induced e.m.f. across secondary depends upon (i) turns (ii) permeability (iii) area (iv) resistance. Which are true?",
+        "question_latex": "The induced e.m.f. across secondary depends upon (i) turns (ii) permeability (iii) area (iv) resistance. Which are true?",
+        "question_images": [],
+        "options": [
+            "A. All are true",
+            "B. I, ii, iii",
+            "C. iii, iv",
+            "D. ii, iii, iv"
+        ],
+        "option_images": [],
+        "answer": "B. I, ii, iii",
+        "solution": "Induced emf does not depend on the wire's resistance.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 42,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Induced Current",
+        "question": "A coil of 'n' turns and resistance 'R' is connected in series with R/3. Flux changes from \\phi_1 to \\phi_2 in time t. The current is",
+        "question_latex": "A coil of $n$ turns and resistance $R$ is connected in series with $R/3$. Flux changes from $\\phi_1$ to $\\phi_2$ in time $t$. The current is",
+        "question_images": [],
+        "options": [
+            "A. 2n(\\phi_1-\\phi_2)/(3Rt)",
+            "B. 4n(\\phi_1-\\phi_2)/(3Rt)",
+            "C. 3n(\\phi_1-\\phi_2)/(4Rt)",
+            "D. n(\\phi_1-\\phi_2)/(2Rt)"
+        ],
+        "option_images": [],
+        "answer": "C. 3n(\\phi_1-\\phi_2)/(4Rt)",
+        "solution": "$R_{eq} = R + R/3 = 4R/3$. $I = e/R_{eq} = \\frac{n(\\phi_1-\\phi_2)/t}{4R/3} = \\frac{3n(\\phi_1-\\phi_2)}{4Rt}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 43,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "Three identical coils X, Y and Z are placed parallel. X and Z carry current. Z is moved towards Y, then",
+        "question_latex": "Three identical coils X, Y and Z are placed parallel. X and Z carry current. Z is moved towards Y, then",
+        "question_images": [
+            "q43_1"
+        ],
+        "options": [
+            "A. current induced first clockwise then anticlockwise",
+            "B. current in Y is anticlockwise",
+            "C. current will not be induced",
+            "D. current in Y is clockwise"
+        ],
+        "option_images": [],
+        "answer": "D. current in Y is clockwise",
+        "solution": "Z acts as a magnet moving towards Y. By Lenz's law, Y opposes Z, developing a clockwise current.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 44,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Magnetic Flux",
+        "question": "Square coil area 10^-2 m^2 is placed perpendicular to magnetic field 10^3 Wb/m^2. Magnetic flux is",
+        "question_latex": "Square coil area $10^{-2} \\, \\text{m}^2$ is placed perpendicular to magnetic field $10^3 \\, \\text{Wb/m}^2$. Magnetic flux is",
+        "question_images": [],
+        "options": [
+            "A. 10 weber",
+            "B. 10^-5 weber",
+            "C. zero weber",
+            "D. 10^5 weber"
+        ],
+        "option_images": [],
+        "answer": "A. 10 weber",
+        "solution": "$\\phi = BA\\cos(0) = 10^3 \\times 10^{-2} = 10 \\, \\text{Wb}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 45,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "If current I gives flux \\phi in N turns, magnetic energy stored is",
+        "question_latex": "If current $I$ gives flux $\\phi$ in $N$ turns, magnetic energy stored is",
+        "question_images": [],
+        "options": [
+            "A. NI/2\\phi",
+            "B. \\phi I/2",
+            "C. N\\phi/I",
+            "D. N\\phi I/2"
+        ],
+        "option_images": [],
+        "answer": "D. N\\phi I/2",
+        "solution": "$U = 0.5 LI^2$. $L = N\\phi/I$. $U = 0.5 (N\\phi/I) I^2 = N\\phi I / 2$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 46,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "When no current in P and current increases in Q at 10 A/s, e.m.f. in P is 15 mV. When 1.8 A flows in P, flux linked with Q is",
+        "question_latex": "When no current in P and current increases in Q at $10 \\, \\text{A/s}$, e.m.f. in P is $15 \\, \\text{mV}$. When $1.8 \\, \\text{A}$ flows in P, flux linked with Q is",
+        "question_images": [],
+        "options": [
+            "A. 1.5 mWb",
+            "B. 2.7 mWb",
+            "C. 1.8 mWb",
+            "D. 1 mWb"
+        ],
+        "option_images": [],
+        "answer": "B. 2.7 mWb",
+        "solution": "$M = 15\\text{mV} / 10 = 1.5 \\, \\text{mH}$. $\\phi = MI = 1.5 \\times 1.8 = 2.7 \\, \\text{mWb}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 47,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "Copper coil area 1 sq.m placed perpendicular to B=0.3 Wb/m^2. Rotated 180^0 in 0.03s. Resistance is 5 ohm.",
+        "question_latex": "Copper coil area $1 \\, \\text{m}^2$ placed perpendicular to $B=0.3 \\, \\text{Wb/m}^2$. Rotated $180^\\circ$ in $0.03 \\, \\text{s}$. Resistance is $5 \\, \\Omega$.",
+        "question_images": [],
+        "options": [
+            "A. induced current is 10A",
+            "B. induced current is 4A",
+            "C. induced e.m.f is 10V",
+            "D. induced e.m.f is 4V"
+        ],
+        "option_images": [],
+        "answer": "B. induced current is 4A",
+        "solution": "$e = \\Delta\\phi/t = 2BA/t = 2(0.3)(1)/0.03 = 20 \\, \\text{V}$. $I = 20/5 = 4 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 48,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "Current 5A at 220V in primary. Secondary voltage 2200V, 50% power lost. Current in secondary is",
+        "question_latex": "Current $5 \\, \\text{A}$ at $220 \\, \\text{V}$ in primary. Secondary voltage $2200 \\, \\text{V}$, $50\\%$ power lost. Current in secondary is",
+        "question_images": [],
+        "options": [
+            "A. 0.5 A",
+            "B. 5 A",
+            "C. 0.25 A",
+            "D. 2.5 A"
+        ],
+        "option_images": [],
+        "answer": "C. 0.25 A",
+        "solution": "$P_{out} = 0.5 P_{in} = 0.5(220 \\times 5) = 550 \\, \\text{W}$. $I_s = 550 / 2200 = 0.25 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 49,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Mutual inductance is M. Current I brought to zero in 't' sec, e.m.f induced per turn in other coil is",
+        "question_latex": "Mutual inductance is $M$. Current $I$ brought to zero in $t$ sec, e.m.f induced per turn in other coil is",
+        "question_images": [],
+        "options": [
+            "A. NMI/t",
+            "B. MI/t",
+            "C. MI/Nt",
+            "D. MN/It"
+        ],
+        "option_images": [],
+        "answer": "C. MI/Nt",
+        "solution": "Total e.m.f. $= M(I/t)$. e.m.f. per turn $= (MI/t)/N = MI/Nt$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 50,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "Graph of flux vs current for A, B, C, D. Smallest self inductance is for",
+        "question_latex": "Graph of flux vs current for A, B, C, D. Smallest self inductance is for",
+        "question_images": [
+            "q50_1"
+        ],
+        "options": [
+            "A. B",
+            "B. C",
+            "C. D",
+            "D. A"
+        ],
+        "option_images": [],
+        "answer": "C. D",
+        "solution": "$L = \\phi/I$ (slope). D has the smallest slope.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 51,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Rod of length L moves with speed V. Resistance R. Force needed is",
+        "question_latex": "Rod of length $L$ moves with speed $V$. Resistance $R$. Force needed is",
+        "question_images": [
+            "q51_1"
+        ],
+        "options": [
+            "A. VB^2 L^2 R",
+            "B. B^2 L^2 V / R",
+            "C. BLV/R",
+            "D. BLR"
+        ],
+        "option_images": [],
+        "answer": "B. B^2 L^2 V / R",
+        "solution": "$F = BIl = B(BvL/R)L = B^2 L^2 V / R$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 52,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Pendulum wire length L swings through \\theta. B field perpendicular. Max emf is",
+        "question_latex": "Pendulum wire length $L$ swings through $\\theta$. $B$ field perpendicular. Max emf is",
+        "question_images": [],
+        "options": [
+            "A. 2BL(gL)sin^2\\theta",
+            "B. BL(gL)sin\\theta",
+            "C. BL(gL)sin\\theta",
+            "D. 2BL\\sqrt{gL}\\sin(\\theta/2)"
+        ],
+        "option_images": [],
+        "answer": "D. 2BL\\sqrt{gL}\\sin(\\theta/2)",
+        "solution": "$v = \\sqrt{2gL(1-\\cos\\theta)} = 2\\sin(\\theta/2)\\sqrt{gL}$. $e = BLv = 2BL\\sqrt{gL}\\sin(\\theta/2)$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 53,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Rod length l rotated with \\omega in B field. emf is",
+        "question_latex": "Rod length $l$ rotated with $\\omega$ in $B$ field. emf is",
+        "question_images": [
+            "q53_1"
+        ],
+        "options": [
+            "A. Bl^2\\omega",
+            "B. Bl^2\\omega/2",
+            "C. Bl\\omega",
+            "D. Bl\\omega/2"
+        ],
+        "option_images": [],
+        "answer": "B. Bl^2\\omega/2",
+        "solution": "$e = 0.5 B l^2 \\omega$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 54,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Eddy Currents",
+        "question": "Magnet dropped through metal pipe. Acceleration is",
+        "question_latex": "Magnet dropped through metal pipe. Acceleration is",
+        "question_images": [],
+        "options": [
+            "A. Zero or more than g",
+            "B. less than g",
+            "C. more than g",
+            "D. equal to g"
+        ],
+        "option_images": [],
+        "answer": "B. less than g",
+        "solution": "Eddy currents oppose the motion (Lenz's Law), so $a < g$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 55,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "Relation between L and W for unit current is",
+        "question_latex": "Relation between $L$ and $W$ for unit current is",
+        "question_images": [],
+        "options": [
+            "A. L = 2W",
+            "B. L = 4W",
+            "C. L = W",
+            "D. L = W/2"
+        ],
+        "option_images": [],
+        "answer": "A. L = 2W",
+        "solution": "$W = 0.5 L I^2$. If $I=1$, $W = L/2 \\implies L = 2W$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 56,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "AC generator, plane perpendicular to field:",
+        "question_latex": "AC generator, plane perpendicular to field:",
+        "question_images": [],
+        "options": [
+            "A. flux max, emf zero",
+            "B. flux zero, emf max",
+            "C. both max",
+            "D. both zero"
+        ],
+        "option_images": [],
+        "answer": "A. flux max, emf zero",
+        "solution": "Plane perpendicular $\\implies \\theta=0 \\implies \\phi$ max. $e = -d\\phi/dt \\propto \\sin(0) = 0$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 57,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "M=0.5H. R_p=20, R_s=5. I_s=0.4A. Rate of change of primary current is",
+        "question_latex": "M=0.5H. $R_p=20$, $R_s=5$. $I_s=0.4A$. Rate of change of primary current is",
+        "question_images": [],
+        "options": [
+            "A. 4.0 A/s",
+            "B. 16.0 A/s",
+            "C. 1.6 A/s",
+            "D. 8.0 A/s"
+        ],
+        "option_images": [],
+        "answer": "A. 4.0 A/s",
+        "solution": "$di/dt = I_s R_s / M = (0.4 \\times 5)/0.5 = 4 \\, \\text{A/s}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 58,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Rod AC length l rotating about O. AO = l/4. V_A - V_C is",
+        "question_latex": "Rod AC length $l$ rotating about O. AO = $l/4$. $V_A - V_C$ is",
+        "question_images": [
+            "q58_1"
+        ],
+        "options": [
+            "A. B\\omega l^2 / 4",
+            "B. 3B\\omega l^2 / 4",
+            "C. B\\omega l^2 / 2",
+            "D. 9B\\omega l^2 / 32"
+        ],
+        "option_images": [],
+        "answer": "A. B\\omega l^2 / 4",
+        "solution": "$V_A - V_C = \\frac{1}{2}B\\omega (3l/4)^2 - \\frac{1}{2}B\\omega (l/4)^2 = \\frac{1}{2}B\\omega (8l^2/16) = B\\omega l^2 / 4$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 59,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "220V to 2200V. N_s=2000. N_p is",
+        "question_latex": "$220 \\, \\text{V}$ to $2200 \\, \\text{V}$. $N_s=2000$. $N_p$ is",
+        "question_images": [],
+        "options": [
+            "A. 200",
+            "B. 100",
+            "C. 50",
+            "D. 20"
+        ],
+        "option_images": [],
+        "answer": "A. 200",
+        "solution": "$N_p = N_s (V_p/V_s) = 2000(220/2200) = 200$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 60,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "Step down ratio 20:1. 8V across 0.4 ohm secondary. Primary current is",
+        "question_latex": "Step down ratio $20:1$. $8 \\, \\text{V}$ across $0.4 \\, \\Omega$ secondary. Primary current is",
+        "question_images": [],
+        "options": [
+            "A. 0.5 A",
+            "B. 4 A",
+            "C. 1 A",
+            "D. 2 A"
+        ],
+        "option_images": [],
+        "answer": "C. 1 A",
+        "solution": "$I_s = 8/0.4 = 20 \\, \\text{A}$. $I_p = I_s(N_s/N_p) = 20(1/20) = 1 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 61,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Induced Current",
+        "question": "Coil resistance R connected to 6R galvanometer. Flux changes \\phi_1 to \\phi_2 in t. Current is",
+        "question_latex": "Coil resistance $R$ connected to $6R$ galvanometer. Flux changes $\\phi_1$ to $\\phi_2$ in $t$. Current is",
+        "question_images": [],
+        "options": [
+            "A. N(\\phi_2-\\phi_1)/7Rt",
+            "B. N(\\phi_2-\\phi_1)/Rt",
+            "C. N(\\phi_2-\\phi_1)/t",
+            "D. N(\\phi_2-\\phi_1)/6Rt"
+        ],
+        "option_images": [],
+        "answer": "A. N(\\phi_2-\\phi_1)/7Rt",
+        "solution": "$R_{eq} = R+6R = 7R$. $I = e/7R = N(\\phi_2-\\phi_1)/(7Rt)$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 62,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "f=200rad/s, I_0=1A. M=1.5H. Voltage induced is",
+        "question_latex": "$\\omega=200 \\, \\text{rad/s}$, $I_0=1 \\, \\text{A}$. $M=1.5 \\, \\text{H}$. Voltage induced is",
+        "question_images": [],
+        "options": [
+            "A. 471 V",
+            "B. 191 V",
+            "C. 300 V",
+            "D. 220 V"
+        ],
+        "option_images": [],
+        "answer": "B. 191 V",
+        "solution": "$e_{avg} = M \\frac{2I_0}{T/2} = M \\frac{2I_0}{\\pi/\\omega} = \\frac{1.5 \\times 2 \\times 100}{\\pi} \\approx 191 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 63,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "Self inductance L of solenoid length l, area A increases as",
+        "question_latex": "Self inductance $L$ of solenoid length $l$, area $A$ increases as",
+        "question_images": [],
+        "options": [
+            "A. l, A increase",
+            "B. l increases A decreases",
+            "C. l decreases A increases",
+            "D. l, A decrease"
+        ],
+        "option_images": [],
+        "answer": "C. l decreases A increases",
+        "solution": "$L \\propto A/l$. Increases if $A$ increases and $l$ decreases.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 64,
+        "topic": "Alternating Current",
+        "subtopic": "Resonance",
+        "question": "In parallel resonant circuit, condenser current leads inductor current by",
+        "question_latex": "In parallel resonant circuit, condenser current leads inductor current by",
+        "question_images": [],
+        "options": [
+            "A. 0^0",
+            "B. 90^0",
+            "C. 180^0",
+            "D. 270^0"
+        ],
+        "option_images": [],
+        "answer": "C. 180^0",
+        "solution": "Condenser current leads voltage by $90^\\circ$, inductor lags by $90^\\circ$. Phase difference is $180^\\circ$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 65,
+        "topic": "Alternating Current",
+        "subtopic": "Inductive Reactance",
+        "question": "Ratio of reactance AC to DC is",
+        "question_latex": "Ratio of reactance AC to DC is",
+        "question_images": [],
+        "options": [
+            "A. zero",
+            "B. two",
+            "C. \\infty",
+            "D. one"
+        ],
+        "option_images": [],
+        "answer": "C. \\infty",
+        "solution": "$X_L = \\omega L$. For DC, $\\omega=0 \\implies X_L = 0$. Ratio is $\\infty$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 66,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Coefficient of Coupling",
+        "question": "L_1=4mH, L_2=9mH completely linked. Mutual inductance is",
+        "question_latex": "$L_1=4 \\, \\text{mH}$, $L_2=9 \\, \\text{mH}$ completely linked. Mutual inductance is",
+        "question_images": [],
+        "options": [
+            "A. 12",
+            "B. 10",
+            "C. 6",
+            "D. 4"
+        ],
+        "option_images": [],
+        "answer": "C. 6",
+        "solution": "$M = \\sqrt{4 \\times 9} = 6 \\, \\text{mH}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 67,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "Current 8A to 0 in 0.4s. emf=200V. L is",
+        "question_latex": "Current $8 \\, \\text{A}$ to $0$ in $0.4 \\, \\text{s}$. e.m.f. = $200 \\, \\text{V}$. $L$ is",
+        "question_images": [],
+        "options": [
+            "A. 20 H",
+            "B. 15 H",
+            "C. 5 H",
+            "D. 10 H"
+        ],
+        "option_images": [],
+        "answer": "D. 10 H",
+        "solution": "$L = 200 / (8/0.4) = 10 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 68,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "Alternating current can be produced by",
+        "question_latex": "Alternating current can be produced by",
+        "question_images": [],
+        "options": [
+            "A. transformer",
+            "B. choke coil",
+            "C. dynamo",
+            "D. galvanometer"
+        ],
+        "option_images": [],
+        "answer": "C. dynamo",
+        "solution": "An AC generator/dynamo produces alternating current.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 69,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "B field 0 to 18T in 0.1s. Area 2m^2, R=5. Current is",
+        "question_latex": "$B$ field $0$ to $18 \\, \\text{T}$ in $0.1 \\, \\text{s}$. Area $2 \\, \\text{m}^2$, $R=5 \\, \\Omega$. Current is",
+        "question_images": [],
+        "options": [
+            "A. 72 A anticlockwise",
+            "B. 27 A anticlockwise",
+            "C. 72 A clockwise",
+            "D. 27 A clockwise"
+        ],
+        "option_images": [],
+        "answer": "A. 72 A anticlockwise",
+        "solution": "$e = A(dB/dt) = 2(180) = 360 \\, \\text{V}$. $I = 360/5 = 72 \\, \\text{A}$. Opposes increase.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 70,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "I = 3t^2 + 2t. L=10mH. emf at t=2 is",
+        "question_latex": "$I = 3t^2 + 2t$. $L=10 \\, \\text{mH}$. emf at $t=2$ is",
+        "question_images": [],
+        "options": [
+            "A. 0.12 V",
+            "B. 0.11 V",
+            "C. 0.14 V",
+            "D. 0.13 V"
+        ],
+        "option_images": [],
+        "answer": "C. 0.14 V",
+        "solution": "$e = L(6t+2) = 10^{-2}(14) = 0.14 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 71,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "Step up transformer, secondary V increases, primary I",
+        "question_latex": "Step up transformer, secondary $V$ increases, primary $I$",
+        "question_images": [],
+        "options": [
+            "A. Increases",
+            "B. Decreases",
+            "C. Does not change",
+            "D. Becomes zero"
+        ],
+        "option_images": [],
+        "answer": "A. Increases",
+        "solution": "If $V_s$ increases (higher load power), $I_p$ must increase to supply the power.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 72,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "I=4A gives 3x10^-3 Wb in 400 turns. Energy stored is",
+        "question_latex": "$I=4 \\, \\text{A}$ gives $3 \\times 10^{-3} \\, \\text{Wb}$ in $400$ turns. Energy stored is",
+        "question_images": [],
+        "options": [
+            "A. 1.2 J",
+            "B. 24 J",
+            "C. 240 J",
+            "D. 2.4 J"
+        ],
+        "option_images": [],
+        "answer": "D. 2.4 J",
+        "solution": "$L = N\\phi/I = 400(3\\times 10^{-3})/4 = 0.3 \\, \\text{H}$. $U = 0.5(0.3)(16) = 2.4 \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 73,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Circular loop shrinking dr/dt = 3cm/s. B=0.6T. emf at r=10cm is",
+        "question_latex": "Circular loop shrinking $dr/dt = 3 \\, \\text{cm/s}$. $B=0.6 \\, \\text{T}$. emf at $r=10 \\, \\text{cm}$ is",
+        "question_images": [],
+        "options": [
+            "A. 3.2\\pi",
+            "B. 3.6\\pi",
+            "C. 2.6\\pi",
+            "D. 1.8\\pi"
+        ],
+        "option_images": [],
+        "answer": "B. 3.6\\pi",
+        "solution": "$e = B (2\\pi r) (dr/dt) = 0.6 \\times 2\\pi (0.1) \\times 0.03 = 3.6\\pi \\, \\text{mV}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 74,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "Square coil 25cm, 1000 turns. e=200sin(100\\pi t). B is",
+        "question_latex": "Square coil $25 \\, \\text{cm}$, $1000$ turns. $e=200\\sin(100\\pi t)$. $B$ is",
+        "question_images": [],
+        "options": [
+            "A. 0.50 T",
+            "B. 0.01 T",
+            "C. 10^-7 T",
+            "D. 0.1 T"
+        ],
+        "option_images": [],
+        "answer": "B. 0.01 T",
+        "solution": "$e_0 = NAB\\omega \\implies 200 = 1000(0.0625)B(100\\pi) \\implies B = 0.01 \\, \\text{T}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 75,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Generators",
+        "question": "50cm^2, 500 turns, 0.1T, 600rpm. plane inclined 60^0. emf is",
+        "question_latex": "$50 \\, \\text{cm}^2$, $500$ turns, $0.1 \\, \\text{T}$, $600 \\, \\text{rpm}$. plane inclined $60^\\circ$. emf is",
+        "question_images": [],
+        "options": [
+            "A. 4.5\\pi",
+            "B. 2.5\\pi",
+            "C. 25\\pi",
+            "D. 2\\pi"
+        ],
+        "option_images": [],
+        "answer": "B. 2.5\\pi",
+        "solution": "$\\theta = 90 - 60 = 30^\\circ$. $e = NAB\\omega\\sin(30^\\circ) = 500(50\\times 10^{-4})(0.1)(20\\pi)(0.5) = 2.5\\pi \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 76,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Eddy Currents",
+        "question": "Which is not an application of eddy currents",
+        "question_latex": "Which is not an application of eddy currents",
+        "question_images": [],
+        "options": [
+            "A. Induction furnace",
+            "B. Galvanometer damping",
+            "C. Speedometer",
+            "D. X-ray crystallography"
+        ],
+        "option_images": [],
+        "answer": "D. X-ray crystallography",
+        "solution": "X-ray uses diffraction, not eddy currents.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 77,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Current 7A causes flux change 14x10^-4 Wb/turn. 2000 turns. M is",
+        "question_latex": "Current $7 \\, \\text{A}$ causes flux change $14 \\times 10^{-4} \\, \\text{Wb/turn}$. $2000$ turns. $M$ is",
+        "question_images": [],
+        "options": [
+            "A. 2.5 H",
+            "B. 0.4 H",
+            "C. 0.2 H",
+            "D. 0.7 H"
+        ],
+        "option_images": [],
+        "answer": "B. 0.4 H",
+        "solution": "$M = N\\Delta\\phi/I = 2000(14\\times 10^{-4})/7 = 0.4 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 78,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "Self inductance varies with N as",
+        "question_latex": "Self inductance varies with $N$ as",
+        "question_images": [],
+        "options": [
+            "A. N^0",
+            "B. N^3",
+            "C. N^2",
+            "D. N^1"
+        ],
+        "option_images": [],
+        "answer": "C. N^2",
+        "solution": "$L \\propto N^2$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 79,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Two circular loops R1, R2. M is proportional to",
+        "question_latex": "Two circular loops $R_1$, $R_2$. $M$ is proportional to",
+        "question_images": [],
+        "options": [
+            "A. R_2/R_1",
+            "B. R_1/R_2",
+            "C. R_2^2/R_1",
+            "D. R_1^2/R_2"
+        ],
+        "option_images": [],
+        "answer": "C. R_2^2/R_1",
+        "solution": "$M = \\frac{\\mu_0 \\pi R_2^2}{2R_1} \\propto R_2^2/R_1$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 80,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Inductors in Circuit",
+        "question": "L1=3H, L2=3H, L3=6H. Obtain 1.2H (text solution implies 3 parallel 3H for 1H)",
+        "question_latex": "Obtain $1 \\, \\text{H}$ using identical inductors from figures",
+        "question_images": [
+            "q80_1"
+        ],
+        "options": [
+            "A. P",
+            "B. R",
+            "C. S",
+            "D. Q"
+        ],
+        "option_images": [],
+        "answer": "D. Q",
+        "solution": "1/L = 1/3+1/3+1/3 = 1H (parallel).",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 81,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "M=2x10^-2. i=5sin(10\\pi t). max emf in B is",
+        "question_latex": "$M=2 \\times 10^{-2} \\, \\text{H}$. $i=5\\sin(10\\pi t)$. max emf in B is",
+        "question_images": [],
+        "options": [
+            "A. \\pi",
+            "B. \\pi/3",
+            "C. \\pi/4",
+            "D. \\pi/2"
+        ],
+        "option_images": [],
+        "answer": "A. \\pi",
+        "solution": "$e_0 = M I_0 \\omega = 2\\times 10^{-2} \\times 5 \\times 10\\pi = \\pi \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 82,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "Power same. Ratio of energy stored L1 to L2 is",
+        "question_latex": "Power same. Ratio of energy stored $L_1$ to $L_2$ is",
+        "question_images": [],
+        "options": [
+            "A. L_1^2/L_2^2",
+            "B. L_2^2/L_1^2",
+            "C. L_2/L_1",
+            "D. L_1/L_2"
+        ],
+        "option_images": [],
+        "answer": "C. L_2/L_1",
+        "solution": "$E_1/E_2 = (L_1/L_2)(I_1/I_2)^2 = (L_1/L_2)(L_2/L_1)^2 = L_2/L_1$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 83,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "Area 10^-2 m^2, 100 turns. dB/dt = 10^3. emf is",
+        "question_latex": "Area $10^{-2} \\, \\text{m}^2$, $100$ turns. $dB/dt = 10^3$. emf is",
+        "question_images": [],
+        "options": [
+            "A. 10^-2 V",
+            "B. 10^-3 V",
+            "C. 10 V",
+            "D. 10^3 V"
+        ],
+        "option_images": [],
+        "answer": "D. 10^3 V",
+        "solution": "$e = NA(dB/dt) = 100 \\times 10^{-2} \\times 10^3 = 10^3 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 84,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Energy Stored in Inductor",
+        "question": "Two 60mH in parallel. I=2.2A. Energy is",
+        "question_latex": "Two $60 \\, \\text{mH}$ in parallel. $I=2.2 \\, \\text{A}$. Energy is",
+        "question_images": [],
+        "options": [
+            "A. 0.0984",
+            "B. 0.0667",
+            "C. 0.0333",
+            "D. 0.0726"
+        ],
+        "option_images": [],
+        "answer": "D. 0.0726",
+        "solution": "$L_{eq} = 30 \\, \\text{mH}$. $U = 0.5(0.03)(2.2)^2 = 0.0726 \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 85,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "120 turns, 5A. 1kW input. 560V output. Secondary turns?",
+        "question_latex": "$120$ turns, $5 \\, \\text{A}$. $1 \\, \\text{kW}$ input. $560 \\, \\text{V}$ output. Secondary turns?",
+        "question_images": [],
+        "options": [
+            "A. 336",
+            "B. 200",
+            "C. 400",
+            "D. 168"
+        ],
+        "option_images": [],
+        "answer": "A. 336",
+        "solution": "$V_p = 1000/5 = 200 \\, \\text{V}$. $N_s = 120(560/200) = 336$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 86,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Disc radius R rotates \\omega in B. emf is",
+        "question_latex": "Disc radius $R$ rotates $\\omega$ in $B$. emf is",
+        "question_images": [],
+        "options": [
+            "A. -BR^2\\omega/2",
+            "B. -2B\\pi^2 R^2/\\omega^2",
+            "C. -B\\pi R^2\\omega",
+            "D. -B\\pi R^2"
+        ],
+        "option_images": [],
+        "answer": "A. -BR^2\\omega/2",
+        "solution": "$e = 0.5 B R^2 \\omega$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 87,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Small loop l inside large loop L. Mutual inductance is",
+        "question_latex": "Small loop $l$ inside large loop $L$. Mutual inductance is",
+        "question_images": [],
+        "options": [
+            "A. 2\\mu_0 l^2 / \\pi L",
+            "B. 2\\sqrt{2}\\mu_0 l^2 / \\pi L",
+            "C. \\sqrt{2}\\mu_0 l^2 / \\pi L",
+            "D. \\mu_0 l^2 / 2\\pi L"
+        ],
+        "option_images": [],
+        "answer": "B. 2\\sqrt{2}\\mu_0 l^2 / \\pi L",
+        "solution": "$M = \\phi/I = (2\\sqrt{2}\\mu_0 I / \\pi L) l^2 / I = 2\\sqrt{2}\\mu_0 l^2 / \\pi L$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 88,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "1V average emf. 10A to -10A in 0.5s. L is",
+        "question_latex": "$1 \\, \\text{V}$ average emf. $10 \\, \\text{A}$ to $-10 \\, \\text{A}$ in $0.5 \\, \\text{s}$. $L$ is",
+        "question_images": [],
+        "options": [
+            "A. 25 mH",
+            "B. 50 mH",
+            "C. 75 mH",
+            "D. 100 mH"
+        ],
+        "option_images": [],
+        "answer": "A. 25 mH",
+        "solution": "$L = 1(0.5)/20 = 0.025 \\, \\text{H} = 25 \\, \\text{mH}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 89,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Motional EMF",
+        "question": "Circular wire rotates about own axis. emf is",
+        "question_latex": "Circular wire rotates about own axis. emf is",
+        "question_images": [],
+        "options": [
+            "A. 0.5 Br\\omega^2",
+            "B. Br\\omega^2",
+            "C. 2Br\\omega^2",
+            "D. Zero"
+        ],
+        "option_images": [],
+        "answer": "D. Zero",
+        "solution": "No change in flux. $e=0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 90,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "Two concentric coils r1, r2. Mutual inductance is",
+        "question_latex": "Two concentric coils $r_1$, $r_2$. Mutual inductance is",
+        "question_images": [],
+        "options": [
+            "A. \\mu_0 \\pi r_1 / 2r_2",
+            "B. \\mu_0 \\pi / 2r_1 r_2",
+            "C. \\mu_0 \\pi r_2^2 / 2r_1",
+            "D. \\mu_0 \\pi r_2 / 2r_1"
+        ],
+        "option_images": [],
+        "answer": "C. \\mu_0 \\pi r_2^2 / 2r_1",
+        "solution": "$M = \\phi/I = (\\frac{\\mu_0 I}{2r_1})(\\pi r_2^2) / I = \\frac{\\mu_0 \\pi r_2^2}{2r_1}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 91,
+        "topic": "Alternating Current",
+        "subtopic": "LR Circuit",
+        "question": "L=1/\\pi H, R=300, f=200Hz. Phase difference is",
+        "question_latex": "$L=1/\\pi \\, \\text{H}$, $R=300 \\, \\Omega$, $f=200 \\, \\text{Hz}$. Phase difference is",
+        "question_images": [],
+        "options": [
+            "A. tan^-1(4/3)",
+            "B. tan^-1(3/4)",
+            "C. tan^-1(1/4)",
+            "D. tan^-1(5/4)"
+        ],
+        "option_images": [],
+        "answer": "A. tan^-1(4/3)",
+        "solution": "$X_L = 2\\pi(200)(1/\\pi) = 400 \\, \\Omega$. $\\tan\\theta = X_L/R = 400/300 = 4/3$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 92,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "1000 turns, B=4x10^-5, A=0.05. Rotated 180^0 in 0.01s. emf is",
+        "question_latex": "$1000$ turns, $B=4 \\times 10^{-5}$, $A=0.05$. Rotated $180^\\circ$ in $0.01 \\, \\text{s}$. emf is",
+        "question_images": [],
+        "options": [
+            "A. 0.2 V",
+            "B. 0.3 V",
+            "C. 0.1 V",
+            "D. 0.4 V"
+        ],
+        "option_images": [],
+        "answer": "D. 0.4 V",
+        "solution": "$e = 2NAB/t = 2(1000)(0.05)(4\\times 10^{-5})/0.01 = 0.4 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 93,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "200 primary, 10 secondary. 240V AC primary. Output is",
+        "question_latex": "$200$ primary, $10$ secondary. $240 \\, \\text{V}$ AC primary. Output is",
+        "question_images": [],
+        "options": [
+            "A. 48 V",
+            "B. 24 V",
+            "C. 12 V",
+            "D. 6 V"
+        ],
+        "option_images": [],
+        "answer": "C. 12 V",
+        "solution": "$V_s = V_p(N_s/N_p) = 240(10/200) = 12 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 94,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Mutual Inductance",
+        "question": "5A primary gives 200Wb secondary flux. M is",
+        "question_latex": "$5 \\, \\text{A}$ primary gives $200 \\, \\text{Wb}$ secondary flux. $M$ is",
+        "question_images": [],
+        "options": [
+            "A. 1000 H",
+            "B. 40 H",
+            "C. 195 H",
+            "D. 205 H"
+        ],
+        "option_images": [],
+        "answer": "B. 40 H",
+        "solution": "$M = \\phi/I = 200/5 = 40 \\, \\text{H}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 95,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "220V to 4.4kV. 6.6kW power. Secondary current rating is",
+        "question_latex": "$220 \\, \\text{V}$ to $4.4 \\, \\text{kV}$. $6.6 \\, \\text{kW}$ power. Secondary current rating is",
+        "question_images": [],
+        "options": [
+            "A. 0.75 A",
+            "B. 1.5 A",
+            "C. 1.0 A",
+            "D. 2.5 A"
+        ],
+        "option_images": [],
+        "answer": "B. 1.5 A",
+        "solution": "$I_s = P / V_s = 6600 / 4400 = 1.5 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 96,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Faraday's Law",
+        "question": "Flux reduced by 25% in 2s. emf is",
+        "question_latex": "Flux reduced by $25\\%$ in $2 \\, \\text{s}$. emf is",
+        "question_images": [],
+        "options": [
+            "A. AB/2",
+            "B. AB/8",
+            "C. AB/4",
+            "D. 3AB/4"
+        ],
+        "option_images": [],
+        "answer": "B. AB/8",
+        "solution": "$\\Delta\\phi = 0.25 AB$. $e = 0.25 AB / 2 = AB / 8$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 97,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "L1=8mH, L2=2mH. Same power. Ratio of currents is",
+        "question_latex": "$L_1=8 \\, \\text{mH}$, $L_2=2 \\, \\text{mH}$. Same power. Ratio of currents is",
+        "question_images": [],
+        "options": [
+            "A. 1/4",
+            "B. 4/1",
+            "C. 3/4",
+            "D. 4/3"
+        ],
+        "option_images": [],
+        "answer": "A. 1/4",
+        "solution": "$V_1 I_1 = V_2 I_2 \\implies (L_1/L_2) = V_1/V_2 = 4$. $I_1/I_2 = V_2/V_1 = 1/4$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 98,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Lenz's Law",
+        "question": "Magnet suspended oscillates in coil. Deflection is",
+        "question_latex": "Magnet suspended oscillates in coil. Deflection is",
+        "question_images": [
+            "q98_1"
+        ],
+        "options": [
+            "A. constant amplitude",
+            "B. one side",
+            "C. no deflection",
+            "D. left and right steadily decreases"
+        ],
+        "option_images": [],
+        "answer": "D. left and right steadily decreases",
+        "solution": "Eddy currents and Lenz's Law cause damping, decreasing amplitude.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 99,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Transformers",
+        "question": "2400V line, 80A secondary. Ratio 20:1. Primary current is",
+        "question_latex": "$2400 \\, \\text{V}$ line, $80 \\, \\text{A}$ secondary. Ratio $20:1$. Primary current is",
+        "question_images": [],
+        "options": [
+            "A. 1600 A",
+            "B. 20 A",
+            "C. 4 A",
+            "D. 1.5 A"
+        ],
+        "option_images": [],
+        "answer": "C. 4 A",
+        "solution": "$I_p = I_s (N_s/N_p) = 80(1/20) = 4 \\, \\text{A}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 100,
+        "topic": "Electromagnetic Induction",
+        "subtopic": "Self-Inductance",
+        "question": "When rate of change of current is unity, emf is",
+        "question_latex": "When rate of change of current is unity, emf is",
+        "question_images": [],
+        "options": [
+            "A. Thickness of coil",
+            "B. Number of turns",
+            "C. Coefficient of self induction",
+            "D. Total flux"
+        ],
+        "option_images": [],
+        "answer": "C. Coefficient of self induction",
+        "solution": "$|e| = L(dI/dt)$. If $dI/dt = 1$, then $|e| = L$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    }
+]

@@ -1,0 +1,966 @@
+[
+  {
+    "id": 1,
+    "chapter": "P-Block Elements",
+    "question": "All the elements of oxygen family are",
+    "question_latex": "All the elements of oxygen family are",
+    "question_images": [],
+    "options": [
+      "A. non metals",
+      "B. metalloids",
+      "C. radioactive",
+      "D. polymorphic"
+    ],
+    "option_images": [],
+    "answer": "D. polymorphic",
+    "solution": "All elements of the oxygen family (Group 16) exhibit polymorphism.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "P-Block Elements",
+    "question": "Purest form of silica is:",
+    "question_latex": "Purest form of silica is:",
+    "question_images": [],
+    "options": [
+      "A. Quartz",
+      "B. Flint",
+      "C. Sandstone",
+      "D. Keiselguhr"
+    ],
+    "option_images": [],
+    "answer": "A. Quartz",
+    "solution": "Quartz is the purest form of silica.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "P-Block Elements",
+    "question": "On heating KClO3 we get",
+    "question_latex": "On heating $KClO_3$ we get",
+    "question_images": [],
+    "options": [
+      "A. KClO2 + O2",
+      "B. KCl + O3",
+      "C. KCl + O2",
+      "D. KCl + O2 + O3"
+    ],
+    "option_images": [],
+    "answer": "C. KCl + O2",
+    "solution": "$2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "P-Block Elements",
+    "question": "An alumina-silica clay, called bentonite is dropped from aeroplanes in the slurry form for:",
+    "question_latex": "An alumina-silica clay, called bentonite is dropped from aeroplanes in the slurry form for:",
+    "question_images": [],
+    "options": [
+      "A. Fertilizing the soil",
+      "B. Spreading water over fires",
+      "C. Cooling the soil",
+      "D. Fumigation"
+    ],
+    "option_images": [],
+    "answer": "D. Fumigation",
+    "solution": "Bentonite is spread to destroy bacteria, insects and other pests by exposure to poisonous gas or smoke. This is called fumigation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "P-Block Elements",
+    "question": "Which one of the following elements is most metallic?",
+    "question_latex": "Which one of the following elements is most metallic?",
+    "question_images": [],
+    "options": [
+      "A. P",
+      "B. As",
+      "C. Sb",
+      "D. Bi"
+    ],
+    "option_images": [],
+    "answer": "D. Bi",
+    "solution": "Metallic character increases down the group. Hence $Bi$ is most metallic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "P-Block Elements",
+    "question": "White phosphorus is",
+    "question_latex": "White phosphorus is",
+    "question_images": [],
+    "options": [
+      "A. a monoatomic gas",
+      "B. P4, a tetrahedral solid",
+      "C. P8, a crown",
+      "D. a linear diatomic molecule"
+    ],
+    "option_images": [],
+    "answer": "B. P4, a tetrahedral solid",
+    "solution": "White phosphorous is $P_4$ and has a tetrahedral structure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "P-Block Elements",
+    "question": "Pure CO can be obtained from:",
+    "question_latex": "Pure $CO$ can be obtained from:",
+    "question_images": [],
+    "options": [
+      "A. Sodium oxalate",
+      "B. Nickel tetracarbonyl",
+      "C. Formic acid",
+      "D. Carbon dioxide and hydrogen"
+    ],
+    "option_images": [],
+    "answer": "B. Nickel tetracarbonyl",
+    "solution": "$Ni(CO)_4 \\xrightarrow{\\Delta} Ni + 4CO$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "P-Block Elements",
+    "question": "Which one will liberate Br2 from KBr?",
+    "question_latex": "Which one will liberate $Br_2$ from $KBr$?",
+    "question_images": [],
+    "options": [
+      "A. I2",
+      "B. SO2",
+      "C. HI",
+      "D. Cl2"
+    ],
+    "option_images": [],
+    "answer": "D. Cl2",
+    "solution": "$2KBr + Cl_2 \\rightarrow 2KCl + Br_2$\n$Cl_2$ is a stronger oxidising agent than $Br_2$ and can displace $Br_2$ from $KBr$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "P-Block Elements",
+    "question": "Boron was isolated by:",
+    "question_latex": "Boron was isolated by:",
+    "question_images": [],
+    "options": [
+      "A. Moseley",
+      "B. Davy",
+      "C. Rutherford",
+      "D. Moisson"
+    ],
+    "option_images": [],
+    "answer": "B. Davy",
+    "solution": "Davy isolated boron.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "P-Block Elements",
+    "question": "Consider the following reactions in which atoms have been labelled with isotopes (indicated by *): (I) S*SO3^2- + 2H+ → H2SO4 + S  (II) Na2HgI2I2* + 2AgNO3 → 2AgI + HgI2 + 2NaNO3. In which case isotopes are equivalent in the products?",
+    "question_latex": "Consider the following reactions in which atoms have been labelled with isotopes (indicated by *):\n(I) $S^*SO_3^{2-} + 2H^+ \\rightarrow H_2SO_4 + S$\n(II) $Na_2HgI_2I_2^* + 2AgNO_3 \\rightarrow 2AgI + HgI_2 + 2NaNO_3$\nIn which case isotopes are equivalent in the products?",
+    "question_images": [],
+    "options": [
+      "A. I",
+      "B. II",
+      "C. Both I and II",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. II",
+    "solution": "In reaction II, the labelled and unlabelled iodine atoms become equivalent in the products $AgI$ and $HgI_2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "P-Block Elements",
+    "question": "Dissociation of HI into H2 and I2 is",
+    "question_latex": "Dissociation of $HI$ into $H_2$ and $I_2$ is",
+    "question_images": [],
+    "options": [
+      "A. Kinetically controlled",
+      "B. Thermodynamically controlled",
+      "C. Kinetically as well as thermodynamically controlled",
+      "D. Neither kinetically nor thermodynamically controlled"
+    ],
+    "option_images": [],
+    "answer": "A. Kinetically controlled",
+    "solution": "The dissociation of $HI$ into $H_2$ and $I_2$ is kinetically controlled.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following is the strongest reducing agent?",
+    "question_latex": "Which of the following is the strongest reducing agent?",
+    "question_images": [],
+    "options": [
+      "A. NH3",
+      "B. PH3",
+      "C. BiH3",
+      "D. SbH3"
+    ],
+    "option_images": [],
+    "answer": "C. BiH3",
+    "solution": "$BiH_3$ is the strongest reducing agent while $NH_3$ is the weakest reducing agent in the group 15 hydrides.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "P-Block Elements",
+    "question": "The catalyst used in Friedel-Crafts reaction is:",
+    "question_latex": "The catalyst used in Friedel-Crafts reaction is:",
+    "question_images": [],
+    "options": [
+      "A. Finely divided nickel",
+      "B. Finely divided platinum",
+      "C. Anhydrous aluminium chloride",
+      "D. Pt"
+    ],
+    "option_images": [],
+    "answer": "C. Anhydrous aluminium chloride",
+    "solution": "Anhydrous $AlCl_3$ acts as a Lewis acid catalyst in Friedel-Crafts reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "P-Block Elements",
+    "question": "In electrolysis of aluminium oxide which of the following is added to accelerate the process?",
+    "question_latex": "In electrolysis of aluminium oxide which of the following is added to accelerate the process?",
+    "question_images": [],
+    "options": [
+      "A. Silica",
+      "B. Silicate",
+      "C. Cryolite",
+      "D. Nickel"
+    ],
+    "option_images": [],
+    "answer": "C. Cryolite",
+    "solution": "Cryolite ($Na_3AlF_6$) is added to lower the melting point of alumina and to increase its electrical conductivity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "P-Block Elements",
+    "question": "The colour of copper metaborate and chromium metaborate are respectively:",
+    "question_latex": "The colour of copper metaborate and chromium metaborate are respectively:",
+    "question_images": [],
+    "options": [
+      "A. Blue, green",
+      "B. Green, blue",
+      "C. Red, green",
+      "D. Brown, blue"
+    ],
+    "option_images": [],
+    "answer": "A. Blue, green",
+    "solution": "$Cu(BO_2)_2$ is blue and chromium metaborate is green.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "P-Block Elements",
+    "question": "The correct decreasing order of basic strength is:",
+    "question_latex": "The correct decreasing order of basic strength is:",
+    "question_images": [],
+    "options": [
+      "A. AsH3 > SbH3 > PH3 > NH3",
+      "B. SbH3 > AsH3 > PH3 > NH3",
+      "C. NH3 > PH3 > AsH3 > SbH3",
+      "D. PH3 > AsH3 > SbH3 > NH3"
+    ],
+    "option_images": [],
+    "answer": "C. NH3 > PH3 > AsH3 > SbH3",
+    "solution": "As the size of the central atom increases, the lone pair of electrons occupies a larger volume. Electron density on the central atom decreases and consequently its tendency to donate electrons (basic character) decreases from $NH_3$ to $BiH_3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "P-Block Elements",
+    "question": "Which one of the following arrangements does not give the correct picture of the trends indicated against it? (i) F2 > Cl2 > Br2 > I2 : Oxidizing power (ii) F2 > Cl2 > Br2 > I2 : Electron gain enthalpy (iii) F2 > Cl2 > Br2 > I2 : Bond dissociation energy (iv) F2 > Cl2 > Br2 > I2 : Electronegativity",
+    "question_latex": "Which one of the following arrangements does not give the correct picture of the trends indicated against it?\n(i) $F_2 > Cl_2 > Br_2 > I_2$ : Oxidizing power\n(ii) $F_2 > Cl_2 > Br_2 > I_2$ : Electron gain enthalpy\n(iii) $F_2 > Cl_2 > Br_2 > I_2$ : Bond dissociation energy\n(iv) $F_2 > Cl_2 > Br_2 > I_2$ : Electronegativity",
+    "question_images": [],
+    "options": [
+      "A. (ii) and (iv)",
+      "B. (i) and (iii)",
+      "C. (ii) and (iii)",
+      "D. (ii), (iii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "C. (ii) and (iii)",
+    "solution": "The electron gain enthalpy of $F_2$ is not the highest (it is less than $Cl_2$ due to small size and high electron-electron repulsion). Also, bond dissociation energy of $F_2$ is less than $Cl_2$. So options (ii) and (iii) are incorrect trends.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "P-Block Elements",
+    "question": "Number of unpaired electrons in inert gas is",
+    "question_latex": "Number of unpaired electrons in inert gas is",
+    "question_images": [],
+    "options": [
+      "A. zero",
+      "B. 8",
+      "C. 4",
+      "D. 18"
+    ],
+    "option_images": [],
+    "answer": "A. zero",
+    "solution": "Inert gases have completely filled orbitals and do not contain any unpaired electrons.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "P-Block Elements",
+    "question": "Which is a correct statement about diborane structure?",
+    "question_latex": "Which is a correct statement about diborane ($B_2H_6$) structure?",
+    "question_images": [],
+    "options": [
+      "A. All HBH bond angles are equal",
+      "B. All H-B bond lengths are equal",
+      "C. It has two three-centre-2 electron bonds",
+      "D. All hydrogen and boron atoms are in one plane"
+    ],
+    "option_images": [],
+    "answer": "C. It has two three-centre-2 electron bonds",
+    "solution": "Diborane ($B_2H_6$) contains two three-centre two-electron (3c-2e) B-H-B bridge bonds, also known as banana bonds. The terminal and bridge H atoms are not equivalent, so bond lengths and bond angles are not all equal.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "P-Block Elements",
+    "question": "Among the oxyacids of phosphorus, the dibasic acid is",
+    "question_latex": "Among the oxyacids of phosphorus, the dibasic acid is",
+    "question_images": [],
+    "options": [
+      "A. H4P2O7",
+      "B. H3PO2",
+      "C. HPO3",
+      "D. H3PO3"
+    ],
+    "option_images": [],
+    "answer": "D. H3PO3",
+    "solution": "In $H_3PO_3$ (phosphorous acid), there are two $P-OH$ bonds (ionisable $H^+$) and one $P-H$ bond (non-ionisable). Therefore it is dibasic.\n$H_3PO_3 \\rightleftharpoons 2H^+ + HPO_3^{2-}$",
+    "solution_images": [
+      "20_so_1.png",
+      "20_so_2.png",
+      "20_so_3.png",
+      "20_so_4.png",
+      "20_so_5.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "P-Block Elements",
+    "question": "The order of acidic strength of boron trihalides",
+    "question_latex": "The order of acidic strength of boron trihalides",
+    "question_images": [],
+    "options": [
+      "A. BF3 < BCl3 < BBr3 < BI3",
+      "B. BI3 < BBr3 < BCl3 < BF3",
+      "C. BCl3 < BBr3 < BI3 < BF3",
+      "D. BBr3 < BCl3 < BF3 < BI3"
+    ],
+    "option_images": [],
+    "answer": "A. BF3 < BCl3 < BBr3 < BI3",
+    "solution": "Boron trihalides are Lewis acids. The $p\\pi - p\\pi$ back bonding from halogen to boron is maximum in $BF_3$ (due to comparable size of B and F) and decreases down the group. This back bonding reduces Lewis acid character. Hence Lewis acidity order: $BF_3 < BCl_3 < BBr_3 < BI_3$.",
+    "solution_images": [
+      "21_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "P-Block Elements",
+    "question": "The inert gas abundantly found in atmosphere is",
+    "question_latex": "The inert gas abundantly found in atmosphere is",
+    "question_images": [],
+    "options": [
+      "A. Kr",
+      "B. He",
+      "C. Ar",
+      "D. Xe"
+    ],
+    "option_images": [],
+    "answer": "C. Ar",
+    "solution": "Argon ($Ar$) is the most abundant noble gas in the atmosphere (0.93%), followed by $Ne$, $He$, $Kr$, and $Xe$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "P-Block Elements",
+    "question": "In the reaction 4HNO3 + P4O10 → 4HPO3 + X, the product X is",
+    "question_latex": "In the reaction $4HNO_3 + P_4O_{10} \\rightarrow 4HPO_3 + X$, the product $X$ is",
+    "question_images": [],
+    "options": [
+      "A. N2O5",
+      "B. N2O3",
+      "C. NO2",
+      "D. H2O"
+    ],
+    "option_images": [],
+    "answer": "A. N2O5",
+    "solution": "$4HNO_3 + P_4O_{10} \\rightarrow 4HPO_3 + 2N_2O_5$\n$P_4O_{10}$ is a strong dehydrating agent that removes water from $HNO_3$ to give $N_2O_5$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "P-Block Elements",
+    "question": "Estimation of ozone can be made quantitatively by",
+    "question_latex": "Estimation of ozone can be made quantitatively by",
+    "question_images": [],
+    "options": [
+      "A. Decomposition into O2 and absorption of O2 into pyrogallol",
+      "B. Volumetric method using KI and titration of the liberated iodine using hypo solution",
+      "C. Oxidative ozonolysis method",
+      "D. All methods given above"
+    ],
+    "option_images": [],
+    "answer": "B. Volumetric method using KI and titration of the liberated iodine using hypo solution",
+    "solution": "$KI + H_2O + O_3 \\rightarrow I_2 + KOH + O_2$\n$I_2 + 2Na_2S_2O_3 \\rightarrow 2NaI + Na_2S_4O_6$\nThe liberated iodine is titrated against sodium thiosulphate (hypo) solution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "P-Block Elements",
+    "question": "Which characteristic is not correct about H2SO4?",
+    "question_latex": "Which characteristic is not correct about $H_2SO_4$?",
+    "question_images": [],
+    "options": [
+      "A. Reducing agent",
+      "B. Oxidising agent",
+      "C. Sulphonating agent",
+      "D. Highly viscous"
+    ],
+    "option_images": [],
+    "answer": "A. Reducing agent",
+    "solution": "In $H_2SO_4$, the $S$ atom is present in its highest oxidation state of $+6$. Hence $H_2SO_4$ can act only as an oxidant (gains electrons), not as a reducing agent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "P-Block Elements",
+    "question": "The gas not absorbed by coconut charcoal is",
+    "question_latex": "The gas not absorbed by coconut charcoal is",
+    "question_images": [],
+    "options": [
+      "A. He",
+      "B. Ne",
+      "C. Ar",
+      "D. Kr"
+    ],
+    "option_images": [],
+    "answer": "A. He",
+    "solution": "Helium ($He$) has the smallest size and lowest polarisability among noble gases, so it is not absorbed by coconut charcoal.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following noble gas is least polarisable?",
+    "question_latex": "Which of the following noble gas is least polarisable?",
+    "question_images": [],
+    "options": [
+      "A. He",
+      "B. Xe",
+      "C. Ar",
+      "D. Ne"
+    ],
+    "option_images": [],
+    "answer": "A. He",
+    "solution": "The smaller the size, the least is the polarisability. $He$ has the smallest atomic size among noble gases and hence is least polarisable.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "P-Block Elements",
+    "question": "What is Z in the following reactions: CuSO4 + Z → Cu3P2 + H2SO4 and HgCl2 + Z → Hg3P2 + HCl?",
+    "question_latex": "What is $Z$ in the following reactions:\n$CuSO_4 + Z \\rightarrow Cu_3P_2 + H_2SO_4$ and $HgCl_2 + Z \\rightarrow Hg_3P_2 + HCl$?",
+    "question_images": [],
+    "options": [
+      "A. White phosphorus",
+      "B. Red phosphorus",
+      "C. Phosphine",
+      "D. Orthophosphoric acid"
+    ],
+    "option_images": [],
+    "answer": "C. Phosphine",
+    "solution": "$3CuSO_4 + 2PH_3 \\rightarrow Cu_3P_2 + 3H_2SO_4$\n$3HgCl_2 + 2PH_3 \\rightarrow Hg_3P_2 + 6HCl$\n$Z$ is Phosphine ($PH_3$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "P-Block Elements",
+    "question": "When orthophosphoric acid is heated to 600°C, the product formed is",
+    "question_latex": "When orthophosphoric acid is heated to $600^\\circ C$, the product formed is",
+    "question_images": [],
+    "options": [
+      "A. PH3",
+      "B. P2O5",
+      "C. H3PO3",
+      "D. HPO3"
+    ],
+    "option_images": [],
+    "answer": "D. HPO3",
+    "solution": "$2H_3PO_4 \\xrightarrow{600^\\circ C, -2H_2O} 2HPO_3$\nOn heating orthophosphoric acid to $600^\\circ C$, metaphosphoric acid ($HPO_3$) is formed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "P-Block Elements",
+    "question": "Which one is most stable to heat?",
+    "question_latex": "Which one is most stable to heat?",
+    "question_images": [],
+    "options": [
+      "A. HClO",
+      "B. HClO2",
+      "C. HClO3",
+      "D. HClO4"
+    ],
+    "option_images": [],
+    "answer": "D. HClO4",
+    "solution": "$HClO_4$ (perchloric acid) is the most thermally stable among the oxyacids of chlorine. Stability increases with increasing oxidation state of Cl: $HClO < HClO_2 < HClO_3 < HClO_4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "P-Block Elements",
+    "question": "Basicity of orthophosphoric acid is",
+    "question_latex": "Basicity of orthophosphoric acid is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "B. 3",
+    "solution": "Orthophosphoric acid ($H_3PO_4$) contains three $P-OH$ bonds and is therefore tribasic (basicity = 3).",
+    "solution_images": [
+      "31_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "P-Block Elements",
+    "question": "Magnalium contains",
+    "question_latex": "Magnalium contains",
+    "question_images": [],
+    "options": [
+      "A. Al + Mg",
+      "B. Mg + Cu",
+      "C. Mg + Fe",
+      "D. Mg + Ag"
+    ],
+    "option_images": [],
+    "answer": "A. Al + Mg",
+    "solution": "Magnalium is an alloy of Aluminium ($Al$) and Magnesium ($Mg$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following does not have a tetrahedral structure?",
+    "question_latex": "Which of the following does not have a tetrahedral structure?",
+    "question_images": [],
+    "options": [
+      "A. BH3",
+      "B. NH4+",
+      "C. BH4-",
+      "D. CH4"
+    ],
+    "option_images": [],
+    "answer": "A. BH3",
+    "solution": "$BH_3$ has $sp^2$-hybridized boron and is planar (trigonal), not tetrahedral. It exists as $B_2H_6$ (diborane). $NH_4^+$, $BH_4^-$, and $CH_4$ all have tetrahedral structures.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "P-Block Elements",
+    "question": "Which is not correct?",
+    "question_latex": "Which is not correct?",
+    "question_images": [],
+    "options": [
+      "A. Ge(OH)2 is amphoteric",
+      "B. GeCl2 is more stable than GeCl4",
+      "C. GeO2 is weakly acidic",
+      "D. GeCl4 in HCl forms [GeCl6]2- ion"
+    ],
+    "option_images": [],
+    "answer": "B. GeCl2 is more stable than GeCl4",
+    "solution": "Ge belongs to group 14 and possesses more tendency to show the $+4$ oxidation state. Therefore $GeCl_4$ is more stable than $GeCl_2$, making option B incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following order is/are incorrect regarding the property indicated against it? (i) HF > HI > HBr > HCl : Thermal stability (ii) Cl2O7 > Cl2O6 > ClO2 > Cl2O : Acidic character (iii) SbCl3 > SbCl5 : Covalent character (iv) MCl > MBr : Ionic character",
+    "question_latex": "Which of the following order is/are incorrect regarding the property indicated against it?\n(i) $HF > HI > HBr > HCl$ : Thermal stability\n(ii) $Cl_2O_7 > Cl_2O_6 > ClO_2 > Cl_2O$ : Acidic character\n(iii) $SbCl_3 > SbCl_5$ : Covalent character\n(iv) $MCl > MBr$ : Ionic character",
+    "question_images": [],
+    "options": [
+      "A. (iii) only",
+      "B. (ii) only",
+      "C. (i) and (iii)",
+      "D. (ii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (iii) only",
+    "solution": "Metal halides with higher oxidation state are more covalent than those in a lower oxidation state. Hence $SbCl_5$ is more covalent than $SbCl_3$, making (iii) incorrect.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "P-Block Elements",
+    "question": "There are two H-bridge bonds in diborane molecule because there are:",
+    "question_latex": "There are two H-bridge bonds in diborane molecule because there are:",
+    "question_images": [],
+    "options": [
+      "A. Only 12 electrons",
+      "B. 14 electrons",
+      "C. 2 electrons less than required for bonding",
+      "D. Two electrons more than required for bonding"
+    ],
+    "option_images": [],
+    "answer": "C. 2 electrons less than required for bonding",
+    "solution": "Diborane ($B_2H_6$) possesses four $B-H$ covalent bonds and two three-centred two-electron $B-H-B$ hydrogen bridge bonds (banana bonds). There are 2 electrons less than what is required for conventional bonding, hence the 3c-2e bridge bonds are formed.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "P-Block Elements",
+    "question": "Ammonia on reaction with hypochlorite anion can form:",
+    "question_latex": "Ammonia on reaction with hypochlorite anion can form:",
+    "question_images": [],
+    "options": [
+      "A. NO",
+      "B. N2H4",
+      "C. NH4Cl",
+      "D. Both (b) and (c)"
+    ],
+    "option_images": [],
+    "answer": "D. Both (b) and (c)",
+    "solution": "$N_2H_4$ and $NH_4Cl$ are both obtained by reaction of ammonia with hypochlorite anion:\n$3NH_3 + NaOCl \\rightarrow N_2H_4 + NH_4Cl + NaOH$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following is not correctly matched?",
+    "question_latex": "Which of the following is not correctly matched?",
+    "question_images": [],
+    "options": [
+      "A. SF4 — gas",
+      "B. SeF4 — liquid",
+      "C. TeF4 — solid",
+      "D. SF6 — solid"
+    ],
+    "option_images": [],
+    "answer": "D. SF6 — solid",
+    "solution": "All hexafluorides of group 16 elements are gaseous in nature. $SF_6$ is a gas, not a solid.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "P-Block Elements",
+    "question": "Assertion: Bond angle of H2S is smaller than H2O. Reason: Electronegativity of the central atom increases, bond angle decreases.",
+    "question_latex": "Assertion: Bond angle of $H_2S$ is smaller than $H_2O$.\nReason: Electronegativity of the central atom increases, bond angle decreases.\n(A) Assertion is correct, reason is correct; reason is a correct explanation for assertion.\n(B) Assertion is correct, reason is correct; reason is not a correct explanation for assertion.\n(C) Assertion is correct, reason is incorrect.\n(D) Assertion is incorrect, reason is correct.",
+    "question_images": [],
+    "options": [
+      "A. Assertion correct, reason correct; reason is correct explanation",
+      "B. Assertion correct, reason correct; reason is not correct explanation",
+      "C. Assertion correct, reason incorrect",
+      "D. Assertion incorrect, reason correct"
+    ],
+    "option_images": [],
+    "answer": "C. Assertion correct, reason incorrect",
+    "solution": "Bond angle of $H_2S$ (92°) $< H_2O$ (104.5°). The assertion is correct.\nHowever, the reason is incorrect: as electronegativity of the central atom *decreases*, bond angle decreases (bond pairs move away from central atom, reducing repulsion). $S$ is less electronegative than $O$, so bond pairs in $H_2S$ are farther from S, giving a smaller bond angle.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following statement is incorrect for group 15 elements?",
+    "question_latex": "Which of the following statement is incorrect for group 15 elements?",
+    "question_images": [],
+    "options": [
+      "A. Order of ionization enthalpies is ΔiH1 < ΔiH2 < ΔiH3",
+      "B. The boiling point and melting point increases from top to bottom in the group",
+      "C. Dinitrogen is a gas while all others are solids",
+      "D. All statements are correct"
+    ],
+    "option_images": [],
+    "answer": "B. The boiling point and melting point increases from top to bottom in the group",
+    "solution": "The melting point in group 15 increases up to arsenic ($As$) and then decreases up to bismuth ($Bi$). So statement B is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "P-Block Elements",
+    "question": "Of the following acids I. Hypophosphorous acid II. Oxalic acid III. Glycine",
+    "question_latex": "Of the following acids:\nI. Hypophosphorous acid\nII. Oxalic acid\nIII. Glycine",
+    "question_images": [],
+    "options": [
+      "A. I, II are monobasic, III dibasic and amphoteric",
+      "B. II monobasic, I dibasic acid, III amphoteric",
+      "C. I monobasic, II dibasic, III amphoteric",
+      "D. I, II dibasic, III amphoteric"
+    ],
+    "option_images": [],
+    "answer": "C. I monobasic, II dibasic, III amphoteric",
+    "solution": "Hypophosphorous acid ($H_3PO_2$) has only one $P-OH$ bond → monobasic.\n$H_3PO_2 \\rightleftharpoons H^+ + H_2PO_2^-$\nOxalic acid has two $-COOH$ groups → dibasic.\nGlycine has both $-NH_2$ (basic) and $-COOH$ (acidic) groups → amphoteric.",
+    "solution_images": [
+      "41_so_1.png",
+      "41_so_2.png",
+      "41_so_3.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "P-Block Elements",
+    "question": "H2S precipitates aqueous ZnCl2 solution in",
+    "question_latex": "$H_2S$ precipitates aqueous $ZnCl_2$ solution in",
+    "question_images": [],
+    "options": [
+      "A. Acidic medium",
+      "B. Neutral medium",
+      "C. Both (a) and (b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Neutral medium",
+    "solution": "$ZnCl_2$ solution is acidic due to hydrolysis: $ZnCl_2 + H_2O \\rightarrow Zn(OH)_2 + 2HCl$\n$ZnS$ is not precipitated in acidic medium, but in neutral medium. The $HCl$ formed is neutralized by $NH_4OH/NH_4Cl$ buffer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "P-Block Elements",
+    "question": "The glass having smallest coefficient of thermal expansion is:",
+    "question_latex": "The glass having smallest coefficient of thermal expansion is:",
+    "question_images": [],
+    "options": [
+      "A. Soda lime glass",
+      "B. Soft glass",
+      "C. Safety glass",
+      "D. Pyrex glass"
+    ],
+    "option_images": [],
+    "answer": "D. Pyrex glass",
+    "solution": "Pyrex glass has the smallest coefficient of thermal expansion and is therefore used to prepare laboratory glass apparatus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "P-Block Elements",
+    "question": "In XeF2, XeF4, XeF6 the number of lone pairs on Xe are respectively",
+    "question_latex": "In $XeF_2$, $XeF_4$, $XeF_6$ the number of lone pairs on $Xe$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. 2, 3, 1",
+      "B. 1, 2, 3",
+      "C. 4, 1, 2",
+      "D. 3, 2, 1"
+    ],
+    "option_images": [],
+    "answer": "D. 3, 2, 1",
+    "solution": "$XeF_2$: $Xe$ has 3 lone pairs (linear structure, $sp^3d$ hybridization)\n$XeF_4$: $Xe$ has 2 lone pairs (square planar, $sp^3d^2$ hybridization)\n$XeF_6$: $Xe$ has 1 lone pair (distorted octahedral, $sp^3d^3$ hybridization)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "P-Block Elements",
+    "question": "Which of the following is correct about the reaction: 3NaClO → NaClO3 + 2NaCl?",
+    "question_latex": "Which of the following is correct about the reaction: $3NaClO \\xrightarrow{heat} NaClO_3 + 2NaCl$?",
+    "question_images": [],
+    "options": [
+      "A. It is disproportionation reaction",
+      "B. Oxidation number of Cl decreases as well as increases in this reaction",
+      "C. This reaction is used for the manufacture of halates",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "In $NaClO$, $Cl$ is in $+1$ oxidation state. In $NaClO_3$, $Cl$ is in $+5$ state (increase), and in $NaCl$, $Cl$ is in $-1$ state (decrease). Since the same element is simultaneously oxidised and reduced, this is a disproportionation reaction. It is also used in the manufacture of halates ($NaClO_3$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "P-Block Elements",
+    "question": "The most abundant gas in ordinary air among the following is:",
+    "question_latex": "The most abundant gas in ordinary air among the following is:",
+    "question_images": [],
+    "options": [
+      "A. Argon",
+      "B. Helium",
+      "C. Carbon dioxide",
+      "D. Carbon monoxide"
+    ],
+    "option_images": [],
+    "answer": "A. Argon",
+    "solution": "The composition of dry air is: $N_2 = 78.08\\%$; $O_2 = 20.95\\%$; $Ar = 0.93\\%$; $CO_2 = 0.03\\%$; $Ne = 0.0018\\%$; $He = 0.0005\\%$; $Kr = 0.0001\\%$; $Xe = 0.00001\\%$.\nAmong the options, Argon is the most abundant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "P-Block Elements",
+    "question": "Assertion: Both rhombic and monoclinic sulphur exist as S8 but oxygen exists as O2. Reason: Oxygen forms p-p multiple bond due to small size and small bond length but p-p bonding is not possible in sulphur.",
+    "question_latex": "Assertion: Both rhombic and monoclinic sulphur exist as $S_8$ but oxygen exists as $O_2$.\nReason: Oxygen forms $p\\pi - p\\pi$ multiple bond due to small size and small bond length but $p\\pi - p\\pi$ bonding is not possible in sulphur.\n(A) Assertion correct, reason correct; reason is correct explanation.\n(B) Assertion correct, reason correct; reason is not correct explanation.\n(C) Assertion correct, reason incorrect.\n(D) Assertion incorrect, reason correct.",
+    "question_images": [],
+    "options": [
+      "A. Assertion correct, reason correct; reason is correct explanation",
+      "B. Assertion correct, reason correct; reason is not correct explanation",
+      "C. Assertion correct, reason incorrect",
+      "D. Assertion incorrect, reason correct"
+    ],
+    "option_images": [],
+    "answer": "A. Assertion correct, reason correct; reason is correct explanation",
+    "solution": "Oxygen, due to its small size, can form $p\\pi - p\\pi$ multiple bonds and exists as $O_2$. Sulphur has larger orbitals and $p\\pi - p\\pi$ bonding is not effective, so it forms single-bonded ring structures like $S_8$. Both assertion and reason are correct and the reason correctly explains the assertion.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "P-Block Elements",
+    "question": "At room temperature, HCl is a gas while HF is a low boiling liquid. This is because",
+    "question_latex": "At room temperature, $HCl$ is a gas while $HF$ is a low boiling liquid. This is because",
+    "question_images": [],
+    "options": [
+      "A. H-F bond is covalent",
+      "B. H-F bond is ionic",
+      "C. HF has metallic bond",
+      "D. HF has hydrogen bond"
+    ],
+    "option_images": [],
+    "answer": "D. HF has hydrogen bond",
+    "solution": "Due to the high electronegativity of fluorine, $HF$ molecules form strong intermolecular hydrogen bonds. This raises its boiling point and makes it a liquid at room temperature, unlike $HCl$ which is a gas.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "P-Block Elements",
+    "question": "CO is poisonous gas, antidote for CO poisoning is",
+    "question_latex": "$CO$ is a poisonous gas, antidote for $CO$ poisoning is",
+    "question_images": [],
+    "options": [
+      "A. Carborundum",
+      "B. Carbogen",
+      "C. Carbonic acid",
+      "D. Pure oxygen"
+    ],
+    "option_images": [],
+    "answer": "B. Carbogen",
+    "solution": "Antidote for $CO$ poisoning is carbogen. Carbogen is a mixture of 90% oxygen and 5-10% carbon dioxide. It stimulates breathing and helps eliminate $CO$ from the blood.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "P-Block Elements",
+    "question": "Observe the following statements regarding purification of bauxite: I. During Hall's process, silica is removed as Si (vapour). II. Bauxite ore contaminated with Fe2O3 is purified in Baeyer's process. III. During Serpeck's process, AlN is formed. The correct answer is",
+    "question_latex": "Observe the following statements regarding purification of bauxite:\nI. During Hall's process, silica is removed as $Si$ (vapour).\nII. Bauxite ore contaminated with $Fe_2O_3$ is purified in Baeyer's process.\nIII. During Serpeck's process, $AlN$ is formed.\nThe correct answer is",
+    "question_images": [],
+    "options": [
+      "A. I, II and III are correct",
+      "B. Only I and II are correct",
+      "C. Only I and III are correct",
+      "D. Only II and III are correct"
+    ],
+    "option_images": [],
+    "answer": "D. Only II and III are correct",
+    "solution": "Red bauxite (containing $Fe_2O_3$ as main impurity) is refined by Baeyer's process or Hall's process (statement II correct). White bauxite (containing $SiO_2$ impurity) is refined by Serpeck's method, where $AlN$ is formed (statement III correct).\nIn Serpeck's method:\n$Al_2O_3 \\cdot 2H_2O + 3C + N_2 \\xrightarrow{1800^\\circ C} 2AlN + 3CO + 2H_2O$\n$AlN + 3H_2O \\rightarrow Al(OH)_3 + NH_3$\n$2Al(OH)_3 \\xrightarrow{\\Delta} Al_2O_3 + 3H_2O$\nStatement I is incorrect as silica is not removed as Si vapour in Hall's process.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

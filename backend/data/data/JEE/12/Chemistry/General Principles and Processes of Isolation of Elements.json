@@ -1,0 +1,960 @@
+[
+  {
+    "id": 1,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In order to refine blister copper it is melted in a furnace and is stirred with green logs of wood. The purpose is ________",
+    "question_latex": "In order to refine blister copper it is melted in a furnace and is stirred with green logs of wood. The purpose is ________",
+    "question_images": [],
+    "options": [
+      "A. To expel the dissolved gases in blister copper",
+      "B. To bring the impurities to surface and oxidize them",
+      "C. To increase the carbon content of copper",
+      "D. To reduce the metallic oxide impurities with hydrocarbon gases liberated from the wood"
+    ],
+    "option_images": [],
+    "answer": "D. To reduce the metallic oxide impurities with hydrocarbon gases liberated from the wood",
+    "solution": "During the poling process, green logs of wood are used to stir the molten blister copper. The hydrocarbons released from the wood act as reducing agents and reduce the metallic oxide impurities present in the blister copper.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "During the process of polling, ________",
+    "question_latex": "During the process of polling, ________",
+    "question_images": [],
+    "options": [
+      "A. Metals are oxidised to their corresponding carbonates",
+      "B. Metals are oxidised to their corresponding oxides",
+      "C. Metals are oxidised to their corresponding nitrates",
+      "D. Metal oxides are reduced to metals"
+    ],
+    "option_images": [],
+    "answer": "D. Metal oxides are reduced to metals",
+    "solution": "During the polling process, metal oxides present as impurities are reduced back to metals by the hydrocarbons released from the green wood logs used for stirring.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the following unbalanced redox reaction, Cu3P + Cr2O7^2- → Cu^2+ + H3PO4 + Cr^3+, equivalent weight of H3PO4 is",
+    "question_latex": "In the following unbalanced redox reaction, $Cu_3P + Cr_2O_7^{2-} \\rightarrow Cu^{2+} + H_3PO_4 + Cr^{3+}$, equivalent weight of $H_3PO_4$ is",
+    "question_images": [],
+    "options": [
+      "A. M/3",
+      "B. M/6",
+      "C. M/7",
+      "D. M/8"
+    ],
+    "option_images": [],
+    "answer": "D. M/8",
+    "solution": "In $Cu_3P \\rightarrow H_3PO_4$:\nOxidation state of P in $Cu_3P$ = $-3$\nOxidation state of P in $H_3PO_4$ = $+5$\nChange in oxidation number = $(-3)$ to $(+5)$ = $8$ units per phosphorus atom\n$\\therefore$ Equivalent weight of $H_3PO_4 = \\frac{M}{8}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "An example of halide ore is _______",
+    "question_latex": "An example of halide ore is _______",
+    "question_images": [],
+    "options": [
+      "A. Galena",
+      "B. Bauxite",
+      "C. Copper glance",
+      "D. Cryolite"
+    ],
+    "option_images": [],
+    "answer": "D. Cryolite",
+    "solution": "Cryolite ($Na_3AlF_6$) is an example of a halide ore (fluoride ore). Galena ($PbS$) is a sulphide ore, Bauxite ($Al_2O_3 \\cdot xH_2O$) is an oxide ore, and Copper glance ($Cu_2S$) is a sulphide ore.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Hydro-metallurgical process of extraction of metals is based on",
+    "question_latex": "Hydro-metallurgical process of extraction of metals is based on",
+    "question_images": [],
+    "options": [
+      "A. complex formation",
+      "B. hydrolysis",
+      "C. dehydration",
+      "D. dehydrogenation"
+    ],
+    "option_images": [],
+    "answer": "A. complex formation",
+    "solution": "Hydrometallurgy is based on complex formation. For example, $Ag_2S$ is converted into $Na[Ag(CN)_2]$ (a soluble complex). When $Zn$ is added, $Ag$ is displaced from the complex.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following ore is concentrated by both, magnetic and gravimetric separation?",
+    "question_latex": "Which of the following ore is concentrated by both, magnetic and gravimetric separation?",
+    "question_images": [],
+    "options": [
+      "A. Dolomite",
+      "B. Tinstone",
+      "C. Galena",
+      "D. Bauxite"
+    ],
+    "option_images": [],
+    "answer": "B. Tinstone",
+    "solution": "Tinstone ($SnO_2$) can be concentrated by both magnetic separation (as it contains magnetic impurities like wolframite) and gravimetric (gravity) separation due to its high density.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following have been arranged in the decreasing order of oxidation number of sulphur?",
+    "question_latex": "Which of the following have been arranged in the decreasing order of oxidation number of sulphur?",
+    "question_images": [],
+    "options": [
+      "A. S2O6^2- > S2O7^2- > S2O3^2- > S8",
+      "B. H2SO4 > SO2 > H2S > H2S2O8",
+      "C. SO3^2+ > SO4^2- > SO3^2- > HSO4^-",
+      "D. H2SO5 > H2SO3 > SCl2 > H2S"
+    ],
+    "option_images": [],
+    "answer": "D. H2SO5 > H2SO3 > SCl2 > H2S",
+    "solution": "Oxidation numbers of sulphur:\n$H_2SO_5$: $+6$\n$H_2SO_3$: $+4$\n$SCl_2$: $+2$\n$H_2S$: $-2$\nDecreasing order: $+6 > +4 > +2 > -2$\nSo the correct order is $H_2SO_5 > H_2SO_3 > SCl_2 > H_2S$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following ores does NOT represent the ore of iron?",
+    "question_latex": "Which of the following ores does NOT represent the ore of iron?",
+    "question_images": [],
+    "options": [
+      "A. Haematite",
+      "B. Magnetite",
+      "C. Cassiterite",
+      "D. Limonite"
+    ],
+    "option_images": [],
+    "answer": "C. Cassiterite",
+    "solution": "Cassiterite ($SnO_2$) is an ore of tin, not iron.\nMagnetite ($Fe_3O_4$), Haematite ($Fe_2O_3$), and Limonite ($Fe_2O_3 \\cdot 3H_2O$) are all ores of iron.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Blister copper is",
+    "question_latex": "Blister copper is",
+    "question_images": [],
+    "options": [
+      "A. Impure Cu",
+      "B. Cu alloy",
+      "C. Pure Cu",
+      "D. Cu having 1% impurity"
+    ],
+    "option_images": [],
+    "answer": "D. Cu having 1% impurity",
+    "solution": "Blister copper contains $1-2\\%$ impurities. It is obtained after Bessemerisation of crude copper. The blistered appearance (due to $SO_2$ bubbles) gives it the name blister copper.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following is NOT an alkaline flux?",
+    "question_latex": "Which of the following is NOT an alkaline flux?",
+    "question_images": [],
+    "options": [
+      "A. CaCO3",
+      "B. CaO",
+      "C. SiO2",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "C. SiO2",
+    "solution": "$SiO_2$ is an acidic flux, not an alkaline flux. $CaCO_3$ and $CaO$ are basic (alkaline) fluxes used to remove acidic impurities.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Match List I (Ore) with List II (Composition). Choose the correct answer from the options given below: (June 2022)",
+    "question_latex": "Match List I (Ore) with List II (Composition). Choose the correct answer from the options given below: (June 2022)",
+    "question_images": [
+      "11_qu_1.png"
+    ],
+    "options": [
+      "A. A-I, B-II, C-III, D-IV",
+      "B. A-IV, B-III, C-I, D-II",
+      "C. A-I, B-II, C-IV, D-III",
+      "D. A-III, B-IV, C-II, D-I"
+    ],
+    "option_images": [],
+    "answer": "A. A-I, B-II, C-III, D-IV",
+    "solution": "Correct matching:\nSiderite $\\Rightarrow FeCO_3$ (A-I)\nMalachite $\\Rightarrow CuCO_3 \\cdot Cu(OH)_2$ (B-II)\nSphalerite $\\Rightarrow ZnS$ (C-III)\nCalamine $\\Rightarrow ZnCO_3$ (D-IV)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The vertical retort is made up of ________ bricks",
+    "question_latex": "The vertical retort is made up of ________ bricks",
+    "question_images": [],
+    "options": [
+      "A. Silicon hydride",
+      "B. Silicon carbide",
+      "C. Zinc carbide",
+      "D. Zinc hydride"
+    ],
+    "option_images": [],
+    "answer": "B. Silicon carbide",
+    "solution": "The vertical retort used in the extraction of zinc is made up of silicon carbide ($SiC$) bricks, which can withstand high temperatures.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The chemical that is added to reduce the melting point of the reaction mixture during the extraction of aluminium is (March 2021)",
+    "question_latex": "The chemical that is added to reduce the melting point of the reaction mixture during the extraction of aluminium is (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. kaolite",
+      "B. cryolite",
+      "C. calamine",
+      "D. bauxite"
+    ],
+    "option_images": [],
+    "answer": "B. cryolite",
+    "solution": "Cryolite ($Na_3AlF_6$) is used for decreasing the melting point of aluminium oxide ($Al_2O_3$). $Al_2O_3$ is dissolved in molten cryolite, which lowers the melting point from about $2050°C$ to around $950°C$, making electrolysis more feasible.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following is not an iron ore?",
+    "question_latex": "Which of the following is not an iron ore?",
+    "question_images": [],
+    "options": [
+      "A. Caniterite",
+      "B. Magnetite",
+      "C. Limonite",
+      "D. Copper pyrite"
+    ],
+    "option_images": [],
+    "answer": "A. Caniterite",
+    "solution": "Caniterite is not an ore of iron. Magnetite ($Fe_3O_4$), Limonite ($Fe_2O_3 \\cdot 3H_2O$) are iron ores. Copper pyrite ($CuFeS_2$) contains iron but is primarily a copper ore.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the Pidgeon process, Mg is produced by",
+    "question_latex": "In the Pidgeon process, $Mg$ is produced by",
+    "question_images": [],
+    "options": [
+      "A. Electrolysis of fused MgCl2",
+      "B. Reducing calcined dolomite with ferrosilicon at high temperature under pressure",
+      "C. Both (a) and (b)",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Reducing calcined dolomite with ferrosilicon at high temperature under pressure",
+    "solution": "In the Pidgeon process, magnesium is produced by reducing calcined dolomite ($MgO \\cdot CaO$) with ferrosilicon ($FeSi$) at high temperature ($\\sim 1150°C$) under reduced pressure:\n$2(MgO \\cdot CaO) + FeSi \\rightarrow 2Mg + Ca_2SiO_4 + Fe$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the extraction of copper, its sulphide ore is heated in a reverberatory furnace after mixing with silica to (Jan 2023)",
+    "question_latex": "In the extraction of copper, its sulphide ore is heated in a reverberatory furnace after mixing with silica to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. remove FeO as FeSiO3",
+      "B. decrease the temperature needed for roasting of Cu2S",
+      "C. remove calcium as CaSiO3",
+      "D. separate CuO as CuSiO3"
+    ],
+    "option_images": [],
+    "answer": "A. remove FeO as FeSiO3",
+    "solution": "$SiO_2$ behaves as a flux and reacts with the impurity $FeO$ to form slag $FeSiO_3$:\n$FeO + SiO_2 \\rightarrow FeSiO_3 \\text{ (Slag)}$\nThis removes the iron impurity as fusible slag.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the extraction of chlorine by electrolysis of brine",
+    "question_latex": "In the extraction of chlorine by electrolysis of brine",
+    "question_images": [],
+    "options": [
+      "A. Oxidation of Cl- ion to chlorine gas occurs at cathode",
+      "B. Reduction of Cl- ion to chlorine gas occurs at anode",
+      "C. For overall reaction ΔG° has a negative value",
+      "D. A displacement reaction takes place"
+    ],
+    "option_images": [],
+    "answer": "C. For overall reaction ΔG° has a negative value",
+    "solution": "$NaCl(aq) \\rightarrow Na^+(aq) + Cl^-(aq)$\nOxidation at anode: $2Cl^-(aq) \\rightarrow Cl_2(g) + 2e^-$\nReduction at cathode: $2Na^+(aq) + 2e^- \\rightarrow 2Na$\n$2Na + 2H_2O \\rightarrow 2NaOH + H_2$\nThus (A) is incorrect, (B) is incorrect. Only (C) is correct since $\\Delta G^\\circ < 0$ implies reaction is spontaneous.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which one of the following ores is best concentrated by froth-flotation method?",
+    "question_latex": "Which one of the following ores is best concentrated by froth-flotation method?",
+    "question_images": [],
+    "options": [
+      "A. Galena",
+      "B. Cassiterite",
+      "C. Magnetite",
+      "D. Malachite"
+    ],
+    "option_images": [],
+    "answer": "A. Galena",
+    "solution": "Galena is $PbS$ (a sulphide ore) and is thus purified by the froth flotation method. Froth flotation is used to concentrate sulphide ores. This method is based on the principle that the surface of sulphide ores is preferentially wetted by oils while the gangue is preferentially wetted by water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Electro refining is used for refining of",
+    "question_latex": "Electro refining is used for refining of",
+    "question_images": [],
+    "options": [
+      "A. Cu",
+      "B. Fe",
+      "C. Pb",
+      "D. Al"
+    ],
+    "option_images": [],
+    "answer": "A. Cu",
+    "solution": "Electrolytic refining is most commonly used for refining copper ($Cu$). The impure copper is made the anode and pure copper is the cathode, with copper sulphate solution as the electrolyte. Pure copper deposits on the cathode.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Hall's process is used for purification of __________",
+    "question_latex": "Hall's process is used for purification of __________",
+    "question_images": [],
+    "options": [
+      "A. White bauxite",
+      "B. Red bauxite",
+      "C. Iron aluminate",
+      "D. Silicates"
+    ],
+    "option_images": [],
+    "answer": "B. Red bauxite",
+    "solution": "Hall's process (also known as the Bayer process variant) is used for purification of red bauxite, which contains iron oxide impurities ($Fe_2O_3$). The ore is dissolved in NaOH, filtered, and then precipitated to get pure $Al_2O_3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Main function of roasting is ________",
+    "question_latex": "Main function of roasting is ________",
+    "question_images": [],
+    "options": [
+      "A. To remove volatile substances",
+      "B. Oxidation",
+      "C. Reduction",
+      "D. Slag formation"
+    ],
+    "option_images": [],
+    "answer": "A. To remove volatile substances",
+    "solution": "The main function of roasting is to remove volatile substances (like $SO_2$, $CO_2$, moisture, etc.) from the ore by heating below its melting point in excess air. It also converts sulphide ores to oxides.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The chemical composition of slag formed during the smelting process in the extraction of copper is",
+    "question_latex": "The chemical composition of slag formed during the smelting process in the extraction of copper is",
+    "question_images": [],
+    "options": [
+      "A. Cu2O + FeS",
+      "B. FeSiO3",
+      "C. CuFeS2",
+      "D. Cu2S + FeO"
+    ],
+    "option_images": [],
+    "answer": "B. FeSiO3",
+    "solution": "During the smelting of copper ore, $SiO_2$ (silica) reacts with $FeO$ (iron impurity) to form the slag $FeSiO_3$:\n$FeO + SiO_2 \\rightarrow FeSiO_3$ (slag)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which has the maximum number of equivalent per mole of the oxidant?",
+    "question_latex": "Which has the maximum number of equivalent per mole of the oxidant?\n(A) $Zn(s) + VO^{2+}(aq) \\rightarrow Zn^{2+}(aq) + V^{3+}(aq)$\n(B) $Ag(s) + NO_3^-(aq) \\rightarrow Ag^+(aq) + NO_2(g)$\n(C) $Mg(s) + VO_4^{3-}(aq) \\rightarrow Mg^{2+}(aq) + V^{2+}(aq)$\n(D) $I^-(aq) + IO_3^-(aq) \\rightarrow I_3^-(aq)$",
+    "question_images": [],
+    "options": [
+      "A. Zn(s) + VO^2+(aq) → Zn^2+(aq) + V^3+(aq)",
+      "B. Ag(s) + NO3^-(aq) → Ag^+(aq) + NO2(g)",
+      "C. Mg(s) + VO4^3-(aq) → Mg^2+(aq) + V^2+(aq)",
+      "D. I^-(aq) + IO3^-(aq) → I3^-(aq)"
+    ],
+    "option_images": [],
+    "answer": "D. I^-(aq) + IO3^-(aq) → I3^-(aq)",
+    "solution": "Number of equivalents per mole of oxidant:\n(a) $VO^{2+} \\rightarrow V^{3+}$: Change in O.N. = 1 unit → 1 equivalent\n(b) $NO_3^- \\rightarrow NO_2$: Change in O.N. = 1 unit → 1 equivalent\n(c) $VO_4^{3-} \\rightarrow V^{2+}$: Change in O.N. = 3 units → 3 equivalents\n(d) $IO_3^- \\rightarrow I_3^-$: O.N. of I in $IO_3^-$ = $+5$, in $I_3^-$ = $-\\frac{1}{3}$; Change = $+5 - (-\\frac{1}{3}) = \\frac{16}{3}$ units → $\\frac{16}{3}$ equivalents\nMaximum equivalents = $\\frac{16}{3}$ for option (D).",
+    "solution_images": [
+      "23_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Diaspore is ________",
+    "question_latex": "Diaspore is ________",
+    "question_images": [],
+    "options": [
+      "A. Al2O3",
+      "B. Na3AlF6",
+      "C. Al2O3.H2O",
+      "D. Al2O3.2H2O"
+    ],
+    "option_images": [],
+    "answer": "C. Al2O3.H2O",
+    "solution": "Diaspore is $Al_2O_3 \\cdot H_2O$ (aluminium oxide monohydrate). It is one of the forms of bauxite. $Al_2O_3$ is corundum, $Na_3AlF_6$ is cryolite, and $Al_2O_3 \\cdot 2H_2O$ is gibbsite.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The most abundant metal on the surface of the earth is",
+    "question_latex": "The most abundant metal on the surface of the earth is",
+    "question_images": [],
+    "options": [
+      "A. Fe",
+      "B. Al",
+      "C. Ca",
+      "D. Na"
+    ],
+    "option_images": [],
+    "answer": "B. Al",
+    "solution": "Aluminium ($Al$) is the most abundant metal on the surface of the earth, constituting about $8\\%$ of the earth's crust by mass.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The one that is not a carbonate ore is (April 2019)",
+    "question_latex": "The one that is not a carbonate ore is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. siderite",
+      "B. calamine",
+      "C. bauxite",
+      "D. malachite"
+    ],
+    "option_images": [],
+    "answer": "C. bauxite",
+    "solution": "Bauxite is $Al_2O_3 \\cdot xH_2O$ (hydrated aluminium oxide), which is an oxide ore, not a carbonate ore.\nSiderite ($FeCO_3$), Calamine ($ZnCO_3$), and Malachite ($CuCO_3 \\cdot Cu(OH)_2$) are all carbonate ores.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "0.05 mole of Ca(OH)2 can neutralize H2SO4. This H2SO4 can be neutralized by",
+    "question_latex": "$0.05$ mole of $Ca(OH)_2$ can neutralize $H_2SO_4$. This $H_2SO_4$ can be neutralized by",
+    "question_images": [],
+    "options": [
+      "A. 0.05 mol of NaOH",
+      "B. 0.10 mol of NaOH",
+      "C. 0.05 mol of POH(OH)2",
+      "D. None is correct"
+    ],
+    "option_images": [],
+    "answer": "B. 0.10 mol of NaOH",
+    "solution": "$Ca(OH)_2 + H_2SO_4 \\rightarrow CaSO_4 + 2H_2O$\n$1 \\text{ mol} : 1 \\text{ mol}$\n$H_2SO_4 + 2NaOH \\rightarrow Na_2SO_4 + 2H_2O$\n$1 \\text{ mol} : 2 \\text{ mol}$\nThus, $0.05$ mol $Ca(OH)_2 \\equiv 0.05$ mol $H_2SO_4 \\equiv 0.10$ mol $NaOH$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which of the following statements regarding chromatography is incorrect?",
+    "question_latex": "Which of the following statements regarding chromatography is incorrect?",
+    "question_images": [],
+    "options": [
+      "A. It is based on the principle that different components of mixture gets adsorbed differently on an adsorbent",
+      "B. Column chromatography involves column of Al2O3 in a glass tube as a stationary phase",
+      "C. The mobile phase may be a gas, a liquid or a solid",
+      "D. Component which is more soluble in stationary phase takes longer time to travel"
+    ],
+    "option_images": [],
+    "answer": "C. The mobile phase may be a gas, a liquid or a solid",
+    "solution": "The mobile phase in chromatography cannot be a solid. The mobile phase is always a gas or a liquid that moves through the stationary phase. Therefore, statement (C) is incorrect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which has the least number of equivalent per mole of the reactant?",
+    "question_latex": "Which has the least number of equivalent per mole of the reactant?",
+    "question_images": [],
+    "options": [
+      "A. MnO4^- changes to MnO2",
+      "B. MnO4^- changes to Mn^2+",
+      "C. MnO4^- changes to MnO4^2-",
+      "D. MnO4^- changes to Mn2O3"
+    ],
+    "option_images": [],
+    "answer": "C. MnO4^- changes to MnO4^2-",
+    "solution": "Change in oxidation number of Mn:\n(a) $MnO_4^- \\rightarrow MnO_2$: $+7 \\rightarrow +4$ = 3 units → 3 equivalents\n(b) $MnO_4^- \\rightarrow Mn^{2+}$: $+7 \\rightarrow +2$ = 5 units → 5 equivalents\n(c) $MnO_4^- \\rightarrow MnO_4^{2-}$: $+7 \\rightarrow +6$ = 1 unit → 1 equivalent (least)\n(d) $MnO_4^- \\rightarrow Mn_2O_3$: $+7 \\rightarrow +3$ = 4 units → 4 equivalents",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The common method for the extraction of metals from oxide ores involves _________",
+    "question_latex": "The common method for the extraction of metals from oxide ores involves _________",
+    "question_images": [],
+    "options": [
+      "A. Reduction with carbon",
+      "B. Reduction with aluminium",
+      "C. Reduction with hydrogen",
+      "D. Electrolytic method"
+    ],
+    "option_images": [],
+    "answer": "A. Reduction with carbon",
+    "solution": "The most common method for extraction of metals from oxide ores is reduction with carbon (coke) at high temperatures, e.g., extraction of iron from haematite:\n$Fe_2O_3 + 3C \\rightarrow 2Fe + 3CO$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Calamine and malachite, respectively, are the ores of (Sept 2021)",
+    "question_latex": "Calamine and malachite, respectively, are the ores of (Sept 2021)",
+    "question_images": [],
+    "options": [
+      "A. copper and iron",
+      "B. zinc and copper",
+      "C. nickel and aluminium",
+      "D. aluminium and zinc"
+    ],
+    "option_images": [],
+    "answer": "B. zinc and copper",
+    "solution": "Calamine: $ZnCO_3$ → ore of Zinc\nMalachite: $CuCO_3 \\cdot Cu(OH)_2$ → ore of Copper\nTherefore, calamine and malachite are ores of zinc and copper respectively.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the Ellingham diagram, sudden change in the graph indicates _________",
+    "question_latex": "In the Ellingham diagram, sudden change in the graph indicates _________",
+    "question_images": [],
+    "options": [
+      "A. Phase change from solid to vapour stage",
+      "B. Phase change from solid to liquid stage",
+      "C. Phase change from liquid to vapour stage",
+      "D. Either (B) or (C)"
+    ],
+    "option_images": [],
+    "answer": "D. Either (B) or (C)",
+    "solution": "In the Ellingham diagram, sudden changes (kinks) in the slope of the graph indicate phase changes. These kinks can occur during either solid to liquid transitions (melting) or liquid to vapour transitions (boiling), both of which involve significant entropy changes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): In the Ellingham diagram, a sharp change in slope of line is observed for Mg → MgO at ~1120°C. Reason (R): There is a large change of entropy associated with the change of state. Choose the correct answer from the options given below: (April 2023)",
+    "question_latex": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A): In the Ellingham diagram, a sharp change in slope of line is observed for $Mg \\rightarrow MgO$ at $\\sim 1120°C$.\nReason (R): There is a large change of entropy associated with the change of state.\nChoose the correct answer from the options given below: (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. A is true but R is false",
+      "B. Both A and R are true and R is the correct explanation of A",
+      "C. A is false but R is true",
+      "D. Both A and R are true but R is not the correct explanation of A"
+    ],
+    "option_images": [],
+    "answer": "B. Both A and R are true and R is the correct explanation of A",
+    "solution": "At $\\sim 1120°C$, magnesium undergoes a phase change (boiling point of Mg). This results in a large positive entropy change ($\\Delta S > 0$), which causes a sudden change in slope of the $Mg \\rightarrow MgO$ line in the Ellingham diagram. Both A and R are true, and R correctly explains A.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "A green colour product is formed when acidified K2Cr2O7 reacts with",
+    "question_latex": "A green colour product is formed when acidified $K_2Cr_2O_7$ reacts with",
+    "question_images": [],
+    "options": [
+      "A. Fe^2+",
+      "B. SO2",
+      "C. SO3^2-",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "$Cr_2O_7^{2-} \\rightarrow Cr^{3+}$ (green)\n$Fe^{2+} \\rightarrow Fe^{3+} + e^-$\n$SO_2 \\rightarrow SO_4^{2-} + 2e^-$\n$SO_3^{2-} \\rightarrow SO_4^{2-} + 2e^-$\n$Fe^{2+}$, $SO_2$, and $SO_3^{2-}$ all reduce $Cr_2O_7^{2-}/H^+$ to $Cr^{3+}$ (green), so all of them give a green coloured product.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Pig tin is obtained by _________",
+    "question_latex": "Pig tin is obtained by _________",
+    "question_images": [],
+    "options": [
+      "A. Liquation process",
+      "B. Zone refining",
+      "C. Polling",
+      "D. Vapour phase refining"
+    ],
+    "option_images": [],
+    "answer": "A. Liquation process",
+    "solution": "Liquation process is the refining method used to obtain pure tin metal. The pure tin metal obtained by this method is called pig tin. In this process, the impure metal is placed on the upper part of a sloping hearth; on heating, the metal melts and flows down, leaving behind the infusible impurities.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Match List-I with List-II. Choose the correct answer from the options given below: (June 2022)",
+    "question_latex": "Match List-I with List-II. Choose the correct answer from the options given below: (June 2022)",
+    "question_images": [
+      "36_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+      "B. (A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+      "C. (A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+      "D. (A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+    ],
+    "option_images": [],
+    "answer": "B. (A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+    "solution": "Correct matching:\n(A) Concentration of gold ore → (IV) NaCN (used in leaching)\n(B) Leaching of alumina → (II) NaOH\n(C) Froth stabiliser → (I) Aniline\n(D) Blister copper → (III) $SO_2$ (responsible for blistered appearance)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Splitting of silver is",
+    "question_latex": "Splitting of silver is",
+    "question_images": [],
+    "options": [
+      "A. Reduction of ammoniacal silver nitrate solution by tartarate",
+      "B. Extraction of silver from its ore Ag2S, by hydrometallurgy",
+      "C. Making of silver amalgam during filling of teeth",
+      "D. Cooling of molten silver with the evolution of oxygen causing violent spurting"
+    ],
+    "option_images": [],
+    "answer": "D. Cooling of molten silver with the evolution of oxygen causing violent spurting",
+    "solution": "Splitting (or spitting) of silver refers to the phenomenon where molten silver dissolves oxygen during heating and then violently expels it upon cooling, causing violent spurting of the molten metal.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Heating of pyrites in air for oxidation of sulphur is called",
+    "question_latex": "Heating of pyrites in air for oxidation of sulphur is called",
+    "question_images": [],
+    "options": [
+      "A. roasting",
+      "B. calcination",
+      "C. smelting",
+      "D. slagging"
+    ],
+    "option_images": [],
+    "answer": "A. roasting",
+    "solution": "Roasting is the process of heating sulphide ores in excess air below their melting point. This converts the sulphide ore to oxide and oxidizes the sulphur to $SO_2$:\n$2FeS_2 + 5O_2 \\rightarrow 2FeO + 4SO_2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which has the maximum oxidation number of the underlined atom in the following?",
+    "question_latex": "Which has the maximum oxidation number of the underlined atom in the following?\n(A) $\\underline{Mn}O_4^{2-}$ (B) $\\underline{Cr}O_5$ (C) $\\underline{Cr}O_2Cl_2$ (D) Equal",
+    "question_images": [],
+    "options": [
+      "A. MnO4^2-",
+      "B. CrO5",
+      "C. CrO2Cl2",
+      "D. Equal"
+    ],
+    "option_images": [],
+    "answer": "D. Equal",
+    "solution": "Oxidation numbers:\n(a) $\\underline{Mn}O_4^{2-}$: $x + 4(-2) = -2 \\Rightarrow x = +6$\n(b) $\\underline{Cr}O_5$: $x + 5(-2) = 0 \\Rightarrow x = +10$? No — $CrO_5$ has peroxo bonds. Actual O.N. of Cr = $+6$\n(c) $\\underline{Cr}O_2Cl_2$: $x + 2(-2) + 2(-1) = 0 \\Rightarrow x = +6$\nAll three have oxidation number $= +6$, hence Equal.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The most abundant ore of Zn is __________",
+    "question_latex": "The most abundant ore of $Zn$ is __________",
+    "question_images": [],
+    "options": [
+      "A. Zinc blende",
+      "B. Calamine",
+      "C. Zincite",
+      "D. Willemite"
+    ],
+    "option_images": [],
+    "answer": "A. Zinc blende",
+    "solution": "Zinc blende ($ZnS$) is the most abundant ore of zinc. It is a sulphide ore and the principal source of zinc production worldwide.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Sulfide ores are common for the metals",
+    "question_latex": "Sulfide ores are common for the metals",
+    "question_images": [],
+    "options": [
+      "A. Ag, Cu and Pb",
+      "B. Ag, Mg and Pb",
+      "C. Ag, Cu and Sn",
+      "D. Al, Cu and Pb"
+    ],
+    "option_images": [],
+    "answer": "A. Ag, Cu and Pb",
+    "solution": "Silver, copper and lead are commonly found in earth's crust as sulphide ores:\n$Ag_2S$ (silver glance/argentite)\n$CuFeS_2$ (copper pyrites)\n$PbS$ (galena)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Values of p, q, r, s and t are in the following redox reaction pBr2 + qOH- → rBr- + sBrO3^- + tH2O",
+    "question_latex": "Values of $p$, $q$, $r$, $s$ and $t$ are in the following redox reaction $pBr_2 + qOH^- \\rightarrow rBr^- + sBrO_3^- + tH_2O$",
+    "question_images": [],
+    "options": [
+      "A. 3 6 1 5 3",
+      "B. 3 6 5 3 1",
+      "C. 3 6 5 1 3",
+      "D. 3 5 1 6 3"
+    ],
+    "option_images": [],
+    "answer": "C. 3 6 5 1 3",
+    "solution": "Balancing the disproportionation reaction:\n$3Br_2 + 6OH^- \\rightarrow 5Br^- + BrO_3^- + 3H_2O$\nSo $p=3$, $q=6$, $r=5$, $s=1$, $t=3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which one of the following ores is concentrated by chemical leaching method?",
+    "question_latex": "Which one of the following ores is concentrated by chemical leaching method?",
+    "question_images": [],
+    "options": [
+      "A. Galena",
+      "B. Copper pyrite",
+      "C. Cinnabar",
+      "D. Argentite"
+    ],
+    "option_images": [],
+    "answer": "D. Argentite",
+    "solution": "Au and Ag can be extracted from their native ores by chemical leaching (Mac-Arthur Forrest cyanide process). Argentite ($Ag_2S$) is leached using $NaCN$ solution:\n$Ag_2S + 4NaCN \\rightarrow 2Na[Ag(CN)_2] + Na_2S$\nThen zinc displaces silver:\n$2Na[Ag(CN)_2] + Zn \\rightarrow Na_2[Zn(CN)_4] + 2Ag$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Gallium arsenide is purified by ________",
+    "question_latex": "Gallium arsenide is purified by ________",
+    "question_images": [],
+    "options": [
+      "A. Froth floatation process",
+      "B. Van Arkel method",
+      "C. Zone refining method",
+      "D. Electrolytic method"
+    ],
+    "option_images": [],
+    "answer": "C. Zone refining method",
+    "solution": "Zone refining is employed for preparing extremely pure metals, especially metalloids used in the preparation of semiconductors. Gallium arsenide ($GaAs$) is a semiconductor and hence zone refining is used for its purification. In zone refining, a narrow zone of the metal is melted and moved slowly along the metal rod, carrying impurities with it.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "In the extraction of chlorine by electrolysis of brine",
+    "question_latex": "In the extraction of chlorine by electrolysis of brine",
+    "question_images": [],
+    "options": [
+      "A. oxidation of Cl- ion to chlorine gas occurs at cathode",
+      "B. reduction of Cl- ion to chlorine gas occurs at anode",
+      "C. For overall reaction ΔG° has negative value",
+      "D. a displacement reaction takes place"
+    ],
+    "option_images": [],
+    "answer": "C. For overall reaction ΔG° has negative value",
+    "solution": "In electrolysis of brine:\nOxidation at anode: $2Cl^-(aq) \\rightarrow Cl_2(g) + 2e^-$\nReduction at cathode: $2Na^+(aq) + 2e^- \\rightarrow 2Na$\nThe overall reaction has $\\Delta G^\\circ < 0$, which means the reaction is spontaneous. Options (A) and (B) have wrong electrode assignments.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The plot shows the variation of -ln Kp versus temperature for the two reactions M(s) + 1/2 O2(g) → MO(s) and C(s) + 1/2 O2(g) → CO(g). Identify the correct statement. (Online 2016)",
+    "question_latex": "The plot shows the variation of $-\\ln K_p$ versus temperature for the two reactions $M_{(s)} + \\frac{1}{2}O_{2(g)} \\rightarrow MO_{(s)}$ and $C_{(s)} + \\frac{1}{2}O_{2(g)} \\rightarrow CO_{(g)}$. Identify the correct statement. (Online 2016)",
+    "question_images": [
+      "46_qu_1.png"
+    ],
+    "options": [
+      "A. Oxidation of carbon is favourable at all temperatures",
+      "B. At > 1200 K, carbon will reduce MO(s) to M(s)",
+      "C. At < 1200 K, the reaction MO(s) + C(s) → M(s) + CO(g) is spontaneous",
+      "D. At < 1200 K, oxidation of carbon is unfavourable"
+    ],
+    "option_images": [],
+    "answer": "C. At < 1200 K, the reaction MO(s) + C(s) → M(s) + CO(g) is spontaneous",
+    "solution": "In the given Ellingham diagram, below $1200$ K the $C \\rightarrow CO$ curve lies below the $M \\rightarrow MO$ curve. This means the formation of CO is more thermodynamically stable, so carbon can reduce $MO$. Therefore, the reaction $MO_{(s)} + C_{(s)} \\rightarrow M_{(s)} + CO_{(g)}$ is spontaneous below $1200$ K.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R. Assertion A: The reduction of a metal oxide is easier if the metal formed is in liquid state than solid state. Reason R: The value of ΔG° becomes more on negative side as entropy is higher in liquid state than solid state. Choose the most appropriate answer: (July 2022)",
+    "question_latex": "Given below are two statements: One is labelled as Assertion $A$ and the other is labelled as Reason $R$.\nAssertion $A$: The reduction of a metal oxide is easier if the metal formed is in liquid state than solid state.\nReason $R$: The value of $\\Delta G^\\circ$ becomes more on negative side as entropy is higher in liquid state than solid state.\nChoose the most appropriate answer: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. Both A and R are correct and R is the correct explanation of A",
+      "B. A is correct but R is not correct",
+      "C. A is not correct but R is correct",
+      "D. Both A and R are correct but R is not the correct explanation of A"
+    ],
+    "option_images": [],
+    "answer": "A. Both A and R are correct and R is the correct explanation of A",
+    "solution": "When a metal is formed in liquid state, the entropy of the system is higher (liquid > solid). A higher entropy means $\\Delta S$ is more positive, which makes $\\Delta G = \\Delta H - T\\Delta S$ more negative. A more negative $\\Delta G^\\circ$ makes the reduction reaction more feasible. Therefore both A and R are correct and R correctly explains A.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "The metal always found in the free state is",
+    "question_latex": "The metal always found in the free state is",
+    "question_images": [],
+    "options": [
+      "A. Au",
+      "B. Ag",
+      "C. Cu",
+      "D. Na"
+    ],
+    "option_images": [],
+    "answer": "A. Au",
+    "solution": "Gold ($Au$) is the least reactive metal and is always found in the native (free) state in nature. Its very low reactivity means it does not combine with other elements to form ores.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Consider the following statements: I. Pig iron is malleable and ductile. II. Pig iron can be melted to produce cast iron of desired shapes. III. Wrought iron is obtained by heating pig iron with iron oxide in a furnace. Which of the statement(s) given above is/are correct?",
+    "question_latex": "Consider the following statements:\nI. Pig iron is malleable and ductile.\nII. Pig iron can be melted to produce cast iron of desired shapes.\nIII. Wrought iron is obtained by heating pig iron with iron oxide in a furnace.\nWhich of the statement(s) given above is/are correct?",
+    "question_images": [],
+    "options": [
+      "A. I only",
+      "B. I and II",
+      "C. II and III",
+      "D. III only"
+    ],
+    "option_images": [],
+    "answer": "B. I and II",
+    "solution": "Statement I is correct: Pig iron is malleable and ductile due to its composition.\nStatement II is correct: Pig iron can be melted and cast into desired shapes to produce cast iron.\nStatement III is incorrect: Wrought iron is obtained by heating pig iron with scrap iron and coke in a puddling furnace, not with iron oxide.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "question": "Which method of purification is represented by following equations? Zr + 2I2 → (875K) ZrI4; ZrI4 → (2075K, Tungsten filament) Zr + 2I2",
+    "question_latex": "Which method of purification is represented by following equations?\n$Zr + 2I_2 \\xrightarrow{875K} ZrI_4$\n$ZrI_4 \\xrightarrow{2075K, \\text{Tungsten filament}} Zr + 2I_2$",
+    "question_images": [],
+    "options": [
+      "A. Zone refining",
+      "B. Van Arkel",
+      "C. Polling",
+      "D. Liquation"
+    ],
+    "option_images": [],
+    "answer": "B. Van Arkel",
+    "solution": "The Van Arkel method (vapour phase refining) is represented here. In this method, the impure metal (Zr) is converted to a volatile compound ($ZrI_4$) at $875K$, and then the volatile compound is decomposed on a hot tungsten filament at $2075K$ to give pure metal:\n$Zr + 2I_2 \\xrightarrow{875K} ZrI_4$\n$ZrI_4 \\xrightarrow{2075K} Zr + 2I_2$\nThe impurities do not form volatile iodides and are left behind.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

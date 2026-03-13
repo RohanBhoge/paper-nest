@@ -1,0 +1,349 @@
+[
+  {
+    "id": 1,
+    "chapter": "Practical Chemistry",
+    "question": "10 mL of 2 M NaOH solution is added to 20 mL of 1 M HCl solution kept in a beaker. Now, 10 mL of this mixture is poured into a volumetric flask of 100 mL containing 2 moles of HCl and made the volume upto the mark with distilled water. The solution in this flask is: [April 3, 2025 (II)]",
+    "question_latex": "10 mL of 2 M NaOH solution is added to 20 mL of 1 M HCl solution kept in a beaker. Now, 10 mL of this mixture is poured into a volumetric flask of 100 mL containing 2 moles of HCl and made the volume upto the mark with distilled water. The solution in this flask is: [April 3, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 20 M HCl solution",
+      "B. 0.2 M NaCl solution",
+      "C. 10 M HCl solution",
+      "D. Neutral solution"
+    ],
+    "option_images": [],
+    "answer": "A. 20 M HCl solution",
+    "solution": "When 10 mL of 2 M NaOH is added to 20 mL of 1 M HCl:\n$$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$$\nInitial moles: $\\text{MV}_{\\text{NaOH}} = 2 \\times 0.01 = 0.02$ mol, $\\text{MV}_{\\text{HCl}} = 1 \\times 0.02 = 0.02$ mol\nFinal: Both are completely consumed, resulting solution becomes neutral.\n\nNow, 10 mL of this neutral solution is poured into a flask containing 2 mol HCl and made to 100 mL with distilled water.\n$$\\text{Molarity of HCl} = \\frac{2}{100} \\times 1000 = 20\\ \\text{M}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Practical Chemistry",
+    "question": "The metal ion whose electronic configuration is not affected by the nature of the ligand and which gives a violet colour in non-luminous flame under hot condition in borax bead test is [Jan. 28, 2025 (I)]",
+    "question_latex": "The metal ion whose electronic configuration is not affected by the nature of the ligand and which gives a violet colour in non-luminous flame under hot condition in borax bead test is [Jan. 28, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. $\\text{Mn}^{2+}$",
+      "B. $\\text{Ni}^{2+}$",
+      "C. $\\text{Cr}^{3+}$",
+      "D. $\\text{Ti}^{3+}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\text{Ni}^{2+}$",
+    "solution": "$\\text{Ni}^{2+}$ has $d^8$ configuration which does not depend on the nature of ligand present in octahedral complex.\nNo significant high spin or low spin effect occurs.\n$\\text{Ni}^{2+}$: $t_{2g}^6 e_g^2$ — $\\text{Ni}^{2+}$ gives violet coloured bead in non-luminous oxidizing flame under hot conditions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Practical Chemistry",
+    "question": "Match the LIST-I with LIST-II and choose the correct answer from the options given below:",
+    "question_latex": "Match the LIST-I with LIST-II and choose the correct answer from the options given below:\n\nLIST-I (Reagent): A. Sodium bicarbonate solution, B. Neutral ferric chloride, C. Ceric ammonium nitrate, D. Alkaline $\\text{KMnO}_4$\n\nLIST-II (Functional Group detected): I. double bond/unsaturation, II. carboxylic acid, III. phenolic-OH, IV. alcoholic-OH",
+    "question_images": [],
+    "options": [
+      "A. A-II, B-III, C-I, D-IV",
+      "B. A-II, B-IV, C-III, D-I",
+      "C. A-III, B-II, C-IV, D-I",
+      "D. A-II, B-III, C-IV, D-I"
+    ],
+    "option_images": [],
+    "answer": "D. A-II, B-III, C-IV, D-I",
+    "solution": "(A) Carboxylic acid gives effervescence with sodium bicarbonate solution.\n(B) Phenolic-OH gives violet coloured complex with neutral $\\text{FeCl}_3$.\n(C) Alcoholic-OH gives red colour with ceric ammonium nitrate.\n(D) When alkaline $\\text{KMnO}_4$ reacts with an unsaturated compound (alkene or alkyne), the purple colour of $\\text{KMnO}_4$ solution disappears, indicating a positive test for unsaturation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Practical Chemistry",
+    "question": "Identify the inorganic sulphides that are yellow in colour: [Jan. 28, 2025 (II)]\n(A) $(\\text{NH}_4)_2\\text{S}$\n(B) PbS\n(C) CuS\n(D) $\\text{As}_2\\text{S}_3$\n(E) $\\text{As}_2\\text{S}_5$\nChoose the correct answer from the options given below:",
+    "question_latex": "Identify the inorganic sulphides that are yellow in colour: [Jan. 28, 2025 (II)]\n(A) $(\\text{NH}_4)_2\\text{S}$\n(B) $\\text{PbS}$\n(C) $\\text{CuS}$\n(D) $\\text{As}_2\\text{S}_3$\n(E) $\\text{As}_2\\text{S}_5$\nChoose the correct answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. (D) and (E) only",
+      "B. (A), (D) and (E) only",
+      "C. (A) and (B) only",
+      "D. (A) and (C) only"
+    ],
+    "option_images": [],
+    "answer": "B. (A), (D) and (E) only",
+    "solution": "$\\text{As}_2\\text{S}_3$ and $\\text{As}_2\\text{S}_5$ are yellow coloured sulphides. $(\\text{NH}_4)_2\\text{S}$ is colourless to yellow. PbS is black and CuS is black in colour.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Practical Chemistry",
+    "question": "Identify A, B and C in the given below reaction sequence [Jan. 23, 2025 (II)]",
+    "question_latex": "Identify A, B and C in the given reaction sequence [Jan. 23, 2025 (II)]:\n$$A \\xrightarrow{\\text{HNO}_3} \\text{Pb(NO}_3)_2 \\xrightarrow{\\text{H}_2\\text{SO}_4} B \\xrightarrow{\\text{(1) Ammonium acetate, (2) Acetic acid, (3) K}_2\\text{CrO}_4} C\\ (\\text{Yellow ppt})$$",
+    "question_images": [
+      "5_qu_1.png"
+    ],
+    "options": [
+      "A. $\\text{PbCl}_2$, $\\text{Pb(SO}_4)_2$, $\\text{PbCrO}_4$",
+      "B. $\\text{PbS}$, $\\text{PbSO}_4$, $\\text{Pb(CH}_3\\text{COO)}_2$",
+      "C. $\\text{PbS}$, $\\text{PbSO}_4$, $\\text{PbCrO}_4$",
+      "D. $\\text{PbCl}_2$, $\\text{PbSO}_4$, $\\text{PbCrO}_4$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\text{PbS}$, $\\text{PbSO}_4$, $\\text{PbCrO}_4$",
+    "solution": "$$\\boxed{\\text{PbS}} \\xrightarrow{\\text{HNO}_3} \\text{Pb(NO}_3)_2 \\xrightarrow{\\text{H}_2\\text{SO}_4} \\boxed{\\text{PbSO}_4} \\xrightarrow{\\text{(1) Ammonium acetate, (2) Acetic acid, (3) K}_2\\text{CrO}_4} \\boxed{\\text{PbCrO}_4}\\ (\\text{Yellow ppt})$$\nSo A = PbS, B = $\\text{PbSO}_4$, C = $\\text{PbCrO}_4$.",
+    "solution_images": [
+      "5_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Practical Chemistry",
+    "question": "Which of the following mixing of 1 M base and 1 M acid leads to the largest increase in temperature? [Jan. 24, 2025 (II)]",
+    "question_latex": "Which of the following mixing of 1 M base and 1 M acid leads to the largest increase in temperature? [Jan. 24, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 30 mL HCl and 30 mL NaOH",
+      "B. 50 mL HCl and 20 mL NaOH",
+      "C. 30 mL $\\text{CH}_3\\text{COOH}$ and 30 mL NaOH",
+      "D. 45 mL $\\text{CH}_3\\text{COOH}$ and 25 mL NaOH"
+    ],
+    "option_images": [],
+    "answer": "A. 30 mL HCl and 30 mL NaOH",
+    "solution": "Higher the number of millimoles of acid or base reacted, higher will be the temperature rise.\nOption (a): $n_{\\text{acid}}$ or $n_{\\text{base}}$ reacted $= 30$ mmol\nOption (b): $n_{\\text{acid}}$ or $n_{\\text{base}}$ reacted $= 20$ mmol (limiting), but less energy is released by neutralisation of a weak acid, so option (b) cannot be correct.\nOption (c): $\\Rightarrow 20$ mmol\nOption (d): $\\Rightarrow 25$ mmol\nOption (a) gives maximum moles (30 mmol) of strong acid-strong base neutralisation, hence maximum temperature rise.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Practical Chemistry",
+    "question": "Compounds that should not be used as primary standards in titrimetric analysis are:\nA. $\\text{Na}_2\\text{Cr}_2\\text{O}_7$\nB. Oxalic acid\nC. NaOH\nD. $\\text{FeSO}_4 \\cdot 6\\text{H}_2\\text{O}$\nE. Sodium tetraborate\nChoose the most appropriate answer from the options given below: [April 3, 2025 (II)]",
+    "question_latex": "Compounds that should not be used as primary standards in titrimetric analysis are:\nA. $\\text{Na}_2\\text{Cr}_2\\text{O}_7$\nB. Oxalic acid\nC. NaOH\nD. $\\text{FeSO}_4 \\cdot 6\\text{H}_2\\text{O}$\nE. Sodium tetraborate\nChoose the most appropriate answer from the options given below: [April 3, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. C, D and E Only",
+      "B. A, C and D Only",
+      "C. D and E Only",
+      "D. B and D Only"
+    ],
+    "option_images": [],
+    "answer": "B. A, C and D Only",
+    "solution": "A primary standard is a highly pure and stable compound with known exact composition that can be accurately weighed and dissolved to create a solution of known concentration.\n- NaOH is hygroscopic and cannot be used.\n- $\\text{FeSO}_4 \\cdot 6\\text{H}_2\\text{O}$ is unstable and can be easily oxidised.\n- $\\text{Na}_2\\text{Cr}_2\\text{O}_7$ is hygroscopic and cannot be used.\nThus A, C, and D should not be used as primary standards.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Practical Chemistry",
+    "question": "The compounds which give positive Fehling's test are: [Jan. 22, 2025 (I)]\nChoose the CORRECT answer from the options given below:",
+    "question_latex": "The compounds which give positive Fehling's test are: [Jan. 22, 2025 (I)]\n(A) Aromatic aldehyde (benzaldehyde derivative with CHO)\n(B) Aromatic ketone (phenyl methyl ketone)\n(C) $\\text{HOCH}_2\\text{-CO-(CHOH)}_3\\text{-CH}_2\\text{OH}$ (Fructose)\n(D) $\\text{CH}_3\\text{-C(=O)-H}$ (Acetaldehyde)\n(E) Aromatic aldehyde (benzaldehyde)\nChoose the CORRECT answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. (A), (C) and (D) Only",
+      "B. (A), (B) and (C) Only",
+      "C. (C), (D) and (E) Only",
+      "D. (A), (D) and (E) Only"
+    ],
+    "option_images": [
+      "8_opA_1.png",
+      "8_opB_1.png",
+      "8_opC_1.png",
+      "8_opD_1.png",
+      "8_opE_1.png"
+    ],
+    "answer": "C. (C), (D) and (E) Only",
+    "solution": "$\\text{CH}_3\\text{CH}=\\text{O}$ (acetaldehyde), $\\text{PhCH}_2\\text{CH}=\\text{O}$, and $\\text{HOCH}_2\\text{-C(=O)-(CHOH)}_3\\text{-CH}_2\\text{OH}$ (Fructose) all give positive Fehling's test.\nKetonic group and aromatic -CHO (benzaldehyde) do not give Fehling's test.",
+    "solution_images": [
+      "8_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Practical Chemistry",
+    "question": "Given below are two statements: [Jan. 23, 2025 (I)]\nStatement I: In Lassaigne's test, the covalent organic molecules are transformed into ionic compounds.\nStatement II: The sodium fusion extract of an organic compound having N and S gives prussian blue colour with $\\text{FeSO}_4$ and $\\text{Na}_4[\\text{Fe(CN)}_6]$.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_latex": "Given below are two statements: [Jan. 23, 2025 (I)]\nStatement I: In Lassaigne's test, the covalent organic molecules are transformed into ionic compounds.\nStatement II: The sodium fusion extract of an organic compound having N and S gives prussian blue colour with $\\text{FeSO}_4$ and $\\text{Na}_4[\\text{Fe(CN)}_6]$.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. Statement I is false but Statement II is true",
+      "B. Statement I is true but Statement II is false",
+      "C. Both Statement I and Statement II are false",
+      "D. Both Statement I and Statement II are true"
+    ],
+    "option_images": [],
+    "answer": "B. Statement I is true but Statement II is false",
+    "solution": "Statement I is correct: In Lassaigne's test, covalent organic molecules are fused with sodium metal, converting covalent bonds into ionic compounds.\nStatement II is incorrect: The sodium fusion extract of an organic compound having N and S gives **blood red** colour (not prussian blue) with $\\text{FeSO}_4$ and $\\text{Na}_4[\\text{Fe(CN)}_6]$:\n$$\\text{Na} + \\text{C} + \\text{N} + \\text{S} \\rightarrow \\text{NaSCN}$$\n$$\\text{Fe}^{3+} + \\text{SCN}^- \\rightarrow [\\text{Fe(SCN)}]^{2+}\\ (\\text{Blood red})$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Practical Chemistry",
+    "question": "Find the compound 'A' from the following reaction sequences. [Jan. 24, 2025 (II)]\n$A \\xrightarrow{\\text{aqua-regia}} B \\xrightarrow{\\text{(1) KNO}_2\\text{/NH}_4\\text{OH, (2) AcOH}} \\text{yellow ppt}$",
+    "question_latex": "Find the compound 'A' from the following reaction sequences. [Jan. 24, 2025 (II)]\n$$A \\xrightarrow{\\text{aqua-regia}} B \\xrightarrow{\\substack{(1)\\ \\text{KNO}_2/\\text{NH}_4\\text{OH} \\\\ (2)\\ \\text{AcOH}}} \\text{yellow ppt}$$",
+    "question_images": [],
+    "options": [
+      "A. CoS",
+      "B. ZnS",
+      "C. NiS",
+      "D. MnS"
+    ],
+    "option_images": [],
+    "answer": "A. CoS",
+    "solution": "$$\\text{CoS} \\xrightarrow{\\text{aqua-regia}} \\text{CoCl}_2 \\xrightarrow{\\substack{1.\\ \\text{KNO}_2/\\text{NH}_4\\text{OH} \\\\ 2.\\ \\text{AcOH}}} K_3[\\text{Co(NO}_2)_6] \\downarrow\\ (\\text{yellow ppt})$$\nThe yellow precipitate is potassium hexanitritocobaltate(III), confirming A = CoS.",
+    "solution_images": [
+      "10_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Practical Chemistry",
+    "question": "Given below are two statements: [Jan. 22, 2025 (II)]\nStatement (I): Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test.\nStatement (II): The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_latex": "Given below are two statements: [Jan. 22, 2025 (II)]\nStatement (I): Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test.\nStatement (II): The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. Both Statement I and Statement II are false",
+      "B. Both Statement I and Statement II are true",
+      "C. Statement I is true but Statement II is false",
+      "D. Statement I is false but Statement II is true"
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is true but Statement II is false",
+    "solution": "Statement I is correct: N, S, halogens, and phosphorus are detected by Lassaigne's test.\nStatement II is incorrect: In Lassaigne's test, **sodium** (not magnesium) is used to convert covalent bonds into ionic bonds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Practical Chemistry",
+    "question": "When a salt is treated with sodium hydroxide solution it gives gas X. On passing gas X through reagent Y a brown coloured precipitate is formed. [April 7, 2025 (I)]\nX and Y respectively, are:",
+    "question_latex": "When a salt is treated with sodium hydroxide solution it gives gas X. On passing gas X through reagent Y a brown coloured precipitate is formed. [April 7, 2025 (I)]\nX and Y respectively, are:",
+    "question_images": [],
+    "options": [
+      "A. $X = \\text{NH}_3$ and $Y = \\text{K}_2\\text{HgI}_4 + \\text{KOH}$",
+      "B. $X = \\text{NH}_3$ and $Y = \\text{HgO}$",
+      "C. $X = \\text{NH}_4\\text{Cl}$ and $Y = \\text{KOH}$",
+      "D. $X = \\text{HCl}$ and $Y = \\text{NH}_4\\text{Cl}$"
+    ],
+    "option_images": [],
+    "answer": "A. $X = \\text{NH}_3$ and $Y = \\text{K}_2\\text{HgI}_4 + \\text{KOH}$",
+    "solution": "$$\\text{NH}_4^+ + \\text{NaOH} \\rightarrow \\text{H}_2\\text{O} + \\text{NH}_3 \\uparrow \\quad (X)$$\n$$2[\\text{HgI}_4]^{2-} + 3\\text{OH}^- + \\text{NH}_3 \\rightarrow \\underbrace{\\text{HgO}\\cdot\\text{Hg}\\left(\\frac{\\text{NH}_2}{\\text{I}}\\right)}_{\\text{Brown ppt}} + 7\\text{I}^- + 2\\text{H}_2\\text{O}$$\nSo $X = \\text{NH}_3$ and $Y = \\text{K}_2\\text{HgI}_4 + \\text{KOH}$ (Nessler's reagent).",
+    "solution_images": [
+      "12_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Practical Chemistry",
+    "question": "The compounds that produce $\\text{CO}_2$ with aqueous $\\text{NaHCO}_3$ solution are: [Choose the correct answer from the options given below]",
+    "question_latex": "The compounds that produce $\\text{CO}_2$ with aqueous $\\text{NaHCO}_3$ solution are:",
+    "question_images": [],
+    "options": [
+      "A. A, B and E only",
+      "B. A and C only",
+      "C. A, C and D only",
+      "D. A and B only"
+    ],
+    "option_images": [
+      "13_opA_1.png",
+      "13_opB_1.png",
+      "13_opC_1.png",
+      "13_opD_1.png",
+      "13_opE_1.png"
+    ],
+    "answer": "C. A, C and D only",
+    "solution": "A, C, D produce $\\text{CO}_2$ with aqueous $\\text{NaHCO}_3$ solution because A, C, D are acids stronger than $\\text{H}_2\\text{CO}_3$ (Carbonic acid). These are carboxylic acid derivatives (including nitro-substituted phenols and benzoic acids) that are strong enough to react with $\\text{NaHCO}_3$. Simple phenol (B and E) is a weaker acid than $\\text{H}_2\\text{CO}_3$ and does not react.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Practical Chemistry",
+    "question": "Given below are two statements: [Jan. 28, 2025 (I)]\nStatement I: In the oxalic acid vs $\\text{KMnO}_4$ (in the presence of dil $\\text{H}_2\\text{SO}_4$) titration the solution needs to be heated initially to $60°\\text{C}$, but no heating is required in Ferrous ammonium sulphate (FAS) vs $\\text{KMnO}_4$ titration (in the presence of dil $\\text{H}_2\\text{SO}_4$).\nStatement II: In oxalic acid vs $\\text{KMnO}_4$ titration, the initial formation of $\\text{MnSO}_4$ takes place at high temperature, which then acts as catalyst for further reaction. In the case of FAS vs $\\text{KMnO}_4$, heating oxidizes $\\text{Fe}^{2+}$ into $\\text{Fe}^{3+}$ by oxygen of air and error may be introduced in the experiment.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_latex": "Given below are two statements: [Jan. 28, 2025 (I)]\nStatement I: In the oxalic acid vs $\\text{KMnO}_4$ (in the presence of dil $\\text{H}_2\\text{SO}_4$) titration the solution needs to be heated initially to $60°\\text{C}$, but no heating is required in Ferrous ammonium sulphate (FAS) vs $\\text{KMnO}_4$ titration (in the presence of dil $\\text{H}_2\\text{SO}_4$).\nStatement II: In oxalic acid vs $\\text{KMnO}_4$ titration, the initial formation of $\\text{MnSO}_4$ takes place at high temperature, which then acts as catalyst for further reaction. In the case of FAS vs $\\text{KMnO}_4$, heating oxidizes $\\text{Fe}^{2+}$ into $\\text{Fe}^{3+}$ by oxygen of air and error may be introduced in the experiment.\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. Statement I is true but Statement II is false",
+      "B. Both Statement I and Statement II are false",
+      "C. Statement I is false but Statement II is true",
+      "D. Both Statement I and Statement II are true"
+    ],
+    "option_images": [],
+    "answer": "D. Both Statement I and Statement II are true",
+    "solution": "For the titration of Oxalic acid vs $\\text{KMnO}_4$:\n$$2\\text{MnO}_4^- + 5(\\text{COO})_2^{2-} + 16\\text{H}^+ \\rightarrow 10\\text{CO}_2 + 2\\text{Mn}^{2+} + 8\\text{H}_2\\text{O}$$\nAt room temperature this reaction proceeds at a slow rate but upon heating to around $60°\\text{C}$, it becomes fast. Manganese(II) ions catalyse the reaction (autocatalytic); once $\\text{Mn}^{2+}$ ions are formed, the reaction becomes progressively faster.\n\nNo heating is required for Mohr's salt (FAS) as the reaction is already fast. Also, heating may result in oxidation of $\\text{Fe}^{2+}$ into $\\text{Fe}^{3+}$ by atmospheric oxygen, introducing error.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Practical Chemistry",
+    "question": "40 mL of a mixture of $\\text{CH}_3\\text{COOH}$ and HCl (aqueous solution) is titrated against 0.1 M NaOH solution conductometrically. Which of the following statement is correct? [April 3, 2025 (II)]",
+    "question_latex": "40 mL of a mixture of $\\text{CH}_3\\text{COOH}$ and HCl (aqueous solution) is titrated against 0.1 M NaOH solution conductometrically. Which of the following statement is correct? [April 3, 2025 (II)]",
+    "question_images": [
+      "15_qu_1.png"
+    ],
+    "options": [
+      "A. $\\text{CH}_3\\text{COOH}$ is neutralised first followed by neutralisation of HCl",
+      "B. The concentration of $\\text{CH}_3\\text{COOH}$ in the original mixture is 0.005 M",
+      "C. Point 'C' indicates the complete neutralisation HCl",
+      "D. The concentration of HCl in the original mixture is 0.005 M"
+    ],
+    "option_images": [],
+    "answer": "D. The concentration of HCl in the original mixture is 0.005 M",
+    "solution": "HCl is a strong acid and will be neutralised first.\nFrom the graph, 2 mL NaOH solution is used for neutralisation of HCl and 3 mL NaOH solution is used for neutralisation of $\\text{CH}_3\\text{COOH}$.\nThis replaces $\\text{H}^+$ with $\\text{Na}^+$ and conductance decreases first.\n$$\\text{Mol of HCl} = \\text{Mol of NaOH used}$$\n$$M \\times 40 = 0.1 \\times 2 \\Rightarrow M = 0.005\\ \\text{M}$$\n$$\\text{Mol of CH}_3\\text{COOH} = \\text{Mol of NaOH used}$$\n$$M \\times 40 = 0.1 \\times 3 \\Rightarrow M = 0.0075\\ \\text{M}$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Practical Chemistry",
+    "question": "Formation of $\\text{Na}_4[\\text{Fe(CN)}_5\\text{NOS}]$, a purple coloured complex formed by addition of sodium nitroprusside in sodium carbonate extract of salt indicates the presence of: [April 2, 2025 (II)]",
+    "question_latex": "Formation of $\\text{Na}_4[\\text{Fe(CN)}_5\\text{NOS}]$, a purple coloured complex formed by addition of sodium nitroprusside in sodium carbonate extract of salt indicates the presence of: [April 2, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. Sulphate ion",
+      "B. Sulphide ion",
+      "C. Sulphite ion",
+      "D. Sodium ion"
+    ],
+    "option_images": [],
+    "answer": "B. Sulphide ion",
+    "solution": "Test for sulphide ion:\n$$\\text{S}^{2-} + \\text{Na}_2[\\text{Fe(CN)}_5\\text{NO}] \\rightarrow \\underbrace{[\\text{Fe(CN)}_5\\text{NOS}]^{4-}}_{{\\text{Deep violet compound}}}$$\nThe formation of this violet complex confirms the presence of sulphide ion in the salt.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Practical Chemistry",
+    "question": "Choose the correct tests with respective observations. [April 2, 2025 (I)]\n(A) $\\text{CuSO}_4$ (acidified with acetic acid) + $\\text{K}_4[\\text{Fe(CN)}_6]$ → Chocolate brown precipitate.\n(B) $\\text{FeCl}_3 + \\text{K}_4[\\text{Fe(CN)}_6]$ → Prussian blue precipitate.\n(C) $\\text{ZnCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6]$, neutralised with $\\text{NH}_4\\text{OH}$ → White or bluish white precipitate.\n(D) $\\text{MgCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6]$ → Blue precipitate.\n(E) $\\text{BaCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6]$, neutralised with NaOH → White precipitate.\nChoose the correct answer from the options given below:",
+    "question_latex": "Choose the correct tests with respective observations. [April 2, 2025 (I)]\n(A) $\\text{CuSO}_4$ (acidified with acetic acid) $+ \\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow$ Chocolate brown precipitate.\n(B) $\\text{FeCl}_3 + \\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow$ Prussian blue precipitate.\n(C) $\\text{ZnCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6]$, neutralised with $\\text{NH}_4\\text{OH} \\rightarrow$ White or bluish white precipitate.\n(D) $\\text{MgCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow$ Blue precipitate.\n(E) $\\text{BaCl}_2 + \\text{K}_4[\\text{Fe(CN)}_6]$, neutralised with NaOH $\\rightarrow$ White precipitate.\nChoose the correct answer from the options given below:",
+    "question_images": [],
+    "options": [
+      "A. A, D and E only",
+      "B. C, D and E only",
+      "C. B, D and E only",
+      "D. A, B and C only"
+    ],
+    "option_images": [],
+    "answer": "D. A, B and C only",
+    "solution": "(A) Chocolate brown ppt:\n$$4\\text{FeCl}_3 + 3\\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow \\text{Fe}_4[\\text{Fe(CN)}_6]_3 + 12\\text{KCl}\\ (\\text{Prussian Blue ppt.})$$\nWait — actually CuSO4 + K4[Fe(CN)6] gives chocolate brown ppt (Cu2[Fe(CN)6]).\n(B) $\\text{FeCl}_3 + \\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow \\text{Fe}_4[\\text{Fe(CN)}_6]_3$ (Prussian Blue ppt.) ✓\n(C) $3\\text{ZnCl}_2 + 2\\text{K}_4[\\text{Fe(CN)}_6] \\xrightarrow{\\text{NH}_4\\text{OH}} \\text{Zn}_2[\\text{Fe(CN)}_6]_2 + 6\\text{KCl}$ (White or Bluish white ppt.) ✓\n(D) $\\text{Mg}^{2+}$ does not give ferrocyanide test — no blue precipitate.\n(E) $\\text{Ba}^{2+}$ does not give ferrocyanide test.\nTherefore A, B, and C are correct.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

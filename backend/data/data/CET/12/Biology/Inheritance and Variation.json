@@ -1,0 +1,1918 @@
+[
+  {
+    "id": 1,
+    "chapter": "Inheritance and Variation",
+    "question": "Identify the correct statement. [MHT-CET 2020]",
+    "question_latex": "Identify the correct statement. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Pleiotropic genes always form a single genotype.",
+      "B. Wing abnormalities found in Drosophila is an example of pleiotropic genes.",
+      "C. The gene for sickle cell anaemia is lethal in heterozygous condition.",
+      "D. Pleiotropy is caused by a gene controlling two or more different traits."
+    ],
+    "option_images": [],
+    "answer": "D. Pleiotropy is caused by a gene controlling two or more different traits.",
+    "solution": "Pleiotropic genes are always forming more than one genotype. Wing abnormalities in Drosophila are caused due to mutations. Gene of sickle cell anaemia is lethal in homozygous condition. Pleiotropy is caused by a gene controlling two or more different traits.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Inheritance and Variation",
+    "question": "Given below are two statements: Statement-I: Chromosomes are present in eukaryotic nucleus. Statement-II: Chromosomes are visible during cell division. In light of above statements, select the correct answer from the option given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements:\nStatement-I: Chromosomes are present in eukaryotic nucleus.\nStatement-II: Chromosomes are visible during cell division.\nIn light of above statements, select the correct answer from the option given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Statement I is correct and statement II is incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is incorrect and statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to chromosomes. Chromosomes are present in eukaryotic nucleus and are visible during cell division.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Inheritance and Variation",
+    "question": "How many different phenotypes are produced by the mulattoes in the F2 generation? [MHT-CET 2020]",
+    "question_latex": "How many different phenotypes are produced by the mulattoes in the $F_2$ generation? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Seven",
+      "B. Three",
+      "C. Four",
+      "D. Two"
+    ],
+    "option_images": [],
+    "answer": "A. Seven",
+    "solution": "Seven different types of phenotypes are formed by Mulattoes in $F_2$ generation. Since it is an example of multiple gene inheritance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Inheritance and Variation",
+    "question": "Two heterozygous tall pea plants are crossed. The F1 generation showing tall phenotype will be ____%. [MHT-CET 2024]",
+    "question_latex": "Two heterozygous tall pea plants are crossed. The $F_1$ generation showing tall phenotype will be \\_\\_\\_\\_\\%. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 50",
+      "B. 75",
+      "C. 25",
+      "D. 100"
+    ],
+    "option_images": [],
+    "answer": "B. 75",
+    "solution": "Two heterozygous tall pea plants are crossed ($Tt \\times Tt$). The $F_1$ generation showing tall phenotype will be $75\\%$ since the ratio is $3:1$. Tall plants (TT + Tt) = 3 out of 4 = 75%.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Inheritance and Variation",
+    "question": "In Guinea pigs, black short hair (BBSS) is dominant over white long hair (bbss). During a dihybrid cross, the F2-generation individuals with genotypes BBSS, BbSS, BBSs and BbSs are in the ratio of",
+    "question_latex": "In Guinea pigs, black short hair ($BBSS$) is dominant over white long hair ($bbss$). During a dihybrid cross, the $F_2$-generation individuals with genotypes $BBSS$, $BbSS$, $BBSs$ and $BbSs$ are in the ratio of",
+    "question_images": [],
+    "options": [
+      "A. 9 : 3 : 3 : 1",
+      "B. 4 : 2 : 1 : 2",
+      "C. 1 : 2 : 1 : 2",
+      "D. 1 : 2 : 2 : 4"
+    ],
+    "option_images": [],
+    "answer": "D. 1 : 2 : 2 : 4",
+    "solution": "In a dihybrid cross $BbSs \\times BbSs$, the genotypic ratio for $BBSS : BbSS : BBSs : BbSs = 1:2:2:4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Inheritance and Variation",
+    "question": "This pedigree is of a rare trait, in which children have extra fingers and toes. Which one of the following patterns of inheritance is consistent with this pedigree?",
+    "question_latex": "This pedigree is of a rare trait, in which children have extra fingers and toes. Which one of the following patterns of inheritance is consistent with this pedigree?",
+    "question_images": [
+      "q6_1"
+    ],
+    "options": [
+      "A. Autosomal recessive",
+      "B. Autosomal dominant",
+      "C. Y-linkage",
+      "D. Sex linked recessive"
+    ],
+    "option_images": [],
+    "answer": "C. Y-linkage",
+    "solution": "In the given pedigree chart, squares are representing males and circles representing females. In $F_1$ generation, 2 males are diseased and in next generation only male is diseased. This shows the inheritance of a Y-linked disease.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Inheritance and Variation",
+    "question": "The inheritance of flower colour in Mirabilis jalapa is an example of ___ [MHT-CET 2023]",
+    "question_latex": "The inheritance of flower colour in \\textit{Mirabilis jalapa} is an example of \\_\\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Dominance",
+      "B. Segregation",
+      "C. Incomplete dominance",
+      "D. Co-dominance"
+    ],
+    "option_images": [],
+    "answer": "C. Incomplete dominance",
+    "solution": "In incomplete dominance, both the alleles (genes) of an allelomorphic pair express themselves partially. Mirabilis jalapa red-flowered ($RR$) plant is crossed with a white-flowered ($rr$) plant, then $F_1$ offsprings have pink ($Rr$) flowers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Inheritance and Variation",
+    "question": "When different alleles of the same gene are present on an individual, the individual is a",
+    "question_latex": "When different alleles of the same gene are present on an individual, the individual is a",
+    "question_images": [],
+    "options": [
+      "A. Heterozygous",
+      "B. Diploid",
+      "C. Homozygous",
+      "D. Mosaic"
+    ],
+    "option_images": [],
+    "answer": "A. Heterozygous",
+    "solution": "When a gene pair (allele) contains two different genes in an organism then the organism is considered as heterozygous for the particular character.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Inheritance and Variation",
+    "question": "Sickle cell anaemia and thalassemia are different from each other because _____ [MHT-CET 2024]",
+    "question_latex": "Sickle cell anaemia and thalassemia are different from each other because \\_____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Former is a disorder of blood plasma while latter is a disorder of blood cell.",
+      "B. Sickle cell anaemia is governed by dominant gene while thalassemia is governed by recessive gene.",
+      "C. Former is a qualitative disorder while latter is a quantitative disease.",
+      "D. Former is autosomal disorder while latter is sex linked disorder."
+    ],
+    "option_images": [],
+    "answer": "C. Former is a qualitative disorder while latter is a quantitative disease.",
+    "solution": "Thalassemia differs from sickle-cell anaemia. Thalassemia is a quantitative problem of synthesizing few globin molecules, while sickle-cell anaemia is a qualitative problem of synthesizing an incorrectly functional globin.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Inheritance and Variation",
+    "question": "In certain plant species, red flower colour is incompletely dominant to white flower colour (the heterozygote is pink) and tall stems are completely dominant to dwarf stem. If a tall pink plant (TtRr) is crossed with a tall white plant (TTrr), which one of the following type of plants would be produced in the offsprings?",
+    "question_latex": "In certain plant species, red flower colour is incompletely dominant to white flower colour (the heterozygote is pink) and tall stems are completely dominant to dwarf stem. If a tall pink plant ($TtRr$) is crossed with a tall white plant ($TTrr$), which one of the following type of plants would be produced in the offsprings?",
+    "question_images": [],
+    "options": [
+      "A. Tall pink and tall white",
+      "B. Dwarf pink and tall red",
+      "C. Dwarf red and tall pink",
+      "D. Tall pink and dwarf white"
+    ],
+    "option_images": [],
+    "answer": "A. Tall pink and tall white",
+    "solution": "Cross: $TtRr \\times TTrr$\nGametes of male ($TtRr$): $TR, Tr, tR, tr$\nGametes of female ($TTrr$): $Tr, Tr$\nOffsprings: $RrTT$ (Tall pink), $rrTT$ (Tall white), $RrTt$ (Tall pink), $rrTt$ (Tall white)\nOffsprings would be tall pink and tall white in genotypic ratio $1:1$.",
+    "solution_images": [
+      "10_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following is a test cross? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is a test cross? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. tt × tt",
+      "B. TT × Tt",
+      "C. TT × TT",
+      "D. Tt × tt"
+    ],
+    "option_images": [],
+    "answer": "D. Tt × tt",
+    "solution": "Test cross is crossing a heterozygous plant ($Tt$) with its recessive parent ($tt$). This is conducted to know the unknown genotype of the given plants. Hence $Tt \\times tt$ is the test cross.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Inheritance and Variation",
+    "question": "Which is a sex-influenced disease?",
+    "question_latex": "Which is a sex-influenced disease?",
+    "question_images": [],
+    "options": [
+      "A. Baldness in male",
+      "B. Haemophilia",
+      "C. Xeroderma pigmentosa",
+      "D. Down's syndrome"
+    ],
+    "option_images": [],
+    "answer": "A. Baldness in male",
+    "solution": "Baldness is common in humans. Hereditary baldness is carried by a dominant autosomal gene. It develops only in men and never in women, making it a sex-influenced trait.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Inheritance and Variation",
+    "question": "In a cross between red kernelled and white kernelled varieties of wheat showing polygenic inheritance, the phenotypic ratio in F2 generation will be [MHT-CET 2015]",
+    "question_latex": "In a cross between red kernelled and white kernelled varieties of wheat showing polygenic inheritance, the phenotypic ratio in $F_2$ generation will be [MHT-CET 2015]",
+    "question_images": [],
+    "options": [
+      "A. 1 : 6 : 15 : 20 : 15 : 6 : 1",
+      "B. 1 : 4 : 6 : 4 : 1",
+      "C. 1 : 2 : 1",
+      "D. 2 : 1"
+    ],
+    "option_images": [],
+    "answer": "B. 1 : 4 : 6 : 4 : 1",
+    "solution": "In polygenic inheritance involving two gene pairs (wheat kernel colour), the $F_2$ phenotypic ratio is $1:4:6:4:1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following characters was NOT considered by Mendel for his experiments in pea plants? [MHT-CET 2020]",
+    "question_latex": "Which one of the following characters was NOT considered by Mendel for his experiments in pea plants? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Shape of pod",
+      "B. Colour of seed coat",
+      "C. Colour of seed",
+      "D. Presence or absence of endosperm"
+    ],
+    "option_images": [],
+    "answer": "D. Presence or absence of endosperm",
+    "solution": "Mendel performed experiments of hybridization on pea plants considering characters like height, seed colour, shape, flower colour, position etc. Presence and absence of endosperm is not considered in his experiments.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following cannot be explained on the basis of Mendel's Law of Dominance?",
+    "question_latex": "Which of the following cannot be explained on the basis of Mendel's Law of Dominance?",
+    "question_images": [],
+    "options": [
+      "A. The discrete unit controlling a particular character is called a factor.",
+      "B. Out of one pair of factors one is dominant, and the other is recessive.",
+      "C. Alleles do not show any blending and both the characters recover as such in F2 generation.",
+      "D. Factors occur in pairs."
+    ],
+    "option_images": [],
+    "answer": "C. Alleles do not show any blending and both the characters recover as such in F2 generation.",
+    "solution": "When $F_1$ hybrids exhibited a mixture or blending of characters of two parents, the case is considered as that of incomplete blending inheritance. It simply means that the two genes of allelomorphic pair are not related as dominant or recessive, but each of them expresses itself partially. This cannot be explained by the Law of Dominance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Inheritance and Variation",
+    "question": "Rrrr progeny: Red (dominant) flowered heterozygous crossed with white flower",
+    "question_latex": "$Rr \\times rr$ progeny: Red (dominant) flowered heterozygous crossed with white flower",
+    "question_images": [],
+    "options": [
+      "A. 350 → red : 350 → white",
+      "B. 450 → red : 250 → white",
+      "C. 380 → red : 250 → white",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 350 → red : 350 → white",
+    "solution": "In a cross $Rr \\times rr$, the ratio is $1:1$ (50% red : 50% white). Out of 700 total offspring, 350 will be red and 350 will be white.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Inheritance and Variation",
+    "question": "How many different kinds of gametes will be produced by a plant having the genotype AABbCC?",
+    "question_latex": "How many different kinds of gametes will be produced by a plant having the genotype $AABbCC$?",
+    "question_images": [],
+    "options": [
+      "A. Three",
+      "B. Four",
+      "C. Nine",
+      "D. Two"
+    ],
+    "option_images": [],
+    "answer": "D. Two",
+    "solution": "The types of gametes produced by a plant depend upon the number of heterozygous pairs.\nNumber of types of gametes $= 2^N$ where $N$ = number of heterozygous pairs.\nHere only $Bb$ is heterozygous, so $N = 1$, giving $2^1 = 2$ types of gametes: $ABC$ and $AbC$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Inheritance and Variation",
+    "question": "The recessive gene that always produces its effect, is",
+    "question_latex": "The recessive gene that always produces its effect, is",
+    "question_images": [],
+    "options": [
+      "A. Pleiotropic gene",
+      "B. Complementary gene",
+      "C. Holandric gene",
+      "D. Supplementary gene"
+    ],
+    "option_images": [],
+    "answer": "C. Holandric gene",
+    "solution": "Holandric gene occurs on the Y-chromosome only. It is inherited only by the male line and is a recessive gene that always expresses.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following genotype will yield only one type of gamete? [MHT-CET 2019]",
+    "question_latex": "Which one of the following genotype will yield only one type of gamete? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. TTAa",
+      "B. Ttaa",
+      "C. ttaa",
+      "D. TtAa"
+    ],
+    "option_images": [],
+    "answer": "C. ttaa",
+    "solution": "$ttaa$ is homozygous recessive for both genes, so it produces only one type of gamete: $ta$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Inheritance and Variation",
+    "question": "Presence of whole sets of chromosomes in an organism are indicated by the following EXCEPT_______ [MHT-CET 2020]",
+    "question_latex": "Presence of whole sets of chromosomes in an organism are indicated by the following EXCEPT\\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Diploidy",
+      "B. Aneuploidy",
+      "C. Polyploidy",
+      "D. Triploidy"
+    ],
+    "option_images": [],
+    "answer": "B. Aneuploidy",
+    "solution": "Euploidy is a complete haploid set of chromosomes, diploid is 2 sets, triploid is 3 sets, polyploidy is many sets. Aneuploidy is a condition in which chromosomal number is abnormal (not a complete set).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Inheritance and Variation",
+    "question": "Select the INCORRECT statement. [MHT-CET 2020]",
+    "question_latex": "Select the INCORRECT statement. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Haemophilia is caused due to deficiency of VIII and IX clotting factor.",
+      "B. Carrier female for Haemophilia has one recessive gene on X chromosome.",
+      "C. Gene for normal clotting is present on non-homologous region of X chromosome.",
+      "D. In Haemophilia, RBCs are sickle shaped."
+    ],
+    "option_images": [],
+    "answer": "D. In Haemophilia, RBCs are sickle shaped.",
+    "solution": "Haemophilia is also called bleeding disorder caused by the deficiency of clotting factor VIII. This change or mutation prevents the clotting protein from working properly. Sickle-shaped RBCs is a feature of sickle cell anaemia, not haemophilia.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Inheritance and Variation",
+    "question": "Completely sex-linked genes are located on _____ [MHT-CET 2020]",
+    "question_latex": "Completely sex-linked genes are located on \\_____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Homologous part of X chromosomes",
+      "B. Homologous part of X and Y chromosomes",
+      "C. Non-homologous part of X and Y chromosomes",
+      "D. Homologous part of autosomes"
+    ],
+    "option_images": [],
+    "answer": "C. Non-homologous part of X and Y chromosomes",
+    "solution": "Completely sex linked genes are located on non-homologous arms of X and Y chromosomes. They inherit together because crossing over does not occur in this region. X-linked diseases: haemophilia, colour-blindness. Y-linked: Hypertrichosis, Ichthyosis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Inheritance and Variation",
+    "question": "Total number of linkage groups in honeybee is_______ [MHT-CET 2018]",
+    "question_latex": "Total number of linkage groups in honeybee is\\_______ [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 23",
+      "C. 32",
+      "D. 46"
+    ],
+    "option_images": [],
+    "answer": "A. 16",
+    "solution": "The total number of linkage groups in honeybee is 16 (equal to the haploid number of chromosomes in male honeybee).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following is an example of inborn metabolic disorder caused due to recessive autosomal gene? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is an example of inborn metabolic disorder caused due to recessive autosomal gene? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Colour blindness",
+      "B. Huntington's disease",
+      "C. Haemophilia",
+      "D. Phenylketonuria"
+    ],
+    "option_images": [],
+    "answer": "D. Phenylketonuria",
+    "solution": "Phenylketonuria is an inborn metabolic disorder caused due to recessive autosomal gene. When in homozygous recessive condition, it leads to accumulation of phenylalanine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Inheritance and Variation",
+    "question": "Traits of pure lines of garden pea, for any character ____ [MHT-CET 2024]",
+    "question_latex": "Traits of pure lines of garden pea, for any character \\____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Showed blending in both F1 and F2 generations.",
+      "B. Showed blending in F2 generation only.",
+      "C. Showed blending in F1 generation only.",
+      "D. Never showed any blending."
+    ],
+    "option_images": [],
+    "answer": "D. Never showed any blending.",
+    "solution": "In Mendel's experiments the contrasting traits of pure lines of garden pea, for any character never showed any blending as they all followed complete dominance pattern.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Inheritance and Variation",
+    "question": "In the progeny of a typical dihybrid cross, how many different types of phenotypes are obtained? [MHT-CET 2023]",
+    "question_latex": "In the progeny of a typical dihybrid cross, how many different types of phenotypes are obtained? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 2",
+      "C. 16",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "In a typical dihybrid cross, 4 types of phenotypes and 16 types of genotypes are formed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Inheritance and Variation",
+    "question": "The percentage of each gamete out of four different types of gametes produced by the F1 dihybrid will be_______ [MHT-CET 2020]",
+    "question_latex": "The percentage of each gamete out of four different types of gametes produced by the $F_1$ dihybrid will be\\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 50",
+      "B. 75",
+      "C. 100",
+      "D. 25"
+    ],
+    "option_images": [],
+    "answer": "D. 25",
+    "solution": "In a dihybrid cross, e.g., $YyRr$ is $F_1$ hybrid. It will produce the gametes $YR, Yr, yR, yr$. Each gamete will be $25\\%$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Inheritance and Variation",
+    "question": "Grain colour in wheat is determined by three pairs of polygene. Following the cross AABBCC (dark colour) × aabbcc (light colour), in F2 generation. What proportion of the progeny is likely to resemble either parent?",
+    "question_latex": "Grain colour in wheat is determined by three pairs of polygene. Following the cross $AABBCC$ (dark colour) $\\times$ $aabbcc$ (light colour), in $F_2$ generation. What proportion of the progeny is likely to resemble either parent?",
+    "question_images": [],
+    "options": [
+      "A. Half",
+      "B. Less than 5 per cent",
+      "C. One third",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Less than 5 per cent",
+    "solution": "Polygene results in quantitative inheritance. In case of crossing between $AABBCC$ (dark colour) and $aabbcc$ (light colour), in $F_2$-generation seven phenotypes will obtain with ratio $1:6:15:20:15:6:1$. The total number of progeny is 64, out of which only two will be likely resemble with either parents. Hence, their proportion in $F_2$-generation would be $3.12\\%$, i.e., less than $5\\%$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Inheritance and Variation",
+    "question": "Hybridization is the crossing of two selected plants differing from each other [MHT-CET 2020]",
+    "question_latex": "Hybridization is the crossing of two selected plants differing from each other [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. In vegetative characters only",
+      "B. In reproductive characters only",
+      "C. In genotypes",
+      "D. In phenotypes only"
+    ],
+    "option_images": [],
+    "answer": "C. In genotypes",
+    "solution": "Hybridization is selection of two plants different in genotypes and brings about mixing of two different genetic combinations.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Inheritance and Variation",
+    "question": "Walter Sutton is famous for his contribution to",
+    "question_latex": "Walter Sutton is famous for his contribution to",
+    "question_images": [],
+    "options": [
+      "A. Genetic engineering",
+      "B. Totipotency",
+      "C. Quantitative genetics",
+      "D. Chromosomal theory of inheritance"
+    ],
+    "option_images": [],
+    "answer": "D. Chromosomal theory of inheritance",
+    "solution": "Chromosomal theory of inheritance was proposed by Walter Sutton and T. Boveri in 1902. Sutton and Boveri made a correlation between Mendel's conclusion about genes and the behaviour of chromosomes during mitosis and meiosis. Polygenes show quantitative inheritance. Nilsson Ehle (1909) explained it in Kernel colour of wheat and Davenport (1910) for skin colour in humans.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Inheritance and Variation",
+    "question": "Identity the INCORRECT statement with reference to test cross. [MHT-CET 2020]",
+    "question_latex": "Identity the INCORRECT statement with reference to test cross. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. It can be performed considering more than one character.",
+      "B. It is the crossing of two recessive individuals with desirable characters.",
+      "C. It is more popular with plant breeders for its simple 1:1 ratio.",
+      "D. It is used to introduce useful recessive trait in hybrids in rapid crop improvement programs."
+    ],
+    "option_images": [],
+    "answer": "B. It is the crossing of two recessive individuals with desirable characters.",
+    "solution": "Test cross is crossing a heterozygous plant with its recessive parent. This is conducted to find the unknown genotype of given plant. It is NOT the crossing of two recessive individuals.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Inheritance and Variation",
+    "question": "Probability of genotype TTrr in F2-generation of a dihybrid cross is [MHT CET 2004]",
+    "question_latex": "Probability of genotype $TTrr$ in $F_2$-generation of a dihybrid cross is [MHT CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. 1/16",
+      "B. 3/16",
+      "C. 9/16",
+      "D. 6/16"
+    ],
+    "option_images": [],
+    "answer": "A. 1/16",
+    "solution": "The probability of genotype $TTrr$ in $F_2$ generation of a dihybrid cross is $\\frac{1}{16}$.\nP(TT) = $\\frac{1}{4}$, P(rr) = $\\frac{1}{4}$, so P(TTrr) = $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Inheritance and Variation",
+    "question": "The total number of types of gametes produced in a cross between a negro and albino parent is [MHT-CET 2014]",
+    "question_latex": "The total number of types of gametes produced in a cross between a negro and albino parent is [MHT-CET 2014]",
+    "question_images": [],
+    "options": [
+      "A. 64",
+      "B. 16",
+      "C. 08",
+      "D. 04"
+    ],
+    "option_images": [],
+    "answer": "C. 08",
+    "solution": "Negro ($AABBCC$) produces 1 type of gamete ($ABC$). Albino ($aabbcc$) produces 1 type of gamete ($abc$). The $F_1$ mulatto ($AaBbCc$) has 3 heterozygous pairs, producing $2^3 = 8$ types of gametes. Total gamete types = 8.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Inheritance and Variation",
+    "question": "What would be the phenotypic expression of wings in Drosophila having the genotype vg+? [MHT-CET 2019]",
+    "question_latex": "What would be the phenotypic expression of wings in Drosophila having the genotype $vg^+$? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Vestigial wings",
+      "B. Notched wings",
+      "C. Normal wings",
+      "D. Nicked wings"
+    ],
+    "option_images": [],
+    "answer": "C. Normal wings",
+    "solution": "$vg^+$ is the wild type (dominant) allele for vestigial wing gene. An organism with $vg^+$ genotype will have normal wings.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Inheritance and Variation",
+    "question": "How many among the sixty four offsprings produced in F2 generation of a cross between pure black parent and pure white parent for human skin colour will be mulattoes? [MHT-CET 2020]",
+    "question_latex": "How many among the sixty four offsprings produced in $F_2$ generation of a cross between pure black parent and pure white parent for human skin colour will be mulattoes? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Twenty",
+      "B. One",
+      "C. Six",
+      "D. Fifteen"
+    ],
+    "option_images": [],
+    "answer": "A. Twenty",
+    "solution": "20 offsprings in $F_2$ generations will be mulattoes. Human skin colour is controlled by more than one gene. $AABBCC \\times aabbcc$ gives ratio in $F_2$: $1:5:15:20:15:5:1$. The middle class (mulattoes, $AaBbCc$) = 20 out of 64.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Inheritance and Variation",
+    "question": "When a haemophilic male (X^h Y) marries a carrier female (X^H X^h) for haemophilia, what are the chances of all daughters born being normal? [2022]",
+    "question_latex": "When a haemophilic male ($X^h Y$) marries a carrier female ($X^H X^h$) for haemophilia, what are the chances of all daughters born being normal? [2022]",
+    "question_images": [],
+    "options": [
+      "A. 75%",
+      "B. 50%",
+      "C. 0%",
+      "D. 100%"
+    ],
+    "option_images": [],
+    "answer": "C. 0%",
+    "solution": "Cross: $X^h Y \\times X^H X^h$\nDaughters: $X^H X^h$ (carrier) and $X^h X^h$ (haemophilic)\nAll daughters will either be carriers or affected. None will be completely normal. So chances of all daughters being normal = $0\\%$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Inheritance and Variation",
+    "question": "Match the correct numbers regarding the inheritance of human skin colour. [MHT-CET 2020]",
+    "question_latex": "Match the correct numbers regarding the inheritance of human skin colour. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Number of different types of gametes produced by mulattoes-7, Total number of different combinations in F2 generation-64, Number of different phenotypes in F2 generation-8",
+      "B. Number of different types of gametes produced by mulattoes-8, Total number of different combinations in F2 generation-64, Number of different phenotypes in F2 generation-7",
+      "C. Number of different types of gametes produced by mulattoes-64, Total number of different combinations in F2 generation-8, Number of different phenotypes in F2 generation-7",
+      "D. Number of different types of gametes produced by mulattoes-7, Total number of different combinations in F2 generation-8, Number of different phenotypes in F2 generation-64"
+    ],
+    "option_images": [],
+    "answer": "B. Number of different types of gametes produced by mulattoes-8, Total number of different combinations in F2 generation-64, Number of different phenotypes in F2 generation-7",
+    "solution": "Human skin colour is example of polygenic trait controlled by 3 pairs of genes. Polygenic inheritance: $AABBCC \\times aabbcc$. Mulattoes ($AaBbCc$) produce $2^3 = 8$ different types of gametes. Total combinations in $F_2$ generation $= 8 \\times 8 = 64$. Number of different phenotypes in $F_2$ generation $= 7$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Inheritance and Variation",
+    "question": "Test cross is used to confirm ____ [MHT-CET 2024]",
+    "question_latex": "Test cross is used to confirm \\____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Genotype ratio in F2 generation.",
+      "B. Genotype of the organism with dominant expression.",
+      "C. Phenotype of the organism with dominant expression.",
+      "D. Sex/gender of an organism."
+    ],
+    "option_images": [],
+    "answer": "B. Genotype of the organism with dominant expression.",
+    "solution": "The cross of $F_1$ hybrid with the homozygous recessive parent is known as a test cross. It is used to test whether an individual is homozygous (pure) or heterozygous (hybrid), i.e., to confirm the genotype of the organism with dominant expression.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following parents will give birth to a colorblind female child? [MHT-CET 2024]",
+    "question_latex": "Which one of the following parents will give birth to a colorblind female child? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Father has normal vision and mother is a carrier.",
+      "B. Father is color blind and mother has normal vision.",
+      "C. Father has normal vision and mother is colorblind.",
+      "D. Father is colorblind & mother is a carrier."
+    ],
+    "option_images": [],
+    "answer": "D. Father is colorblind & mother is a carrier.",
+    "solution": "For a colorblind female child ($X^c X^c$): she must receive $X^c$ from both parents. Father colorblind ($X^c Y$) donates $X^c$. Mother carrier ($X^C X^c$) donates $X^c$. So father colorblind and mother carrier will give birth to a colorblind female child.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following describes the correct type of chromosome? X-chromosome: A; Y-chromosome: B [MHT-CET 2023]",
+    "question_latex": "Which of the following describes the correct type of chromosome? X-chromosome: $A$; Y-chromosome: $B$ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. A-Telocentric; B-Submetacentric",
+      "B. A-Submetacentric; B-Telocentric",
+      "C. A-Acrocentric; B-Metacentric",
+      "D. A-Metacentric; B-Acrocentric"
+    ],
+    "option_images": [],
+    "answer": "D. A-Metacentric; B-Acrocentric",
+    "solution": "X-chromosome is Metacentric (with both arms equal and centromere in center). Y-chromosome is Acrocentric (centromere at one end making one arm long and other very short).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Inheritance and Variation",
+    "question": "Y chromosome is ___ [MHT-CET 2024]",
+    "question_latex": "Y chromosome is \\___ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Sub-metacentric",
+      "B. Telocentric",
+      "C. Metacentric",
+      "D. Acrocentric"
+    ],
+    "option_images": [],
+    "answer": "D. Acrocentric",
+    "solution": "X-chromosome is metacentric and Y chromosome is acrocentric.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Inheritance and Variation",
+    "question": "When F1 hybrid does NOT resemble either of the parents, then it is due to _______ [MHT-CET 2020]",
+    "question_latex": "When $F_1$ hybrid does NOT resemble either of the parents, then it is due to \\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Incomplete dominance",
+      "B. Recessive characters",
+      "C. Segregation of alleles",
+      "D. Dominant characters"
+    ],
+    "option_images": [],
+    "answer": "A. Incomplete dominance",
+    "solution": "In incomplete dominance, parental characters do not show complete dominance but blend together to produce an intermediate character by combination of both the parents' characters. Hence $F_1$ hybrid does not resemble either parent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Inheritance and Variation",
+    "question": "Incomplete dominance is shown by",
+    "question_latex": "Incomplete dominance is shown by",
+    "question_images": [],
+    "options": [
+      "A. Primrose",
+      "B. Mirabilis",
+      "C. Helianthus",
+      "D. China rose"
+    ],
+    "option_images": [],
+    "answer": "B. Mirabilis",
+    "solution": "In 4 O'clock plant (Mirabilis jalapa), when plants with red flower (homozygous, $RR$) are crossed with plants having white flower (homozygous, $rr$), the heterozygous $F_1$-hybrid ($Rr$) bears pink flowers. This is a classic example of incomplete dominance.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Inheritance and Variation",
+    "question": "In the above pedigree, assume that no outsider marrying in, carry a disease. Write the genotypes of C and D.",
+    "question_latex": "In the above pedigree, assume that no outsider marrying in, carry a disease. Write the genotypes of C and D.",
+    "question_images": [
+      "44_qu_1.png"
+    ],
+    "options": [
+      "A. X^c Y and X^c X^c",
+      "B. XX^c and XY",
+      "C. XY and X^c X^c",
+      "D. X^c X^c and X^c X"
+    ],
+    "option_images": [],
+    "answer": "B. XX^c and XY",
+    "solution": "Genotypes of C and D are $XX^c$ (carrier female) and $XY$ (normal male) respectively.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Inheritance and Variation",
+    "question": "In diploid set of chromosomes, deletion or addition of a member leads to [MHT-CET 2016]",
+    "question_latex": "In diploid set of chromosomes, deletion or addition of a member leads to [MHT-CET 2016]",
+    "question_images": [],
+    "options": [
+      "A. Aneuploidy",
+      "B. Euploidy",
+      "C. Polyploidy",
+      "D. Triploidy"
+    ],
+    "option_images": [],
+    "answer": "A. Aneuploidy",
+    "solution": "In diploid set of chromosomes, deletion or addition of a member (single chromosome) leads to Aneuploidy. Aneuploidy is the condition where the chromosome number is not an exact multiple of the haploid number.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Inheritance and Variation",
+    "question": "Number of chromosomes in Down's syndrome are",
+    "question_latex": "Number of chromosomes in Down's syndrome are",
+    "question_images": [],
+    "options": [
+      "A. 46",
+      "B. 47",
+      "C. 48",
+      "D. 49"
+    ],
+    "option_images": [],
+    "answer": "B. 47",
+    "solution": "Down's syndrome is due to the trisomy of 21st pair of autosome. Therefore, a Down's syndrome patient has 47 chromosomes, i.e., $45A + XX/XY$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Inheritance and Variation",
+    "question": "In the first step of Monohybrid cross experiment, Mendel selected pea plants which were [MHT-CET 2015]",
+    "question_latex": "In the first step of Monohybrid cross experiment, Mendel selected pea plants which were [MHT-CET 2015]",
+    "question_images": [],
+    "options": [
+      "A. Pure tall as male and pure dwarf as female",
+      "B. Pure tall as female and pure dwarf as male",
+      "C. Heterozygous tall as male and pure dwarf as female",
+      "D. Heterozygous tall as female and pure dwarf as male"
+    ],
+    "option_images": [],
+    "answer": "B. Pure tall as female and pure dwarf as male",
+    "solution": "In the first step of Monohybrid cross experiment, Mendel selected pure tall pea plants as female (seed parent) and pure dwarf pea plants as male (pollen parent).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Inheritance and Variation",
+    "question": "Observe the given figure of Morgan's experiment for yellow body and white eyed female Drosophila crossed with brown body and red eyed male Drosophila. What will be the percentage of parental type in F2 generation? [MHT-CET 2024]",
+    "question_latex": "Observe the given figure of Morgan's experiment for yellow body and white eyed female Drosophila crossed with brown body and red eyed male Drosophila. What will be the percentage of parental type in $F_2$ generation? [MHT-CET 2024]",
+    "question_images": [
+      "48_qu_1.png"
+    ],
+    "options": [
+      "A. 98.7%",
+      "B. 37.2%",
+      "C. 62.8%",
+      "D. 1.3%"
+    ],
+    "option_images": [],
+    "answer": "A. 98.7%",
+    "solution": "98.7% shows parental combinations as genes are closely situated they cannot be easily separated. Only 1.3% are recombinant types.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following genotype does NOT represent aneuploidy in human being? [MHT-CET 2020]",
+    "question_latex": "Which one of the following genotype does NOT represent aneuploidy in human being? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 44 + XX",
+      "B. 44 + XO",
+      "C. 44 + XXX",
+      "D. 45 + XX"
+    ],
+    "option_images": [],
+    "answer": "A. 44 + XX",
+    "solution": "Aneuploidy is an imbalanced combination of chromosomes. $44 + XX$ is the normal genotype (total 46 chromosomes), all others are abnormal genotypes representing aneuploidy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following law was discovered first by Mendel?",
+    "question_latex": "Which of the following law was discovered first by Mendel?",
+    "question_images": [],
+    "options": [
+      "A. Law of dominance",
+      "B. Law of segregation",
+      "C. Law of independent assortment",
+      "D. Law of sex determination"
+    ],
+    "option_images": [],
+    "answer": "B. Law of segregation",
+    "solution": "Originally, Mendel proposed two laws, firstly law of segregation and then law of independent assortment. Mendel coined the term dominant for any trait that expresses itself when present with the factors for the contrasting trait, and used the word recessive for any trait that is not expressed when present along with contrasting dominant trait in the hybrid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Inheritance and Variation",
+    "question": "Find the odd one out, with respect to X-linkage. [MHT-CET 2015]",
+    "question_latex": "Find the odd one out, with respect to $X$-linkage. [MHT-CET 2015]",
+    "question_images": [],
+    "options": [
+      "A. Haemophilia",
+      "B. Myopia",
+      "C. Nephritis",
+      "D. Night blindness"
+    ],
+    "option_images": [],
+    "answer": "C. Nephritis",
+    "solution": "Haemophilia, Myopia, and Night blindness are X-linked traits. Nephritis is not an X-linked disease.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following is the genotype of pure white skin colour in human? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is the genotype of pure white skin colour in human? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. a = BbCc",
+      "B. AA BB CC",
+      "C. AaBbCc",
+      "D. aa bb cc"
+    ],
+    "option_images": [],
+    "answer": "D. aa bb cc",
+    "solution": "Pure white will have genotype $aabbcc$ whereas pure black will have $AABBCC$ genotype. This is an example of skin colour multiple allele i.e. more than two genes regulating the feature.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Inheritance and Variation",
+    "question": "The industrial melanism phenomenon demonstrates _______ [MHT-CET 2020]",
+    "question_latex": "The industrial melanism phenomenon demonstrates \\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Natural selection",
+      "B. Migration",
+      "C. Genetic drift",
+      "D. Isolation"
+    ],
+    "option_images": [],
+    "answer": "A. Natural selection",
+    "solution": "Industrial Melanism helps to illustrate the theory of evolution by natural selection. It states that the organism with favourable variation is fittest and will undergo natural selection.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Inheritance and Variation",
+    "question": "Chromosomal mechanism of sex determination in human beings is called _______ [MHT-CET 2020]",
+    "question_latex": "Chromosomal mechanism of sex determination in human beings is called \\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Haemopoiesis",
+      "B. Transgenesis",
+      "C. Parthenogenesis",
+      "D. Heterogamesis"
+    ],
+    "option_images": [],
+    "answer": "D. Heterogamesis",
+    "solution": "In human chromosomal mechanism of sex determination is called heterogametic as male in human shows heterogamete with $X$ and $Y$ chromosomes. And $Y$ is responsible for sex determination.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Inheritance and Variation",
+    "question": "In short horned cattle, genes for red (R) and white (r) coat colour occur. Cross between red (RR) and white (rr) produced (Rr) roan. This is an example of",
+    "question_latex": "In short horned cattle, genes for red ($R$) and white ($r$) coat colour occur. Cross between red ($RR$) and white ($rr$) produced ($Rr$) roan. This is an example of",
+    "question_images": [],
+    "options": [
+      "A. Incomplete dominance",
+      "B. Codominance",
+      "C. Complementary genes",
+      "D. Epistasis"
+    ],
+    "option_images": [],
+    "answer": "B. Codominance",
+    "solution": "The given case is the example of codominance. In roan cattle, both red and white coat colours are expressed simultaneously in heterozygous condition, forming a roan (mixed) appearance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Inheritance and Variation",
+    "question": "The term Genetics was proposed by",
+    "question_latex": "The term Genetics was proposed by",
+    "question_images": [],
+    "options": [
+      "A. Mendel",
+      "B. Bateson",
+      "C. Morgan",
+      "D. Johanssen"
+    ],
+    "option_images": [],
+    "answer": "B. Bateson",
+    "solution": "The term genetics (Gk. Genesis = descent) was coined by Bateson in 1906. Genetics is the study of principles and mechanism of heredity and variations.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Inheritance and Variation",
+    "question": "A normal man marries a female carrier for sickle cell anaemia. What are the chances of having carrier children? [MHT-CET 2020]",
+    "question_latex": "A normal man marries a female carrier for sickle cell anaemia. What are the chances of having carrier children? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. All of them will be carriers.",
+      "B. None of them will be carriers.",
+      "C. 50% of them will be carriers.",
+      "D. Only daughters will be carriers."
+    ],
+    "option_images": [],
+    "answer": "C. 50% of them will be carriers.",
+    "solution": "When a normal man ($XY$) marries a carrier female ($X^s X$) who has one normal and other with mutated gene, there are $50\\%$ chances of having carrier children. Sickle cell anaemia is autosomal, so both sons and daughters can be carriers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Inheritance and Variation",
+    "question": "If pea plant, Pisum sativum, with genotype RRTT is crossed with another pea plant with the genotype rrtt, then how many F2 offsprings will exhibit parental genotypes? [MHT-CET 2024]",
+    "question_latex": "If pea plant, Pisum sativum, with genotype $RRTT$ is crossed with another pea plant with the genotype $rrtt$, then how many $F_2$ offsprings will exhibit parental genotypes? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 4/16",
+      "B. 1/16",
+      "C. 8/16",
+      "D. 2/16"
+    ],
+    "option_images": [],
+    "answer": "D. 2/16",
+    "solution": "$RRTT \\times rrtt \\rightarrow F_1: RrTt$. On selfing $RrTt$, the $F_2$ ratio is $9:3:3:1$. Parental genotypes are $RRTT$ (1/16) and $rrtt$ (1/16), so $\\frac{2}{16}$ will have parental genotypes.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Inheritance and Variation",
+    "question": "The law of purity of gametes is universally applicable because the gametes____ [MHT-CET 2020]",
+    "question_latex": "The law of purity of gametes is universally applicable because the gametes\\____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Are never identical.",
+      "B. Receive only one of the allelic pairs.",
+      "C. Always have a dominant allele.",
+      "D. Always have a recessive allele."
+    ],
+    "option_images": [],
+    "answer": "B. Receive only one of the allelic pairs.",
+    "solution": "Law of purity of gametes is universally applicable because even though organisms are diploid ($2n$), during meiosis of gamete formation each gamete receives only one of the allelic pair ($n$), which is true for all sexually reproducing organisms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Inheritance and Variation",
+    "question": "In F2-generation, quantitative inheritance 1 : 4 : 6 : 4 : 1 is obtained instead of",
+    "question_latex": "In $F_2$-generation, quantitative inheritance $1:4:6:4:1$ is obtained instead of",
+    "question_images": [],
+    "options": [
+      "A. 9 : 3 : 3 : 1",
+      "B. 8 : 6 : 4 : 1",
+      "C. 7 : 4 : 1 : 4",
+      "D. 6 : 6 : 4 : 7"
+    ],
+    "option_images": [],
+    "answer": "A. 9 : 3 : 3 : 1",
+    "solution": "In $F_2$-generation, quantitative inheritance $1:4:6:4:1$ is obtained in a dihybrid cross instead of $9:3:3:1$ (when two pairs of polygenes show quantitative effects).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Inheritance and Variation",
+    "question": "Multiple alleles are characterized by_____ [MHT-CET 2020]",
+    "question_latex": "Multiple alleles are characterized by\\_____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Occurrence of two alternative forms of a gene found on the same chromosome.",
+      "B. More than two alternative forms of a gene found at the same locus.",
+      "C. More than two alternative forms of a gene found at different loci.",
+      "D. Occurrence of two different genes in two chromosomes."
+    ],
+    "option_images": [],
+    "answer": "B. More than two alternative forms of a gene found at the same locus.",
+    "solution": "Multiple alleles are more than two forms of genes situated at the same locus. For ex. ABO blood group which is controlled by three genes $I^A$, $I^B$, $i$ representing multiple alleles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Inheritance and Variation",
+    "question": "The ratio of inheritance of widow's peak approximately in male to female human beings is [MHT-CET 2023]",
+    "question_latex": "The ratio of inheritance of widow's peak approximately in male to female human beings is [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 100 : 0",
+      "B. 50 : 50",
+      "C. 75 : 25",
+      "D. 25 : 75"
+    ],
+    "option_images": [],
+    "answer": "B. 50 : 50",
+    "solution": "Widow's peak is determined by autosomal dominant gene. It occurs in homozygous dominant ($WW$) and also heterozygous ($Ww$) individuals. Since it is autosomal, the ratio in male to female is approximately $50:50$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Inheritance and Variation",
+    "question": "Occurrence of an extra chromosome in a diploid set of chromosome is called _______ [MHT-CET 2020]",
+    "question_latex": "Occurrence of an extra chromosome in a diploid set of chromosome is called \\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Polyploidy",
+      "B. Trisomy",
+      "C. Polysome",
+      "D. Monosomy"
+    ],
+    "option_images": [],
+    "answer": "B. Trisomy",
+    "solution": "Trisomy is an additional chromosome in a diploid set ($2n+1$). For example trisomy of 21st chromosomes causes Down's syndrome. Polyploidy is when the number of chromosomes are more than two sets. Monosomy is a single copy of a chromosome instead of a pair ($2n-1$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Inheritance and Variation",
+    "question": "In heterozygous condition both the alleles are expressed in________ [MHT-CET 2020]",
+    "question_latex": "In heterozygous condition both the alleles are expressed in\\________ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. AB blood group",
+      "B. Haemophilia",
+      "C. Colour blindness",
+      "D. Diabetes"
+    ],
+    "option_images": [],
+    "answer": "A. AB blood group",
+    "solution": "In blood group AB heterozygous condition, both the alleles are expressed by producing both antigens A and B on RBC surface. Colour blindness and haemophilia are X-linked diseases and diabetes is a metabolic disorder.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following is NOT a disease due to single gene defect in human? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is NOT a disease due to single gene defect in human? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Haemophilia",
+      "B. Thalassemia",
+      "C. Sickle cell anaemia",
+      "D. Hypertension"
+    ],
+    "option_images": [],
+    "answer": "D. Hypertension",
+    "solution": "Hypertension is rise in blood pressure which is a cardiovascular disease caused mainly due to unhealthy lifestyle and food habits. It is NOT caused by a single gene defect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Inheritance and Variation",
+    "question": "When two genetic loci produce identical phenotypes in cis and trans position, they are considered to be",
+    "question_latex": "When two genetic loci produce identical phenotypes in \\textit{cis} and \\textit{trans} position, they are considered to be",
+    "question_images": [],
+    "options": [
+      "A. Pseudoalleles",
+      "B. Multiple alleles",
+      "C. The part of same gene",
+      "D. Different genes"
+    ],
+    "option_images": [],
+    "answer": "A. Pseudoalleles",
+    "solution": "According to the $cis$-$trans$ effect of Lewis, when two genetic loci produce identical phenotypes in $cis$ and $trans$ position, they are considered to be pseudoalleles and the phenomenon as pseudoallelism.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Inheritance and Variation",
+    "question": "A couple, both carriers for the gene sickle cell anaemia planning to get married, want to know the chances of having anaemic progeny? [MHT-CET 2014]",
+    "question_latex": "A couple, both carriers for the gene sickle cell anaemia planning to get married, want to know the chances of having anaemic progeny? [MHT-CET 2014]",
+    "question_images": [],
+    "options": [
+      "A. 0%",
+      "B. 75%",
+      "C. 50%",
+      "D. 25%"
+    ],
+    "option_images": [],
+    "answer": "D. 25%",
+    "solution": "Both parents are carriers ($Ss \\times Ss$). The cross gives ratio $SS:Ss:ss = 1:2:1$. The anaemic progeny ($ss$) = $\\frac{1}{4} = 25\\%$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Inheritance and Variation",
+    "question": "Leaf colour in Mirabilis jalapa is an example of",
+    "question_latex": "Leaf colour in \\textit{Mirabilis jalapa} is an example of",
+    "question_images": [],
+    "options": [
+      "A. Non-Mendelian inheritance",
+      "B. Mendelian inheritance",
+      "C. Chemical inheritance",
+      "D. Both b) and c)"
+    ],
+    "option_images": [],
+    "answer": "A. Non-Mendelian inheritance",
+    "solution": "The inheritance due to the genes found in cytoplasm (mitochondria and chloroplast) is called cytoplasmic inheritance or non-Mendelian inheritance. The leaves of Mirabilis jalapa may be green, white or variegated. This is due to cytoplasmic inheritance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following was the rediscoverer of Mendel's work?",
+    "question_latex": "Which one of the following was the rediscoverer of Mendel's work?",
+    "question_images": [],
+    "options": [
+      "A. Muller",
+      "B. Morgan",
+      "C. Correns",
+      "D. Bridge"
+    ],
+    "option_images": [],
+    "answer": "C. Correns",
+    "solution": "Mendel's work was rediscovered independently by three scientists: de Vries (Dutch), Carl Correns (German), and Tschermak (Austrian).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Inheritance and Variation",
+    "question": "Parents with blood group-A and AB will not produce offspring with blood group [MHT CET 2004]",
+    "question_latex": "Parents with blood group-A and AB will not produce offspring with blood group [MHT CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. A",
+      "B. AB",
+      "C. B",
+      "D. O"
+    ],
+    "option_images": [],
+    "answer": "D. O",
+    "solution": "Mother blood group A (genotype $I^A i$ or $I^A I^A$) $\\times$ Father blood group AB (genotype $I^A I^B$). Possible offspring blood groups: A, AB, B. Blood group O ($ii$) requires both parents to donate $i$ allele, but AB parent cannot donate $i$. Hence parents with blood group-A and AB will not produce offspring with blood group-O.",
+    "solution_images": [
+      "q70_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Inheritance and Variation",
+    "question": "The total number of progeny obtained through dihybrid cross of Mendel is 1280 in F2-generation. How many are recombinants?",
+    "question_latex": "The total number of progeny obtained through dihybrid cross of Mendel is 1280 in $F_2$-generation. How many are recombinants?",
+    "question_images": [],
+    "options": [
+      "A. 240",
+      "B. 360",
+      "C. 480",
+      "D. 720"
+    ],
+    "option_images": [],
+    "answer": "C. 480",
+    "solution": "In Mendel's dihybrid cross out of 16 progenies, 6 are recombinants. So in case of 1280 progenies, the recombinants are $\\frac{1280 \\times 6}{16} = 480$ progenies.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Inheritance and Variation",
+    "question": "The appearance of roan coat colour in cattle is an example of ___ [MHT-CET 2024]",
+    "question_latex": "The appearance of roan coat colour in cattle is an example of \\___ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Complete dominance",
+      "B. Pleiotropic",
+      "C. Co-dominance",
+      "D. Incomplete dominance"
+    ],
+    "option_images": [],
+    "answer": "C. Co-dominance",
+    "solution": "The appearance of roan coat colour in cattle is an example of co-dominance where both genes express with dominance (both red and white hairs appear simultaneously).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Inheritance and Variation",
+    "question": "If 10 pink flowered plants of Mirabilis Jalapa are crossed with another 10 pink flowered plants of the same genus and species, what will be the percentage of white flowered progeny obtained? [MHT-CET 2021]",
+    "question_latex": "If 10 pink flowered plants of \\textit{Mirabilis Jalapa} are crossed with another 10 pink flowered plants of the same genus and species, what will be the percentage of white flowered progeny obtained? [MHT-CET 2021]",
+    "question_images": [],
+    "options": [
+      "A. 25%",
+      "B. 100%",
+      "C. 10%",
+      "D. 50%"
+    ],
+    "option_images": [],
+    "answer": "A. 25%",
+    "solution": "Pink flowers of Mirabilis jalapa is an example of incomplete dominance. Pink ($Rr$) $\\times$ Pink ($Rr$) gives ratio $RR:Rr:rr = 1:2:1$. White flowered ($rr$) = $\\frac{1}{4} = 25\\%$.",
+    "solution_images": [
+      "73_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Inheritance and Variation",
+    "question": "Law of segregation is also called law of [MHT CET 2004]",
+    "question_latex": "Law of segregation is also called law of [MHT CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. Probability",
+      "B. Purity of gametes",
+      "C. Independence of gametes",
+      "D. Punnett hypothesis"
+    ],
+    "option_images": [],
+    "answer": "B. Purity of gametes",
+    "solution": "Mendel is called father of genetics. There are three laws of Mendel: 1. Law of dominance, 2. Law of segregation or Law of purity of gametes or Law of splitting of hybrids, 3. Law of independent assortment.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Inheritance and Variation",
+    "question": "In a population of 10,000 cattle, 6400 have homozygous dominant genotype (AA) and 400 have homozygous recessive genotype (aa). Find all out number of cattle having heterozygous genotype (Aa) as per Hardy-Weinberg's principle. [MHT-CET 2024]",
+    "question_latex": "In a population of 10,000 cattle, 6400 have homozygous dominant genotype ($AA$) and 400 have homozygous recessive genotype ($aa$). Find all out number of cattle having heterozygous genotype ($Aa$) as per Hardy-Weinberg's principle. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 160",
+      "B. 3200",
+      "C. 1600",
+      "D. 320"
+    ],
+    "option_images": [],
+    "answer": "B. 3200",
+    "solution": "The law states that at equilibrium point both the gene (allele) frequency and genotypic frequency remain constant. $AA:Aa:aa = 6400:?:400 = 1:2:1$ which comes to $1600:3200:1600$. Hence number of $Aa$ = 3200.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Inheritance and Variation",
+    "question": "In a dihybrid cross with contrasting characters, the number of different genotypes obtained in F2 generation are______ [MHT-CET 2018]",
+    "question_latex": "In a dihybrid cross with contrasting characters, the number of different genotypes obtained in $F_2$ generation are\\______ [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 9",
+      "C. 6",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 9",
+    "solution": "In a dihybrid cross, the $F_2$ generation produces 9 different genotypes ($AABB, AABb, AAbb, AaBB, AaBb, Aabb, aaBB, aaBb, aabb$) and 4 different phenotypes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Inheritance and Variation",
+    "question": "Allelism refers to",
+    "question_latex": "Allelism refers to",
+    "question_images": [],
+    "options": [
+      "A. Genic interactions controlling a character",
+      "B. Multiple genes controlling a character",
+      "C. Expression of many characters by a single gene",
+      "D. Alternative forms of a gene at a given locus"
+    ],
+    "option_images": [],
+    "answer": "D. Alternative forms of a gene at a given locus",
+    "solution": "Allelism refers to presence of alternative forms of a gene at a given locus. Alleles or allelomorphs are the two contrasting aspects of the same character present at a locus of homologous pair of chromosomes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Inheritance and Variation",
+    "question": "The genotypic ratio in a typical Mendelian monohybrid cross is ____ [MHT-CET 2023]",
+    "question_latex": "The genotypic ratio in a typical Mendelian monohybrid cross is \\____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 3 : 1",
+      "B. 2 : 2",
+      "C. 1 : 1 : 4 : 1",
+      "D. 1 : 2 : 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1 : 2 : 1",
+    "solution": "$1:2:1$ is the genotypic ratio in a typical Mendelian monohybrid cross ($TT:Tt:tt = 1:2:1$). The phenotypic ratio is $3:1$.",
+    "solution_images": [
+      "78_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Inheritance and Variation",
+    "question": "In which one of the following, complementary gene interaction ratio of 9 : 7 is observed?",
+    "question_latex": "In which one of the following, complementary gene interaction ratio of $9:7$ is observed?",
+    "question_images": [],
+    "options": [
+      "A. Fruit shape in Shepherd's purse",
+      "B. Coat colour in mouse",
+      "C. Feather colour in fowl",
+      "D. Flower colour in pea"
+    ],
+    "option_images": [],
+    "answer": "D. Flower colour in pea",
+    "solution": "W Bateson and R C Punnett observed complementary gene interaction for flower colour in sweet pea (Lathyrus odoratus). In complementary interaction, two separate pairs of genes interact to produce the phenotype in such a way that neither of the dominant genes is expressive unless the other one is present. In $F_2$ generation, complementary genes produce a ratio of $9:7$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Inheritance and Variation",
+    "question": "The gene for the synthesis of β chain of the globin molecule is situated on chromosome number ___ [MHT-CET 2024]",
+    "question_latex": "The gene for the synthesis of $\\beta$ chain of the globin molecule is situated on chromosome number \\___ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 14",
+      "C. 11",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "C. 11",
+    "solution": "The synthesis of alpha chains are controlled by two closely linked genes (HBA1 and HBA2) on chromosome 16, while the synthesis of beta chain is controlled by a single gene (HBB) on chromosome 11.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Inheritance and Variation",
+    "question": "An individual produced during a cross between two pure plants differing in two pairs of contrasting characters is always_____ [MHT-CET 2020]",
+    "question_latex": "An individual produced during a cross between two pure plants differing in two pairs of contrasting characters is always\\_____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Homozygous for the two selected traits.",
+      "B. Homozygous for one trait and heterozygous for other trait.",
+      "C. Heterozygous for the two selected traits.",
+      "D. Heterozygous for none of the traits."
+    ],
+    "option_images": [],
+    "answer": "C. Heterozygous for the two selected traits.",
+    "solution": "In a dihybrid cross with two pairs of contrasting characters (e.g., $AABB \\times aabb$), the offspring produced in $F_1$ generation are always heterozygous ($AaBb$) with complete dominance feature expressed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Inheritance and Variation",
+    "question": "On selfing RrTt, we produce 400 plants, find out number of plants with genotype RrTt.",
+    "question_latex": "On selfing $RrTt$, we produce 400 plants, find out number of plants with genotype $RrTt$.",
+    "question_images": [],
+    "options": [
+      "A. 100",
+      "B. 225",
+      "C. 50",
+      "D. 300"
+    ],
+    "option_images": [],
+    "answer": "A. 100",
+    "solution": "According to genotypic ratio of law of independent assortment for dihybrid cross, the $RrTt$ genotype will be found in $\\frac{4}{16}$ of all plants. Out of 400 plants: $400 \\times \\frac{4}{16} = 100$ plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Inheritance and Variation",
+    "question": "Mendel gave the explanation of the mechanism of inheritance by using ....... technique. [2022]",
+    "question_latex": "Mendel gave the explanation of the mechanism of inheritance by using \\ldots\\ldots\\ldots technique. [2022]",
+    "question_images": [],
+    "options": [
+      "A. Mutation",
+      "B. Hybridization",
+      "C. Tissue culture",
+      "D. Reverse transcription"
+    ],
+    "option_images": [],
+    "answer": "B. Hybridization",
+    "solution": "Mendel gave the explanation of the mechanism of inheritance by using hybridization technique.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Inheritance and Variation",
+    "question": "A female showing short stature, webbing of neck, low posterior hair line suffers from____ [MHT-CET 2020]",
+    "question_latex": "A female showing short stature, webbing of neck, low posterior hair line suffers from\\____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Klinefelter's",
+      "B. Turner's syndrome",
+      "C. Down's syndrome",
+      "D. Acquired Immune deficiency syndrome"
+    ],
+    "option_images": [],
+    "answer": "B. Turner's syndrome",
+    "solution": "Turner's syndrome is due to $22PA + XO$ (one X chromosome missing). They are females with stunted growth, sterile, webbing of neck and low posterior hair line.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Inheritance and Variation",
+    "question": "The organism chosen by Mendel to explain the law of inheritance is",
+    "question_latex": "The organism chosen by Mendel to explain the law of inheritance is",
+    "question_images": [],
+    "options": [
+      "A. Drosophila melanogaster",
+      "B. Antirrhinum majus",
+      "C. Pisum sativum",
+      "D. Homo sapiens"
+    ],
+    "option_images": [],
+    "answer": "C. Pisum sativum",
+    "solution": "Mendel chose Pisum sativum (garden pea) to explain the laws of inheritance. His selection of garden pea was evidently not an accident, but the result of long careful thought.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following develops through parthenogenesis? [MHT-CET 2019]",
+    "question_latex": "Which of the following develops through parthenogenesis? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Female Drosophila",
+      "B. Worker honey bee",
+      "C. Male honey bee",
+      "D. Male Drosophila"
+    ],
+    "option_images": [],
+    "answer": "C. Male honey bee",
+    "solution": "Male honey bee (drone) develops through parthenogenesis (development from unfertilized egg). They are haploid (n). Worker bees and queen bees are female and develop from fertilized eggs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Inheritance and Variation",
+    "question": "Two genes R and Y are located very close on the chromosomal linkage map of maize plant. When RRYY and rryy genotypes are hybridized, then F2-segregation will show",
+    "question_latex": "Two genes R and Y are located very close on the chromosomal linkage map of maize plant. When $RRYY$ and $rryy$ genotypes are hybridized, then $F_2$-segregation will show",
+    "question_images": [],
+    "options": [
+      "A. Higher number of the recombinant types",
+      "B. Segregation in the expected 9 : 3 : 3 : 1 ratio",
+      "C. Segregation in 3 : 1 ratio",
+      "D. Higher number of the parental types"
+    ],
+    "option_images": [],
+    "answer": "D. Higher number of the parental types",
+    "solution": "Law of independent assortment does not apply when the genes of different characters occupy the same homologous chromosome (linked genes). When genes are closely located, they show higher number of parental types and very few recombinants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Inheritance and Variation",
+    "question": "Monohybrid crosses are useful in demonstrating which of the following laws of inheritance suggested by Mendel? [MHT-CET 2024]",
+    "question_latex": "Monohybrid crosses are useful in demonstrating which of the following laws of inheritance suggested by Mendel? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Law of segregation and law of independent assortment.",
+      "B. Law of dominance and law of independent assortment.",
+      "C. Law of independent assortment only.",
+      "D. Law of purity of gamete and law of dominance."
+    ],
+    "option_images": [],
+    "answer": "D. Law of purity of gamete and law of dominance.",
+    "solution": "Monohybrid crosses demonstrate the law of dominance (one trait is dominant over the other) and the law of purity of gametes (each gamete carries only one allele of a gene pair).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Inheritance and Variation",
+    "question": "The differences between parents and offspring, among offsprings of the same parents and individuals of the same species are called _______ [MHT-CET 2020]",
+    "question_latex": "The differences between parents and offspring, among offsprings of the same parents and individuals of the same species are called \\_______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Heredity",
+      "B. Variations",
+      "C. Homology",
+      "D. Allelism"
+    ],
+    "option_images": [],
+    "answer": "B. Variations",
+    "solution": "Differences between offsprings born to same parents are known as variations. These variations are mainly caused due to crossing over of meiosis which brings shuffling of genetic material.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Inheritance and Variation",
+    "question": "Genes are present on",
+    "question_latex": "Genes are present on",
+    "question_images": [],
+    "options": [
+      "A. Chromosomes",
+      "B. Lamellae",
+      "C. Plasma membrane",
+      "D. Mesosomes"
+    ],
+    "option_images": [],
+    "answer": "A. Chromosomes",
+    "solution": "Genes are segments of DNA. Johanseen (1909) described the gene as unit of heredity which can be assigned to a particular character. Morgan and Bridges suggested that genes are located on chromosomes in linear fashion.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Inheritance and Variation",
+    "question": "The phenotypic ratio in the F2 generation of dihybrid cross is",
+    "question_latex": "The phenotypic ratio in the $F_2$ generation of dihybrid cross is",
+    "question_images": [],
+    "options": [
+      "A. 9 : 3 : 3 : 1",
+      "B. 1 : 2 : 2 : 4 : 1 : 2 : 1 : 2 : 1",
+      "C. 7 : 1 : 1 : 7",
+      "D. 12 : 8 : 4"
+    ],
+    "option_images": [],
+    "answer": "A. 9 : 3 : 3 : 1",
+    "solution": "A dihybrid cross involves two pairs of contrasting characters. When $F_1$ heterozygous plants are self-fertilized to produce $F_2$ generation, four types of combinations are obtained. The phenotypic dihybrid ratio is $9:3:3:1$, while the genotypic dihybrid ratio is $1:2:2:4:1:2:1:2:1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Inheritance and Variation",
+    "question": "If two plants having pink flowers of Mirabilis Jalapa are crossed, what phenotypes will their progeny show? [MHT-CET 2024]",
+    "question_latex": "If two plants having pink flowers of \\textit{Mirabilis Jalapa} are crossed, what phenotypes will their progeny show? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 50% red flowered plants & 50% white flowered plants.",
+      "B. 25% red flowered, 50% pink flowered and 25% white flowered plants.",
+      "C. All pink flowered plants.",
+      "D. All white flowered plants."
+    ],
+    "option_images": [],
+    "answer": "B. 25% red flowered, 50% pink flowered and 25% white flowered plants.",
+    "solution": "Pink flowers ($Rr$) of Mirabilis jalapa follow incomplete dominance rule. Cross: $Rr \\times Rr \\rightarrow RR : Rr : rr = 1:2:1$. So $25\\%$ red ($RR$), $50\\%$ pink ($Rr$), $25\\%$ white ($rr$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Inheritance and Variation",
+    "question": "The diagram represent Miller's experiment. Choose the correct combination of labelling.",
+    "question_latex": "The diagram represent Miller's experiment. Choose the correct combination of labelling.",
+    "question_images": [
+      "93_qu_1.png"
+    ],
+    "options": [
+      "A. A-Electrodes B-NH3 + H2 + H2O + CH4 C-Cold water D-Vacuum E-U-trap",
+      "B. A-Electrodes B-NH4 + H2 + CO2 + CH3 C-Hot water D-Vacuum E-U-trap",
+      "C. A-Electrodes B-NH3 + H2O C-Steam D-U-trap E-Vacuum",
+      "D. A-Electrodes B-NH3 + H2 + H2O + CH4 C-Steam D-Vacuum E-U-trap"
+    ],
+    "option_images": [],
+    "answer": "A. A-Electrodes B-NH3 + H2 + H2O + CH4 C-Cold water D-Vacuum E-U-trap",
+    "solution": "The correct combination of labelling in Miller's experiment:\nA - Electrodes\n$B$ - $NH_3 + H_2 + H_2O + CH_4$\nC - Cold water\nD - Vacuum\nE - U-trap",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Inheritance and Variation",
+    "question": "Which one of the following statement is INCORRECT regarding Morgan's experiment on Drosophila? [MHT-CET 2024]",
+    "question_latex": "Which one of the following statement is INCORRECT regarding Morgan's experiment on Drosophila? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Genes which are strongly linked show very high rate of recombination.",
+      "B. When two genes in a dihybrid cross are situated on the same chromosome, then the proportion of parental combination is much higher than non-parental type.",
+      "C. Genes which are loosely linked show high rate of recombination.",
+      "D. In a dihybrid cross carried out in Drosophila by Morgan and his group, the two genes did not segregate independently of each other."
+    ],
+    "option_images": [],
+    "answer": "A. Genes which are strongly linked show very high rate of recombination.",
+    "solution": "Genes which are strongly linked show very LOW rate of recombination (not high). The closer the genes, the less likely crossing over occurs between them.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Inheritance and Variation",
+    "question": "Persons with Klinefelter's syndrome have chromosomes",
+    "question_latex": "Persons with Klinefelter's syndrome have chromosomes",
+    "question_images": [],
+    "options": [
+      "A. XX",
+      "B. XY",
+      "C. XXY",
+      "D. XYY"
+    ],
+    "option_images": [],
+    "answer": "C. XXY",
+    "solution": "The individuals suffering from Klinefelter's syndrome disease show trisomy of X-chromosomes, i.e., they contain 47 chromosomes in total with 22 autosomes (XXY).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following parental combinations may lead to lethal sickle cell anemia? [MHT-CET 2020]",
+    "question_latex": "Which of the following parental combinations may lead to lethal sickle cell anemia? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Both parents are heterozygous.",
+      "B. Female parent is homozygous normal and male parent is heterozygous.",
+      "C. Male parent is homozygous normal and female parent is heterozygous.",
+      "D. Both parents are homozygous, and normal."
+    ],
+    "option_images": [],
+    "answer": "A. Both parents are heterozygous.",
+    "solution": "In sickle cell anemia, heterozygous parents ($Ss \\times Ss$) give four combinations in $F_1$ generation: Homozygous dominant ($SS$): heterozygous ($Ss$): homozygous recessive ($ss$) = $1:2:1$. In this case homozygous recessive ($ss$) is lethal and could not survive.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Inheritance and Variation",
+    "question": "Cross between unrelated group of organisms, is called",
+    "question_latex": "Cross between unrelated group of organisms, is called",
+    "question_images": [],
+    "options": [
+      "A. Hybridization",
+      "B. Test cross",
+      "C. Back cross",
+      "D. Heterosis"
+    ],
+    "option_images": [],
+    "answer": "A. Hybridization",
+    "solution": "Cross between two genetically unlike individuals is called hybridization.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Inheritance and Variation",
+    "question": "Which of the following will be the genotype of parents of a girl with haemophilia? [2022]",
+    "question_latex": "Which of the following will be the genotype of parents of a girl with haemophilia? [2022]",
+    "question_images": [],
+    "options": [
+      "A. X^h Y × X^H X^H",
+      "B. X^h Y × X^H X^h",
+      "C. X^H Y × X^H X^H",
+      "D. X^H Y × X^H X^h"
+    ],
+    "option_images": [],
+    "answer": "B. X^h Y × X^H X^h",
+    "solution": "For a haemophilic girl ($X^h X^h$): she must inherit $X^h$ from both parents. Father must be haemophilic ($X^h Y$) and mother must be at least a carrier ($X^H X^h$). Thus, $X^h Y \\times X^H X^h$ can produce haemophilic daughters ($X^h X^h$).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Inheritance and Variation",
+    "question": "The alleles are [MHT-CET 2004]",
+    "question_latex": "The alleles are [MHT-CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. A pair of genes governing a specific character such as tallness or dwarfness",
+      "B. Multiple forms of genes",
+      "C. Genes governing eye characters",
+      "D. Genes present in allosomes"
+    ],
+    "option_images": [],
+    "answer": "A. A pair of genes governing a specific character such as tallness or dwarfness",
+    "solution": "Alleles are a pair of genes governing a specific character such as tallness or dwarfness. They are alternative forms of the same gene present at the same locus on homologous chromosomes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Inheritance and Variation",
+    "question": "In Mendelian dihybrid cross when heterozygous Round Yellow are self crossed. Round Green offsprings are represented by the genotype",
+    "question_latex": "In Mendelian dihybrid cross when heterozygous Round Yellow are self crossed. Round Green offsprings are represented by the genotype",
+    "question_images": [],
+    "options": [
+      "A. RrYy, RrYY and RRYy",
+      "B. Rryy, RRyy, and rryy",
+      "C. rrYy and rrYY",
+      "D. Rryy and RRyy"
+    ],
+    "option_images": [],
+    "answer": "D. Rryy and RRyy",
+    "solution": "Heterozygous Round Yellow has genotype $RrYy$. On selfing, Round Green offsprings are produced and are represented by $RRyy$ and $Rryy$ genotypes only ($R$ = Round; $yy$ = Green).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

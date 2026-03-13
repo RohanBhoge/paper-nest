@@ -1,0 +1,956 @@
+[
+  {
+    "id": 1,
+    "chapter": "Solid State",
+    "question": "Superconductors are derived from the compounds of",
+    "question_latex": "Superconductors are derived from the compounds of",
+    "question_images": [],
+    "options": [
+      "A. p-block elements",
+      "B. Lanthanides",
+      "C. Actinides",
+      "D. Transition elements"
+    ],
+    "option_images": [],
+    "answer": "A. p-block elements",
+    "solution": "Factual statement. Superconductors are derived from compounds of p-block elements.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Solid State",
+    "question": "A solid compound contains X, Y and Z atoms in a cubic lattice with X atom occupying the corners, Y atoms in the body centred positions and Z atoms at the centres of faces of the unit cell. What is the empirical formula of the compound?",
+    "question_latex": "A solid compound contains $X$, $Y$ and $Z$ atoms in a cubic lattice with $X$ atom occupying the corners, $Y$ atoms in the body centred positions and $Z$ atoms at the centres of faces of the unit cell. What is the empirical formula of the compound?",
+    "question_images": [],
+    "options": [
+      "A. XY₂Z₃",
+      "B. XYZ₃",
+      "C. X₂Y₂Z₃",
+      "D. X₈YZ₆"
+    ],
+    "option_images": [],
+    "answer": "B. XYZ₃",
+    "solution": "Since atom $X$ is present at corner and one corner is shared by eight unit cells,\nNumber of $X$ atoms per unit cell $= \\frac{1}{8} \\times 8 = 1$\n\nAtom $Y$ is present at body centred position and used by only one unit cell.\nSo, number of $Y$ atoms per unit cell $= 1$\n\nAtom $Z$ is present at the center of each face, so shared by two unit cells,\nThus, number of $Z$ atoms per unit cell $= \\frac{1}{2} \\times 6 = 3$\n\nHence, the formula of compound $= XYZ_3$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Solid State",
+    "question": "Wax is an example of:",
+    "question_latex": "Wax is an example of:",
+    "question_images": [],
+    "options": [
+      "A. Ionic crystal",
+      "B. Covalent crystal",
+      "C. Molecular crystal",
+      "D. Metallic crystal"
+    ],
+    "option_images": [],
+    "answer": "C. Molecular crystal",
+    "solution": "Molecular solids are the substances having molecules as constituent units having interparticle forces such as van der Waals forces or hydrogen bonds. Wax is a molecular crystal.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Solid State",
+    "question": "Which set of characteristics of ZnS crystal is correct?",
+    "question_latex": "Which set of characteristics of $ZnS$ crystal is correct?",
+    "question_images": [],
+    "options": [
+      "A. Coordination number (4:4); ccp; Zn²⁺ ion in the alternate tetrahedral voids",
+      "B. Coordination number (6:6); hcp; Zn²⁺ ion in all tetrahedral voids",
+      "C. Coordination number (6:4); hcp; Zn²⁺ ion in all octahedral voids",
+      "D. Coordination number (4:4); ccp; Zn²⁺ ion in all tetrahedral voids"
+    ],
+    "option_images": [],
+    "answer": "A. Coordination number (4:4); ccp; Zn²⁺ ion in the alternate tetrahedral voids",
+    "solution": "$ZnS$ has zinc blende type structure (i.e., ccp structure). The $S^{2-}$ ions are present at the corners of the cube and at the centre of each face. Zinc ions occupy half of the tetrahedral sites. Each zinc ion is surrounded by four sulphide ions which are disposed towards the corner of regular tetrahedron. Similarly, $S^{2-}$ ion is surrounded by four $Zn^{2+}$ ions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Solid State",
+    "question": "A compound CuCl has face centred cubic structure. Its density is 3.4 g cm⁻³. The length of unit cell is:",
+    "question_latex": "A compound $CuCl$ has face centred cubic structure. Its density is $3.4\\ \\text{g cm}^{-3}$. The length of unit cell is:",
+    "question_images": [],
+    "options": [
+      "A. 5.783 Å",
+      "B. 6.783 Å",
+      "C. 7.783 Å",
+      "D. 8.783 Å"
+    ],
+    "option_images": [],
+    "answer": "A. 5.783 Å",
+    "solution": "Molecular mass of $CuCl = 99$\n$n = 4$ for face centred cubic cell\n$$\\text{Density} = \\frac{n \\times \\text{mol.wt.}}{V \\times N_A}= \\frac{4 \\times 99}{a^3 \\times 6.023 \\times 10^{23}}$$\n$$3.4 = \\frac{4 \\times 99}{a^3 \\times 6.023 \\times 10^{23}}$$\n$$a = 5.783 \\times 10^{-8}\\ \\text{cm} = 5.783\\ \\text{Å}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Solid State",
+    "question": "In a face centred cubic arrangement of A and B atoms whose A atoms are at the corner of the unit cell and B atoms at the face centres. One of the A atom is missing from one corner in unit cell. The simplest formula of compound is:",
+    "question_latex": "In a face centred cubic arrangement of $A$ and $B$ atoms whose $A$ atoms are at the corner of the unit cell and $B$ atoms at the face centres. One of the $A$ atom is missing from one corner in unit cell. The simplest formula of compound is:",
+    "question_images": [],
+    "options": [
+      "A. A₇B₃",
+      "B. AB₃",
+      "C. A₇B₂₄",
+      "D. A₇/₈B₃"
+    ],
+    "option_images": [],
+    "answer": "C. A₇B₂₄",
+    "solution": "No. of atoms of $A$ from corners of unit cell $= 7 \\times \\frac{1}{8} = \\frac{7}{8}$\n\nNo. of atoms of $B$ from faces of unit cell $= 6 \\times \\frac{1}{2} = 3$\n\nThus, $A : B :: \\frac{7}{8} : 3 = 7 : 24$\n\nThus, formula is $A_7B_{24}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Solid State",
+    "question": "Potassium has a bcc structure with nearest neighbour distance 4.52 Å. Its atomic weight is 39. Its density will be:",
+    "question_latex": "Potassium has a bcc structure with nearest neighbour distance $4.52\\ \\text{Å}$. Its atomic weight is $39$. Its density will be:",
+    "question_images": [],
+    "options": [
+      "A. 454 kg m⁻³",
+      "B. 804 kg m⁻³",
+      "C. 852 kg m⁻³",
+      "D. 910 kg m⁻³"
+    ],
+    "option_images": [],
+    "answer": "D. 910 kg m⁻³",
+    "solution": "For bcc, $r = \\frac{\\sqrt{3}}{2} a$\n$$a = \\frac{2r}{\\sqrt{3}} = \\frac{2 \\times 4.52}{1.732} = 5.219\\ \\text{Å} = 522\\ \\text{pm}$$\n$$\\text{Density} = \\frac{n \\times M}{a^3 \\times N_A \\times 10^{-30}} = \\frac{2 \\times 39}{(522)^3 \\times (6.02 \\times 10^{23}) \\times 10^{-30}} = 0.91\\ \\text{g/cm}^3 = 910\\ \\text{kg m}^{-3}$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Solid State",
+    "question": "Which of the following defects is also known as dislocation defect?",
+    "question_latex": "Which of the following defects is also known as dislocation defect?",
+    "question_images": [],
+    "options": [
+      "A. Frenkel defect",
+      "B. Schottky defect",
+      "C. Non-stoichiometric defect",
+      "D. Simple interstitial defect"
+    ],
+    "option_images": [],
+    "answer": "A. Frenkel defect",
+    "solution": "Frenkel defect is also known as dislocation defect because it involves displacement (dislocation) of an ion from its lattice site to an interstitial site.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Solid State",
+    "question": "The following diagram shows the arrangement of lattice points with a = b = c and α = β = γ = 90°. Choose the correct option.",
+    "question_latex": "The following diagram shows the arrangement of lattice points with $a = b = c$ and $\\alpha = \\beta = \\gamma = 90°$. Choose the correct option.",
+    "question_images": [
+      "9_qu_1.png"
+    ],
+    "options": [
+      "A. The arrangement is sc with each lattice point surrounded by 6 nearest neighbours",
+      "B. The arrangement is sc with each lattice point surrounded by 8 nearest neighbours",
+      "C. The arrangement is fcc with each lattice point surrounded by 12 nearest neighbours",
+      "D. The arrangement is bcc with each lattice point surrounded by 8 nearest neighbours"
+    ],
+    "option_images": [],
+    "answer": "A. The arrangement is sc with each lattice point surrounded by 6 nearest neighbours",
+    "solution": "It is clear from the figure that the arrangement is sc, with coordination number (CN) of each point = 6. The arrangement shown in figure consists of 4 unit cells. Taking a view of one unit cell, the atoms are not present at the face centers of each unit cell, hence it cannot be fcc, since in fcc lattice points are occupied at corners and face centers of each unit cell.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Solid State",
+    "question": "Possible number of different type of crystal lattice present in all types of crystals, is",
+    "question_latex": "Possible number of different type of crystal lattice present in all types of crystals, is",
+    "question_images": [],
+    "options": [
+      "A. 23",
+      "B. 7",
+      "C. 230",
+      "D. 14"
+    ],
+    "option_images": [],
+    "answer": "D. 14",
+    "solution": "There are 14 Bravais lattices (types of crystal lattices) present in all types of crystals.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Solid State",
+    "question": "Sodium metal crystallizes in a body centred cubic lattice with the cell edge a = 4.29 Å. The radius of sodium atom is:",
+    "question_latex": "Sodium metal crystallizes in a body centred cubic lattice with the cell edge $a = 4.29\\ \\text{Å}$. The radius of sodium atom is:",
+    "question_images": [],
+    "options": [
+      "A. 1.857 Å",
+      "B. 2.857 Å",
+      "C. 3.857 Å",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 1.857 Å",
+    "solution": "Radius of $Na$ (if bcc lattice) $= \\frac{\\sqrt{3}}{4} a$\n$$= \\frac{\\sqrt{3} \\times 4.29}{4} = 1.857\\ \\text{Å}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Solid State",
+    "question": "CsBr crystallises in a body centered cubic lattice. The unit cell length is 436.6 pm. Given that the atomic mass of Cs = 133 and that of Br = 80 amu and Avogadro number being 6.02 × 10²³ mol⁻¹, the density of CsBr is",
+    "question_latex": "CsBr crystallises in a body centered cubic lattice. The unit cell length is $436.6\\ \\text{pm}$. Given that the atomic mass of $Cs = 133$ and that of $Br = 80\\ \\text{amu}$ and Avogadro number being $6.02 \\times 10^{23}\\ \\text{mol}^{-1}$, the density of $CsBr$ is",
+    "question_images": [],
+    "options": [
+      "A. 0.425 g/cm³",
+      "B. 8.5 g/cm³",
+      "C. 4.25 g/cm³",
+      "D. 82.5 g/cm³"
+    ],
+    "option_images": [],
+    "answer": "B. 8.5 g/cm³",
+    "solution": "For body centred cubic lattice $Z = 2$\nAtomic mass of unit cell $= 133 + 80 = 213\\ \\text{a.m.u}$\nVolume of cell $= (436.6 \\times 10^{-10})^3\\ \\text{cm}^3$\n$$\\text{Density},\\ \\rho = \\frac{ZM}{a^3 N_A} = \\frac{2 \\times 213}{(436.6 \\times 10^{-10})^3 \\times 6.02 \\times 10^{23}} = 8.50\\ \\text{g/cm}^3$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Solid State",
+    "question": "If the radius of K⁺ and F⁻ are 133 pm and 136 pm respectively, the distance between K⁺ and F⁻ in KF is",
+    "question_latex": "If the radius of $K^+$ and $F^-$ are $133\\ \\text{pm}$ and $136\\ \\text{pm}$ respectively, the distance between $K^+$ and $F^-$ in $KF$ is",
+    "question_images": [],
+    "options": [
+      "A. 269 pm",
+      "B. 134.5 pm",
+      "C. 136 pm",
+      "D. 3 pm"
+    ],
+    "option_images": [],
+    "answer": "A. 269 pm",
+    "solution": "Distance between $K^+$ and $F^-$ in $KF$\n$$= r_{K^+} + r_{F^-} = 133 + 136 = 269\\ \\text{pm}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Solid State",
+    "question": "Maximum ferromagnetism is found in:",
+    "question_latex": "Maximum ferromagnetism is found in:",
+    "question_images": [],
+    "options": [
+      "A. Fe",
+      "B. Ni",
+      "C. Co",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Fe",
+    "solution": "More is the number of unpaired electrons, more is the magnetic nature. Iron (Fe) has the maximum number of unpaired electrons among Fe, Ni, and Co, so it shows maximum ferromagnetism.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Solid State",
+    "question": "Lithium forms body centred cubic structure. The length of the side of its unit cell is 351 pm. Atomic radius of the lithium will be (2012)",
+    "question_latex": "Lithium forms body centred cubic structure. The length of the side of its unit cell is $351\\ \\text{pm}$. Atomic radius of the lithium will be (2012)",
+    "question_images": [],
+    "options": [
+      "A. 240 pm",
+      "B. 300 pm",
+      "C. 152 pm",
+      "D. 75 pm"
+    ],
+    "option_images": [],
+    "answer": "C. 152 pm",
+    "solution": "$a = 351\\ \\text{pm}$. For bcc unit cell, $a\\sqrt{3} = 4r$\n$$r = \\frac{a\\sqrt{3}}{4} = \\frac{351 \\times \\sqrt{3}}{4} = 152\\ \\text{pm}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Solid State",
+    "question": "In stoichiometric defects, the types of compound that exhibit Frenkel defects have/has",
+    "question_latex": "In stoichiometric defects, the types of compound that exhibit Frenkel defects have/has",
+    "question_images": [],
+    "options": [
+      "A. Low co-ordination nos.",
+      "B. High co-ordination",
+      "C. Small difference in the size of cations and anions",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Low co-ordination nos.",
+    "solution": "In stoichiometric defects, Frenkel defects occur in those compounds which have:\n(i) Low co-ordination number (C.N.)\n(ii) Large difference in size of cations and anions",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Solid State",
+    "question": "A solid is made of two elements X and Z. The atoms Z are in ccp arrangement while the atom X occupy all the tetrahedral sites. What is the formula of the compound?",
+    "question_latex": "A solid is made of two elements $X$ and $Z$. The atoms $Z$ are in ccp arrangement while the atom $X$ occupy all the tetrahedral sites. What is the formula of the compound?",
+    "question_images": [],
+    "options": [
+      "A. XZ",
+      "B. XZ₂",
+      "C. X₂Z",
+      "D. X₂Z₃"
+    ],
+    "option_images": [],
+    "answer": "C. X₂Z",
+    "solution": "Let the number of atoms of $Z$ in ccp arrangement $= 100$\n$\\therefore$ Number of tetrahedral sites $= 200$\n$\\therefore$ Number of atoms of $X = 200$ (They occupy all tetrahedral sites)\n$\\therefore$ Ratio of $X : Z = 200 : 100 = 2 : 1$\n$\\therefore$ The formula of compound is $X_2Z$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Solid State",
+    "question": "In a face centred cubic lattice, atom A occupies the corner positions and atom B occupies the face centre positions. If one atom of B is missing from one of the face centred points, the formula of the compound is (2011)",
+    "question_latex": "In a face centred cubic lattice, atom $A$ occupies the corner positions and atom $B$ occupies the face centre positions. If one atom of $B$ is missing from one of the face centred points, the formula of the compound is (2011)",
+    "question_images": [],
+    "options": [
+      "A. AB₂",
+      "B. A₂B",
+      "C. A₂B₃",
+      "D. A₂B₅"
+    ],
+    "option_images": [],
+    "answer": "D. A₂B₅",
+    "solution": "$A$: $8 \\times \\frac{1}{8} = 1$ (corners)\n$B$: $5 \\times \\frac{1}{2} = \\frac{5}{2}$ (5 face centres, since one is missing)\n$A : B = 1 : \\frac{5}{2} = 2 : 5$\nFormula of the compound is $A_2B_5$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Solid State",
+    "question": "What is the number of tetrahedral voids per atom in a crystal?",
+    "question_latex": "What is the number of tetrahedral voids per atom in a crystal?",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 6",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "In the close packing of $n$ atoms, the number of tetrahedral voids are $2n$. Hence, their number per atom is 2.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Solid State",
+    "question": "The interionic distance for cesium chloride crystal will be",
+    "question_latex": "The interionic distance for cesium chloride crystal will be",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. a/2",
+      "C. √3a/2",
+      "D. 2a/√3"
+    ],
+    "option_images": [],
+    "answer": "C. √3a/2",
+    "solution": "As $CsCl$ is body-centred, the interionic distance $d = \\frac{\\sqrt{3}\\ a}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Solid State",
+    "question": "Doping of silicon (Si) with boron (B) leads to:",
+    "question_latex": "Doping of silicon (Si) with boron (B) leads to:",
+    "question_images": [],
+    "options": [
+      "A. n-type semiconductor",
+      "B. p-type semiconductor",
+      "C. metal",
+      "D. insulator"
+    ],
+    "option_images": [],
+    "answer": "B. p-type semiconductor",
+    "solution": "Boron belongs to Group 13 (3 valence electrons). When it replaces silicon (4 valence electrons), an electron hole (deficiency) is created. This gives a p-type semiconductor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Solid State",
+    "question": "Silicon doped with group 13 and group 15 member elements is, respectively, called semiconductor",
+    "question_latex": "Silicon doped with group 13 and group 15 member elements is, respectively, called semiconductor",
+    "question_images": [],
+    "options": [
+      "A. p-type, n-type",
+      "B. n-type, p-type",
+      "C. p-type",
+      "D. n-type"
+    ],
+    "option_images": [],
+    "answer": "A. p-type, n-type",
+    "solution": "Doping with Group 13 (3 valence electrons) creates electron holes → p-type. Doping with Group 15 (5 valence electrons) adds extra electrons → n-type.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Solid State",
+    "question": "Which of the following compounds is metallic and ferromagnetic? (2016)",
+    "question_latex": "Which of the following compounds is metallic and ferromagnetic? (2016)",
+    "question_images": [],
+    "options": [
+      "A. VO₂",
+      "B. CrO₂",
+      "C. MnO₂",
+      "D. TiO₂"
+    ],
+    "option_images": [],
+    "answer": "B. CrO₂",
+    "solution": "$CrO_2$ is metallic and ferromagnetic. It is used in magnetic tapes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Solid State",
+    "question": "The limiting radius ratio for tetrahedral shape is",
+    "question_latex": "The limiting radius ratio for tetrahedral shape is",
+    "question_images": [],
+    "options": [
+      "A. 0 to 0.155",
+      "B. 0.225 to 0.414",
+      "C. 0.155 to 0.225",
+      "D. 0.414 to 0.732"
+    ],
+    "option_images": [],
+    "answer": "B. 0.225 to 0.414",
+    "solution": "For tetrahedral shape, the limiting radius ratio $\\frac{r^+}{r^-}$ is $0.225 - 0.414$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Solid State",
+    "question": "An element (atomic mass = 100 g/mol) having bcc structure has unit cell edge 400 pm. Then density of the element is:",
+    "question_latex": "An element (atomic mass = 100 g/mol) having bcc structure has unit cell edge 400 pm. Then density of the element is:",
+    "question_images": [],
+    "options": [
+      "A. 10.376 g/cm³",
+      "B. 5.188 g/cm³",
+      "C. 7.289 g/cm³",
+      "D. 2.144 g/cm³"
+    ],
+    "option_images": [],
+    "answer": "B. 5.188 g/cm³",
+    "solution": "$$\\text{Density} = \\frac{n \\times M}{a^3 \\times N_A \\times 10^{-30}} = \\frac{2 \\times 100}{(400)^3 \\times 6.02 \\times 10^{23} \\times 10^{-30}} = 5.188\\ \\text{g/cm}^3$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Solid State",
+    "question": "Which of the following has Frenkel defect?",
+    "question_latex": "Which of the following has Frenkel defect?",
+    "question_images": [],
+    "options": [
+      "A. Sodium chloride",
+      "B. Graphite",
+      "C. Silver bromide",
+      "D. Diamond"
+    ],
+    "option_images": [],
+    "answer": "C. Silver bromide",
+    "solution": "$AgBr$ has Frenkel defects due to large difference in the size of $Ag^+$ and $Br^-$ ions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Solid State",
+    "question": "The ratio of cations to anion in a closed pack tetrahedral is:",
+    "question_latex": "The ratio of cations to anion $\\left(\\frac{r^+}{r^-}\\right)$ in a closed pack tetrahedral is:",
+    "question_images": [],
+    "options": [
+      "A. 0.414",
+      "B. 0.225",
+      "C. 0.02",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 0.225",
+    "solution": "$\\frac{r^+}{r^-}$ for tetrahedral void $= 0.225 - 0.414$\n$\\frac{r^+}{r^-}$ for triangular $= 0.155 - 0.225$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Solid State",
+    "question": "Which one of the following forms a molecular solid when solidified?",
+    "question_latex": "Which one of the following forms a molecular solid when solidified?",
+    "question_images": [],
+    "options": [
+      "A. Silicon carbide",
+      "B. Calcium fluoride",
+      "C. Rock salt",
+      "D. Methane"
+    ],
+    "option_images": [],
+    "answer": "D. Methane",
+    "solution": "Methane ($CH_4$) is a non-polar molecule. When solidified, it forms a molecular solid held together by weak London dispersion forces.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Solid State",
+    "question": "At 100°C, copper (Cu) has fcc unit cell structure with cell edge length of x Å. What is the approximate density of Cu (in g cm⁻³) at this temperature? [Atomic mass of Cu = 63.55 u] (Jan 2019)",
+    "question_latex": "At $100°C$, copper (Cu) has $fcc$ unit cell structure with cell edge length of $x\\ \\text{Å}$. What is the approximate density of $Cu$ (in $\\text{g cm}^{-3}$) at this temperature? [Atomic mass of $Cu = 63.55\\ u$] (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 211/x³",
+      "B. 205/x³",
+      "C. 105/x³",
+      "D. 422/x³"
+    ],
+    "option_images": [],
+    "answer": "D. 422/x³",
+    "solution": "$$d = \\frac{ZM}{N_A a^3}\\ [\\text{For fcc}, Z = 4]$$\n$$= \\frac{4 \\times 63.55}{6.023 \\times 10^{23} \\times x^3 \\times 10^{-24}} = \\frac{42.20}{x^3} \\times 10 = \\frac{422}{x^3}$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Solid State",
+    "question": "The number of unit cells in 58.5 g of NaCl is nearly",
+    "question_latex": "The number of unit cells in $58.5\\ \\text{g}$ of $NaCl$ is nearly",
+    "question_images": [],
+    "options": [
+      "A. 6 × 10²⁰",
+      "B. 3 × 10²²",
+      "C. 1.5 × 10²³",
+      "D. 0.5 × 10²⁴"
+    ],
+    "option_images": [],
+    "answer": "C. 1.5 × 10²³",
+    "solution": "$58.5\\ \\text{g}\\ NaCl = 1\\ \\text{mol} = 6.02 \\times 10^{23}\\ Na^+Cl^-$ units\n\nOne unit cell contains $4\\ Na^+Cl^-$ units.\n\nHence, number of unit cells $= \\frac{6.02 \\times 10^{23}}{4} = 1.5 \\times 10^{23}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Solid State",
+    "question": "Why some glass objects from ancient civilisations are found to become milky in appearance?",
+    "question_latex": "Why some glass objects from ancient civilisations are found to become milky in appearance?",
+    "question_images": [],
+    "options": [
+      "A. Glass is a crystalline solid, milky appearance is due to its crystalline nature.",
+      "B. Glass is amorphous but on heating it becomes crystalline at some temperature.",
+      "C. Because of reaction of glass with impurities present in the atmosphere.",
+      "D. None of these."
+    ],
+    "option_images": [],
+    "answer": "B. Glass is amorphous but on heating it becomes crystalline at some temperature.",
+    "solution": "On heating, amorphous solids become crystalline at some temperature. The milky appearance of glass is because of some crystallisation over centuries of exposure to heat.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Solid State",
+    "question": "Which of the following sequence of T and F is true for given statements? Here T stands for true statement and F stands for false statement?\n(i) Frenkel defect results in increase in density of the solid.\n(ii) ZnS, AgCl, AgBr and AgI shows Frenkel defect.\n(iii) Schottky defect results in decrease in density of the solid.\n(iv) AgBr shows Schottky defect only.\n(v) For NaCl there is one Schottky defect per 10¹⁶ ions.",
+    "question_latex": "Which of the following sequence of $T$ and $F$ is true for given statements? Here $T$ stands for true statement and $F$ stands for false statement?\n(i) Frenkel defect results in increase in density of the solid.\n(ii) $ZnS$, $AgCl$, $AgBr$ and $AgI$ shows Frenkel defect.\n(iii) Schottky defect results in decrease in density of the solid.\n(iv) $AgBr$ shows Schottky defect only.\n(v) For $NaCl$ there is one Schottky defect per $10^{16}$ ions.",
+    "question_images": [],
+    "options": [
+      "A. TTTFT",
+      "B. TTTFF",
+      "C. FTTFT",
+      "D. FTTFF"
+    ],
+    "option_images": [],
+    "answer": "C. FTTFT",
+    "solution": "(i) F – Frenkel defect does not change the density of the solid.\n(ii) T – ZnS, AgCl, AgBr and AgI all show Frenkel defect.\n(iii) T – Schottky defect results in decrease in density.\n(iv) F – AgBr shows both Frenkel and Schottky defects.\n(v) T – For NaCl there is one Schottky defect per $10^{16}$ ions.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Solid State",
+    "question": "Solids are characterised by their properties:",
+    "question_latex": "Solids are characterised by their properties:",
+    "question_images": [],
+    "options": [
+      "A. Incompressibility",
+      "B. Mechanical strength",
+      "C. Crystalline nature",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Incompressibility, mechanical strength, and crystalline nature are all characteristics of solids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Solid State",
+    "question": "Which of the following sequence of T and F is correct? Here 'T' stands for true and 'F' stands for false statement.\n(i) Solids have conductivities in the order of 10⁻²⁰ to 10⁷ ohm⁻¹ m⁻¹.\n(ii) In semiconductors the gap between filled valence band and conduction band is small.\n(iii) Electrical conductivity of insulators increases with rise in temperature.\n(iv) Insulators have conductivities ranging between 10⁻⁶ to 10⁴ ohm⁻¹ m⁻¹.",
+    "question_latex": "Which of the following sequence of $T$ and $F$ is correct? Here '$T$' stands for true and '$F$' stands for false statement.\n(i) Solids have conductivities in the order of $10^{-20}$ to $10^7\\ \\text{ohm}^{-1}\\ \\text{m}^{-1}$.\n(ii) In semiconductors the gap between filled valence band and conduction band is small.\n(iii) Electrical conductivity of insulators increases with rise in temperature.\n(iv) Insulators have conductivities ranging between $10^{-6}$ to $10^4\\ \\text{ohm}^{-1}\\ \\text{m}^{-1}$.",
+    "question_images": [],
+    "options": [
+      "A. TTFF",
+      "B. TTFT",
+      "C. FTFF",
+      "D. FTTF"
+    ],
+    "option_images": [],
+    "answer": "A. TTFF",
+    "solution": "(i) T – Solids have conductivities in the order of $10^{-20}$ to $10^7\\ \\text{ohm}^{-1}\\ \\text{m}^{-1}$.\n(ii) T – In semiconductors the band gap is small.\n(iii) F – Electrical conductivity of semiconductors (not insulators) increases with temperature.\n(iv) F – Insulators have conductivities ranging between $10^{-20}$ to $10^{-10}\\ \\text{ohm}^{-1}\\ \\text{m}^{-1}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Solid State",
+    "question": "In a solid lattice the cation has left a lattice site and is located at an interstitial position, the lattice defect is:",
+    "question_latex": "In a solid lattice the cation has left a lattice site and is located at an interstitial position, the lattice defect is:",
+    "question_images": [],
+    "options": [
+      "A. Interstitial defect",
+      "B. Valency defect",
+      "C. Frenkel defect",
+      "D. Schottky defect"
+    ],
+    "option_images": [],
+    "answer": "C. Frenkel defect",
+    "solution": "Frenkel defect is due to dislocation of an ion from its usual lattice site to an interstitial position.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Solid State",
+    "question": "Which of the following statements about amorphous solids is incorrect?",
+    "question_latex": "Which of the following statements about amorphous solids is incorrect?",
+    "question_images": [],
+    "options": [
+      "A. They melt over a range of temperature",
+      "B. They are anisotropic",
+      "C. There is no orderly arrangement of particles",
+      "D. They are rigid and incompressible"
+    ],
+    "option_images": [],
+    "answer": "B. They are anisotropic",
+    "solution": "Amorphous solids are isotropic (not anisotropic), because these substances show same properties in all directions. Crystalline solids are anisotropic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Solid State",
+    "question": "Which of the following statements is true?",
+    "question_latex": "Which of the following statements is true?",
+    "question_images": [],
+    "options": [
+      "A. Some complex metal oxides behave as superconductor",
+      "B. Zinc oxide can act as superconductor",
+      "C. An impurity of tetravalent germanium in trivalent gallium creates electron deficiency",
+      "D. A Frenkel defect is formed when an ion is displaced from its lattice site to an interstitial site"
+    ],
+    "option_images": [],
+    "answer": "D. A Frenkel defect is formed when an ion is displaced from its lattice site to an interstitial site",
+    "solution": "Frenkel defect is formed by displacement of an ion from its lattice site to an interstitial state.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Solid State",
+    "question": "A metallic crystal crystallizes into a lattice containing a sequence of layers ABABAB..... Any packing of spheres leaves out voids in the lattice. What percentage of volume of this lattice is empty space?",
+    "question_latex": "A metallic crystal crystallizes into a lattice containing a sequence of layers $ABABAB\\ldots$ Any packing of spheres leaves out voids in the lattice. What percentage of volume of this lattice is empty space?",
+    "question_images": [],
+    "options": [
+      "A. 74%",
+      "B. 26%",
+      "C. 50%",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 26%",
+    "solution": "In ABAB packing (hcp), spheres occupy $74\\%$ of the total volume. Therefore, $26\\%$ is empty space.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Solid State",
+    "question": "Which is covalent solid?",
+    "question_latex": "Which is covalent solid?",
+    "question_images": [],
+    "options": [
+      "A. Fe₂O₃",
+      "B. Diamond",
+      "C. Graphite",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "All are covalent molecules. A covalent solid has atoms as constituent units at lattice points held together by covalent bonds. $Fe_2O_3$, Diamond, and Graphite are all covalent solids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Solid State",
+    "question": "If Z is the number of atoms in the unit cell that represents the closest packing sequence −ABCABC−, the number of tetrahedral voids in the unit cell is equal to:",
+    "question_latex": "If $Z$ is the number of atoms in the unit cell that represents the closest packing sequence $-ABCABC-$, the number of tetrahedral voids in the unit cell is equal to:",
+    "question_images": [],
+    "options": [
+      "A. Z",
+      "B. 2Z",
+      "C. Z/2",
+      "D. Z/4"
+    ],
+    "option_images": [],
+    "answer": "B. 2Z",
+    "solution": "In ccp (fcc) and hcp, the number of tetrahedral voids is double the number of atoms forming the main lattice. So number of tetrahedral voids $= 2Z$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Solid State",
+    "question": "An elemental crystal has a density of 8570 kg m⁻³. The packing efficiency is 0.68. If the closest distance between neighbouring atoms is 2.86 Å, the mass of one atom is (1 amu = 1.66 × 10⁻²⁷ kg)",
+    "question_latex": "An elemental crystal has a density of $8570\\ \\text{kg m}^{-3}$. The packing efficiency is $0.68$. If the closest distance between neighbouring atoms is $2.86\\ \\text{Å}$, the mass of one atom is ($1\\ \\text{amu} = 1.66 \\times 10^{-27}\\ \\text{kg}$)",
+    "question_images": [],
+    "options": [
+      "A. 186 amu",
+      "B. 93 amu",
+      "C. 46.5 amu",
+      "D. 43 amu"
+    ],
+    "option_images": [],
+    "answer": "B. 93 amu",
+    "solution": "Let the volume of unit cell $= V$\nVolume occupied by atoms $= 0.68\\ V$\n$$Z_{eff}\\left(\\frac{4}{3}\\pi r^3\\right) = 0.68\\ V$$\nAlso, $2r = 2.86\\ \\text{Å} \\Rightarrow r = 1.43\\ \\text{Å}$\n\nApplying the density formula:\n$$\\rho = \\frac{Z_{eff} \\times \\text{Mass} \\times 1.66 \\times 10^{-27}}{V}$$\n$$8570 = \\frac{0.68 \\times m \\times 1.66 \\times 10^{-27}}{\\frac{4}{3}\\pi(1.43)^3 \\times 10^{-30}}$$\n$$\\therefore m = 93\\ \\text{amu}$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Solid State",
+    "question": "Which one is diamagnetic?",
+    "question_latex": "Which one is diamagnetic?",
+    "question_images": [],
+    "options": [
+      "A. ClO₃",
+      "B. Cu²⁺",
+      "C. F⁻",
+      "D. Ni²⁺"
+    ],
+    "option_images": [],
+    "answer": "C. F⁻",
+    "solution": "$F^-$ has no unpaired electron (electronic configuration: $1s^2\\ 2s^2\\ 2p^6$) and thus, is diamagnetic. A diamagnetic species does not contain any unpaired electron.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Solid State",
+    "question": "A diatomic molecule X₂ has a body-centred cubic (bcc) structure with a cell edge of 300 pm. The density of the molecule is 6.17 g cm⁻³. The number of molecules present in 200 g of X₂ is (Avogadro constant Nₐ = 6 × 10²³ mol⁻¹) (Sept 2020)",
+    "question_latex": "A diatomic molecule $X_2$ has a body-centred cubic (bcc) structure with a cell edge of $300\\ \\text{pm}$. The density of the molecule is $6.17\\ \\text{g cm}^{-3}$. The number of molecules present in $200\\ \\text{g}$ of $X_2$ is (Avogadro constant $N_A = 6 \\times 10^{23}\\ \\text{mol}^{-1}$) (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. 2Nₐ",
+      "B. 40Nₐ",
+      "C. 4Nₐ",
+      "D. 8Nₐ"
+    ],
+    "option_images": [],
+    "answer": "C. 4Nₐ",
+    "solution": "Edge length $a = 300\\ \\text{pm}$, density $d = 6.17\\ \\text{g cm}^{-3}$. For bcc, $Z = 2$.\n$$d = \\frac{Z \\times M}{N_A \\times a^3}$$\n$$6.17 = \\frac{2 \\times M}{6.02 \\times 10^{23} \\times (300 \\times 10^{-10})^3}$$\n$$M = 50\\ \\text{g/mol}$$\nNumber of moles $= \\frac{200}{50} = 4\\ \\text{mol}$\n$\\therefore$ Number of molecules $= 4N_A$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Solid State",
+    "question": "The edge length of a face centred cubic cell of an ionic substance is 508 pm. If the radius of the cation is 110 pm, the radius of the anion is (2010)",
+    "question_latex": "The edge length of a face centred cubic cell of an ionic substance is $508\\ \\text{pm}$. If the radius of the cation is $110\\ \\text{pm}$, the radius of the anion is (2010)",
+    "question_images": [],
+    "options": [
+      "A. 144 pm",
+      "B. 398 pm",
+      "C. 618 pm",
+      "D. 288 pm"
+    ],
+    "option_images": [],
+    "answer": "A. 144 pm",
+    "solution": "In fcc lattice, $a = 508\\ \\text{pm},\\ r_c = 110\\ \\text{pm}$\n$$r_c + r_a = \\frac{a}{2} = \\frac{508}{2} = 254\\ \\text{pm}$$\n$$110 + r_a = 254$$\n$$r_a = 144\\ \\text{pm}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Solid State",
+    "question": "Which of the following features are not shown by quartz glass?\n(i) This is a crystalline solid.\n(ii) Refractive index is same in all the directions.\n(iii) This has definite heat of fusion.\n(iv) This is also called super cooled liquid.",
+    "question_latex": "Which of the following features are not shown by quartz glass?\n(i) This is a crystalline solid.\n(ii) Refractive index is same in all the directions.\n(iii) This has definite heat of fusion.\n(iv) This is also called super cooled liquid.",
+    "question_images": [],
+    "options": [
+      "A. (i) and (iii)",
+      "B. (iii) and (iv)",
+      "C. (i), (ii) and (iv)",
+      "D. (iii) only"
+    ],
+    "option_images": [],
+    "answer": "A. (i) and (iii)",
+    "solution": "Quartz glass is an amorphous solid (not crystalline), so (i) is not a feature of quartz glass. Since it is amorphous, it does not have a definite heat of fusion (iii). Quartz glass is isotropic (ii is correct for it), and it is indeed called a super cooled liquid (iv is a feature).\nSo features NOT shown: (i) and (iii).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Solid State",
+    "question": "The ionic radii of Rb⁺ and I⁻ are 1.46 Å and 2.16 Å. The most probable type of structure exhibited by it is",
+    "question_latex": "The ionic radii of $Rb^+$ and $I^-$ are $1.46\\ \\text{Å}$ and $2.16\\ \\text{Å}$. The most probable type of structure exhibited by it is",
+    "question_images": [],
+    "options": [
+      "A. CsCl type",
+      "B. ZnS type",
+      "C. NaCl type",
+      "D. CaF₂ type"
+    ],
+    "option_images": [],
+    "answer": "C. NaCl type",
+    "solution": "$$\\frac{r_{c+}}{r_{a-}} = \\frac{r_{Rb^+}}{r_{I^-}} = \\frac{1.46}{2.16} = 0.676$$\n\nRadius ratio $0.414 - 0.732$ corresponds to coordination number 6 (NaCl type structure).\n\nSo it will have NaCl type structure.",
+    "solution_images": [
+      "46_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Solid State",
+    "question": "An element occuring in the bcc structure has 12.08 × 10²³ unit cells. The total number of atoms of the element in these cells will be",
+    "question_latex": "An element occuring in the bcc structure has $12.08 \\times 10^{23}$ unit cells. The total number of atoms of the element in these cells will be",
+    "question_images": [],
+    "options": [
+      "A. 24.16 × 10²³",
+      "B. 36.18 × 10²³",
+      "C. 6.04 × 10²³",
+      "D. 12.08 × 10²³"
+    ],
+    "option_images": [],
+    "answer": "A. 24.16 × 10²³",
+    "solution": "There are two atoms in a bcc unit cell.\nSo, number of atoms in $12.08 \\times 10^{23}$ unit cells\n$$= 2 \\times 12.08 \\times 10^{23} = 24.16 \\times 10^{23}\\ \\text{atoms}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Solid State",
+    "question": "Match the columns: Column-I (Type of solid): (A) Molecular solid, (B) Ionic solid, (C) Metallic solid, (D) Covalent solid. Column-II (Example of solid): (p) Ag, (q) SiC, (r) CCl₄, (s) MgO",
+    "question_latex": "Match the columns: Column-I (Type of solid): (A) Molecular solid, (B) Ionic solid, (C) Metallic solid, (D) Covalent solid. Column-II (Example of solid): (p) $Ag$, (q) $SiC$, (r) $CCl_4$, (s) $MgO$",
+    "question_images": [],
+    "options": [
+      "A. A-(s), B-(r), C-(p), D-(q)",
+      "B. A-(q), B-(s), C-(p), D-(r)",
+      "C. A-(r), B-(q), C-(p), D-(s)",
+      "D. A-(r), B-(s), C-(p), D-(q)"
+    ],
+    "option_images": [],
+    "answer": "D. A-(r), B-(s), C-(p), D-(q)",
+    "solution": "A. Molecular solid → $CCl_4$ (r): held by weak van der Waals forces\nB. Ionic solid → $MgO$ (s): held by electrostatic forces\nC. Metallic solid → $Ag$ (p): metal lattice with free electrons\nD. Covalent solid → $SiC$ (q): atoms connected by covalent bonds",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Solid State",
+    "question": "Which of the following crystals does not exhibit Frenkel defect?",
+    "question_latex": "Which of the following crystals does not exhibit Frenkel defect?",
+    "question_images": [],
+    "options": [
+      "A. AgBr",
+      "B. AgCl",
+      "C. KBr",
+      "D. ZnS"
+    ],
+    "option_images": [],
+    "answer": "C. KBr",
+    "solution": "$KBr$ does not exhibit Frenkel defect. Frenkel defect is exhibited by compounds with large differences in ionic sizes (e.g., $AgBr$, $AgCl$, $ZnS$). $KBr$ has ions of comparable sizes and exhibits Schottky defect instead.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Solid State",
+    "question": "KCl crystallises in the same type of lattice as does NaCl. Given that r(Na⁺)/r(Cl⁻) = 0.55 and r(K⁺)/r(Cl⁻) = 0.74. Calculate the ratio of the side of the unit cell for KCl to that of NaCl.",
+    "question_latex": "KCl crystallises in the same type of lattice as does NaCl. Given that $r_{Na^+}/r_{Cl^-} = 0.55$ and $r_{K^+}/r_{Cl^-} = 0.74$. Calculate the ratio of the side of the unit cell for KCl to that of NaCl.",
+    "question_images": [],
+    "options": [
+      "A. 1.123",
+      "B. 0.0891",
+      "C. 1.414",
+      "D. 0.414"
+    ],
+    "option_images": [],
+    "answer": "A. 1.123",
+    "solution": "Given, $\\frac{r_{Na^+}}{r_{Cl^-}} = 0.55$\n$$\\frac{r_{Na^+}}{r_{Cl^-}} + 1 = 0.55 + 1$$\n$$\\frac{r_{Na^+} + r_{Cl^-}}{r_{Cl^-}} = 1.55 \\quad \\cdots(i)$$\n\nGiven, $\\frac{r_{K^+}}{r_{Cl^-}} = 0.74$\n$$\\frac{r_{K^+} + r_{Cl^-}}{r_{Cl^-}} = 1.74 \\quad \\cdots(ii)$$\n\nDividing (ii) by (i):\n$$\\frac{r_{K^+} + r_{Cl^-}}{r_{Na^+} + r_{Cl^-}} = \\frac{1.74}{1.55} = 1.1226 \\approx 1.123$$\n\nSince unit cell edge $a = 2(r_+ + r_-)$ for NaCl structure, the ratio of unit cell sides is $1.123$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

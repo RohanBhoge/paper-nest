@@ -13,7 +13,6 @@ console.log('Exam:', meta.exam);
 console.log('Standard:', meta.standard);
 console.log('Subject:', meta.subject);
 
-
 const entryPath2 = 'Data/JEE/11/Chemistry/File.json';
 const parts2 = entryPath2.split('/').filter(Boolean);
 const meta2 = { exam: null, standard: null, subject: null, entryPath };

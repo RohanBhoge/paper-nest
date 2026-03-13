@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A steel ball of mass 0.1 kg falls freely from a height of 10 m and bounces to a height of 5.4 m from the ground. If the dissipated energy in this process is absorbed by the ball, the rise in its temperature is",
         "question_latex": "A steel ball of mass $0.1\\text{ kg}$ falls freely from a height of $10\\text{ m}$ and bounces to a height of $5.4\\text{ m}$ from the ground. If the dissipated energy in this process is absorbed by the ball, the rise in its temperature is",
         "question_images": [],
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If number of molecules of $H_2$ are double than that of $O_2$, then ratio of kinetic energy of hydrogen and that of oxygen at 300 K is",
         "question_latex": "If number of molecules of $H_{2}$ are double than that of $O_{2}$, then ratio of kinetic energy of hydrogen and that of oxygen at $300\\text{ K}$ is",
         "question_images": [],
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A gas is filled in a cylinder, its temperature is increased by 20% on kelvin scale and volume is reduced by 10%. How much percentage of the gas leaked out?",
         "question_latex": "A gas is filled in a cylinder, its temperature is increased by $20\\%$ on kelvin scale and volume is reduced by $10\\%$. How much percentage of the gas leaked out?",
         "question_images": [],
@@ -58,7 +58,7 @@
     },
     {
         "id": 4,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The parameter that remains the same for molecules of all gases at a given temperature is:",
         "question_latex": "The parameter that remains the same for molecules of all gases at a given temperature is:",
         "question_images": [],
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The total kinetic energy of 1 mole of oxygen at $27^{\\circ}C$ is: [Use universal gas constant (R) = 8.31 J/mole K]",
         "question_latex": "The total kinetic energy of $1$ mole of oxygen at $27^{\\circ}C$ is: [Use universal gas constant $(R) = 8.31\\text{ J/mole K}$]",
         "question_images": [],
@@ -96,7 +96,7 @@
     },
     {
         "id": 6,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of gas is produced by",
         "question_latex": "The temperature of gas is produced by",
         "question_images": [],
@@ -115,7 +115,7 @@
     },
     {
         "id": 7,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Boyle's law holds for an ideal gas during",
         "question_latex": "Boyle's law holds for an ideal gas during",
         "question_images": [],
@@ -134,7 +134,7 @@
     },
     {
         "id": 8,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "For an ideal gas",
         "question_latex": "For an ideal gas",
         "question_images": [],
@@ -153,7 +153,7 @@
     },
     {
         "id": 9,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Air is filled in a bottle at atmospheric pressure and it is corked at $35^{\\circ}C$. If the cork can come out at 3 atmospheric pressure, then upto what temperature should the bottle be heated in order to remove the cork?",
         "question_latex": "Air is filled in a bottle at atmospheric pressure and it is corked at $35^{\\circ}C$. If the cork can come out at $3$ atmospheric pressure then upto what temperature should the bottle be heated in order to remove the cork",
         "question_images": [],
@@ -172,7 +172,7 @@
     },
     {
         "id": 10,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A closed gas cylinder is divided into two parts by a piston held tight. The pressure and volume of gas in two parts respectively are (P, 5V) and (10P, V). If now the piston is left free and the system undergoes isothermal process, then the volume of the gas in two parts respectively are",
         "question_latex": "A closed gas cylinder is divided into two parts by a piston held tight. The pressure and volume of gas in two parts respectively are $(P, 5V)$ and $(10P, V)$. If now the piston is left free and the system undergoes isothermal process, then the volume of the gas in two parts respectively are",
         "question_images": [],
@@ -193,7 +193,7 @@
     },
     {
         "id": 11,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Air inside a closed container is saturated with water vapour. The air pressure is p and the saturated vapour pressure of water is $\\overline{p}$. If the mixture is compressed to one half of its volume by maintaining temperature constant, the pressure becomes",
         "question_latex": "Air inside a closed container is saturated with water vapour. The air pressure is $p$ and the saturated vapour pressure of water is $\\bar{p}$. If the mixture is compressed to one half of its volume by maintaining temperature constant, the pressure becomes",
         "question_images": [],
@@ -212,7 +212,7 @@
     },
     {
         "id": 12,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If the r.m.s speed of chlorine molecule is 490 m/s at $27^{\\circ}C$, the r.m.s. speed of argon molecules at the same temperature will be (Atomic mass of argon = 39.9 u, molecular mass of chlorine = 70.9 u)",
         "question_latex": "If the r.m.s speed of chlorine molecule is $490\\text{ m/s}$ at $27^{\\circ}C$, the r.m.s. speed of argon molecules at the same temperature will be (Atomic mass of argon $= 39.9u$, molecular mass of chlorine $= 70.9u$)",
         "question_images": [],
@@ -231,7 +231,7 @@
     },
     {
         "id": 13,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A certain ideal gas undergoes a polytropic process $PV^n = \\text{constant}$ such that the molar specific heat during the process is negative. If the ratio of the specific heats of the gas be $\\gamma$, then the range of values of n will be",
         "question_latex": "A certain ideal gas undergoes a polytropic process $PV^{n} = \\text{constant}$ such that the molar specific heat during the process is negative. If the ratio of the specific heats of the gas be $\\gamma$, then the range of values of $n$ will be",
         "question_images": [],
@@ -250,7 +250,7 @@
     },
     {
         "id": 14,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "When temperature is constant, the pressure of a given mass of gas varies inversely with volume. This is the statement of",
         "question_latex": "When temperature is constant, the pressure of a given mass of gas varies inversely with volume. This is the statement of",
         "question_images": [],
@@ -269,7 +269,7 @@
     },
     {
         "id": 15,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The ratio of mean kinetic energy of hydrogen and oxygen at a given temperature is",
         "question_latex": "The ratio of mean kinetic energy of hydrogen and oxygen at a given temperature is",
         "question_images": [],
@@ -288,7 +288,7 @@
     },
     {
         "id": 16,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Vapour is injected at a uniform rate in a closed vessel which was initially evacuated. The pressure in the vessel",
         "question_latex": "Vapour is injected at a uniform rate in a closed vessel which was initially evacuated. The pressure in the vessel",
         "question_images": [],
@@ -307,7 +307,7 @@
     },
     {
         "id": 17,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "In kinetic theory of gases, a molecule of mass m of an ideal gas collides with a wall of vessel with velocity V. The change in the linear momentum of the molecule is",
         "question_latex": "In kinetic theory of gases, a molecule of mass $m$ of an ideal gas collides with a wall of vessel with velocity $V$. The change in the linear momentum of the molecule is",
         "question_images": [],
@@ -326,7 +326,7 @@
     },
     {
         "id": 18,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An ideal monatomic gas is taken round the cycle ABCDA as shown in the P-V diagram. The work done during the cycle is",
         "question_latex": "An ideal monatomic gas is taken round the cycle $ABCDA$ as shown in the $P-V$ diagram. The work done during the cycle is",
         "question_images": [
@@ -348,7 +348,7 @@
     },
     {
         "id": 19,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If the rms speed of oxygen molecules at $0^{\\circ}C$ is $160\\text{ m/s}$. Find the rms speed of hydrogen molecules at $0^{\\circ}C$.",
         "question_latex": "If the rms speed of oxygen molecules at $0^{\\circ}C$ is $160\\text{ m/s}$. Find the rms speed of hydrogen molecules at $0^{\\circ}C$.",
         "question_images": [],
@@ -367,7 +367,7 @@
     },
     {
         "id": 20,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "In the given graph of P vs V, curves A and B represent which processes?",
         "question_latex": "In the given graph of $P$ vs $V$, curves $A$ and $B$ represent which processes?",
         "question_images": [
@@ -389,7 +389,7 @@
     },
     {
         "id": 21,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The rms velocity of gas molecules is $300\\text{ ms}^{-1}$. The rms velocity of molecules of gas with twice the molecular weight and half the absolute temperature is",
         "question_latex": "The rms velocity of gas molecules is $300\\text{ ms}^{-1}$. The rms velocity of molecules of gas with twice the molecular weight and half the absolute temperature is",
         "question_images": [],
@@ -408,7 +408,7 @@
     },
     {
         "id": 22,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A mixture of 2 moles of helium gas (atomic mass = 4 amu) and 1 mole of argon gas (atomic mass = 40 amu) is kept at 300 K in a container. The ratio of the rms speeds $[V_{rms}(\\text{helium}) / V_{rms}(\\text{argon})]$ is",
         "question_latex": "A mixture of $2$ moles of helium gas (atomic mass $= 4\\text{ amu}$) and $1$ mole of argon gas (atomic mass $= 40\\text{ amu}$) is kept at $300\\text{ K}$ in a container. The ratio of the rms speeds $[V_{rms}(\\text{helium}) / V_{rms}(\\text{argon})]$ is",
         "question_images": [],
@@ -427,7 +427,7 @@
     },
     {
         "id": 23,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Two spherical vessels of equal volume are connected by a narrow tube. The apparatus contains an ideal gas at 1 atm and 300 K. If one vessel is immersed in 600 K bath and the other in 300 K, the common pressure will be",
         "question_latex": "Two spherical vessels of equal volume are connected by a narrow tube. The apparatus contains an ideal gas at $1\\text{ atm}$ and $300\\text{ K}$. If one vessel is immersed in $600\\text{ K}$ bath and the other in $300\\text{ K}$, the common pressure will be",
         "question_images": [
@@ -448,7 +448,7 @@
     },
     {
         "id": 24,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Volume, pressure and temperature of an ideal gas are V, P and T respectively. If mass of its molecule is m, then its density is",
         "question_latex": "Volume, pressure and temperature of an ideal gas are $V, P$ and $T$ respectively. If mass of its molecule is $m$, then its density is",
         "question_images": [],
@@ -467,7 +467,7 @@
     },
     {
         "id": 25,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An ideal gas expands in such a manner that its pressure and volume can be related by equation $PV^2 = \\text{constant}$. During this process, the gas is",
         "question_latex": "An ideal gas expands in such a manner that its pressure and volume can be related by equation $PV^{2} = \\text{constant}$. During this process, the gas is",
         "question_images": [],
@@ -486,7 +486,7 @@
     },
     {
         "id": 26,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At temperature 300K, the rms speed of oxygen molecules is sqrt((alpha+5)/alpha) times to that of its average speed in the gas. Then, the value of alpha will be (use pi = 22/7)",
         "question_latex": "At temperature $300\\text{ K}$, the rms speed of oxygen molecules is $\\sqrt{\\frac{\\alpha+5}{\\alpha}}$ times to that of its average speed in the gas. Then, the value of $\\alpha$ will be (use $\\pi = \\frac{22}{7}$)",
         "question_images": [],
@@ -505,7 +505,7 @@
     },
     {
         "id": 27,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "10 moles of an ideal monoatomic gas at 10°C is mixed with 20 moles of another monoatomic gas at 20°C. Then the temperature of the mixture is",
         "question_latex": "$10$ moles of an ideal monoatomic gas at $10^{\\circ}C$ is mixed with $20$ moles of another monoatomic gas at $20^{\\circ}C$. Then the temperature of the mixture is",
         "question_images": [],
@@ -524,7 +524,7 @@
     },
     {
         "id": 28,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The root mean square velocity of molecules of gas is",
         "question_latex": "The root mean square velocity of molecules of gas is",
         "question_images": [],
@@ -543,7 +543,7 @@
     },
     {
         "id": 29,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of a gas contained in a closed vessel of constant volume increases by 1°C when the pressure of the gas is increased by 1%. The initial temperature of the gas is",
         "question_latex": "The temperature of a gas contained in a closed vessel of constant volume increases by $1^{\\circ}C$ when the pressure of the gas is increased by $1\\%$. The initial temperature of the gas is",
         "question_images": [],
@@ -562,7 +562,7 @@
     },
     {
         "id": 30,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "In a certain region of space there are only 5 molecules per cm^3 on an average. The temperature there is 3 K. The pressure of this dilute gas is (k = 1.38 x 10^-23 J/K)",
         "question_latex": "In a certain region of space there are only $5$ molecules per $cm^{3}$ on an average. The temperature there is $3\\text{ K}$. The pressure of this dilute gas is $(k = 1.38 \\times 10^{-23}\\text{ J/K})$",
         "question_images": [],
@@ -581,7 +581,7 @@
     },
     {
         "id": 31,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "According to law of equipartition of energy the molar specific heat of a diatomic gas at constant volume where the molecule has one additional vibration mode is",
         "question_latex": "According to law of equipartition of energy the molar specific heat of a diatomic gas at constant volume where the molecule has one additional vibration mode is",
         "question_images": [],
@@ -600,7 +600,7 @@
     },
     {
         "id": 32,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Two moles a monoatomic gas is mixed with six moles of a diatomic gas. The molar specific heat of the mixture at constant volume is:",
         "question_latex": "Two moles a monoatomic gas is mixed with six moles of a diatomic gas. The molar specific heat of the mixture at constant volume is:",
         "question_images": [],
@@ -619,7 +619,7 @@
     },
     {
         "id": 33,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A vessel of volume 4 L contains a mixture of 8 g of oxygen, 14 g of nitrogen and 22 g of carbon dioxide at 27°C. The pressure exerted by the mixture is",
         "question_latex": "A vessel of volume $4\\text{ L}$ contains a mixture of $8\\text{ g}$ of oxygen, $14\\text{ g}$ of nitrogen and $22\\text{ g}$ of carbon dioxide at $27^{\\circ}C$. The pressure exerted by the mixture is",
         "question_images": [],
@@ -638,7 +638,7 @@
     },
     {
         "id": 34,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If n is the number density and d is the diameter of the molecule, then the average distance covered by a molecule between two successive collisions (i.e. mean free path) is represented by:",
         "question_latex": "If $n$ is the number density and $d$ is the diameter of the molecule, then the average distance covered by a molecule between two successive collisions (i.e. mean free path) is represented by:",
         "question_images": [],
@@ -657,7 +657,7 @@
     },
     {
         "id": 35,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The specific heats, Cp and Cv of a gas of diatomic molecules, A, are given by 29 and 22, respectively. Another gas of diatomic molecules, B, has the corresponding values 30 and 21. If they are treated as ideal gases, then",
         "question_latex": "The specific heats, $C_{P}$ and $C_{v}$ of a gas of diatomic molecules, $A$, are given (in units of $Jmol^{-1}K^{-1}$) by $29$ and $22$, respectively. Another gas of diatomic molecules, $B$, has the corresponding values $30$ and $21$. If they are treated as ideal gases, then",
         "question_images": [],
@@ -676,7 +676,7 @@
     },
     {
         "id": 36,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An ideal gas in a closed container is slowly heated. As its temperature increases, which of the following statements are true?",
         "question_latex": "An ideal gas in a closed container is slowly heated. As its temperature increases, which of the following statements are true?",
         "question_images": [],
@@ -695,7 +695,7 @@
     },
     {
         "id": 37,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If the root mean square velocity of hydrogen molecule at a given temperature and pressure is 2Km/s, the root mean square velocity of oxygen at the same condition in Km/s is:",
         "question_latex": "If the root mean square velocity of hydrogen molecule at a given temperature and pressure is $2\\text{ Km/s}$, the root mean square velocity of oxygen at the same condition in $Km/s$ is:",
         "question_images": [],
@@ -714,7 +714,7 @@
     },
     {
         "id": 38,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Using equipartition of energy, the specific heat of aluminium at room temperature can be estimated to be (atomic weight of aluminium = 27)",
         "question_latex": "Using equipartition of energy, the specific heat (in $Jkg^{-1}K^{-1}$) of aluminium at room temperature can be estimated to be (atomic weight of aluminium $= 27$)",
         "question_images": [],
@@ -733,7 +733,7 @@
     },
     {
         "id": 39,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Two chambers containing m1 and m2 gram of a gas at pressures p1 and p2 respectively are put in communication with each other, temperature remaining constant. The common pressure reached will be",
         "question_latex": "Two chambers containing $m_{1}$ and $m_{2}$ gram of a gas at pressures $p_{1}$ and $p_{2}$ respectively are put in communication with each other, temperature remaining constant. The common pressure reached will be",
         "question_images": [],
@@ -752,7 +752,7 @@
     },
     {
         "id": 40,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The ratio of the specific heats Cp/Cv = gamma in terms of degrees of freedom (n) is given by",
         "question_latex": "The ratio of the specific heats $\\frac{C_{p}}{C_{v}} = \\gamma$ in terms of degrees of freedom ($n$) is given by",
         "question_images": [],
@@ -771,7 +771,7 @@
     },
     {
         "id": 41,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If the internal energy of n1 moles of He at temperature 10 T is equal to the internal energy of n2 mole of hydrogen at temperature 6 T. the ratio of n1/n2 is",
         "question_latex": "If the internal energy of $n_{1}$ moles of $He$ at temperature $10\\text{ T}$ is equal to the internal energy of $n_{2}$ mole of hydrogen at temperature $6\\text{ T}$. the ratio of $\\frac{n_{1}}{n_{2}}$ is",
         "question_images": [],
@@ -790,7 +790,7 @@
     },
     {
         "id": 42,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A gas is heated at a constant pressure. The fraction of heat supplied used for external work is",
         "question_latex": "A gas is heated at a constant pressure. The fraction of heat supplied used for external work is",
         "question_images": [],
@@ -809,7 +809,7 @@
     },
     {
         "id": 43,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At NTP, sample of equal volume of chlorine and oxygen is taken. Now ratio of no. of molecules is",
         "question_latex": "At NTP, sample of equal volume of chlorine and oxygen is taken. Now ratio of no. of molecules is",
         "question_images": [],
@@ -828,7 +828,7 @@
     },
     {
         "id": 44,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The specific heats, Cp and Cv of a gas of diatomic molecules, A, are 29 and 22, and for B they are 30 and 21. If treated as ideal gases, then:",
         "question_latex": "The specific heats, $C_{P}$ and $C_{v}$ of a gas of diatomic molecules, $A$, are $29$ and $22$. Another gas $B$ has $30$ and $21$. If they are treated as ideal gases, then:",
         "question_images": [],
@@ -847,7 +847,7 @@
     },
     {
         "id": 45,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At what temperature volume of an ideal gas at 0°C becomes triple",
         "question_latex": "At what temperature volume of an ideal gas at $0^{\\circ}C$ becomes triple",
         "question_images": [],
@@ -866,7 +866,7 @@
     },
     {
         "id": 46,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "One litre of oxygen at a pressure of 1 atm and two litres of nitrogen at a pressure of 0.5 atm, are introduced into a vessel of volume 1 L. If there is no change in temperature, the final pressure of the mixture of gas is",
         "question_latex": "One litre of oxygen at a pressure of $1\\text{ atm}$ and two litres of nitrogen at a pressure of $0.5\\text{ atm}$, are introduced into a vessel of volume $1\\text{ L}$. If there is no change in temperature, the final pressure of the mixture of gas is",
         "question_images": [],
@@ -885,7 +885,7 @@
     },
     {
         "id": 47,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A cyclic process ABCA: it rejects 50 J in AB, 0 J in BC, accepts 70 J in CA. 40 J of work is done ON the gas in BC. Internal energies at B and C are",
         "question_latex": "A cyclic process $ABCA$: it rejects $50\\text{ J}$ in $AB$, $0\\text{ J}$ in $BC$, accepts $70\\text{ J}$ in $CA$. $40\\text{ J}$ of work is done ON the gas in $BC$. Internal energies at $B$ and $C$ are",
         "question_images": [
@@ -907,7 +907,7 @@
     },
     {
         "id": 48,
-        "chapter": "Kinetic Theory of Gases and Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An air bubble doubles its radius on raising from the bottom of water reservoir to be the surface of water in it. If the atmospheric pressure is equal to 10 m of water, the height of water in the reservoir is",
         "question_latex": "An air bubble doubles its radius on raising from the bottom of water reservoir to be the surface of water in it. If the atmospheric pressure is equal to $10\\text{ m}$ of water, the height of water in the reservoir is",
         "question_images": [
@@ -928,7 +928,7 @@
     },
     {
         "id": 49,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A sample of ideal gas is expanded to twice its original volume V in a quasi-static process for which pressure varies with volume as shown in the figure. Work done by the expanding gas is",
         "question_latex": "A\\ sample\\ of\\ ideal\\ gas\\ is\\ expanded\\ to\\ twice\\ its\\ original\\ volume\\ V\\ in\\ a\\ quasi\\text{-}static\\ process\\ for\\ which\\ P\\ varies\\ with\\ V\\ as\\ shown\\ in\\ the\\ figure.\\ The\\ work\\ done\\ by\\ the\\ expanding\\ gas\\ is",
         "question_images": [
@@ -957,7 +957,7 @@
     },
     {
         "id": 50,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Which one of the following is not an assumption of kinetic theory of gases?",
         "question_latex": "Which\\ one\\ of\\ the\\ following\\ is\\ not\\ an\\ assumption\\ of\\ kinetic\\ theory\\ of\\ gases?",
         "question_images": [],
@@ -976,7 +976,7 @@
     },
     {
         "id": 51,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Kinetic theory of gases provide a base for",
         "question_latex": "Kinetic theory of gases provide a base for",
         "question_images": [],
@@ -995,7 +995,7 @@
     },
     {
         "id": 52,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Volume-temperature graph at atmospheric pressure for a monoatomic gas (V in m³, T in °C) is",
         "question_latex": "Volume-temperature graph at atmospheric pressure for a monoatomic gas ($V$ in $m^3$, $T$ in $^\\circ C$) is",
         "question_images": [
@@ -1027,7 +1027,7 @@
     },
     {
         "id": 53,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The relation between root mean square speed (vrms) and most probable speed (vp) for the molar mass M of oxygen gas molecule at the temperature of 300 K will be (June 2022)",
         "question_latex": "The relation between root mean square speed $(v_{rms})$ and most probable speed $(v_{p})$ for the molar mass $M$ of oxygen gas molecule at the temperature of $300\\text{ K}$ will be (June 2022)",
         "question_images": [],
@@ -1046,7 +1046,7 @@
     },
     {
         "id": 54,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The specific heats, CP and Cv of a gas of diatomic molecules, A, are given (in units of J mol⁻¹ K⁻¹) by 29 and 22, respectively. Another gas of diatomic molecules, B, has the corresponding values 30 and 21. If they are treated as ideal gases, then (April 2019)",
         "question_latex": "The specific heats, $C_{P}$ and $C_{v}$ of a gas of diatomic molecules, $A$, are given (in units of $J\\text{ mol}^{-1}K^{-1}$) by $29$ and $22$, respectively. Another gas of diatomic molecules, $B$, has the corresponding values $30$ and $21$. If they are treated as ideal gases, then (April 2019)",
         "question_images": [],
@@ -1065,7 +1065,7 @@
     },
     {
         "id": 55,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio CP/CV for the gas is [2003]",
         "question_latex": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio $C_{P}/C_{V}$ for the gas is [2003]",
         "question_images": [],
@@ -1084,7 +1084,7 @@
     },
     {
         "id": 56,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A certain balloon maintains an internal gas pressure of P0 = 100 kPa until the volume reaches V0 = 20 m³. Beyond a volume of 20 m³, the internal pressure varies as P = P0 + 2k(V - V0)² where P is in kPa, V is in m³ and k is a constant (k = 1 kPa/m³). Initially the balloon contains helium gas at 20°C, 100 kPa with a 15 m³ volume. The balloon is then heated until the volume becomes 25 m³ and the pressure is 150 kPa. Assume ideal gas behavior for helium. The work done by the balloon in kJ is",
         "question_latex": "A certain balloon maintains an internal gas pressure of $P_{0}=100\\text{ kPa}$ until the volume reaches $V_{0}=20\\text{ m}^3$. Beyond a volume of $20\\text{ m}^3$ the internal pressure varies as $P=P_{0}+2k(V-V_{0})^{2}$ where $P$ is in $\\text{kPa}$, $V$ is in $\\text{m}^3$ and $k$ is a constant ($k=1\\text{ kPa/m}^3$). Initially the balloon contains helium gas at $20^\\circ\\text{C}$, $100\\text{ kPa}$ with a $15\\text{ m}^3$ volume. The balloon is then heated until the volume becomes $25\\text{ m}^3$ and the pressure is $150\\text{ kPa}$. Assume ideal gas behavior for helium. The work done by the balloon in $\\text{kJ}$ is",
         "question_images": [],
@@ -1103,7 +1103,7 @@
     },
     {
         "id": 57,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The ratio of speed of sound in hydrogen gas to the speed of sound in oxygen gas at the same temperature is (April 2023)",
         "question_latex": "The ratio of speed of sound in hydrogen gas to the speed of sound in oxygen gas at the same temperature is (April 2023)",
         "question_images": [],
@@ -1122,7 +1122,7 @@
     },
     {
         "id": 58,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If 10²² gas molecules each of mass 10⁻²⁶ kg collide with a surface (perpendicular to it) elastically per second over an area 1 m² with a speed 10⁴ m/s, the pressure exerted by the gas molecules will be of the order of (April 2019)",
         "question_latex": "If $10^{22}$ gas molecules each of mass $10^{-26}\\text{ kg}$ collide with a surface (perpendicular to it) elastically per second over an area $1\\text{ m}^2$ with a speed $10^{4}\\text{ m s}^{-1}$, the pressure exerted by the gas molecules will be of the order of (April 2019)",
         "question_images": [],
@@ -1141,7 +1141,7 @@
     },
     {
         "id": 59,
-        "chapter": "States Of Matter",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The value of critical temperature in terms of Vander Waal s constant a and b is",
         "question_latex": "The value of critical temperature in terms of Vander Waal s constant $a$ and $b$ is",
         "question_images": [],
@@ -1160,7 +1160,7 @@
     },
     {
         "id": 60,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Four curve A, B, C and D are drawn in figure for a given amount of gas. The curves which represent adiabatic and isothermal changes are",
         "question_latex": "Four curve $A$, $B$, $C$ and $D$ are drawn in figure for a given amount of gas. The curves which represent adiabatic and isothermal changes are",
         "question_images": [
@@ -1182,7 +1182,7 @@
     },
     {
         "id": 61,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A container of volume 1 m³ is divided into two equal compartments by a partition. One of these compartments contains an ideal gas at 300K. The other compartment is vaccum. The whole system is thermally isolated from its surroundings. The partition is removed and the gas expands to occupy the whole volume of the container. Its temperature now would be",
         "question_latex": "A container of volume $1\\text{ m}^3$ is divided into two equal compartments by a partition. One of these compartments contains an ideal gas at $300\\text{K}$. The other compartment is vaccum. The whole system is thermally isolated from its surroundings. The partition is removed and the gas expands to occupy the whole volume of the container. Its temperature now would be",
         "question_images": [],
@@ -1201,7 +1201,7 @@
     },
     {
         "id": 62,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Two cylinders A and B fitted with pistons contain equal amounts of an ideal diatomic gas at 300K. The piston of A is free to move, while that of B is held fixed. The same amount of heat is given to the gas in each cylinder. If the rise in temperature of the gas in A is 30 K, then the rise in temperature of the gas in B is",
         "question_latex": "Two cylinders $A$ and $B$ fitted with pistons contain equal amounts of an ideal diatomic gas at $300\\text{K}$. The piston of $A$ is free to move, while that of $B$ is held fixed. The same amount of heat is given to the gas in each cylinder. If the rise in temperature of the gas in $A$ is $30\\text{ K}$, then the rise in temperature of the gas in $B$ is",
         "question_images": [],
@@ -1220,7 +1220,7 @@
     },
     {
         "id": 63,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The relation PV=RT can describe the behaviour of a real gas at",
         "question_latex": "The relation $PV=RT$ can describe the behaviour of a real gas at",
         "question_images": [],
@@ -1239,7 +1239,7 @@
     },
     {
         "id": 64,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Consider a mixture of n moles of helium gas and 2n moles of oxygen gas (molecules taken to be rigid) as an ideal gas. Its CP/CV value will be: [8 Jan. 2020 II]",
         "question_latex": "Consider a mixture of $n$ moles of helium gas and $2n$ moles of oxygen gas (molecules taken to be rigid) as an ideal gas. Its $C_{P}/C_{V}$ value will be: [8 Jan. 2020 II]",
         "question_images": [],
@@ -1258,7 +1258,7 @@
     },
     {
         "id": 65,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At 300 K, the rms speed of oxygen molecules is sqrt((a+5)/a) times to that of its average speed in the gas, Then the value of a will be (used, pi = 22/7) (Jan 2023)",
         "question_latex": "At $300\\text{ K}$, the rms speed of oxygen molecules is $\\sqrt{\\frac{\\alpha+5}{\\alpha}}$ times to that of its average speed in the gas, Then the value of $\\alpha$ will be (used, $\\pi = 22/7$) (Jan 2023)",
         "question_images": [],
@@ -1277,7 +1277,7 @@
     },
     {
         "id": 66,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Match the List-I with List-II regarding Cp/Cv ratio: List-I: A. Triatomic rigid gas, B. Diatomic non-rigid gas, C. Monoatomic gas, D. Diatomic rigid gas. List-II: I. 5/3, II. 7/5, III. 4/3, IV. 9/7.",
         "question_latex": "Match the List-I with List-II regarding $C_p/C_v$ ratio: List-I: A. Triatomic rigid gas, B. Diatomic non-rigid gas, C. Monoatomic gas, D. Diatomic rigid gas. List-II: I. $5/3$, II. $7/5$, III. $4/3$, IV. $9/7$.",
         "question_images": [
@@ -1298,7 +1298,7 @@
     },
     {
         "id": 67,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "In a mixture of gases at a fixed temperature",
         "question_latex": "In a mixture of gases at a fixed temperature",
         "question_images": [],
@@ -1317,7 +1317,7 @@
     },
     {
         "id": 68,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Oxygen gas is made to undergo a process in which its molar heat capacity C depends on its absolute temperature T as C = alpha T. Work done by it when heated from an initial temperature T0 to a final temperature 2T0, will be",
         "question_latex": "Oxygen gas is made to undergo a process in which its molar heat capacity $C$ depends on its absolute temperature $T$ as $C=\\alpha T$. Work done by it when heated from an initial temperature $T_{0}$ to a final temperature $2T_{0}$, will be",
         "question_images": [],
@@ -1336,7 +1336,7 @@
     },
     {
         "id": 69,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Molecular motion shows itself as",
         "question_latex": "Molecular motion shows itself as",
         "question_images": [],
@@ -1355,7 +1355,7 @@
     },
     {
         "id": 70,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "70 cal of heat is required to raise the temperature of 2 moles of an ideal gas from 30°C to 35°C while the pressure of the gas is kept constant. The amount of the heat required gas through the same temperature range at constant volume is (gas constant R = 2 cal mol⁻¹ K⁻¹)",
         "question_latex": "$70\\text{ cal}$ of heat is required to raise the temperature of $2$ moles of an ideal gas from $30^\\circ\\text{C}$ to $35^\\circ\\text{C}$ while the pressure of the gas is kept constant. The amount of the heat required gas through the same temperature range at constant volume is (gas constant $R=2\\text{ cal mol}^{-1}K^{-1}$)",
         "question_images": [],
@@ -1374,7 +1374,7 @@
     },
     {
         "id": 71,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Assertion: The ratio Cv/Cp for a monatomic gas is less than for a diatomic gas. Reason: The molecules of a monatomic gas have more degrees of freedom than those of a diatomic gas.",
         "question_latex": "Assertion: The ratio $C_{V}/C_{P}$ for a monatomic gas is less than for a diatomic gas. Reason: The molecules of a monatomic gas have more degrees of freedom than those of a diatomic gas.",
         "question_images": [],
@@ -1393,7 +1393,7 @@
     },
     {
         "id": 72,
-        "chapter": "Thermal Properties of Matter",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The plots of intensity versus wavelength for three black bodies at temperatures T1, T2 and T3, respectively are as shown. Their temperature are such that",
         "question_latex": "The plots of intensity versus wavelength for three black bodies at temperatures $T_{1}$, $T_{2}$ and $T_{3}$, respectively are as shown. Their temperature are such that",
         "question_images": [
@@ -1415,7 +1415,7 @@
     },
     {
         "id": 73,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "In kinetic theory of gases, which of the following statements regarding elastic collisions of the molecules is wrong",
         "question_latex": "In kinetic theory of gases, which of the following statements regarding elastic collisions of the molecules is wrong",
         "question_images": [],
@@ -1434,7 +1434,7 @@
     },
     {
         "id": 74,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At constant volume the specific heat of a gas is 3R/2 then the value of gamma will be",
         "question_latex": "At constant volume the specific heat of a gas is $3R/2$ then the value of $\\gamma$ will be",
         "question_images": [],
@@ -1453,7 +1453,7 @@
     },
     {
         "id": 75,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of an ideal gas is increased from 27°C to 127°C, then percentage increase in Vrms is",
         "question_latex": "The temperature of an ideal gas is increased from $27^\\circ\\text{C}$ to $127^\\circ\\text{C}$, then percentage increase in $V_{rms}$ is",
         "question_images": [],
@@ -1472,7 +1472,7 @@
     },
     {
         "id": 76,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The kinetic energy of one g-mole of a gas at normal temperature and pressure is (R = 8.31 J/mol-K)",
         "question_latex": "The kinetic energy of one g-mole of a gas at normal temperature and pressure is ($R = 8.31\\text{ J/mol-K}$)",
         "question_images": [],
@@ -1491,7 +1491,7 @@
     },
     {
         "id": 77,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The specific heat relation for ideal gas is",
         "question_latex": "The specific heat relation for ideal gas is",
         "question_images": [],
@@ -1510,7 +1510,7 @@
     },
     {
         "id": 78,
-        "chapter": "Thermodynamics",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An ideal monatomic gas is taken round the cycle ABCDA as shown in the P-V diagram (see figure). The work done during the cycle is",
         "question_latex": "An ideal monatomic gas is taken round the cycle $ABCDA$ as shown in the $P-V$ diagram (see figure). The work done during the cycle is",
         "question_images": [
@@ -1532,7 +1532,7 @@
     },
     {
         "id": 79,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "According to law of equipartition of energy the molar specific heat of a diatomic gas at constant volume where the molecule has one additional vibration mode is (Jan 2023)",
         "question_latex": "According to law of equipartition of energy the molar specific heat of a diatomic gas at constant volume where the molecule has one additional vibration mode is (Jan 2023)",
         "question_images": [],
@@ -1551,7 +1551,7 @@
     },
     {
         "id": 80,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If 10²² gas molecules each of mass 10⁻²⁵ kg collide with a surface (perpendicular to it) elastically per second over an area 1 m² with a speed 10⁴ m/s the pressure exerted by the gas molecules will be of the order of : [8 April 2019 I]",
         "question_latex": "If $10^{22}$ gas molecules each of mass $10^{-25}\\text{ kg}$ collide with a surface (perpendicular to it) elastically per second over an area $1\\text{ m}^2$ with a speed $10^4\\text{ m/s}$ the pressure exerted by the gas molecules will be of the order of : [8 April 2019 I]",
         "question_images": [],
@@ -1570,7 +1570,7 @@
     },
     {
         "id": 81,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "An ideal gas is enclosed in a cylinder at pressure of 2 atm and temperature, 300 K. The mean time between two successive collisions is 6 x 10⁻⁸ s. If the pressure is doubled and temperature is increased to 500 K, the mean time between two successive collisions wiil be close to: [12 Jan. 2019II]",
         "question_latex": "An ideal gas is enclosed in a cylinder at pressure of $2\\text{ atm}$ and temperature, $300\\text{ K}$. The mean time between two successive collisions is $6 \\times 10^{-8}\\text{ s}$. If the pressure is doubled and temperature is increased to $500\\text{ K}$, the mean time between two successive collisions wiil be close to: [12 Jan. 2019II]",
         "question_images": [],
@@ -1589,7 +1589,7 @@
     },
     {
         "id": 82,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The average kinetic energy of a gas molecule can be determined by knowing",
         "question_latex": "The average kinetic energy of a gas molecule can be determined by knowing",
         "question_images": [],
@@ -1608,7 +1608,7 @@
     },
     {
         "id": 83,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of an ideal gas is reduced from 927°C to 27°C. The r.m.s. velocity of the molecules becomes",
         "question_latex": "The temperature of an ideal gas is reduced from $927^\\circ\\text{C}$ to $27^\\circ\\text{C}$. The r.m.s. velocity of the molecules becomes",
         "question_images": [],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": 84,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Pressure of an ideal gas, contained in a closed vessel, is increased by 0.4% when heated by 1°C. Its initial temperature must be: [April 3, 2025 (II)]",
         "question_latex": "Pressure of an ideal gas, contained in a closed vessel, is increased by $0.4\\%$ when heated by $1^\\circ\\text{C}$. Its initial temperature must be: [April 3, 2025 (II)]",
         "question_images": [],
@@ -1646,7 +1646,7 @@
     },
     {
         "id": 85,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Three perfect gases at absolute temperature T1, T2 and T3 are mixed. The masses of molecules are m1, m2 and m3 and the number of molecules are n1, n2 and n3 respectively. Assuming no loss of energy, the final temperature of the mixture is",
         "question_latex": "Three perfect gases at absolute temperature $T_1$, $T_2$ and $T_3$ are mixed. The masses of molecules are $m_1, m_2$ and $m_3$ and the number of molecules are $n_1, n_2$ and $n_3$ respectively. Assuming no loss of energy, the final temperature of the mixture is",
         "question_images": [],
@@ -1665,7 +1665,7 @@
     },
     {
         "id": 86,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If 2 moles of diatomic gas and 1 mole of monatomic gas are mixed, then the ratio of specific heats for the mixture is",
         "question_latex": "If $2$ moles of diatomic gas and $1$ mole of monatomic gas are mixed, then the ratio of specific heats for the mixture is",
         "question_images": [],
@@ -1684,7 +1684,7 @@
     },
     {
         "id": 87,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of the mixture of one mole of helium and one mole of hydrogen is increased from 0°C to 100°C at constant pressure. The amount of heat delivered will be",
         "question_latex": "The temperature of the mixture of one mole of helium and one mole of hydrogen is increased from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$ at constant pressure. The amount of heat delivered will be",
         "question_images": [],
@@ -1703,7 +1703,7 @@
     },
     {
         "id": 88,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The temperature of an ideal gas is increased from 120 K to 480 K. If at 120 K the root mean square velocity of the gas molecules is v, at 480 K it becomes",
         "question_latex": "The temperature of an ideal gas is increased from $120\\text{ K}$ to $480\\text{ K}$. If at $120\\text{ K}$ the root mean square velocity of the gas molecules is $v$, at $480\\text{ K}$ it becomes",
         "question_images": [],
@@ -1722,7 +1722,7 @@
     },
     {
         "id": 89,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The rms velocity of gas molecules is 300 ms⁻¹. The rms velocity of molecules of gas with twice the molecular weight and half the absolute temperature is",
         "question_latex": "The rms velocity of gas molecules is $300\\text{ ms}^{-1}$. The rms velocity of molecules of gas with twice the molecular weight and half the absolute temperature is",
         "question_images": [],
@@ -1741,7 +1741,7 @@
     },
     {
         "id": 90,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "KE per unit volume is E. The pressure exerted by the gas is given by",
         "question_latex": "KE per unit volume is $E$. The pressure exerted by the gas is given by",
         "question_images": [],
@@ -1760,7 +1760,7 @@
     },
     {
         "id": 91,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "If mass of He atom is 4 times that of hydrogen atom then mean velocity of He is",
         "question_latex": "If mass of $He$ atom is $4$ times that of hydrogen atom then mean velocity of $He$ is",
         "question_images": [],
@@ -1779,7 +1779,7 @@
     },
     {
         "id": 92,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The ratio of mean kinetic energy of hydrogen and nitrogen at temperature 300 K and 450 K respectively is",
         "question_latex": "The ratio of mean kinetic energy of hydrogen and nitrogen at temperature $300\\text{ K}$ and $450\\text{ K}$ respectively is",
         "question_images": [],
@@ -1798,7 +1798,7 @@
     },
     {
         "id": 93,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At what temperature, the mean kinetic energy of O2 will be the same for H2 molecules at -73°C",
         "question_latex": "At what temperature, the mean kinetic energy of $O_2$ will be the same for $H_2$ molecules at $-73^\\circ\\text{C}$",
         "question_images": [],
@@ -1817,7 +1817,7 @@
     },
     {
         "id": 94,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A perfect gas at 27°C is heated at constant pressure so as to double its volume. The increase in temperature of the gas will be",
         "question_latex": "A perfect gas at $27^\\circ\\text{C}$ is heated at constant pressure so as to double its volume. The increase in temperature of the gas will be",
         "question_images": [],
@@ -1836,7 +1836,7 @@
     },
     {
         "id": 95,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "Mean free path of gas molecule of constant temperature is inversely proportional to",
         "question_latex": "Mean free path of gas molecule of constant temperature is inversely proportional to",
         "question_images": [],
@@ -1855,7 +1855,7 @@
     },
     {
         "id": 96,
-        "chapter": "Kinetic Theory of Gases",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "22 g of carbon dioxide at 27°C is mixed in a closed container with 16 g of oxygen at 37°C. If both gases are considered as ideal gases, then the temperature of the mixture is",
         "question_latex": "$22\\text{ g}$ of carbon dioxide at $27^\\circ\\text{C}$ is mixed in a closed container with $16\\text{ g}$ of oxygen at $37^\\circ\\text{C}$. If both gases are considered as ideal gases, then the temperature of the mixture is",
         "question_images": [],
@@ -1874,7 +1874,7 @@
     },
     {
         "id": 97,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At the same temperature and pressure and volume of two gases, which of the following quantities is constant?",
         "question_latex": "At\\ the\\ same\\ temperature,\\ pressure\\ and\\ volume\\ of\\ two\\ gases,\\ which\\ of\\ the\\ following\\ quantities\\ is\\ constant?",
         "question_images": [],
@@ -1893,7 +1893,7 @@
     },
     {
         "id": 98,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "The mean free path and the average speed of oxygen molecules at 300 K and 1 atm are λ and v respectively. Find the frequency of its collisions.",
         "question_latex": "The\\ mean\\ free\\ path\\ $\\lambda$\\ and\\ the\\ average\\ speed\\ $v$\\ of\\ oxygen\\ molecules\\ at\\ $300\\,K$\\ and\\ $1\\,atm$\\ are\\ given.\\ Find\\ the\\ frequency\\ of\\ collisions.",
         "question_images": [],
@@ -1912,7 +1912,7 @@
     },
     {
         "id": 99,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "At room temperature, the rms speed of the molecules of a certain diatomic gas is found to be 1930 m/s. The gas is",
         "question_latex": "At\\ room\\ temperature,\\ the\\ rms\\ speed\\ of\\ molecules\\ of\\ a\\ certain\\ diatomic\\ gas\\ is\\ found\\ to\\ be\\ $1930\\,m/s$.\\ The\\ gas\\ is",
         "question_images": [],
@@ -1931,7 +1931,7 @@
     },
     {
         "id": 100,
-        "chapter": "Motion of System of Particles and Rigid Body",
+        "chapter": "Behaviour of Perfect Gas and Kinetic Theory",
         "question": "A perfect gas at 27°C is heated at constant pressure so as to double its volume. The increase in temperature of the gas will be",
         "question_latex": "A\\ perfect\\ gas\\ at\\ $27^\\circ C$\\ is\\ heated\\ at\\ constant\\ pressure\\ so\\ as\\ to\\ double\\ its\\ volume.\\ The\\ increase\\ in\\ temperature\\ of\\ the\\ gas\\ will\\ be",
         "question_images": [],

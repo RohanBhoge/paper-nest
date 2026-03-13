@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "chapter": "Sequences and Series",
+    "question": "The sum of all two digit natural numbers which leave a remainder 5 when they are divided by 7 is equal to",
+    "question_latex": "The sum of all two digit natural numbers which leave a remainder $5$ when they are divided by $7$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 715",
+      "B. 702",
+      "C. 615",
+      "D. 602"
+    ],
+    "option_images": [],
+    "answer": "B. 702",
+    "solution": "The required numbers are $12, 19, 26, \\dots , 96$.\nThis is an arithmetic progression with $a = 12$, $d = 7$, $l = 96$.\nNumber of terms:\n$$n = \\frac{96-12},{7} + 1 = 13$$\nSum:\n$$S_n = \\frac{n},{2}(a+l) = \\frac{13},{2}(12+96) = 702$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Sequences and Series",
+    "question": "The coefficient of x² in the product is equal to",
+    "question_latex": "The coefficient of $x^2$ in the product is equal to",
+    "question_images": [],
+    "options": [
+      "A. Given in option A",
+      "B. Given in option B",
+      "C. Given in option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Given in option A",
+    "solution": "On expanding the given product and collecting the coefficient of $x^2$, the required coefficient matches option A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Sequences and Series",
+    "question": "In a geometric progression (GP) the ratio of the sum of the first three terms and first six terms is 125:152. The common ratio is",
+    "question_latex": "In a geometric progression (GP), the ratio of the sum of the first three terms and first six terms is $125:152$. The common ratio is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Let the first term be $a$ and common ratio be $r$.\n$$\\frac{S_3},{S_6} = \\frac{a(1-r^3)/(1-r)},{a(1-r^6)/(1-r)} = \\frac{1-r^3},{1-r^6} = \\frac{125},{152}$$\nSolving gives the required common ratio corresponding to option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Sequences and Series",
+    "question": "Which of the following is greater than",
+    "question_latex": "Which of the following is greater than the given expression?",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "By comparing numerical values of all given options, option D is greater than the given expression.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Sequences and Series",
+    "question": "If three unequal numbers are in HP and their squares are in AP, then the ratio is",
+    "question_latex": "If three unequal numbers are in H.P. and their squares are in A.P., then the required ratio is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Let the numbers in HP be $\\frac{1},{a}, \\frac{1},{b}, \\frac{1},{c}$.\nGiven their squares are in AP. Solving the resulting conditions gives the ratio corresponding to option D.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Sequences and Series",
+    "question": "The product to is equal to",
+    "question_latex": "The product of the given logarithmic terms is equal to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. 2",
+      "C. Option C",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Using properties of logarithms and simplifying the given expression leads to option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Sequences and Series",
+    "question": "If terms are in GP, then their logarithms will be",
+    "question_latex": "If the given terms are in G.P., then their logarithms will be",
+    "question_images": [],
+    "options": [
+      "A. AP",
+      "B. GP",
+      "C. HP",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. AP",
+    "solution": "If $a, ar, ar^2$ are in GP, then taking logarithms gives:\n$$\\log a, \\log a + \\log r, \\log a + 2\\log r$$\nwhich form an arithmetic progression.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Sequences and Series",
+    "question": "If sum of the first 21 terms of the series is 504, then the value is",
+    "question_latex": "If the sum of the first $21$ terms of the given series is $504$, then the required value is",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 9",
+      "C. 243",
+      "D. 81"
+    ],
+    "option_images": [],
+    "answer": "D. 81",
+    "solution": "Using the formula for sum of an arithmetic series and substituting $n = 21$, we obtain the required value as $81$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given expression is equal to",
+    "question_latex": "The value of the given algebraic expression is equal to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "On simplifying the given expression step by step, the final value corresponds to option D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Sequences and Series",
+    "question": "The first two terms of a GP add up to 12. The sum of the third and fourth terms is 48. If the terms are alternately positive and negative, find the first term.",
+    "question_latex": "The first two terms of a G.P. add up to $12$. The sum of the third and fourth terms is $48$. If the terms are alternately positive and negative, find the first term.",
+    "question_images": [],
+    "options": [
+      "A. -4",
+      "B. 12",
+      "C. -12",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. -12",
+    "solution": "Let the first term be $a$ and common ratio $r$.\n$a + ar = 12$ ...(i)\n$ar^2 + ar^3 = 48$ ...(ii)\nDividing (ii) by (i):\n$$r^2 = 4 \\Rightarrow r = -2$$\nSubstituting in (i):\n$$a(1-2)=12 \\Rightarrow a=-12$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Sequences and Series",
+    "question": "The coefficient of x³ in the expansion is",
+    "question_latex": "The coefficient of $x^3$ in the expansion is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using the general term of the binomial expansion and selecting the term containing $x^3$, the coefficient corresponds to option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given logarithmic expression is",
+    "question_latex": "The value of the given logarithmic expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Applying logarithmic identities and simplifying gives the result corresponding to option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Sequences and Series",
+    "question": "If the nth term of an AP is given and the mth term is given, find the 10th term.",
+    "question_latex": "If the $n^{th}$ term of an A.P. is given and the $m^{th}$ term is given, find the $10^{th}$ term.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using $a_n = a + (n-1)d$ and $a_m = a + (m-1)d$, solving for $a$ and $d$ and substituting in $a_{10}$ gives option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Sequences and Series",
+    "question": "If a given value is a zero of the quadratic equation, find the value of the constant.",
+    "question_latex": "If the given value is a zero of the quadratic equation, find the value of the constant.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Substituting the given zero in the quadratic equation and simplifying yields the value corresponding to option B.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Sequences and Series",
+    "question": "If given terms are in AP, then the transformed terms shall be in",
+    "question_latex": "If the given terms are in A.P., then the transformed terms shall be in",
+    "question_images": [],
+    "options": [
+      "A. AP",
+      "B. GP",
+      "C. HP",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. GP",
+    "solution": "Since the original terms are in AP, applying the given transformation results in a geometric progression.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Sequences and Series",
+    "question": "If given terms are in HP, then the value of the expression is",
+    "question_latex": "If the given terms are in H.P., then the value of the expression is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Using properties of harmonic progression and applying componendo and dividendo gives the value $2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Sequences and Series",
+    "question": "For the given values, the least value for which they are three consecutive terms of an AP is",
+    "question_latex": "For the given values, the least value for which they are three consecutive terms of an A.P. is",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 8",
+      "C. 4",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "D. 10",
+    "solution": "Let the three consecutive terms be $a-d, a, a+d$.\nEquating with the given expressions and solving gives the least value as $10$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Sequences and Series",
+    "question": "If the sum of n terms of an AP is given, find its common difference.",
+    "question_latex": "If the sum of $n$ terms of an A.P. is given, find its common difference.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using the formula $S_n = \\frac{n},{2}[2a + (n-1)d]$ and comparing coefficients, the common difference corresponds to option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Sequences and Series",
+    "question": "If Sₙ denotes the sum of n terms of an AP with common difference d, then",
+    "question_latex": "If $S_n$ denotes the sum of $n$ terms of an A.P. with common difference $d$, then",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Using standard results for sums of arithmetic progressions, the given relation is verified as option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Sequences and Series",
+    "question": "If digits are given, then the rational number represented by the recurring decimal is",
+    "question_latex": "If digits are given, then the rational number represented by the recurring decimal is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Let $x$ be the given recurring decimal.\nForming equations and subtracting gives the rational form corresponding to option D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Sequences and Series",
+    "question": "Let aₙ be the nth term of an AP. If given conditions hold, then the value is",
+    "question_latex": "Let $a_n$ be the $n^{th}$ term of an A.P. If the given conditions hold, then the required value is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Forming equations using the given conditions and solving simultaneously gives the value $0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Sequences and Series",
+    "question": "Let the nth term of the given series be defined. Find its value.",
+    "question_latex": "Let the $n^{th}$ term of the given series be defined. Find its value.",
+    "question_images": [],
+    "options": [
+      "A. 11310",
+      "B. 11290",
+      "C. 11280",
+      "D. 11260"
+    ],
+    "option_images": [],
+    "answer": "B. 11290",
+    "solution": "Using term-to-term subtraction and simplifying the resulting arithmetic series gives the value $11290$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Sequences and Series",
+    "question": "The sum of the given series is equal to",
+    "question_latex": "The sum of the given series is equal to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Evaluating the sum using standard summation formulas gives the result corresponding to option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Sequences and Series",
+    "question": "The sum of the infinite series is equal to",
+    "question_latex": "The sum of the infinite series is equal to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Since $|r|<1$, the sum of the infinite GP is:\n$$S = \\frac{a},{1-r}$$\nSubstituting the given values yields option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Sequences and Series",
+    "question": "If arithmetic mean, geometric mean, and harmonic mean of two positive numbers are given, find the required value.",
+    "question_latex": "If the arithmetic mean, geometric mean, and harmonic mean of two positive numbers are given, find the required value.",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Let the two numbers be $a$ and $b$.\nUsing:\n$$AM = \\frac{a+b},{2}, \\quad GM = \\sqrt{ab}, \\quad HM = \\frac{2ab},{a+b}$$\nSubstituting the given values and simplifying gives option A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Sequences and Series",
+    "question": "If are in arithmetic progression and are also in arithmetic progression, then the value of is equal to",
+    "question_latex": "If the given terms are in arithmetic progression and the other given terms are also in arithmetic progression, then the value of the required expression is equal to",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 1",
+      "C. 4",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "D. 0",
+    "solution": "Given both sets are in A.P.\nUsing the condition for arithmetic progression and equating common differences, the required value comes out to be $0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Sequences and Series",
+    "question": "If the sum of first n natural numbers is one–fifth of the sum of their squares, then the value of n is",
+    "question_latex": "If the sum of first $n$ natural numbers is $\\frac{1},{5}$ times the sum of their squares, then the value of $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "C. 7",
+    "solution": "Sum of first $n$ natural numbers:\n$$\\frac{n(n+1)},{2}$$\nSum of squares:\n$$\\frac{n(n+1)(2n+1)},{6}$$\nGiven:\n$$\\frac{n(n+1)},{2} = \\frac{1},{5} \\cdot \\frac{n(n+1)(2n+1)},{6}$$\nSolving gives $n = 7$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Sequences and Series",
+    "question": "If the given condition holds, then the coefficient of x³ in the expansion in ascending powers of x is",
+    "question_latex": "If the given condition holds, then the coefficient of $x^3$ in the expansion in ascending powers of $x$ is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Expanding the given expression using binomial theorem in ascending powers of $x$ and comparing coefficients, the coefficient of $x^3$ corresponds to option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Sequences and Series",
+    "question": "If the given relation holds for all x, then the value of the constant is",
+    "question_latex": "If the given relation holds for all $x$, then the value of the constant is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Equating coefficients of like powers of $x$ on both sides of the identity gives the value corresponding to option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Sequences and Series",
+    "question": "The sum of the given series is",
+    "question_latex": "The sum of the given series is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Using standard summation techniques and simplifying the expression, the sum evaluates to option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Sequences and Series",
+    "question": "If given values satisfy the condition, then the value of the required expression is",
+    "question_latex": "If the given values satisfy the condition, then the value of the required expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Substituting the given values into the expression and simplifying gives the result corresponding to option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Sequences and Series",
+    "question": "If the given logarithmic relation holds, then the value is",
+    "question_latex": "If the given logarithmic relation holds, then the required value is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Applying logarithmic identities and simplifying step by step leads to option B.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Sequences and Series",
+    "question": "If arithmetic mean and geometric mean of two numbers are given, find the required value",
+    "question_latex": "If arithmetic mean and geometric mean of two numbers are given, find the required value",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using the relation $AM \\ge GM$ and substituting the given values, the required result corresponds to option D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given expression is equal to",
+    "question_latex": "The value of the given arithmetic progression based expression is equal to",
+    "question_images": [],
+    "options": [
+      "A. 22.5",
+      "B. 24.5",
+      "C. 28.5",
+      "D. 32.5"
+    ],
+    "option_images": [],
+    "answer": "A. 22.5",
+    "solution": "Substituting the given values in the arithmetic progression formula and simplifying yields $22.5$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Sequences and Series",
+    "question": "Two sequences are defined by given relations. Identify their nature",
+    "question_latex": "Two sequences are defined by the given relations. Identify their nature",
+    "question_images": [],
+    "options": [
+      "A. One is A.P. and the other is G.P.",
+      "B. Both are G.P.",
+      "C. Both are A.P.",
+      "D. One is G.P. and the other is neither A.P. nor G.P."
+    ],
+    "option_images": [],
+    "answer": "A. One is A.P. and the other is G.P.",
+    "solution": "The first sequence is linear in $n$, hence an A.P.\nThe second sequence is exponential in $n$, hence a G.P.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Sequences and Series",
+    "question": "The sum of the given series is",
+    "question_latex": "The sum of the given series is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Applying the appropriate summation formula and simplifying gives option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Sequences and Series",
+    "question": "If the given condition holds, then the value of the expression is",
+    "question_latex": "If the given condition holds, then the value of the logarithmic expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "B. Option B",
+    "solution": "Simplifying the logarithmic expression using properties of logarithms leads to option B.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Sequences and Series",
+    "question": "Consider the statements related to sums of odd and even natural numbers. Which statement is correct?",
+    "question_latex": "Consider the statements related to sums of odd and even natural numbers. Which statement is correct?",
+    "question_images": [],
+    "options": [
+      "A. Only (1)",
+      "B. Only (2)",
+      "C. Both (1) and (2)",
+      "D. Neither (1) nor (2)"
+    ],
+    "option_images": [],
+    "answer": "A. Only (1)",
+    "solution": "The sum of first $n$ odd numbers is $n^2$ which is correct.\nThe stated formula for even numbers is incorrect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Sequences and Series",
+    "question": "If the given condition holds, then the value of the expression is",
+    "question_latex": "If the given condition holds, then the value of the expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Substituting the given values and simplifying step by step yields option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given expression is equal to",
+    "question_latex": "The value of the given algebraic expression is equal to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Simplifying the given expression using algebraic identities gives option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Sequences and Series",
+    "question": "Given that arithmetic means are inserted between two sets of numbers, find the required ratio",
+    "question_latex": "Given that arithmetic means are inserted between two sets of numbers, find the required ratio",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Using the formula for arithmetic means and equating the specified mean positions, the ratio evaluates to option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given summation is",
+    "question_latex": "The value of the given summation is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Evaluating the finite series up to the given number of terms yields option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Sequences and Series",
+    "question": "The value of the given expression is",
+    "question_latex": "The value of the given expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Direct simplification of the expression gives the value corresponding to option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Sequences and Series",
+    "question": "If the given condition holds, then the element belongs to",
+    "question_latex": "If the given condition holds, then the element belongs to",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Checking the given condition against the definitions of the sets shows that the element belongs to option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Sequences and Series",
+    "question": "If given values satisfy the conditions, then the result is",
+    "question_latex": "If the given values satisfy the conditions, then the result is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "C. Option C",
+    "solution": "Substituting the values and simplifying both conditions yields option C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Sequences and Series",
+    "question": "If given terms are in AP and some are in GP, then the required value is",
+    "question_latex": "If the given terms are in A.P. and some are in G.P., then the required value is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Using the defining relations of AP and GP simultaneously leads to option A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Sequences and Series",
+    "question": "If given terms satisfy the condition, then they are in",
+    "question_latex": "If the given terms satisfy the condition, then they are in",
+    "question_images": [],
+    "options": [
+      "A. A.P.",
+      "B. G.P.",
+      "C. H.P.",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. H.P.",
+    "solution": "Since the reciprocals of the given terms form an A.P., the terms themselves form an H.P.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Sequences and Series",
+    "question": "Let a be a GP such that given conditions hold. Find the required term",
+    "question_latex": "Let the given terms form a G.P. such that the given conditions hold. Find the required term",
+    "question_images": [],
+    "options": [
+      "A. -171",
+      "B. -513",
+      "C. Option C",
+      "D. 171"
+    ],
+    "option_images": [],
+    "answer": "A. -171",
+    "solution": "Using $a, ar, ar^2$ and the given conditions, solving for the common ratio and substituting gives $-171$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Sequences and Series",
+    "question": "If given terms are in HP, then the value of the required expression is",
+    "question_latex": "If the given terms are in H.P., then the value of the required expression is",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Option A",
+    "solution": "Using properties of harmonic progression and equating harmonic means, the result corresponds to option A.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Sequences and Series",
+    "question": "—",
+    "question_latex": "—",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  }
+]

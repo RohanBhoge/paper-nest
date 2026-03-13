@@ -594,7 +594,7 @@ const TeacherDashboard = () => {
   // ... (rest of the TeacherDashboard component continues)
 
   return (
-    <div className="flex h-screen bg-slate-50 overflow-hidden">
+    <div className="flex h-screen bg-slate-100 overflow-hidden">
       <TopBar setIsSidebarOpen={setIsSidebarOpen} />     {" "}
       <Sidebar
         isSidebarOpen={isSidebarOpen}
@@ -608,27 +608,29 @@ const TeacherDashboard = () => {
           className="fixed inset-0 bg-black/40 z-40 md:hidden"
         ></div>
       )}
-      <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-6">
-        <Outlet context={{
-          notices,
-          handleExamClick,
-          selectedExam,
-          handleClassClick,
-          setActiveSection,
-          selectedClass,
-          examSubjects,
-          mode,
-          setMode,
-          handleSubjectClick,
-          setSelectedClass,
-          selectedSubject,
-          chapters,
-          checkedChapters,
-          handleCheckboxChange,
-          numberOfQuestions,
-          setNumberOfQuestions,
-          setSelectedSubject
-        }} />
+      <main className="flex-1 overflow-y-auto overflow-x-hidden pt-20 pb-8 px-0 md:pt-6 md:px-6">
+        <div className="mx-1 md:mx-auto max-w-7xl">
+          <Outlet context={{
+            notices,
+            handleExamClick,
+            selectedExam,
+            handleClassClick,
+            setActiveSection,
+            selectedClass,
+            examSubjects,
+            mode,
+            setMode,
+            handleSubjectClick,
+            setSelectedClass,
+            selectedSubject,
+            chapters,
+            checkedChapters,
+            handleCheckboxChange,
+            numberOfQuestions,
+            setNumberOfQuestions,
+            setSelectedSubject
+          }} />
+        </div>
       </main>
     </div>
   );

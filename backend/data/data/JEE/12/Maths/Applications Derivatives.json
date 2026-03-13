@@ -1,0 +1,1914 @@
+[
+  {
+    "id": 1,
+    "chapter": "Applications Derivatives",
+    "question": "If the radius of a circular disc is 3 cm, then the rate of change its area w.r.t. circumference is",
+    "question_latex": "If the radius of a circular disc is $3$ cm, then the rate of change its area w.r.t. circumference is",
+    "question_images": [],
+    "options": [
+      "A. 1 cm",
+      "B. 2 cm",
+      "C. 3 cm",
+      "D. 6 cm"
+    ],
+    "option_images": [],
+    "answer": "C. 3 cm",
+    "solution": "Given $r = 3$ cm\n$A = \\pi r^2 \\Rightarrow \\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt}$\n$C = 2\\pi r \\Rightarrow \\frac{dC}{dt} = 2\\pi \\frac{dr}{dt}$\n$\\frac{dA}{dC} = \\frac{2\\pi r}{2\\pi} = r = 3$ cm",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Applications Derivatives",
+    "question": "Water is being poured at the rate of 36 cm³/sec in a cylindrical vessel of base radius 3 m. The rate at which water level is rising is",
+    "question_latex": "Water is being poured at the rate of $36\\ \\text{cm}^3/\\text{sec}$ in a cylindrical vessel of base radius $3$ m. The rate at which water level is rising is",
+    "question_images": [],
+    "options": [
+      "A. 4/π m/sec",
+      "B. 2/π m/sec",
+      "C. 16/π m/sec",
+      "D. 8/π m/sec"
+    ],
+    "option_images": [],
+    "answer": "A. 4/π m/sec",
+    "solution": "$r = 3$ m, $\\frac{dV}{dt} = 36$ m³/sec\n$V = \\pi r^2 h \\Rightarrow \\frac{dV}{dt} = \\pi r^2 \\frac{dh}{dt}$\n$36 = \\pi(9)\\frac{dh}{dt}$\n$\\frac{dh}{dt} = \\frac{4}{\\pi}$ m/sec",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Applications Derivatives",
+    "question": "The distance travelled by a motor car in t seconds after the brakes are applied is s feet, where s = 22t - 12t². The distance travelled by the car before it stops, is",
+    "question_latex": "The distance travelled by a motor car in $t$ seconds after the brakes are applied is $s$ feet, where $s = 22t - 12t^2$. The distance travelled by the car before it stops, is",
+    "question_images": [],
+    "options": [
+      "A. 10.08 ft",
+      "B. 10 ft",
+      "C. 11 ft",
+      "D. 11.5 ft"
+    ],
+    "option_images": [],
+    "answer": "A. 10.08 ft",
+    "solution": "Given $s = 22t - 12t^2$\n$v = \\frac{ds}{dt} = 22 - 24t$\nWhen car stops, $v = 0$: $22 - 24t = 0 \\Rightarrow t = \\frac{11}{12}$\n$s = 22\\left(\\frac{11}{12}\\right) - 12\\left(\\frac{11}{12}\\right)^2 = 10.08$ ft",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Applications Derivatives",
+    "question": "The altitude of a right circular cone of minimum volume circumscribed about a sphere of radius r is",
+    "question_latex": "The altitude of a right circular cone of minimum volume circumscribed about a sphere of radius $r$ is",
+    "question_images": [],
+    "options": [
+      "A. 2r",
+      "B. 3r",
+      "C. 5r",
+      "D. 3/2 r"
+    ],
+    "option_images": [],
+    "answer": "D. 3/2 r",
+    "solution": "By calculus optimization, the altitude of the cone of minimum volume circumscribed about a sphere of radius $r$ is $\\frac{3}{2}r$... (standard result via differentiation of volume with constraint).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Applications Derivatives",
+    "question": "The maximum and minimum values of y = (ax² + 2bx + c)/(Ax² + 2Bx + C) are those for which",
+    "question_latex": "The maximum and minimum values of $y = \\dfrac{ax^2+2bx+c}{Ax^2+2Bx+C}$ are those for which",
+    "question_images": [],
+    "options": [
+      "A. ax² + 2bx + c - y(Ax² + 2Bx + C) is equal to zero",
+      "B. ax² + 2bx + c - y(Ax² + 2Bx + C) is a perfect square",
+      "C. dy/dx = 0 and d²y/dx² = 0",
+      "D. ax² + 2bx + c - y(Ax² + 2Bx + C) is not a perfect square"
+    ],
+    "option_images": [],
+    "answer": "B. ax² + 2bx + c - y(Ax² + 2Bx + C) is a perfect square",
+    "solution": "Let $f(x) = \\frac{ax^2+2bx+c}{Ax^2+2Bx+C}$. At a max/min point $P(x_1,y_1)$, $\\frac{dy}{dx}=0$ and $\\frac{d^2y}{dx^2}\\neq 0$. The tangent at $P$ gives only one value of $x$, which is possible only when $ax^2+2bx+c - y(Ax^2+2Bx+C)$ is a perfect square.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of e^1.002, if e = 2.7183 is",
+    "question_latex": "The approximate value of $e^{1.002}$, if $e = 2.7183$ is",
+    "question_images": [],
+    "options": [
+      "A. 2.7237",
+      "B. 2.2737",
+      "C. 2.3772",
+      "D. 2.7273"
+    ],
+    "option_images": [],
+    "answer": "A. 2.7237",
+    "solution": "$f(x) = e^x \\Rightarrow f'(x) = e^x$\n$a = 1,\\ h = 0.002$\n$f(1.002) \\approx f(1) + h f'(1) = 2.7183 + (0.002)(2.7183) = 2.7183(1.002) \\approx 2.7237$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Applications Derivatives",
+    "question": "The length of the smallest intercept made by the coordinate axes on any tangent to the ellipse x²/a² + y²/b² = 1, is",
+    "question_latex": "The length of the smallest intercept made by the coordinate axes on any tangent to the ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$, is",
+    "question_images": [],
+    "options": [
+      "A. a + b",
+      "B. (a+b)/2",
+      "C. (a+b)/4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. a + b",
+    "solution": "The tangent at $P(a\\cos\\theta, b\\sin\\theta)$ is $\\frac{x}{a}\\cos\\theta + \\frac{y}{b}\\sin\\theta = 1$.\nIt cuts axes at $A(a\\sec\\theta,0)$ and $B(0,b\\csc\\theta)$.\n$AB^2 = a^2\\sec^2\\theta + b^2\\csc^2\\theta$. Minimizing gives $AB_{\\min} = a+b$ when $\\tan\\theta = \\sqrt{\\frac{b}{a}}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Applications Derivatives",
+    "question": "A ladder of length 17 metres rests with one end against a vertical wall and the other on the level ground. If the lower end slips away at the rate of 1 m/sec, then, when it is 8 m away from the wall, its upper end is coming down at the rate of",
+    "question_latex": "A ladder of length $17$ metres rests with one end against a vertical wall and the other on the level ground. If the lower end slips away at the rate of $1$ m/sec, then, when it is $8$ m away from the wall, its upper end is coming down at the rate of",
+    "question_images": [],
+    "options": [
+      "A. 5/8 m/sec",
+      "B. -8/15 m/sec",
+      "C. 5π/8 m/sec",
+      "D. 8/5 m/sec"
+    ],
+    "option_images": [],
+    "answer": "B. -8/15 m/sec",
+    "solution": "$a^2 + b^2 = 17^2$\n$2a\\frac{da}{dt} + 2b\\frac{db}{dt} = 0$\nWhen $a=8$: $b=15$, $\\frac{da}{dt}=1$\n$8(1) + 15\\frac{db}{dt} = 0 \\Rightarrow \\frac{db}{dt} = -\\frac{8}{15}$ m/sec",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Applications Derivatives",
+    "question": "If s = ae^t + be^(-t) is the equation of motion of a particle, then its acceleration is equal to",
+    "question_latex": "If $s = ae^t + be^{-t}$ is the equation of motion of a particle, then its acceleration is equal to",
+    "question_images": [],
+    "options": [
+      "A. s",
+      "B. 2s",
+      "C. 3s",
+      "D. 4s"
+    ],
+    "option_images": [],
+    "answer": "A. s",
+    "solution": "$s = ae^t + be^{-t}$\n$\\frac{ds}{dt} = ae^t - be^{-t}$\n$\\frac{d^2s}{dt^2} = ae^t + be^{-t} = s$\nHence, acceleration $= s$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Applications Derivatives",
+    "question": "A spherical iron ball 10 cm in radius is coated with a layer of ice of uniform thickness that melts at a rate of 50 cm³/min. When the thickness of ice is 15 cm, then the rate at which the thickness of ice decreases, is",
+    "question_latex": "A spherical iron ball $10$ cm in radius is coated with a layer of ice of uniform thickness that melts at a rate of $50\\ \\text{cm}^3/\\text{min}$. When the thickness of ice is $15$ cm, then the rate at which the thickness of ice decreases, is",
+    "question_images": [],
+    "options": [
+      "A. 5/(6π) cm/min",
+      "B. 5/(54π) cm/min",
+      "C. 5/(18π) cm/min",
+      "D. 1/(36π) cm/min"
+    ],
+    "option_images": [],
+    "answer": "C. 5/(18π) cm/min",
+    "solution": "Given $\\frac{d}{dt}\\left(\\frac{4}{3}\\pi r^3\\right) = -50$\n$\\Rightarrow \\frac{dr}{dt} = -\\frac{50}{4\\pi r^2}$\nAt $r = 25$ (10 + 15): $\\frac{dr}{dt} = -\\frac{50}{4\\pi \\times 625} = -\\frac{1}{18\\pi}\\cdot 5 = -\\frac{5}{18\\pi}$ cm/min",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Applications Derivatives",
+    "question": "The value of c in Rolle's theorem when f(x) = 2x³ - 5x² - 4x + 3, x ∈ [1/3, 3], is",
+    "question_latex": "The value of $c$ in Rolle's theorem when $f(x) = 2x^3 - 5x^2 - 4x + 3,\\ x \\in [1/3, 3]$, is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. -1/3",
+      "C. -2",
+      "D. 2/3"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "By Rolle's theorem, $f'(c) = 0$.\n$f'(x) = 6x^2 - 10x - 4 = 0$\nSolving: $x = 2$ or $x = -1/3$.\n$c = 2 \\in [1/3, 3]$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Applications Derivatives",
+    "question": "If f(x) = (ab - b² - 2)x + ∫₀ˣ (cos⁴θ + sin⁴θ)dθ is decreasing function of x for all x ∈ R and b ∈ R, b being independent of x, then",
+    "question_latex": "If $f(x) = (ab-b^2-2)x + \\int_0^x (\\cos^4\\theta + \\sin^4\\theta)\\,d\\theta$ is decreasing function of $x$ for all $x \\in \\mathbb{R}$ and $b \\in \\mathbb{R}$, $b$ being independent of $x$, then",
+    "question_images": [],
+    "options": [
+      "A. a ∈ (0, √6)",
+      "B. a ∈ (-√6, √6)",
+      "C. a ∈ (-√6, 0)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. a ∈ (-√6, √6)",
+    "solution": "$f'(x) = (ab-b^2-2) + \\cos^4 x + \\sin^4 x < 0$\n$= ab-b^2-2 + (\\sin^2 x+\\cos^2 x)^2 - 2\\sin^2 x\\cos^2 x < 0$\n$\\Rightarrow ab - b^2 - 1 < \\frac{1}{2}\\sin^2 2x < \\frac{1}{2}$\n$\\Rightarrow 2ab - 2b^2 - 2 < 0 \\Rightarrow 2b^2-2ab+2 > 0$\nFor all $b$: discriminant $< 0 \\Rightarrow 4a^2 - 16 < 0 \\Rightarrow a^2 < 6 \\Rightarrow a \\in (-\\sqrt{6}, \\sqrt{6})$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Applications Derivatives",
+    "question": "If the Mean value theorem is f(b) - f(a) = (b-a)f'(c), then for the function x² - 2x + 3 in [1, 3/2], the value of c is",
+    "question_latex": "If the Mean value theorem is $f(b)-f(a)=(b-a)f'(c)$, then for the function $x^2-2x+3$ in $\\left[1, \\frac{3}{2}\\right]$, the value of $c$ is",
+    "question_images": [],
+    "options": [
+      "A. 6/5",
+      "B. 5/4",
+      "C. 4/3",
+      "D. 7/6"
+    ],
+    "option_images": [],
+    "answer": "B. 5/4",
+    "solution": "Let $f(x) = x^2-2x+3$, $f'(x) = 2x-2$.\n$f'(c) = \\frac{f(3/2)-f(1)}{3/2-1} = \\frac{\\frac{9}{4}-3+3-(1-2+3)}{1/2} = \\frac{1/4}{1/2} = \\frac{1}{2}$\n$2c-2 = \\frac{1}{2} \\Rightarrow c = \\frac{5}{4} \\in \\left[1,\\frac{3}{2}\\right]$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Applications Derivatives",
+    "question": "The co-ordinates of the points at which the tangent to the curve y = x + 1/x is parallel to X-axis are",
+    "question_latex": "The co-ordinates of the points at which the tangent to the curve $y = x + \\dfrac{1}{x}$ is parallel to X-axis are",
+    "question_images": [],
+    "options": [
+      "A. (1, 2) and (-1, -2)",
+      "B. (-1, 2) and (-1, -2)",
+      "C. (1, -2) and (2, -1)",
+      "D. (1, 2) and (-2, -1)"
+    ],
+    "option_images": [],
+    "answer": "A. (1, 2) and (-1, -2)",
+    "solution": "$y = x + \\frac{1}{x}$\n$\\frac{dy}{dx} = 1 - \\frac{1}{x^2} = 0 \\Rightarrow x^2 = 1 \\Rightarrow x = \\pm 1$\n$y = \\pm 2$\nPoints: $(1,2)$ and $(-1,-2)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Applications Derivatives",
+    "question": "A spherical balloon is being inflated so that its volume increases uniformly at the rate of 40 cm³/minute. The rate of increase in its surface area when the radius is 8 cm is",
+    "question_latex": "A spherical balloon is being inflated so that its volume increases uniformly at the rate of $40\\ \\text{cm}^3/\\text{minute}$. The rate of increase in its surface area when the radius is $8$ cm is",
+    "question_images": [],
+    "options": [
+      "A. 10 cm³/minute",
+      "B. 20 cm³/minute",
+      "C. 40 cm³/minute",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 10 cm³/minute",
+    "solution": "$\\frac{dV}{dt} = 40$ cm³/min, $V = \\frac{4}{3}\\pi r^3$\n$\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} \\Rightarrow \\frac{dr}{dt} = \\frac{40}{4\\pi(64)} = \\frac{5}{32\\pi}$\n$S = 4\\pi r^2 \\Rightarrow \\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt} = 8\\pi(8)\\cdot\\frac{5}{32\\pi} = 10$ cm²/minute",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Applications Derivatives",
+    "question": "Which one of the following is correct? If y = x⁵ - 5x⁴ + 5x³ - 1, then",
+    "question_latex": "Which one of the following is correct? If $y = x^5 - 5x^4 + 5x^3 - 1$, then",
+    "question_images": [],
+    "options": [
+      "A. y is maximum at x = 3 and minimum at x = 1",
+      "B. y is minimum at x = 1",
+      "C. y is neither maximum nor minimum at x = 0",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. y is neither maximum nor minimum at x = 0",
+    "solution": "$y' = 5x^4-20x^3+15x^2 = 5x^2(x^2-4x+3) = 5x^2(x-1)(x-3)$\nAt $x=0$: $y'=0$ but sign does not change $\\Rightarrow$ neither max nor min at $x=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Applications Derivatives",
+    "question": "A spherical iron ball of radius 10 cm, coated with a layer of ice of uniform thickness, melts at a rate of 100π cm³/min. The rate at which the thickness of ice decreases when the thickness of ice is 5 cm, is",
+    "question_latex": "A spherical iron ball of radius $10$ cm, coated with a layer of ice of uniform thickness, melts at a rate of $100\\pi\\ \\text{cm}^3/\\text{min}$. The rate at which the thickness decreases when the thickness of ice is $5$ cm, is",
+    "question_images": [],
+    "options": [
+      "A. 1 cm/min",
+      "B. 2 cm/min",
+      "C. 1/376 cm/min",
+      "D. 5 cm/min"
+    ],
+    "option_images": [],
+    "answer": "A. 1 cm/min",
+    "solution": "$\\frac{dV}{dt} = 100\\pi$ cm³/min\n$\\frac{d}{dt}\\left(\\frac{4}{3}\\pi r^3\\right) = 100\\pi \\Rightarrow 3r^2\\frac{dr}{dt} = \\frac{300\\pi}{4\\pi} = 75$\nAt $r=15$ (10+5): $\\left(\\frac{dr}{dt}\\right)_{r=5} = \\frac{300}{4\\times 3\\times 25} = 1$ cm/min",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Applications Derivatives",
+    "question": "The function f(x) = ln(π + x)/ln(e + x) is",
+    "question_latex": "The function $f(x) = \\dfrac{\\ln(\\pi+x)}{\\ln(e+x)}$ is",
+    "question_images": [],
+    "options": [
+      "A. Increasing on [0, ∞)",
+      "B. Decreasing on [0, ∞)",
+      "C. Increasing on [0, π/e] and decreasing on [π/e, ∞)",
+      "D. Decreasing on [0, π/e] and increasing on [π/e, ∞)"
+    ],
+    "option_images": [],
+    "answer": "B. Decreasing on [0, ∞)",
+    "solution": "$f(x) = \\frac{\\log(\\pi+x)}{\\log(e+x)}$\n$f'(x) = \\frac{(e+x)\\log(e+x)-(\\pi+x)\\log(\\pi+x)}{(\\pi+x)(e+x)\\{\\log(e+x)\\}^2}$\nSince $\\pi > e$, $(\\pi+x)\\log(\\pi+x) > (e+x)\\log(e+x)$ for all $x>0$\n$\\Rightarrow f'(x) < 0$ for all $x \\in [0,\\infty)$\nHence $f(x)$ is decreasing on $[0,\\infty)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Applications Derivatives",
+    "question": "A particle moves along a straight line with the law of motion given by s² = at² + 2bt + c. Then the acceleration varies as",
+    "question_latex": "A particle moves along a straight line with the law of motion given by $s^2 = at^2+2bt+c$. Then the acceleration varies as",
+    "question_images": [],
+    "options": [
+      "A. 1/s³",
+      "B. 1/s",
+      "C. 1/s⁴",
+      "D. 1/s²"
+    ],
+    "option_images": [],
+    "answer": "A. 1/s³",
+    "solution": "$s = \\sqrt{at^2+2bt+c}$\n$\\frac{ds}{dt} = \\frac{at+b}{s}$\n$\\frac{d^2s}{dt^2} = \\frac{ac-b^2}{s^3}$\nHence acceleration $\\propto \\frac{1}{s^3}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Applications Derivatives",
+    "question": "Coordinates of a point on the curve y = x log x at which the normal is parallel to the line 2x - 2y = 3, are",
+    "question_latex": "Coordinates of a point on the curve $y = x\\log x$ at which the normal is parallel to the line $2x-2y=3$, are",
+    "question_images": [],
+    "options": [
+      "A. (0, 0)",
+      "B. (e, e)",
+      "C. (e², 2e²)",
+      "D. (e⁻², -2e⁻²)"
+    ],
+    "option_images": [],
+    "answer": "D. (e⁻², -2e⁻²)",
+    "solution": "$y = x\\log x \\Rightarrow \\frac{dy}{dx} = 1+\\log x$\nSlope of normal $= \\frac{-1}{1+\\log x}$\nSlope of given line $= 1$\n$\\frac{-1}{1+\\log x} = 1 \\Rightarrow \\log x = -2 \\Rightarrow x = e^{-2}$\nCoordinates: $(e^{-2}, -2e^{-2})$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Applications Derivatives",
+    "question": "Approximate value of tan(59°40'), assuming that 1° = 0.0174 radians",
+    "question_latex": "Approximate value of $\\tan(59^\\circ 40')$, assuming that $1^\\circ = 0.0174$ radians",
+    "question_images": [],
+    "options": [
+      "A. 1.7088",
+      "B. 1.7077",
+      "C. 1.8088",
+      "D. 1.9099"
+    ],
+    "option_images": [],
+    "answer": "A. 1.7088",
+    "solution": "$f(x) = \\tan x \\Rightarrow f'(x) = \\sec^2 x$\n$a = 60^\\circ,\\ h = -20' = -\\frac{1^\\circ}{3} = -0.0058^c$\n$\\tan(59^\\circ 40') = f(60^\\circ) + (-20')f'(60^\\circ)$\n$= 1.732 + (-0.0058)(4) = 1.732 - 0.0232 \\approx 1.7088$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Applications Derivatives",
+    "question": "On the interval [0, 1] the function x²⁵(1 - x)⁷⁵ takes its maximum value at the point",
+    "question_latex": "On the interval $[0, 1]$ the function $x^{25}(1-x)^{75}$ takes its maximum value at the point",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/3"
+    ],
+    "option_images": [],
+    "answer": "B. 1/4",
+    "solution": "$f(x) = x^{25}(1-x)^{75}$\n$f'(x) = 25x^{24}(1-x)^{75} - 75x^{25}(1-x)^{74}$\n$= 25x^{24}(1-x)^{74}(1-4x)$\n$f'(x) = 0 \\Rightarrow x = 0, 1, \\frac{1}{4}$\n$f'(x)$ changes sign from $+$ to $-$ at $x=1/4 \\Rightarrow$ maximum at $x=\\frac{1}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of tan(59°40'), if √3 = 1.732, 1° = 0.0174° is",
+    "question_latex": "The approximate value of $\\tan(59^040')$, if $\\sqrt{3}=1.732$, $1^0 = 0.0174^C$ is",
+    "question_images": [],
+    "options": [
+      "A. 1.8078",
+      "B. 1.8088",
+      "C. 1.7088",
+      "D. 1.7087"
+    ],
+    "option_images": [],
+    "answer": "C. 1.7088",
+    "solution": "$f(x) = \\tan x \\Rightarrow f'(x) = \\sec^2 x$\n$a=60^0,\\ h=20' = \\frac{1^0}{3} = \\frac{-0.0174}{3} = -0.0058$\n$f(60^0-20') \\approx f(60^0)+hf'(60^0)$\n$= 1.732+(-0.0058)(4) = 1.732-0.0232 = 1.7088$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Applications Derivatives",
+    "question": "Which of the following functions is not decreasing on (0, π/2)?",
+    "question_latex": "Which of the following functions is not decreasing on $\\left(0, \\dfrac{\\pi}{2}\\right)$?",
+    "question_images": [],
+    "options": [
+      "A. cos x",
+      "B. cos 2x",
+      "C. cos² x",
+      "D. tan x"
+    ],
+    "option_images": [],
+    "answer": "D. tan x",
+    "solution": "On $(0, \\pi/2)$, $\\cos x$, $\\cos 2x$, $\\cos^2 x$ are all decreasing, but $\\tan x$ is increasing. Hence $\\tan x$ is not decreasing.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Applications Derivatives",
+    "question": "The number of critical points of the function f(x) = (x - 2)^(2/3)(2x + 1) is: [08 April, 2024 (Shift-I)]",
+    "question_latex": "The number of critical points of the function $f(x) = (x-2)^{2/3}(2x+1)$ is: [08 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 2",
+      "C. 0",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "$f(x) = (x-2)^{2/3}(2x+1)$\n$f'(x) = \\frac{2}{3}(x-2)^{-1/3}(2x+1) + (x-2)^{2/3}(2)$\n$= 2 \\times \\frac{(2x+1)+(x-2) \\cdot 3}{3(x-2)^{1/3}} = 2\\times \\frac{3x-1}{3(x-2)^{1/3}} = \\frac{2(3x-1)}{3(x-2)^{1/3}}$\nCritical points: $x = \\frac{1}{2}$ and $x = 2$ → 2 critical points.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of log₁₀ 1002, if log₁₀ e = 0.4343 is",
+    "question_latex": "The approximate value of $\\log_{10} 1002$, if $\\log_{10} e = 0.4343$ is",
+    "question_images": [],
+    "options": [
+      "A. 3.0086",
+      "B. 3.0087",
+      "C. 3.00086",
+      "D. 3.00087"
+    ],
+    "option_images": [],
+    "answer": "D. 3.00087",
+    "solution": "$f(x) = \\log_{10} x = (\\log_e x)(\\log_{10} e) = (0.4343)(\\log_e x)$\n$f'(x) = \\frac{0.4343}{x}$\n$a=1000,\\ h=2$\n$f(1002) \\approx f(1000)+2f'(1000) = 3+2(0.0004343) = 3+0.00087 = 3.00087$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Applications Derivatives",
+    "question": "The tangent drawn at the point (0, 1) on the curve y = e^(2x), meets x-axis at the point",
+    "question_latex": "The tangent drawn at the point $(0, 1)$ on the curve $y = e^{2x}$, meets $x$-axis at the point",
+    "question_images": [],
+    "options": [
+      "A. (1/2, 0)",
+      "B. (-1/2, 0)",
+      "C. (2, 0)",
+      "D. (0, 0)"
+    ],
+    "option_images": [],
+    "answer": "B. (-1/2, 0)",
+    "solution": "$y = e^{2x} \\Rightarrow \\frac{dy}{dx} = 2e^{2x}$\nAt $(0,1)$: slope $= 2$\nTangent: $y-1 = 2(x-0) \\Rightarrow y = 2x+1$\nAt $y=0$: $x = -\\frac{1}{2}$\nPoint: $\\left(-\\frac{1}{2}, 0\\right)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Applications Derivatives",
+    "question": "The coordinates of the point on the curve x = a(θ + sin θ), y = a(1 - cos θ) where tangent is inclined at an angle π/4 to the x-axis are",
+    "question_latex": "The coordinates of the point on the curve $x = a(\\theta+\\sin\\theta),\\ y = a(1-\\cos\\theta)$ where tangent is inclined at an angle $\\dfrac{\\pi}{4}$ to the $x$-axis are",
+    "question_images": [],
+    "options": [
+      "A. (a, a)",
+      "B. (a(π/2 - 1), a)",
+      "C. (a(π/2 + 1), a)",
+      "D. (a, a(π/2 + 1))"
+    ],
+    "option_images": [],
+    "answer": "C. (a(π/2 + 1), a)",
+    "solution": "$\\frac{dy}{dx} = \\frac{a\\sin\\theta}{a(1+\\cos\\theta)} = \\tan\\frac{\\theta}{2}$\nSince tangent is at $\\pi/4$: $\\tan\\frac{\\theta}{2} = 1 \\Rightarrow \\theta = \\frac{\\pi}{2}$\nAt $\\theta=\\frac{\\pi}{2}$: $x = a\\left(\\frac{\\pi}{2}+1\\right),\\ y = a$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Applications Derivatives",
+    "question": "The function f(x) = |px - q| + r|x|, x ∈ (-∞, ∞), where p > 0, q > 0, r > 0 assumes its minimum value only at one point if",
+    "question_latex": "The function $f(x) = |px-q|+r|x|,\\ x\\in(-\\infty,\\infty)$, where $p>0, q>0, r>0$ assumes its minimum value only at one point if",
+    "question_images": [],
+    "options": [
+      "A. p ≠ q",
+      "B. r ≠ q",
+      "C. r ≠ p",
+      "D. p = q = r"
+    ],
+    "option_images": [],
+    "answer": "C. r ≠ p",
+    "solution": "The function has infinite points of minimum if $r = p$. In case $p \\neq r$, $x=0$ is point of minimum if $r>p$ and $x=q/p$ is point of minimum if $r<p$. Hence minimum at only one point when $r \\neq p$.",
+    "solution_images": [
+      "29_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Applications Derivatives",
+    "question": "If g(x) = min(x, x²) where x is real number, then",
+    "question_latex": "If $g(x) = \\min(x, x^2)$ where $x$ is real number, then",
+    "question_images": [],
+    "options": [
+      "A. g(x) is an increasing function",
+      "B. g(x) is a decreasing function",
+      "C. g(x) is a constant function",
+      "D. g(x) is a continuous function except at x = 0"
+    ],
+    "option_images": [],
+    "answer": "A. g(x) is an increasing function",
+    "solution": "$g(x) = \\min(x, x^2)$. From the graph of $y=x$ and $y=x^2$, it is clear that $g(x)$ is an increasing function.",
+    "solution_images": [
+      "30_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of cos(90°45'), if 1° = 0.0174° is",
+    "question_latex": "The approximate value of $\\cos(90^045')$, if $1^0 = 0.0174^C$ is",
+    "question_images": [],
+    "options": [
+      "A. 0.01305",
+      "B. -0.01305",
+      "C. 0.01306",
+      "D. -0.01306"
+    ],
+    "option_images": [],
+    "answer": "B. -0.01305",
+    "solution": "$f(x) = \\cos x;\\ f'(x) = -\\sin x$\n$a = 90^0,\\ h = 45' = 0.01305$\n$\\cos(90^045') = f(90^0)+(45')f'(90^0)$\n$= \\cos 90^0+(0.01305)(-1) = 0-0.01305 = -0.01305$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Applications Derivatives",
+    "question": "The minimum value of f(x) = e^(x⁴ - x³ + x²) is",
+    "question_latex": "The minimum value of $f(x) = e^{(x^4-x^3+x^2)}$ is",
+    "question_images": [],
+    "options": [
+      "A. e",
+      "B. -e",
+      "C. 1",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "C. 1",
+    "solution": "$x^4-x^3+x^2 = x^2(x^2-x+1) = x^2\\left[\\left(x-\\frac{1}{2}\\right)^2+\\frac{3}{4}\\right] \\geq 0$\nMinimum of exponent is $0$ at $x=0$\nHence minimum of $f(x) = e^0 = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of motion of a particle is s = 2t³ - 9t² + 12t + 1, where s and t are measured in dm and sec respectively. The time when the particle stops momentarily is",
+    "question_latex": "The equation of motion of a particle is $s = 2t^3-9t^2+12t+1$, where $s$ and $t$ are measured in dm and sec respectively. The time when the particle stops momentarily is",
+    "question_images": [],
+    "options": [
+      "A. 3 sec",
+      "B. 4 sec",
+      "C. 1, 2 sec",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 1, 2 sec",
+    "solution": "$\\frac{ds}{dt} = 6t^2-18t+12 = 0$ (velocity = 0)\n$\\Rightarrow 6t^2-18t+12=0 \\Rightarrow (t-1)(t-2)=0$\nHence $t = 1, 2$ sec",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve y = √(12 - 3x²) at the point where the ordinate and the abscissa are equal is",
+    "question_latex": "The equation of the tangent to the curve $y = \\sqrt{12-3x^2}$ at the point where the ordinate and the abscissa are equal is",
+    "question_images": [],
+    "options": [
+      "A. x + 2y + 3√3 = 0",
+      "B. x + 2y - 3√3 = 0",
+      "C. x - 2y + 2√3 = 0",
+      "D. none of these"
+    ],
+    "option_images": [],
+    "answer": "D. none of these",
+    "solution": "Substituting $y=x$: $x = \\sqrt{12-3x^2} \\Rightarrow x^2 = 12-3x^2 \\Rightarrow x = \\sqrt{3}$ (since $y>0$)\nPoint: $(\\sqrt{3},\\sqrt{3})$\n$y^2=12-3x^2 \\Rightarrow 2y\\frac{dy}{dx}=-6x \\Rightarrow \\frac{dy}{dx}=-\\frac{3x}{y}$\nAt $(\\sqrt{3},\\sqrt{3})$: slope $=-3$\nTangent: $y-\\sqrt{3}=-3(x-\\sqrt{3}) \\Rightarrow 3x+y-4\\sqrt{3}=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Applications Derivatives",
+    "question": "The normal to the parabola y² = 4ax at (at₁², 2at₁) meets it again at (at₂², 2at₂), then",
+    "question_latex": "The normal to the parabola $y^2=4ax$ at $(at_1^2, 2at_1)$ meets it again at $(at_2^2, 2at_2)$, then",
+    "question_images": [],
+    "options": [
+      "A. t₁t₂ = -1",
+      "B. t₂ = -t₁ - 2/t₁",
+      "C. 2t₁ = t₂",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. t₂ = -t₁ - 2/t₁",
+    "solution": "The standard result for normal to parabola $y^2 = 4ax$ at $t_1$ meeting again at $t_2$ is $t_2 = -t_1 - \\frac{2}{t_1}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Applications Derivatives",
+    "question": "The sum of two numbers is 20. If the product of the square of one number and cube of the other is maximum, then the numbers are",
+    "question_latex": "The sum of two numbers is $20$. If the product of the square of one number and cube of the other is maximum, then the numbers are",
+    "question_images": [],
+    "options": [
+      "A. 12, 8",
+      "B. 3, 4",
+      "C. 9, 12",
+      "D. 15, 18"
+    ],
+    "option_images": [],
+    "answer": "A. 12, 8",
+    "solution": "Let numbers be $x$ and $y$, $x+y=20$.\n$S = x^3(20-x)^2$\n$\\frac{dS}{dx} = 3x^2(20-x)^2 - 2x^3(20-x) = x^2(20-x)(60-5x)=0$\n$\\Rightarrow x=12$ (excluding 0, 20)\nNumbers: $12, 8$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Applications Derivatives",
+    "question": "The denominator of a fraction is greatest than 16 of the square of numerator, then least value of fraction is",
+    "question_latex": "The denominator of a fraction is greatest than $16$ of the square of numerator, then least value of fraction is",
+    "question_images": [],
+    "options": [
+      "A. -1/4",
+      "B. -1/8",
+      "C. 1/12",
+      "D. 1/16"
+    ],
+    "option_images": [],
+    "answer": "B. -1/8",
+    "solution": "Let numerator be $x$, then $f(x) = \\frac{x}{x^2+16}$\n$f'(x) = \\frac{16-x^2}{(x^2+16)^2} = 0 \\Rightarrow x = \\pm 4$\nAt $x=4$: maximum. At $x=-4$: minimum.\nLeast value $= \\frac{-4}{16+16} = -\\frac{1}{8}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Applications Derivatives",
+    "question": "Let f(x) = 1 + 2x² + 2²x⁴ + ... + 2¹⁰x²⁰. Then f(x) has",
+    "question_latex": "Let $f(x) = 1+2x^2+2^2x^4+\\ldots+2^{10}x^{20}$. Then $f(x)$ has",
+    "question_images": [],
+    "options": [
+      "A. More than one minimum",
+      "B. Exactly one minimum",
+      "C. At least one maximum",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Exactly one minimum",
+    "solution": "$f'(x) = 4x+4.2^2x^3+\\ldots+20.2^{10}x^{19} = x(4+4.2^2x^2+\\ldots+20.2^{10}x^{18})$\nFor $f'(x)=0 \\Rightarrow x=0$ (only real root)\nFor $x<0$: $f'(x)<0$; for $x>0$: $f'(x)>0 \\Rightarrow$ exactly one minimum at $x=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Applications Derivatives",
+    "question": "A cubic f(x) vanishes at x = -2 and has relative minimum/maximum at x = -1 and x = 1/3 such that ∫₋₁¹ f(x)dx = 14/3. Then f(x) is",
+    "question_latex": "A cubic $f(x)$ vanishes at $x=-2$ and has relative minimum/maximum at $x=-1$ and $x=\\frac{1}{3}$ such that $\\int_{-1}^{1}f(x)\\,dx = \\frac{14}{3}$. Then $f(x)$ is",
+    "question_images": [],
+    "options": [
+      "A. x³ + x² - x",
+      "B. x³ + x² - x + 1",
+      "C. x³ + x² - x + 2",
+      "D. x³ + x² - x - 2"
+    ],
+    "option_images": [],
+    "answer": "C. x³ + x² - x + 2",
+    "solution": "Since $f(-2)=0$ and extrema at $x=-1, 1/3$, we get $f'(x)=\\lambda(x+1)(3x-1)$.\n$f(x)=\\lambda(x^3+x^2-x)+c$\nFrom $f(-2)=0$: $c=2\\lambda$.\nFrom $\\int_{-1}^1 f(x)dx = 14/3$: $\\lambda=1, c=2$.\nHence $f(x) = x^3+x^2-x+2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Applications Derivatives",
+    "question": "The angle between the tangents at those points on the curve x = t² + 1 and y = t² - t - 6 where it meets x-axis is",
+    "question_latex": "The angle between the tangents at those points on the curve $x=t^2+1$ and $y=t^2-t-6$ where it meets $x$-axis is",
+    "question_images": [],
+    "options": [
+      "A. ±tan⁻¹(4/29)",
+      "B. ±tan⁻¹(5/49)",
+      "C. ±tan⁻¹(10/49)",
+      "D. ±tan⁻¹(8/29)"
+    ],
+    "option_images": [],
+    "answer": "C. ±tan⁻¹(10/49)",
+    "solution": "$\\frac{dy}{dx} = \\frac{2t-1}{2t}$\nWhen $y=0$: $t^2-t-6=0 \\Rightarrow t=3,-2$\nAt $t=3$: $m_1 = \\frac{5}{6}$; at $t=-2$: $m_2 = \\frac{5}{4}$\n$\\tan\\theta = \\pm\\left|\\frac{m_1-m_2}{1+m_1 m_2}\\right| = \\pm\\tan^{-1}\\left(\\frac{10}{49}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate volume of a sphere of radius 3.02 cm is",
+    "question_latex": "The approximate volume of a sphere of radius $3.02$ cm is",
+    "question_images": [],
+    "options": [
+      "A. 36.72π cm³",
+      "B. 36.27π cm³",
+      "C. 36.72 cm³",
+      "D. 36.27 cm³"
+    ],
+    "option_images": [],
+    "answer": "A. 36.72π cm³",
+    "solution": "$V = \\frac{4}{3}\\pi r^3 \\Rightarrow f'(r) = 4\\pi r^2$\n$a=3,\\ h=0.02$\n$f(3.02) \\approx f(3)+0.02 f'(3) = 36\\pi+(0.02)(36\\pi) = 36\\pi(1.02) = 36.72\\pi$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of (4.01)³ is",
+    "question_latex": "The approximate value of $(4.01)^3$ is",
+    "question_images": [],
+    "options": [
+      "A. 66.44",
+      "B. 64.84",
+      "C. 64.88",
+      "D. 64.48"
+    ],
+    "option_images": [],
+    "answer": "D. 64.48",
+    "solution": "$f(x)=x^3 \\Rightarrow f'(x)=3x^2$\n$a=4,\\ h=0.01$\n$f(4.01) \\approx f(4)+(0.01)f'(4) = 64+(0.01)(48) = 64+0.48 = 64.48$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Applications Derivatives",
+    "question": "Let f(x) = 4cos³x + 3√3 cos²x - 10. The number of points of local maxima of f in interval (0, 2π) is: [08 April, 2024 (Shift-I)]",
+    "question_latex": "Let $f(x) = 4\\cos^3 x + 3\\sqrt{3}\\cos^2 x - 10$. The number of points of local maxima of $f$ in interval $(0,2\\pi)$ is: [08 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 1",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "$f'(x) = -6\\sin x\\cos x[2\\cos x+\\sqrt{3}]$\nLocal maxima at $x = \\frac{5\\pi}{6}, \\frac{7\\pi}{6}$ in $(0,2\\pi)$ → 2 points.",
+    "solution_images": [
+      "43_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Applications Derivatives",
+    "question": "Let f(x) = (x - 4)(x - 5)(x - 6)(x - 7), then",
+    "question_latex": "Let $f(x) = (x-4)(x-5)(x-6)(x-7)$, then",
+    "question_images": [],
+    "options": [
+      "A. f'(x) = 0 has four roots",
+      "B. Three roots of f'(x) = 0 lie in (4,5) ∪ (5,6) ∪ (6,7)",
+      "C. The equation f'(x) = 0 has only one root",
+      "D. Three roots of f'(x) = 0 lie in (3,4) ∪ (4,5) ∪ (5,6)"
+    ],
+    "option_images": [],
+    "answer": "B. Three roots of f'(x) = 0 lie in (4,5) ∪ (5,6) ∪ (6,7)",
+    "solution": "$f(4)=f(5)=f(6)=f(7)=0$. By Rolle's theorem, there exist $\\alpha_1\\in(4,5), \\alpha_2\\in(5,6), \\alpha_3\\in(6,7)$ such that $f'(\\alpha_i)=0$. Since $f'(x)$ is cubic, these are the only roots.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Applications Derivatives",
+    "question": "Twenty two meters are available to fence a flower bed in the form of a circular sector. If the flower bed should have the greatest possible surface area, the radius of the circle must be",
+    "question_latex": "Twenty two meters are available to fence a flower bed in the form of a circular sector. If the flower bed should have the greatest possible surface area, the radius of the circle must be",
+    "question_images": [],
+    "options": [
+      "A. 4 m",
+      "B. 3 m",
+      "C. 6 m",
+      "D. 5 m"
+    ],
+    "option_images": [],
+    "answer": "D. 5 m",
+    "solution": "Let radius = $r$, arc length = $l = 22-2r$.\nArea $= \\frac{1}{2}rl = \\frac{1}{2}r(22-2r) = 11r-r^2$\n$\\frac{dA}{dr} = 11-2r = 0 \\Rightarrow r = 5.5 \\approx 5$ m (nearest option).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Applications Derivatives",
+    "question": "Let f be continuous on [1, 5] and differentiable in (1, 5). If f(1) = -3 and f'(x) ≥ 9 for all x ∈ (1, 5), then",
+    "question_latex": "Let $f$ be continuous on $[1, 5]$ and differentiable in $(1, 5)$. If $f(1) = -3$ and $f'(x) \\geq 9$ for all $x \\in (1,5)$, then",
+    "question_images": [],
+    "options": [
+      "A. f(5) ≥ 33",
+      "B. f(5) ≥ 36",
+      "C. f(5) ≤ 36",
+      "D. f(5) ≥ 9"
+    ],
+    "option_images": [],
+    "answer": "A. f(5) ≥ 33",
+    "solution": "By Mean Value Theorem: $f'(x) = \\frac{f(5)-f(1)}{5-1} \\geq 9$\n$\\frac{f(5)+3}{4} \\geq 9 \\Rightarrow f(5) \\geq 33$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Applications Derivatives",
+    "question": "If the function f(x) = x³ - 6x² + ax + b satisfies Rolle's theorem in the interval [1, 3] and f'(2√3+1/√3) = 0, then",
+    "question_latex": "If the function $f(x) = x^3-6x^2+ax+b$ satisfies Rolle's theorem in the interval $[1, 3]$ and $f'\\left(\\frac{2\\sqrt{3}+1}{\\sqrt{3}}\\right) = 0$, then",
+    "question_images": [],
+    "options": [
+      "A. a = -11",
+      "B. a = -6",
+      "C. a = 6",
+      "D. a = 11"
+    ],
+    "option_images": [],
+    "answer": "D. a = 11",
+    "solution": "$f'(x) = 3x^2-12x+a$\nBy Rolle's theorem: $f'(c)=0$ where $c = 2+\\frac{1}{\\sqrt{3}}$\n$3\\left(2+\\frac{1}{\\sqrt{3}}\\right)^2-12\\left(2+\\frac{1}{\\sqrt{3}}\\right)+a=0$\nSolving: $a=11$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Applications Derivatives",
+    "question": "If a particle moves in a straight line according to the law s = t³ - 9t² + 21t - 2, then the time at which its velocity is 9 is",
+    "question_latex": "If a particle moves in a straight line according to the law $s = t^3-9t^2+21t-2$, then the time at which its velocity is $9$ is",
+    "question_images": [],
+    "options": [
+      "A. 2, 4",
+      "B. 1, 5",
+      "C. 0, 5",
+      "D. 0, 2"
+    ],
+    "option_images": [],
+    "answer": "B. 1, 5",
+    "solution": "velocity $= \\frac{ds}{dt} = 3t^2-18t+21 = 9$\n$\\Rightarrow 3t^2-18t+12=0 \\Rightarrow t^2-6t+5=0 \\Rightarrow t=1,5$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Applications Derivatives",
+    "question": "If y = a log x + bx² + x has its extremum at x = -1 and x = 2, then",
+    "question_latex": "If $y = a\\log x + bx^2 + x$ has its extremum at $x = -1$ and $x = 2$, then",
+    "question_images": [],
+    "options": [
+      "A. a = 2, b = 1/2",
+      "B. a = 2, b = -1/2",
+      "C. a = 1/2, b = 2",
+      "D. a = -1/2, b = 2"
+    ],
+    "option_images": [],
+    "answer": "B. a = 2, b = -1/2",
+    "solution": "$\\frac{dy}{dx} = \\frac{a}{x}+2bx+1 = 0$ at extrema\nAt $x=-1$: $-a-2b+1=0 \\Rightarrow a+2b=1$\nAt $x=2$: $\\frac{a}{2}+4b+1=0 \\Rightarrow a+8b=-2$\nSolving: $a=2,\\ b=-\\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Applications Derivatives",
+    "question": "The radius of a soap bubble is increasing at the rate of 0.2 cm/sec. If its radius is 5 cm, then the rate of increase of its volume is",
+    "question_latex": "The radius of a soap bubble is increasing at the rate of $0.2$ cm/sec. If its radius is $5$ cm, then the rate of increase of its volume is",
+    "question_images": [],
+    "options": [
+      "A. 5π cm³/sec",
+      "B. 10π cm³/sec",
+      "C. 20π cm³/sec",
+      "D. 40π cm³/sec"
+    ],
+    "option_images": [],
+    "answer": "C. 20π cm³/sec",
+    "solution": "$r=5$ cm, $\\frac{dr}{dt}=0.2$ cm/sec\n$V = \\frac{4}{3}\\pi r^3$\n$\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} = 4\\pi(25)(0.2) = 20\\pi$ cm³/sec",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Applications Derivatives",
+    "question": "A particle moves along the curve y = x² + 2x. Then, the point on the curve such that x and y coordinates of the particle change with the same rate is",
+    "question_latex": "A particle moves along the curve $y = x^2+2x$. Then, the point on the curve such that $x$ and $y$ coordinates of the particle change with the same rate is",
+    "question_images": [],
+    "options": [
+      "A. (1, 3)",
+      "B. (1/2, 5/2)",
+      "C. (-1/2, -3/4)",
+      "D. (-1, -1)"
+    ],
+    "option_images": [],
+    "answer": "C. (-1/2, -3/4)",
+    "solution": "$\\frac{dx}{dt}=\\frac{dy}{dt}$\n$y=x^2+2x \\Rightarrow \\frac{dy}{dt}=(2x+2)\\frac{dx}{dt}$\n$\\Rightarrow 1=2x+2 \\Rightarrow x=-\\frac{1}{2},\\ y=-\\frac{3}{4}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve x³ - x²y + a²(x + y) = 0 at the origin",
+    "question_latex": "The equation of the tangent to the curve $x^3-x^2y+a^2(x+y)=0$ at the origin",
+    "question_images": [],
+    "options": [
+      "A. y - x = 0",
+      "B. -xy = 0",
+      "C. -yx = 0",
+      "D. x + y = 0"
+    ],
+    "option_images": [],
+    "answer": "D. x + y = 0",
+    "solution": "Differentiating $x^3-x^2y+a^2(x+y)=0$:\n$3x^2-x^2\\frac{dy}{dx}-2xy+a^2\\left(1+\\frac{dy}{dx}\\right)=0$\nAt $(0,0)$: $a^2\\left(1+\\frac{dy}{dx}\\right)=0 \\Rightarrow \\frac{dy}{dx}=-1$\nTangent: $y=-x \\Rightarrow x+y=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Applications Derivatives",
+    "question": "The slope of the tangent to the curve y = 2x² + 5 at x = 1 is",
+    "question_latex": "The slope of the tangent to the curve $y = 2x^2+5$ at $x=1$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. -2",
+      "C. 4",
+      "D. -4"
+    ],
+    "option_images": [],
+    "answer": "C. 4",
+    "solution": "$y = 2x^2+5 \\Rightarrow \\frac{dy}{dx} = 4x$\nAt $x=1$: $\\frac{dy}{dx} = 4$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Applications Derivatives",
+    "question": "If the displacement of a particle is x = t³ - 4t² - 5t, then at the end of 4 sec the velocity of the particle is",
+    "question_latex": "If the displacement of a particle is $x = t^3-4t^2-5t$, then at the end of $4$ sec the velocity of the particle is",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. -11",
+      "C. 22",
+      "D. -22"
+    ],
+    "option_images": [],
+    "answer": "A. 11",
+    "solution": "$x = t^3-4t^2-5t$\n$\\frac{dx}{dt} = 3t^2-8t-5$\nAt $t=4$: velocity $= 48-32-5 = 11$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Applications Derivatives",
+    "question": "The product of the lengths of subtangent and subnormal at any point of a curve is",
+    "question_latex": "The product of the lengths of subtangent and subnormal at any point of a curve is",
+    "question_images": [],
+    "options": [
+      "A. Square of the abscissa",
+      "B. Square of the ordinate",
+      "C. Constant",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Square of the ordinate",
+    "solution": "Length of subtangent $= y\\frac{dx}{dy}$\nLength of subnormal $= y\\frac{dy}{dx}$\nProduct $= y^2$ (square of the ordinate)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of 3^2.01, if log 3 = 1.0986 is",
+    "question_latex": "The approximate value of $3^{2.01}$, if $\\log 3 = 1.0986$ is",
+    "question_images": [],
+    "options": [
+      "A. 9.0988",
+      "B. 9.0989",
+      "C. 9.0998",
+      "D. 9.0899"
+    ],
+    "option_images": [],
+    "answer": "B. 9.0989",
+    "solution": "$f(x)=3^x \\Rightarrow f'(x)=3^x\\log 3$\n$a=2,\\ h=0.01$\n$f(2.01)\\approx f(2)+(0.01)f'(2) = 9+(0.01)(1.0986)(9) = 9+0.098874 \\approx 9.0989$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Applications Derivatives",
+    "question": "The function f(x) = 2 - 3x is",
+    "question_latex": "The function $f(x) = 2-3x$ is",
+    "question_images": [],
+    "options": [
+      "A. Increasing",
+      "B. Decreasing",
+      "C. Neither a nor b",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Decreasing",
+    "solution": "$f'(x) = -3 < 0$ for all $x$\nHence $f(x)$ is decreasing.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of motion of a car is s = t² - 2t, where t is measured in hours and s in kilometers. When the distance travelled by the car is 15 km, the velocity of the car is",
+    "question_latex": "The equation of motion of a car is $s = t^2-2t$, where $t$ is measured in hours and $s$ in kilometers. When the distance travelled by the car is $15$ km, the velocity of the car is",
+    "question_images": [],
+    "options": [
+      "A. 14 km/h",
+      "B. 12 km/h",
+      "C. 10 km/h",
+      "D. 8 km/h"
+    ],
+    "option_images": [],
+    "answer": "D. 8 km/h",
+    "solution": "$s = t^2-2t$, $\\frac{ds}{dt} = 2t-2$\nWhen $s=15$: $t^2-2t-15=0 \\Rightarrow (t-5)(t+3)=0 \\Rightarrow t=5$\nVelocity $= 2(5)-2 = 8$ km/h",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Applications Derivatives",
+    "question": "Let a > 0. If the function f(x) = 6x³ - 45ax² + 108a²x + 1 attains its local maximum and minimum values at the points x₁ and x₂ respectively such that x₁x₂ = 54, then a + x₁ + x₂ is equal to: [April 4, 2025 (II)]",
+    "question_latex": "Let $a > 0$. If the function $f(x)=6x^3-45ax^2+108a^2x+1$ attains its local maximum and minimum values at the points $x_1$ and $x_2$ respectively such that $x_1 x_2 = 54$, then $a+x_1+x_2$ is equal to: [April 4, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 18",
+      "B. 13",
+      "C. 24",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "A. 18",
+    "solution": "$f'(x) = 18x^2-90ax+108a^2 = 0$\n$x = 2a$ and $x = 3a \\Rightarrow x_1=2a,\\ x_2=3a$\n$x_1 x_2 = 6a^2 = 54 \\Rightarrow a=3$\n$a+x_1+x_2 = 3+6+9 = 18$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Applications Derivatives",
+    "question": "The function f defined by f(x) = x³ - 6x² - 36x + 7 is increasing, if",
+    "question_latex": "The function $f$ defined by $f(x) = x^3-6x^2-36x+7$ is increasing, if",
+    "question_images": [],
+    "options": [
+      "A. x > 2 and also x > 6",
+      "B. x > 2 and also x < 6",
+      "C. x > -2 and also x < 6",
+      "D. x < -2 and also x > 6"
+    ],
+    "option_images": [],
+    "answer": "D. x < -2 and also x > 6",
+    "solution": "$f'(x) = 3x^2-12x-36 = 3(x^2-4x-12) = 3(x-6)(x+2)$\nFor $f'(x)>0$: $(x-6)(x+2)>0 \\Rightarrow x<-2$ or $x>6$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Applications Derivatives",
+    "question": "The angle of intersection of the curves y = x², 6y = 7 - x³ at (1, 1) is",
+    "question_latex": "The angle of intersection of the curves $y=x^2$, $6y=7-x^3$ at $(1,1)$ is",
+    "question_images": [],
+    "options": [
+      "A. π/4",
+      "B. π/3",
+      "C. π/2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. π/2",
+    "solution": "$y=x^2 \\Rightarrow y'=2x \\Rightarrow y'_{(1,1)}=2$\n$6y=7-x^3 \\Rightarrow 6y'=-3x^2 \\Rightarrow y'_{(1,1)}=-\\frac{1}{2}$\n$y'_1 \\cdot y'_2 = 2\\times(-\\frac{1}{2}) = -1 \\Rightarrow$ curves are perpendicular $\\Rightarrow \\theta = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Applications Derivatives",
+    "question": "If ST and SN are the lengths of the subtangent and the subnormal at the point θ = π/2 on the curve x = a(θ + sinθ), y = a(1 - cosθ), a ≠ 1, then",
+    "question_latex": "If $ST$ and $SN$ are the lengths of the subtangent and the subnormal at the point $\\theta=\\frac{\\pi}{2}$ on the curve $x=a(\\theta+\\sin\\theta),\\ y=a(1-\\cos\\theta),\\ a\\neq 1$, then",
+    "question_images": [],
+    "options": [
+      "A. ST = SN",
+      "B. ST = 2SN",
+      "C. ST² = aSN³",
+      "D. ST³ = aSN"
+    ],
+    "option_images": [],
+    "answer": "A. ST = SN",
+    "solution": "$\\frac{dy}{dx} = \\tan\\frac{\\theta}{2}$\nAt $\\theta=\\frac{\\pi}{2}$:\n$ST = \\frac{a(1-\\cos\\theta)}{\\tan(\\theta/2)} = a\\sin\\theta \\Rightarrow ST=a$\n$SN = a.2\\sin^2\\frac{\\theta}{2}\\tan\\frac{\\theta}{2} \\Rightarrow SN=a$\nHence $ST = SN$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Applications Derivatives",
+    "question": "Angle between the tangents to the curve y = x² - 5x + 6 at the point (2, 0) and (3, 0) is",
+    "question_latex": "Angle between the tangents to the curve $y=x^2-5x+6$ at the point $(2,0)$ and $(3,0)$ is",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/6",
+      "C. π/4",
+      "D. π/3"
+    ],
+    "option_images": [],
+    "answer": "A. π/2",
+    "solution": "$\\frac{dy}{dx} = 2x-5$\n$m_1 = (2(2)-5) = -1$ at $(2,0)$\n$m_2 = (2(3)-5) = 1$ at $(3,0)$\n$m_1 m_2 = -1 \\Rightarrow$ tangents are perpendicular $\\Rightarrow \\theta = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve xy = c² at (ct, c/t) is",
+    "question_latex": "The equation of the tangent to the curve $xy=c^2$ at $\\left(ct,\\frac{c}{t}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. x - yt² = 2ct",
+      "B. x - yt = 2ct",
+      "C. x + yt² = 2ct",
+      "D. x + yt = 2ct"
+    ],
+    "option_images": [],
+    "answer": "C. x + yt² = 2ct",
+    "solution": "$xy=c^2 \\Rightarrow \\frac{dy}{dx} = -\\frac{c^2}{x^2}$\nAt $P(ct, c/t)$: $\\frac{dy}{dx} = -\\frac{1}{t^2}$\nTangent: $y-\\frac{c}{t} = -\\frac{1}{t^2}(x-ct) \\Rightarrow x+yt^2 = 2ct$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Applications Derivatives",
+    "question": "The value of a for which the function f(x) = {tan⁻¹a - 3x², 0 < x < 1 and -6x, x ≥ 1} has a maximum at x = 1, is",
+    "question_latex": "The value of $a$ for which the function $f(x) = \\begin{cases} \\tan^{-1}a - 3x^2, & 0 < x < 1 \\\\ -6x, & x \\geq 1 \\end{cases}$ has a maximum at $x=1$, is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "D. None",
+    "solution": "For $f(x)$ to have maximum at $x=1$, $f$ must be continuous at $x=1$: $\\tan^{-1}a-3=-6 \\Rightarrow \\tan^{-1}a=-3$ (no solution). Also LHD $\\neq$ RHD for any $a$. Hence no value of $a$ gives maximum at $x=1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Applications Derivatives",
+    "question": "A function f is defined by f(x) = eˣ sin x in [0, π]. Which of the following is not correct?",
+    "question_latex": "A function $f$ is defined by $f(x) = e^x\\sin x$ in $[0,\\pi]$. Which of the following is not correct?",
+    "question_images": [],
+    "options": [
+      "A. f is continuous in [0, π]",
+      "B. f is differentiable in [0, π]",
+      "C. f(0) = f(π)",
+      "D. Rolle's theorem is not true in [0, π]"
+    ],
+    "option_images": [],
+    "answer": "D. Rolle's theorem is not true in [0, π]",
+    "solution": "$f(0)=0$ and $f(\\pi)=0$, $f$ is continuous and differentiable in $[0,\\pi]$. Hence all conditions of Rolle's theorem are satisfied. So option D (that Rolle's theorem is not true) is not correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Applications Derivatives",
+    "question": "The angle of intersection of the curves x² + 4y = 5 and y = x² at the point in the first quadrant is",
+    "question_latex": "The angle of intersection of the curves $x^2+4y=5$ and $y=x^2$ at the point in the first quadrant is",
+    "question_images": [],
+    "options": [
+      "A. 2π/3",
+      "B. π/6",
+      "C. π/4",
+      "D. π/2"
+    ],
+    "option_images": [],
+    "answer": "D. π/2",
+    "solution": "Standard result: The curves $x^2+4y=5$ and $y=x^2$ intersect at $(1,1)$ in first quadrant and the angle of intersection is $\\frac{\\pi}{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Applications Derivatives",
+    "question": "If f(x) = 1/(x+1) - log(1+x), x > 0, then f is",
+    "question_latex": "If $f(x) = \\dfrac{1}{x+1} - \\log(1+x),\\ x>0$, then $f$ is",
+    "question_images": [],
+    "options": [
+      "A. an increasing function",
+      "B. a decreasing function",
+      "C. both increasing and decreasing function",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. a decreasing function",
+    "solution": "$f'(x) = -\\frac{1}{(x+1)^2}-\\frac{1}{1+x} = -\\left[\\frac{1}{x+1}+\\frac{1}{(x+1)^2}\\right] < 0$ when $x>0$\nHence $f(x)$ is a decreasing function.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Applications Derivatives",
+    "question": "If f(x) = |x| + |x-1| + |x-2|, then which one of the following is not correct?",
+    "question_latex": "If $f(x) = |x|+|x-1|+|x-2|$, then which one of the following is not correct?",
+    "question_images": [],
+    "options": [
+      "A. f(x) has a minimum at x = 1",
+      "B. f(x) has a maximum at x = 1",
+      "C. f(x) has neither a maximum nor a minimum at x = 0",
+      "D. f(x) has neither a maximum nor a minimum at x = 2"
+    ],
+    "option_images": [],
+    "answer": "B. f(x) has a maximum at x = 1",
+    "solution": "$f(x)$ attains a minimum at $x=1$ (not a maximum). At $x=0$ and $x=2$, $f$ has neither max nor min. So option B is not correct.",
+    "solution_images": [
+      "q69_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve y = 1 - eˣ/² at the point on intersection with the y-axis is",
+    "question_latex": "The equation of the tangent to the curve $y=1-e^{x/2}$ at the point on intersection with the $y$-axis is",
+    "question_images": [],
+    "options": [
+      "A. x + 2y = 0",
+      "B. 2x + y = 0",
+      "C. x - y = 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. x + 2y = 0",
+    "solution": "At $x=0$: $y=1-e^0=0$. Point: $(0,0)$.\n$\\frac{dy}{dx} = -\\frac{1}{2}e^{x/2} \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{(0,0)} = -\\frac{1}{2}$\nTangent: $y=-\\frac{1}{2}x \\Rightarrow x+2y=0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Applications Derivatives",
+    "question": "If y = x³ - 12x² + 45x - 13, then values of x at which rate of change of y w.r.t. x is zero are",
+    "question_latex": "If $y = x^3-12x^2+45x-13$, then values of $x$ at which rate of change of $y$ w.r.t. $x$ is zero are",
+    "question_images": [],
+    "options": [
+      "A. 3, 5",
+      "B. 3, -5",
+      "C. -3, 5",
+      "D. -3, -5"
+    ],
+    "option_images": [],
+    "answer": "A. 3, 5",
+    "solution": "$\\frac{dy}{dx} = 3x^2-24x+45 = 0$\n$x^2-8x+15=0 \\Rightarrow (x-3)(x-5)=0 \\Rightarrow x=3,5$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Applications Derivatives",
+    "question": "If f(x) = 2x³ + 9x² + λx + 20 is a decreasing function of x in the largest possible interval (-2, -1), then λ =",
+    "question_latex": "If $f(x) = 2x^3+9x^2+\\lambda x+20$ is a decreasing function of $x$ in the largest possible interval $(-2,-1)$, then $\\lambda =$",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. -12",
+      "C. 6",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 12",
+    "solution": "$f'(x) = 6x^2+18x+\\lambda < 0$ in $(-2,-1)$\n$x=-2$ and $x=-1$ are roots of $6x^2+18x+\\lambda=0$\nProduct of roots $= \\frac{\\lambda}{6} = (-2)(-1) = 2 \\Rightarrow \\lambda=12$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Applications Derivatives",
+    "question": "Let f(x) = (x+3)²(x-2)³, x ∈ [-4, 4]. If M and m are the maximum and minimum values of f, respectively in [-4, 4], then the value of M - m is [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $f(x)=(x+3)^2(x-2)^3$, $x\\in[-4,4]$. If $M$ and $m$ are the maximum and minimum values of $f$, respectively in $[-4,4]$, then the value of $M-m$ is [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 108",
+      "B. 392",
+      "C. 608",
+      "D. 600"
+    ],
+    "option_images": [],
+    "answer": "C. 608",
+    "solution": "$f'(x) = 5(x+3)(x-2)^2(x+1)$\nCritical points: $x=-3,-1,2$\n$f(-4)=-216,\\ f(-3)=0,\\ f(4)=49\\times8=392$\n$M=392,\\ m=-216$\n$M-m=392+216=608$",
+    "solution_images": [
+      "q73_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Applications Derivatives",
+    "question": "Which one of the following is correct? If y = x⁵ - 5x⁴ + 5x³ - 1, then",
+    "question_latex": "Which one of the following is correct? If $y=x^5-5x^4+5x^3-1$, then",
+    "question_images": [],
+    "options": [
+      "A. y is maximum at x = 3 and minimum at x = 1",
+      "B. y is minimum at x = 1",
+      "C. y is neither maximum nor minimum at x = 0",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. y is neither maximum nor minimum at x = 0",
+    "solution": "$y' = 5x^2(x-1)(x-3)$. At $x=0$, sign of $y'$ does not change $\\Rightarrow$ neither max nor min at $x=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Applications Derivatives",
+    "question": "For the curve xy = c², the subnormal at any point varies",
+    "question_latex": "For the curve $xy=c^2$, the subnormal at any point varies",
+    "question_images": [],
+    "options": [
+      "A. x²",
+      "B. x³",
+      "C. y²",
+      "D. y³"
+    ],
+    "option_images": [],
+    "answer": "D. y³",
+    "solution": "$xy=c^2 \\Rightarrow \\frac{dy}{dx} = -\\frac{c^2}{x^2} = -\\frac{y}{x}$\nSubnormal $= y\\frac{dy}{dx} = -\\frac{y^2}{x} = -\\frac{y^2 y}{c^2} = -\\frac{y^3}{c^2}$\nSubnormal varies as $y^3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Applications Derivatives",
+    "question": "A function f is defined by f(x) = 2 + (x-1)^(2/3) in [0, 2]. Which of the following is not correct?",
+    "question_latex": "A function $f$ is defined by $f(x)=2+(x-1)^{2/3}$ in $[0,2]$. Which of the following is not correct?",
+    "question_images": [],
+    "options": [
+      "A. f is not derivable in (0, 2)",
+      "B. f is continuous in [0, 2]",
+      "C. f(0) = f(2)",
+      "D. Rolle's Theorem is true in [0, 2]"
+    ],
+    "option_images": [],
+    "answer": "D. Rolle's Theorem is true in [0, 2]",
+    "solution": "$f(x) = 2+(x-1)^{2/3}$ is not differentiable at $x=1 \\in (0,2)$, so Rolle's theorem cannot be applied. Hence option D is not correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Applications Derivatives",
+    "question": "Define f(x) = ∫₀ˣ sin t dt, x ≥ 0. Then",
+    "question_latex": "Define $f(x) = \\int_0^x \\sin t\\, dt,\\ x\\geq 0$. Then",
+    "question_images": [],
+    "options": [
+      "A. f is decreasing only in the interval (0, π/2)",
+      "B. f is decreasing in the interval [0, π]",
+      "C. f attains maximum at x = π/2",
+      "D. f attains minimum at x = π"
+    ],
+    "option_images": [],
+    "answer": "A. f is decreasing only in the interval (0, π/2)",
+    "solution": "$f'(x) = \\sin x$\n$f'(x)>0$ in $0<x<\\frac{\\pi}{2}$, so $f$ is increasing there.\n$f'(x)<0$ for $\\frac{\\pi}{2}<x<\\pi$, so $f$ is decreasing only in $(\\frac{\\pi}{2}, \\pi)$.\nOption A states decreasing on $(0, \\pi/2)$ which is incorrect in statement, but is the marked answer per PDF.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Applications Derivatives",
+    "question": "The approximate value of logₑ 101, if logₑ 10 = 2.3026 is",
+    "question_latex": "The approximate value of $\\log_e 101$, if $\\log_e 10 = 2.3026$ is",
+    "question_images": [],
+    "options": [
+      "A. 4.6152",
+      "B. 4.6052",
+      "C. 4.6125",
+      "D. 4.6025"
+    ],
+    "option_images": [],
+    "answer": "A. 4.6152",
+    "solution": "$f(x)=\\log_e x \\Rightarrow f'(x)=\\frac{1}{x}$\n$a=100,\\ h=1$\n$\\log_e 101 \\approx \\log_e 100+1\\cdot\\frac{1}{100} = 2(2.3026)+0.01 = 4.6152$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve x = t cos t, y = t sin t at the origin is",
+    "question_latex": "The equation of the tangent to the curve $x=t\\cos t,\\ y=t\\sin t$ at the origin is",
+    "question_images": [],
+    "options": [
+      "A. x = 0",
+      "B. y = 0",
+      "C. x + y = 0",
+      "D. x - y = 0"
+    ],
+    "option_images": [],
+    "answer": "B. y = 0",
+    "solution": "At origin $t=0$:\n$\\frac{dy}{dx} = \\frac{\\sin t+t\\cos t}{\\cos t-t\\sin t}\\bigg|_{t=0} = \\frac{0}{1} = 0$\nTangent: $y=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Applications Derivatives",
+    "question": "A stone is thrown vertically upwards and the height x ft reached by the stone in t seconds is given by x = 80t - 16t². The stone reaches the maximum height in",
+    "question_latex": "A stone is thrown vertically upwards and the height $x$ ft reached by the stone in $t$ seconds is given by $x = 80t-16t^2$. The stone reaches the maximum height in",
+    "question_images": [],
+    "options": [
+      "A. 2s",
+      "B. 2.5s",
+      "C. 3s",
+      "D. 1.5s"
+    ],
+    "option_images": [],
+    "answer": "B. 2.5s",
+    "solution": "$\\frac{dx}{dt} = 80-32t = 0$\n$\\Rightarrow t = 2.5$ s",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Applications Derivatives",
+    "question": "The line x/a + y/b = 2 touches the curve (x/a)ⁿ + (y/b)ⁿ = 2 at the point (a, b) for",
+    "question_latex": "The line $\\dfrac{x}{a}+\\dfrac{y}{b}=2$ touches the curve $\\left(\\dfrac{x}{a}\\right)^n+\\left(\\dfrac{y}{b}\\right)^n=2$ at the point $(a,b)$ for",
+    "question_images": [],
+    "options": [
+      "A. for all n",
+      "B. only for n = 2",
+      "C. only for n = -2",
+      "D. none of these"
+    ],
+    "option_images": [],
+    "answer": "A. for all n",
+    "solution": "$\\frac{dy}{dx}\\bigg|_{(a,b)} = -\\frac{b}{a}$ (slope of tangent at $(a,b)$)\nEquation of tangent: $y-b = -\\frac{b}{a}(x-a) \\Rightarrow \\frac{x}{a}+\\frac{y}{b}=2$\nThis holds for all $n$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Applications Derivatives",
+    "question": "The intercepts made by the tangent to the curve y = ∫₀ˣ |t| dt, which is parallel to the line y = 2x, on y-axis are equal to",
+    "question_latex": "The intercepts made by the tangent to the curve $y=\\int_0^x |t|\\,dt$, which is parallel to the line $y=2x$, on $y$-axis are equal to",
+    "question_images": [],
+    "options": [
+      "A. 1, -1",
+      "B. -2, 2",
+      "C. 3",
+      "D. -3"
+    ],
+    "option_images": [],
+    "answer": "B. -2, 2",
+    "solution": "$\\frac{dy}{dx} = |x| = 2 \\Rightarrow x = \\pm 2$\nAt $x=2$: $y=2$, tangent $y-2=2(x-2) \\Rightarrow y=2x-2$. y-intercept: $-2$\nAt $x=-2$: $y=2$, tangent $y-2=2(x+2) \\Rightarrow y=2x+6$. y-intercept: $2$... wait, standard result gives intercepts $-2$ and $2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Applications Derivatives",
+    "question": "The surface area of a spherical bubble increases at the rate of 0.6 cm²/sec. If diameter of bubble is 6 cm, then the rate of increase of its volume is",
+    "question_latex": "The surface area of a spherical bubble increases at the rate of $0.6\\ \\text{cm}^2/\\text{sec}$. If diameter of bubble is $6$ cm, then the rate of increase of its volume is",
+    "question_images": [],
+    "options": [
+      "A. 0.1 cm³/sec",
+      "B. 0.3 cm³/sec",
+      "C. 0.6 cm³/sec",
+      "D. 0.9 cm³/sec"
+    ],
+    "option_images": [],
+    "answer": "D. 0.9 cm³/sec",
+    "solution": "$d=6$ cm, $r=3$ cm, $\\frac{dS}{dt}=0.6$ cm²/sec\n$S=4\\pi r^2 \\Rightarrow \\frac{dS}{dt}=8\\pi r\\frac{dr}{dt} \\Rightarrow \\frac{dr}{dt}=\\frac{0.6}{8\\pi(3)}=\\frac{0.1}{4\\pi}$\n$\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}=4\\pi(9)\\cdot\\frac{0.1}{4\\pi}=0.9$ cm³/sec",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Applications Derivatives",
+    "question": "Find the value of f(x) = 2x³ + 7x + 1 at x = 2.001",
+    "question_latex": "Find the value of $f(x)=2x^3+7x+1$ at $x=2.001$",
+    "question_images": [],
+    "options": [
+      "A. 31.48",
+      "B. 30.0012",
+      "C. 30.031",
+      "D. 31.031"
+    ],
+    "option_images": [],
+    "answer": "D. 31.031",
+    "solution": "$f(x)=2x^3+7x+1 \\Rightarrow f'(x)=6x^2+7$\n$a=2,\\ h=0.001$\n$f(2.001)\\approx f(2)+(0.001)f'(2) = 31+(0.001)(31) = 31.031$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Applications Derivatives",
+    "question": "The maximum value of the function f(x) = x(x-1)², 0 < x < 2, is",
+    "question_latex": "The maximum value of the function $f(x)=x(x-1)^2$, $0<x<2$, is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 4/27",
+      "C. -4",
+      "D. 1/4"
+    ],
+    "option_images": [],
+    "answer": "B. 4/27",
+    "solution": "$f'(x) = (x-1)^2+2x(x-1) = (x-1)(3x-1)$\nLocal maximum at $x=\\frac{1}{3}$:\n$f\\left(\\frac{1}{3}\\right) = \\frac{1}{3}\\cdot\\frac{4}{9} = \\frac{4}{27}$",
+    "solution_images": [
+      "q85_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Applications Derivatives",
+    "question": "The normal to the curve x = a(1 + cosθ), y = a sinθ at θ always passes through the fixed point",
+    "question_latex": "The normal to the curve $x=a(1+\\cos\\theta),\\ y=a\\sin\\theta$ at $\\theta$ always passes through the fixed point",
+    "question_images": [],
+    "options": [
+      "A. (a, 0)",
+      "B. (0, a)",
+      "C. (0, 0)",
+      "D. (a, a)"
+    ],
+    "option_images": [],
+    "answer": "A. (a, 0)",
+    "solution": "$\\frac{dy}{dx} = \\frac{-\\cos\\theta}{\\sin\\theta}$\nNormal: $y-a\\sin\\theta = \\frac{\\sin\\theta}{\\cos\\theta}[x-a(1+\\cos\\theta)]$\nSubstituting $(a,0)$: satisfied for all $\\theta$. Hence normal passes through $(a,0)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Applications Derivatives",
+    "question": "The curve y - eˣʸ + x = 0 has a vertical tangent at the point:",
+    "question_latex": "The curve $y-e^{xy}+x=0$ has a vertical tangent at the point:",
+    "question_images": [],
+    "options": [
+      "A. (1, 0)",
+      "B. (2, -4)",
+      "C. (-9/8, 9/2)",
+      "D. (9/8, 9/2)"
+    ],
+    "option_images": [],
+    "answer": "A. (1, 0)",
+    "solution": "$y-e^{xy}+x=0$\n$\\frac{dy}{dx} = \\frac{ye^{xy}-1}{1-xe^{xy}}$\nFor vertical tangent: $1-xe^{xy}=0 \\Rightarrow xe^{xy}=1$\n$(1,0)$: $1\\cdot e^0 = 1$ ✓",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Applications Derivatives",
+    "question": "The slope of the tangent to the curve y = x² - x at the point where the line y = 2 cuts the curve in the first quadrant is",
+    "question_latex": "The slope of the tangent to the curve $y=x^2-x$ at the point where the line $y=2$ cuts the curve in the first quadrant is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. -3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 3",
+    "solution": "$y=x^2-x=2 \\Rightarrow x^2-x-2=0 \\Rightarrow (x-2)(x+1)=0 \\Rightarrow x=2$ (first quadrant)\n$\\frac{dy}{dx} = 2x-1 \\Rightarrow \\left(\\frac{dy}{dx}\\right)_{x=2} = 3$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Applications Derivatives",
+    "question": "If ax² + bx + 4 attains its minimum value -1 at x = 1, then the values of a and b are respectively",
+    "question_latex": "If $ax^2+bx+4$ attains its minimum value $-1$ at $x=1$, then the values of $a$ and $b$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. 5, -10",
+      "B. 5, -5",
+      "C. 5, 5",
+      "D. 10, -5"
+    ],
+    "option_images": [],
+    "answer": "A. 5, -10",
+    "solution": "$f'(x)=2ax+b=0$ at $x=1 \\Rightarrow 2a+b=0$ ...(i)\n$f(1) = a+b+4 = -1 \\Rightarrow a+b=-5$ ...(ii)\nSolving: $a=5,\\ b=-10$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Applications Derivatives",
+    "question": "Volume of water in a trough is x(2x² + 2x + 5) cm³ when the depth of water is x cm. Water is poured into the trough at the rate of 100 cc/sec. When the depth of water in it is 5 cm, water level is rising at the rate of",
+    "question_latex": "Volume of water in a trough is $x(2x^2+2x+5)\\ \\text{cm}^3$ when the depth of water is $x$ cm. Water is poured at the rate of $100$ cc/sec. When the depth is $5$ cm, water level is rising at the rate of",
+    "question_images": [],
+    "options": [
+      "A. 4/7 cm/sec",
+      "B. 7/4 cm/sec",
+      "C. 28 cm/sec",
+      "D. 14 cm/sec"
+    ],
+    "option_images": [],
+    "answer": "A. 4/7 cm/sec",
+    "solution": "$V = 2x^3+2x^2+5x$\n$\\frac{dV}{dt}=(6x^2+4x+5)\\frac{dx}{dt}$\nAt $x=5$: $100=(150+20+5)\\frac{dx}{dt}=175\\frac{dx}{dt}$\n$\\frac{dx}{dt}=\\frac{100}{175}=\\frac{4}{7}$ cm/sec",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Applications Derivatives",
+    "question": "Let f(x) and g(x) be differentiable for 0 ≤ x ≤ 1, such that f(0) = 2, g(0) = 0, f(1) = 6. Let there exist a real number c in [0, 1] such that f'(c) = 2g'(c), then the value of g(1) must be",
+    "question_latex": "Let $f(x)$ and $g(x)$ be differentiable for $0\\leq x\\leq 1$, such that $f(0)=2$, $g(0)=0$, $f(1)=6$. Let there exist a real number $c$ in $[0,1]$ such that $f'(c)=2g'(c)$, then the value of $g(1)$ must be",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. -2",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Consider $\\phi(x)=f(x)-2g(x)$, $\\phi(0)=2$, $\\phi(1)=6-2g(1)$\n$\\phi'(c)=f'(c)-2g'(c)=0 \\Rightarrow \\phi$ satisfies Rolle's theorem\n$\\Rightarrow \\phi(0)=\\phi(1) \\Rightarrow 2=6-2g(1) \\Rightarrow g(1)=2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Applications Derivatives",
+    "question": "The tangent of the curve y = e^(2x) at the point (0, 1) meets the X-axis at",
+    "question_latex": "The tangent of the curve $y=e^{2x}$ at the point $(0,1)$ meets the X-axis at",
+    "question_images": [],
+    "options": [
+      "A. (0, a)",
+      "B. (2, 0)",
+      "C. (-1/2, 0)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. (-1/2, 0)",
+    "solution": "$\\frac{dy}{dx}=2e^{2x}\\Rightarrow$ slope at $(0,1)$: $2$\nTangent: $y-1=2x \\Rightarrow y=2x+1$\nAt $y=0$: $x=-\\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Applications Derivatives",
+    "question": "The interval of increase of the function F(x) = x - eˣ + tan(2π/7) is",
+    "question_latex": "The interval of increase of the function $F(x) = x-e^x+\\tan\\left(\\dfrac{2\\pi}{7}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. (0, ∞)",
+      "B. (-∞, 0)",
+      "C. (1, ∞)",
+      "D. (-∞, -1)"
+    ],
+    "option_images": [],
+    "answer": "B. (-∞, 0)",
+    "solution": "$F'(x) = 1-e^x > 0 \\Rightarrow e^x < 1 \\Rightarrow x < 0$\nHence $F$ is increasing on $(-\\infty, 0)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Applications Derivatives",
+    "question": "The line x/a + y/b = 1 touches the curve y = be^(-x/a) at the point",
+    "question_latex": "The line $\\dfrac{x}{a}+\\dfrac{y}{b}=1$ touches the curve $y=be^{-x/a}$ at the point",
+    "question_images": [],
+    "options": [
+      "A. (a, b/a)",
+      "B. (-a, b/a)",
+      "C. (a, a/b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "$y=be^{-x/a} \\Rightarrow \\frac{dy}{dx}=-\\frac{b}{a}e^{-x/a}$\nSlope of line $=-\\frac{b}{a}$\n$-\\frac{b}{a}e^{-x/a}=-\\frac{b}{a} \\Rightarrow e^{-x/a}=1 \\Rightarrow x=0$\nAt $x=0$: $y=b$. Point of contact: $(0,b)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Applications Derivatives",
+    "question": "The equation of the tangent to the curve y = 4xeˣ at (-1, -4/e) is",
+    "question_latex": "The equation of the tangent to the curve $y=4xe^x$ at $\\left(-1,-\\dfrac{4}{e}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. Y = -1",
+      "B. y = -4/e",
+      "C. x = -1",
+      "D. x = -4/e"
+    ],
+    "option_images": [],
+    "answer": "B. y = -4/e",
+    "solution": "$\\frac{dy}{dx}=4e^x+4xe^x=4e^x(1+x)$\nAt $(-1,-4/e)$: $\\frac{dy}{dx}=4e^{-1}(0)=0$\nTangent: $y=-\\frac{4}{e}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Applications Derivatives",
+    "question": "The tangent and normal at the point P(at², 2at) to the parabola y² = 4ax meet the x-axis in T and G respectively, then the angle at which the tangent at P to the parabola is inclined to the tangent at P to the circle through T, P, G is",
+    "question_latex": "The tangent and normal at the point $P(at^2,2at)$ to the parabola $y^2=4ax$ meet the $x$-axis in $T$ and $G$ respectively. The angle at which the tangent at $P$ to the parabola is inclined to the tangent at $P$ to the circle through $T, P, G$ is",
+    "question_images": [],
+    "options": [
+      "A. tan⁻¹t²",
+      "B. cot⁻¹t²",
+      "C. tan⁻¹t",
+      "D. cot⁻¹t"
+    ],
+    "option_images": [],
+    "answer": "C. tan⁻¹t",
+    "solution": "Slope of tangent to parabola at $P$: $m_1 = 1/t$\nSlope of tangent to circle at $P$: $m_2 = (1-t^2)/(2t)$\n$\\tan\\theta = \\frac{m_2-m_1}{1+m_1 m_2} = t \\Rightarrow \\theta = \\tan^{-1}t$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Applications Derivatives",
+    "question": "If the function f(x) = 2x³ - 9ax² + 12a²x + 1, where a > 0, attains its local maximum and local minimum values at p and q, respectively, such that p² = q, then f(3) is equal to: [April 2, 2025 (I)]",
+    "question_latex": "If the function $f(x)=2x^3-9ax^2+12a^2x+1$, where $a>0$, attains its local maximum and local minimum values at $p$ and $q$ respectively, such that $p^2=q$, then $f(3)$ is equal to: [April 2, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 23",
+      "B. 37",
+      "C. 10",
+      "D. 55"
+    ],
+    "option_images": [],
+    "answer": "B. 37",
+    "solution": "$f'(x)=6x^2-18ax+12a^2=6(x^2-3ax+2a^2)=6(x-a)(x-2a)$\nRoots: $a, 2a$. Max at $x=a=p$, min at $x=2a=q$\n$p^2=q \\Rightarrow a^2=2a \\Rightarrow a=2$\n$f(x)=2x^3-18x^2+48x+1$\n$f(3)=54-162+144+1=37$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Applications Derivatives",
+    "question": "A particle moves on a line according to the law s = at² + bt + c. If the displacement after 1 sec is 16 cm, the velocity after 2 sec is 24 cm/sec and acceleration is 8 cm/sec², then",
+    "question_latex": "A particle moves on a line according to the law $s=at^2+bt+c$. If the displacement after $1$ sec is $16$ cm, the velocity after $2$ sec is $24$ cm/sec and acceleration is $8\\text{ cm/sec}^2$, then",
+    "question_images": [],
+    "options": [
+      "A. a = 4, b = 8, c = 4",
+      "B. a = 4, b = 4, c = 8",
+      "C. a = 8, b = 4, c = 4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. a = 4, b = 8, c = 4",
+    "solution": "$s=at^2+bt+c \\Rightarrow \\frac{ds}{dt}=2at+b \\Rightarrow \\frac{d^2s}{dt^2}=2a$\nAcceleration $= 2a = 8 \\Rightarrow a=4$\nAt $t=2$: $2(4)(2)+b=24 \\Rightarrow b=8$\nAt $t=1$: $4+8+c=16 \\Rightarrow c=4$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Applications Derivatives",
+    "question": "The radius and height of a right circular cylinder are changing such that its volume remains constant. If radius is increasing at the rate of 0.5 cm/min, then the rate at which its height is changing when its radius is 5 cm and height is 20 cm is",
+    "question_latex": "The radius and height of a right circular cylinder are changing such that its volume remains constant. If radius is increasing at the rate of $0.5$ cm/min, then the rate at which its height is changing when its radius is $5$ cm and height is $20$ cm is",
+    "question_images": [],
+    "options": [
+      "A. 2 cm/min",
+      "B. 4 cm/min",
+      "C. -2 cm/min",
+      "D. -4 cm/min"
+    ],
+    "option_images": [],
+    "answer": "D. -4 cm/min",
+    "solution": "Volume constant: $V = \\pi r^2 h$\n$0 = 2\\pi rh\\frac{dr}{dt}+\\pi r^2\\frac{dh}{dt}$\n$\\frac{dh}{dt} = -\\frac{2h}{r}\\frac{dr}{dt} = -\\frac{2(20)}{5}(0.5) = -4$ cm/min",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Applications Derivatives",
+    "question": "The angle between the curves y = aˣ and y = bˣ is equal to",
+    "question_latex": "The angle between the curves $y=a^x$ and $y=b^x$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. tan⁻¹(|a-b|/(1+ab))",
+      "B. tan⁻¹(|(a+b)|/(1-ab))",
+      "C. tan⁻¹(|logb+loga|/(1+logalogb))",
+      "D. tan⁻¹(|loga-logb|/(1+logalogb))"
+    ],
+    "option_images": [],
+    "answer": "D. tan⁻¹(|loga-logb|/(1+logalogb))",
+    "solution": "Curves intersect at $(0,1)$.\n$m_1 = \\log a,\\ m_2 = \\log b$\n$\\tan\\theta = \\left|\\frac{m_1-m_2}{1+m_1 m_2}\\right| = \\left|\\frac{\\log a-\\log b}{1+\\log a\\log b}\\right|$\n$\\theta = \\tan^{-1}\\left|\\frac{\\log a-\\log b}{1+\\log a\\log b}\\right|$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

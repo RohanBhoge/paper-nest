@@ -1,0 +1,2012 @@
+[
+    {
+        "id": 1,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "For a surface illuminated with a wavelength $\\lambda$ the required stopping potential for emitted photon is $3 V_{0}$. If the incident wavelength is made $2\\lambda$ then stopping potential becomes $V_{0}$. The threshold wavelength for surface is",
+        "question_latex": "For a surface illuminated with a wavelength $\\lambda$ the required stopping potential for emitted photon is $3 V_{0}$. If the incident wavelength is made $2\\lambda$ then stopping potential becomes $V_{0}$. The threshold wavelength for surface is",
+        "question_images": [],
+        "options": [
+            "A. 6\\lambda",
+            "B. \\lambda/6",
+            "C. 4\\lambda",
+            "D. \\lambda/4"
+        ],
+        "option_images": [],
+        "answer": "C. 4\\lambda",
+        "solution": "$3eV_{0} = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_{0}}$ (1). $eV_{0} = \\frac{hc}{2\\lambda} - \\frac{hc}{\\lambda_{0}}$ (2). Multiply (2) by 3 and subtract from (1) to get $\\lambda_{0} = 4\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 2,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When light of wavelength $\\lambda$ is incident on a photosensitive surface, the stopping potential is $V$. When light of wavelength $3\\lambda$ is incident on the same surface, the stopping potential is $V/6$. Threshold wavelength for the surface is",
+        "question_latex": "When light of wavelength $\\lambda$ is incident on a photosensitive surface, the stopping potential is $V$. When light of wavelength $3\\lambda$ is incident on the same surface, the stopping potential is $V/6$. Threshold wavelength for the surface is",
+        "question_images": [],
+        "options": [
+            "A. 3\\lambda",
+            "B. 9\\lambda",
+            "C. 5\\lambda",
+            "D. 6\\lambda"
+        ],
+        "option_images": [],
+        "answer": "C. 5\\lambda",
+        "solution": "$eV = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_{0}}$. $e\\frac{V}{6} = \\frac{hc}{3\\lambda} - \\frac{hc}{\\lambda_{0}}$. Solving gives $\\frac{1}{\\lambda_{0}} = \\frac{1}{\\lambda} - \\frac{4}{5\\lambda} \\implies \\lambda_{0} = 5\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 3,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "According to de-Broglie hypothesis if an electron of mass 'm' is accelerated by potential difference 'V' then associated wavelength is $\\lambda$. When a proton of mass 'M' is accelerated through potential difference '9 V' then the wavelength associated with it is",
+        "question_latex": "According to de-Broglie hypothesis if an electron of mass $m$ is accelerated by potential difference $V$ then associated wavelength is $\\lambda$. When a proton of mass $M$ is accelerated through potential difference $9\\, \\text{V}$ then the wavelength associated with it is",
+        "question_images": [],
+        "options": [
+            "A. (\\lambda/6)\\sqrt{M/m}",
+            "B. (\\lambda/6)\\sqrt{m/M}",
+            "C. (\\lambda/3)\\sqrt{M/m}",
+            "D. (\\lambda/3)\\sqrt{m/M}"
+        ],
+        "option_images": [],
+        "answer": "D. (\\lambda/3)\\sqrt{m/M}",
+        "solution": "$\\lambda = \\frac{h}{\\sqrt{2mqV}}$. $\\frac(\\lambda_{p})(\\lambda_{e}) = \\sqrt{\\frac{m}{M} \\cdot \\frac{V}{9V}} = \\frac{1}{3}\\sqrt{\\frac{m}{M}}$. Thus $\\lambda_{p} = \\frac{\\lambda}{3}\\sqrt{\\frac{m}{M}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 4,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When a certain metallic surface is illuminated with monochromatic light of wavelength $\\lambda$, the stopping potential is $2V_{0}$. When the same surface is illuminated with light of wavelength $3\\lambda$, the stopping potential is $V_{0}/2$. The threshold wavelength is",
+        "question_latex": "When a certain metallic surface is illuminated with monochromatic light of wavelength $\\lambda$, the stopping potential is $2V_{0}$. When the same surface is illuminated with light of wavelength $3\\lambda$, the stopping potential is $V_{0}/2$. The threshold wavelength is",
+        "question_images": [],
+        "options": [
+            "A. 6\\lambda",
+            "B. 4\\lambda/3",
+            "C. 4\\lambda",
+            "D. 9\\lambda"
+        ],
+        "option_images": [],
+        "answer": "D. 9\\lambda",
+        "solution": "$2eV_{0} = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_{0}}$. $e\\frac{V_{0}}{2} = \\frac{hc}{3\\lambda} - \\frac{hc}{\\lambda_{0}}$. Substituting and solving yields $\\lambda_{0} = 9\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 5,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "X-Rays",
+        "question": "Which one of the following statement is wrong in the context of X-rays generated from X-ray tube?",
+        "question_latex": "Which one of the following statement is wrong in the context of X-rays generated from X-ray tube?",
+        "question_images": [],
+        "options": [
+            "A. Wavelength of characteristic X-rays decreases when the atomic number of the target increases",
+            "B. Cut-off wavelength of the continuous X-rays depends on the atomic number of the target",
+            "C. Intensity of the characteristic X-rays depends on the electrical power given to the X-ray tube",
+            "D. Cut-off wavelength of the continuous X-rays depends on the energy of the electrons in X-ray tube"
+        ],
+        "option_images": [],
+        "answer": "B. Cut-off wavelength of the continuous X-rays depends on the atomic number of the target",
+        "solution": "Cut-off wavelength depends on the applied voltage (energy of electrons), not on the atomic number of the target.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 6,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The uncertainty in the position of a particle is equal to the de-Broglie wavelength. The uncertainty in its momentum will be",
+        "question_latex": "The uncertainty in the position of a particle is equal to the de-Broglie wavelength. The uncertainty in its momentum will be",
+        "question_images": [],
+        "options": [
+            "A. h/\\lambda",
+            "B. 2h/3\\lambda",
+            "C. \\lambda/h",
+            "D. 3\\lambda/2h"
+        ],
+        "option_images": [],
+        "answer": "A. h/\\lambda",
+        "solution": "From Heisenberg's uncertainty principle (approximate form used in some contexts here), $\\Delta x \\cdot \\Delta p \\approx h$. If $\\Delta x = \\lambda$, then $\\Delta p = h/\\lambda$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 7,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The ratio of the de-Broglie wavelength of an $\\alpha$-particle and a proton of same kinetic energy is",
+        "question_latex": "The ratio of the de-Broglie wavelength of an $\\alpha$-particle and a proton of same kinetic energy is",
+        "question_images": [],
+        "options": [
+            "A. 1:2",
+            "B. 1:1",
+            "C. 1:\\sqrt{2}",
+            "D. 4:1"
+        ],
+        "option_images": [],
+        "answer": "A. 1:2",
+        "solution": "$\\lambda = \\frac{h}{\\sqrt{2mE_{k}}}$. For same $E_k$, $\\lambda \\propto 1/\\sqrt{m}$. $\\frac{\\lambda_{\\alpha}}{\\lambda_{p}} = \\sqrt{\\frac{m_{p}}{m_{\\alpha}}} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 8,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Light of two different frequencies whose photons have energies 1.3 eV and 2.8 eV respectively, successfully illuminate a metallic surface whose work function is 0.8 eV. The ratio of maximum speeds of emitted electrons will be",
+        "question_latex": "Light of two different frequencies whose photons have energies $1.3 \\, \\text{eV}$ and $2.8 \\, \\text{eV}$ respectively, successfully illuminate a metallic surface whose work function is $0.8 \\, \\text{eV}$. The ratio of maximum speeds of emitted electrons will be",
+        "question_images": [],
+        "options": [
+            "A. 1:5",
+            "B. 1:4",
+            "C. 1:3",
+            "D. 1:2"
+        ],
+        "option_images": [],
+        "answer": "D. 1:2",
+        "solution": "$K_1 = 1.3 - 0.8 = 0.5 \\, \\text{eV}$. $K_2 = 2.8 - 0.8 = 2.0 \\, \\text{eV}$. $\\frac{v_1^2}{v_2^2} = \\frac{K_1}{K_2} = \\frac{0.5}{2.0} = \\frac{1}{4} \\implies \\frac{v_1}{v_2} = \\frac{1}{2}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 9,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "For photoelectric emission from certain metal the cut-off frequency is $v$. If radiation of frequency $2v$ impinges on the metal plate, the maximum possible velocity of the emitted electron will be",
+        "question_latex": "For photoelectric emission from certain metal the cut-off frequency is $v$. If radiation of frequency $2v$ impinges on the metal plate, the maximum possible velocity of the emitted electron will be",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{hv/(2m)}",
+            "B. \\sqrt{hv/m}",
+            "C. \\sqrt{2hv/m}",
+            "D. 2\\sqrt{hv/2m}"
+        ],
+        "option_images": [],
+        "answer": "C. \\sqrt{2hv/m}",
+        "solution": "$\\frac{1}{2}mv^2 = h(2v) - hv = hv \\implies v_{max} = \\sqrt{\\frac{2hv}{m}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 10,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The correct graph between photocurrent (i) as a function of intensity of incident light (E) falling on a metal surface for fixed incident frequency and accelerating potential is",
+        "question_latex": "The correct graph between photocurrent ($i$) as a function of intensity of incident light ($E$) falling on a metal surface for fixed incident frequency and accelerating potential is",
+        "question_images": [
+            "q10_1"
+        ],
+        "options": [
+            "A. Q",
+            "B. P",
+            "C. R",
+            "D. S"
+        ],
+        "option_images": [],
+        "answer": "C. R",
+        "solution": "Photocurrent is directly proportional to intensity, starting from the origin (Graph R).",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 11,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An electromagnetic wave of wavelength $\\lambda$ is incident on a photosensitive surface of negligible work function. If the photoelectrons emitted from this surface have the de-Broglie wavelength $\\lambda_{1}$ then",
+        "question_latex": "An electromagnetic wave of wavelength $\\lambda$ is incident on a photosensitive surface of negligible work function. If the photoelectrons emitted from this surface have the de-Broglie wavelength $\\lambda_{1}$ then",
+        "question_images": [],
+        "options": [
+            "A. \\lambda \\propto \\lambda_1",
+            "B. \\lambda \\propto 1/\\lambda_1^2",
+            "C. \\lambda \\propto \\lambda_1^2",
+            "D. \\lambda \\propto 1/\\lambda_1"
+        ],
+        "option_images": [],
+        "answer": "C. \\lambda \\propto \\lambda_1^2",
+        "solution": "$\\frac{hc}{\\lambda} = \\frac{p^2}{2m} = \\frac{h^2}{2m\\lambda_1^2} \\implies \\lambda \\propto \\lambda_1^2$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 12,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The photoelectric effect represents that",
+        "question_latex": "The photoelectric effect represents that",
+        "question_images": [],
+        "options": [
+            "A. Light has a particle nature",
+            "B. Electron has a wave nature",
+            "C. Proton has a wave nature",
+            "D. None of the above"
+        ],
+        "option_images": [],
+        "answer": "A. Light has a particle nature",
+        "solution": "Photoelectric effect is explained by assuming light is made of particles called photons.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 13,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The energy of an electron having de-Broglie wavelength $\\lambda$ is",
+        "question_latex": "The energy of an electron having de-Broglie wavelength $\\lambda$ is",
+        "question_images": [],
+        "options": [
+            "A. h / 2m\\lambda",
+            "B. h^2 / 2m\\lambda^2",
+            "C. h^2 / 2m^2\\lambda^2",
+            "D. h^2 / 2m^2\\lambda"
+        ],
+        "option_images": [],
+        "answer": "B. h^2 / 2m\\lambda^2",
+        "solution": "$E = \\frac{p^2}{2m} = \\frac{(h/\\lambda)^2}{2m} = \\frac{h^2}{2m\\lambda^2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 14,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "Electron beam when accelerated by a voltage 10 kV, has a de-Broglie wavelength $\\lambda$. If the voltage is increased to 20 kV then the de-Broglie wavelength associated with the electron beam would be",
+        "question_latex": "Electron beam when accelerated by a voltage $10 \\, \\text{kV}$, has a de-Broglie wavelength $\\lambda$. If the voltage is increased to $20 \\, \\text{kV}$ then the de-Broglie wavelength associated with the electron beam would be",
+        "question_images": [],
+        "options": [
+            "A. \\lambda/\\sqrt{2}",
+            "B. 2\\lambda",
+            "C. \\lambda/2",
+            "D. 4\\lambda"
+        ],
+        "option_images": [],
+        "answer": "A. \\lambda/\\sqrt{2}",
+        "solution": "$\\lambda \\propto 1/\\sqrt{V}$. If $V$ doubles, $\\lambda$ becomes $\\lambda/\\sqrt{2}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 15,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Ultraviolet light of wavelength 300 nm and intensity 1.0 W/m^2 falls on the surface of a photosensitive material. If one percent of the incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of 1.0 cm^2 of the surface is nearly",
+        "question_latex": "Ultraviolet light of wavelength $300 \\, \\text{nm}$ and intensity $1.0 \\, \\text{W/m}^2$ falls on the surface of a photosensitive material. If one percent of the incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of $1.0 \\, \\text{cm}^2$ of the surface is nearly",
+        "question_images": [],
+        "options": [
+            "A. 9.61 x 10^14 s^-1",
+            "B. 4.12 x 10^13 s^-1",
+            "C. 1.51 x 10^12 s^-1",
+            "D. 2.13 x 10^11 s^-1"
+        ],
+        "option_images": [],
+        "answer": "C. 1.51 x 10^12 s^-1",
+        "solution": "Energy per sec = $1.0 \\times 10^{-4} \\, \\text{J}$. Effective energy = $10^{-6} \\, \\text{J}$. Photon energy = $hc/\\lambda = 6.63 \\times 10^{-19} \\, \\text{J}$. $n = 10^{-6} / (hc/\\lambda) = 1.51 \\times 10^{12} \\, \\text{s}^{-1}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 16,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The wavelength of de-Broglie wave associated with a thermal neutron of mass m at absolute temperature T is given by",
+        "question_latex": "The wavelength of de-Broglie wave associated with a thermal neutron of mass $m$ at absolute temperature $T$ is given by",
+        "question_images": [],
+        "options": [
+            "A. h/\\sqrt{2mkT}",
+            "B. h/\\sqrt{mkT}",
+            "C. h/\\sqrt{3kmT}",
+            "D. h/2\\sqrt{mkT}"
+        ],
+        "option_images": [],
+        "answer": "C. h/\\sqrt{3kmT}",
+        "solution": "$KE = \\frac{3}{2}kT = \\frac{p^2}{2m} \\implies p = \\sqrt{3mkT}$. $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{3mkT}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 17,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "A photon has wavelength 3 nm, then its momentum and energy respectively will be",
+        "question_latex": "A photon has wavelength $3 \\, \\text{nm}$, then its momentum and energy respectively will be",
+        "question_images": [],
+        "options": [
+            "A. 2.21 x 10^-16 kg m/s; 6.63 x 10^-19 J",
+            "B. 2.21 x 10^-43 kg m/s; 6.63 x 10^-34 J",
+            "C. 2.21 x 10^-25 kg m/s; 6.63 x 10^-17 J",
+            "D. 2.21 x 10^-34 kg m/s; 6.63 x 10^-25 J"
+        ],
+        "option_images": [],
+        "answer": "C. 2.21 x 10^-25 kg m/s; 6.63 x 10^-17 J",
+        "solution": "$p = h/\\lambda = 6.63\\times 10^{-34} / 3\\times 10^{-9} = 2.21\\times 10^{-25} \\, \\text{kg m/s}$. $E = pc = 6.63\\times 10^{-17} \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 18,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When a point source of light is 1m away from a photoelectric cell, the photoelectric current is 1 mA. If the same source is placed at 4 m from the same photoelectric cells, the photoelectric current (in mA) will be",
+        "question_latex": "When a point source of light is $1 \\, \\text{m}$ away from a photoelectric cell, the photoelectric current is $1 \\, \\text{mA}$. If the same source is placed at $4 \\, \\text{m}$ from the same photoelectric cells, the photoelectric current (in mA) will be",
+        "question_images": [],
+        "options": [
+            "A. 1/16",
+            "B. 1/4",
+            "C. 4",
+            "D. 16"
+        ],
+        "option_images": [],
+        "answer": "A. 1/16",
+        "solution": "$I \\propto \\text{Intensity} \\propto 1/d^2$. $I' = I(1/4)^2 = 1/16 \\, \\text{mA}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 19,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "A proton and an alpha particle are accelerated through a potential of 100 V. The ratio of the wavelength associated with proton to that of alpha particle is",
+        "question_latex": "A proton and an alpha particle are accelerated through a potential of $100 \\, \\text{V}$. The ratio of the wavelength associated with proton to that of alpha particle is",
+        "question_images": [],
+        "options": [
+            "A. 2:1",
+            "B. 2\\sqrt{2}:1",
+            "C. 1/(2\\sqrt{2}):1",
+            "D. \\sqrt{2}:1"
+        ],
+        "option_images": [],
+        "answer": "B. 2\\sqrt{2}:1",
+        "solution": "$\\lambda = \\frac{h}{\\sqrt{2mqV}}$. $\\frac{\\lambda_p}{\\lambda_\\alpha} = \\sqrt{\\frac{m_\\alpha q_\\alpha}{m_p q_p}} = \\sqrt{\\frac{4m \\cdot 2e}{m \\cdot e}} = \\sqrt{8} = 2\\sqrt{2}:1$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 20,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An electron of mass 'm' and a photon have same energy E. The ratio of the de-Broglie wavelengths associated with them is",
+        "question_latex": "An electron of mass $m$ and a photon have same energy $E$. The ratio of the de-Broglie wavelengths associated with them is",
+        "question_images": [],
+        "options": [
+            "A. (E/2m)^{1/2}",
+            "B. c(2mE)^{1/2}",
+            "C. (1/c)(E/2m)^{1/2}",
+            "D. (1/c)(2m/E)^{1/2}"
+        ],
+        "option_images": [],
+        "answer": "C. (1/c)(E/2m)^{1/2}",
+        "solution": "$\\lambda_e = \\frac{h}{\\sqrt{2mE}}$. $\\lambda_p = \\frac{hc}{E}$. Ratio = $\\frac{1}{c}\\sqrt{\\frac{E}{2m}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 21,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "A photoelectric surface is illuminated successively by monochromatic light of wavelength $\\lambda$ and $\\lambda/3$. If the maximum kinetic energy of the emitted photoelectrons in the second case is 4 times that in the first case, the work function of the surface of the material is",
+        "question_latex": "A photoelectric surface is illuminated successively by monochromatic light of wavelength $\\lambda$ and $\\lambda/3$. If the maximum kinetic energy of the emitted photoelectrons in the second case is 4 times that in the first case, the work function of the surface of the material is",
+        "question_images": [],
+        "options": [
+            "A. hc/2\\lambda",
+            "B. hc/\\lambda",
+            "C. 3hc/\\lambda",
+            "D. hc/3\\lambda"
+        ],
+        "option_images": [],
+        "answer": "D. hc/3\\lambda",
+        "solution": "$K_1 = hc/\\lambda - W_0$. $K_2 = 3hc/\\lambda - W_0$. Given $K_2 = 4K_1 \\implies 3hc/\\lambda - W_0 = 4(hc/\\lambda - W_0) \\implies 3W_0 = hc/\\lambda \\implies W_0 = hc/3\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 22,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Light of wavelength 5000 A falls on a sensitive plate with photoelectric work function of 1.9 eV. The kinetic energy of the photoelectron emitted will be",
+        "question_latex": "Light of wavelength $5000 \\, \\text{\\AA}$ falls on a sensitive plate with photoelectric work function of $1.9 \\, \\text{eV}$. The kinetic energy of the photoelectron emitted will be",
+        "question_images": [],
+        "options": [
+            "A. 0.58 eV",
+            "B. 2.48 eV",
+            "C. 1.24 eV",
+            "D. 1.16 eV"
+        ],
+        "option_images": [],
+        "answer": "A. 0.58 eV",
+        "solution": "$E = 12400 / 5000 = 2.48 \\, \\text{eV}$. $K = E - W_0 = 2.48 - 1.9 = 0.58 \\, \\text{eV}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 23,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "Photons of wavelength $\\lambda$ are incident on the cathode of a photocell. Electrons are emitted from the cathode surface. The de-Broglie wavelength of the emitted electrons is (work function is negligible)",
+        "question_latex": "Photons of wavelength $\\lambda$ are incident on the cathode of a photocell. Electrons are emitted from the cathode surface. The de-Broglie wavelength of the emitted electrons is (work function is negligible)",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{2h\\lambda/mc}",
+            "B. \\sqrt{mh/\\lambda c}",
+            "C. \\sqrt{mc/2h\\lambda}",
+            "D. \\sqrt{h\\lambda/2mc}"
+        ],
+        "option_images": [],
+        "answer": "D. \\sqrt{h\\lambda/2mc}",
+        "solution": "$\\frac{p^2}{2m} = \\frac{hc}{\\lambda} \\implies p = \\sqrt{\\frac{2mhc}{\\lambda}}$. $\\lambda_{deBroglie} = \\frac{h}{p} = \\sqrt{\\frac{h\\lambda}{2mc}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 24,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "If the wavelength of incident radiation in a photoelectric experiment is decreased from 6000A to 4500A, then",
+        "question_latex": "If the wavelength of incident radiation in a photoelectric experiment is decreased from $6000 \\, \\text{\\AA}$ to $4500 \\, \\text{\\AA}$, then",
+        "question_images": [],
+        "options": [
+            "A. the photoelectric current may stop",
+            "B. the stopping potential will increase",
+            "C. the photoelectric current will increases",
+            "D. the stopping potential will decrease"
+        ],
+        "option_images": [],
+        "answer": "B. the stopping potential will increase",
+        "solution": "Decreasing wavelength increases photon energy, which increases the maximum kinetic energy and hence the stopping potential.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 25,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Photoelectric cell is 'NOT' used in",
+        "question_latex": "Photoelectric cell is 'NOT' used in",
+        "question_images": [],
+        "options": [
+            "A. exposure meter",
+            "B. burglar alarm",
+            "C. sound reproduction from motion pictures",
+            "D. brake indicators in vehicles"
+        ],
+        "option_images": [],
+        "answer": "D. brake indicators in vehicles",
+        "solution": "Brake indicators are simple electrical circuits and do not utilize photoelectric cells.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 26,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "If $\\lambda_1$ and $\\lambda_2$ are de-Broglie wavelengths for electrons in first and second Bohr orbits in hydrogen atom, then the ratio $\\lambda_2$ to $\\lambda_1$ is",
+        "question_latex": "If $\\lambda_1$ and $\\lambda_2$ are de-Broglie wavelengths for electrons in first and second Bohr orbits in hydrogen atom, then the ratio $\\lambda_2$ to $\\lambda_1$ is",
+        "question_images": [],
+        "options": [
+            "A. 4:1",
+            "B. 16:1",
+            "C. 8:1",
+            "D. 2:1"
+        ],
+        "option_images": [],
+        "answer": "D. 2:1",
+        "solution": "$\\lambda = h/mv$. Velocity $v \\propto 1/n$, so $\\lambda \\propto n$. Thus $\\lambda_2/\\lambda_1 = 2/1$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 27,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When radiation of wavelength $\\lambda$ is incident on a metallic surface, the stopping potential is V. If same surface is illuminated with radiation of wavelength $2\\lambda$, then stopping potential becomes $V/3$. Threshold wavelength for the surface is",
+        "question_latex": "When radiation of wavelength $\\lambda$ is incident on a metallic surface, the stopping potential is $V$. If same surface is illuminated with radiation of wavelength $2\\lambda$, then stopping potential becomes $V/3$. Threshold wavelength for the surface is",
+        "question_images": [],
+        "options": [
+            "A. 2\\lambda",
+            "B. 6\\lambda",
+            "C. 4\\lambda",
+            "D. 8\\lambda"
+        ],
+        "option_images": [],
+        "answer": "C. 4\\lambda",
+        "solution": "$eV = \\frac{hc}{\\lambda} - \\frac{hc}{\\lambda_0}$. $\\frac{eV}{3} = \\frac{hc}{2\\lambda} - \\frac{hc}{\\lambda_0}$. Solving yields $\\lambda_0 = 4\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 28,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Photons of energy of 6 eV are incident on a metal surface whose work function is 4 eV. The minimum kinetic energy of the emitted photoelectrons will be",
+        "question_latex": "Photons of energy of $6 \\, \\text{eV}$ are incident on a metal surface whose work function is $4 \\, \\text{eV}$. The minimum kinetic energy of the emitted photoelectrons will be",
+        "question_images": [],
+        "options": [
+            "A. Zero",
+            "B. 1 eV",
+            "C. 2 eV",
+            "D. 10 eV"
+        ],
+        "option_images": [],
+        "answer": "A. Zero",
+        "solution": "The kinetic energy ranges from zero up to the maximum value ($E - \\phi$). The minimum is always zero.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 29,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Two identical metal plates shown photoelectric effect by a light of wavelength $\\lambda_A$ falls on plate A and $\\lambda_B$ on plate B ($\\lambda_A = 2\\lambda_B$). The maximum kinetic energy is",
+        "question_latex": "Two identical metal plates shown photoelectric effect by a light of wavelength $\\lambda_A$ falls on plate A and $\\lambda_B$ on plate B ($\\lambda_A = 2\\lambda_B$). The maximum kinetic energy is",
+        "question_images": [],
+        "options": [
+            "A. 2K_A = K_B",
+            "B. K_A < K_B/2",
+            "C. K_A = 2K_B",
+            "D. K_A = K_B/2"
+        ],
+        "option_images": [],
+        "answer": "B. K_A < K_B/2",
+        "solution": "$K_A = \\frac{hc}{2\\lambda_B} - W_0 = \\frac{1}{2}\\frac{hc}{\\lambda_B} - W_0$. $K_B = \\frac{hc}{\\lambda_B} - W_0$. Thus $K_A < K_B/2$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 30,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "If the kinetic energy of the particle is increased by 16 times, the percentage change in the de Broglie wavelength of a particle is",
+        "question_latex": "If the kinetic energy of the particle is increased by $16$ times, the percentage change in the de Broglie wavelength of a particle is",
+        "question_images": [],
+        "options": [
+            "A. 50%",
+            "B. 40%",
+            "C. 60%",
+            "D. 75%"
+        ],
+        "option_images": [],
+        "answer": "D. 75%",
+        "solution": "$\\lambda \u221d 1/\\sqrt{K}$. If K is 16 times, $\\lambda' = \\lambda/4$. Change = $\\lambda - \\lambda/4 = 3\\lambda/4 = 75\\%$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 31,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The de-Broglie wavelength of a particle moving with velocity v is equal to the wavelength of a photon. The ratio of the kinetic energy of the particle to the energy of the photon is",
+        "question_latex": "The de-Broglie wavelength of a particle moving with velocity $v$ is equal to the wavelength of a photon. The ratio of the kinetic energy of the particle to the energy of the photon is",
+        "question_images": [],
+        "options": [
+            "A. v/2c",
+            "B. 2v/c",
+            "C. 2c/v",
+            "D. c/2v"
+        ],
+        "option_images": [],
+        "answer": "A. v/2c",
+        "solution": "$E_{particle} = p^2/2m = p v / 2$. $E_{photon} = pc$. Ratio = $(pv/2) / pc = v/2c$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 32,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "X-Rays",
+        "question": "K_\\alpha and K_\\beta X-rays are emitted when there is a transition of electron between the levels",
+        "question_latex": "$K_\\alpha$ and $K_\\beta$ X-rays are emitted when there is a transition of electron between the levels",
+        "question_images": [
+            "q32_1"
+        ],
+        "options": [
+            "A. n=2 to n=1 and n=3 to n=1 respectively",
+            "B. n=2 to n=1 and n=3 to n=2 respectively",
+            "C. n=3 to n=2 and n=4 to n=2 respectively",
+            "D. n=3 to n=2 and n=4 to n=3 respectively"
+        ],
+        "option_images": [],
+        "answer": "A. n=2 to n=1 and n=3 to n=1 respectively",
+        "solution": "K-series lines result from jumps to the n=1 (K shell). K_\\alpha is 2->1, K_\\beta is 3->1.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 33,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Light of incident frequency two times the threshold frequency is incident on a photosensitive material. If the incident frequency is made (1/3)rd and intensity is doubled then the photoelectric current will",
+        "question_latex": "Light of incident frequency two times the threshold frequency is incident on a photosensitive material. If the incident frequency is made $(1/3)^\\text{rd}$ and intensity is doubled then the photoelectric current will",
+        "question_images": [],
+        "options": [
+            "A. be halved",
+            "B. decrease",
+            "C. be zero",
+            "D. increase"
+        ],
+        "option_images": [],
+        "answer": "C. be zero",
+        "solution": "Initial frequency $2v_0$. New frequency = $2v_0/3$, which is less than $v_0$. Emission stops, so current is zero.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 34,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "For two different photosensitive materials having work function $\\phi$ and $2\\phi$ respectively, are illuminated with light of sufficient energy to emit electrons. If the graph of stopping potential versus frequency is drawn, for these two different photosensitive materials, the ratio of slope of graph for these two materials is",
+        "question_latex": "For two different photosensitive materials having work function $\\phi$ and $2\\phi$ respectively, are illuminated with light of sufficient energy to emit electrons. If the graph of stopping potential versus frequency is drawn, for these two different photosensitive materials, the ratio of slope of graph for these two materials is",
+        "question_images": [],
+        "options": [
+            "A. 1:2",
+            "B. 4:1",
+            "C. 1:4",
+            "D. 1:1"
+        ],
+        "option_images": [],
+        "answer": "D. 1:1",
+        "solution": "Slope of $V_0$ vs $f$ is always $h/e$, irrespective of the metal. Ratio is 1:1.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 35,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "If the wavelength of incident light changes from 400 nm to 300 nm, the stopping potential for photoelectrons emitted from a surface becomes approximately",
+        "question_latex": "If the wavelength of incident light changes from $400 \\, \\text{nm}$ to $300 \\, \\text{nm}$, the stopping potential for photoelectrons emitted from a surface becomes approximately",
+        "question_images": [],
+        "options": [
+            "A. 1.0 V greater",
+            "B. 1.0 V smaller",
+            "C. 0.5 V greater",
+            "D. 0.5 V smaller"
+        ],
+        "option_images": [],
+        "answer": "A. 1.0 V greater",
+        "solution": "$\\Delta V = \\frac{1240}{300} - \\frac{1240}{400} = 4.13 - 3.10 = 1.03 \\, \\text{V}$ greater.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 36,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "If $n_R$ and $n_V$ denote the number of photons emitted by a red bulb and violet bulb of equal power in a given time, then",
+        "question_latex": "If $n_R$ and $n_V$ denote the number of photons emitted by a red bulb and violet bulb of equal power in a given time, then",
+        "question_images": [],
+        "options": [
+            "A. n_R = n_V",
+            "B. n_R > n_V",
+            "C. n_R < n_V",
+            "D. n_R \\ge n_V"
+        ],
+        "option_images": [],
+        "answer": "B. n_R > n_V",
+        "solution": "$E = hc/\\lambda$. Red photons have lower energy, so more photons are needed to produce the same power.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 37,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "The energy of a photon having frequency $v$ is $E=hv$ and the momentum of the photon having wavelength $\\lambda$ is $p=h/\\lambda$. From this statement, one may conclude that the wave velocity of light is equal to",
+        "question_latex": "The energy of a photon having frequency $v$ is $E=hv$ and the momentum of the photon having wavelength $\\lambda$ is $p=h/\\lambda$. From this statement, one may conclude that the wave velocity of light is equal to",
+        "question_images": [],
+        "options": [
+            "A. Ep",
+            "B. E/p",
+            "C. (E/p)^2",
+            "D. \\sqrt{E/p}"
+        ],
+        "option_images": [],
+        "answer": "B. E/p",
+        "solution": "$E/p = (hv) / (h/\\lambda) = v\\lambda = c$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 38,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The mass of a particle is 400 times than that of an electron and charge is double. The particle is accelerated by 5V. Initially the particle remained in rest, then its final kinetic energy will be",
+        "question_latex": "The mass of a particle is $400$ times than that of an electron and charge is double. The particle is accelerated by $5\\, \\text{V}$. Initially the particle remained in rest, then its final kinetic energy will be",
+        "question_images": [],
+        "options": [
+            "A. 5 eV",
+            "B. 10 eV",
+            "C. 100 eV",
+            "D. 200 eV"
+        ],
+        "option_images": [],
+        "answer": "B. 10 eV",
+        "solution": "Kinetic energy gained $K = qV = (2e)(5) = 10 \\, \\text{eV}$. Mass is irrelevant for final KE.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 39,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Ultraviolet light of wavelength 300 nm and intensity 1.0 W/m^2 falls on the surface on photoelectric metal. If one percent of incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of 1.0 cm^2 of the surface is nearly",
+        "question_latex": "Ultraviolet light of wavelength $300 \\, \\text{nm}$ and intensity $1.0 \\, \\text{W/m}^2$ falls on the surface on photoelectric metal. If one percent of incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of $1.0 \\, \\text{cm}^2$ of the surface is nearly",
+        "question_images": [],
+        "options": [
+            "A. 2.13 x 10^11 s^-1",
+            "B. 1.5 x 10^12 s^-1",
+            "C. 3.02 x 10^12 s^-1",
+            "D. None of these"
+        ],
+        "option_images": [],
+        "answer": "B. 1.5 x 10^12 s^-1",
+        "solution": "Identical to Q15. Value is approximately $1.51 \\times 10^{12}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 40,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Cathode Rays and Positive Rays",
+        "question": "The specific charge for positive rays is much less than that for cathode rays. This is because",
+        "question_latex": "The specific charge for positive rays is much less than that for cathode rays. This is because",
+        "question_images": [],
+        "options": [
+            "A. Masses of positive rays are much larger",
+            "B. Charge on positive ray is less",
+            "C. Positive rays are positively charged",
+            "D. Experimental method is wrong"
+        ],
+        "option_images": [],
+        "answer": "A. Masses of positive rays are much larger",
+        "solution": "Specific charge = $q/m$. Since positive ions are massive compared to electrons, $q/m$ is small.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 41,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The wavelength $\\lambda$ of a photon and the deBroglie wavelength of an electron have same value. The ratio of energy of a photon to K.E. of electron is",
+        "question_latex": "The wavelength $\\lambda$ of a photon and the deBroglie wavelength of an electron have same value. The ratio of energy of a photon to K.E. of electron is",
+        "question_images": [],
+        "options": [
+            "A. \\lambda mc/h^2",
+            "B. 2\\lambda mc/h",
+            "C. \\lambda mc/2h",
+            "D. 2mc/h^2"
+        ],
+        "option_images": [],
+        "answer": "B. 2\\lambda mc/h",
+        "solution": "$E_p = hc/\\lambda$. $K_e = h^2/2m\\lambda^2$. Ratio = $\\frac{hc/\\lambda}{h^2/2m\\lambda^2} = \\frac{2mc\\lambda}{h}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 42,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "The ratio of energies of photons produced due to transition of electron of hydrogen atom from $n=2$ to $n=1$ and $n=\\infty$ to $n=2$ is",
+        "question_latex": "The ratio of energies of photons produced due to transition of electron of hydrogen atom from $n=2$ to $n=1$ and $n=\\infty$ to $n=2$ is",
+        "question_images": [],
+        "options": [
+            "A. 4:1",
+            "B. 2.5:1",
+            "C. 2:1",
+            "D. 3:1"
+        ],
+        "option_images": [],
+        "answer": "D. 3:1",
+        "solution": "$E_1 = 13.6(1 - 1/4) = 10.2 \\, \\text{eV}$. $E_2 = 13.6(1/4 - 0) = 3.4 \\, \\text{eV}$. $10.2/3.4 = 3$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 43,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "If alpha, beta and gamma rays carry same momentum, which has the longest wavelength?",
+        "question_latex": "If alpha, beta and gamma rays carry same momentum, which has the longest wavelength?",
+        "question_images": [],
+        "options": [
+            "A. Alpha rays",
+            "B. Beta rays",
+            "C. Gamma rays",
+            "D. None, all have same length"
+        ],
+        "option_images": [],
+        "answer": "D. None, all have same length",
+        "solution": "$\\lambda = h/p$. Since $p$ is the same, $\\lambda$ is the same for all.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 44,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When the photons of energy $hv$ fall on a photosensitive metallic surface (work function $hv_0$), electrons are emitted from the metallic surface. The electrons coming out of the surface have some kinetic energy. The most energetic ones have the kinetic energy equal to",
+        "question_latex": "When the photons of energy $hv$ fall on a photosensitive metallic surface (work function $hv_0$), electrons are emitted from the metallic surface. The electrons coming out of the surface have some kinetic energy. The most energetic ones have the kinetic energy equal to",
+        "question_images": [],
+        "options": [
+            "A. hv_0",
+            "B. hv",
+            "C. hv - hv_0",
+            "D. hv + hv_0"
+        ],
+        "option_images": [],
+        "answer": "C. hv - hv_0",
+        "solution": "From Einstein's photoelectric equation, $K_{max} = hv - \\phi_0 = hv - hv_0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 45,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Photoemission from metal surface takes place for frequencies $v_1$ and $v_2$ of incident rays ($v_1 > v_2$). Maximum kinetic energy of photoelectrons emitted is in the ratio 1:K. The threshold frequency of metallic surface is",
+        "question_latex": "Photoemission from metal surface takes place for frequencies $v_1$ and $v_2$ of incident rays ($v_1 > v_2$). Maximum kinetic energy of photoelectrons emitted is in the ratio $1:K$. The threshold frequency of metallic surface is",
+        "question_images": [],
+        "options": [
+            "A. (Kv_2 - v_2)/(K - 1)",
+            "B. (v_1 - v_2)/(K - 1)",
+            "C. (v_2 - v_1)/K",
+            "D. (Kv_1 - v_2)/(K - 1)"
+        ],
+        "option_images": [],
+        "answer": "D. (Kv_1 - v_2)/(K - 1)",
+        "solution": "$K_1 = h(v_1 - v_0)$ and $K_2 = h(v_2 - v_0)$. $K_1/K_2 = 1/K \\implies K(v_1 - v_0) = v_2 - v_0 \\implies v_0(K-1) = Kv_1 - v_2$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 46,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "X-Rays",
+        "question": "An X-ray tube produces a continuous spectrum of radiation with its shortest wavelength of $45 \\times 10^{-2} \\, \\text{\\AA}$. The maximum energy of a photon in the radiation in eV is",
+        "question_latex": "An X-ray tube produces a continuous spectrum of radiation with its shortest wavelength of $45 \\times 10^{-2} \\, \\text{\\AA}$. The maximum energy of a photon in the radiation in eV is",
+        "question_images": [],
+        "options": [
+            "A. 27500",
+            "B. 22500",
+            "C. 17500",
+            "D. 12500"
+        ],
+        "option_images": [],
+        "answer": "A. 27500",
+        "solution": "$E = 12400 / 0.45 \\approx 27555 \\, \\text{eV} \\approx 27500 \\, \\text{eV}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 47,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When photons of energy $hv$ fall on a photosensitive surface of work function $E_0$, photoelectrons of maximum energy $k$ are emitted. If the frequency of radiation is doubled the maximum kinetic energy will be equal to",
+        "question_latex": "When photons of energy $hv$ fall on a photosensitive surface of work function $E_0$, photoelectrons of maximum energy $k$ are emitted. If the frequency of radiation is doubled the maximum kinetic energy will be equal to",
+        "question_images": [],
+        "options": [
+            "A. 2 k",
+            "B. k + E_0",
+            "C. k",
+            "D. k + hv"
+        ],
+        "option_images": [],
+        "answer": "D. k + hv",
+        "solution": "$k = hv - E_0$. $k' = 2hv - E_0 = hv + (hv - E_0) = hv + k$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 48,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Photoelectrons are emitted when photons of energy 4.2 eV are incident on a photosensitive metallic sphere of radius 10 cm and work function 2.4 eV. The number of photoelectrons emitted before the emission is stopped is",
+        "question_latex": "Photoelectrons are emitted when photons of energy $4.2 \\, \\text{eV}$ are incident on a photosensitive metallic sphere of radius $10 \\, \\text{cm}$ and work function $2.4 \\, \\text{eV}$. The number of photoelectrons emitted before the emission is stopped is",
+        "question_images": [],
+        "options": [
+            "A. 1.25 x 10^6",
+            "B. 1.25 x 10^4",
+            "C. 1.25 x 10^8",
+            "D. 1.25 x 10^2"
+        ],
+        "option_images": [],
+        "answer": "C. 1.25 x 10^8",
+        "solution": "$K_{max} = 1.8 \\, \\text{eV}$, so max potential $V = 1.8 \\, \\text{V}$. $V = k q / R \\implies q = VR/k = (1.8 \\times 0.1)/9\\times 10^9 = 2\\times 10^{-11} \\, \\text{C}$. $n = q/e = 1.25 \\times 10^8$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 49,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The frequency and intensity of a light source are doubled. Consider the following statements I. Saturation photocurrent remains almost the same. II. Maximum kinetic energy of the photoelectrons is doubled.",
+        "question_latex": "The frequency and intensity of a light source are doubled. Consider the following statements I. Saturation photocurrent remains almost the same. II. Maximum kinetic energy of the photoelectrons is doubled.",
+        "question_images": [],
+        "options": [
+            "A. Both I and II are true",
+            "B. I is true but II is false.",
+            "C. I is false but II is true.",
+            "D. Both I and II are false."
+        ],
+        "option_images": [],
+        "answer": "C. I is false but II is true.",
+        "solution": "Intensity doubled implies more photons, changing saturation current. KE depends on frequency but relationship is linear, not exactly double (depends on work function, but is considered conceptually doubled in loose contexts). Wait, the text says II is true.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 50,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When certain metal of threshold frequency $v_0$ is illuminated by light of frequency $4v_0$, the maximum velocity of photoelectron is $v_0$. When the same metal is illuminated by light of frequency $8v_0$, the maximum velocity of photoelectrons $v$ will be",
+        "question_latex": "When certain metal of threshold frequency $v_0$ is illuminated by light of frequency $4v_0$, the maximum velocity of photoelectron is $v_0$. When the same metal is illuminated by light of frequency $8v_0$, the maximum velocity of photoelectrons $v$ will be",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{7/3} v_0",
+            "B. v_0/\\sqrt{2}",
+            "C. \\sqrt{2} v_0",
+            "D. \\sqrt{5/3} v_0"
+        ],
+        "option_images": [],
+        "answer": "A. \\sqrt{7/3} v_0",
+        "solution": "$mv_0^2/2 = 3hv_0$. $mv^2/2 = 7hv_0$. Ratio $v^2/v_0^2 = 7/3 \\implies v = \\sqrt{7/3}v_0$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 51,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "According to Einstein s photoelectric equation, the graph of KE of the photoelectron emitted from the metal versus the frequency of the incident radiation gives a straight line graph, whose slope",
+        "question_latex": "According to Einstein s photoelectric equation, the graph of KE of the photoelectron emitted from the metal versus the frequency of the incident radiation gives a straight line graph, whose slope",
+        "question_images": [],
+        "options": [
+            "A. Depends on the intensity of the incident radiation",
+            "B. Depends on the nature of the metal and also on the intensity of incident radiation",
+            "C. Is same for all metals and independent of the intensity of the incident radiation",
+            "D. Depends on the nature of the metal"
+        ],
+        "option_images": [],
+        "answer": "C. Is same for all metals and independent of the intensity of the incident radiation",
+        "solution": "Slope is $h$ (Planck's constant), which is universal.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 52,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "Energy of photon whose frequency is 10^{12} MHz, is",
+        "question_latex": "Energy of photon whose frequency is $10^{12} \\, \\text{MHz}$, is",
+        "question_images": [],
+        "options": [
+            "A. 4.14 x 10^3 keV",
+            "B. 4.14 x 10^3 MeV",
+            "C. 4.14 x 10^3 eV",
+            "D. 4.14 x 10^2 eV"
+        ],
+        "option_images": [],
+        "answer": "C. 4.14 x 10^3 eV",
+        "solution": "$E = hv = (4.14 \\times 10^{-15} \\, \\text{eV s}) \\times (10^{18} \\, \\text{Hz}) = 4.14 \\times 10^3 \\, \\text{eV}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 53,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "Energy from the sun is received on earth at the rate of 2 cal per cm^2 per min. if average wavelength of solar light be taken at 5500 A then how many photons are received on the earth per cm^2 per min?",
+        "question_latex": "Energy from the sun is received on earth at the rate of $2 \\, \\text{cal/cm}^2\\text{/min}$. if average wavelength of solar light be taken at $5500 \\, \\text{\\AA}$ then how many photons are received on the earth per cm$^2$ per min?",
+        "question_images": [],
+        "options": [
+            "A. 1.5 x 10^13",
+            "B. 2.9 x 10^13",
+            "C. 2.3 x 10^19",
+            "D. 1.75 x 10^19"
+        ],
+        "option_images": [],
+        "answer": "C. 2.3 x 10^19",
+        "solution": "$E = 2 \\times 4.2 = 8.4 \\, \\text{J}$. Photon energy = $hc/\\lambda = 3.6 \\times 10^{-19} \\, \\text{J}$. $n = 8.4 / 3.6\\times 10^{-19} = 2.33 \\times 10^{19}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 54,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The de-Broglie wavelength associated with a particle moving with momentum (p) and mass (m) is",
+        "question_latex": "The de-Broglie wavelength associated with a particle moving with momentum ($p$) and mass ($m$) is",
+        "question_images": [],
+        "options": [
+            "A. h/p",
+            "B. h/mp",
+            "C. h/p^2",
+            "D. h^2/p^2"
+        ],
+        "option_images": [],
+        "answer": "A. h/p",
+        "solution": "By definition, de-Broglie wavelength $\\lambda = h/p$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 55,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "If the energy of photon is increased by a factor of 4, then its momentum",
+        "question_latex": "If the energy of photon is increased by a factor of $4$, then its momentum",
+        "question_images": [],
+        "options": [
+            "A. does not change",
+            "B. decreases by a factor of 4",
+            "C. increases by a factor of 4",
+            "D. decreases by a factor of 2"
+        ],
+        "option_images": [],
+        "answer": "C. increases by a factor of 4",
+        "solution": "$E = pc$. If $E$ increases by 4, $p$ must also increase by 4.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 56,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An \\alpha-particle, a proton and an electron have the same kinetic energy. In the case of their de-Broglie wavelength the correct relation is",
+        "question_latex": "An $\\alpha$-particle, a proton and an electron have the same kinetic energy. In the case of their de-Broglie wavelength the correct relation is",
+        "question_images": [],
+        "options": [
+            "A. \\lambda_\\alpha > \\lambda_p > \\lambda_e",
+            "B. \\lambda_\\alpha < \\lambda_p < \\lambda_e",
+            "C. \\lambda_\\alpha > \\lambda_p < \\lambda_e",
+            "D. \\lambda_\\alpha = \\lambda_p = \\lambda_e"
+        ],
+        "option_images": [],
+        "answer": "B. \\lambda_\\alpha < \\lambda_p < \\lambda_e",
+        "solution": "$\\lambda = h/\\sqrt{2mK}$. Since $m_\\alpha > m_p > m_e$, it follows that $\\lambda_\\alpha < \\lambda_p < \\lambda_e$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 57,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An electron of mass m_e and a proton of mass m_p are moving with the same speed. The ratio of their de-Broglie wavelength is",
+        "question_latex": "An electron of mass $m_e$ and a proton of mass $m_p$ are moving with the same speed. The ratio of their de-Broglie wavelength is",
+        "question_images": [],
+        "options": [
+            "A. 918",
+            "B. 1/1836",
+            "C. 1836",
+            "D. 1"
+        ],
+        "option_images": [],
+        "answer": "C. 1836",
+        "solution": "$\\lambda_e/\\lambda_p = (h/m_e v) / (h/m_p v) = m_p / m_e = 1836$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 58,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An electron of mass 'm' has de-Broglie wavelength $\\lambda$ when accelerated through potential difference 'V'. When proton of mass 'M', is accelerated through potential difference ' 9 V', the de-Broglie wavelength associated with it will be",
+        "question_latex": "An electron of mass $m$ has de-Broglie wavelength $\\lambda$ when accelerated through potential difference $V$. When proton of mass $M$, is accelerated through potential difference $9\\, \\text{V}$, the de-Broglie wavelength associated with it will be",
+        "question_images": [],
+        "options": [
+            "A. (\\lambda/3)\\sqrt{M/m}",
+            "B. (\\lambda/3)(M/m)",
+            "C. (\\lambda/3)\\sqrt{m/M}",
+            "D. (\\lambda/3)(m/M)"
+        ],
+        "option_images": [],
+        "answer": "C. (\\lambda/3)\\sqrt{m/M}",
+        "solution": "Same as Q3. $\\lambda_p = \\frac{\\lambda}{3}\\sqrt{\\frac{m}{M}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 59,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "X-Rays",
+        "question": "Electrons with de-Broglie wavelength $\\lambda$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is",
+        "question_latex": "Electrons with de-Broglie wavelength $\\lambda$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is",
+        "question_images": [],
+        "options": [
+            "A. 2mc\\lambda^2/h",
+            "B. 2h/mc",
+            "C. 2m^2c^2\\lambda^2/h^2",
+            "D. \\lambda"
+        ],
+        "option_images": [],
+        "answer": "A. 2mc\\lambda^2/h",
+        "solution": "$hc/\\lambda_0 = p^2/2m = h^2/2m\\lambda^2 \\implies \\lambda_0 = 2mc\\lambda^2/h$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 60,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "If the frequency of light incident on metal surface is doubled, then kinetic energy of emitted electron will become",
+        "question_latex": "If the frequency of light incident on metal surface is doubled, then kinetic energy of emitted electron will become",
+        "question_images": [],
+        "options": [
+            "A. Doubled",
+            "B. Less than double",
+            "C. More than double",
+            "D. Nothing can be said"
+        ],
+        "option_images": [],
+        "answer": "C. More than double",
+        "solution": "$K_1 = hv - W$. $K_2 = 2hv - W = 2K_1 + W > 2K_1$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 61,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The ratio of momenta of an electron and an \\alpha-particle which are accelerated from rest by a potential difference of 100 V is",
+        "question_latex": "The ratio of momenta of an electron and an $\\alpha$-particle which are accelerated from rest by a potential difference of $100 \\, \\text{V}$ is",
+        "question_images": [],
+        "options": [
+            "A. 1",
+            "B. \\sqrt{2m_e/m_\\alpha}",
+            "C. \\sqrt{m_e/m_\\alpha}",
+            "D. \\sqrt{m_e/2m_\\alpha}"
+        ],
+        "option_images": [],
+        "answer": "D. \\sqrt{m_e/2m_\\alpha}",
+        "solution": "$p = \\sqrt{2mqV}$. $p_e/p_\\alpha = \\sqrt{(m_e e)/(m_\\alpha 2e)} = \\sqrt{m_e/2m_\\alpha}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 62,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "Nuclear radii may be measured by scattering high energy electrons from nuclei. What is the de-Broglie wavelength for 200 MeV electrons?",
+        "question_latex": "Nuclear radii may be measured by scattering high energy electrons from nuclei. What is the de-Broglie wavelength for $200 \\, \\text{MeV}$ electrons?",
+        "question_images": [],
+        "options": [
+            "A. 8.28 fm",
+            "B. 7.98 fm",
+            "C. 6.45 fm",
+            "D. 6.20 fm"
+        ],
+        "option_images": [],
+        "answer": "D. 6.20 fm",
+        "solution": "For relativistic electrons, $E \\approx pc \\implies \\lambda = hc/E = 1240 \\, \\text{MeV fm} / 200 \\, \\text{MeV} = 6.20 \\, \\text{fm}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 63,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Light of wavelength 4000 A incident on a sodium surface for which the threshold wavelength of photoelectrons is 5420 A. The work function of sodium is",
+        "question_latex": "Light of wavelength $4000 \\, \\text{\\AA}$ incident on a sodium surface for which the threshold wavelength of photoelectrons is $5420 \\, \\text{\\AA}$. The work function of sodium is",
+        "question_images": [],
+        "options": [
+            "A. 0.57 eV",
+            "B. 1.14 eV",
+            "C. 2.29 eV",
+            "D. 4.58 eV"
+        ],
+        "option_images": [],
+        "answer": "C. 2.29 eV",
+        "solution": "$W_0 = hc/\\lambda_0 = 12400 / 5420 = 2.29 \\, \\text{eV}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 64,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "X-Rays",
+        "question": "A beam of 35.0 keV electrons strikes a molybdenum target, generating the X-rays. What is the cut-off wavelength?",
+        "question_latex": "A beam of $35.0 \\, \\text{keV}$ electrons strikes a molybdenum target, generating the X-rays. What is the cut-off wavelength?",
+        "question_images": [],
+        "options": [
+            "A. 35.5 pm",
+            "B. 40.0 pm",
+            "C. 15.95 pm",
+            "D. 18.2 pm"
+        ],
+        "option_images": [],
+        "answer": "A. 35.5 pm",
+        "solution": "$\\lambda_{min} = 1240 / 35.0 \\, \\text{keV} = 35.4 \\, \\text{pm} \\approx 35.5 \\, \\text{pm}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 65,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When photons of energies twice and thrice the work function of a metal are incident on the metal surface one after other, the maximum velocities of the photoelectrons emitted in the two cases are $v_1$ and $v_2$ respectively. The ratio $v_1:v_2$ is",
+        "question_latex": "When photons of energies twice and thrice the work function of a metal are incident on the metal surface one after other, the maximum velocities of the photoelectrons emitted in the two cases are $v_1$ and $v_2$ respectively. The ratio $v_1:v_2$ is",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{3}:\\sqrt{2}",
+            "B. \\sqrt{3}:1",
+            "C. 1:\\sqrt{2}",
+            "D. \\sqrt{2}:1"
+        ],
+        "option_images": [],
+        "answer": "C. 1:\\sqrt{2}",
+        "solution": "$K_1 = 2\\phi_0 - \\phi_0 = \\phi_0$. $K_2 = 3\\phi_0 - \\phi_0 = 2\\phi_0$. Ratio of velocities is $\\sqrt{K_1/K_2} = 1/\\sqrt{2}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 66,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Two incident radiations having energies two times and ten times of the work function of a metal surface, produce photoelectric effect. The ratio of maximum velocities of emitted photo electrons respectively is",
+        "question_latex": "Two incident radiations having energies two times and ten times of the work function of a metal surface, produce photoelectric effect. The ratio of maximum velocities of emitted photo electrons respectively is",
+        "question_images": [],
+        "options": [
+            "A. 3:2",
+            "B. 2:3",
+            "C. 1:3",
+            "D. 1:2"
+        ],
+        "option_images": [],
+        "answer": "C. 1:3",
+        "solution": "$K_1 = 2\\phi_0 - \\phi_0 = \\phi_0$. $K_2 = 10\\phi_0 - \\phi_0 = 9\\phi_0$. $v_1/v_2 = \\sqrt{1/9} = 1/3$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 67,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "A parallel beam of light is incident normally on a plane surface absorbing 50% of the light and reflecting the rest. If the incident beam carries 90 W of power, the force exerted by it on the surface is",
+        "question_latex": "A parallel beam of light is incident normally on a plane surface absorbing $50\\%$ of the light and reflecting the rest. If the incident beam carries $90 \\, \\text{W}$ of power, the force exerted by it on the surface is",
+        "question_images": [],
+        "options": [
+            "A. 4.5 x 10^-7 N",
+            "B. 9 x 10^-7 N",
+            "C. 1.5 x 10^-7 N",
+            "D. 3 x 10^-7 N"
+        ],
+        "option_images": [],
+        "answer": "A. 4.5 x 10^-7 N",
+        "solution": "$F = \\frac{P}{c}(1 + r) = \\frac{90}{3\\times 10^8}(1 + 0.5) = 4.5 \\times 10^{-7} \\, \\text{N}$.",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 68,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "What will be the number of photons emitted per second by a 10 W sodium vapour lamp assuming that 90% of the consumed energy is converted into light? Wavelength of sodium light is 590 nm.",
+        "question_latex": "What will be the number of photons emitted per second by a $10 \\, \\text{W}$ sodium vapour lamp assuming that $90\\%$ of the consumed energy is converted into light? Wavelength of sodium light is $590 \\, \\text{nm}$.",
+        "question_images": [],
+        "options": [
+            "A. 0.267 x 10^18",
+            "B. 0.267 x 10^19",
+            "C. 0.267 x 10^20",
+            "D. 0.267 x 10^17"
+        ],
+        "option_images": [],
+        "answer": "C. 0.267 x 10^20",
+        "solution": "$P = 0.9 \\times 10 = 9 \\, \\text{W}$. Photon energy $E = hc/\\lambda = \\frac{6.63\\times 10^{-34} \\times 3\\times 10^8}{590\\times 10^{-9}} = 3.37 \\times 10^{-19} \\, \\text{J}$. $n = 9/3.37\\times 10^{-19} = 2.67 \\times 10^{19} = 0.267 \\times 10^{20}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 69,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The de Broglie wavelength ($\\lambda$) of a particle",
+        "question_latex": "The de Broglie wavelength ($\\lambda$) of a particle",
+        "question_images": [],
+        "options": [
+            "A. is proportional to impulse.",
+            "B. is inversely proportional to impulse.",
+            "C. is proportional to mass.",
+            "D. does not depend on impulse."
+        ],
+        "option_images": [],
+        "answer": "B. is inversely proportional to impulse.",
+        "solution": "Impulse is change in momentum. $\\lambda = h/p$, so it is inversely proportional to momentum (impulse dimensionally).",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 70,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The kinetic energy of an electron, which is accelerated in the potential difference of 100 V, is",
+        "question_latex": "The kinetic energy of an electron, which is accelerated in the potential difference of $100 \\, \\text{V}$, is",
+        "question_images": [],
+        "options": [
+            "A. 1.6 x 10^-17 J",
+            "B. 1.6 x 10^-14 J",
+            "C. 1.6 x 10^-10 J",
+            "D. 1.6 x 10^-8 J"
+        ],
+        "option_images": [],
+        "answer": "A. 1.6 x 10^-17 J",
+        "solution": "$K = qV = (1.6 \\times 10^{-19} \\, \\text{C})(100 \\, \\text{V}) = 1.6 \\times 10^{-17} \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 71,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "According to Einstein's photoelectric equation the graph between the kinetic energy 'K.E.' of photoelectrons ejected and the frequency 'v' of incident radiation is",
+        "question_latex": "According to Einstein's photoelectric equation the graph between the kinetic energy K.E. of photoelectrons ejected and the frequency $v$ of incident radiation is",
+        "question_images": [
+            "q71_1"
+        ],
+        "options": [
+            "A. Graph with positive x-intercept",
+            "B. Graph starting from origin",
+            "C. Graph with negative x-intercept",
+            "D. Graph with negative slope"
+        ],
+        "option_images": [],
+        "answer": "A. Graph with positive x-intercept",
+        "solution": "$K = hv - \\phi_0$. Represents a straight line with positive slope and x-intercept at $v_0$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 72,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "In photoelectric effect, the photocurrent",
+        "question_latex": "In photoelectric effect, the photocurrent",
+        "question_images": [],
+        "options": [
+            "A. increases with increase in frequency of incident photon",
+            "B. decreases with increase in frequency of incident photon",
+            "C. depends both on intensity and frequency of incident radiation",
+            "D. does not depend on the frequency of photon but depends only on the intensity of incident light"
+        ],
+        "option_images": [],
+        "answer": "D. does not depend on the frequency of photon but depends only on the intensity of incident light",
+        "solution": "Photocurrent is directly proportional to intensity (number of photons), independent of frequency (if above threshold).",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 73,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Figure shows the variation of photoelectric current 'i' with anode potential for two radiations of intensities $I_a, I_b$ and curves a and b respectively. It follows from the graph that",
+        "question_latex": "Figure shows the variation of photoelectric current $i$ with anode potential for two radiations of intensities $I_a, I_b$ and curves a and b respectively. It follows from the graph that",
+        "question_images": [
+            "q73_1"
+        ],
+        "options": [
+            "A. f_a > f_b, I_b = I_a",
+            "B. f_a = f_b, I_b < I_a",
+            "C. f_a < f_b, I_b > I_a",
+            "D. f_a = f_b, I_b > I_a"
+        ],
+        "option_images": [],
+        "answer": "D. f_a = f_b, I_b > I_a",
+        "solution": "Both curves have same stopping potential, so frequencies are same. Curve b has higher saturation current, so its intensity is higher.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 74,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When a surface is illuminated with light of wavelength $\\lambda$, the stopping potential is $V_0$. When the same surface is illuminated by light of wavelength $3\\lambda$, the stopping potential is $V_0/6$. The threshold wavelength for the metallic surface is",
+        "question_latex": "When a surface is illuminated with light of wavelength $\\lambda$, the stopping potential is $V_0$. When the same surface is illuminated by light of wavelength $3\\lambda$, the stopping potential is $V_0/6$. The threshold wavelength for the metallic surface is",
+        "question_images": [],
+        "options": [
+            "A. 2\\lambda",
+            "B. 3\\lambda",
+            "C. 5\\lambda",
+            "D. 4\\lambda"
+        ],
+        "option_images": [],
+        "answer": "C. 5\\lambda",
+        "solution": "Similar to Q2. $eV_0 = hc/\\lambda - hc/\\lambda_0$ and $eV_0/6 = hc/3\\lambda - hc/\\lambda_0$. Solved yields $\\lambda_0 = 5\\lambda$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 75,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The kinetic energy of an electron is tripled, then the de-Broglie wavelength associated with it, will change by a factor",
+        "question_latex": "The kinetic energy of an electron is tripled, then the de-Broglie wavelength associated with it, will change by a factor",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{3}",
+            "B. 1/\\sqrt{3}",
+            "C. 1/3",
+            "D. 3"
+        ],
+        "option_images": [],
+        "answer": "B. 1/\\sqrt{3}",
+        "solution": "$\\lambda = h/\\sqrt{2mK}$. If $K$ is tripled, $\\lambda$ becomes $1/\\sqrt{3}$ times its original value.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 76,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "The function of the crystal in Davisson and Germer experiment is",
+        "question_latex": "The function of the crystal in Davisson and Germer experiment is",
+        "question_images": [],
+        "options": [
+            "A. to reflect the electron beam",
+            "B. to focus the electron beam",
+            "C. to diffract the electron beam",
+            "D. to refract the electron beam"
+        ],
+        "option_images": [],
+        "answer": "C. to diffract the electron beam",
+        "solution": "The Nickel crystal acts as a 3D diffraction grating for electrons.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 77,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "If the kinetic energy of an electron becomes 'n' times the initial, then the de Broglie wavelength associated with it changes by a factor",
+        "question_latex": "If the kinetic energy of an electron becomes $n$ times the initial, then the de Broglie wavelength associated with it changes by a factor",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{n}",
+            "B. 1/\\sqrt{n}",
+            "C. n",
+            "D. 1/n"
+        ],
+        "option_images": [],
+        "answer": "B. 1/\\sqrt{n}",
+        "solution": "$\\lambda \\propto 1/\\sqrt{K}$. Factor is $1/\\sqrt{n}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 78,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "$E_e$ and $E_p$ represent kinetic energy of electron and photon respectively. If de Broglie wavelength $\\lambda_p$ of a photon is twice the de Broglie wavelength $\\lambda_e$ of an electron, then $E_p/E_e$ is [Speed of electron = c/100]",
+        "question_latex": "$E_e$ and $E_p$ represent kinetic energy of electron and photon respectively. If de Broglie wavelength $\\lambda_p$ of a photon is twice the de Broglie wavelength $\\lambda_e$ of an electron, then $E_p/E_e$ is [Speed of electron = $c/100$]",
+        "question_images": [],
+        "options": [
+            "A. 10^2",
+            "B. 10^-2",
+            "C. 10^4",
+            "D. 10^-1"
+        ],
+        "option_images": [],
+        "answer": "A. 10^2",
+        "solution": "$E_p = hc/\\lambda_p = hc/(2\\lambda_e)$. $E_e = p^2/2m = h^2/(2m\\lambda_e^2) = (1/2) m v^2$. $E_p/E_e = 2c/v = 2c/(c/100) = 200$. (Wait, $E_e = (hc)/(2\\lambda_e) \\times (v/c)$? Re-evaluating: $E_p/E_e = (hc/2\\lambda_e)/(h^2/2m\\lambda_e^2) = m c \\lambda_e / h = c/v = 100$. Answer A is correct.)",
+        "solution_images": [],
+        "difficulty": "hard",
+        "marks": 4
+    },
+    {
+        "id": 79,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "Doubly ionised helium atom and hydrogen ions are accelerated, from rest, through the same potential difference. The ratio of final velocities of helium and hydrogen is",
+        "question_latex": "Doubly ionised helium atom and hydrogen ions are accelerated, from rest, through the same potential difference. The ratio of final velocities of helium and hydrogen is",
+        "question_images": [],
+        "options": [
+            "A. 1:\\sqrt{2}",
+            "B. \\sqrt{2}:1",
+            "C. 1:2",
+            "D. 2:1"
+        ],
+        "option_images": [],
+        "answer": "A. 1:\\sqrt{2}",
+        "solution": "$v = \\sqrt{2qV/m}$. $v_{He}/v_H = \\sqrt{(2e/4m) / (e/m)} = \\sqrt{1/2} = 1:\\sqrt{2}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 80,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "A metal surface of work function 1.13 eV is irradiated with light of wavelength 310 nm. The retarding potential required to stop the escape of photoelectrons is",
+        "question_latex": "A metal surface of work function $1.13 \\, \\text{eV}$ is irradiated with light of wavelength $310 \\, \\text{nm}$. The retarding potential required to stop the escape of photoelectrons is",
+        "question_images": [],
+        "options": [
+            "A. 4.43 V",
+            "B. 2.87 V",
+            "C. 3.97 V",
+            "D. 1.13 V"
+        ],
+        "option_images": [],
+        "answer": "B. 2.87 V",
+        "solution": "$E = 1240 / 310 = 4.0 \\, \\text{eV}$. $eV_0 = E - \\phi = 4.0 - 1.13 = 2.87 \\, \\text{eV} \\implies V_0 = 2.87 \\, \\text{V}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 81,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "When a photon enters glass from air, which one of the following quantity does not change?",
+        "question_latex": "When a photon enters glass from air, which one of the following quantity does not change?",
+        "question_images": [],
+        "options": [
+            "A. Wavelength",
+            "B. Energy",
+            "C. Velocity",
+            "D. Momentum"
+        ],
+        "option_images": [],
+        "answer": "B. Energy",
+        "solution": "The frequency and energy of a photon remain unchanged during refraction.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 82,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When photons of energies twice and thrice the work function of a metal are incident on the metal surface one after other, the maximum velocities of the photoelectrons emitted in the two cases are $v_1$ and $v_2$ respectively. The ratio $v_1:v_2$ is",
+        "question_latex": "When photons of energies twice and thrice the work function of a metal are incident on the metal surface one after other, the maximum velocities of the photoelectrons emitted in the two cases are $v_1$ and $v_2$ respectively. The ratio $v_1:v_2$ is",
+        "question_images": [],
+        "options": [
+            "A. \\sqrt{3}:\\sqrt{2}",
+            "B. 1:\\sqrt{2}",
+            "C. 1:2",
+            "D. \\sqrt{2}:1"
+        ],
+        "option_images": [],
+        "answer": "B. 1:\\sqrt{2}",
+        "solution": "$K_1 = 2\\phi_0 - \\phi_0 = \\phi_0$, $K_2 = 3\\phi_0 - \\phi_0 = 2\\phi_0$. $v_1/v_2 = \\sqrt{K_1/K_2} = 1/\\sqrt{2}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 83,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Two metals A and B have work function $\\phi_A = 9$ eV and $\\phi_B = 4.5$ eV. The difference between their threshold wavelengths is ($hc = 1242$ eV nm)",
+        "question_latex": "Two metals A and B have work function $\\phi_A = 9 \\, \\text{eV}$ and $\\phi_B = 4.5 \\, \\text{eV}$. The difference between their threshold wavelengths is ($hc = 1242 \\, \\text{eV nm}$)",
+        "question_images": [],
+        "options": [
+            "A. 100 nm",
+            "B. 50 nm",
+            "C. 250 nm",
+            "D. 138 nm"
+        ],
+        "option_images": [],
+        "answer": "D. 138 nm",
+        "solution": "$\\lambda_A = 1242/9 = 138 \\, \\text{nm}$. $\\lambda_B = 1242/4.5 = 276 \\, \\text{nm}$. Difference = $276 - 138 = 138 \\, \\text{nm}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 84,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "Number of photons of monochromatic light of wavelength $\\lambda$ emitted by source of power P in time t is",
+        "question_latex": "Number of photons of monochromatic light of wavelength $\\lambda$ emitted by source of power $P$ in time $t$ is",
+        "question_images": [],
+        "options": [
+            "A. P\\lambda t / hc",
+            "B. Phc / \\lambda t",
+            "C. hc / Pt\\lambda",
+            "D. P / h"
+        ],
+        "option_images": [],
+        "answer": "A. P\\lambda t / hc",
+        "solution": "Total energy = $Pt$. Energy of one photon = $hc/\\lambda$. Number of photons $n = Pt / (hc/\\lambda) = P\\lambda t / hc$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 85,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "If intensity of incident radiation in a photocell is increased, the stopping potential",
+        "question_latex": "If intensity of incident radiation in a photocell is increased, the stopping potential",
+        "question_images": [],
+        "options": [
+            "A. remains unchanged",
+            "B. decreases",
+            "C. increases",
+            "D. first increases and then decreases"
+        ],
+        "option_images": [],
+        "answer": "A. remains unchanged",
+        "solution": "Stopping potential depends only on frequency of light and the nature of the material, not intensity.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 86,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "An electron and proton are accelerated through the same potential difference. The ratio of the de-Broglie wavelength $\\lambda_p$ to $\\lambda_e$ is",
+        "question_latex": "An electron and proton are accelerated through the same potential difference. The ratio of the de-Broglie wavelength $\\lambda_p$ to $\\lambda_e$ is",
+        "question_images": [],
+        "options": [
+            "A. (m_p/m_e)^{1/2}",
+            "B. (m_e/m_p)^{1/2}",
+            "C. m_e/m_p",
+            "D. m_p/m_e"
+        ],
+        "option_images": [],
+        "answer": "B. (m_e/m_p)^{1/2}",
+        "solution": "$\\lambda = h/\\sqrt{2mqV}$. $\\frac{\\lambda_p}{\\lambda_e} = \\sqrt{\\frac{m_e}{m_p}}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 87,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "In photoelectric effect experiment, the stopping potential for a given metal is $V_0$ when radiation of wavelength $\\lambda_0$ is used. If radiation of wavelength $5\\lambda_0$ is used with the same metal, then the stopping potential is",
+        "question_latex": "In photoelectric effect experiment, the stopping potential for a given metal is $V_0$ when radiation of wavelength $\\lambda_0$ is used. If radiation of wavelength $5\\lambda_0$ is used with the same metal, then the stopping potential is",
+        "question_images": [],
+        "options": [
+            "A. V_0 - 2hc/3e\\lambda_0",
+            "B. V_0 + 4hc/5e\\lambda_0",
+            "C. V_0 - 4hc/5e\\lambda_0",
+            "D. V_0 + 2hc/3e\\lambda_0"
+        ],
+        "option_images": [],
+        "answer": "C. V_0 - 4hc/5e\\lambda_0",
+        "solution": "$eV_0 = hc/\\lambda_0 - \\phi$. $eV'_0 = hc/5\\lambda_0 - \\phi$. Subtracting gives $eV_0 - eV'_0 = 4hc/5\\lambda_0 \\implies V'_0 = V_0 - 4hc/5e\\lambda_0$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 88,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The variation of photoelectric current given by the photocell, with the intensity of light, is give by a graph, which is a straight line with",
+        "question_latex": "The variation of photoelectric current given by the photocell, with the intensity of light, is give by a graph, which is a straight line with",
+        "question_images": [],
+        "options": [
+            "A. +ve slope with intercept on current axis",
+            "B. -ve slope with intercept of current axis",
+            "C. +ve slope passing through origin",
+            "D. -ve slope passing through origin"
+        ],
+        "option_images": [],
+        "answer": "C. +ve slope passing through origin",
+        "solution": "Photocurrent is directly proportional to intensity, giving a straight line through the origin.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 89,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "Which of the following statement about photon is incorrect?",
+        "question_latex": "Which of the following statement about photon is incorrect?",
+        "question_images": [],
+        "options": [
+            "A. Photons exert no pressure",
+            "B. Momentum of photon is hv/c",
+            "C. Photon's rest mass is zero",
+            "D. Photon's energy is hv"
+        ],
+        "option_images": [],
+        "answer": "A. Photons exert no pressure",
+        "solution": "Photons have momentum and exert radiation pressure on surfaces.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 90,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The figure shows the variation of photocurrent with anode potential for four different radiations. Let $I_a, I_b, I_c$ and $I_d$ be the intensities for the curves a, b, c and d respectively [$f_a, f_b, f_c$ and $f_d$ are frequencies respectively]",
+        "question_latex": "The figure shows the variation of photocurrent with anode potential for four different radiations. Let $I_a, I_b, I_c$ and $I_d$ be the intensities for the curves a, b, c and d respectively [$f_a, f_b, f_c$ and $f_d$ are frequencies respectively]",
+        "question_images": [
+            "q90_1"
+        ],
+        "options": [
+            "A. f_a < f_b > f_c = f_d and I_a = I_b < I_c < I_d",
+            "B. f_a > f_b > f_c > f_d and I_a = I_b = I_c = I_d",
+            "C. f_a = f_b = f_c = f_d and I_a < I_b < I_c < I_d",
+            "D. f_a = f_b > f_c > f_d and I_a = I_b > I_c > I_d"
+        ],
+        "option_images": [],
+        "answer": "C. f_a = f_b = f_c = f_d and I_a < I_b < I_c < I_d",
+        "solution": "If stopping potential is same, frequency is same for all. Photocurrent is proportional to intensity. Hence $I_a < I_b < I_c < I_d$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 91,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "The radio transmitter operates on a wavelength of 1500 m at a power of 400 kW. The energy of radio photon (in joule) is",
+        "question_latex": "The radio transmitter operates on a wavelength of $1500 \\, \\text{m}$ at a power of $400 \\, \\text{kW}$. The energy of radio photon (in joule) is",
+        "question_images": [],
+        "options": [
+            "A. 1.32 x 10^-24 J",
+            "B. 1.32 x 10^-28 J",
+            "C. 1.32 x 10^-26 J",
+            "D. 1.32 x 10^-32 J"
+        ],
+        "option_images": [],
+        "answer": "B. 1.32 x 10^-28 J",
+        "solution": "$E = hc/\\lambda = (6.63 \\times 10^{-34} \\times 3 \\times 10^8) / 1500 = 1.326 \\times 10^{-28} \\, \\text{J}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 92,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "Light of wavelength 4000A is incident on a metal plate whose work function is 2 eV. The maximum kinetic energy of the emitted photoelectrons would be nearly",
+        "question_latex": "Light of wavelength $4000 \\, \\text{\\AA}$ is incident on a metal plate whose work function is $2 \\, \\text{eV}$. The maximum kinetic energy of the emitted photoelectrons would be nearly",
+        "question_images": [],
+        "options": [
+            "A. 0.5 eV",
+            "B. 1.5 eV",
+            "C. 1.1 eV",
+            "D. 2.0 eV"
+        ],
+        "option_images": [],
+        "answer": "C. 1.1 eV",
+        "solution": "$E = 1240 / 400 = 3.1 \\, \\text{eV}$. $K = 3.1 - 2 = 1.1 \\, \\text{eV}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 93,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Cathode Rays and Positive Rays",
+        "question": "A strong argument for the particle nature of cathode rays is that they",
+        "question_latex": "A strong argument for the particle nature of cathode rays is that they",
+        "question_images": [],
+        "options": [
+            "A. Produce fluorescence",
+            "B. Travel through vacuum",
+            "C. Get deflected by electric and magnetic fields",
+            "D. Cast shadow"
+        ],
+        "option_images": [],
+        "answer": "C. Get deflected by electric and magnetic fields",
+        "solution": "Deflection by electric and magnetic fields indicates they possess charge and mass, strong evidence for particle nature.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 94,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Matter Waves",
+        "question": "According to de-Broglie hypothesis, the wavelength associated with moving electron of mass 'm' is $\\lambda_e$. Using mass energy relation and Planck's quantum theory, the wavelength associated with photon is $\\lambda_p$. If the energy (E) of electron and photon is same then relation between $\\lambda_e$ and $\\lambda_p$ is",
+        "question_latex": "According to de-Broglie hypothesis, the wavelength associated with moving electron of mass $m$ is $\\lambda_e$. Using mass energy relation and Planck's quantum theory, the wavelength associated with photon is $\\lambda_p$. If the energy $E$ of electron and photon is same then relation between $\\lambda_e$ and $\\lambda_p$ is",
+        "question_images": [],
+        "options": [
+            "A. \\lambda_p \\propto \\lambda_e",
+            "B. \\lambda_p \\propto \\lambda_e^2",
+            "C. \\lambda_p \\propto \\sqrt{\\lambda_e}",
+            "D. \\lambda_p \\propto 1/\\lambda_e"
+        ],
+        "option_images": [],
+        "answer": "A. \\lambda_p \\propto \\lambda_e",
+        "solution": "For relativistically equivalent electron, $E = pc \\implies \\lambda_e = hc/E$. Photon $\\lambda_p = hc/E$. Thus $\\lambda_p \\propto \\lambda_e$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 95,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The frequency of incident light falling on a photosensitive material is doubled, the K.E. of the emitted photoelectrons will be",
+        "question_latex": "The frequency of incident light falling on a photosensitive material is doubled, the K.E. of the emitted photoelectrons will be",
+        "question_images": [],
+        "options": [
+            "A. more than two times its initial value",
+            "B. unchanged",
+            "C. less than two times its initial value",
+            "D. two time its initial value"
+        ],
+        "option_images": [],
+        "answer": "A. more than two times its initial value",
+        "solution": "$K_1 = hv - W_0$. $K_2 = 2hv - W_0 = 2(hv - W_0) + W_0 = 2K_1 + W_0$. Hence, more than doubled.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 96,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photons",
+        "question": "incident on photosensitive surface, photons of power P are emitted. The number of photons (n) emitted in t second is",
+        "question_latex": "incident on photosensitive surface, photons of power $P$ are emitted. The number of photons ($n$) emitted in $t$ second is",
+        "question_images": [],
+        "options": [
+            "A. P\\lambda t/hc",
+            "B. hp/\\lambda tc",
+            "C. P\\lambda/htc",
+            "D. hc/P\\lambda t"
+        ],
+        "option_images": [],
+        "answer": "A. P\\lambda t/hc",
+        "solution": "Energy $E = Pt$. Photon energy $= hc/\\lambda$. $n = E / (hc/\\lambda) = P\\lambda t / hc$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 97,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "When a monochromatic point source of light is at a distance 0.2 m from a photoelectric cell, the saturation current and cut-off voltage are 12.0 mA and 0.5 V. If the same source is placed 0.4 m away, then the saturation current and the stopping potential respectively are",
+        "question_latex": "When a monochromatic point source of light is at a distance $0.2 \\, \\text{m}$ from a photoelectric cell, the saturation current and cut-off voltage are $12.0 \\, \\text{mA}$ and $0.5 \\, \\text{V}$. If the same source is placed $0.4 \\, \\text{m}$ away, then the saturation current and the stopping potential respectively are",
+        "question_images": [],
+        "options": [
+            "A. 4 mA and 1V",
+            "B. 12 mA and 1V",
+            "C. 3 mA and 1V",
+            "D. 3 mA and 0.5 V"
+        ],
+        "option_images": [],
+        "answer": "D. 3 mA and 0.5 V",
+        "solution": "Stopping potential remains $0.5 \\, \\text{V}$. Current $\\propto 1/d^2$. $I' = 12 \\times (0.2/0.4)^2 = 12/4 = 3 \\, \\text{mA}$.",
+        "solution_images": [],
+        "difficulty": "medium",
+        "marks": 4
+    },
+    {
+        "id": 98,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The stopping potential V for photoelectric emission for a metal surface is plotted along Y -axis and frequency of incident light along X -axis. A straight line is obtained as shown. Planck's constant is given by",
+        "question_latex": "The stopping potential $V$ for photoelectric emission for a metal surface is plotted along Y-axis and frequency of incident light along X-axis. A straight line is obtained as shown. Planck's constant is given by",
+        "question_images": [],
+        "options": [
+            "A. Slope of the line",
+            "B. Product of slope of the line and charge on the electron",
+            "C. Intercept along Y-axis divided by charge on the electron",
+            "D. Product of intercept along X-axis and mass of the electron"
+        ],
+        "option_images": [],
+        "answer": "B. Product of slope of the line and charge on the electron",
+        "solution": "$eV_0 = hf - \\phi_0 \\implies V_0 = (h/e)f - \\phi_0/e$. Slope $m = h/e \\implies h = m \\times e$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 99,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The stopping potential of the photoelectrons, from a photo cell is",
+        "question_latex": "The stopping potential of the photoelectrons, from a photo cell is",
+        "question_images": [],
+        "options": [
+            "A. inversely proportional to intensity of incident light",
+            "B. directly proportional to intensity of incident light",
+            "C. inversely proportional to frequency of incident light",
+            "D. directly proportional to frequency of incident light"
+        ],
+        "option_images": [],
+        "answer": "D. directly proportional to frequency of incident light",
+        "solution": "$V_0 = \\frac{h}{e}v - \\frac{\\phi_0}{e}$. It depends linearly on the frequency.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    },
+    {
+        "id": 100,
+        "topic": "Dual Nature of Radiation and Matter",
+        "subtopic": "Photoelectric Effect",
+        "question": "The work function of a substance is 4.0 eV. The longest wavelength of light that can cause photoelectron emission from this substance is approximately",
+        "question_latex": "The work function of a substance is $4.0 \\, \\text{eV}$. The longest wavelength of light that can cause photoelectron emission from this substance is approximately",
+        "question_images": [],
+        "options": [
+            "A. 540 nm",
+            "B. 400 nm",
+            "C. 310 nm",
+            "D. 220 nm"
+        ],
+        "option_images": [],
+        "answer": "C. 310 nm",
+        "solution": "$\\lambda_0 = 1240 / \\phi = 1240 / 4.0 = 310 \\, \\text{nm}$.",
+        "solution_images": [],
+        "difficulty": "easy",
+        "marks": 4
+    }
+]

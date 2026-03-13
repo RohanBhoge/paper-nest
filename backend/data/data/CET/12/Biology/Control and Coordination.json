@@ -1,0 +1,1914 @@
+[
+  {
+    "id": 1,
+    "chapter": "Control and Coordination",
+    "question": "Which one of the following pair correctly matches a hormone with a disease resulting from its deficiency?",
+    "question_latex": "Which one of the following pair correctly matches a hormone with a disease resulting from its deficiency?",
+    "question_images": [],
+    "options": [
+      "A. Parathyroid hormone - Tetany",
+      "B. Insulin - Diabetes insipidus",
+      "C. Relaxin - Gigantism",
+      "D. Prolactin - Cretinism"
+    ],
+    "option_images": [],
+    "answer": "A. Parathyroid hormone - Tetany",
+    "solution": "Hyposecretion of parathormone from parathyroid gland leads to tetany disorder. It causes the lowering of blood calcium level. Insulin deficiency leads to diabetes mellitus (hypoglycemia). Hypersecretion of growth hormone results in gigantism in children. Relaxin deficiency prevents parturition. Low secretion of thyroid hormone results in cretinism in infants. Deficiency of prolactin hinders mammary gland development.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Control and Coordination",
+    "question": "In the following abnormalities of the eye, which one is serious condition that leads to blindness?",
+    "question_latex": "In the following abnormalities of the eye, which one is serious condition that leads to blindness?",
+    "question_images": [],
+    "options": [
+      "A. Presbyopia",
+      "B. Myopia",
+      "C. Hypermetropia",
+      "D. Glaucoma"
+    ],
+    "option_images": [],
+    "answer": "D. Glaucoma",
+    "solution": "Glaucoma is an eye defect in which intra-ocular pressure becomes different in the two chambers causing acute pain leading to damaged retina and hence blindness.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Control and Coordination",
+    "question": "Grave's disease is characterised by the following EXCEPT [MHT-CET 2017]",
+    "question_latex": "Grave's disease is characterised by the following EXCEPT [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Deposition of fats in eye sockets",
+      "B. Enlargement of thyroid gland",
+      "C. Weight loss",
+      "D. Weight gain"
+    ],
+    "option_images": [],
+    "answer": "D. Weight gain",
+    "solution": "Grave's disease is caused by hypersecretion of thyroid hormone (hyperthyroidism). Its characteristics include exophthalmos (fat deposition in eye sockets), enlarged thyroid gland, and weight loss — NOT weight gain.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Control and Coordination",
+    "question": "In the axon of motor nerve fibre, the nerve impulse travels",
+    "question_latex": "In the axon of motor nerve fibre, the nerve impulse travels",
+    "question_images": [],
+    "options": [
+      "A. Towards cell body",
+      "B. Away from cell body",
+      "C. Away from synapse",
+      "D. In both directions"
+    ],
+    "option_images": [],
+    "answer": "B. Away from cell body",
+    "solution": "Nerve impulse is a wave of depolarization of the membrane of nerve cell. In the axon of motor nerve fibre the nerve impulse travels away from the cell body.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Control and Coordination",
+    "question": "Nissel's granules of neuron contain________",
+    "question_latex": "Nissel's granules of neuron contain________",
+    "question_images": [],
+    "options": [
+      "A. DNA",
+      "B. RNA",
+      "C. Polysaccharides",
+      "D. Glycoprotein"
+    ],
+    "option_images": [],
+    "answer": "B. RNA",
+    "solution": "Nissel's granules of neurons contain RNA. They are granules of RER with rosettes of free ribosomes and are associated with protein synthesis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Control and Coordination",
+    "question": "The synaptic fatigue that develops, when nerve impulse temporarily halts, results from [MHT-CET 2023]",
+    "question_latex": "The synaptic fatigue that develops, when nerve impulse temporarily halts, results from [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Exhaustion of neurotransmitter",
+      "B. Excitation of pre-synaptic membrane",
+      "C. Excitation of post-synaptic membrane",
+      "D. Undersecretion of neurotransmitter"
+    ],
+    "option_images": [],
+    "answer": "A. Exhaustion of neurotransmitter",
+    "solution": "The transmission of nerve impulse across the synapse halts temporarily due to exhaustion of its neurotransmitter.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Control and Coordination",
+    "question": "Simmond's disease is caused by hyposecretion of_______",
+    "question_latex": "Simmond's disease is caused by hyposecretion of_______",
+    "question_images": [],
+    "options": [
+      "A. GH in childhood",
+      "B. GH in adults",
+      "C. MSH in childhood",
+      "D. GHIF in adults"
+    ],
+    "option_images": [],
+    "answer": "B. GH in adults",
+    "solution": "GH is released by anterior pituitary regulating growth activity of individual. Hypersecretion causes gigantism whereas hyposecretion in children causes dwarfism and in adults causes Simmond's disease.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Control and Coordination",
+    "question": "Synaptic vesicle is found in",
+    "question_latex": "Synaptic vesicle is found in",
+    "question_images": [],
+    "options": [
+      "A. Pre-synaptic neuron",
+      "B. Post-synaptic neuron",
+      "C. Synaptic cleft",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Pre-synaptic neuron",
+    "solution": "Synaptic vesicle, containing neurotransmitter, is found in pre-synaptic neuron.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Control and Coordination",
+    "question": "In Cushing's syndrome, there is",
+    "question_latex": "In Cushing's syndrome, there is",
+    "question_images": [],
+    "options": [
+      "A. An increase in blood glucose level",
+      "B. Hypertrophy of the skeletal muscles",
+      "C. A fall in plasma cortisol",
+      "D. A thickening of the skin"
+    ],
+    "option_images": [],
+    "answer": "A. An increase in blood glucose level",
+    "solution": "Cushing's syndrome is the result of excessive secretion of cortisol by adrenal cortex. This leads to increased protein breakdown manifest by wasting of the skeletal muscle and decreased skin thickness. High level of cortisol in blood may also elevate blood glucose level.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Control and Coordination",
+    "question": "A diffused type of nervous system is present in_____ of man. [MHT-CET 2023]",
+    "question_latex": "A diffused type of nervous system is present in_____ of man. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Walls of blood vessels",
+      "B. Gut wall",
+      "C. Cardiac muscles",
+      "D. Skin"
+    ],
+    "option_images": [],
+    "answer": "B. Gut wall",
+    "solution": "A diffused type of nervous system is present in gut wall of man and Ctenophora. It is first landmark in development and evolution of nervous system.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct match.",
+    "question_latex": "Select the correct match.",
+    "question_images": [],
+    "options": [
+      "A. Wernicke's area --- translates thoughts into speech",
+      "B. General motor area --- controls voluntary activities",
+      "C. General sensory area --- sense of vision",
+      "D. Broca's area --- sensory speech area"
+    ],
+    "option_images": [],
+    "answer": "B. General motor area --- controls voluntary activities",
+    "solution": "Broca's area is associated with production of speech; Wernicke's is for comprehension of speech. General sensory information is received by two hemispheres of cerebrum from opposite side of the body.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Control and Coordination",
+    "question": "Which converts short time memory into long time remembrance?",
+    "question_latex": "Which converts short time memory into long time remembrance?",
+    "question_images": [],
+    "options": [
+      "A. Reticular system",
+      "B. Hippocampus",
+      "C. Thalamus",
+      "D. Medulla oblongata"
+    ],
+    "option_images": [],
+    "answer": "C. Thalamus",
+    "solution": "The thalamus is the main principal relay station for sensory impulses that reach the cerebral cortex from spinal cord, brain stem, and cerebellum. Certain nuclei in the thalamus relay all sensory inputs to cerebral cortex including medial geniculate nucleus for hearing, lateral geniculate nucleus for vision, ventral posterior nucleus for sense, and anterior nucleus concerns with emotions and conversion of memory.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Control and Coordination",
+    "question": "Hormone responsible for the control of the development of secondary sexual characters in females is",
+    "question_latex": "Hormone responsible for the control of the development of secondary sexual characters in females is",
+    "question_images": [],
+    "options": [
+      "A. Androgen",
+      "B. Oestrogen",
+      "C. Progesterone",
+      "D. Oxytocin"
+    ],
+    "option_images": [],
+    "answer": "B. Oestrogen",
+    "solution": "Oestrogen is responsible for the development of secondary sexual characters in female.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Control and Coordination",
+    "question": "Which one of the following is a motor nerve? [MHT-CET 2005]",
+    "question_latex": "Which one of the following is a motor nerve? [MHT-CET 2005]",
+    "question_images": [],
+    "options": [
+      "A. Spinal accessory",
+      "B. Trigeminal",
+      "C. Facial",
+      "D. Vagus"
+    ],
+    "option_images": [],
+    "answer": "A. Spinal accessory",
+    "solution": "Spinal accessory (XI) is a motor cranial nerve. Trigeminal and Facial are mixed nerves. Vagus is also a mixed nerve.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following neurohormones is NOT secreted by the hypothalamus? [MHT-CET 2023]",
+    "question_latex": "Which of the following neurohormones is NOT secreted by the hypothalamus? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. ADH",
+      "B. Adrenaline",
+      "C. Prolactostatin",
+      "D. GRP"
+    ],
+    "option_images": [],
+    "answer": "B. Adrenaline",
+    "solution": "Adrenaline, also known as epinephrine, is the emergency hormone (3F: Fight, flight and fright hormone) and is produced by adrenal medulla, not the hypothalamus.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Control and Coordination",
+    "question": "The reflex arc, which is made of two neurons is known as",
+    "question_latex": "The reflex arc, which is made of two neurons is known as",
+    "question_images": [],
+    "options": [
+      "A. Monosynaptic reflex arc",
+      "B. Disynaptic reflex arc",
+      "C. Polysynaptic reflex arc",
+      "D. Asynaptic reflex arc"
+    ],
+    "option_images": [],
+    "answer": "A. Monosynaptic reflex arc",
+    "solution": "Monosynaptic reflex arc has only two neurons, i.e., sensory and motor, which forms one synapse. The axon of one neuron ends on the dendrites of the next neuron forming a synapse.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Control and Coordination",
+    "question": "The organ of Corti is located on the _____ membrane. [MHT-CET 2023]",
+    "question_latex": "The organ of Corti is located on the _____ membrane. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Tympanic",
+      "B. Reissner's",
+      "C. Basilar",
+      "D. Tectorial"
+    ],
+    "option_images": [],
+    "answer": "C. Basilar",
+    "solution": "The organ of Corti (hearing apparatus) is located on the basilar membrane at floor of scala media. The sensory cells have sensory hair on their free end so are also called hair cells. Hair cells have long stiff microvilli called stereocilia on their apical surfaces.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct match with respect to number, name, type of nerve and functions of cranial nerves. [MHT-CET 2024]",
+    "question_latex": "Select the correct match with respect to number, name, type of nerve and functions of cranial nerves. [MHT-CET 2024]",
+    "question_images": [
+      "q18_1"
+    ],
+    "options": [
+      "A. B",
+      "B. D",
+      "C. C",
+      "D. A"
+    ],
+    "option_images": [],
+    "answer": "B. D",
+    "solution": "Spinal accessory (XI) is motor, Glossopharyngeal (IX) is mixed, III is oculomotor which is a motor nerve. Vagus (X) is mixed with visceral sensations and visceral movements.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following statements are true/false? I. Calcitonin regulates the metabolism of calcium. II. Oxytocin stimulates contraction of uterine muscles during birth. III. Grave's disease is caused by malfunctioning of adrenal gland. IV. ADH stimulates absorption of water and increases the urine production.",
+    "question_latex": "Which of the following statements are true/false? I. Calcitonin regulates the metabolism of calcium. II. Oxytocin stimulates contraction of uterine muscles during birth. III. Grave's disease is caused by malfunctioning of adrenal gland. IV. ADH stimulates absorption of water and increases the urine production.",
+    "question_images": [],
+    "options": [
+      "A. I and III are true, II and IV are false",
+      "B. I and II are true, III and IV are false",
+      "C. I and IV are false, II and IV are true",
+      "D. I, II and III are true, IV only false"
+    ],
+    "option_images": [],
+    "answer": "B. I and II are true, III and IV are false",
+    "solution": "Grave's disease is caused by excess secretion of thyroid hormone (not adrenal gland). ADH increases the reabsorption of water in the distal convoluted tubule and collecting ducts of the nephrons (it decreases urine production, not increases).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Control and Coordination",
+    "question": "Aldosterone is secreted by",
+    "question_latex": "Aldosterone is secreted by",
+    "question_images": [],
+    "options": [
+      "A. Zona glomerulosa",
+      "B. Zona fasciculata",
+      "C. Zona reticularis",
+      "D. Zona pellucida"
+    ],
+    "option_images": [],
+    "answer": "A. Zona glomerulosa",
+    "solution": "Aldosterone is a mineralocorticoid or salt retaining hormone, secreted by zona glomerulosa layer of adrenal cortex. It regulates the sodium and potassium level in the blood and regulates acid base balance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Control and Coordination",
+    "question": "Hypersecretion of glucocorticoid leads to [MHT-CET 2024]",
+    "question_latex": "Hypersecretion of glucocorticoid leads to [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Grave's disease",
+      "B. Cushing's disease",
+      "C. Addison's disease",
+      "D. Bleeders' disease"
+    ],
+    "option_images": [],
+    "answer": "B. Cushing's disease",
+    "solution": "Hypersecretion of glucocorticoid leads to Cushing's disease.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Control and Coordination",
+    "question": "Progesterone pill helps in preventing pregnancy by not allowing",
+    "question_latex": "Progesterone pill helps in preventing pregnancy by not allowing",
+    "question_images": [],
+    "options": [
+      "A. Ova formation",
+      "B. Fertilization",
+      "C. Implantation",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Ova formation",
+    "solution": "The progesterone pill affects the pituitary gland and lowers the secretion of FSH (follicle stimulating hormone) and LH (luteinizing hormone). Due to low FSH and LH, ovulation does not occur, i.e. there is no secondary oocyte to be fertilized.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Control and Coordination",
+    "question": "Glucagon is secreted by",
+    "question_latex": "Glucagon is secreted by",
+    "question_images": [],
+    "options": [
+      "A. Adrenal medulla",
+      "B. $\\beta$-cells of islets of Langerhans",
+      "C. $\\alpha$-cells of islets of Langerhans",
+      "D. Adrenal cortex"
+    ],
+    "option_images": [],
+    "answer": "C. $\\alpha$-cells of islets of Langerhans",
+    "solution": "Glucagon is a hormone secreted by $\\alpha$-cells of islets of Langerhans in the pancreas. It increases the concentration of glucose in the blood by stimulating the metabolic breakdown of glycogen. It antagonizes the effects of insulin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Control and Coordination",
+    "question": "Receptors that are responsible for monitoring the stretching of main arteries and vein for regulation of cardiac activity are ......... [2022]",
+    "question_latex": "Receptors that are responsible for monitoring the stretching of main arteries and vein for regulation of cardiac activity are ......... [2022]",
+    "question_images": [],
+    "options": [
+      "A. Olfactoreceptors",
+      "B. Chemoreceptors",
+      "C. Proprioreceptors",
+      "D. Baroreceptors"
+    ],
+    "option_images": [],
+    "answer": "D. Baroreceptors",
+    "solution": "Baroreceptors monitor the stretching of main arteries and veins for regulation of cardiac activity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Control and Coordination",
+    "question": "Select the INCORRECT statement.",
+    "question_latex": "Select the INCORRECT statement.",
+    "question_images": [],
+    "options": [
+      "A. Sensory neurons carry impulse towards central nervous system.",
+      "B. Motor neurons carry impulse towards central nervous system.",
+      "C. Synapse is a type of functional contact between axon and dendrite.",
+      "D. Telodendrons of myelinated and non-myelinated neurons show presence of neurotransmitter."
+    ],
+    "option_images": [],
+    "answer": "B. Motor neurons carry impulse towards central nervous system.",
+    "solution": "Motor neurons carry impulse away from the central nervous system towards effector organs like muscles and glands. Sensory neurons carry impulses from sensory receptors to brain.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Control and Coordination",
+    "question": "Sympathetic nervous system induces",
+    "question_latex": "Sympathetic nervous system induces",
+    "question_images": [],
+    "options": [
+      "A. Heart beat",
+      "B. Secretion of semen",
+      "C. Secretion of saliva",
+      "D. Secretion of digestive juices"
+    ],
+    "option_images": [],
+    "answer": "A. Heart beat",
+    "solution": "Sympathetic nervous system increases the rate and force of heart beat, constricts most blood vessels, raises the arterial blood pressure, dilates the pupil, slows down peristaltic movements and relaxes the urinary bladder.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Control and Coordination",
+    "question": "Deficiency of which of the following hormones leads to infertility in male and female human beings?",
+    "question_latex": "Deficiency of which of the following hormones leads to infertility in male and female human beings?",
+    "question_images": [],
+    "options": [
+      "A. ACTH",
+      "B. FSH",
+      "C. TSH",
+      "D. LTH"
+    ],
+    "option_images": [],
+    "answer": "B. FSH",
+    "solution": "FSH and LH are called gonadotropins acting on gonads. FSH is responsible for formation and maturation of gamete. Its deficiency leads to infertility.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following sets of cranial nerves includes exclusively motor type of nerves? [2022]",
+    "question_latex": "Which of the following sets of cranial nerves includes exclusively motor type of nerves? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Olfactory, trigeminal, facial, auditory",
+      "B. Optic, glossopharyngeal, vagus, spinal accessory",
+      "C. Oculomotor, pathetic, abducens, hypoglossal",
+      "D. Trigeminal, abducens, facial, auditory"
+    ],
+    "option_images": [],
+    "answer": "C. Oculomotor, pathetic, abducens, hypoglossal",
+    "solution": "Oculomotor (III), Pathetic/Trochlear (IV), Abducens (VI), and Hypoglossal (XII) are all purely motor cranial nerves.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Control and Coordination",
+    "question": "With reference to role of internal ear in equilibrium, receptors for dynamic balance of body lie in A while the receptors for static or linear balance of body lie in B. [MHT-CET 2024]",
+    "question_latex": "With reference to role of internal ear in equilibrium, receptors for dynamic balance of body lie in $A$ while the receptors for static or linear balance of body lie in $B$. [MHT-CET 2024]",
+    "question_images": [
+      "q29_1"
+    ],
+    "options": [
+      "A. B",
+      "B. A",
+      "C. D",
+      "D. C"
+    ],
+    "option_images": [],
+    "answer": "A. B",
+    "solution": "Cristae of ampulla are for dynamic balance (A) and Maculae of utriculus and sacculus are for static or linear balance (B).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Control and Coordination",
+    "question": "Select INCORRECT match of nerve and its origin. [MHT-CET 2023]",
+    "question_latex": "Select INCORRECT match of nerve and its origin. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Pathetic - Floor of midbrain",
+      "B. Optic - Side of diencephalon",
+      "C. Glossopharyngeal - Side of medulla oblongata",
+      "D. Trigeminal - Side of medulla oblongata"
+    ],
+    "option_images": [],
+    "answer": "D. Trigeminal - Side of medulla oblongata",
+    "solution": "Trigeminal nerve originates from the ventral side of pons, not medulla oblongata. It is also called dentist nerve.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Control and Coordination",
+    "question": "Light sensitive cells of eye are present in",
+    "question_latex": "Light sensitive cells of eye are present in",
+    "question_images": [],
+    "options": [
+      "A. Retina",
+      "B. Cornea",
+      "C. Iris",
+      "D. Choroid"
+    ],
+    "option_images": [],
+    "answer": "A. Retina",
+    "solution": "Retina is the lining of the interior of the vertebrate eye containing a concentration of photoreceptor cells known as rods and cones that are connected to the optic nerve via bipolar cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Control and Coordination",
+    "question": "Hypothalamus secretes the hormone ____ to inhibit the release of luteotropin by adenohypophysis. [MHT-CET 2023]",
+    "question_latex": "Hypothalamus secretes the hormone ____ to inhibit the release of luteotropin by adenohypophysis. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Prolactostatin",
+      "B. Thyrotropin",
+      "C. Somatotropin",
+      "D. Somatostatin"
+    ],
+    "option_images": [],
+    "answer": "A. Prolactostatin",
+    "solution": "Hypothalamus secretes the hormone prolactostatin to inhibit the release of Prolactin/Luteotropin/Mammotropin by adenohypophysis. It inhibits prolactin release by anterior pituitary gland and stimulates secretion only after childbirth.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct match.",
+    "question_latex": "Select the correct match.",
+    "question_images": [],
+    "options": [
+      "A. Wernicke's area --- translates thoughts into speech",
+      "B. General motor area --- controls voluntary activities",
+      "C. General sensory area --- sense of vision",
+      "D. Broca's area --- sensory speech area"
+    ],
+    "option_images": [],
+    "answer": "B. General motor area --- controls voluntary activities",
+    "solution": "Broca's area is associated with production of speech; Wernicke's is for the comprehension of speech. General sensory information received by two hemispheres of cerebrum from opposite side of the body.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Control and Coordination",
+    "question": "The movement of the nerve impulse across synaptic cleft is primarily",
+    "question_latex": "The movement of the nerve impulse across synaptic cleft is primarily",
+    "question_images": [],
+    "options": [
+      "A. A chemical event",
+      "B. A physical event",
+      "C. An electrical event",
+      "D. A biological event"
+    ],
+    "option_images": [],
+    "answer": "A. A chemical event",
+    "solution": "Movement of the nerve impulse across synaptic cleft is primarily a chemical event mediated by neurotransmitters such as acetylcholine (Acl.), gamma-amino butyric acid (GABA), nor-epinephrine and serotonin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Control and Coordination",
+    "question": "Match the endocrine glands in Column - I with their characteristics in Column - II. [MHT-CET 2024]",
+    "question_latex": "Match the endocrine glands in Column - I with their characteristics in Column - II. [MHT-CET 2024]",
+    "question_images": [
+      "q35_1"
+    ],
+    "options": [
+      "A. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)",
+      "B. (a)→(I); (b)→(IV); (c)→(II); (d)→(III)",
+      "C. (a)→(III); (b)→(IV); (c)→(II); (d)→(I)",
+      "D. (a)→(II); (b)→(I); (c)→(III); (d)→(IV)"
+    ],
+    "option_images": [],
+    "answer": "C. (a)→(III); (b)→(IV); (c)→(II); (d)→(I)",
+    "solution": "Adrenal gland has dual origin from mesoderm and ectoderm. Thymus gland gradually gets atrophied in adults. Thyroid gland stores hormones as colloid before their secretion. Pineal gland regulates 24 hour diurnal rhythm of the body.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Control and Coordination",
+    "question": "Select the CORRECT match of part of human ear and its function [MHT-CET 2019]",
+    "question_latex": "Select the CORRECT match of part of human ear and its function [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Crista and macula - responsible for maintenance of body posture and balance",
+      "B. Organ of corti - receptors for sense of vision",
+      "C. Tympanic membrane - connects middle ear cavity with pharynx",
+      "D. Ear ossicles - transmission of sound waves from internal ear"
+    ],
+    "option_images": [],
+    "answer": "A. Crista and macula - responsible for maintenance of body posture and balance",
+    "solution": "Crista and macula are responsible for maintenance of body posture and balance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Control and Coordination",
+    "question": "Hormone responsible for the secretion of milk after parturition is",
+    "question_latex": "Hormone responsible for the secretion of milk after parturition is",
+    "question_images": [],
+    "options": [
+      "A. ICSH",
+      "B. Prolactin",
+      "C. ACTH",
+      "D. LH"
+    ],
+    "option_images": [],
+    "answer": "B. Prolactin",
+    "solution": "Prolactin is secreted by the lactotrope cells of anterior pituitary. Its main physiological effect is to activate growth of breast during pregnancy and secretion of milk by mammary glands after childbirth. That is why it is often referred to as maternity hormone.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Control and Coordination",
+    "question": "Intercellular communication in multicellular organism occurs through",
+    "question_latex": "Intercellular communication in multicellular organism occurs through",
+    "question_images": [],
+    "options": [
+      "A. Digestive system only",
+      "B. Respiratory system only",
+      "C. Nervous system only",
+      "D. Both nervous and endocrine system"
+    ],
+    "option_images": [],
+    "answer": "D. Both nervous and endocrine system",
+    "solution": "Two types of system in the body are responsible for inter-cellular communication: nervous and hormonal (endocrine). Nervous system is responsible for short time and quick effect while the endocrine system secretes hormones with long lasting and slow effects.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Control and Coordination",
+    "question": "Which regulates cell division, protein synthesis and growth of the bone?",
+    "question_latex": "Which regulates cell division, protein synthesis and growth of the bone?",
+    "question_images": [],
+    "options": [
+      "A. Prolactin",
+      "B. Somatotropic hormone",
+      "C. TSH",
+      "D. MSH"
+    ],
+    "option_images": [],
+    "answer": "B. Somatotropic hormone",
+    "solution": "Somatotropic hormone (Growth hormone) is the major hormone in secretion of anterior pituitary. It promotes biosynthesis of DNA, RNA and protein in the cells. It stimulates cellular growth and proliferation, growth and repair of bones, muscles and connective tissue.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following hormones are secreted by pancreas?",
+    "question_latex": "Which of the following hormones are secreted by pancreas?",
+    "question_images": [],
+    "options": [
+      "A. Insulin and glucagon",
+      "B. Epinephrine and norepinephrine",
+      "C. Thyroxine and melanin",
+      "D. Lactocin and oxytocin"
+    ],
+    "option_images": [],
+    "answer": "A. Insulin and glucagon",
+    "solution": "Pancreas is a mixed gland where islets of Langerhans are endocrine. $\\alpha$-cells produce glucagon, $\\beta$-cells produce insulin, $\\delta$-cells produce somatostatin, and F-cells produce pancreatic polypeptide.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Control and Coordination",
+    "question": "Myelin sheath is derived from",
+    "question_latex": "Myelin sheath is derived from",
+    "question_images": [],
+    "options": [
+      "A. Neuroglial cells",
+      "B. Schwann cells",
+      "C. Nerve cells",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "B. Schwann cells",
+    "solution": "Myelin sheaths in the peripheral nervous system are formed by Schwann cells, which indent to receive an axon and then wrap themselves around it in a jelly roll fashion.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct statements with respect to Alzheimer's disease. A. Degeneration of dopamine producing neurons occurs. B. Commonly called physical disorder. C. Shows loss of cognitive functioning like thinking and remembering. D. Loss of cholinergic and other neurons in CNS takes place. E. Accumulation of amyloid protein in CNS. [2022]",
+    "question_latex": "Select the correct statements with respect to Alzheimer's disease. A. Degeneration of dopamine producing neurons occurs. B. Commonly called physical disorder. C. Shows loss of cognitive functioning like thinking and remembering. D. Loss of cholinergic and other neurons in CNS takes place. E. Accumulation of amyloid protein in CNS. [2022]",
+    "question_images": [],
+    "options": [
+      "A. B, C and D only",
+      "B. A, D and E only",
+      "C. A, B and C only",
+      "D. C, D and E only"
+    ],
+    "option_images": [],
+    "answer": "D. C, D and E only",
+    "solution": "Alzheimer's disease is a mental (not physical) disorder. It shows loss of cognitive functioning (C), loss of cholinergic and other neurons in CNS (D), and accumulation of amyloid protein in CNS (E). Dopamine neuron degeneration is associated with Parkinson's disease.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Control and Coordination",
+    "question": "The functional area of human cerebrum marked by 'X' is______ [MHT-CET 2017]",
+    "question_latex": "The functional area of human cerebrum marked by 'X' is______ [MHT-CET 2017]",
+    "question_images": [
+      "43_qu_1.png"
+    ],
+    "options": [
+      "A. Wernicke's area",
+      "B. Somato-sensory area",
+      "C. Premotor area",
+      "D. Broca's area"
+    ],
+    "option_images": [],
+    "answer": "D. Broca's area",
+    "solution": "The functional area marked by X in the diagram represents Broca's area, which is associated with production of speech.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Control and Coordination",
+    "question": "Hypothalamus does not control",
+    "question_latex": "Hypothalamus does not control",
+    "question_images": [],
+    "options": [
+      "A. Hunger and satiety",
+      "B. Thermoregulation",
+      "C. Osmoregulation",
+      "D. Emotions"
+    ],
+    "option_images": [],
+    "answer": "C. Osmoregulation",
+    "solution": "Hypothalamus is a control centre of autonomic nervous system. It controls hunger, thirst, sleeping, thermoregulation, emotions like love, anger, pleasure, etc. Osmoregulation is primarily controlled by the kidneys.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Control and Coordination",
+    "question": "Which statement is CORRECT regarding blind spot in human eye? It_________________",
+    "question_latex": "Which statement is CORRECT regarding blind spot in human eye? It_________________",
+    "question_images": [],
+    "options": [
+      "A. Contains large number of rods and cones",
+      "B. Is a point at which optic nerve leaves the eyeball",
+      "C. Is a point of greatest visual acuity",
+      "D. Is a point of attachment of lens to ciliary body"
+    ],
+    "option_images": [],
+    "answer": "B. Is a point at which optic nerve leaves the eyeball",
+    "solution": "Blind spot is a region on retina at which optic nerve leaves the eyeball and this region does not contain any photoreceptor cells (rods and cones are absent).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Control and Coordination",
+    "question": "The most abundant glial cells of CNS are_____ [MHT-CET 2024]",
+    "question_latex": "The most abundant glial cells of CNS are_____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Oligodendrocytes",
+      "B. Ependymal cells",
+      "C. Brain macrophages",
+      "D. Astrocyte"
+    ],
+    "option_images": [],
+    "answer": "D. Astrocyte",
+    "solution": "Astrocytes are star shaped cells and the most abundant glial cells of CNS. They have varied roles in the brain including secretion and absorption of neural transmitter and maintenance of blood-brain barrier (BBB). They regulate the transmission of electrical impulses within the brain.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following diseases is not related to thyroid gland?",
+    "question_latex": "Which of the following diseases is not related to thyroid gland?",
+    "question_images": [],
+    "options": [
+      "A. Myxodema",
+      "B. Acromegaly",
+      "C. Cretinism",
+      "D. Goitre"
+    ],
+    "option_images": [],
+    "answer": "B. Acromegaly",
+    "solution": "Acromegaly is caused by hypersecretion of growth hormone from pituitary gland in adults. Thyroid-related disorders include Grave's disease, cretinism, myxoedema (Gull's disease), goitre, Hashimoto's disease, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Control and Coordination",
+    "question": "In case of insulin deficiency, blood glucose level increases and the cells of body__________ [MHT-CET 2019]",
+    "question_latex": "In case of insulin deficiency, blood glucose level increases and the cells of body__________ [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Use more glucose as source of energy",
+      "B. Get more glucose by endocytosis",
+      "C. Do not show any effect",
+      "D. Are starved of their energy source"
+    ],
+    "option_images": [],
+    "answer": "D. Are starved of their energy source",
+    "solution": "Without insulin, cells cannot take up glucose from the blood. Even though blood glucose level is high, cells are starved of their energy source as glucose cannot enter the cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Control and Coordination",
+    "question": "Select the INCORRECT statement. [MHT-CET 2023]",
+    "question_latex": "Select the INCORRECT statement. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. The choroid proper region prevents internal reflections of light rays to help form clear image.",
+      "B. The blood vessels present in cornea provide nourishment to it.",
+      "C. The iris contains smooth muscles to regulate the size of pupil.",
+      "D. The conjunctiva provides protection to the cornea."
+    ],
+    "option_images": [],
+    "answer": "B. The blood vessels present in cornea provide nourishment to it.",
+    "solution": "Cornea does not have blood vessels. It is nourished by aqueous humor and tear secretion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Control and Coordination",
+    "question": "The membrane, which cover the brain and spinal cord is/are called [MHT CET 2007]",
+    "question_latex": "The membrane, which cover the brain and spinal cord is/are called [MHT CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. White matter",
+      "B. Grey matter",
+      "C. Peritoneum",
+      "D. Meninges"
+    ],
+    "option_images": [],
+    "answer": "D. Meninges",
+    "solution": "Meninges covers the brain and spinal cord.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Control and Coordination",
+    "question": "Match hormones given in Column I with their source gland in Column II. Choose the correct option from below. [MHT-CET 2024]",
+    "question_latex": "Match hormones given in Column I with their source gland in Column II. Choose the correct option from below. [MHT-CET 2024]",
+    "question_images": [
+      "q51_1"
+    ],
+    "options": [
+      "A. (a)→(IV); (b)→(III); (c)→(I); (d)→(II)",
+      "B. (a)→(IV); (b)→(I); (c)→(II); (d)→(III)",
+      "C. (a)→(I); (b)→(III); (c)→(IV); (d)→(II)",
+      "D. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)→(IV); (b)→(III); (c)→(I); (d)→(II)",
+    "solution": "Match the columns for hormones and their sources.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following is not correctly matched?",
+    "question_latex": "Which of the following is not correctly matched?",
+    "question_images": [],
+    "options": [
+      "A. Rhinencephalon - Olfactory",
+      "B. Hypothalamus - Pituitary",
+      "C. Cerebellum - Balance",
+      "D. Medulla oblongata - Temperature regulation"
+    ],
+    "option_images": [],
+    "answer": "D. Medulla oblongata - Temperature regulation",
+    "solution": "Medulla oblongata controls heart beat, respiration, digestion, blood pressure, gut peristalsis, etc. Temperature regulation is controlled by hypothalamus, not medulla oblongata.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following is a mineralocorticoid?",
+    "question_latex": "Which of the following is a mineralocorticoid?",
+    "question_images": [],
+    "options": [
+      "A. Testosterone",
+      "B. Progesterone",
+      "C. Adrenaline",
+      "D. Aldosterone"
+    ],
+    "option_images": [],
+    "answer": "D. Aldosterone",
+    "solution": "Mineralocorticoids are responsible for regulation of mineral metabolism. Aldosterone is the important mineralocorticoid in humans. Its main function is to regulate the sodium content of the body. Mineralocorticoids are secreted by zona glomerulosa region of adrenal cortex.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Control and Coordination",
+    "question": "A person passes much urine and drinks much water but his blood glucose level is normal. This condition may be the result of",
+    "question_latex": "A person passes much urine and drinks much water but his blood glucose level is normal. This condition may be the result of",
+    "question_images": [],
+    "options": [
+      "A. A reduction in insulin secretion from pancreas",
+      "B. A reduction in vasopressin secretion from posterior pituitary",
+      "C. A fall in the glucose concentration in urine",
+      "D. An increase in secretion of glucagon"
+    ],
+    "option_images": [],
+    "answer": "B. A reduction in vasopressin secretion from posterior pituitary",
+    "solution": "Vasopressin (ADH), secreted from neurohypophysis, conserves body water. Its hyposecretion leads to reduced renal absorption of water and elimination of a large volume of dilute (hypotonic) urine, i.e., diabetes insipidus.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Control and Coordination",
+    "question": "Which structure acts as a transducer, converting sound vibrations into nerve impulses? [MHT-CET 2023]",
+    "question_latex": "Which structure acts as a transducer, converting sound vibrations into nerve impulses? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Crista",
+      "B. Organ of Corti",
+      "C. Saccule",
+      "D. Cochlea"
+    ],
+    "option_images": [],
+    "answer": "B. Organ of Corti",
+    "solution": "Organ of Corti found in cochlea located in basilar membrane acts as a transducer, converting sound vibrations into nerve impulses.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Control and Coordination",
+    "question": "Saltatory conduction occurs in [MHT CET 2008]",
+    "question_latex": "Saltatory conduction occurs in [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. Myelinated nerve fibres",
+      "B. Non-myelinated nerve fibres",
+      "C. Liver cells",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Myelinated nerve fibres",
+    "solution": "The myelin sheath of myelinated nerve fibres prevents flow of ions between extracellular fluid and axoplasm. Exchange of ions can occur only at the nodes of Ranvier. Therefore, action potential jumps from node to node along myelinated axon faster than non-myelinated axon. This is called saltatory conduction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Control and Coordination",
+    "question": "Which part of the brain lacks an internal ventricle? [MHT-CET 2023]",
+    "question_latex": "Which part of the brain lacks an internal ventricle? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Diencephalon",
+      "B. Cerebral hemisphere",
+      "C. Cerebellum",
+      "D. Medulla oblongata"
+    ],
+    "option_images": [],
+    "answer": "C. Cerebellum",
+    "solution": "Cerebellum is second largest part of brain and does not contain any ventricle.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct statements regarding adrenal gland from the following. (I) Androgens and estradiols are produced by adrenal cortex. (II) Salt retaining hormone balances Na-K levels. (III) Noradrenaline acts as vasodilator. (IV) Aldosterone is immune suppressive. (V) Adrenal cortex originates from mesoderm whereas adrenal medulla is derived from ectoderm. [MHT-CET 2024]",
+    "question_latex": "Select the correct statements regarding adrenal gland from the following. (I) Androgens and estradiols are produced by adrenal cortex. (II) Salt retaining hormone balances $Na - K$ levels. (III) Noradrenaline acts as vasodilator. (IV) Aldosterone is immune suppressive. (V) Adrenal cortex originates from mesoderm whereas adrenal medulla is derived from ectoderm. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (II), (III) and (IV) only",
+      "B. (III), (IV) and (V) only",
+      "C. (I), (II) and (III) only",
+      "D. (I), (II) and (V) only"
+    ],
+    "option_images": [],
+    "answer": "D. (I), (II) and (V) only",
+    "solution": "Aldosterone (salt retaining hormone) is the main mineralocorticoid. It balances Na-K levels. Noradrenaline regulates blood pressure under normal condition and acts as vasoconstrictor (not vasodilator). Aldosterone is not immune suppressive.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Control and Coordination",
+    "question": "Given below is the diagram of the TS of spinal cord. Identify X and Y. [MHT-CET 2021]",
+    "question_latex": "Given below is the diagram of the TS of spinal cord. Identify $X$ and $Y$. [MHT-CET 2021]",
+    "question_images": [
+      "59_qu_1.png"
+    ],
+    "options": [
+      "A. X - Ventral horn; Y - Neural canal",
+      "B. X - Ventral horn; Y - Grey matter",
+      "C. X - Lateral horn; Y - White fibres",
+      "D. X - Dorsal horn; Y - Central canal"
+    ],
+    "option_images": [],
+    "answer": "D. X - Dorsal horn; Y - Central canal",
+    "solution": "In the TS of spinal cord, X represents the Dorsal horn and Y represents the Central canal.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Control and Coordination",
+    "question": "The step in generation of nerve impulse where $Na^+$ gates are closed and $Na^+ - K^+$ pumps become operational is........ [MHT-CET 2021]",
+    "question_latex": "The step in generation of nerve impulse where $Na^+$ gates are closed and $Na^+ - K^+$ pumps become operational is........ [MHT-CET 2021]",
+    "question_images": [],
+    "options": [
+      "A. Resting potential",
+      "B. Depolarised phase",
+      "C. Polarised phase",
+      "D. Repolarised phase"
+    ],
+    "option_images": [],
+    "answer": "D. Repolarised phase",
+    "solution": "In the repolarised phase, $Na^+$ gates are closed and $Na^+ - K^+$ pumps become operational to restore the original ionic distribution.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Control and Coordination",
+    "question": "In which of the following animals, the CNS is located on the ventral side of the body? [MHT-CET 2024]",
+    "question_latex": "In which of the following animals, the CNS is located on the ventral side of the body? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Planaria",
+      "B. Sycon",
+      "C. Combjelly",
+      "D. Hydra"
+    ],
+    "option_images": [],
+    "answer": "A. Planaria",
+    "solution": "Hydra, Combjelly, Sycon do not have CNS. In Planaria, CNS is located on the ventral side of the body.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Control and Coordination",
+    "question": "Secretion of _____ cells inhibits release of pancreatic juice. [MHT-CET 2023]",
+    "question_latex": "Secretion of _____ cells inhibits release of pancreatic juice. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Parafollicular",
+      "B. Beta",
+      "C. Alpha",
+      "D. PP"
+    ],
+    "option_images": [],
+    "answer": "D. PP",
+    "solution": "PP cells or F cells (5%) secrete Pancreatic polypeptide (PP) and inhibits release of pancreatic juice.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Control and Coordination",
+    "question": "The purplish red pigment rhodopsin contained in the rods type of photoreceptor cells of the human eyes is a derivative of",
+    "question_latex": "The purplish red pigment rhodopsin contained in the rods type of photoreceptor cells of the human eyes is a derivative of",
+    "question_images": [],
+    "options": [
+      "A. Vitamin-C",
+      "B. Vitamin-D",
+      "C. Vitamin-A",
+      "D. Vitamin-B"
+    ],
+    "option_images": [],
+    "answer": "C. Vitamin-A",
+    "solution": "There are two types of photoreceptor cells of retina: rods and cones. The rods contain a purplish red protein called rhodopsin or visual purple, which contains a derivative of Vitamin-A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct match of hormone and its type. [MHT-CET 2023]",
+    "question_latex": "Select the correct match of hormone and its type. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Calcitonin - Mineralocorticoid",
+      "B. Thyroxine - Polypeptide",
+      "C. ADH - Amine",
+      "D. Insulin - Protein hormone"
+    ],
+    "option_images": [],
+    "answer": "D. Insulin - Protein hormone",
+    "solution": "Insulin is a protein hormone. ADH is a peptide hormone. Thyroxin is an amino hormone (iodinated tyrosine derivative).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Control and Coordination",
+    "question": "Injury to vagus nerve in human is not likely to affect",
+    "question_latex": "Injury to vagus nerve in human is not likely to affect",
+    "question_images": [],
+    "options": [
+      "A. Tongue movements",
+      "B. Gastrointestinal movements",
+      "C. Pancreatic secretion",
+      "D. Cardiac movements"
+    ],
+    "option_images": [],
+    "answer": "A. Tongue movements",
+    "solution": "Vagus nerve is a mixed cranial nerve, controlling much of the gut, ventilatory system and heart. It does not affect tongue movements. Tongue movement is controlled by glossopharyngeal nerve.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following is not an endocrine gland?",
+    "question_latex": "Which of the following is not an endocrine gland?",
+    "question_images": [],
+    "options": [
+      "A. Pancreas",
+      "B. Liver",
+      "C. Thymus",
+      "D. Adrenals"
+    ],
+    "option_images": [],
+    "answer": "B. Liver",
+    "solution": "Liver is the largest gland of vertebral body with a wide range of functions, but it is not an endocrine gland. Pancreas, thymus and adrenals are endocrine glands.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct statements regarding Thymus gland. I. It is located in the upper part of thorax. II. It is made up of four lobes of lymphoid tissue. III. It is a prominent gland formed at birth and remains active throughout life. IV. It is also called temporary gland. V. It plays important role in the development of immune system and provides humoral immunity. [MHT-CET 2024]",
+    "question_latex": "Select the correct statements regarding Thymus gland. I. It is located in the upper part of thorax. II. It is made up of four lobes of lymphoid tissue. III. It is a prominent gland formed at birth and remains active throughout life. IV. It is also called temporary gland. V. It plays important role in the development of immune system and provides humoral immunity. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. I, II and III only",
+      "B. II, IV and V only",
+      "C. III and V only",
+      "D. I, IV and V only"
+    ],
+    "option_images": [],
+    "answer": "D. I, IV and V only",
+    "solution": "The thymus is made up of two lobes (not four) of lymphoid tissue. It is a prominent gland that atrophies with age (not active throughout life). Statements I, IV, and V are correct.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Control and Coordination",
+    "question": "Select the correct statement from the following with respect to hormone calcitonin. [MHT-CET 2024]",
+    "question_latex": "Select the correct statement from the following with respect to hormone calcitonin. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. It is secreted by the cells lining the thyroid follicles.",
+      "B. It decreases plasma $Ca^{2+}$ and $PO^{4-}$ levels by stimulating their absorption through digestive tract.",
+      "C. It reduces uptake of $Ca^{2+}$ and $PO^{4-}$ by the bone.",
+      "D. Its secretion is regulated through positive feedback mechanism."
+    ],
+    "option_images": [],
+    "answer": "D. Its secretion is regulated through positive feedback mechanism.",
+    "solution": "Calcitonin is secreted by parafollicular cells of thyroid gland (not by cells lining thyroid follicles). Its secretion is regulated through positive feedback mechanism. It reduces blood Ca by removing Ca from blood and depositing it on bone, thereby increasing bone density.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Control and Coordination",
+    "question": "The hormone NOT secreted by pars distalis of pituitary gland is _______",
+    "question_latex": "The hormone NOT secreted by pars distalis of pituitary gland is _______",
+    "question_images": [],
+    "options": [
+      "A. Vasopressin",
+      "B. Corticotrophin",
+      "C. Somatotropin",
+      "D. Prolactin"
+    ],
+    "option_images": [],
+    "answer": "A. Vasopressin",
+    "solution": "Corticotrophin, prolactin and somatotropin are released by anterior pituitary (pars distalis). Vasopressin (ADH) and oxytocin are released by posterior pituitary gland (neurohypophysis).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following cranial nerves is present in rabbit but absent in frog?",
+    "question_latex": "Which of the following cranial nerves is present in rabbit but absent in frog?",
+    "question_images": [],
+    "options": [
+      "A. Glossopharyngeal",
+      "B. Hypoglossal",
+      "C. Olfactory",
+      "D. Optic"
+    ],
+    "option_images": [],
+    "answer": "B. Hypoglossal",
+    "solution": "Ten pairs of cranial nerves are present in fishes and amphibians. The cranial nerve hypoglossal (XII) is present in rabbit but absent in frog.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Control and Coordination",
+    "question": "Hormone which is secreted throughout the life for repair and replacement of body tissue is_____. [MHT-CET 2024]",
+    "question_latex": "Hormone which is secreted throughout the life for repair and replacement of body tissue is_____. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Thymosin",
+      "B. Somatostatin",
+      "C. Somatotrophin",
+      "D. Oxytocin"
+    ],
+    "option_images": [],
+    "answer": "C. Somatotrophin",
+    "solution": "Somatotropin (GH) stimulates growth and development of all tissues by accelerating protein synthesis and cell division. It is secreted throughout life for repair and replacement of body tissue.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following are effects of cortisol? I. It raises blood glucose level. II. It is immunogenic. III. It antagonizes action of adrenaline. IV. It regulates metabolism of proteins and fats. V. Its hypersecretion leads to obesity and wasting of limb muscle. [MHT-CET 2023]",
+    "question_latex": "Which of the following are effects of cortisol? I. It raises blood glucose level. II. It is immunogenic. III. It antagonizes action of adrenaline. IV. It regulates metabolism of proteins and fats. V. Its hypersecretion leads to obesity and wasting of limb muscle. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. II, III and V only",
+      "B. I and V only",
+      "C. II and III only",
+      "D. I, IV and V only"
+    ],
+    "option_images": [],
+    "answer": "D. I, IV and V only",
+    "solution": "Nor-adrenalin antagonizes action of adrenaline (not cortisol). Thymosine is immunogenic (not cortisol). Cortisol raises blood glucose level (I), regulates metabolism of proteins and fats (IV), and its hypersecretion leads to obesity and wasting of limb muscle (V).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Control and Coordination",
+    "question": "Comprehension of spoken and written words take place in the region of",
+    "question_latex": "Comprehension of spoken and written words take place in the region of",
+    "question_images": [],
+    "options": [
+      "A. Association area",
+      "B. Motor area",
+      "C. Wernicke's area",
+      "D. Broca's area"
+    ],
+    "option_images": [],
+    "answer": "C. Wernicke's area",
+    "solution": "Temporal lobe possesses Wernicke's area that is responsible for understanding speech, writing and spoken words.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Control and Coordination",
+    "question": "Chemical disturbance in hormone secretion of thyroid gland causes",
+    "question_latex": "Chemical disturbance in hormone secretion of thyroid gland causes",
+    "question_images": [],
+    "options": [
+      "A. Goitre",
+      "B. Diabetes",
+      "C. Addison's disease",
+      "D. Colour blindness"
+    ],
+    "option_images": [],
+    "answer": "A. Goitre",
+    "solution": "When thyroid gland fails to secrete sufficient hormone, it increases in size to fulfil the requirement of hormone in the body. Thus the large-sized neck is called goitre. Myxoedema and Hashimoto's disease are also caused by hyposecretion of thyroxine.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Control and Coordination",
+    "question": "The co-ordination between sensation and movements is brought about by _____ [MHT-CET 2024]",
+    "question_latex": "The co-ordination between sensation and movements is brought about by _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Premotor area",
+      "B. Motor area",
+      "C. Association area",
+      "D. Broca's area"
+    ],
+    "option_images": [],
+    "answer": "C. Association area",
+    "solution": "The co-ordination between sensation and movements is brought about by the association area.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Control and Coordination",
+    "question": "The Leydig's cells secrete",
+    "question_latex": "The Leydig's cells secrete",
+    "question_images": [],
+    "options": [
+      "A. Oestrogen",
+      "B. Testosterone",
+      "C. Progesterone",
+      "D. Corticosterone"
+    ],
+    "option_images": [],
+    "answer": "B. Testosterone",
+    "solution": "Leydig's cells (also known as interstitial cells) are characteristic of testes of mammal. These cells secrete male sex hormone testosterone, which influences secondary sexual characters in males.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Control and Coordination",
+    "question": "Pneumotaxic centre which can moderate the functions of the respiratory rhythm centre is present at",
+    "question_latex": "Pneumotaxic centre which can moderate the functions of the respiratory rhythm centre is present at",
+    "question_images": [],
+    "options": [
+      "A. Pons region of brain",
+      "B. Thalamus",
+      "C. Spinal cord",
+      "D. Right cerebral hemisphere"
+    ],
+    "option_images": [],
+    "answer": "A. Pons region of brain",
+    "solution": "Pneumotaxic centre is present in the pons region of the brain. Neural signal from this centre can reduce the duration of inspiration and thereby alter the respiratory rate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Control and Coordination",
+    "question": "The visual impulse is carried by following types of nerves/cells to the visual cortex of brain. I - Ganglion cells, II - Rods and cones, III - Bipolar neurons, IV - Optic nerve. The correct sequence of the components is",
+    "question_latex": "The visual impulse is carried by following types of nerves/cells to the visual cortex of brain. I - Ganglion cells, II - Rods and cones, III - Bipolar neurons, IV - Optic nerve. The correct sequence of the components is",
+    "question_images": [],
+    "options": [
+      "A. IV→II→III→I",
+      "B. I→III→II→IV",
+      "C. II→III→I→IV",
+      "D. IV→III→II→I"
+    ],
+    "option_images": [],
+    "answer": "C. II→III→I→IV",
+    "solution": "Visual impulse pathway: Rays entering the pupil stimulate rods and cones (II) first, which transmit the impulse to bipolar neurons (III), then to ganglion cells (I), and finally to the optic nerve (IV) through synaptic junctions to the occipital lobe of cerebrum.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Control and Coordination",
+    "question": "Roof of ........ shows presence of anterior choroid plexus. [2022]",
+    "question_latex": "Roof of ........ shows presence of anterior choroid plexus. [2022]",
+    "question_images": [],
+    "options": [
+      "A. Medulla oblongata",
+      "B. Thalamus",
+      "C. Epithalamus",
+      "D. Pons varolii"
+    ],
+    "option_images": [],
+    "answer": "C. Epithalamus",
+    "solution": "The roof of epithalamus shows presence of anterior choroid plexus.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Control and Coordination",
+    "question": "FSH is secreted by",
+    "question_latex": "FSH is secreted by",
+    "question_images": [],
+    "options": [
+      "A. Posterior pituitary",
+      "B. Thyroid",
+      "C. Anterior pituitary",
+      "D. Hypothalamus"
+    ],
+    "option_images": [],
+    "answer": "C. Anterior pituitary",
+    "solution": "FSH (Follicle Stimulating Hormone) is secreted from the anterior lobe of pituitary (adenohypophysis). FSH is responsible for formation and maturation of gamete.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Control and Coordination",
+    "question": "Given below are two statements. Statement-I: CSF maintains constant pressure inside the cranium. Statement-II: Piamater, choroid plexus and ependymal cells secrete CSF. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements. Statement-I: CSF maintains constant pressure inside the cranium. Statement-II: Piamater, choroid plexus and ependymal cells secrete CSF. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is correct and statement II is incorrect.",
+      "C. Statement I is incorrect and statement II is correct.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to CSF present in central nervous system.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Control and Coordination",
+    "question": "The organ of Corti is located on_______ membrane in the cochlea.",
+    "question_latex": "The organ of Corti is located on_______ membrane in the cochlea.",
+    "question_images": [],
+    "options": [
+      "A. Reissner",
+      "B. Basilar",
+      "C. Tactorial",
+      "D. Basement"
+    ],
+    "option_images": [],
+    "answer": "B. Basilar",
+    "solution": "Hearing organ is cochlea with hearing apparatus organ of Corti with hair cells located on basilar membrane covered by tactorial membrane. The cavity is filled with perilymph and endolymph. Sound waves travel through the fluid causing ripples which stimulate organ of Corti.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following statements is INCORRECT with respect to spinal nerve. [MHT-CET 2023]",
+    "question_latex": "Which of the following statements is INCORRECT with respect to spinal nerve. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. The dorsal or posterior root contains sensory nerve fibres.",
+      "B. It is a mixed type of nerve.",
+      "C. It contains somatic as well as sympathetic nerve fibres in the thoracolumbar region of spinal cord.",
+      "D. Ramus communicans, the shortest branch of spinal nerve joins to parasympathetic ganglion."
+    ],
+    "option_images": [],
+    "answer": "D. Ramus communicans, the shortest branch of spinal nerve joins to parasympathetic ganglion.",
+    "solution": "Ramus communicans, the shortest branch of spinal nerve, joins to sympathetic ganglion, not parasympathetic ganglion.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Control and Coordination",
+    "question": "In a person, temporal lobe of brain is injured. He may experience impairment in sense of_____",
+    "question_latex": "In a person, temporal lobe of brain is injured. He may experience impairment in sense of_____",
+    "question_images": [],
+    "options": [
+      "A. Hearing and vision",
+      "B. Hearing, smell, speech",
+      "C. Hearing, smell and taste",
+      "D. Only hearing"
+    ],
+    "option_images": [],
+    "answer": "C. Hearing, smell and taste",
+    "solution": "Functional areas of cerebrum are frontal, parietal, temporal and occipital. Temporal lobe is associated with hearing, smell and taste. Frontal is associated with motor functions, parietal is sensory and occipital is for vision perception.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Control and Coordination",
+    "question": "Androgens are secreted by [MHT CET 2006]",
+    "question_latex": "Androgens are secreted by [MHT CET 2006]",
+    "question_images": [],
+    "options": [
+      "A. Pituitary",
+      "B. Thyroid",
+      "C. Adrenals",
+      "D. Parathyroid"
+    ],
+    "option_images": [],
+    "answer": "C. Adrenals",
+    "solution": "Androgens (secreted from adrenals) are a group of steroid hormones that stimulates the development of male sex hormones and male secondary sexual characteristics, e.g. beard growth, deepening of the voice and muscle development.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Control and Coordination",
+    "question": "Select the INCORRECT match. [MHT-CET 2023]",
+    "question_latex": "Select the INCORRECT match. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Temporal lobe - Auditory area",
+      "B. Parietal lobe - Olfactory area",
+      "C. Frontal lobe - Association area",
+      "D. Occipital lobe - Visual area"
+    ],
+    "option_images": [],
+    "answer": "B. Parietal lobe - Olfactory area",
+    "solution": "Parietal area is somesthetic sensory area for pain, pressure, and temperature. Olfactory area is in the temporal lobe.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Control and Coordination",
+    "question": "Dilatation of pupil takes place by",
+    "question_latex": "Dilatation of pupil takes place by",
+    "question_images": [],
+    "options": [
+      "A. Sympathetic nervous system",
+      "B. Parasympathetic nervous system",
+      "C. Central nervous system",
+      "D. Both A and B"
+    ],
+    "option_images": [],
+    "answer": "A. Sympathetic nervous system",
+    "solution": "Sympathetic nervous system dilates the pupils, permitting more light to enter the eyes. Sympathetic nervous system includes a chain of sympathetic ganglia.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Control and Coordination",
+    "question": "Arrange the following in the correct sequence in evolution of nervous system. A. Formation of centralised nervous system. B. Diffused nervous system in Hydra. C. Formation of ganglion. D. Nervous system is lacking in sponges. [2022]",
+    "question_latex": "Arrange the following in the correct sequence in evolution of nervous system. A. Formation of centralised nervous system. B. Diffused nervous system in Hydra. C. Formation of ganglion. D. Nervous system is lacking in sponges. [2022]",
+    "question_images": [],
+    "options": [
+      "A. A, D, B and A",
+      "B. C, D, A and B",
+      "C. B, A, D and C",
+      "D. D, B, C and A"
+    ],
+    "option_images": [],
+    "answer": "D. D, B, C and A",
+    "solution": "The correct evolutionary sequence is: Nervous system lacking in sponges (D) → Diffused nervous system in Hydra (B) → Formation of ganglion (C) → Formation of centralised nervous system (A).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Control and Coordination",
+    "question": "The human ear is equipped to register sounds of frequencies between",
+    "question_latex": "The human ear is equipped to register sounds of frequencies between",
+    "question_images": [],
+    "options": [
+      "A. 20 to 20,000 cycles per second",
+      "B. 1000 to 2000 cycles per second",
+      "C. 5000 to 7000 cycles per second",
+      "D. 5,000 to 10,000 cycles per second"
+    ],
+    "option_images": [],
+    "answer": "A. 20 to 20,000 cycles per second",
+    "solution": "In humans, the capacity of hearing is 16–20,000 cycles/second. The low frequencies sensitise the sensory cells of ear near the tip of cochlea and high frequency towards the oval window.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Control and Coordination",
+    "question": "Select a pair of parasympathetic responses. [MHT-CET 2023]",
+    "question_latex": "Select a pair of parasympathetic responses. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Pupillary constriction and bronchial dilatation.",
+      "B. Secretion of saliva and tears increases.",
+      "C. Vasodilatation and tachycardia.",
+      "D. Stimulation of peristalsis and contraction of urinary bladder."
+    ],
+    "option_images": [],
+    "answer": "D. Stimulation of peristalsis and contraction of urinary bladder.",
+    "solution": "Parasympathetic has inhibitory effect on most organs. However, digestion, peristalsis, and micturition system are accelerated by parasympathetic.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Control and Coordination",
+    "question": "Given below are two statements. Statement-I: Nervous tissue is without lymphatic vessels. Statement-II: Nervous tissue is endodermal in origin. In light of above statements, choose the most appropriate correct answer from the option given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements. Statement-I: Nervous tissue is without lymphatic vessels. Statement-II: Nervous tissue is endodermal in origin. In light of above statements, choose the most appropriate correct answer from the option given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect and statement II is correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is correct and statement II is incorrect.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct and statement II is incorrect.",
+    "solution": "Nervous tissue is without lymphatic vessels (Statement I is correct). Nervous tissue is ectodermal in origin, not endodermal (Statement II is incorrect).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Control and Coordination",
+    "question": "Sensory epithelium of nasal chamber shows presence of_____. [MHT-CET 2023]",
+    "question_latex": "Sensory epithelium of nasal chamber shows presence of_____. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Olfactory receptors",
+      "B. Thermoreceptors",
+      "C. Gustato receptors",
+      "D. Photoreceptors"
+    ],
+    "option_images": [],
+    "answer": "A. Olfactory receptors",
+    "solution": "Sensory epithelium of nasal chamber shows presence of olfactory epithelium for detection of smell.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Control and Coordination",
+    "question": "Each nerve cell is surrounded by a sheath of connective tissue called",
+    "question_latex": "Each nerve cell is surrounded by a sheath of connective tissue called",
+    "question_images": [],
+    "options": [
+      "A. Endoneurium",
+      "B. Perineurium",
+      "C. Endometrium",
+      "D. Epineurium"
+    ],
+    "option_images": [],
+    "answer": "A. Endoneurium",
+    "solution": "Each nerve cell is surrounded by endoneurium membrane. Perineurium is the protective sheath covering nerve fascicle and epineurium is outermost covering surrounding the peripheral nerve. Endometrium is uterine innermost lining.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Control and Coordination",
+    "question": "In a myelinated neuron, two adjacent myelin sheaths are separated by gaps called",
+    "question_latex": "In a myelinated neuron, two adjacent myelin sheaths are separated by gaps called",
+    "question_images": [],
+    "options": [
+      "A. Nodes of Ranvier",
+      "B. Synaptic cleft",
+      "C. Schwann cells",
+      "D. Synaptic knob"
+    ],
+    "option_images": [],
+    "answer": "A. Nodes of Ranvier",
+    "solution": "The myelin sheath appears as a tube around the axon of nerve fibre. At regular intervals, the neurilemma is constricted and the myelin sheath is interrupted forming the so-called nodes of Ranvier.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Control and Coordination",
+    "question": "A ten year old child, in whom anterior pituitary function is deficient, is likely to",
+    "question_latex": "A ten year old child, in whom anterior pituitary function is deficient, is likely to",
+    "question_images": [],
+    "options": [
+      "A. Develop acromegaly",
+      "B. Be short stature but have relatively normal body proportions",
+      "C. Be in constant danger of becoming dehydrated",
+      "D. Have a high basal metabolic rate"
+    ],
+    "option_images": [],
+    "answer": "B. Be short stature but have relatively normal body proportions",
+    "solution": "Hyposecretion of growth hormone (GH) from anterior pituitary causes dwarfism during the skeletal growth period (i.e. during childhood). The individual is of short stature but is well proportioned and is without any mental deficiency.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Control and Coordination",
+    "question": "Largest basal nucleus at the floor of cerebrum is ........ [2022]",
+    "question_latex": "Largest basal nucleus at the floor of cerebrum is ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Corpus callosum",
+      "B. Paraventricular nucleus",
+      "C. Red nucleus",
+      "D. Corpus striatum"
+    ],
+    "option_images": [],
+    "answer": "D. Corpus striatum",
+    "solution": "Corpus striatum is the largest basal nucleus located at the floor of cerebrum.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Control and Coordination",
+    "question": "Read the following statements with respect to hyper/hypo secretion of hormone and their effects choose the correct option. Statement I: Hypersecretion of cortisol causes rise in blood sugar level, retention of sodium, and obesity. Statement II: NIDDM develops due to failure of insulin to facilitate cellular absorption to glucose as well as reduced sensitivity to insulin. [MHT-CET 2023]",
+    "question_latex": "Read the following statements with respect to hyper/hypo secretion of hormone and their effects choose the correct option. Statement I: Hypersecretion of cortisol causes rise in blood sugar level, retention of sodium, and obesity. Statement II: NIDDM develops due to failure of insulin to facilitate cellular absorption to glucose as well as reduced sensitivity to insulin. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "D. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to cortisol and insulin.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Control and Coordination",
+    "question": "Parkinson's disease is caused by ........ [2022]",
+    "question_latex": "Parkinson's disease is caused by ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Injury to medulla oblongata.",
+      "B. Increased level of neurotransmitter-dopamine.",
+      "C. Degeneration of dopamine producing neurons.",
+      "D. Accumulation of amyloid protein in brain."
+    ],
+    "option_images": [],
+    "answer": "C. Degeneration of dopamine producing neurons.",
+    "solution": "Parkinson's disease is caused by degeneration of dopamine producing neurons (substantia nigra). This leads to reduced dopamine levels causing characteristic tremors and movement disorders.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Control and Coordination",
+    "question": "Which of the following is an example of unconditioned reflex? [MHT-CET 2020]",
+    "question_latex": "Which of the following is an example of unconditioned reflex? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Talking with someone while tying shoe laces.",
+      "B. Reciting nursery rhymes.",
+      "C. Driving a vehicle.",
+      "D. Withdrawing of hand when pricked."
+    ],
+    "option_images": [],
+    "answer": "D. Withdrawing of hand when pricked.",
+    "solution": "Unconditioned reflexes are inborn and inherited. They do not require any learning or practice. Withdrawing hand when pricked is an example of unconditioned reflex.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Control and Coordination",
+    "question": "Proper nervous system is lacking in ........ [2022]",
+    "question_latex": "Proper nervous system is lacking in ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Cockroach",
+      "B. Hydra",
+      "C. Sponges",
+      "D. Planaria"
+    ],
+    "option_images": [],
+    "answer": "C. Sponges",
+    "solution": "Sponges (Porifera) do not have a proper nervous system. Hydra has a diffused nervous system, Planaria has a ladder-type nervous system, and cockroach has a well-developed nervous system.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

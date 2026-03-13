@@ -1,0 +1,1914 @@
+[
+  {
+    "id": 1,
+    "chapter": "Biotechnology",
+    "question": "The insect resistant transgenic cotton is developed by inserting the 'Cry gene' isolated from [2022]",
+    "question_latex": "The insect resistant transgenic cotton is developed by inserting the 'Cry gene' isolated from [2022]",
+    "question_images": [],
+    "options": [
+      "A. Arabidopsis thalliana",
+      "B. Bacillus thuringiensis",
+      "C. Agrobacterium tumifaciens",
+      "D. Phaseolus vulgaris"
+    ],
+    "option_images": [],
+    "answer": "B. Bacillus thuringiensis",
+    "solution": "The Cry gene is isolated from Bacillus thuringiensis and inserted into cotton to make it insect resistant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Biotechnology",
+    "question": "Genomic DNA library means",
+    "question_latex": "Genomic DNA library means",
+    "question_images": [],
+    "options": [
+      "A. A collection of literature about DNA",
+      "B. A collection of organisms for extracting DNA",
+      "C. Packing of donor DNA in a collection of vectors",
+      "D. A collection of gene vectors"
+    ],
+    "option_images": [],
+    "answer": "C. Packing of donor DNA in a collection of vectors",
+    "solution": "Genomic DNA library means packing of donor DNA in a collection of vectors.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Biotechnology",
+    "question": "In recombinant DNA technology ________ ions are needed for cleavage. [MHT-CET 2019]",
+    "question_latex": "In recombinant DNA technology ________ ions are needed for cleavage. [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Mn²⁺",
+      "B. K⁺",
+      "C. Na⁺",
+      "D. Mg²⁺"
+    ],
+    "option_images": [],
+    "answer": "D. Mg²⁺",
+    "solution": "$Mg^{2+}$ ions are needed for cleavage in recombinant DNA technology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is the donor of α-amylase inhibitor gene to develop transgenic pest resistant tobacco? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is the donor of $\\alpha$-amylase inhibitor gene to develop transgenic pest resistant tobacco? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Adzuki bean",
+      "B. Pea",
+      "C. Soybean",
+      "D. Gram"
+    ],
+    "option_images": [],
+    "answer": "A. Adzuki bean",
+    "solution": "The gene of $\\alpha$-amylase inhibitor ($\\alpha AI - Pv$) has been isolated from adzuki bean (Phaseolus vulgaris) and transferred to tobacco. This gene works against pests like Zabrotes subfasciatus and Callosobruchus chinensis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Biotechnology",
+    "question": "Main objective of production/use of herbicide resistant GM crops is to",
+    "question_latex": "Main objective of production/use of herbicide resistant GM crops is to",
+    "question_images": [],
+    "options": [
+      "A. Eliminate weeds from the field without the use of manual labour",
+      "B. Eliminate weeds from the field without the use of herbicides",
+      "C. Encourage eco-friendly herbicides",
+      "D. Reduce herbicide accumulation in food articles for health safety"
+    ],
+    "option_images": [],
+    "answer": "D. Reduce herbicide accumulation in food articles for health safety",
+    "solution": "Main objective of production/use of herbicide resistant genetically modified crops is to reduce herbicide accumulation in food articles for health safety.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Biotechnology",
+    "question": "Bt toxin is obtained from",
+    "question_latex": "Bt toxin is obtained from",
+    "question_images": [],
+    "options": [
+      "A. Prokaryotes",
+      "B. Eukaryotes",
+      "C. Both a and b",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Prokaryotes",
+    "solution": "Bt toxin is obtained from Bacillus thuringiensis, a prokaryote.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Biotechnology",
+    "question": "Match the Column-I with Column-II and select the correct option [MHT-CET 2020]\nColumn-I: (a) Female banded Krait, (b) Pancreas from dog, (c) Hair root of human, (d) E. coli\nColumn-II: (i) Humulin, (ii) DNA sample, (iii) Insulin extracted and purified, (iv) DNA probe",
+    "question_latex": "Match the Column-I with Column-II and select the correct option [MHT-CET 2020]",
+    "question_images": [
+      "q7_1"
+    ],
+    "options": [
+      "A. (a)-(ii); (b)-(i); (c)-(iii); (d)-(iv)",
+      "B. (a)-(iv); (b)-(iii); (c)-(ii); (d)-(i)",
+      "C. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+      "D. (a)-(i); (b)-(ii); (c)-(iv); (d)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "B. (a)-(iv); (b)-(iii); (c)-(ii); (d)-(i)",
+    "solution": "DNA probe is obtained from female banded krait Y-chromosome. Insulin is extracted and purified from dog pancreas. DNA sample can be obtained from hair root sample. Humulin is human insulin protein from genetically engineered E. coli.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Biotechnology",
+    "question": "The method of growing micro-organisms as a thin layer on nutrient medium is known as",
+    "question_latex": "The method of growing micro-organisms as a thin layer on nutrient medium is known as",
+    "question_images": [],
+    "options": [
+      "A. Suspended growth system",
+      "B. Support growth system",
+      "C. Thin layer growth system",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Support growth system",
+    "solution": "The method of growing micro-organisms as a thin layer on nutrient medium is known as support growth system.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Biotechnology",
+    "question": "Manipulation of DNA in genetic engineering became possible due to the discovery of",
+    "question_latex": "Manipulation of DNA in genetic engineering became possible due to the discovery of",
+    "question_images": [],
+    "options": [
+      "A. Restriction endonuclease",
+      "B. DNA ligase",
+      "C. Transcriptase",
+      "D. Primase"
+    ],
+    "option_images": [],
+    "answer": "A. Restriction endonuclease",
+    "solution": "Isolation of restriction endonucleases by Nathans and Smith (1970) made it possible to cut DNA at specific sites. Restriction enzyme can cut both strands of DNA when foreign nucleotides are introduced in the cell. They cleave DNA to generate a nick with a 5' phosphoryl and 3' hydroxyl terminus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Biotechnology",
+    "question": "Given below are two statements regarding biopatent.\nStatement I: A patent consists of 3 parts-grant, specification and claim.\nStatement II: Indian government has not granted the patent under the title 'Control of plant gene expression'.\nIn the light of the above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements regarding biopatent.\nStatement I: A patent consists of 3 parts-grant, specification and claim.\nStatement II: Indian government has not granted the patent under the title 'Control of plant gene expression'.\nIn the light of the above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both Statement I and statement II are correct.",
+      "B. Statement I is correct but statement II is incorrect",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both Statement I and statement II are correct.",
+    "solution": "Both Statement I and statement II are correct but both are not explaining each other.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Biotechnology",
+    "question": "Match the process of PCR in Column I with the corresponding temperature in Column II and select the correct option. [2022]\nColumn I: A. Heat denaturation, B. Annealing, C. Primer extension\nColumn II: I. 70-75°C, II. 90-98°C, III. 40-60°C",
+    "question_latex": "Match the process of PCR in Column I with the corresponding temperature in Column II and select the correct option. [2022]",
+    "question_images": [
+      "q11_1"
+    ],
+    "options": [
+      "A. A-II, B-I, C-III",
+      "B. A-I, B-III, C-II",
+      "C. A-I, B-II, C-III",
+      "D. A-II, B-III, C-I"
+    ],
+    "option_images": [],
+    "answer": "D. A-II, B-III, C-I",
+    "solution": "Heat denaturation occurs at $90-98^\\circ C$, Annealing at $40-60^\\circ C$, and Primer extension at $70-75^\\circ C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Biotechnology",
+    "question": "Given below are two statements:\nStatement I: Genetic engineering is defined as the manipulation of genetic materials.\nStatement II: Genetic engineering is alternatively called rDNA technology.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements:\nStatement I: Genetic engineering is defined as the manipulation of genetic materials.\nStatement II: Genetic engineering is alternatively called rDNA technology.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to genetic engineering and biotechnology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Biotechnology",
+    "question": "The size of genome of Methanococcus is _____ [MHT-CET 2020]",
+    "question_latex": "The size of genome of Methanococcus is _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 12500 kb",
+      "B. 1830 kb",
+      "C. 569 kb",
+      "D. 1660 kb"
+    ],
+    "option_images": [],
+    "answer": "D. 1660 kb",
+    "solution": "Size of Methanococcus genome is 1660 kb. Genome is total amount of DNA within one copy of a single complete genome. Mycoplasma has smallest genome of size 580 kb.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Biotechnology",
+    "question": "In PCR technique, the organism providing thermostable DNA polymerase is a _____ [MHT-CET 2020]",
+    "question_latex": "In PCR technique, the organism providing thermostable DNA polymerase is a _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Bacterium",
+      "B. Bacteriophage",
+      "C. Alga",
+      "D. Fungus"
+    ],
+    "option_images": [],
+    "answer": "A. Bacterium",
+    "solution": "PCR is a temperature based mechanism which brings about denaturation, annealing, elongation and extension. Denaturation requires thermostable enzyme which is obtained from Thermus aquaticus bacterium.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Biotechnology",
+    "question": "In genetic engineering DNA ligase is used for _____ [MHT-CET 2020]",
+    "question_latex": "In genetic engineering DNA ligase is used for _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Joining the desired gene into vector.",
+      "B. Polymerase chain reaction.",
+      "C. Reverse transcription.",
+      "D. Fragmentation of DNA"
+    ],
+    "option_images": [],
+    "answer": "A. Joining the desired gene into vector.",
+    "solution": "In genetic engineering DNA Ligase is used for inserting and joining the desired gene into vector. RE are used for fragmentation of DNA, reverse transcriptase is used for converting single stranded RNA into double stranded DNA.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following technique is NOT used for transfer of foreign DNA into host cell? [MHT-CET 2023]",
+    "question_latex": "Which one of the following technique is NOT used for transfer of foreign DNA into host cell? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Gel permeation",
+      "B. Ultra sonification",
+      "C. Shot gun",
+      "D. Microinjection"
+    ],
+    "option_images": [],
+    "answer": "A. Gel permeation",
+    "solution": "Gel permeation is a term used for when the separation technique size exclusion chromatography (SEC), that separates analytes on the basis of size, is applied to polymers in particular. It is not used for DNA transfer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Biotechnology",
+    "question": "Which part of bacteriophage is considered as ghost in its lytic cycle? [MHT-CET 2019]",
+    "question_latex": "Which part of bacteriophage is considered as ghost in its lytic cycle? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Entire bacteriophage before insertion of DNA into bacteria",
+      "B. DNA just before insertion into the bacteria",
+      "C. Base plate & tail fibres before insertion of DNA into the bacteria",
+      "D. Capsid after insertion of DNA into the bacteria"
+    ],
+    "option_images": [],
+    "answer": "D. Capsid after insertion of DNA into the bacteria",
+    "solution": "The capsid (protein coat) left outside after DNA injection into the bacteria is called the ghost of the bacteriophage.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Biotechnology",
+    "question": "Differentiation of shoot is controlled by",
+    "question_latex": "Differentiation of shoot is controlled by",
+    "question_images": [],
+    "options": [
+      "A. High gibberellin auxin ratio",
+      "B. High gibberellin cytokinin ratio",
+      "C. High auxin cytokinin ratio",
+      "D. High cytokinin auxin ratio"
+    ],
+    "option_images": [],
+    "answer": "D. High cytokinin auxin ratio",
+    "solution": "Ratio of cytokinins to auxins controls differentiation. If both are present in equal quantities, cells divide but fail to differentiate. If there is more cytokinin than auxin, shoot buds develop. If there is more auxin than cytokinin, roots develop.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Biotechnology",
+    "question": "Match the following crops in Column I with their transgene given in Column II. Choose the correct option. [MHT-CET 2023]\nColumn I: (a) Canola, (b) Tomato, (c) Sugarbeet, (d) Rice\nColumn II: (i) Ferritin, (ii) γ-tocopherol methyl transferase, (iii) Chalone isomerase, (iv) Sucrase fructosyl transferase",
+    "question_latex": "Match the following crops in Column I with their transgene given in Column II. [MHT-CET 2023]",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "B. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C. (a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Match the columns with variety of plants and their transgene which improves the variety: Canola - $\\gamma$-tocopherol methyl transferase, Tomato - Chalone isomerase, Sugarbeet - Sucrase fructosyl transferase, Rice - Ferritin.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Biotechnology",
+    "question": "Phytotron is",
+    "question_latex": "Phytotron is",
+    "question_images": [],
+    "options": [
+      "A. A controlled condition chamber for tissue culture",
+      "B. Leaf culture process",
+      "C. Special culture of plants",
+      "D. Root culture process"
+    ],
+    "option_images": [],
+    "answer": "A. A controlled condition chamber for tissue culture",
+    "solution": "Phytotron is a chamber in which plants can be grown in controlled condition for the study of effect of environmental condition on their growth.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Biotechnology",
+    "question": "To obtain reliable results from PCR machine, the process can be carried out for about _____ cycles. [MHT-CET 2020]",
+    "question_latex": "To obtain reliable results from PCR machine, the process can be carried out for about _____ cycles. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 18-20",
+      "B. 28-30",
+      "C. 48-58",
+      "D. 38-44"
+    ],
+    "option_images": [],
+    "answer": "B. 28-30",
+    "solution": "In an automatic cycle the three steps are automatically repeated 28-30 times. The machine performs the entire operation automatically and precisely. To obtain reliable results from PCR machine, the process has to be carried out for 28-30 times, after which the product may be analysed for size, quantity, sequence etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Biotechnology",
+    "question": "What is true about Bt toxin?",
+    "question_latex": "What is true about $Bt$ toxin?",
+    "question_images": [],
+    "options": [
+      "A. The inactive protoxin gets converted into active form in the insect gut",
+      "B. Bt protein exists as active toxin in the Bacillus",
+      "C. The activated toxin enters the ovaries of the pest to sterilize it and thus, prevent its multiplication",
+      "D. The concerned Bacillus has antitoxins"
+    ],
+    "option_images": [],
+    "answer": "A. The inactive protoxin gets converted into active form in the insect gut",
+    "solution": "Bacillus thuringiensis toxin is an inactive protoxin, which gets converted into active form in the insect gut. It works as an insecticide.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Biotechnology",
+    "question": "The most effective, cheapest and convenient method to protect plants from pathogens is _____ [MHT-CET 2020]",
+    "question_latex": "The most effective, cheapest and convenient method to protect plants from pathogens is _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Physical method",
+      "B. Biological herbicides",
+      "C. Producing resistant varieties",
+      "D. Chemical pesticides"
+    ],
+    "option_images": [],
+    "answer": "C. Producing resistant varieties",
+    "solution": "Producing disease resistant varieties of plants is the most cheapest and convenient method to protect plants from insects. Chemical methods are expensive and hazardous to mankind when used for a long time. Physical barriers are not always effective.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Biotechnology",
+    "question": "The vector Baculovirus is used for gene transfer in _____ [MHT-CET 2020]",
+    "question_latex": "The vector Baculovirus is used for gene transfer in _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Bacterium",
+      "B. Insect",
+      "C. Bacteriophage",
+      "D. Yeast"
+    ],
+    "option_images": [],
+    "answer": "B. Insect",
+    "solution": "The vector Baculovirus is used for gene transfer in insect. It is used as gene expression tool for more than 30 years based on its ability to express high level of proteins in insect cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Biotechnology",
+    "question": "Somaclonal variation appears in plants",
+    "question_latex": "Somaclonal variation appears in plants",
+    "question_images": [],
+    "options": [
+      "A. Growing in polluted soil or water",
+      "B. Exposed to gamma rays",
+      "C. Raised in tissue culture",
+      "D. Transformed by recombinant DNA technology"
+    ],
+    "option_images": [],
+    "answer": "C. Raised in tissue culture",
+    "solution": "Somaclonal variation is a variation that occurs in cell and tissue cultures, which may be genetic or epigenetic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Biotechnology",
+    "question": "Extra chromosomal circular DNA is found in [MHT-CET 2008]",
+    "question_latex": "Extra chromosomal circular DNA is found in [MHT-CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. Virus",
+      "B. Bacteria",
+      "C. Protozoa",
+      "D. Algae"
+    ],
+    "option_images": [],
+    "answer": "B. Bacteria",
+    "solution": "Extra chromosomal circular DNA (plasmid) is found in bacteria.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is an example of restriction endonuclease? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is an example of restriction endonuclease? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Atlas-66",
+      "B. Puc",
+      "C. pBR322",
+      "D. Eco RI"
+    ],
+    "option_images": [],
+    "answer": "D. Eco RI",
+    "solution": "Eco RI is obtained from Escherichia coli Ry13 with restriction site G-A producing sticky ends.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Biotechnology",
+    "question": "Emasculation is related to",
+    "question_latex": "Emasculation is related to",
+    "question_images": [],
+    "options": [
+      "A. Pureline",
+      "B. Mass selection",
+      "C. Clonal selection",
+      "D. Hybridization"
+    ],
+    "option_images": [],
+    "answer": "D. Hybridization",
+    "solution": "Emasculation is the process of removing anthers from bisexual flowers before they shed pollen. It is related to hybridization.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Biotechnology",
+    "question": "Hardening in tissue culture is",
+    "question_latex": "Hardening in tissue culture is",
+    "question_images": [],
+    "options": [
+      "A. Keeping at 30-50°C temperature for about 30 minutes",
+      "B. Acclimatization tissue culture plants slowly before growing in the field",
+      "C. Plunging the vials into water at 37-40°C",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Acclimatization tissue culture plants slowly before growing in the field",
+    "solution": "Hardening in tissue culture refers to the acclimatization of tissue culture plants slowly before growing them in the field.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Biotechnology",
+    "question": "Which of the following is used to increase cattle and dairy yield by gene therapy? [MHT-CET 2020]",
+    "question_latex": "Which of the following is used to increase cattle and dairy yield by gene therapy? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. DNAse",
+      "B. Tissue growth factor - Beta",
+      "C. Tissue plasminogen activator",
+      "D. Bovine growth hormone"
+    ],
+    "option_images": [],
+    "answer": "D. Bovine growth hormone",
+    "solution": "Bovine growth hormone is used to increase cattle and dairy yield. TPA is used to dissolve blood clots to avoid hemorrhages and thrombosis. DNAse is used in treatment of cystic fibrosis. Tissue growth factor $\\beta$ is a signaling protein produced by all WBC lineages.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Biotechnology",
+    "question": "In transgenics, expression of transgene in target tissue is determined by",
+    "question_latex": "In transgenics, expression of transgene in target tissue is determined by",
+    "question_images": [],
+    "options": [
+      "A. Enhancer",
+      "B. Transgene",
+      "C. Promoter",
+      "D. Reporter"
+    ],
+    "option_images": [],
+    "answer": "D. Reporter",
+    "solution": "Reporter genes are used to determine if a particular DNA construct has been successfully introduced into a cell, organ or tissue. Enhancer is a DNA sequence present within the control regions of many eukaryotic genes that can enhance transcription. Promoter is a cis-acting nucleotide sequence on a DNA molecule, which promotes the initiation of transcription.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Biotechnology",
+    "question": "The term totipotency refers to",
+    "question_latex": "The term totipotency refers to",
+    "question_images": [],
+    "options": [
+      "A. The capability of organism to regenerate its lost parts",
+      "B. Capability of somatic cells to produce complete organism",
+      "C. The introduction of foreign gene in a cell's DNA",
+      "D. The technique of growing immature embryos"
+    ],
+    "option_images": [],
+    "answer": "B. Capability of somatic cells to produce complete organism",
+    "solution": "Morgan (1901) coined the term totipotency. Cellular totipotency is the capability of a somatic cell to produce the complete organism.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Biotechnology",
+    "question": "Synthetic oligonucleotides of 17-30 nucleotides complementary to the sequence present on the desired DNA segment used in PCR are called [MHT-CET 2020]",
+    "question_latex": "Synthetic oligonucleotides of $17-30$ nucleotides complementary to the sequence present on the desired DNA segment used in PCR are called [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Operators",
+      "B. Primers",
+      "C. dNTPs",
+      "D. Promoters"
+    ],
+    "option_images": [],
+    "answer": "B. Primers",
+    "solution": "A primer is a short single stranded nucleic acid utilized by all living organisms in the initiation of DNA synthesis. Polymerase chain reaction is used to make millions of specific DNA samples.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Biotechnology",
+    "question": "Restriction endonucleases are most widely used in recombinant DNA technology. They are obtained from",
+    "question_latex": "Restriction endonucleases are most widely used in recombinant DNA technology. They are obtained from",
+    "question_images": [],
+    "options": [
+      "A. Bacteriophages",
+      "B. Bacterial cells",
+      "C. Plasmids",
+      "D. All prokaryotic cells"
+    ],
+    "option_images": [],
+    "answer": "B. Bacterial cells",
+    "solution": "Restriction endonucleases are enzymes that produce internal cuts called cleavage in DNA molecules only within or near those sites which have specific base sequences (recognition site). These are obtained from the bacterial cells. Restriction enzymes were discovered due to and named after the phenomenon of host restriction of bacterial phages.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Biotechnology",
+    "question": "Hybridomas are result of the fusion of",
+    "question_latex": "Hybridomas are result of the fusion of",
+    "question_images": [],
+    "options": [
+      "A. Normal antibody producing cell with myeloma",
+      "B. Abnormal antibody producing cell with myeloma",
+      "C. Male reproductive cell with myeloma",
+      "D. Female reproductive cell with myeloma"
+    ],
+    "option_images": [],
+    "answer": "A. Normal antibody producing cell with myeloma",
+    "solution": "Monoclonal antibodies are produced by fusing normal antibody-producing cells with myelomas (cells from cancerous tumour). The resulting hybrid cells are called hybridomas.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Biotechnology",
+    "question": "DNA Fragments formed by action of restriction enzyme in a chemical reaction can be separated by [2022]",
+    "question_latex": "DNA Fragments formed by action of restriction enzyme in a chemical reaction can be separated by [2022]",
+    "question_images": [],
+    "options": [
+      "A. Precipitation",
+      "B. Polymerase chain reaction",
+      "C. Filtration",
+      "D. Gel electrophoresis"
+    ],
+    "option_images": [],
+    "answer": "D. Gel electrophoresis",
+    "solution": "DNA fragments formed by the action of restriction enzymes can be separated by gel electrophoresis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Biotechnology",
+    "question": "The large number of genetically identical offsprings produced by micropropagation are called _____ [MHT-CET 2020]",
+    "question_latex": "The large number of genetically identical offsprings produced by micropropagation are called _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Clones",
+      "B. Drones",
+      "C. Siblings",
+      "D. Twins"
+    ],
+    "option_images": [],
+    "answer": "A. Clones",
+    "solution": "Genetically identical offsprings formed by micropropagation are called clones. Siblings are offsprings born to same parents.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Biotechnology",
+    "question": "Restriction enzyme was discovered by",
+    "question_latex": "Restriction enzyme was discovered by",
+    "question_images": [],
+    "options": [
+      "A. Alexander Fleming",
+      "B. Waksman",
+      "C. Berg",
+      "D. Smith, Nathan and Arber"
+    ],
+    "option_images": [],
+    "answer": "D. Smith, Nathan and Arber",
+    "solution": "Restriction enzymes are known as molecular knives or molecular scissors and are used to cut DNA at specific sites. These were first discovered by Smith, Nathan and Arber.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Biotechnology",
+    "question": "In rDNA technology the recombinant cell becomes sensitive to Ampicillin resistant gene by enzyme _____ [MHT-CET 2024]",
+    "question_latex": "In rDNA technology the recombinant cell becomes sensitive to Ampicillin resistant gene by enzyme _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Alu I",
+      "B. Bam HI",
+      "C. Pst I",
+      "D. Hind II"
+    ],
+    "option_images": [],
+    "answer": "C. Pst I",
+    "solution": "Recombinant cell becomes sensitive to Ampicillin resistant gene by enzyme Pst I. The rest three are also restriction enzymes (RE).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Biotechnology",
+    "question": "The alteration of genetic material - DNA and RNA is done by _____ [MHT-CET 2024]",
+    "question_latex": "The alteration of genetic material - DNA and RNA is done by _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. modern biotechnology",
+      "B. traditional biotechnology",
+      "C. fermentation",
+      "D. microbiology"
+    ],
+    "option_images": [],
+    "answer": "A. modern biotechnology",
+    "solution": "The alteration of genetic material - DNA and RNA is done by modern biotechnology. The combination of biology and production technology based on genetic engineering evolved into modern biotechnology (new biotechnology).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Biotechnology",
+    "question": "To increase the production and quality of wool in sheep, the bacterial genes used are [MHT-CET 2024]",
+    "question_latex": "To increase the production and quality of wool in sheep, the bacterial genes used are [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Nif",
+      "B. αAI-Pv",
+      "C. Cys F and Cys M",
+      "D. myc and ras"
+    ],
+    "option_images": [],
+    "answer": "C. Cys F and Cys M",
+    "solution": "To increase the production and quality of wool in sheep, the bacterial genes used are $Cys_F$ and $Cys_M$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Biotechnology",
+    "question": "\"Biotech Soyabean\" showing allergic reactions in humans have gene from brazil nut to increase the production of ........ [2022]",
+    "question_latex": "\"Biotech Soyabean\" showing allergic reactions in humans have gene from brazil nut to increase the production of ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Cysteine",
+      "B. Tryptophan",
+      "C. Methionine",
+      "D. Lysine"
+    ],
+    "option_images": [],
+    "answer": "C. Methionine",
+    "solution": "Biotech Soyabean has a gene from Brazil nut to increase the production of Methionine amino acid, but this gene caused allergic reactions in people with nut allergies.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Biotechnology",
+    "question": "Select the mis-matched pair. [MHT-CET 2020]",
+    "question_latex": "Select the mis-matched pair. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Insulin - Frederick Banting and Charles Best",
+      "B. DNA finger printing - Karl Landsteiner",
+      "C. First vaccine - Edward Jenner",
+      "D. DNA amplification - Kary Mullis"
+    ],
+    "option_images": [],
+    "answer": "B. DNA finger printing - Karl Landsteiner",
+    "solution": "DNA finger printing was first developed by British geneticist Alec Jeffrey's after he noticed that certain sequences of highly variable DNA which do not contribute to the function of genes are repeated within genes. Karl Landsteiner is associated with blood group discovery.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Biotechnology",
+    "question": "Match the transgenic plant in Column-I with the substance they produce given in Column-II and choose the correct option. [MHT-CET 2023]\nColumn I: (a) Canola, (b) Golden rice, (c) Sugarbeet, (d) Tomato\nColumn II: (i) Fructants, (ii) Flavonoids, (iii) Vitamin E, (iv) Vitamin A",
+    "question_latex": "Match the transgenic plant in Column-I with the substance they produce given in Column-II and choose the correct option. [MHT-CET 2023]",
+    "question_images": [
+      "44_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "B. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "C. (a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "D. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "C. (a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+    "solution": "Canola produces Vitamin E, Golden rice produces Vitamin A, Sugarbeet produces Fructants, and Tomato produces Flavonoids.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Biotechnology",
+    "question": "Blindness can be prevented by use of which crop in poor countries?",
+    "question_latex": "Blindness can be prevented by use of which crop in poor countries?",
+    "question_images": [],
+    "options": [
+      "A. Golden rice",
+      "B. Wheat",
+      "C. Gram",
+      "D. Pea"
+    ],
+    "option_images": [],
+    "answer": "A. Golden rice",
+    "solution": "Golden rice is genetically modified to produce beta-carotene (Vitamin A precursor). Vitamin A deficiency causes blindness, so Golden rice can help prevent blindness in poor countries.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Biotechnology",
+    "question": "An extrachromosomal DNA, which can be used as vector in gene cloning is called",
+    "question_latex": "An extrachromosomal DNA, which can be used as vector in gene cloning is called",
+    "question_images": [],
+    "options": [
+      "A. Transposon",
+      "B. Intron",
+      "C. Exon",
+      "D. Plasmid"
+    ],
+    "option_images": [],
+    "answer": "D. Plasmid",
+    "solution": "Plasmids are extrachromosomal molecules of DNA that replicate independently of the bacterial chromosomes. They are normally closed, circular, super coiled. They are used as a vector for cloning and genetic engineering.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Biotechnology",
+    "question": "Which of the following cells cannot be grown under tissue culture condition?",
+    "question_latex": "Which of the following cells cannot be grown under tissue culture condition?",
+    "question_images": [],
+    "options": [
+      "A. Hela cells",
+      "B. Leucocytes",
+      "C. Kidney cells",
+      "D. Nerve cells"
+    ],
+    "option_images": [],
+    "answer": "D. Nerve cells",
+    "solution": "Nerve cells (neurons) are highly differentiated and cannot be grown under tissue culture conditions. Polyethylene glycol (PEG) is a hydrocarbon solvent used for gene transfer without a vector.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Biotechnology",
+    "question": "Ampicillin resistant gene is knocked out from the vector plasmid by using restriction enzyme. [MHT-CET 2023]",
+    "question_latex": "Ampicillin resistant gene is knocked out from the vector plasmid by using restriction enzyme. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Eco RI",
+      "B. Bam H1",
+      "C. Alu I",
+      "D. Pst 1"
+    ],
+    "option_images": [],
+    "answer": "D. Pst 1",
+    "solution": "In PBR322 plasmid, the vector contains different marker genes: Ampicillin resistant gene and Tetracycline resistant gene. When Pst1 RE is used, it knocks out Ampicillin resistant gene from the plasmid, so that the recombinant cell becomes sensitive to Ampicillin.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Biotechnology",
+    "question": "More advancement in genetic engineering is due to",
+    "question_latex": "More advancement in genetic engineering is due to",
+    "question_images": [],
+    "options": [
+      "A. Restriction endonuclease",
+      "B. Reverse transcriptase",
+      "C. Protease",
+      "D. Zymase"
+    ],
+    "option_images": [],
+    "answer": "A. Restriction endonuclease",
+    "solution": "Endonucleases are enzymes that produce internal cuts called cleavage in DNA molecules. Restriction endonucleases cleave DNA only within or near those sites which have specific base sequences. Restriction endonucleases have major role in genetic engineering.\n\nNote: The PDF answer key shows (C) Protease, but the solution text clearly points to restriction endonuclease as the correct concept.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Biotechnology",
+    "question": "In cloning of cattle, a fertilized egg is taken out of the mother's womb and",
+    "question_latex": "In cloning of cattle, a fertilized egg is taken out of the mother's womb and",
+    "question_images": [],
+    "options": [
+      "A. The egg is divided into four pairs of cells, which are implanted into the womb of other cows",
+      "B. In the eight cell stage, cells are separated and cultured until small embryos are formed, which are implanted into the womb of other cows",
+      "C. In the eight cell stage, the individual cells are separated under electrical field for further development in culture media",
+      "D. From this upto eight identical twins can be produced"
+    ],
+    "option_images": [],
+    "answer": "B. In the eight cell stage, cells are separated and cultured until small embryos are formed, which are implanted into the womb of other cows",
+    "solution": "In cloning of cattle, a fertilized egg divides in 2, then in 4 and then in 8. This embryo is carefully removed from the womb. At the eight cell stage, cells are separated and cultured until small embryos are formed, which are implanted into the womb of other cows.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Biotechnology",
+    "question": "Which of the following enzyme catalyses the removal of nucleotides from the end of DNA molecule? [2022]",
+    "question_latex": "Which of the following enzyme catalyses the removal of nucleotides from the end of DNA molecule? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Protease",
+      "B. RNase",
+      "C. Exonuclease",
+      "D. Endonuclease"
+    ],
+    "option_images": [],
+    "answer": "C. Exonuclease",
+    "solution": "Exonuclease catalyses the removal of nucleotides from the ends (either 5' or 3' end) of a DNA molecule. Endonuclease cleaves internal phosphodiester bonds within a DNA molecule.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Biotechnology",
+    "question": "Select the correct match from the following. [MHT-CET 2020]",
+    "question_latex": "Select the correct match from the following. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Escherichia coli -- smallest genome",
+      "B. Female banded krait --- DNA probe",
+      "C. Pancreas from dog -- Humulin",
+      "D. Hair root from human --- Extracted and purified insulin"
+    ],
+    "option_images": [],
+    "answer": "B. Female banded krait --- DNA probe",
+    "solution": "Smallest genome is found in symbiotic bacteria Citronella. Humulin is obtained from genetically engineered E. coli bacteria which is purified and extracted. DNA probe is obtained from female banded Krait and is used in DNA fingerprinting.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Biotechnology",
+    "question": "A good vector used in rDNA technology should have the following characteristics EXCEPT: [MHT-CET 2024]",
+    "question_latex": "A good vector used in rDNA technology should have the following characteristics EXCEPT: [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Ability of independent replication.",
+      "B. Should have repressor mRNA.",
+      "C. Must contain unique cleavage site in one of the marker genes for restriction enzyme.",
+      "D. Should have at least suitable control elements like promoter, operator, ribosomal binding sites etc."
+    ],
+    "option_images": [],
+    "answer": "B. Should have repressor mRNA.",
+    "solution": "Repressor mRNA is associated with the Lac operon mechanism, not a characteristic of a good vector for rDNA technology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following can help in the diagnosis of a genetical disorder? [MHT CET 2008]",
+    "question_latex": "Which one of the following can help in the diagnosis of a genetical disorder? [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. ELISA",
+      "B. ABO blood group",
+      "C. PCR",
+      "D. NMR"
+    ],
+    "option_images": [],
+    "answer": "C. PCR",
+    "solution": "PCR is a technique in which a small fragment of DNA is rapidly cloned or duplicated to produce multiple DNA copies. Thus, it helps in the diagnosis of a genetical disorder. This technique was conceived by American biochemist Kary B Mullis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Biotechnology",
+    "question": "An efficient oil eating Super bug developed through genetic engineering used in cleaning of oil-spill polluted sites is a species of",
+    "question_latex": "An efficient oil eating Super bug developed through genetic engineering used in cleaning of oil-spill polluted sites is a species of",
+    "question_images": [],
+    "options": [
+      "A. Arthrobacter",
+      "B. Citrobacter",
+      "C. Pseudomonas",
+      "D. Thiobacillus"
+    ],
+    "option_images": [],
+    "answer": "C. Pseudomonas",
+    "solution": "Prof. Anand Mohan Chakravorty has developed a new strain of oil eating bacteria called super bug by using species of Pseudomonas through recombinant DNA technology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Biotechnology",
+    "question": "The gene transfer between unrelated plants is brought about by _____ [MHT-CET 2020]",
+    "question_latex": "The gene transfer between unrelated plants is brought about by _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Sexual reproduction",
+      "B. Asexual reproduction",
+      "C. Cloning",
+      "D. Genetic engineering"
+    ],
+    "option_images": [],
+    "answer": "D. Genetic engineering",
+    "solution": "Asexual reproduction produces genetically identical offsprings. Sexual reproduction occurs between organisms which belong to same species. Gene transfer between two unrelated plants can be done by genetic engineering.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Biotechnology",
+    "question": "Following are the psychological disorders EXCEPT ........ [2022]",
+    "question_latex": "Following are the psychological disorders EXCEPT ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Parkinson's disease",
+      "B. Autism spectrum disorder",
+      "C. Bipolar disorder",
+      "D. Anxiety disorder"
+    ],
+    "option_images": [],
+    "answer": "A. Parkinson's disease",
+    "solution": "Parkinson's disease is a neurological/neurodegenerative disorder, not a psychological disorder. Autism spectrum disorder, bipolar disorder, and anxiety disorder are psychological disorders.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Biotechnology",
+    "question": "Both in callus and suspension cultures commonly used auxin is",
+    "question_latex": "Both in callus and suspension cultures commonly used auxin is",
+    "question_images": [],
+    "options": [
+      "A. Napthalene acetic acid",
+      "B. Indole-3 butyric acid",
+      "C. 2, 4, 5-trichlorophenoxy acetic acid",
+      "D. Dichlorophenoxy acetic acid (2, 4,-D)"
+    ],
+    "option_images": [],
+    "answer": "D. Dichlorophenoxy acetic acid (2, 4,-D)",
+    "solution": "Callus culture and suspension culture are two types of plant tissue cultures. Usually, the medium contains the auxin 2,4-D (dichlorophenoxy acetic acid) and BAP.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Biotechnology",
+    "question": "In recombinant DNA technology after the bacteriophage infects a bacterial cell, plaques are formed by the _____ [MHT-CET 2020]",
+    "question_latex": "In recombinant DNA technology after the bacteriophage infects a bacterial cell, plaques are formed by the _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. New colonies of bacterial cells",
+      "B. Lysed bacterial cells",
+      "C. Infecting bacteriophages",
+      "D. Virons"
+    ],
+    "option_images": [],
+    "answer": "B. Lysed bacterial cells",
+    "solution": "After the bacteriophage infection to bacterial cell, the lytic cycle is operated and copies of new bacteriophage are released by bursting bacteria which accumulates as plaques on the surface of medium.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Biotechnology",
+    "question": "The 'eppendorf tube' is a part of _____ Device. [MHT-CET 2024]",
+    "question_latex": "The 'eppendorf tube' is a part of _____ Device. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. thermal cycler",
+      "B. spectroscope",
+      "C. chromatograph",
+      "D. spectrometer"
+    ],
+    "option_images": [],
+    "answer": "A. thermal cycler",
+    "solution": "In PCR, the machine performs the entire operations automatically and precisely. The DNA segment, excess of two primer molecules, four Deoxyribonucleoside triphosphates and the thermostable DNA polymerase are mixed together in 'eppendorf tube', which is part of the thermal cycler.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Biotechnology",
+    "question": "Given below are the two statements.\nStatement-I: The recognition sites of RENs are 4-8 nucleotides bp long and are characterized by a particular type of internal symmetry.\nStatement-II: Restriction enzymes found in different organisms cut DNA at different sites.\nIn the light of above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are the two statements.\nStatement-I: The recognition sites of RENs are 4-8 nucleotides bp long and are characterized by a particular type of internal symmetry.\nStatement-II: Restriction enzymes found in different organisms cut DNA at different sites.\nIn the light of above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is correct but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to restriction enzymes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Biotechnology",
+    "question": "This method of finding a gene is used when researchers know very little about the gene they are trying to find. This process results in a complete gene library: a collection of copies of DNA fragments that represent the entire genome of an organism. Identify the method.",
+    "question_latex": "This method of finding a gene is used when researchers know very little about the gene they are trying to find. This process results in a complete gene library: a collection of copies of DNA fragments that represent the entire genome of an organism. Identify the method.",
+    "question_images": [],
+    "options": [
+      "A. Cloning",
+      "B. Shotgun cloning",
+      "C. Gene synthesis cloning",
+      "D. PCR"
+    ],
+    "option_images": [],
+    "answer": "B. Shotgun cloning",
+    "solution": "Shotgun cloning is used when researchers know very little about the gene they are trying to find. This process results in a complete gene library representing the entire genome of an organism.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Biotechnology",
+    "question": "Flavr savr tomato is genetically modified for having _____ [MHT-CET 2020]",
+    "question_latex": "Flavr savr tomato is genetically modified for having _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. More pulp",
+      "B. Bright red colour",
+      "C. Larger size",
+      "D. Longer shelf life"
+    ],
+    "option_images": [],
+    "answer": "D. Longer shelf life",
+    "solution": "Genetically modified tomato variety Flavr Savr was made resistant to rotting by adding an antisense gene which interferes with production of enzyme $\\beta$-Polygalacturonase. The enzyme normally degrades pectin in the cell wall and results in softening of the fruit which makes them more susceptible for fungal infection.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Biotechnology",
+    "question": "Satellite DNA is useful tool in",
+    "question_latex": "Satellite DNA is useful tool in",
+    "question_images": [],
+    "options": [
+      "A. Organ transplantation",
+      "B. Sex determination",
+      "C. Forensic science",
+      "D. Genetic engineering"
+    ],
+    "option_images": [],
+    "answer": "C. Forensic science",
+    "solution": "Satellite DNA (highly repetitive DNA sequences) are used as useful tools in forensic science, particularly in DNA fingerprinting for identification purposes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is a restriction enzyme? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is a restriction enzyme? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. DNA polymerase",
+      "B. Ligase",
+      "C. RNA polymerase",
+      "D. EcoRI"
+    ],
+    "option_images": [],
+    "answer": "D. EcoRI",
+    "solution": "EcoRI is a restriction enzyme. Ligase, DNA polymerase and RNA polymerase are the enzymes taking part in protein synthesis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Biotechnology",
+    "question": "Pollen grains of a plant, whose 2n = 28, are cultured to get callus by tissue culture method. What would be the number of chromosomes in the cells of the callus?",
+    "question_latex": "Pollen grains of a plant, whose $2n = 28$, are cultured to get callus by tissue culture method. What would be the number of chromosomes in the cells of the callus?",
+    "question_images": [],
+    "options": [
+      "A. 28",
+      "B. 21",
+      "C. 14",
+      "D. 56"
+    ],
+    "option_images": [],
+    "answer": "C. 14",
+    "solution": "Haploid plants may be obtained from pollen grains by placing anthers or isolated pollen grains on a suitable culture medium. Since $2n = 28$, $n = 14$. Thus, the number of chromosomes in the cells of the callus will be 14.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Biotechnology",
+    "question": "Given below are two statements.\nStatement I: Long term effects of ingesting GMO proteins in human is yet to be analysed.\nStatement II: GMOs may also result in creating antibiotic and vaccine resistant strains of diseases.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements.\nStatement I: Long term effects of ingesting GMO proteins in human is yet to be analysed.\nStatement II: GMOs may also result in creating antibiotic and vaccine resistant strains of diseases.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct and statement II is incorrect.",
+      "B. Statement I is incorrect and statement II is correct.",
+      "C. Both statement I and statement II are correct.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to genetically modified organisms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Biotechnology",
+    "question": "_____ is a human therapeutic protein obtained from transgenic cow that is used in the treatment of hemophilia? [MHT-CET 2023]",
+    "question_latex": "_____ is a human therapeutic protein obtained from transgenic cow that is used in the treatment of hemophilia? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Plasma thromboplastin",
+      "B. Lacto albumin",
+      "C. Lactoferrin",
+      "D. Serum albumin"
+    ],
+    "option_images": [],
+    "answer": "A. Plasma thromboplastin",
+    "solution": "Plasma thromboplastin factor IX is a human therapeutic protein obtained from transgenic cow that is used in the treatment of hemophilia. One cow would be more than sufficient for production of annual world supply.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Biotechnology",
+    "question": "The crown gall disease in plant is caused by a plasmid found in _____ [MHT-CET 2023]",
+    "question_latex": "The crown gall disease in plant is caused by a plasmid found in _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Helicobacter pyroli",
+      "B. Escherichia coli",
+      "C. Bacillus haemophilus",
+      "D. Agrobacterium tumefaciens"
+    ],
+    "option_images": [],
+    "answer": "D. Agrobacterium tumefaciens",
+    "solution": "The crown gall disease in plant is caused by a plasmid found in Agrobacterium tumefaciens called Ti (for tumor-inducing). The Ti plasmid contains a transposon called T DNA, which inserts copies of itself into the chromosomes of infected plant cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Biotechnology",
+    "question": "Choose the correct statement with reference to Dolly",
+    "question_latex": "Choose the correct statement with reference to Dolly",
+    "question_images": [],
+    "options": [
+      "A. She was created by taking nucleus from unfertilized eggs and cytoplasm from fertilized eggs",
+      "B. She was created by taking nucleus from udder cells and cytoplasm from unfertilized egg",
+      "C. She was created by taking cytoplasm from udder cell and nucleus from unfertilized egg",
+      "D. She was created by taking cytoplasm from udder cell and nucleus from fertilized egg"
+    ],
+    "option_images": [],
+    "answer": "B. She was created by taking nucleus from udder cells and cytoplasm from unfertilized egg",
+    "solution": "Dolly was the name given to a clone of adult lamb by Ian Wilmut of Roslin Institute, Edinburgh, UK (Feb. 1997). Dolly was created by extracting the genetic material (nucleus) from udder cells and cytoplasm from unfertilized eggs. The genetic material from the udder cells of one sheep was implanted into another sheep's egg after removing its genetic material. Dolly had two genetic mothers as confirmed by the analysis of her mitochondria by Eric Schon and Ian Wilmut in 1999.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Biotechnology",
+    "question": "Given below are two statements:\nStatement I: 'Superglue' produced by transgenic tobacco plants is used for body repairs during surgery in human.\nStatement II: Genetically engineered opium produces powerful painkillers.\nIn the light of above two statements, choose correct option. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements:\nStatement I: 'Superglue' produced by transgenic tobacco plants is used for body repairs during surgery in human.\nStatement II: Genetically engineered opium produces powerful painkillers.\nIn the light of above two statements, choose correct option. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to applications of biotechnology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Biotechnology",
+    "question": "Which of the following organizations looks after the decisions of the validity of researches regarding GMOs in India? [MHT-CET 2024]",
+    "question_latex": "Which of the following organizations looks after the decisions of the validity of researches regarding GMOs in India? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. ICAR",
+      "B. IARI",
+      "C. KVIC",
+      "D. GEAC"
+    ],
+    "option_images": [],
+    "answer": "D. GEAC",
+    "solution": "Indian Government has set up the Genetic Engineering Approval Committee (GEAC). This organization makes decisions regarding the validity of research involving GMOs and addresses the safety of GMOs introduced for public use.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Biotechnology",
+    "question": "Match the following products in Column I with their sources in Column II. [MHT-CET 2023]\nColumn I: (a) Canola, (b) Tomato, (c) Sugarbeet, (d) Rice\nColumn II: (i) Ferritin, (ii) γ-tocopherol methyl transferase, (iii) Chalone isomerase, (iv) Sucrase fructosyl transferase",
+    "question_latex": "Match the following products in Column I with their sources in Column II. [MHT-CET 2023]",
+    "question_images": [
+      "73_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "B. (a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "C. (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "D. (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+    "solution": "Match the columns with products and their sources: Canola - Chalone isomerase, Tomato - Ferritin, Sugarbeet - Sucrase fructosyl transferase, Rice - $\\gamma$-tocopherol methyl transferase.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Biotechnology",
+    "question": "The construction of the first recombinant DNA was done by using the native plasmid of",
+    "question_latex": "The construction of the first recombinant DNA was done by using the native plasmid of",
+    "question_images": [],
+    "options": [
+      "A. E. coli",
+      "B. Salmonella typhirmurium",
+      "C. Bacillus thuringiensis",
+      "D. Yeast"
+    ],
+    "option_images": [],
+    "answer": "A. E. coli",
+    "solution": "Recombinant DNA molecule is a vector (e.g., plasmid, phage or virus) into which the desired DNA fragment has been inserted to enable its cloning in an appropriate host. pBr 322 of E. coli was the first most widely used plasmid for construction of recombinant DNA.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Biotechnology",
+    "question": "A technique, which involves deliberate manipulation of genes within or between species is",
+    "question_latex": "A technique, which involves deliberate manipulation of genes within or between species is",
+    "question_images": [],
+    "options": [
+      "A. Gene therapy",
+      "B. Hybridoma technology",
+      "C. Tissue culture",
+      "D. Genetic engineering"
+    ],
+    "option_images": [],
+    "answer": "D. Genetic engineering",
+    "solution": "Genetic engineering is defined as the manipulation of genes by man. It refers to the artificial synthesis, modification, isolation, addition, combination and repair of genetic material (DNA) to get desired and useful phenotype. In this technique, the DNA or gene of different origins are joined to produce hybrid DNA called recombinant DNA.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Biotechnology",
+    "question": "Find out the wrong statement.",
+    "question_latex": "Find out the wrong statement.",
+    "question_images": [],
+    "options": [
+      "A. Mobile genetic elements, transposons were visualized by Barbara McClintock",
+      "B. Udder cell, a somatic cell is used to produce the cloned sheep by nuclear transplantation method",
+      "C. In pedigree analysis, a person immediately affected by an action is called propositus",
+      "D. DNA ligases are used to cleave a DNA molecule"
+    ],
+    "option_images": [],
+    "answer": "D. DNA ligases are used to cleave a DNA molecule",
+    "solution": "Restriction endonucleases cleave DNA molecules only at specific nucleotide sequences called restriction sites. DNA Ligase enzyme is used to join bits of DNA, not to cleave it.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Biotechnology",
+    "question": "White revolution is related to the increase in production",
+    "question_latex": "White revolution is related to the increase in production",
+    "question_images": [],
+    "options": [
+      "A. Egg",
+      "B. Milk",
+      "C. Meat",
+      "D. Wool"
+    ],
+    "option_images": [],
+    "answer": "B. Milk",
+    "solution": "White revolution - Milk production; Golden revolution - Egg production; Blue revolution - Fish production.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Biotechnology",
+    "question": "Out of the following which is a genetically engineered anti-viral protein?",
+    "question_latex": "Out of the following which is a genetically engineered anti-viral protein?",
+    "question_images": [],
+    "options": [
+      "A. Humulin",
+      "B. Interferon",
+      "C. Fumagillin",
+      "D. Griseofulvin"
+    ],
+    "option_images": [],
+    "answer": "B. Interferon",
+    "solution": "Interferon is a genetically engineered anti-viral protein. Humulin is genetically engineered insulin. Fumagillin and Griseofulvin are antibiotics.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Biotechnology",
+    "question": "In tomato, the ....... enzyme breaks down the pectin of cell wall leading to softening of fruit. [2022]",
+    "question_latex": "In tomato, the \\ldots\\ldots enzyme breaks down the pectin of cell wall leading to softening of fruit. [2022]",
+    "question_images": [],
+    "options": [
+      "A. polygalacturonase",
+      "B. malate dehydrogenase",
+      "C. lycopene cyclase",
+      "D. γ-tocopherol methylase"
+    ],
+    "option_images": [],
+    "answer": "A. polygalacturonase",
+    "solution": "In tomato, the polygalacturonase enzyme breaks down pectin in the cell wall, leading to softening of fruit. The Flavr Savr tomato was engineered with an antisense gene to inhibit this enzyme.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Biotechnology",
+    "question": "Which of the following pairs are correctly matched?",
+    "question_latex": "Which of the following pairs are correctly matched?",
+    "question_images": [],
+    "options": [
+      "A. Central dogma - Codon",
+      "B. Okazaki fragments - RNA primer",
+      "C. RNA polymerase - RNA primer",
+      "D. Restriction enzyme - Genetic engineering"
+    ],
+    "option_images": [],
+    "answer": "D. Restriction enzyme - Genetic engineering",
+    "solution": "Restriction enzyme is used in genetic engineering. Restriction enzyme is an endonuclease, that recognizes a specific DNA base sequence and cleaves both the strands of a DNA at or near that site.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Biotechnology",
+    "question": "Which of the following is a plasmid?",
+    "question_latex": "Which of the following is a plasmid?",
+    "question_images": [],
+    "options": [
+      "A. pBR322",
+      "B. Bam HI",
+      "C. Sal I",
+      "D. Eco RI"
+    ],
+    "option_images": [],
+    "answer": "A. pBR322",
+    "solution": "Plasmid is an extrachromosomal genetic element of DNA or RNA that is capable of replicating independently of the host chromosome, e.g., E. coli plasmid pBR322.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Biotechnology",
+    "question": "Polymerase Chain Reaction is made possible by _____ [MHT-CET 2020]",
+    "question_latex": "Polymerase Chain Reaction is made possible by _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Gel electrophoresis",
+      "B. Automated machine",
+      "C. Reverse transcription",
+      "D. In vivo cloning"
+    ],
+    "option_images": [],
+    "answer": "B. Automated machine",
+    "solution": "PCR is possible by automated machine in which all molecules required are added and with help of temperature all three steps are coordinated.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Biotechnology",
+    "question": "The term Test Tube Baby implies that",
+    "question_latex": "The term Test Tube Baby implies that",
+    "question_images": [],
+    "options": [
+      "A. Fertilization of ovum takes place in the uterus but develops in the test-tube",
+      "B. Fertilization of ovum takes place in the test-tube but it develops in test-tube itself",
+      "C. Fertilization of ovum takes place in the test-tube but it develops in the uterus",
+      "D. Fertilization of ovum takes place in the uterus and embryo develops in the uterus"
+    ],
+    "option_images": [],
+    "answer": "C. Fertilization of ovum takes place in the test-tube but it develops in the uterus",
+    "solution": "Test Tube Baby refers to In Vitro Fertilization (IVF). The fertilization occurs outside the body (in test tube/petri dish) but the embryo is implanted in the uterus for development.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Biotechnology",
+    "question": "A cybrid is hybrid carrying",
+    "question_latex": "A cybrid is hybrid carrying",
+    "question_images": [],
+    "options": [
+      "A. Genomes and cytoplasms of two different plants",
+      "B. Cytoplasms of two different plants",
+      "C. Cytoplasms of two different plants but genome of one plant",
+      "D. Genomes of two different plants"
+    ],
+    "option_images": [],
+    "answer": "C. Cytoplasms of two different plants but genome of one plant",
+    "solution": "A cybrid is a hybrid carrying cytoplasms of two different plants but genome of only one plant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Biotechnology",
+    "question": "Production of a human protein in bacteria by genetic engineering is possible because",
+    "question_latex": "Production of a human protein in bacteria by genetic engineering is possible because",
+    "question_images": [],
+    "options": [
+      "A. Bacterial cell can carry out the RNA splicing reactions",
+      "B. The human chromosome can replicate in bacterial cell",
+      "C. The mechanism of gene regulation is identical in humans and bacteria",
+      "D. The genetic code is universal"
+    ],
+    "option_images": [],
+    "answer": "D. The genetic code is universal",
+    "solution": "Production of a human protein in bacteria by genetic engineering is possible because the genetic code is universal - the same codons code for the same amino acids in all organisms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Biotechnology",
+    "question": "Match the Column-I containing restriction enzymes with Column-II containing recognition sequences. [MHT-CET 2024]\nColumn I: (a) Alu I, (b) Bam HI, (c) Eco RI, (d) Hind II",
+    "question_latex": "Match the Column-I containing restriction enzymes with Column-II containing recognition sequences. [MHT-CET 2024]",
+    "question_images": [
+      "86_qu_1.png"
+    ],
+    "options": [
+      "A. (a)→(II); (b)→(III); (c)→(IV); (d)→(I)",
+      "B. (a)→(I); (b)→(IV); (c)→(III); (d)→(II)",
+      "C. (a)→(I); (b)→(III); (c)→(IV); (d)→(II)",
+      "D. (a)→(III); (b)→(II); (c)→(IV); (d)→(I)"
+    ],
+    "option_images": [],
+    "answer": "B. (a)→(I); (b)→(IV); (c)→(III); (d)→(II)",
+    "solution": "Match the columns with type of endonucleases and their restriction sites:\n- Alu I: $5'A-G-C-T3' / 3'T-C-G-A5'$\n- Bam HI: $5'G-G-A-T-C-C3' / 3'C-C-T-A-G-G5'$\n- Eco RI: $5'G\\downarrow A-A-T-T-C3' / 3'C-T-T-A-A\\uparrow G5'$\n- Hind II: $5'G\\downarrow G-A-T-C-C3' / 3'C-C-T-A-G-G5'$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Biotechnology",
+    "question": "Which of the following bio-engineered bacteria is utilized for cleaning of marine oil slicks?",
+    "question_latex": "Which of the following bio-engineered bacteria is utilized for cleaning of marine oil slicks?",
+    "question_images": [],
+    "options": [
+      "A. Escherichia coli",
+      "B. Pseudomonas syringae",
+      "C. Pseudomonas putida",
+      "D. Rhizoctonia solani"
+    ],
+    "option_images": [],
+    "answer": "C. Pseudomonas putida",
+    "solution": "Pseudomonas putida is a genetically engineered bacterium with many different plasmids to degrade the pollutants. It is developed by Dr. Anand Mohan Chakravorty and is known as superbug or oil eating bug or Chakraborty's superbug. It is utilized for cleaning of marine oil slicks.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Biotechnology",
+    "question": "Ti plasmids used in genetic engineering is obtained from",
+    "question_latex": "$T_i$ plasmids used in genetic engineering is obtained from",
+    "question_images": [],
+    "options": [
+      "A. Bacillus thuringiensis",
+      "B. Agrobacterium rhizogenes",
+      "C. Agrobacterium tumefaciens",
+      "D. Pseudomonas syringae"
+    ],
+    "option_images": [],
+    "answer": "C. Agrobacterium tumefaciens",
+    "solution": "Ti plasmid is a plasmid present in Agrobacterium tumefaciens. It is used in genetic engineering in plants, e.g., as a vector in gene transfer to dicot plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Biotechnology",
+    "question": "A suitable vector for gene cloning in higher organisms is",
+    "question_latex": "A suitable vector for gene cloning in higher organisms is",
+    "question_images": [],
+    "options": [
+      "A. Baculovirus",
+      "B. Retrovirus",
+      "C. Salmonella typhimurium",
+      "D. Neurospora crassa"
+    ],
+    "option_images": [],
+    "answer": "B. Retrovirus",
+    "solution": "Vector is a DNA molecule that has the ability to replicate autonomously in an appropriate host cell and into which the DNA fragment to be cloned is integrated for cloning. In higher organisms, retrovirus vectors are used, while Baculovirus vectors are used for production of transgenic proteins in silk worm.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Biotechnology",
+    "question": "Basmati is a long grained aromatic variety of _____ [MHT-CET 2023]",
+    "question_latex": "Basmati is a long grained aromatic variety of _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Jowar",
+      "B. Rice",
+      "C. Maize",
+      "D. Wheat"
+    ],
+    "option_images": [],
+    "answer": "B. Rice",
+    "solution": "Basmati is a long-grained, aromatic variety of rice indigenous to the Indian subcontinent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Biotechnology",
+    "question": "In India, the duration of bio-patent is _____ years from the date of grant or _____ years from the date of filing of application whichever is less. [2022]",
+    "question_latex": "In India, the duration of bio-patent is _____ years from the date of grant or _____ years from the date of filing of application whichever is less. [2022]",
+    "question_images": [],
+    "options": [
+      "A. five, seven",
+      "B. three, five",
+      "C. one, three",
+      "D. seven, five"
+    ],
+    "option_images": [],
+    "answer": "B. three, five",
+    "solution": "In India, the duration of bio-patent is 3 years from the date of grant or 5 years from the date of filing of application, whichever is less.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is NOT an example of biopiracy plant? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is NOT an example of biopiracy plant? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Soyabean",
+      "B. Basmati",
+      "C. Neem",
+      "D. Haldi (turmeric)"
+    ],
+    "option_images": [],
+    "answer": "A. Soyabean",
+    "solution": "Soyabean is a natural source of protein. Basmati, Neem, and Haldi (turmeric) are examples of biopiracy where patents were filed by foreign entities for products traditionally used in India.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Biotechnology",
+    "question": "Through which method more number of female plants can be produced in papaya?",
+    "question_latex": "Through which method more number of female plants can be produced in papaya?",
+    "question_images": [],
+    "options": [
+      "A. Spraying ethephon",
+      "B. Genetic engineering",
+      "C. Polyploidy breeding",
+      "D. Tissue culture"
+    ],
+    "option_images": [],
+    "answer": "D. Tissue culture",
+    "solution": "Tissue culture technique can be used to produce more number of female plants in papaya through micropropagation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Biotechnology",
+    "question": "Which of the following enzymes are used to join bits of DNA?",
+    "question_latex": "Which of the following enzymes are used to join bits of DNA?",
+    "question_images": [],
+    "options": [
+      "A. Ligase",
+      "B. Primase",
+      "C. DNA polymerase",
+      "D. Endonuclease"
+    ],
+    "option_images": [],
+    "answer": "A. Ligase",
+    "solution": "Ligase enzyme catalyses condensation of ATP or any other such triphosphate. DNA ligase is used to join bits of DNA.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Biotechnology",
+    "question": "Maximum application of animal cell culture technology today is in the production of",
+    "question_latex": "Maximum application of animal cell culture technology today is in the production of",
+    "question_images": [],
+    "options": [
+      "A. Vaccines",
+      "B. Edible proteins",
+      "C. Insulin",
+      "D. Interferons"
+    ],
+    "option_images": [],
+    "answer": "A. Vaccines",
+    "solution": "Maximum application of animal cell culture technology today is in the production of vaccines.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is the palindromic sequence recognized by the enzyme EcoRI? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is the palindromic sequence recognized by the enzyme EcoRI? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 5'....G-A-A-T-T-C....3' / 3'....C-T-T-A-A-G....5'",
+      "B. 5'....G-T-C-G-A-C....3' / 3'....C-A-G-C-T-G....5'",
+      "C. 5'....A-G-C-T....3' / 3'....T-C-G-A....5'",
+      "D. 5'....G-G-A-T-C-C....3' / 3'....C-C-T-A-G-G....5'"
+    ],
+    "option_images": [],
+    "answer": "A. 5'....G-A-A-T-T-C....3' / 3'....C-T-T-A-A-G....5'",
+    "solution": "$5'....G-A-A-T-T-C....3'$ and $3'....C-T-T-A-A-G....5'$ is the palindromic sequence recognized by the enzyme EcoRI which reads the same sequence in opposite direction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Biotechnology",
+    "question": "The step followed during DNA profiling in which DNA sample is subjected to restriction endonuclease is _____ [MHT-CET 2020]",
+    "question_latex": "The step followed during DNA profiling in which DNA sample is subjected to restriction endonuclease is _____ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. DNA fragmentation",
+      "B. DNA isolation",
+      "C. DNA amplification",
+      "D. Hybridization"
+    ],
+    "option_images": [],
+    "answer": "A. DNA fragmentation",
+    "solution": "DNA profiling includes various steps. The sample DNA is collected and for fragmentation it is subjected to restriction endonucleases which cut DNA fragments at specific locations.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Biotechnology",
+    "question": "Given below are two statements.\nStatement I: Use of animals in biotechnological processes causes great sufferings to them, has drawn a wide range of reactions pertaining to ethical aspects.\nStatement II: Genetic modifications of organisms can have unpredictable results when such organisms are introduced into the ecosystem.\nBased on the above statements choose the correct option given below. [2022]",
+    "question_latex": "Given below are two statements.\nStatement I: Use of animals in biotechnological processes causes great sufferings to them, has drawn a wide range of reactions pertaining to ethical aspects.\nStatement II: Genetic modifications of organisms can have unpredictable results when such organisms are introduced into the ecosystem.\nBased on the above statements choose the correct option given below. [2022]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but Statement II is correct.",
+      "B. Statement I is correct but Statement II is incorrect.",
+      "C. Both Statement I and Statement II are correct.",
+      "D. Both Statement I and Statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Both Statement I and Statement II are correct.",
+    "solution": "Both Statement I and Statement II are correct regarding ethical concerns in biotechnology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Biotechnology",
+    "question": "Which one of the following is NOT a tool in recombinant DNA technology? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is NOT a tool in recombinant DNA technology? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Prokaryotic nucleoid",
+      "B. Reverse transcription",
+      "C. Vector",
+      "D. Restriction endonuclease"
+    ],
+    "option_images": [],
+    "answer": "A. Prokaryotic nucleoid",
+    "solution": "Nucleoid is the region in prokaryotic cells where circular, highly coiled, genetic DNA lies helping in transferring heredity characters. For rDNA technology, extrachromosomal genetic material present in cytoplasm as plasmids is used, not the nucleoid.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Biotechnology",
+    "question": "Gene from Brazil nut was used to increase the _____ amino acid content in soybean. [MHT-CET 2023]",
+    "question_latex": "Gene from Brazil nut was used to increase the _____ amino acid content in soybean. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Cysteine",
+      "B. Methionine",
+      "C. Alanine",
+      "D. Phenyl alanine"
+    ],
+    "option_images": [],
+    "answer": "B. Methionine",
+    "solution": "Researchers used a gene from the Brazil nut to increase the production of Methionine in soya beans. The insertion of this gene inadvertently caused allergic reactions to the soya bean in those with known nut allergies (\"Biotech Soybeans\").",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Mail, Send } from 'lucide-react';
+import { X, Mail, Send, ArrowLeft } from 'lucide-react';
 
 const ContactPopup = ({ onClose }) => {
     return (
@@ -12,6 +12,14 @@ const ContactPopup = ({ onClose }) => {
 
             {/* Popup Content */}
             <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl p-8 animate-in fade-in zoom-in duration-300">
+                <button
+                    onClick={onClose}
+                    className="absolute left-4 top-4 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer flex items-center gap-1 group"
+                >
+                    <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
+                    <span className="text-sm font-medium">Back</span>
+                </button>
+
                 <button
                     onClick={onClose}
                     className="absolute right-4 top-4 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"

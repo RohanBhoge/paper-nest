@@ -26,6 +26,16 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   const [fetchError, setFetchError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
   const [isFetchingPaper, setIsFetchingPaper] = useState(false);
+
+  // 💡 NEW: Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [totalItems, setTotalItems] = useState(0);
+
+  // 💡 NEW: Filtering & Sorting State
+  const [sortBy, setSortBy] = useState("created_at DESC");
+  const [examFilter, setExamFilter] = useState("");
+
   const navigate = useNavigate()
 
   const [deleteMode, setDeleteMode] = useState(false);
@@ -49,12 +59,12 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   }, [activeView]);
 
   const fetchPapers = useCallback(
-    async (searchTerm = "") => {
+    async (searchTerm = "", page = 1, sort = sortBy, exam = examFilter) => {
       setLoading(true);
       setFetchError(null);
       try {
         const response = await api.get(
-          BackendUrl + "/api/v1/paper/get-paper-history",
+          `${BackendUrl}/api/v1/paper/get-paper-history?page=${page}&limit=20&sort=${sort}&exam=${exam}`,
           {
             headers: {
               Authorization: `Bearer ${adminAuthToken}`,
@@ -66,6 +76,15 @@ const PaperHistoryPage = ({ setActiveSection }) => {
           let fetchedPapers = response.data.data;
           console.log("[DEBUG] Fetched Papers:", fetchedPapers);
 
+          if (response.data.pagination) {
+            setCurrentPage(response.data.pagination.page);
+            setTotalPages(response.data.pagination.totalPages);
+            setTotalItems(response.data.pagination.total);
+          }
+
+          // Server-side search logic is not fully implemented yet in the API, 
+          // but we'll keep the client-side search for now as it was there.
+          // However, for sorting and exam filtering, we rely on the server.
           if (searchTerm) {
             fetchedPapers = fetchedPapers.filter((p) =>
               Object.values(p).some((val) =>
@@ -82,15 +101,11 @@ const PaperHistoryPage = ({ setActiveSection }) => {
               subjectName: p.subject,
               examDate: p.exam_date,
               totalMarks: (p.marks !== undefined && p.marks !== null) ? p.marks : (p.totalMarks || "N/A"),
+              numberOfQuestions: p.count || p.metadata?.count || p.metadata?.total_questions || 0, // Capture count
               examDuration: p.duration || "N/A",
               status: p.status || "checked",
               generatedPaper: p,
-            }))
-            .sort((a, b) => {
-              if (a.examDate && b.examDate)
-                return new Date(b.examDate) - new Date(a.examDate);
-              return 0;
-            });
+            }));
 
           setPapers(mappedPapers);
         } else {
@@ -107,7 +122,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
         setLoading(false);
       }
     },
-    [adminAuthToken, BackendUrl]
+    [adminAuthToken, BackendUrl, sortBy, examFilter]
   );
 
   const handleView = useCallback(
@@ -239,7 +254,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
         console.log("[DEBUG] Deletion API Success:", response.data);
         setDeleteMode(false);
         setSelectedPaperIds(new Set());
-        fetchPapers();
+        fetchPapers(search, currentPage);
 
         // Auto-clear success message after 3 seconds
         setTimeout(() => setSuccessMessage(null), 3000);
@@ -256,12 +271,15 @@ const PaperHistoryPage = ({ setActiveSection }) => {
   };
 
   useEffect(() => {
-    fetchPapers(search);
-  }, [fetchPapers, search]);
+    fetchPapers(search, currentPage, sortBy, examFilter);
+  }, [fetchPapers, search, currentPage, sortBy, examFilter]);
 
   const refresh = () => {
     setSearch("");
-    fetchPapers("");
+    setCurrentPage(1);
+    setSortBy("created_at DESC");
+    setExamFilter("");
+    fetchPapers("", 1, "created_at DESC", "");
   };
 
   const handleDeleteAll = () => {
@@ -277,19 +295,19 @@ const PaperHistoryPage = ({ setActiveSection }) => {
 
   const onPaperSaved = (updatedPaper) => {
     updatePaperInService(updatedPaper);
-    fetchPapers();
+    fetchPapers(search, currentPage);
   };
 
   const handleBack = () => {
     setActiveView("history");
     setSelectedPaper(null);
-    fetchPapers();
+    fetchPapers(search, currentPage);
     if (typeof setActiveSection === "function")
       setActiveSection("paperHistory");
   };
 
   return (
-    <div className="bg-white rounded-xl p-4 md:p-8 lg:p-10 shadow-sm border border-slate-200 w-full transition-all duration-300">
+    <div className="bg-white rounded-xl px-2 py-4 md:p-5 lg:p-6 shadow-sm border border-slate-200 w-full transition-all duration-300">
       {activeView === "history" && (
         <>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6">
@@ -309,11 +327,44 @@ const PaperHistoryPage = ({ setActiveSection }) => {
                 </button>
               )}
 
+              <div className="flex items-center gap-2">
+                <select
+                  value={examFilter}
+                  onChange={(e) => {
+                    setExamFilter(e.target.value);
+                    setCurrentPage(1);
+                  }}
+                  className="border border-slate-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-slate-400 outline-none bg-white"
+                >
+                  <option value="">All Exams</option>
+                  <option value="CET">CET</option>
+                  <option value="JEE">JEE</option>
+                  <option value="NEET">NEET</option>
+                </select>
+
+                <select
+                  value={sortBy}
+                  onChange={(e) => {
+                    setSortBy(e.target.value);
+                    setCurrentPage(1);
+                  }}
+                  className="border border-slate-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-slate-400 outline-none bg-white"
+                >
+                  <option value="created_at DESC">Latest</option>
+                  <option value="created_at ASC">Oldest</option>
+                  <option value="marks DESC">High Marks</option>
+                  <option value="marks ASC">Low Marks</option>
+                </select>
+              </div>
+
               <input
                 type="text"
                 placeholder="Search..."
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={(e) => {
+                  setSearch(e.target.value);
+                  setCurrentPage(1);
+                }}
                 className="border border-slate-300 rounded-md px-3 py-2 text-sm w-full md:w-48 focus:ring-2 focus:ring-slate-400 outline-none"
               />
 
@@ -417,7 +468,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
                           />
                         </td>
                       )}
-                      <td className="py-3 px-4">{idx + 1}</td>
+                      <td className="py-3 px-4">{((currentPage - 1) * 20) + idx + 1}</td>
                       <td className="py-3 px-4">{p.examName}</td>
                       <td className="py-3 px-4">{p.className}</td>
                       <td className="py-3 px-4">{p.subjectName}</td>
@@ -464,6 +515,45 @@ const PaperHistoryPage = ({ setActiveSection }) => {
               </tbody>
             </table>
           </div>
+
+          {/* 💡 NEW Pagination UI */}
+          {!loading && totalPages > 1 && (
+            <div className="flex flex-col sm:flex-row items-center justify-between mt-6 gap-4 border-t border-slate-200 pt-4">
+              <span className="text-sm text-slate-600 font-medium">
+                Showing page {currentPage} of {totalPages} <span className="text-slate-400 mx-1">|</span> {totalItems} total papers
+              </span>
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                  disabled={currentPage === 1}
+                  className="px-3 py-2 bg-white border border-slate-300 text-slate-700 rounded-md text-sm hover:bg-slate-50 disabled:opacity-50 disabled:pointer-events-none transition-all shadow-sm font-medium"
+                >
+                  Prev
+                </button>
+                <div className="flex items-center gap-1 mx-2 overflow-x-auto max-w-[200px] sm:max-w-none scrollbar-hide px-1">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+                    <button
+                      key={pageNum}
+                      onClick={() => setCurrentPage(pageNum)}
+                      className={`w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-md text-sm transition-all shadow-sm ${currentPage === pageNum
+                        ? "bg-blue-600 text-white font-bold border border-blue-600 ring-2 ring-blue-100"
+                        : "bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 hover:border-slate-400 font-medium"
+                        }`}
+                    >
+                      {pageNum}
+                    </button>
+                  ))}
+                </div>
+                <button
+                  onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-3 py-2 bg-white border border-slate-300 text-slate-700 rounded-md text-sm hover:bg-slate-50 disabled:opacity-50 disabled:pointer-events-none transition-all shadow-sm font-medium"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          )}
         </>
       )}
 
@@ -483,6 +573,7 @@ const PaperHistoryPage = ({ setActiveSection }) => {
           examDate={selectedPaper.examDate}
           examDuration={selectedPaper.examDuration}
           totalMarks={selectedPaper.totalMarks}
+          numberOfQuestions={selectedPaper.numberOfQuestions} // Pass requested count
           generatedPaper={selectedPaper.generatedPaper}
           onBack={handleBack}
         />

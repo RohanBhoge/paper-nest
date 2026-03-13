@@ -23,6 +23,7 @@ const LoginPage = () => {
     }
   }, [navigate]);
 
+
   // Login using axios
   const loginUser = async (userEmail, userPassword) => {
     try {
@@ -54,11 +55,17 @@ const LoginPage = () => {
       console.error("Login Error Details:", err);
       if (err.response) {
         // Server responded with a status code outside of 2xx
-        setError(
-          err.response.data.error ||
-          err.response.data.message ||
-          `Login failed (${err.response.status}). Check credentials.`
-        );
+        const status = err.response.status;
+        const message = err.response.data.message || err.response.data.error;
+
+        if (status === 401 || status === 404) {
+          setError(message || "Invalid credentials.");
+        } else {
+          setError(
+            message ||
+            `Login failed (${status}). Check credentials.`
+          );
+        }
       } else if (err.request) {
         // Request was made but no response received (CORS or Network Error)
         console.error("No response received:", err.request);
@@ -118,6 +125,7 @@ const LoginPage = () => {
     navigate("/admin-dashboard");
   };
 
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200">
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md transform transition-all duration-500 hover:scale-105">
@@ -133,7 +141,7 @@ const LoginPage = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="peer w-full border border-slate-300 rounded-xl px-4 pt-6 pb-2 outline-none focus:ring-2 focus:ring-blue-500 shadow-sm bg-white transition-all duration-300"
+              className="peer w-full border border-slate-300 rounded-xl px-4 pt-6 pb-2 outline-none focus:ring-2 focus:ring-blue-500 shadow-sm bg-white transition-all duration-300 disabled:bg-slate-50"
               disabled={isLoading}
             />
             <label className="absolute left-4 text-slate-500 text-sm peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-400 peer-focus:top-1 peer-focus:text-sm peer-focus:text-blue-600 transition-all">
@@ -148,7 +156,7 @@ const LoginPage = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="peer w-full border border-slate-300 rounded-xl px-4 pt-6 pb-2 pr-12 outline-none focus:ring-2 focus:ring-blue-500 shadow-sm bg-white transition-all duration-300"
+              className="peer w-full border border-slate-300 rounded-xl px-4 pt-6 pb-2 pr-12 outline-none focus:ring-2 focus:ring-blue-500 shadow-sm bg-white transition-all duration-300 disabled:bg-slate-50"
               disabled={isLoading}
             />
             <label className="absolute left-4 text-slate-500 text-sm peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-400 peer-focus:top-1 peer-focus:text-sm peer-focus:text-blue-600 transition-all">

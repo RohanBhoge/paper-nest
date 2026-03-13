@@ -7,15 +7,16 @@ import React, {
   useContext,
 } from "react";
 import api from "../../../api";
-import { Copy, RefreshCw, Printer } from "lucide-react";
+import { Copy, RefreshCw, Printer, School } from "lucide-react";
 import { useOutletContext, useNavigate } from "react-router-dom";
 import AuthContext from "../context/auth/AuthContext.jsx";
 import PaperContext from "../context/paper/PaperContext.jsx";
 import "katex/dist/katex.min.css";
 import Latex from "react-latex-next";
 
-const Watermark = ({ text = "PAPERNEST" }) => {
-  return <div className="watermark-print">{text}</div>;
+const Watermark = ({ text }) => {
+  const displayText = text || "PAPERNEST"; // Fallback to "PAPERNEST"
+  return <div className="watermark-print">{displayText}</div>;
 };
 
 // Split questions into two columns (odd indices left, even indices right)
@@ -60,6 +61,12 @@ const REPLACEMENT_API_URL = import.meta.env.VITE_BACKEND_URL + "/api/v1/paper/re
 const STORE_PAPER_API_URL = import.meta.env.VITE_BACKEND_URL + "/api/v1/paper/store-paper";
 
 // --- Mark Allocation Helper ---
+const cleanOptionText = (text) => {
+  if (!text) return "";
+  // Strip prefixes like "A. ", "B. ", "a) ", "1. " etc. (Single letter/digit followed by . or ) and space)
+  return text.replace(/^[a-dA-D1-4]\s*[\.\)]\s*/, "").trim();
+};
+
 const getQuestionMark = (exam, subject) => {
   const normSubject = (typeof subject === 'string') ? subject.trim() : '';
   const normExam = exam ? exam.toUpperCase() : '';
@@ -90,6 +97,7 @@ const GeneratedTemplate = ({
   subjectName,
   examDate,
   totalMarks,
+  numberOfQuestions: propNumberOfQuestions, // New prop for requested count
   examDuration: propExamDuration,
   mode, // Receive mode prop
   onBack,
@@ -107,6 +115,7 @@ const GeneratedTemplate = ({
   const [useColumns, setUseColumns] = useState(true);
   const [viewMode, setViewMode] = useState("questions_only");
   const [paperStored, setPaperStored] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   // 💡 Responsive Auto-Column Detection
   useEffect(() => {
@@ -129,7 +138,8 @@ const GeneratedTemplate = ({
   const [isFetching, setIsFetching] = useState(false);
   const [error, setError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
-  const [backOptions, setBakcOptions] = useState(null)
+  const [backOptions, setBakcOptions] = useState(null);
+  const [replacementWarning, setReplacementWarning] = useState(null);
 
   const [displayedQuestions, setDisplayedQuestions] =
     useState(originalQuestions);
@@ -154,6 +164,14 @@ const GeneratedTemplate = ({
   useEffect(() => {
     console.log("[GeneratedTemplate] selectedReplaceQuestions count:");
   }, [selectedReplaceQuestions]);
+
+  // 🔄 Redirect to History if state is lost (e.g. on page refresh)
+  useEffect(() => {
+    if (!backendPaperData) {
+      console.warn("[GeneratedTemplate] No paper data found in state. Redirecting to history...");
+      navigate("/teacher-dashboard/paperHistory");
+    }
+  }, [backendPaperData, navigate]);
 
   useEffect(() => {
     let questions = JSON.parse(JSON.stringify(originalQuestions));
@@ -206,24 +224,27 @@ const GeneratedTemplate = ({
   const formattedDate = formatDateDDMMYYYY(finalExamDate);
   const rawDuration = apiData.duration || propExamDuration || examDuration;
   const finalExamDuration = rawDuration || "N/A";
+  // 💡 Intended per-question count (from metadata in history or prop in generation)
+  const requestedCount = propNumberOfQuestions || apiData?.metadata?.count || apiData?.metadata?.numberOfQuestions || apiData?.metadata?.total_questions || questionCount;
 
   const baseQuestionMark = useMemo(() => {
-    // 💡 IF Custom Selection (Random) AND totalMarks is provided, distribute evenly
-    if (effectiveMode === 'Random' && finalMarks && questionCount > 0) {
-      const distributedMark = Number(finalMarks) / questionCount;
-      // Optional: formatting to 2 decimals if needed, but keeping as number for calc
-      return distributedMark % 1 === 0 ? distributedMark : Number(distributedMark.toFixed(2));
+    // 💡 IF Custom Selection (Random) AND totalMarks is provided, use the INTENDED per-question mark.
+    // We divide totalMarks by the REQUESTED count (e.g. 100/100) to get the clean intended mark (1).
+    if (effectiveMode === 'Random' && totalMarks && requestedCount > 0) {
+      const intendedMark = Number(totalMarks) / requestedCount;
+      // Ensure it's never fractional in the UI even if the math is slightly off
+      return Number.isInteger(intendedMark) ? intendedMark : Number(intendedMark.toFixed(2));
     }
 
+    // Default to standard exam marks (neat integers like 1, 2, or 4)
     return getQuestionMark(finalExamName, finalSubject);
-  }, [finalExamName, finalSubject, effectiveMode, finalMarks, questionCount]);
+  }, [finalExamName, finalSubject, effectiveMode, totalMarks, requestedCount]);
 
   const totalCalculatedMarks = useMemo(() => {
-    if (effectiveMode === 'Random' && finalMarks) {
-      return Number(finalMarks);
-    }
+    // 💡 Total marks is strictly (actual questions shown) * (base mark).
+    // This handles the "99/100 questions found" case by adjusting total to 99 instead of breaking the per-question mark.
     return questionCount * baseQuestionMark;
-  }, [questionCount, baseQuestionMark, effectiveMode, finalMarks]);
+  }, [questionCount, baseQuestionMark]);
 
 
   const [leftContent, rightContent] = useMemo(
@@ -307,6 +328,7 @@ const GeneratedTemplate = ({
       setReplaceMode(false);
       setSelectedReplaceQuestions([]);
       setReplacementPool([]);
+      setReplacementWarning(null); // Clear warning on cancel
       setError(null);
     } else {
       // If in the main view (Default state), go back to the dashboard/previous section
@@ -317,6 +339,13 @@ const GeneratedTemplate = ({
   };
 
   // --- Replacement Logic ---
+
+  const startReplaceMode = () => {
+    setReplaceMode(true);
+    setReplacementPool([]);
+    setReplacementWarning(null);
+    setSelectedReplaceQuestions([]);
+  };
 
   // 💡 FIXED: Wrapping handleQuestionSelection in useCallback for state stability
   const handleQuestionSelection = useCallback((questionObject) => {
@@ -364,6 +393,7 @@ const GeneratedTemplate = ({
       setSelectedReplaceQuestions([]);
       setReplacementPool([]);
       setReplaceMode(false);
+      setReplacementWarning(null); // Clear warning after successful replacement
 
       setSuccessMessage(`Successfully replaced ${replacementPool.length} question(s)!`);
       setTimeout(() => setSuccessMessage(""), 4000);
@@ -380,6 +410,7 @@ const GeneratedTemplate = ({
 
     setIsFetching(true);
     setError(null);
+    setReplacementWarning(null); // Clear previous warnings
 
     const overallUsedKeys = displayedQuestions.map(getCompositeKey);
     const chapterRequestsMap = selectedReplaceQuestions.reduce((map, q) => {
@@ -409,7 +440,12 @@ const GeneratedTemplate = ({
       );
 
       if (response.data.success) {
-        setReplacementPool(response.data.data || []);
+        // Handle new response format: { replacementQuestions: [], warning: "..." }
+        const { replacementQuestions, warning } = response.data.data;
+        setReplacementPool(replacementQuestions || []);
+        if (warning) {
+          setReplacementWarning(warning);
+        }
       } else {
         setError(
           response.data.message || "Failed to fetch replacement options."
@@ -421,9 +457,26 @@ const GeneratedTemplate = ({
         "[DEBUG] Replacement API Error (Network/Server):",
         err.response?.data || err.message
       );
-      setError(
-        "Could not connect to replacement service or server issue (404/500)."
-      );
+
+      const status = err.response?.status;
+      if (status === 404 || (err.response?.data?.message && err.response.data.message.toLowerCase().includes("no unique replacement questions"))) {
+        setError(
+          "⚠️ Maximum number of unique questions exceeded for this chapter/filter. No more replacements available."
+        );
+      } else {
+        setError(
+          `Could not connect to replacement service or server issue (${status || "Network Error"}).`
+        );
+      }
+
+      // 💡 NEW: Automatically "Cancel Selection" after showing error
+      setTimeout(() => {
+        setReplaceMode(false);
+        setSelectedReplaceQuestions([]);
+        setReplacementPool([]);
+        setReplacementWarning(null);
+        setError(null);
+      }, 5000); // 5 seconds visibility
     } finally {
       setIsFetching(false);
     }
@@ -470,6 +523,7 @@ const GeneratedTemplate = ({
               src={img.url}
               alt={`Diagram ${idx + 1}`}
               className="max-h-48 object-contain border border-gray-200 rounded p-1 bg-white"
+              onError={(e) => { e.target.style.display = 'none'; }}
             />
           ) : null
         ))}
@@ -511,7 +565,7 @@ const GeneratedTemplate = ({
       optsHtml = (
         <ol className="ml-5 list-[lower-alpha] mt-1 text-[15px]">
           {q.options.map((opt, i) => (
-            <li key={i}><Latex>{opt}</Latex></li>
+            <li key={i}><Latex>{cleanOptionText(opt)}</Latex></li>
           ))}
         </ol>
       );
@@ -582,30 +636,46 @@ const GeneratedTemplate = ({
   };
 
   return (
-    <div className="bg-slate-50 p-4 md:p-6 lg:p-8 rounded-lg font-[Times New Roman] transition-all duration-300">
+    <div className="bg-slate-50 p-4 md:p-3 lg:p-8 rounded-lg font-[Times New Roman] transition-all duration-300">
       <style>
         {`
-    @page { margin: 10mm; }
+    @page { margin: 5mm; }
 
     .columns-q { 
       display: flex; 
-      gap: 20px; 
+      gap: 10px; 
       margin-bottom: 20px; /* Space between chunks */
     }
 
     .col-q { 
       flex: 1; 
+      min-width: 0;
+      max-width: 100%;
+      word-break: break-word;
     }
 
-    .col-q.left { 
-      border-right: 1px solid #e2e2e2; 
-      padding-right: 10px; 
-    }
 
     .question-item {
       break-inside: avoid;
       page-break-inside: avoid;
       margin-bottom: 20px;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    /* 💡 NEW: Ensure images and equations don't spill outside PDF margins */
+    .question-item img {
+      max-width: 100% !important;
+      height: auto !important;
+      object-fit: contain;
+    }
+    
+    .question-item .katex, 
+    .question-item .katex-display {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: normal;
     }
 
     /* Toggle Switch */
@@ -617,7 +687,7 @@ const GeneratedTemplate = ({
     }
 
     .toggle-switch input { 
-      opacity: 1.5; 
+      opacity: 0.7; 
       width: 0; 
       height: 0; 
     }
@@ -654,12 +724,39 @@ const GeneratedTemplate = ({
       transform: translateX(32px); 
     }
 
-    /* PRINT MODE */
+
     @media print {
+      @page {
+        margin: 5mm;
+        size: auto;
+      }
+
+      .col-q.left { 
+        border-right: 1px solid #000 !important; /* Visible separator line */
+        padding-right: 10px; 
+      }
 
       /* hide everything except print-area */
       body * { 
         visibility: hidden !important; 
+      }
+
+      /* 💡 NEW: Critical fix for multi-page printing - parents must be visible and have no height/overflow constraints */
+      html, body {
+        height: auto !important;
+        overflow: visible !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: white !important;
+      }
+
+      /* Any scrollable parent needs to be visible and non-constraining */
+      .flex, main, .overflow-x-auto, .overflow-y-auto {
+        overflow: visible !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
 
       #print-area, 
@@ -668,10 +765,26 @@ const GeneratedTemplate = ({
       }
 
       #print-area { 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 5mm !important; /* Professional internal padding for the paper */
+        position: relative !important;
+        min-width: unset !important;
+        overflow: visible !important;
+        border: 2px solid #000 !important; /* Professional Black Paper Border */
+        border-radius: 12px !important;
+        box-shadow: none !important;
+      }
+
+      .border-black {
+        border-color: #000 !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+      }
+      
+      #print-area * {
+        max-width: 100% !important;
       }
 
       .no-print { 
@@ -680,18 +793,20 @@ const GeneratedTemplate = ({
 
       /* ★ Watermark always visible on every page */
       .watermark-print {
+        display: block !important;
+        visibility: visible !important;
         position: fixed;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%) rotate(-48deg);
-        font-size: 120px;
-        font-weight: bold;
-        opacity: 0.35;
-        color: #666;
-        z-index: 9999;
+        transform: translate(-50%, -50%) rotate(-35deg);
+        font-size: 130px;
+        font-weight: 800;
+        color: rgba(0, 0, 0, 0.2) !important; /* Increased opacity (0.08 -> 0.15) for better print visibility */
+        z-index: 99999;
         white-space: nowrap;
-        display: block !important;
-        visibility: visible !important;
+        pointer-events: none;
+        text-align: center;
+        width: 100%;
       }
 
       /* ★ PDF Footer - Watermark style on right side */
@@ -700,17 +815,17 @@ const GeneratedTemplate = ({
         bottom: 10px;
         right: 10px;
         font-size: 10px;
-        color: #555;
+        color: #555 !important;
         font-style: italic;
-        opacity: 0.4;
+        opacity: 0.8 !important;
         z-index: 10000;
         display: block !important;
         visibility: visible !important;
       }
       
       .pdf-footer a {
-        color: #555;
-        text-decoration: none;
+        color: #555 !important;
+        text-decoration: none !important;
       }
     }
   `}
@@ -756,7 +871,7 @@ const GeneratedTemplate = ({
               {/* Select Questions Button & Replace Button */}
               {/* NOTE: We keep the Cancel button outside of handleGlobalBack because it handles state reset *within* this section */}
               <button
-                onClick={() => setReplaceMode((prev) => !prev)}
+                onClick={() => startReplaceMode()}
                 className={`px-4 py-2 rounded-lg text-white font-semibold transition-colors duration-300 ${replaceMode ? "bg-red-600" : "bg-gray-600 hover:bg-gray-700"
                   }`}
                 disabled={isFetching}
@@ -833,32 +948,56 @@ const GeneratedTemplate = ({
         </div>
       )}
 
+      {replacementWarning && (
+        <div className="no-print p-3 mb-4 bg-amber-100 text-amber-700 border border-amber-200 rounded-lg shadow-sm font-medium w-fit mx-auto animate-pulse">
+          ⚠️ {replacementWarning}
+        </div>
+      )}
+
       <div className="overflow-x-auto w-full pb-4">
-        <div id="print-area" className="bg-white p-4 md:p-8 rounded-xl border relative shadow-sm" style={{ minWidth: useColumns ? '900px' : 'auto' }}>
+        <div id="print-area" className="bg-white p-4 md:p-2 rounded-xl border relative shadow-sm" style={{ minWidth: useColumns ? '900px' : 'auto' }}>
           <Watermark text={watermark} />
 
-          <div className="border border-black p-4">
-            <div className="flex justify-between font-semibold text-[16px]">
-              <img src={logo} alt="Logo" className="h-13" />
+          <div className="border border-black p-3 rounded-xl mb-6 mt-2 mx-1">
+            <div className="grid grid-cols-3 items-start font-semibold text-[16px]">
+              {/* Logo - Column 1 (Left) */}
+              <div className="flex flex-col justify-start items-start gap-1">
+                <div
+                  className="h-14 w-14 rounded-lg flex items-center justify-center bg-slate-50 border border-slate-200 overflow-hidden"
+                  title="Institution Logo"
+                >
+                  {(!logo || logoError) ? (
+                    <School className="w-8 h-8 text-slate-400" />
+                  ) : (
+                    <img
+                      src={logo?.startsWith('http') ? logo : `${import.meta.env.VITE_BACKEND_URL}${logo}`}
+                      alt="Logo"
+                      className="h-full w-full object-contain"
+                      crossOrigin="anonymous"
+                      onError={() => setLogoError(true)}
+                    />
+                  )}
+                </div>
+                <div className="font-bold text-sm text-slate-900">{finalSubject}</div>
+              </div>
 
-              <span className="flex-1 text-center text-[19px] font-bold">
-                {finalExamName}
-              </span>
+              {/* Exam Name - Column 2 (Center) */}
+              <div className="flex justify-center text-center">
+                <h2 className="text-[20px] font-bold uppercase tracking-tight pt-1">
+                  {finalExamName}
+                </h2>
+              </div>
 
-              <div className="text-right">
+              {/* Details & Subject - Column 3 (Right) */}
+              <div className="flex flex-col items-end text-right text-[14px] pt-1">
                 <div>Date: {formattedDate}</div>
-                {/* 💡 UPDATED: Display calculated total marks */}
                 <div>Marks: {totalCalculatedMarks}</div>
                 <div>Duration: {finalExamDuration} Min</div>
               </div>
             </div>
-
-            <div className="text-[17px] font-semibold">
-              Subject: {finalSubject}
-            </div>
           </div>
           {/* 💡 Questions Container */}
-          <div className="mt-6 text-[17px] leading-8 font-serif w-full">
+          <div className="mt-2 text-[17px] leading-8 font-serif w-full">
             {questionCount === 0 ? (
               <div className="text-center text-gray-500 py-20">
                 No questions were generated.

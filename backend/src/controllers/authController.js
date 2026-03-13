@@ -6,6 +6,7 @@ import { getConfig } from '../config/envConfig.js';
 
 const config = getConfig();
 
+// 💡 Auth Cookies setup
 const setAuthCookies = (res, accessToken, refreshToken) => {
   const isProduction = config.server.isProduction || process.env.NODE_ENV === 'production' || !!process.env.AWS_REGION;
 
@@ -17,7 +18,7 @@ const setAuthCookies = (res, accessToken, refreshToken) => {
 
   res.cookie('access_token', accessToken, {
     ...cookieOptions,
-    maxAge: 15 * 60 * 1000
+    maxAge: 21 * 60 * 60 * 1000
   });
 
   res.cookie('refresh_token', refreshToken, {
@@ -171,6 +172,7 @@ export const adminLogin = asyncHandler(async (req, res) => {
     if (error.message === 'Email and password required') {
       throw ApiError.badRequest(error.message);
     }
+
     throw error;
   }
 });
@@ -248,7 +250,7 @@ export const refresh = asyncHandler(async (req, res) => {
       httpOnly: true,
       secure: isProd,
       sameSite: isProd ? 'none' : 'lax',
-      maxAge: 15 * 60 * 1000,
+      maxAge: 21 * 60 * 60 * 1000,
     });
 
     res.json(ApiResponse.success(null, 'Token refreshed'));

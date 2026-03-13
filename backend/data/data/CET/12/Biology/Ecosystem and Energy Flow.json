@@ -1,0 +1,1908 @@
+[
+  {
+    "id": 1,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Pyramid of energy is always upright as energy is ______ at each trophic level. [MHT-CET 2023]",
+    "question_latex": "Pyramid of energy is always upright as energy is ______ at each trophic level. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Lost",
+      "B. Gained",
+      "C. Produced",
+      "D. Constant"
+    ],
+    "option_images": [],
+    "answer": "A. Lost",
+    "solution": "Pyramid of energy is always upright as 10% energy is lost at each trophic level.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following plants develop characters of xerophytes?",
+    "question_latex": "Which of the following plants develop characters of xerophytes?",
+    "question_images": [],
+    "options": [
+      "A. Heliophytes",
+      "B. Sciophytes",
+      "C. Hydrophytes",
+      "D. Halophytes"
+    ],
+    "option_images": [],
+    "answer": "D. Halophytes",
+    "solution": "Halophytes (i.e., plants growing in saline soils) show the characteristics of xerophytes, e.g., Sueda, Tamarix, Atriplex, etc. These characters include succulence, thick cuticle, sunken stomata, high osmotic pressure, presence of anthocyanin, tannins, proline and other organic solutes, well developed root system etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Nitrates of soil are also leached deep into the earth by ______ [MHT-CET 2024]",
+    "question_latex": "Nitrates of soil are also leached deep into the earth by ______ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. denitrification",
+      "B. sedimentation",
+      "C. transamination",
+      "D. amination"
+    ],
+    "option_images": [],
+    "answer": "B. sedimentation",
+    "solution": "Nitrates of soil are also leached deep into the earth by sedimentation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "What is the horizontal distribution of different species occupying levels on land or in water called? [MHT-CET 2024]",
+    "question_latex": "What is the horizontal distribution of different species occupying levels on land or in water called? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Zonation",
+      "B. Stratification",
+      "C. Niche",
+      "D. Ecosystem"
+    ],
+    "option_images": [],
+    "answer": "A. Zonation",
+    "solution": "Horizontal distribution of different species occupying levels on land or in water is called zonation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The correct order of basic processes involved in ecological succession is ______ [MHT-CET 2023]",
+    "question_latex": "The correct order of basic processes involved in ecological succession is ______ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Nudation → Invasion → Competition and Co-action → Reaction and Stabilization",
+      "B. Stabilization → Nudation → Invasion → Co-action → Reaction → Competition",
+      "C. Competition and co-action → Stabilization and Reaction → Nudation → Invasion",
+      "D. Invasion → Stabilization and Reaction → Co-action and Competition → Nudation"
+    ],
+    "option_images": [],
+    "answer": "A. Nudation → Invasion → Competition and Co-action → Reaction and Stabilization",
+    "solution": "Nudation → Invasion → Competition and Co-action → Reaction and Stabilization are the correct order of basic processes involved in ecological succession.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "These belong to the category of primary consumers.",
+    "question_latex": "These belong to the category of primary consumers.",
+    "question_images": [],
+    "options": [
+      "A. Snakes and frogs",
+      "B. Water insects",
+      "C. Eagle and snakes",
+      "D. Insects and cattle"
+    ],
+    "option_images": [],
+    "answer": "D. Insects and cattle",
+    "solution": "Primary consumers are herbivorous animals, which obtain their food from green photosynthetic plants (i.e., producers). Insects and cattle are primary consumers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Competition for food, light and space is most severe between two [MHT CET 2006]",
+    "question_latex": "Competition for food, light and space is most severe between two [MHT CET 2006]",
+    "question_images": [],
+    "options": [
+      "A. Closely related species growing in different niches",
+      "B. Distantly related species growing different niches",
+      "C. Closely related species growing in same niches",
+      "D. Distantly related species growing in same niches"
+    ],
+    "option_images": [],
+    "answer": "C. Closely related species growing in same niches",
+    "solution": "For food, light and space, the greatest competition is between two closely related species of same niche. Struggle for existence (competition) may be intraspecific (i.e., between individuals of the same species), interspecific (i.e., between different species) and extra specific (i.e., between individual and its environment).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following process removes CO₂ from the atmosphere? [MHT-CET 2023]",
+    "question_latex": "Which one of the following process removes $CO_2$ from the atmosphere? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Combustion of fuel.",
+      "B. Respiration",
+      "C. A jet plane travelling across the Atlantic.",
+      "D. Weathering of silicate rocks forming lime stone."
+    ],
+    "option_images": [],
+    "answer": "D. Weathering of silicate rocks forming lime stone.",
+    "solution": "Photosynthesis process balances $CO_2:O_2$ ratio of the air to a great extent. $CO_2$ is also removed from the air by weathering of silicate rocks forming limestone.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Energy flow and energy transformation in living systems strictly conform to the",
+    "question_latex": "Energy flow and energy transformation in living systems strictly conform to the",
+    "question_images": [],
+    "options": [
+      "A. Law of limiting factors",
+      "B. Liebig's law of minimum",
+      "C. Laws of thermodynamics",
+      "D. Shelford's law of tolerance"
+    ],
+    "option_images": [],
+    "answer": "C. Laws of thermodynamics",
+    "solution": "Energy flow and energy transformation in living systems strictly conform to the Laws of thermodynamics.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Primary consumers are",
+    "question_latex": "Primary consumers are",
+    "question_images": [],
+    "options": [
+      "A. Carnivores",
+      "B. Herbivores",
+      "C. Decomposers",
+      "D. Omnivores"
+    ],
+    "option_images": [],
+    "answer": "B. Herbivores",
+    "solution": "Primary consumers are herbivores — they feed directly on producers (green plants).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following is an example of man-made ecosystem?",
+    "question_latex": "Which of the following is an example of man-made ecosystem?",
+    "question_images": [],
+    "options": [
+      "A. Herbarium",
+      "B. Aquarium",
+      "C. Tissue culture",
+      "D. Forest"
+    ],
+    "option_images": [],
+    "answer": "B. Aquarium",
+    "solution": "An ecosystem, which is created and maintained by human beings, is called artificial or man-made ecosystem. Some examples of man-made ecosystem are aquarium, garden, agriculture, apiary, poultry, piggery etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following shows detritus food chain?",
+    "question_latex": "Which one of the following shows detritus food chain?",
+    "question_images": [],
+    "options": [
+      "A. Organic waste → Bacteria → Molluscs",
+      "B. Grass → Insects → Snakes",
+      "C. Plankton → Small fishes → Large fishes",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Organic waste → Bacteria → Molluscs",
+    "solution": "Detritus food chain goes from dead organic matter to microbes and then to detritus-feeding organisms and their predators. These organisms are called detrivours, e.g., bacteria, fungi, protozoans, insects, crustaceans, annelids, worms, etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following is INCORRECT about productivity in an ecosystem? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is INCORRECT about productivity in an ecosystem? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Productivity refers to rate of generation of biomass.",
+      "B. It is expressed as g/m²/per day.",
+      "C. Secondary productivity is the available biomass for consumption to heterotrophs from producers.",
+      "D. Gross primary productivity depends mainly on the plant species."
+    ],
+    "option_images": [],
+    "answer": "C. Secondary productivity is the available biomass for consumption to heterotrophs from producers.",
+    "solution": "Primary productivity is the available biomass for consumption to heterotrophs from producers. Secondary productivity is the available biomass for consumption to carnivores.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Net primary productivity (NPP) is the total amount of energy ______ [MHT-CET 2023]",
+    "question_latex": "Net primary productivity (NPP) is the total amount of energy ______ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. stored in primary consumers",
+      "B. available to heterotrophs",
+      "C. produced by plants",
+      "D. received from the sun"
+    ],
+    "option_images": [],
+    "answer": "B. available to heterotrophs",
+    "solution": "Net primary productivity (NPP) is the total amount of energy available to heterotrophs. $NPP = GPP - R$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Identify the correct order of seral stages in Xerarch succession. [MHT-CET 2023]",
+    "question_latex": "Identify the correct order of seral stages in Xerarch succession. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Crustose lichens → herbaceous plants → mosses → trees",
+      "B. Crustose lichens → mosses → herbaceous plants → trees",
+      "C. Herbaceous plants → trees → Crustose lichens → mosses",
+      "D. Mosses → herbaceous plants → trees → crustose lichens"
+    ],
+    "option_images": [],
+    "answer": "B. Crustose lichens → mosses → herbaceous plants → trees",
+    "solution": "Crustose lichens → mosses → herbaceous plants → trees. This represents progression in xeric to mesic condition.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "What does 10% law says about an ecosystem? [MHT-CET 2024]",
+    "question_latex": "What does $10\\%$ law says about an ecosystem? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. More than 10% of energy is transferred to each trophic level from the lower trophic level.",
+      "B. Only 10% of the energy is assimilated in their body from the food consumed.",
+      "C. Only 10% of the energy is transferred to each trophic level as the net energy from the previous level.",
+      "D. Consumers gain 10% of the mass from consumed food."
+    ],
+    "option_images": [],
+    "answer": "C. Only 10% of the energy is transferred to each trophic level as the net energy from the previous level.",
+    "solution": "'10% Law' (R. Lindermann, 1942). Only 10% of the energy is transferred to each trophic level as the net energy from the previous level.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following statement(s) is/are correct?\nI. Establishment of a new biotic community in a primary succession is generally very slow.\nII. Over a period of time, more complex organisms are formed as compared to the previous ones.\nIII. Succession is a random process.\nIV. Species diversity increases as succession proceeds.\nV. Composition and structure of the community remains constant. [MHT-CET 2023]",
+    "question_latex": "Which of the following statement(s) is/are correct?\nI. Establishment of a new biotic community in a primary succession is generally very slow.\nII. Over a period of time, more complex organisms are formed as compared to the previous ones.\nIII. Succession is a random process.\nIV. Species diversity increases as succession proceeds.\nV. Composition and structure of the community remains constant. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. I, II and IV only",
+      "B. I, IV and V only",
+      "C. II only",
+      "D. I and V only"
+    ],
+    "option_images": [],
+    "answer": "A. I, II and IV only",
+    "solution": "The gradual and predictable change in the species composition of a given area is called ecological succession. The change is sequential and environmentally regulated. In the successive seral stages, there is a change in the diversity of species of organisms, increase in the number of species and organisms as well as an increase in the total biomass.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which creatures are direct or indirect food of all creatures on the ocean's surface?",
+    "question_latex": "Which creatures are direct or indirect food of all creatures on the ocean's surface?",
+    "question_images": [],
+    "options": [
+      "A. Protozoans",
+      "B. Phytoplankton",
+      "C. Fish",
+      "D. Aquatic insects"
+    ],
+    "option_images": [],
+    "answer": "B. Phytoplankton",
+    "solution": "Phytoplanktons are the producers in ocean's ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Following are certain limitations of ecological pyramids EXCEPT [MHT-CET 2024]",
+    "question_latex": "Following are certain limitations of ecological pyramids EXCEPT [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Saprophytes are not given any place.",
+      "B. The base of each pyramid represents the first trophic level.",
+      "C. A given species may occupy more than one trophic level in the same ecosystem at the same time.",
+      "D. It does not accommodate a food web."
+    ],
+    "option_images": [],
+    "answer": "B. The base of each pyramid represents the first trophic level.",
+    "solution": "Ecological pyramid is a graphic representation of the relationship between the organisms of various successive trophic levels with respect to energy, biomass and number. The base representing the first trophic level is not a limitation — it is a feature.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following types of organisms occupy more than one trophic level in a pond ecosystem?",
+    "question_latex": "Which one of the following types of organisms occupy more than one trophic level in a pond ecosystem?",
+    "question_images": [],
+    "options": [
+      "A. Phytoplankton",
+      "B. Fish",
+      "C. Zooplankton",
+      "D. Frog"
+    ],
+    "option_images": [],
+    "answer": "B. Fish",
+    "solution": "In a pond ecosystem, fishes occupy more than one trophic level.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Pyramid of energy in aquatic ecosystem is",
+    "question_latex": "Pyramid of energy in aquatic ecosystem is",
+    "question_images": [],
+    "options": [
+      "A. Always upright",
+      "B. Always inverted",
+      "C. Bell-shaped",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Always upright",
+    "solution": "Pyramid of energy is a graphic representation of the amount of energy trapped per unit time and area in different trophic levels of a food chain with producers forming the base and top carnivores at the top. The pyramid of energy is always upright.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Given below are two statements.\nStatement I: Stratification is the horizontal distribution of different plants and animals on land.\nStatement II: Forest is a good example of stratification.\nIn the light of the above statements, choose the most appropriate answer from the options given below. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements.\nStatement I: Stratification is the horizontal distribution of different plants and animals on land.\nStatement II: Forest is a good example of stratification.\nIn the light of the above statements, choose the most appropriate answer from the options given below. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is incorrect but statement II is correct.",
+    "solution": "Statement I is incorrect but statement II is correct. Stratification is the vertical distribution of different plants and animals on land. Forest is a good example of stratification where trees occupy top vertical strata. Shrubs second and herbs and grasses occupy lower strata or bottom layer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Rate of production of organic matter by producers per unit surface per unit time is __ [MHT-CET 2023]",
+    "question_latex": "Rate of production of organic matter by producers per unit surface per unit time is __ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Net primary productivity",
+      "B. Respiratory loss",
+      "C. Gross primary productivity",
+      "D. Secondary productivity"
+    ],
+    "option_images": [],
+    "answer": "C. Gross primary productivity",
+    "solution": "Rate of production of organic matter by producers per unit surface per unit time is gross primary productivity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The correct order of succession in a hydrosere is ______ [MHT-CET 2023]",
+    "question_latex": "The correct order of succession in a hydrosere is ______ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Climax forest → rooted submerged plants → rooted floating → free floating → reed swamp → marsh meadow → phytoplankton.",
+      "B. Phytoplanktons → marsh meadow → reed swamp → free floating → rooted floating → rooted submerged plants → climax forest.",
+      "C. Marsh meadow → reed swamp → free floating → rooted floating → rooted submerged plants → phytoplanktons → climax forest.",
+      "D. Phytoplanktons → rooted submerged plants → rooted floating → free floating → reed swamp → marsh meadow → climax forest."
+    ],
+    "option_images": [],
+    "answer": "D. Phytoplanktons → rooted submerged plants → rooted floating → free floating → reed swamp → marsh meadow → climax forest.",
+    "solution": "Hydrarch (hydrosere) succession takes place in wetter areas and the successional series progress from hydric to the mesic conditions, begins with phytoplankton and ends with forest condition.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Benthic zone occupies the lowest vertical strata in ______ ecosystem. [MHT-CET 2023]",
+    "question_latex": "Benthic zone occupies the lowest vertical strata in ______ ecosystem. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Terrestrial",
+      "B. Grassland",
+      "C. Desert",
+      "D. Marine"
+    ],
+    "option_images": [],
+    "answer": "D. Marine",
+    "solution": "The stratification observed in open seas as epi-pelagic, mesopelagic, bathy-pelagic, benthic zone. Benthic zone occupies the lowest vertical strata in marine ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Niche is defined as the",
+    "question_latex": "Niche is defined as the",
+    "question_images": [],
+    "options": [
+      "A. Position of species in a community in relation to other species",
+      "B. Place where organism lives",
+      "C. Place where organism lives and performs its duty",
+      "D. Place where population perform their duties"
+    ],
+    "option_images": [],
+    "answer": "C. Place where organism lives and performs its duty",
+    "solution": "Niche refers to the place where an organism lives and the functional role it plays in the ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Community is a group of independent and interacting population of",
+    "question_latex": "Community is a group of independent and interacting population of",
+    "question_images": [],
+    "options": [
+      "A. Different species",
+      "B. Same species",
+      "C. Same species in a specific area",
+      "D. Different species in a specific area"
+    ],
+    "option_images": [],
+    "answer": "D. Different species in a specific area",
+    "solution": "A community is a group of independent and interacting populations of different species in a specific area.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Most diverse organisms of an ecosystem are",
+    "question_latex": "Most diverse organisms of an ecosystem are",
+    "question_images": [],
+    "options": [
+      "A. Producers",
+      "B. Consumers",
+      "C. Carnivores",
+      "D. Decomposers"
+    ],
+    "option_images": [],
+    "answer": "D. Decomposers",
+    "solution": "Decomposers are saprotrophic microorganisms which feed on dead bodies of organisms and organic wastes of living organisms. These are most diverse organisms of an ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Match the types of ecosystem services in Column-I with their examples in Column-II. Choose the correct option. [MHT-CET 2024]",
+    "question_latex": "Match the types of ecosystem services in Column-I with their examples in Column-II. Choose the correct option. [MHT-CET 2024]",
+    "question_images": [
+      "29_qu_1.png"
+    ],
+    "options": [
+      "A. (p)→(ii), (q)→(iv), (r)→(i), (s)→(iii)",
+      "B. (p)→(iv), (q)→(iii), (r)→(ii), (s)→(i)",
+      "C. (p)→(iii), (q)→(i), (r)→(iv), (s)→(ii)",
+      "D. (p)→(iii), (q)→(iv), (r)→(ii), (s)→(i)"
+    ],
+    "option_images": [],
+    "answer": "D. (p)→(iii), (q)→(iv), (r)→(ii), (s)→(i)",
+    "solution": "Supporting services include nutrient cycling, primary production, soil formation, habitat provision and pollination. Provisioning services include ornamental resources like furs, feathers, ivory, orchids, butterflies, etc. Regulating services include waste decomposition and detoxification, purification of water and air, and pest control. Cultural services include cultural, spiritual and historical, recreational experiences.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The minimum number of components required for an ecosystem to survive",
+    "question_latex": "The minimum number of components required for an ecosystem to survive",
+    "question_images": [],
+    "options": [
+      "A. Producer and primary consumer",
+      "B. Producer and decomposer",
+      "C. Primary consumer and decomposer",
+      "D. Primary and secondary consumer"
+    ],
+    "option_images": [],
+    "answer": "B. Producer and decomposer",
+    "solution": "The minimum components required for an ecosystem to survive are producer and decomposer.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In the following, there is no difference.",
+    "question_latex": "In the following, there is no difference.",
+    "question_images": [],
+    "options": [
+      "A. Trophic level-I and herbivores",
+      "B. Primary consumers and herbivores",
+      "C. Primary carnivores and trophic level-II",
+      "D. Secondary consumer and herbivores"
+    ],
+    "option_images": [],
+    "answer": "B. Primary consumers and herbivores",
+    "solution": "Top carnivore (trophic level-IV or tertiary consumer) → Primary carnivore (trophic level-III or secondary consumer) → Herbivore (trophic level-II or primary consumer) → Producers (trophic level-I). Primary consumers and herbivores are the same.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Given below are two statements:\nStatement-I: Stratification of plants in forest shows shrub layer understorey, canopy and emergent layer.\nStatement-II: Stratification in open sea is present as epipelagic, meso-pelagic, bathy-pelagic and benthic zones.\nIn the light of above statements, select the correct option given below: [MHT-CET 2024]",
+    "question_latex": "Given below are two statements:\nStatement-I: Stratification of plants in forest shows shrub layer understorey, canopy and emergent layer.\nStatement-II: Stratification in open sea is present as epipelagic, meso-pelagic, bathy-pelagic and benthic zones.\nIn the light of above statements, select the correct option given below: [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to stratification in forest and open sea.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In plant succession, when climax community is reached, the net productivity",
+    "question_latex": "In plant succession, when climax community is reached, the net productivity",
+    "question_images": [],
+    "options": [
+      "A. Continues to increase",
+      "B. Becomes zero",
+      "C. Becomes reduced",
+      "D. Becomes stable"
+    ],
+    "option_images": [],
+    "answer": "D. Becomes stable",
+    "solution": "When climax community is reached in plant succession, the net productivity becomes stable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In an aquatic ecosystem, the trophic level equivalent to cows in grasslands is",
+    "question_latex": "In an aquatic ecosystem, the trophic level equivalent to cows in grasslands is",
+    "question_images": [],
+    "options": [
+      "A. Phytoplankton",
+      "B. Zooplankton",
+      "C. Nekton",
+      "D. Benthos"
+    ],
+    "option_images": [],
+    "answer": "B. Zooplankton",
+    "solution": "Zooplanktons are the microscopic animals that feed on the phytoplanktons in an aquatic ecosystem. These are truly herbivorous and form the second trophic level (primary consumers) equivalent to cows in grasslands.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Energy storage at consumer level is called",
+    "question_latex": "Energy storage at consumer level is called",
+    "question_images": [],
+    "options": [
+      "A. Gross primary productivity",
+      "B. Secondary productivity",
+      "C. Net primary productivity",
+      "D. Net productivity"
+    ],
+    "option_images": [],
+    "answer": "B. Secondary productivity",
+    "solution": "Energy storage at consumer level is called secondary productivity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Lichen is the pioneer vegetation on which succession?",
+    "question_latex": "Lichen is the pioneer vegetation on which succession?",
+    "question_images": [],
+    "options": [
+      "A. Hydrosere",
+      "B. Lithosere",
+      "C. Psammosere",
+      "D. Xerosere"
+    ],
+    "option_images": [],
+    "answer": "B. Lithosere",
+    "solution": "Lithosere is a type of xerosere originating on bare rock surfaces. The original substratum is deficient in water and lacks any organic matter having only minerals in disintegrated unweathered state. The pioneer vegetation is, therefore, lichens.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In a pond ecosystem, benthos means [MHT CET 2003]",
+    "question_latex": "In a pond ecosystem, benthos means [MHT CET 2003]",
+    "question_images": [],
+    "options": [
+      "A. Primary consumers in the depth of a pond",
+      "B. Virus",
+      "C. Zooplankton on the water surface",
+      "D. Bacteria"
+    ],
+    "option_images": [],
+    "answer": "A. Primary consumers in the depth of a pond",
+    "solution": "Benthos are those animals which live at the bottom of a lake. They are primary consumers in the depth of the pond.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Most diverse organism of an ecosystem is",
+    "question_latex": "Most diverse organism of an ecosystem is",
+    "question_images": [],
+    "options": [
+      "A. Producer",
+      "B. Consumer",
+      "C. Decomposer",
+      "D. Carnivore"
+    ],
+    "option_images": [],
+    "answer": "C. Decomposer",
+    "solution": "Decomposers are the most diverse organisms in an ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Large unit of land having different types of plants and animals, is called",
+    "question_latex": "Large unit of land having different types of plants and animals, is called",
+    "question_images": [],
+    "options": [
+      "A. Uniform vegetation",
+      "B. Biome",
+      "C. Ecosystem",
+      "D. Niche"
+    ],
+    "option_images": [],
+    "answer": "B. Biome",
+    "solution": "Biomes are the major terrestrial ecosystems or distinctive terrestrial areas with their group of climax plants and associated animals. It is the largest terrestrial community.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The amount of carbon dioxide in the atmosphere is regulated by ______ [MHT-CET 2023]",
+    "question_latex": "The amount of carbon dioxide in the atmosphere is regulated by ______ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Vehicles",
+      "B. Fossil fuel",
+      "C. Oceanic reservoir",
+      "D. Combustion of organic matter"
+    ],
+    "option_images": [],
+    "answer": "C. Oceanic reservoir",
+    "solution": "The amount of carbon dioxide in the atmosphere is regulated by oceanic reservoir. The carbon is dissolved into oceanic water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Match the different process in decomposition of organic matter. Choose the correct option. [MHT-CET 2024]",
+    "question_latex": "Match the different process in decomposition of organic matter. Choose the correct option. [MHT-CET 2024]",
+    "question_images": [
+      "41_qu_1.png"
+    ],
+    "options": [
+      "A. (a)→(IV); (b)→(I); (c)→(II); (d)→(III)",
+      "B. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)",
+      "C. (a)→(IV); (b)→(III); (c)→(II); (d)→(I)",
+      "D. (a)→(I); (b)→(II); (c)→(III); (d)→(IV)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)→(IV); (b)→(I); (c)→(II); (d)→(III)",
+    "solution": "Leaching→Percolation of water soluble inorganic nutrients into soil (IV); Catabolism→Bacterial and fungal enzymatic degradation of detritus (I); Humification→Accumulation of partially decomposed dark coloured, amorphous, colloidal substance (II); Mineralization→Degradation of humus by microbes to release inorganic nutrients (III).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Lichens are the pioneer species in ___ succession. [MHT-CET 2023]",
+    "question_latex": "Lichens are the pioneer species in ___ succession. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Both hydrarch & xerarch",
+      "B. Hydrarch",
+      "C. Secondary",
+      "D. Xerarch"
+    ],
+    "option_images": [],
+    "answer": "D. Xerarch",
+    "solution": "Xerarch succession takes place in dry areas and the series progress from xeric to mesic conditions which lead to medium water conditions (mesic) — neither too dry (xeric) nor too wet (hydric).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Group of two or more than two plant species is called as",
+    "question_latex": "Group of two or more than two plant species is called as",
+    "question_images": [],
+    "options": [
+      "A. Plant community",
+      "B. Animal ecosystem",
+      "C. Plant ecosystem",
+      "D. Ecological niche"
+    ],
+    "option_images": [],
+    "answer": "A. Plant community",
+    "solution": "A population consists of organisms of a particular species. When several populations share a common habitat and its resources, they interact among themselves and develop into a biotic community. Hence, community is a larger unit than a population.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In ecological succession, either hydrarch or xerarch, the climax community will be always ........ [2022]",
+    "question_latex": "In ecological succession, either hydrarch or xerarch, the climax community will be always ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. aquatic",
+      "B. xeric",
+      "C. avian",
+      "D. mesic"
+    ],
+    "option_images": [],
+    "answer": "D. mesic",
+    "solution": "In ecological succession, whether hydrarch or xerarch, the climax community always leads to mesic conditions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Productivity in plants is mainly affected by the non availability of ___ [MHT-CET 2023]",
+    "question_latex": "Productivity in plants is mainly affected by the non availability of ___ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. CO₂",
+      "B. water",
+      "C. minerals",
+      "D. O₂"
+    ],
+    "option_images": [],
+    "answer": "B. water",
+    "solution": "Productivity is rate of generation of biomass in an ecosystem. Water, being universal solvent, becomes a primary factor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Given below are two statements.\nStatement-I: Detritus is the raw material for decomposition.\nStatement-II: The breakdown of detritus into CO₂, water and nutrient is called decomposition.\nIn the light of above statements, choose the most appropriate answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements.\nStatement-I: Detritus is the raw material for decomposition.\nStatement-II: The breakdown of detritus into $CO_2$, water and nutrient is called decomposition.\nIn the light of above statements, choose the most appropriate answer from the options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct for the process of decomposition.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Trophic level of food chain having greatest amount of energy, is",
+    "question_latex": "Trophic level of food chain having greatest amount of energy, is",
+    "question_images": [],
+    "options": [
+      "A. Carnivores",
+      "B. Herbivores",
+      "C. Autotrophs",
+      "D. Omnivores"
+    ],
+    "option_images": [],
+    "answer": "C. Autotrophs",
+    "solution": "As the autotrophs (green plants) form the base of food chain, therefore, they have highest amount of energy. According to the pyramid of energy, energy flows from one trophic level to the next in one direction only, and is lost at each step.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In xerarch succession on rocks, the pioneer species are crustose lichens which ........ [2022]",
+    "question_latex": "In xerarch succession on rocks, the pioneer species are crustose lichens which ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. have roots to absorb moisture.",
+      "B. are saprophytes.",
+      "C. can withstand pollution.",
+      "D. secrete acids to dissolve rock."
+    ],
+    "option_images": [],
+    "answer": "D. secrete acids to dissolve rock.",
+    "solution": "In xerarch succession, crustose lichens are pioneer species that secrete acids to dissolve rocks, helping in weathering and soil formation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Secondary ecological succession begins in area. [2022]",
+    "question_latex": "Secondary ecological succession begins in area. [2022]",
+    "question_images": [],
+    "options": [
+      "A. newly cooled lava",
+      "B. abandoned farm lands",
+      "C. rock",
+      "D. newly created pond"
+    ],
+    "option_images": [],
+    "answer": "B. abandoned farm lands",
+    "solution": "Secondary ecological succession begins in areas that had pre-existing life but was disturbed, such as abandoned farm lands.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Match the types of niche in column I with their description in column II. Choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Match the types of niche in column I with their description in column II. Choose the correct option. [MHT-CET 2023]",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B. (a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "C. (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "D. (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+    "solution": "Habitat niche→Physical space occupied by an organism (iii); Trophic niche→Level of organism in the food chain (iv); Multidimensional niche→Position of organism in the environment gradient (ii); Fundamental niche→In the absence of competition in the habitat (i).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In a food chain, the total amount of living material is depicted by",
+    "question_latex": "In a food chain, the total amount of living material is depicted by",
+    "question_images": [],
+    "options": [
+      "A. Pyramid of biomass",
+      "B. Pyramid of energy",
+      "C. Pyramid of number",
+      "D. Trophic levels"
+    ],
+    "option_images": [],
+    "answer": "A. Pyramid of biomass",
+    "solution": "Biomass is the living or organic matter of living organisms, in terms of weight, present at any given time in the environment. In a food chain, it can be depicted by pyramid of biomass, which is upright in terrestrial ecosystem and inverted in aquatic ecosystem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The assemblage of all the population of different species that function as an integrated unit through coevolved metabolic transformation in a specific area is called",
+    "question_latex": "The assemblage of all the population of different species that function as an integrated unit through coevolved metabolic transformation in a specific area is called",
+    "question_images": [],
+    "options": [
+      "A. Biome",
+      "B. Biotic community",
+      "C. Population",
+      "D. Ecosystem"
+    ],
+    "option_images": [],
+    "answer": "B. Biotic community",
+    "solution": "Biotic community is defined as an assemblage of population that functions as an integrative unit through coevolved metabolic transformation in a prescribed area of physical habitat.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Ecosystem consists of",
+    "question_latex": "Ecosystem consists of",
+    "question_images": [],
+    "options": [
+      "A. Producers",
+      "B. Consumers",
+      "C. Decomposers",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Ecosystem consists of producers (autotrophs), consumers (herbivores, carnivores) and decomposers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Energy transferred from one trophic level to another is",
+    "question_latex": "Energy transferred from one trophic level to another is",
+    "question_images": [],
+    "options": [
+      "A. 5%",
+      "B. 10%",
+      "C. 15%",
+      "D. 20%"
+    ],
+    "option_images": [],
+    "answer": "B. 10%",
+    "solution": "As per ten percent law in an ecosystem, only 10% of energy is captured by the organisms of the next higher trophic level. Herbivores store only 10% of the energy they consume and 90% is used in life activities and lost as heat.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Term ecosystem was given by",
+    "question_latex": "Term ecosystem was given by",
+    "question_images": [],
+    "options": [
+      "A. Odum",
+      "B. Koestler",
+      "C. Tansley",
+      "D. Mobius and Forbes"
+    ],
+    "option_images": [],
+    "answer": "C. Tansley",
+    "solution": "The term ecosystem was given by Tansley (1935).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Stability of ecosystem depends upon",
+    "question_latex": "Stability of ecosystem depends upon",
+    "question_images": [],
+    "options": [
+      "A. Primary productivity",
+      "B. Interchange between producers and consumers",
+      "C. Number of producers",
+      "D. Number of consumers"
+    ],
+    "option_images": [],
+    "answer": "B. Interchange between producers and consumers",
+    "solution": "Food web (i.e., network of food chains interconnected at various trophic levels) is meant for increasing the stability of an ecosystem by providing alternate sources of food.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The amount of living matter present in an ecosystem at a given time is called",
+    "question_latex": "The amount of living matter present in an ecosystem at a given time is called",
+    "question_images": [],
+    "options": [
+      "A. Biomass",
+      "B. Standing crop",
+      "C. Standing state",
+      "D. Productivity"
+    ],
+    "option_images": [],
+    "answer": "B. Standing crop",
+    "solution": "The amount of living matter (biomass) present in an ecosystem at a given time is called standing crop.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following forms heritage-net in the intercellular spaces of root cortex? [MHT-CET 2024]",
+    "question_latex": "Which of the following forms heritage-net in the intercellular spaces of root cortex? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Endomycorrhizae",
+      "B. Lichens",
+      "C. Ectomycorrhizae",
+      "D. Cuscuta"
+    ],
+    "option_images": [],
+    "answer": "C. Ectomycorrhizae",
+    "solution": "Some hyphae of mycorrhizal fungus penetrate into the root and form heritage-net in the intercellular spaces of root cortex.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Enzymatic breakdown of dead organic material is carried out by bacteria and fungi. They are called ___ [MHT-CET 2023]",
+    "question_latex": "Enzymatic breakdown of dead organic material is carried out by bacteria and fungi. They are called ___ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Consumers",
+      "B. Decomposers",
+      "C. Predators",
+      "D. Producers"
+    ],
+    "option_images": [],
+    "answer": "B. Decomposers",
+    "solution": "Enzymatic breakdown of dead organic material is carried out by bacteria and fungi. They are called decomposers which help in recycling of biomolecules.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following statements regarding food chain is false?",
+    "question_latex": "Which of the following statements regarding food chain is false?",
+    "question_images": [],
+    "options": [
+      "A. In an aquatic ecosystem, grazing food chain is the major conduit for energy flow",
+      "B. In terrestrial ecosystems, a large fraction of energy flows through detritus food chain",
+      "C. The detritus food chain begins with dead organic matter",
+      "D. Primary consumers belong to the first trophic level"
+    ],
+    "option_images": [],
+    "answer": "D. Primary consumers belong to the first trophic level",
+    "solution": "Primary consumers belong to the second trophic level, not the first. The first trophic level is occupied by producers (plants). Primary consumers are herbivores.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Food chain is a series of population, which starts with producers. It is concerning with",
+    "question_latex": "Food chain is a series of population, which starts with producers. It is concerning with",
+    "question_images": [],
+    "options": [
+      "A. Biotic components only",
+      "B. Energy flow and transfer of nutrients",
+      "C. Both a and b",
+      "D. Abiotic components and decomposers"
+    ],
+    "option_images": [],
+    "answer": "C. Both a and b",
+    "solution": "Transfer of food energy from the producers through a series of organisms with repeated eating and being eaten is known as food chain. It concerns both biotic components and energy flow/nutrient transfer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Select the matched ones.\nI. Sedimentary nutrient - Nitrogen cycle\nII. Pioneer species - Lichens\nIII. Secondary succession - Burned forests\nIV. Pyramid of biomass in sea - Upright",
+    "question_latex": "Select the matched ones.\nI. Sedimentary nutrient - Nitrogen cycle\nII. Pioneer species - Lichens\nIII. Secondary succession - Burned forests\nIV. Pyramid of biomass in sea - Upright",
+    "question_images": [],
+    "options": [
+      "A. I, II and IV only",
+      "B. I and III only",
+      "C. II and III only",
+      "D. II and IV only"
+    ],
+    "option_images": [],
+    "answer": "C. II and III only",
+    "solution": "Pioneer species in primary succession are usually lichens (II is correct). Secondary succession takes place in secondarily bare areas like burned forests (III is correct). Nitrogen undergoes gaseous cycle not sedimentary (I is wrong). Pyramid of biomass in sea is inverted not upright (IV is wrong).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Extinction of a species in a food chain is compensated by",
+    "question_latex": "Extinction of a species in a food chain is compensated by",
+    "question_images": [],
+    "options": [
+      "A. Food chain",
+      "B. Ecological pyramid",
+      "C. Food web",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Food web",
+    "solution": "Food web is a network of food chains, interconnected at various trophic levels, so as to form a number of feeding alternatives amongst the different organisms of a biotic community.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following ecosystem types has the highest annual net primary productivity?",
+    "question_latex": "Which of the following ecosystem types has the highest annual net primary productivity?",
+    "question_images": [],
+    "options": [
+      "A. Tropical rain forest",
+      "B. Tropical deciduous forest",
+      "C. Temperate evergreen forest",
+      "D. Temperate deciduous forest"
+    ],
+    "option_images": [],
+    "answer": "A. Tropical rain forest",
+    "solution": "Productivity of tropical rainforest is highest. The tropical rain forest covers 300,000 km² area. They contain more than 50% of total flora and fauna of the world.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The lentic ecosystem includes",
+    "question_latex": "The lentic ecosystem includes",
+    "question_images": [],
+    "options": [
+      "A. Gravitational water",
+      "B. Standing water",
+      "C. Rain water",
+      "D. Running water"
+    ],
+    "option_images": [],
+    "answer": "B. Standing water",
+    "solution": "Standing water ecosystems like lake, pond, pools, puddles, ditch, swamp etc. are called lentic, while running water ecosystems as spring, stream and rivers are called lotic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The non-material services that enhances spiritual, intellectual and social development of humans are called ______ services. [MHT-CET 2024]",
+    "question_latex": "The non-material services that enhances spiritual, intellectual and social development of humans are called ______ services. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Regulatory",
+      "B. Cultural",
+      "C. Supporting",
+      "D. Provisioning"
+    ],
+    "option_images": [],
+    "answer": "B. Cultural",
+    "solution": "Ecosystem services that enhance spiritual, intellectual and social development of humans are called cultural services.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Aging of lake due to nutrient enrichment of water for thousands of years is also known as [MHT-CET 2023]",
+    "question_latex": "Aging of lake due to nutrient enrichment of water for thousands of years is also known as [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Biochemical oxygen demand",
+      "B. Algal blooming",
+      "C. Cultural eutrophication",
+      "D. Natural eutrophication"
+    ],
+    "option_images": [],
+    "answer": "D. Natural eutrophication",
+    "solution": "Aging of lake due to nutrient enrichment of water for thousands of years is also known as natural eutrophication. Pollutants from human activities have accelerated this aging process, which is then called Cultural or Accelerated Eutrophication.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In primary ecological succession, the pioneer species are crustose lichens which help in the following EXCEPT ........ [2022]",
+    "question_latex": "In primary ecological succession, the pioneer species are crustose lichens which help in the following EXCEPT ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. Soil formation",
+      "B. Pave way for angiosperms immediately.",
+      "C. Secrete acids to dissolve rock.",
+      "D. Help in weathering of rock."
+    ],
+    "option_images": [],
+    "answer": "B. Pave way for angiosperms immediately.",
+    "solution": "Crustose lichens do not immediately pave way for angiosperms. They first help in soil formation, weathering of rocks, and secrete acids to dissolve rock. The succession proceeds gradually through mosses and other plants before angiosperms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following groups is absolutely essential functional component of the ecosystem?",
+    "question_latex": "Which of the following groups is absolutely essential functional component of the ecosystem?",
+    "question_images": [],
+    "options": [
+      "A. Producers",
+      "B. Producers and herbivores",
+      "C. Producers and detritivores",
+      "D. Detritivores"
+    ],
+    "option_images": [],
+    "answer": "C. Producers and detritivores",
+    "solution": "Ecosystem is composed of biotic (living) and abiotic (non-living) components. Biotic component includes producers, consumers and detritivores. The producers and detritivores are absolutely essential functional components of the ecosystem.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following is NOT used for construction of ecological pyramids?",
+    "question_latex": "Which one of the following is NOT used for construction of ecological pyramids?",
+    "question_images": [],
+    "options": [
+      "A. Dry weight",
+      "B. Number of individuals",
+      "C. Rate of energy flow",
+      "D. Fresh weight"
+    ],
+    "option_images": [],
+    "answer": "D. Fresh weight",
+    "solution": "Ecological pyramids are of three types: pyramid of number (number of organisms), pyramid of biomass (total dry weight of living organisms), and pyramid of energy (rate of energy flow/productivity). Thus, fresh weight is not used for the construction of ecological pyramids.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The raw materials like timber, skins, fuel wood etc. provided by an ecosystem are ______ services. [MHT-CET 2024]",
+    "question_latex": "The raw materials like timber, skins, fuel wood etc. provided by an ecosystem are ______ services. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. regulating",
+      "B. supporting",
+      "C. provisioning",
+      "D. cultural"
+    ],
+    "option_images": [],
+    "answer": "C. provisioning",
+    "solution": "Provisioning services include food (including seafood), raw materials (including timber, skins, fuel wood), genetic resources, water, medicinal resources and ornamental resources.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Based on the nature of habitat, availability and amount of ........ determines the hydrosere or xerosere patterns of ecological succession. [MHT-CET 2021]",
+    "question_latex": "Based on the nature of habitat, availability and amount of ........ determines the hydrosere or xerosere patterns of ecological succession. [MHT-CET 2021]",
+    "question_images": [],
+    "options": [
+      "A. Water",
+      "B. Minerals",
+      "C. Trees",
+      "D. Soil"
+    ],
+    "option_images": [],
+    "answer": "A. Water",
+    "solution": "Availability and amount of water determines whether hydrosere or xerosere patterns of ecological succession occur.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following phenomenon is observed during ecological succession? [MHT-CET 2024]",
+    "question_latex": "Which of the following phenomenon is observed during ecological succession? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. All species survive",
+      "B. All species grow at the same rate",
+      "C. Some species grow while other species decline",
+      "D. All species disappear"
+    ],
+    "option_images": [],
+    "answer": "C. Some species grow while other species decline",
+    "solution": "During succession, some species colonize an area and their populations become more numerous, whereas populations of other species decline and even disappear.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Given below are two statements:\nStatement I: Vegetation of an area depends on the characteristics of soil as water holding capacity, pH, mineral composition etc.\nStatement II: Vegetation decides the types of animals in an area.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements:\nStatement I: Vegetation of an area depends on the characteristics of soil as water holding capacity, pH, mineral composition etc.\nStatement II: Vegetation decides the types of animals in an area.\nIn the light of above two statements, choose the correct option. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to productivity of that area.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "By which process, atmospheric carbon-dioxide is fixed by autotrophs? [MHT-CET 2024]",
+    "question_latex": "By which process, atmospheric carbon-dioxide is fixed by autotrophs? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Respiration",
+      "B. Combustion",
+      "C. Diffusion",
+      "D. Photosynthesis"
+    ],
+    "option_images": [],
+    "answer": "D. Photosynthesis",
+    "solution": "Photosynthesis fixes atmospheric carbon-dioxide and converts it into glucose.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Water soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts. It is ______ step in the process of decomposition. [MHT-CET 2024]",
+    "question_latex": "Water soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts. It is ______ step in the process of decomposition. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. leaching",
+      "B. fragmentation",
+      "C. mineralization",
+      "D. humification"
+    ],
+    "option_images": [],
+    "answer": "A. leaching",
+    "solution": "By the process of leaching, water soluble inorganic nutrients go down (percolate) into the soil horizon and get precipitated as unavailable salts. Bacterial and fungal enzymes degrade detritus into simpler inorganic substances.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Out of the 5.5 billion tons of carbon released in each year through combustion of fossil fuels, ___ billion tons stays in the atmosphere. [MHT-CET 2023]",
+    "question_latex": "Out of the 5.5 billion tons of carbon released in each year through combustion of fossil fuels, ___ billion tons stays in the atmosphere. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 4.5",
+      "B. 1.2",
+      "C. 5.5",
+      "D. 3.3"
+    ],
+    "option_images": [],
+    "answer": "D. 3.3",
+    "solution": "Out of the 5.5 billion tons of carbon released in each year through combustion of fossil fuels, 3.3 billion tons stays in the atmosphere. Most of the remainder is dissolved in seawater and deposited as calcium or magnesium carbonate compounds which make up shells of marine animals.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following statements is INCORRECT about energy flow in an ecosystem? [MHT-CET 2023]",
+    "question_latex": "Which one of the following statements is INCORRECT about energy flow in an ecosystem? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. The energy can be used only once in an ecosystem.",
+      "B. The energy flow is unidirectional",
+      "C. The detritus food chain starts from dead organic matter.",
+      "D. Primary consumers belong to the first trophic level."
+    ],
+    "option_images": [],
+    "answer": "D. Primary consumers belong to the first trophic level.",
+    "solution": "First trophic level is occupied by producers. Primary consumers belong to the second trophic level.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Name the ecosystem, which is self sustainable? [MHT-CET 2024]",
+    "question_latex": "Name the ecosystem, which is self sustainable? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Natural ecosystem",
+      "B. Farmland",
+      "C. Artificial ecosystem",
+      "D. Fish tank"
+    ],
+    "option_images": [],
+    "answer": "A. Natural ecosystem",
+    "solution": "Natural ecosystems do not require any human inputs; in other words they are self-sustainable.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Phytoplanktons are found in which of the following zones?",
+    "question_latex": "Phytoplanktons are found in which of the following zones?",
+    "question_images": [],
+    "options": [
+      "A. Limnetic zone",
+      "B. Secondary consumers",
+      "C. Littoral zone",
+      "D. Aphotic zone"
+    ],
+    "option_images": [],
+    "answer": "C. Littoral zone",
+    "solution": "Phytoplanktons are found in littoral zone, which is the shallow water region.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Transition zone between two ecosystems is",
+    "question_latex": "Transition zone between two ecosystems is",
+    "question_images": [],
+    "options": [
+      "A. Ecotype",
+      "B. Niche",
+      "C. Ecotone",
+      "D. Biome"
+    ],
+    "option_images": [],
+    "answer": "C. Ecotone",
+    "solution": "Ecotone is the transition zone between two ecosystems. Ecotone is the zone of distribution of organisms across the boundaries of which the individuals of a species become progressively fewer, less productive and sometimes smaller.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "When the number of organisms at successive levels are plotted they assume the shape of a pyramid. This is called the pyramid of [MHT CET 2003]",
+    "question_latex": "When the number of organisms at successive levels are plotted they assume the shape of a pyramid. This is called the pyramid of [MHT CET 2003]",
+    "question_images": [],
+    "options": [
+      "A. Biomass",
+      "B. Number",
+      "C. Energy",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Number",
+    "solution": "In the pyramid of number, the number of individual organisms at each trophic level is shown.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Given below are the two statements.\nStatement I: Algal blooms impart a distinct color to the water bodies.\nStatement II: Some bloom-forming algae are extremely toxic to fishes but not to human beings and animals.\nIn the light of above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are the two statements.\nStatement I: Algal blooms impart a distinct color to the water bodies.\nStatement II: Some bloom-forming algae are extremely toxic to fishes but not to human beings and animals.\nIn the light of above statements, choose the correct answer from the options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is correct.",
+      "B. Both statements I and statement II are correct.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "D. Statement I is correct but statement II is incorrect.",
+    "solution": "Algal bloom often releases toxins in water. Fish die due to toxicity. Quality of water deteriorates and becomes toxic for human beings and other animals too. So Statement II is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The greatest biomass of autotrophs in the world's oceans is that of",
+    "question_latex": "The greatest biomass of autotrophs in the world's oceans is that of",
+    "question_images": [],
+    "options": [
+      "A. Benthic brown algae, coastal red algae and daphnids",
+      "B. Benthic diatoms and marine viruses",
+      "C. Sea grasses and slime moulds",
+      "D. Free-floating micro-algae, cyanobacteria and nanoplankton"
+    ],
+    "option_images": [],
+    "answer": "D. Free-floating micro-algae, cyanobacteria and nanoplankton",
+    "solution": "Phytoplanktons, diatoms and dinoflagellates are the dominant producers in the world's oceans. Diatoms tend to dominate in Northern waters, while dinoflagellates are quite common in sub-tropical and tropical waters.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Energy flow in ecosystem is",
+    "question_latex": "Energy flow in ecosystem is",
+    "question_images": [],
+    "options": [
+      "A. Bidirectional",
+      "B. Unidirectional",
+      "C. All around",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Unidirectional",
+    "solution": "An ecosystem is whole biotic community in a given area plus its abiotic environment. Energy flow in ecosystem is unidirectional, i.e., from producers to consumers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Peacock eats a snake and snake eats frog and frog eats insect while insect eats green plant, the position of peacock is",
+    "question_latex": "Peacock eats a snake and snake eats frog and frog eats insect while insect eats green plant, the position of peacock is",
+    "question_images": [],
+    "options": [
+      "A. Primary producer",
+      "B. Secondary producer",
+      "C. Decomposer",
+      "D. Top at the apex of food pyramid"
+    ],
+    "option_images": [],
+    "answer": "D. Top at the apex of food pyramid",
+    "solution": "Green plants → Insects → Frog → Snakes → Peacock. From the above food chain, it is clear that the peacock stands at the top.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "By which of the following process carbon moves from atmosphere to living world? [MHT-CET 2024]",
+    "question_latex": "By which of the following process carbon moves from atmosphere to living world? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Decomposition",
+      "B. Respiration",
+      "C. Photosynthesis",
+      "D. Active transpiration"
+    ],
+    "option_images": [],
+    "answer": "C. Photosynthesis",
+    "solution": "By Photosynthesis process, carbon moves from atmosphere to living world.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "In food chain, lion is a [MHT CET 2003]",
+    "question_latex": "In food chain, lion is a [MHT CET 2003]",
+    "question_images": [],
+    "options": [
+      "A. Tertiary consumer",
+      "B. Secondary consumer",
+      "C. Primary consumer",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Tertiary consumer",
+    "solution": "In a typical food chain: Grass → Deer → Lion. Lion feeds on deer (secondary consumer/primary carnivore), making lion a tertiary consumer (top carnivore).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following is expected to have the highest value (gm/m²/yr) in a grassland ecosystem?",
+    "question_latex": "Which of the following is expected to have the highest value $(gm/m^2/yr)$ in a grassland ecosystem?",
+    "question_images": [],
+    "options": [
+      "A. Secondary production (SP)",
+      "B. Tertiary production (TP)",
+      "C. Gross production (GP)",
+      "D. Net production (NP)"
+    ],
+    "option_images": [],
+    "answer": "C. Gross production (GP)",
+    "solution": "The rate of total capture of energy or the rate of total production of organic material is gross primary productivity. Hence, gross productivity has the highest value in a grassland ecosystem.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The 10% energy transfer law of food chain was given by",
+    "question_latex": "The $10\\%$ energy transfer law of food chain was given by",
+    "question_images": [],
+    "options": [
+      "A. Lederberg",
+      "B. Lindemann",
+      "C. Weismann",
+      "D. Lindley"
+    ],
+    "option_images": [],
+    "answer": "B. Lindemann",
+    "solution": "The 10% energy transfer law of food chain is best known as Lindemann's law of trophic efficiency. It states that the efficiency of energy transfer from one trophic level to the next is about 10%.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following ecological pyramids can never occur in an inverted form",
+    "question_latex": "Which of the following ecological pyramids can never occur in an inverted form",
+    "question_images": [],
+    "options": [
+      "A. Pyramid of number",
+      "B. Pyramid of biomass",
+      "C. Pyramid of energy",
+      "D. Pyramid of species richness"
+    ],
+    "option_images": [],
+    "answer": "C. Pyramid of energy",
+    "solution": "The shape of pyramid of energy is always upright as energy always decreases at each successive level (i.e., from producers to consumers).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Overlapping region between two ecosystems is called",
+    "question_latex": "Overlapping region between two ecosystems is called",
+    "question_images": [],
+    "options": [
+      "A. Biome",
+      "B. Ecotone",
+      "C. Niche",
+      "D. Photic zone"
+    ],
+    "option_images": [],
+    "answer": "B. Ecotone",
+    "solution": "The zone of transition between two different communities presenting a situation of overlapping is known as ecotone.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Pyramid of biomass is inverted in a/an [MHT-CET 2024]",
+    "question_latex": "Pyramid of biomass is inverted in a/an [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. ocean",
+      "B. pond",
+      "C. grassland",
+      "D. forest"
+    ],
+    "option_images": [],
+    "answer": "A. ocean",
+    "solution": "Pyramid of biomass is inverted in an ocean, which is an exception. In most well balanced ecosystems, all the pyramids of number, energy and biomass are upright.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Following are the trophic levels of a single pyramid of numbers EXCEPT ___ [MHT-CET 2023]",
+    "question_latex": "Following are the trophic levels of a single pyramid of numbers EXCEPT ___ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Insects feeding on a single tree",
+      "B. All the trees in the forest.",
+      "C. Smaller birds feeding on insects.",
+      "D. Parasites on those birds which feed on the insects."
+    ],
+    "option_images": [],
+    "answer": "B. All the trees in the forest.",
+    "solution": "All trees are primary producers — the base of each pyramid represents the producers. 'All the trees in the forest' represents a population-level description, not a specific trophic level in a single pyramid.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The natural reservoir of phosphorus is ______ . [MHT-CET 2024]",
+    "question_latex": "The natural reservoir of phosphorus is ______ . [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. waterbodies",
+      "B. atmosphere",
+      "C. rocks",
+      "D. dead organisms"
+    ],
+    "option_images": [],
+    "answer": "C. rocks",
+    "solution": "The natural reservoir of phosphorus is rocks. It undergoes sedimentary cycle as it never exists in gaseous state.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which one of the following is an example of detritivore? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is an example of detritivore? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Grasshopper on a tree",
+      "B. Saprophytic bacteria on dead and decaying matter",
+      "C. An insectivorous plant",
+      "D. Virus"
+    ],
+    "option_images": [],
+    "answer": "B. Saprophytic bacteria on dead and decaying matter",
+    "solution": "Saprophytic bacteria on dead and decaying matter are examples of detritivore.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "The practically decomposed, dark colored, amorphous colloidal organic substance is called ______ . [MHT-CET 2024]",
+    "question_latex": "The practically decomposed, dark colored, amorphous colloidal organic substance is called ______ . [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. compost",
+      "B. sludge",
+      "C. humus",
+      "D. manure"
+    ],
+    "option_images": [],
+    "answer": "C. humus",
+    "solution": "Humus is resistant to microbial action and undergoes decomposition at an extremely slow rate. Humus formation changes soil texture and increases water holding capacity of soil.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Which of the following communities is more vulnerable to invasion by outside animals and plants?",
+    "question_latex": "Which of the following communities is more vulnerable to invasion by outside animals and plants?",
+    "question_images": [],
+    "options": [
+      "A. Temperate forests",
+      "B. Tropical evergreen",
+      "C. Oceanic island communities",
+      "D. Mangroves"
+    ],
+    "option_images": [],
+    "answer": "B. Tropical evergreen",
+    "solution": "Tropical evergreen communities are more vulnerable to invasion by outside animals and plants.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Trophic level in an ecosystem is a ______ . [MHT-CET 2024]",
+    "question_latex": "Trophic level in an ecosystem is a ______ . [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Dependence of one organism on another.",
+      "B. Position of the organism in the hierarchical classification.",
+      "C. Specific place of the organism in the food chain.",
+      "D. Systematic classification of organism."
+    ],
+    "option_images": [],
+    "answer": "C. Specific place of the organism in the food chain.",
+    "solution": "Every organism occupies a place in ecological community according to the source and method of obtaining its food. Organisms occupy a specific place in the food chain that is their trophic level.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Ecosystem and Energy Flow",
+    "question": "Ecological succession involves following few steps:\nP. Nudation\nQ. Invasion\nR. Stabilization\nS. Aggregation\nT. Competition\nIdentify the correct order of these steps. [MHT-CET 2024]",
+    "question_latex": "Ecological succession involves following few steps:\nP. Nudation\nQ. Invasion\nR. Stabilization\nS. Aggregation\nT. Competition\nIdentify the correct order of these steps. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. P→R→Q→T→S",
+      "B. P→Q→R→S→T",
+      "C. P→Q→T→S→R",
+      "D. P→Q→S→T→R"
+    ],
+    "option_images": [],
+    "answer": "D. P→Q→S→T→R",
+    "solution": "Process of succession involves sequential steps like Nudation (P), Invasion (Q), Ecesis, Aggregation (S), Competition and co-action (T), Reaction and Stabilization (R).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

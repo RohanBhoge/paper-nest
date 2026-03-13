@@ -1,0 +1,1912 @@
+[
+  {
+    "id": 1,
+    "chapter": "Conic Section",
+    "question": "If the radical axis of the circles x² + y² + 2gx + 2fy + c = 0 and 2x² + 2y² + 3x + 8y + 2c = 0, touches the circle x² + y² + 2x + 2y + 1 = 0, then",
+    "question_latex": "If the radical axis of the circles $x^2 + y^2 + 2gx + 2fy + c = 0$ and $2x^2 + 2y^2 + 3x + 8y + 2c = 0$, touches the circle $x^2 + y^2 + 2x + 2y + 1 = 0$, then",
+    "question_images": [],
+    "options": [
+      "A. $g = \\frac{3}{4}$ and $f \\neq 2$",
+      "B. $g \\neq \\frac{3}{4}$ and $f = 2$",
+      "C. $g = \\frac{3}{4}$ or $f = 2$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $g = \\frac{3}{4}$ or $f = 2$",
+    "solution": "The radical axis of the two given circles is $S_1 - S_2 = 0$:\n$2x\\left(g - \\frac{3}{4}\\right) + 2y(f-2) = 0$\n$\\Rightarrow x\\left(g - \\frac{3}{4}\\right) + y(f-2) = 0$\n\nIt touches the circle $x^2 + y^2 + 2x + 2y + 1 = 0$:\n$\\left|\\frac{-(g-\\frac{3}{4})-(f-2)}{\\sqrt{(g-\\frac{3}{4})^2+(f-2)^2}}\\right| = 1$\n\n$\\Rightarrow \\left(g-\\frac{3}{4}\\right)^2 + (f-2)^2 + 2\\left(g-\\frac{3}{4}\\right)(f-2) = \\left(g-\\frac{3}{4}\\right)^2 + (f-2)^2$\n$\\Rightarrow \\left(g-\\frac{3}{4}\\right)(f-2) = 0$\n$\\Rightarrow g = \\frac{3}{4}$ or $f = 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Conic Section",
+    "question": "If the circle x² + y² + 4x + 22y + c = 0 bisects the circumference of the circle x² + y² - 2x + 8y - d = 0, then c + d is equal to",
+    "question_latex": "If the circle $x^2 + y^2 + 4x + 22y + c = 0$ bisects the circumference of the circle $x^2 + y^2 - 2x + 8y - d = 0$, then $c + d$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 60",
+      "B. 50",
+      "C. 40",
+      "D. 30"
+    ],
+    "option_images": [],
+    "answer": "B. 50",
+    "solution": "The common chord of the given circles is $S_1 - S_2 = 0$:\n$x^2+y^2+4x+22y+c - x^2-y^2+2x-8y+d = 0$\n$\\Rightarrow 6x + 14y + c + d = 0$ ...(i)\n\nThis passes through the centre of the second circle, i.e., $(1,-4)$:\n$6 - 56 + c + d = 0$\n$\\Rightarrow c + d = 50$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Conic Section",
+    "question": "The equation of the tangents to the circle x² + y² = 4, which are parallel to x + 2y + 3 = 0, are",
+    "question_latex": "The equation of the tangents to the circle $x^2 + y^2 = 4$, which are parallel to $x + 2y + 3 = 0$, are",
+    "question_images": [],
+    "options": [
+      "A. $x - 2y = 2$",
+      "B. $x + 2y = \\pm 2\\sqrt{3}$",
+      "C. $x + 2y = \\pm 2\\sqrt{5}$",
+      "D. $x - 2y = \\pm 2\\sqrt{5}$"
+    ],
+    "option_images": [],
+    "answer": "C. $x + 2y = \\pm 2\\sqrt{5}$",
+    "solution": "Centre of circle is $(0, 0)$, radius $= 2$.\nEquation of tangent parallel to $x + 2y + 3 = 0$ is $x + 2y + \\lambda = 0$.\n\nPerpendicular distance from $(0,0)$ to $x + 2y + \\lambda = 0$ equals radius:\n$\\frac{|0 + 0 + \\lambda|}{\\sqrt{1^2+2^2}} = 2$\n$\\Rightarrow \\frac{|\\lambda|}{\\sqrt{5}} = 2 \\Rightarrow \\lambda = \\pm 2\\sqrt{5}$\n\nRequired tangents: $x + 2y = \\pm 2\\sqrt{5}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Conic Section",
+    "question": "The product of the lengths of perpendicular drawn from any point on the hyperbola x² - 2y² - 2 = 0 to its asymptotes, is",
+    "question_latex": "The product of the lengths of perpendicular drawn from any point on the hyperbola $x^2 - 2y^2 - 2 = 0$ to its asymptotes, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}$",
+      "B. $\\frac{2}{3}$",
+      "C. $\\frac{3}{2}$",
+      "D. $2$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{2}{3}$",
+    "solution": "Given equation $x^2 - 2y^2 - 2 = 0$ can be rewritten as $\\frac{x^2}{2} - \\frac{y^2}{1} = 1$.\n\nHere $a^2 = 2, b^2 = 1$.\n\nThe product of lengths of perpendiculars from any point on hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ to its asymptotes is:\n$\\frac{a^2 b^2}{a^2+b^2} = \\frac{2 \\times 1}{2+1} = \\frac{2}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Conic Section",
+    "question": "The area of the triangle formed by the lines x + y = 0, x - y = 0 and any tangent to the hyperbola x² - y² = a² is",
+    "question_latex": "The area of the triangle formed by the lines $x + y = 0$, $x - y = 0$ and any tangent to the hyperbola $x^2 - y^2 = a^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $4a^2$ sq. units",
+      "B. $3a^2$ sq. units",
+      "C. $2a^2$ sq. units",
+      "D. $a^2$ sq. units"
+    ],
+    "option_images": [],
+    "answer": "D. $a^2$ sq. units",
+    "solution": "Let $P(a\\sec\\theta, a\\tan\\theta)$ be a point on the hyperbola $x^2 - y^2 = a^2$. The tangent at $P$ is $x\\sec\\theta - y\\tan\\theta = a$.\n\nVertices of triangle: $O(0,0)$, $A\\big(a(\\sec\\theta+\\tan\\theta), a(\\sec\\theta+\\tan\\theta)\\big)$, $B\\big(a(\\sec\\theta-\\tan\\theta), -a(\\sec\\theta-\\tan\\theta)\\big)$.\n\n$\\triangle AOB$ is right-angled at $O$.\n$OA = a\\sqrt{2}(\\sec\\theta+\\tan\\theta)$, $OB = a\\sqrt{2}(\\sec\\theta-\\tan\\theta)$\n\nArea $= \\frac{1}{2} \\times OA \\times OB = \\frac{1}{2} \\times a\\sqrt{2}(\\sec\\theta+\\tan\\theta) \\times a\\sqrt{2}(\\sec\\theta-\\tan\\theta) = a^2(\\sec^2\\theta - \\tan^2\\theta) = a^2$ sq. units",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Conic Section",
+    "question": "Equation of a circle passing through the origin and making intercept by the line 4x + 3y = 12 with coordinate axes, is",
+    "question_latex": "Equation of a circle passing through the origin and making intercept by the line $4x + 3y = 12$ with coordinate axes, is",
+    "question_images": [],
+    "options": [
+      "A. $x^2 + y^2 + 3x + 4y = 0$",
+      "B. $x^2 + y^2 + 3x - 4y = 0$",
+      "C. $x^2 + y^2 - 3x + 4y = 0$",
+      "D. $x^2 + y^2 - 3x - 4y = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $x^2 + y^2 - 3x - 4y = 0$",
+    "solution": "The line $4x+3y=12$ meets axes at $A(3,0)$ and $B(0,4)$.\n\nLet the equation of circle be $x^2+y^2+2gx+2fy+c = 0$.\n\nPasses through $(0,0)$: $c = 0$\nPasses through $(3,0)$: $9 + 6g = 0 \\Rightarrow g = -\\frac{3}{2}$\nPasses through $(0,4)$: $16 + 8f = 0 \\Rightarrow f = -2$\n\n$\\therefore$ Equation: $x^2 + y^2 - 3x - 4y = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Conic Section",
+    "question": "The equation of a parabola which passes through the intersection of a straight line x + y = 0 and the circle x² + y² + 4y = 0 is",
+    "question_latex": "The equation of a parabola which passes through the intersection of a straight line $x + y = 0$ and the circle $x^2 + y^2 + 4y = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $y^2 = 4x$",
+      "B. $y^2 = x$",
+      "C. $y^2 = 2x$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $y^2 = 2x$",
+    "solution": "The intersection of line $x+y=0$ and circle $x^2+y^2+4y=0$ is $(0,0)$ and $(2,-2)$.\n\nChecking option (c), $y^2 = 2x$:\nAt $(0,0)$: $0 = 0$ ✓\nAt $(2,-2)$: $(-2)^2 = 4 = 2(2) = 4$ ✓\n\nHence option (c) is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Conic Section",
+    "question": "Let C be the circle with centre at (1,1) and radius = 1. If T is the circle centred at (0, y), passing through origin and touching the circle C externally, then the radius of T is equal to",
+    "question_latex": "Let $C$ be the circle with centre at $(1,1)$ and radius $= 1$. If $T$ is the circle centred at $(0, y)$, passing through origin and touching the circle $C$ externally, then the radius of $T$ is equal to (2014)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\sqrt{3}}{2}$",
+      "B. $\\frac{\\sqrt{3}}{\\sqrt{2}}$",
+      "C. $\\frac{1}{4}$",
+      "D. $\\frac{1}{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{4}$",
+    "solution": "Since $BC = h$ (radius of circle):\n$(h+1)^2 + 2^2 = h^2$\n$\\Rightarrow 2h + 5 = 0 \\Rightarrow h = -\\frac{5}{2}$\n\nAlso, $AB = 2(AM) = 2\\sqrt{\\frac{25-16}{4}} = 3$\n\nRadius of $T = \\frac{1}{4}$",
+    "solution_images": [
+      "8_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Conic Section",
+    "question": "The normal to the parabola y² = 8x at the point (2, 4) meets the parabola again at the point",
+    "question_latex": "The normal to the parabola $y^2 = 8x$ at the point $(2, 4)$ meets the parabola again at the point",
+    "question_images": [],
+    "options": [
+      "A. $(-18, -12)$",
+      "B. $(-18, 12)$",
+      "C. $(18, 12)$",
+      "D. $(18, -12)$"
+    ],
+    "option_images": [],
+    "answer": "D. $(18, -12)$",
+    "solution": "Given parabola $y^2 = 8x$, so $a = 2$.\n\nIf the normal at $(at_1^2, 2at_1)$ passes through $(at_2^2, 2at_2)$, then $t_2 = -t_1 - \\frac{2}{t_1}$.\n\nGiven point is $(2,4)$: $at_1^2 = 2 \\Rightarrow t_1 = 1$\n\n$t_2 = -1 - \\frac{2}{1} = -3$\n\nOther end: $(at_2^2, 2at_2) = (18, -12)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Conic Section",
+    "question": "The directrix of the parabola y² + 4x + 3 = 0 is",
+    "question_latex": "The directrix of the parabola $y^2 + 4x + 3 = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x - \\frac{4}{3} = 0$",
+      "B. $x + \\frac{1}{4} = 0$",
+      "C. $x - \\frac{3}{4} = 0$",
+      "D. $x - \\frac{1}{4} = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $x - \\frac{1}{4} = 0$",
+    "solution": "Given $y^2 = -4\\left(x + \\frac{3}{4}\\right)$\n$\\Rightarrow Y^2 = -4X$, where $X = x + \\frac{3}{4}$ and $Y = y$\n\nDirectrix of parabola $Y^2 = -4X$ is $X = 1$:\n$x + \\frac{3}{4} = 1 \\Rightarrow x - \\frac{1}{4} = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Conic Section",
+    "question": "The circles x² + y² - 4x - 6y - 12 = 0 and x² + y² + 4x + 6y + 4 = 0",
+    "question_latex": "The circles $x^2 + y^2 - 4x - 6y - 12 = 0$ and $x^2 + y^2 + 4x + 6y + 4 = 0$",
+    "question_images": [],
+    "options": [
+      "A. Touch externally",
+      "B. Do not intersect",
+      "C. Intersect at two points",
+      "D. Are concentric"
+    ],
+    "option_images": [],
+    "answer": "C. Intersect at two points",
+    "solution": "Centres: $C_1(2,3)$, $C_2(-2,-3)$\nRadii: $r_1 = \\sqrt{4+9+12} = 5$, $r_2 = \\sqrt{4+9-4} = 3$\n\n$C_1C_2 = \\sqrt{(2+2)^2+(3+3)^2} = \\sqrt{52}$\n\nSince $C_1C_2 < r_1 + r_2$ (i.e., $\\sqrt{52} < 8$), the circles intersect at two points.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Conic Section",
+    "question": "The curve represented by the equation 4x² + 16y² - 24x - 32y - 12 = 0 is",
+    "question_latex": "The curve represented by the equation $4x^2 + 16y^2 - 24x - 32y - 12 = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. A parabola",
+      "B. A pair of straight lines",
+      "C. An ellipse with eccentricity $\\frac{1}{2}$",
+      "D. An ellipse with eccentricity $\\frac{\\sqrt{3}}{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. An ellipse with eccentricity $\\frac{\\sqrt{3}}{2}$",
+    "solution": "Rewriting: $4x^2-24x+36+16y^2-32y+16-36-16-12=0$\n$(2x-6)^2+(4y-4)^2=64$\n$\\Rightarrow \\frac{(x-3)^2}{16}+\\frac{(y-1)^2}{4}=1$\n\nHere $a^2=16$, $b^2=4$:\n$e = \\sqrt{1-\\frac{4}{16}} = \\frac{\\sqrt{3}}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Conic Section",
+    "question": "The coordinates of the focus of the parabola described parametrically by x = 5t² + 2, y = 10t + 4 are",
+    "question_latex": "The coordinates of the focus of the parabola described parametrically by $x = 5t^2 + 2$, $y = 10t + 4$ are",
+    "question_images": [],
+    "options": [
+      "A. $(7, 4)$",
+      "B. $(3, 4)$",
+      "C. $(3, -4)$",
+      "D. $(-7, 4)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(7, 4)$",
+    "solution": "$x = 5t^2+2$, $y = 10t+4$\n$\\Rightarrow \\frac{x-2}{5} = t^2$, $\\frac{y-4}{10} = t$\n$\\Rightarrow \\frac{x-2}{5} = \\left(\\frac{y-4}{10}\\right)^2$\n$\\Rightarrow (y-4)^2 = 20(x-2)$\n$\\Rightarrow Y^2 = 20X$, where $Y = y-4$, $X = x-2$\n\nFocus of $Y^2=20X$ is $(5,0)$, i.e., $x-2=5 \\Rightarrow x=7$, $y=4$\n\nRequired coordinates: $(7,4)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Conic Section",
+    "question": "The curve with parametric equation x = eᵗ + e⁻ᵗ, y = eᵗ - e⁻ᵗ is",
+    "question_latex": "The curve with parametric equation $x = e^t + e^{-t}$, $y = e^t - e^{-t}$ is",
+    "question_images": [],
+    "options": [
+      "A. A circle",
+      "B. An ellipse",
+      "C. A hyperbola",
+      "D. A parabola"
+    ],
+    "option_images": [],
+    "answer": "C. A hyperbola",
+    "solution": "Given $x = e^t + e^{-t}$ and $y = e^t - e^{-t}$\n\nSquaring and subtracting:\n$x^2 - y^2 = (e^t+e^{-t})^2 - (e^t-e^{-t})^2 = 4$\n\nThis is a hyperbola.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Conic Section",
+    "question": "The equation of family of circles with centre at (h, k) touching the x-axis is given by",
+    "question_latex": "The equation of family of circles with centre at $(h, k)$ touching the $x$-axis is given by",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-2hx+h^2=0$",
+      "B. $x^2+y^2-2hx-2ky+h^2=0$",
+      "C. $x^2+y^2-2hx-2ky-h^2=0$",
+      "D. $x^2+y^2-2hx-2ky=0$"
+    ],
+    "option_images": [],
+    "answer": "B. $x^2+y^2-2hx-2ky+h^2=0$",
+    "solution": "Circle with centre $(h,k)$ touching $x$-axis has radius $= k$.\n$(x-h)^2+(y-k)^2=k^2$\n$\\Rightarrow x^2+y^2-2hx-2ky+h^2=0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Conic Section",
+    "question": "The tangents to the hyperbola x² - y² = 3 are parallel to the straight line 2x + y + 8 = 0 at the following points:",
+    "question_latex": "The tangents to the hyperbola $x^2 - y^2 = 3$ are parallel to the straight line $2x + y + 8 = 0$ at the following points:",
+    "question_images": [],
+    "options": [
+      "A. $(2,1), (1,2)$",
+      "B. $(2,-1), (-2,1)$",
+      "C. $(-2,-1),(1,2)$",
+      "D. $(-2,-1),(-1,-2)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(2,-1), (-2,1)$",
+    "solution": "For hyperbola $x^2-y^2=a^2$, points of contact of tangents with slope $m$ are $\\left(\\pm\\frac{am}{\\sqrt{m^2-1}}, \\pm\\frac{a}{\\sqrt{m^2-1}}\\right)$.\n\nHere $a = \\sqrt{3}$, $m = -2$:\n$\\left(\\pm\\frac{\\sqrt{3}\\cdot(-2)}{\\sqrt{3}}, \\pm\\frac{\\sqrt{3}}{\\sqrt{3}}\\right) = (\\mp2, \\pm1)$\n\nRequired points: $(2,-1)$ and $(-2,1)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Conic Section",
+    "question": "If the tangent at a point (a cosθ, b sinθ) on the ellipse x²/a² + y²/b² = 1 meets the auxiliary circle in two points, the chord joining them subtends a right angle at the centre, then the eccentricity of the ellipse is given by",
+    "question_latex": "If the tangent at a point $(a\\cos\\theta, b\\sin\\theta)$ on the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ meets the auxiliary circle in two points, the chord joining them subtends a right angle at the centre, then the eccentricity of the ellipse is given by",
+    "question_images": [],
+    "options": [
+      "A. $(1+\\cos^2\\theta)^{-1/2}$",
+      "B. $(1+\\sin^2\\theta)$",
+      "C. $(1+\\sin^2\\theta)^{-1/2}$",
+      "D. $(1+\\cos^2\\theta)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(1+\\sin^2\\theta)$",
+    "solution": "The eccentricity of the ellipse is given by $(1 + \\sin^2\\theta)$ under the given condition.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Conic Section",
+    "question": "The locus of the centres of the circles, which touch the circle x² + y² = 1 externally, also touch the y-axis and lie in the first quadrant, is (April 2019)",
+    "question_latex": "The locus of the centres of the circles, which touch the circle $x^2 + y^2 = 1$ externally, also touch the $y$-axis and lie in the first quadrant, is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $y = \\sqrt{1+4x}, x \\geq 0$",
+      "B. $x = \\sqrt{1+4y}, y \\geq 0$",
+      "C. $x = \\sqrt{1+2y}, y \\geq 0$",
+      "D. $y = \\sqrt{1+2x}, x \\geq 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $y = \\sqrt{1+2x}, x \\geq 0$",
+    "solution": "Let $P(h,k)$ be the centre of the circle touching $x^2+y^2=1$ and $y$-axis in the first quadrant.\n$OP = h+1$ (touches externally) $\\Rightarrow \\sqrt{h^2+k^2} = h+1$\n$\\Rightarrow h^2+k^2 = h^2+1+2h$\n$\\Rightarrow k^2 = 1+2h$\n$\\Rightarrow k = \\sqrt{1+2h}$\n\nLocus of $(h,k)$: $y = \\sqrt{1+2x}, x \\geq 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Conic Section",
+    "question": "The equation of the circle touching x = 0, y = 0 and x = 4 is",
+    "question_latex": "The equation of the circle touching $x = 0$, $y = 0$ and $x = 4$ is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-4x-4y+16=0$",
+      "B. $x^2+y^2-8x-8y+16=0$",
+      "C. $x^2+y^2+4x+4y-4=0$",
+      "D. $x^2+y^2-4x-4y+4=0$"
+    ],
+    "option_images": [],
+    "answer": "D. $x^2+y^2-4x-4y+4=0$",
+    "solution": "The circle touches $x=0$, $y=0$, and $x=4$, so centre is $(2,2)$ and radius $= 2$.\n$(x-2)^2+(y-2)^2=4$\n$\\Rightarrow x^2+y^2-4x-4y+4=0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Conic Section",
+    "question": "The equation of the tangent to the circle x² + y² = 4, which are parallel to x + 2y + 3 = 0, are",
+    "question_latex": "The equation of the tangent to the circle $x^2 + y^2 = 4$, which are parallel to $x + 2y + 3 = 0$, are",
+    "question_images": [],
+    "options": [
+      "A. $x-2y=2$",
+      "B. $x+2y=\\pm2\\sqrt{3}$",
+      "C. $x+2y=\\pm2\\sqrt{5}$",
+      "D. $x-2y=\\pm2\\sqrt{5}$"
+    ],
+    "option_images": [],
+    "answer": "C. $x+2y=\\pm2\\sqrt{5}$",
+    "solution": "Let the tangent parallel to $x+2y+3=0$ be $x+2y+\\lambda=0$.\nCondition for tangency:\n$\\left(-\\frac{\\lambda}{2}\\right)^2 = 4\\left(1+\\frac{1}{4}\\right)$ $[\\because c^2=a^2(1+m^2)]$\n$\\Rightarrow \\lambda^2=20 \\Rightarrow \\lambda=\\pm2\\sqrt{5}$\n\nRequired tangent: $x+2y=\\pm2\\sqrt{5}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Conic Section",
+    "question": "On the parabola y = x², the point at least distance from the straight line y = 2x - 4 is",
+    "question_latex": "On the parabola $y = x^2$, the point at least distance from the straight line $y = 2x - 4$ is",
+    "question_images": [],
+    "options": [
+      "A. $(1, 1)$",
+      "B. $(1, 0)$",
+      "C. $(1, -1)$",
+      "D. $(0, 0)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(1, 1)$",
+    "solution": "Parabola: $y = x^2$ ...(i), Line: $y = 2x-4$ ...(ii)\n\nLet $z = x^2 - 2x + 4$\n$z' = 2x-2 = 0 \\Rightarrow x = 1$\n$z''$ is positive at $x=1$ (minimum)\n\nPutting $x=1$ in (i): $y=1$\n\nRequired point: $(1,1)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Conic Section",
+    "question": "Let AB be the intercept of the line y = x on the circle x² + y² - 2x = 0. Then, the equation of the circle with AB as its diameter is",
+    "question_latex": "Let $AB$ be the intercept of the line $y = x$ on the circle $x^2 + y^2 - 2x = 0$. Then, the equation of the circle with $AB$ as its diameter is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-x-y=0$",
+      "B. $x^2+y^2+x+y=0$",
+      "C. $x^2+y^2+2(x-y)=0$",
+      "D. $x^2+y^2-2x+y=0$"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2+y^2-x-y=0$",
+    "solution": "Intersection of $y=x$ and $x^2+y^2-2x=0$: $A(0,0)$ and $B(1,1)$.\n\nEquation of circle with $AB$ as diameter:\n$x(x-1)+y(y-1)=0$\n$\\Rightarrow x^2+y^2-x-y=0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Conic Section",
+    "question": "The points of intersection of the curves whose parametric equations are x = t² + 1, y = 2t and x = 2s, y = 2/s is given by",
+    "question_latex": "The points of intersection of the curves whose parametric equations are $x = t^2 + 1$, $y = 2t$ and $x = 2s$, $y = 2/s$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $(1, -3)$",
+      "B. $(2, 2)$",
+      "C. $(-2, 4)$",
+      "D. $(1, 2)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(2, 2)$",
+    "solution": "Eliminating $t$ from $x=t^2+1$, $y=2t$: $y^2=4x-4$\n\nSubstituting $x=2s$, $y=2/s$: $2s^3-s^2-1=0 \\Rightarrow (s-1)(2s^2+s+1)=0 \\Rightarrow s=1$\n\nPutting $s=1$: $x=2, y=2$\n\nRequired point: $(2,2)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Conic Section",
+    "question": "Number of common tangents to the parabola y² = 4ax and x² = 4by is",
+    "question_latex": "Number of common tangents to the parabola $y^2 = 4ax$ and $x^2 = 4by$ is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 3",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "From the figure, only one common tangent (at the origin) is possible for the parabolas $y^2=4ax$ and $x^2=4by$.",
+    "solution_images": [
+      "24_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Conic Section",
+    "question": "The eccentricity of an ellipse x²/a² + y²/b² = 1 whose latusrectum is half of its major axis is",
+    "question_latex": "The eccentricity of an ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ whose latusrectum is half of its major axis is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{\\sqrt{2}}$",
+      "B. $\\sqrt{\\frac{2}{3}}$",
+      "C. $\\frac{\\sqrt{3}}{2}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{1}{\\sqrt{2}}$",
+    "solution": "$\\frac{2b^2}{a} = a \\Rightarrow 2b^2 = a^2$\n$\\Rightarrow 2a^2(1-e^2) = a^2$\n$\\Rightarrow e = \\frac{1}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Conic Section",
+    "question": "The circle x² + y² - 4x - 4y + 4 = 0 is inscribed in a triangle which has two of its sides along the coordinate axes. If the locus of the circumcentre of the triangle is x + y - xy + k√(x² - y²) = 0, then the value of k is equal to",
+    "question_latex": "The circle $x^2 + y^2 - 4x - 4y + 4 = 0$ is inscribed in a triangle which has two of its sides along the coordinate axes. If the locus of the circumcentre of the triangle is $x + y - xy + k\\sqrt{x^2 - y^2} = 0$, then the value of $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. $-2$",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Let equation of $AB$ be $\\frac{x}{a}+\\frac{y}{b}=1$. Since $AB$ touches the circle (centre $(2,2)$, radius $2$):\n$\\frac{|\\frac{2}{a}+\\frac{2}{b}-1|}{\\sqrt{\\frac{1}{a^2}+\\frac{1}{b^2}}}=2$\n\n$\\Rightarrow 2a+2b-ab+2\\sqrt{a^2+b^2}=0$ ...(i)\n\n$\\triangle OAB$ is right-angled, so circumcentre is midpoint of $AB$:\n$h=\\frac{a}{2}$, $k=\\frac{b}{2}$, i.e., $a=2h$, $b=2k$ ...(ii)\n\nSubstituting: $h+k-hk+\\sqrt{h^2+k^2}=0$\n\nLocus: $x+y-xy+\\sqrt{x^2+y^2}=0$, so $k=1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Conic Section",
+    "question": "The equation of tangent to the hyperbola 4x² - 9y² = 1, which is parallel to the line 4y = 5x + 7, are",
+    "question_latex": "The equation of tangent to the hyperbola $4x^2 - 9y^2 = 1$, which is parallel to the line $4y = 5x + 7$, are",
+    "question_images": [],
+    "options": [
+      "A. $y = 30x \\pm 161$",
+      "B. $24y = 30x \\pm \\sqrt{161}$",
+      "C. $24y = x \\pm 161$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $24y = 30x \\pm \\sqrt{161}$",
+    "solution": "The tangents to the hyperbola $4x^2-9y^2=1$ parallel to $4y=5x+7$ are $24y=30x\\pm\\sqrt{161}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Conic Section",
+    "question": "The locus of the centre of the circle for which one end of a diameter is (1, 1) while the other end is on the line x + y = 3, is",
+    "question_latex": "The locus of the centre of the circle for which one end of a diameter is $(1, 1)$ while the other end is on the line $x + y = 3$, is",
+    "question_images": [],
+    "options": [
+      "A. $x+y=1$",
+      "B. $2(x-y)=5$",
+      "C. $2x+2y=5$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $2x+2y=5$",
+    "solution": "Let centre be $(g,f)$. If one end is $(1,1)$, other end is $(2g-1, 2f-1)$.\n\nThis end lies on $x+y=3$:\n$(2g-1)+(2f-1)=3 \\Rightarrow 2g+2f=5$\n\nLocus: $2x+2y=5$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Conic Section",
+    "question": "From the point P(16, 7) tangents PQ and PR are drawn to the circle x² + y² - 2x - 4y - 20 = 0. If C be the centre of the circle, then area of quadrilateral PQCR is",
+    "question_latex": "From the point $P(16, 7)$ tangents $PQ$ and $PR$ are drawn to the circle $x^2 + y^2 - 2x - 4y - 20 = 0$. If $C$ be the centre of the circle, then area of quadrilateral $PQCR$ is",
+    "question_images": [],
+    "options": [
+      "A. 450 sq units",
+      "B. 15 sq units",
+      "C. 50 sq units",
+      "D. 75 sq units"
+    ],
+    "option_images": [],
+    "answer": "D. 75 sq units",
+    "solution": "Centre $C(1,2)$, Radius $r = \\sqrt{1+4+20}=5$\n$PC = \\sqrt{(16-1)^2+(7-2)^2}=\\sqrt{250}$\n\n$PQ = \\sqrt{PC^2-QC^2}=\\sqrt{250-25}=15$\n\nArea of quadrilateral $PQCR = 2 \\times$ Area of $\\triangle PCQ = 2 \\times \\frac{1}{2} \\times PQ \\times QC = 15 \\times 5 = 75$ sq units",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Conic Section",
+    "question": "The eccentric angle of the point of contact of the line x/a + y/b = √2 with the ellipse x²/a² + y²/b² = 1, is",
+    "question_latex": "The eccentric angle of the point of contact of the line $\\frac{x}{a}+\\frac{y}{b}=\\sqrt{2}$ with the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, is",
+    "question_images": [],
+    "options": [
+      "A. $0$",
+      "B. $\\pi/3$",
+      "C. $\\pi/4$",
+      "D. $\\pi/2$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\pi/4$",
+    "solution": "Let $\\theta$ be the eccentric angle. Coordinates of point: $(a\\cos\\theta, b\\sin\\theta)$.\n\nTangent at this point: $\\frac{x}{a}\\cos\\theta + \\frac{y}{b}\\sin\\theta = 1$\n\nComparing with $\\frac{x}{a}+\\frac{y}{b}=\\sqrt{2}$:\n$\\cos\\theta = \\frac{1}{\\sqrt{2}}$ and $\\sin\\theta = \\frac{1}{\\sqrt{2}} \\Rightarrow \\theta = \\frac{\\pi}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Conic Section",
+    "question": "The equation of a circle with origin as a centre and passing through an equilateral triangle whose median is of length 3a, is",
+    "question_latex": "The equation of a circle with origin as a centre and passing through an equilateral triangle whose median is of length $3a$, is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2=9a^2$",
+      "B. $x^2+y^2=16a^2$",
+      "C. $x^2+y^2=4a^2$",
+      "D. $x^2+y^2=a^2$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2+y^2=4a^2$",
+    "solution": "In an equilateral triangle, circumcentre lies on the centroid.\nCircumradius $= \\frac{2}{3}$ × median $= \\frac{2}{3} \\times 3a = 2a$\n\nRequired equation: $x^2+y^2=(2a)^2=4a^2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Conic Section",
+    "question": "If the lines joining the foci of the ellipse x²/a² + y²/b² = 1, where a > b and an extremity of its minor axis are inclined at an angle 60°, then the eccentricity of the ellipse is",
+    "question_latex": "If the lines joining the foci of the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, where $a > b$ and an extremity of its minor axis are inclined at an angle $60°$, then the eccentricity of the ellipse is",
+    "question_images": [],
+    "options": [
+      "A. $-\\frac{\\sqrt{3}}{2}$",
+      "B. $\\frac{1}{2}$",
+      "C. $\\frac{\\sqrt{5}}{2}$",
+      "D. $\\frac{\\sqrt{7}}{3}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{2}$",
+    "solution": "In $\\triangle CBF$: $\\tan 30° = \\frac{F''C}{b} \\Rightarrow F''C = \\frac{b}{\\sqrt{3}}$\n\n$ae = \\frac{b}{\\sqrt{3}} \\Rightarrow a^2e^2 = \\frac{1}{3}[a^2(1-e^2)]$\n$\\Rightarrow 4e^2 = 1 \\Rightarrow e = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Conic Section",
+    "question": "Equation of chord of the parabola y² = 16x whose mid point is (1, 1), is",
+    "question_latex": "Equation of chord of the parabola $y^2 = 16x$ whose mid point is $(1, 1)$, is",
+    "question_images": [],
+    "options": [
+      "A. $x+y=2$",
+      "B. $x-y=0$",
+      "C. $8x+y=9$",
+      "D. $8x-y=7$"
+    ],
+    "option_images": [],
+    "answer": "D. $8x-y=7$",
+    "solution": "Given parabola $y^2=16x$. Using $T=S_1$:\n$y(1)-8(x+1)=1-16$\n$y-8x-8=-15$\n$\\Rightarrow 8x-y=7$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Conic Section",
+    "question": "For the curve 7x² - 2y² + 12xy - 2x + 14y - 22 = 0 which of the following is true?",
+    "question_latex": "For the curve $7x^2 - 2y^2 + 12xy - 2x + 14y - 22 = 0$ which of the following is true?",
+    "question_images": [],
+    "options": [
+      "A. It is a hyperbola with eccentricity $\\sqrt{3}$",
+      "B. It is a hyperbola with directrix $2x+y-1=0$",
+      "C. It is a hyperbola with focus $(1,2)$",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "The curve $7x^2-2y^2+12xy-2x+14y-22=0$ is a hyperbola with eccentricity $\\sqrt{3}$, directrix $2x+y-1=0$, and focus $(1,2)$. All of the above statements are true.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Conic Section",
+    "question": "The locus of the middle points of the chords of the parabola y² = 4ax which passes through the origin is",
+    "question_latex": "The locus of the middle points of the chords of the parabola $y^2 = 4ax$, which passes through the origin is",
+    "question_images": [],
+    "options": [
+      "A. $y^2=ax$",
+      "B. $y^2=2ax$",
+      "C. $y^2=4ax$",
+      "D. $x^2=4ay$"
+    ],
+    "option_images": [],
+    "answer": "B. $y^2=2ax$",
+    "solution": "Let mid point be $(h,k)$. Equation of chord: $T=S_1$:\n$yy_1 - 2a(x+x_1) = y_1^2 - 4ax_1$\n$\\Rightarrow ky - 2a(x+h) = k^2-4ah$\n\nSince it passes through origin: $-2ah = k^2-4ah \\Rightarrow k^2 = 2ah$\n\nLocus: $y^2=2ax$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Conic Section",
+    "question": "The eccentricity of the ellipse 9x² + 5y² - 30y = 0 is",
+    "question_latex": "The eccentricity of the ellipse $9x^2 + 5y^2 - 30y = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. 1/3",
+      "B. 2/3",
+      "C. 3/4",
+      "D. 4/5"
+    ],
+    "option_images": [],
+    "answer": "B. 2/3",
+    "solution": "Rewriting: $\\frac{x^2}{5}+\\frac{(y-3)^2}{9}=1$\n\n$e = \\sqrt{1-\\frac{a^2}{b^2}} = \\sqrt{1-\\frac{5}{9}} = \\frac{2}{3}$ (here $b^2=9 > a^2=5$)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Conic Section",
+    "question": "Equation of chord of an ellipse x²/25 + y²/9 = 1, whose mid point is (1, 1), is",
+    "question_latex": "Equation of chord of an ellipse $\\frac{x^2}{25}+\\frac{y^2}{9}=1$, whose mid point is $(1, 1)$, is",
+    "question_images": [],
+    "options": [
+      "A. $25x+9y=36$",
+      "B. $9x+25y=34$",
+      "C. $9x-25y=34$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $9x+25y=34$",
+    "solution": "Using $T=S_1$: $\\frac{xx_1}{25}+\\frac{yy_1}{9}=\\frac{x_1^2}{25}+\\frac{y_1^2}{9}$\n\nWith $(x_1,y_1)=(1,1)$:\n$\\frac{x}{25}+\\frac{y}{9}=\\frac{1}{25}+\\frac{1}{9}$\n$\\Rightarrow 9x+25y=9+25=34$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Conic Section",
+    "question": "The number of circles that touch all the straight lines x + y - 4 = 0, x - y + 2 = 0 and y = 2, is",
+    "question_latex": "The number of circles that touch all the straight lines $x + y - 4 = 0$, $x - y + 2 = 0$ and $y = 2$, is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "D. 4",
+    "solution": "The given straight lines form a triangle. So, there will be an in-circle and three ex-circles, all touching the sides. Total $= 4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Conic Section",
+    "question": "The graph represented by the equations x = sin²t, y = 2cost, is",
+    "question_latex": "The graph represented by the equations $x = \\sin^2 t$, $y = 2\\cos t$, is",
+    "question_images": [],
+    "options": [
+      "A. A portion of a parabola",
+      "B. A parabola",
+      "C. A part of a sine graph",
+      "D. A part of a hyperbola"
+    ],
+    "option_images": [],
+    "answer": "B. A parabola",
+    "solution": "Eliminating $t$ from $y=2\\cos t$ and $x=\\sin^2 t$:\n$\\cos t = \\frac{y}{2}$, $\\sin^2 t = 1-\\cos^2 t = 1-\\frac{y^2}{4}$\n$\\Rightarrow x = 1-\\frac{y^2}{4} \\Rightarrow y^2+4x=4$\n\nThis is a parabola.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Conic Section",
+    "question": "The length of latusrectum of the ellipse 9x² + 16y² = 144 is",
+    "question_latex": "The length of latusrectum of the ellipse $9x^2 + 16y^2 = 144$ is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. $\\frac{11}{4}$",
+      "C. $\\frac{7}{2}$",
+      "D. $\\frac{9}{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{9}{2}$",
+    "solution": "Rewriting: $\\frac{x^2}{16}+\\frac{y^2}{9}=1$\n\nHere $a=4$, $b=3$.\nLength of latusrectum $= \\frac{2b^2}{a} = \\frac{2\\times9}{4} = \\frac{9}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Conic Section",
+    "question": "A circle touches the y-axis at the point (0, 4) and passes through the point (2, 0). Which of the following lines is not a tangent to this circle? (Jan 2020)",
+    "question_latex": "A circle touches the $y$-axis at the point $(0,4)$ and passes through the point $(2,0)$. Which of the following lines is not a tangent to this circle? (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $4x-3y+17=0$",
+      "B. $3x+4y-6=0$",
+      "C. $4x+3y-8=0$",
+      "D. $3x-4y-24=0$"
+    ],
+    "option_images": [],
+    "answer": "C. $4x+3y-8=0$",
+    "solution": "Equation of family of circle: $(x-0)^2+(y-4)^2+\\lambda x=0$.\nSince passes through $(2,0)$: $4+16+2\\lambda=0 \\Rightarrow \\lambda=-10$.\n\nCircle: $x^2+y^2-10x-8y+16=0$. Centre $(5,4)$, radius $=5$.\n\nDistance of $(5,4)$ from $4x+3y-8=0$: $\\frac{|20+12-8|}{5}=\\frac{24}{5} \\neq 5$\n\nSo $4x+3y-8=0$ is not a tangent.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Conic Section",
+    "question": "If the chords of contact of tangents drawn from P to the hyperbola x² - y² = a² and its auxiliary circle are at right angle, then P lies on",
+    "question_latex": "If the chords of contact of tangents drawn from $P$ to the hyperbola $x^2 - y^2 = a^2$ and its auxiliary circle are at right angle, then $P$ lies on",
+    "question_images": [],
+    "options": [
+      "A. $x^2-y^2=3a^2$",
+      "B. $x^2-y^2=2a^2$",
+      "C. $x^2-y^2=0$",
+      "D. $x^2-y^2=1$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2-y^2=0$",
+    "solution": "Let $P = (h,k)$. Chord of contact to hyperbola: $hx-ky=a^2$, to circle $x^2+y^2=a^2$: $hx+ky=a^2$.\n\nFor perpendicularity: $\\left(-\\frac{h}{k}\\right)\\times\\left(\\frac{h}{k}\\right)=-1 \\Rightarrow h^2-k^2=0$\n\nLocus: $x^2-y^2=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Conic Section",
+    "question": "A ray of light incident at the point (-2, -1) gets reflected from the tangent at (0, -1) to the circle x² + y² = 1. The reflected ray touches the circle. The equation of the line along which the incident ray moved is",
+    "question_latex": "A ray of light incident at the point $(-2, -1)$ gets reflected from the tangent at $(0, -1)$ to the circle $x^2 + y^2 = 1$. The reflected ray touches the circle. The equation of the line along which the incident ray moved is",
+    "question_images": [],
+    "options": [
+      "A. $4x-3y+11=0$",
+      "B. $4x+3y+11=0$",
+      "C. $3x+4y+11=0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $4x+3y+11=0$",
+    "solution": "Tangent at $(0,-1)$ to $x^2+y^2=1$ is $y=-1$. The incident ray passes through $(-2,-1)$.\n\nLet equation of $PB$ be $y+1=m(x+2)$. It touches circle: $\\left|\\frac{2m-1}{\\sqrt{m^2+1}}\\right|=1 \\Rightarrow m=0, \\frac{4}{3}$.\n\nFor $m=\\frac{4}{3}$: $PB$: $4x-3y+5=0$. Image of $Q(-5,5)$ in $y=-1$ is $R(-5,3)$.\n\nEquation of $RP$: $y-3=\\frac{3+1}{-5+2}(x+5) \\Rightarrow 4x+3y+11=0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Conic Section",
+    "question": "Two tangents are drawn from the point P(-1, 1) to the circle x² + y² - 2x - 6y + 6 = 0. If these tangents touch the circle at points A and B, and if D is a point on the circle such that length of the segments AB and AD are equal, then the area of the triangle ABD is equal to (July 2021)",
+    "question_latex": "Two tangents are drawn from the point $P(-1,1)$ to the circle $x^2 + y^2 - 2x - 6y + 6 = 0$. If these tangents touch the circle at points $A$ and $B$, and if $D$ is a point on the circle such that length of the segments $AB$ and $AD$ are equal, then the area of the triangle $ABD$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(3\\sqrt{2}+2)$",
+      "B. $2$",
+      "C. $4$",
+      "D. $3(\\sqrt{2}-1)$"
+    ],
+    "option_images": [],
+    "answer": "C. $4$",
+    "solution": "Circle: $(x-1)^2+(y-3)^2=4$. Centre $(1,3)$, radius $=2$.\n\n$A=(-1,3)$, $B=(1,1)$. $AC=2$, $BD=2BC=4$.\n\nArea of $\\triangle ABD = \\frac{1}{2} \\times BD \\times AC = \\frac{1}{2} \\times 2 \\times 4 = 4$",
+    "solution_images": [
+      "44_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Conic Section",
+    "question": "Minimum distance between the curves y² = x - 1 and x² = y - 1 is equal to",
+    "question_latex": "Minimum distance between the curves $y^2 = x - 1$ and $x^2 = y - 1$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3\\sqrt{2}}{4}$",
+      "B. $\\frac{5\\sqrt{2}}{4}$",
+      "C. $\\frac{7\\sqrt{2}}{4}$",
+      "D. $\\frac{\\sqrt{2}}{4}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{3\\sqrt{2}}{4}$",
+    "solution": "General point on $y^2=x-1$ is $(t^2+1,t)$. Both curves are symmetric about $y=x$.\n\nFor nearest point on $y^2=x-1$ from $y=x$, let $D=\\frac{t^2+1-t}{\\sqrt{2}}$, $\\frac{dD}{dt}=\\frac{1}{\\sqrt{2}}(2t-1)=0 \\Rightarrow t=\\frac{1}{2}$.\n\nPoint: $\\left(\\frac{5}{4},\\frac{1}{2}\\right)$, other curve point: $\\left(\\frac{1}{2},\\frac{5}{4}\\right)$.\n\nDistance $=\\sqrt{\\left(\\frac{5}{4}-\\frac{1}{2}\\right)^2+\\left(\\frac{1}{2}-\\frac{5}{4}\\right)^2}=\\sqrt{\\frac{18}{16}}=\\frac{3\\sqrt{2}}{4}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Conic Section",
+    "question": "The equation of normal of x² + y² - 2x + 4y - 5 = 0 at (2, 1) is",
+    "question_latex": "The equation of normal of $x^2 + y^2 - 2x + 4y - 5 = 0$ at $(2, 1)$ is",
+    "question_images": [],
+    "options": [
+      "A. $y=3x-5$",
+      "B. $2y=3x-4$",
+      "C. $y=3x+4$",
+      "D. $y=x+1$"
+    ],
+    "option_images": [],
+    "answer": "A. $y=3x-5$",
+    "solution": "Centre of circle is $(1,-2)$.\nNormal = line through $(1,-2)$ and $(2,1)$:\n$y+2=\\frac{-2-1}{1-2}(x-1) \\Rightarrow y+2=3(x-1) \\Rightarrow y=3x-5$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Conic Section",
+    "question": "The point (sinθ, cosθ), θ being any real number, lie inside the circle x² + y² - 2x - 2y + λ = 0, if",
+    "question_latex": "The point $(\\sin\\theta, \\cos\\theta)$, $\\theta$ being any real number, lie inside the circle $x^2 + y^2 - 2x - 2y + \\lambda = 0$, if",
+    "question_images": [],
+    "options": [
+      "A. $\\lambda < 1+2\\sqrt{2}$",
+      "B. $\\lambda > 2\\sqrt{2}-1$",
+      "C. $\\lambda < -1-2\\sqrt{2}$",
+      "D. $\\lambda > 1+2\\sqrt{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\lambda < -1-2\\sqrt{2}$",
+    "solution": "If $(\\sin\\theta,\\cos\\theta)$ lies inside the circle for all $\\theta$:\n$1-2(\\sin\\theta+\\cos\\theta)+\\lambda < 0$ for all $\\theta$\n$\\Rightarrow 1+\\lambda < 2(\\sin\\theta+\\cos\\theta)$ for all $\\theta$\n$\\Rightarrow 1+\\lambda < 2(-\\sqrt{2}) = -2\\sqrt{2}$ [min value of $\\sin\\theta+\\cos\\theta = -\\sqrt{2}$]\n$\\Rightarrow \\lambda < -1-2\\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Conic Section",
+    "question": "The equation of the chord of the circle, x² + y² = a² having (x₁, y₁) as its mid point, is",
+    "question_latex": "The equation of the chord of the circle $x^2 + y^2 = a^2$ having $(x_1, y_1)$ as its mid point, is",
+    "question_images": [],
+    "options": [
+      "A. $xy_1+yx_1=a^2$",
+      "B. $x_1+y_1=a$",
+      "C. $xx_1+yy_1=x_1^2+y_1^2$",
+      "D. $xx_1+yy_1=a^2$"
+    ],
+    "option_images": [],
+    "answer": "C. $xx_1+yy_1=x_1^2+y_1^2$",
+    "solution": "Using $T=S_1$:\n$xx_1+yy_1-a^2=x_1^2+y_1^2-a^2$\n$\\Rightarrow xx_1+yy_1=x_1^2+y_1^2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Conic Section",
+    "question": "Choose the incorrect statement about the two circles whose equations are given below: x² + y² - 10x - 10y + 41 = 0 and x² + y² - 16x - 10y + 80 = 0 (March 2021)",
+    "question_latex": "Choose the incorrect statement about the two circles whose equations are given below: $x^2 + y^2 - 10x - 10y + 41 = 0$ and $x^2 + y^2 - 16x - 10y + 80 = 0$ (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. Both circles pass through the centre of each other.",
+      "B. Both circles' centres lie inside region of one another.",
+      "C. Distance between two centres is the average of radii of both the circles.",
+      "D. Circles have two intersection points."
+    ],
+    "option_images": [],
+    "answer": "B. Both circles' centres lie inside region of one another.",
+    "solution": "Circle 1: $C_1(5,5)$, $r_1=3$. Circle 2: $C_2(8,5)$, $r_2=3$.\n$C_1C_2=3=r_1+r_2$ — so circles pass through each other's centres.\nBoth circles have two intersection points, and distance between centres equals average of radii.\n\nStatement B is incorrect: centres do NOT lie inside each other.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Conic Section",
+    "question": "A circle C touches the line x = 2y at the point (2,1) and intersects the circle C₁: x² + y² + 2y - 5 = 0 at two points P and Q such that PQ is a diameter of C₁. Then the diameter of C is (Aug 2022)",
+    "question_latex": "A circle $C$ touches the line $x = 2y$ at the point $(2,1)$ and intersects the circle $C_1: x^2 + y^2 + 2y - 5 = 0$ at two points $P$ and $Q$ such that $PQ$ is a diameter of $C_1$. Then the diameter of $C$ is (Aug 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{285}$",
+      "B. $15$",
+      "C. $4\\sqrt{15}$",
+      "D. $7\\sqrt{5}$"
+    ],
+    "option_images": [],
+    "answer": "D. $7\\sqrt{5}$",
+    "solution": "Let $C \\equiv x^2+y^2+2gx+2fy+c=0$. Radical axis of $C$ and $C_1$: $2gx+2(f-1)y+c+5=0$ passes through centre of $C_1$, i.e., $(0,-1)$:\n$2(f-1)(-1)+c+5=0 \\Rightarrow 2f-1=c+5$ ...(i)\n\nNormal to $C$ at $(2,1)$: $y-1=-2(x-2) \\Rightarrow 2x+y=5$ passes through centre $(-g,-f)$:\n$-2g-f=5$ ...(ii)\n\n$C$ passes through $(2,1)$: $4+1+4g+2f+c=0 \\Rightarrow 2g+f=\\frac{-(5+c)}{2}=-5$ (from ii)\n\n$f=6$, $g=\\frac{-11}{2}$, $c=5$.\n\nRadius $=\\sqrt{\\frac{121}{4}+36-5+\\frac{121}{4}}=\\frac{7\\sqrt{5}}{2}$. Diameter $=7\\sqrt{5}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Conic Section",
+    "question": "The points of intersection of the curves whose parametric equations are x = t² + 1, y = 2t and x = 2s, y = 2/s is given by",
+    "question_latex": "The points of intersection of the curves whose parametric equations are $x = t^2 + 1$, $y = 2t$ and $x = 2s$, $y = 2/s$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $(1,-3)$",
+      "B. $(2,2)$",
+      "C. $(-2,4)$",
+      "D. $(1,2)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(2,2)$",
+    "solution": "Eliminating $t$: $y^2=4x-4$. Substituting $x=2s$, $y=2/s$: $s=1$, giving $x=2$, $y=2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Conic Section",
+    "question": "The eccentricity of the hyperbola which passes through (3, 0) and (3√2, 2), is",
+    "question_latex": "The eccentricity of the hyperbola which passes through $(3, 0)$ and $(3\\sqrt{2}, 2)$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{13}$",
+      "B. $\\frac{\\sqrt{13}}{3}$",
+      "C. $\\sqrt{\\frac{13}{4}}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{\\sqrt{13}}{3}$",
+    "solution": "Let $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$. Passes through $(3,0)$: $a^2=9$. Passes through $(3\\sqrt{2},2)$: $\\frac{18}{9}-\\frac{4}{b^2}=1 \\Rightarrow b^2=4$.\n\n$e=\\sqrt{1+\\frac{4}{9}}=\\frac{\\sqrt{13}}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Conic Section",
+    "question": "If the lines joining the foci of the ellipse x²/a² + y²/b² = 1, where a > b and an extremity of its minor axis are inclined at an angle 60°, then the eccentricity of the ellipse is",
+    "question_latex": "If the lines joining the foci of the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, where $a > b$ and an extremity of its minor axis are inclined at an angle $60°$, then the eccentricity of the ellipse is",
+    "question_images": [],
+    "options": [
+      "A. $-\\frac{\\sqrt{3}}{2}$",
+      "B. $\\frac{1}{2}$",
+      "C. $\\frac{\\sqrt{5}}{2}$",
+      "D. $\\frac{\\sqrt{7}}{3}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{2}$",
+    "solution": "$\\tan 30°=\\frac{b}{ae} \\Rightarrow ae=b\\sqrt{3} \\Rightarrow a^2e^2=3b^2=3a^2(1-e^2) \\Rightarrow 4e^2=3 \\Rightarrow e=\\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Conic Section",
+    "question": "Suppose S and S' are foci of the ellipse x²/25 + y²/6 = 1. If P is variable point on the ellipse and if Δ is area of the triangle PSS', then the maximum value of Δ is",
+    "question_latex": "Suppose $S$ and $S'$ are foci of the ellipse $\\frac{x^2}{25}+\\frac{y^2}{6}=1$. If $P$ is variable point on the ellipse and if $\\Delta$ is area of the triangle $PSS'$, then the maximum value of $\\Delta$ is",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 12",
+      "C. 16",
+      "D. 20"
+    ],
+    "option_images": [],
+    "answer": "B. 12",
+    "solution": "For ellipse $\\frac{x^2}{25}+\\frac{y^2}{6}=1$: $a=5$, $b=\\sqrt{6}$, $c=\\sqrt{25-6}=\\sqrt{19}$.\n\nMax area $= \\frac{1}{2} \\times SS' \\times b_{\\max} = \\frac{1}{2} \\times 2c \\times b = bc = \\sqrt{6} \\times \\sqrt{19} \\approx 12$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Conic Section",
+    "question": "The sum of the distances of a point (2, -3) from the foci of an ellipse 16(x-2)² + 25(y+3)² = 400 is",
+    "question_latex": "The sum of the distances of a point $(2, -3)$ from the foci of an ellipse $16(x-2)^2 + 25(y+3)^2 = 400$ is",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 50",
+      "D. 32"
+    ],
+    "option_images": [],
+    "answer": "B. 6",
+    "solution": "Rewriting: $\\frac{(x-2)^2}{25}+\\frac{(y+3)^2}{16}=1$. Here $a=5$, $b=4$.\n\nThe point $(2,-3)$ is the centre. Foci are at $(-1,-3)$ and $(5,-3)$ (since $ae=3$).\n\nDistance from $(2,-3)$ to each focus $= 3$. Sum $= 6$.\n\nAlternately, $SP+S'P=2a=10$ but the point is the centre, so sum $=3+3=6$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Conic Section",
+    "question": "The centres of three circles x² + y² = 1, x² + y² + 6x - 2y = 1, x² + y² - 12x + 4y = 1 are",
+    "question_latex": "The centres of three circles $x^2+y^2=1$, $x^2+y^2+6x-2y=1$, $x^2+y^2-12x+4y=1$ are",
+    "question_images": [],
+    "options": [
+      "A. Collinear",
+      "B. Non-collinear",
+      "C. Nothing to be said",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Collinear",
+    "solution": "Centres: $C_1(0,0)$, $C_2(-3,1)$, $C_3(6,-2)$.\n\n$\\begin{vmatrix}0&0&1\\\\-3&1&1\\\\6&-2&1\\end{vmatrix} = 1(6-6)=0$\n\nHence centres are collinear.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Conic Section",
+    "question": "Tangent is drawn to the ellipse x²/27 + y² = 1 at (3√3 cosθ, sinθ) where θ ∈ (0, π/2). Then, the value of θ such that sum of intercepts on axes made by this tangent is minimum, is",
+    "question_latex": "Tangent is drawn to the ellipse $\\frac{x^2}{27}+y^2=1$ at $(3\\sqrt{3}\\cos\\theta, \\sin\\theta)$ where $\\theta \\in \\left(0,\\frac{\\pi}{2}\\right)$. Then, the value of $\\theta$ such that sum of intercepts on axes made by this tangent is minimum, is",
+    "question_images": [],
+    "options": [
+      "A. $\\pi/3$",
+      "B. $\\pi/6$",
+      "C. $\\pi/8$",
+      "D. $\\pi/4$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\pi/6$",
+    "solution": "Tangent: $\\frac{x\\cos\\theta}{3\\sqrt{3}}+y\\sin\\theta=1$. Sum of intercepts $= 3\\sqrt{3}\\sec\\theta+\\csc\\theta = f(\\theta)$.\n\n$f'(\\theta)=0 \\Rightarrow 3\\sqrt{3}\\sin^3\\theta-\\cos^3\\theta=0 \\Rightarrow \\tan^3\\theta=\\frac{1}{3\\sqrt{3}} \\Rightarrow \\tan\\theta=\\frac{1}{\\sqrt{3}} \\Rightarrow \\theta=\\frac{\\pi}{6}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Conic Section",
+    "question": "The straight line x + y = √2p will touch the hyperbola 4x² + 9y² = 36, if",
+    "question_latex": "The straight line $x + y = \\sqrt{2}p$ will touch the hyperbola $4x^2 + 9y^2 = 36$, if",
+    "question_images": [],
+    "options": [
+      "A. $p^2=2$",
+      "B. $p^2=5$",
+      "C. $5p^2=2$",
+      "D. $2p^2=5$"
+    ],
+    "option_images": [],
+    "answer": "D. $2p^2=5$",
+    "solution": "Hyperbola: $\\frac{x^2}{9}-\\frac{y^2}{4}=1$, $a^2=9$, $b^2=4$.\n\nLine: $y=-x+\\sqrt{2}p$, $m=-1$, $c=\\sqrt{2}p$.\n\nCondition: $c^2=a^2m^2-b^2 \\Rightarrow 2p^2=9(1)-4=5$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Conic Section",
+    "question": "The eccentricity of the hyperbola can never be equal to",
+    "question_latex": "The eccentricity of the hyperbola can never be equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{\\frac{9}{5}}$",
+      "B. $2$",
+      "C. $3\\sqrt{\\frac{1}{9}}$",
+      "D. $2$"
+    ],
+    "option_images": [],
+    "answer": "B. $2$",
+    "solution": "The eccentricity of a hyperbola is never less than or equal to 1. However, among the options, option (B) $\\sqrt{\\frac{1}{9}} = \\frac{1}{3} < 1$ is impossible. So option (B) is correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Conic Section",
+    "question": "The straight line x + y - 1 = 0 meets the circle x² + y² - 6x - 8y = 0 at A and B. Then, the equation of the circle of which AB is a diameter is",
+    "question_latex": "The straight line $x + y - 1 = 0$ meets the circle $x^2 + y^2 - 6x - 8y = 0$ at $A$ and $B$. Then, the equation of the circle of which $AB$ is a diameter is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-2y-6=0$",
+      "B. $x^2+y^2+2y-6=0$",
+      "C. $2(x^2+y^2)+2y-6=0$",
+      "D. $3(x^2+y^2)+2y-6=0$"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2+y^2-2y-6=0$",
+    "solution": "Required equation: $x^2+y^2-6x-8y+\\lambda(x+y-1)=0$\nCentre $\\left(3-\\frac{\\lambda}{2}, 4-\\frac{\\lambda}{2}\\right)$ lies on $x+y-1=0$:\n$3-\\frac{\\lambda}{2}+4-\\frac{\\lambda}{2}-1=0 \\Rightarrow \\lambda=6$\n\nRequired: $x^2+y^2-2y-6=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Conic Section",
+    "question": "The length of transverse axis of the hyperbola 3x² - 4y² = 32 is",
+    "question_latex": "The length of transverse axis of the hyperbola $3x^2 - 4y^2 = 32$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{8\\sqrt{2}}{\\sqrt{3}}$",
+      "B. $\\frac{16\\sqrt{2}}{\\sqrt{3}}$",
+      "C. $\\frac{3}{32}$",
+      "D. $\\frac{64}{3}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{8\\sqrt{2}}{\\sqrt{3}}$",
+    "solution": "Rewriting: $\\frac{x^2}{\\frac{32}{3}}-\\frac{y^2}{8}=1$\n\n$a^2=\\frac{32}{3}$, so $a=\\frac{4\\sqrt{2}}{\\sqrt{3}}$.\n\nLength of transverse axis $=2a=\\frac{8\\sqrt{2}}{\\sqrt{3}}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Conic Section",
+    "question": "If the straight line x - 2y + 1 = 0 intersects the circle x² + y² = 25 in points P and Q, then the coordinates of the point of intersection of tangents drawn at P and Q to the circle are",
+    "question_latex": "If the straight line $x - 2y + 1 = 0$ intersects the circle $x^2 + y^2 = 25$ in points $P$ and $Q$, then the coordinates of the point of intersection of tangents drawn at $P$ and $Q$ to the circle $x^2+y^2=25$ are",
+    "question_images": [],
+    "options": [
+      "A. $(25,50)$",
+      "B. $(-25,-50)$",
+      "C. $(-25,50)$",
+      "D. $(25,-50)$"
+    ],
+    "option_images": [],
+    "answer": "C. $(-25, 50)$",
+    "solution": "Let $R(h,k)$ be intersection of tangents. Chord of contact: $hx+ky=25$ ...(i). Given: $x-2y+1=0$ ...(ii).\n\nSince (i) and (ii) represent the same line:\n$\\frac{h}{1}=\\frac{k}{-2}=\\frac{-25}{1} \\Rightarrow h=-25, k=50$\n\nRequired point: $(-25,50)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Conic Section",
+    "question": "Centre of circle whose normals are x² - 2xy - 3x + 6y = 0, is",
+    "question_latex": "Centre of circle whose normals are $x^2 - 2xy - 3x + 6y = 0$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\left(3, \\frac{3}{2}\\right)$",
+      "B. $\\left(3, -\\frac{3}{2}\\right)$",
+      "C. $\\left(\\frac{3}{2}, 3\\right)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\left(3, \\frac{3}{2}\\right)$",
+    "solution": "Given: $x^2-2xy-3x+6y=0$\n$\\Rightarrow x(x-2y)-3(x-2y)=0 \\Rightarrow (x-3)(x-2y)=0$\n\nNormals: $x=3$ and $x=2y$. Intersection: $x=3$, $y=\\frac{3}{2}$.\n\nCentre: $\\left(3,\\frac{3}{2}\\right)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Conic Section",
+    "question": "The equation (10x - 5)² + (10y - 4)² = (3x + 4y - 1)² represents",
+    "question_latex": "The equation $(10x-5)^2+(10y-4)^2=(3x+4y-1)^2$ represents",
+    "question_images": [],
+    "options": [
+      "A. A circle",
+      "B. A pair of straight lines",
+      "C. An ellipse",
+      "D. A parabola"
+    ],
+    "option_images": [],
+    "answer": "C. An ellipse",
+    "solution": "$(10x-5)^2+(10y-4)^2=(3x+4y-1)^2$ represents an ellipse.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Conic Section",
+    "question": "If e is eccentricity of ellipse x²/a² + y²/b² = 1 (a > b) and e' is eccentricity of x²/a² + y²/b² = 1 (a < b), then",
+    "question_latex": "If $e$ is eccentricity of ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b)$ and $e'$ is eccentricity of $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a<b)$, then",
+    "question_images": [],
+    "options": [
+      "A. $e=e'$",
+      "B. $ee'=1$",
+      "C. $\\frac{1}{e^2}+\\frac{1}{(e')^2}=1$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{e^2}+\\frac{1}{(e')^2}=1$",
+    "solution": "$e^2=\\frac{a^2-b^2}{a^2}$ and $e'^2=\\frac{b^2-a^2}{b^2}$\n$\\Rightarrow \\frac{1}{e^2}+\\frac{1}{e'^2}=\\frac{a^2}{a^2-b^2}+\\frac{b^2}{b^2-a^2}=\\frac{a^2-b^2}{a^2-b^2}=1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Conic Section",
+    "question": "The centre of a circle C is at the centre of the ellipse E: x²/a² + y²/b² = 1, a > b. Let C pass through the foci F₁ and F₂ of E such that the circle C and the ellipse E intersect at four points. Let P be one of these four points. If the area of the triangle PF₁F₂ is 30 and the length of the major axis of E is 17, then the distance between the foci of E is [April 4, 2025 (II)]",
+    "question_latex": "The centre of a circle $C$ is at the centre of the ellipse $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, $a>b$. Let $C$ pass through the foci $F_1$ and $F_2$ of $E$ such that the circle $C$ and the ellipse $E$ intersect at four points. Let $P$ be one of these four points. If the area of the triangle $PF_1F_2$ is 30 and the length of the major axis of $E$ is $17$, then the distance between the foci of $E$ is [April 4, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 26",
+      "C. $\\frac{13}{2}$",
+      "D. 13"
+    ],
+    "option_images": [],
+    "answer": "D. 13",
+    "solution": "Area of $\\triangle PF_1F_2 = \\frac{1}{2}PF_1 \\cdot PF_2 = 30$\n$PF_1+PF_2=2a=17 \\Rightarrow PF_1=12$ and $PF_2=5$\n$F_1F_2=\\sqrt{PF_1^2+PF_2^2}=\\sqrt{144+25}=13$",
+    "solution_images": [
+      "66_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Conic Section",
+    "question": "The number of integral values of 'a' for which the radius of the circle x² + y² + ax + (1-a)y + 5 = 0 cannot exceed 5, is",
+    "question_latex": "The number of integral values of $'a'$ for which the radius of the circle $x^2 + y^2 + ax + (1-a)y + 5 = 0$ cannot exceed 5, is",
+    "question_images": [],
+    "options": [
+      "A. 14",
+      "B. 18",
+      "C. 16",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 16",
+    "solution": "Radius $r = \\sqrt{\\frac{a^2}{4}+\\frac{(1-a)^2}{4}-5} \\leq 5$\n$\\Rightarrow \\frac{a^2+(1-a)^2}{4} \\leq 30$\n$\\Rightarrow 2a^2-2a-119 \\leq 0 \\Rightarrow -7.2 \\leq a \\leq 8.2$\n\nIntegral values: $a \\in \\{-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8\\}$ = 16 values",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Conic Section",
+    "question": "P is a point on the hyperbola x²/a² - y²/b² = 1, N is the foot of the perpendicular from P on the transverse axis. The tangent to the hyperbola at P meets the transverse axis at T. If O is the centre of the hyperbola, then OT·ON is equal to",
+    "question_latex": "P is a point on the hyperbola $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$, $N$ is the foot of the perpendicular from $P$ on the transverse axis. The tangent to the hyperbola at $P$ meets the transverse axis at $T$. If $O$ is the centre of the hyperbola, then $OT \\cdot ON$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $e^2$",
+      "B. $a^2$",
+      "C. $b^2$",
+      "D. $b^2/a^2$"
+    ],
+    "option_images": [],
+    "answer": "B. $a^2$",
+    "solution": "Let $P(x_1,y_1)$ on hyperbola. $N=(x_1,0)$. Tangent at $P$: $\\frac{xx_1}{a^2}-\\frac{yy_1}{b^2}=1$. Meets $x$-axis at $T\\left(\\frac{a^2}{x_1},0\\right)$.\n\n$OT \\cdot ON = \\frac{a^2}{x_1} \\times x_1 = a^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Conic Section",
+    "question": "If the circle x² + y² - 2gx + 6y - 19c = 0, g, c ∈ R passes through the point (6,1) and its centre lies on the line x - 2cy = 8, then the length of intercept made by the circle on x-axis is (July 2022)",
+    "question_latex": "If the circle $x^2+y^2-2gx+6y-19c=0$, $g,c \\in \\mathbb{R}$ passes through the point $(6,1)$ and its centre lies on the line $x-2cy=8$, then the length of intercept made by the circle on $x$-axis is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{11}$",
+      "B. $4$",
+      "C. $3$",
+      "D. $2\\sqrt{23}$"
+    ],
+    "option_images": [],
+    "answer": "D. $2\\sqrt{23}$",
+    "solution": "Point $(6,1)$ on circle: $36+1-12g+6-19c=0 \\Rightarrow 12g+19c=43$ ...(i)\nCentre $(g,-3)$ on line: $g-2c(-3)=8 \\Rightarrow g+6c=8$ ...(ii)\n\nSolving: $c=1$, $g=2$\n\nLength of $x$-intercept $= 2\\sqrt{g^2-(-19c)} = 2\\sqrt{4+19}=2\\sqrt{23}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Conic Section",
+    "question": "Let the product of the focal distances of the point (√3, 1/2) on the ellipse x²/a² + y²/b² = 1, (a > b), be 7/4. Then the absolute difference of the eccentricities of two such ellipses is [Jan. 24, 2025 (I)]",
+    "question_latex": "Let the product of the focal distances of the point $\\left(\\sqrt{3},\\frac{1}{2}\\right)$ on the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, $(a>b)$, be $\\frac{7}{4}$. Then the absolute difference of the eccentricities of two such ellipses is [Jan. 24, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3-2\\sqrt{2}}{2\\sqrt{3}}$",
+      "B. $\\frac{3-2\\sqrt{2}}{3\\sqrt{2}}$",
+      "C. $\\frac{1-\\sqrt{3}}{\\sqrt{2}}$",
+      "D. $\\frac{1-2\\sqrt{2}}{\\sqrt{3}}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{3-2\\sqrt{2}}{2\\sqrt{3}}$",
+    "solution": "Product of focal distances $= a^2-e^2x_1^2 = a^2-e^2(3)=\\frac{7}{4}$\n$\\Rightarrow 4a^2-12e^2=7 \\Rightarrow 4a^2=7+12e^2$\n\nPoint on ellipse: $\\frac{3}{a^2}+\\frac{1}{4b^2}=1 \\Rightarrow 12(1-e^2)+1=(7+12e^2)(1-e^2)$\n$\\Rightarrow 12e^4-17e^2+6=0$\n$e^2=\\frac{17\\pm\\sqrt{289-288}}{24}=\\frac{17\\pm1}{24}=\\frac{3}{4},\\frac{2}{3}$\n$e=\\frac{\\sqrt{3}}{2},\\sqrt{\\frac{2}{3}}$\n\nDifference $=\\left|\\frac{\\sqrt{3}}{2}-\\sqrt{\\frac{2}{3}}\\right|=\\frac{3-2\\sqrt{2}}{2\\sqrt{3}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Conic Section",
+    "question": "P is any point on the ellipse 81x² + 144y² = 1944, whose foci are S and S'. Then, SP + S'P equals",
+    "question_latex": "P is any point on the ellipse $81x^2+144y^2=1944$, whose foci are $S$ and $S'$. Then, $SP+S'P$ equals",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. $4\\sqrt{6}$",
+      "C. 36",
+      "D. 324"
+    ],
+    "option_images": [],
+    "answer": "B. $4\\sqrt{6}$",
+    "solution": "$\\frac{x^2}{24}+\\frac{y^2}{13.5}=1$, so $a=\\sqrt{24}=2\\sqrt{6}$\n$SP+S'P=2a=4\\sqrt{6}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Conic Section",
+    "question": "Coordinates of foci of hyperbola are (-5,3) and (7, 3) and eccentricity is 3/2. Then, length of its latusrectum is",
+    "question_latex": "Coordinates of foci of hyperbola are $(-5,3)$ and $(7, 3)$ and eccentricity is $3/2$. Then, length of its latusrectum is",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 10",
+      "C. 40",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 10",
+    "solution": "$2ae=7-(-5)=12 \\Rightarrow ae=6$, $a=\\frac{6}{e}=\\frac{6}{3/2}=4$\n\n$e=\\sqrt{1+\\frac{b^2}{a^2}} \\Rightarrow \\frac{9}{4}-1=\\frac{b^2}{16} \\Rightarrow b^2=20$\n\nLatus rectum $=\\frac{2b^2}{a}=\\frac{40}{4}=10$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Conic Section",
+    "question": "If the tangents drawn at the points O(0,0) and P(1+√5, 2) on the circle x² + y² - 2x - 4y = 0 intersect at the point Q, then the area of the triangle OPQ is equal to (June 2022)",
+    "question_latex": "If the tangents drawn at the points $O(0,0)$ and $P(1+\\sqrt{5}, 2)$ on the circle $x^2+y^2-2x-4y=0$ intersect at the point $Q$, then the area of the triangle $OPQ$ is equal to (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3+\\sqrt{5}}{2}$",
+      "B. $\\frac{7+3\\sqrt{5}}{2}$",
+      "C. $\\frac{5+3\\sqrt{5}}{2}$",
+      "D. $\\frac{4+2\\sqrt{5}}{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{5+3\\sqrt{5}}{2}$",
+    "solution": "Circle: $x^2+y^2-2x-4y=0$. Tangent at $O(0,0)$: $x\\cdot0+y\\cdot0-1(x+0)-2(y+0)=0 \\Rightarrow x+2y=0$.\n\nTangent at $P(1+\\sqrt{5},2)$: $\\sqrt{5}x=5+\\sqrt{5}$. Point $Q=\\left(\\sqrt{5}+1,-\\frac{\\sqrt{5}+1}{2}\\right)$.\n\nArea $= \\frac{5+3\\sqrt{5}}{2}$ sq. units",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Conic Section",
+    "question": "The circles x² + y² + 6x + 6y = 0 and x² + y² - 12x - 12y = 0",
+    "question_latex": "The circles $x^2+y^2+6x+6y=0$ and $x^2+y^2-12x-12y=0$",
+    "question_images": [],
+    "options": [
+      "A. Cut orthogonally",
+      "B. Touch each other internally",
+      "C. Intersect two points",
+      "D. Touch each other externally"
+    ],
+    "option_images": [],
+    "answer": "D. Touch each other externally",
+    "solution": "Centres: $C_1(-3,-3)$, $C_2(6,6)$. Radii: $r_1=\\sqrt{9+9}=3\\sqrt{2}$, $r_2=\\sqrt{36+36}=6\\sqrt{2}$.\n$C_1C_2=9\\sqrt{2}=r_1+r_2 \\Rightarrow$ circles touch each other externally.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Conic Section",
+    "question": "Angle between tangents drawn to circle x² + y² = 20, from the point (6, 2) is",
+    "question_latex": "Angle between tangents drawn to circle $x^2+y^2=20$, from the point $(6, 2)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\pi}{2}$",
+      "B. $\\pi$",
+      "C. $\\frac{\\pi}{4}$",
+      "D. $2\\pi$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\pi}{2}$",
+    "solution": "Let $S=x^2+y^2-20$. At $(6,2)$: $S_1=36+4-20=20$.\n$\\theta=2\\tan^{-1}\\frac{r}{\\sqrt{S_1}}=2\\tan^{-1}\\frac{\\sqrt{20}}{\\sqrt{20}}=2\\tan^{-1}1=\\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Conic Section",
+    "question": "If M₁ and M₂ are the feet of the perpendiculars from the foci S₁ and S₂ of the ellipse x²/9 + y²/16 = 1 on the tangent at any point P on the ellipse, then (S₁M₁)(S₂M₂) is equal to",
+    "question_latex": "If $M_1$ and $M_2$ are the feet of the perpendiculars from the foci $S_1$ and $S_2$ of the ellipse $\\frac{x^2}{9}+\\frac{y^2}{16}=1$ on the tangent at any point $P$ on the ellipse, then $(S_1M_1)(S_2M_2)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 9",
+      "C. 4",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. 16",
+    "solution": "The product of perpendiculars from the two foci of an ellipse on the tangent at any point equals the square of the semi-minor axis.\n\nFor $\\frac{x^2}{9}+\\frac{y^2}{16}=1$: $b^2=16$ (since $16>9$, the semi-minor axis squared is $a^2=9$ but $b=4$)\n\n$(S_1M_1)(S_2M_2)=b^2=16$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Conic Section",
+    "question": "If S and S' are the foci of the ellipse x²/18 + y²/9 = 1 and P be a point on the ellipse, then min(SP·S'P) + max(SP·S'P) is equal to [April 2, 2025 (I)]",
+    "question_latex": "If $S$ and $S'$ are the foci of the ellipse $\\frac{x^2}{18}+\\frac{y^2}{9}=1$ and $P$ be a point on the ellipse, then $\\min(SP \\cdot S'P)+\\max(SP \\cdot S'P)$ is equal to [April 2, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. $3(1+\\sqrt{2})$",
+      "C. $3(6+\\sqrt{2})$",
+      "D. 27"
+    ],
+    "option_images": [],
+    "answer": "D. 27",
+    "solution": "$a^2=18$, $b^2=9$, $e=\\frac{1}{\\sqrt{2}}$, Directrix $x=\\frac{a}{e}=6$.\n\n$PS\\cdot PS'=\\left|\\frac{1}{\\sqrt{2}}(3\\sqrt{2}\\cos\\theta-6)\\cdot\\frac{1}{\\sqrt{2}}(3\\sqrt{2}\\cos\\theta+6)\\right|=\\frac{1}{2}|18\\cos2\\theta-36|=9|\\cos2\\theta-2|$\n\n$(PS\\cdot PS')_{\\max}=18$, $(PS\\cdot PS')_{\\min}=9$. Sum $=27$",
+    "solution_images": [
+      "77_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Conic Section",
+    "question": "If two distinct chords drawn from the point (p, q) on the circle x² + y² = px + qy (where pq ≠ 0) are bisected by the x-axis, then",
+    "question_latex": "If two distinct chords drawn from the point $(p, q)$ on the circle $x^2+y^2=px+qy$ (where $pq \\neq 0$) are bisected by the $x$-axis, then",
+    "question_images": [],
+    "options": [
+      "A. $p^2=q^2$",
+      "B. $p^2=8q^2$",
+      "C. $p^2<8q^2$",
+      "D. $p^2>8q^2$"
+    ],
+    "option_images": [],
+    "answer": "D. $p^2>8q^2$",
+    "solution": "Chord from $A(p,q)$ with midpoint $M(h,0)$: other end $B=(-p+2h,-q)$.\n$B$ on circle: $(-p+2h)^2+q^2=p(-p+2h)+q(-q)$\n$\\Rightarrow 2h^2-3ph+p^2+q^2=0$ ...(i)\n\nFor two distinct values of $h$: Discriminant $>0$:\n$9p^2-8(p^2+q^2)>0 \\Rightarrow p^2>8q^2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Conic Section",
+    "question": "The centre of the ellipse 9x² + 25y² - 18x - 100y - 166 = 0, is",
+    "question_latex": "The centre of the ellipse $9x^2 + 25y^2 - 18x - 100y - 166 = 0$, is",
+    "question_images": [],
+    "options": [
+      "A. $(1,1)$",
+      "B. $(-1,2)$",
+      "C. $(-1,1)$",
+      "D. $(1,2)$"
+    ],
+    "option_images": [],
+    "answer": "D. $(1, 2)$",
+    "solution": "Rewriting: $(3x-3)^2+(5y-10)^2=225$\n$\\Rightarrow \\frac{9(x-1)^2}{225}+\\frac{25(y-2)^2}{225}=1$\n$\\Rightarrow \\frac{(x-1)^2}{25}+\\frac{(y-2)^2}{9}=1$\n\nCentre: $(1,2)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Conic Section",
+    "question": "A tangent to the ellipse x² + 4y² = 4 meets the ellipse x² + 2y² = 6 at P and Q. The angle between the tangent at P and Q of the ellipse x² + 2y² = 6 is",
+    "question_latex": "A tangent to the ellipse $x^2+4y^2=4$ meets the ellipse $x^2+2y^2=6$ at $P$ and $Q$. The angle between the tangent at $P$ and $Q$ of the ellipse $x^2+2y^2=6$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{\\pi}{2}$",
+      "B. $\\frac{\\pi}{3}$",
+      "C. $\\frac{\\pi}{4}$",
+      "D. $\\frac{\\pi}{6}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{\\pi}{2}$",
+    "solution": "Tangent at $(2\\cos\\theta,\\sin\\theta)$ to $x^2+4y^2=4$: $x\\cos\\theta+2y\\sin\\theta=2$ ...(i)\n\nLet $R(h,k)$ be intersection of tangents at $P$ and $Q$ to $x^2+2y^2=6$. $PQ$: $hx+2ky=6$ ...(ii)\n\nFrom (i) and (ii): $h=3\\cos\\theta$, $k=3\\sin\\theta \\Rightarrow h^2+k^2=9$\n$(h,k)$ lies on $x^2+y^2=9$ (director circle of $x^2+2y^2=6$), so angle between tangents is $\\frac{\\pi}{2}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Conic Section",
+    "question": "The normal at a point P on the ellipse x² + 4y² = 16 meets the x-axis at Q. If M is the mid point of the line segment PQ, then the locus of M intersects the latusrectum of the given ellipse at the points",
+    "question_latex": "The normal at a point $P$ on the ellipse $x^2+4y^2=16$ meets the $x$-axis at $Q$. If $M$ is the mid point of the line segment $PQ$, then the locus of $M$ intersects the latusrectum of the given ellipse at the points",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\pm\\frac{3\\sqrt{5}}{2},\\pm\\frac{2}{7}\\right)$",
+      "B. $\\left(\\pm\\frac{3\\sqrt{5}}{2},\\pm\\frac{\\sqrt{19}}{4}\\right)$",
+      "C. $\\left(\\pm2\\sqrt{3},\\pm\\frac{1}{7}\\right)$",
+      "D. $\\left(\\pm2\\sqrt{3},\\pm\\frac{4\\sqrt{3}}{7}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(\\pm2\\sqrt{3},\\pm\\frac{1}{7}\\right)$",
+    "solution": "Ellipse: $\\frac{x^2}{16}+\\frac{y^2}{4}=1$, $a=4$, $b=2$. Normal at $P(4\\cos\\theta,2\\sin\\theta)$: $4x\\sec\\theta-2y\\csc\\theta=12$.\n\n$Q(3\\cos\\theta,0)$. Midpoint $M = \\left(\\frac{7\\cos\\theta}{2},\\sin\\theta\\right)=(h,k)$\n\n$\\cos\\theta=\\frac{2h}{7}$, $\\sin\\theta=k$. Locus: $\\frac{4h^2}{49}+k^2=1$ ...(i)\n\n$e=\\frac{\\sqrt{3}}{2}$, focus abscissa $x=\\pm2\\sqrt{3}$. Solving (i): $y^2=\\frac{1}{49} \\Rightarrow y=\\pm\\frac{1}{7}$\n\nPoints: $\\left(\\pm2\\sqrt{3},\\pm\\frac{1}{7}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Conic Section",
+    "question": "A circle touches the y-axis at the point (0, 4) and passes through the point (2, 0). Which of the following lines is not a tangent to this circle? (Jan 2020)",
+    "question_latex": "A circle touches the $y$-axis at the point $(0, 4)$ and passes through the point $(2, 0)$. Which of the following lines is not a tangent to this circle? (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $4x-3y+17=0$",
+      "B. $3x+4y-6=0$",
+      "C. $4x+3y-8=0$",
+      "D. $3x-4y-24=0$"
+    ],
+    "option_images": [],
+    "answer": "C. $4x+3y-8=0$",
+    "solution": "Circle equation: $(x-0)^2+(y-4)^2+\\lambda x=0$. Passes through $(2,0)$: $\\lambda=-10$.\n\nCircle: $x^2+y^2-10x-8y+16=0$. Centre $(5,4)$, radius $=5$.\n\nDistance from $(5,4)$ to $4x+3y-8=0$: $\\frac{|20+12-8|}{5}=\\frac{24}{5}\\neq5$. Not a tangent.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Conic Section",
+    "question": "For the hyperbola x²/cos²α - y²/sin²α = 1, which of the following remains constant when α varies?",
+    "question_latex": "For the hyperbola $\\frac{x^2}{\\cos^2\\alpha}-\\frac{y^2}{\\sin^2\\alpha}=1$, which of the following remains constant when $\\alpha$ varies?",
+    "question_images": [],
+    "options": [
+      "A. Eccentricity",
+      "B. Directrix",
+      "C. Abscissae of vertices",
+      "D. Abscissae of foci"
+    ],
+    "option_images": [],
+    "answer": "D. Abscissae of foci",
+    "solution": "$a^2=\\cos^2\\alpha$, $b^2=\\sin^2\\alpha$.\n$e=\\sqrt{1+\\tan^2\\alpha}=\\sec\\alpha$\nAbscissae of foci $= \\pm ae = \\pm\\cos\\alpha\\cdot\\sec\\alpha = \\pm1$\n\nHence, abscissae of foci remain constant $= \\pm1$ when $\\alpha$ varies.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Conic Section",
+    "question": "Area of the circle in which a chord of length √2 makes an angle π/2 at the centre is",
+    "question_latex": "Area of the circle in which a chord of length $\\sqrt{2}$ makes an angle $\\pi/2$ at the centre is",
+    "question_images": [],
+    "options": [
+      "A. $\\pi/2$",
+      "B. $2\\pi$",
+      "C. $\\pi$",
+      "D. $\\pi/4$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\pi$",
+    "solution": "Let $AB$ be the chord of length $\\sqrt{2}$, $O$ centre, $OC$ perpendicular from $O$ on $AB$. $BC=\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}$.\n\nIn $\\triangle OBC$: $OB=BC\\csc45°=\\frac{1}{\\sqrt{2}}\\times\\sqrt{2}=1$\n\nArea $=\\pi(OB)^2=\\pi$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Conic Section",
+    "question": "The focal chord to y² = 16x is tangent to (x-6)² + y² = 2, then the possible values of the slope of this chord are",
+    "question_latex": "The focal chord to $y^2 = 16x$ is tangent to $(x-6)^2 + y^2 = 2$, then the possible values of the slope of this chord are",
+    "question_images": [],
+    "options": [
+      "A. $\\{-1, 1\\}$",
+      "B. $\\{-2, 2\\}$",
+      "C. $\\left\\{-2,\\frac{1}{2}\\right\\}$",
+      "D. $\\left\\{2,-\\frac{1}{2}\\right\\}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\{-1, 1\\}$",
+    "solution": "Given circle: $(x-6)^2+y^2=(\\sqrt{2})^2$, radius $=\\sqrt{2}$.\n\nTangent length from focus $(4,0)$ to circle: $SB=\\sqrt{(4-6)^2+0-2}=\\sqrt{2}$.\n$\\triangle CBS$ is isosceles with $BC=BS$, so $\\theta=45°$, $m=\\pm1$.\n\nPossible slopes: $\\{-1,1\\}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Conic Section",
+    "question": "The latusrectum of the parabola y² = 4ax whose focal chord is PSQ such that SP = 3 and SQ = 2, is given by",
+    "question_latex": "The latusrectum of the parabola $y^2 = 4ax$ whose focal chord is $PSQ$ such that $SP = 3$ and $SQ = 2$, is given by",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{24}{5}$",
+      "B. $\\frac{12}{5}$",
+      "C. $\\frac{6}{5}$",
+      "D. $\\frac{1}{5}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{24}{5}$",
+    "solution": "Semi-latusrectum = HM of $SP$ and $SQ$ = $\\frac{2SP\\cdot SQ}{SP+SQ}=\\frac{2\\times3\\times2}{3+2}=\\frac{12}{5}$\n\nLatusrectum $=2\\times\\frac{12}{5}=\\frac{24}{5}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Conic Section",
+    "question": "The equation of the hyperbola whose vertices are at (5,0) and (-5,0) and one of the directrices is x = 25/7, is",
+    "question_latex": "The equation of the hyperbola whose vertices are at $(5,0)$ and $(-5,0)$ and one of the directrices is $x = \\frac{25}{7}$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{x^2}{25}-\\frac{y^2}{24}=1$",
+      "B. $\\frac{x^2}{24}-\\frac{y^2}{25}=1$",
+      "C. $\\frac{x^2}{16}-\\frac{y^2}{25}=1$",
+      "D. $\\frac{x^2}{25}-\\frac{y^2}{16}=1$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{x^2}{25}-\\frac{y^2}{24}=1$",
+    "solution": "$a=5$. Directrix $x=\\frac{a}{e}=\\frac{25}{7} \\Rightarrow e=\\frac{7}{5}$.\n\n$b^2=a^2(e^2-1)=25\\left(\\frac{49}{25}-1\\right)=24$\n\nEquation: $\\frac{x^2}{25}-\\frac{y^2}{24}=1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Conic Section",
+    "question": "The latusrectum of the hyperbola 9x² - 16y² + 72x - 32y - 16 = 0 is",
+    "question_latex": "The latusrectum of the hyperbola $9x^2-16y^2+72x-32y-16=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{9}{2}$",
+      "B. $-\\frac{9}{2}$",
+      "C. $\\frac{32}{3}$",
+      "D. $-\\frac{32}{3}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{9}{2}$",
+    "solution": "Rewriting: $9[(x+4)^2-16]-16[(y+1)^2-1]-16=0$\n$\\Rightarrow \\frac{(x+4)^2}{16}-\\frac{(y+1)^2}{9}=1$\n\n$a^2=16$, $b^2=9$. Length of latusrectum $=\\frac{2b^2}{a}=\\frac{2\\times9}{4}=\\frac{9}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Conic Section",
+    "question": "A variable circle passes through the fixed point A(p, q) and touches x-axis. The locus of the other end of the diameter through A is (2004)",
+    "question_latex": "A variable circle passes through the fixed point $A(p, q)$ and touches $x$-axis. The locus of the other end of the diameter through $A$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. $(y-q)^2=4px$",
+      "B. $(x-p)^2=4qy$",
+      "C. $(x-q)^2=4py$",
+      "D. $(y-p)^2=4qx$"
+    ],
+    "option_images": [],
+    "answer": "C. $(x-q)^2=4py$",
+    "solution": "Centre of circle is intersection of $2x+3y+1=0$ and $3x-y-4=0$, i.e., $(1,-1)$. Circumference $=10\\pi \\Rightarrow r=5$.\nCircle: $(x-1)^2+(y+1)^2=25$ or $x^2+y^2-2x+2y+23=0$.\n\nLocus of other end of diameter: $(x-q)^2=4py$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Conic Section",
+    "question": "The straight lines joining the origin to the points of intersection of the line 4x + 3y = 24 with the curve (x-3)² + (y-4)² = 25",
+    "question_latex": "The straight lines joining the origin to the points of intersection of the line $4x + 3y = 24$ with the curve $(x-3)^2+(y-4)^2=25$",
+    "question_images": [],
+    "options": [
+      "A. Are coincident",
+      "B. Are perpendicular",
+      "C. Make equal angles with x-axis",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Are perpendicular",
+    "solution": "The given line $4x+3y=24$ is a diameter of the circle (since the centre $(3,4)$ satisfies $4(3)+3(4)=24$) and the origin lies on the circle. The required angle is the angle in a semi-circle, which is a right angle.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Conic Section",
+    "question": "A circle C of radius 2 lies in the second quadrant and touches both the coordinate axes. Let r be the radius of a circle that has centre at the point (2, 5) and intersects the circle C at exactly two points. If the set of all possible values of r is the interval (α, β), then 3β - 2α is equal to [Jan. 22, 2025 (I)]",
+    "question_latex": "A circle $C$ of radius 2 lies in the second quadrant and touches both the coordinate axes. Let $r$ be the radius of a circle that has centre at the point $(2, 5)$ and intersects the circle $C$ at exactly two points. If the set of all possible values of $r$ is the interval $(\\alpha, \\beta)$, then $3\\beta-2\\alpha$ is equal to [Jan. 22, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 15",
+      "C. 14",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "B. 15",
+    "solution": "$C: (x+2)^2+(y-2)^2=4$. $C_1: (x-2)^2+(y-5)^2=r^2$.\n\nFor intersection at two points: $|r_1-r_2|<c_1c_2<r_1+r_2$\n$|r-2|<5<r+2 \\Rightarrow 3<r<7$, so $\\alpha=3, \\beta=7$.\n\n$3\\beta-2\\alpha=21-6=15$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Conic Section",
+    "question": "If (-4, 3) and (8, 3) are the vertices of an ellipse whose eccentricity is 5/6 then the equation of the ellipse is",
+    "question_latex": "If $(-4, 3)$ and $(8, 3)$ are the vertices of an ellipse whose eccentricity is $5/6$ then the equation of the ellipse is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{(x-2)^2}{11}+\\frac{(y-1)^2}{36}=1$",
+      "B. $\\frac{(x-2)^2}{36}+\\frac{(y-3)^2}{11}=1$",
+      "C. $\\frac{(x-3)^2}{11}+\\frac{(y-2)^2}{11}=1$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{(x-2)^2}{36}+\\frac{(y-3)^2}{11}=1$",
+    "solution": "Centre: $(2,3)$. $2a=12 \\Rightarrow a=6$. $e=5/6 \\Rightarrow b^2=a^2(1-e^2)=36\\left(1-\\frac{25}{36}\\right)=11$.\n\nEquation: $\\frac{(x-2)^2}{36}+\\frac{(y-3)^2}{11}=1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Conic Section",
+    "question": "The equation of the latusrectum of the parabola x² + 4x + 2y = 0, is equal to",
+    "question_latex": "The equation of the latusrectum of the parabola $x^2 + 4x + 2y = 0$, is equal to",
+    "question_images": [],
+    "options": [
+      "A. $2y+3=0$",
+      "B. $3y=2$",
+      "C. $2y=3$",
+      "D. $3y+2=0$"
+    ],
+    "option_images": [],
+    "answer": "C. $2y=3$",
+    "solution": "$(x+2)^2=-2(y-2) \\Rightarrow Y^2=-2X$ where $X=x+2$, $Y=y-2$.\n\nLatusrectum: $Y=-\\frac{1}{2} \\Rightarrow y-2=-\\frac{1}{2} \\Rightarrow y=\\frac{3}{2} \\Rightarrow 2y=3$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Conic Section",
+    "question": "From a point on the circle x² + y² = a², two tangents are drawn to the circle x² + y² = a²sin²α. The angle between them is",
+    "question_latex": "From a point on the circle $x^2+y^2=a^2$, two tangents are drawn to the circle $x^2+y^2=a^2\\sin^2\\alpha$. The angle between them is",
+    "question_images": [],
+    "options": [
+      "A. $\\alpha$",
+      "B. $\\frac{\\alpha}{2}$",
+      "C. $2\\alpha$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $2\\alpha$",
+    "solution": "Let $P(a\\cos t,a\\sin t)$ be point on outer circle. $PQ=\\sqrt{a^2-a^2\\sin^2\\alpha}=a\\cos\\alpha$. $OQ=a\\sin\\alpha$.\n\n$\\tan\\angle OPQ=\\frac{OQ}{PQ}=\\frac{a\\sin\\alpha}{a\\cos\\alpha}=\\tan\\alpha \\Rightarrow \\angle OPQ=\\alpha$\n\nAngle between tangents $= 2\\alpha$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Conic Section",
+    "question": "Locus of the point which divides double ordinate of the ellipse x²/a² + y²/b² = 1 in the ratio 1:2 internally, is",
+    "question_latex": "Locus of the point which divides double ordinate of the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ in the ratio 1:2 internally, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{x^2}{a^2}-\\frac{9y^2}{b^2}=\\frac{1}{9}$",
+      "B. $\\frac{x^2}{a^2}+\\frac{9y^2}{b^2}=1$",
+      "C. $\\frac{9x^2}{a^2}+\\frac{9y^2}{b^2}=1$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{x^2}{a^2}+\\frac{9y^2}{b^2}=1$",
+    "solution": "Let $P(a\\cos\\theta,b\\sin\\theta)$, $Q(a\\cos\\theta,-b\\sin\\theta)$. $R(h,k)$ divides $PQ$ in ratio $1:2$:\n\n$h=a\\cos\\theta$, $k=\\frac{b\\sin\\theta}{3}$\n\n$\\cos\\theta=\\frac{h}{a}$, $\\sin\\theta=\\frac{3k}{b}$\n\n$\\frac{h^2}{a^2}+\\frac{9k^2}{b^2}=1$. Locus: $\\frac{x^2}{a^2}+\\frac{9y^2}{b^2}=1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Conic Section",
+    "question": "The limiting points of coaxial-system determined by the circles x² + y² + 5x + y + 4 = 0 and x² + y² + 10x - 4y - 1 = 0 are",
+    "question_latex": "The limiting points of coaxial-system determined by the circles $x^2+y^2+5x+y+4=0$ and $x^2+y^2+10x-4y-1=0$ are",
+    "question_images": [],
+    "options": [
+      "A. $(0,3)$ and $(2,1)$",
+      "B. $(0,-3)$ and $(-2,-1)$",
+      "C. $(0,3)$ and $(1,2)$",
+      "D. $(0,-3)$ and $(2,1)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(0,-3)$ and $(-2,-1)$",
+    "solution": "Coaxial system: $S_1+\\lambda S_2=0$.\n$(x^2+y^2+5x+y+4)+\\lambda(x^2+y^2+10x-4y-1)=0$\n\nFor limiting point, radius $=0$:\n$\\lambda=-\\frac{1}{6}$ and $-\\frac{1}{2}$ giving centres $(-2,-1)$ and $(0,-3)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Conic Section",
+    "question": "Let a circle C₁ be obtained on rolling the circle x² + y² - 4x - 6y + 11 = 0 upwards 4 units on the tangent T to it at the point (3,2). Let C₂ be the image of C₁ in T. Let A and B be the centers of circles C₁ and C₂ respectively, and M and N be respectively the feet of perpendiculars drawn from A and B on the x-axis. Then the area of the trapezium AMNB is (Jan 2023)",
+    "question_latex": "Let a circle $C_1$ be obtained on rolling the circle $x^2+y^2-4x-6y+11=0$ upwards 4 units on the tangent $T$ to it at the point $(3,2)$. Let $C_2$ be the image of $C_1$ in $T$. Let $A$ and $B$ be the centers of circles $C_1$ and $C_2$ respectively, and $M$ and $N$ be respectively the feet of perpendiculars drawn from $A$ and $B$ on the $x$-axis. Then the area of the trapezium $AMNB$ is (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $3+2\\sqrt{2}$",
+      "B. $2(2+\\sqrt{2})$",
+      "C. $4(1+\\sqrt{2})$",
+      "D. $2(1+\\sqrt{2})$"
+    ],
+    "option_images": [],
+    "answer": "C. $4(1+\\sqrt{2})$",
+    "solution": "Original circle: centre $(2,3)$, radius $\\sqrt{2}$. Tangent at $(3,2)$: $x-y-1=0$.\n\nRolling 4 units: centre of $C_1$ is $(2+2\\sqrt{2},3+2\\sqrt{2})$. Radius same.\nImage in $T$: centre of $C_2$ is $(4+2\\sqrt{2},1+2\\sqrt{2})$.\n\nFeet on $x$-axis: $M=(2+2\\sqrt{2},0)$, $N=(4+2\\sqrt{2},0)$.\n\nArea of trapezium $= \\frac{1}{2}(3+2\\sqrt{2}+1+2\\sqrt{2})(4+2\\sqrt{2}-2-2\\sqrt{2}) = 4(1+\\sqrt{2})$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Conic Section",
+    "question": "Circles are drawn through the point (2, 0) to cut intercepts of length 5 units on the x-axis. If their centres lie in the first quadrant, then their equation is",
+    "question_latex": "Circles are drawn through the point $(2, 0)$ to cut intercepts of length 5 units on the $x$-axis. If their centres lie in the first quadrant, then their equation is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-9x+2ky+14=0$",
+      "B. $3x^2+3y^2+27x-2ky+42=0$",
+      "C. $x^2+y^2-9x-2ky+14=0$",
+      "D. $x^2+y^2-2kx-9y+14=0$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2+y^2-9x-2ky+14=0$",
+    "solution": "$OM=OA+AM=2+\\frac{5}{2}=\\frac{9}{2}$. $x$-coord of centre $=\\frac{9}{2}$. Radius $=CA=\\sqrt{\\left(\\frac{9}{2}-2\\right)^2+k^2}$.\n\nCircle: $\\left(x-\\frac{9}{2}\\right)^2+(y-k)^2=\\left(\\frac{9}{2}-2\\right)^2+k^2$\n$\\Rightarrow x^2+y^2-9x-2ky+14=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Conic Section",
+    "question": "Let S and S' be two foci of the ellipse x²/a² + y²/b² = 1. If the circle described on SS' as diameter touches the ellipse in real points, then the eccentricity of the ellipse is",
+    "question_latex": "Let $S$ and $S'$ be two foci of the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$. If the circle described on $SS'$ as diameter touches the ellipse in real points, then the eccentricity of the ellipse is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2}{\\sqrt{3}}$",
+      "B. $\\frac{\\sqrt{3}}{2}$",
+      "C. $\\frac{1}{\\sqrt{2}}$",
+      "D. $\\frac{1}{\\sqrt{3}}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{\\sqrt{2}}$",
+    "solution": "The circle on $SS'$ as diameter intersects the ellipse in real points if $2e^2-1=0$, i.e., $e=\\frac{1}{\\sqrt{2}}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Conic Section",
+    "question": "The equation of the circle which passes through the intersection of x² + y² + 13x - 3y = 0 and 2x² + 2y² + 4x - 7y - 25 = 0 and whose centre lies on 13x + 30y = 0, is",
+    "question_latex": "The equation of the circle which passes through the intersection of $x^2+y^2+13x-3y=0$ and $2x^2+2y^2+4x-7y-25=0$ and whose centre lies on $13x+30y=0$, is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2+30x-13y-25=0$",
+      "B. $4x^2+4y^2+30x-13y-25=0$",
+      "C. $2x^2+2y^2+30x-13y-25=0$",
+      "D. $x^2+y^2+30x-13y+25=0$"
+    ],
+    "option_images": [],
+    "answer": "B. $4x^2+4y^2+30x-13y-25=0$",
+    "solution": "Circle family: $\\lambda S_1+S_2=0$ where $S_1=x^2+y^2+13x-3y$, $S_2=2x^2+2y^2+4x-7y-25$.\n\n$\\lambda(x^2+y^2+13x-3y)+(x^2+y^2+2x-\\frac{7y}{2}-\\frac{25}{2})=0$\n\nCentre $\\left(-\\frac{2+13\\lambda}{2(1+\\lambda)}, \\frac{(7/2)+3\\lambda}{2(1+\\lambda)}\\right)$ lies on $13x+30y=0$:\n$\\lambda=1 \\Rightarrow$ equation: $4x^2+4y^2+30x-13y-25=0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

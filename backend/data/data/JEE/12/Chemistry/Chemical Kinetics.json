@@ -1,0 +1,963 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemical Kinetics",
+    "question": "In the presence of acid, the initial concentration of cane-sugar was reduced from 0.2 M to 0.1 M in 5 hr and to 0.05 M in 10 hr. The reaction must be of",
+    "question_latex": "In the presence of acid, the initial concentration of cane-sugar was reduced from $0.2$ M to $0.1$ M in $5$ hr and to $0.05$ M in $10$ hr. The reaction must be of",
+    "question_images": [],
+    "options": [
+      "A. Zero order",
+      "B. First order",
+      "C. Second order",
+      "D. Fractional order"
+    ],
+    "option_images": [],
+    "answer": "B. First order",
+    "solution": "From $0.2$ M $\\xrightarrow{t_{1/2}=5\\text{ hr}}$ $0.1$ M $\\xrightarrow{t_{1/2}=5\\text{ hr}}$ $0.05$ M\n\nFrom $0.2$ M $\\xrightarrow{t=10\\text{ hr}}$ $0.05$ M\n\nSo $t_{1/2}$ is constant which is characteristic of first order reaction.\nHence, $t_{1/2} \\propto (a)^0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Chemical Kinetics",
+    "question": "A reaction proceeds by first order. 75% of this reaction was completed in 32 min. The time required for 50% completion is",
+    "question_latex": "A reaction proceeds by first order. $75\\%$ of this reaction was completed in $32$ min. The time required for $50\\%$ completion is",
+    "question_images": [],
+    "options": [
+      "A. 6 min",
+      "B. 16 min",
+      "C. 20 min",
+      "D. 24 min"
+    ],
+    "option_images": [],
+    "answer": "B. 16 min",
+    "solution": "Given: $75\\%$ reaction gets completed in $32$ min\n\n$$k = \\frac{2.303}{t}\\log\\frac{a}{(a-x)} = \\frac{2.303}{32}\\log\\frac{100}{(100-75)}$$\n\n$$= \\frac{2.303}{32}\\log 4 = 0.0433 \\text{ min}^{-1}$$\n\nNow for $50\\%$ completion:\n$$t = \\frac{2.303}{k}\\log\\frac{a}{(a-x)} = \\frac{2.303}{0.0433}\\log\\frac{100}{50}$$\n\n$$= \\frac{2.303}{0.0433}\\log 2 = 16 \\text{ min}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Chemical Kinetics",
+    "question": "The concentration of R in the reaction R → P was measured as a function of time and the following data is obtained: [R](molar): 1.00, 0.75, 0.40, 0.10; t(min): 0.00, 0.05, 0.12, 0.18. The order of the reaction is",
+    "question_latex": "The concentration of R in the reaction $R \\rightarrow P$ was measured as a function of time and the following data is obtained: $[R]$(molar): $1.00,\\ 0.75,\\ 0.40,\\ 0.10$; $t$(min): $0.00,\\ 0.05,\\ 0.12,\\ 0.18$. The order of the reaction is",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. First",
+      "C. Second",
+      "D. Third"
+    ],
+    "option_images": [],
+    "answer": "A. Zero",
+    "solution": "$$k_I = \\frac{\\Delta[R]}{\\Delta t} = \\frac{0.25}{0.05} = 5$$\n\n$$k_{II} = \\frac{\\Delta[R]}{\\Delta t} = \\frac{0.60}{0.12} = 5$$\n\nSince the rate $\\frac{\\Delta[R]}{\\Delta t}$ is constant, the reaction must be zero order.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Chemical Kinetics",
+    "question": "The reaction 2N2O5(g) → 4NO2(g) + O2(g) is first order w.r.t. N2O5. Which of the following graphs would yield a straight line?",
+    "question_latex": "The reaction $2N_2O_5(g) \\rightarrow 4NO_2(g) + O_2(g)$ is first order w.r.t. $N_2O_5$. Which of the following graphs would yield a straight line?",
+    "question_images": [],
+    "options": [
+      "A. log P(N2O5) vs time with negative slope",
+      "B. (P(N2O5))^(-1) vs time",
+      "C. P(N2O5) vs time",
+      "D. log P(N2O5) vs time with positive slope"
+    ],
+    "option_images": [],
+    "answer": "A. log P(N2O5) vs time with negative slope",
+    "solution": "For a first order reaction, $\\ln[A] = \\ln[A_0] - kt$, so $\\log P_{N_2O_5}$ vs time gives a straight line with negative slope.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Chemical Kinetics",
+    "question": "A Geiger Muller counter is used to study the radioactive process. In the absence of radioactive substance A, it counts 3 disintegration per second (dps). At the start in the presence of A, it records 23 dps; and after 10 min 13 dps. 1. What does it count after 20 min? 2. What is the half life of A?",
+    "question_latex": "A Geiger Muller counter is used to study the radioactive process. In the absence of radioactive substance A, it counts $3$ dps. At the start in the presence of A, it records $23$ dps; and after $10$ min $13$ dps. What does it count after $20$ min? What is the half life of A?",
+    "question_images": [],
+    "options": [
+      "A. 8 dps, 10 min",
+      "B. 5 dps, 10 min",
+      "C. 5 dps, 20 min",
+      "D. 5 dps, 5 min"
+    ],
+    "option_images": [],
+    "answer": "A. 8 dps, 10 min",
+    "solution": "In the absence of A, $3$ dps is zero error, hence:\n\nInitial count $= 23 - 3 = 20$ dps\n\nAfter $10$ min $= 13 - 3 = 10$ dps\n\nAfter $20$ min $= 5$ dps (recorded $= 5 + 3 = 8$ dps)\n\n$50\\%$ fall in $10$ min, so $T_{50} = 10$ min",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Chemical Kinetics",
+    "question": "In the sequence of reaction, A →(k1) B →(k2) C →(k3) D, k3 > k2 > k1, then the rate determining step of the reaction is",
+    "question_latex": "In the sequence of reaction, $A \\xrightarrow{k_1} B \\xrightarrow{k_2} C \\xrightarrow{k_3} D$, $k_3 > k_2 > k_1$, then the rate determining step of the reaction is",
+    "question_images": [],
+    "options": [
+      "A. A → B",
+      "B. B → C",
+      "C. C → D",
+      "D. A → D"
+    ],
+    "option_images": [],
+    "answer": "A. A → B",
+    "solution": "$A \\xrightarrow{k_1} B \\xrightarrow{k_2} C \\xrightarrow{k_3} D$\n\n$\\because k_3 > k_2 > k_1$\n\nAs $k_1$ is slowest, hence $A \\rightarrow B$ is the rate determining step of the reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Chemical Kinetics",
+    "question": "The accompanying figure depicts the change in concentration of species X and Y for the reaction X → Y, as a function of time. The point of intersection of the two curves represents:",
+    "question_latex": "The accompanying figure depicts the change in concentration of species $X$ and $Y$ for the reaction $X \\rightarrow Y$, as a function of time. The point of intersection of the two curves represents:",
+    "question_images": [
+      "7_qu_1.png"
+    ],
+    "options": [
+      "A. t(1/2)",
+      "B. t(3/4)",
+      "C. t(2/3)",
+      "D. Data is insufficient to predict"
+    ],
+    "option_images": [],
+    "answer": "A. t(1/2)",
+    "solution": "The intersection point indicates that half of the reactant $X$ is converted into $Y$. Therefore, the intersection represents $t_{1/2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Chemical Kinetics",
+    "question": "Rate law for a reaction between A and B is given by R = k[A]^n[B]^m. If concentration of A is doubled and concentration of B is halved from their initial value, the ratio of new rate of reaction to the initial rate of reaction (r2/r1) is [April 4, 2025 (I)]",
+    "question_latex": "Rate law for a reaction between $A$ and $B$ is given by $R = k[A]^n[B]^m$. If concentration of $A$ is doubled and concentration of $B$ is halved from their initial value, the ratio of new rate of reaction to the initial rate of reaction $\\left(\\frac{r_2}{r_1}\\right)$ is [April 4, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. (m+n)",
+      "B. 2^(n-m)",
+      "C. 1/2^(m+n)",
+      "D. (n-m)"
+    ],
+    "option_images": [],
+    "answer": "B. 2^(n-m)",
+    "solution": "$$r_1 = k[A]^n[B]^m$$\n\nNow A is doubled and B is halved:\n$$r_2 = k(2[A])^n \\cdot \\left(\\frac{[B]}{2}\\right)^m = k[A]^n[B]^m \\cdot 2^n \\cdot \\left(\\frac{1}{2}\\right)^m$$\n\n$$\\frac{r_2}{r_1} = 2^n \\cdot \\left(\\frac{1}{2}\\right)^m = 2^{(n-m)}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Chemical Kinetics",
+    "question": "At a certain temperature, the first order rate constant k1 is found to be smaller than the second order rate constant k2. If Ea(1) of the first order reaction is greater than Ea(2) of the second order reaction, then as temperature is raised:",
+    "question_latex": "At a certain temperature, the first order rate constant $k_1$ is found to be smaller than the second order rate constant $k_2$. If $E_a(1)$ of the first order reaction is greater than $E_a(2)$ of the second order reaction, then as temperature is raised:",
+    "question_images": [],
+    "options": [
+      "A. k2 will increase faster than k1",
+      "B. k1 will increase faster than k2 but will always remain less than k2",
+      "C. k1 will increase faster than k2 and become equal to k2",
+      "D. k1 will increase faster than k2 and become greater than k2"
+    ],
+    "option_images": [],
+    "answer": "A. k2 will increase faster than k1",
+    "solution": "Since $k_2 > k_1$ and $E_{a(1)} > E_{a(2)}$, as temperature increases, $k_1$ would increase faster (higher activation energy = more sensitive to temperature), so eventually $k_1$ can surpass $k_2$. But since $k_2 > k_1$ initially and $E_{a_2} < E_{a_1}$, actually $k_2$ increases faster. Hence $k_2$ will increase faster than $k_1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Chemical Kinetics",
+    "question": "The half-life period for zero order reaction A → product, is 100 min. How long will it take in 80% completion?",
+    "question_latex": "The half-life period for zero order reaction $A \\rightarrow$ product, is $100$ min. How long will it take in $80\\%$ completion?",
+    "question_images": [],
+    "options": [
+      "A. 80 min",
+      "B. 160 min",
+      "C. 100 min",
+      "D. 200 min"
+    ],
+    "option_images": [],
+    "answer": "B. 160 min",
+    "solution": "For zero order reaction:\n$$k = \\frac{a}{2t_{1/2}} = \\frac{a}{2 \\times 100} = \\frac{a}{200}$$\n\nWhen $80\\%$ completion takes place:\n$$k = \\frac{x}{t}$$\n$$\\frac{a}{200} = \\frac{0.80a}{t}$$\n$$t = 200 \\times 0.8 = 160 \\text{ min}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate of a chemical reaction tells us about,",
+    "question_latex": "The rate of a chemical reaction tells us about,",
+    "question_images": [],
+    "options": [
+      "A. the reactants taking part in reaction",
+      "B. the products formed in the reaction",
+      "C. how slow or fast the reaction is taking place",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. how slow or fast the reaction is taking place",
+    "solution": "The rate of a chemical reaction tells us how slow or fast a reaction is taking place, i.e., the speed at which reactants are converted into products.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate of reaction: 2NO + Cl2 → 2NOCl is given by the rate equation: rate = k[NO]²[Cl2]. The value of the rate constant can be increased by:",
+    "question_latex": "The rate of reaction: $2NO + Cl_2 \\rightarrow 2NOCl$ is given by the rate equation: rate $= k[NO]^2[Cl_2]$. The value of the rate constant can be increased by:",
+    "question_images": [],
+    "options": [
+      "A. Increasing the temperature",
+      "B. Increasing the concentration of NO",
+      "C. Increasing the concentration of Cl2",
+      "D. Doing all of these"
+    ],
+    "option_images": [],
+    "answer": "A. Increasing the temperature",
+    "solution": "The rate constant $k$ depends only on temperature (Arrhenius equation: $K = Ae^{-E_a/RT}$). Increasing concentrations changes rate but not the rate constant $k$. Only increasing temperature increases $k$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Chemical Kinetics",
+    "question": "In the reaction A + B → products, if B is taken in excess, then it is an example of",
+    "question_latex": "In the reaction $A + B \\rightarrow$ products, if $B$ is taken in excess, then it is an example of",
+    "question_images": [],
+    "options": [
+      "A. Second order reaction",
+      "B. Zero order reaction",
+      "C. Pseudounimolecular reaction",
+      "D. First order reaction"
+    ],
+    "option_images": [],
+    "answer": "C. Pseudounimolecular reaction",
+    "solution": "When $B$ is in large excess, its concentration remains effectively constant. The reaction appears to depend only on $[A]$, making it a pseudo-first order (pseudounimolecular) reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Chemical Kinetics",
+    "question": "Consider the following plots of rate constant versus 1/T for four different reactions. Which of the following orders is correct for the activation energies of these reactions? (Jan 2020)",
+    "question_latex": "Consider the following plots of rate constant versus $\\frac{1}{T}$ for four different reactions. Which of the following orders is correct for the activation energies of these reactions? (Jan 2020)",
+    "question_images": [
+      "14_qu_1.png"
+    ],
+    "options": [
+      "A. Ea > Ec > Ed > Eb",
+      "B. Eb > Ea > Ed > Ec",
+      "C. Eb > Ed > Ec > Ea",
+      "D. Ec > Ea > Ed > Eb"
+    ],
+    "option_images": [],
+    "answer": "D. Ec > Ea > Ed > Eb",
+    "solution": "By Arrhenius equation:\n$$\\log k = \\frac{-E_a}{2.303RT} + \\log A$$\n\nSlope $= \\frac{-E_a}{2.303R}$\n\nSteeper (more negative) slope $\\Rightarrow$ higher $E_a$.\n\nFrom the graph: $E_c > E_a > E_d > E_b$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Chemical Kinetics",
+    "question": "In a reversible reaction the energy of activation of the forward reaction is 50 kcal. The energy of activation for the reverse reaction will be",
+    "question_latex": "In a reversible reaction the energy of activation of the forward reaction is $50$ kcal. The energy of activation for the reverse reaction will be",
+    "question_images": [],
+    "options": [
+      "A. < 50 kcal",
+      "B. Either greater than or less than 50 kcal",
+      "C. 50 kcal",
+      "D. > 50 kcal"
+    ],
+    "option_images": [],
+    "answer": "B. Either greater than or less than 50 kcal",
+    "solution": "$$\\Delta H = E_{a(f)} - E_{a(b)}$$\n\nIf reaction is exothermic: $\\Delta H = -ve$, so $E_{a(b)} > E_{a(f)}$\n\nIf reaction is endothermic: $\\Delta H = +ve$, so $E_{a(b)} < E_{a(f)}$\n\nThus energy of activation for reverse reaction depends upon whether reaction is exothermic or endothermic.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate of reaction A + B → Products is given by the equation r = k[A][B]. If B is taken in large excess, the order of the reaction would be",
+    "question_latex": "The rate of reaction $A + B \\rightarrow$ Products is given by the equation $r = k[A][B]$. If $B$ is taken in large excess, the order of the reaction would be",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. 0",
+      "D. Unpredictable"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "$$r = k[A][B]^0$$\n\nSince $[B]$ is in large excess, its concentration does not change effectively.\n\n$\\therefore$ Overall order $= 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate constant of a reaction is 3.00 × 10³ L mol⁻¹ sec⁻¹. The order of this reaction will be:",
+    "question_latex": "The rate constant of a reaction is $3.00 \\times 10^3$ L mol$^{-1}$ sec$^{-1}$. The order of this reaction will be:",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 2",
+      "C. 1",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Units of rate constant $= (\\text{mol L}^{-1})^{1-n}(\\text{time})^{-1}$\n\n$= (\\text{mol L}^{-1})^{1-n}(\\text{sec})^{-1}$\n\nComparing with given units $\\text{L mol}^{-1}\\text{sec}^{-1}$:\n\n$(\\text{mol L}^{-1})^{1-n}(\\text{sec})^{-1} = \\text{L mol}^{-1}\\text{sec}^{-1}$\n\n$\\Rightarrow L^{n-1}\\text{mol}^{1-n}\\text{sec}^{-1} = \\text{L mol}^{-1}\\text{sec}^{-1}$\n\nComparing powers: $n - 1 = 1 \\Rightarrow n = 2$\n\nSo reaction is of second order.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Chemical Kinetics",
+    "question": "In the following reaction; xA → yB, log10[-d[A]/dt] = log10[d[B]/dt] + 0.3010. 'A' and 'B' respectively can be (April 2019)",
+    "question_latex": "In the following reaction; $xA \\rightarrow yB$, $\\log_{10}\\left[-\\frac{d[A]}{dt}\\right] = \\log_{10}\\left[\\frac{d[B]}{dt}\\right] + 0.3010$. 'A' and 'B' respectively can be (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. N2O4 and NO2",
+      "B. n-butane and iso-butane",
+      "C. C2H4 and C4H8",
+      "D. C2H2 and C6H6"
+    ],
+    "option_images": [],
+    "answer": "C. C2H4 and C4H8",
+    "solution": "For reaction $xA \\rightarrow yB$:\n$$\\log_{10}\\left[-\\frac{d[A]}{dt}\\right] = \\log_{10}\\left[\\frac{d[B]}{dt}\\right] + 0.3010$$\n\n$$-\\frac{d[A]}{dt} = 2 \\times \\frac{d[B]}{dt} \\Rightarrow -\\frac{1}{2}\\frac{d[A]}{dt} = \\frac{d[B]}{dt}$$\n\nSo $2A \\rightarrow B$, i.e., $2C_2H_4 \\rightarrow C_4H_8$\n\nTherefore, $A$ is $C_2H_4$ and $B$ is $C_4H_8$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Chemical Kinetics",
+    "question": "Which one of the following statements for order of reaction is not correct?",
+    "question_latex": "Which one of the following statements for order of reaction is not correct?",
+    "question_images": [],
+    "options": [
+      "A. Order can be determined experimentally",
+      "B. Order of reaction is equal to sum of the power of concentration terms in differential rate law",
+      "C. It is not affected with stoichiometric coefficients of the reactants",
+      "D. Order cannot be fractional"
+    ],
+    "option_images": [],
+    "answer": "D. Order cannot be fractional",
+    "solution": "Order of reaction CAN be fractional (e.g., order = 1/2, 3/2). All other statements are correct. Hence option D is incorrect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate of reaction is doubled for every 10°C rise in temperature. The increase in reaction rate as a result of temperature rise from 10°C to 100°C is",
+    "question_latex": "The rate of reaction is doubled for every $10^\\circ$C rise in temperature. The increase in reaction rate as a result of temperature rise from $10^\\circ$C to $100^\\circ$C is",
+    "question_images": [],
+    "options": [
+      "A. 112",
+      "B. 512",
+      "C. 400",
+      "D. 614"
+    ],
+    "option_images": [],
+    "answer": "B. 512",
+    "solution": "The temperature rise $= 100 - 10 = 90^\\circ$C\n\nNumber of $10^\\circ$C intervals $= \\frac{90}{10} = 9$\n\nIncrease in reaction rate $= 2^9 = 512$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Chemical Kinetics",
+    "question": "Two reactions R1 and R2 have identical preexponential factors. Activation energy of R1 exceeds that of R2 by 10 kJ mol⁻¹. If k1 and k2 are rate constants for reactions R1 and R2 respectively at 300 K, then ln(k2/k1) is equal to (R = 8.314 J mol⁻¹ K⁻¹) (2017)",
+    "question_latex": "Two reactions $R_1$ and $R_2$ have identical preexponential factors. Activation energy of $R_1$ exceeds that of $R_2$ by $10$ kJ mol$^{-1}$. If $k_1$ and $k_2$ are rate constants for reactions $R_1$ and $R_2$ respectively at $300$ K, then $\\ln(k_2/k_1)$ is equal to ($R = 8.314$ J mol$^{-1}$ K$^{-1}$) (2017)",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 4",
+      "C. 12",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "By Arrhenius equation: $k = Ae^{-E_a/RT}$\n\nFor $R_1$: $\\ln k_1 = \\ln A - \\frac{E_{a_1}}{RT}$\n\nFor $R_2$: $\\ln k_2 = \\ln A - \\frac{E_{a_2}}{RT}$\n\n$$\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_{a_1} - E_{a_2}}{RT} = \\frac{\\Delta E_a}{RT}$$\n\n$$= \\frac{10 \\times 10^3}{8.314 \\times 300} = 4$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Chemical Kinetics",
+    "question": "In the reaction A + B → C + D, the concentration of A and B are equal and the rate of the reaction is rate = k[A][B]. The integrated rate equation for this reaction is",
+    "question_latex": "In the reaction $A + B \\rightarrow C + D$, the concentration of $A$ and $B$ are equal and the rate of the reaction is rate $= k[A][B]$. The integrated rate equation for this reaction is",
+    "question_images": [],
+    "options": [
+      "A. k = x / [t(a-x)]",
+      "B. k = xa / (a-x)",
+      "C. k = (1/t) × x / [a(a-x)]",
+      "D. k = -(1/t) × x / [a(x-a)]"
+    ],
+    "option_images": [],
+    "answer": "C. k = (1/t) × x / [a(a-x)]",
+    "solution": "It is a second order reaction (since $[A] = [B]$ and rate $= k[A][B] = k[A]^2$).\n\nIntegrated rate equation for second order:\n$$k = \\frac{1}{t} \\cdot \\frac{x}{a(a-x)}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Chemical Kinetics",
+    "question": "For the elementary step, (CH3)3·CBr(aq) → (CH3)3C⁺(aq) + Br⁻(aq), the molecularity is:",
+    "question_latex": "For the elementary step, $(CH_3)_3 \\cdot CBr(aq) \\rightarrow (CH_3)_3C^+(aq) + Br^-(aq)$, the molecularity is:",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. 1",
+      "C. 2",
+      "D. Cannot be ascertained"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Molecularity represents the number of molecules of reactants taking part in an elementary step of reaction. Here only one molecule $(CH_3)_3CBr$ is reacting, so molecularity $= 1$ (unimolecular).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Chemical Kinetics",
+    "question": "The half-time period of a second order reaction is",
+    "question_latex": "The half-time period of a second order reaction is",
+    "question_images": [],
+    "options": [
+      "A. Proportional to the initial concentration of reactants",
+      "B. Independent of the initial concentration of reactants",
+      "C. Inversely proportional to the initial concentration of reactants",
+      "D. Inversely proportional to the square of initial concentration of reactants"
+    ],
+    "option_images": [],
+    "answer": "C. Inversely proportional to the initial concentration of reactants",
+    "solution": "For a second order reaction:\n$$t_{1/2} = \\frac{1}{k[A]_0}$$\n\nSo $t_{1/2}$ is inversely proportional to the initial concentration of reactants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Chemical Kinetics",
+    "question": "The slowest step of a particular reaction is found to be 1/2 X2 + Y2 → XY2. The order of the reaction is",
+    "question_latex": "The slowest step of a particular reaction is found to be $\\frac{1}{2}X_2 + Y_2 \\rightarrow XY_2$. The order of the reaction is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 3.5",
+      "D. 1.5"
+    ],
+    "option_images": [],
+    "answer": "D. 1.5",
+    "solution": "Slow step is: $\\frac{1}{2}X_2 + Y_2 \\rightarrow XY_2$\n\nHence: $r = k[X_2]^{1/2}[Y_2]$\n\nOverall order $= \\frac{1}{2} + 1 = 1\\frac{1}{2} = 1.5$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate constant, the activation energy, and the Arrhenius parameter of a chemical reaction at 25°C are 3.0 × 10⁻⁴ s⁻¹, 104.4 kJ mol⁻¹, and 6.0 × 10¹⁴ s⁻¹ respectively. The value of rate constant as T → ∞ is",
+    "question_latex": "The rate constant, the activation energy, and the Arrhenius parameter of a chemical reaction at $25^\\circ$C are $3.0 \\times 10^{-4}$ s$^{-1}$, $104.4$ kJ mol$^{-1}$, and $6.0 \\times 10^{14}$ s$^{-1}$ respectively. The value of rate constant as $T \\rightarrow \\infty$ is",
+    "question_images": [],
+    "options": [
+      "A. 2.0 × 10¹⁸ s⁻¹",
+      "B. 6.0 × 10¹⁴ s⁻¹",
+      "C. ∞",
+      "D. 3.6 × 10³⁰ s⁻¹"
+    ],
+    "option_images": [],
+    "answer": "B. 6.0 × 10¹⁴ s⁻¹",
+    "solution": "$$k = Ae^{-E_a/RT}$$\n\nWhen $T \\rightarrow \\infty$:\n$$e^{-E_a/RT} \\rightarrow e^0 = 1$$\n$$k \\rightarrow A = 6.0 \\times 10^{14} \\text{ s}^{-1}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Chemical Kinetics",
+    "question": "The rate of reaction depends upon the",
+    "question_latex": "The rate of reaction depends upon the",
+    "question_images": [],
+    "options": [
+      "A. volume",
+      "B. force",
+      "C. pressure",
+      "D. conc. of reactants"
+    ],
+    "option_images": [],
+    "answer": "D. conc. of reactants",
+    "solution": "The rate of a reaction is the speed at which the reactants are converted into products. It depends upon the concentration of reactants.\n\nFor the reaction $A + B \\rightarrow$ Product: $r \\propto [A][B]$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Chemical Kinetics",
+    "question": "Which of the following statements is not true for radioactive decay? [Jan. 22, 2025 (I)]",
+    "question_latex": "Which of the following statements is not true for radioactive decay? [Jan. 22, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. Amount of radioactive substance remained after three half lives is 1/8 th of original amount",
+      "B. Halflife is ln2 times of (1/rate constant)",
+      "C. Decay constant increases with increase in temperature",
+      "D. Decay constant does not depend upon temperature"
+    ],
+    "option_images": [],
+    "answer": "C. Decay constant increases with increase in temperature",
+    "solution": "Nuclear phenomena are independent of temperature. Decay constant is a nuclear property and does NOT change with temperature. Hence statement C is not true.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Chemical Kinetics",
+    "question": "For a chemical reaction A → Products, the rate of reaction doubles when the concentration of A is increased by 4 times. The order of reaction is",
+    "question_latex": "For a chemical reaction $A \\rightarrow$ Products, the rate of reaction doubles when the concentration of $A$ is increased by $4$ times. The order of reaction is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 0",
+      "C. 1/2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. 1/2",
+    "solution": "$$r_1 = k[A]^n$$\n$$r_2 = 2r_1 = k[4A]^n$$\n\nDividing equation (ii) by (i):\n$$(2)^1 = (4)^n = (2^2)^n = 2^{2n}$$\n\n$$\\therefore 2n = 1 \\Rightarrow n = \\frac{1}{2}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Chemical Kinetics",
+    "question": "For the reaction A + B → C, the following data is obtained: Exp 1: [A]=1.0, [B]=1.0, Rate=0.25; Exp 2: [A]=2.0, [B]=1.0, Rate=0.50; Exp 3: [A]=1.0, [B]=2.0, Rate=0.25 (Rate in mol L⁻¹ min⁻¹). In the above reaction, the order is",
+    "question_latex": "For the reaction $A + B \\rightarrow C$, the following data is obtained:\n\\begin{array}{|c|c|c|c|}\\hline \\text{Exp} & [A] & [B] & \\text{Rate (mol L}^{-1}\\text{min}^{-1}\\text{)} \\\\ \\hline 1 & 1.0 & 1.0 & 0.25 \\\\ 2 & 2.0 & 1.0 & 0.50 \\\\ 3 & 1.0 & 2.0 & 0.25 \\\\ \\hline \\end{array}\nIn the above reaction, the order is",
+    "question_images": [],
+    "options": [
+      "A. Zero in A and one in B",
+      "B. One in A and zero in B",
+      "C. One in both A and B",
+      "D. Zero in both A and B"
+    ],
+    "option_images": [],
+    "answer": "B. One in A and zero in B",
+    "solution": "From experiments (1) and (3): $[A]$ is constant and $[B]$ doubles, but rate does not change. So order w.r.t. $B = 0$.\n\nFrom experiments (1) and (2): $[B]$ is constant and $[A]$ is doubled, the rate also doubles. So order w.r.t. $[A] = 1$.\n\nOverall order $= 1 + 0 = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Chemical Kinetics",
+    "question": "Consider the following reaction that goes from A to B in three steps as shown below. Choose the correct option. (April 2023)",
+    "question_latex": "Consider the following reaction that goes from $A$ to $B$ in three steps as shown in the energy diagram. Choose the correct option. (April 2023)",
+    "question_images": [
+      "31_qu_1.png",
+      "31_qu_2.png"
+    ],
+    "options": [
+      "A. 2 intermediates, 3 activated complexes, Rate determining step III",
+      "B. 3 intermediates, 2 activated complexes, Rate determining step II",
+      "C. 2 intermediates, 3 activated complexes, Rate determining step I",
+      "D. 2 intermediates, 3 activated complexes, Rate determining step II"
+    ],
+    "option_images": [],
+    "answer": "D. 2 intermediates, 3 activated complexes, Rate determining step II",
+    "solution": "From the energy diagram:\n- Number of transition states (peaks) = 3 → Number of activated complexes = 3\n- Number of valleys between peaks = 2 → Number of intermediates = 2\n- $E_{a_2}$ is greater than $E_{a_1}$ and $E_{a_3}$, so step II has the highest activation energy → Step II is the rate determining step.",
+    "solution_images": [
+      "31_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Chemical Kinetics",
+    "question": "Phosphorus undergoes slow combustion and glows in dark. The process is called",
+    "question_latex": "Phosphorus undergoes slow combustion and glows in dark. The process is called",
+    "question_images": [],
+    "options": [
+      "A. Photochemical change",
+      "B. Chemiluminescence",
+      "C. Fluorescence",
+      "D. Phosphorescence"
+    ],
+    "option_images": [],
+    "answer": "D. Phosphorescence",
+    "solution": "Phosphorescence is the phenomenon where a substance emits light after absorbing radiation/energy and continues to glow even after the source is removed. Phosphorus glowing in dark is a classic example of phosphorescence.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Chemical Kinetics",
+    "question": "The activation energy for a reaction is 9.0 kcal/mol. The increase in the rate constant when its temperature is increased from 298 K to 308 K is",
+    "question_latex": "The activation energy for a reaction is $9.0$ kcal/mol. The increase in the rate constant when its temperature is increased from $298$ K to $308$ K is",
+    "question_images": [],
+    "options": [
+      "A. 63%",
+      "B. 50%",
+      "C. 100%",
+      "D. 10%"
+    ],
+    "option_images": [],
+    "answer": "A. 63%",
+    "solution": "$$2.303\\log\\frac{k_2}{k_1} = \\frac{E_a}{R}\\left[\\frac{T_2 - T_1}{T_1 T_2}\\right]$$\n\n$$\\log\\frac{k_2}{k_1} = \\frac{9.0 \\times 10^3}{2.303 \\times 2}\\left[\\frac{308-298}{308 \\times 298}\\right]$$\n\n$$\\frac{k_2}{k_1} = 1.63 \\Rightarrow k_2 = 1.63k_1$$\n\n$$\\text{Increase in }k_1 = \\frac{k_2 - k_1}{k_1} \\times 100 = \\frac{1.63k_1 - k_1}{k_1} \\times 100 = 63\\%$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Chemical Kinetics",
+    "question": "The reaction of ozone with oxygen atoms in the presence of chlorine atoms can occur by a two step process: O3(g) + Cl(g) → O2(g) + ClO(g); k1 = 5.2×10⁹ L mol⁻¹ s⁻¹. ClO(g) + O(g) → O2(g) + Cl(g); k2 = 2.6×10¹⁰ L mol⁻¹ s⁻¹. The closest rate constant for the overall reaction O3(g) + O(g) → 2O2(g) is (Online 2016)",
+    "question_latex": "The reaction of ozone with oxygen atoms in the presence of chlorine atoms occurs by:\n$O_{3(g)} + Cl_{(g)} \\rightarrow O_{2(g)} + ClO_{(g)}$; $k_1 = 5.2\\times10^9$ L mol$^{-1}$ s$^{-1}$\n$ClO_{(g)} + O_{(g)} \\rightarrow O_{2(g)} + Cl_{(g)}$; $k_2 = 2.6\\times10^{10}$ L mol$^{-1}$ s$^{-1}$\nThe closest rate constant for the overall reaction $O_{3(g)} + O_{(g)} \\rightarrow 2O_{2(g)}$ is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. 1.4 × 10²⁰ L mol⁻¹ s⁻¹",
+      "B. 2.6 × 10¹⁰ L mol⁻¹ s⁻¹",
+      "C. 5.2 × 10⁹ L mol⁻¹ s⁻¹",
+      "D. 3.1 × 10¹⁰ L mol⁻¹ s⁻¹"
+    ],
+    "option_images": [],
+    "answer": "C. 5.2 × 10⁹ L mol⁻¹ s⁻¹",
+    "solution": "Overall rate of a reaction depends upon the rate of the slowest step. The step with the lower rate constant ($k_1 = 5.2 \\times 10^9$) is the slower step.\n\nHence, the overall rate constant is closest to $k_1 = 5.2 \\times 10^9$ L mol$^{-1}$ s$^{-1}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Chemical Kinetics",
+    "question": "Combustion of carbon is exothermic, but coal stored in coal depots does not burn automatically because of:",
+    "question_latex": "Combustion of carbon is exothermic, but coal stored in coal depots does not burn automatically because of:",
+    "question_images": [],
+    "options": [
+      "A. High threshold energy barrier",
+      "B. Kinetic stability of coal",
+      "C. Higher energy of activation needed for burning",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "The higher threshold energy barrier prevents coal from burning spontaneously and provides kinetic stability to fuel. All the given reasons are correct and applicable.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Chemical Kinetics",
+    "question": "For a reaction between A and B, the initial rate of reaction is measured for various initial concentrations: Exp 1: [A]=0.20M, [B]=0.30M, Rate=5×10⁻⁵; Exp 2: [A]=0.20M, [B]=0.10M, Rate=5×10⁻⁵; Exp 3: [A]=0.40M, [B]=0.05M, Rate=1×10⁻⁵. The overall order of the reaction is",
+    "question_latex": "For a reaction between $A$ and $B$, the initial rate data is:\n\\begin{array}{|c|c|c|c|}\\hline \\text{Exp} & [A] & [B] & \\text{Rate} \\\\ \\hline 1 & 0.20\\text{ M} & 0.30\\text{ M} & 5\\times10^{-5} \\\\ 2 & 0.20\\text{ M} & 0.10\\text{ M} & 5\\times10^{-5} \\\\ 3 & 0.40\\text{ M} & 0.05\\text{ M} & 1\\times10^{-5} \\\\ \\hline \\end{array}\nThe overall order of the reaction is",
+    "question_images": [],
+    "options": [
+      "A. One",
+      "B. Two",
+      "C. Two and half",
+      "D. Three"
+    ],
+    "option_images": [],
+    "answer": "A. One",
+    "solution": "Let rate $= k[A]^n[B]^m$\n\nFrom exp (1) and (2): $[A]$ same, $[B]$ triples but rate same $\\Rightarrow m = 0$\n\nFrom exp (1) and (3): $[B]$ changes, $[A]$ doubles, rate halves.\n\n$$\\frac{5\\times10^{-5}}{1\\times10^{-5}} = \\left(\\frac{0.20}{0.40}\\right)^n \\cdot \\left(\\frac{0.10}{0.05}\\right)^0$$\n\n$$5 = \\left(\\frac{1}{2}\\right)^n \\Rightarrow n = 1$$\n\nOverall order $= n + m = 1 + 0 = 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Chemical Kinetics",
+    "question": "The half-life of a reaction is inversely proportional to the square of the initial concentration of the reactant. Then the order of the reaction is",
+    "question_latex": "The half-life of a reaction is inversely proportional to the square of the initial concentration of the reactant. Then the order of the reaction is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "$$t_{1/2} \\propto \\frac{1}{a^2}$$\n\nWe know that $t_{1/2} \\propto \\frac{1}{a^{n-1}}$\n\n$$\\therefore a^{n-1} = a^2 \\Rightarrow n - 1 = 2 \\Rightarrow n = 3$$\n\nThus the reaction is of 3rd order.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Chemical Kinetics",
+    "question": "A drop of a solution (volume = 0.05 mL) contains 6 × 10⁻⁷ mol of H⁺. If the rate of disappearance of H⁺ is 6.0 × 10⁵ mol L⁻¹ s⁻¹, how long will it take for H⁺ to disappear from the drop?",
+    "question_latex": "A drop of a solution (volume $= 0.05$ mL) contains $6 \\times 10^{-7}$ mol of H$^+$. If the rate of disappearance of H$^+$ is $6.0 \\times 10^5$ mol L$^{-1}$ s$^{-1}$, how long will it take for H$^+$ to disappear from the drop?",
+    "question_images": [],
+    "options": [
+      "A. 8.0 × 10⁻⁴ s",
+      "B. 2.0 × 10⁻⁸ s",
+      "C. 6.0 × 10⁻⁶ s",
+      "D. 2.0 × 10⁻² s"
+    ],
+    "option_images": [],
+    "answer": "B. 2.0 × 10⁻⁸ s",
+    "solution": "$$[H^+] = \\frac{6 \\times 10^{-7} \\text{ mol}}{5 \\times 10^{-5} \\text{ L}} = 1.2 \\times 10^{-2} \\text{ M}$$\n\n$$\\text{rate} = \\frac{dx}{dt} \\Rightarrow dt = \\frac{dx}{\\text{rate}} = \\frac{1.2 \\times 10^{-2} \\text{ M}}{6 \\times 10^5 \\text{ M/s}}$$\n\n$$= 2 \\times 10^{-8} \\text{ s}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Chemical Kinetics",
+    "question": "The reaction 2X → B is a zeroth order reaction. If the initial concentration of X is 0.2 M, the half-life is 6 h. When the initial concentration of X is 0.5 M, the time required to reach its final concentration of 0.2 M will be (Jan 2019)",
+    "question_latex": "The reaction $2X \\rightarrow B$ is a zeroth order reaction. If the initial concentration of $X$ is $0.2$ M, the half-life is $6$ h. When the initial concentration of $X$ is $0.5$ M, the time required to reach its final concentration of $0.2$ M will be (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 7.2 h",
+      "B. 9.0 h",
+      "C. 12.0 h",
+      "D. 18.0 h"
+    ],
+    "option_images": [],
+    "answer": "D. 18.0 h",
+    "solution": "For zero order reaction:\n$$t_{1/2} = \\frac{a_0}{2k} \\Rightarrow k = \\frac{a_0}{2t_{1/2}} = \\frac{0.2}{2 \\times 6} = 1.67 \\times 10^{-2} \\text{ mol L}^{-1}\\text{ h}^{-1}$$\n\n$$A_t = A_0 - kt$$\n$$0.2 = 0.5 - 1.67 \\times 10^{-2} \\cdot t$$\n$$t = \\frac{0.3}{1.67 \\times 10^{-2}} = 18 \\text{ h}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Chemical Kinetics",
+    "question": "If the rate of reaction between A and B is given by rate = K[A][B]ⁿ, then the reaction is:",
+    "question_latex": "If the rate of reaction between $A$ and $B$ is given by rate $= K[A][B]^n$, then the reaction is:",
+    "question_images": [],
+    "options": [
+      "A. First order in A",
+      "B. nth order in B",
+      "C. Overall order is (1+n)",
+      "D. All are correct"
+    ],
+    "option_images": [],
+    "answer": "D. All are correct",
+    "solution": "Order of reaction is the sum of powers raised on concentration terms in the rate expression.\n\n- Order w.r.t. $A = 1$ → First order in $A$ ✓\n- Order w.r.t. $B = n$ → nth order in $B$ ✓\n- Overall order $= 1 + n$ ✓\n\nAll statements are correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Chemical Kinetics",
+    "question": "In a first order reaction the concentration of reactant decreases from 800 mol/dm³ to 50 mol/dm³ in 2 × 10⁴ s. The rate constant of reaction in s⁻¹ is",
+    "question_latex": "In a first order reaction the concentration of reactant decreases from $800$ mol/dm$^3$ to $50$ mol/dm$^3$ in $2 \\times 10^4$ s. The rate constant of reaction in s$^{-1}$ is",
+    "question_images": [],
+    "options": [
+      "A. 2 × 10⁴",
+      "B. 3.45 × 10⁻⁵",
+      "C. 1.386 × 10⁻⁴",
+      "D. 2 × 10⁻⁴"
+    ],
+    "option_images": [],
+    "answer": "C. 1.386 × 10⁻⁴",
+    "solution": "$$k = \\frac{2.303}{t}\\log\\frac{A_0}{A_t} = \\frac{2.303}{2\\times10^4}\\log\\frac{800}{50}$$\n\n$$= \\frac{2.303}{2\\times10^4}\\log 16$$\n\n$$= 1.386 \\times 10^{-4} \\text{ s}^{-1}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Chemical Kinetics",
+    "question": "Which of the following explains the increase of the reaction rate by catalyst?",
+    "question_latex": "Which of the following explains the increase of the reaction rate by catalyst?",
+    "question_images": [],
+    "options": [
+      "A. Catalyst decreases the rate of backward reaction so that the rate of forward reaction increases",
+      "B. Catalyst provides extra energy to reacting molecules so that they may produce effective collisions",
+      "C. Catalyst provides an alternative path of lower activation energy to the reactants",
+      "D. Catalyst increases the number of collisions between the reacting molecules"
+    ],
+    "option_images": [],
+    "answer": "C. Catalyst provides an alternative path of lower activation energy to the reactants",
+    "solution": "A catalyst increases the reaction rate by providing an alternative reaction pathway with lower activation energy. This allows more molecules to have sufficient energy to react, thereby increasing the rate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Chemical Kinetics",
+    "question": "t(1/4) can be taken as the time taken for the concentration of a reactant to drop to 3/4 of its initial value. If the rate constant for a first order reaction is k, the t(1/4) can be written as (2005)",
+    "question_latex": "$t_{1/4}$ can be taken as the time taken for the concentration of a reactant to drop to $\\frac{3}{4}$ of its initial value. If the rate constant for a first order reaction is $k$, the $t_{1/4}$ can be written as (2005)",
+    "question_images": [],
+    "options": [
+      "A. 0.10/k",
+      "B. 0.29/k",
+      "C. 0.75/k",
+      "D. 0.69/k"
+    ],
+    "option_images": [],
+    "answer": "B. 0.29/k",
+    "solution": "$$t_{1/4} = \\frac{2.303}{k}\\log\\frac{a}{3a/4} = \\frac{2.303}{k}\\log\\frac{4}{3}$$\n\n$$= \\frac{2.303}{k} \\times 0.1249 = \\frac{0.29}{k}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Chemical Kinetics",
+    "question": "The elementary step of the reaction, 2Na + Cl2 = 2NaCl is found to follow III order kinetics. Its molecularity is:",
+    "question_latex": "The elementary step of the reaction, $2Na + Cl_2 = 2NaCl$ is found to follow III order kinetics. Its molecularity is:",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "For the elementary step $2Na + Cl_2 \\rightarrow 2NaCl$: there are 2 molecules of Na and 1 molecule of $Cl_2$ taking part, giving a total of 3 molecules.\n\nMolecularity = 3 (termolecular).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Chemical Kinetics",
+    "question": "A following mechanism has been proposed for a reaction: 2A + B → D + E; A + B → C + D (slow); A + C → E (fast). The rate law expression for the reaction is",
+    "question_latex": "A following mechanism has been proposed for a reaction: $2A + B \\rightarrow D + E$; $A + B \\rightarrow C + D$ (slow); $A + C \\rightarrow E$ (fast). The rate law expression for the reaction is",
+    "question_images": [],
+    "options": [
+      "A. r = k[A]²[B]",
+      "B. r = k[A][B]",
+      "C. r = k[A]²",
+      "D. r = k[A][C]"
+    ],
+    "option_images": [],
+    "answer": "B. r = k[A][B]",
+    "solution": "The rate is determined by the slowest step:\n$$A + B \\rightarrow C + D \\quad (\\text{slow})$$\n\nHence, $r = k[A][B]$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Chemical Kinetics",
+    "question": "The activation energy for a simple chemical reaction A → B is Ea in forward direction. The activation energy for the reverse reaction",
+    "question_latex": "The activation energy for a simple chemical reaction $A \\rightarrow B$ is $E_a$ in forward direction. The activation energy for the reverse reaction",
+    "question_images": [],
+    "options": [
+      "A. Is negative of Ea",
+      "B. Is always less than Ea",
+      "C. Can be less than or more than Ea",
+      "D. Is always double of Ea"
+    ],
+    "option_images": [],
+    "answer": "C. Can be less than or more than Ea",
+    "solution": "$$\\Delta H = E_{a(\\text{forward})} - E_{a(\\text{reverse})}$$\n\nIf reaction is exothermic ($\\Delta H < 0$): $E_{a(\\text{rev})} > E_{a(\\text{fwd})}$\n\nIf reaction is endothermic ($\\Delta H > 0$): $E_{a(\\text{rev})} < E_{a(\\text{fwd})}$\n\nSo the reverse activation energy can be less than or more than $E_a$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Chemical Kinetics",
+    "question": "At 30°C, the half-life for the decomposition of AB2 is 200 s and is independent of the initial concentration of AB2. The time required for 80% of the AB2 to decompose is (Given: log2 = 0.30, log3 = 0.486) (July 2022)",
+    "question_latex": "At $30^\\circ$C, the half-life for the decomposition of $AB_2$ is $200$ s and is independent of the initial concentration of $AB_2$. The time required for $80\\%$ of the $AB_2$ to decompose is (Given: $\\log 2 = 0.30$, $\\log 3 = 0.486$) (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 532 s",
+      "B. 200 s",
+      "C. 467 s",
+      "D. 323 s"
+    ],
+    "option_images": [],
+    "answer": "C. 467 s",
+    "solution": "Since half-life is independent of concentration, it is a first order reaction.\n\n$$k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{200}$$\n\n$$t = \\frac{2.303}{k}\\log\\frac{100}{100-80} = \\frac{2.303}{0.693} \\times 200 \\times \\log 5$$\n\n$$= \\frac{2.303}{0.693} \\times 200 \\times 0.699 = 466.66 \\approx 467 \\text{ s}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Chemical Kinetics",
+    "question": "In a reaction, the threshold energy is equal to",
+    "question_latex": "In a reaction, the threshold energy is equal to",
+    "question_images": [],
+    "options": [
+      "A. Activation energy + normal energy of reactants",
+      "B. Activation energy - normal energy of reactants",
+      "C. Normal energy of reactants - activation energy",
+      "D. Average kinetic energy of molecules of reactants"
+    ],
+    "option_images": [],
+    "answer": "A. Activation energy + normal energy of reactants",
+    "solution": "Threshold Energy $=$ Energy of activation $+$ Internal (normal) energy of reactants\n\nThis is the minimum energy that the reacting molecules must possess for the reaction to occur.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Chemical Kinetics",
+    "question": "The temperature dependence of rate constant (k) of a chemical reaction is written in terms of Arrhenius equation, k = Ae^(-E*/RT). Activation energy (E*) of the reaction can be calculated by plotting",
+    "question_latex": "The temperature dependence of rate constant ($k$) of a chemical reaction is written in terms of Arrhenius equation, $k = Ae^{-E^*/RT}$. Activation energy ($E^*$) of the reaction can be calculated by plotting",
+    "question_images": [],
+    "options": [
+      "A. log k vs 1/T",
+      "B. log k vs 1/logT",
+      "C. k vs T",
+      "D. k vs log T"
+    ],
+    "option_images": [],
+    "answer": "A. log k vs 1/T",
+    "solution": "From Arrhenius equation:\n$$\\ln k = \\ln A - \\frac{E_a}{RT}$$\n\n$$\\log k = \\log A - \\frac{E_a}{2.303RT}$$\n\nThis is of the form $y = mx + c$ where $y = \\log k$ and $x = \\frac{1}{T}$.\n\nSlope $= \\frac{-E_a}{2.303R}$\n\nSo plotting $\\log k$ vs $\\frac{1}{T}$ gives a straight line and $E_a$ is calculated from the slope.",
+    "solution_images": [
+      "49_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Chemical Kinetics",
+    "question": "Consider the elementary reaction A(g) + B(g) → C(g) + D(g). If the volume of reaction mixture is suddenly reduced to 1/3 of its initial volume, the reaction rate will become 'x' times of the original reaction rate. The value of x is: [Jan. 28, 2025 (II)]",
+    "question_latex": "Consider the elementary reaction $A(g) + B(g) \\rightarrow C(g) + D(g)$. If the volume of reaction mixture is suddenly reduced to $\\frac{1}{3}$ of its initial volume, the reaction rate will become '$x$' times of the original reaction rate. The value of $x$ is: [Jan. 28, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 3",
+      "C. 1/9",
+      "D. 1/3"
+    ],
+    "option_images": [],
+    "answer": "A. 9",
+    "solution": "$$r_1 = k[A]^1[B]^1$$\n\nBy reducing the volume to $\\frac{1}{3}$ of its original volume, the concentration of each reactant becomes 3 times.\n\n$$r_2 = k[3A][3B] = 9k[A][B] = 9r_1$$\n\nRate will become 9 times the initial rate. $x = 9$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

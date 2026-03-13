@@ -1,0 +1,1904 @@
+[
+  {
+    "id": 1,
+    "chapter": "Matrices",
+    "question": "If A = [[a, b], [c, d]] and A² = [[α, β], [β, α]], then",
+    "question_latex": "If $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ and $A^2 = \\begin{pmatrix} \\alpha & \\beta \\\\ \\beta & \\alpha \\end{pmatrix}$, then",
+    "question_images": [
+      "q1_1"
+    ],
+    "options": [
+      "A. α = a² + b², β = ab",
+      "B. α = a² + b², β = 2ab",
+      "C. α = a² + b², β = a² − b²",
+      "D. α = 2ab, β = a² + b²"
+    ],
+    "option_images": [],
+    "answer": "D. α = 2ab, β = a² + b²",
+    "solution": "By computing $A^2 = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, matching with $\\begin{pmatrix} \\alpha & \\beta \\\\ \\beta & \\alpha \\end{pmatrix}$ gives $\\alpha = 2ab$ and $\\beta = a^2 + b^2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Matrices",
+    "question": "If [[1,1],[0,1]]·[[1,2],[0,1]]·[[1,3],[0,1]]·...·[[1,n-1],[0,1]] = [[1,78],[0,1]], then the inverse of [[1,n],[0,1]] is (Jan 2020)",
+    "question_latex": "If $\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\cdot\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\\cdots\\begin{pmatrix}1&n-1\\\\0&1\\end{pmatrix}=\\begin{pmatrix}1&78\\\\0&1\\end{pmatrix}$, then the inverse of $\\begin{pmatrix}1&n\\\\0&1\\end{pmatrix}$ is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. [[1,-13],[0,1]]",
+      "B. [[1,0],[13,1]]",
+      "C. [[1,0],[12,1]]",
+      "D. [[1,-12],[0,1]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[1,-13],[0,1]]",
+    "solution": "The product gives $\\frac{n(n-1)}{2}=78 \\Rightarrow n^2-n-156=0 \\Rightarrow (n-13)(n+12)=0 \\Rightarrow n=13$.\n\nSo $A = \\begin{pmatrix}1&13\\\\0&1\\end{pmatrix}$, $|A|=1\\neq 0$. $C_{11}=1, C_{12}=0, C_{21}=-13, C_{22}=1$.\n\n$A^{-1} = \\frac{\\text{adj}(A)}{|A|} = \\begin{pmatrix}1&-13\\\\0&1\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Matrices",
+    "question": "An ordered pair (α, β) for which the system of linear equations (1+α)x + βy + z = 2, αx + (1+β)y + z = 3, αx + βy + 2z = 2 has a unique solution, is (Jan 2019)",
+    "question_latex": "An ordered pair $(\\alpha, \\beta)$ for which the system of linear equations $(1+\\alpha)x + \\beta y + z = 2$, $\\alpha x + (1+\\beta)y + z = 3$, $\\alpha x + \\beta y + 2z = 2$ has a unique solution, is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. (-3,1)",
+      "B. (2,4)",
+      "C. (-4,2)",
+      "D. (1,-3)"
+    ],
+    "option_images": [],
+    "answer": "B. (2,4)",
+    "solution": "For unique solution $\\begin{vmatrix}1+\\alpha & \\beta & 1\\\\ \\alpha & 1+\\beta & 1\\\\ \\alpha & \\beta & 2\\end{vmatrix}\\neq 0$.\n\nExpanding: $(1+\\alpha)(2+2\\beta-\\beta)-\\beta(2\\alpha-\\alpha)+1(\\alpha\\beta-\\alpha-\\alpha\\beta)\\neq 0$\n$\\Rightarrow 2+\\alpha+\\beta \\neq 0$.\n\n$(2,4)$ satisfies this condition.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Matrices",
+    "question": "Let S denote the set of all real values of λ such that the system of equations λx + y + z = 1, x + λy + z = 1, x + y + λz = 1 is inconsistent, then Σ(|λ|² + |λ|) is equal to (Feb 2023)",
+    "question_latex": "Let $S$ denote the set of all real values of $\\lambda$ such that the system of equations $\\lambda x + y + z = 1$, $x + \\lambda y + z = 1$, $x + y + \\lambda z = 1$ is inconsistent, then $\\sum_{\\lambda \\in S}(|\\lambda|^2 + |\\lambda|)$ is equal to (Feb 2023)",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 12",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "D. 6",
+    "solution": "For inconsistency: $\\begin{vmatrix}\\lambda&1&1\\\\1&\\lambda&1\\\\1&1&\\lambda\\end{vmatrix}=0$\n$\\Rightarrow \\lambda(\\lambda^2-1)-1(\\lambda-1)+1(1-\\lambda)=0$\n$\\Rightarrow (\\lambda-1)(\\lambda^2+\\lambda-2)=0 \\Rightarrow \\lambda=1, \\frac{-1\\pm 3}{2}$\n$\\Rightarrow \\lambda=1,1,-2$.\n\nFor $\\lambda=1$: infinite solutions (only one equation). For $\\lambda=-2$: $D_1=9\\neq 0$, so no solution.\n\n$S=\\{-2\\}$, $\\sum_{\\lambda\\in S}(|\\lambda|^2+|\\lambda|)=(4+2)=6$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Matrices",
+    "question": "If for the matrix A = [[1,-α],[α,β]], AA^T = I₂, then the value of α⁴ + β⁴ is (Feb 2021)",
+    "question_latex": "If for the matrix $A = \\begin{pmatrix}1 & -\\alpha\\\\ \\alpha & \\beta\\end{pmatrix}$, $AA^T = I_2$, then the value of $\\alpha^4 + \\beta^4$ is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "$AA^T = I_2 \\Rightarrow \\begin{pmatrix}1&-\\alpha\\\\\\alpha&\\beta\\end{pmatrix}\\begin{pmatrix}1&\\alpha\\\\-\\alpha&\\beta\\end{pmatrix} = \\begin{pmatrix}1+\\alpha^2 & \\alpha-\\alpha\\beta\\\\ \\alpha-\\alpha\\beta & \\alpha^2+\\beta^2\\end{pmatrix} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$\n\n$\\Rightarrow \\alpha^2=0$ and $\\beta^2=1 \\therefore \\alpha^4+\\beta^4=1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Matrices",
+    "question": "Let α and β be real numbers. Consider a 3×3 matrix A such that A² = 3A + αI. If A⁴ = 21A + βI, then (Jan 2023)",
+    "question_latex": "Let $\\alpha$ and $\\beta$ be real numbers. Consider a $3\\times 3$ matrix $A$ such that $A^2 = 3A + \\alpha I$. If $A^4 = 21A + \\beta I$, then (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. β = -8",
+      "B. α = 1",
+      "C. β = 8",
+      "D. α = 4"
+    ],
+    "option_images": [],
+    "answer": "A. β = -8",
+    "solution": "Given $A^2 = 3A + \\alpha I$.\n$A^2 \\cdot A^2 = (3A+\\alpha I)(3A+\\alpha I) = 9A^2+6\\alpha A+\\alpha^2 I = 9(3A+\\alpha I)+6\\alpha A+\\alpha^2 I = (27+6\\alpha)A+(9\\alpha+\\alpha^2)I$.\n$A^4 = (27+6\\alpha)A+(9\\alpha+\\alpha^2)I$.\n\n$27+6\\alpha=21 \\Rightarrow \\alpha=-1$.\n$9\\alpha+\\alpha^2=\\beta \\Rightarrow 9(-1)+(-1)^2 = \\beta \\Rightarrow \\beta=-8$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Matrices",
+    "question": "The simultaneous equations Kx + 2y - z = 1, (K-1)y - 2z = 2 and (K+2)z = 3 have only one solution when",
+    "question_latex": "The simultaneous equations $Kx + 2y - z = 1$, $(K-1)y - 2z = 2$ and $(K+2)z = 3$ have only one solution when",
+    "question_images": [],
+    "options": [
+      "A. K = -2",
+      "B. K = -1",
+      "C. K = 0",
+      "D. K = 1"
+    ],
+    "option_images": [],
+    "answer": "B. K = -1",
+    "solution": "For unique solution: $\\begin{vmatrix}K&2&-1\\\\0&K-1&-2\\\\0&0&K+2\\end{vmatrix}\\neq 0$\n$\\Rightarrow (K+2)(K)(K-1)\\neq 0 \\Rightarrow K\\neq 2, 0, 1$.\n\nFrom options, $K=-1$ is the required answer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Matrices",
+    "question": "If the system of equations x + y + z = 5, x + 2y + 3z = 9, x + 3y + αz = β has infinitely many solutions, then β - α equals (Jan 2019)",
+    "question_latex": "If the system of equations $x+y+z=5$, $x+2y+3z=9$, $x+3y+\\alpha z=\\beta$ has infinitely many solutions, then $\\beta-\\alpha$ equals (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 8",
+      "C. 21",
+      "D. 18"
+    ],
+    "option_images": [],
+    "answer": "B. 8",
+    "solution": "For infinitely many solutions: $\\Delta = 0 = \\Delta_x = \\Delta_y = \\Delta_z$.\n\nSolving $\\Delta=0$ gives $\\alpha=5$. Then using $\\Delta_x=0$ gives $\\beta=13$.\n\n$\\beta-\\alpha=13-5=8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Matrices",
+    "question": "If f(x) = x² - 5x, A = [[3,1],[-1,2]], then f(A) is equal to",
+    "question_latex": "If $f(x)=x^2-5x$, $A=\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}$, then $f(A)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[-7,0],[0,-7]]",
+      "B. [[0,-7],[-7,0]]",
+      "C. [[7,0],[0,7]]",
+      "D. [[0,7],[7,0]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[-7,0],[0,-7]]",
+    "solution": "$f(A) = A^2 - 5A = \\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix} - 5\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}$\n$= \\begin{pmatrix}8&5\\\\-5&3\\end{pmatrix} - \\begin{pmatrix}15&5\\\\-5&10\\end{pmatrix} = \\begin{pmatrix}-7&0\\\\0&-7\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Matrices",
+    "question": "If A = [[1,-1,2],[2,3,5],[-2,0,1]], then adj A is",
+    "question_latex": "If $A = \\begin{pmatrix}1&-1&2\\\\2&3&5\\\\-2&0&1\\end{pmatrix}$, then $\\text{adj}\\, A$ is",
+    "question_images": [],
+    "options": [
+      "A. [[3,-11,6],[1,5,2],[-11,-1,5]]",
+      "B. [[3,1,-11],[-12,5,-1],[6,2,5]]",
+      "C. [[6,2,5],[3,1,-11],[-12,2,5]]",
+      "D. [[3,-1,11],[12,-5,2],[-6,2,5]]"
+    ],
+    "option_images": [],
+    "answer": "B. [[3,1,-11],[-12,5,-1],[6,2,5]]",
+    "solution": "Computing cofactors: $c_{11}=3, c_{12}=-12, c_{13}=6, c_{21}=1, c_{22}=5, c_{23}=2, c_{31}=-11, c_{32}=-1, c_{33}=5$.\n\n$\\text{adj}(A) = \\begin{pmatrix}3&1&-11\\\\-12&5&-1\\\\6&2&5\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Matrices",
+    "question": "Let A be a 3×3 real matrix such that A²(A-2I) - 4(A-I) = O. If A⁵ = αA² + βA + γI, where α, β and γ are real constants, then α + β + γ is equal to [April 2, 2025(II)]",
+    "question_latex": "Let $A$ be a $3\\times 3$ real matrix such that $A^2(A-2I)-4(A-I)=O$. If $A^5=\\alpha A^2+\\beta A+\\gamma I$, where $\\alpha,\\beta,\\gamma$ are real constants, then $\\alpha+\\beta+\\gamma$ is equal to [April 2, 2025(II)]",
+    "question_images": [],
+    "options": [
+      "A. 76",
+      "B. 20",
+      "C. 12",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 12",
+    "solution": "Given: $A^3-2A^2-4A+4I=0 \\Rightarrow A^3=2A^2+4A-4I$.\n$A^4=2A^3+4A^2-4A=2(2A^2+4A-4I)+4A^2-4A=8A^2+4A-8I$.\n$A^5=8A^3+4A^2-8A=8(2A^2+4A-4I)+4A^2-8A=20A^2+24A-32I$.\n\n$\\therefore \\alpha=20, \\beta=24, \\gamma=-32 \\Rightarrow \\alpha+\\beta+\\gamma=12$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Matrices",
+    "question": "If A = [[0,3,3],[-3,0,4],[-3,-4,0]] and B = [[x],[y],[z]] and B' is transpose of B, then B'AB =",
+    "question_latex": "If $A=\\begin{pmatrix}0&3&3\\\\-3&0&4\\\\-3&-4&0\\end{pmatrix}$ and $B=\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$ and $B'$ is transpose of $B$, then $B'AB=$",
+    "question_images": [],
+    "options": [
+      "A. Unit matrix",
+      "B. Scalar matrix",
+      "C. Null matrix",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. Null matrix",
+    "solution": "$B'AB = [x\\ y\\ z]\\begin{pmatrix}0&3&3\\\\-3&0&4\\\\-3&-4&0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$\n$= [-3xy-3xz+3xy-4yz+3xz+4yz+0] = 0$\n\n$\\therefore B'AB$ is a null matrix.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Matrices",
+    "question": "If A is a non-zero column matrix of order m×1 and B is a non-zero row matrix of order 1×n, then rank of AB equals",
+    "question_latex": "If $A$ is a non-zero column matrix of order $m\\times 1$ and $B$ is a non-zero row matrix of order $1\\times n$, then rank of $AB$ equals",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "All two-rowed minors of $AB$ vanish (rows are proportional). But $AB$ is non-zero, so rank$(AB)=1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Matrices",
+    "question": "If A = [[0,1],[1,0]], then A⁴ =",
+    "question_latex": "If $A = \\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$, then $A^4 =$",
+    "question_images": [],
+    "options": [
+      "A. [[1,0],[0,1]]",
+      "B. [[1,1],[0,0]]",
+      "C. [[0,0],[1,1]]",
+      "D. [[0,1],[1,0]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[1,0],[0,1]]",
+    "solution": "$A^2=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I$.\n\n$A^4=(A^2)^2=I^2=I=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Matrices",
+    "question": "If A = [[1,a],[0,1]], then lim(n→∞) (1/n)Aⁿ is",
+    "question_latex": "If $A = \\begin{pmatrix}1&a\\\\0&1\\end{pmatrix}$, then $\\lim_{n\\to\\infty}\\frac{1}{n}A^n$ is",
+    "question_images": [],
+    "options": [
+      "A. [[0,a],[0,0]]",
+      "B. [[0,0],[0,0]]",
+      "C. [[0,1],[0,0]]",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. [[0,a],[0,0]]",
+    "solution": "By PMI, $A^n=\\begin{pmatrix}1&na\\\\0&1\\end{pmatrix}$.\n$\\frac{1}{n}A^n=\\begin{pmatrix}\\frac{1}{n}&a\\\\0&\\frac{1}{n}\\end{pmatrix}$.\n$\\lim_{n\\to\\infty}\\frac{1}{n}A^n=\\begin{pmatrix}0&a\\\\0&0\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Matrices",
+    "question": "If A = [[cosθ, -sinθ],[sinθ, cosθ]], then which of the following statement is not correct?",
+    "question_latex": "If $A=\\begin{pmatrix}\\cos\\theta & -\\sin\\theta\\\\ \\sin\\theta & \\cos\\theta\\end{pmatrix}$, then which of the following statement is not correct?",
+    "question_images": [],
+    "options": [
+      "A. A is orthogonal matrix",
+      "B. A' is orthogonal matrix",
+      "C. Determinant A = 1",
+      "D. A is not invertible"
+    ],
+    "option_images": [],
+    "answer": "D. A is not invertible",
+    "solution": "$|A| = \\cos^2\\theta + \\sin^2\\theta = 1 \\neq 0$, so $A$ is invertible. Hence statement (D) is incorrect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Matrices",
+    "question": "A matrix is",
+    "question_latex": "A matrix is",
+    "question_images": [],
+    "options": [
+      "A. A collection of real numbers.",
+      "B. An array of real numbers.",
+      "C. A collection of real or complex numbers.",
+      "D. An array of real or complex numbers."
+    ],
+    "option_images": [],
+    "answer": "C. A collection of real or complex numbers.",
+    "solution": "By definition of matrix, a matrix is a rectangular array of real or complex numbers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Matrices",
+    "question": "If [[1,1,1],[1,-2,-2],[1,3,1]][[x],[y],[z]] = [[0],[3],[4]], then [[x],[y],[z]] is equal to",
+    "question_latex": "If $\\begin{pmatrix}1&1&1\\\\1&-2&-2\\\\1&3&1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}0\\\\3\\\\4\\end{pmatrix}$, then $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[0],[1],[1]]",
+      "B. [[1],[2],[-3]]",
+      "C. [[5],[-2],[1]]",
+      "D. [[1],[-2],[3]]"
+    ],
+    "option_images": [],
+    "answer": "B. [[1],[2],[-3]]",
+    "solution": "Solving: $x+y+z=0$, $x-2y-2z=3$, $x+3y+z=4$.\n\nSolving these equations: $x=1, y=2, z=-3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Matrices",
+    "question": "If A = [aᵢⱼ]_{m×n} is a matrix and B is a non-singular square submatrix of order r, then",
+    "question_latex": "If $A = [a_{ij}]_{m\\times n}$ is a matrix and $B$ is a non-singular square submatrix of order $r$, then",
+    "question_images": [],
+    "options": [
+      "A. Rank of A is r",
+      "B. Rank of A is greater than r",
+      "C. Rank of A is less than r",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "The rank of $A$ is at least $r$, but may be greater if a larger non-singular submatrix exists. So none of the given statements is definitively correct without additional information.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Matrices",
+    "question": "Let a, b, c be any real numbers. Suppose that there are real numbers x, y, z not all zero such that x = cy + bz, y = az + cx and z = bx + ay. Then a² + b² + c² + 2abc is equal to (2008)",
+    "question_latex": "Let $a, b, c$ be any real numbers. Suppose that there are real numbers $x, y, z$ not all zero such that $x = cy + bz$, $y = az + cx$ and $z = bx + ay$. Then $a^2 + b^2 + c^2 + 2abc$ is equal to (2008)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. -1",
+      "C. 0",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "The system $x - cy - bz = 0$, $cx - y + az = 0$, $bx + ay - z = 0$ has non-trivial solution if determinant of coefficient matrix is zero:\n$\\begin{vmatrix}1&-c&-b\\\\c&-1&a\\\\b&a&-1\\end{vmatrix}=0$\n$\\Rightarrow 1(1-a^2)+c(-c-ab)-b(ca+b)=0 \\Rightarrow a^2+b^2+c^2+2abc=1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Matrices",
+    "question": "If the system of linear equations x + y + z = 5, x + 2y + 2z = 6, x + 3y + λz = μ, (λ, μ ∈ R) has infinitely many solutions, then the value of λ + μ is (April 2019)",
+    "question_latex": "If the system of linear equations $x+y+z=5$, $x+2y+2z=6$, $x+3y+\\lambda z=\\mu$, $(\\lambda,\\mu\\in R)$ has infinitely many solutions, then the value of $\\lambda+\\mu$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 9",
+      "C. 7",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "A. 10",
+    "solution": "For infinitely many solutions $\\Delta=0$ and $\\Delta_x=\\Delta_y=\\Delta_z=0$. Solving gives $\\lambda=3, \\mu=7$, so $\\lambda+\\mu=10$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Matrices",
+    "question": "Let the homogeneous system of linear equations px + y + z = 0, x + qy + z = 0, and x + y + rz = 0, where p, q, r ≠ 1, have a non-zero solution, then the value of 1/(1-p) + 1/(1-q) + 1/(1-r) is",
+    "question_latex": "Let the homogeneous system of linear equations $px+y+z=0$, $x+qy+z=0$, and $x+y+rz=0$, where $p,q,r\\neq 1$, have a non-zero solution, then the value of $\\frac{1}{1-p}+\\frac{1}{1-q}+\\frac{1}{1-r}$ is",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 0",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "For non-zero solution: $\\begin{vmatrix}p&1&1\\\\1&q&1\\\\1&1&r\\end{vmatrix}=0$. Applying $C_2\\to C_2-C_1$, $C_3\\to C_3-C_2$ and simplifying gives $\\frac{1}{1-p}+\\frac{1}{1-q}+\\frac{1}{1-r}=1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Matrices",
+    "question": "If A is a Skew-symmetric matrix and n is even positive integer, then Aⁿ is",
+    "question_latex": "If $A$ is a Skew-symmetric matrix and $n$ is even positive integer, then $A^n$ is",
+    "question_images": [],
+    "options": [
+      "A. Symmetric matrix",
+      "B. Diagonal matrix",
+      "C. Skew-symmetric matrix",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Symmetric matrix",
+    "solution": "$A^T=-A \\Rightarrow (A^T)^n=(-A)^n \\Rightarrow (A^n)^T=(-1)^n A^n = A^n$ if $n$ is even.\n\n$\\therefore A^n$ is a symmetric matrix.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Matrices",
+    "question": "[[-6,5],[-7,6]]⁻¹ =",
+    "question_latex": "$\\begin{pmatrix}-6&5\\\\-7&6\\end{pmatrix}^{-1} =$",
+    "question_images": [],
+    "options": [
+      "A. [[-6,5],[-7,6]]",
+      "B. [[6,-5],[7,6]]",
+      "C. [[6,5],[7,6]]",
+      "D. [[6,-5],[7,-6]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[-6,5],[-7,6]]",
+    "solution": "For $A=\\begin{pmatrix}-6&5\\\\-7&6\\end{pmatrix}$, $|A|=-36+35=-1$.\n$A^{-1}=\\frac{1}{-1}\\begin{pmatrix}6&-5\\\\7&-6\\end{pmatrix}=\\begin{pmatrix}-6&5\\\\-7&6\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Matrices",
+    "question": "The number of distinct real roots of the equation |cosx sinx sinx; sinx cosx sinx; sinx sinx cosx| = 0 in the interval [-π/4, π/4] is (Online 2017)",
+    "question_latex": "The number of distinct real roots of the equation $\\begin{vmatrix}\\cos x & \\sin x & \\sin x\\\\ \\sin x & \\cos x & \\sin x\\\\ \\sin x & \\sin x & \\cos x\\end{vmatrix}=0$ in the interval $\\left[-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right]$ is (Online 2017)",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "C. 2",
+    "solution": "Expanding the determinant and solving yields 2 distinct real roots in the given interval.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Matrices",
+    "question": "If A is a square matrix of order n×n, then adj(adj A) is equal to",
+    "question_latex": "If $A$ is a square matrix of order $n\\times n$, then $\\text{adj}(\\text{adj}\\, A)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. |A|ⁿ A",
+      "B. |A|^(n-1) A",
+      "C. |A|^(n-2) A",
+      "D. |A|^(n-3) A"
+    ],
+    "option_images": [],
+    "answer": "C. |A|^(n-2) A",
+    "solution": "Using $X(\\text{adj}\\,X)=|X|I_n$: $\\text{adj}(A)\\cdot\\text{adj}(\\text{adj}\\,A)=|\\text{adj}\\,A|I_n=|A|^{n-1}I_n$.\nAlso $(A\\cdot\\text{adj}\\,A)\\cdot\\text{adj}(\\text{adj}\\,A)=|A|^{n-1}A$.\n$\\Rightarrow \\text{adj}(\\text{adj}\\,A)=|A|^{n-2}A$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Matrices",
+    "question": "If the system of equation x + y + z = 6, 2x + 5y + αz = β and x + 2y + 3z = 14 has infinitely many solutions, then α + β is equal to (July 2022)",
+    "question_latex": "If the system of equation $x+y+z=6$, $2x+5y+\\alpha z=\\beta$ and $x+2y+3z=14$ has infinitely many solutions, then $\\alpha+\\beta$ is equal to (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 36",
+      "B. 48",
+      "C. 44",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "C. 44",
+    "solution": "For infinitely many solutions $\\Delta=\\Delta_1=\\Delta_2=\\Delta_3=0$. Solving gives $\\alpha=8$ and $\\beta=36$, so $\\alpha+\\beta=44$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Matrices",
+    "question": "Let A and B be two symmetric matrices of same order. Then, the matrix AB - BA is",
+    "question_latex": "Let $A$ and $B$ be two symmetric matrices of same order. Then, the matrix $AB-BA$ is",
+    "question_images": [],
+    "options": [
+      "A. A symmetric matrix",
+      "B. A skew-symmetric matrix",
+      "C. A null matrix",
+      "D. The identity matrix"
+    ],
+    "option_images": [],
+    "answer": "B. A skew-symmetric matrix",
+    "solution": "Given $A=A'$, $B=B'$.\n$(AB-BA)' = (AB)'-(BA)' = B'A'-A'B' = BA-AB = -(AB-BA)$.\n$\\therefore AB-BA$ is a skew-symmetric matrix.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Matrices",
+    "question": "The matrix A = [[1/√2, 2/√2],[-1/√2, -1/√2]] is",
+    "question_latex": "The matrix $A=\\begin{pmatrix}\\frac{1}{\\sqrt{2}}&\\frac{2}{\\sqrt{2}}\\\\-\\frac{1}{\\sqrt{2}}&-\\frac{1}{\\sqrt{2}}\\end{pmatrix}$ is",
+    "question_images": [],
+    "options": [
+      "A. Unitary",
+      "B. Orthogonal",
+      "C. Nilpotent",
+      "D. Involutory"
+    ],
+    "option_images": [],
+    "answer": "C. Nilpotent",
+    "solution": "$A^2=\\begin{pmatrix}\\frac{1}{\\sqrt{2}}&\\frac{1}{\\sqrt{2}}\\\\-\\frac{1}{\\sqrt{2}}&-\\frac{1}{\\sqrt{2}}\\end{pmatrix}\\begin{pmatrix}\\frac{1}{\\sqrt{2}}&\\frac{1}{\\sqrt{2}}\\\\-\\frac{1}{\\sqrt{2}}&-\\frac{1}{\\sqrt{2}}\\end{pmatrix}=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$\n$\\therefore A$ is nilpotent of order 2.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Matrices",
+    "question": "The number of non-trivial solutions of the system x - y + z = 0, x + 2y - z = 0, 2x + y + 3z = 0 is",
+    "question_latex": "The number of non-trivial solutions of the system $x-y+z=0$, $x+2y-z=0$, $2x+y+3z=0$ is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$|A|=1(6+1)+1(3+2)+1(1-4)=7+5-3=9\\neq 0$.\nSince $|A|\\neq 0$, only trivial solution exists. Hence no non-trivial solution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Matrices",
+    "question": "Let P = [[1,0,0],[3,1,0],[9,3,1]] and Q = [qᵢⱼ] be two 3×3 matrices such that Q - P⁵ = I₃. Then (q₂₁ + q₃₁)/q₃₂ is equal to (Jan 2019)",
+    "question_latex": "Let $P=\\begin{pmatrix}1&0&0\\\\3&1&0\\\\9&3&1\\end{pmatrix}$ and $Q=[q_{ij}]$ be two $3\\times 3$ matrices such that $Q-P^5=I_3$. Then $\\frac{q_{21}+q_{31}}{q_{32}}$ is equal to (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 135",
+      "C. 9",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "A. 10",
+    "solution": "Computing $P^2$, then $P^5=P^2\\cdot P^3$. Then find the matrix $Q=P^5+I_3$ and calculate $\\frac{q_{21}+q_{31}}{q_{32}}=10$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Matrices",
+    "question": "[[7,1,2],[9,2,1]][[3],[4],[5]] + 2[[4],[2]] =",
+    "question_latex": "$\\begin{pmatrix}7&1&2\\\\9&2&1\\end{pmatrix}\\begin{pmatrix}3\\\\4\\\\5\\end{pmatrix}+2\\begin{pmatrix}4\\\\2\\end{pmatrix}=$",
+    "question_images": [],
+    "options": [
+      "A. [[43],[41]]",
+      "B. [[42],[44]]",
+      "C. [[41],[44]]",
+      "D. [[43],[44]]"
+    ],
+    "option_images": [],
+    "answer": "D. [[43],[44]]",
+    "solution": "$\\begin{pmatrix}7&1&2\\\\9&2&1\\end{pmatrix}\\begin{pmatrix}3\\\\4\\\\5\\end{pmatrix}=\\begin{pmatrix}35\\\\40\\end{pmatrix}$, adding $2\\begin{pmatrix}4\\\\2\\end{pmatrix}=\\begin{pmatrix}8\\\\4\\end{pmatrix}$ gives $\\begin{pmatrix}43\\\\44\\end{pmatrix}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Matrices",
+    "question": "If A and B are matrices such that AB and A + B both are defined, then",
+    "question_latex": "If $A$ and $B$ are matrices such that $AB$ and $A+B$ both are defined, then",
+    "question_images": [],
+    "options": [
+      "A. A and B can be any two matrices",
+      "B. A and B are square matrices not necessarily of the same order",
+      "C. A, B are square matrices of the same order",
+      "D. Number of columns of A is same as the number of rows of B"
+    ],
+    "option_images": [],
+    "answer": "B. A and B are square matrices not necessarily of the same order",
+    "solution": "For $AB$ to be defined, columns of $A$ = rows of $B$. For $A+B$ to be defined, they must have the same order. Combined: both must be square matrices (but not necessarily the same size).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Matrices",
+    "question": "The value of |(a+1)(a+2) a+2 1; (a+2)(a+3) a+3 1; (a+3)(a+4) a+4 1| is (Feb 2021)",
+    "question_latex": "The value of $\\begin{vmatrix}(a+1)(a+2)&a+2&1\\\\(a+2)(a+3)&a+3&1\\\\(a+3)(a+4)&a+4&1\\end{vmatrix}$ is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. (a+1)(a+2)(a+3)",
+      "B. 0",
+      "C. (a+2)(a+3)(a+4)",
+      "D. -2"
+    ],
+    "option_images": [],
+    "answer": "D. -2",
+    "solution": "Applying $R_2\\to R_2-R_1$ and $R_3\\to R_3-R_1$:\n$\\Delta=\\begin{vmatrix}(a+1)(a+2)&a+2&1\\\\2a+4&1&0\\\\4a+10&2&0\\end{vmatrix}=2(2a+4)-(4a+10)=4a+8-4a-10=-2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Matrices",
+    "question": "If A is a skew-symmetric matrix of odd order, then |adj A| is equal to",
+    "question_latex": "If $A$ is a skew-symmetric matrix of odd order, then $|\\text{adj}\\, A|$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. n",
+      "C. n²",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$A^T=-A \\Rightarrow |A^T|=|-A|=(-1)^n|A|$. Since $n$ is odd, $|A|=(-1)^n|A| \\Rightarrow 2|A|=0 \\Rightarrow |A|=0$.\n$|\\text{adj}\\,A|=|A|^2=0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Matrices",
+    "question": "What must be the matrix X if 2X + [[1,2],[3,4]] = [[3,8],[7,2]]?",
+    "question_latex": "What must be the matrix $X$ if $2X + \\begin{pmatrix}1&2\\\\3&4\\end{pmatrix} = \\begin{pmatrix}3&8\\\\7&2\\end{pmatrix}$?",
+    "question_images": [],
+    "options": [
+      "A. [[1,3],[2,-1]]",
+      "B. [[1,-3],[2,-1]]",
+      "C. [[2,6],[4,-2]]",
+      "D. [[2,-6],[4,-2]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[1,3],[2,-1]]",
+    "solution": "$2X=\\begin{pmatrix}3&8\\\\7&2\\end{pmatrix}-\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}=\\begin{pmatrix}2&6\\\\4&-2\\end{pmatrix}=2\\begin{pmatrix}1&3\\\\2&-1\\end{pmatrix} \\Rightarrow X=\\begin{pmatrix}1&3\\\\2&-1\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Matrices",
+    "question": "If A = [[2,4,5],[4,8,10],[-6,-12,-15]], the rank of A is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}2&4&5\\\\4&8&10\\\\-6&-12&-15\\end{pmatrix}$, the rank of $A$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Applying $R_2\\to R_2-2R_1$ and $R_3\\to R_3+3R_1$:\n$A\\sim\\begin{pmatrix}2&4&5\\\\0&0&0\\\\0&0&0\\end{pmatrix}$. Only one non-zero row, so Rank$(A)=1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Matrices",
+    "question": "The order of [x y z][[a,h,g],[h,b,f],[g,f,c]][[x],[y],[z]] is",
+    "question_latex": "The order of $[x\\ y\\ z]\\begin{pmatrix}a&h&g\\\\h&b&f\\\\g&f&c\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$ is",
+    "question_images": [],
+    "options": [
+      "A. 3×1",
+      "B. 1×1",
+      "C. 1×3",
+      "D. 3×3"
+    ],
+    "option_images": [],
+    "answer": "B. 1×1",
+    "solution": "[x y z] is $1\\times 3$, the middle matrix is $3\\times 3$, [[x],[y],[z]] is $3\\times 1$. Result: $1\\times 3 \\cdot 3\\times 3 \\cdot 3\\times 1 = 1\\times 1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Matrices",
+    "question": "If A = [aᵢⱼ]_{2×2}, where aᵢⱼ = i + j, then A is equal to",
+    "question_latex": "If $A=[a_{ij}]_{2\\times 2}$, where $a_{ij}=i+j$, then $A$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[1,1],[2,2]]",
+      "B. [[1,2],[1,2]]",
+      "C. [[1,2],[3,4]]",
+      "D. [[2,3],[3,4]]"
+    ],
+    "option_images": [],
+    "answer": "D. [[2,3],[3,4]]",
+    "solution": "$a_{11}=1+1=2,\\ a_{12}=1+2=3,\\ a_{21}=2+1=3,\\ a_{22}=2+2=4$.\n$A=\\begin{pmatrix}2&3\\\\3&4\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Matrices",
+    "question": "Let R = [[x,0,0],[0,y,0],[0,0,z]] be a non-zero 3×3 matrix, where x sinθ = y sin(θ + 2π/3) = z sin(θ + 4π/3) ≠ 0, θ ∈ (0, 2π). For a square matrix M, let trace(M) denote the sum of all the diagonal entries of M. Then, among the statements: I. Trace(R) = 0. II. If trace(adj(adj(R))) = 0, then R has exactly one non-zero entry. [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $R=\\begin{pmatrix}x&0&0\\\\0&y&0\\\\0&0&z\\end{pmatrix}$ be a non-zero $3\\times 3$ matrix, where $x\\sin\\theta=y\\sin\\left(\\theta+\\frac{2\\pi}{3}\\right)=z\\sin\\left(\\theta+\\frac{4\\pi}{3}\\right)\\neq 0$, $\\theta\\in(0,2\\pi)$. For a square matrix $M$, let trace$(M)$ denote the sum of all diagonal entries of $M$. Then, among the statements: I. Trace$(R)=0$. II. If trace$(\\text{adj}(\\text{adj}(R)))=0$, then $R$ has exactly one non-zero entry. [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. Only (I) is true",
+      "B. Both (I) and (II) are true",
+      "C. Only (II) is true",
+      "D. Neither (I) nor (II) is true"
+    ],
+    "option_images": [],
+    "answer": "D. Neither (I) nor (II) is true",
+    "solution": "From the condition: $\\sin\\theta+\\sin(\\theta+\\frac{2\\pi}{3})+\\sin(\\theta+\\frac{4\\pi}{3})=0 \\Rightarrow \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow xy+yz+zx=0$.\n\n(i) Trace$(R)=x+y+z\\neq 0$ in general → Statement I is False.\n(ii) Adj(Adj$(R))=|R|R$, Trace$(\\text{Adj(Adj}(R)))=xyz(x+y+z)\\neq 0$ → Statement II is also False.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Matrices",
+    "question": "If X = [[-x,-y],[z,t]], then transpose of adj X is",
+    "question_latex": "If $X=\\begin{pmatrix}-x&-y\\\\z&t\\end{pmatrix}$, then transpose of adj $X$ is",
+    "question_images": [],
+    "options": [
+      "A. [[t,z],[-y,-x]]",
+      "B. [[t,y],[-z,-x]]",
+      "C. [[t,-z],[y,-x]]",
+      "D. [[t,z],[-y,x]]"
+    ],
+    "option_images": [],
+    "answer": "C. [[t,-z],[y,-x]]",
+    "solution": "$(\\text{adj}\\,X)^T=[c_{ij}]^T=\\begin{pmatrix}t&-z\\\\y&-x\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Matrices",
+    "question": "If A is a non-singular square matrix of order n, then the rank of A is",
+    "question_latex": "If $A$ is a non-singular square matrix of order $n$, then the rank of $A$ is",
+    "question_images": [],
+    "options": [
+      "A. Equal to n",
+      "B. Less than n",
+      "C. Greater than n",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Equal to n",
+    "solution": "Since $A$ is non-singular, $|A|\\neq 0 \\Rightarrow \\text{rank}(A)=n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Matrices",
+    "question": "The matrix A has x rows and (x+5) columns. The matrix B has y rows and (11-y) columns. Both AB and BA exist, then x and y are",
+    "question_latex": "The matrix $A$ has $x$ rows and $(x+5)$ columns. The matrix $B$ has $y$ rows and $(11-y)$ columns. Both $AB$ and $BA$ exist, then $x$ and $y$ are",
+    "question_images": [],
+    "options": [
+      "A. 8,3",
+      "B. 3,4",
+      "C. 3,8",
+      "D. 8,8"
+    ],
+    "option_images": [],
+    "answer": "C. 3,8",
+    "solution": "As $AB$ exists: $x+5=y \\Rightarrow x-y=-5$ ...(i). As $BA$ exists: $11-y=x \\Rightarrow x+y=11$ ...(ii).\nAdding: $2x=6 \\Rightarrow x=3$, $y=8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Matrices",
+    "question": "If A = [[-2,3],[-1,1]], then A² =",
+    "question_latex": "If $A=\\begin{pmatrix}-2&3\\\\-1&1\\end{pmatrix}$, then $A^2=$",
+    "question_images": [],
+    "options": [
+      "A. A + I",
+      "B. A I",
+      "C. -A + I",
+      "D. -A - I"
+    ],
+    "option_images": [],
+    "answer": "D. -A - I",
+    "solution": "$A^2=\\begin{pmatrix}-2&3\\\\-1&1\\end{pmatrix}\\begin{pmatrix}-2&3\\\\-1&1\\end{pmatrix}=\\begin{pmatrix}1&-3\\\\1&-2\\end{pmatrix}=-\\begin{pmatrix}-2&3\\\\-1&1\\end{pmatrix}-\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=-A-I$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Matrices",
+    "question": "If A = [[3,4],[5,7]], then A.(adj A) is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}3&4\\\\5&7\\end{pmatrix}$, then $A.(\\text{adj}\\,A)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. A",
+      "B. |A|",
+      "C. |A|I",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. |A|I",
+    "solution": "$|A|=21-20=1$. $A\\cdot\\text{adj}(A)=|A|I=1\\cdot I=|A|I$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Matrices",
+    "question": "If X and Y are 2×2 matrices such that 2X + 3Y = O and X + 2Y = I, where O and I denote the 2×2 zero matrix and the 2×2 identity matrix, then X is equal to (Jan 2020)",
+    "question_latex": "If $X$ and $Y$ are $2\\times 2$ matrices such that $2X+3Y=O$ and $X+2Y=I$, where $O$ and $I$ denote the $2\\times 2$ zero matrix and the $2\\times 2$ identity matrix, then $X$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[1,0],[0,1]]",
+      "B. [[2,0],[0,2]]",
+      "C. [[-3,0],[0,-3]]",
+      "D. [[3,0],[0,3]]"
+    ],
+    "option_images": [],
+    "answer": "C. [[-3,0],[0,-3]]",
+    "solution": "From $2X+3Y=0$ and $X+2Y=I$: multiplying second by 3, $3X+6Y=3I$; multiplying first by 2, $4X+6Y=0$. Subtracting: $X=-3I=\\begin{pmatrix}-3&0\\\\0&-3\\end{pmatrix}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Matrices",
+    "question": "Adjoint of the matrix P = [[-4,-3,-3],[1,0,1],[4,4,2]] is",
+    "question_latex": "Adjoint of the matrix $P=\\begin{pmatrix}-4&-3&-3\\\\1&0&1\\\\4&4&2\\end{pmatrix}$ is",
+    "question_images": [],
+    "options": [
+      "A. P",
+      "B. 2P",
+      "C. -P",
+      "D. 3P"
+    ],
+    "option_images": [],
+    "answer": "A. P",
+    "solution": "Computing cofactors: $c_{11}=-4, c_{12}=1, c_{13}=4, c_{21}=-3, c_{22}=0, c_{23}=4, c_{31}=-3, c_{32}=1, c_{33}=3$.\n$\\text{adj}(P)=\\begin{pmatrix}-4&-3&-3\\\\1&0&1\\\\4&4&2\\end{pmatrix}=P$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Matrices",
+    "question": "If A = [[2,1],[-3,-1]], then A + A' =",
+    "question_latex": "If $A=\\begin{pmatrix}2&1\\\\-3&-1\\end{pmatrix}$, then $A+A'=$",
+    "question_images": [],
+    "options": [
+      "A. Skew-symmetric matrix",
+      "B. Unit matrix",
+      "C. Symmetric matrix",
+      "D. Scalar matrix"
+    ],
+    "option_images": [],
+    "answer": "C. Symmetric matrix",
+    "solution": "$A+A'=\\begin{pmatrix}2&1\\\\-3&-1\\end{pmatrix}+\\begin{pmatrix}2&-3\\\\1&-1\\end{pmatrix}=\\begin{pmatrix}4&-2\\\\-2&-2\\end{pmatrix}$.\nThis is a symmetric matrix.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Matrices",
+    "question": "If a, b, c are non-zero real numbers, then the inverse of the matrix A = [[a,0,0],[0,b,0],[0,0,c]] is",
+    "question_latex": "If $a,b,c$ are non-zero real numbers, then the inverse of the matrix $A=\\begin{pmatrix}a&0&0\\\\0&b&0\\\\0&0&c\\end{pmatrix}$ is",
+    "question_images": [],
+    "options": [
+      "A. [[a⁻¹,0,0],[0,b⁻¹,0],[0,0,c⁻¹]]",
+      "B. abc[[a⁻¹,0,0],[0,b⁻¹,0],[0,0,c⁻¹]]",
+      "C. (1/abc)[[1,0,0],[0,-1,0],[0,0,0]]",
+      "D. (1/abc)[[a,0,0],[0,b,0],[0,0,c]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[a⁻¹,0,0],[0,b⁻¹,0],[0,0,c⁻¹]]",
+    "solution": "$|A|=abc$. $\\text{Adj}\\,A=\\begin{pmatrix}bc&0&0\\\\0&ca&0\\\\0&0&ab\\end{pmatrix}$.\n$A^{-1}=\\frac{\\text{adj}\\,A}{|A|}=\\frac{1}{abc}\\begin{pmatrix}bc&0&0\\\\0&ca&0\\\\0&0&ab\\end{pmatrix}=\\begin{pmatrix}a^{-1}&0&0\\\\0&b^{-1}&0\\\\0&0&c^{-1}\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Matrices",
+    "question": "If the matrices A = [[1,1,2],[1,3,4],[1,-1,3]], B = adj A and C = 3A, then |adj B|/|C| is equal to (Jan 2020)",
+    "question_latex": "If the matrices $A=\\begin{pmatrix}1&1&2\\\\1&3&4\\\\1&-1&3\\end{pmatrix}$, $B=\\text{adj}\\,A$ and $C=3A$, then $\\frac{|\\text{adj}\\,B|}{|C|}$ is equal to (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 2",
+      "C. 8",
+      "D. 72"
+    ],
+    "option_images": [],
+    "answer": "C. 8",
+    "solution": "$|A|=(9+4)-1(3-4)+2(-1-3)=13+1-8=6$.\n$|\\text{adj}\\,B|=|\\text{adj}(\\text{adj}\\,A)|=|A|^{(n-1)^2}=|A|^4=6^4$.\n$|C|=|3A|=3^3\\times 6=27\\times 6$.\n$\\frac{|\\text{adj}\\,B|}{|C|}=\\frac{6^4}{27\\times 6}=\\frac{6^3}{27}=\\frac{216}{27}=8$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Matrices",
+    "question": "If A is a 3×4 matrix and B is a matrix such that AB and BA are both defined, then B is of the type",
+    "question_latex": "If $A$ is a $3\\times 4$ matrix and $B$ is a matrix such that $AB$ and $BA$ are both defined, then $B$ is of the type",
+    "question_images": [],
+    "options": [
+      "A. 4×3",
+      "B. 4×4",
+      "C. 3×3",
+      "D. 4×3"
+    ],
+    "option_images": [],
+    "answer": "A. 4×3",
+    "solution": "Suppose $B$ is $4\\times 3$: order of $A^TB$ is $4\\times 4$ and order of $BA^T$ is $3\\times 3$ — both are possible.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Matrices",
+    "question": "If |x+1 x x; x x+λ x; x x x+λ²| = (9/8)(103x + 81), then λ, λ/3 are the roots of the equation (April 2023)",
+    "question_latex": "If $\\begin{vmatrix}x+1&x&x\\\\x&x+\\lambda&x\\\\x&x&x+\\lambda^2\\end{vmatrix}=\\frac{9}{8}(103x+81)$, then $\\lambda,\\frac{\\lambda}{3}$ are the roots of the equation (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 4x² - 24x + 27 = 0",
+      "B. 4x² + 24x + 27 = 0",
+      "C. 4x² + 24x - 27 = 0",
+      "D. 4x² - 24x - 27 = 0"
+    ],
+    "option_images": [],
+    "answer": "A. 4x² - 24x + 27 = 0",
+    "solution": "Applying $R_1\\to R_1-R_2, R_2\\to R_2-R_3$ and expanding gives $\\lambda=\\frac{9}{2}$. Roots are $\\frac{9}{2}$ and $\\frac{3}{2}$. Required equation: $(x-\\frac{9}{2})(x-\\frac{3}{2})=0 \\Rightarrow 4x^2-24x+27=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Matrices",
+    "question": "If [[x+y, 2x+z],[x-y, 2z+w]] = [[4,7],[0,10]], then the value of x, y, z, w are",
+    "question_latex": "If $\\begin{pmatrix}x+y&2x+z\\\\x-y&2z+w\\end{pmatrix}=\\begin{pmatrix}4&7\\\\0&10\\end{pmatrix}$, then the value of $x, y, z, w$ are",
+    "question_images": [],
+    "options": [
+      "A. 2, 2, 3, 4",
+      "B. 2, 3, 1, 2",
+      "C. 3, 3, 0, 1",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 2, 2, 3, 4",
+    "solution": "$x+y=4$, $x-y=0$, $2x+z=7$, $2z+w=10$. Solving: $x=2, y=2, z=3, w=4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Matrices",
+    "question": "Let A be a symmetric matrix of order 2 with integer entries. If the sum of the diagonal elements of A² is 1, then the possible number of such matrices is (March 2021)",
+    "question_latex": "Let $A$ be a symmetric matrix of order 2 with integer entries. If the sum of the diagonal elements of $A^2$ is 1, then the possible number of such matrices is (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 4",
+      "C. 1",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "Let $A=\\begin{pmatrix}a&b\\\\b&c\\end{pmatrix}$. $A^2=\\begin{pmatrix}a^2+b^2&b(a+c)\\\\b(a+c)&b^2+c^2\\end{pmatrix}$. Trace of $A^2=a^2+2b^2+c^2=1$. Since $a,b,c\\in\\mathbb{Z}$: $b=0$ and $a^2+c^2=1$. $(a,c)\\in\\{(0,\\pm 1),(\\pm 1,0)\\}$. 4 matrices.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Matrices",
+    "question": "If A = [[b,b²],[-a²,-ab]], then A is",
+    "question_latex": "If $A=\\begin{pmatrix}b&b^2\\\\-a^2&-ab\\end{pmatrix}$, then $A$ is",
+    "question_images": [],
+    "options": [
+      "A. Idempotent",
+      "B. Involutory",
+      "C. Nilpotent",
+      "D. Scalar"
+    ],
+    "option_images": [],
+    "answer": "C. Nilpotent",
+    "solution": "$A^2=\\begin{pmatrix}b&b^2\\\\-a^2&-ab\\end{pmatrix}\\begin{pmatrix}b&b^2\\\\-a^2&-ab\\end{pmatrix}=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$. $A$ is nilpotent of order 2.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Matrices",
+    "question": "If A = [1,2,3], B = [[1],[2],[3]], C = [1,3,1] and ABC = [p, q, r], then the values of p, q, r",
+    "question_latex": "If $A=[1\\ 2\\ 3]$, $B=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$, $C=[1\\ 3\\ 1]$ and $ABC=[p\\ q\\ r]$, then the values of $p, q, r$",
+    "question_images": [],
+    "options": [
+      "A. p = 14, q = 14, r = 42",
+      "B. p = 14, q = 42, r = 14",
+      "C. p = 0, q = 42, r = 14",
+      "D. p = 42, q = 14, r = 14"
+    ],
+    "option_images": [],
+    "answer": "B. p = 14, q = 42, r = 14",
+    "solution": "$AB=[1\\ 2\\ 3]\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}=[14]$. $(AB)C=[14][1\\ 3\\ 1]=[14\\ 42\\ 14]$. So $p=14, q=42, r=14$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Matrices",
+    "question": "If a non-singular matrix A satisfies A² - A + 2I = 0, then A⁻¹ =",
+    "question_latex": "If a non-singular matrix $A$ satisfies $A^2 - A + 2I = 0$, then $A^{-1} =$",
+    "question_images": [],
+    "options": [
+      "A. I + A",
+      "B. I - A",
+      "C. (I+A)/2",
+      "D. (I-A)/2"
+    ],
+    "option_images": [],
+    "answer": "D. (I-A)/2",
+    "solution": "$A^2-A+2I=0$. Multiply by $A^{-1}$: $A-I+2A^{-1}=0 \\Rightarrow 2A^{-1}=I-A \\Rightarrow A^{-1}=\\frac{I-A}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Matrices",
+    "question": "If A = [[cosx, sinx, 0],[-sinx, cosx, 0],[0, 0, 1]] = f(x), then A⁻¹ is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}\\cos x&\\sin x&0\\\\-\\sin x&\\cos x&0\\\\0&0&1\\end{pmatrix}=f(x)$, then $A^{-1}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. f(-x)",
+      "B. f(x)",
+      "C. -f(x)",
+      "D. -f(-x)"
+    ],
+    "option_images": [],
+    "answer": "A. f(-x)",
+    "solution": "$|A|=1$. adj $A=(A^c)'=\\begin{pmatrix}\\cos x&-\\sin x&0\\\\\\sin x&\\cos x&0\\\\0&0&1\\end{pmatrix}$.\n$A^{-1}=\\frac{\\text{adj}\\,A}{|A|}=\\begin{pmatrix}\\cos x&-\\sin x&0\\\\\\sin x&\\cos x&0\\\\0&0&1\\end{pmatrix}=f(-x)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Matrices",
+    "question": "If [[x+y, 2x+z],[x-y, 2z+w]] = [[4,7],[0,10]], then the value of x, y, z, w are",
+    "question_latex": "If $\\begin{pmatrix}x+y&2x+z\\\\x-y&2z+w\\end{pmatrix}=\\begin{pmatrix}4&7\\\\0&10\\end{pmatrix}$, then the value of $x, y, z, w$ are",
+    "question_images": [],
+    "options": [
+      "A. 2, 2, 3, 4",
+      "B. 2, 3, 1, 2",
+      "C. 3, 3, 0, 1",
+      "D. 3, 1, 2, 5"
+    ],
+    "option_images": [],
+    "answer": "A. 2, 2, 3, 4",
+    "solution": "$x+y=4$ (i), $x-y=0$ (ii), $2x+z=7$ (iii), $2z+w=10$ (iv). Adding (i) and (ii): $2x=4 \\Rightarrow x=2$. $y=2, z=3, w=4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Matrices",
+    "question": "If A and B are square matrices of the same order such that A is skew-symmetric, then B'AB is",
+    "question_latex": "If $A$ and $B$ are square matrices of the same order such that $A$ is skew-symmetric, then $B'AB$ is",
+    "question_images": [],
+    "options": [
+      "A. Symmetric",
+      "B. Skew-symmetric",
+      "C. A unit matrix",
+      "D. A diagonal matrix"
+    ],
+    "option_images": [],
+    "answer": "B. Skew-symmetric",
+    "solution": "$(B'AB)'=B'A'(B')'=B'(-A)B=-(B'AB)$. Hence $B'AB$ is skew-symmetric.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Matrices",
+    "question": "If A = [[0,1,0],[1,0,0],[0,0,1]], then A⁻¹ is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$, then $A^{-1}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 2A",
+      "B. A",
+      "C. -A",
+      "D. I"
+    ],
+    "option_images": [],
+    "answer": "B. A",
+    "solution": "$|A|=-1$. adj $A=\\begin{pmatrix}0&-1&0\\\\-1&0&0\\\\0&0&-1\\end{pmatrix}$.\n$A^{-1}=\\frac{1}{-1}\\begin{pmatrix}0&-1&0\\\\-1&0&0\\\\0&0&-1\\end{pmatrix}=\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}=A$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Matrices",
+    "question": "If x is a complex cube root of unity and A = [[1,x,x²],[x,x²,1],[x²,1,x]], then A² =",
+    "question_latex": "If $x$ is a complex cube root of unity and $A=\\begin{pmatrix}1&x&x^2\\\\x&x^2&1\\\\x^2&1&x\\end{pmatrix}$, then $A^2=$",
+    "question_images": [],
+    "options": [
+      "A. Unit matrix",
+      "B. Scalar matrix",
+      "C. Null matrix",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. Null matrix",
+    "solution": "Since $x$ is a complex cube root of unity, $x^3=1$, $x^2+x+1=0$. Computing $A^2$: each entry sums to $1+x^2+x=0$ or permutations thereof. Hence $A^2$ is the null matrix.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Matrices",
+    "question": "If A = [[1,1],[1,2],[1,3]], then |AA'| =",
+    "question_latex": "If $A=\\begin{pmatrix}1&1\\\\1&2\\\\1&3\\end{pmatrix}$, then $|AA'|=$",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 6",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "$A'=\\begin{pmatrix}1&1&1\\\\1&2&3\\end{pmatrix}$. $AA'=\\begin{pmatrix}1&1\\\\1&2\\\\1&3\\end{pmatrix}\\begin{pmatrix}1&1&1\\\\1&2&3\\end{pmatrix}=\\begin{pmatrix}3&6\\\\6&14\\end{pmatrix}$.\n$|AA'|=42-36=6$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Matrices",
+    "question": "If A is any m×n matrix such that AB and BA are both defined, then order of matrix B is an",
+    "question_latex": "If $A$ is any $m\\times n$ matrix such that $AB$ and $BA$ are both defined, then order of matrix $B$ is an",
+    "question_images": [],
+    "options": [
+      "A. m×n matrix",
+      "B. n×n matrix",
+      "C. n×m matrix",
+      "D. m×m matrix"
+    ],
+    "option_images": [],
+    "answer": "C. n×m matrix",
+    "solution": "For $AB$ to be defined, $B$ must have $n$ rows. For $BA$ to be defined, $B$ must have $m$ columns. Hence $B$ is $n\\times m$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Matrices",
+    "question": "Consider the system of linear equations x₁ + 2x₂ + x₃ = 3, 2x₁ + 3x₂ + x₃ = 3, 3x₁ + 5x₂ + 2x₃ = 1. The system has (2010)",
+    "question_latex": "Consider the system of linear equations $x_1+2x_2+x_3=3$, $2x_1+3x_2+x_3=3$, $3x_1+5x_2+2x_3=1$. The system has (2010)",
+    "question_images": [],
+    "options": [
+      "A. exactly 3 solutions",
+      "B. a unique solution",
+      "C. infinite number of solutions",
+      "D. no solution"
+    ],
+    "option_images": [],
+    "answer": "D. no solution",
+    "solution": "The sum of first two equations yields $(x_1+2x_2+x_3)+(2x_1+3x_2+x_3)=3+3 \\Rightarrow 3x_1+5x_2+2x_3=6$. But the third equation gives $3x_1+5x_2+2x_3=1$. Contradiction. So no solution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Matrices",
+    "question": "Let A be a matrix of rank r. Then rank(A^T) =",
+    "question_latex": "Let $A$ be a matrix of rank $r$. Then $\\text{rank}(A^T)=$",
+    "question_images": [],
+    "options": [
+      "A. rank(A^T) = r",
+      "B. rank(A^T) < r",
+      "C. rank(A^T) > r",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. rank(A^T) = r",
+    "solution": "Rank of a matrix equals the rank of its transpose: $\\text{rank}(A^T)=\\text{rank}(A)=r$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Matrices",
+    "question": "For any square matrix A, AA^T is a",
+    "question_latex": "For any square matrix $A$, $AA^T$ is a",
+    "question_images": [],
+    "options": [
+      "A. Unit matrix",
+      "B. Symmetric matrix",
+      "C. Skew-symmetric matrix",
+      "D. Diagonal matrix"
+    ],
+    "option_images": [],
+    "answer": "B. Symmetric matrix",
+    "solution": "$(AA^T)^T=(A^T)^T A^T=AA^T$. So $AA^T$ is symmetric.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Matrices",
+    "question": "The cofactor of the elements of third column of [[4,3,1],[1,3,2],[2,1,5]] are",
+    "question_latex": "The cofactor of the elements of third column of $\\begin{pmatrix}4&3&1\\\\1&3&2\\\\2&1&5\\end{pmatrix}$ are",
+    "question_images": [],
+    "options": [
+      "A. 5, 3, 1",
+      "B. -5, 2, 7",
+      "C. -5, 2, 9",
+      "D. 2, 3, 9"
+    ],
+    "option_images": [],
+    "answer": "C. -5, 2, 9",
+    "solution": "$C_{13}=(-1)^{1+3}\\begin{vmatrix}1&3\\\\2&1\\end{vmatrix}=1(1-6)=-5$.\n$C_{23}=(-1)^{2+3}\\begin{vmatrix}4&3\\\\2&1\\end{vmatrix}=-(4-6)=2$.\n$C_{33}=(-1)^{3+3}\\begin{vmatrix}4&3\\\\1&3\\end{vmatrix}=12-3=9$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Matrices",
+    "question": "A and B be 3×3 matrices. Then AB = O implies",
+    "question_latex": "$A$ and $B$ be $3\\times 3$ matrices. Then $AB=O$ implies",
+    "question_images": [],
+    "options": [
+      "A. A = O and B = O",
+      "B. |A| = O and |B| = O",
+      "C. Either |A| = 0 or |B| = 0",
+      "D. A = O or B = O"
+    ],
+    "option_images": [],
+    "answer": "C. Either |A| = 0 or |B| = 0",
+    "solution": "$AB=O \\Rightarrow |AB|=0 \\Rightarrow |A||B|=0 \\Rightarrow |A|=0$ or $|B|=0$. Counter: $A=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}, B=\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$, $AB=O$ but $A\\neq O, B\\neq O$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Matrices",
+    "question": "The adjoint of the matrix [[cosθ, sinθ],[-sinθ, cosθ]] is",
+    "question_latex": "The adjoint of the matrix $\\begin{pmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{pmatrix}$ is",
+    "question_images": [],
+    "options": [
+      "A. [[cosθ,-sinθ],[sinθ,cosθ]]",
+      "B. [[sinθ,cosθ],[cosθ,sinθ]]",
+      "C. [[cosθ,sinθ],[-sinθ,cosθ]]",
+      "D. [[-sinθ,cosθ],[cosθ,sinθ]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[cosθ,-sinθ],[sinθ,cosθ]]",
+    "solution": "adj $A=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Matrices",
+    "question": "If A = [[√2,1],[-1,√2]], B = [[1,0],[1,1]], C = ABA^T and X = A^T C²A, then det X is equal to: [1 Feb, 2024 (Shift-I)]",
+    "question_latex": "If $A=\\begin{pmatrix}\\sqrt{2}&1\\\\-1&\\sqrt{2}\\end{pmatrix}$, $B=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}$, $C=ABA^T$ and $X=A^TC^2A$, then $\\det X$ is equal to: [1 Feb, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 27",
+      "B. 243",
+      "C. 729",
+      "D. 891"
+    ],
+    "option_images": [],
+    "answer": "C. 729",
+    "solution": "$\\det(A)=3$, $\\det(B)=1$. $|C|=|ABA^T|=(\\det A)^2\\det B=9$.\n$|X|=|A^TC^2A|=|A^T||C|^2|A|=|A|^2|C|^2=9\\times 81=729$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Matrices",
+    "question": "The values of λ and μ such that the system of equations x + y + z = 6, 3x + 5y + 5z = 26, x + 2y + λz = μ has no solution, are (July 2021)",
+    "question_latex": "The values of $\\lambda$ and $\\mu$ such that the system of equations $x+y+z=6$, $3x+5y+5z=26$, $x+2y+\\lambda z=\\mu$ has no solution, are (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. λ = 2, μ ≠ 10",
+      "B. λ = 3, μ ≠ 10",
+      "C. λ ≠ 2, μ = 10",
+      "D. λ = 3, μ = 5"
+    ],
+    "option_images": [],
+    "answer": "A. λ = 2, μ ≠ 10",
+    "solution": "For no solution: $|A|=0$ and adj$(A)B\\neq 0$.\n$|A|=\\begin{vmatrix}1&1&1\\\\3&5&5\\\\1&2&\\lambda\\end{vmatrix}=0 \\Rightarrow 1(5\\lambda-10)-1(3\\lambda-5)+1(6-5)=0 \\Rightarrow 2\\lambda-4=0 \\Rightarrow \\lambda=2$.\nFor $\\mu\\neq 10$: adj$(A)B\\neq 0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Matrices",
+    "question": "If A, B are two matrices of the same type, then (A+B)^T is equal to",
+    "question_latex": "If $A, B$ are two matrices of the same type, then $(A+B)^T$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. A^T + B^T",
+      "B. A^T + B",
+      "C. A + B^T",
+      "D. A + B"
+    ],
+    "option_images": [],
+    "answer": "A. A^T + B^T",
+    "solution": "$(A+B)^T = A^T + B^T$ by transpose property.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Matrices",
+    "question": "The system of equations -kx + 3y - 14z = 25, -15x + 4y - kz = 3, -4x + y + 3z = 4 is consistent for all k in the set (June 2022)",
+    "question_latex": "The system of equations $-kx+3y-14z=25$, $-15x+4y-kz=3$, $-4x+y+3z=4$ is consistent for all $k$ in the set (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. R - {13}",
+      "B. R - {-11, 13}",
+      "C. R",
+      "D. R - {-11, 11}"
+    ],
+    "option_images": [],
+    "answer": "D. R - {-11, 11}",
+    "solution": "The system is consistent when $\\begin{vmatrix}-k&3&-14\\\\-15&4&-k\\\\-4&1&3\\end{vmatrix}\\neq 0 \\Rightarrow k^2-121\\neq 0 \\Rightarrow k\\neq\\pm 11$.\nRequired set $=R-\\{-11,11\\}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Matrices",
+    "question": "If m[-3, 4] + n[4, -3] = [10, -11], then 3m + 7n is equal to",
+    "question_latex": "If $m[-3\\ 4]+n[4\\ -3]=[10\\ -11]$, then $3m+7n$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 10",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "$-3m+4n=10$ ...(i), $4m-3n=-11$ ...(ii). Solving: $n=1, m=-2$. $3m+7n=3(-2)+7(1)=1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Matrices",
+    "question": "If the system of equations 11x + y + λz = -5, 2x + 3y + 5z = 3, 8x - 19y - 39z = μ has infinitely many solutions, then λ⁴ - μ is equal to: [05 April, 2024 (Shift-I)]",
+    "question_latex": "If the system of equations $11x+y+\\lambda z=-5$, $2x+3y+5z=3$, $8x-19y-39z=\\mu$ has infinitely many solutions, then $\\lambda^4-\\mu$ is equal to: [05 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 45",
+      "B. 51",
+      "C. 49",
+      "D. 47"
+    ],
+    "option_images": [],
+    "answer": "D. 47",
+    "solution": "For infinite solutions $\\Delta=\\Delta_1=\\Delta_2=\\Delta_3=0$. Solving: $\\lambda=-2, \\mu=-31$.\n$\\lambda^4-\\mu=(-2)^4-(-31)=16+31=47$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Matrices",
+    "question": "Let A be a 2×2 matrix with det(A) = -1 and det((A+I)(Adj(A)+I)) = 4. Then the sum of the diagonal elements of A can be (July 2022)",
+    "question_latex": "Let $A$ be $2\\times 2$ matrix with $\\det(A)=-1$ and $\\det((A+I)(\\text{Adj}(A)+I))=4$. Then the sum of the diagonal elements of $A$ can be (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. -√2",
+      "B. 2",
+      "C. 1",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Let $B=A+I$. $B(\\text{adj}(A)+I)=BA+B=|A|I+B=B-I$.\n$\\det(B-I)=4$ and $\\det(B)=\\det(A+I)$. Given $\\det A=-1$, $(\\text{tr}(A))^2=4 \\Rightarrow |\\text{tr}(A)|=2$. So sum of diagonal elements can be $2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Matrices",
+    "question": "If A = [xy, z], B = [[a,h,g],[h,b,f],[g,f,c]] and C = [[x],[y],[z]], then B'(AB) = 0, if",
+    "question_latex": "If $A=[x\\ y\\ z]$, $B=\\begin{pmatrix}a&h&g\\\\h&b&f\\\\g&f&c\\end{pmatrix}$ and $C=\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$, then $B'(AB)=0$, if",
+    "question_images": [],
+    "options": [
+      "A. ax² + by² + cz² + 2gxy + 2fyz + 2czx = 0",
+      "B. ax² + cy² + bz² + xy + yz + zx = 0",
+      "C. ax² + by² + cz² + 2hxy + 2by + 2cz = 0",
+      "D. ax² + by² + cz² + 2gzx + 2hxy + 2fyz = 0"
+    ],
+    "option_images": [],
+    "answer": "D. ax² + by² + cz² + 2gzx + 2hxy + 2fyz = 0",
+    "solution": "$AB=[xa+yh+zg\\ xh+yb+zf\\ xg+yf+zc]$. $ABC=[ax^2+by^2+cz^2+2gzx+2hxy+2fyz]=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Matrices",
+    "question": "Let A = [[1,2,-3],[-2,0,3],[3,-3,1]] be a matrix, then (determinant of A) × (adjoint of inverse A) is equal to",
+    "question_latex": "Let $A=\\begin{pmatrix}1&2&-3\\\\-2&0&3\\\\3&-3&1\\end{pmatrix}$ be a matrix, then $\\det(A)\\times\\text{adj}(A^{-1})$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. O₃ₓ₃",
+      "B. [[1,2,-3],[-2,0,3],[3,-3,1]]",
+      "C. I₃",
+      "D. [[3,-3,1],[-1,2,-3],[-1,2,-3]]"
+    ],
+    "option_images": [],
+    "answer": "B. [[1,2,-3],[-2,0,3],[3,-3,1]]",
+    "solution": "$A^{-1}\\cdot\\text{adj}(A^{-1})=|A^{-1}|I_3$. $\\text{adj}(A^{-1})=(|A|)^{-1}A$. So $|A|\\cdot\\text{adj}(A^{-1})=A$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Matrices",
+    "question": "The number of symmetric matrices of order 3, with all the entries from the set {0,1,2,3,4,5,6,7,8,9} is (April 2023)",
+    "question_latex": "The number of symmetric matrices of order 3, with all the entries from the set $\\{0,1,2,3,4,5,6,7,8,9\\}$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 10⁶",
+      "B. 6¹⁰",
+      "C. 10⁹",
+      "D. 9¹⁰"
+    ],
+    "option_images": [],
+    "answer": "A. 10⁶",
+    "solution": "A $3\\times 3$ symmetric matrix has 6 independent entries (3 diagonal + 3 upper triangular). Each can be chosen from 10 values. Total = $10^6$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Matrices",
+    "question": "Let the homogeneous system of linear equations px + y + z = 0, x + qy + z = 0, and x + y + rz = 0, where p, q, r ≠ 1, have a non-zero solution, then the value of 1/(1-p) + 1/(1-q) + 1/(1-r) is",
+    "question_latex": "Let the homogeneous system of linear equations $px+y+z=0$, $x+qy+z=0$, and $x+y+rz=0$, where $p,q,r\\neq 1$, have a non-zero solution, then the value of $\\frac{1}{1-p}+\\frac{1}{1-q}+\\frac{1}{1-r}$ is",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 0",
+      "C. 2",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1",
+    "solution": "Same as Q22: $\\frac{1}{1-p}+\\frac{1}{1-q}+\\frac{1}{1-r}=1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Matrices",
+    "question": "The number of real values of λ such that the system of linear equations 2x - 3y + 5z = 9, x + 3y - z = -18, 3x - y + (λ² - |λ|)z = 16 has no solutions, is (July 2022)",
+    "question_latex": "The number of real values of $\\lambda$ such that the system of linear equations $2x-3y+5z=9$, $x+3y-z=-18$, $3x-y+(\\lambda^2-|\\lambda|)z=16$ has no solutions, is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. 2",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 2",
+    "solution": "The system has no solution when $\\Delta=0$ and at least one of $\\Delta_i\\neq 0$. Solving $\\Delta=0$ gives $9\\lambda^2-9|\\lambda|-43=0$. This yields 2 real values.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Matrices",
+    "question": "The matrix A = [[2,λ,-4],[-1,3,4],[1,-2,-3]] is non-singular, if",
+    "question_latex": "The matrix $A=\\begin{pmatrix}2&\\lambda&-4\\\\-1&3&4\\\\1&-2&-3\\end{pmatrix}$ is non-singular, if",
+    "question_images": [],
+    "options": [
+      "A. λ ≠ -2",
+      "B. λ ≠ 2",
+      "C. λ ≠ 3",
+      "D. λ ≠ -3"
+    ],
+    "option_images": [],
+    "answer": "A. λ ≠ -2",
+    "solution": "$|A|=2(-9+8)-\\lambda(3-4)-4(2-3)=−2+\\lambda+4=\\lambda+2$.\nFor non-singular: $\\lambda+2\\neq 0 \\Rightarrow \\lambda\\neq-2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Matrices",
+    "question": "Consider the system of linear equations -x + y + 2z = 0, 3x - ay + 5z = 1, 2x - 2y - az = 7. Let S₁ be the set of all a ∈ R for which the system is inconsistent and S₂ be the set of all a ∈ R for which the system has infinitely many solutions. If n(S₁) and n(S₂) denote the number of elements in S₁ and S₂, then (Sept 2021)",
+    "question_latex": "Consider the system of linear equations $-x+y+2z=0$, $3x-ay+5z=1$, $2x-2y-az=7$. Let $S_1$ be the set of all $a\\in R$ for which the system is inconsistent and $S_2$ be the set of all $a\\in R$ for which the system has infinitely many solutions. If $n(S_1)$ and $n(S_2)$ denote the number of elements in $S_1$ and $S_2$ respectively, then (Sept 2021)",
+    "question_images": [],
+    "options": [
+      "A. n(S₁) = 2, n(S₂) = 0",
+      "B. n(S₁) = 0, n(S₂) = 2",
+      "C. n(S₁) = 2, n(S₂) = 2",
+      "D. n(S₁) = 1, n(S₂) = 0"
+    ],
+    "option_images": [],
+    "answer": "A. n(S₁) = 2, n(S₂) = 0",
+    "solution": "$D=0 \\Rightarrow (a-3)(a-4)=0 \\Rightarrow a=3$ or $4$. For neither value does the system have infinite solutions ($D_1\\neq 0$ for both). So $n(S_1)=2$, $n(S_2)=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Matrices",
+    "question": "If A = [[1,2,-1],[3,0,2],[4,5,0]] and B = [[1,0,0],[2,1,0],[0,1,3]], then AB is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}1&2&-1\\\\3&0&2\\\\4&5&0\\end{pmatrix}$ and $B=\\begin{pmatrix}1&0&0\\\\2&1&0\\\\0&1&3\\end{pmatrix}$, then $AB$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[5,1,-3],[3,2,6],[14,5,0]]",
+      "B. [[11,4,3],[1,2,3],[0,3,3]]",
+      "C. [[1,8,4],[2,9,6],[0,2,0]]",
+      "D. [[0,1,2],[5,4,3],[1,8,2]]"
+    ],
+    "option_images": [],
+    "answer": "A. [[5,1,-3],[3,2,6],[14,5,0]]",
+    "solution": "$AB=\\begin{pmatrix}1&2&-1\\\\3&0&2\\\\4&5&0\\end{pmatrix}\\begin{pmatrix}1&0&0\\\\2&1&0\\\\0&1&3\\end{pmatrix}=\\begin{pmatrix}5&1&-3\\\\3&2&6\\\\14&5&0\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Matrices",
+    "question": "If A is an invertible matrix, then which of the following is correct",
+    "question_latex": "If $A$ is an invertible matrix, then which of the following is correct",
+    "question_images": [],
+    "options": [
+      "A. A⁻¹ is multivalued",
+      "B. A⁻¹ is singular",
+      "C. (A⁻¹)^T ≠ (A^T)⁻¹",
+      "D. |A| ≠ 0"
+    ],
+    "option_images": [],
+    "answer": "D. |A| ≠ 0",
+    "solution": "Since $A$ is invertible, $|A|\\neq 0$. Option (D) is correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Matrices",
+    "question": "If A = [[ab, b²],[-a², -ab]], then A is equal to",
+    "question_latex": "If $A=\\begin{pmatrix}ab&b^2\\\\-a^2&-ab\\end{pmatrix}$, then $A$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. Idempotent",
+      "B. Involuntary",
+      "C. Nilpotent",
+      "D. Scalar"
+    ],
+    "option_images": [],
+    "answer": "C. Nilpotent",
+    "solution": "$A^2=\\begin{pmatrix}ab&b^2\\\\-a^2&-ab\\end{pmatrix}^2=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$. $A$ is nilpotent of order 2.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Matrices",
+    "question": "The matrix [[λ,-1,4],[-3,0,1],[-1,1,2]] is invertible, if",
+    "question_latex": "The matrix $\\begin{pmatrix}\\lambda&-1&4\\\\-3&0&1\\\\-1&1&2\\end{pmatrix}$ is invertible, if",
+    "question_images": [],
+    "options": [
+      "A. λ ≠ -17",
+      "B. λ ≠ -18",
+      "C. λ ≠ -19",
+      "D. λ ≠ -20"
+    ],
+    "option_images": [],
+    "answer": "A. λ ≠ -17",
+    "solution": "$|A|=\\lambda(0-1)+1(-6+1)+4(-3-0)=-\\lambda-5-12=-\\lambda-17$.\nFor invertible: $-\\lambda-17\\neq 0 \\Rightarrow \\lambda\\neq-17$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Matrices",
+    "question": "If A = [[3,1],[-1,2]], then A² =",
+    "question_latex": "If $A=\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}$, then $A^2=$",
+    "question_images": [],
+    "options": [
+      "A. [[8,-5],[-5,3]]",
+      "B. [[8,-5],[5,3]]",
+      "C. [[8,-5],[-5,-3]]",
+      "D. [[8,5],[-5,3]]"
+    ],
+    "option_images": [],
+    "answer": "D. [[8,5],[-5,3]]",
+    "solution": "$A^2=\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}3&1\\\\-1&2\\end{pmatrix}=\\begin{pmatrix}8&5\\\\-5&3\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Matrices",
+    "question": "If A is a singular matrix, then adj A is",
+    "question_latex": "If $A$ is a singular matrix, then adj $A$ is",
+    "question_images": [],
+    "options": [
+      "A. Singular",
+      "B. Non-singular",
+      "C. Symmetric",
+      "D. Not defined"
+    ],
+    "option_images": [],
+    "answer": "A. Singular",
+    "solution": "$A$ is singular $\\Rightarrow |A|=0$. $|\\text{adj}\\,A|=|A|^{n-1}=0$. So adj $A$ is also singular.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Matrices",
+    "question": "Let A = [[1,0,0],[2,1,0],[3,2,1]]. If u₁ and u₂ are column matrices such that Au₁ = [[1],[0],[0]] and Au₂ = [[0],[1],[0]], then u₁ + u₂ is (2012)",
+    "question_latex": "Let $A=\\begin{pmatrix}1&0&0\\\\2&1&0\\\\3&2&1\\end{pmatrix}$. If $u_1$ and $u_2$ are column matrices such that $Au_1=\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}$ and $Au_2=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}$, then $u_1+u_2$ is (2012)",
+    "question_images": [],
+    "options": [
+      "A. [[-1],[1],[-1]]",
+      "B. [[1],[-1],[-1]]",
+      "C. [[-1],[-1],[0]]",
+      "D. [[-1],[1],[0]]"
+    ],
+    "option_images": [],
+    "answer": "B. [[1],[-1],[-1]]",
+    "solution": "Solving $Au_1=e_1$ and $Au_2=e_2$ using $A^{-1}$, then $u_1+u_2=A^{-1}(e_1+e_2)=\\begin{pmatrix}1\\\\-1\\\\-1\\end{pmatrix}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Matrices",
+    "question": "Let A = [[1,-1,1],[2,1,-3],[1,1,1]] and 10B = [[4,2,2],[-5,0,α],[1,-2,3]]. If B is the inverse of matrix A, then α is (2004)",
+    "question_latex": "Let $A=\\begin{pmatrix}1&-1&1\\\\2&1&-3\\\\1&1&1\\end{pmatrix}$ and $10B=\\begin{pmatrix}4&2&2\\\\-5&0&\\alpha\\\\1&-2&3\\end{pmatrix}$. If $B$ is the inverse of matrix $A$, then $\\alpha$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. -2",
+      "C. 2",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "D. 5",
+    "solution": "Since $B=A^{-1}$, $AB=I$. Using this condition and computing, we get $\\alpha=5$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Matrices",
+    "question": "If X is a square matrix 3×3 and λ is a scalar, then adj(λX) =",
+    "question_latex": "If $X$ is a square matrix $3\\times 3$ and $\\lambda$ is a scalar, then $\\text{adj}(\\lambda X)=$",
+    "question_images": [],
+    "options": [
+      "A. λ adj X",
+      "B. λ³ adj X",
+      "C. λ² adj X",
+      "D. λ⁴ adj X"
+    ],
+    "option_images": [],
+    "answer": "C. λ² adj X",
+    "solution": "adj$(\\lambda X)=\\lambda^{n-1}\\text{adj}(X)$. For $n=3$: adj$(\\lambda X)=\\lambda^2\\text{adj}(X)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Matrices",
+    "question": "Let A = [[m,n],[p,q]], d = |A| ≠ 0 and |A - d(Adj A)| = 0. Then (Jan 2023)",
+    "question_latex": "Let $A=\\begin{pmatrix}m&n\\\\p&q\\end{pmatrix}$, $d=|A|\\neq 0$ and $|A-d(\\text{Adj}\\,A)|=0$. Then (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. (1+d)² = m² + q²",
+      "B. 1 + d² = (m+q)²",
+      "C. 1 + d² = m² + q²",
+      "D. (1+d)² = (m+q)²"
+    ],
+    "option_images": [],
+    "answer": "D. (1+d)² = (m+q)²",
+    "solution": "adj$(A)=\\begin{pmatrix}q&-n\\\\-p&m\\end{pmatrix}$. $A-d\\cdot\\text{adj}(A)=\\begin{pmatrix}m-dq&n+dn\\\\p+dp&q-dm\\end{pmatrix}$. Setting determinant $=0$ and using $d=mq-np$ gives $(1+d)^2=(m+q)^2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Matrices",
+    "question": "Let S be the set of all λ ∈ R for which the system of linear equations 2x - y + 2z = 2, x - 2y + λz = -4, x + λy + z = 4 has no solution. Then the set S (Sept 2020)",
+    "question_latex": "Let $S$ be the set of all $\\lambda\\in R$ for which the system of linear equations $2x-y+2z=2$, $x-2y+\\lambda z=-4$, $x+\\lambda y+z=4$ has no solution. Then the set $S$ (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. contains more than two elements.",
+      "B. is a singleton.",
+      "C. is an empty set.",
+      "D. contains exactly two elements."
+    ],
+    "option_images": [],
+    "answer": "D. contains exactly two elements.",
+    "solution": "$\\Delta=(1-\\lambda)(2\\lambda+1)=0 \\Rightarrow \\lambda=1$ or $\\lambda=-\\frac{1}{2}$. For both, $\\Delta_1\\neq 0$. So $S=\\{1,-\\frac{1}{2}\\}$ has exactly 2 elements.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Matrices",
+    "question": "If B is an invertible matrix and A is a matrix, then rank(BA) =",
+    "question_latex": "If $B$ is an invertible matrix and $A$ is a matrix, then",
+    "question_images": [],
+    "options": [
+      "A. rank(BA) = rank(A)",
+      "B. rank(BA) ≥ rank(B)",
+      "C. rank(BA) > rank(A)",
+      "D. rank(BA) > rank(B)"
+    ],
+    "option_images": [],
+    "answer": "A. rank(BA) = rank(A)",
+    "solution": "Since $B$ is invertible, $B^{-1}$ exists. rank$(A)=$ rank$(B^{-1}(BA))\\leq$ rank$(BA)\\leq$ rank$(A)$. Hence rank$(BA)=$rank$(A)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Matrices",
+    "question": "If the system of linear equations 7x + 11y + αz = 13, 5x + 4y + 7z = β, 175x + 194y + 57z = 361 has infinitely many solutions, then α + β + 2 is equal to: (April 2023)",
+    "question_latex": "If the system of linear equations $7x+11y+\\alpha z=13$, $5x+4y+7z=\\beta$, $175x+194y+57z=361$ has infinitely many solutions, then $\\alpha+\\beta+2$ is equal to: (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 3",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "For infinitely many solutions $\\Delta=\\Delta_1=\\Delta_2=\\Delta_3=0$. Solving: $\\alpha=-9$, $\\beta=11$. $\\alpha+\\beta+2=-9+11+2=4$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Matrices",
+    "question": "Let X = [[x₁],[x₂],[x₃]], A = [[1,-1,2],[2,0,1],[3,2,1]] and B = [[3],[1],[4]]. If AX = B, then X is equal to",
+    "question_latex": "Let $X=\\begin{pmatrix}x_1\\\\x_2\\\\x_3\\end{pmatrix}$, $A=\\begin{pmatrix}1&-1&2\\\\2&0&1\\\\3&2&1\\end{pmatrix}$ and $B=\\begin{pmatrix}3\\\\1\\\\4\\end{pmatrix}$. If $AX=B$, then $X$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. [[1],[2],[3]]",
+      "B. [[-1],[-2],[3]]",
+      "C. [[-1],[-2],[-3]]",
+      "D. [[-1],[2],[3]]"
+    ],
+    "option_images": [],
+    "answer": "D. [[-1],[2],[3]]",
+    "solution": "$|A|=1(0-2)+1(2-3)+2(4-0)=−2-1+8=5$.\n$A^{-1}=\\frac{1}{5}\\begin{pmatrix}-2&5&-1\\\\1&-5&3\\\\4&-5&2\\end{pmatrix}$.\n$X=A^{-1}B=\\begin{pmatrix}-1\\\\2\\\\3\\end{pmatrix}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Matrices",
+    "question": "If A = [[cosα, sinα],[-sinα, cosα]], then AA' is",
+    "question_latex": "If $A=\\begin{pmatrix}\\cos\\alpha&\\sin\\alpha\\\\-\\sin\\alpha&\\cos\\alpha\\end{pmatrix}$, then $AA'$ is",
+    "question_images": [],
+    "options": [
+      "A. A null matrix of order 2×2",
+      "B. A unit matrix of order 2×2",
+      "C. -A",
+      "D. 2A"
+    ],
+    "option_images": [],
+    "answer": "B. A unit matrix of order 2×2",
+    "solution": "$AA'=\\begin{pmatrix}\\cos\\alpha&\\sin\\alpha\\\\-\\sin\\alpha&\\cos\\alpha\\end{pmatrix}\\begin{pmatrix}\\cos\\alpha&-\\sin\\alpha\\\\\\sin\\alpha&\\cos\\alpha\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Matrices",
+    "question": "If A(θ) = [[cosθ, sinθ],[-sinθ, cosθ]], then A(θ)A(∅) =",
+    "question_latex": "If $A(\\theta)=\\begin{pmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{pmatrix}$, then $A(\\theta)A(\\emptyset)=$",
+    "question_images": [],
+    "options": [
+      "A. A(θ + ∅)",
+      "B. A(θ - ∅)",
+      "C. A(θ) + A(∅)",
+      "D. A(θ) - A(∅)"
+    ],
+    "option_images": [],
+    "answer": "A. A(θ + ∅)",
+    "solution": "$A(\\theta)A(\\emptyset)=\\begin{pmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{pmatrix}\\begin{pmatrix}\\cos\\emptyset&\\sin\\emptyset\\\\-\\sin\\emptyset&\\cos\\emptyset\\end{pmatrix}$\n$=\\begin{pmatrix}\\cos(\\theta+\\emptyset)&\\sin(\\theta+\\emptyset)\\\\-\\sin(\\theta+\\emptyset)&\\cos(\\theta+\\emptyset)\\end{pmatrix}=A(\\theta+\\emptyset)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

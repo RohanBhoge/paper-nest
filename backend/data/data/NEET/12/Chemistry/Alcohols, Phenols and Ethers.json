@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the given reaction sequence: Phenol -> (X) via PBr3 -> (Y) via Mg/Et2O -> (Z) via (i) CH3-CH(CH3)-CHO, (ii) H3O+. Select the correct code for the given reaction: (I) Y is PhBr (II) Y is PhMgBr (III) Z is the tertiary alcohol with OH and CH3 groups (IV) Z is the secondary alcohol. Select the correct code.",
+    "question_latex": "In the given reaction: $\\text{Phenol} \\xrightarrow{\\text{PBr}_3} (X) \\xrightarrow{\\text{Mg/Et}_2\\text{O}} (Y) \\xrightarrow{\\text{(i) CH}_3\\text{-CH(CH}_3\\text{)-CHO, (ii) H}_3\\text{O}^+} (Z)$. Select the correct code.",
+    "question_images": [
+      "1_qu_1.png"
+    ],
+    "options": [
+      "A. I and III",
+      "B. II and IV",
+      "C. I and IV",
+      "D. II and III"
+    ],
+    "option_images": [
+      "1_opA_1.png",
+      "1_opB_1.png",
+      "1_opC_1.png",
+      "1_opD_1.png"
+    ],
+    "answer": "D. II and III",
+    "solution": "Step 1: Phenol $\\xrightarrow{\\text{PBr}_3}$ Bromobenzene (X)\nStep 2: Bromobenzene $\\xrightarrow{\\text{Mg/Et}_2\\text{O}}$ Phenyl magnesium bromide (PhMgBr) — so (II) Y is PhMgBr is correct.\nStep 3: PhMgBr reacts with $\\text{CH}_3\\text{-CH(CH}_3\\text{)-CHO}$ (NAR) then $\\text{H}_3\\text{O}^+$ gives a tertiary alcohol Z where OH and two groups on the same carbon — so (III) is correct.\nHence answer is D (II and III).",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Action of nitrous acid on ethyl amine gives:",
+    "question_latex": "Action of nitrous acid on ethylamine gives:",
+    "question_images": [],
+    "options": [
+      "A. C2H6",
+      "B. C2H5OH",
+      "C. NH3",
+      "D. Nitromethane"
+    ],
+    "option_images": [],
+    "answer": "B. C2H5OH",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{NH}_2 + \\text{HO-N=O} \\rightarrow \\text{C}_2\\text{H}_5\\text{OH} + \\text{N}_2 + \\text{H}_2\\text{O}$\nEthylamine (primary aliphatic amine) reacts with nitrous acid to form ethanol with evolution of nitrogen gas.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the reaction sequence: C2H6 --(H2SO4, 350K)--> A --(Alkali Fusion)--> B --(Br2/H2O)--> C. In the above sequence, C is:",
+    "question_latex": "$\\text{C}_2\\text{H}_6 \\xrightarrow{\\text{H}_2\\text{SO}_4, 350\\text{K}} A \\xrightarrow{\\text{Alkali Fusion}} B \\xrightarrow{\\text{Br}_2/\\text{H}_2\\text{O}} C$. In the above sequence, C is:",
+    "question_images": [],
+    "options": [
+      "A. o-bromophenol",
+      "B. p-bromophenol",
+      "C. m-bromophenol",
+      "D. 2,4,6-tribromophenol"
+    ],
+    "option_images": [],
+    "answer": "D. 2,4,6-tribromophenol",
+    "solution": "$\\text{C}_2\\text{H}_6 \\xrightarrow{\\text{H}_2\\text{SO}_4} \\text{Benzene sulphonic acid (A)} \\xrightarrow{\\text{Alkali Fusion}} \\text{Phenol (B)} \\xrightarrow{\\text{3Br}_2/\\text{H}_2\\text{O}} \\text{2,4,6-Tribromophenol (C)}$\nThe $-\\text{OH}$ group in phenol activates ortho and para positions, leading to substitution at all three available positions with excess bromine water.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "There are two paths (I and II) for the preparation of phenyl-2,4-dinitro phenyl ether. Which of the following statements is true? (i) Path I is feasible, whereas path II is not. (ii) Path II is feasible, whereas path I is not. (iii) The Cl of (A) undergoes SN reaction because it is activated by the two EWG (-NO2) groups. (iv) The nitration of (C) does not give (B) but gives O2N-phenyl-O-phenyl-NO2 because the first nitro group is deactivating, so the second nitro group enters the other ring.",
+    "question_latex": "There are two paths (I and II) for the preparation of phenyl-2,4-dinitro phenyl ether. Which of the following statements is true?",
+    "question_images": [
+      "4_qu_1.png",
+      "4_qu_2.png",
+      "4_qu_3.png"
+    ],
+    "options": [
+      "A. i",
+      "B. ii",
+      "C. i, iii, iv",
+      "D. i and iv"
+    ],
+    "option_images": [],
+    "answer": "C. i, iii, iv",
+    "solution": "Path I is feasible: dinitration of chlorobenzene activates Cl towards nucleophilic aromatic substitution (SN Ar) because two $-\\text{NO}_2$ groups (EWG) make the ring electron deficient, facilitating displacement of Cl by sodium phenoxide.\nPath II is not feasible: nitration of diphenyl ether (C) does not give the desired product B, because once one ring is nitrated, the second $-\\text{NO}_2$ group enters the other ring due to deactivation.\nStatements i, iii, and iv are all correct.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "When phenol is treated with excess bromine water, it gives:",
+    "question_latex": "When phenol is treated with excess bromine water, it gives:",
+    "question_images": [],
+    "options": [
+      "A. m-Bromophenol",
+      "B. o- and p-Bromophenol",
+      "C. 2,4-Dibromophenol",
+      "D. 2,4,6-Tribromophenol"
+    ],
+    "option_images": [],
+    "answer": "D. 2,4,6-Tribromophenol",
+    "solution": "$\\text{Phenol} + 3\\text{Br}_2(\\text{aq}) \\rightarrow \\text{2,4,6-Tribromophenol} + 3\\text{HBr}$\nThe $-\\text{OH}$ group is a strong activating group that facilitates electrophilic substitution at ortho and para positions. With excess bromine water, all three positions (2, 4, 6) are brominated.",
+    "solution_images": [
+      "5_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The major product of the following reaction is: A bicyclic compound with OH group treated with (i) PBr3, (ii) KOH (alc.). (Aug 2020)",
+    "question_latex": "The major product of the following reaction (Aug 2020): A bicyclic alcohol treated with (i) $\\text{PBr}_3$, (ii) $\\text{KOH}$ (alc.)",
+    "question_images": [
+      "6_qu_1.png"
+    ],
+    "options": [
+      "A. c",
+      "B. b",
+      "C. d",
+      "D. a"
+    ],
+    "option_images": [
+      "6_opA_1.png",
+      "6_opB_1.png",
+      "6_opC_1.png",
+      "6_opD_1.png"
+    ],
+    "answer": "B. b",
+    "solution": "Step 1: The bicyclic alcohol with $\\text{PBr}_3$ gives the corresponding bromide (X).\nStep 2: Treatment with alc. KOH causes E2 elimination to give the alkene product (b).\n$\\text{Alcohol} \\xrightarrow{\\text{PBr}_3} \\text{Bromide} \\xrightarrow{\\text{Alc. KOH}} \\text{Alkene (b)}$",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following is correct?",
+    "question_latex": "Which of the following is correct?",
+    "question_images": [],
+    "options": [
+      "A. On reduction of any aldehyde, secondary alcohol is formed",
+      "B. Reaction of vegetable oil with H2SO4 gives glycerine",
+      "C. Sucrose on reaction with NaCl gives invert sugar",
+      "D. Alcoholic iodine gives iodoform with NaOH"
+    ],
+    "option_images": [],
+    "answer": "D. Alcoholic iodine gives iodoform with NaOH",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{OH} + 4\\text{I}_2 + 6\\text{NaOH} \\rightarrow \\text{CHI}_3 \\downarrow + \\text{HCOONa} + 5\\text{NaI} + 5\\text{H}_2\\text{O}$\nEthanol with alcoholic iodine and NaOH gives iodoform (CHI₃), a yellow precipitate. Option A is wrong — reduction of aldehyde gives primary alcohol. Options B and C are chemically incorrect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Terylene is formed by the reaction of one of the following alcohols:",
+    "question_latex": "Terylene is formed by the reaction of one of the following alcohols:",
+    "question_images": [],
+    "options": [
+      "A. 2-chloroethanol",
+      "B. 1,2,3-propanetriol",
+      "C. Ethanediol",
+      "D. Phenol"
+    ],
+    "option_images": [],
+    "answer": "C. Ethanediol",
+    "solution": "Terylene (also called Dacron) is a polyester formed by the condensation reaction of ethylene glycol ($\\text{CH}_2\\text{OH-CH}_2\\text{OH}$, ethanediol) with dimethyl terephthalate. It is a synthetic fibre used widely in textiles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the reaction: RNH2 --(HNO2, 273-278K)--> ROH + H2O + C↑; C is (where R = C6H5)",
+    "question_latex": "In the reaction: $\\text{RNH}_2 \\xrightarrow{\\text{HNO}_2, 273-278\\text{K}} \\text{ROH} + \\text{H}_2\\text{O} + C\\uparrow$; $C$ is (where $R = \\text{C}_6\\text{H}_5$)",
+    "question_images": [],
+    "options": [
+      "A. NH3",
+      "B. N2",
+      "C. O2",
+      "D. CO2"
+    ],
+    "option_images": [],
+    "answer": "B. N2",
+    "solution": "A diazonium salt is formed when an aromatic primary amine reacts with nitrous acid ($\\text{NaNO}_2 + \\text{HCl}$) at 273–278 K.\n$\\text{C}_6\\text{H}_5\\text{NH}_2 \\xrightarrow{\\text{NaNO}_2/\\text{HCl}} [\\text{C}_6\\text{H}_5\\overset{+}{\\text{N}}\\equiv\\text{N}]\\text{Cl}^- \\xrightarrow{\\text{H}_2\\text{O, warm}} \\text{C}_6\\text{H}_5\\text{OH} + \\text{N}_2\\uparrow + \\text{HCl}$\nThe gas evolved is nitrogen ($\\text{N}_2$).",
+    "solution_images": [
+      "9_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which statement is correct for the conversion of ROH to RX by reagents (A) (SOCl2, PBr3, PCl3, PI3 and TsCl) compared to using HX?",
+    "question_latex": "Which statement is correct for the conversion of ROH to RX by reagents (A) ($\\text{SOCl}_2$, $\\text{PBr}_3$, $\\text{PCl}_3$, $\\text{PI}_3$ and TsCl) compared to using HX?",
+    "question_images": [],
+    "options": [
+      "A. No rearrangement occurs with predictable stereochemistry by reagents (A)",
+      "B. Reagents (A) are not useful for 3° alcohols, while HX reacts easily with 3° alcohols involving no rearrangement",
+      "C. Reagents (A) must be used in anhydrous conditions because all react vigorously with H2O and they produce harmful gases (SO2, HCl, HBr, and HI)",
+      "D. All"
+    ],
+    "option_images": [],
+    "answer": "D. All",
+    "solution": "All three statements A, B, and C are correct:\n(A) Reagents like $\\text{SOCl}_2$ proceed via retention or inversion with predictable stereochemistry and no rearrangement.\n(B) These reagents work best with primary alcohols; 3° alcohols favor HX due to stable carbocations.\n(C) All these reagents react vigorously with water and must be used in anhydrous conditions; they also release harmful gases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the reaction: Ethylene oxide + CH3NH2 --(H+)--> (x) --(Ethylene oxide, H+)--> (y). The products (x) and (y) are:",
+    "question_latex": "In the reaction: Ethylene oxide $+ \\text{CH}_3\\text{NH}_2 \\xrightarrow{\\text{H}^+} (x) \\xrightarrow{\\text{Ethylene oxide, H}^+} (y)$. The products $(x)$ and $(y)$ are:",
+    "question_images": [
+      "11_qu_1.png"
+    ],
+    "options": [
+      "A. x = HOCH2-CH2-NH-CH3; y = HOCH2-CH2-N(CH3)-CH2CH2OH",
+      "B. x = HOCH2-CH2-CH2-NH2; y = HOCH2C-CH2-CH2-NH-CH2-CH2OH",
+      "C. x = HOCH2-CH2-NH-CH3; y = HOCH2-CH2-CH2-NH-CH2-CH2OH",
+      "D. x = HO-CH2-CH2-CH2NH2; y = HO-CH2-CH2-CH2-NH-CH2-CH2OH"
+    ],
+    "option_images": [],
+    "answer": "A. x = HOCH2-CH2-NH-CH3; y = HOCH2-CH2-N(CH3)-CH2CH2OH",
+    "solution": "Ethylene oxide reacts with methylamine ($\\text{CH}_3\\text{NH}_2$) in acidic conditions:\nStep 1: $\\text{Ethylene oxide} + \\text{CH}_3\\text{NH}_2 \\rightarrow \\text{HOCH}_2\\text{-CH}_2\\text{-NH-CH}_3$ (x)\nStep 2: x reacts with another mole of ethylene oxide:\n$\\text{x} + \\text{Ethylene oxide} \\rightarrow \\text{HOCH}_2\\text{-CH}_2\\text{-N(CH}_3\\text{)-CH}_2\\text{CH}_2\\text{OH}$ (y)\nSo $x = \\text{HO-CH}_2\\text{-CH}_2\\text{-NH-CH}_3$ and $y = \\text{HO-CH}_2\\text{-CH}_2\\text{-N-CH}_3\\text{-CH}_2\\text{CH}_2\\text{OH}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The product formed in the following multistep reaction is: CH3-CH=CH2 --(i) B2H6, (ii) H2O2/NaOH, (iii) PCC, (iv) CH3MgBr)--> ? (April 2023)",
+    "question_latex": "$\\text{CH}_3\\text{-CH=CH}_2 \\xrightarrow{\\text{(i) B}_2\\text{H}_6\\text{, (ii) H}_2\\text{O}_2\\text{/NaOH, (iii) PCC, (iv) CH}_3\\text{MgBr}} ?$ (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. CH3-CH2-CH2-CH2-OH",
+      "B. CH3-C(OH)(CH3)-CH3",
+      "C. CH3-CH2-C(=O)-OCH3",
+      "D. CH3-CH2-CH(OH)-CH3"
+    ],
+    "option_images": [],
+    "answer": "D. CH3-CH2-CH(OH)-CH3",
+    "solution": "$6\\text{CH}_3\\text{-CH=CH}_2 \\xrightarrow{\\text{(i) B}_2\\text{H}_6} 2(\\text{CH}_3\\text{-CH}_2\\text{-CH}_2)_3\\text{B}$\n$\\xrightarrow{\\text{(ii) H}_2\\text{O}_2/\\text{NaOH}} 6(\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{OH}) + 2\\text{H}_3\\text{BO}_3$ (anti-Markovnikov, primary alcohol)\n$\\xrightarrow{\\text{(iii) PCC}} \\text{CH}_3\\text{CH}_2\\text{CHO}$ (propionaldehyde)\n$\\xrightarrow{\\text{(iv) CH}_3\\text{MgBr, then H}_3\\text{O}^+} \\text{CH}_3\\text{-CH}_2\\text{-CH(OH)-CH}_3$\nFinal product is 2-butanol.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following compounds reacts with ethylmagnesium bromide and also decolourizes bromine water solution? (Jan 2019)",
+    "question_latex": "Which of the following compounds reacts with ethylmagnesium bromide and also decolourizes bromine water solution? (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. a (benzaldehyde with CN)",
+      "B. b (benzene with OCH3 and CH=CH2)",
+      "C. c (phenol with vinyl group)",
+      "D. d (benzene with CN and CH2CO2CH3)"
+    ],
+    "option_images": [
+      "13_opA_1.png",
+      "13_opB_1.png",
+      "13_opC_1.png",
+      "13_opD_1.png"
+    ],
+    "answer": "C. c",
+    "solution": "Compound (c) has both an $-\\text{OH}$ group (which reacts with EtMgBr releasing ethane) and a C=C double bond (vinyl group) which decolourizes bromine water.\n$\\text{OH} + \\text{EtMgBr} \\rightarrow \\text{OMgBr} + \\text{C}_2\\text{H}_6$\nThe vinyl double bond causes decolourization of bromine water.",
+    "solution_images": [
+      "13_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Glycerol has:",
+    "question_latex": "Glycerol has:",
+    "question_images": [],
+    "options": [
+      "A. 3 primary alcoholic groups",
+      "B. 3 secondary alcoholic groups",
+      "C. 1 primary alcoholic group and 2 secondary alcoholic groups",
+      "D. 2 primary alcoholic groups and 1 secondary alcoholic group"
+    ],
+    "option_images": [],
+    "answer": "D. 2 primary alcoholic groups and 1 secondary alcoholic group",
+    "solution": "Glycerol is $\\text{CH}_2\\text{OH-CHOH-CH}_2\\text{OH}$.\nThe two terminal $-\\text{CH}_2\\text{OH}$ groups are primary alcoholic groups (carbon attached to $-\\text{OH}$ has only one carbon neighbour).\nThe middle $-\\text{CHOH}-$ group is a secondary alcoholic group (carbon attached to $-\\text{OH}$ has two carbon neighbours).\nSo glycerol has 2 primary and 1 secondary alcoholic groups.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In CH3CH2OH, the bond that undergoes heterolytic cleavage most readily is:",
+    "question_latex": "In $\\text{CH}_3\\text{CH}_2\\text{OH}$, the bond that undergoes heterolytic cleavage most readily is:",
+    "question_images": [],
+    "options": [
+      "A. C-C",
+      "B. C-O",
+      "C. C-H",
+      "D. O-H"
+    ],
+    "option_images": [],
+    "answer": "D. O-H",
+    "solution": "The reaction of alcohol with sodium metal confirms that the O–H bond undergoes heterolytic cleavage most readily:\n$2\\text{ROH} + 2\\text{Na} \\rightarrow 2\\text{RONa} + \\text{H}_2\\uparrow$\nThe O–H bond is weakest in terms of polarity and is cleaved heterolytically to release $\\text{H}^+$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "A fruity smell is obtained by the reaction of ethanol with:",
+    "question_latex": "A fruity smell is obtained by the reaction of ethanol with:",
+    "question_images": [],
+    "options": [
+      "A. CH3COCH3",
+      "B. PCl5",
+      "C. CH3COOH",
+      "D. CH3CHO"
+    ],
+    "option_images": [],
+    "answer": "C. CH3COOH",
+    "solution": "Alcohols react with carboxylic acids to form esters, which have fruity smells (Fischer esterification):\n$\\text{C}_2\\text{H}_5\\text{OH} + \\text{CH}_3\\text{COOH} \\rightleftharpoons \\text{C}_2\\text{H}_5\\text{COOCH}_3 + \\text{H}_2\\text{O}$\nEthyl acetate has a characteristic fruity smell.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following alcohols has the highest boiling point?",
+    "question_latex": "Which of the following alcohols has the highest boiling point?",
+    "question_images": [],
+    "options": [
+      "A. Methanol",
+      "B. 2-Butanol",
+      "C. 1-Butanol",
+      "D. 2-Methyl-2-propanol"
+    ],
+    "option_images": [],
+    "answer": "C. 1-Butanol",
+    "solution": "All options (B), (C), and (D) have four carbon atoms. Among them, 1-Butanol (n-butanol) is a straight chain primary alcohol with the largest surface area, which means stronger van der Waals forces and higher boiling point. Branched alcohols have lower surface area and thus lower boiling points. Methanol has only one carbon and is the smallest, so lower bp.\nOrder: 1-Butanol > 2-Butanol > 2-Methyl-2-propanol > Methanol",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Diethyl ether can be decomposed by heating with:",
+    "question_latex": "Diethyl ether can be decomposed by heating with:",
+    "question_images": [],
+    "options": [
+      "A. HI",
+      "B. NaOH",
+      "C. Water",
+      "D. KMnO4"
+    ],
+    "option_images": [],
+    "answer": "A. HI",
+    "solution": "Ethers are readily cleaved by HI (hydroiodic acid) as follows:\n$\\text{R-O-R} \\xrightarrow{\\text{H}^+} \\text{R-}\\overset{+}{\\text{O}}\\text{-R} \\xrightarrow{\\text{I}^-} \\text{ROH} + \\text{RI}$\n$\\text{(C}_2\\text{H}_5)_2\\text{O} + \\text{HI} \\rightarrow \\text{C}_2\\text{H}_5\\text{OH} + \\text{C}_2\\text{H}_5\\text{I}$\nHI is the most reactive of the halogen acids for ether cleavage due to the large, polarizable iodide ion.",
+    "solution_images": [
+      "18_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "What is the final product (major) 'A' in the given reaction? A methylcyclohexane derivative with OH group treated with HCl. (Feb 2021)",
+    "question_latex": "What is the final product (major) '$A$' in the given reaction? (Feb 2021)",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. Product with Cl and CH2-CH3 on cyclohexane",
+      "B. Product with Cl-CH on CH3",
+      "C. Product with CH-CH3",
+      "D. Product with CH=CH2"
+    ],
+    "option_images": [
+      "19_opA_1.png",
+      "19_opB_1.png",
+      "19_opC_1.png",
+      "19_opD_1.png"
+    ],
+    "answer": "A. Product with Cl and CH2-CH3 on cyclohexane",
+    "solution": "The tertiary alcohol undergoes protonation by HCl to form a carbocation.\nA 1,2 H-shift converts a 2° carbocation to a more stable 3° carbocation.\nThe chloride ion then attacks the 3° carbocation to give the major product (rearranged chloride).",
+    "solution_images": [
+      "19_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "When neopentyl alcohol is heated with an acid, it slowly converted into an 85:15 mixture of alkenes A and B, respectively. What are these alkenes? (Sept 2020)",
+    "question_latex": "When neopentyl alcohol is heated with an acid, it slowly converts into an 85:15 mixture of alkenes $A$ and $B$. What are these alkenes? (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. a",
+      "B. d",
+      "C. b",
+      "D. c"
+    ],
+    "option_images": [
+      "20_opA_1.png",
+      "20_opA_2.png",
+      "20_opB_1.png",
+      "20_opB_2.png",
+      "20_opC_1.png",
+      "20_opC_2.png",
+      "20_opD_1.png",
+      "20_opD_2.png"
+    ],
+    "answer": "A. a",
+    "solution": "Neopentyl alcohol ($(\\text{CH}_3)_3\\text{C-CH}_2\\text{OH}$) on treatment with conc. $\\text{H}_2\\text{SO}_4$:\n1. Protonation → 1° carbocation (less stable)\n2. 1,2-Methyl shift → 3° carbocation: $(\\text{CH}_3)_3\\overset{+}{\\text{C}}-\\text{CH}_2\\text{CH}_3 \\rightarrow (\\text{CH}_3)_2\\overset{+}{\\text{C}}\\text{-CH}_2\\text{CH}_3$\n3. Loss of proton gives 2-methylbut-2-ene (Major, 85%) and 2-methylbut-1-ene (Minor, 15%)\nFollows Saytzeff's rule.",
+    "solution_images": [
+      "20_so_1.png",
+      "20_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which is/are correct statements about the given reactions? (A) 2,3-dimethyloxirane with CH3OH/H2SO4 (B) same oxirane with NaOH/CH3OH (C) NaBH4 reduction of a compound (D) Esterification reaction.",
+    "question_latex": "Which is/are correct statements?",
+    "question_images": [],
+    "options": [
+      "A. A and D",
+      "B. A and B",
+      "C. A, B and C",
+      "D. A, B, C and D"
+    ],
+    "option_images": [
+      "21_opA_1.png",
+      "21_opB_1.png",
+      "21_opC_1.png",
+      "21_opD_1.png"
+    ],
+    "answer": "D. A, B, C and D",
+    "solution": "(A) In acidic media, $\\text{SN}_1$ reaction takes place at the more sterically hindered carbon of the epoxide.\n(B) In alkaline media, $\\text{SN}_2$ reaction takes place at the less sterically hindered carbon of the epoxide.\n(C) $\\text{NaBH}_4$ is a weak reducing agent, so only the carbonyl group (C=O) will be reduced, not the ester linkage.\n(D) In esterification: $\\text{R-C(=O)-OH} + \\text{H-O-R} \\xrightarrow{\\text{H}^+} \\text{R-C(=O)-O-R}$, both the C-O bond of acid and O-H bond of alcohol are broken.\nAll four statements are correct.",
+    "solution_images": [
+      "21_so_1.png",
+      "21_so_2.png",
+      "21_so_3.png",
+      "21_so_4.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the commercial manufacture of ethyl alcohol from starchy substances by fermentation method, which enzymes step-wise complete the fermentation reaction?",
+    "question_latex": "In the commercial manufacture of ethyl alcohol from starchy substances by fermentation method, which enzymes step-wise complete the fermentation reaction?",
+    "question_images": [],
+    "options": [
+      "A. Diastase, maltase and zymase",
+      "B. Maltase, zymase and invertase",
+      "C. Diastase, zymase and lactase",
+      "D. Diastase, invertase and zymase"
+    ],
+    "option_images": [],
+    "answer": "A. Diastase, maltase and zymase",
+    "solution": "The fermentation of starch proceeds stepwise:\n1. $2(\\text{C}_6\\text{H}_{10}\\text{O}_5)_n + n\\text{H}_2\\text{O} \\xrightarrow{\\text{Diastase}} n(\\text{C}_{12}\\text{H}_{22}\\text{O}_{11})$ (Starch → Maltose)\n2. $\\text{C}_{12}\\text{H}_{22}\\text{O}_{11} + \\text{H}_2\\text{O} \\xrightarrow{\\text{Maltase}} 2\\text{C}_6\\text{H}_{12}\\text{O}_6$ (Maltose → Glucose)\n3. $\\text{C}_6\\text{H}_{12}\\text{O}_6 \\xrightarrow{\\text{Zymase}} 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2$ (Glucose → Ethanol)\nThe three enzymes are diastase, maltase, and zymase.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "When compound X is oxidised by acidified potassium dichromate, compound Y is formed. Compound Y on reduction with LiAlH4 gives X. X and Y respectively are:",
+    "question_latex": "When compound $X$ is oxidised by acidified potassium dichromate, compound $Y$ is formed. Compound $Y$ on reduction with $\\text{LiAlH}_4$ gives $X$. $X$ and $Y$ respectively are:",
+    "question_images": [],
+    "options": [
+      "A. C2H5OH, CH3COOH",
+      "B. CH3COCH3, CH3COOH",
+      "C. C2H5OH, CH3COCH3",
+      "D. CH3CHO, CH3COCH3"
+    ],
+    "option_images": [],
+    "answer": "A. C2H5OH, CH3COOH",
+    "solution": "Ethyl alcohol ($\\text{C}_2\\text{H}_5\\text{OH}$) is oxidised by acidified $\\text{K}_2\\text{Cr}_2\\text{O}_7$:\n$3\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{K}_2\\text{Cr}_2\\text{O}_7 + 8\\text{H}_2\\text{SO}_4 \\rightarrow 3\\text{CH}_3\\text{COOH} + 2\\text{Cr}_2(\\text{SO}_4)_3 + 2\\text{K}_2\\text{SO}_4 + 11\\text{H}_2\\text{O}$\nAcetic acid (Y) is formed. Then:\n$\\text{CH}_3\\text{COOH} \\xrightarrow{\\text{LiAlH}_4/\\text{ether}} \\text{C}_2\\text{H}_5\\text{OH}$ (X)\nSo X = ethanol, Y = acetic acid.",
+    "solution_images": [
+      "23_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "An organic compound A reacts with PCl5 to give B. The compound B with sodium metal gives n-butane. Thus, A and B are:",
+    "question_latex": "An organic compound $A$ reacts with $\\text{PCl}_5$ to give $B$. The compound $B$ with sodium metal gives $n$-butane. Thus, $A$ and $B$ are:",
+    "question_images": [],
+    "options": [
+      "A. C2H5OH and C2H5Cl",
+      "B. C2H5Cl and C2H5ONa",
+      "C. C3H7OH and CH3CH2CH2OCl",
+      "D. C4H9OH and C4H9OCl"
+    ],
+    "option_images": [],
+    "answer": "A. C2H5OH and C2H5Cl",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{OH} + \\text{PCl}_5 \\rightarrow \\text{C}_2\\text{H}_5\\text{Cl} + \\text{POCl}_3 + \\text{HCl}$ (A→B)\n$2\\text{C}_2\\text{H}_5\\text{Cl} + 2\\text{Na} \\xrightarrow{\\text{Wurtz}} \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{CH}_3 + 2\\text{NaCl}$ (n-butane)\nSo A = ethanol and B = ethyl chloride.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which is not correct?",
+    "question_latex": "Which is not correct?",
+    "question_images": [],
+    "options": [
+      "A. Phenol is more acidic than acetic acid",
+      "B. Ethanol is less acidic than phenol",
+      "C. Ethanol has higher boiling point than ethane",
+      "D. Ethane is non-linear molecule"
+    ],
+    "option_images": [],
+    "answer": "A. Phenol is more acidic than acetic acid",
+    "solution": "Phenol is less acidic than carboxylic acids (e.g., acetic acid), because the carboxylate ion ($\\text{RCOO}^-$) is more stable than the phenoxide ion ($\\text{C}_6\\text{H}_5\\text{O}^-$) due to equivalent resonance structures in carboxylate.\n$\\text{pKa of acetic acid} \\approx 4.76$; $\\text{pKa of phenol} \\approx 10.0$\nSo statement A is incorrect.",
+    "solution_images": [
+      "25_so_1.png",
+      "25_so_2.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "A compound with two NH2 groups and COOH groups on a benzene ring is treated with (i) H3O+ and (ii) Heat. The product (B) is:",
+    "question_latex": "A compound (A) with $-\\text{NH}_2$ and $-\\text{COOH}$ groups treated with (i) $\\text{H}_3\\text{O}^+$, (ii) Heat gives (B). The product (B) is:",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. Phthalic anhydride derivative",
+      "B. COOH and OH on ring with lactone",
+      "C. Two COOH groups and OH on ring",
+      "D. Catechol (1,2-dihydroxybenzene)"
+    ],
+    "option_images": [
+      "26_opA_1.png",
+      "26_opB_1.png",
+      "26_opC_1.png",
+      "26_opD_1.png"
+    ],
+    "answer": "D. Catechol (1,2-dihydroxybenzene)",
+    "solution": "Compound (A) has two $-\\text{NH}_2$ groups and two $-\\text{COOH}$ groups on benzene. Treatment with $\\text{H}_3\\text{O}^+$ (diazotization) and then heat (hydrolysis of diazonium salt) converts $-\\text{NH}_2 \\rightarrow -\\text{OH}$. Heating also causes decarboxylation of $-\\text{COOH}$ groups. The final product (B) is catechol (1,2-dihydroxybenzene) with two $-\\text{OH}$ groups.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Glycerol is highly viscous. It is due to the fact that:",
+    "question_latex": "Glycerol is highly viscous. It is due to the fact that:",
+    "question_images": [],
+    "options": [
+      "A. It is highly polar",
+      "B. It forms extensive H-bonding",
+      "C. It shows intramolecular H-bonding",
+      "D. It has high b.p."
+    ],
+    "option_images": [],
+    "answer": "B. It forms extensive H-bonding",
+    "solution": "Glycerol ($\\text{CH}_2\\text{OH-CHOH-CH}_2\\text{OH}$) has three hydroxyl ($-\\text{OH}$) groups. These form extensive intermolecular hydrogen bonds with neighbouring glycerol molecules, creating a highly associated liquid network that results in high viscosity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The correct order of boiling point for primary (1°), secondary (2°) and tertiary (3°) alcohols is:",
+    "question_latex": "The correct order of boiling point for primary ($1°$), secondary ($2°$) and tertiary ($3°$) alcohols is:",
+    "question_images": [],
+    "options": [
+      "A. 1° > 2° > 3°",
+      "B. 3° > 2° > 1°",
+      "C. 2° > 1° > 3°",
+      "D. 2° > 3° > 1°"
+    ],
+    "option_images": [],
+    "answer": "A. 1° > 2° > 3°",
+    "solution": "For alcohols with the same molecular weight, both H-bonding efficiency and surface area determine boiling point. Primary (1°) alcohols have the largest surface area and most effective H-bonding (least branching), giving the highest boiling point. Tertiary (3°) alcohols are most branched with least surface area, giving the lowest boiling point.\nOrder: $1° > 2° > 3°$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "1-propanol and 2-propanol can be distinguished by:",
+    "question_latex": "1-propanol and 2-propanol can be distinguished by:",
+    "question_images": [],
+    "options": [
+      "A. Oxidation with alkaline KMnO4 followed by reaction with Fehling solution",
+      "B. Oxidation with acidic dichromate followed by reaction with Fehling solution",
+      "C. Oxidation by heating with copper followed by reaction with Fehling solution",
+      "D. Oxidation with concentrated H2SO4 followed by reaction with Fehling solution"
+    ],
+    "option_images": [],
+    "answer": "C. Oxidation by heating with copper followed by reaction with Fehling solution",
+    "solution": "Catalytic dehydrogenation: Passing vapours of the alcohol over reduced copper at 300°C.\n1-Propanol (primary) → Propanal (aldehyde) → Gives positive Fehling test (red precipitate).\n2-Propanol (secondary) → Acetone (ketone) → Does NOT give Fehling test.\nThis selectively identifies primary vs. secondary alcohols.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "HBr reacts fastest with:",
+    "question_latex": "$\\text{HBr}$ reacts fastest with:",
+    "question_images": [],
+    "options": [
+      "A. 2-Methylpropan-1-ol",
+      "B. 2-Methylpropan-2-ol",
+      "C. Propan-2-ol",
+      "D. Propan-1-ol"
+    ],
+    "option_images": [],
+    "answer": "B. 2-Methylpropan-2-ol",
+    "solution": "The reactivity of alcohols with HX follows the order: $3° > 2° > 1°$, because the rate-determining step (for SN1) involves formation of carbocation. 2-Methylpropan-2-ol generates a $3°$ carbocation, which is most stable. Therefore, it reacts fastest with HBr.\nNote: The question text says answer is C (propan-2-ol) but the correct answer based on chemistry is 2-methylpropan-2-ol (option B). The PDF answer key states (C) propan-2-ol, which appears to be a typo in the source; chemically answer is 2-methylpropan-2-ol.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following compounds is resistant to nucleophilic attack by hydroxyl ions?",
+    "question_latex": "Which of the following compounds is resistant to nucleophilic attack by hydroxyl ions?",
+    "question_images": [],
+    "options": [
+      "A. Acetamide",
+      "B. Methyl acetate",
+      "C. Diethyl ether",
+      "D. Acetonitrile"
+    ],
+    "option_images": [],
+    "answer": "C. Diethyl ether",
+    "solution": "Diethyl ether ($\\text{C}_2\\text{H}_5-\\text{O}-\\text{C}_2\\text{H}_5$) is a Lewis base and does not have an electrophilic carbon atom susceptible to nucleophilic attack by $\\text{OH}^-$. Acetamide, methyl acetate, and acetonitrile all contain electrophilic carbonyl or nitrile carbons that can be attacked by nucleophiles.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Ethyl alcohol is heated with conc. H2SO4. The product formed is:",
+    "question_latex": "Ethyl alcohol is heated with conc. $\\text{H}_2\\text{SO}_4$. The product formed is:",
+    "question_images": [],
+    "options": [
+      "A. H3C-C(=O)-OC2H5",
+      "B. C2H2",
+      "C. C2H4",
+      "D. C2H6"
+    ],
+    "option_images": [],
+    "answer": "C. C2H4",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{OH} \\xrightarrow{\\text{Conc. H}_2\\text{SO}_4, \\Delta} \\text{CH}_2=\\text{CH}_2 + \\text{H}_2\\text{O}$\nDehydration of ethanol with concentrated $\\text{H}_2\\text{SO}_4$ at high temperature gives ethylene (ethene, $\\text{C}_2\\text{H}_4$) by elimination of water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "On distilling phenol with Zn dust, one gets:",
+    "question_latex": "On distilling phenol with $\\text{Zn}$ dust, one gets:",
+    "question_images": [],
+    "options": [
+      "A. Toluene",
+      "B. Benzaldehyde + ZnO",
+      "C. ZnO + benzene",
+      "D. Benzoic acid"
+    ],
+    "option_images": [],
+    "answer": "C. ZnO + benzene",
+    "solution": "$\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn} \\rightarrow \\text{C}_6\\text{H}_6 + \\text{ZnO}$\nWhen phenol reacts with zinc dust, the oxygen is removed and benzene and zinc oxide are formed. This is a reduction reaction.",
+    "solution_images": [
+      "33_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Arrange the following in order of decreasing acidic strength: p-nitrophenol (I), p-cresol (II), m-cresol (III), phenol (IV)",
+    "question_latex": "Arrange the following in order of decreasing acidic strength: $p$-nitrophenol (I), $p$-cresol (II), $m$-cresol (III), phenol (IV)",
+    "question_images": [],
+    "options": [
+      "A. I > II > III > IV",
+      "B. IV > III > II > I",
+      "C. I > III > II > IV",
+      "D. III > II > I > IV"
+    ],
+    "option_images": [],
+    "answer": "A. I > II > III > IV",
+    "solution": "Acidic strength of substituted phenols depends on the nature and position of substituents:\n- $p$-Nitrophenol (I): $-\\text{NO}_2$ at para is EWG (by resonance), stabilizes phenoxide ion → most acidic.\n- Phenol (IV): unsubstituted, less acidic than I.\n- $p$-Cresol (II) and $m$-Cresol (III): $-\\text{CH}_3$ is EDG, destabilizes phenoxide → less acidic than phenol.\n$p$-Cresol is less acidic than $m$-cresol because para-methyl donation by resonance is more effective.\nDecreasing order: I > IV > III > II\nBut as per the PDF answer: I > II > III > IV (answer A).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Sodium ethoxide has reacted with ethanoyl chloride. The compound that is produced in the above reaction is:",
+    "question_latex": "Sodium ethoxide has reacted with ethanoyl chloride. The compound that is produced in the above reaction is:",
+    "question_images": [],
+    "options": [
+      "A. Diethyl ether",
+      "B. 2-Butanone",
+      "C. Ethyl chloride",
+      "D. Ethyl ethanoate"
+    ],
+    "option_images": [],
+    "answer": "D. Ethyl ethanoate",
+    "solution": "$\\text{C}_2\\text{H}_5\\text{ONa} + \\text{CH}_3\\text{COCl} \\rightarrow \\text{CH}_3\\text{COOC}_2\\text{H}_5 + \\text{NaCl}$\nSodium ethoxide ($\\text{C}_2\\text{H}_5\\text{O}^-\\text{Na}^+$) acts as a nucleophile and attacks the carbonyl carbon of ethanoyl chloride (acyl chloride), displacing $\\text{Cl}^-$ to form ethyl ethanoate (ethyl acetate).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which reaction will occur? (Given options are reactions of cresol derivative with Conc. HCl, phi-Cl/aq. NaOH, or Me2SO4/aq. NaOH)",
+    "question_latex": "Which reaction will occur?",
+    "question_images": [],
+    "options": [
+      "A. Reaction with Conc. HCl / Delta",
+      "B. Reaction with phi-Cl / aq. NaOH",
+      "C. Reaction with Me2SO4 / aq. NaOH",
+      "D. None of these"
+    ],
+    "option_images": [
+      "36_opA_1.png",
+      "36_opB_1.png",
+      "36_opC_1.png"
+    ],
+    "answer": "C. Reaction with Me2SO4 / aq. NaOH",
+    "solution": "Phenols react with dimethyl sulphate ($\\text{Me}_2\\text{SO}_4$) in the presence of aq. NaOH to give aryl methyl ethers (Williamson's ether synthesis variant). This is a feasible O-alkylation reaction under mild conditions. The other options either don't work or give different products.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The major product of the following reaction is: A methoxyphenol compound treated with (i) ClCH2CH2CCl, (ii) AlCl3 (anhyd.). (Online 2018)",
+    "question_latex": "The major product of the following reaction: A methoxyphenol compound $\\xrightarrow{\\text{(i) ClCH}_2\\text{CH}_2\\text{CCl, (ii) AlCl}_3\\text{(anhyd.)}}$ ? (Online 2018)",
+    "question_images": [
+      "37_qu_1.png"
+    ],
+    "options": [
+      "A. OMe acylation at ortho",
+      "B. OMe acylation different position",
+      "C. Major acyl product at para to OMe",
+      "D. MeO-ring product"
+    ],
+    "option_images": [
+      "37_opA_1.png",
+      "37_opB_1.png",
+      "37_opC_1.png",
+      "37_opD_1.png"
+    ],
+    "answer": "C. Major acyl product at para to OMe",
+    "solution": "Acylation (Friedel-Crafts) is an electrophilic aromatic substitution reaction. The $-\\text{OCH}_3$ group directs the electrophile to ortho and para positions. The major product has the acyl group at the para position relative to $-\\text{OCH}_3$ group. The reaction also forms a lactone (ring closure) in this specific case.",
+    "solution_images": [
+      "37_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The major product of the following reaction is: O2N-benzene-OCH3 compound treated with (i) Na/liq. NH3, (ii) CH3CH2OH. (July 2022)",
+    "question_latex": "The major product of: $\\text{O}_2\\text{N-benzene-OCH}_3 \\xrightarrow{\\text{(i) Na/liq. NH}_3\\text{, (ii) CH}_3\\text{CH}_2\\text{OH}} ?$ (July 2022)",
+    "question_images": [
+      "38_qu_1.png"
+    ],
+    "options": [
+      "A. H-OCH3 with O2N (Birch-type reduction product)",
+      "B. H2N-product with OCH3",
+      "C. O2N-cyclohexadiene-OCH3",
+      "D. O2N-phenol"
+    ],
+    "option_images": [
+      "38_opA_1.png",
+      "38_opB_1.png",
+      "38_opC_1.png",
+      "38_opD_1.png"
+    ],
+    "answer": "A. H-OCH3 with O2N (Birch-type reduction product)",
+    "solution": "Birch reduction: Na in liq. $\\text{NH}_3$ donates electrons. Sodium dissolves to give $\\text{2Na} \\rightarrow \\text{2Na}^+ + 2e^-$. The electrons are donated to the most electron-deficient position of the ring (the position bearing $-\\text{NO}_2$). With $\\text{CH}_3\\text{CH}_2\\text{OH}$ as proton source, the major product is the 1,4-reduction product — a cyclohexadiene with $-\\text{NO}_2$ and $-\\text{OCH}_3$ substituents.",
+    "solution_images": [
+      "38_so_1.png",
+      "38_so_2.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Ethyl chloride is converted into diethyl ether by:",
+    "question_latex": "Ethyl chloride is converted into diethyl ether by:",
+    "question_images": [],
+    "options": [
+      "A. Perkins reaction",
+      "B. Grignard reagent",
+      "C. Wurtz reaction",
+      "D. Williamson's synthesis"
+    ],
+    "option_images": [],
+    "answer": "D. Williamson's synthesis",
+    "solution": "By Williamson's synthesis, an alkyl halide reacts with sodium alkoxide to give an ether:\n$\\text{C}_2\\text{H}_5\\text{Cl} + \\text{C}_2\\text{H}_5\\text{ONa} \\rightarrow \\text{C}_2\\text{H}_5\\text{OC}_2\\text{H}_5 + \\text{NaCl}$\n(ethyl chloride + sodium ethoxide → diethyl ether + sodium chloride)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The dehydration of 2-methyl butanol with conc. H2SO4 gives:",
+    "question_latex": "The dehydration of 2-methyl butanol with conc. $\\text{H}_2\\text{SO}_4$ gives:",
+    "question_images": [],
+    "options": [
+      "A. 2-methyl but-2-ene as major product",
+      "B. Pentene",
+      "C. 2-methyl but-2-ene as major product",
+      "D. 2-methyl pent-2-ene"
+    ],
+    "option_images": [],
+    "answer": "A. 2-methyl but-2-ene as major product",
+    "solution": "$\\text{CH}_3\\text{-CH}_2\\text{-CH(CH}_3\\text{)-CH}_2\\text{OH} \\xrightarrow{\\text{Conc. H}_2\\text{SO}_4, -\\text{H}_2\\text{O}} \\text{CH}_3\\text{-CH}_2\\text{-C(CH}_3\\text{)=CH}_2$\n2-methyl but-2-ene is the major product following Saytzeff's rule — the hydrogen is preferably removed from the carbon atom having fewer hydrogen atoms.",
+    "solution_images": [
+      "40_so_1.png",
+      "40_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "During dehydration of alcohols to alkenes by heating with concentrated H2SO4, the initiation step is: (2003)",
+    "question_latex": "During dehydration of alcohols to alkenes by heating with concentrated $\\text{H}_2\\text{SO}_4$, the initiation step is: (2003)",
+    "question_images": [],
+    "options": [
+      "A. Protonation of alcohol molecule",
+      "B. Elimination of water",
+      "C. Formation of carbocation",
+      "D. Formation of an ester"
+    ],
+    "option_images": [],
+    "answer": "A. Protonation of alcohol molecule",
+    "solution": "The mechanism of acid-catalysed dehydration follows an E1 pathway:\nStep 1 (Initiation): Protonation of the $-\\text{OH}$ group by $\\text{H}^+$ from $\\text{H}_2\\text{SO}_4$ to form $\\text{R-OH}_2^+$\nStep 2: Loss of water to form carbocation: $\\text{R-OH}_2^+ \\rightarrow \\text{R}^+ + \\text{H}_2\\text{O}$\nStep 3: Loss of proton to give alkene.\nThe initiation step is protonation of the alcohol molecule.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following is not true in case of reaction with heated copper at 300°C?",
+    "question_latex": "Which of the following is not true in case of reaction with heated copper at $300°\\text{C}$?",
+    "question_images": [],
+    "options": [
+      "A. Phenol → Benzyl alcohol",
+      "B. Secondary alcohol → Ketone",
+      "C. Primary alcohol → Aldehyde",
+      "D. Tertiary alcohol → Olefin"
+    ],
+    "option_images": [],
+    "answer": "A. Phenol → Benzyl alcohol",
+    "solution": "When alcohols are heated with Cu at 300°C:\n- Primary (1°) alcohols: dehydrogenation → Aldehydes\n- Secondary (2°) alcohols: dehydrogenation → Ketones\n- Tertiary (3°) alcohols: dehydration → Alkenes (olefins)\n- Phenol: No reaction (phenol does NOT respond to this test)\nSo statement A is false — phenol does not convert to benzyl alcohol under these conditions.",
+    "solution_images": [
+      "42_so_1.png",
+      "42_so_2.png",
+      "42_so_3.png",
+      "42_so_4.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Peppermint can be extracted from plant sources by using solvents like:",
+    "question_latex": "Peppermint can be extracted from plant sources by using solvents like:",
+    "question_images": [],
+    "options": [
+      "A. NH3",
+      "B. H2O",
+      "C. CH3COOH",
+      "D. C2H5OH"
+    ],
+    "option_images": [],
+    "answer": "D. C2H5OH",
+    "solution": "Peppermint (menthol) is soluble in alcohol ($\\text{C}_2\\text{H}_5\\text{OH}$). Alcohol is used as a solvent to extract peppermint from plant sources because menthol is an organic compound with moderate polarity that is miscible with ethanol.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The products of combustion of an aliphatic thiol (RSH) at 298 K are:",
+    "question_latex": "The products of combustion of an aliphatic thiol (RSH) at 298 K are:",
+    "question_images": [],
+    "options": [
+      "A. CO2(g), H2O(g), and SO2(g)",
+      "B. CO2(g), H2O(l), and SO2(g)",
+      "C. CO2(l), H2O(l), and SO2(g)",
+      "D. CO2(g), H2O(l), and SO2(l)"
+    ],
+    "option_images": [],
+    "answer": "B. CO2(g), H2O(l), and SO2(g)",
+    "solution": "$\\text{CH}_3\\text{SH} + 3\\text{O}_2(g) \\rightarrow \\text{CO}_2(g) + \\text{SO}_2(g) + 2\\text{H}_2\\text{O}(l)$ at 298 K\nAt 298 K (25°C), water is in liquid state ($\\text{H}_2\\text{O}(l)$), while $\\text{CO}_2$ and $\\text{SO}_2$ are gases at this temperature and atmospheric pressure.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the reaction: Phenol --(NaOH)--> (A) --(CO2+HCl, 140°C)--> (B). Here B is:",
+    "question_latex": "In the reaction: Phenol $\\xrightarrow{\\text{NaOH}}$ (A) $\\xrightarrow{\\text{CO}_2+\\text{HCl}, 140°\\text{C}}$ (B). Here B is:",
+    "question_images": [],
+    "options": [
+      "A. Benzaldehyde",
+      "B. Chlorobenzene",
+      "C. Benzoic acid",
+      "D. Salicylic acid"
+    ],
+    "option_images": [],
+    "answer": "D. Salicylic acid",
+    "solution": "This is the Kolbe-Schmitt reaction:\nStep 1: $\\text{Phenol} + \\text{NaOH} \\rightarrow \\text{Sodium phenoxide (A)}$\nStep 2: $\\text{Sodium phenoxide} + \\text{CO}_2 \\xrightarrow{140°\\text{C}, \\text{high pressure}} \\text{Sodium salicylate} \\xrightarrow{\\text{HCl}} \\text{Salicylic acid (B)}$\nSalicylic acid (2-hydroxybenzoic acid) is the product.",
+    "solution_images": [
+      "45_so_1.png",
+      "45_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following alcohols is expected to give haloform test?",
+    "question_latex": "Which of the following alcohols is expected to give haloform test?",
+    "question_images": [],
+    "options": [
+      "A. 1-pentanol",
+      "B. 3-pentanol",
+      "C. 2-propanol",
+      "D. None of above"
+    ],
+    "option_images": [],
+    "answer": "C. 2-propanol",
+    "solution": "The haloform (iodoform) test is positive for alcohols having the $\\text{CH}_3\\text{-CH(OH)-}$ group (methyl carbinol group).\n- 1-Pentanol: $\\text{CH}_3(\\text{CH}_2)_4\\text{OH}$ — primary, no CH3CHOH group → negative.\n- 3-Pentanol: $\\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_2\\text{CH}_3$ — no CH3CHOH group → negative.\n- 2-Propanol: $\\text{CH}_3\\text{-CH(OH)-CH}_3$ — has the $\\text{CH}_3\\text{CHOH}$ group → positive iodoform test.\nSo 2-propanol gives the haloform test.",
+    "solution_images": [
+      "46_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Which of the following reactions is/are feasible? (A) CH3CH2Br + NaO-C(CH3)3 → ether product (B) (CH3)3C-Cl + Na+O-CH2CH3 → ether product",
+    "question_latex": "Which of the following reactions is/are feasible? (A) $\\text{CH}_3\\text{CH}_2\\text{Br} + \\text{Na}^+\\text{O}^-\\text{C(CH}_3)_3 \\rightarrow$ product (B) $(\\text{CH}_3)_3\\text{C-Cl} + \\text{Na}^+\\text{O-CH}_2\\text{CH}_3 \\rightarrow$ product",
+    "question_images": [],
+    "options": [
+      "A. Only (A)",
+      "B. Only (B)",
+      "C. Both (A) and (B)",
+      "D. None of the above"
+    ],
+    "option_images": [
+      "47_opA_1.png",
+      "47_opA_2.png",
+      "47_opB_1.png",
+      "47_opB_2.png",
+      "47_opD_1.png"
+    ],
+    "answer": "A. Only (A)",
+    "solution": "In Williamson's ether synthesis, for best yield:\n- The alkyl halide should be primary (less tendency for elimination)\n- The alkoxide should be secondary or tertiary (bulkier alkoxide favors substitution at primary halide)\n(A) Primary halide ($\\text{CH}_3\\text{CH}_2\\text{Br}$) + tertiary alkoxide → ether (feasible, SN2 at primary halide)\n$\\text{CH}_3\\text{CH}_2\\text{Br} + \\text{Na}^+\\text{O}^-\\text{C(CH}_3)_3 \\rightarrow \\text{CH}_3\\text{CH}_2\\text{OC(CH}_3)_3 + \\text{NaBr}$\n(B) Tertiary halide + primary alkoxide: 3° halide strongly favors elimination (E2) over substitution → not feasible for ether synthesis.\nOnly (A) is feasible.",
+    "solution_images": [
+      "47_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "In the following reaction, X and Y respectively are: C2H5OH --(KMnO4/H+)--> X --(C2H5OH(Y), H2SO4/delta)--> CH3CO2C2H5",
+    "question_latex": "$\\text{C}_2\\text{H}_5\\text{OH} \\xrightarrow{\\text{KMnO}_4/\\text{H}^+} X \\xrightarrow{\\text{H}_2\\text{SO}_4/\\Delta} \\text{CH}_3\\text{CO}_2\\text{C}_2\\text{H}_5$",
+    "question_images": [],
+    "options": [
+      "A. CH3OH, C2H5OH",
+      "B. CH3CHO, CH3OH",
+      "C. CH3CO2H, C2H5OH",
+      "D. C2H4, CH3CO2H"
+    ],
+    "option_images": [],
+    "answer": "C. CH3CO2H, C2H5OH",
+    "solution": "Step 1: $\\text{C}_2\\text{H}_5\\text{OH} + [\\text{O}] \\xrightarrow{\\text{KMnO}_4/\\text{H}^+} \\text{CH}_3\\text{COOH}$ (X = acetic acid)\nStep 2: $\\text{CH}_3\\text{COOH} + \\text{C}_2\\text{H}_5\\text{OH} (Y) \\xrightarrow{\\text{H}_2\\text{SO}_4, \\Delta} \\text{CH}_3\\text{COOC}_2\\text{H}_5$ (ethyl ethanoate)\nSo $X = \\text{CH}_3\\text{COOH}$ and $Y = \\text{C}_2\\text{H}_5\\text{OH}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "The intestinal antiseptic Salol is correctly represented as:",
+    "question_latex": "The intestinal antiseptic Salol is correctly represented as:",
+    "question_images": [],
+    "options": [
+      "A. Phenol with OCH3 group",
+      "B. Phenol with COOC6H5 group (phenyl salicylate)",
+      "C. Phenol with COOCH3 group",
+      "D. Phenol with OC2H5 group"
+    ],
+    "option_images": [
+      "49_opA_1.png",
+      "49_opB_1.png",
+      "49_opC_1.png"
+    ],
+    "answer": "B. Phenol with COOC6H5 group (phenyl salicylate)",
+    "solution": "Salol is the common name for phenyl salicylate. It is the phenyl ester of salicylic acid (2-hydroxybenzoic acid). Its structure is 2-hydroxyphenyl benzoate or salicylic acid phenyl ester. It is used as an intestinal antiseptic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Alcohols, Phenols and Ethers",
+    "question": "Diethyl ether on heating with conc. HI gives two moles of:",
+    "question_latex": "Diethyl ether on heating with conc. HI gives two moles of:",
+    "question_images": [],
+    "options": [
+      "A. Ethanol",
+      "B. Iodoform",
+      "C. Ethyl iodide",
+      "D. Methyl iodide"
+    ],
+    "option_images": [],
+    "answer": "C. Ethyl iodide",
+    "solution": "Diethyl ether reacts with excess conc. HI:\n$\\text{(C}_2\\text{H}_5)_2\\text{O} + \\text{HI} \\rightarrow \\text{C}_2\\text{H}_5\\text{OH} + \\text{C}_2\\text{H}_5\\text{I}$\nWith excess HI:\n$\\text{C}_2\\text{H}_5\\text{OH} + \\text{HI} \\rightarrow \\text{C}_2\\text{H}_5\\text{I} + \\text{H}_2\\text{O}$\nOverall: $(\\text{C}_2\\text{H}_5)_2\\text{O} + 2\\text{HI} \\rightarrow 2\\text{C}_2\\text{H}_5\\text{I} + \\text{H}_2\\text{O}$\nTwo moles of ethyl iodide are formed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

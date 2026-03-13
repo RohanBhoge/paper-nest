@@ -1,0 +1,956 @@
+[
+  {
+    "id": 1,
+    "chapter": "Electrochemistry",
+    "question": "Standard electrode potential for Sn4+/Sn2+ couple is +0.15 V and that for the Cr3+/Cr couple is -0.74 V. These two couples in their standard state are connected to make a cell. The cell potential will be",
+    "question_latex": "Standard electrode potential for $\\text{Sn}^{4+}/\\text{Sn}^{2+}$ couple is $+0.15\\text{ V}$ and that for the $\\text{Cr}^{3+}/\\text{Cr}$ couple is $-0.74\\text{ V}$. These two couples in their standard state are connected to make a cell. The cell potential will be",
+    "question_images": [],
+    "options": [
+      "A. +1.19 V",
+      "B. +0.89 V",
+      "C. +0.18 V",
+      "D. +1.83 V"
+    ],
+    "option_images": [],
+    "answer": "B. +0.89 V",
+    "solution": "Given $E^\\circ_{\\text{Sn}^{4+}/\\text{Sn}^{2+}} = +0.15\\text{ V}$, $E^\\circ_{\\text{Cr}^{3+}/\\text{Cr}} = -0.74\\text{ V}$\n\n$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{ox}} + E^\\circ_{\\text{red}}$\n$= 0.74 + 0.15 = 0.89\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Electrochemistry",
+    "question": "The correct order of reduction potentials of the following pairs is A. Cl2/Cl- B. I2/I- E. Li+/Li C. Ag+/Ag D. Na+/Na. Choose the correct answer from the options given below: (June 2022)",
+    "question_latex": "The correct order of reduction potentials of the following pairs is A. $\\text{Cl}_2/\\text{Cl}^-$ B. $\\text{I}_2/\\text{I}^-$ E. $\\text{Li}^+/\\text{Li}$ C. $\\text{Ag}^+/\\text{Ag}$ D. $\\text{Na}^+/\\text{Na}$. Choose the correct answer from the options given below: (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. A > C > B > D > E",
+      "B. A > B > C > E > D",
+      "C. A > C > B > E > D",
+      "D. A > B > C > D > E"
+    ],
+    "option_images": [],
+    "answer": "A. A > C > B > D > E",
+    "solution": "$A: E^\\circ_{\\text{Cl}_2/\\text{Cl}^-} = 1.36\\text{ V}$\n$B: E^\\circ_{\\text{I}_2/\\text{I}^-} = 0.54\\text{ V}$\n$C: E^\\circ_{\\text{Ag}^+/\\text{Ag}} = 0.80\\text{ V}$\n$D: E^\\circ_{\\text{Na}^+/\\text{Na}} = -2.71\\text{ V}$\n$E: E^\\circ_{\\text{Li}^+/\\text{Li}}$ (most negative)\n\nOrder: $A > C > B > D > E$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Electrochemistry",
+    "question": "In the cell Pt(s) | H2(g, 1 bar) | HCl(aq) | AgCl(s) | Ag(s) | Pt(s), the cell potential is 0.92 V when a 10^-6 molal HCl solution is used. The standard electrode potential of (AgCl/Ag, Cl-) electrode is (Jan 2017) (Given, 2.303RT/F = 0.06 V at 298 K)",
+    "question_latex": "In the cell $\\text{Pt}_{(s)} | \\text{H}_2(g, 1\\text{ bar}) | \\text{HCl}_{(aq)} | \\text{AgCl}_{(s)} | \\text{Ag}_{(s)} | \\text{Pt}_{(s)}$, the cell potential is $0.92\\text{ V}$ when a $10^{-6}$ molal HCl solution is used. The standard electrode potential of $(\\text{AgCl/Ag, Cl}^-)$ electrode is (Jan 2017) (Given, $\\frac{2.303RT}{F} = 0.06\\text{ V}$ at $298\\text{ K}$)",
+    "question_images": [],
+    "options": [
+      "A. 0.40 V",
+      "B. 0.76 V",
+      "C. 0.94 V",
+      "D. 0.20 V"
+    ],
+    "option_images": [],
+    "answer": "B. 0.76 V",
+    "solution": "At anode: $\\text{H}_2 \\to 2\\text{H}^+ + 2e^- \\times 1$\nAt cathode: $\\text{AgCl} + e^- \\to \\text{Ag} + \\text{Cl}^- \\times 2$\n\nOverall: $\\text{H}_{2(g)} + 2\\text{AgCl}_{(s)} \\to 2\\text{H}^+ + 2\\text{Ag}_{(s)} + 2\\text{Cl}^-$\n\n$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.06}{2}\\log[\\text{H}^+]^2[\\text{Cl}^-]^2$\n\n$0.92 = (0 + E^\\circ_{\\text{AgCl/Ag,Cl}^-}) - 0.03\\log_{10}(10^{-6})^4$\n\n$E^\\circ_{\\text{AgCl/Ag,Cl}^-} = 0.92 + 0.03 \\times (-24) = 0.20\\text{ V}$\n\nNote: The correct answer based on the solution is 0.20 V (option D), but the PDF marks answer as B.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Electrochemistry",
+    "question": "Given that the standard reduction potentials for M+/M and N+/N electrodes at 298 K are 0.52 V and 0.25 V respectively. Which of the following is correct in respect of the following electrochemical cell?",
+    "question_latex": "Given that the standard reduction potentials for $M^+/M$ and $N^+/N$ electrodes at $298\\text{ K}$ are $0.52\\text{ V}$ and $0.25\\text{ V}$ respectively. Which of the following is correct in respect of the following electrochemical cell?",
+    "question_images": [],
+    "options": [
+      "A. The overall cell reaction is a spontaneous reaction.",
+      "B. The standard EMF of the cell is -0.27 V.",
+      "C. The standard EMF of the cell is 0.77 V.",
+      "D. The standard EMF of the cell is -0.77 V."
+    ],
+    "option_images": [],
+    "answer": "B. The standard EMF of the cell is -0.27 V.",
+    "solution": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = E^\\circ_{\\text{right}} - E^\\circ_{\\text{left}}$\n$E^\\circ_{\\text{cell}} = 0.25 - 0.52 = -0.27\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Electrochemistry",
+    "question": "The Gibbs energy for the decomposition of Al2O3 at 500°C is as follows: 2/3 Al2O3 → 4/3 Al + O2, ΔrG = +966 kJ mol-1. The potential difference needed for electrolytic reduction of Al2O3 at 500°C is at least (2010)",
+    "question_latex": "The Gibbs energy for the decomposition of $\\text{Al}_2\\text{O}_3$ at $500^\\circ\\text{C}$ is as follows: $\\frac{2}{3}\\text{Al}_2\\text{O}_3 \\to \\frac{4}{3}\\text{Al} + \\text{O}_2$, $\\Delta_r G = +966\\text{ kJ mol}^{-1}$. The potential difference needed for electrolytic reduction of $\\text{Al}_2\\text{O}_3$ at $500^\\circ\\text{C}$ is at least (2010)",
+    "question_images": [],
+    "options": [
+      "A. 3.0 V",
+      "B. 5.0 V",
+      "C. 4.5 V",
+      "D. 2.5 V"
+    ],
+    "option_images": [],
+    "answer": "D. 2.5 V",
+    "solution": "Ionic reactions: $\\frac{2}{3}\\text{Al}^{3+} + 4e^- \\to \\frac{4}{3}\\text{Al}$; $\\frac{2}{3}\\text{O}^{2-} \\to \\text{O}_2 + 4e^-$\n\nNo. of electrons transferred $n = 4$\n\n$\\Delta G = -nFE$\n$966 \\times 10^3 = -4 \\times 96500 \\times E$\n$E = -\\frac{966 \\times 10^3}{4 \\times 96500} = -2.5\\text{ V}$\n\nPotential difference needed is at least $2.5\\text{ V}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Electrochemistry",
+    "question": "If 0.01 M solution of an electrolyte has a resistance of 40 ohms in a cell having a cell constant of 0.4 cm-1, then its molar conductance in ohm-1 cm2 mol-1 is",
+    "question_latex": "If $0.01\\text{ M}$ solution of an electrolyte has a resistance of $40\\text{ ohms}$ in a cell having a cell constant of $0.4\\text{ cm}^{-1}$, then its molar conductance in $\\text{ohm}^{-1}\\text{ cm}^2\\text{ mol}^{-1}$ is",
+    "question_images": [],
+    "options": [
+      "A. 10^2",
+      "B. 10",
+      "C. 10^4",
+      "D. 10^3"
+    ],
+    "option_images": [],
+    "answer": "D. 10^3",
+    "solution": "Molarity $= 0.01\\text{ M}$; Resistance $= 40\\text{ ohm}$\n\nCell constant $\\frac{l}{A} = 0.4\\text{ cm}^{-1}$\n\nSpecific conductivity $\\kappa = \\frac{\\text{cell constant}}{\\text{resistance}} = \\frac{0.4}{40} = 0.01\\text{ ohm}^{-1}\\text{ cm}^{-1}$\n\nMolar conductance $\\Lambda_m = \\frac{1000\\kappa}{\\text{Molarity}} = \\frac{1000 \\times 0.01}{0.01} = 10^3\\text{ ohm}^{-1}\\text{ cm}^2\\text{ mol}^{-1}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Electrochemistry",
+    "question": "For lead storage battery, pick the correct statements. A. During charging of battery, PbSO4 on anode is converted into PbO2. B. During charging of battery, PbSO4 on cathode is converted into PbO2. C. Lead storage battery consists of grid of lead packed with PbO2 as anode. D. Lead storage battery has ~38% solution of sulphuric acid as an electrolyte. Choose the correct answer from the option given below: (April 2023)",
+    "question_latex": "For lead storage battery, pick the correct statements. A. During charging of battery, $\\text{PbSO}_4$ on anode is converted into $\\text{PbO}_2$. B. During charging of battery, $\\text{PbSO}_4$ on cathode is converted into $\\text{PbO}_2$. C. Lead storage battery consists of grid of lead packed with $\\text{PbO}_2$ as anode. D. Lead storage battery has $\\sim 38\\%$ solution of sulphuric acid as an electrolyte. Choose the correct answer from the option given below: (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. A, B, D only",
+      "B. B, C, D only",
+      "C. B, D only",
+      "D. B, C only"
+    ],
+    "option_images": [],
+    "answer": "B. B, C, D only",
+    "solution": "In each lead storage cell, the anode is a grid of lead packed with finely divided spongy lead and cathode is a grid of lead packed with $\\text{PbO}_2$.\n\nThe electrolyte is aqueous solution of sulphuric acid $\\sim 38\\%$ by mass.\n\nDuring charging, lead is deposited on anode and $\\text{PbO}_2$ on the cathode.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Electrochemistry",
+    "question": "Which of the following statements is wrong?",
+    "question_latex": "Which of the following statements is wrong?",
+    "question_images": [],
+    "options": [
+      "A. The conductance of one cm3 of a material is called specific conductance",
+      "B. Specific conductance increases while equivalent conductance decreases on progressive dilution",
+      "C. The limiting equivalent conductances of weak electrolytes cannot be determined by the extrapolation of the plot of Λ against concentration",
+      "D. The conductivity of metals is due to the movement of electrons"
+    ],
+    "option_images": [],
+    "answer": "B. Specific conductance increases while equivalent conductance decreases on progressive dilution",
+    "solution": "Statement B is factually incorrect. On progressive dilution, both specific conductance and equivalent conductance change, but specific conductance actually decreases (fewer ions per unit volume), while equivalent conductance increases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Electrochemistry",
+    "question": "The gas evolved at the anode when K2SO4(aq) is electrolyzed between Pt electrodes is",
+    "question_latex": "The gas evolved at the anode when $\\text{K}_2\\text{SO}_4\\text{(aq)}$ is electrolyzed between Pt electrodes is",
+    "question_images": [],
+    "options": [
+      "A. O2",
+      "B. H2",
+      "C. SO2",
+      "D. SO3"
+    ],
+    "option_images": [],
+    "answer": "A. O2",
+    "solution": "Electrolysis of $\\text{H}_2\\text{O}$ takes place:\n$2\\text{H}_2\\text{O} \\to \\text{O}_2 + 2\\text{H}^\\oplus + 4e^-$\n\nOxygen gas is evolved at the anode.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Electrochemistry",
+    "question": "For the given Nernst equation E_cell = E°cell - (RT/2F) ln [Mg2+]/[Ag+]2, which of the following representation is correct?",
+    "question_latex": "For the given Nernst equation $E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{RT}{2F}\\ln\\frac{[\\text{Mg}^{2+}]}{[\\text{Ag}^+]^2}$, which of the following representation is correct?",
+    "question_images": [],
+    "options": [
+      "A. Ag+|Ag||Mg2+|Mg",
+      "B. Mg2+|Mg||Ag|Ag+",
+      "C. Mg|Mg2+||Ag+|Ag",
+      "D. Mg|Mg2+||Ag|Ag+"
+    ],
+    "option_images": [],
+    "answer": "C. Mg|Mg2+||Ag+|Ag",
+    "solution": "The Nernst equation $E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{RT}{2F}\\ln\\frac{[\\text{Mg}^{2+}]}{[\\text{Ag}^+]^2}$ corresponds to the cell:\n$\\text{Mg} | \\text{Mg}^{2+} || \\text{Ag}^+ | \\text{Ag}$\n\nwhere Mg is oxidized at anode and Ag+ is reduced at cathode. The reaction is:\n$\\text{Mg} + 2\\text{Ag}^+ \\to \\text{Mg}^{2+} + 2\\text{Ag}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Electrochemistry",
+    "question": "In which of the following will the corrosion of iron be most rapid?",
+    "question_latex": "In which of the following will the corrosion of iron be most rapid?",
+    "question_images": [],
+    "options": [
+      "A. In pure water",
+      "B. In pure oxygen",
+      "C. In air and moisture",
+      "D. In air and saline water"
+    ],
+    "option_images": [],
+    "answer": "D. In air and saline water",
+    "solution": "Saline water is highly conducting and hence accelerates electrochemical corrosion. The presence of dissolved salts increases the conductivity of the electrolyte, which speeds up the corrosion process. In air and saline water, both oxygen and a conducting electrolyte are present, making corrosion most rapid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Electrochemistry",
+    "question": "To find the standard potential of M3+/M electrode, the following cell is constituted: Pt M|M3+(0.001 mol L-1) || Ag+(0.01 mol L-1)|Ag. The emf of the cell is found to be 0.421 volt at 298 K. The standard potential of half reaction M3+ + 3e- → M at 298 K will be (Given: E°Ag+/Ag at 298 K = 0.80 Volt) (Online 2017)",
+    "question_latex": "To find the standard potential of $M^{3+}/M$ electrode, the following cell is constituted: $\\text{Pt}\\; M|M^{3+}(0.001\\text{ mol L}^{-1}) || \\text{Ag}^+(0.01\\text{ mol L}^{-1})|\\text{Ag}$. The emf of the cell is found to be $0.421\\text{ volt}$ at $298\\text{ K}$. The standard potential of half reaction $M^{3+} + 3e^- \\to M$ at $298\\text{ K}$ will be (Given: $E^\\circ_{\\text{Ag}^+/\\text{Ag}}$ at $298\\text{ K} = 0.80\\text{ Volt}$) (Online 2017)",
+    "question_images": [],
+    "options": [
+      "A. 0.32 Volt",
+      "B. 1.28 Volt",
+      "C. 0.38 Volt",
+      "D. 0.66 Volt"
+    ],
+    "option_images": [],
+    "answer": "A. 0.32 Volt",
+    "solution": "$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.059}{n}\\log\\frac{[M^{3+}]}{[\\text{Ag}^+]^3}$\n\n$0.421 = E^\\circ_{\\text{cell}} - \\frac{0.059}{3}\\log\\frac{0.001}{(0.01)^3}$\n\n$E^\\circ_{\\text{cell}} = 0.421 + \\frac{0.059}{3} \\times 3 = 0.480\\text{ V}$\n\n$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{Ag}^+/\\text{Ag}} - E^\\circ_{M^{3+}/M}$\n\n$0.480 = 0.8 - E^\\circ_{M^{3+}/M}$\n\n$E^\\circ_{M^{3+}/M} = 0.32\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Electrochemistry",
+    "question": "Which one is not called an anode reaction from the following?",
+    "question_latex": "Which one is not called an anode reaction from the following?",
+    "question_images": [],
+    "options": [
+      "A. Cl- → 1/2 Cl2 + e-",
+      "B. Cu → Cu++ + 2e-",
+      "C. Hg+ → Hg++ + e-",
+      "D. Zn2+ + 2e- → Zn"
+    ],
+    "option_images": [],
+    "answer": "D. Zn2+ + 2e- → Zn",
+    "solution": "$\\text{Zn}^{2+} + 2e^- \\to \\text{Zn}$ shows a reduction reaction. Anode reactions involve oxidation (loss of electrons), not reduction. Therefore option D is not an anode reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Electrochemistry",
+    "question": "The best way to prevent rusting of iron is",
+    "question_latex": "The best way to prevent rusting of iron is",
+    "question_images": [],
+    "options": [
+      "A. making it cathode",
+      "B. putting in saline water",
+      "C. Both of these",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. making it cathode",
+    "solution": "Cathodic protection is the best method to prevent iron from rusting. In this method iron is made cathode by application of external current.\n\nSaline water is highly conducting and hence accelerates the formation of rust.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Electrochemistry",
+    "question": "Calculate the potential of the following cell: Pt | Co2+, Co3+ (2.0 M)(1.0 M) | Cr3+, Cr2O72-, H+ (1.0 M)(4.0 M)(1.0 M) | Pt. Given E°Co2+|CO3+ = -2V, E°Cr2O72-|Cr3+ = +1.0 V",
+    "question_latex": "Calculate the potential of the following cell: $\\text{Pt} | \\text{Co}^{2+}, \\text{Co}^{3+}_{(2.0\\text{M})(1.0\\text{M})} | \\text{Cr}^{3+}, \\text{Cr}_2\\text{O}_7^{2-}, \\text{H}^+_{(1.0\\text{M})(4.0\\text{M})(1.0\\text{M})} | \\text{Pt}$. Given $E^\\circ_{\\text{Co}^{2+}|\\text{Co}^{3+}} = -2\\text{V}$, $E^\\circ_{\\text{Cr}_2\\text{O}_7^{2-}|\\text{Cr}^{3+}} = +1.0\\text{ V}$",
+    "question_images": [],
+    "options": [
+      "A. 1.024 V",
+      "B. -1.024 V",
+      "C. 0.976 V",
+      "D. -0.976 V"
+    ],
+    "option_images": [],
+    "answer": "D. -0.976 V",
+    "solution": "Cell reactions:\n$[\\text{Co}^{2+} \\to \\text{Co}^{3+} + e^-] \\times 6$\n$14\\text{H}^+ + 6e^- + \\text{Cr}_2\\text{O}_7^{2-} \\to 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O}$\n\n$E^\\circ_{\\text{cell}} = E^\\circ_c - E^\\circ_a = 1 - 2 = -1\\text{ V}$\n\n$E = E^\\circ - \\frac{0.059}{6}\\log\\frac{[\\text{Co}^{3+}]^6[\\text{Cr}^{3+}]^2}{[\\text{Co}^{2+}]^6[\\text{H}^+]^{14}[\\text{Cr}_2\\text{O}_7^{2-}]}$\n\n$= -1 - 0.01\\log\\frac{(1)^6 \\times (1)^2}{(2)^6 \\times (1)^{14} \\times (4)}$\n$= -1 - 0.01\\log(2)^{-8}$\n$= -1 + 0.01 \\times 8 \\times 0.3 \\approx -0.976\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Electrochemistry",
+    "question": "Consider the statements S1 and S2: S1: Conductivity always increases with decrease in the concentration of electrolyte. S2: Molar conductivity always increases with decrease in the concentration of electrolyte. The correct option among the following is (April 2019)",
+    "question_latex": "Consider the statements $S_1$ and $S_2$: $S_1$: Conductivity always increases with decrease in the concentration of electrolyte. $S_2$: Molar conductivity always increases with decrease in the concentration of electrolyte. The correct option among the following is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. both S1 and S2 are wrong",
+      "B. both S1 and S2 are correct",
+      "C. S1 is wrong and S2 is correct",
+      "D. S1 is correct and S2 is wrong"
+    ],
+    "option_images": [],
+    "answer": "C. S1 is wrong and S2 is correct",
+    "solution": "$\\kappa = \\frac{l}{a} \\times G$, where $G$ = conductance and $\\frac{l}{a}$ = cell constant.\n\nThus, conductivity does not simply increase with dilution; it actually decreases because fewer ions are present per unit volume.\n\n$\\Lambda_m = \\kappa \\times \\frac{1000}{N}$; Thus, $\\Lambda_m \\propto \\frac{1}{N}$, so molar conductivity increases with dilution.\n\nHence $S_1$ is wrong and $S_2$ is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Electrochemistry",
+    "question": "Oxidation of succinate ion produces ethylene and carbon dioxide gases. On passing 0.2 Faraday electricity through an aqueous solution of potassium succinate, the total volume of gases (at both cathode and anode) at STP (1 atm and 273 K) is (Online 2016)",
+    "question_latex": "Oxidation of succinate ion produces ethylene and carbon dioxide gases. On passing $0.2$ Faraday electricity through an aqueous solution of potassium succinate, the total volume of gases (at both cathode and anode) at STP ($1$ atm and $273\\text{ K}$) is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. 8.96 L",
+      "B. 6.72 L",
+      "C. 4.48 L",
+      "D. 2.24 L"
+    ],
+    "option_images": [],
+    "answer": "A. 8.96 L",
+    "solution": "At anode: Succinate $- 2e^- \\to$ (unstable) $\\to 2\\text{CO}_2 + \\text{CH}_2=\\text{CH}_2$\n\n$2\\text{ F}$ produce 1 mole of ethene and 2 moles of $\\text{CO}_2$. Therefore, $0.2\\text{ F}$ will produce $0.1$ mole of ethene and $0.2$ mole of $\\text{CO}_2$.\n\nAt cathode: $2\\text{H}^+ + 2e^- \\to \\text{H}_2$\n$2\\text{ F}$ produce 1 mole of $\\text{H}_2$. So $0.2\\text{ F}$ produces $0.1$ mole of $\\text{H}_2$.\n\nTotal moles = $0.2 + 0.1 + 0.1 = 0.4$\n\n$V = \\frac{nRT}{P} = \\frac{0.4 \\times 0.0821 \\times 273}{1} = 8.96\\text{ L}$",
+    "solution_images": [
+      "17_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Electrochemistry",
+    "question": "By virtue of Faraday's second law of electrolysis, the electrochemical equivalent of the two metals liberated at the electrode has the same ratio as that of their",
+    "question_latex": "By virtue of Faraday's second law of electrolysis, the electrochemical equivalent of the two metals liberated at the electrode has the same ratio as that of their",
+    "question_images": [],
+    "options": [
+      "A. Atomic masses",
+      "B. Molecular masses",
+      "C. Equivalent masses",
+      "D. Any of three"
+    ],
+    "option_images": [],
+    "answer": "C. Equivalent masses",
+    "solution": "Factual statement of Faraday's second law of electrolysis: The masses of different substances deposited or dissolved at electrodes by the same amount of electricity are proportional to their equivalent masses. Hence electrochemical equivalents are in the ratio of their equivalent masses.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Electrochemistry",
+    "question": "As lead storage battery is charged",
+    "question_latex": "As lead storage battery is charged",
+    "question_images": [],
+    "options": [
+      "A. lead dioxide dissolves",
+      "B. sulphuric acid is regenerated",
+      "C. lead electrode becomes coated with lead sulphate",
+      "D. the concentration of sulphuric acid decreases"
+    ],
+    "option_images": [],
+    "answer": "B. sulphuric acid is regenerated",
+    "solution": "$\\text{H}_2\\text{SO}_4$ is regenerated during charging of the lead storage battery. The reactions are reversed during charging, converting $\\text{PbSO}_4$ back to $\\text{Pb}$ and $\\text{PbO}_2$ while regenerating $\\text{H}_2\\text{SO}_4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Electrochemistry",
+    "question": "How many coulombs are required for the oxidation of 1 mol of H2O to O2?",
+    "question_latex": "How many coulombs are required for the oxidation of $1$ mol of $\\text{H}_2\\text{O}$ to $\\text{O}_2$?",
+    "question_images": [],
+    "options": [
+      "A. 93000 C",
+      "B. 1.93 × 10^5 C",
+      "C. 9.65 × 10^4 C",
+      "D. 19.3 × 10^2 C"
+    ],
+    "option_images": [],
+    "answer": "B. 1.93 × 10^5 C",
+    "solution": "$\\text{H}_2\\text{O} \\to 2\\text{H}^\\oplus + 2e^- + \\frac{1}{2}\\text{O}_2$\n\n$2\\text{F} \\equiv 1\\text{ mol of }\\text{H}_2\\text{O} = \\frac{1}{2}\\text{ mol of }\\text{O}_2$\n\n$\\therefore 2 \\times 96500\\text{ C} = 1.93 \\times 10^5\\text{ C}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Electrochemistry",
+    "question": "The resistance of 1 N solution of acetic acid is 250 ohm, when measured in a cell of cell constant 1.15 cm-1. The equivalent conductance (in ohm-1 cm2 eq-1) of 1 N acetic acid is",
+    "question_latex": "The resistance of $1\\text{ N}$ solution of acetic acid is $250\\text{ ohm}$, when measured in a cell of cell constant $1.15\\text{ cm}^{-1}$. The equivalent conductance (in $\\text{ohm}^{-1}\\text{ cm}^2\\text{ eq}^{-1}$) of $1\\text{ N}$ acetic acid is",
+    "question_images": [],
+    "options": [
+      "A. 4.6",
+      "B. 9.2",
+      "C. 18.4",
+      "D. 0.023"
+    ],
+    "option_images": [],
+    "answer": "A. 4.6",
+    "solution": "$\\kappa = \\frac{1}{R} \\times G^* = \\frac{1}{250} \\times 1.15 = 0.0046\\text{ S cm}^{-1}$\n\n$\\Lambda_{\\text{eq}} = \\frac{\\kappa \\times 1000}{N} = \\frac{0.0046 \\times 1000}{1} = 4.6\\text{ ohm}^{-1}\\text{ cm}^2\\text{ eq}^{-1}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Electrochemistry",
+    "question": "Consider the following four electrodes: P = Cu2+(0.0001 M)/Cu(s), Q = Cu2+(0.1 M)/Cu(s), R = Cu2+(0.01 M)/Cu(s), S = Cu2+(0.001 M)/Cu(s). If the standard reduction potential of Cu2+/Cu is +0.34 V, the reduction potentials in volts of the above electrodes follow the order.",
+    "question_latex": "Consider the following four electrodes: $P = \\text{Cu}^{2+}(0.0001\\text{ M})/\\text{Cu}(s)$, $Q = \\text{Cu}^{2+}(0.1\\text{ M})/\\text{Cu}(s)$, $R = \\text{Cu}^{2+}(0.01\\text{ M})/\\text{Cu}(s)$, $S = \\text{Cu}^{2+}(0.001\\text{ M})/\\text{Cu}(s)$. If the standard reduction potential of $\\text{Cu}^{2+}/\\text{Cu}$ is $+0.34\\text{ V}$, the reduction potentials in volts of the above electrodes follow the order.",
+    "question_images": [],
+    "options": [
+      "A. P > S > R > Q",
+      "B. S > R > Q > P",
+      "C. R > S > Q > P",
+      "D. Q > R > S > P"
+    ],
+    "option_images": [],
+    "answer": "D. Q > R > S > P",
+    "solution": "$E_{\\text{red}} = E^\\circ_{\\text{red}} + \\frac{0.0591}{n}\\log[M^{n+}]$\n\nLower the concentration of $M^{n+}$, lower is the reduction potential.\n\nSince $[Q] > [R] > [S] > [P]$, the order of reduction potentials is: $Q > R > S > P$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Electrochemistry",
+    "question": "Consider the following E° values: E°Fe3+/Fe2+ = +0.77 V; E°Sn2+/Sn = -0.14 V. Under standard conditions the potential for the reaction Sn(s) + 2Fe3+(aq) → 2Fe2+(aq) + Sn2+(aq) is (2004)",
+    "question_latex": "Consider the following $E^\\circ$ values: $E^\\circ_{\\text{Fe}^{3+}/\\text{Fe}^{2+}} = +0.77\\text{ V}$; $E^\\circ_{\\text{Sn}^{2+}/\\text{Sn}} = -0.14\\text{ V}$. Under standard conditions the potential for the reaction $\\text{Sn}_{(s)} + 2\\text{Fe}^{3+}_{(aq)} \\to 2\\text{Fe}^{2+}_{(aq)} + \\text{Sn}^{2+}_{(aq)}$ is (2004)",
+    "question_images": [],
+    "options": [
+      "A. 0.63 V",
+      "B. 1.68 V",
+      "C. 0.91 V",
+      "D. 1.40 V"
+    ],
+    "option_images": [],
+    "answer": "C. 0.91 V",
+    "solution": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{Sn/Sn}^{2+}} + E^\\circ_{\\text{Fe}^{3+}/\\text{Fe}^{2+}} = 0.14 + 0.77 = 0.91\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Electrochemistry",
+    "question": "The E° for Cu2+/Cu+, Cu+/Cu, Cu2+/Cu are 0.15 V, 0.50 V, and 0.325 V, respectively. The redox cell showing redox reaction 2Cu+ → Cu2+ + Cu is made. E° of this cell reaction and ΔG°",
+    "question_latex": "The $E^\\circ$ for $\\text{Cu}^{2+}/\\text{Cu}^+$, $\\text{Cu}^+/\\text{Cu}$, $\\text{Cu}^{2+}/\\text{Cu}$ are $0.15\\text{ V}$, $0.50\\text{ V}$, and $0.325\\text{ V}$, respectively. The redox cell showing redox reaction $2\\text{Cu}^+ \\to \\text{Cu}^{2+} + \\text{Cu}$ is made. $E^\\circ$ of this cell reaction and $\\Delta G^\\circ$",
+    "question_images": [],
+    "options": [
+      "A. E° = 0.175 V or E° = 0.350 V",
+      "B. n = 1 or 2",
+      "C. ΔG° = -33.775 kJ",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Cell I: $\\text{Cu}^+ \\to \\text{Cu}^{2+} + e^-$; $\\text{Cu}^+ + e^- \\to \\text{Cu}$\n$E^\\circ = -0.15 + 0.50 = +0.35\\text{ V}$, $n = 1$\n\nCell II: $\\text{Cu} \\to \\text{Cu}^{2+} + 2e^-$; $2\\text{Cu}^+ + 2e^- \\to 2\\text{Cu}$\n$E^\\circ = -0.325 + 0.50 = +0.175\\text{ V}$, $n = 2$\n\nAll options are valid for different representations of the same cell.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Electrochemistry",
+    "question": "During the charging of lead storage battery, the reaction at anode is represented by",
+    "question_latex": "During the charging of lead storage battery, the reaction at anode is represented by",
+    "question_images": [],
+    "options": [
+      "A. Pb2+ + SO42- → PbSO4",
+      "B. PbSO4 + 2H2O → PbO2 + SO42- + 4H+ + 2e-",
+      "C. Pb → Pb2+ + 2e-",
+      "D. Pb2+ + 2e- → Pb"
+    ],
+    "option_images": [],
+    "answer": "B. PbSO4 + 2H2O → PbO2 + SO42- + 4H+ + 2e-",
+    "solution": "During charging, the lead storage battery behaves like an electrolytic cell. So, at anode the reaction is:\n$\\text{PbSO}_4 + 2\\text{H}_2\\text{O} \\to \\text{PbO}_2 + 4\\text{H}^+ + \\text{SO}_4^{2-} + 2e^-$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Electrochemistry",
+    "question": "For the given cell Pt(D2|D+)||H+|Pt(H2), if E°D2|D+ = 0.003 V, what will be the ratio of D+ and H+ at 25°C when the reaction D2 + 2H+ → 2D+ + H2 attains equilibrium",
+    "question_latex": "For the given cell $\\text{Pt}_{D_2|D^+} || H^+ | \\text{Pt}_{H_2}$, if $E^\\circ_{D_2|D^+} = 0.003\\text{ V}$, what will be the ratio of $D^+$ and $H^+$ at $25^\\circ\\text{C}$ when the reaction $D_2 + 2H^+ \\to 2D^+ + H_2$ attains equilibrium",
+    "question_images": [],
+    "options": [
+      "A. 1.34",
+      "B. 1.24",
+      "C. 1.124",
+      "D. 1.45"
+    ],
+    "option_images": [],
+    "answer": "C. 1.124",
+    "solution": "$E_{\\text{cell}} = E_{\\text{OP}_{D_2}} = E_{\\text{RP}_{H_2}}$\n\nAt equilibrium, $E_{\\text{cell}} = 0$:\n\n$0 = 0.003 - \\frac{0.059}{2}\\log\\frac{[D^+]^2}{[H^+]^2}$\n\n$\\frac{[D^+]}{[H^+]} = 1.124$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Electrochemistry",
+    "question": "Which of the following expression correctly represents molar conductivity?",
+    "question_latex": "Which of the following expression correctly represents molar conductivity?",
+    "question_images": [],
+    "options": [
+      "A. Λm = κ/C",
+      "B. Λm = κA/l",
+      "C. Λm = κV",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "All three expressions are equivalent representations of molar conductivity:\n$\\Lambda_m = \\frac{\\kappa}{C}$ (using concentration)\n$\\Lambda_m = \\frac{\\kappa A}{l}$ (using cell geometry)\n$\\Lambda_m = \\kappa V$ (using volume containing 1 mole)\n\nAll of these are correct expressions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Electrochemistry",
+    "question": "The standard reduction potential at 25°C for the reaction 2H2O + 2e- → H2 + 2OH- is -0.8277 volt. The equilibrium constant for the reaction 2H2O ⇌ H3O+ + OH- at 25°C is",
+    "question_latex": "The standard reduction potential at $25^\\circ\\text{C}$ for the reaction $2\\text{H}_2\\text{O} + 2e^- \\rightleftharpoons \\text{H}_2 + 2\\text{OH}^-$ is $-0.8277\\text{ volt}$. The equilibrium constant for the reaction $2\\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_3\\text{O}^+ + \\text{OH}^-$ at $25^\\circ\\text{C}$ is",
+    "question_images": [],
+    "options": [
+      "A. 10^-12",
+      "B. 10^-14",
+      "C. 10^-11",
+      "D. 10^-8"
+    ],
+    "option_images": [],
+    "answer": "B. 10^-14",
+    "solution": "Using the relation $\\log K = \\frac{nE^\\circ}{0.0591}$\n\nFor the water equilibrium $K_w = [\\text{H}^+][\\text{OH}^-]$\n\nThe equilibrium constant is $K_w = 10^{-14}$ at $25^\\circ\\text{C}$, which corresponds to the given standard reduction potential of $-0.8277\\text{ V}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Electrochemistry",
+    "question": "Pt(H2)(p1) | H+(1 M) | (H2)(p2), Pt cell reaction will be exergonic if",
+    "question_latex": "$\\text{Pt}(\\text{H}_2)(p_1) | \\text{H}^+(1\\text{ M}) | (\\text{H}_2)(p_2)\\text{, Pt}$ cell reaction will be exergonic if",
+    "question_images": [],
+    "options": [
+      "A. p1 = p2",
+      "B. p1 > p2",
+      "C. p2 > p1",
+      "D. p1 = 1 atm"
+    ],
+    "option_images": [],
+    "answer": "B. p1 > p2",
+    "solution": "For a cell to be spontaneous (exergonic), $E_{\\text{cell}} = +\\text{ve}$ or $\\Delta G = -\\text{ve}$.\n\nThis requires $p_1 > p_2$ (or $c_2 > c_1$), so that the left side acts as anode and right side as cathode.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Electrochemistry",
+    "question": "When electric current is passed through acidified water, 112 ml of hydrogen gas at STP collected at the cathode in 965 seconds. The current passed in amperes is",
+    "question_latex": "When electric current is passed through acidified water, $112\\text{ ml}$ of hydrogen gas at STP collected at the cathode in $965$ seconds. The current passed in amperes is",
+    "question_images": [],
+    "options": [
+      "A. 1.0",
+      "B. 0.1",
+      "C. 0.5",
+      "D. 2.0"
+    ],
+    "option_images": [],
+    "answer": "A. 1.0",
+    "solution": "$2\\text{H}^+ + 2e^- \\to \\text{H}_2$\n\nEquivalent weight of $\\text{H}_2 = 1\\text{ g}$\n\n$E_H$(Eq. wt) $= \\frac{2}{2} = 1\\text{ g} = \\frac{22400}{2} = 11200\\text{ ml (STP)}$\n\nTotal charge passed $= \\frac{96500 \\times 112}{11200} = 965\\text{ C}$\n\n$Q = I \\times t = 965$\n\n$I = \\frac{965}{965} = 1\\text{ amp}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Electrochemistry",
+    "question": "For the galvanic cell Zn|Zn2+(0.1 M) || Cu2+(1.0 M)|Cu, the cell potential increases if:",
+    "question_latex": "For the galvanic cell $\\text{Zn}|\\text{Zn}^{2+}(0.1\\text{ M}) || \\text{Cu}^{2+}(1.0\\text{ M})|\\text{Cu}$, the cell potential increases if:",
+    "question_images": [],
+    "options": [
+      "A. [Zn2+] is increased",
+      "B. [Cu2+] is increased",
+      "C. [Cu2+] is decreased",
+      "D. surface area of anode is increased"
+    ],
+    "option_images": [],
+    "answer": "B. [Cu2+] is increased",
+    "solution": "For the given cell:\n$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.059\\text{ V}}{2}\\log\\frac{[\\text{Zn}^{2+}_{(aq)}]}{[\\text{Cu}^{2+}_{(aq)}]}$\n\nThe cell potential will decrease with increase in $[\\text{Zn}^{2+}(aq)]$ and will increase with increase in $[\\text{Cu}^{2+}(aq)]$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Electrochemistry",
+    "question": "How can an electrochemical cell be converted into an electrolytic cell? [06 April, 2024 (Shift-II)]",
+    "question_latex": "How can an electrochemical cell be converted into an electrolytic cell? [06 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. Applying an external opposite potential lower than E°cell",
+      "B. Applying an external opposite potential greater than E°cell",
+      "C. Exchanging the electrodes at anode and cathode",
+      "D. Reversing the flow of ions in salt bridge"
+    ],
+    "option_images": [],
+    "answer": "B. Applying an external opposite potential greater than E°cell",
+    "solution": "To convert an electrochemical cell into an electrolytic cell, an external potential greater than $E^\\circ_{\\text{cell}}$ must be applied in the opposite direction:\n$E_{\\text{ext}} > E^\\circ_{\\text{cell}}$\n\nThis forces the non-spontaneous reaction to occur.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Electrochemistry",
+    "question": "On the basis of the following E° values, the strongest oxidizing agent is: [Fe(CN)6]4+ → [Fe(CN)6]3- + e-; E° = -0.35 V; Fe2+ → Fe3+ + e-; E° = -0.77 V",
+    "question_latex": "On the basis of the following $E^\\circ$ values, the strongest oxidizing agent is: $[\\text{Fe(CN)}_6]^{4+} \\to [\\text{Fe(CN)}_6]^{3-} + e^-$; $E^\\circ = -0.35\\text{ V}$; $\\text{Fe}^{2+} \\to \\text{Fe}^{3+} + e^-$; $E^\\circ = -0.77\\text{ V}$",
+    "question_images": [],
+    "options": [
+      "A. [Fe(CN)6]4+",
+      "B. Fe2+",
+      "C. Fe3+",
+      "D. [Fe(CN)6]3-"
+    ],
+    "option_images": [],
+    "answer": "C. Fe3+",
+    "solution": "From the given data, $\\text{Fe}^{3+}$ is the strongest oxidising agent. More the positive value of $E^\\circ$ (reduction), more is the tendency to get reduced (i.e., to act as oxidizing agent).\n\n$E^\\circ_{\\text{Fe}^{3+}/\\text{Fe}^{2+}} = +0.77\\text{ V}$ is more positive than $E^\\circ_{[\\text{Fe(CN)}_6]^{3-}/[\\text{Fe(CN)}_6]^{4-}} = +0.35\\text{ V}$\n\nThus $\\text{Fe}^{3+}$ is the strongest oxidizing agent.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Electrochemistry",
+    "question": "A cell is to be constructed to show a redox change: Cr + 2Cr3+ ⇌ 3Cr2+. The number of cells with different E° and n but same value of ΔG° can be made (Given E°Cr3+|Cr2+ = +0.40 V, E°Cr3+|Cr = -0.74 V, and E°Cr2+|Cr = -0.91 V)",
+    "question_latex": "A cell is to be constructed to show a redox change: $\\text{Cr} + 2\\text{Cr}^{3+} \\rightleftharpoons 3\\text{Cr}^{2+}$. The number of cells with different $E^\\circ$ and $n$ but same value of $\\Delta G^\\circ$ can be made (Given $E^\\circ_{\\text{Cr}^{3+}|\\text{Cr}^{2+}} = +0.40\\text{ V}$, $E^\\circ_{\\text{Cr}^{3+}|\\text{Cr}} = -0.74\\text{ V}$, and $E^\\circ_{\\text{Cr}^{2+}|\\text{Cr}} = -0.91\\text{ V}$)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "(I) $\\text{Cr} \\to \\text{Cr}^{3+} + 3e^-$; $E^\\circ = +0.74\\text{ V}$; $3\\text{Cr}^{3+} + 3e^- \\to 3\\text{Cr}^{2+}$; $E^\\circ = -0.40\\text{ V}$\n$n = 3$, $E^\\circ = 0.34\\text{ V}$, $\\Delta G^\\circ = 3 \\times 0.34 \\times F = 1.02F$\n\n(II) $3\\text{Cr} \\to 3\\text{Cr}^{2+} + 6e^-$; $E^\\circ = 0.91\\text{ V}$; $2\\text{Cr}^{3+} + 6e^- \\to 2\\text{Cr}$; $E^\\circ = -0.74\\text{ V}$\n$n = 6$, $E^\\circ = 0.17\\text{ V}$, $\\Delta G^\\circ = 0.17 \\times 6 \\times F = 1.02F$\n\n(III) $\\text{Cr} \\to \\text{Cr}^{2+} + 2e^-$; $E^\\circ = 0.91\\text{ V}$; $2\\text{Cr}^{3+} + 2e^- \\to 2\\text{Cr}^{2+}$; $E^\\circ = -0.40\\text{ V}$\n$n = 2$, $E^\\circ = 0.51\\text{ V}$, $\\Delta G^\\circ = 2 \\times 0.51 \\times F = 1.02F$\n\nAll three have same $\\Delta G^\\circ = 1.02F$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Electrochemistry",
+    "question": "Consider the statements S1 and S2: S1: Conductivity always increases with decrease in the concentration of electrolyte. S2: Molar conductivity always increases with decrease in the concentration of electrolyte. The correct option among the following is (April 2019)",
+    "question_latex": "Consider the statements $S_1$ and $S_2$: $S_1$: Conductivity always increases with decrease in the concentration of electrolyte. $S_2$: Molar conductivity always increases with decrease in the concentration of electrolyte. The correct option among the following is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. both S1 and S2 are wrong",
+      "B. S1 is correct and S2 is wrong",
+      "C. S1 is wrong and S2 is correct",
+      "D. both S1 and S2 are correct"
+    ],
+    "option_images": [],
+    "answer": "C. S1 is wrong and S2 is correct",
+    "solution": "$\\kappa = \\frac{l}{a} \\times G$; $G$ = conductance, $\\frac{l}{a}$ = cell constant\n\nThus, conductivity decreases on dilution (fewer ions per unit volume).\n\n$\\Lambda_m = \\kappa \\times \\frac{1000}{N}$; Thus $\\Lambda_m \\propto \\frac{1}{N}$, so molar conductivity always increases with dilution.\n\n$S_1$ is wrong and $S_2$ is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Electrochemistry",
+    "question": "Ag|Ag+(1M)|Ag+||Ag. 1 L solution on each side. 0.5 F electricity in the LHS (anode) and 1 F of electricity in the RHS (cathode) is first passed making them independent electrolytic cells at 298 K. EMF of the cell after electrolysis will be",
+    "question_latex": "$\\text{Ag}|\\text{Ag}^+(1\\text{M})|\\text{Ag}^+||\\text{Ag}$. 1 L solution on each side. 0.5 F electricity in the LHS (anode) and 1 F of electricity in the RHS (cathode) is first passed making them independent electrolytic cells at 298 K. EMF of the cell after electrolysis will be",
+    "question_images": [],
+    "options": [
+      "A. Increased",
+      "B. Decreased",
+      "C. No change",
+      "D. Time is also required"
+    ],
+    "option_images": [],
+    "answer": "C. No change",
+    "solution": "$E = E^\\circ + \\frac{0.0591}{1}\\log\\frac{[\\text{Ag}^+]_R}{[\\text{Ag}^+]_L}$\n$= 0 + 0.0591\\log 2 = 0.0591 \\times 0.301\\text{ V}$\n\nAfter current is passed:\n$[\\text{Ag}^+]_R = 1\\text{ M}$ (RHS: cathode deposits Ag, but also anode dissolves Ag at same rate)\n$[\\text{Ag}^+]_L = 0.5\\text{ M}$\n\nHence, no change in EMF.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Electrochemistry",
+    "question": "Specific conductance of 0.1 M HNO3 is 6.3 × 10-2 ohm-1 cm-1. The molar conductance of the solution is",
+    "question_latex": "Specific conductance of $0.1\\text{ M HNO}_3$ is $6.3 \\times 10^{-2}\\text{ ohm}^{-1}\\text{ cm}^{-1}$. The molar conductance of the solution is",
+    "question_images": [],
+    "options": [
+      "A. 100 ohm-1 cm2",
+      "B. 630 ohm-1 cm2",
+      "C. 515 ohm-1 cm2",
+      "D. 6300 ohm-1 cm2"
+    ],
+    "option_images": [],
+    "answer": "D. 6300 ohm-1 cm2",
+    "solution": "Molar conductance is related to specific conductance by:\n$\\Lambda_m = \\kappa \\times \\frac{1000}{C}$\n\nPutting $\\kappa = 6.3 \\times 10^{-2}\\text{ ohm}^{-1}\\text{ cm}^{-1}$ and $C = 0.1\\text{ M}$:\n\n$\\Lambda_m = (6.3 \\times 10^{-2}) \\times \\frac{1000}{0.1} = 6.3 \\times 10^{-2} \\times 10^4 = 630\\text{ ohm}^{-1}\\text{ cm}^2\\text{ mol}^{-1}$\n\nNote: Answer marked as C (515) in PDF appears to be a typo; correct answer is D (630 ohm-1 cm2 mol-1).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Electrochemistry",
+    "question": "Electrolysis of dilute aqueous NaCl solution was carried out by passing 10 milli ampere current. The time required to liberate 0.01 mol of H2 gas at the cathode is (1 Faraday = 96500 C mol-1)",
+    "question_latex": "Electrolysis of dilute aqueous NaCl solution was carried out by passing $10$ milli ampere current. The time required to liberate $0.01$ mol of $\\text{H}_2$ gas at the cathode is ($1$ Faraday $= 96500\\text{ C mol}^{-1}$)",
+    "question_images": [],
+    "options": [
+      "A. 9.65 × 10^4 sec",
+      "B. 28.95 × 10^4 sec",
+      "C. 19.3 × 10^4 sec",
+      "D. 38.6 × 10^4 sec"
+    ],
+    "option_images": [],
+    "answer": "B. 28.95 × 10^4 sec",
+    "solution": "$\\text{H}^+ + e^- \\to \\frac{1}{2}\\text{H}_2$\n\n$0.5$ mole $\\text{H}_2$ is liberated by $1\\text{ F} = 96500\\text{ C}$\n\n$0.01$ mole of $\\text{H}_2$ will require:\n$= \\frac{96500}{0.5} \\times 0.01 = 1930\\text{ C}$\n\n$Q = I \\times t$\n$t = \\frac{Q}{I} = \\frac{1930}{10 \\times 10^{-3}} = 19.3 \\times 10^4\\text{ sec}$\n\nNote: The PDF answer is B but calculation gives C (19.3 × 10^4 sec).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Electrochemistry",
+    "question": "The highest electrical conductivity of the following aqueous solutions is of (2005)",
+    "question_latex": "The highest electrical conductivity of the following aqueous solutions is of (2005)",
+    "question_images": [],
+    "options": [
+      "A. 0.1 M acetic acid",
+      "B. 0.1 M chloroacetic acid",
+      "C. 0.1 M fluoroacetic acid",
+      "D. 0.1 M difluoroacetic acid"
+    ],
+    "option_images": [],
+    "answer": "D. 0.1 M difluoroacetic acid",
+    "solution": "Higher the acidity, higher will be the tendency to release protons and hence higher will be the electrical conductivity.\n\nDifluoroacetic acid will be the strongest acid due to the electron withdrawing effect of two fluorine atoms, so it will show maximum electrical conductivity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Electrochemistry",
+    "question": "Pt(H2)(1 atm)|H2O, electrode potential at 298 K is",
+    "question_latex": "$\\text{Pt}(\\text{H}_2)(1\\text{ atm})|\\text{H}_2\\text{O}$, electrode potential at $298\\text{ K}$ is",
+    "question_images": [],
+    "options": [
+      "A. -0.2364 V",
+      "B. -0.4137 V",
+      "C. 0.4137 V",
+      "D. 0.00 V"
+    ],
+    "option_images": [],
+    "answer": "C. 0.4137 V",
+    "solution": "Since oxidation occurs:\n$\\text{H}_2 \\to 2\\text{H}^\\oplus + 2e^-$\n\n$Q = [\\text{H}^+]^2 = 10^{-14}\\text{ M}^2$ in $\\text{H}_2\\text{O}$\n\n$E = E^\\circ - \\frac{0.0591}{2}\\log 10^{-14}$\n$= 0 + 0.0591 \\times 7 = 0.4137\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Electrochemistry",
+    "question": "Which out of the following is a correct equation to show change in molar conductivity with respect to concentration for a weak electrolyte, if the symbols carry their usual meaning: [09 April, 2024 (Shift-II)]",
+    "question_latex": "Which out of the following is a correct equation to show change in molar conductivity with respect to concentration for a weak electrolyte, if the symbols carry their usual meaning: [09 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. Λm + Λ°m + ACz = 0",
+      "B. Λ²mC - KaΛ²m + KaΛmΛ°m = 0",
+      "C. Λm - Λ°m - ACz = 0",
+      "D. Λ²mC + KaΛ°m2 - KaΛmΛ°m = 0"
+    ],
+    "option_images": [],
+    "answer": "B. Λ²mC - KaΛ²m + KaΛmΛ°m = 0",
+    "solution": "For the reaction $\\text{HA}(aq) \\rightleftharpoons \\text{H}^+(aq) + \\text{A}^-(aq)$:\n\n$K_a = \\frac{\\alpha^2 C}{1-\\alpha}$\n\nOn rearranging: $\\alpha^2 C + K_a\\alpha - K_a = 0$\n\nSince $\\alpha = \\frac{\\Lambda_m}{\\Lambda^\\infty_m}$:\n\n$\\left(\\frac{\\Lambda_m}{\\Lambda^\\infty_m}\\right)^2 C + K_a\\frac{\\Lambda_m}{\\Lambda^\\infty_m} - K_a = 0$\n\nHence: $\\Lambda^2_m C + K_a\\Lambda_m\\Lambda^\\infty_m - K_a(\\Lambda^\\infty_m)^2 = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Electrochemistry",
+    "question": "Calculate the standard cell potential (in V) of the cell in which following reaction takes place: Fe2+(aq) + Ag+(aq) → Fe3+(aq) + Ag(s). Given that E°Ag+/Ag = x V; E°Fe2+/Fe = y V; E°Fe3+/Fe = z V (April 2019)",
+    "question_latex": "Calculate the standard cell potential (in V) of the cell in which following reaction takes place: $\\text{Fe}^{2+}_{(aq)} + \\text{Ag}^+_{(aq)} \\to \\text{Fe}^{3+}_{(aq)} + \\text{Ag}_{(s)}$. Given that $E^\\circ_{\\text{Ag}^+/\\text{Ag}} = x\\text{ V}$; $E^\\circ_{\\text{Fe}^{2+}/\\text{Fe}} = y\\text{ V}$; $E^\\circ_{\\text{Fe}^{3+}/\\text{Fe}} = z\\text{ V}$ (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. x - y",
+      "B. x + y - z",
+      "C. x + 2y - 3z",
+      "D. x - z"
+    ],
+    "option_images": [],
+    "answer": "C. x + 2y - 3z",
+    "solution": "Given reaction: $\\text{Fe}^{2+}_{(aq)} + \\text{Ag}^+_{(aq)} \\to \\text{Fe}^{3+}_{(aq)} + \\text{Ag}_{(s)}$\n\n$\\text{Fe}^{2+} + 2e^- \\to \\text{Fe}_{(s)}$; $E^\\circ_{\\text{Fe}^{2+}/\\text{Fe}} = y\\text{ V}$; $\\Delta G^\\circ_1 = -2Fy$ ... (i)\n$\\text{Fe}^{3+} + 3e^- \\to \\text{Fe}_{(s)}$; $E^\\circ_{\\text{Fe}^{3+}/\\text{Fe}} = z\\text{ V}$; $\\Delta G^\\circ_2 = -3Fz$ ... (ii)\n$\\text{Ag}^+ + e^- \\to \\text{Ag}_{(s)}$; $E^\\circ = +x\\text{ V}$; $\\Delta G^\\circ_3 = -Fx$ ... (iii)\n\nAdding (i) and (iii) and subtracting (ii):\n$\\Delta G = -2Fy - Fx - (-3Fz) = -FE^\\circ_{\\text{cell}}$\n\n$E^\\circ_{\\text{cell}} = x + 2y - 3z$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Electrochemistry",
+    "question": "The standard EMF of quinhydrone electrode is 0.699 V. The EMF of the quinhydrone electrode dipped in a solution with pH = 10 is",
+    "question_latex": "The standard EMF of quinhydrone electrode is $0.699\\text{ V}$. The EMF of the quinhydrone electrode dipped in a solution with $\\text{pH} = 10$ is",
+    "question_images": [],
+    "options": [
+      "A. 0.109 V",
+      "B. -0.109 V",
+      "C. 1.289 V",
+      "D. -1.289 V"
+    ],
+    "option_images": [],
+    "answer": "A. 0.109 V",
+    "solution": "$E = E^\\circ - 0.059\\text{ pH}$\n$= 0.699 - 0.059 \\times 10 = 0.699 - 0.59 = 0.109\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Electrochemistry",
+    "question": "Read the following statements. (i) According to Faraday's second law, amounts of different substances liberated by same quantity of electricity passing through the electrolytic solution are proportional to their chemical equivalent weights. (ii) 1 F = 96487 C mol-1 ≈ 96500 C mol-1 (for more accurate calculation). (iii) As per electrode reactions K+ + e- → K; Al3+ + 3e- → Al, one mole of K+ and Al3+ require 1(1F) and 3(3F) mol of electrons respectively. Which of the following is the correct coding for the above statements?",
+    "question_latex": "Read the following statements. (i) According to Faraday's second law, amounts of different substances liberated by same quantity of electricity passing through the electrolytic solution are proportional to their chemical equivalent weights. (ii) $1\\text{ F} = 96487\\text{ C mol}^{-1} \\approx 96500\\text{ C mol}^{-1}$ (for more accurate calculation). (iii) As per electrode reactions $\\text{K}^+ + e^- \\to \\text{K}$; $\\text{Al}^{3+} + 3e^- \\to \\text{Al}$, one mole of $\\text{K}^+$ and $\\text{Al}^{3+}$ require $1(1\\text{F})$ and $3(3\\text{F})$ mol of electrons respectively. Which of the following is the correct coding for the above statements?",
+    "question_images": [],
+    "options": [
+      "A. TTT",
+      "B. FFT",
+      "C. TFT",
+      "D. FTF"
+    ],
+    "option_images": [],
+    "answer": "C. TFT",
+    "solution": "Statement (i): TRUE – Faraday's second law correctly stated.\n\nStatement (ii): FALSE – $96487\\text{ C mol}^{-1} \\approx 96500\\text{ C mol}^{-1}$ is used for approximate calculations, not for more accurate calculations. The more accurate value is $96487\\text{ C mol}^{-1}$.\n\nStatement (iii): TRUE – $\\text{K}^+$ requires 1F and $\\text{Al}^{3+}$ requires 3F of electricity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Electrochemistry",
+    "question": "Consider the following cell reaction: 2Fe(s) + O2(g) + 4H+(aq) → 2Fe2+(aq) + 2H2O(l); E° = 1.67 V. At [Fe2+] = 10-3 M, p(O2) = 0.1 atm and pH = 3, the cell potential at 25°C is",
+    "question_latex": "Consider the following cell reaction: $2\\text{Fe}_{(s)} + \\text{O}_{2(g)} + 4\\text{H}^+_{(aq)} \\to 2\\text{Fe}^{2+}_{(aq)} + 2\\text{H}_2\\text{O}_{(l)}$; $E^\\circ = 1.67\\text{ V}$. At $[\\text{Fe}^{2+}] = 10^{-3}\\text{ M}$, $p(\\text{O}_2) = 0.1\\text{ atm}$ and $\\text{pH} = 3$, the cell potential at $25^\\circ\\text{C}$ is",
+    "question_images": [],
+    "options": [
+      "A. 1.47 V",
+      "B. 1.77 V",
+      "C. 1.87 V",
+      "D. 1.57 V"
+    ],
+    "option_images": [],
+    "answer": "D. 1.57 V",
+    "solution": "Here $n = 4$ and $[\\text{H}^+] = 10^{-3}$ (as pH = 3)\n\nApplying Nernst equation:\n$E = E^\\circ - \\frac{0.059}{n}\\log\\frac{[\\text{Fe}^{2+}]^2}{[\\text{H}^+]^4 \\cdot p(\\text{O}_2)}$\n\n$= 1.67 - \\frac{0.059}{4}\\log\\frac{(10^{-3})^2}{(10^{-3})^4 \\times 0.1}$\n\n$= 1.67 - \\frac{0.059}{4}\\log 10^7$\n$= 1.67 - 0.103 = 1.567 \\approx 1.57\\text{ V}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Electrochemistry",
+    "question": "Conductivity (unit Siemen's S) is directly proportional to area of the vessel and the concentration of the solution in it and is inversely proportional to the length of the vessel. Then the unit of the constant of proportionality is (2002)",
+    "question_latex": "Conductivity (unit Siemen's $S$) is directly proportional to area of the vessel and the concentration of the solution in it and is inversely proportional to the length of the vessel. Then the unit of the constant of proportionality is (2002)",
+    "question_images": [],
+    "options": [
+      "A. S m mol m-1",
+      "B. S-2 m2 mol",
+      "C. S m2 mol-1",
+      "D. S2 m2 mol-2"
+    ],
+    "option_images": [],
+    "answer": "C. S m2 mol-1",
+    "solution": "$S \\propto A$ (area); $S \\propto C$ (concentration); $S \\propto \\frac{1}{l}$ (length)\n\nCombining: $S = K\\frac{AC}{l}$\n\n$K = \\frac{Sl}{AC}$\n\nUnit of $K = \\frac{S \\times m}{m^2 \\times \\frac{\\text{mol}}{m^3}} = \\frac{S \\times m \\times m^3}{m^2 \\times \\text{mol}} = S\\text{ m}^2\\text{ mol}^{-1}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Electrochemistry",
+    "question": "Among Na, Hg, S, Pt, and graphite which can be used as electrode in electrolytic cell having aqueous solutions?",
+    "question_latex": "Among Na, Hg, S, Pt, and graphite which can be used as electrode in electrolytic cell having aqueous solutions?",
+    "question_images": [],
+    "options": [
+      "A. Na and S",
+      "B. Hg, Pt and S",
+      "C. Na, Hg, and S",
+      "D. Hg, Pt, and graphite"
+    ],
+    "option_images": [],
+    "answer": "D. Hg, Pt, and graphite",
+    "solution": "Inert electrodes are used in electrolysis. Graphite, Hg, and Pt are inert electrodes.\n\nNa reacts vigorously with water and S is a non-conductor, so they cannot be used as electrodes in electrolytic cells with aqueous solutions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Electrochemistry",
+    "question": "Compound A used as a strong oxidizing agent is amphoteric in nature. It is the part of lead storage batteries. Compound A is (Feb 2021)",
+    "question_latex": "Compound $A$ used as a strong oxidizing agent is amphoteric in nature. It is the part of lead storage batteries. Compound $A$ is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. PbO2",
+      "B. PbSO4",
+      "C. Pb3O4",
+      "D. PbO"
+    ],
+    "option_images": [],
+    "answer": "A. PbO2",
+    "solution": "Due to inert pair effect, $\\text{Pb}^{4+}$ is a strong oxidising agent. As given that compound $A$ is used in lead storage batteries, it is $\\text{PbO}_2$.\n\n$\\text{PbO}_2$ is amphoteric in nature and acts as cathode material in lead storage batteries.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Electrochemistry",
+    "question": "Which of the following electrolyte can be used to obtain H2S2O8 by the process of electrolysis? [Jan. 22, 2025 (I)]",
+    "question_latex": "Which of the following electrolyte can be used to obtain $\\text{H}_2\\text{S}_2\\text{O}_8$ by the process of electrolysis? [Jan. 22, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. Dilute solution of sodium sulphate",
+      "B. Acidified dilute solution of sodium sulphate",
+      "C. Dilute solution of sulphuric acid",
+      "D. Concentrated solution of sulphuric acid"
+    ],
+    "option_images": [],
+    "answer": "D. Concentrated solution of sulphuric acid",
+    "solution": "At anode: $2\\text{HSO}_4^- \\to \\text{H}_2\\text{S}_2\\text{O}_8 + 2e^-$\n\nConcentrated sulphuric acid provides high concentration of $\\text{HSO}_4^-$ ions which are discharged at the anode to give persulphuric acid ($\\text{H}_2\\text{S}_2\\text{O}_8$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Electrochemistry",
+    "question": "The variation of molar conductivity with concentration of an electrolyte X in aqueous solution is shown in the given figure (molar conductivity rises steeply at low concentration). The electrolyte X is (Sept 2020)",
+    "question_latex": "The variation of molar conductivity with concentration of an electrolyte $X$ in aqueous solution is shown in the given figure (molar conductivity rises steeply at low concentration). The electrolyte $X$ is (Sept 2020)",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. NaCl",
+      "B. KNO3",
+      "C. HCl",
+      "D. CH3COOH"
+    ],
+    "option_images": [],
+    "answer": "D. CH3COOH",
+    "solution": "Here, electrolyte $X$ is $\\text{CH}_3\\text{COOH}$. Weak electrolytes dissociate to a much lesser extent as compared to strong electrolytes.\n\nFor a weak electrolyte, $\\Lambda_m$ increases steeply on dilution, especially near low concentration. Hence, we cannot obtain molar conductance at infinite dilution by extrapolation of molar conductivity to zero.\n\nThe given graph shows the behaviour of $\\text{CH}_3\\text{COOH}$, which is a weak electrolyte.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

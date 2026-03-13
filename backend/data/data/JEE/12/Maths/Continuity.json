@@ -1,0 +1,1912 @@
+[
+  {
+    "id": 1,
+    "chapter": "Continuity",
+    "question": "Let g(x) be the inverse of the function f(x) and f'(x) = 1/(1+x^3). Then, g'(x) is equal to",
+    "question_latex": "Let $g(x)$ be the inverse of the function $f(x)$ and $f'(x) = \\frac{1}{1+x^3}$. Then, $g'(x)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{1+(g(x))^3}$",
+      "B. $\\frac{1}{1+(f(x))^3}$",
+      "C. $1+(g(x))^3$",
+      "D. $1+(f(x))^3$"
+    ],
+    "option_images": [],
+    "answer": "C. $1+(g(x))^3$",
+    "solution": "Since $g(x)$ is the inverse of $f(x)$, therefore $f(g(x)) = x$ for all $x$.\n\n$\\Rightarrow \\frac{d}{dx}\\{f(g(x))\\} = 1$ for all $x$\n\n$\\Rightarrow f'(g(x)) \\cdot g'(x) = 1$ for all $x$\n\n$\\Rightarrow \\frac{1}{1+\\{g(x)\\}^3} \\times g'(x) = 1$ for all $x$ $\\left[\\because f'(x) = \\frac{1}{1+x^3}\\right]$\n\n$\\Rightarrow g'(x) = 1 + \\{g(x)\\}^3$ for all $x$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x^(1/3) + x^(1/9) - 2)/(x - 1), for x ≠ 1 = α, for x = 1 and f is continuous at x = 1, then α =",
+    "question_latex": "If $f(x) = \\dfrac{x^{\\frac{1}{3}} + x^{\\frac{1}{9}} - 2}{x-1}$, for $x \\neq 1$ $= \\alpha$, for $x = 1$ and $f$ is continuous at $x = 1$, then $\\alpha =$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2}{9}$",
+      "B. $\\frac{4}{9}$",
+      "C. $\\frac{1}{3}$",
+      "D. $\\frac{1}{9}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{4}{9}$",
+    "solution": "$f$ is continuous at $x = 1$, so $\\alpha = \\lim_{x \\to 1} f(x)$\n\n$\\alpha = \\lim_{x \\to 1} \\left(\\frac{x^{\\frac{1}{3}} - 1}{x - 1} + \\frac{x^{\\frac{1}{9}} - 1}{x - 1}\\right)$\n\n$\\alpha = \\frac{1}{3} + \\frac{1}{9}$\n\n$\\alpha = \\frac{4}{9}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Continuity",
+    "question": "The function f(x) = [x] cos[(2x-1)/2]π where [.] denotes the greatest integer function, is discontinuous at",
+    "question_latex": "The function $f(x) = [x]\\cos\\left[\\frac{2x-1}{2}\\right]\\pi$ where $[.]$ denotes the greatest integer function, is discontinuous at",
+    "question_images": [],
+    "options": [
+      "A. All x",
+      "B. No x",
+      "C. All integer points",
+      "D. x which is not an integer"
+    ],
+    "option_images": [],
+    "answer": "C. All integer points",
+    "solution": "$f(x) = [x]\\cos\\left[\\frac{2x-1}{2}\\right]\\pi$\n\nSince $[x]$ is always discontinuous at all integer values, hence $f(x)$ is discontinuous for all integer values.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Continuity",
+    "question": "Let a function f(x) be defined by f(x) = x, x ∈ Q and f(x) = 0, x ∈ R - Q. Then, f(x) is",
+    "question_latex": "Let a function $f(x)$ be defined by $f(x) = \\begin{cases} x, & x \\in Q \\\\ 0, & x \\in R - Q \\end{cases}$. Then, $f(x)$ is",
+    "question_images": [],
+    "options": [
+      "A. Everywhere continuous",
+      "B. Nowhere continuous",
+      "C. Continuous only at some points",
+      "D. Discontinuous only at some points"
+    ],
+    "option_images": [],
+    "answer": "B. Nowhere continuous",
+    "solution": "Using Heine's definition of continuity, it can be shown that $f(x)$ is everywhere discontinuous.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x^2 + x√2 - 2)/(x - 1), for x ≠ 1 = α, for x = 1 and f is continuous at x = 1, then α =",
+    "question_latex": "If $f(x) = \\dfrac{x^2 + x\\sqrt{2} - 2}{x-1}$, for $x \\neq 1$ $= \\alpha$, for $x = 1$ and $f$ is continuous at $x = 1$, then $\\alpha =$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}$",
+      "B. $\\frac{1}{7}$",
+      "C. $\\frac{7}{2}$",
+      "D. $\\frac{2}{7}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{7}{2}$",
+    "solution": "$f$ is continuous at $x = 1$\n\n$f(1) = \\lim_{x \\to 1}\\left(\\frac{x^2 + x\\sqrt{x} - 2}{x - 1}\\right)$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\nBy L'Hospital Rule:\n\n$\\alpha = \\lim_{x \\to 1}\\left(\\frac{2x + \\frac{3\\sqrt{x}}{2}}{1}\\right)$\n\n$\\alpha = 2 + \\frac{3}{2} = \\frac{7}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Continuity",
+    "question": "The function f(x) = max[(1-x), (1+x), 2], x ∈ (-∞, ∞) is",
+    "question_latex": "The function $f(x) = \\max[(1-x),(1+x),2]$, $x \\in (-\\infty, \\infty)$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous at all points",
+      "B. Differentiable at all points",
+      "C. Differentiable at all points except at x = 1 and x = -1",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. Differentiable at all points except at x = 1 and x = -1",
+    "solution": "It is clear from the graph that $f(x)$ is continuous everywhere and also differentiable everywhere except $\\{-1, 1\\}$ due to sharp edge.",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Continuity",
+    "question": "If f(x) = |x|^3, then f'(0) equals",
+    "question_latex": "If $f(x) = |x|^3$, then $f'(0)$ equals",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1/2",
+      "C. -1",
+      "D. -1/2"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$f(x) = |x|^3 = \\begin{cases} 0, & x = 0 \\\\ x^3, & x > 0 \\\\ -x^3, & x < 0 \\end{cases}$\n\nNow, $Rf'(0) = \\lim_{h \\to 0} \\frac{h^3 - 0}{h} = 0$\n\nAnd $Lf'(0) = \\lim_{h \\to 0} \\frac{-h^3 - 0}{-h} = 0$\n\n$\\therefore Rf'(0) = Lf'(0) = 0$\n\n$\\therefore f'(0) = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Continuity",
+    "question": "A function f(x) = 1 + x, x ≤ 2 and f(x) = 5 - x, x > 2 is",
+    "question_latex": "A function $f(x) = \\begin{cases} 1+x, & x \\leq 2 \\\\ 5-x, & x > 2 \\end{cases}$ is",
+    "question_images": [],
+    "options": [
+      "A. Not continuous at x = 2",
+      "B. Differentiable at x = 2",
+      "C. Continuous but not differentiable at x = 2",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. Continuous but not differentiable at x = 2",
+    "solution": "LHL $= \\lim_{x \\to 2^-} f(x) = \\lim_{h \\to 0} 1 + (2-h) = 3$\n\nRHL $= \\lim_{x \\to 2^+} f(x) = \\lim_{h \\to 0} 5 - (2+h) = 3$, $f(2) = 3$\n\nHence, $f$ is continuous at $x = 2$.\n\n$Rf''(2) = \\lim_{h \\to 0} \\frac{f(2+h)-f(2)}{h} = \\lim_{h \\to 0} \\frac{5-(2+h)-3}{h} = -1$\n\n$Lf''(2) = \\lim_{h \\to 0} \\frac{f(2-h)-f(2)}{-h} = \\lim_{h \\to 0} \\frac{1+(2-h)-3}{-h} = 1$\n\n$\\therefore Rf''(2) \\neq Lf''(2)$\n\n$\\therefore f$ is not differentiable at $x = 2$",
+    "solution_images": [
+      "8_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Continuity",
+    "question": "If f(x) = (2^x - 1)/(√(1+x) - 1), -1 ≤ x < ∞, x ≠ 0 and f(x) = k, x = 0 is continuous everywhere, then k is equal to",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{2^x - 1}{\\sqrt{1+x}-1}, & -1 \\leq x < \\infty,\\ x \\neq 0 \\\\ k, & x = 0 \\end{cases}$ is continuous everywhere, then $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}\\log_e 2$",
+      "B. $\\log_e 4$",
+      "C. $\\log_e 8$",
+      "D. $\\log_e 2$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\log_e 4$",
+    "solution": "Since $f(x)$ is continuous everywhere, $\\lim_{x \\to 0} f(x) = f(0)$ ...(i)\n\n$\\lim_{x \\to 0} f(x) = \\lim_{h \\to 0} \\frac{2^{-h}-1}{\\sqrt{1-h}-1}$\n\nBy L'Hospital's rule:\n\n$= 2\\lim_{h \\to 0} 2^{-h}\\log_e 2 \\cdot 2\\sqrt{1-h} = 2\\log_e 2$\n\nFrom Eq. (i), $f(0) = 2\\log_e 2 = \\log_e 4$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Continuity",
+    "question": "The set of points where the function f(x) = √(1 - e^(-x²)) is differentiable is",
+    "question_latex": "The set of points where the function $f(x) = \\sqrt{1 - e^{-x^2}}$ is differentiable is",
+    "question_images": [],
+    "options": [
+      "A. $(-\\infty, \\infty)$",
+      "B. $(-\\infty, 0) \\cup (0, \\infty)$",
+      "C. $(-1, \\infty)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $(-\\infty, 0) \\cup (0, \\infty)$",
+    "solution": "Clearly, $f(x)$ is differentiable for all non-zero values of $x$. For $x \\neq 0$:\n\n$f'(x) = \\frac{x e^{-x^2}}{\\sqrt{1-e^{-x^2}}}$\n\nAt $x = 0$: LHD $= \\lim_{h \\to 0} -\\frac{\\sqrt{1-e^{-h^2}}}{h} = -1$\n\nRHD $= \\lim_{h \\to 0} \\frac{\\sqrt{1-e^{-h^2}}}{h} = 1$\n\nSo $f(x)$ is not differentiable at $x = 0$.\n\nHence, the set of points of differentiability is $(-\\infty, 0) \\cup (0, \\infty)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Continuity",
+    "question": "Let f(x) = (e^x - 1)² / [sin(x/a)log(1 + x/4)] for x ≠ 0 and f(0) = 12. If f is continuous at x = 0, then the value of a is equal to",
+    "question_latex": "Let $f(x) = \\dfrac{(e^x-1)^2}{\\sin\\left(\\frac{x}{a}\\right)\\log\\left(1+\\frac{x}{4}\\right)}$ for $x \\neq 0$ and $f(0) = 12$. If $f$ is continuous at $x = 0$, then the value of $a$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. -1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "$f(0) = \\lim_{x \\to 0} \\frac{(e^x-1)^2}{\\sin\\left(\\frac{x}{a}\\right)\\log\\left(1+\\frac{x}{4}\\right)}$\n\n$\\Rightarrow \\lim_{x \\to 0} \\left(\\frac{e^x-1}{x}\\right)^2 \\cdot \\frac{x}{a} \\cdot a \\cdot \\frac{4}{x} \\cdot \\frac{x}{\\sin\\frac{x}{a}} \\cdot \\frac{\\log\\left(1+\\frac{x}{4}\\right)}{\\frac{x}{4}} = 12$\n\n$\\Rightarrow 1^2 \\cdot a \\cdot 4 = 12$\n\n$\\Rightarrow a = 3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Continuity",
+    "question": "On the interval I = [-2, 2], the function f(x) = (x+1)e^(-(1/|x| + 1/x)), x ≠ 0 and f(x) = 0, x = 0",
+    "question_latex": "On the interval $I = [-2,2]$, the function $f(x) = \\begin{cases} (x+1)e^{-\\left(\\frac{1}{|x|}+\\frac{1}{x}\\right)}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$",
+    "question_images": [],
+    "options": [
+      "A. Is continuous for all x ∈ I - {0}",
+      "B. Assumes all intermediate values from f(-2) to f(2)",
+      "C. Has a maximum value equal to 3/e",
+      "D. All the above"
+    ],
+    "option_images": [],
+    "answer": "D. All the above",
+    "solution": "$f(x) = \\begin{cases} (x+1)e^{-(\\frac{1}{x}+\\frac{1}{x})} = (x+1), & x < 0 \\\\ (x+1)e^{-2/x}, & x > 0 \\end{cases}$\n\nClearly $f(x)$ is continuous for all $x \\neq 0$.\n\n$(LHL$ at $x=0) = \\lim_{x \\to 0^-} (x+1) = 1$\n\n$(RHL$ at $x=0) = \\lim_{x \\to 0^+} (x+1)e^{-2/x} = \\lim_{x \\to 0} \\frac{x+1}{e^{2/x}} = 0$\n\n$\\therefore f(x)$ is not continuous at $x=0$.\n\nAlso, $f(x)$ assumes all values from $f(-2)$ to $f(2)$ and $f(2) = 3/e$ is the maximum value.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = 0 where f(x) = (e^(6x) - e^(4x) - e^(2x) + 1)/(1 - cos4x) for x ≠ 0 = k for x = 0, then the value of k is",
+    "question_latex": "If $f$ is continuous at $x = 0$ where $f(x) = \\dfrac{e^{6x} - e^{4x} - e^{2x} + 1}{1-\\cos 4x}$ for $x \\neq 0$ $= k$ for $x = 0$, then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}$",
+      "B. 1",
+      "C. 2",
+      "D. $-\\frac{1}{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "$\\lim_{x \\to 0} \\frac{e^{6x} - e^{4x} - e^{2x} + 1}{1-\\cos 4x} = \\lim_{x \\to 0} \\left[\\frac{e^{2x}-1}{2x} \\cdot \\frac{e^{4x}-1}{4x}\\right] \\cdot \\frac{8}{8\\left(\\frac{\\sin 2x}{2x}\\right)^2}$\n\n$= \\frac{8}{8} = 1$\n\n$k = 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Continuity",
+    "question": "For a, b > 0, let f(x) = [tan((a+1)x) + b·tan(x)]/x, x < 0 and f(x) = 3, x = 0 and f(x) = [√(ax + b²x²) - √ax]/(b√ax√x), x > 0 be a continuous function at x = 0. Then b/a is equal to [08 April, 2024 (Shift-II)]",
+    "question_latex": "For $a, b > 0$, let $f(x) = \\begin{cases} \\dfrac{\\tan((a+1)x) + b\\tan x}{x}, & x < 0 \\\\ 3, & x = 0 \\\\ \\dfrac{\\sqrt{ax+b^2x^2}-\\sqrt{ax}}{b\\sqrt{ax}\\sqrt{x}}, & x > 0 \\end{cases}$ be a continuous function at $x = 0$. Then $\\dfrac{b}{a}$ is equal to [08 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 4",
+      "C. 6",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "Given $f(x)$ is continuous, so $\\lim_{x \\to 0} f(x) = f(0) = 3$\n\n$\\lim_{x \\to 0^+} \\frac{\\sqrt{ax+b^2x^2}-\\sqrt{ax}}{b\\sqrt{ax}\\sqrt{x}} = 3$\n\n$\\lim_{x \\to 0^+} \\frac{ax+b^2x^2 - ax}{b\\sqrt{ax^{3/2}}(\\sqrt{ax+b^2x^2}+\\sqrt{ax})} = 3$\n\n$\\frac{b^2}{b\\sqrt{a}(\\sqrt{a}+\\sqrt{a})} = 3$\n\n$\\frac{b}{2a} = 3 \\Rightarrow \\frac{b}{a} = 6$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Continuity",
+    "question": "If f(x) = (log x - log 7)/(x² - 49) is continuous, the value of f(7) is",
+    "question_latex": "If $f(x) = \\dfrac{\\log x - \\log 7}{x^2 - 49}$ is continuous, the value of $f(7)$ is",
+    "question_images": [],
+    "options": [
+      "A. 1/49",
+      "B. 1/98",
+      "C. 2/49",
+      "D. -1/98"
+    ],
+    "option_images": [],
+    "answer": "B. 1/98",
+    "solution": "$L = \\lim_{x \\to 7} \\frac{\\log x - \\log 7}{x^2-49} = \\lim_{x \\to 7} \\frac{\\log\\left(\\frac{x}{7}\\right)}{(x-7)(x+7)}$\n\n$= \\frac{1}{14} \\cdot \\lim_{x \\to 7} \\frac{\\log\\left(\\frac{x}{7}\\right)}{x-7}$\n\nPut $x - 7 = h$, as $x \\to 7$, $h \\to 0$:\n\n$= \\frac{1}{14 \\cdot 7} \\lim_{h \\to 0} \\frac{\\log\\left(1+\\frac{h}{7}\\right)}{\\frac{h}{7}} = \\frac{1}{98} \\cdot 1 = \\frac{1}{98}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Continuity",
+    "question": "If f(x) = 2x - 3, x < 1 = ax + b, 1 ≤ x ≤ 2 = x² - 1, x ≥ 2 is continuous for all x, find a and b",
+    "question_latex": "If $f(x) = \\begin{cases} 2x-3, & x < 1 \\\\ ax+b, & 1 \\leq x \\leq 2 \\\\ x^2-1, & x \\geq 2 \\end{cases}$ is continuous for all $x$, find $a$ and $b$",
+    "question_images": [],
+    "options": [
+      "A. a=4, b=5",
+      "B. a=4, b=-5",
+      "C. a=-4, b=-5",
+      "D. a=-4, b=5"
+    ],
+    "option_images": [],
+    "answer": "B. a=4, b=-5",
+    "solution": "Since $f$ is continuous at $x = 1$: $\\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^+} f(x)$\n\n$2(1)-3 = a(1)+b \\Rightarrow a+b = -1$ ...(1)\n\nSince $f$ is continuous at $x = 2$: $\\lim_{x \\to 2^-} f(x) = \\lim_{x \\to 2^+} f(x)$\n\n$2a+b = 4-1 = 3$ ...(2)\n\nSolving (1) and (2): $a = 4$ and $b = -5$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Continuity",
+    "question": "If y = f(x) = 1/(u² + u - 1) where u = 1/(x-1), then the function is discontinuous at x =",
+    "question_latex": "If $y = f(x) = \\dfrac{1}{u^2+u-1}$ where $u = \\dfrac{1}{x-1}$, then the function is discontinuous at $x =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 1/2",
+      "C. 2",
+      "D. -2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "The function $y = f(x) = \\frac{1}{u^2+u-1}$ where $u = \\frac{1}{x-1}$.\n\nThe function is discontinuous when $x - 1 = 0$, i.e., $x = 1$, since $u$ is undefined there.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Continuity",
+    "question": "If function f(x) = x, if x is rational and f(x) = 1 - x, if x is irrational, then the number of points at which f(x) is continuous, is",
+    "question_latex": "If function $f(x) = \\begin{cases} x, & \\text{if } x \\text{ is rational} \\\\ 1-x, & \\text{if } x \\text{ is irrational} \\end{cases}$, then the number of points at which $f(x)$ is continuous, is",
+    "question_images": [],
+    "options": [
+      "A. ∞",
+      "B. 1",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "At no point, function is continuous.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = 0 where f(x) = [log(1+x+x²) + log(1-x+x²)]/sin x, for x ≠ 0 then f(0) =",
+    "question_latex": "If $f$ is continuous at $x = 0$ where $f(x) = \\dfrac{\\log(1+x+x^2)+\\log(1-x+x^2)}{\\sin x}$, for $x \\neq 0$, then $f(0) =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 0",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "$f(0) = \\lim_{x \\to 0} \\frac{\\log(1+x+x^2)+\\log(1-x+x^2)}{\\sin x}$\n\n$= \\lim_{x \\to 0} \\frac{\\log(1+x(1+x))+\\log(1+x(x-1))}{x} \\cdot \\frac{x}{\\sin x}$\n\n$= \\lim_{x \\to 0} \\left(\\frac{\\log(1+x(1+x))}{x(1+x)}(1+x) + \\frac{\\log(1+x(x-1))}{x(x-1)}(x-1)\\right)$\n\n$f(0) = 1 - 1 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Continuity",
+    "question": "The function f(x) = x^n sin(1/x), x ≠ 0 and f(x) = 0, x = 0 is continuous and differentiable at x = 0, if",
+    "question_latex": "The function $f(x) = \\begin{cases} x^n \\sin\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ is continuous and differentiable at $x = 0$, if",
+    "question_images": [],
+    "options": [
+      "A. $n \\in (0,1]$",
+      "B. $n \\in [1,\\infty)$",
+      "C. $n \\in (1,\\infty)$",
+      "D. $n \\in (-\\infty, 0)$"
+    ],
+    "option_images": [],
+    "answer": "C. $n \\in (1,\\infty)$",
+    "solution": "For continuity at $x=0$: $\\lim_{x \\to 0} x^n \\sin(1/x) = 0$ requires $n > 0$.\n\nFor differentiability at $x=0$: $\\lim_{x \\to 0} \\frac{x^n \\sin(1/x)}{x} = \\lim_{x \\to 0} x^{n-1}\\sin(1/x)$ must exist finitely, which requires $n - 1 > 0$, i.e., $n > 1$.\n\nTherefore $n \\in (1, \\infty)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Continuity",
+    "question": "Let [x] denotes the greatest integer less than or equal to x and f(x) = [tan²x]. Then,",
+    "question_latex": "Let $[x]$ denotes the greatest integer less than or equal to $x$ and $f(x) = [\\tan^2 x]$. Then,",
+    "question_images": [],
+    "options": [
+      "A. $\\lim_{x \\to 0} f(x)$ does not exist",
+      "B. $f(x)$ is continuous at $x = 0$",
+      "C. $f(x)$ is not differentiable at $x = 0$",
+      "D. $f'(0) = 1$"
+    ],
+    "option_images": [],
+    "answer": "B. $f(x)$ is continuous at $x = 0$",
+    "solution": "For $-\\pi/4 < x < \\pi/4$:\n$-1 < \\tan x < 1 \\Rightarrow 0 \\leq \\tan^2 x < 1 \\Rightarrow [\\tan^2 x] = 0$\n\n$\\therefore f(x) = [\\tan^2 x] = 0$ for all $x \\in (-\\pi/4, \\pi/4)$\n\nThus $f(x)$ is a constant function on $(-\\pi/4, \\pi/4)$, so it is continuous on this interval and $f'(x) = 0$ for all $x \\in (-\\pi/4, \\pi/4)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x-1)/(2x² - 7x + 5), for x ≠ 1 and f(x) = -1/3, for x = 1, then f'(1) is equal to",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{x-1}{2x^2-7x+5}, & \\text{for } x \\neq 1 \\\\ -\\dfrac{1}{3}, & \\text{for } x = 1 \\end{cases}$, then $f'(1)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $-\\frac{1}{9}$",
+      "B. $-\\frac{2}{9}$",
+      "C. $-13$",
+      "D. $\\frac{1}{3}$"
+    ],
+    "option_images": [],
+    "answer": "B. $-\\frac{2}{9}$",
+    "solution": "$f'(1) = \\lim_{h \\to 0} \\frac{f(1+h)-f(1)}{h}$\n\n$= \\lim_{h \\to 0} \\frac{\\dfrac{1+h-1}{2(1+h)^2-7(1+h)+5} - \\left(-\\dfrac{1}{3}\\right)}{h}$\n\n$= \\lim_{h \\to 0} \\left(\\frac{\\dfrac{1}{2h-3} + \\dfrac{1}{3}}{h}\\right) = \\lim_{h \\to 0} \\frac{2h}{3h(2h-3)} = -\\frac{2}{9}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = 0 where f(x) = (cos²x - sin²x - 1)/(√(x²+1) - 1), for x ≠ 0, then f(0) =",
+    "question_latex": "If $f$ is continuous at $x = 0$ where $f(x) = \\dfrac{\\cos^2 x - \\sin^2 x - 1}{\\sqrt{x^2+1}-1}$, for $x \\neq 0$, then $f(0) =$",
+    "question_images": [],
+    "options": [
+      "A. -2",
+      "B. 0",
+      "C. -1",
+      "D. -4"
+    ],
+    "option_images": [],
+    "answer": "D. -4",
+    "solution": "$\\lim_{x \\to 0} \\frac{\\cos^2 x - \\sin^2 x - 1}{\\sqrt{x^2+1}-1} \\times \\frac{\\sqrt{x^2+1}+1}{\\sqrt{x^2+1}+1}$\n\n$= \\lim_{x \\to 0} \\frac{-2\\sin^2 x \\cdot [\\sqrt{x^2+1}+1]}{x^2}$\n\n$= -2[1+1] = -4$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x+1)^(cot x) be continuous at x = 0, then f(0) is equal to",
+    "question_latex": "If $f(x) = (x+1)^{\\cot x}$ be continuous at $x = 0$, then $f(0)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. $-e$",
+      "C. $e$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $e$",
+    "solution": "$\\lim_{x \\to 0} (1+x)^{\\cot x} = \\lim_{x \\to 0} \\{(1+x)^{1/x}\\}^{x\\cot x}$\n\n$= \\lim_{x \\to 0} e^{x\\cot x} = e$\n\nSince $f(x)$ is continuous at $x = 0$:\n$\\therefore f(0) = \\lim_{x \\to 0} f(x) = e$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Continuity",
+    "question": "If f(x) is continuous at x = 0, where f(x) = (cot 2x - cosec 2x)/x for x ≠ 0 = k for x = 0, then the value of k is",
+    "question_latex": "If $f(x)$ is continuous at $x = 0$, where $f(x) = \\dfrac{\\cot 2x - \\cosec 2x}{x}$ for $x \\neq 0$ $= k$ for $x = 0$, then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 1/2",
+      "C. -1",
+      "D. -1/2"
+    ],
+    "option_images": [],
+    "answer": "C. -1",
+    "solution": "$\\lim_{x \\to 0} \\frac{\\cot 2x - \\cosec 2x}{x} = \\lim_{x \\to 0} \\frac{1}{\\sin 2x} \\cdot \\frac{-(1-\\cos 2x)}{x}$\n\n$= \\lim_{x \\to 0} \\frac{2\\sin^2 x}{2\\sin x \\cos x \\cdot x} = -\\lim_{x \\to 0} \\frac{\\tan x}{x} = -1$\n\n$k = -1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Continuity",
+    "question": "At x = 3/2 the function f(x) = |2x - 3|/(2x - 3) is",
+    "question_latex": "At $x = \\dfrac{3}{2}$ the function $f(x) = \\dfrac{|2x-3|}{2x-3}$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous",
+      "B. Discontinuous",
+      "C. Differentiable",
+      "D. Non-zero"
+    ],
+    "option_images": [],
+    "answer": "B. Discontinuous",
+    "solution": "Given, $f(x) = \\begin{cases} 1, & \\text{if } x > \\frac{3}{2} \\\\ -1, & \\text{if } x < \\frac{3}{2} \\end{cases}$\n\nRHL $= \\lim_{x \\to \\frac{3}{2}^+} f(x) = 1$\n\nLHL $= \\lim_{x \\to \\frac{3}{2}^-} f(x) = -1$\n\n$\\therefore$ RHL $\\neq$ LHL\n\n$\\therefore f(x)$ is discontinuous at $x = \\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Continuity",
+    "question": "The value of lim(x→0) [(x+2)/(√(2+x) + √(2-x))] is",
+    "question_latex": "The value of $\\lim_{x \\to 0}\\left(\\dfrac{x+2}{\\sqrt{2+x}+\\sqrt{2-x}}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}$",
+      "B. $\\frac{1}{\\sqrt{2}}$",
+      "C. 2",
+      "D. $\\sqrt{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{\\sqrt{2}}$",
+    "solution": "$L = \\lim_{x \\to 0}\\left(\\frac{x+2}{\\sqrt{2+x}+\\sqrt{2-x}}\\right)$\n\n$L = \\frac{0+2}{\\sqrt{2+0}+\\sqrt{2-0}} = \\frac{2}{2\\sqrt{2}} = \\frac{1}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Continuity",
+    "question": "If f: R → R given by f(x) = 2cos x, if x ≤ -π/2 and f(x) = a sin x + b, if -π/2 < x < π/2 and f(x) = 1 + cos²x, if x ≥ π/2 is a continuous function on R, then (a, b) is equal to",
+    "question_latex": "If $f: R \\to R$ given by $f(x) = \\begin{cases} 2\\cos x, & x \\leq -\\frac{\\pi}{2} \\\\ a\\sin x + b, & -\\frac{\\pi}{2} < x < \\frac{\\pi}{2} \\\\ 1+\\cos^2 x, & x \\geq \\frac{\\pi}{2} \\end{cases}$ is a continuous function on $R$, then $(a,b)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. (1/2, 1/2)",
+      "B. (0, -1)",
+      "C. (0, 2)",
+      "D. (1, 0)"
+    ],
+    "option_images": [],
+    "answer": "A. (1/2, 1/2)",
+    "solution": "LHL at $x = -\\frac{\\pi}{2}$: $\\lim_{h \\to 0} 2\\cos\\left(-\\frac{\\pi}{2}-h\\right) = 0$\n\nRHL at $x = -\\frac{\\pi}{2}$: $\\lim_{h \\to 0} a\\sin\\left(-\\frac{\\pi}{2}+h\\right)+b = -a+b$\n\nSince continuous: $-a + b = 0 \\Rightarrow a = b$\n\nFrom the given options only (a) i.e., $\\left(\\frac{1}{2}, \\frac{1}{2}\\right)$ satisfies this condition.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Continuity",
+    "question": "Let f(x) be an odd function. Then f'(x)",
+    "question_latex": "Let $f(x)$ be an odd function. Then $f'(x)$",
+    "question_images": [],
+    "options": [
+      "A. Is an even function",
+      "B. Is an odd function",
+      "C. May be even or odd",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Is an even function",
+    "solution": "If $f(x)$ is an odd function, then $f(-x) = -f(x)$.\n\nDifferentiating both sides with respect to $x$:\n\n$-f'(-x) = -f'(x)$\n\n$\\Rightarrow f'(-x) = f'(x)$\n\nHence $f'(x)$ is an even function.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = 0 where f(x) = [log(1+x+x²) + log(1-x+x²)]/sin x, for x ≠ 0, then f(0) =",
+    "question_latex": "If $f$ is continuous at $x = 0$ where $f(x) = \\dfrac{\\log(1+x+x^2)+\\log(1-x+x^2)}{\\sin x}$, for $x \\neq 0$, then $f(0) =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 0",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "C. 0",
+    "solution": "$f(0) = \\lim_{x \\to 0}\\left(\\frac{\\log(1+x+x^2)+\\log(1-x+x^2)}{\\sin x}\\right)$\n\n$= \\lim_{x \\to 0}\\left(\\frac{\\log(1+x(1+x))+\\log(1+x(x-1))}{x} \\cdot \\frac{x}{\\sin x}\\right)$\n\n$f(0) = 1-1 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Continuity",
+    "question": "If f(x) = x^p cos(1/x), x ≠ 0 and f(x) = 0, x = 0 is differentiable at x = 0, then",
+    "question_latex": "If $f(x) = \\begin{cases} x^p\\cos\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ is differentiable at $x = 0$, then",
+    "question_images": [],
+    "options": [
+      "A. $p < 0$",
+      "B. $0 < p < 1$",
+      "C. $p = 1$",
+      "D. $p > 1$"
+    ],
+    "option_images": [],
+    "answer": "D. $p > 1$",
+    "solution": "Since $f(x)$ is differentiable at $x = 0$, therefore it is continuous at $x = 0$.\n\n$\\therefore \\lim_{x \\to 0} x^p \\cos(1/x) = 0 \\Rightarrow p > 0$ ...(i)\n\nAs $f(x)$ is differentiable at $x = 0$:\n$\\lim_{x \\to 0} \\frac{x^p\\cos(1/x) - 0}{x} = \\lim_{x \\to 0} x^{p-1}\\cos(1/x)$ must exist finitely.\n\n$\\Rightarrow p - 1 > 0 \\Rightarrow p > 1$ ...(ii)\n\nFrom (i) and (ii): $p > 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Continuity",
+    "question": "Let f(x) = 5^(1/x), x < 0 and f(x) = λ[x], x ≥ 0 and λ ∈ R, then at x = 0",
+    "question_latex": "Let $f(x) = \\begin{cases} 5^{1/x}, & x < 0 \\\\ \\lambda[x], & x \\geq 0 \\end{cases}$ and $\\lambda \\in R$, then at $x = 0$",
+    "question_images": [],
+    "options": [
+      "A. f is discontinuous",
+      "B. f is continuous only, if λ = 0",
+      "C. f is continuous only, whatever λ may be",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. f is continuous only, whatever λ may be",
+    "solution": "$\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^+} \\lambda[x] = 0$\n\n$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^-} 5^{1/x} = 0$\n\nAnd $f(0) = \\lambda[0] = 0$\n\n$\\therefore f$ is continuous only whatever $\\lambda$ may be",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Continuity",
+    "question": "For the function f(x) = [log_e(1+x) + log_e(1-x)]/x to be continuous at x = 0, the value of f(0) is",
+    "question_latex": "For the function $f(x) = \\dfrac{\\log_e(1+x)+\\log_e(1-x)}{x}$ to be continuous at $x = 0$, the value of $f(0)$ is",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 0",
+      "C. -2",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "RHL $f(X) = \\lim_{h \\to 0} \\frac{\\log(1+h)+\\log(1-h)}{h}$\n\n$= \\lim_{h \\to 0} \\frac{\\frac{1}{1+h} - \\frac{1}{1-h}}{1}$ [by L'Hospital's rule]\n\n$= \\lim_{h \\to 0} \\frac{1-h-1-h}{(1+h)(1-h)} = 0$\n\n$\\therefore f(0) = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Continuity",
+    "question": "If f(x) = (√((1+3x)/(1-4x)))^x for x ≠ 0 = α, for x = 0 and f is continuous at x = 0, then α =",
+    "question_latex": "If $f(x) = \\sqrt[x]{\\dfrac{1+3x}{1-4x}}$ for $x \\neq 0$ $= \\alpha$, for $x = 0$ and $f$ is continuous at $x = 0$, then $\\alpha =$",
+    "question_images": [],
+    "options": [
+      "A. $e^3$",
+      "B. $e^7$",
+      "C. $e^{-4}$",
+      "D. $e^{-7}$"
+    ],
+    "option_images": [],
+    "answer": "B. $e^7$",
+    "solution": "$f(0) = \\lim_{x \\to 0} \\left(\\sqrt[x]{\\frac{1+3x}{1-4x}}\\right)$\n\n$\\alpha = \\frac{e^3}{e^{-4}} = e^7$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Continuity",
+    "question": "If f(x) is continuous at x = 0, where f(x) = (sin x - x)/x³ for x ≠ 0 = k for x = 0, then the value of k is",
+    "question_latex": "If $f(x)$ is continuous at $x = 0$, where $f(x) = \\dfrac{\\sin x - x}{x^3}$ for $x \\neq 0$ $= k$ for $x = 0$, then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 1/6",
+      "B. -1/6",
+      "C. 1/3",
+      "D. -1/3"
+    ],
+    "option_images": [],
+    "answer": "B. -1/6",
+    "solution": "$\\lim_{x \\to 0} \\frac{\\sin x - x}{x^3}$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\n$= \\lim_{x \\to 0} \\frac{\\cos x - 1}{3x^2}$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\n$= \\lim_{x \\to 0} -\\frac{\\sin x}{6x} = -\\frac{1}{6}$\n\n$k = -\\frac{1}{6}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = π/2 where f(x) = cos x/√(1 - sin x), for x ≠ π/2, then f(π/2) =",
+    "question_latex": "If $f$ is continuous at $x = \\dfrac{\\pi}{2}$ where $f(x) = \\dfrac{\\cos x}{\\sqrt{1-\\sin x}}$, for $x \\neq \\frac{\\pi}{2}$, then $f\\left(\\frac{\\pi}{2}\\right) =$",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. $\\sqrt{2}$",
+      "C. 2",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sqrt{2}$",
+    "solution": "$f\\left(\\frac{\\pi}{2}\\right) = \\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{\\sqrt{1-\\sin x}}$\n\n$= \\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos^2(\\frac{\\pi}{2}) - \\sin^2(\\frac{\\pi}{2})}{\\sqrt{\\left(\\cos\\frac{\\pi}{2} - \\sin\\frac{x}{2}\\right)^2}}$\n\n$= \\lim_{x \\to \\frac{\\pi}{2}} \\left(\\cos\\frac{x}{2} + \\sin\\frac{x}{2}\\right) = \\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Continuity",
+    "question": "If function f(x) = (sec²x)^(cot²x), x ≠ 0 = k, x = 0 is continuous at x = 0, find k.",
+    "question_latex": "If function $f(x) = (\\sec^2 x)^{\\cot^2 x}, x \\neq 0 = k,\\ x = 0$ is continuous at $x = 0$, find $k$.",
+    "question_images": [],
+    "options": [
+      "A. E",
+      "B. $e^{-1}$",
+      "C. $e^2$",
+      "D. $e^{-2}$"
+    ],
+    "option_images": [],
+    "answer": "A. E",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} (\\sec^2 x)^{\\cot^2 x}$\n\n$= \\lim_{x \\to 0} (1 + \\tan^2 x)^{\\frac{1}{\\tan^2 x}} = e$\n\nSince $f(x)$ is continuous at $x = 0$ by definition of continuity:\n$\\lim_{x \\to 0} f(x) = f(0) \\Rightarrow k = e$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Continuity",
+    "question": "f continuous on [-π, π] where f(x) = -2sin x, -π ≤ x < -π/2 = α sin x + β, -π/2 < x < π/2 = cos x, π/2 ≤ x ≤ π. Then value of α and β is",
+    "question_latex": "f continuous on $[-\\pi,\\pi]$ where $f(x) = \\begin{cases} -2\\sin x, & -\\pi \\leq x < -\\frac{\\pi}{2} \\\\ \\alpha\\sin x+\\beta, & -\\frac{\\pi}{2} < x < \\frac{\\pi}{2} \\\\ \\cos x, & \\frac{\\pi}{2} \\leq x \\leq \\pi \\end{cases}$. Then value of $\\alpha$ and $\\beta$ is",
+    "question_images": [],
+    "options": [
+      "A. α=-1, β=-1",
+      "B. α=-1, β=1",
+      "C. α=1, β=-1",
+      "D. α=1, β=1"
+    ],
+    "option_images": [],
+    "answer": "B. α=-1, β=1",
+    "solution": "At $x = -\\frac{\\pi}{2}$: $-2\\sin\\left(-\\frac{\\pi}{2}\\right) = \\alpha\\sin\\left(-\\frac{\\pi}{2}\\right)+\\beta$\n\n$2 = -\\alpha + \\beta \\Rightarrow -\\alpha + \\beta = 2$ ...(1)\n\nAt $x = \\frac{\\pi}{2}$: $\\alpha\\sin\\frac{\\pi}{2}+\\beta = \\cos\\frac{\\pi}{2}$\n\n$\\alpha + \\beta = 0$ ...(2)\n\nFrom (1) and (2): $a = -1$ and $\\beta = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Continuity",
+    "question": "Let f(x) = x^p sin(1/x), x ≠ 0 and f(x) = 0, x = 0. Then f(x) is continuous but not differentiable at x = 0, if",
+    "question_latex": "Let $f(x) = \\begin{cases} x^p\\sin\\frac{1}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$. Then $f(x)$ is continuous but not differentiable at $x = 0$, if",
+    "question_images": [],
+    "options": [
+      "A. $0 < p \\leq 1$",
+      "B. $1 \\leq p < \\infty$",
+      "C. $-\\infty < p < 0$",
+      "D. $p = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $0 < p \\leq 1$",
+    "solution": "Given $f(x)$ is continuous at $x = 0$: $\\lim_{x \\to 0} x^p\\sin\\frac{1}{x} = 0$ when $0 < p < \\infty$ ...(i)\n\nRHD $= \\lim_{h \\to 0} h^{p-1}\\sin\\frac{1}{h}$, LHD $= \\lim_{h \\to 0}(-1)^p h^{p-1}\\sin\\frac{1}{h}$\n\nSince $f(x)$ is not differentiable at $x = 0$: $p \\leq 1$ ...(ii)\n\nFrom (i) and (ii): $0 < p \\leq 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Continuity",
+    "question": "If f(x) = x² + x²/(1+x²) + x²/(1+x²)² + ··· + x²/(1+x²)^n + ···, then at x = 0, f(x)",
+    "question_latex": "If $f(x) = x^2 + \\dfrac{x^2}{1+x^2} + \\dfrac{x^2}{(1+x^2)^2} + \\cdots + \\dfrac{x^2}{(1+x^2)^n} + \\cdots$, then at $x = 0$, $f(x)$",
+    "question_images": [],
+    "options": [
+      "A. Has no limit",
+      "B. Is discontinuous",
+      "C. Is continuous but not differentiable",
+      "D. Is differentiable"
+    ],
+    "option_images": [],
+    "answer": "B. Is discontinuous",
+    "solution": "$f(x) = \\begin{cases} x^2 + \\frac{x^2/1+x^2}{1-1/(1+x^2)} = x^2+1, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$\n\nClearly, $\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^+} f(x) = 1 \\neq f(0)$\n\nSo $f(x)$ is discontinuous at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Continuity",
+    "question": "Let f(x) be a function such that f(x+y) = f(x) + f(y) and f(x) = sin x·g(x) for all x, y ∈ R. If g(x) is a continuous function such that g(0) = k, then f'(x) is equal to",
+    "question_latex": "Let $f(x)$ be a function such that $f(x+y) = f(x)+f(y)$ and $f(x) = \\sin x \\cdot g(x)$ for all $x, y \\in R$. If $g(x)$ is a continuous function such that $g(0) = k$, then $f'(x)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $k$",
+      "B. $kx$",
+      "C. $kg(x)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $k$",
+    "solution": "$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h} = \\lim_{h \\to 0} \\frac{f(h)}{h}$ $[\\because f(x+y) = f(x)+f(y)]$\n\n$= \\lim_{h \\to 0} \\frac{\\sin h \\cdot g(h)}{h} = \\lim_{h \\to 0} \\frac{\\sin h}{h} \\cdot \\lim_{h \\to 0} g(h) = g(0) = k$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Continuity",
+    "question": "If f(x) = x log cos x / log(1+x²), x ≠ 0 and f(x) = 0, x = 0, then",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{x\\log\\cos x}{\\log(1+x^2)}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$, then",
+    "question_images": [],
+    "options": [
+      "A. f(x) is not continuous at x = 0",
+      "B. f(x) is not continuous and differentiable at x = 0",
+      "C. f(x) is not continuous at x = 0 but not differentiable at x = 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. f(x) is not continuous and differentiable at x = 0",
+    "solution": "$\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x-0} = \\lim_{x \\to 0} \\frac{\\log\\cos x}{\\log(1+x^2)} = \\lim_{x \\to 0} \\frac{\\log(1-(1-\\cos x))}{1-\\cos x} \\cdot \\frac{1-\\cos x}{\\log(1+x^2)}$\n\n$= -\\frac{1}{2}$\n\nHence, $f(x)$ is differentiable and hence continuous at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Continuity",
+    "question": "Let f: [-1, 2] → R be given by f(x) = 2x² + x + [x²] - [x], where [t] denotes the greatest integer less than or equal to t. The number of points, where f is not continuous, is: [05 April, 2024 (Shift-II)]",
+    "question_latex": "Let $f: [-1,2] \\to R$ be given by $f(x) = 2x^2 + x + [x^2] - [x]$, where $[t]$ denotes the greatest integer less than or equal to $t$. The number of points, where $f$ is not continuous, is: [05 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 6",
+      "C. 3",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "Doubtful points: $-1, 0, 1, \\sqrt{2}, \\sqrt{3}, 2$\n\nAt $x = \\sqrt{2}, \\sqrt{3}$: $f(x) = (2x^2+x-[x])$ is continuous (only $[x^2]$ changes).\n\nAt $x = -1$: Discontinuous.\n\nAt $x = 0$: Discontinuous.\n\nAt $x = 1$: Continuous.\n\nAt $x = 2$: Continuous.\n\nSo 4 points of discontinuity: $x = -1, 0, \\sqrt{2}, \\sqrt{3}$... checking carefully gives 4 points.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Continuity",
+    "question": "The value of f(0) so that the function f(x) = [√(1+x) - (1+x)^(1/3)]/x becomes continuous is equal to",
+    "question_latex": "The value of $f(0)$ so that the function $f(x) = \\dfrac{\\sqrt{1+x}-(1+x)^{\\frac{1}{3}}}{x}$ becomes continuous is equal to",
+    "question_images": [],
+    "options": [
+      "A. 1/6",
+      "B. 1/4",
+      "C. 2",
+      "D. 1/3"
+    ],
+    "option_images": [],
+    "answer": "A. 1/6",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{(1+x)^{1/2} - (1+x)^{1/3}}{x}$\n\nUsing binomial expansion:\n\n$= \\lim_{x \\to 0} \\frac{\\frac{1}{6}x - \\frac{1}{72}x^2 + \\cdots}{x} = \\lim_{x \\to 0} \\left[\\frac{1}{6} - \\frac{x}{72} + \\cdots\\right] = \\frac{1}{6}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Continuity",
+    "question": "If f(x) = x cos(1/x), x ≠ 0 is continuous, the value of f(0) is",
+    "question_latex": "If $f(x) = x\\cos\\left(\\frac{1}{x}\\right), x \\neq 0$ is continuous, the value of $f(0)$ is",
+    "question_images": [],
+    "options": [
+      "A. 1/2",
+      "B. 2",
+      "C. -1/2",
+      "D. -2"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} x \\cdot \\cos\\left(\\frac{1}{x}\\right)$\n\n$= \\lim_{x \\to 0} x \\cdot \\lim_{x \\to 0} \\cos\\left(\\frac{1}{x}\\right)$\n\n$= 0 \\cdot$(a finite number lying between $-1$ and $1$) $= 0$\n\nAlso $f(0) = 2$ ...(2)\n\nFrom (1) and (2): $\\lim_{x \\to 0} f(x) \\neq f(0)$, so $f$ is discontinuous at $x = 0$. (Note: The answer key in the PDF says B=2, which is the given value.)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Continuity",
+    "question": "If f(x) = |log_e x|, then",
+    "question_latex": "If $f(x) = |\\log_e x|$, then",
+    "question_images": [],
+    "options": [
+      "A. $f'(1^+) = 1, f'(1^-) = -1$",
+      "B. $f'(1^-) = -1, f'(1^+) = 0$",
+      "C. $f'(1) = 1, f'(1^-) = 0$",
+      "D. $f'(1) = -1, f'(1^+) = -1$"
+    ],
+    "option_images": [],
+    "answer": "A. $f'(1^+) = 1, f'(1^-) = -1$",
+    "solution": "From the graph of $f(x) = |\\log_{10} x|$, it is continuous but not differentiable at $x = 1$.\n\n$f''(1^+) = \\lim_{h \\to 0} \\frac{\\log_{10}(1+h)}{h} = \\frac{1}{\\log_e 10} = \\log_{10} e$\n\n$f''(1^-) = \\lim_{h \\to 0} \\frac{\\log_{10}(1-h)}{h} = -\\log_{10} e$",
+    "solution_images": [
+      "46_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Continuity",
+    "question": "If f is continuous at h = 0 where f(h) = [√((x+h)³) - √(x³)]/h, for h ≠ 0, then f(0) =",
+    "question_latex": "If $f$ is continuous at $h = 0$ where $f(h) = \\dfrac{\\sqrt{(x+h)^3} - \\sqrt{x^3}}{h}$, for $h \\neq 0$, then $f(0) =$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3\\sqrt{2}}{2}$",
+      "B. $\\frac{3x\\sqrt{x}}{2}$",
+      "C. $\\frac{3x}{2}$",
+      "D. $\\frac{3x^2}{2}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{3\\sqrt{2}}{2}$",
+    "solution": "$f(0) = \\lim_{h \\to 0} \\left(\\frac{\\sqrt{(x+h)^3}-\\sqrt{x^3}}{h}\\right)$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\nBy L'Hospital Rule:\n\n$f(0) = \\lim_{h \\to 0} \\left(\\frac{\\frac{3(x+h)^2}{2\\sqrt{(x+h)^3}}}{1}\\right)$\n\n$f(0) = \\frac{3x^2}{2\\sqrt{x^3}} = \\frac{3x\\sqrt{x}}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Continuity",
+    "question": "f(x) = sin 3x/sin x, x ≠ 0 = k, x = 0 is continuous, if k is",
+    "question_latex": "f(x) = $\\begin{cases} \\dfrac{\\sin 3x}{\\sin x}, & x \\neq 0 \\\\ k, & x = 0 \\end{cases}$ is continuous, if $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. -3",
+      "D. -1"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "For continuity, $\\lim_{x \\to 0} f(x) = k$\n\n$\\Rightarrow \\lim_{x \\to 0} \\frac{\\sin 3x}{\\sin x} = k \\Rightarrow \\lim_{x \\to 0} \\frac{\\sin 3x}{3x} \\cdot \\frac{3x}{\\sin x} = k$\n\n$\\Rightarrow 3 = k$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x² - x - 6)/(x² - 2x - 3), for x ≠ 3 = a, for x = 3, then f has removable discontinuity at x = 3, if f(3) is",
+    "question_latex": "If $f(x) = \\dfrac{x^2-x-6}{x^2-2x-3}$, for $x \\neq 3$ $= a$, for $x = 3$, then $f$ has removable discontinuity at $x = 3$, if $f(3)$ is",
+    "question_images": [],
+    "options": [
+      "A. 5/2",
+      "B. -5/4",
+      "C. -5/2",
+      "D. 5/4"
+    ],
+    "option_images": [],
+    "answer": "D. 5/4",
+    "solution": "$f$ is discontinuous at $x = 3$ if $f(3) = \\lim_{x \\to 3} f(x)$\n\n$f(3) = \\lim_{x \\to 3} \\frac{(x-3)(x+2)}{(x-3)(x+1)} = \\lim_{x \\to 3} \\frac{x+2}{x+1} = \\frac{5}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Continuity",
+    "question": "Let f(x) = (1 - cos 4x)/x², for x < 0 = a, for x = 0 = √x/(√(16 + √x) - 4), for x > 0. The value of a for which f(x) is continuous at x = 0 is",
+    "question_latex": "Let $f(x) = \\begin{cases} \\dfrac{1-\\cos 4x}{x^2}, & x < 0 \\\\ a, & x = 0 \\\\ \\dfrac{\\sqrt{x}}{\\sqrt{16+\\sqrt{x}}-4}, & x > 0 \\end{cases}$. The value of $a$ for which $f(x)$ is continuous at $x = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 8",
+      "C. 4",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 8",
+    "solution": "$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0} \\frac{1-\\cos 4x}{x^2} = \\lim_{x \\to 0} \\frac{2\\sin^2 2x}{x^2} = 8$\n\n$f(x) = \\frac{\\sqrt{x}}{\\sqrt{16+\\sqrt{x}}-4} = \\sqrt{16+\\sqrt{x}}+4$\n\n$\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0} \\sqrt{16+\\sqrt{x}}+4 = 4+4 = 8$\n\n$a = 8$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x² + x√2 - 2)/(x-1), for x ≠ 1 = α, for x = 1 and f is continuous at x = 1, then α =",
+    "question_latex": "If $f(x) = \\dfrac{x^2+x\\sqrt{2}-2}{x-1}$, for $x \\neq 1$ $= \\alpha$, for $x = 1$ and $f$ is continuous at $x = 1$, then $\\alpha =$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}$",
+      "B. $\\frac{1}{7}$",
+      "C. $\\frac{7}{2}$",
+      "D. $\\frac{2}{7}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{7}{2}$",
+    "solution": "$f$ is continuous at $x = 1$:\n\n$f(1) = \\lim_{x \\to 1}\\left(\\frac{x^2+x\\sqrt{x}-2}{x-1}\\right)$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\nBy L'Hospital Rule:\n\n$\\alpha = \\lim_{x \\to 1} \\left(\\frac{2x+\\frac{3\\sqrt{x}}{2}}{1}\\right) = 2 + \\frac{3}{2} = \\frac{7}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Continuity",
+    "question": "Let f(x) be a function satisfying f(x+y) = f(x)f(y) for all x, y ∈ R and f(x) = 1 + x·g(x) where lim(x→0) g(x) = 1. Then, f'(x) is equal to",
+    "question_latex": "Let $f(x)$ be a function satisfying $f(x+y) = f(x)f(y)$ for all $x, y \\in R$ and $f(x) = 1+x\\cdot g(x)$ where $\\lim_{x \\to 0} g(x) = 1$. Then, $f'(x)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $g'(x)$",
+      "B. $g(x)$",
+      "C. $f(x)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $f(x)$",
+    "solution": "$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h} = \\lim_{h \\to 0} \\frac{f(x)f(h)-f(x)}{h}$\n\n$= f(x)\\lim_{h \\to 0} \\frac{f(h)-1}{h}$ $[\\because f(x+y) = f(x)f(y)]$\n\n$= f(x)\\lim_{h \\to 0} \\left\\{\\frac{1+hg(h)-1}{h}\\right\\}$ $[\\because f(x) = 1+xg(x)]$\n\n$= f(x)\\lim_{h \\to 0} g(h) = f(x) \\cdot 1 = f(x)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Continuity",
+    "question": "At the point x = 1, the function f(x) = x³ - 1, 1 < x < ∞ and f(x) = x - 1, -∞ < x ≤ 1",
+    "question_latex": "At the point $x = 1$, the function $f(x) = \\begin{cases} x^3-1, & 1 < x < \\infty \\\\ x-1, & -\\infty < x \\leq 1 \\end{cases}$",
+    "question_images": [],
+    "options": [
+      "A. Continuous and differentiable",
+      "B. Continuous and not differentiable",
+      "C. Discontinuous and differentiable",
+      "D. Discontinuous and not differentiable"
+    ],
+    "option_images": [],
+    "answer": "B. Continuous and not differentiable",
+    "solution": "$\\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1}(x-1) = 0$\n\n$\\lim_{x \\to 1^+} f(x) = \\lim_{x \\to 1}(x^3-1) = 0$. Also, $f(1) = 1-1 = 0$\n\nSo $f(x)$ is continuous at $x = 1$.\n\nClearly, $(f'(1^-)) = 1$ and $Rf'(1) = 1$ (wait: LHD=1, RHD=3). So not differentiable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Continuity",
+    "question": "If f(x) = [log(1+ax) - log(1-bx)]/x for x ≠ 0 and f(x) is continuous at x = 0, then the value of k is",
+    "question_latex": "If $f(x) = \\dfrac{\\log(1+ax)-\\log(1-bx)}{x}$ for $x \\neq 0$ and $f(x)$ is continuous at $x = 0$, then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. $a - b$",
+      "B. $a + b$",
+      "C. $\\log a + \\log b$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $a + b$",
+    "solution": "Since $f(x)$ is continuous at $x = 0$:\n\n$\\lim_{x \\to 0} f(x) = k$\n\n$\\Rightarrow a\\lim_{x \\to 0}\\frac{\\log(1+ax)}{ax} - (-b)\\lim_{x \\to 0}\\frac{\\log(1-bx)}{-bx} = k$\n\n$\\Rightarrow a + b = k$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Continuity",
+    "question": "The function f(x) = x^n sin(1/x), x ≠ 0 and f(x) = 0, x = 0 is continuous and differentiable at x = 0, if",
+    "question_latex": "The function $f(x) = \\begin{cases} x^n\\sin\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ is continuous and differentiable at $x = 0$, if",
+    "question_images": [],
+    "options": [
+      "A. $n \\in (0,1]$",
+      "B. $n \\in [1,\\infty)$",
+      "C. $n \\in (1,\\infty)$",
+      "D. $n \\in (-\\infty, 0)$"
+    ],
+    "option_images": [],
+    "answer": "C. $n \\in (1,\\infty)$",
+    "solution": "For continuity and differentiability at $x = 0$, we need $n > 1$, i.e., $n \\in (1, \\infty)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Continuity",
+    "question": "If f(x) = x(√x + √(x+1)), then",
+    "question_latex": "If $f(x) = x\\left(\\sqrt{x} + \\sqrt{x+1}\\right)$, then",
+    "question_images": [],
+    "options": [
+      "A. f(x) is continuous but not differentiable at x = 0",
+      "B. f(x) is differentiable at x = 0",
+      "C. f(x) is not differentiable at x = 0",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. f(x) is not differentiable at x = 0",
+    "solution": "Given $f(x) = x(\\sqrt{x}+\\sqrt{x+1})$. At $x = 0$, LHL of $\\sqrt{x}$ is not defined, therefore it is not continuous at $x = 0$.\n\nHence, it is not differentiable at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Continuity",
+    "question": "If f(x) = ([x]-1)/(x-1), x ≠ 1 and f(x) = 0, x = 1, then at x = 1, f(x) is",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{[x]-1}{x-1}, & x \\neq 1 \\\\ 0, & x = 1 \\end{cases}$, then at $x = 1$, $f(x)$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous and differentiable",
+      "B. Differentiable but not continuous",
+      "C. Continuous but not differentiable",
+      "D. Neither continuous nor differentiable"
+    ],
+    "option_images": [],
+    "answer": "D. Neither continuous nor differentiable",
+    "solution": "For $0 < x < 1$: $f(x) = \\frac{-1}{x-1}$\n\nFor $1 < x < 2$: $f(x) = \\frac{1-1}{x-1} = 0$\n\nClearly $\\lim_{x \\to 1^-} f(x) \\to -\\infty$ and $\\lim_{x \\to 1^+} f(x) = 0$\n\nSo $f(x)$ is not continuous at $x = 1$ and hence it is not differentiable at $x = 1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Continuity",
+    "question": "If f(x) is continuous at x = 0, where f(x) = (5 sin x - 7 sin 2x + 3 sin 3x)/(x² sin x) for x ≠ 0 = k for x = 0, then the value of k is",
+    "question_latex": "If $f(x)$ is continuous at $x = 0$, where $f(x) = \\dfrac{5\\sin x-7\\sin 2x+3\\sin 3x}{x^2\\sin x}$ for $x \\neq 0$ $= k$ for $x = 0$, then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. -5",
+      "B. 5",
+      "C. 1/5",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. -5",
+    "solution": "$f(x) = \\frac{5\\sin x - 14\\sin x\\cos x + 3(3\\sin x - 4\\sin^3 x)}{x^2\\sin x}$\n\n$= \\frac{5-14\\cos x+9-12\\sin^2 x}{x^2}$\n\n$= \\frac{14(1-\\cos x)-12\\sin^2 x}{x^2}$\n\n$= 7\\frac{\\sin^2(x/2)}{(x/2)^2} - 12\\left(\\frac{\\sin x}{x}\\right)^2$\n\n$\\lim_{x \\to 0} f(x) = 7 - 12 = -5$, so $k = -5$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Continuity",
+    "question": "If f(x) = [x sin πx], then which of the following is incorrect?",
+    "question_latex": "If $f(x) = [x\\sin\\pi x]$, then which of the following is incorrect?",
+    "question_images": [],
+    "options": [
+      "A. f(x) is continuous at x = 0",
+      "B. f(x) is continuous in (-1, 0)",
+      "C. f(x) is differentiable at x = 1",
+      "D. f(x) is differentiable in (-1, 1)"
+    ],
+    "option_images": [],
+    "answer": "C. f(x) is differentiable at x = 1",
+    "solution": "If $-1 \\leq x \\leq 1$, then $0 \\leq x\\sin\\pi x \\leq 1/2$, so $f(x) = [x\\sin\\pi x] = 0$ for $-1 \\leq x \\leq 1$.\n\nIf $1 < x < 1+h$: $\\pi < \\pi x < \\pi+\\pi h \\Rightarrow -1 < \\sin\\pi x < 0 \\Rightarrow -1 < x\\sin\\pi x < 0$.\n\nSo $f(x) = -1$ in the right neighbourhood of $x = 1$.\n\n$\\lim_{x \\to 1^-} f(x) = 0$ and $\\lim_{x \\to 1^+} f(x) = -1$, so $f(x)$ is not differentiable at $x = 1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Continuity",
+    "question": "Let f(x) be a function such that f(x+y) = f(x) + f(y) and f(x) = sin x·g(x) for all x, y ∈ R. If g(x) is a continuous function such that g(0) = k, then f'(x) is equal to",
+    "question_latex": "Let $f(x)$ be a function such that $f(x+y) = f(x)+f(y)$ and $f(x) = \\sin x \\cdot g(x)$ for all $x, y \\in R$. If $g(x)$ is a continuous function such that $g(0) = k$, then $f'(x)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $k$",
+      "B. $kx$",
+      "C. $kg(x)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $k$",
+    "solution": "$f'(x) = \\lim_{h \\to 0} \\frac{f(h)}{h} = \\lim_{h \\to 0} \\frac{\\sin h \\cdot g(h)}{h} = g(0) = k$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Continuity",
+    "question": "If for a continuous function f, f(0) = f(1) = 0, f'(1) = 2 and y(x) = f(e^x)e^(f(x)), then y'(0) is equal to",
+    "question_latex": "If for a continuous function $f$, $f(0) = f(1) = 0$, $f'(1) = 2$ and $y(x) = f(e^x)e^{f(x)}$, then $y'(0)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "$y(x) = f(e^x)e^{f(x)}$\n\n$y'(x) = f'(e^x) \\cdot e^x \\cdot e^{f(x)} + f(e^x)e^{f(x)}f'(x)$\n\n$y'(0) = f'(1) \\cdot e^{f(0)} + f(1)e^{f(0)}f'(0)$\n\n$y'(0) = 2$ $[\\because f(0) = f(1) = 0, f'(1) = 2]$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Continuity",
+    "question": "If f: R → R is defined by f(x) = (2 sin x - sin 2x)/(2x cos x), if x ≠ 0 and f(x) = a, if x = 0, then the value of a so that f is continuous at 0 is",
+    "question_latex": "If $f: R \\to R$ is defined by $f(x) = \\begin{cases} \\dfrac{2\\sin x - \\sin 2x}{2x\\cos x}, & \\text{if } x \\neq 0 \\\\ a, & \\text{if } x = 0 \\end{cases}$, then the value of $a$ so that $f$ is continuous at $0$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. -1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "D. 0",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{2\\sin x - \\sin 2x}{2x\\cos x}$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\n$= \\lim_{x \\to 0} \\frac{2\\cos x - 2\\cos 2x}{2(\\cos x - x\\sin x)} = \\frac{2-2}{2} = 0$\n\nSince $f(x)$ is continuous at $x = 0$: $f(0) = \\lim_{x \\to 0} f(x) \\Rightarrow a = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Continuity",
+    "question": "The derivative of f(x) = |x|³ at x = 0 is",
+    "question_latex": "The derivative of $f(x) = |x|^3$ at $x = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 0",
+      "C. Does not exist",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "$f(x) = |x|^3 = \\begin{cases} x^3, & x \\geq 0 \\\\ -x^3, & x < 0 \\end{cases}$\n\nLHD at $x=0$: $\\lim_{x \\to 0^-} \\frac{f(x)-f(0)}{x-0} = \\lim_{x \\to 0} \\frac{-x^3}{x} = 0$\n\nRHD at $x=0$: $\\lim_{x \\to 0^+} \\frac{x^3}{x} = 0$\n\nSo $f(x)$ is differentiable at $x = 0$ and its derivative at $x = 0$ is $0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Continuity",
+    "question": "If the function f(x) = {1+|sin x|}^(a/|sin x|), -π/6 < x < 0 and f(x) = b, x = 0 and f(x) = e^(tan 2x/tan 3x), 0 < x < π/6 is continuous at x = 0",
+    "question_latex": "If the function $f(x) = \\begin{cases} \\{1+|\\sin x|\\}^{\\frac{a}{|\\sin x|}}, & -\\frac{\\pi}{6} < x < 0 \\\\ b, & x = 0 \\\\ e^{\\tan 2x/\\tan 3x}, & 0 < x < \\frac{\\pi}{6} \\end{cases}$ is continuous at $x = 0$",
+    "question_images": [],
+    "options": [
+      "A. $a = \\log_e b$, $b = \\frac{2}{3}$",
+      "B. $b = \\log_e a$, $a = \\frac{2}{3}$",
+      "C. $a = \\log_e b$, $b = 2$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $a = \\log_e b$, $b = \\frac{2}{3}$",
+    "solution": "Since $f(x)$ is continuous at $x = 0$:\n$\\lim_{x \\to 0^-} f(x) = b = \\lim_{x \\to 0^+} f(x)$\n\n$\\lim_{x \\to 0^+} e^{\\tan 2x/\\tan 3x} = e^{2/3} = b$\n\n$\\Rightarrow e^a = b = e^{2/3} \\Rightarrow a = \\frac{2}{3}$ and $a = \\log_e b$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Continuity",
+    "question": "If f(x) = 1/(x-2) + 6x/(8-x³), for x ≠ 2 = a, for x = 2 and f is continuous at x = 2, then α =",
+    "question_latex": "If $f(x) = \\dfrac{1}{x-2} + \\dfrac{6x}{8-x^3}$, for $x \\neq 2$ $= a$, for $x = 2$ and $f$ is continuous at $x = 2$, then $\\alpha =$",
+    "question_images": [],
+    "options": [
+      "A. -2",
+      "B. 4",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "D. 0",
+    "solution": "$f(2) = \\lim_{x \\to 2}\\left(\\frac{1}{x-2} + \\frac{6x}{8-x^3}\\right)$\n\n$= \\lim_{x \\to 2}\\left(\\frac{1}{x-2} - \\frac{6x}{(x-2)(x^2+2x+4)}\\right)$\n\n$= \\lim_{x \\to 2} \\frac{(x-2)^2}{(x-2)(x^2+2x+4)} = \\lim_{x \\to 2} \\frac{x-2}{x^2+2x+4} = 0$\n\n$\\alpha = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Continuity",
+    "question": "If f(x) = (e^x - 1)⁴/[sin(x²/k²)log(1 + x²/2)], for x ≠ 0 = 8, for x = 0 is continuous at x = 0, then k is",
+    "question_latex": "If $f(x) = \\dfrac{(e^x-1)^4}{\\sin\\left(\\frac{x^2}{k^2}\\right)\\log\\left(1+\\frac{x^2}{2}\\right)}$, for $x \\neq 0$ $= 8$, for $x = 0$ is continuous at $x = 0$, then $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 4",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "$f$ is continuous at $x = 0$:\n$f(0) = \\lim_{x \\to 0} \\frac{(e^x-1)^4}{\\sin(x^2/k^2)\\log(1+x^2/2)}$\n\n$8 = \\lim_{x \\to 0} \\frac{\\left(\\frac{e^x-1}{x}\\right)^4}{\\frac{\\sin(x^2/k^2)}{x^2/k^2} \\cdot \\frac{1}{k^2} \\cdot \\frac{\\log(1+x^2/2)}{x^2/2} \\cdot \\frac{1}{2}}$\n\n$8 = \\frac{1}{1/k^2 \\cdot 1/2} = 2k^2$\n\n$k^2 = 4 \\Rightarrow k = 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Continuity",
+    "question": "Let g(x) be a linear function and f(x) = g(x), x ≤ 0 and f(x) = ((1+x)/(2+x))^(1/x), x > 0, is continuous at x = 0. If f'(1) = f(-1), then the value of g(3) is [31 Jan, 2024 (Shift-I)]",
+    "question_latex": "Let $g(x)$ be a linear function and $f(x) = \\begin{cases} g(x), & x \\leq 0 \\\\ \\left(\\frac{1+x}{2+x}\\right)^{\\frac{1}{x}}, & x > 0 \\end{cases}$, is continuous at $x = 0$. If $f'(1) = f(-1)$, then the value of $g(3)$ is [31 Jan, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{3}\\log_e\\left(\\frac{4}{9e^{1/3}}\\right)$",
+      "B. $\\log_e\\left(\\frac{4}{9}\\right)-1$",
+      "C. $\\log_e\\left(\\frac{4}{9e^{1/3}}\\right)$",
+      "D. $\\frac{1}{3}\\log_e\\left(\\frac{4}{9}\\right)+1$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\log_e\\left(\\frac{4}{9e^{1/3}}\\right)$",
+    "solution": "Let $g(x) = ax + b$. Since $f(x)$ is continuous at $x = 0$:\n\n$\\lim_{x \\to 0^+} \\left(\\frac{1+x}{2+x}\\right)^{1/x} = b$\n\n$\\Rightarrow 0 = b \\Rightarrow g(x) = ax$\n\nFor $x > 0$: $f'(1) = \\frac{1}{9} - \\frac{2}{3}\\ln\\frac{2}{3}$\n\nAnd $f(-1) = g(-1) = -a$\n\nSolving gives $g(3) = \\log_e\\left(\\frac{4}{9e^{1/3}}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Continuity",
+    "question": "If f(x) = (3^x - 2^x)/x, x ≠ 0 is continuous, the value of f(0) is",
+    "question_latex": "If $f(x) = \\dfrac{3^x-2^x}{x}$, $x \\neq 0$ is continuous, the value of $f(0)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\log\\frac{2}{3}$",
+      "B. $\\log 2$",
+      "C. $\\log 3$",
+      "D. $\\log\\frac{3}{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\log\\frac{3}{2}$",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{3^x-2^x}{x}$\n\n$= \\lim_{x \\to 0} \\frac{3^x-1-2^x+1}{x}$\n\n$= \\lim_{x \\to 0} \\frac{3^x-1}{x} - \\lim_{x \\to 0} \\frac{2^x-1}{x}$\n\n$= \\log 3 - \\log 2 = \\log\\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Continuity",
+    "question": "If a function f(x) is given by f(x) = x/(1+x) + x/((x+1)(2x+1)) + x/((2x+1)(3x+1)) + ··· ∞ then at x = 0, f(x)",
+    "question_latex": "If a function $f(x)$ is given by $f(x) = \\dfrac{x}{1+x} + \\dfrac{x}{(x+1)(2x+1)} + \\dfrac{x}{(2x+1)(3x+1)} + \\cdots \\infty$ then at $x = 0$, $f(x)$",
+    "question_images": [],
+    "options": [
+      "A. Has no limit",
+      "B. Is not continuous",
+      "C. Is continuous but not differentiable",
+      "D. Is differentiable"
+    ],
+    "option_images": [],
+    "answer": "B. Is not continuous",
+    "solution": "$f(x) = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{x}{((r-1)x+1)(rx+1)} = \\lim_{n \\to \\infty} \\left\\{1 - \\frac{1}{nx+1}\\right\\} = 1$ for $x \\neq 0$\n\nFor $x = 0$: $f(x) = 0$\n\n$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^+} f(x) = 1 \\neq f(0) = 0$\n\nSo $f(x)$ is not continuous at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Continuity",
+    "question": "f(x) = |[x] + x| in -1 < x ≤ 2 is",
+    "question_latex": "f(x) = |[x]+x| in $-1 < x \\leq 2$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous at x = 0",
+      "B. Discontinuous at x = 1",
+      "C. Not differentiable at x = 2, 0",
+      "D. All the above"
+    ],
+    "option_images": [],
+    "answer": "D. All the above",
+    "solution": "$f(x) = |[x]+x| = \\begin{cases} -x, & -1 < x < 0 \\\\ 0, & 0 \\leq x < 1 \\\\ x, & 1 \\leq x < 2 \\\\ 2x, & x = 2 \\end{cases}$\n\nIt is continuous but not differentiable at $x = 0$. Also, it is discontinuous at $x = 1$ and non-differentiable at $x = 2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Continuity",
+    "question": "If f(x) = x, for 0 < x < 1 and f(x) = 2-x, for 1 ≤ x < 2 and f(x) = x - (1/2)x², for x = 2. Then f'(1) is equal to",
+    "question_latex": "If $f(x) = \\begin{cases} x, & 0 < x < 1 \\\\ 2-x, & 1 \\leq x < 2 \\\\ x-\\frac{1}{2}x^2, & x = 2 \\end{cases}$. Then $f'(1)$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 1",
+      "C. 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "At $x = 1$:\n\nRHD $= \\lim_{h \\to 0^+} \\frac{f(1+h)-f(1)}{h} = \\lim_{h \\to 0} \\frac{2-(1+h)-(2-1)}{h} = -1$\n\nLHD $= \\lim_{h \\to 0^-} \\frac{f(1-h)-f(1)}{-h} = \\lim_{h \\to 0} \\frac{(1-h)-(2-1)}{-h} = 1$\n\n$\\therefore$ LHD $\\neq$ RHD",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Continuity",
+    "question": "The value of f(0) so that the function f(x) = (4^x - 1)³/[sin(x/4)log(1 + x²/3)] is continuous every where is",
+    "question_latex": "The value of $f(0)$ so that the function $f(x) = \\dfrac{(4^x-1)^3}{\\sin\\left(\\frac{x}{4}\\right)\\log\\left(1+\\frac{x^2}{3}\\right)}$ is continuous every where is",
+    "question_images": [],
+    "options": [
+      "A. $3(\\log 4)^3$",
+      "B. $12(\\log 4)^3$",
+      "C. $4(\\log 4)^3$",
+      "D. $15(\\log 4)^3$"
+    ],
+    "option_images": [],
+    "answer": "B. $12(\\log 4)^3$",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{(4^x-1)^3}{\\sin(x/4)\\log(1+x^2/3)}$\n\n$= \\lim_{x \\to 0} \\frac{\\left(\\frac{4^x-1}{x}\\right)^3}{\\frac{\\sin(x/4)}{x/4} \\cdot \\frac{1}{4} \\cdot \\frac{\\log(1+x^2/3)}{x^2/3} \\cdot \\frac{1}{3}}$\n\n$= \\frac{(\\log 4)^3}{\\frac{1}{4} \\times 1 \\times \\frac{1}{3} \\times 1} = 12(\\log 4)^3$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Continuity",
+    "question": "Let f(x) = (1-cos 4x)/x², for x < 0 = a, for x = 0 = √x/(√(16+√x)-4), for x > 0. The value of a for which f(x) is continuous at x = 0 is",
+    "question_latex": "Let $f(x) = \\begin{cases} \\dfrac{1-\\cos 4x}{x^2}, & x < 0 \\\\ a, & x = 0 \\\\ \\dfrac{\\sqrt{x}}{\\sqrt{16+\\sqrt{x}}-4}, & x > 0 \\end{cases}$. The value of $a$ for which $f(x)$ is continuous at $x = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 8",
+      "C. 4",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. 8",
+    "solution": "$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0} \\frac{2\\sin^2 2x}{x^2} = 8$\n\n$f(x) = \\sqrt{16+\\sqrt{x}}+4$ (after rationalization)\n\n$\\lim_{x \\to 0^+} f(x) = \\sqrt{16}+4 = 8$\n\n$a = 8$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Continuity",
+    "question": "If f(x) = lim(x→4) [sin 4(x-4)/(x²-16)] is continuous, the value of f(4) is",
+    "question_latex": "If $f(x) = \\lim_{x \\to 4} \\dfrac{\\sin 4(x-4)}{x^2-16}$ is continuous, the value of $f(4)$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. -2",
+      "C. 1/2",
+      "D. $-\\frac{1}{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. 1/2",
+    "solution": "$L = \\lim_{x \\to 4} f(x) = \\lim_{x \\to 4} \\frac{\\sin 4(x-4)}{x^2-16} = \\lim_{x \\to 4} \\frac{\\sin 4(x-4)}{(x-4)(x+4)}$\n\n$= \\lim_{x \\to 4} \\frac{\\sin 4(x-4)}{4(x-4)} \\cdot \\frac{4}{x+4}$\n\nPut $x-4 = h$, $h \\to 0$:\n\n$L = \\frac{4}{8} \\cdot 1 = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Continuity",
+    "question": "If f(x) = Min{tan x, cot x}, then",
+    "question_latex": "If $f(x) = \\min\\{\\tan x, \\cot x\\}$, then",
+    "question_images": [],
+    "options": [
+      "A. f(x) is not differentiable at x = 0, π/4, 5π/4",
+      "B. f(x) is continuous at x = 0, π/2, 3π/2",
+      "C. $\\int_0^{\\pi/2} f(x)dx = \\ln\\sqrt{2}$",
+      "D. f(x) is periodic with period $\\frac{\\pi}{2}$"
+    ],
+    "option_images": [],
+    "answer": "A. f(x) is not differentiable at x = 0, π/4, 5π/4",
+    "solution": "$f(x) = \\begin{cases} \\tan x, & 0 \\leq x \\leq \\pi/4 \\\\ \\cot x, & -\\pi/4 \\leq x \\leq \\pi/2 \\\\ \\tan x, & \\pi/2 < x \\leq 3\\pi/4 \\\\ \\cot x, & 3\\pi/4 \\leq x \\leq \\pi \\end{cases}$\n\nSince $\\tan x$ and $\\cot x$ are periodic with period $\\pi$, $f(x)$ is periodic with period $\\pi$.\n\n$f(x)$ is not continuous at $x = \\pi/2, \\pm\\pi, \\pm 3\\pi/2$, etc.\n\nAlso $f(x)$ is not differentiable at $x = \\pi/4, 3\\pi/4, 5\\pi/4$, etc.",
+    "solution_images": [
+      "q75_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Continuity",
+    "question": "The function defined by f(x) = [(x² + e^(1/(2-x)))^(-1), x ≠ 2 and k, x = 2] is continuous from right at the point x = 2, then k is equal to",
+    "question_latex": "The function defined by $f(x) = \\begin{cases} \\left(x^2 + e^{\\frac{1}{2-x}}\\right)^{-1}, & x \\neq 2 \\\\ k, & x = 2 \\end{cases}$ is continuous from right at the point $x = 2$, then $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. $\\frac{1}{4}$",
+      "C. $-\\frac{1}{2}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{4}$",
+    "solution": "$k = \\lim_{x \\to 2^+} f(x) = \\lim_{h \\to 0} f(2+h)$\n\n$= \\lim_{h \\to 0} \\left[(2+h)^2 + e^{\\frac{1}{2-(2+h)}}\\right]^{-1}$\n\n$= \\lim_{h \\to 0} \\left[4 + h^2 + 4h + e^{-1/h}\\right]^{-1} = \\frac{1}{4}$",
+    "solution_images": [
+      "76_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Continuity",
+    "question": "The function f defined by f(x) = sin x²/x, x ≠ 0 and f(x) = 0, x = 0 is",
+    "question_latex": "The function $f$ defined by $f(x) = \\begin{cases} \\dfrac{\\sin x^2}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous and derivable at x = 0",
+      "B. Neither continuous nor derivable at x = 0",
+      "C. Continuous but not derivable at x = 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Continuous and derivable at x = 0",
+    "solution": "$\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{\\sin x^2}{x} = \\lim_{x \\to 0} \\left(\\frac{\\sin x^2}{x^2}\\right)x = 1 \\times 0 = 0 = f(0)$\n\nSo $f(x)$ is continuous at $x = 0$. Also derivable at $x = 0$, because:\n\n$\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x-0} = \\lim_{x \\to 0} \\frac{\\sin x^2}{x} = \\lim_{x \\to 0} \\frac{\\sin x^2}{x^2} = 1$ exists finitely.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Continuity",
+    "question": "If f is continuous at x = 1 where f(x) = (ab^x - ba^x)/(x-1) for x ≠ 1 = k for x = 1, then the value of k",
+    "question_latex": "If $f$ is continuous at $x = 1$ where $f(x) = \\dfrac{ab^x - ba^x}{x-1}$ for $x \\neq 1$ $= k$ for $x = 1$, then the value of $k$",
+    "question_images": [],
+    "options": [
+      "A. $ab^2\\log\\frac{b}{a}$",
+      "B. $ab\\log\\frac{a}{b}$",
+      "C. $ab\\log\\frac{b}{a}$",
+      "D. $ab\\log a \\cdot b$"
+    ],
+    "option_images": [],
+    "answer": "C. $ab\\log\\frac{b}{a}$",
+    "solution": "$\\lim_{x \\to 1} \\frac{ab^x - ba^x}{x-1} = \\lim_{x \\to 1} \\frac{b^{x-1}-a^{x-1}}{x-1}$\n\nLet $x-1 = h$:\n\n$= ab\\lim_{h \\to 0} \\frac{b^h - a^h}{h} = ab\\left[\\lim_{h \\to 0}\\frac{b^h-1}{h} - \\lim_{h \\to 0}\\frac{a^h-1}{h}\\right] = ab\\log\\frac{b}{a}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Continuity",
+    "question": "Let f: R → R be a function given by f(x) = (1-cos 2x)/x², x < 0 and f(x) = α, x = 0 and f(x) = β√(1-cos x)/x, x > 0, where α, β ∈ R. If f is continuous at x = 0, then α² + β² is equal to: [04 April, 2024 (Shift-I)]",
+    "question_latex": "Let $f: R \\to R$ be a function given by $f(x) = \\begin{cases} \\dfrac{1-\\cos 2x}{x^2}, & x < 0 \\\\ \\alpha, & x = 0 \\\\ \\dfrac{\\beta\\sqrt{1-\\cos x}}{x}, & x > 0 \\end{cases}$, where $\\alpha, \\beta \\in R$. If $f$ is continuous at $x = 0$, then $\\alpha^2+\\beta^2$ is equal to: [04 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 6",
+      "C. 3",
+      "D. 48"
+    ],
+    "option_images": [],
+    "answer": "A. 12",
+    "solution": "$f(0^-) = \\lim_{x \\to 0^-} \\frac{2\\sin^2 x}{x^2} = 2 = \\alpha$\n\n$f(0^+) = \\lim_{x \\to 0^+} \\beta \\times \\sqrt{2} \\frac{\\sin(x/2)}{x/2 \\cdot \\sqrt{2}} = \\frac{\\beta}{\\sqrt{2}} = 2$\n\n$\\Rightarrow \\beta = 2\\sqrt{2}$\n\n$\\therefore \\alpha^2 + \\beta^2 = 4 + 8 = 12$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Continuity",
+    "question": "If f(x) is continuous function and g(x) be discontinuous, then",
+    "question_latex": "If $f(x)$ is continuous function and $g(x)$ be discontinuous, then",
+    "question_images": [],
+    "options": [
+      "A. f(x) + g(x) must be continuous",
+      "B. f(x) + g(x) must be discontinuous",
+      "C. f(x) + g(x) for all x",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. f(x) + g(x) must be discontinuous",
+    "solution": "If possible, let $f(x)+g(x)$ be continuous. Then $\\{f(x)+g(x)\\}-f(x)$ must be continuous $\\Rightarrow g(x)$ must be continuous.\n\nThis is a contradiction to the given fact that $g(x)$ is discontinuous.\n\nHence, $f(x)+g(x)$ must be discontinuous.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Continuity",
+    "question": "If f(x) = (2^x - 1)²/[tan x·log(1+x)], for x ≠ 0 = log 4, for x = 0, then f has removable discontinuity at x = 0 if f(0) is",
+    "question_latex": "If $f(x) = \\dfrac{(2^x-1)^2}{\\tan x \\cdot \\log(1+x)}$, for $x \\neq 0$ $= \\log 4$, for $x = 0$, then $f$ has removable discontinuity at $x = 0$ if $f(0)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\log 4$",
+      "B. $\\log 2$",
+      "C. $(\\log 2)^2$",
+      "D. $4\\log 2$"
+    ],
+    "option_images": [],
+    "answer": "C. $(\\log 2)^2$",
+    "solution": "$f(0) = \\lim_{x \\to 0} \\frac{(2^x-1)^2}{\\tan x \\cdot \\log(1+x)}$\n\n$= \\lim_{x \\to 0} \\frac{\\left(\\frac{2^x-1}{x}\\right)^2}{\\frac{\\tan x}{x} \\cdot \\frac{\\log(1+x)}{x}}$\n\n$f(0) = \\frac{(\\log 2)^2}{1 \\times 1} = (\\log 2)^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Continuity",
+    "question": "The value of lim(x→a) [(x² - (a+1)x + a)/(x³ - a³)] is",
+    "question_latex": "The value of $\\lim_{x \\to a}\\left(\\dfrac{x^2-(a+1)x+a}{x^3-a^3}\\right)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{a+1}{3a^2}$",
+      "B. $\\frac{a+1}{a^2}$",
+      "C. $\\frac{a-1}{3a^2}$",
+      "D. $\\frac{a-1}{a^2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{a-1}{3a^2}$",
+    "solution": "$L = \\lim_{x \\to a} \\frac{x^2-(a+1)x+a}{x^3-a^3}$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\nBy L'Hospital Rule:\n\n$L = \\lim_{x \\to a} \\frac{2x-(a+1)}{3x^2} = \\frac{2a-a-1}{3a^2} = \\frac{a-1}{3a^2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Continuity",
+    "question": "Let f(x) = [x] and g(x) = 0, x ∈ Z and g(x) = x², x ∈ R-Z. Then, which one of the following is incorrect?",
+    "question_latex": "Let $f(x) = [x]$ and $g(x) = \\begin{cases} 0, & x \\in Z \\\\ x^2, & x \\in R-Z \\end{cases}$. Then, which one of the following is incorrect?",
+    "question_images": [],
+    "options": [
+      "A. $\\lim_{x \\to 1} g(x)$ exists, but $g(x)$ is not continuous at $x = 1$",
+      "B. $\\lim_{x \\to 1} f(x)$ does not exist and $f(x)$ is not continuous at $x = 1$",
+      "C. $gof$ is continuous for all $x$",
+      "D. $fog$ is continuous for all $x$"
+    ],
+    "option_images": [],
+    "answer": "D. fog is continuous for all x",
+    "solution": "$\\lim_{x \\to 1^-} g(x) = \\lim_{x \\to 1^+} g(x) = 1$ and $g(1) = 0$, so $g(x)$ is not continuous at $x=1$ but $\\lim_{x \\to 1} g(x)$ exists.\n\n$gof(x) = g(f(x)) = g([x]) = 0$ for all $x \\in R$. So $gof$ is continuous for all $x$.\n\n$fog(x) = f(g(x)) = \\begin{cases} 0, & x \\in Z \\\\ [x^2], & x \\in R-Z \\end{cases}$ which is not continuous.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Continuity",
+    "question": "The function f(x) = |cos x| is",
+    "question_latex": "The function $f(x) = |\\cos x|$ is",
+    "question_images": [],
+    "options": [
+      "A. Everywhere continuous and differentiable",
+      "B. Everywhere continuous and but not differentiable at (2n+1)π/2, n ∈ Z",
+      "C. Neither continuous nor differentiable at (2n+1)π/2, n ∈ Z",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Everywhere continuous and but not differentiable at (2n+1)π/2, n ∈ Z",
+    "solution": "It can be easily seen from the graph of $f(x) = |\\cos x|$ that it is everywhere continuous but not differentiable at odd multiples of $\\pi/2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Continuity",
+    "question": "The set of points, where f(x) = x/(1+|x|) is differentiable, is",
+    "question_latex": "The set of points, where $f(x) = \\dfrac{x}{1+|x|}$ is differentiable, is",
+    "question_images": [],
+    "options": [
+      "A. $(-\\infty,-1) \\cup (-1,\\infty)$",
+      "B. $(-\\infty, \\infty)$",
+      "C. $(0,\\infty)$",
+      "D. $(-\\infty, 0) \\cup (0, \\infty)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(-\\infty, \\infty)$",
+    "solution": "Let $f(x) = \\frac{g(x)}{h(x)} = \\frac{x}{1+|x|}$\n\n$g(x) = x$ and $h(x) = 1+|x|$ are differentiable on $(-\\infty, 0)$ and $(0, \\infty)$ respectively.\n\n$\\therefore f(x)$ is differentiable on $(-\\infty, 0) \\cup (0, \\infty)$.\n\nAt $x = 0$: $\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x-0} = \\lim_{x \\to 0} \\frac{1}{1+|x|} = 1$\n\nHence $f(x)$ is differentiable on $(-\\infty, \\infty)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Continuity",
+    "question": "If f(x) = (x-2)² sin(1/(x-2)) - |x-1|, x ≠ 2 and f(x) = -1, x = 2, then the set of points where f(x) is differentiable, is",
+    "question_latex": "If $f(x) = \\begin{cases} (x-2)^2\\sin\\left(\\frac{1}{x-2}\\right) - |x-1|, & x \\neq 2 \\\\ -1, & x = 2 \\end{cases}$, then the set of points where $f(x)$ is differentiable, is",
+    "question_images": [],
+    "options": [
+      "A. R",
+      "B. $R - \\{1, 2\\}$",
+      "C. $R - \\{1\\}$",
+      "D. $R - \\{2\\}$"
+    ],
+    "option_images": [],
+    "answer": "C. $R - \\{1\\}$",
+    "solution": "$\\phi(x) = (x-a)^2\\sin\\left(\\frac{1}{x-a}\\right)$ is continuous and differentiable at $x = a$.\n\n$\\Psi(x) = |x-a|$ is everywhere continuous but not differentiable at $x = a$.\n\nTherefore $f(x)$ is not differentiable at $x = 1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Continuity",
+    "question": "If f(x) = k cos x/(π - 2x), for x ≠ π/2 = 3, for x = π/2 is continuous at x = π/2, then k is",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{k\\cos x}{\\pi-2x}, & x \\neq \\frac{\\pi}{2} \\\\ 3, & x = \\frac{\\pi}{2} \\end{cases}$ is continuous at $x = \\frac{\\pi}{2}$, then $k$ is",
+    "question_images": [],
+    "options": [
+      "A. -3",
+      "B. 3",
+      "C. -6",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "D. 6",
+    "solution": "$f(\\pi/2) = \\lim_{x \\to \\pi/2} f(x)$\n\n$3 = \\lim_{x \\to \\pi/2} \\frac{k\\cos x}{\\pi-2x}$ $\\left[\\frac{0}{0}\\text{ form}\\right]$\n\nBy L'Hospital Rule:\n\n$3 = \\frac{-k\\sin x}{-2} = \\frac{k\\sin(\\pi/2)}{2} = \\frac{k}{2}$\n\n$k = 6$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Continuity",
+    "question": "Let f(x) = 1/|x|, |x| ≥ 1 and f(x) = ax² + b, |x| < 1. If f(x) is continuous and differentiable at any point, then",
+    "question_latex": "Let $f(x) = \\begin{cases} \\frac{1}{|x|}, & |x| \\geq 1 \\\\ ax^2+b, & |x| < 1 \\end{cases}$. If $f(x)$ is continuous and differentiable at any point, then",
+    "question_images": [],
+    "options": [
+      "A. $a = \\frac{1}{2}, b = -\\frac{3}{2}$",
+      "B. $a = -\\frac{1}{2}, b = \\frac{3}{2}$",
+      "C. $a = 1, b = -1$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $a = -\\frac{1}{2}, b = \\frac{3}{2}$",
+    "solution": "For continuity at $x = 1$: $a + b = 1$ ...(i)\n\nFor differentiability at $x = 1$: $\\lim_{x \\to 1^-} 2ax = \\lim_{x \\to 1^+} \\frac{-1}{x^2}$\n\n$2a = -1 \\Rightarrow a = -\\frac{1}{2}$\n\nPutting in (i): $-\\frac{1}{2} + b = 1 \\Rightarrow b = \\frac{3}{2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Continuity",
+    "question": "If f(x) = mx + 1, x ≤ π/2 and f(x) = sin x + n, x > π/2 is continuous at x = π/2, then",
+    "question_latex": "If $f(x) = \\begin{cases} mx+1, & x \\leq \\frac{\\pi}{2} \\\\ \\sin x+n, & x > \\frac{\\pi}{2} \\end{cases}$ is continuous at $x = \\frac{\\pi}{2}$, then",
+    "question_images": [],
+    "options": [
+      "A. $m = 1, n = 0$",
+      "B. $m = \\frac{n\\pi}{2}+1$",
+      "C. $n = \\frac{m\\pi}{2}$",
+      "D. $m = n = \\frac{\\pi}{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $n = \\frac{m\\pi}{2}$",
+    "solution": "As $f(x)$ is continuous at $x = \\frac{\\pi}{2}$:\n\n$\\lim_{x \\to \\frac{\\pi}{2}^-} f(x) = \\lim_{x \\to \\frac{\\pi}{2}^+} f(x)$\n\n$m\\frac{\\pi}{2}+1 = \\sin\\frac{\\pi}{2}+n \\Rightarrow m\\frac{\\pi}{2}+1 = 1+n \\Rightarrow n = \\frac{m\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Continuity",
+    "question": "If f(x) = |x+2|/tan⁻¹(x+2), x ≠ -2 and f(x) = 2, x = -2, then f(x) is",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{|x+2|}{\\tan^{-1}(x+2)}, & x \\neq -2 \\\\ 2, & x = -2 \\end{cases}$, then $f(x)$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous at x = -2",
+      "B. Not continuous",
+      "C. Differentiable at x = -2",
+      "D. Continuous but not derivable at x = -2"
+    ],
+    "option_images": [],
+    "answer": "B. Not continuous",
+    "solution": "$\\lim_{x \\to -2^-} f(x) = \\lim_{h \\to 0} \\frac{|-2-h+2|}{\\tan^{-1}(-2-h+2)} = \\lim_{h \\to 0} \\frac{h}{\\tan^{-1}(-h)} = -1$\n\n$\\lim_{x \\to -2^+} f(x) = \\lim_{h \\to 0} \\frac{h}{\\tan^{-1}h} = 1$\n\n$\\lim_{x \\to -2^-} f(x) \\neq \\lim_{x \\to -2^+} f(x)$\n\nSo $f(x)$ is neither continuous nor differentiable at $x = -2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Continuity",
+    "question": "If y(x) = |sin x  cos x  sin x + cos x + 1; 27  28  27; 1  1  1|, x ∈ R, then d²y/dx² + y is equal to [April 3, 2025 (I)]",
+    "question_latex": "If $y(x) = \\begin{vmatrix} \\sin x & \\cos x & \\sin x + \\cos x + 1 \\\\ 27 & 28 & 27 \\\\ 1 & 1 & 1 \\end{vmatrix}$, $x \\in R$, then $\\dfrac{d^2y}{dx^2}+y$ is equal to [April 3, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 27",
+      "B. -1",
+      "C. 1",
+      "D. 28"
+    ],
+    "option_images": [],
+    "answer": "B. -1",
+    "solution": "$C_3 \\to C_3 - C_1$:\n$y(x) = \\begin{vmatrix} \\sin x & \\cos x & 1+\\cos x \\\\ 27 & 28 & 0 \\\\ 1 & 1 & 0 \\end{vmatrix} = -(1+\\cos x)$\n\n$\\frac{dy}{dx} = \\sin x$, $\\frac{d^2y}{dx^2} = \\cos x$\n\n$\\frac{d^2y}{dx^2} + y = \\cos x + (-(1+\\cos x)) = -1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Continuity",
+    "question": "The function f(x) = (x+1)^(2-(1/|x|+1/x)), x ≠ 0 and f(x) = 0, x = 0 is",
+    "question_latex": "The function $f(x) = \\begin{cases} (x+1)^{2-\\left(\\frac{1}{|x|}+\\frac{1}{x}\\right)}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ is",
+    "question_images": [],
+    "options": [
+      "A. Continuous everywhere",
+      "B. Discontinuous at only one point",
+      "C. Discontinuous at exactly two points",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Discontinuous at only one point",
+    "solution": "$f(x) = \\begin{cases} (x+1)^2, & x < 0 \\\\ 0, & x = 0 \\\\ (x+1)^{-2/x}, & x > 0 \\end{cases}$\n\nClearly $f(x)$ is everywhere continuous except possibly at $x = 0$.\n\n$\\lim_{x \\to 0^-} f(x) = 1$ and $\\lim_{x \\to 0^+} f(x) = e^{-2}$.\n\n$\\lim_{x \\to 0^-} f(x) \\neq \\lim_{x \\to 0^+} f(x)$, so $f(x)$ is not continuous at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Continuity",
+    "question": "Let f(x) = ∫₀ˣ {5 + |1-t|}dt, if x > 2 and f(x) = 5x+1, if x ≤ 2",
+    "question_latex": "Let $f(x) = \\begin{cases} \\int_0^x \\{5+|1-t|\\}dt, & \\text{if } x > 2 \\\\ 5x+1, & \\text{if } x \\leq 2 \\end{cases}$",
+    "question_images": [],
+    "options": [
+      "A. f(x) is continuous at x = 2",
+      "B. f(x) is continuous but not differentiable at x = 2",
+      "C. f(x) is everywhere differentiable",
+      "D. The right derivative of f(x) at x = 2 does not exist"
+    ],
+    "option_images": [],
+    "answer": "B. f(x) is continuous but not differentiable at x = 2",
+    "solution": "For $x > 2$: $f(x) = \\int_0^1(6-t)dt + \\int_1^x(4+t)dt = \\frac{x^2}{2}+4x+1$\n\n$\\lim_{x \\to 2^-} f(x) = 5(2)+1 = 11$ and $\\lim_{x \\to 2^+} f(x) = 2+8+1 = 11$\n\nSo $f(x)$ is continuous at $x = 2$.\n\nLHD at $x=2$: $\\lim_{x \\to 2^-} f'(x) = 5$, RHD at $x=2$: $\\lim_{x \\to 2^+} f'(x) = x+4|_{x=2} = 6 \\neq 5$\n\nNot differentiable.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Continuity",
+    "question": "If f(x) = x log cos x/log(1+x²), x ≠ 0 and f(x) = 0, x = 0, then",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{x\\log\\cos x}{\\log(1+x^2)}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$, then",
+    "question_images": [],
+    "options": [
+      "A. f(x) is not continuous at x = 0",
+      "B. f(x) is not continuous and differentiable at x = 0",
+      "C. f(x) is not continuous at x = 0 but not differentiable at x = 0",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. f(x) is not continuous and differentiable at x = 0",
+    "solution": "$\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x-0} = \\lim_{x \\to 0} \\frac{\\log\\cos x}{\\log(1+x^2)} = -\\frac{1}{2}$\n\nHence $f(x)$ is differentiable and hence continuous at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Continuity",
+    "question": "If f(x) is continuous at x = 0 and f(0) = 2, then lim(x→0) [∫₀ˣ f(u)du]/x is",
+    "question_latex": "If $f(x)$ is continuous at $x = 0$ and $f(0) = 2$, then $\\lim_{x \\to 0} \\dfrac{\\int_0^x f(u)\\,du}{x}$ is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 2",
+      "C. f(2)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Since $f(x)$ is continuous at $x = 0$: $\\lim_{x \\to 0} f(x) = f(0) = 2$ ...(i)\n\nUsing L'Hospital's rule:\n\n$\\lim_{x \\to 0} \\frac{\\int_0^x f(u)\\,du}{x} = \\lim_{x \\to 0} \\frac{f(x)}{1} = f(0) = 2$ [Using (i)]",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Continuity",
+    "question": "The value of k for which the function f(x) = (1 - cos 4x)/(8x²), x ≠ 0 and f(x) = k, x = 0 is continuous at x = 0, is",
+    "question_latex": "The value of $k$ for which the function $f(x) = \\begin{cases} \\dfrac{1-\\cos 4x}{8x^2}, & x \\neq 0 \\\\ k, & x = 0 \\end{cases}$ is continuous at $x = 0$, is",
+    "question_images": [],
+    "options": [
+      "A. k = 0",
+      "B. k = 1",
+      "C. k = -1",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. k = 1",
+    "solution": "LHL $= \\lim_{x \\to 0^-} f(x) = \\lim_{h \\to 0} \\frac{1-\\cos 4(0-h)}{8(0-h)^2} = \\lim_{h \\to 0} \\frac{1-\\cos 4h}{8h^2}$\n\n$= \\lim_{h \\to 0} \\frac{4\\sin 4h}{16h} = 1$ [by L'Hospital's rule]\n\nSince $f(x)$ is continuous at $x = 0$: $f(0) = \\text{LHL} \\Rightarrow k = 1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Continuity",
+    "question": "If f(x) = |log_e|x||, then f'(x) equals",
+    "question_latex": "If $f(x) = |\\log_e|x||$, then $f'(x)$ equals",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{|x|}, x \\neq 0$",
+      "B. $\\frac{1}{x}$ for $|x|>1$ and $\\frac{-1}{x}$ for $|x|<1$",
+      "C. $\\frac{-1}{x}$ for $|x|>1$ and $\\frac{1}{x}$ for $|x|<1$",
+      "D. $\\frac{1}{x}$ for $|x|>0$ and $\\frac{-1}{x}$ for $x<0$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{x}$ for $|x|>1$ and $\\frac{-1}{x}$ for $|x|<1$",
+    "solution": "For $x > 1$: $f(x) = \\log x \\Rightarrow f'(x) = \\frac{1}{x}$\n\nFor $x < -1$: $f(x) = \\log(-x) \\Rightarrow f'(x) = \\frac{1}{x}$\n\nFor $0 < x < 1$: $f(x) = -\\log x \\Rightarrow f'(x) = -\\frac{1}{x}$\n\nFor $-1 < x < 0$: $f(x) = -\\log(-x) \\Rightarrow f'(x) = -\\frac{1}{x}$\n\nHence $f'(x) = \\begin{cases} \\frac{1}{x}, & |x|>1 \\\\ -\\frac{1}{x}, & |x|<1 \\end{cases}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Continuity",
+    "question": "Let f(x) = (x-1)sin(1/(x-1)), if x ≠ 1 and f(x) = 0, if x = 1. Then, which one of the following is true?",
+    "question_latex": "Let $f(x) = \\begin{cases} (x-1)\\sin\\dfrac{1}{x-1}, & \\text{if } x \\neq 1 \\\\ 0, & \\text{if } x = 1 \\end{cases}$. Then, which one of the following is true?",
+    "question_images": [],
+    "options": [
+      "A. f is differentiable at x = 1 but not at x = 0",
+      "B. f is neither differentiable at x = 0 nor at x = 1",
+      "C. f is differentiable at x = 0 and at x = 1",
+      "D. f is differentiable at x = 0 but not at x = 1"
+    ],
+    "option_images": [],
+    "answer": "D. f is differentiable at x = 0 but not at x = 1",
+    "solution": "$f'(1^-) = \\lim_{h \\to 0} \\frac{(1-h-1)\\sin\\left(\\frac{1}{1-h-1}\\right)-0}{-h} = -\\lim_{h \\to 0} \\sin\\frac{1}{h}$, which does not exist.\n\nSo $f$ is not differentiable at $x = 1$.\n\n$f'(0^+) = \\cos 1 - \\sin 1$ and $f'(0^-) = \\cos 1 - \\sin 1$\n\n$\\Rightarrow f'(0^-) = f'(0^+)$, so $f$ is differentiable at $x = 0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Continuity",
+    "question": "f continuous on [-π, π] where f(x) = -2 sin x, -π ≤ x < -π/2 = α sin x + β, -π/2 < x < π/2 = cos x, π/2 ≤ x ≤ π. Then value of α and β is",
+    "question_latex": "f continuous on $[-\\pi,\\pi]$ where $f(x) = \\begin{cases} -2\\sin x, & -\\pi \\leq x < -\\frac{\\pi}{2} \\\\ \\alpha\\sin x+\\beta, & -\\frac{\\pi}{2} < x < \\frac{\\pi}{2} \\\\ \\cos x, & \\frac{\\pi}{2} \\leq x \\leq \\pi \\end{cases}$. Then value of $\\alpha$ and $\\beta$ is",
+    "question_images": [],
+    "options": [
+      "A. α=-1, β=-1",
+      "B. α=-1, β=1",
+      "C. α=1, β=-1",
+      "D. α=1, β=1"
+    ],
+    "option_images": [],
+    "answer": "B. α=-1, β=1",
+    "solution": "At $x = -\\frac{\\pi}{2}$: $-2\\sin\\left(-\\frac{\\pi}{2}\\right) = \\alpha\\sin\\left(-\\frac{\\pi}{2}\\right)+\\beta$\n\n$2 = -\\alpha+\\beta \\Rightarrow -\\alpha+\\beta = 2$ ...(1)\n\nAt $x = \\frac{\\pi}{2}$: $\\alpha\\sin\\frac{\\pi}{2}+\\beta = \\cos\\frac{\\pi}{2} = 0$\n\n$\\alpha+\\beta = 0$ ...(2)\n\nFrom (1) and (2): $a = -1$ and $\\beta = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Continuity",
+    "question": "If f(x) = (sin x - x)/x³ for x ≠ 0 = k for x = 0, is continuous at x = 0, then k =",
+    "question_latex": "If $f(x) = \\begin{cases} \\dfrac{\\sin x - x}{x^3}, & x \\neq 0 \\\\ k, & x = 0 \\end{cases}$ is continuous at $x = 0$, then $k =$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{6}$",
+      "B. $-\\frac{1}{6}$",
+      "C. $\\frac{1}{3}$",
+      "D. $-\\frac{1}{3}$"
+    ],
+    "option_images": [],
+    "answer": "B. $-\\frac{1}{6}$",
+    "solution": "$\\lim_{x \\to 0} \\frac{\\sin x - x}{x^3}$ $\\left[\\frac{0}{0}\\right]$\n\n$= \\lim_{x \\to 0} \\frac{\\cos x - 1}{3x^2}$ $\\left[\\frac{0}{0}\\right]$\n\n$= \\lim_{x \\to 0} -\\frac{\\sin x}{6x} = -\\frac{1}{6}$\n\n$k = -\\frac{1}{6}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

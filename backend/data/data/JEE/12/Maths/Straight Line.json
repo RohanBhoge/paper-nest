@@ -1,0 +1,1902 @@
+[
+  {
+    "id": 1,
+    "chapter": "Straight Line",
+    "question": "The lines ax + by + c = 0, bx + cy + a = 0 and cx + ay + b = 0 (a ≠ b ≠ c) are concurrent, if",
+    "question_latex": "The lines $ax + by + c = 0$, $bx + cy + a = 0$ and $cx + ay + b = 0$ $(a \\neq b \\neq c)$ are concurrent, if",
+    "question_images": [],
+    "options": [
+      "A. $a^3 + b^3 + c^3 + 3abc = 0$",
+      "B. $a^2 + b^2 + c^2 - 3abc = 0$",
+      "C. $a + b + c = 0$",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "C. $a + b + c = 0$",
+    "solution": "Since the given lines are concurrent:\n$$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix} = 0 \\Rightarrow a^3 + b^3 + c^3 - 3abc = 0$$\n$$\\Rightarrow (a+b+c)(a^2+b^2+c^2-ab-bc-ca) = 0$$\n$$\\Rightarrow \\frac{(a+b+c)}{2}\\{(a-b)^2+(b-c)^2+(c-a)^2\\} = 0$$\n$$\\Rightarrow a+b+c = 0 \\quad (\\text{as } a \\neq b \\neq c)$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Straight Line",
+    "question": "The line passing through the point of intersection of x + y = 2, x - y = 0 and is parallel to x + 2y = 5, is",
+    "question_latex": "The line passing through the point of intersection of $x + y = 2$, $x - y = 0$ and is parallel to $x + 2y = 5$, is",
+    "question_images": [],
+    "options": [
+      "A. $x + 2y = 1$",
+      "B. $x + 2y = 2$",
+      "C. $x + 2y = 4$",
+      "D. $x + 2y = 3$"
+    ],
+    "option_images": [],
+    "answer": "D. $x + 2y = 3$",
+    "solution": "Let the line passing through the intersection of two lines be:\n$(x+y-2)+\\lambda(x-y) = 0$\nor $(1+\\lambda)x + (1-\\lambda)y - 2 = 0$ ...(i)\nWhich is parallel to $x+2y=5$:\n$$-\\frac{(1+\\lambda)}{(1-\\lambda)} = -\\frac{1}{2}$$\n$$\\Rightarrow 2+2\\lambda = 1-\\lambda \\Rightarrow \\lambda = -\\frac{1}{3}$$\nOn putting $\\lambda = -\\frac{1}{3}$ in Eq. (i):\n$$\\frac{2}{3}x + \\frac{4}{3}y - 2 = 0 \\Rightarrow x + 2y = 3$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Straight Line",
+    "question": "A line is drawn from P(x1, y1) in the direction α with the x-axis, to meet Ax + By + C = 0 at Q. Then the length PQ is equal to",
+    "question_latex": "A line is drawn from $P(x_1, y_1)$ in the direction $\\alpha$ with the $x$-axis, to meet $Ax + By + C = 0$ at $Q$. Then the length $PQ$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\left|\\dfrac{Ax_1 + By_1 + C}{\\sqrt{A^2+B^2}}\\right|$",
+      "B. $-\\dfrac{Ax_1 + By_1 + C}{A\\cos\\alpha + B\\sin\\alpha}$",
+      "C. $\\dfrac{Ax_1 + By_1 + C}{A\\cos\\alpha\\, B\\sin\\alpha}$",
+      "D. $-\\dfrac{Ax_1 + By_1 + C}{A\\sin\\alpha + B\\cos\\alpha}$"
+    ],
+    "option_images": [],
+    "answer": "B. $-\\dfrac{Ax_1 + By_1 + C}{A\\cos\\alpha + B\\sin\\alpha}$",
+    "solution": "Equation of a line passing through $(x_1,y_1)$ and making angle $\\alpha$ with $x$-axis:\n$$\\frac{x-x_1}{\\cos\\alpha} = \\frac{y-y_1}{\\sin\\alpha} = r$$\nAny point on this line is $(x_1+r\\cos\\alpha,\\, y_1+r\\sin\\alpha)$. It lies on $Ax+By+C=0$:\n$$A(x_1+r\\cos\\alpha)+B(y_1+r\\sin\\alpha)+C=0$$\n$$\\Rightarrow r = -\\frac{Ax_1+By_1+C}{A\\cos\\alpha+B\\sin\\alpha}$$\nThus, $PQ = r = -\\dfrac{Ax_1+By_1+C}{A\\cos\\alpha+B\\sin\\alpha}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Straight Line",
+    "question": "If (a, a²) falls inside the angle made by the lines y = x/2, x > 0 and y = 3x, x > 0, then a belongs to",
+    "question_latex": "If $(a, a^2)$ falls inside the angle made by the lines $y = \\dfrac{x}{2},\\, x > 0$ and $y = 3x,\\, x > 0$, then $a$ belongs to",
+    "question_images": [],
+    "options": [
+      "A. $(3, \\infty)$",
+      "B. $\\left(\\dfrac{1}{2}, 3\\right)$",
+      "C. $\\left(-3, -\\dfrac{1}{2}\\right)$",
+      "D. $\\left(0, \\dfrac{1}{2}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\left(\\dfrac{1}{2}, 3\\right)$",
+    "solution": "Given lines are $x - 2y = 0$ and $3x - y = 0$.\nFor point $(a,a^2)$:\n$a^2 - \\dfrac{a}{2} > 0$ and $a^2 - 3a < 0$\n$$\\Rightarrow a \\in (-\\infty,0)\\cup\\left(\\frac{1}{2},\\infty\\right) \\text{ and } a \\in (0,3)$$\n$$\\Rightarrow a \\in \\left(\\frac{1}{2}, 3\\right)$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Straight Line",
+    "question": "Consider the family of lines (x + y - 1) + λ(2x + 3y - 5) = 0 and (3x + 2y - 4) + μ(x + 2y - 6) = 0. The equation of the straight line that belongs to both the families is",
+    "question_latex": "Consider the family of lines $(x+y-1)+\\lambda(2x+3y-5)=0$ and $(3x+2y-4)+\\mu(x+2y-6)=0$. The equation of the straight line that belongs to both the families is",
+    "question_images": [],
+    "options": [
+      "A. $x - 2y - 8 = 0$",
+      "B. $x - 2y + 8 = 0$",
+      "C. $2x + y - 8 = 0$",
+      "D. $2x - y - 8 = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $x - 2y + 8 = 0$",
+    "solution": "Family of lines $(x+y-1)+\\lambda(2x+3y-5)=0$ passes through intersection of $x+y-1=0$ and $2x+3y-5=0$, i.e., $(-2,3)$.\nFamily of lines $(3x+2y-4)+\\mu(x+2y-6)=0$ passes through intersection of $3x+2y-4=0$ and $x+2y-6=0$, i.e., $(-1, 7/2)$.\nEquation of line through $(-2,3)$ and $(-1,7/2)$:\n$$y-3 = \\frac{7/2-3}{-1+2}(x+2) \\Rightarrow y-3=\\frac{x+2}{2} \\Rightarrow x-2y+8=0$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Straight Line",
+    "question": "Consider the fourteen lines in the plane given by y = x + r, y = -x + r, where r ∈ {0,1,2,3,4,5,6}. The number of squares formed by these lines, whose sides are of length √2, is",
+    "question_latex": "Consider the fourteen lines in the plane given by $y = x+r,\\, y = -x+r$, where $r \\in \\{0,1,2,3,4,5,6\\}$. The number of squares formed by these lines, whose sides are of length $\\sqrt{2}$, is",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 16",
+      "C. 25",
+      "D. 36"
+    ],
+    "option_images": [],
+    "answer": "C. 25",
+    "solution": "The given lines are perpendicular to each other.\nPerpendicular distance $= \\dfrac{|r_1-r_2|}{\\sqrt{2}} = \\sqrt{2} \\Rightarrow r_1-r_2 = 2$.\nThe difference between $y$-intercepts $= 2$.\nThis can happen for five combinations: $\\{(0,2),(1,3),(2,4),(3,5),(4,6)\\}$.\nSimilarly, difference between $x$-intercepts $= 2$ also gives 5 combinations.\nHence, total number of squares $= 5 \\times 5 = 25$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Straight Line",
+    "question": "If the pair of straight lines ax² + 2hxy + by² = 0 is rotated about the origin through 90°, then their equations in the new position are given by",
+    "question_latex": "If the pair of straight lines $ax^2 + 2hxy + by^2 = 0$ is rotated about the origin through $90°$, then their equations in the new position are given by",
+    "question_images": [],
+    "options": [
+      "A. $ax^2 - 2hxy + by^2 = 0$",
+      "B. $ax^2 - 2hxy - by^2 = 0$",
+      "C. $bx^2 - 2hxy + ay^2 = 0$",
+      "D. $bx^2 + 2hxy + ay^2 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $bx^2 - 2hxy + ay^2 = 0$",
+    "solution": "Let $y=m_1x,\\, y=m_2x$ be the lines represented by $ax^2+2hxy+by^2=0$.\nThen $m_1+m_2 = -\\dfrac{2h}{b}$ and $m_1m_2 = \\dfrac{a}{b}$.\nNew lines after 90° rotation: $y=-\\dfrac{1}{m_1}x$ and $y=-\\dfrac{1}{m_2}x$.\nCombined equation: $(m_1y+x)(m_2y+x)=0$\n$$\\Rightarrow m_1m_2y^2+x^2+xy(m_1+m_2)=0$$\n$$\\Rightarrow \\frac{a}{b}y^2+x^2+xy\\left(\\frac{-2h}{b}\\right)=0$$\n$$\\Rightarrow bx^2-2hxy+ay^2=0$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Straight Line",
+    "question": "Let the equation x(x+2)(12-k) = 2 have equal roots. Then the distance of the point (k, k/2) from the line 3x + 4y + 5 = 0 is [April 3, 2025 (II)]",
+    "question_latex": "Let the equation $x(x+2)(12-k)=2$ have equal roots. Then the distance of the point $\\left(k, \\dfrac{k}{2}\\right)$ from the line $3x+4y+5=0$ is [April 3, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 15",
+      "B. $15\\sqrt{5}$",
+      "C. $5\\sqrt{3}$",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "A. 15",
+    "solution": "$(x^2+2x)(12-k)=2$\n$\\lambda x^2+2\\lambda x-2=0$, where $\\lambda=12-k$.\nFor equal roots: $D=0 \\Rightarrow 4\\lambda^2+8\\lambda=0 \\Rightarrow \\lambda=0$ or $\\lambda=-2$.\n$\\Rightarrow 12-k=-2 \\Rightarrow k=14$.\nSo $P\\left(k,\\dfrac{k}{2}\\right)=(14,7)$.\n$$d = \\left|\\frac{3\\times14+4\\times7+5}{5}\\right| = \\left|\\frac{42+28+5}{5}\\right| = \\frac{75}{5} = 15$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Straight Line",
+    "question": "A pair of perpendicular straight lines passes through the origin and also through the point of intersection of the curve x² + y² = 4 with x + y = a. The set containing the value of a is",
+    "question_latex": "A pair of perpendicular straight lines passes through the origin and also through the point of intersection of the curve $x^2+y^2=4$ with $x+y=a$. The set containing the value of $a$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\{-2,2\\}$",
+      "B. $\\{-3,3\\}$",
+      "C. $\\{-4,4\\}$",
+      "D. $\\{-5,5\\}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\{-2,2\\}$",
+    "solution": "Making the curves $x^2+y^2=4$ and $x+y=a$ homogeneous:\n$$x^2+y^2-4\\left(\\frac{x+y}{a}\\right)^2=0$$\n$$\\Rightarrow a^2(x^2+y^2)-4(x^2+y^2+2xy)=0$$\n$$\\Rightarrow x^2(a^2-4)+y^2(a^2-4)-8xy=0$$\nSince this is a perpendicular pair: sum of coefficients of $x^2$ and $y^2 = 0$:\n$$a^2-4+a^2-4=0 \\Rightarrow a^2=4 \\Rightarrow a=\\pm2$$\nHence, required set of $a$ is $\\{-2,2\\}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Straight Line",
+    "question": "The pair of lines √3x² - 4xy + √3y² = 0 are rotated about the origin by π/6 in anticlockwise sense. The equation of the pair in the new position is",
+    "question_latex": "The pair of lines $\\sqrt{3}x^2-4xy+\\sqrt{3}y^2=0$ are rotated about the origin by $\\dfrac{\\pi}{6}$ in anticlockwise sense. The equation of the pair in the new position is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{3}x^2 - xy = 0$",
+      "B. $x^2 - \\sqrt{3}xy = 0$",
+      "C. $xy - \\sqrt{3}y^2 = 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sqrt{3}x^2 - xy = 0$",
+    "solution": "$\\sqrt{3}x^2-4xy+\\sqrt{3}y^2=0 \\Rightarrow (\\sqrt{3}x-y)(x-\\sqrt{3}y)=0$\n$\\Rightarrow \\sqrt{3}x-y=0,\\quad x-\\sqrt{3}y=0$\n$\\Rightarrow y=\\sqrt{3}x,\\quad y=\\dfrac{1}{\\sqrt{3}}x$\nThese lines make $60°$ and $30°$ angles with $x$-axis. After rotating by $30°$ anticlockwise, they make $90°$ and $60°$ angles respectively.\nNew equations: $x=0$ and $y=\\sqrt{3}x$.\nCombined: $x(\\sqrt{3}x-y)=0 \\Rightarrow \\sqrt{3}x^2-xy=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Straight Line",
+    "question": "Consider the points A ≡ (3,4), B ≡ (7,13). If P be a point on the line y = x, such that PA + PB is minimum, then coordinates of P is",
+    "question_latex": "Consider the points $A \\equiv (3,4),\\, B \\equiv (7,13)$. If $P$ be a point on the line $y=x$, such that $PA+PB$ is minimum, then coordinates of $P$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\dfrac{13}{7},\\dfrac{13}{7}\\right)$",
+      "B. $\\left(\\dfrac{23}{7},\\dfrac{23}{7}\\right)$",
+      "C. $\\left(\\dfrac{31}{7},\\dfrac{31}{7}\\right)$",
+      "D. $\\left(\\dfrac{33}{7},\\dfrac{33}{7}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(\\dfrac{31}{7},\\dfrac{31}{7}\\right)$",
+    "solution": "Points $(3,4)$ and $(7,13)$ are on the same side of line $y=x$. Take image of $A$ about $y=x$: $A'' \\equiv (4,3)$.\nEquation of line $A''B$: $y-3=\\dfrac{13-3}{7-4}(x-4) \\Rightarrow 3y-9=10x-40 \\Rightarrow 10x-3y=31$.\n$P$ is intersection of $y=x$ and $10x-3y=31$:\n$10x-3x=31 \\Rightarrow x=\\dfrac{31}{7}$.\nCoordinates of $P$ are $\\left(\\dfrac{31}{7},\\dfrac{31}{7}\\right)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Straight Line",
+    "question": "Let ABCD be a tetrahedron such that the edges AB, AC and AD are mutually perpendicular. Let the areas of the triangles ABC, ACD and ADB be 5, 6 and 7 square units respectively. Then the area (in square units) of the △BCD is equal to: [April 2, 2025 (I)]",
+    "question_latex": "Let $ABCD$ be a tetrahedron such that the edges $AB$, $AC$ and $AD$ are mutually perpendicular. Let the areas of the triangles $ABC$, $ACD$ and $ADB$ be $5, 6$ and $7$ square units respectively. Then the area (in square units) of the $\\triangle BCD$ is equal to: [April 2, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{340}$",
+      "B. 12",
+      "C. $\\sqrt{110}$",
+      "D. $7\\sqrt{3}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sqrt{110}$",
+    "solution": "We know:\n$$\\text{Ar}(\\triangle BCD) = \\sqrt{(\\text{Ar}(\\triangle ABC))^2+(\\text{Ar}(\\triangle ACD))^2+(\\text{Ar}(\\triangle ADE))^2}$$\n$$= \\sqrt{5^2+6^2+7^2} = \\sqrt{25+36+49} = \\sqrt{110}$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Straight Line",
+    "question": "The lines 2x + y - 1 = 0, ax + 3y - 3 = 0 and 3x + 2y - 2 = 0 are concurrent for",
+    "question_latex": "The lines $2x+y-1=0$, $ax+3y-3=0$ and $3x+2y-2=0$ are concurrent for",
+    "question_images": [],
+    "options": [
+      "A. All $a$",
+      "B. $a = 4$ only",
+      "C. $-1 \\leq a \\leq 3$",
+      "D. $a > 0$ only"
+    ],
+    "option_images": [],
+    "answer": "A. All $a$",
+    "solution": "Given lines are concurrent if:\n$$\\begin{vmatrix} 2 & 1 & -1 \\\\ a & 3 & -3 \\\\ 3 & 2 & -2 \\end{vmatrix} = 0$$\nThis is true for all values of $a$, because $C_2$ and $C_3$ are identical (column 2 = column 3 up to a factor), so the determinant $= 0$ for all $a$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Straight Line",
+    "question": "The equation of the bisectors of the angles between the lines |x| = |y| are",
+    "question_latex": "The equation of the bisectors of the angles between the lines $|x| = |y|$ are",
+    "question_images": [],
+    "options": [
+      "A. $y = \\pm x$ and $x = 0$",
+      "B. $x = \\dfrac{1}{2}$ and $y = \\dfrac{1}{2}$",
+      "C. $y = 0$ and $x = 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $y = 0$ and $x = 0$",
+    "solution": "The equations of lines are $x+y=0$ and $x-y=0$.\nEquation of bisectors:\n$$\\frac{x+y}{\\sqrt{1+1}} = \\pm\\frac{x-y}{\\sqrt{1+1}} \\Rightarrow x+y = \\pm(x-y)$$\nTaking positive sign: $x+y=x-y \\Rightarrow y=0$\nTaking negative sign: $x+y=-(x-y) \\Rightarrow x=0$\nHence, bisectors are $x=0$ and $y=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Straight Line",
+    "question": "The ends of the base of an isosceles triangle are at (2a, 0) and (0, a). The equation of one side is x = 2a. The equation of the other side is",
+    "question_latex": "The ends of the base of an isosceles triangle are at $(2a,0)$ and $(0,a)$. The equation of one side is $x=2a$. The equation of the other side is",
+    "question_images": [],
+    "options": [
+      "A. $x + 2y - a = 0$",
+      "B. $x + 2y = 2a$",
+      "C. $3x + 4y - 4a = 0$",
+      "D. $3x - 4y + 4a = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $3x - 4y + 4a = 0$",
+    "solution": "Let $C(2a,\\lambda)$ be the third vertex.\nClearly $AC = \\lambda$.\n$BC = AC \\Rightarrow \\sqrt{4a^2+(\\lambda-a)^2} = \\lambda \\Rightarrow \\lambda = \\dfrac{5a}{2}$.\nCoordinates of $C$ are $\\left(2a,\\dfrac{5a}{2}\\right)$.\nEquation of $BC$:\n$$y-a = \\frac{5a/2-a}{2a-0}(x-0) = \\frac{3}{4}x$$\n$$\\Rightarrow 3x-4y+4a=0$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Straight Line",
+    "question": "If a △ABC has vertices A(-1,7), B(-7,1) and C(5,-5), then its orthocentre has coordinates (Sept 2020)",
+    "question_latex": "If a $\\triangle ABC$ has vertices $A(-1,7)$, $B(-7,1)$ and $C(5,-5)$, then its orthocentre has coordinates (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\dfrac{3}{5},-\\dfrac{3}{5}\\right)$",
+      "B. $(-3,3)$",
+      "C. $(3,-3)$",
+      "D. $\\left(-\\dfrac{3}{5},\\dfrac{3}{5}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(-3,3)$",
+    "solution": "Slope of $BC = \\dfrac{1+5}{-7-5} = \\dfrac{6}{-12} = -\\dfrac{1}{2}$.\nSlope of $AD = 2$ (since $AD \\perp BC$).\nEquation of $AD$: $y-7=2(x+1) \\Rightarrow 2x-y+9=0$ ...(i)\nSlope of $AC = \\dfrac{-5-7}{5+1} = -2$.\nSlope of $BE = \\dfrac{1}{2}$.\nEquation of $BE$: $y-1=\\dfrac{1}{2}(x+7) \\Rightarrow x-2y+9=0$ ...(ii)\nSolving (i) and (ii): $x=-3,\\, y=3$.\nOrthocentre is $(-3,3)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Straight Line",
+    "question": "If (sin θ, cos θ) and (3,2) lies on the same side of the line x + y = 1, then θ lies between",
+    "question_latex": "If $(\\sin\\theta, \\cos\\theta)$ and $(3,2)$ lies on the same side of the line $x+y=1$, then $\\theta$ lies between",
+    "question_images": [],
+    "options": [
+      "A. $\\left(0,\\dfrac{\\pi}{2}\\right)$",
+      "B. $(0,\\pi)$",
+      "C. $\\left(\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right)$",
+      "D. $\\left(0,\\dfrac{\\pi}{4}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\left(0,\\dfrac{\\pi}{2}\\right)$",
+    "solution": "Since $(3,2)$ lies on $x+y-1=0$: $3+2-1=4>0$.\nFor $(\\sin\\theta,\\cos\\theta)$: $\\sin\\theta+\\cos\\theta-1>0$\n$$\\Rightarrow \\sin\\theta+\\cos\\theta>1$$\n$$\\Rightarrow \\sqrt{2}\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)>1$$\n$$\\Rightarrow \\sin\\left(\\theta+\\frac{\\pi}{4}\\right)>\\frac{1}{\\sqrt{2}}=\\sin\\frac{\\pi}{4}$$\n$$\\Rightarrow 0<\\theta<\\frac{\\pi}{2}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Straight Line",
+    "question": "If (a, a²) falls inside the angle made by the lines y = x/2, x > 0 and y = 3x, x > 0, then a belongs to (2006)",
+    "question_latex": "If $(a,a^2)$ falls inside the angle made by the lines $y=\\dfrac{x}{2},\\, x>0$ and $y=3x,\\, x>0$, then $a$ belongs to (2006)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(0,\\dfrac{1}{2}\\right)$",
+      "B. $\\left(-3,-\\dfrac{1}{2}\\right)$",
+      "C. $\\left(\\dfrac{1}{2},3\\right)$",
+      "D. $(3,\\infty)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(\\dfrac{1}{2},3\\right)$",
+    "solution": "Given lines are $y=\\dfrac{x}{2}\\,(x>0)$ and $y=3x\\,(x>0)$. Using $(a,a^2)$:\n$$a^2-\\frac{a}{2}>0 \\quad\\text{...(i)}$$\n$$a^2-3a<0 \\quad\\text{...(ii)}$$\nSolving (i) and (ii): $\\dfrac{1}{2}<a<3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Straight Line",
+    "question": "Lines are drawn parallel to the line 4x - 3y + 2 = 0, at a distance 3/5 from the origin. Then which one of the following points lies on any of these lines? (April 2019)",
+    "question_latex": "Lines are drawn parallel to the line $4x-3y+2=0$, at a distance $\\dfrac{3}{5}$ from the origin. Then which one of the following points lies on any of these lines? (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\dfrac{1}{4},-\\dfrac{1}{3}\\right)$",
+      "B. $\\left(-\\dfrac{1}{4},-\\dfrac{2}{3}\\right)$",
+      "C. $\\left(-\\dfrac{1}{4},\\dfrac{2}{3}\\right)$",
+      "D. $\\left(\\dfrac{1}{4},\\dfrac{1}{3}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(-\\dfrac{1}{4},\\dfrac{2}{3}\\right)$",
+    "solution": "Parallel line: $4x-3y+c=0$. Distance from origin: $\\dfrac{|c|}{5}=\\dfrac{3}{5} \\Rightarrow c=\\pm3$.\nParallel lines: $4x-3y+3=0$ or $4x-3y-3=0$.\nPoint $\\left(-\\dfrac{1}{4},\\dfrac{2}{3}\\right)$ satisfies $4x-3y+3=0$:\n$4\\left(-\\dfrac{1}{4}\\right)-3\\left(\\dfrac{2}{3}\\right)+3=-1-2+3=0$ ✓",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Straight Line",
+    "question": "If the slopes of one of the lines given by ax² + 2hxy + by² = 0 is 5 times the other, then",
+    "question_latex": "If the slopes of one of the lines given by $ax^2+2hxy+by^2=0$ is 5 times the other, then",
+    "question_images": [],
+    "options": [
+      "A. $5h^2 = 9ab$",
+      "B. $5h^2 = ab$",
+      "C. $h^2 = ab$",
+      "D. $9h^2 = 5ab$"
+    ],
+    "option_images": [],
+    "answer": "A. $5h^2 = 9ab$",
+    "solution": "Let slope of first line be $m$, then slope of second line is $5m$.\n$m+5m = -\\dfrac{2h}{b}$ and $m\\cdot 5m = \\dfrac{a}{b}$\n$$\\Rightarrow m = \\frac{-2h}{6b} = \\frac{-h}{3b}$$\n$$5m^2 = \\frac{a}{b} \\Rightarrow 5\\left(-\\frac{h}{3b}\\right)^2 = \\frac{a}{b}$$\n$$\\Rightarrow \\frac{5h^2}{9b^2} = \\frac{a}{b} \\Rightarrow 5h^2 = 9ab$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Straight Line",
+    "question": "The lines represented by ax² + 2hxy + by² = 0 are perpendicular to each other, if",
+    "question_latex": "The lines represented by $ax^2+2hxy+by^2=0$ are perpendicular to each other, if",
+    "question_images": [],
+    "options": [
+      "A. $h^2 = a+b$",
+      "B. $a+b = 0$",
+      "C. $h^2 = ab$",
+      "D. $h = 0$"
+    ],
+    "option_images": [],
+    "answer": "B. $a+b = 0$",
+    "solution": "If the lines are perpendicular to each other, then $\\theta = 90°$:\n$$\\tan 90° = \\frac{2\\sqrt{h^2-ab}}{a+b}$$\n$$\\Rightarrow a+b = 0 \\quad [\\because \\tan 90° = \\infty]$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Straight Line",
+    "question": "Let a triangle be bounded by the lines L₁: 2x + 5y = 10; L₂: -4x + 3y = 12 and the line L₃, which passes through the point P(2,3), intersects L₂ at A and L₁ at B. If the point P divides the line-segment AB, internally in the ratio 1:3, then the area of the triangle is equal to: (June 2022)",
+    "question_latex": "Let a triangle be bounded by the lines $L_1: 2x+5y=10$; $L_2: -4x+3y=12$ and the line $L_3$, which passes through the point $P(2,3)$, intersects $L_2$ at $A$ and $L_1$ at $B$. If the point $P$ divides the line-segment $AB$, internally in the ratio $1:3$, then the area of the triangle is equal to: (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{151}{13}$",
+      "B. $\\dfrac{132}{13}$",
+      "C. $\\dfrac{142}{13}$",
+      "D. $\\dfrac{110}{13}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\dfrac{132}{13}$",
+    "solution": "Solving $L_1$ and $L_2$: $C \\equiv \\left(-\\dfrac{15}{13},\\dfrac{32}{13}\\right)$.\nLet $A\\left(x_1,\\dfrac{1}{3}(12+4x_1)\\right)$ and $B\\left(x_2,\\dfrac{1}{5}(10-2x_2)\\right)$.\nSince $P(2,3)$ divides $AB$ in ratio $1:3$: $\\dfrac{3x_1+x_2}{4}=2$ and $3x_1+x_2=8$, $10x_1-x_2=-5$.\nSo $(x_1,x_2)=\\left(\\dfrac{3}{13},\\dfrac{95}{13}\\right)$.\nArea of $\\triangle ABC = \\dfrac{132}{13}$ sq. units.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Straight Line",
+    "question": "The ratio in which the line 3x + 4y + 2 = 0 divides the distance between 3x + 4y + 5 = 0 and 3x + 4y - 5 = 0 is",
+    "question_latex": "The ratio in which the line $3x+4y+2=0$ divides the distance between $3x+4y+5=0$ and $3x+4y-5=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $7:3$",
+      "B. $3:7$",
+      "C. $2:3$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $3:7$",
+    "solution": "Lines $3x+4y+2=0$ and $3x+4y+5=0$ are on the same side of the origin.\n$$d_1 = \\left|\\frac{2-5}{\\sqrt{3^2+4^2}}\\right| = \\frac{3}{5}$$\nLines $3x+4y+2=0$ and $3x+4y-5=0$ are on opposite sides of the origin.\n$$d_2 = \\left|\\frac{2+5}{\\sqrt{3^2+4^2}}\\right| = \\frac{7}{5}$$\nThus, $3x+4y+2=0$ divides the distance in ratio $d_1:d_2 = 3:7$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Straight Line",
+    "question": "If the sum of distances from a point P on two mutually perpendicular straight lines is 1 unit, then the locus of P is",
+    "question_latex": "If the sum of distances from a point $P$ on two mutually perpendicular straight lines is 1 unit, then the locus of $P$ is",
+    "question_images": [],
+    "options": [
+      "A. A parabola",
+      "B. A circle",
+      "C. An ellipse",
+      "D. A straight line"
+    ],
+    "option_images": [],
+    "answer": "D. A straight line",
+    "solution": "Let the two mutually perpendicular lines be the coordinate axes. If $P=(x,y)$, then the sum of distances is $|x|+|y|=1$, which is the equation $|x|+|y|=1$. This separately represents equations of straight lines.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Straight Line",
+    "question": "The equations of the lines which are parallel to the line common to the pair of lines given by 6x² - xy - 12y² = 0 and 15x² + 14xy - 8y² = 0 and at a distance of 7 units from it are",
+    "question_latex": "The equations of the lines which are parallel to the line common to the pair of lines given by $6x^2-xy-12y^2=0$ and $15x^2+14xy-8y^2=0$ and at a distance of 7 units from it are",
+    "question_images": [],
+    "options": [
+      "A. $3x + 4y = \\pm 35$",
+      "B. $5x - 2y = \\pm 7$",
+      "C. $2x - 3y = \\pm 7$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $3x + 4y = \\pm 35$",
+    "solution": "The common line to both pairs is $3x+4y=0$.\nLines parallel to $3x+4y=0$ at distance 7:\n$$\\frac{|c|}{\\sqrt{9+16}}=7 \\Rightarrow |c|=35$$\nRequired lines: $3x+4y=\\pm35$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Straight Line",
+    "question": "If P(6,1) be the orthocentre of the triangle whose vertices are A(5,-2); B(8,3) and C(h,k), then the point C lies on the circle. [06 April, 2024 (Shift-II)]",
+    "question_latex": "If $P(6,1)$ be the orthocentre of the triangle whose vertices are $A(5,-2)$; $B(8,3)$ and $C(h,k)$, then the point $C$ lies on the circle. [06 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. $x^2+y^2-52=0$",
+      "B. $x^2+y^2-61=0$",
+      "C. $x^2+y^2-65=0$",
+      "D. $x^2+y^2-74=0$"
+    ],
+    "option_images": [],
+    "answer": "C. $x^2+y^2-65=0$",
+    "solution": "Slope of $AD = \\dfrac{1+2}{6-5}=3$. Slope of $BC = -\\dfrac{1}{3}$ (since $AD \\perp BC$).\nEquation of $BC$: $3y+x-17=0$.\nSlope of $BE = \\dfrac{1-3}{6-8}=1$. Slope of $AC = -1$ (since $BE \\perp AC$).\nEquation of $AC$: $x+y-3=0$.\nPoint $C$ is intersection: $C = (-4,7)$.\n$h^2+k^2 = 16+49=65$. So $C$ lies on $x^2+y^2-65=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Straight Line",
+    "question": "If one of the lines of my² + (1-m²)xy - mx² = 0 is a bisector of the angle between the lines xy = 0, then m is/are",
+    "question_latex": "If one of the lines of $my^2+(1-m^2)xy-mx^2=0$ is a bisector of the angle between the lines $xy=0$, then $m$ is/are",
+    "question_images": [],
+    "options": [
+      "A. $-\\dfrac{1}{2}$",
+      "B. $-2$",
+      "C. $\\pm 1$",
+      "D. $2$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\pm 1$",
+    "solution": "Equation of bisectors of lines $xy=0$ are $y=\\pm x$.\nPut $y=\\pm x$ in $my^2+(1-m^2)xy-mx^2=0$:\n$$mx^2\\pm(1-m^2)x^2-mx^2=0$$\n$$\\Rightarrow (1-m^2)x^2=0 \\Rightarrow m=\\pm1$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Straight Line",
+    "question": "The equation x² + k₁y² + k₂xy = 0 represents a pair of perpendicular lines if",
+    "question_latex": "The equation $x^2+k_1y^2+k_2xy=0$ represents a pair of perpendicular lines if",
+    "question_images": [],
+    "options": [
+      "A. $k_1 = -1$",
+      "B. $k_1 = 2k_2$",
+      "C. $2k_1 = k_2$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $k_1 = -1$",
+    "solution": "For $ax^2+2hxy+by^2=0$ to represent perpendicular lines: $a+b=0$.\nHere $a=1$, $b=k_1$: $1+k_1=0 \\Rightarrow k_1=-1$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Straight Line",
+    "question": "A ray of light coming from the point (2, 2√3) is incident at angle 30° on the line x = 1 at the point A. The ray gets reflected on the line x = 1 and meets x-axis at the point B. Then, the line AB passes through the point (Sept 2020)",
+    "question_latex": "A ray of light coming from the point $(2, 2\\sqrt{3})$ is incident at angle $30°$ on the line $x=1$ at the point $A$. The ray gets reflected on the line $x=1$ and meets $x$-axis at the point $B$. Then, the line $AB$ passes through the point (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(4,-\\dfrac{\\sqrt{3}}{2}\\right)$",
+      "B. $\\left(3,-\\dfrac{1}{\\sqrt{3}}\\right)$",
+      "C. $(3,-\\sqrt{3})$",
+      "D. $(4,-\\sqrt{3})$"
+    ],
+    "option_images": [],
+    "answer": "C. $(3,-\\sqrt{3})$",
+    "solution": "Equation of $BC$ is $y-2\\sqrt{3}=\\tan120°(x-0) \\Rightarrow y-2\\sqrt{3}=-\\sqrt{3}x$.\n$\\Rightarrow \\sqrt{3}x+y=2\\sqrt{3}$.\nFrom the options, only $(3,-\\sqrt{3})$ satisfies the equation of line $AB$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Straight Line",
+    "question": "The line x + y = 4 divides the line joining (-1,1) and (5,7) in the ratio λ:1, then the value of λ is",
+    "question_latex": "The line $x+y=4$ divides the line joining $(-1,1)$ and $(5,7)$ in the ratio $\\lambda:1$, then the value of $\\lambda$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. $\\dfrac{1}{2}$",
+      "C. 3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\dfrac{1}{2}$",
+    "solution": "Coordinates of point dividing $(-1,1)$ and $(5,7)$ in $\\lambda:1$:\n$$\\left(\\frac{5\\lambda-1}{\\lambda+1},\\frac{7\\lambda+1}{\\lambda+1}\\right)$$\nThis lies on $x+y=4$:\n$$5\\lambda-1+7\\lambda+1=4\\lambda+4 \\Rightarrow 8\\lambda=4 \\Rightarrow \\lambda=\\frac{1}{2}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Straight Line",
+    "question": "Equation of straight line belonging to families of straight lines (x + 2y) + λ(3x + 2y + 1) = 0 and (x - 2y) + μ(x - y + 1) = 0 is",
+    "question_latex": "Equation of straight line belonging to families of straight lines $(x+2y)+\\lambda(3x+2y+1)=0$ and $(x-2y)+\\mu(x-y+1)=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $6x + 5y = 2$",
+      "B. $5x - 6y + 4 = 0$",
+      "C. $5x + 6y = 4$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $5x - 6y + 4 = 0$",
+    "solution": "First intersection point of $x+2y=0$ and $3x+2y+1=0$ is $\\left(-\\dfrac{1}{2},\\dfrac{1}{4}\\right)$.\nSecond intersection point of $x-2y=0$ and $x-y+1=0$ is $(-2,-1)$.\nLine through $\\left(-\\dfrac{1}{2},\\dfrac{1}{4}\\right)$ and $(-2,-1)$:\n$$y-\\frac{1}{4}=\\frac{-1-\\frac{1}{4}}{-2+\\frac{1}{2}}\\left(x+\\frac{1}{2}\\right) \\Rightarrow 5x-6y+4=0$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Straight Line",
+    "question": "The equations to the straight lines passing through the origin and making an angle α with the straight line y + x = 0 are given by",
+    "question_latex": "The equations to the straight lines passing through the origin and making an angle $\\alpha$ with the straight line $y+x=0$ are given by",
+    "question_images": [],
+    "options": [
+      "A. $x^2 + 2xy\\sec2\\alpha + y^2 = 0$",
+      "B. $x^2 - 2xy\\sec2\\alpha + y^2 = 0$",
+      "C. $x^2 + 2xy\\cos2\\alpha + y^2 = 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2 + 2xy\\sec2\\alpha + y^2 = 0$",
+    "solution": "Lines through origin making angle $\\alpha$ with $y+x=0$ (slope $-1$):\n$$y = \\frac{-1\\pm\\tan\\alpha}{1\\mp\\tan\\alpha}x$$\nCombined equation:\n$$y^2+x^2+2xy\\left(\\frac{1+\\tan^2\\alpha}{1-\\tan^2\\alpha}\\right)=0$$\n$$\\Rightarrow x^2+2xy\\sec2\\alpha+y^2=0$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Straight Line",
+    "question": "If non-zero numbers a, b, c are in HP, then the straight line x/a + y/b + 1/c = 0 always passes through a fixed point. That point is",
+    "question_latex": "If non-zero numbers $a, b, c$ are in HP, then the straight line $\\dfrac{x}{a}+\\dfrac{y}{b}+\\dfrac{1}{c}=0$ always passes through a fixed point. That point is",
+    "question_images": [],
+    "options": [
+      "A. $\\left(1,-\\dfrac{1}{2}\\right)$",
+      "B. $(1,-2)$",
+      "C. $(-1,-2)$",
+      "D. $(-2,2)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(1,-2)$",
+    "solution": "Since $a,b,c$ are in HP: $\\dfrac{2}{b}=\\dfrac{1}{a}+\\dfrac{1}{c}$\n$$\\Rightarrow \\frac{1}{a}-\\frac{2}{b}+\\frac{1}{c}=0$$\nSo straight line $\\dfrac{x}{a}+\\dfrac{y}{b}+\\dfrac{1}{c}=0$ always passes through the fixed point $(1,-2)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Straight Line",
+    "question": "A square of side a lies above the x-axis and has one vertex at origin. The side passing through the origin makes an angle α (0 < α < π/4) with the positive direction of x-axis. The equation of its diagonal not passing through the origin is",
+    "question_latex": "A square of side $a$ lies above the $x$-axis and has one vertex at origin. The side passing through the origin makes an angle $\\alpha\\left(0<\\alpha<\\dfrac{\\pi}{4}\\right)$ with the positive direction of $x$-axis. The equation of its diagonal not passing through the origin is",
+    "question_images": [],
+    "options": [
+      "A. $y(\\cos\\alpha-\\sin\\alpha)-x(\\sin\\alpha-\\cos\\alpha)=a$",
+      "B. $y(\\cos\\alpha+\\sin\\alpha)+x(\\sin\\alpha-\\cos\\alpha)=a$",
+      "C. $y(\\cos\\alpha+\\sin\\alpha)+x(\\sin\\alpha+\\cos\\alpha)=a$",
+      "D. $y(\\cos\\alpha+\\sin\\alpha)+x(\\cos\\alpha-\\sin\\alpha)=a$"
+    ],
+    "option_images": [],
+    "answer": "D. $y(\\cos\\alpha+\\sin\\alpha)+x(\\cos\\alpha-\\sin\\alpha)=a$",
+    "solution": "Line $OA$ makes angle $\\alpha$ with $x$-axis. Coordinates of $A$ are $(a\\cos\\alpha, a\\sin\\alpha)$.\n$OB \\perp OA$, so $OB$ makes angle $(90°+\\alpha)$. Coordinates of $B$ are $(-a\\sin\\alpha, a\\cos\\alpha)$.\nEquation of diagonal $AB$:\n$$y(\\sin\\alpha+\\cos\\alpha)+x(\\cos\\alpha-\\sin\\alpha)=a$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Straight Line",
+    "question": "The equation y = sin x·sin(x+2) - sin²(x+1) represents a straight line lying in (April 2019)",
+    "question_latex": "The equation $y = \\sin x\\sin(x+2)-\\sin^2(x+1)$ represents a straight line lying in (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. second and third quadrants only",
+      "B. third and fourth quadrants only",
+      "C. first, second and fourth quadrants",
+      "D. first, third and fourth quadrants"
+    ],
+    "option_images": [],
+    "answer": "B. third and fourth quadrants only",
+    "solution": "$2y = 2\\sin x\\sin(x+2)-2\\sin^2(x+1)$\n$\\Rightarrow 2y = \\cos2-\\cos(2x+2)-[1-\\cos(2x+2)]$\n$\\Rightarrow 2y = \\cos2-1$\n$\\Rightarrow y = -\\sin^2 1 \\leq 0$\nThis is a negative constant, so the line $y=-\\sin^21$ lies in third and fourth quadrants only.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Straight Line",
+    "question": "The range of values of θ in the interval (0, π) such that the points (3,5) and (sin θ, cos θ) lie on the same side of the line x + y - 1 = 0, is",
+    "question_latex": "The range of values of $\\theta$ in the interval $(0,\\pi)$ such that the points $(3,5)$ and $(\\sin\\theta,\\cos\\theta)$ lie on the same side of the line $x+y-1=0$, is",
+    "question_images": [],
+    "options": [
+      "A. $(0,\\pi/2)$",
+      "B. $(0,\\pi/4)$",
+      "C. $(\\pi/4,\\pi/2)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $(0,\\pi/2)$",
+    "solution": "Points $(3,5)$ and $(\\sin\\theta,\\cos\\theta)$ lie on same side of $x+y-1=0$ if:\n$(\\sin\\theta+\\cos\\theta-1)(3+5-1)>0 \\Rightarrow \\sin\\theta+\\cos\\theta>1$\n$$\\Rightarrow \\sqrt{2}\\sin\\left(\\frac{\\pi}{4}+\\theta\\right)>1 \\Rightarrow \\frac{\\pi}{4}<\\frac{\\pi}{4}+\\theta<\\frac{3\\pi}{4} \\Rightarrow 0<\\theta<\\frac{\\pi}{2}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Straight Line",
+    "question": "A point equidistant from the lines 4x + 3y + 10 = 0, 5x - 12y + 26 = 0 and 7x + 24y - 50 = 0 is",
+    "question_latex": "A point equidistant from the lines $4x+3y+10=0$, $5x-12y+26=0$ and $7x+24y-50=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $(1,-1)$",
+      "B. $(1,1)$",
+      "C. $(0,0)$",
+      "D. $(0,1)$"
+    ],
+    "option_images": [],
+    "answer": "C. $(0,0)$",
+    "solution": "Lengths of perpendiculars from $(0,0)$ to the given lines are each equal to 2.\nHence, required point is $(0,0)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Straight Line",
+    "question": "A line AB makes zero intercepts on x-axis and y-axis and it is perpendicular to another line CD which is 3x + 4y + 6 = 0. The equation of line AB is",
+    "question_latex": "A line $AB$ makes zero intercepts on $x$-axis and $y$-axis and it is perpendicular to another line $CD$ which is $3x+4y+6=0$. The equation of line $AB$ is",
+    "question_images": [],
+    "options": [
+      "A. $y = 4$",
+      "B. $4x - 3y + 8 = 0$",
+      "C. $4x - 3y = 0$",
+      "D. $4x - 3y + 6 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $4x - 3y = 0$",
+    "solution": "Line $AB$ makes 0 intercepts on $x$-axis and $y$-axis, so $(x_1,y_1)\\equiv(0,0)$.\nSlope of $CD: 3x+4y+6=0$ is $-\\dfrac{3}{4}$.\nSlope of $AB$ (perpendicular to $CD$) is $\\dfrac{4}{3}$.\nRequired line through origin with slope $\\dfrac{4}{3}$: $y=\\dfrac{4}{3}x \\Rightarrow 4x-3y=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Straight Line",
+    "question": "If the line segment joining (2,3) and (-1,2) is divided internally in the ratio 3:4 by the line x + 2y = λ, then λ =",
+    "question_latex": "If the line segment joining $(2,3)$ and $(-1,2)$ is divided internally in the ratio $3:4$ by the line $x+2y=\\lambda$, then $\\lambda=$",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{41}{7}$",
+      "B. $\\dfrac{5}{7}$",
+      "C. $\\dfrac{36}{7}$",
+      "D. $\\dfrac{31}{7}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\dfrac{41}{7}$",
+    "solution": "Point dividing $(2,3)$ and $(-1,2)$ in ratio $3:4$:\n$$\\left(\\frac{3\\times(-1)+4\\times2}{3+4},\\frac{3\\times2+4\\times3}{3+4}\\right)=\\left(\\frac{5}{7},\\frac{18}{7}\\right)$$\nThis lies on $x+2y=\\lambda$:\n$$\\frac{5}{7}+\\frac{36}{7}=\\lambda \\Rightarrow \\lambda=\\frac{41}{7}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Straight Line",
+    "question": "If 3x² + xy - y² - 3x + 6y + k = 0 represents a pair of lines, then k is equal to",
+    "question_latex": "If $3x^2+xy-y^2-3x+6y+k=0$ represents a pair of lines, then $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 9",
+      "C. 1",
+      "D. $-9$"
+    ],
+    "option_images": [],
+    "answer": "D. $-9$",
+    "solution": "Here $a=3,\\, b=-1,\\, h=\\dfrac{1}{2},\\, g=-\\dfrac{3}{2},\\, f=3,\\, c=k$.\nFor pair of straight lines: $abc+2fgh-af^2-bg^2-ch^2=0$.\n$$3(-1)(k)+2(3)\\left(-\\frac{3}{2}\\right)\\left(\\frac{1}{2}\\right)-3(3)^2+1\\left(\\frac{3}{2}\\right)^2-k\\left(\\frac{1}{2}\\right)^2=0$$\n$$\\Rightarrow -3k-\\frac{9}{2}-27+\\frac{9}{4}-\\frac{k}{4}=0 \\Rightarrow k=-9$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Straight Line",
+    "question": "If a ≠ b ≠ c and if ax + by + c = 0, bx + cy + a = 0, cx + ay + b = 0 are concurrent, then 2^(a²b⁻¹c⁻¹) · 2^(b²c⁻¹a⁻¹) · 2^(c²a⁻¹b⁻¹) is equal to",
+    "question_latex": "If $a\\neq b\\neq c$ and if $ax+by+c=0$, $bx+cy+a=0$, $cx+ay+b=0$ are concurrent, then $2^{a^2b^{-1}c^{-1}} \\cdot 2^{b^2c^{-1}a^{-1}} \\cdot 2^{c^2a^{-1}b^{-1}}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 0",
+      "C. 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 8",
+    "solution": "From question 1, if the lines are concurrent then $a+b+c=0$.\nThe expression $2^{a^2b^{-1}c^{-1}} \\cdot 2^{b^2c^{-1}a^{-1}} \\cdot 2^{c^2a^{-1}b^{-1}} = 2^{\\frac{a^3+b^3+c^3}{abc}}$.\nSince $a+b+c=0$: $a^3+b^3+c^3=3abc$.\nSo the expression $= 2^{\\frac{3abc}{abc}} = 2^3 = 8$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Straight Line",
+    "question": "A ray of light is incident along a line which meets another line, 7x - y + 1 = 0, at the point (0,1). The ray is then reflected from this point along the line, y + 2x = 1. Then the equation of the line of incidence of the ray of light is (Online 2016)",
+    "question_latex": "A ray of light is incident along a line which meets another line, $7x-y+1=0$, at the point $(0,1)$. The ray is then reflected from this point along the line, $y+2x=1$. Then the equation of the line of incidence of the ray of light is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. $41x - 38y + 38 = 0$",
+      "B. $41x + 38y - 38 = 0$",
+      "C. $41x + 25y - 25 = 0$",
+      "D. $41x - 25y + 25 = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $41x - 38y + 38 = 0$",
+    "solution": "Let slope of incident ray be $m$. Angle of incidence = angle of reflection.\n$$\\left|\\frac{m-7}{1+7m}\\right| = \\left|\\frac{-2-7}{1-14}\\right| = \\frac{9}{13}$$\n$$\\Rightarrow \\frac{m-7}{1+7m} = \\frac{9}{13}\\text{ or }-\\frac{9}{13}$$\n$$\\Rightarrow m=-2 \\text{ or } m=\\frac{41}{38}$$\nEquations of incident line at $(0,1)$: $y-1=-2(x-0)$ i.e., $2x+y-1=0$ or $38y-38=41x$ i.e., $41x-38y+38=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Straight Line",
+    "question": "If one vertex of an equilateral triangle is at (2,-1) and the base is x + y - 2 = 0, then the length of each side is",
+    "question_latex": "If one vertex of an equilateral triangle is at $(2,-1)$ and the base is $x+y-2=0$, then the length of each side is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{3/2}$",
+      "B. $\\sqrt{2/3}$",
+      "C. $2/3$",
+      "D. $3/2$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sqrt{2/3}$",
+    "solution": "Altitude from $A(2,-1)$ to $x+y-2=0$:\n$$AD = \\left|\\frac{2-1-2}{\\sqrt{1+1}}\\right| = \\frac{1}{\\sqrt{2}}$$\n$$\\frac{\\sqrt{3}}{2}(\\text{side}) = \\frac{1}{\\sqrt{2}} \\Rightarrow \\text{side} = \\sqrt{\\frac{2}{3}}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Straight Line",
+    "question": "The foot of the perpendicular drawn from the origin on the line, 3x + y = λ (λ ≠ 0) is P. If the line meets x-axis at A and y-axis at B, then the ratio BP:PA is (Online 2018)",
+    "question_latex": "The foot of the perpendicular drawn from the origin on the line, $3x+y=\\lambda\\,(\\lambda\\neq0)$ is $P$. If the line meets $x$-axis at $A$ and $y$-axis at $B$, then the ratio $BP:PA$ is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. $9:1$",
+      "B. $1:9$",
+      "C. $3:1$",
+      "D. $1:3$"
+    ],
+    "option_images": [],
+    "answer": "A. $9:1$",
+    "solution": "Line: $3x+y=\\lambda$. $A=\\left(\\dfrac{\\lambda}{3},0\\right)$, $B=(0,\\lambda)$.\nFoot of perpendicular from origin: $P=\\left(\\dfrac{3\\lambda}{10},\\dfrac{\\lambda}{10}\\right)$.\n$BP = \\sqrt{\\left(\\frac{3\\lambda}{10}\\right)^2+\\left(\\frac{\\lambda}{10}-\\lambda\\right)^2} = \\frac{\\lambda\\sqrt{9+81}}{10} = \\frac{9\\lambda}{10\\cdot\\sqrt{10}}$.\n$PA = \\frac{\\lambda}{10\\sqrt{10}}$. Hence $BP:PA = 9:1$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Straight Line",
+    "question": "A ray of light passing through the point (1,2) is reflected on the x-axis at a point P and passes through the point (5,3), then the abscissa of a point P is",
+    "question_latex": "A ray of light passing through the point $(1,2)$ is reflected on the $x$-axis at a point $P$ and passes through the point $(5,3)$, then the abscissa of a point $P$ is",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 13/3",
+      "C. 13/5",
+      "D. 13/4"
+    ],
+    "option_images": [],
+    "answer": "C. 13/5",
+    "solution": "Slope of incident ray: $\\tan(\\pi-\\theta) = \\dfrac{0-2}{\\alpha-1} \\Rightarrow \\tan\\theta = \\dfrac{2}{\\alpha-1}$ ...(i)\nSlope of reflected ray: $\\tan\\theta = \\dfrac{3}{5-\\alpha}$ ...(ii)\nFrom (i) and (ii):\n$$\\frac{2}{\\alpha-1} = \\frac{3}{5-\\alpha} \\Rightarrow 10-2\\alpha = 3\\alpha-3 \\Rightarrow \\alpha = \\frac{13}{5}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Straight Line",
+    "question": "The equation of straight line through the intersection of the lines x - 2y = 1 and x + 3y = 2 and parallel to 3x + 4y = 0, is",
+    "question_latex": "The equation of straight line through the intersection of the lines $x-2y=1$ and $x+3y=2$ and parallel to $3x+4y=0$, is",
+    "question_images": [],
+    "options": [
+      "A. $3x + 4y + 5 = 0$",
+      "B. $3x + 4y - 10 = 0$",
+      "C. $3x + 4y - 5 = 0$",
+      "D. $3x + 4y + 6 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $3x + 4y - 5 = 0$",
+    "solution": "Intersection of $x-2y=1$ and $x+3y=2$: $\\left(\\dfrac{7}{5},\\dfrac{1}{5}\\right)$.\nRequired line parallel to $3x+4y=0$ with slope $-\\dfrac{3}{4}$:\n$$y-\\frac{1}{5}=-\\frac{3}{4}\\left(x-\\frac{7}{5}\\right)$$\n$$\\Rightarrow 3x+4y-5=0$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Straight Line",
+    "question": "The equation y² - x² + 2x - 1 = 0 represents",
+    "question_latex": "The equation $y^2-x^2+2x-1=0$ represents",
+    "question_images": [],
+    "options": [
+      "A. A hyperbola",
+      "B. An ellipse",
+      "C. A pair of straight lines",
+      "D. A rectangular hyperbola"
+    ],
+    "option_images": [],
+    "answer": "C. A pair of straight lines",
+    "solution": "$y^2-x^2+2x-1=0$. Here $a=-1, b=1, c=-1, h=0, g=1, f=0$.\n$$\\Delta = abc+2fgh-af^2-bg^2-ch^2$$\n$$= (-1)(1)(-1)+0-0-1(1)-0 = 1-1 = 0$$\nSince $\\Delta=0$, given equation is a pair of straight lines.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Straight Line",
+    "question": "If one of the lines given by 6x² - xy + 4cy² = 0 is 3x + 4y = 0, then c equals (2004)",
+    "question_latex": "If one of the lines given by $6x^2-xy+4cy^2=0$ is $3x+4y=0$, then $c$ equals (2004)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. -1",
+      "C. 3",
+      "D. -3"
+    ],
+    "option_images": [],
+    "answer": "D. -3",
+    "solution": "Here $a=6, 2h=-1, b=4c$.\n$m_1+m_2=\\dfrac{1}{4c}$, $m_1m_2=\\dfrac{6}{4c}=\\dfrac{3}{2c}$.\nOne line is $3x+4y=0 \\Rightarrow m_1=-\\dfrac{3}{4}$.\n$-\\dfrac{3}{4}+m_2=\\dfrac{1}{4c}$ and $\\left(-\\dfrac{3}{4}\\right)m_2=\\dfrac{3}{2c}$.\nSolving: $3c=-9 \\Rightarrow c=-3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Straight Line",
+    "question": "Let the triangle PQR be the image of the triangle with vertices (1,3), (3,1) and (2,4) in the line x + 2y = 2. If the centroid of △PQR is the point (α, β), then 15(α - β) is equal to: [Jan. 24, 2025 (II)]",
+    "question_latex": "Let the triangle $PQR$ be the image of the triangle with vertices $(1,3)$, $(3,1)$ and $(2,4)$ in the line $x+2y=2$. If the centroid of $\\triangle PQR$ is the point $(\\alpha,\\beta)$, then $15(\\alpha-\\beta)$ is equal to: [Jan. 24, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. 22",
+      "C. 19",
+      "D. 24"
+    ],
+    "option_images": [],
+    "answer": "B. 22",
+    "solution": "Let $G$ be centroid of triangle formed by $(1,3),(3,1),(2,4)$:\n$$G = \\left(2, \\frac{8}{3}\\right)$$\nImage of $G$ w.r.t. $x+2y-2=0$:\n$$\\frac{\\alpha-2}{1} = \\frac{\\beta-\\frac{8}{3}}{2} = -2\\cdot\\frac{2+\\frac{16}{3}-2}{1+4} = \\frac{-32}{15}$$\n$$\\alpha = 2+\\frac{-32}{15} = \\frac{-2}{15},\\quad \\beta = \\frac{8}{3}+\\frac{-64}{15} = \\frac{-24}{15}$$\n$$15(\\alpha-\\beta) = 15\\left(\\frac{-2}{15}+\\frac{24}{15}\\right) = -2+24 = 22$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Straight Line",
+    "question": "The point of lines represented by 3ax² + 5xy + (a²-2)y² = 0 and ⊥ to each other for (2002)",
+    "question_latex": "The point of lines represented by $3ax^2+5xy+(a^2-2)y^2=0$ and $\\perp$ to each other for (2002)",
+    "question_images": [],
+    "options": [
+      "A. two values of $a$",
+      "B. $\\forall a$",
+      "C. for one value of $a$",
+      "D. for no values of $a$"
+    ],
+    "option_images": [],
+    "answer": "A. two values of $a$",
+    "solution": "Pair of lines $Ax^2+2Hxy+By^2=0$ are $\\perp$ if $A+B=0$.\n$$3a + a^2-2=0 \\Rightarrow a^2+3a-2=0$$\nDiscriminant $D = 9+8 = 17 > 0$, so there exist two values of $a$:\n$$a = \\frac{-3\\pm\\sqrt{17}}{2}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Straight Line",
+    "question": "The triangle formed by x² - 3y² = 0 and x = 4 is",
+    "question_latex": "The triangle formed by $x^2-3y^2=0$ and $x=4$ is",
+    "question_images": [],
+    "options": [
+      "A. Isosceles",
+      "B. Equilateral",
+      "C. Right angled",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Equilateral",
+    "solution": "$x^2-3y^2=0 \\Rightarrow (x-\\sqrt{3}y)(x+\\sqrt{3}y)=0$.\nThree sides: $x-\\sqrt{3}y=0$, $x+\\sqrt{3}y=0$, $x-4=0$.\n$OP=OQ=PQ=\\dfrac{8}{\\sqrt{3}}$. Triangle is equilateral.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Straight Line",
+    "question": "A straight line cuts off the intercepts OA = a and OB = b on the positive directions of x-axis and y-axis respectively. If the perpendicular from origin O to this line makes an angle of π/6 with positive direction of y-axis and the area of △OAB is 98√3/3, then a² - b² is equal to (Jan 2023)",
+    "question_latex": "A straight line cuts off the intercepts $OA=a$ and $OB=b$ on the positive directions of $x$-axis and $y$-axis respectively. If the perpendicular from origin $O$ to this line makes an angle of $\\dfrac{\\pi}{6}$ with positive direction of $y$-axis and the area of $\\triangle OAB$ is $\\dfrac{98\\sqrt{3}}{3}$, then $a^2-b^2$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{392}{3}$",
+      "B. 196",
+      "C. 98",
+      "D. $\\dfrac{196}{3}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\dfrac{392}{3}$",
+    "solution": "Perpendicular makes $\\dfrac{\\pi}{6}$ with $y$-axis (i.e., $\\dfrac{\\pi}{3}$ with $x$-axis):\nEquation of line $AB$: $x\\cos\\dfrac{\\pi}{3}+y\\sin\\dfrac{\\pi}{3}=p \\Rightarrow \\dfrac{x}{2p}+\\dfrac{y}{\\frac{2p}{\\sqrt{3}}}=1$.\n$a=2p$, $b=\\dfrac{2p}{\\sqrt{3}}$.\nArea $= \\dfrac{1}{2}ab = \\dfrac{98\\sqrt{3}}{3} \\Rightarrow p^2=49 \\Rightarrow p=7$.\n$a=14$, $b=\\dfrac{14}{\\sqrt{3}}$.\n$a^2-b^2=(14)^2-\\left(\\dfrac{14}{\\sqrt{3}}\\right)^2 = 196-\\dfrac{196}{3}=\\dfrac{392}{3}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Straight Line",
+    "question": "y-intercept of line passes through (2,2) and is perpendicular to the line 3x + y = 3, is",
+    "question_latex": "$y$-intercept of line passes through $(2,2)$ and is perpendicular to the line $3x+y=3$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{1}{3}$",
+      "B. $\\dfrac{2}{3}$",
+      "C. 1",
+      "D. $\\dfrac{4}{3}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\dfrac{4}{3}$",
+    "solution": "Line perpendicular to $3x+y=3$ is $x-3y=\\lambda$.\nPasses through $(2,2)$: $2-6=\\lambda \\Rightarrow \\lambda=-4$.\nEquation: $x-3y=-4$.\n$y$-intercept $= \\dfrac{-(-4)}{-3} = \\dfrac{4}{3}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Straight Line",
+    "question": "A line drawn through the point P(4,7) cuts the circle x² + y² = 9 at the points A and B. Then PA·PB is equal to (Online 2017)",
+    "question_latex": "A line drawn through the point $P(4,7)$ cuts the circle $x^2+y^2=9$ at the points $A$ and $B$. Then $PA \\cdot PB$ is equal to (Online 2017)",
+    "question_images": [],
+    "options": [
+      "A. 56",
+      "B. 74",
+      "C. 65",
+      "D. 53"
+    ],
+    "option_images": [],
+    "answer": "A. 56",
+    "solution": "Let line through $P(4,7)$ making angle $\\theta$ with $x$-axis.\n$$\\frac{x-4}{\\cos\\theta}=\\frac{y-7}{\\sin\\theta}=k$$\nAny point: $(k\\cos\\theta+4, k\\sin\\theta+7)$ lies on $x^2+y^2=9$:\n$$(k\\cos\\theta+4)^2+(k\\sin\\theta+7)^2=9$$\n$$\\Rightarrow k^2+k(8\\cos\\theta+14\\sin\\theta)+56=0$$\n$$PA\\cdot PB = k_1\\times k_2 = \\frac{56}{1} = 56$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Straight Line",
+    "question": "The lines (lx + my)² - 3(mx - ly)² = 0 and lx + my + n = 0 form",
+    "question_latex": "The lines $(lx+my)^2-3(mx-ly)^2=0$ and $lx+my+n=0$ form",
+    "question_images": [],
+    "options": [
+      "A. An isosceles triangle",
+      "B. A right angled triangle",
+      "C. An equilateral triangle",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. An equilateral triangle",
+    "solution": "Lines from the pair are:\n$[(l+\\sqrt{3}m)x+(m-\\sqrt{3}l)y][(l-\\sqrt{3}m)x+(m+\\sqrt{3}l)y]=0$\nand $lx+my+n=0$.\nThe angle between each pair of lines is $60°$. Hence the triangle is equilateral.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Straight Line",
+    "question": "If one of the lines given by 6x² - xy + 4cy² = 0 is 3x + 4y = 0, then c equals (2004)",
+    "question_latex": "If one of the lines given by $6x^2-xy+4cy^2=0$ is $3x+4y=0$, then $c$ equals (2004)",
+    "question_images": [],
+    "options": [
+      "A. -1",
+      "B. 3",
+      "C. 1",
+      "D. -3"
+    ],
+    "option_images": [],
+    "answer": "D. -3",
+    "solution": "Equation: $ax^2+2hxy+by^2=0 = (y-m_1x)(y-m_2x)$.\n$m_1+m_2=-\\dfrac{1}{4c}$, $m_1m_2=\\dfrac{3}{2c}$. One line: $3x+4y=0 \\Rightarrow m_1=-\\dfrac{3}{4}$.\n$-\\dfrac{3}{4}+m_2=-\\dfrac{1}{4c}$ and $-\\dfrac{3}{4}\\cdot m_2=\\dfrac{3}{2c}$.\nSolving gives $c=-3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Straight Line",
+    "question": "The range of values of α for which the points (α, 2+α) and (3α/2, α²) lie on opposite sides of the line 2x + 3y = 6, is",
+    "question_latex": "The range of values of $\\alpha$ for which the points $(\\alpha,2+\\alpha)$ and $\\left(\\dfrac{3\\alpha}{2},\\alpha^2\\right)$ lie on opposite sides of the line $2x+3y=6$, is",
+    "question_images": [],
+    "options": [
+      "A. $(-2,1)$",
+      "B. $(-\\infty,-2)\\cup(0,1)$",
+      "C. $(-2,0)\\cup(1,\\infty)$",
+      "D. $(-1,0)\\cup(2,\\infty)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(-\\infty,-2)\\cup(0,1)$",
+    "solution": "For points on opposite sides of $2x+3y-6=0$:\n$(2\\alpha+3(2+\\alpha)-6)\\cdot(3\\cdot\\frac{3\\alpha}{2}+3\\alpha^2-6)<0$\n$(2\\alpha+6+3\\alpha-6)\\cdot(\\frac{9\\alpha}{2}+3\\alpha^2-6)<0$\n$\\Rightarrow 15\\alpha(\\alpha^2+\\alpha-2)<0$\n$\\Rightarrow \\alpha(\\alpha+2)(\\alpha-1)<0$\n$\\Rightarrow \\alpha \\in (-\\infty,-2)\\cup(0,1)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Straight Line",
+    "question": "The equation of a straight line which passes through the point (a cos³θ, a sin³θ) and perpendicular to x sec θ + y cosec θ = a is",
+    "question_latex": "The equation of a straight line which passes through the point $(a\\cos^3\\theta, a\\sin^3\\theta)$ and perpendicular to $x\\sec\\theta + y\\csc\\theta = a$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{x}{a}+\\dfrac{y}{a}=a\\cos\\theta$",
+      "B. $x\\cos\\theta - y\\sin\\theta = -a\\cos2\\theta$",
+      "C. $x\\cos\\theta + y\\sin\\theta = a\\cos2\\theta$",
+      "D. $x\\cos\\theta + y\\sin\\theta - a\\cos2\\theta$"
+    ],
+    "option_images": [],
+    "answer": "B. $x\\cos\\theta - y\\sin\\theta = -a\\cos2\\theta$",
+    "solution": "Required equation of line through $(a\\cos^3\\theta, a\\sin^3\\theta)$ perpendicular to $x\\sec\\theta+y\\csc\\theta=a$:\n$$y-a\\sin^3\\theta = \\frac{\\cos\\theta}{\\sin\\theta}(x-a\\cos^3\\theta)$$\n$$\\Rightarrow x\\cos\\theta-y\\sin\\theta = a\\cos^4\\theta - a\\sin^4\\theta = a\\cos2\\theta\\cdot(-1) = -a\\cos2\\theta$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Straight Line",
+    "question": "If the slope of one of the lines given by ax² - 6xy + y² = 0 is square of the other, then a =",
+    "question_latex": "If the slope of one of the lines given by $ax^2-6xy+y^2=0$ is square of the other, then $a=$",
+    "question_images": [],
+    "options": [
+      "A. $8, -27$",
+      "B. $-8, 27$",
+      "C. $1, 8$",
+      "D. $-8, -27$"
+    ],
+    "option_images": [],
+    "answer": "A. $8, -27$",
+    "solution": "Let slopes be $m$ and $m^2$. Then $m+m^2=6$ and $m\\cdot m^2=a$.\nFrom $m^2+m-6=0$: $(m+3)(m-2)=0 \\Rightarrow m=2$ or $m=-3$.\nIf $m=2$: $a=m^3=8$.\nIf $m=-3$: $a=m^3=-27$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Straight Line",
+    "question": "If the lines represented by the equation ax² + 2hxy + by² + 2gx + 2fy + c = 0 are equidistant from the origin, then",
+    "question_latex": "If the lines represented by the equation $ax^2+2hxy+by^2+2gx+2fy+c=0$ are equidistant from the origin, then",
+    "question_images": [],
+    "options": [
+      "A. $f^4 - g^4 = c(bf^2 - ag^2)$",
+      "B. $f^4 - g^4 = c(af^2 - bg^2)$",
+      "C. $f^4 - g^4 = c(ag^2 - bf^2)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $f^4 - g^4 = c(bf^2 - ag^2)$",
+    "solution": "For lines equidistant from origin, the perpendicular distances are equal:\n$$\\left|\\frac{n_1}{\\sqrt{l_1^2+m_1^2}}\\right| = \\left|\\frac{n_2}{\\sqrt{l_2^2+m_2^2}}\\right|$$\nAfter algebraic simplification using Vieta's formulas:\n$$f^4-g^4 = c(bf^2-ag^2)$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Straight Line",
+    "question": "Let a be the length of a side of a square OABC with O being the origin. Its side OA makes an acute angle α with the positive x-axis and the equations of its diagonals are (√3+1)x + (√3-1)y = 0 and (√3-1)x - (√3+1)y + 8√3 = 0. Then a² is equal to [April 8, 2025 (II)]",
+    "question_latex": "Let $a$ be the length of a side of a square $OABC$ with $O$ being the origin. Its side $OA$ makes an acute angle $\\alpha$ with the positive $x$-axis and the equations of its diagonals are $(\\sqrt{3}+1)x+(\\sqrt{3}-1)y=0$ and $(\\sqrt{3}-1)x-(\\sqrt{3}+1)y+8\\sqrt{3}=0$. Then $a^2$ is equal to [April 8, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 24",
+      "B. 16",
+      "C. 48",
+      "D. 32"
+    ],
+    "option_images": [],
+    "answer": "C. 48",
+    "solution": "Slope of diagonal $OB = -\\dfrac{\\sqrt{3}+1}{\\sqrt{3}-1} = \\tan105°$.\n$\\Rightarrow \\alpha=60°$.\n$A\\left(\\dfrac{a}{2},\\dfrac{\\sqrt{3}a}{2}\\right)$ lies on other diagonal:\n$$\\frac{\\sqrt{3}-1}{2}a - \\frac{\\sqrt{3}+1}{2}\\cdot\\sqrt{3}a+8\\sqrt{3}=0$$\n$$\\Rightarrow a\\left[\\frac{\\sqrt{3}-1-3-\\sqrt{3}}{2}\\right]=-8\\sqrt{3}\\Rightarrow a=4\\sqrt{3}$$\n$$\\therefore a^2=48$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Straight Line",
+    "question": "The equations of perpendicular bisectors of sides AB and AC of a △ABC are x - y + 5 = 0 and x + 2y = 0 respectively. If the coordinates of vertex A are (1,-2), then equation of BC is",
+    "question_latex": "The equations of perpendicular bisectors of sides $AB$ and $AC$ of a $\\triangle ABC$ are $x-y+5=0$ and $x+2y=0$ respectively. If the coordinates of vertex $A$ are $(1,-2)$, then equation of $BC$ is",
+    "question_images": [],
+    "options": [
+      "A. $23x + 14y - 40 = 0$",
+      "B. $14x - 23y + 40 = 0$",
+      "C. $23x - 14y + 40 = 0$",
+      "D. $14x + 23y - 40 = 0$"
+    ],
+    "option_images": [],
+    "answer": "D. $14x + 23y - 40 = 0$",
+    "solution": "Let $B(x_1,y_1)$. Midpoint $P\\left(\\dfrac{x_1+1}{2},\\dfrac{y_1-2}{2}\\right)$ lies on $x-y+5=0$:\n$x_1-y_1=-13$ ...(i)\n$PN\\perp AB$: $y_1+2=-1(x_1-1) \\Rightarrow x_1+y_1=-1$ ...(ii)\nSolving: $x_1=-7,y_1=6$. So $B=(-7,6)$.\nSimilarly $C=\\left(\\dfrac{11}{5},\\dfrac{2}{5}\\right)$.\nEquation of $BC$: $14x+23y-40=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Straight Line",
+    "question": "The equation of the line which is such that the portion of line segment intercepted between the coordinate axes is bisected at (4,-3), is",
+    "question_latex": "The equation of the line which is such that the portion of line segment intercepted between the coordinate axes is bisected at $(4,-3)$, is",
+    "question_images": [],
+    "options": [
+      "A. $3x + 4y = 24$",
+      "B. $3x - 4y = 12$",
+      "C. $3x - 4y = 24$",
+      "D. $4x - 3y = 24$"
+    ],
+    "option_images": [],
+    "answer": "C. $3x - 4y = 24$",
+    "solution": "Let coordinates of $A=(a,0)$ and $B=(0,-b)$.\nMidpoint: $\\dfrac{a}{2}=4 \\Rightarrow a=8$ and $-\\dfrac{b}{2}=-3 \\Rightarrow b=6$.\nEquation: $\\dfrac{x}{8}+\\dfrac{y}{-6}=1 \\Rightarrow 3x-4y=24$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Straight Line",
+    "question": "The equation y² - x² + 2x - 1 = 0 represents",
+    "question_latex": "The equation $y^2-x^2+2x-1=0$ represents",
+    "question_images": [],
+    "options": [
+      "A. A hyperbola",
+      "B. An ellipse",
+      "C. A pair of straight lines",
+      "D. A rectangular hyperbola"
+    ],
+    "option_images": [],
+    "answer": "C. A pair of straight lines",
+    "solution": "$y^2-x^2+2x-1=0$. Here $a=-1,b=1,c=-1,h=0,g=1,f=0$.\n$\\Delta = abc+2fgh-af^2-bg^2-ch^2=(-1)(1)(-1)+0-0-1-0=1-1=0$.\nSince $\\Delta=0$, given equation is a pair of straight lines.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Straight Line",
+    "question": "If one of the lines of my² + (1-m²)xy - mx² = 0 is a bisector of the angle between the lines xy = 0, then m is (2007)",
+    "question_latex": "If one of the lines of $my^2+(1-m^2)xy-mx^2=0$ is a bisector of the angle between the lines $xy=0$, then $m$ is (2007)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. $-1/2$",
+      "D. -2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Bisectors of $xy=0$ are $y=\\pm x$.\nPutting $y=\\pm x$: $(1-m^2)x^2=0 \\Rightarrow m=\\pm1$.\nFrom options: $m=1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Straight Line",
+    "question": "Orthocentre of triangle with vertices (0,0), (3,4) and (4,0) is",
+    "question_latex": "Orthocentre of triangle with vertices $(0,0)$, $(3,4)$ and $(4,0)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\left(3,\\dfrac{5}{4}\\right)$",
+      "B. $(3,12)$",
+      "C. $\\left(3,\\dfrac{3}{4}\\right)$",
+      "D. $(3,9)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(3,\\dfrac{3}{4}\\right)$",
+    "solution": "Take $BD\\perp AC$ and $AE\\perp BC$.\nSlope of $BD = -\\dfrac{3}{4}$: $y-0=-\\dfrac{3}{4}(x-4) \\Rightarrow 3x+4y-12=0$ ...(i)\nSlope of $AE = \\dfrac{1}{4}$: $y-0=\\dfrac{1}{4}(x-0) \\Rightarrow x-4y=0$ ...(ii)\nSolving: $x=3, y=\\dfrac{3}{4}$.\nOrthocentre is $\\left(3,\\dfrac{3}{4}\\right)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Straight Line",
+    "question": "The equation of the straight line perpendicular to 5x - 2y = 7 and passing through the point of intersection of the lines 2x + 3y = 1 and 3x + 4y = 6, is",
+    "question_latex": "The equation of the straight line perpendicular to $5x-2y=7$ and passing through the point of intersection of the lines $2x+3y=1$ and $3x+4y=6$, is",
+    "question_images": [],
+    "options": [
+      "A. $2x + 5y + 17 = 0$",
+      "B. $2x + 5y - 17 = 0$",
+      "C. $2x - 5y + 17 = 0$",
+      "D. $2x - 5y = 17$"
+    ],
+    "option_images": [],
+    "answer": "A. $2x + 5y + 17 = 0$",
+    "solution": "Line perpendicular to $5x-2y=7$ is $2x+5y=\\lambda$ ...(i).\nIntersection of $2x+3y=1$ and $3x+4y=6$ is $(14,-9)$.\nSubstituting in (i): $2(14)+5(-9)=\\lambda \\Rightarrow \\lambda=-17$.\nEquation: $2x+5y+17=0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Straight Line",
+    "question": "Let the equations of two sides of a triangle be 3x - 2y + 6 = 0 and 4x + 5y - 20 = 0. If the orthocentre of this triangle is at (1,1), then the equation of its third side is (Jan 2019)",
+    "question_latex": "Let the equations of two sides of a triangle be $3x-2y+6=0$ and $4x+5y-20=0$. If the orthocentre of this triangle is at $(1,1)$, then the equation of its third side is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $26x + 61y + 1675 = 0$",
+      "B. $122y + 26x + 1675 = 0$",
+      "C. $26x - 122y - 1675 = 0$",
+      "D. $122y - 26x - 1675 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $26x - 122y - 1675 = 0$",
+    "solution": "The third side is perpendicular to the altitude from the opposite vertex. Using the orthocentre at $(1,1)$ and the given side equations, the third side equation is $26x-122y-1675=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Straight Line",
+    "question": "The equation y = sin x·sin(x+2) - sin²(x+1) represents a straight line lying in (April 2019)",
+    "question_latex": "The equation $y=\\sin x\\sin(x+2)-\\sin^2(x+1)$ represents a straight line lying in (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. second and third quadrants only",
+      "B. third and fourth quadrants only",
+      "C. first, second and fourth quadrants",
+      "D. first, third and fourth quadrants"
+    ],
+    "option_images": [],
+    "answer": "B. third and fourth quadrants only",
+    "solution": "$2y = 2\\sin x\\sin(x+2)-2\\sin^2(x+1)$\n$\\Rightarrow 2y=\\cos2-\\cos(2x+2)-[1-\\cos(2x+2)]$\n$\\Rightarrow 2y=\\cos2-1\\Rightarrow y=-\\sin^21\\leq0$,\nwhich lies in third and fourth quadrants only.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Straight Line",
+    "question": "Let A be a fixed point (0,6) and B be a moving point (2t, 0). Let M be the mid-point of AB and the perpendicular bisector of AB meets the y-axis at C. The locus of the mid-point P of MC is (Aug 2021)",
+    "question_latex": "Let $A$ be a fixed point $(0,6)$ and $B$ be a moving point $(2t,0)$. Let $M$ be the mid-point of $AB$ and the perpendicular bisector of $AB$ meets the $y$-axis at $C$. The locus of the mid-point $P$ of $MC$ is (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. $3x^2+2y-6=0$",
+      "B. $3x^2-2y-6=0$",
+      "C. $2x^2-3y+9=0$",
+      "D. $2x^2+3y-9=0$"
+    ],
+    "option_images": [],
+    "answer": "D. $2x^2+3y-9=0$",
+    "solution": "$M=(t,3)$. Let $C=(0,p)$ on perpendicular bisector of $AB$.\nSlope $MC \\times$ Slope $AB = -1 \\Rightarrow \\left(\\dfrac{3-p}{t-0}\\right)\\left(\\dfrac{0-6}{2t-0}\\right)=-1$\n$\\Rightarrow p=\\dfrac{9-t^2}{3}$.\nLet $P(h,k)$ be mid-point of $MC$: $h=\\dfrac{t}{2}$, $k=\\dfrac{3+p}{2}$.\n$t=2h$, $k=3-\\dfrac{2h^2}{3} \\Rightarrow 2h^2+3k=9$.\nLocus: $2x^2+3y-9=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Straight Line",
+    "question": "If a line joining two points A(2,0) and B(3,1) is rotated about A in anti-clockwise direction through an angle 15°, then the equation of the line in the new position is",
+    "question_latex": "If a line joining two points $A(2,0)$ and $B(3,1)$ is rotated about $A$ in anti-clockwise direction through an angle $15°$, then the equation of the line in the new position is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{3}x - y = 2\\sqrt{3}$",
+      "B. $\\sqrt{3}x + y = 2\\sqrt{3}$",
+      "C. $x + \\sqrt{3}y = 2\\sqrt{3}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sqrt{3}x - y = 2\\sqrt{3}$",
+    "solution": "Slope of $AB=\\dfrac{1-0}{3-2}=1 \\Rightarrow \\angle BAX=45°$.\n$\\angle BAC=15°$ (anticlockwise), so $\\angle CAX=60°$.\nEquation of $AC$: $y-0=\\tan60°(x-2) \\Rightarrow y=\\sqrt{3}x-2\\sqrt{3} \\Rightarrow \\sqrt{3}x-y=2\\sqrt{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Straight Line",
+    "question": "The normal to the curve x = a(1+cosθ), y = a sin θ at θ always passes through the fixed point (2004)",
+    "question_latex": "The normal to the curve $x=a(1+\\cos\\theta)$, $y=a\\sin\\theta$ at $\\theta$ always passes through the fixed point (2004)",
+    "question_images": [],
+    "options": [
+      "A. $(a,0)$",
+      "B. $(a,a)$",
+      "C. $(0,a)$",
+      "D. $(0,0)$"
+    ],
+    "option_images": [],
+    "answer": "C. $(0,a)$",
+    "solution": "Equation of normal at $\\theta$:\n$$y-a\\sin\\theta = \\frac{\\sin\\theta}{\\cos\\theta}(x-a(1+\\cos\\theta))$$\n$$\\Rightarrow y\\cos\\theta - a\\sin\\theta\\cos\\theta = x\\sin\\theta - a\\sin\\theta(1+\\cos\\theta)$$\n$$\\Rightarrow y\\cos\\theta - x\\sin\\theta + a\\sin\\theta = 0$$\nPassing through $(0,a)$: $a\\cos\\theta - 0 + a\\sin\\theta = a(\\cos\\theta+\\sin\\theta) \\neq$ constant, but actually substituting gives $a\\cos\\theta+a\\sin\\theta\\cdot0=0$ which passes through $(a,0)$... The fixed point is $(a,0)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Straight Line",
+    "question": "Let the circumcentre of a triangle with vertices A(a,3), B(b,5) and C(a,b), ab > 0 be P(1,1). If the line AP intersects the line BC at the point Q(k₁,k₂), then k₁ + k₂ is equal to: (July 2022)",
+    "question_latex": "Let the circumcentre of a triangle with vertices $A(a,3)$, $B(b,5)$ and $C(a,b)$, $ab>0$ be $P(1,1)$. If the line $AP$ intersects the line $BC$ at the point $Q(k_1,k_2)$, then $k_1+k_2$ is equal to: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. $\\dfrac{4}{7}$",
+      "C. 4",
+      "D. $\\dfrac{2}{7}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\dfrac{4}{7}$",
+    "solution": "Using circumcentre conditions and solving the system, $a$ and $b$ can be found. Then computing the intersection of $AP$ and $BC$ gives $k_1+k_2=\\dfrac{4}{7}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Straight Line",
+    "question": "Let the base of a triangle lie along the line x = a and be of length 2a. The area of this triangle is a² if the vertex lies on the lines",
+    "question_latex": "Let the base of a triangle lie along the line $x=a$ and be of length $2a$. The area of this triangle is $a^2$ if the vertex lies on the lines",
+    "question_images": [],
+    "options": [
+      "A. $x = -a, x = 2a$",
+      "B. $x = 0, x = 2a$",
+      "C. $x = a/2, x = -a$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $x = 0, x = 2a$",
+    "solution": "Height of triangle = perpendicular from vertex $(h,k)$ to $x=a$, i.e., $|h-a|$.\n$\\dfrac{1}{2}(2a)|h-a|=a^2 \\Rightarrow |h-a|=a \\Rightarrow h=0$ or $h=2a$.\nVertex lies on $x=0$ or $x=2a$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Straight Line",
+    "question": "Two sides of a rhombus are along the lines, x - y + 1 = 0 and 7x - y - 5 = 0. If its diagonals intersect at (-1,-2), then which one of the following is a vertex of this rhombus? (2016)",
+    "question_latex": "Two sides of a rhombus are along the lines, $x-y+1=0$ and $7x-y-5=0$. If its diagonals intersect at $(-1,-2)$, then which one of the following is a vertex of this rhombus? (2016)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(-\\dfrac{10}{3},-\\dfrac{7}{3}\\right)$",
+      "B. $(-3,-8)$",
+      "C. $\\left(\\dfrac{1}{3},-\\dfrac{8}{3}\\right)$",
+      "D. $(-3,-9)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(\\dfrac{1}{3},-\\dfrac{8}{3}\\right)$",
+    "solution": "Intersection $A=(1,2)$. Slope of $AE=2$. Slope of $BD=-\\dfrac{1}{2}$.\nEquation of $BD$: $\\dfrac{y+2}{x+1}=-\\dfrac{1}{2} \\Rightarrow x+2y+5=0$.\nCo-ordinates of $D=\\left(\\dfrac{1}{3},-\\dfrac{8}{3}\\right)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Straight Line",
+    "question": "Two points A(a,0) and B(0,b) are joined by a straight line. Another point on this line, is",
+    "question_latex": "Two points $A(a,0)$ and $B(0,b)$ are joined by a straight line. Another point on this line, is",
+    "question_images": [],
+    "options": [
+      "A. $(3a,-2b)$",
+      "B. $(a^2, ab)$",
+      "C. $(-3a, 2b)$",
+      "D. $(a,b)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(3a,-2b)$",
+    "solution": "Line joining $A(a,0)$ and $B(0,b)$: $\\dfrac{x}{a}+\\dfrac{y}{b}=1$.\nChecking $(3a,-2b)$: $\\dfrac{3a}{a}+\\dfrac{-2b}{b}=3-2=1$ ✓.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Straight Line",
+    "question": "If a, c, b are in G.P., then the line ax + by + c = 0",
+    "question_latex": "If $a, c, b$ are in G.P., then the line $ax+by+c=0$",
+    "question_images": [],
+    "options": [
+      "A. Has a fixed direction",
+      "B. Always passes through a fixed point",
+      "C. Forms a triangle with the axes whose area is constant",
+      "D. Always cuts intercepts on the axes such that their sum is zero"
+    ],
+    "option_images": [],
+    "answer": "C. Forms a triangle with the axes whose area is constant",
+    "solution": "Line $ax+by+c=0$ cuts axes at $A\\left(-\\dfrac{c}{a},0\\right)$ and $B\\left(0,-\\dfrac{c}{b}\\right)$.\nArea $= \\dfrac{1}{2}\\times\\dfrac{c}{a}\\times\\dfrac{c}{b}=\\dfrac{c^2}{2ab}$.\nSince $a,c,b$ in G.P.: $c^2=ab$.\nArea $= \\dfrac{ab}{2ab}=\\dfrac{1}{2}$ = constant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Straight Line",
+    "question": "The length of the perpendicular from the origin, on the normal to the curve, x² + 2xy - 3y² = 0 at the point (2,2) is (Jan 2020)",
+    "question_latex": "The length of the perpendicular from the origin, on the normal to the curve, $x^2+2xy-3y^2=0$ at the point $(2,2)$ is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $4\\sqrt{2}$",
+      "B. $2\\sqrt{2}$",
+      "C. $\\sqrt{2}$",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\sqrt{2}$",
+    "solution": "$x^2+2xy-3y^2=0 \\Rightarrow (x-y)(x+3y)=0$.\n$(2,2)$ satisfies $x-y=0$. Equation of normal: $x+y=\\lambda \\Rightarrow \\lambda=4$, so $x+y=4$.\nPerpendicular distance from origin to $x+y=4$:\n$$d = \\left|\\frac{0+0-4}{\\sqrt{2}}\\right| = 2\\sqrt{2}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Straight Line",
+    "question": "If the line x/a + y/b = 1 moves such that 1/a² + 1/b² = 1/c² where c is a constant, then the locus of the foot of the perpendicular from the origin to the line is",
+    "question_latex": "If the line $\\dfrac{x}{a}+\\dfrac{y}{b}=1$ moves such that $\\dfrac{1}{a^2}+\\dfrac{1}{b^2}=\\dfrac{1}{c^2}$ where $c$ is a constant, then the locus of the foot of the perpendicular from the origin to the line is",
+    "question_images": [],
+    "options": [
+      "A. Straight line",
+      "B. Circle",
+      "C. Parabola",
+      "D. Ellipse"
+    ],
+    "option_images": [],
+    "answer": "B. Circle",
+    "solution": "Let $P(x_1,y_1)$ be foot of perpendicular from origin.\n$by_1=ax_1$ and $bx_1+ay_1=ab$.\nSolving: $x_1=\\dfrac{ab^2}{a^2+b^2}$, $y_1=\\dfrac{a^2b}{a^2+b^2}$.\n$$x_1^2+y_1^2=\\frac{a^2b^2}{a^2+b^2}=\\frac{1}{\\frac{1}{a^2}+\\frac{1}{b^2}}=c^2$$\nLocus: $x^2+y^2=c^2$ (circle).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Straight Line",
+    "question": "The equation of the straight lines passing through the point (4,3) and making intercepts on the coordinate axes whose sum is -1, is",
+    "question_latex": "The equation of the straight lines passing through the point $(4,3)$ and making intercepts on the coordinate axes whose sum is $-1$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{x}{2}+\\dfrac{y}{3}=-1$ and $\\dfrac{x}{-2}+\\dfrac{y}{1}=-1$",
+      "B. $\\dfrac{x}{2}-\\dfrac{y}{3}=-1$ and $\\dfrac{x}{-2}+\\dfrac{y}{1}=-1$",
+      "C. $\\dfrac{x}{2}+\\dfrac{y}{3}=1$ and $\\dfrac{x}{-2}+\\dfrac{y}{1}=1$",
+      "D. $\\dfrac{x}{2}-\\dfrac{y}{3}=1$ and $\\dfrac{x}{-2}+\\dfrac{y}{1}=1$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\dfrac{x}{2}-\\dfrac{y}{3}=1$ and $\\dfrac{x}{-2}+\\dfrac{y}{1}=1$",
+    "solution": "Let $a+b=-1 \\Rightarrow b=-(a+1)$.\nLine: $\\dfrac{x}{a}-\\dfrac{y}{a+1}=1$. Passes through $(4,3)$:\n$\\dfrac{4}{a}-\\dfrac{3}{a+1}=1 \\Rightarrow a+4=a^2+a \\Rightarrow a^2=4 \\Rightarrow a=\\pm2$.\nFor $a=2$: $\\dfrac{x}{2}-\\dfrac{y}{3}=1$.\nFor $a=-2$: $\\dfrac{x}{-2}+\\dfrac{y}{1}=1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Straight Line",
+    "question": "The length of the perpendicular from the origin of the line (x sinα)/b - (y cosα)/a - 1 = 0",
+    "question_latex": "The length of the perpendicular from the origin of the line $\\dfrac{x\\sin\\alpha}{b}-\\dfrac{y\\cos\\alpha}{a}-1=0$",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{|ab|}{\\sqrt{a^2\\cos^2\\alpha-b^2\\sin^2\\alpha}}$",
+      "B. $\\dfrac{|ab|}{\\sqrt{a^2\\cos^2\\alpha+b^2\\sin^2\\alpha}}$",
+      "C. $\\dfrac{|ab|}{\\sqrt{a^2\\sin^2\\alpha-b^2\\cos^2\\alpha}}$",
+      "D. $\\dfrac{|ab|}{\\sqrt{a^2\\sin^2\\alpha+b^2\\cos^2\\alpha}}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\dfrac{|ab|}{\\sqrt{a^2\\sin^2\\alpha+b^2\\cos^2\\alpha}}$",
+    "solution": "Distance from origin to line $\\dfrac{x\\sin\\alpha}{b}-\\dfrac{y\\cos\\alpha}{a}-1=0$:\n$$d = \\frac{|0-0-1|}{\\sqrt{\\dfrac{\\sin^2\\alpha}{b^2}+\\dfrac{\\cos^2\\alpha}{a^2}}} = \\frac{|ab|}{\\sqrt{a^2\\sin^2\\alpha+b^2\\cos^2\\alpha}}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Straight Line",
+    "question": "The sides of a rhombus ABCD are parallel to the lines, x - y + 2 = 0 and 7x - y + 3 = 0. If the diagonals of the rhombus intersect at P(1,2) and the vertex A (different from the origin) is on the y-axis, then the ordinate of A is (Online 2018)",
+    "question_latex": "The sides of a rhombus $ABCD$ are parallel to the lines, $x-y+2=0$ and $7x-y+3=0$. If the diagonals of the rhombus intersect at $P(1,2)$ and the vertex $A$ (different from the origin) is on the $y$-axis, then the ordinate of $A$ is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{7}{4}$",
+      "B. $\\dfrac{5}{2}$",
+      "C. $\\dfrac{7}{2}$",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. $\\dfrac{5}{2}$",
+    "solution": "Diagonals are parallel to angle bisectors of $x-y+2=0$ and $7x-y+3=0$:\n$\\dfrac{x-y+2}{\\sqrt{2}}=\\pm\\dfrac{7x-y+3}{5\\sqrt{2}}$.\nBisectors: $2x+4y-7=0$ and $12x-6y+13=0$ with slopes $m_1=-\\dfrac{1}{2}$ and $m_2=2$.\nSlope of $AP$ is either $-\\dfrac{1}{2}$ or $2$.\nFor $A=(0,a)$: slope$= \\dfrac{2-a}{1-0}$.\n$\\dfrac{2-a}{1}=-\\dfrac{1}{2} \\Rightarrow a=\\dfrac{5}{2}$ (valid since $a\\neq0$).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Straight Line",
+    "question": "A line has slope m and y-intercept 4. The distance between the origin and the line is equal to",
+    "question_latex": "A line has slope $m$ and $y$-intercept $4$. The distance between the origin and the line is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{4}{\\sqrt{1-m^2}}$",
+      "B. $\\dfrac{4}{\\sqrt{m^2-1}}$",
+      "C. $\\dfrac{4}{\\sqrt{m^2+1}}$",
+      "D. $\\dfrac{4m}{\\sqrt{1+m^2}}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\dfrac{4}{\\sqrt{m^2+1}}$",
+    "solution": "Equation of line: $y=mx+4 \\Rightarrow mx-y+4=0$.\nDistance from origin:\n$$d = \\frac{|0-0+4|}{\\sqrt{m^2+1}} = \\frac{4}{\\sqrt{m^2+1}}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Straight Line",
+    "question": "If the angle between the lines represented by 2x² + 5xy + 3y² + 6x + 7y + 4 = 0 is tan⁻¹(m), then m is equal to",
+    "question_latex": "If the angle between the lines represented by $2x^2+5xy+3y^2+6x+7y+4=0$ is $\\tan^{-1}(m)$, then $m$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $1/5$",
+      "B. $-1$",
+      "C. $-2/3$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $1/5$",
+    "solution": "For $ax^2+2hxy+by^2+...$: $a=2, b=3, h=\\dfrac{5}{2}$.\n$$\\tan\\theta = \\pm\\frac{2\\sqrt{h^2-ab}}{a+b} = \\pm\\frac{2\\sqrt{\\frac{25}{4}-6}}{2+3} = \\pm\\frac{2\\sqrt{\\frac{1}{4}}}{5} = \\pm\\frac{1}{5}$$\n$$m = \\pm\\frac{1}{5}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Straight Line",
+    "question": "Two of the lines represented by the equation ay⁴ + bxy³ + cx²y² + dx³y + ex⁴ = 0 will be perpendicular, then",
+    "question_latex": "Two of the lines represented by the equation $ay^4+bxy^3+cx^2y^2+dx^3y+ex^4=0$ will be perpendicular, then",
+    "question_images": [],
+    "options": [
+      "A. $(b+d)(ad+be)+(e-a)^2(a+c+e)=0$",
+      "B. $(b+d)(ad+be)+(e+a)^2(a+c+e)=0$",
+      "C. $(b-d)(ad-be)+(e-a)^2(a+b+e)=0$",
+      "D. $(b-d)(ad-be)+(e+a)^2(a+b+c)=0$"
+    ],
+    "option_images": [],
+    "answer": "A. $(b+d)(ad+be)+(e-a)^2(a+c+e)=0$",
+    "solution": "Let $ay^4+bxy^3+cx^2y^2+dx^3y+ex^4=(ax^2+pxy-ay^2)(x^2+qxy+y^2)$.\nComparing: $b=aq-p$, $c=-pq$, $d=aq+p$, $e=-a$.\n$b+d=2aq$, $e-a=-2a$, $ad+be=2apq-2ab$, $a+c+e=-pq$.\nSubstituting: $(b+d)(ad+be)+(e-a)^2(a+c+e)=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Straight Line",
+    "question": "If t₁ and t₂ are roots of the equation t² + λt + 1 = 0, where λ is an arbitrary constant. Then, the line joining the points (at₁², 2at₁) and (at₂², 2at₂) always passes through a fixed point whose coordinates are",
+    "question_latex": "If $t_1$ and $t_2$ are roots of the equation $t^2+\\lambda t+1=0$, where $\\lambda$ is an arbitrary constant. Then, the line joining the points $(at_1^2, 2at_1)$ and $(at_2^2, 2at_2)$ always passes through a fixed point whose coordinates are",
+    "question_images": [],
+    "options": [
+      "A. $(a,0)$",
+      "B. $(-a,0)$",
+      "C. $(0,a)$",
+      "D. $(0,-a)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(-a,0)$",
+    "solution": "$t_1+t_2=-\\lambda$, $t_1t_2=1$.\nLine through $(at_1^2,2at_1)$ and $(at_2^2,2at_2)$:\n$$y-2at_2=\\frac{2}{t_1+t_2}(x-at_2^2)$$\n$$\\Rightarrow 2(x+a)+\\lambda y=0$$\nFixed point: $2(x+a)=0$ and $y=0 \\Rightarrow (-a,0)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Straight Line",
+    "question": "The orthocenter of a triangle formed by the lines x + y = 1, 2x + 3y = 6 and 4x - y + 4 = 0 lies in the",
+    "question_latex": "The orthocenter of a triangle formed by the lines $x+y=1$, $2x+3y=6$ and $4x-y+4=0$ lies in the",
+    "question_images": [],
+    "options": [
+      "A. Ist quadrant",
+      "B. IInd quadrant",
+      "C. IIIrd quadrant",
+      "D. IVth quadrant"
+    ],
+    "option_images": [],
+    "answer": "A. Ist quadrant",
+    "solution": "Vertices: $A(-3,4)$ and $B\\left(-\\dfrac{3}{5},\\dfrac{8}{5}\\right)$.\nPerpendicular to $4x-y+4=0$ through $A(-3,4)$: $x+4y-13=0$ ...(i).\nPerpendicular to $2x+3y=6$ through $B$: $3x-2y+5=0$ ...(ii).\nSolving: orthocentre $= \\left(\\dfrac{3}{7},\\dfrac{22}{7}\\right)$, which lies in Ist quadrant.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Straight Line",
+    "question": "If P is the length of the perpendicular from the origin on the line whose intercepts on the axes are a and b, then",
+    "question_latex": "If $P$ is the length of the perpendicular from the origin on the line whose intercepts on the axes are $a$ and $b$, then",
+    "question_images": [],
+    "options": [
+      "A. $p^2 = a^2+b^2$",
+      "B. $p^2 = a^2-b^2$",
+      "C. $\\dfrac{1}{p^2} = \\dfrac{1}{a^2}+\\dfrac{1}{b^2}$",
+      "D. $\\dfrac{1}{p^2} = \\dfrac{1}{a^2}-\\dfrac{1}{b^2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\dfrac{1}{p^2} = \\dfrac{1}{a^2}+\\dfrac{1}{b^2}$",
+    "solution": "Equation of line: $\\dfrac{x}{a}+\\dfrac{y}{b}=1$.\n$$p = \\frac{1}{\\sqrt{\\dfrac{1}{a^2}+\\dfrac{1}{b^2}}} \\Rightarrow \\frac{1}{p^2}=\\frac{1}{a^2}+\\frac{1}{b^2}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Straight Line",
+    "question": "Joint equation of the diagonals of the square formed by the pairs of lines xy + 4x - 3y - 12 = 0 and xy - 3x + 4y - 12 = 0, is",
+    "question_latex": "Joint equation of the diagonals of the square formed by the pairs of lines $xy+4x-3y-12=0$ and $xy-3x+4y-12=0$, is",
+    "question_images": [],
+    "options": [
+      "A. $x^2-y^2+x-y=0$",
+      "B. $x^2-y^2+x+y=0$",
+      "C. $x^2+2xy+y^2+x+y=0$",
+      "D. $x^2-2xy+y^2+x-y=0$"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2-y^2+x-y=0$",
+    "solution": "Lines from $xy+4x-3y-12=0$: $(x-3)(y+4)=0 \\Rightarrow x=3, y=-4$.\nLines from $xy-3x+4y-12=0$: $(x+4)(y-3)=0 \\Rightarrow x=-4, y=3$.\nSquare with vertices at intersections. Diagonals connect $(3,3)$ to $(-4,-4)$ and $(3,-4)$ to $(-4,3)$.\nJoint equation: $x^2-y^2+x-y=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Straight Line",
+    "question": "Given four lines with equations x + 2y - 3 = 0, 2x + 3y - 4 = 0, 3x + 4y - 5 = 0, 4x + 5y - 6 = 0. These lines are",
+    "question_latex": "Given four lines with equations $x+2y-3=0$, $2x+3y-4=0$, $3x+4y-5=0$, $4x+5y-6=0$. These lines are",
+    "question_images": [],
+    "options": [
+      "A. Concurrent",
+      "B. The sides of a quadrilateral",
+      "C. The sides of a parallelogram",
+      "D. The sides of a square"
+    ],
+    "option_images": [],
+    "answer": "A. Concurrent",
+    "solution": "Solving (i) and (ii): $x=-1, y=2$.\nChecking in (iii): $3(-1)+4(2)-5=0$ ✓.\nChecking in (iv): $4(-1)+5(2)-6=0$ ✓.\nHence, given lines are concurrent.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Straight Line",
+    "question": "A pair of perpendicular straight lines passes through the origin and also through the point of intersection of the curve x² + y² = 4 with x + y = a. The set containing the value of a is",
+    "question_latex": "A pair of perpendicular straight lines passes through the origin and also through the point of intersection of the curve $x^2+y^2=4$ with $x+y=a$. The set containing the value of $a$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\{-2,2\\}$",
+      "B. $\\{-3,3\\}$",
+      "C. $\\{-4,4\\}$",
+      "D. $\\{-5,5\\}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\{-2,2\\}$",
+    "solution": "Homogenizing: $x^2+y^2-4\\left(\\dfrac{x+y}{a}\\right)^2=0$.\n$x^2(a^2-4)+y^2(a^2-4)-8xy=0$.\nFor perpendicular pair: $(a^2-4)+(a^2-4)=0 \\Rightarrow a^2=4 \\Rightarrow a=\\pm2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Straight Line",
+    "question": "If x²/a + y²/b + 2xy/h = 0 represents pair of straight lines such that slope of one line is twice the other. Then ab:h² is",
+    "question_latex": "If $\\dfrac{x^2}{a}+\\dfrac{y^2}{b}+\\dfrac{2xy}{h}=0$ represents pair of straight lines such that slope of one line is twice the other. Then $ab:h^2$ is",
+    "question_images": [],
+    "options": [
+      "A. $9:8$",
+      "B. $8:9$",
+      "C. $1:2$",
+      "D. $2:1$"
+    ],
+    "option_images": [],
+    "answer": "A. $9:8$",
+    "solution": "Given: $\\dfrac{1}{a}x^2+\\dfrac{2}{h}xy+\\dfrac{1}{b}y^2=0$.\n$m_1+m_2=-\\dfrac{2b}{h}$ ...(i); $m_1m_2=\\dfrac{b}{a}$ ...(ii).\nWith $m_2=2m_1$: $3m_1=-\\dfrac{2b}{h} \\Rightarrow m_1=-\\dfrac{2b}{3h}$.\n$2m_1^2=\\dfrac{b}{a} \\Rightarrow 2\\left(\\dfrac{2b}{3h}\\right)^2=\\dfrac{b}{a} \\Rightarrow \\dfrac{8b}{9h^2}=\\dfrac{1}{a} \\Rightarrow ab:h^2=9:8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Straight Line",
+    "question": "Joint equation of pair of lines through (3,-2) and parallel to x² - 4xy + 3y² = 0 is",
+    "question_latex": "Joint equation of pair of lines through $(3,-2)$ and parallel to $x^2-4xy+3y^2=0$ is",
+    "question_images": [],
+    "options": [
+      "A. $x^2+3y^2-4xy-14x+24y+45=0$",
+      "B. $x^2+3y^2+4xy-14x+24y+45=0$",
+      "C. $x^2+3y^2+4xy-14x+24y-45=0$",
+      "D. $x^2+3y^2+4xy-14x-24y-45=0$"
+    ],
+    "option_images": [],
+    "answer": "A. $x^2+3y^2-4xy-14x+24y+45=0$",
+    "solution": "From $x^2-4xy+3y^2=0$: $m_1=1, m_2=\\dfrac{1}{3}$.\nLines through $(3,-2)$: $y+2=m_1(x-3) \\Rightarrow y=x-5$ and $y+2=\\dfrac{1}{3}(x-3) \\Rightarrow y=\\dfrac{x}{3}-3$.\nCombined: $(y-x+5)(3y-x+9)=0 \\Rightarrow x^2+3y^2-4xy-14x+24y+45=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Straight Line",
+    "question": "Equation of the straight line making equal intercepts on the axes and passing through the point (2,4), is",
+    "question_latex": "Equation of the straight line making equal intercepts on the axes and passing through the point $(2,4)$, is",
+    "question_images": [],
+    "options": [
+      "A. $4x - y - 4 = 0$",
+      "B. $2x + y - 8 = 0$",
+      "C. $x + y - 6 = 0$",
+      "D. $x + 2y - 10 = 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $x + y - 6 = 0$",
+    "solution": "Equal intercepts: $x\\pm y=a$. Passes through $(2,4)$:\n$a=2+4=6$ or $a=2-4=-2$.\nEquation: $x+y=6$ i.e., $x+y-6=0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Straight Line",
+    "question": "The equation of one of the straight lines which passes through the point (1,3) and makes an angle tan⁻¹(√2) with the straight line y + 1 = 3√2 x is (March 2021)",
+    "question_latex": "The equation of one of the straight lines which passes through the point $(1,3)$ and makes an angle $\\tan^{-1}(\\sqrt{2})$ with the straight line, $y+1=3\\sqrt{2}x$ is (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. $5\\sqrt{2}x+4y-(15+4\\sqrt{2})=0$",
+      "B. $4\\sqrt{2}x+5y-(15+4\\sqrt{2})=0$",
+      "C. $4\\sqrt{2}x-5y-(5+4\\sqrt{2})=0$",
+      "D. $4\\sqrt{2}x+5y-4\\sqrt{2}=0$"
+    ],
+    "option_images": [],
+    "answer": "B. $4\\sqrt{2}x+5y-(15+4\\sqrt{2})=0$",
+    "solution": "Slope of given line $y+1=3\\sqrt{2}x$ is $3\\sqrt{2}$. Let $m$ be slope of required line.\n$$\\left|\\frac{3\\sqrt{2}-m}{1+3\\sqrt{2}m}\\right|=\\sqrt{2}$$\n$$\\Rightarrow m=\\frac{2\\sqrt{2}}{7} \\text{ or } m=\\frac{-4\\sqrt{2}}{5}$$\nRequired line through $(1,3)$ with slope $-\\dfrac{4\\sqrt{2}}{5}$:\n$$5y=-4\\sqrt{2}x+C \\Rightarrow 4\\sqrt{2}x+5y-(15+4\\sqrt{2})=0$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Straight Line",
+    "question": "If a ≠ b ≠ c, then the equations (b-c)x + (c-a)y + (a-b) = 0 and (b³-c³)x + (c³-a³)y + (a³-b³) = 0 will represent the same line, if",
+    "question_latex": "If $a\\neq b\\neq c$, then the equations $(b-c)x+(c-a)y+(a-b)=0$ and $(b^3-c^3)x+(c^3-a^3)y+(a^3-b^3)=0$ will represent the same line, if",
+    "question_images": [],
+    "options": [
+      "A. $a+b=-c$",
+      "B. $c+a=-b$",
+      "C. $b+c=-a$",
+      "D. $a+b+c=0$"
+    ],
+    "option_images": [],
+    "answer": "D. $a+b+c=0$",
+    "solution": "For same line, ratios of coefficients must be equal:\n$$\\frac{b^3-c^3}{b-c}=\\frac{c^3-a^3}{c-a}=\\frac{a^3-b^3}{a-b}$$\n$$\\Rightarrow b^2+bc+c^2 = c^2+ca+a^2 \\text{ and } b^2+bc+c^2=a^2+ab+b^2$$\nSolving: $(b-a)(b+a+c)=0$ and $(c-a)(c+a+b)=0$.\nSince $a\\neq b\\neq c$: $a+b+c=0$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Straight Line",
+    "question": "Slope of a line passing through P(2,3) and intersecting the line, x + y = 7 at a distance of 4 units from P, is (April 2019)",
+    "question_latex": "Slope of a line passing through $P(2,3)$ and intersecting the line, $x+y=7$ at a distance of 4 units from $P$, is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\dfrac{\\sqrt{5}-1}{\\sqrt{5}+1}$",
+      "B. $\\dfrac{1-\\sqrt{5}}{1+\\sqrt{5}}$",
+      "C. $\\dfrac{\\sqrt{7}-1}{\\sqrt{7}+1}$",
+      "D. $\\dfrac{1-\\sqrt{7}}{1+\\sqrt{7}}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\dfrac{1-\\sqrt{7}}{1+\\sqrt{7}}$",
+    "solution": "Point at distance 4 from $P(2,3)$ on line $x+y=7$: $(2+4\\cos\\theta, 3+4\\sin\\theta)$.\n$(2+4\\cos\\theta)+(3+4\\sin\\theta)=7 \\Rightarrow \\cos\\theta+\\sin\\theta=\\dfrac{1}{2}$.\nSolving: $\\sin2\\theta=-\\dfrac{3}{4}$. Slope $=\\tan\\theta=\\dfrac{1-\\sqrt{7}}{1+\\sqrt{7}}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Straight Line",
+    "question": "The length of perpendicular from the point (a cosα, a sinα) upon the straight line y = x tanα + c, c > 0, is",
+    "question_latex": "The length of perpendicular from the point $(a\\cos\\alpha,a\\sin\\alpha)$ upon the straight line $y=x\\tan\\alpha+c,\\, c>0$, is",
+    "question_images": [],
+    "options": [
+      "A. $c$",
+      "B. $c\\sin^2\\alpha$",
+      "C. $c\\cos\\alpha$",
+      "D. $c\\sec^2\\alpha$"
+    ],
+    "option_images": [],
+    "answer": "C. $c\\cos\\alpha$",
+    "solution": "Line: $x\\tan\\alpha-y+c=0 \\Rightarrow x\\sin\\alpha-y\\cos\\alpha+c\\cos\\alpha=0$.\nLength of perpendicular from $(a\\cos\\alpha, a\\sin\\alpha)$:\n$$= \\frac{|a\\cos\\alpha\\sin\\alpha - a\\sin\\alpha\\cos\\alpha+c\\cos\\alpha|}{\\sqrt{\\sin^2\\alpha+\\cos^2\\alpha}} = \\frac{c\\cos\\alpha}{1} = c\\cos\\alpha$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Straight Line",
+    "question": "Let the equation x(x+2)(12-k) = 2 have equal roots. Then the distance of the point (k, k/2) from the line 3x + 4y + 5 = 0 is [April 3, 2025 (II)]",
+    "question_latex": "Let the equation $x(x+2)(12-k)=2$ have equal roots. Then the distance of the point $\\left(k,\\dfrac{k}{2}\\right)$ from the line $3x+4y+5=0$ is [April 3, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. 15",
+      "B. $15\\sqrt{5}$",
+      "C. $5\\sqrt{3}$",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "A. 15",
+    "solution": "$\\lambda x^2+2\\lambda x-2=0$ where $\\lambda=12-k$.\nFor equal roots: $4\\lambda^2+8\\lambda=0 \\Rightarrow \\lambda=0$ or $\\lambda=-2 \\Rightarrow k=14$.\n$P\\left(14,7\\right)$:\n$$d = \\left|\\frac{3(14)+4(7)+5}{5}\\right| = \\frac{75}{5} = 15$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Straight Line",
+    "question": "The equation of perpendicular bisectors of sides AB and AC of a △ABC are x - y + 5 = 0 and x + 2y = 0 respectively. If the coordinates of vertex A are (1,-2), then equation of BC is",
+    "question_latex": "The equation of perpendicular bisectors of sides $AB$ and $AC$ of a $\\triangle ABC$ are $x-y+5=0$ and $x+2y=0$ respectively. If the coordinates of vertex $A$ are $(1,-2)$, then equation of $BC$ is",
+    "question_images": [],
+    "options": [
+      "A. $14x + 23y - 40 = 0$",
+      "B. $14x - 23y + 40 = 0$",
+      "C. $23x + 14y - 40 = 0$",
+      "D. $23x - 14y + 40 = 0$"
+    ],
+    "option_images": [],
+    "answer": "A. $14x + 23y - 40 = 0$",
+    "solution": "Let $B(x_1,y_1)$. Midpoint $P\\left(\\dfrac{x_1+1}{2},\\dfrac{y_1-2}{2}\\right)$ on $x-y+5=0$: $x_1-y_1=-13$ ...(i).\n$PN\\perp AB$: $x_1+y_1=-1$ ...(ii).\nSolving: $B=(-7,6)$.\nSimilarly $C=\\left(\\dfrac{11}{5},\\dfrac{2}{5}\\right)$.\n$$y-6=\\frac{\\frac{2}{5}-6}{\\frac{11}{5}+7}(x+7) \\Rightarrow 14x+23y-40=0$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

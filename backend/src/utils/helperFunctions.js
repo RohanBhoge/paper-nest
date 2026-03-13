@@ -288,14 +288,31 @@ async function storeNewPaperForUser(userId, data) {
 /**
  * Gets all papers for a user (used by cache layer which does its own pagination).
  */
-async function getPapersByUserId(userId) {
+async function getPapersByUserId(userId, sortBy = 'created_at DESC', examFilter = '') {
   let connection;
   try {
     connection = await pool.getConnection();
-    const [rows] = await connection.execute(
-      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, paper_questions, paper_answers, metadata, created_at, updated_at FROM question_papers WHERE user_id = ? ORDER BY created_at DESC`,
-      [userId]
-    );
+
+    // Whitelist for sorting to prevent SQL injection
+    const allowedSortFields = {
+      'created_at DESC': 'created_at DESC',
+      'created_at ASC': 'created_at ASC',
+      'marks DESC': 'marks DESC',
+      'marks ASC': 'marks ASC'
+    };
+    const orderClause = allowedSortFields[sortBy] || 'created_at DESC';
+
+    let query = `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, metadata, created_at, updated_at FROM question_papers WHERE user_id = ?`;
+    const params = [userId];
+
+    if (examFilter) {
+      query += ` AND exam_name = ?`;
+      params.push(examFilter);
+    }
+
+    query += ` ORDER BY ${orderClause}`;
+
+    const [rows] = await connection.execute(query, params);
     return rows.map((r) => ({
       ...r,
       metadata:
@@ -312,27 +329,44 @@ async function getPapersByUserId(userId) {
  * Gets paginated papers for a user directly from SQL (no in-memory slice).
  * Use this when Redis is not available or cache is bypassed.
  */
-async function getPapersByUserIdPaginated(userId, page = 1, limit = 20) {
+async function getPapersByUserIdPaginated(userId, page = 1, limit = 20, sortBy = 'created_at DESC', examFilter = '') {
   const offset = (page - 1) * limit;
   let connection;
   try {
     connection = await pool.getConnection();
 
+    // Whitelist for sorting to prevent SQL injection
+    const allowedSortFields = {
+      'created_at DESC': 'created_at DESC',
+      'created_at ASC': 'created_at ASC',
+      'marks DESC': 'marks DESC',
+      'marks ASC': 'marks ASC'
+    };
+    const orderClause = allowedSortFields[sortBy] || 'created_at DESC';
+
+    let countQuery = `SELECT COUNT(*) AS total FROM question_papers WHERE user_id = ?`;
+    let dataQuery = `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, metadata, created_at, updated_at
+       FROM question_papers
+       WHERE user_id = ?`;
+
+    const countParams = [userId];
+    const dataParams = [userId];
+
+    if (examFilter) {
+      countQuery += ` AND exam_name = ?`;
+      countParams.push(examFilter);
+      dataQuery += ` AND exam_name = ?`;
+      dataParams.push(examFilter);
+    }
+
+    dataQuery += ` ORDER BY ${orderClause} LIMIT ? OFFSET ?`;
+    dataParams.push(limit, offset);
+
     // Get total count
-    const [[{ total }]] = await connection.execute(
-      `SELECT COUNT(*) AS total FROM question_papers WHERE user_id = ?`,
-      [userId]
-    );
+    const [[{ total }]] = await connection.execute(countQuery, countParams);
 
     // Get paginated rows
-    const [rows] = await connection.execute(
-      `SELECT id, paper_id, exam_name, class, subject, exam_date, marks, duration, metadata, created_at, updated_at
-       FROM question_papers
-       WHERE user_id = ?
-       ORDER BY created_at DESC
-       LIMIT ? OFFSET ?`,
-      [userId, limit, offset]
-    );
+    const [rows] = await connection.execute(dataQuery, dataParams);
 
     const papers = rows.map((r) => ({
       ...r,
@@ -363,6 +397,14 @@ async function getPaperByIdForUser(userId, paperId) {
     const r = rows[0];
     return {
       ...r,
+      paper_questions:
+        r.paper_questions && typeof r.paper_questions === 'string'
+          ? JSON.parse(r.paper_questions)
+          : r.paper_questions || [],
+      paper_answers:
+        r.paper_answers && typeof r.paper_answers === 'string'
+          ? JSON.parse(r.paper_answers)
+          : r.paper_answers || [],
       metadata:
         r.metadata && typeof r.metadata === 'string'
           ? JSON.parse(r.metadata)

@@ -6,7 +6,7 @@ export const TTL = {
     USER_PAPERS: 60 * 5,         // 5 minutes — user paper list
     USER_PROFILE: 60 * 10,       // 10 minutes — user profile/session data
     NOTIFICATIONS: 60 * 2,       // 2 minutes — notifications
-    SHORT: 60,                    // 1 minute — general short-lived data
+    SHORT: 60,             // 1 minute — general short-lived data
 };
 
 /**

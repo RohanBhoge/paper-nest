@@ -1,1918 +1,1916 @@
 [
-    [
-        {
-            "id": 1,
-            "chapter": "Thermodynamics",
-            "question": "Volume-temperature graph at atmospheric pressure for a monoatomic gas (V in m^3, T in °C) is",
-            "question_latex": "Volume-temperature graph at atmospheric pressure for a monoatomic gas ($V$ in $m^{3}$, $T$ in $^{\\circ}C$) is",
-            "question_images": [],
-            "options": [
-                "A. ",
-                "B. ",
-                "C. ",
-                "D. "
-            ],
-            "option_images": [
-                "q1_option_a1",
-                "q1_option_b1",
-                "q1_option_c1",
-                "q1_option_d1"
-            ],
-            "answer": "C",
-            "solution": "At constant pressure, $V \\propto T$. In terms of Celsius, $V = V_{0}(1 + \\gamma t) = V_{0}(1 + \\frac{t}{273.15})$. This represents a straight line with a positive intercept on the volume axis and an intercept of $-273.15^{\\circ}C$ on the temperature axis.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 2,
-            "chapter": "Thermodynamics",
-            "question": "One mole of a gas goes from an initial state 'A' to final state 'B' via two processes. If first undergoes isothermal expansion from 'v' to '3 v' and then its volume is reduced form '3 V' to 'V' at constant pressure. The correct P-V diagram representing two process is [MHT-CET 2024]",
-            "question_latex": "One mole of a gas goes from an initial state '$A$' to final state '$B$' via two processes. If first undergoes isothermal expansion from '$V$' to '$3V$' and then its volume is reduced form '$3V$' to '$V$' at constant pressure. The correct $P-V$ diagram representing two process is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. ",
-                "B. ",
-                "C. ",
-                "D. "
-            ],
-            "option_images": [
-                "q2_option_a1",
-                "q2_option_b1",
-                "q2_option_c1",
-                "q2_option_d1"
-            ],
-            "answer": "C",
-            "solution": "The first process is an isothermal expansion (hyperbolic curve moving from $V$ to $3V$). The second process is isobaric compression (horizontal line moving from $3V$ back to $V$). Graph C correctly depicts these two steps.",
-            "solution_images": [],
-            "difficulty": "Hard",
-            "marks": 4
-        },
-        {
-            "id": 3,
-            "chapter": "Thermodynamics",
-            "question": "The efficiency of a Carnot engine working between 27°C and 127°C is",
-            "question_latex": "The efficiency of a Carnot engine working between $27^{\\circ}C$ and $127^{\\circ}C$ is",
-            "question_images": [],
-            "options": [
-                "A. 25%",
-                "B. 33%",
-                "C. 50%",
-                "D. 75%"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$T_{H} = 127 + 273 = 400~K$, $T_{L} = 27 + 273 = 300~K$. $\\eta = 1 - \\frac{T_{L}}{T_{H}} = 1 - \\frac{300}{400} = 25\\%$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 4,
-            "chapter": "Thermodynamics",
-            "question": "In a given process on an ideal gas, dW = 0 and dQ < 0, then for the gas [MHT-CET 2021]",
-            "question_latex": "In a given process on an ideal gas, $dW = 0$ and $dQ < 0$, then for the gas [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. The temperature will decrease",
-                "B. The volume will increase",
-                "C. The pressure will remain constant",
-                "D. The temperature will increase"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "From First Law, $dQ = dU + dW$. If $dW = 0$ and $dQ < 0$, then $dU < 0$. For an ideal gas, $dU \\propto dT$, so a decrease in internal energy means a decrease in temperature.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 5,
-            "chapter": "Thermodynamics",
-            "question": "An ideal gas is taken through the cycle A -> B -> C -> A, as shown in the figure. If the net heat supplied to the gas in the cycle is 5 J, the work done by the gas in the process C -> A is",
-            "question_latex": "An ideal gas is taken through the cycle $A \\rightarrow B \\rightarrow C \\rightarrow A$, as shown in the figure. If the net heat supplied to the gas in the cycle is $5$ J, the work done by the gas in the process $C \\rightarrow A$ is",
-            "question_images": [
-                "q5_1"
-            ],
-            "options": [
-                "A. -5 J",
-                "B. -10 J",
-                "C. -15 J",
-                "D. -20 J"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "In a cycle, $\\Delta U = 0$, so $Q_{net} = W_{net}$. $5 = W_{AB} + W_{BC} + W_{CA}$. From graph, $W_{BC} = 0$ (isochoric). $W_{AB} = P \\Delta V = 10 \\times (2-1) = 10$ J. Thus, $5 = 10 + 0 + W_{CA} \\Rightarrow W_{CA} = -5$ J.",
-            "solution_images": [],
-            "difficulty": "Hard",
-            "marks": 4
-        },
-        {
-            "id": 6,
-            "chapter": "Thermodynamics",
-            "question": "A Carnot engine has the same efficiency when (i) its source is at 500 K and sink is at 400 K and (ii) its source is at T K and sink is at 300 K. The value of T is [MHT-CET 2022]",
-            "question_latex": "A Carnot engine has the same efficiency when (i) its source is at $500~K$ and sink is at $400~K$ and (ii) its source is at $T~K$ and sink is at $300~K$. The value of $T$ is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 375 K",
-                "B. 400 K",
-                "C. 450 K",
-                "D. 600 K"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\eta_{1} = 1 - 400/500 = 1/5$. $\\eta_{2} = 1 - 300/T = 1/5 \\Rightarrow 300/T = 4/5 \\Rightarrow T = 375~K$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 7,
-            "chapter": "Thermodynamics",
-            "question": "In an adiabatic process, the state of a gas is changed from (P1, V1, T1) to (P2, V2, T2). Which of the following is correct? [MHT-CET 2023]",
-            "question_latex": "In an adiabatic process, the state of a gas is changed from ($P_{1}, V_{1}, T_{1}$) to ($P_{2}, V_{2}, T_{2}$). Which of the following is correct? [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. P1 V1^gamma = P2 V2^gamma",
-                "B. T1 V1^(gamma-1) = T2 V2^(gamma-1)",
-                "C. P1^(1-gamma) T1^gamma = P2^(1-gamma) T2^gamma",
-                "D. All of the above"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "All these relations represent the adiabatic process for an ideal gas in terms of different state variables.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 8,
-            "chapter": "Thermodynamics",
-            "question": "A refrigerator is to maintain eatables kept inside at 9°C. If room temperature is 36°C, calculate the coefficient of performance. [MHT-CET 2022]",
-            "question_latex": "A refrigerator is to maintain eatables kept inside at $9^{\\circ}C$. If room temperature is $36^{\\circ}C$, calculate the coefficient of performance. [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 10.44",
-                "B. 12.8",
-                "C. 9.3",
-                "D. 11.5"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$T_{L} = 9 + 273 = 282~K, T_{H} = 36 + 273 = 309~K$. $COP = \\frac{T_{L}}{T_{H}-T_{L}} = \\frac{282}{309-282} = \\frac{282}{27} \\approx 10.44$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 9,
-            "chapter": "Thermodynamics",
-            "question": "The work done in an isochoric process is",
-            "question_latex": "The work done in an isochoric process is",
-            "question_images": [],
-            "options": [
-                "A. P delta V",
-                "B. zero",
-                "C. nRT ln(V2/V1)",
-                "D. delta U"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "In an isochoric process, volume is constant ($\\Delta V = 0$), so $W = P \\Delta V = 0$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 10,
-            "chapter": "Thermodynamics",
-            "question": "A thermodynamic system is taken from state A to B along path ACB and is brought back to A along path BDA as shown in the P-V diagram. The net work done during one complete cycle is given by the area",
-            "question_latex": "A thermodynamic system is taken from state A to B along path ACB and is brought back to A along path BDA as shown in the $P-V$ diagram. The net work done during one complete cycle is given by the area",
-            "question_images": [
-                "q10_1"
-            ],
-            "options": [
-                "A. ACBDA",
-                "B. ACBC",
-                "C. ADBA",
-                "D. none"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "The net work done in a cyclic process is represented by the area enclosed by the cycle in the $P-V$ plane.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 11,
-            "chapter": "Thermodynamics",
-            "question": "When a gas is expanded adiabatically [MHT-CET 2020]",
-            "question_latex": "When a gas is expanded adiabatically [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. it does work at the expense of its internal energy",
-                "B. it does work and its temperature remains constant",
-                "C. heat is supplied to it",
-                "D. internal energy remains constant"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "In adiabatic expansion, $dQ = 0 \\Rightarrow dW = -dU$. The work done by the gas causes its internal energy (and temperature) to decrease.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 12,
-            "chapter": "Thermodynamics",
-            "question": "A monoatomic gas at pressure P and volume V is suddenly compressed to one-eighth of its original volume. The final pressure at constant entropy is [gamma = 5/3]",
-            "question_latex": "A monoatomic gas at pressure $P$ and volume $V$ is suddenly compressed to one-eighth of its original volume. The final pressure at constant entropy is [$\\gamma = 5/3$]",
-            "question_images": [],
-            "options": [
-                "A. 8 P",
-                "B. 16 P",
-                "C. 32 P",
-                "D. 64 P"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Constant entropy means adiabatic process: $P_{1} V_{1}^{\\gamma} = P_{2} V_{2}^{\\gamma} \\Rightarrow P_{2} = P (V / (V/8))^{5/3} = P (8)^{5/3} = P (2^{3})^{5/3} = 32 P$.",
-            "solution_images": [],
-            "difficulty": "Hard",
-            "marks": 4
-        },
-        {
-            "id": 13,
-            "chapter": "Thermodynamics",
-            "question": "Which of the following processes is reversible? [MHT-CET 2019]",
-            "question_latex": "Which of the following processes is reversible? [MHT-CET 2019]",
-            "question_images": [],
-            "options": [
-                "A. Transfer of heat by conduction",
-                "B. Transfer of heat by radiation",
-                "C. Isothermal compression",
-                "D. Electrical heating of a wire"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "An ideal isothermal process performed quasi-statically is reversible. Conduction, radiation, and resistive heating are inherently irreversible dissipative processes.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 14,
-            "chapter": "Thermodynamics",
-            "question": "For a thermodynamic process to be isothermal, the most important condition is [MHT-CET 2024]",
-            "question_latex": "For a thermodynamic process to be isothermal, the most important condition is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. the process should take place slowly",
-                "B. the walls of the container should be perfectly conducting",
-                "C. both A and B",
-                "D. the process should take place rapidly"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Isothermal processes require thermal equilibrium with the surroundings at all times, which necessitates conducting walls and a slow rate of change.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 15,
-            "chapter": "Thermodynamics",
-            "question": "The second law of thermodynamics implies [MHT-CET 2023]",
-            "question_latex": "The second law of thermodynamics implies [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. heat cannot be converted into work",
-                "B. work cannot be converted into heat",
-                "C. a heat engine cannot have 100% efficiency",
-                "D. the entropy of the universe is constant"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "The Kelvin-Planck statement of the Second Law confirms that no engine can convert all absorbed heat into work without rejecting some to a sink.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 16,
-            "chapter": "Thermodynamics",
-            "question": "In a cyclic process, the change in internal energy is [MHT-CET 2022]",
-            "question_latex": "In a cyclic process, the change in internal energy is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. equal to work done"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Internal energy is a state function. In a cycle, the system returns to its initial state, so $\\Delta U = 0$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 17,
-            "chapter": "Thermodynamics",
-            "question": "Calculate the work done during isothermal expansion of 1 mole of an ideal gas from 10 L to 20 L at 300 K. [R = 8.31 J/mol K]",
-            "question_latex": "Calculate the work done during isothermal expansion of $1$ mole of an ideal gas from $10$ L to $20$ L at $300$ K. [$R = 8.31~J/mol~K$]",
-            "question_images": [],
-            "options": [
-                "A. 1728 J",
-                "B. 2303 J",
-                "C. 1500 J",
-                "D. 3000 J"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$W = 2.303 nRT \\log_{10}(V_{2}/V_{1}) = 2.303 \\times 1 \\times 8.31 \\times 300 \\log_{10}(2) = 2.303 \\times 2493 \\times 0.3010 \\approx 1728$ J.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 18,
-            "chapter": "Thermodynamics",
-            "question": "A gas expands from 5 liter to 10 liter against a constant external pressure of 2 atm. The work done is",
-            "question_latex": "A gas expands from $5$ liter to $10$ liter against a constant external pressure of $2$ atm. The work done is",
-            "question_images": [],
-            "options": [
-                "A. 1013 J",
-                "B. 10.13 J",
-                "C. 101.3 J",
-                "D. 500 J"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$W = P \\Delta V = (2 \\times 1.013 \\times 10^{5}) \\times (5 \\times 10^{-3}) = 1.013 \\times 10^{3} = 1013$ J.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 19,
-            "chapter": "Thermodynamics",
-            "question": "The temperature of the sink in a Carnot engine of efficiency 40% is 300 K. The temperature of the source is [MHT-CET 2024]",
-            "question_latex": "The temperature of the sink in a Carnot engine of efficiency $40\\%$ is $300$ K. The temperature of the source is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. 500 K",
-                "B. 750 K",
-                "C. 400 K",
-                "D. 600 K"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\eta = 1 - T_{L}/T_{H} \\Rightarrow 0.4 = 1 - 300/T_{H} \\Rightarrow 300/T_{H} = 0.6 \\Rightarrow T_{H} = 300/0.6 = 500~K$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 20,
-            "chapter": "Thermodynamics",
-            "question": "Heat given to a system is 30 cal and work done is 50 J. Change in internal energy is [1 cal = 4.18 J] [MHT-CET 2021]",
-            "question_latex": "Heat given to a system is $30$ cal and work done is $50$ J. Change in internal energy is [$1~cal = 4.18~J$] [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. 75.4 J",
-                "B. 125.4 J",
-                "C. 175.4 J",
-                "D. 25.4 J"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$Q = 30 \\times 4.18 = 125.4$ J. $\\Delta U = Q - W = 125.4 - 50 = 75.4$ J.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 21,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of a system is a [MHT-CET 2020]",
-            "question_latex": "Internal energy of a system is a [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. State function",
-                "B. Path function",
-                "C. Process variable",
-                "D. Extensive property only"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Internal energy depends only on the current state $(P, V, T)$ and not on how that state was reached.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 22,
-            "chapter": "Thermodynamics",
-            "question": "Efficiency of a heat engine is defined as [MHT-CET 2023]",
-            "question_latex": "Efficiency of a heat engine is defined as [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. W / Q_abs",
-                "B. Q_abs / W",
-                "C. W / Q_rej",
-                "D. Q_rej / W"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Efficiency is the ratio of useful work output to the total heat input absorbed from the source.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 23,
-            "chapter": "Thermodynamics",
-            "question": "A gas is compressed at constant pressure. The work done is [MHT-CET 2022]",
-            "question_latex": "A gas is compressed at constant pressure. The work done is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "$W = P \\Delta V$. In compression, $\\Delta V$ is negative, so work done by the system is negative.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 24,
-            "chapter": "Thermodynamics",
-            "question": "During a free expansion of a gas [MHT-CET 2024]",
-            "question_latex": "During a free expansion of a gas [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Work done is zero",
-                "B. Heat transfer is zero",
-                "C. Internal energy remains constant",
-                "D. All of the above"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "In free expansion against vacuum: $W = 0$, $Q = 0$, thus $\\Delta U = 0$ (for ideal gas).",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 25,
-            "chapter": "Thermodynamics",
-            "question": "Triple point of water is",
-            "question_latex": "Triple point of water is",
-            "question_images": [],
-            "options": [
-                "A. 273.16 K",
-                "B. 0.01°C",
-                "C. both A and B",
-                "D. 273.15 K"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "The triple point of water occurs at $273.16~K$ or $0.01^{\\circ}C$ at a specific pressure.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 26,
-            "chapter": "Thermodynamics",
-            "question": "For a Carnot engine, the ratio of heat absorbed to heat rejected is equal to [MHT-CET 2021]",
-            "question_latex": "For a Carnot engine, the ratio of heat absorbed to heat rejected is equal to [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. T_H / T_L",
-                "B. T_L / T_H",
-                "C. T_H + T_L",
-                "D. 1"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "For a reversible Carnot cycle, $Q_{H}/Q_{L} = T_{H}/T_{L}$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 27,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of an ideal gas depends only on [MHT-CET 2020]",
-            "question_latex": "Internal energy of an ideal gas depends only on [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. temperature",
-                "B. volume",
-                "C. pressure",
-                "D. path"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "For an ideal gas, there are no intermolecular forces, so $U$ is purely kinetic and depends only on $T$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 28,
-            "chapter": "Thermodynamics",
-            "question": "A gas is expanded such that $PV^{2} = \\text{constant}$. The process is [MHT-CET 2023]",
-            "question_latex": "A gas is expanded such that $PV^{2} = \\text{constant}$. The process is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. Adiabatic",
-                "B. Isothermal",
-                "C. Polytropic",
-                "D. Isobaric"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "A process following $PV^{n} = \\text{constant}$ where $n \\neq \\gamma$ is a polytropic process.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 29,
-            "chapter": "Thermodynamics",
-            "question": "Work done in adiabatic process is [MHT-CET 2022]",
-            "question_latex": "Work done in adiabatic process is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. (P1V1 - P2V2) / (gamma - 1)",
-                "B. (P2V2 - P1V1) / (gamma - 1)",
-                "C. nRT ln(V2/V1)",
-                "D. P delta V"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$W_{adia} = \\frac{P_{1}V_{1} - P_{2}V_{2}}{\\gamma - 1} = \\frac{nR(T_{1}-T_{2})}{\\gamma - 1}$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 30,
-            "chapter": "Thermodynamics",
-            "question": "Coefficient of performance of a refrigerator is always [MHT-CET 2024]",
-            "question_latex": "Coefficient of performance of a refrigerator is always [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. < 1",
-                "B. > 1",
-                "C. equal to 1",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Typically, the heat extracted ($Q_{L}$) is greater than the work input ($W$), making $COP > 1$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 31,
-            "chapter": "Thermodynamics",
-            "question": "First law of thermodynamics is consistent with",
-            "question_latex": "First law of thermodynamics is consistent with",
-            "question_images": [],
-            "options": [
-                "A. Newton's 2nd law",
-                "B. Law of conservation of energy",
-                "C. Law of conservation of mass",
-                "D. Bernoulli's principle"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Basic fundamental concept.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 32,
-            "chapter": "Thermodynamics",
-            "question": "Which of the following describes isothermal expansion? [MHT-CET 2021]",
-            "question_latex": "Which of the following describes isothermal expansion? [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. dU = 0, dQ = dW",
-                "B. dU = dQ, dW = 0",
-                "C. dQ = 0, dW = -dU",
-                "D. dW = dQ + dU"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$T$ constant $\\Rightarrow dU = 0$. By 1st law, $dQ = dW$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 33,
-            "chapter": "Thermodynamics",
-            "question": "Area under P-V curve represents [MHT-CET 2023]",
-            "question_latex": "Area under $P-V$ curve represents [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. Internal energy",
-                "B. Heat",
-                "C. Work",
-                "D. Temperature"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "The integral $\\int P dV$ is the mechanical work done.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 34,
-            "chapter": "Thermodynamics",
-            "question": "A cycle consists of two isothermal and two adiabatic processes. This is [MHT-CET 2020]",
-            "question_latex": "A cycle consists of two isothermal and two adiabatic processes. This is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. Otto cycle",
-                "B. Carnot cycle",
-                "C. Diesel cycle",
-                "D. Rankine cycle"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Definition of the Carnot cycle.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 35,
-            "chapter": "Thermodynamics",
-            "question": "In a refrigerator, heat is [MHT-CET 2024]",
-            "question_latex": "In a refrigerator, heat is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. absorbed from cold body and rejected to hot body",
-                "B. absorbed from hot body and rejected to cold body",
-                "C. converted to work with 100% efficiency",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Refrigerators act as heat pumps, moving energy against the natural gradient.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 36,
-            "chapter": "Thermodynamics",
-            "question": "For a monoatomic gas, gamma is [MHT-CET 2022]",
-            "question_latex": "For a monoatomic gas, $\\gamma$ is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 1.67",
-                "B. 1.4",
-                "C. 1.33",
-                "D. 1.5"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\gamma = C_{P}/C_{V} = 5/3 \\approx 1.67$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 37,
-            "chapter": "Thermodynamics",
-            "question": "Adiabatic compression causes [MHT-CET 2023]",
-            "question_latex": "Adiabatic compression causes [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. decrease in temperature",
-                "B. increase in temperature",
-                "C. no change in temperature",
-                "D. zero work"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Work is done on the gas ($W$ negative) and $Q=0$, so $\\Delta U$ must be positive, increasing $T$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 38,
-            "chapter": "Thermodynamics",
-            "question": "Isothermal process happens [MHT-CET 2021]",
-            "question_latex": "Isothermal process happens [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. very slowly",
-                "B. very fast",
-                "C. at zero pressure",
-                "D. in vacuum"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Needs time for heat exchange to maintain constant $T$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 39,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of an isolated system [MHT-CET 2020]",
-            "question_latex": "Internal energy of an isolated system [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. increases",
-                "B. decreases",
-                "C. remains constant",
-                "D. is zero"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "No heat or work interaction with surroundings.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 40,
-            "chapter": "Thermodynamics",
-            "question": "Efficiency of Carnot engine is 100% if [MHT-CET 2024]",
-            "question_latex": "Efficiency of Carnot engine is $100\\%$ if [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. T_sink = 0 K",
-                "B. T_source = infinity",
-                "C. both A and B",
-                "D. impossible"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "From $\\eta = 1 - T_{L}/T_{H}$, it equals $1$ if $T_{L}=0$ or $T_{H}=\\infty$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 41,
-            "chapter": "Thermodynamics",
-            "question": "For a diatomic gas, gamma is [MHT-CET 2022]",
-            "question_latex": "For a diatomic gas, $\\gamma$ is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 1.4",
-                "B. 1.67",
-                "C. 1.33",
-                "D. 1.5"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\gamma = 7/5 = 1.4$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 42,
-            "chapter": "Thermodynamics",
-            "question": "Change in entropy in adiabatic process is [MHT-CET 2023]",
-            "question_latex": "Change in entropy in adiabatic process is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Reversible adiabatic processes are isentropic ($dS = dQ/T = 0$).",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 43,
-            "chapter": "Thermodynamics",
-            "question": "Work done in expansion of gas [MHT-CET 2021]",
-            "question_latex": "Work done in expansion of gas [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. by the system",
-                "B. on the system",
-                "C. zero",
-                "D. depends on path"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Expansion implies work done by the gas.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 44,
-            "chapter": "Thermodynamics",
-            "question": "P-V curve for isothermal process is called [MHT-CET 2020]",
-            "question_latex": "$P-V$ curve for isothermal process is called [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. Isotherm",
-                "B. Adiabat",
-                "C. Isobar",
-                "D. Isochore"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Standard terminology.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 45,
-            "chapter": "Thermodynamics",
-            "question": "Heating of food in microwave is [MHT-CET 2024]",
-            "question_latex": "Heating of food in microwave is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Isothermal",
-                "B. Isochoric",
-                "C. Isobaric",
-                "D. None of these"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Volume of food stays mostly constant.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 46,
-            "chapter": "Thermodynamics",
-            "question": "Difference between Cp and Cv is R for [MHT-CET 2022]",
-            "question_latex": "Difference between $C_{P}$ and $C_{V}$ is $R$ for [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. real gas",
-                "B. ideal gas",
-                "C. liquid",
-                "D. solid"
-            ],
-            "option_images": [],
-            "answer": "B",
-            "solution": "Mayer's relation holds for ideal gases.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 47,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of system increases if [MHT-CET 2023]",
-            "question_latex": "Internal energy of system increases if [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. heat is supplied",
-                "B. work is done on system",
-                "C. both A and B",
-                "D. heat is rejected"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "$dU = dQ - dW$. Supply heat ($dQ$ pos) or work on ($dW$ neg) both increase $U$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 48,
-            "chapter": "Thermodynamics",
-            "question": "Coefficient of performance of heat pump is [MHT-CET 2021]",
-            "question_latex": "Coefficient of performance of heat pump is [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. Q_H / W",
-                "B. Q_L / W",
-                "C. W / Q_H",
-                "D. W / Q_L"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Desire is heating ($Q_{H}$) for work $W$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 49,
-            "chapter": "Thermodynamics",
-            "question": "Heat engine converts heat into [MHT-CET 2020]",
-            "question_latex": "Heat engine converts heat into [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. Work",
-                "B. Temperature",
-                "C. Pressure",
-                "D. Mass"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Basic definition.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 50,
-            "chapter": "Thermodynamics",
-            "question": "For a polyatomic gas, gamma is [MHT-CET 2024]",
-            "question_latex": "For a polyatomic gas, $\\gamma$ is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. 1.33",
-                "B. 1.4",
-                "C. 1.67",
-                "D. 1.5"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\gamma = 4/3 \\approx 1.33$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 51,
-            "chapter": "Thermodynamics",
-            "question": "Efficiency of engine with source 400 K and sink 300 K is [MHT-CET 2022]",
-            "question_latex": "Efficiency of engine with source $400~K$ and sink $300~K$ is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 25%",
-                "B. 33%",
-                "C. 50%",
-                "D. 75%"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$1 - 300/400 = 0.25$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 52,
-            "chapter": "Thermodynamics",
-            "question": "First law applied to isochoric process is [MHT-CET 2023]",
-            "question_latex": "First law applied to isochoric process is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. dQ = dU",
-                "B. dQ = dW",
-                "C. dU = -dW",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$dW = 0$ in isochoric.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 53,
-            "chapter": "Thermodynamics",
-            "question": "Heat flows from low to high temp only with [MHT-CET 2021]",
-            "question_latex": "Heat flows from low to high temp only with [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. external work",
-                "B. natural flow",
-                "C. adiabatic walls",
-                "D. impossible"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Clausius statement of Second Law.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 54,
-            "chapter": "Thermodynamics",
-            "question": "Steeper curve in P-V graph belongs to [MHT-CET 2020]",
-            "question_latex": "Steeper curve in $P-V$ graph belongs to [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. Adiabatic",
-                "B. Isothermal",
-                "C. Isobaric",
-                "D. Isochoric"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Slope of adiabat is $\\gamma$ times isotherm.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 55,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of diatomic gas at T is [MHT-CET 2024]",
-            "question_latex": "Internal energy of diatomic gas at $T$ is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. 5/2 RT",
-                "B. 3/2 RT",
-                "C. RT",
-                "D. 7/2 RT"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "5 degrees of freedom.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 56,
-            "chapter": "Thermodynamics",
-            "question": "If work is done by gas, volume [MHT-CET 2022]",
-            "question_latex": "If work is done by gas, volume [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. increases",
-                "B. decreases",
-                "C. stays same",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Expansion.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 57,
-            "chapter": "Thermodynamics",
-            "question": "Work done in adiabatic expansion is [MHT-CET 2023]",
-            "question_latex": "Work done in adiabatic expansion is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "By the system.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 58,
-            "chapter": "Thermodynamics",
-            "question": "A refrigerator works on [MHT-CET 2021]",
-            "question_latex": "A refrigerator works on [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. reverse Carnot cycle",
-                "B. Carnot cycle",
-                "C. Rankine cycle",
-                "D. Otto cycle"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Ideal refrigerator model.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 59,
-            "chapter": "Thermodynamics",
-            "question": "In isothermal process, P-V relation is [MHT-CET 2020]",
-            "question_latex": "In isothermal process, $P-V$ relation is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. PV = constant",
-                "B. PV^gamma = constant",
-                "C. P/V = constant",
-                "D. V/T = constant"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Boyle's Law.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 60,
-            "chapter": "Thermodynamics",
-            "question": "Heat required to raise 1 mole gas by 1 K at constant V is [MHT-CET 2024]",
-            "question_latex": "Heat required to raise $1$ mole gas by $1$ K at constant $V$ is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Cv",
-                "B. Cp",
-                "C. R",
-                "D. gamma"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Definition of $C_{V}$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 61,
-            "chapter": "Thermodynamics",
-            "question": "Efficiency of engine is zero if [MHT-CET 2022]",
-            "question_latex": "Efficiency of engine is zero if [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. T_source = T_sink",
-                "B. T_sink = 0 K",
-                "C. W = Q_abs",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "No temperature difference means no work.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 62,
-            "chapter": "Thermodynamics",
-            "question": "Work done in isobaric process is [MHT-CET 2023]",
-            "question_latex": "Work done in isobaric process is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. P(V2 - V1)",
-                "B. zero",
-                "C. nRT ln(V2/V1)",
-                "D. delta U"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Constant pressure work.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 63,
-            "chapter": "Thermodynamics",
-            "question": "Total heat in adiabatic process [MHT-CET 2021]",
-            "question_latex": "Total heat in adiabatic process [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. remains constant",
-                "B. increases",
-                "C. decreases",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "No heat exchange.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 64,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of real gas depends on [MHT-CET 2020]",
-            "question_latex": "Internal energy of real gas depends on [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. T and V",
-                "B. T only",
-                "C. V only",
-                "D. P only"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Real gases have intermolecular forces, so $U$ has a potential term depending on $V$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 65,
-            "chapter": "Thermodynamics",
-            "question": "Freezing of water is [MHT-CET 2024]",
-            "question_latex": "Freezing of water is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. exothermic",
-                "B. endothermic",
-                "C. isothermal",
-                "D. both A and C"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "Rejects heat at constant temperature.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 66,
-            "chapter": "Thermodynamics",
-            "question": "Relation between COP (beta) and efficiency (eta) is [MHT-CET 2022]",
-            "question_latex": "Relation between $COP$ ($\\beta$) and efficiency ($\\eta$) is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. beta = (1 - eta) / eta",
-                "B. beta = eta / (1 - eta)",
-                "C. beta = 1 / eta",
-                "D. eta = beta"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Standard algebraic conversion between engine and refrigerator parameters.",
-            "solution_images": [],
-            "difficulty": "Hard",
-            "marks": 4
-        },
-        {
-            "id": 67,
-            "chapter": "Thermodynamics",
-            "question": "For a polytropic process PV^n = C, work is [MHT-CET 2023]",
-            "question_latex": "For a polytropic process $PV^{n} = C$, work is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. (P1V1 - P2V2) / (n - 1)",
-                "B. (P2V2 - P1V1) / (n - 1)",
-                "C. zero",
-                "D. nRT ln(V2/V1)"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Generalized work formula.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 68,
-            "chapter": "Thermodynamics",
-            "question": "Heat energy given to a system is [MHT-CET 2021]",
-            "question_latex": "Heat energy given to a system is [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Standard sign convention.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 69,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of an ideal gas at 0 K is [MHT-CET 2020]",
-            "question_latex": "Internal energy of an ideal gas at $0~K$ is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. zero",
-                "B. infinite",
-                "C. constant",
-                "D. negative"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "No thermal motion.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 70,
-            "chapter": "Thermodynamics",
-            "question": "COP of refrigerator with T_sink 250 K and T_source 300 K [MHT-CET 2024]",
-            "question_latex": "$COP$ of refrigerator with $T_{sink}~250~K$ and $T_{source}~300~K$ [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. 5",
-                "B. 4",
-                "C. 6",
-                "D. 1"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$250 / (300 - 250) = 250/50 = 5$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 71,
-            "chapter": "Thermodynamics",
-            "question": "Isothermal bulk modulus of gas is [MHT-CET 2022]",
-            "question_latex": "Isothermal bulk modulus of gas is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. P",
-                "B. gamma P",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "From $PV = C$, differentiate to get $-V dP/dV = P$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 72,
-            "chapter": "Thermodynamics",
-            "question": "Adiabatic bulk modulus of gas is [MHT-CET 2023]",
-            "question_latex": "Adiabatic bulk modulus of gas is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. gamma P",
-                "B. P",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "From $PV^{\\gamma} = C$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 73,
-            "chapter": "Thermodynamics",
-            "question": "Work done on a gas in compression [MHT-CET 2021]",
-            "question_latex": "Work done on a gas in compression [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. positive",
-                "B. negative",
-                "C. zero",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Work done 'on' the system is positive by convention in some texts, but 'by' the system is negative. MHT-CET usually follows 'by' convention ($W = P \\Delta V$). If asking for work done 'on', it is positive.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 74,
-            "chapter": "Thermodynamics",
-            "question": "Entropy of an isolated system always [MHT-CET 2020]",
-            "question_latex": "Entropy of an isolated system always [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. increases",
-                "B. decreases",
-                "C. remains same",
-                "D. becomes zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Second Law of Thermodynamics.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 75,
-            "chapter": "Thermodynamics",
-            "question": "Clausius statement deals with [MHT-CET 2024]",
-            "question_latex": "Clausius statement deals with [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Heat pump",
-                "B. Heat engine",
-                "C. Isothermal process",
-                "D. Isochoric process"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Direction of heat flow.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 76,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy of system is conserved in [MHT-CET 2022]",
-            "question_latex": "Internal energy of system is conserved in [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. Isothermal process",
-                "B. Adiabatic process",
-                "C. Cyclic process",
-                "D. both A and C"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "Since $T$ is constant or returns to start.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 77,
-            "chapter": "Thermodynamics",
-            "question": "Adiabatic compression of 2 moles gas, work is 100 J. Change in internal energy is [MHT-CET 2023]",
-            "question_latex": "Adiabatic compression of $2$ moles gas, work is $100$ J. Change in internal energy is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. 100 J",
-                "B. -100 J",
-                "C. 50 J",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$dU = -dW$. Compression work $dW = -100$ J $\\Rightarrow dU = 100$ J.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 78,
-            "chapter": "Thermodynamics",
-            "question": "A gas at 27°C is heated to double its pressure at constant V. New T is [MHT-CET 2021]",
-            "question_latex": "A gas at $27^{\\circ}C$ is heated to double its pressure at constant $V$. New $T$ is [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. 327°C",
-                "B. 54°C",
-                "C. 600°C",
-                "D. 127°C"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$P \\propto T$. $T_{2} = 2 T_{1} = 600~K = 327^{\\circ}C$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 79,
-            "chapter": "Thermodynamics",
-            "question": "Heat rejected by Carnot engine is 60 J and work is 40 J. Efficiency is [MHT-CET 2020]",
-            "question_latex": "Heat rejected by Carnot engine is $60$ J and work is $40$ J. Efficiency is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. 40%",
-                "B. 60%",
-                "C. 66.6%",
-                "D. 33.3%"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$Q_{abs} = 60 + 40 = 100$ J. $\\eta = 40/100 = 40\\%$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 80,
-            "chapter": "Thermodynamics",
-            "question": "A sample of gas expands from V to 2V. Work is max in [MHT-CET 2024]",
-            "question_latex": "A sample of gas expands from $V$ to $2V$. Work is max in [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Isobaric",
-                "B. Isothermal",
-                "C. Adiabatic",
-                "D. all same"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Isobaric expansion maintains higher pressure throughout compared to others.",
-            "solution_images": [],
-            "difficulty": "Hard",
-            "marks": 4
-        },
-        {
-            "id": 81,
-            "chapter": "Thermodynamics",
-            "question": "Work done in expansion of gas from 1 m^3 to 2 m^3 at 1 atm is [MHT-CET 2022]",
-            "question_latex": "Work done in expansion of gas from $1~m^{3}$ to $2~m^{3}$ at $1~atm$ is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 1.013 x 10^5 J",
-                "B. 1.013 J",
-                "C. 2.026 x 10^5 J",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$1 \\times (1.013 \\times 10^{5}) = 1.013 \\times 10^{5}$ J.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 82,
-            "chapter": "Thermodynamics",
-            "question": "For a cyclic process, First law is [MHT-CET 2023]",
-            "question_latex": "For a cyclic process, First law is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. dQ = dW",
-                "B. dU = 0",
-                "C. both A and B",
-                "D. dQ = dU"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Integrates First Law for full cycle.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 83,
-            "chapter": "Thermodynamics",
-            "question": "Work done in isothermal expansion depends on [MHT-CET 2021]",
-            "question_latex": "Work done in isothermal expansion depends on [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. Temperature",
-                "B. Expansion ratio",
-                "C. both A and B",
-                "D. pressure only"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "$W = nRT \\ln(V_{2}/V_{1})$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 84,
-            "chapter": "Thermodynamics",
-            "question": "Adiabatic exponent gamma for triatomic linear gas is [MHT-CET 2020]",
-            "question_latex": "Adiabatic exponent $\\gamma$ for triatomic linear gas is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. 1.4",
-                "B. 1.28",
-                "C. 1.67",
-                "D. 1.33"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Linear molecules like $CO_{2}$ have 5 degrees of freedom at moderate $T$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 85,
-            "chapter": "Thermodynamics",
-            "question": "In heat engine, Q1 is absorbed and Q2 rejected. Work is [MHT-CET 2024]",
-            "question_latex": "In heat engine, $Q_{1}$ is absorbed and $Q_{2}$ rejected. Work is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Q1 - Q2",
-                "B. Q1 + Q2",
-                "C. Q2 - Q1",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Energy balance.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 86,
-            "chapter": "Thermodynamics",
-            "question": "A Carnot engine has sink at 27°C and efficiency 25%. Source is at [MHT-CET 2022]",
-            "question_latex": "A Carnot engine has sink at $27^{\\circ}C$ and efficiency $25\\%$. Source is at [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. 127°C",
-                "B. 100°C",
-                "C. 400 K",
-                "D. both A and C"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "$0.25 = 1 - 300/T_{H} \\Rightarrow 300/T_{H} = 0.75 \\Rightarrow T_{H} = 400~K = 127^{\\circ}C$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 87,
-            "chapter": "Thermodynamics",
-            "question": "Coefficient of performance of ideal refrigerator is [MHT-CET 2023]",
-            "question_latex": "Coefficient of performance of ideal refrigerator is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. T_L / (T_H - T_L)",
-                "B. T_H / (T_H - T_L)",
-                "C. (T_H - T_L) / T_L",
-                "D. 1 - T_L/T_H"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Standard formula.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 88,
-            "chapter": "Thermodynamics",
-            "question": "If gas is compressed to half its volume isothermally, pressure [MHT-CET 2021]",
-            "question_latex": "If gas is compressed to half its volume isothermally, pressure [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. doubles",
-                "B. halves",
-                "C. stays same",
-                "D. quadruples"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Boyle's Law.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 89,
-            "chapter": "Thermodynamics",
-            "question": "Entropy remains constant in [MHT-CET 2020]",
-            "question_latex": "Entropy remains constant in [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. Isentropic process",
-                "B. Adiabatic process",
-                "C. both A and B",
-                "D. Isothermal process"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Synonymous in reversible cases.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 90,
-            "chapter": "Thermodynamics",
-            "question": "Work done by system is 20 J when 50 J heat is added. Change in U [MHT-CET 2024]",
-            "question_latex": "Work done by system is $20$ J when $50$ J heat is added. Change in $U$ [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. 30 J",
-                "B. 70 J",
-                "C. -30 J",
-                "D. 50 J"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "50 - 20 = 30.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 91,
-            "chapter": "Thermodynamics",
-            "question": "Slope of adiabat is [MHT-CET 2022]",
-            "question_latex": "Slope of adiabat is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. gamma x slope of isotherm",
-                "B. slope of isotherm / gamma",
-                "C. same as isotherm",
-                "D. zero"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Standard derivation from $PV^{\\gamma} = C$.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 92,
-            "chapter": "Thermodynamics",
-            "question": "Expansion of gas into vacuum is [MHT-CET 2023]",
-            "question_latex": "Expansion of gas into vacuum is [MHT-CET 2023]",
-            "question_images": [],
-            "options": [
-                "A. Free expansion",
-                "B. Joule expansion",
-                "C. both A and B",
-                "D. Adiabatic expansion only"
-            ],
-            "option_images": [],
-            "answer": "C",
-            "solution": "Synonyms.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 93,
-            "chapter": "Thermodynamics",
-            "question": "Molar heat capacity at constant pressure Cp for monoatomic gas [MHT-CET 2021]",
-            "question_latex": "Molar heat capacity at constant pressure $C_{P}$ for monoatomic gas [MHT-CET 2021]",
-            "question_images": [],
-            "options": [
-                "A. 5/2 R",
-                "B. 3/2 R",
-                "C. 7/2 R",
-                "D. R"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "3/2 R + R = 5/2 R.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 94,
-            "chapter": "Thermodynamics",
-            "question": "Efficiency of Carnot engine sink at 0 K is [MHT-CET 2020]",
-            "question_latex": "Efficiency of Carnot engine sink at $0~K$ is [MHT-CET 2020]",
-            "question_images": [],
-            "options": [
-                "A. 100%",
-                "B. 0%",
-                "C. 50%",
-                "D. undefined"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "Theoretical limit.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 95,
-            "chapter": "Thermodynamics",
-            "question": "Heat engine cycle must be [MHT-CET 2024]",
-            "question_latex": "Heat engine cycle must be [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. Clockwise in P-V",
-                "B. Anticlockwise in P-V",
-                "C. Linear",
-                "D. Square"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "For positive net work done.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 96,
-            "chapter": "Thermodynamics",
-            "question": "Internal energy change in isothermal expansion is [MHT-CET 2022]",
-            "question_latex": "Internal energy change in isothermal expansion is [MHT-CET 2022]",
-            "question_images": [],
-            "options": [
-                "A. zero",
-                "B. positive",
-                "C. negative",
-                "D. infinite"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$T$ constant.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 97,
-            "chapter": "Thermodynamics",
-            "question": "When a gas is compressed isothermally, then (A) Internal energy of the system increases (B) Internal energy of the system decreases (C) Work done by the gas is positive (D) Work done by the gas is negative",
-            "question_latex": "When a gas is compressed isothermally, then (A) Internal energy of the system increases (B) Internal energy of the system decreases (C) Work done by the gas is positive (D) Work done by the gas is negative",
-            "question_images": [],
-            "options": [
-                "A. Internal energy of the system increases",
-                "B. Internal energy of the system decreases",
-                "C. Work done by the gas is positive",
-                "D. Work done by the gas is negative"
-            ],
-            "option_images": [],
-            "answer": "D",
-            "solution": "For an isothermal process, $\\Delta U = 0$ because temperature is constant. During compression, the volume decreases $(\\Delta V < 0)$, so work done by the gas $\\Delta W = P \\Delta V$ is negative.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 98,
-            "chapter": "Thermodynamics",
-            "question": "When the amount of work done is 333 cal and change in internal energy is 167 cal, then how much heat is supplied?",
-            "question_latex": "When the amount of work done is $333$ cal and change in internal energy is $167$ cal, then how much heat is supplied?",
-            "question_images": [],
-            "options": [
-                "A. 500 cal",
-                "B. 400 cal",
-                "C. 333 cal",
-                "D. 166 cal"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$\\Delta Q = \\Delta U + \\Delta W = 167 + 333 = 500$ cal.",
-            "solution_images": [],
-            "difficulty": "Easy",
-            "marks": 4
-        },
-        {
-            "id": 99,
-            "chapter": "Thermodynamics",
-            "question": "The increase in internal energy of a system is equal to the work done on the system. The system undergoes the process which is [MHT-CET 2024]",
-            "question_latex": "The increase in internal energy of a system is equal to the work done on the system. The system undergoes the process which is [MHT-CET 2024]",
-            "question_images": [],
-            "options": [
-                "A. adiabatic",
-                "B. isothermal",
-                "C. isochoric",
-                "D. isobaric"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "From First Law: $\\Delta Q = \\Delta U + \\Delta W$. If work is done 'on' the system, $\\Delta W$ is negative. $\\Delta U = -\\Delta W_{on}$ implies $\\Delta Q = 0$, which is an adiabatic process.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        },
-        {
-            "id": 100,
-            "chapter": "Thermodynamics",
-            "question": "The temperature of a given mass is increased from 27°C to 327°C. The rms velocity of the molecules increases",
-            "question_latex": "The temperature of a given mass is increased from $27^{\\circ}C$ to $327^{\\circ}C$. The rms velocity of the molecules increases",
-            "question_images": [],
-            "options": [
-                "A. sqrt(2) times",
-                "B. 2 times",
-                "C. 2 sqrt(2) times",
-                "D. 4 times"
-            ],
-            "option_images": [],
-            "answer": "A",
-            "solution": "$T_{1} = 300~K, T_{2} = 600~K$. $v_{rms} \\propto \\sqrt{T}$. $v_{2}/v_{1} = \\sqrt{600/300} = \\sqrt{2}$.",
-            "solution_images": [],
-            "difficulty": "Medium",
-            "marks": 4
-        }
-    ]
+    {
+        "id": 1,
+        "chapter": "Thermodynamics",
+        "question": "Volume-temperature graph at atmospheric pressure for a monoatomic gas (V in m^3, T in °C) is",
+        "question_latex": "Volume-temperature graph at atmospheric pressure for a monoatomic gas ($V$ in $m^{3}$, $T$ in $^{\\circ}C$) is",
+        "question_images": [],
+        "options": [
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
+        ],
+        "option_images": [
+            "q1_option_a1",
+            "q1_option_b1",
+            "q1_option_c1",
+            "q1_option_d1"
+        ],
+        "answer": "C",
+        "solution": "At constant pressure, $V \\propto T$. In terms of Celsius, $V = V_{0}(1 + \\gamma t) = V_{0}(1 + \\frac{t}{273.15})$. This represents a straight line with a positive intercept on the volume axis and an intercept of $-273.15^{\\circ}C$ on the temperature axis.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 2,
+        "chapter": "Thermodynamics",
+        "question": "One mole of a gas goes from an initial state 'A' to final state 'B' via two processes. If first undergoes isothermal expansion from 'v' to '3 v' and then its volume is reduced form '3 V' to 'V' at constant pressure. The correct P-V diagram representing two process is [MHT-CET 2024]",
+        "question_latex": "One mole of a gas goes from an initial state '$A$' to final state '$B$' via two processes. If first undergoes isothermal expansion from '$V$' to '$3V$' and then its volume is reduced form '$3V$' to '$V$' at constant pressure. The correct $P-V$ diagram representing two process is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
+        ],
+        "option_images": [
+            "q2_option_a1",
+            "q2_option_b1",
+            "q2_option_c1",
+            "q2_option_d1"
+        ],
+        "answer": "C",
+        "solution": "The first process is an isothermal expansion (hyperbolic curve moving from $V$ to $3V$). The second process is isobaric compression (horizontal line moving from $3V$ back to $V$). Graph C correctly depicts these two steps.",
+        "solution_images": [],
+        "difficulty": "Hard",
+        "marks": 4
+    },
+    {
+        "id": 3,
+        "chapter": "Thermodynamics",
+        "question": "The efficiency of a Carnot engine working between 27°C and 127°C is",
+        "question_latex": "The efficiency of a Carnot engine working between $27^{\\circ}C$ and $127^{\\circ}C$ is",
+        "question_images": [],
+        "options": [
+            "A. 25%",
+            "B. 33%",
+            "C. 50%",
+            "D. 75%"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$T_{H} = 127 + 273 = 400~K$, $T_{L} = 27 + 273 = 300~K$. $\\eta = 1 - \\frac{T_{L}}{T_{H}} = 1 - \\frac{300}{400} = 25\\%$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 4,
+        "chapter": "Thermodynamics",
+        "question": "In a given process on an ideal gas, dW = 0 and dQ < 0, then for the gas [MHT-CET 2021]",
+        "question_latex": "In a given process on an ideal gas, $dW = 0$ and $dQ < 0$, then for the gas [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. The temperature will decrease",
+            "B. The volume will increase",
+            "C. The pressure will remain constant",
+            "D. The temperature will increase"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "From First Law, $dQ = dU + dW$. If $dW = 0$ and $dQ < 0$, then $dU < 0$. For an ideal gas, $dU \\propto dT$, so a decrease in internal energy means a decrease in temperature.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 5,
+        "chapter": "Thermodynamics",
+        "question": "An ideal gas is taken through the cycle A -> B -> C -> A, as shown in the figure. If the net heat supplied to the gas in the cycle is 5 J, the work done by the gas in the process C -> A is",
+        "question_latex": "An ideal gas is taken through the cycle $A \\rightarrow B \\rightarrow C \\rightarrow A$, as shown in the figure. If the net heat supplied to the gas in the cycle is $5$ J, the work done by the gas in the process $C \\rightarrow A$ is",
+        "question_images": [
+            "q5_1"
+        ],
+        "options": [
+            "A. -5 J",
+            "B. -10 J",
+            "C. -15 J",
+            "D. -20 J"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "In a cycle, $\\Delta U = 0$, so $Q_{net} = W_{net}$. $5 = W_{AB} + W_{BC} + W_{CA}$. From graph, $W_{BC} = 0$ (isochoric). $W_{AB} = P \\Delta V = 10 \\times (2-1) = 10$ J. Thus, $5 = 10 + 0 + W_{CA} \\Rightarrow W_{CA} = -5$ J.",
+        "solution_images": [],
+        "difficulty": "Hard",
+        "marks": 4
+    },
+    {
+        "id": 6,
+        "chapter": "Thermodynamics",
+        "question": "A Carnot engine has the same efficiency when (i) its source is at 500 K and sink is at 400 K and (ii) its source is at T K and sink is at 300 K. The value of T is [MHT-CET 2022]",
+        "question_latex": "A Carnot engine has the same efficiency when (i) its source is at $500~K$ and sink is at $400~K$ and (ii) its source is at $T~K$ and sink is at $300~K$. The value of $T$ is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 375 K",
+            "B. 400 K",
+            "C. 450 K",
+            "D. 600 K"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\eta_{1} = 1 - 400/500 = 1/5$. $\\eta_{2} = 1 - 300/T = 1/5 \\Rightarrow 300/T = 4/5 \\Rightarrow T = 375~K$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 7,
+        "chapter": "Thermodynamics",
+        "question": "In an adiabatic process, the state of a gas is changed from (P1, V1, T1) to (P2, V2, T2). Which of the following is correct? [MHT-CET 2023]",
+        "question_latex": "In an adiabatic process, the state of a gas is changed from ($P_{1}, V_{1}, T_{1}$) to ($P_{2}, V_{2}, T_{2}$). Which of the following is correct? [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. P1 V1^gamma = P2 V2^gamma",
+            "B. T1 V1^(gamma-1) = T2 V2^(gamma-1)",
+            "C. P1^(1-gamma) T1^gamma = P2^(1-gamma) T2^gamma",
+            "D. All of the above"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "All these relations represent the adiabatic process for an ideal gas in terms of different state variables.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 8,
+        "chapter": "Thermodynamics",
+        "question": "A refrigerator is to maintain eatables kept inside at 9°C. If room temperature is 36°C, calculate the coefficient of performance. [MHT-CET 2022]",
+        "question_latex": "A refrigerator is to maintain eatables kept inside at $9^{\\circ}C$. If room temperature is $36^{\\circ}C$, calculate the coefficient of performance. [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 10.44",
+            "B. 12.8",
+            "C. 9.3",
+            "D. 11.5"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$T_{L} = 9 + 273 = 282~K, T_{H} = 36 + 273 = 309~K$. $COP = \\frac{T_{L}}{T_{H}-T_{L}} = \\frac{282}{309-282} = \\frac{282}{27} \\approx 10.44$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 9,
+        "chapter": "Thermodynamics",
+        "question": "The work done in an isochoric process is",
+        "question_latex": "The work done in an isochoric process is",
+        "question_images": [],
+        "options": [
+            "A. P delta V",
+            "B. zero",
+            "C. nRT ln(V2/V1)",
+            "D. delta U"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "In an isochoric process, volume is constant ($\\Delta V = 0$), so $W = P \\Delta V = 0$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 10,
+        "chapter": "Thermodynamics",
+        "question": "A thermodynamic system is taken from state A to B along path ACB and is brought back to A along path BDA as shown in the P-V diagram. The net work done during one complete cycle is given by the area",
+        "question_latex": "A thermodynamic system is taken from state A to B along path ACB and is brought back to A along path BDA as shown in the $P-V$ diagram. The net work done during one complete cycle is given by the area",
+        "question_images": [
+            "q10_1"
+        ],
+        "options": [
+            "A. ACBDA",
+            "B. ACBC",
+            "C. ADBA",
+            "D. none"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "The net work done in a cyclic process is represented by the area enclosed by the cycle in the $P-V$ plane.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 11,
+        "chapter": "Thermodynamics",
+        "question": "When a gas is expanded adiabatically [MHT-CET 2020]",
+        "question_latex": "When a gas is expanded adiabatically [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. it does work at the expense of its internal energy",
+            "B. it does work and its temperature remains constant",
+            "C. heat is supplied to it",
+            "D. internal energy remains constant"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "In adiabatic expansion, $dQ = 0 \\Rightarrow dW = -dU$. The work done by the gas causes its internal energy (and temperature) to decrease.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 12,
+        "chapter": "Thermodynamics",
+        "question": "A monoatomic gas at pressure P and volume V is suddenly compressed to one-eighth of its original volume. The final pressure at constant entropy is [gamma = 5/3]",
+        "question_latex": "A monoatomic gas at pressure $P$ and volume $V$ is suddenly compressed to one-eighth of its original volume. The final pressure at constant entropy is [$\\gamma = 5/3$]",
+        "question_images": [],
+        "options": [
+            "A. 8 P",
+            "B. 16 P",
+            "C. 32 P",
+            "D. 64 P"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Constant entropy means adiabatic process: $P_{1} V_{1}^{\\gamma} = P_{2} V_{2}^{\\gamma} \\Rightarrow P_{2} = P (V / (V/8))^{5/3} = P (8)^{5/3} = P (2^{3})^{5/3} = 32 P$.",
+        "solution_images": [],
+        "difficulty": "Hard",
+        "marks": 4
+    },
+    {
+        "id": 13,
+        "chapter": "Thermodynamics",
+        "question": "Which of the following processes is reversible? [MHT-CET 2019]",
+        "question_latex": "Which of the following processes is reversible? [MHT-CET 2019]",
+        "question_images": [],
+        "options": [
+            "A. Transfer of heat by conduction",
+            "B. Transfer of heat by radiation",
+            "C. Isothermal compression",
+            "D. Electrical heating of a wire"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "An ideal isothermal process performed quasi-statically is reversible. Conduction, radiation, and resistive heating are inherently irreversible dissipative processes.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 14,
+        "chapter": "Thermodynamics",
+        "question": "For a thermodynamic process to be isothermal, the most important condition is [MHT-CET 2024]",
+        "question_latex": "For a thermodynamic process to be isothermal, the most important condition is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. the process should take place slowly",
+            "B. the walls of the container should be perfectly conducting",
+            "C. both A and B",
+            "D. the process should take place rapidly"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Isothermal processes require thermal equilibrium with the surroundings at all times, which necessitates conducting walls and a slow rate of change.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 15,
+        "chapter": "Thermodynamics",
+        "question": "The second law of thermodynamics implies [MHT-CET 2023]",
+        "question_latex": "The second law of thermodynamics implies [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. heat cannot be converted into work",
+            "B. work cannot be converted into heat",
+            "C. a heat engine cannot have 100% efficiency",
+            "D. the entropy of the universe is constant"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "The Kelvin-Planck statement of the Second Law confirms that no engine can convert all absorbed heat into work without rejecting some to a sink.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 16,
+        "chapter": "Thermodynamics",
+        "question": "In a cyclic process, the change in internal energy is [MHT-CET 2022]",
+        "question_latex": "In a cyclic process, the change in internal energy is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. equal to work done"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Internal energy is a state function. In a cycle, the system returns to its initial state, so $\\Delta U = 0$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 17,
+        "chapter": "Thermodynamics",
+        "question": "Calculate the work done during isothermal expansion of 1 mole of an ideal gas from 10 L to 20 L at 300 K. [R = 8.31 J/mol K]",
+        "question_latex": "Calculate the work done during isothermal expansion of $1$ mole of an ideal gas from $10$ L to $20$ L at $300$ K. [$R = 8.31~J/mol~K$]",
+        "question_images": [],
+        "options": [
+            "A. 1728 J",
+            "B. 2303 J",
+            "C. 1500 J",
+            "D. 3000 J"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$W = 2.303 nRT \\log_{10}(V_{2}/V_{1}) = 2.303 \\times 1 \\times 8.31 \\times 300 \\log_{10}(2) = 2.303 \\times 2493 \\times 0.3010 \\approx 1728$ J.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 18,
+        "chapter": "Thermodynamics",
+        "question": "A gas expands from 5 liter to 10 liter against a constant external pressure of 2 atm. The work done is",
+        "question_latex": "A gas expands from $5$ liter to $10$ liter against a constant external pressure of $2$ atm. The work done is",
+        "question_images": [],
+        "options": [
+            "A. 1013 J",
+            "B. 10.13 J",
+            "C. 101.3 J",
+            "D. 500 J"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$W = P \\Delta V = (2 \\times 1.013 \\times 10^{5}) \\times (5 \\times 10^{-3}) = 1.013 \\times 10^{3} = 1013$ J.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 19,
+        "chapter": "Thermodynamics",
+        "question": "The temperature of the sink in a Carnot engine of efficiency 40% is 300 K. The temperature of the source is [MHT-CET 2024]",
+        "question_latex": "The temperature of the sink in a Carnot engine of efficiency $40\\%$ is $300$ K. The temperature of the source is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. 500 K",
+            "B. 750 K",
+            "C. 400 K",
+            "D. 600 K"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\eta = 1 - T_{L}/T_{H} \\Rightarrow 0.4 = 1 - 300/T_{H} \\Rightarrow 300/T_{H} = 0.6 \\Rightarrow T_{H} = 300/0.6 = 500~K$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 20,
+        "chapter": "Thermodynamics",
+        "question": "Heat given to a system is 30 cal and work done is 50 J. Change in internal energy is [1 cal = 4.18 J] [MHT-CET 2021]",
+        "question_latex": "Heat given to a system is $30$ cal and work done is $50$ J. Change in internal energy is [$1~cal = 4.18~J$] [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. 75.4 J",
+            "B. 125.4 J",
+            "C. 175.4 J",
+            "D. 25.4 J"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$Q = 30 \\times 4.18 = 125.4$ J. $\\Delta U = Q - W = 125.4 - 50 = 75.4$ J.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 21,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of a system is a [MHT-CET 2020]",
+        "question_latex": "Internal energy of a system is a [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. State function",
+            "B. Path function",
+            "C. Process variable",
+            "D. Extensive property only"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Internal energy depends only on the current state $(P, V, T)$ and not on how that state was reached.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 22,
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of a heat engine is defined as [MHT-CET 2023]",
+        "question_latex": "Efficiency of a heat engine is defined as [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. W / Q_abs",
+            "B. Q_abs / W",
+            "C. W / Q_rej",
+            "D. Q_rej / W"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Efficiency is the ratio of useful work output to the total heat input absorbed from the source.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 23,
+        "chapter": "Thermodynamics",
+        "question": "A gas is compressed at constant pressure. The work done is [MHT-CET 2022]",
+        "question_latex": "A gas is compressed at constant pressure. The work done is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "$W = P \\Delta V$. In compression, $\\Delta V$ is negative, so work done by the system is negative.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 24,
+        "chapter": "Thermodynamics",
+        "question": "During a free expansion of a gas [MHT-CET 2024]",
+        "question_latex": "During a free expansion of a gas [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Work done is zero",
+            "B. Heat transfer is zero",
+            "C. Internal energy remains constant",
+            "D. All of the above"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "In free expansion against vacuum: $W = 0$, $Q = 0$, thus $\\Delta U = 0$ (for ideal gas).",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 25,
+        "chapter": "Thermodynamics",
+        "question": "Triple point of water is",
+        "question_latex": "Triple point of water is",
+        "question_images": [],
+        "options": [
+            "A. 273.16 K",
+            "B. 0.01°C",
+            "C. both A and B",
+            "D. 273.15 K"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "The triple point of water occurs at $273.16~K$ or $0.01^{\\circ}C$ at a specific pressure.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 26,
+        "chapter": "Thermodynamics",
+        "question": "For a Carnot engine, the ratio of heat absorbed to heat rejected is equal to [MHT-CET 2021]",
+        "question_latex": "For a Carnot engine, the ratio of heat absorbed to heat rejected is equal to [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. T_H / T_L",
+            "B. T_L / T_H",
+            "C. T_H + T_L",
+            "D. 1"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "For a reversible Carnot cycle, $Q_{H}/Q_{L} = T_{H}/T_{L}$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 27,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of an ideal gas depends only on [MHT-CET 2020]",
+        "question_latex": "Internal energy of an ideal gas depends only on [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. temperature",
+            "B. volume",
+            "C. pressure",
+            "D. path"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "For an ideal gas, there are no intermolecular forces, so $U$ is purely kinetic and depends only on $T$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 28,
+        "chapter": "Thermodynamics",
+        "question": "A gas is expanded such that $PV^{2} = \\text{constant}$. The process is [MHT-CET 2023]",
+        "question_latex": "A gas is expanded such that $PV^{2} = \\text{constant}$. The process is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. Adiabatic",
+            "B. Isothermal",
+            "C. Polytropic",
+            "D. Isobaric"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "A process following $PV^{n} = \\text{constant}$ where $n \\neq \\gamma$ is a polytropic process.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 29,
+        "chapter": "Thermodynamics",
+        "question": "Work done in adiabatic process is [MHT-CET 2022]",
+        "question_latex": "Work done in adiabatic process is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. (P1V1 - P2V2) / (gamma - 1)",
+            "B. (P2V2 - P1V1) / (gamma - 1)",
+            "C. nRT ln(V2/V1)",
+            "D. P delta V"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$W_{adia} = \\frac{P_{1}V_{1} - P_{2}V_{2}}{\\gamma - 1} = \\frac{nR(T_{1}-T_{2})}{\\gamma - 1}$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 30,
+        "chapter": "Thermodynamics",
+        "question": "Coefficient of performance of a refrigerator is always [MHT-CET 2024]",
+        "question_latex": "Coefficient of performance of a refrigerator is always [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. < 1",
+            "B. > 1",
+            "C. equal to 1",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Typically, the heat extracted ($Q_{L}$) is greater than the work input ($W$), making $COP > 1$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 31,
+        "chapter": "Thermodynamics",
+        "question": "First law of thermodynamics is consistent with",
+        "question_latex": "First law of thermodynamics is consistent with",
+        "question_images": [],
+        "options": [
+            "A. Newton's 2nd law",
+            "B. Law of conservation of energy",
+            "C. Law of conservation of mass",
+            "D. Bernoulli's principle"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Basic fundamental concept.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 32,
+        "chapter": "Thermodynamics",
+        "question": "Which of the following describes isothermal expansion? [MHT-CET 2021]",
+        "question_latex": "Which of the following describes isothermal expansion? [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. dU = 0, dQ = dW",
+            "B. dU = dQ, dW = 0",
+            "C. dQ = 0, dW = -dU",
+            "D. dW = dQ + dU"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$T$ constant $\\Rightarrow dU = 0$. By 1st law, $dQ = dW$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 33,
+        "chapter": "Thermodynamics",
+        "question": "Area under P-V curve represents [MHT-CET 2023]",
+        "question_latex": "Area under $P-V$ curve represents [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. Internal energy",
+            "B. Heat",
+            "C. Work",
+            "D. Temperature"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "The integral $\\int P dV$ is the mechanical work done.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 34,
+        "chapter": "Thermodynamics",
+        "question": "A cycle consists of two isothermal and two adiabatic processes. This is [MHT-CET 2020]",
+        "question_latex": "A cycle consists of two isothermal and two adiabatic processes. This is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. Otto cycle",
+            "B. Carnot cycle",
+            "C. Diesel cycle",
+            "D. Rankine cycle"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Definition of the Carnot cycle.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 35,
+        "chapter": "Thermodynamics",
+        "question": "In a refrigerator, heat is [MHT-CET 2024]",
+        "question_latex": "In a refrigerator, heat is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. absorbed from cold body and rejected to hot body",
+            "B. absorbed from hot body and rejected to cold body",
+            "C. converted to work with 100% efficiency",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Refrigerators act as heat pumps, moving energy against the natural gradient.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 36,
+        "chapter": "Thermodynamics",
+        "question": "For a monoatomic gas, gamma is [MHT-CET 2022]",
+        "question_latex": "For a monoatomic gas, $\\gamma$ is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 1.67",
+            "B. 1.4",
+            "C. 1.33",
+            "D. 1.5"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\gamma = C_{P}/C_{V} = 5/3 \\approx 1.67$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 37,
+        "chapter": "Thermodynamics",
+        "question": "Adiabatic compression causes [MHT-CET 2023]",
+        "question_latex": "Adiabatic compression causes [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. decrease in temperature",
+            "B. increase in temperature",
+            "C. no change in temperature",
+            "D. zero work"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Work is done on the gas ($W$ negative) and $Q=0$, so $\\Delta U$ must be positive, increasing $T$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 38,
+        "chapter": "Thermodynamics",
+        "question": "Isothermal process happens [MHT-CET 2021]",
+        "question_latex": "Isothermal process happens [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. very slowly",
+            "B. very fast",
+            "C. at zero pressure",
+            "D. in vacuum"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Needs time for heat exchange to maintain constant $T$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 39,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of an isolated system [MHT-CET 2020]",
+        "question_latex": "Internal energy of an isolated system [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. increases",
+            "B. decreases",
+            "C. remains constant",
+            "D. is zero"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "No heat or work interaction with surroundings.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 40,
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of Carnot engine is 100% if [MHT-CET 2024]",
+        "question_latex": "Efficiency of Carnot engine is $100\\%$ if [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. T_sink = 0 K",
+            "B. T_source = infinity",
+            "C. both A and B",
+            "D. impossible"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "From $\\eta = 1 - T_{L}/T_{H}$, it equals $1$ if $T_{L}=0$ or $T_{H}=\\infty$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 41,
+        "chapter": "Thermodynamics",
+        "question": "For a diatomic gas, gamma is [MHT-CET 2022]",
+        "question_latex": "For a diatomic gas, $\\gamma$ is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 1.4",
+            "B. 1.67",
+            "C. 1.33",
+            "D. 1.5"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\gamma = 7/5 = 1.4$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 42,
+        "chapter": "Thermodynamics",
+        "question": "Change in entropy in adiabatic process is [MHT-CET 2023]",
+        "question_latex": "Change in entropy in adiabatic process is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Reversible adiabatic processes are isentropic ($dS = dQ/T = 0$).",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 43,
+        "chapter": "Thermodynamics",
+        "question": "Work done in expansion of gas [MHT-CET 2021]",
+        "question_latex": "Work done in expansion of gas [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. by the system",
+            "B. on the system",
+            "C. zero",
+            "D. depends on path"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Expansion implies work done by the gas.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 44,
+        "chapter": "Thermodynamics",
+        "question": "P-V curve for isothermal process is called [MHT-CET 2020]",
+        "question_latex": "$P-V$ curve for isothermal process is called [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. Isotherm",
+            "B. Adiabat",
+            "C. Isobar",
+            "D. Isochore"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Standard terminology.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 45,
+        "chapter": "Thermodynamics",
+        "question": "Heating of food in microwave is [MHT-CET 2024]",
+        "question_latex": "Heating of food in microwave is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Isothermal",
+            "B. Isochoric",
+            "C. Isobaric",
+            "D. None of these"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Volume of food stays mostly constant.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 46,
+        "chapter": "Thermodynamics",
+        "question": "Difference between Cp and Cv is R for [MHT-CET 2022]",
+        "question_latex": "Difference between $C_{P}$ and $C_{V}$ is $R$ for [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. real gas",
+            "B. ideal gas",
+            "C. liquid",
+            "D. solid"
+        ],
+        "option_images": [],
+        "answer": "B",
+        "solution": "Mayer's relation holds for ideal gases.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 47,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of system increases if [MHT-CET 2023]",
+        "question_latex": "Internal energy of system increases if [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. heat is supplied",
+            "B. work is done on system",
+            "C. both A and B",
+            "D. heat is rejected"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "$dU = dQ - dW$. Supply heat ($dQ$ pos) or work on ($dW$ neg) both increase $U$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 48,
+        "chapter": "Thermodynamics",
+        "question": "Coefficient of performance of heat pump is [MHT-CET 2021]",
+        "question_latex": "Coefficient of performance of heat pump is [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. Q_H / W",
+            "B. Q_L / W",
+            "C. W / Q_H",
+            "D. W / Q_L"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Desire is heating ($Q_{H}$) for work $W$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 49,
+        "chapter": "Thermodynamics",
+        "question": "Heat engine converts heat into [MHT-CET 2020]",
+        "question_latex": "Heat engine converts heat into [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. Work",
+            "B. Temperature",
+            "C. Pressure",
+            "D. Mass"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Basic definition.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 50,
+        "chapter": "Thermodynamics",
+        "question": "For a polyatomic gas, gamma is [MHT-CET 2024]",
+        "question_latex": "For a polyatomic gas, $\\gamma$ is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. 1.33",
+            "B. 1.4",
+            "C. 1.67",
+            "D. 1.5"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\gamma = 4/3 \\approx 1.33$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 51,
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of engine with source 400 K and sink 300 K is [MHT-CET 2022]",
+        "question_latex": "Efficiency of engine with source $400~K$ and sink $300~K$ is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 25%",
+            "B. 33%",
+            "C. 50%",
+            "D. 75%"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$1 - 300/400 = 0.25$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 52,
+        "chapter": "Thermodynamics",
+        "question": "First law applied to isochoric process is [MHT-CET 2023]",
+        "question_latex": "First law applied to isochoric process is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. dQ = dU",
+            "B. dQ = dW",
+            "C. dU = -dW",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$dW = 0$ in isochoric.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 53,
+        "chapter": "Thermodynamics",
+        "question": "Heat flows from low to high temp only with [MHT-CET 2021]",
+        "question_latex": "Heat flows from low to high temp only with [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. external work",
+            "B. natural flow",
+            "C. adiabatic walls",
+            "D. impossible"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Clausius statement of Second Law.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 54,
+        "chapter": "Thermodynamics",
+        "question": "Steeper curve in P-V graph belongs to [MHT-CET 2020]",
+        "question_latex": "Steeper curve in $P-V$ graph belongs to [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. Adiabatic",
+            "B. Isothermal",
+            "C. Isobaric",
+            "D. Isochoric"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Slope of adiabat is $\\gamma$ times isotherm.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 55,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of diatomic gas at T is [MHT-CET 2024]",
+        "question_latex": "Internal energy of diatomic gas at $T$ is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. 5/2 RT",
+            "B. 3/2 RT",
+            "C. RT",
+            "D. 7/2 RT"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "5 degrees of freedom.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 56,
+        "chapter": "Thermodynamics",
+        "question": "If work is done by gas, volume [MHT-CET 2022]",
+        "question_latex": "If work is done by gas, volume [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. increases",
+            "B. decreases",
+            "C. stays same",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Expansion.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 57,
+        "chapter": "Thermodynamics",
+        "question": "Work done in adiabatic expansion is [MHT-CET 2023]",
+        "question_latex": "Work done in adiabatic expansion is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "By the system.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 58,
+        "chapter": "Thermodynamics",
+        "question": "A refrigerator works on [MHT-CET 2021]",
+        "question_latex": "A refrigerator works on [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. reverse Carnot cycle",
+            "B. Carnot cycle",
+            "C. Rankine cycle",
+            "D. Otto cycle"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Ideal refrigerator model.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 59,
+        "chapter": "Thermodynamics",
+        "question": "In isothermal process, P-V relation is [MHT-CET 2020]",
+        "question_latex": "In isothermal process, $P-V$ relation is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. PV = constant",
+            "B. PV^gamma = constant",
+            "C. P/V = constant",
+            "D. V/T = constant"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Boyle's Law.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 60,
+        "chapter": "Thermodynamics",
+        "question": "Heat required to raise 1 mole gas by 1 K at constant V is [MHT-CET 2024]",
+        "question_latex": "Heat required to raise $1$ mole gas by $1$ K at constant $V$ is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Cv",
+            "B. Cp",
+            "C. R",
+            "D. gamma"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Definition of $C_{V}$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 61,
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of engine is zero if [MHT-CET 2022]",
+        "question_latex": "Efficiency of engine is zero if [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. T_source = T_sink",
+            "B. T_sink = 0 K",
+            "C. W = Q_abs",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "No temperature difference means no work.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 62,
+        "chapter": "Thermodynamics",
+        "question": "Work done in isobaric process is [MHT-CET 2023]",
+        "question_latex": "Work done in isobaric process is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. P(V2 - V1)",
+            "B. zero",
+            "C. nRT ln(V2/V1)",
+            "D. delta U"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Constant pressure work.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 63,
+        "chapter": "Thermodynamics",
+        "question": "Total heat in adiabatic process [MHT-CET 2021]",
+        "question_latex": "Total heat in adiabatic process [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. remains constant",
+            "B. increases",
+            "C. decreases",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "No heat exchange.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 64,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of real gas depends on [MHT-CET 2020]",
+        "question_latex": "Internal energy of real gas depends on [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. T and V",
+            "B. T only",
+            "C. V only",
+            "D. P only"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Real gases have intermolecular forces, so $U$ has a potential term depending on $V$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 65,
+        "chapter": "Thermodynamics",
+        "question": "Freezing of water is [MHT-CET 2024]",
+        "question_latex": "Freezing of water is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. exothermic",
+            "B. endothermic",
+            "C. isothermal",
+            "D. both A and C"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "Rejects heat at constant temperature.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 66,
+        "chapter": "Thermodynamics",
+        "question": "Relation between COP (beta) and efficiency (eta) is [MHT-CET 2022]",
+        "question_latex": "Relation between $COP$ ($\\beta$) and efficiency ($\\eta$) is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. beta = (1 - eta) / eta",
+            "B. beta = eta / (1 - eta)",
+            "C. beta = 1 / eta",
+            "D. eta = beta"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Standard algebraic conversion between engine and refrigerator parameters.",
+        "solution_images": [],
+        "difficulty": "Hard",
+        "marks": 4
+    },
+    {
+        "id": 67,
+        "chapter": "Thermodynamics",
+        "question": "For a polytropic process PV^n = C, work is [MHT-CET 2023]",
+        "question_latex": "For a polytropic process $PV^{n} = C$, work is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. (P1V1 - P2V2) / (n - 1)",
+            "B. (P2V2 - P1V1) / (n - 1)",
+            "C. zero",
+            "D. nRT ln(V2/V1)"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Generalized work formula.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 68,
+        "chapter": "Thermodynamics",
+        "question": "Heat energy given to a system is [MHT-CET 2021]",
+        "question_latex": "Heat energy given to a system is [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Standard sign convention.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 69,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of an ideal gas at 0 K is [MHT-CET 2020]",
+        "question_latex": "Internal energy of an ideal gas at $0~K$ is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. zero",
+            "B. infinite",
+            "C. constant",
+            "D. negative"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "No thermal motion.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 70,
+        "chapter": "Thermodynamics",
+        "question": "COP of refrigerator with T_sink 250 K and T_source 300 K [MHT-CET 2024]",
+        "question_latex": "$COP$ of refrigerator with $T_{sink}~250~K$ and $T_{source}~300~K$ [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. 5",
+            "B. 4",
+            "C. 6",
+            "D. 1"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$250 / (300 - 250) = 250/50 = 5$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 71,
+        "chapter": "Thermodynamics",
+        "question": "Isothermal bulk modulus of gas is [MHT-CET 2022]",
+        "question_latex": "Isothermal bulk modulus of gas is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. P",
+            "B. gamma P",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "From $PV = C$, differentiate to get $-V dP/dV = P$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 72,
+        "chapter": "Thermodynamics",
+        "question": "Adiabatic bulk modulus of gas is [MHT-CET 2023]",
+        "question_latex": "Adiabatic bulk modulus of gas is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. gamma P",
+            "B. P",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "From $PV^{\\gamma} = C$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 73,
+        "chapter": "Thermodynamics",
+        "question": "Work done on a gas in compression [MHT-CET 2021]",
+        "question_latex": "Work done on a gas in compression [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. positive",
+            "B. negative",
+            "C. zero",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Work done 'on' the system is positive by convention in some texts, but 'by' the system is negative. MHT-CET usually follows 'by' convention ($W = P \\Delta V$). If asking for work done 'on', it is positive.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 74,
+        "chapter": "Thermodynamics",
+        "question": "Entropy of an isolated system always [MHT-CET 2020]",
+        "question_latex": "Entropy of an isolated system always [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. increases",
+            "B. decreases",
+            "C. remains same",
+            "D. becomes zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Second Law of Thermodynamics.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 75,
+        "chapter": "Thermodynamics",
+        "question": "Clausius statement deals with [MHT-CET 2024]",
+        "question_latex": "Clausius statement deals with [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Heat pump",
+            "B. Heat engine",
+            "C. Isothermal process",
+            "D. Isochoric process"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Direction of heat flow.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 76,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy of system is conserved in [MHT-CET 2022]",
+        "question_latex": "Internal energy of system is conserved in [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. Isothermal process",
+            "B. Adiabatic process",
+            "C. Cyclic process",
+            "D. both A and C"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "Since $T$ is constant or returns to start.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 77,
+        "chapter": "Thermodynamics",
+        "question": "Adiabatic compression of 2 moles gas, work is 100 J. Change in internal energy is [MHT-CET 2023]",
+        "question_latex": "Adiabatic compression of $2$ moles gas, work is $100$ J. Change in internal energy is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. 100 J",
+            "B. -100 J",
+            "C. 50 J",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$dU = -dW$. Compression work $dW = -100$ J $\\Rightarrow dU = 100$ J.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 78,
+        "chapter": "Thermodynamics",
+        "question": "A gas at 27°C is heated to double its pressure at constant V. New T is [MHT-CET 2021]",
+        "question_latex": "A gas at $27^{\\circ}C$ is heated to double its pressure at constant $V$. New $T$ is [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. 327°C",
+            "B. 54°C",
+            "C. 600°C",
+            "D. 127°C"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$P \\propto T$. $T_{2} = 2 T_{1} = 600~K = 327^{\\circ}C$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 79,
+        "chapter": "Thermodynamics",
+        "question": "Heat rejected by Carnot engine is 60 J and work is 40 J. Efficiency is [MHT-CET 2020]",
+        "question_latex": "Heat rejected by Carnot engine is $60$ J and work is $40$ J. Efficiency is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. 40%",
+            "B. 60%",
+            "C. 66.6%",
+            "D. 33.3%"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$Q_{abs} = 60 + 40 = 100$ J. $\\eta = 40/100 = 40\\%$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 80,
+        "chapter": "Thermodynamics",
+        "question": "A sample of gas expands from V to 2V. Work is max in [MHT-CET 2024]",
+        "question_latex": "A sample of gas expands from $V$ to $2V$. Work is max in [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Isobaric",
+            "B. Isothermal",
+            "C. Adiabatic",
+            "D. all same"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Isobaric expansion maintains higher pressure throughout compared to others.",
+        "solution_images": [],
+        "difficulty": "Hard",
+        "marks": 4
+    },
+    {
+        "id": 81,
+        "chapter": "Thermodynamics",
+        "question": "Work done in expansion of gas from 1 m^3 to 2 m^3 at 1 atm is [MHT-CET 2022]",
+        "question_latex": "Work done in expansion of gas from $1~m^{3}$ to $2~m^{3}$ at $1~atm$ is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 1.013 x 10^5 J",
+            "B. 1.013 J",
+            "C. 2.026 x 10^5 J",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$1 \\times (1.013 \\times 10^{5}) = 1.013 \\times 10^{5}$ J.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 82,
+        "chapter": "Thermodynamics",
+        "question": "For a cyclic process, First law is [MHT-CET 2023]",
+        "question_latex": "For a cyclic process, First law is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. dQ = dW",
+            "B. dU = 0",
+            "C. both A and B",
+            "D. dQ = dU"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Integrates First Law for full cycle.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 83,
+        "chapter": "Thermodynamics",
+        "question": "Work done in isothermal expansion depends on [MHT-CET 2021]",
+        "question_latex": "Work done in isothermal expansion depends on [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. Temperature",
+            "B. Expansion ratio",
+            "C. both A and B",
+            "D. pressure only"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "$W = nRT \\ln(V_{2}/V_{1})$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 84,
+        "chapter": "Thermodynamics",
+        "question": "Adiabatic exponent gamma for triatomic linear gas is [MHT-CET 2020]",
+        "question_latex": "Adiabatic exponent $\\gamma$ for triatomic linear gas is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. 1.4",
+            "B. 1.28",
+            "C. 1.67",
+            "D. 1.33"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Linear molecules like $CO_{2}$ have 5 degrees of freedom at moderate $T$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 85,
+        "chapter": "Thermodynamics",
+        "question": "In heat engine, Q1 is absorbed and Q2 rejected. Work is [MHT-CET 2024]",
+        "question_latex": "In heat engine, $Q_{1}$ is absorbed and $Q_{2}$ rejected. Work is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Q1 - Q2",
+            "B. Q1 + Q2",
+            "C. Q2 - Q1",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Energy balance.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 86,
+        "chapter": "Thermodynamics",
+        "question": "A Carnot engine has sink at 27°C and efficiency 25%. Source is at [MHT-CET 2022]",
+        "question_latex": "A Carnot engine has sink at $27^{\\circ}C$ and efficiency $25\\%$. Source is at [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. 127°C",
+            "B. 100°C",
+            "C. 400 K",
+            "D. both A and C"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "$0.25 = 1 - 300/T_{H} \\Rightarrow 300/T_{H} = 0.75 \\Rightarrow T_{H} = 400~K = 127^{\\circ}C$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 87,
+        "chapter": "Thermodynamics",
+        "question": "Coefficient of performance of ideal refrigerator is [MHT-CET 2023]",
+        "question_latex": "Coefficient of performance of ideal refrigerator is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. T_L / (T_H - T_L)",
+            "B. T_H / (T_H - T_L)",
+            "C. (T_H - T_L) / T_L",
+            "D. 1 - T_L/T_H"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Standard formula.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 88,
+        "chapter": "Thermodynamics",
+        "question": "If gas is compressed to half its volume isothermally, pressure [MHT-CET 2021]",
+        "question_latex": "If gas is compressed to half its volume isothermally, pressure [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. doubles",
+            "B. halves",
+            "C. stays same",
+            "D. quadruples"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Boyle's Law.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 89,
+        "chapter": "Thermodynamics",
+        "question": "Entropy remains constant in [MHT-CET 2020]",
+        "question_latex": "Entropy remains constant in [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. Isentropic process",
+            "B. Adiabatic process",
+            "C. both A and B",
+            "D. Isothermal process"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Synonymous in reversible cases.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 90,
+        "chapter": "Thermodynamics",
+        "question": "Work done by system is 20 J when 50 J heat is added. Change in U [MHT-CET 2024]",
+        "question_latex": "Work done by system is $20$ J when $50$ J heat is added. Change in $U$ [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. 30 J",
+            "B. 70 J",
+            "C. -30 J",
+            "D. 50 J"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "50 - 20 = 30.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 91,
+        "chapter": "Thermodynamics",
+        "question": "Slope of adiabat is [MHT-CET 2022]",
+        "question_latex": "Slope of adiabat is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. gamma x slope of isotherm",
+            "B. slope of isotherm / gamma",
+            "C. same as isotherm",
+            "D. zero"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Standard derivation from $PV^{\\gamma} = C$.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 92,
+        "chapter": "Thermodynamics",
+        "question": "Expansion of gas into vacuum is [MHT-CET 2023]",
+        "question_latex": "Expansion of gas into vacuum is [MHT-CET 2023]",
+        "question_images": [],
+        "options": [
+            "A. Free expansion",
+            "B. Joule expansion",
+            "C. both A and B",
+            "D. Adiabatic expansion only"
+        ],
+        "option_images": [],
+        "answer": "C",
+        "solution": "Synonyms.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 93,
+        "chapter": "Thermodynamics",
+        "question": "Molar heat capacity at constant pressure Cp for monoatomic gas [MHT-CET 2021]",
+        "question_latex": "Molar heat capacity at constant pressure $C_{P}$ for monoatomic gas [MHT-CET 2021]",
+        "question_images": [],
+        "options": [
+            "A. 5/2 R",
+            "B. 3/2 R",
+            "C. 7/2 R",
+            "D. R"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "3/2 R + R = 5/2 R.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 94,
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of Carnot engine sink at 0 K is [MHT-CET 2020]",
+        "question_latex": "Efficiency of Carnot engine sink at $0~K$ is [MHT-CET 2020]",
+        "question_images": [],
+        "options": [
+            "A. 100%",
+            "B. 0%",
+            "C. 50%",
+            "D. undefined"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "Theoretical limit.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 95,
+        "chapter": "Thermodynamics",
+        "question": "Heat engine cycle must be [MHT-CET 2024]",
+        "question_latex": "Heat engine cycle must be [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. Clockwise in P-V",
+            "B. Anticlockwise in P-V",
+            "C. Linear",
+            "D. Square"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "For positive net work done.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 96,
+        "chapter": "Thermodynamics",
+        "question": "Internal energy change in isothermal expansion is [MHT-CET 2022]",
+        "question_latex": "Internal energy change in isothermal expansion is [MHT-CET 2022]",
+        "question_images": [],
+        "options": [
+            "A. zero",
+            "B. positive",
+            "C. negative",
+            "D. infinite"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$T$ constant.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 97,
+        "chapter": "Thermodynamics",
+        "question": "When a gas is compressed isothermally, then (A) Internal energy of the system increases (B) Internal energy of the system decreases (C) Work done by the gas is positive (D) Work done by the gas is negative",
+        "question_latex": "When a gas is compressed isothermally, then (A) Internal energy of the system increases (B) Internal energy of the system decreases (C) Work done by the gas is positive (D) Work done by the gas is negative",
+        "question_images": [],
+        "options": [
+            "A. Internal energy of the system increases",
+            "B. Internal energy of the system decreases",
+            "C. Work done by the gas is positive",
+            "D. Work done by the gas is negative"
+        ],
+        "option_images": [],
+        "answer": "D",
+        "solution": "For an isothermal process, $\\Delta U = 0$ because temperature is constant. During compression, the volume decreases $(\\Delta V < 0)$, so work done by the gas $\\Delta W = P \\Delta V$ is negative.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 98,
+        "chapter": "Thermodynamics",
+        "question": "When the amount of work done is 333 cal and change in internal energy is 167 cal, then how much heat is supplied?",
+        "question_latex": "When the amount of work done is $333$ cal and change in internal energy is $167$ cal, then how much heat is supplied?",
+        "question_images": [],
+        "options": [
+            "A. 500 cal",
+            "B. 400 cal",
+            "C. 333 cal",
+            "D. 166 cal"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$\\Delta Q = \\Delta U + \\Delta W = 167 + 333 = 500$ cal.",
+        "solution_images": [],
+        "difficulty": "Easy",
+        "marks": 4
+    },
+    {
+        "id": 99,
+        "chapter": "Thermodynamics",
+        "question": "The increase in internal energy of a system is equal to the work done on the system. The system undergoes the process which is [MHT-CET 2024]",
+        "question_latex": "The increase in internal energy of a system is equal to the work done on the system. The system undergoes the process which is [MHT-CET 2024]",
+        "question_images": [],
+        "options": [
+            "A. adiabatic",
+            "B. isothermal",
+            "C. isochoric",
+            "D. isobaric"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "From First Law: $\\Delta Q = \\Delta U + \\Delta W$. If work is done 'on' the system, $\\Delta W$ is negative. $\\Delta U = -\\Delta W_{on}$ implies $\\Delta Q = 0$, which is an adiabatic process.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    },
+    {
+        "id": 100,
+        "chapter": "Thermodynamics",
+        "question": "The temperature of a given mass is increased from 27°C to 327°C. The rms velocity of the molecules increases",
+        "question_latex": "The temperature of a given mass is increased from $27^{\\circ}C$ to $327^{\\circ}C$. The rms velocity of the molecules increases",
+        "question_images": [],
+        "options": [
+            "A. sqrt(2) times",
+            "B. 2 times",
+            "C. 2 sqrt(2) times",
+            "D. 4 times"
+        ],
+        "option_images": [],
+        "answer": "A",
+        "solution": "$T_{1} = 300~K, T_{2} = 600~K$. $v_{rms} \\propto \\sqrt{T}$. $v_{2}/v_{1} = \\sqrt{600/300} = \\sqrt{2}$.",
+        "solution_images": [],
+        "difficulty": "Medium",
+        "marks": 4
+    }
 ]

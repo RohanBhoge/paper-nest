@@ -1,0 +1,1916 @@
+[
+  {
+    "id": 1,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following processes is concerned with Cholodny-Went theory?",
+    "question_latex": "Which of the following processes is concerned with Cholodny-Went theory?",
+    "question_images": [],
+    "options": [
+      "A. Photomorphogenesis",
+      "B. Photoperiodism",
+      "C. Phototropism",
+      "D. Photorespiration"
+    ],
+    "option_images": [],
+    "answer": "C. Phototropism",
+    "solution": "Phototropism of stem and roots are due to differential hormonal effect. The mechanism is believed to be Cholodny-Went theory, which states that unilateral light produces more auxin (IAA) and hence, more growth in the shaded side resulting in bending.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Application of which hormone causes production of male flowers on female plants? [2022]",
+    "question_latex": "Application of which hormone causes production of male flowers on female plants? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Auxins",
+      "B. Gibberellins",
+      "C. ABA",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "B. Gibberellins",
+    "solution": "Application of Gibberellins causes production of male flowers on female plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which plant hormone is associated with discovery of bakane disease caused by fungus? [2022]",
+    "question_latex": "Which plant hormone is associated with discovery of bakane disease caused by fungus? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Auxins",
+      "B. Gibberellins",
+      "C. ABA",
+      "D. Cytokinins"
+    ],
+    "option_images": [],
+    "answer": "B. Gibberellins",
+    "solution": "Gibberellins are associated with the discovery of bakane (foolish seedling) disease of rice caused by the fungus Gibberella fujikuroi.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Substance related with phototropism in shoot, is",
+    "question_latex": "Substance related with phototropism in shoot, is",
+    "question_images": [],
+    "options": [
+      "A. Ethanol",
+      "B. Cytokinins",
+      "C. Auxin",
+      "D. Gibberellins"
+    ],
+    "option_images": [],
+    "answer": "C. Auxin",
+    "solution": "Auxin concentration increases in the shaded area (opposite side of light). Increased auxin concentrations are stimulatory for shoot growth, so the shaded side shows more growth than the lighted side. Thus, bending of shoot takes place towards the lighted side.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Synthetic auxins are used for",
+    "question_latex": "Synthetic auxins are used for",
+    "question_images": [],
+    "options": [
+      "A. Killing weeds",
+      "B. Ripening fruits",
+      "C. Increasing the size of the fruits",
+      "D. Stimulating growth of cells in tissue culture"
+    ],
+    "option_images": [],
+    "answer": "A. Killing weeds",
+    "solution": "Synthetic auxins or auxin derivatives such as 2,4-D; 2,4,5-T; dicamba; dinitrophenol; dalapan, etc., are used as weedicides/herbicides that kill weeds and unwanted plants in agriculture/horticulture.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following induces flowering in long day plants? [MHT CET 2009]",
+    "question_latex": "Which of the following induces flowering in long day plants? [MHT CET 2009]",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. Cytokinin",
+      "C. Auxins",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "A. Gibberellins",
+    "solution": "Gibberellin is a plant hormone, which was first isolated from a fungus Gibberella fujikuroi. It induces flowering in long-day plants in short day conditions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Gibberellins promotes cell division and elongation in",
+    "question_latex": "Gibberellins promotes cell division and elongation in",
+    "question_images": [],
+    "options": [
+      "A. Leaves",
+      "B. Roots",
+      "C. Shoots",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Gibberellins are growth hormones having gibbane ring structure, which causes cell elongation of intact plants. Thus, gibberellin promotes cell elongation in root, shoot and leaves of a plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The following statements are given about plant growth hormones: 1. Kinetin is a degradative substance from DNA molecule. 2. ABA is present in all the plants. 3. Low ratio of cytokinins to auxins favours root formation only. 4. ABA is synthesized catabolically through mevalonate pathway. The correct combination is",
+    "question_latex": "The following statements are given about plant growth hormones: 1. Kinetin is a degradative substance from DNA molecule. 2. ABA is present in all the plants. 3. Low ratio of cytokinins to auxins favours root formation only. 4. ABA is synthesized catabolically through mevalonate pathway. The correct combination is",
+    "question_images": [],
+    "options": [
+      "A. I and II",
+      "B. II and III",
+      "C. I and III",
+      "D. III and IV"
+    ],
+    "option_images": [],
+    "answer": "C. I and III",
+    "solution": "Abscisic acid (ABA) is produced in many parts of the green plants. It is formed from mevalonic acid. Kinetin is a degradative substance from DNA molecule, and low ratio of cytokinins to auxins favours root formation only.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "How many of the following are microelements in plant mineral nutrition? Zinc, Phosphorus, Copper, Magnesium, Potassium, Aluminium, Calcium, Manganese, Molybdenum, Sulphur, Iron. [MHT-CET 2024]",
+    "question_latex": "How many of the following are microelements in plant mineral nutrition? Zinc, Phosphorus, Copper, Magnesium, Potassium, Aluminium, Calcium, Manganese, Molybdenum, Sulphur, Iron. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Four",
+      "B. Three",
+      "C. Five",
+      "D. Six"
+    ],
+    "option_images": [],
+    "answer": "C. Five",
+    "solution": "Microelements are required in traces because they function in the catalytic role e.g. Zn, Cu, Al, Si, Mn, B, Mo, Cl etc. as cofactors. From the given list: Zinc, Copper, Aluminium, Manganese, Molybdenum, Iron = 5 microelements (Fe being a microelement).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which phytohormone shows Richmond and Lang effect? [MHT-CET 2023]",
+    "question_latex": "Which phytohormone shows Richmond and Lang effect? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. ABA",
+      "B. Gibberellins",
+      "C. Cytokinin",
+      "D. Auxins"
+    ],
+    "option_images": [],
+    "answer": "C. Cytokinin",
+    "solution": "Cytokinin delays the senescence or ageing and abscission processes in plant organs which was first reported by Richmond and Lang in 1957.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which one of the following is NOT a macroelement? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is NOT a macroelement? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. S",
+      "B. N",
+      "C. Mn",
+      "D. Mg"
+    ],
+    "option_images": [],
+    "answer": "C. Mn",
+    "solution": "Mn (Manganese) is a trace element which is needed in very low concentration and is therefore a microelement, not a macroelement.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which hormone should be used in rosette varieties of beet and cabbage to promote bolting? [2022]",
+    "question_latex": "Which hormone should be used in rosette varieties of beet and cabbage to promote bolting? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Cytokinins",
+      "B. Auxins",
+      "C. ABA",
+      "D. Gibberellins"
+    ],
+    "option_images": [],
+    "answer": "D. Gibberellins",
+    "solution": "Gibberellins induce bolting (rapid elongation of internodes) in rosette varieties of plants like beet and cabbage.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Auxanometer is used to measure",
+    "question_latex": "Auxanometer is used to measure",
+    "question_images": [],
+    "options": [
+      "A. The growth in length of a plant organ",
+      "B. The growth in breadth of a plant organ",
+      "C. Population of the pests attacking a plant",
+      "D. Both (a) and (b)"
+    ],
+    "option_images": [],
+    "answer": "A. The growth in length of a plant organ",
+    "solution": "Auxanometer is used to measure the growth in length of a plant organ. There are two types of auxanometer, i.e., Arc auxanometer and Pfeffer's auxanometer (automatic auxanometer).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The direction of growth of shoot and root in plants is mainly decided by [MHT-CET 2024]",
+    "question_latex": "The direction of growth of shoot and root in plants is mainly decided by [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Growth hormones",
+      "B. Gravitational force",
+      "C. Temperature",
+      "D. Oxygen"
+    ],
+    "option_images": [],
+    "answer": "B. Gravitational force",
+    "solution": "The direction of growth of shoot and root in plants is mainly decided by gravitational force.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Match the plant growth regulator in Column I with its role in Column II and choose the correct option. Column I: A. Auxins, B. Gibberellins, C. Cytokinins, D. Abscisic acid. Column II: I. Produces male flowers on female plants, II. Parthenocarpy in orange, lemon and grapes, III. Antitranspirant and stress tolerance in plants, IV. Reverses apical dominance in plants. [MHT-CET 2021]",
+    "question_latex": "Match the plant growth regulator in Column I with its role in Column II and choose the correct option. [MHT-CET 2021]",
+    "question_images": [
+      "q15_1"
+    ],
+    "options": [
+      "A. A-II, B-III, C-IV, D-I",
+      "B. A-II, B-IV, C-I, D-III",
+      "C. A-II, B-I, C-IV, D-III",
+      "D. A-I, B-II, C-IV, D-III"
+    ],
+    "option_images": [],
+    "answer": "C. A-II, B-I, C-IV, D-III",
+    "solution": "Auxins - Parthenocarpy in orange, lemon and grapes (II); Gibberellins - Produces male flowers on female plants (I); Cytokinins - Reverses apical dominance in plants (IV); Abscisic acid - Antitranspirant and stress tolerance in plants (III).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Induction of flowering by low temperature treatment is [MHT CET 2009]",
+    "question_latex": "Induction of flowering by low temperature treatment is [MHT CET 2009]",
+    "question_images": [],
+    "options": [
+      "A. Vernalization",
+      "B. Cryobiology",
+      "C. Photoperiodism",
+      "D. Pruning"
+    ],
+    "option_images": [],
+    "answer": "A. Vernalization",
+    "solution": "Vernalization is chilling or cold treatment of the young plants or seeds to induce flowering. It is a process of shortening the juvenile or vegetative phase and fastening the flowering by a process of cold treatment. It was first reported by a Russian worker, Lysenko (1928). Common examples: winter rye, winter wheat, winter barley, pea, Chrysanthemum, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The mineral ion concentration which reduces dry weight of tissues by ___% is considered toxic. [MHT-CET 2023]",
+    "question_latex": "The mineral ion concentration which reduces dry weight of tissues by \\__\\% is considered toxic. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 6",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "D. 10",
+    "solution": "The mineral ion concentration which reduces dry weight of tissues by 10% is considered toxic. Availability of minerals more than optimum concentration becomes toxic and affects growth and development.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are the two statements. Statement-I: Toxicity of one mineral may inhibit the uptake of other minerals in roots. Statement-II: Mn competes with Ca for the uptake in roots. In the light of above statements, choose the correct answer from the options given below: [MHT-CET 2024]",
+    "question_latex": "Given below are the two statements. Statement-I: Toxicity of one mineral may inhibit the uptake of other minerals in roots. Statement-II: Mn competes with Ca for the uptake in roots. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "D. Statement I is correct but statement II is incorrect.",
+    "solution": "Mn competes with Fe and Mg for uptake, but inhibits Ca translocation to shoot apex. Thus, Mn toxicity develops deficiency symptoms of Ca, Mg and Fe. Statement I is correct, but Statement II is incorrect because Mn competes with Fe and Mg, not Ca.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "In tissue culture technique morphogenic differentiation of shoot and root is controlled by the interaction and ratio of ___ [MHT-CET 2023]",
+    "question_latex": "In tissue culture technique morphogenic differentiation of shoot and root is controlled by the interaction and ratio of \\_ \\_ \\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Ethylene and ABA",
+      "B. Auxin and cytokinin",
+      "C. Auxin and gibberellins",
+      "D. Gibberellins and cytokinin"
+    ],
+    "option_images": [],
+    "answer": "B. Auxin and cytokinin",
+    "solution": "In tissue culture technique, morphogenic differentiation of shoot and root is controlled by the interaction and ratio of auxin and cytokinin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following pairs is not correctly matched?",
+    "question_latex": "Which of the following pairs is not correctly matched?",
+    "question_images": [],
+    "options": [
+      "A. Abscisic acid - Stomatal closure",
+      "B. Gibberellic acid - Leaf fall",
+      "C. Cytokinin - Cell division",
+      "D. IAA - Cell wall elongation"
+    ],
+    "option_images": [],
+    "answer": "B. Gibberellic acid - Leaf fall",
+    "solution": "Gibberellins help in cell growth of stem, leaves and other aerial parts, not leaf fall. Abscisic acid is responsible for leaf fall (abscission).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Photoperiodism was discovered by Garner and Allard while studying flowering behavior in ___ [MHT-CET 2023]",
+    "question_latex": "Photoperiodism was discovered by Garner and Allard while studying flowering behavior in \\_ \\_ \\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Rice and wheat",
+      "B. Soybean and tomato",
+      "C. Soybean and tobacco",
+      "D. Wheat and tobacco"
+    ],
+    "option_images": [],
+    "answer": "C. Soybean and tobacco",
+    "solution": "The term photoperiodism was used by Garner and Allard (1920). They were studying the flowering behavior in Soybean and Maryland Mammoth variety of tobacco.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "An example of short day plant is",
+    "question_latex": "An example of short day plant is",
+    "question_images": [],
+    "options": [
+      "A. Wheat",
+      "B. Maize",
+      "C. Chrysanthemum",
+      "D. Radish"
+    ],
+    "option_images": [],
+    "answer": "C. Chrysanthemum",
+    "solution": "Short day plants generally require light period of less than 12 hours (i.e., 8-10 hrs) and continuous dark period of about 14-16 hrs for subsequent flowering. Examples: Chrysanthemum, Xanthium (cocklebur), Dahlia, rice, sugarcane, potato, tobacco, soybean (Glycine max), etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which one of the following is a long day plant? [MHT-CET 2023]",
+    "question_latex": "Which one of the following is a long day plant? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Soybean",
+      "B. Sugar beet",
+      "C. Aster",
+      "D. Dahlia"
+    ],
+    "option_images": [],
+    "answer": "B. Sugar beet",
+    "solution": "Sugar beet is a long day plant as they need photoperiod longer than the critical period. They are also called short night plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements about plant growth. Statement I: Curve for arithmetic growth is linear. Statement II: Curve for geometric growth is exponential. In the light of above two statements, choose the most appropriate answer from the options given below. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements about plant growth. Statement I: Curve for arithmetic growth is linear. Statement II: Curve for geometric growth is exponential. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Statement I is correct but statement II is incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to growth and development. Arithmetic growth gives a linear curve, while geometric growth gives an exponential curve.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Match plant hormones given in Column I with their physiological effects and applications given in Column II and choose the correct option. Column I: (a) Gibberellins, (b) Ethylene, (c) Cytokinins, (d) ABA. Column II: (i) Epinasty of leaves and flowers, (ii) Bolting in rosette varieties, (iii) Antitranspirant, (iv) Controls apical dominance. [MHT-CET 2024]",
+    "question_latex": "Match plant hormones given in Column I with their physiological effects and applications given in Column II. [MHT-CET 2024]",
+    "question_images": [
+      "q25_1"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "B. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "C. (a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "D. (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+    "solution": "Gibberellins - Bolting in rosette varieties (ii); Ethylene - Epinasty of leaves and flowers (i); Cytokinins - Controls apical dominance (iv); ABA - Antitranspirant (iii).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which soil living bacterium forms root nodules in groundnut? [MHT-CET 2024]",
+    "question_latex": "Which soil living bacterium forms root nodules in groundnut? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Rhizobium",
+      "B. Nitrosococcus",
+      "C. Nitrosomonas",
+      "D. Nitrobacter"
+    ],
+    "option_images": [],
+    "answer": "A. Rhizobium",
+    "solution": "The best known nitrogen fixing symbiotic bacterium is Rhizobium. This soil living/dwelling bacterium forms root nodules in plants belonging to family Fabaceae e.g. beans, gram, groundnut etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "One hormone helps in ripening of fruits, while the other stimulates closure of stomata. These are respectively",
+    "question_latex": "One hormone helps in ripening of fruits, while the other stimulates closure of stomata. These are respectively",
+    "question_images": [],
+    "options": [
+      "A. Abscisic acid and auxin",
+      "B. Ethylene and abscisic acid",
+      "C. Auxin and ethylene",
+      "D. Ethylene and gibberellic acid"
+    ],
+    "option_images": [],
+    "answer": "B. Ethylene and abscisic acid",
+    "solution": "Ethylene helps in ripening of climacteric fruits, while abscisic acid stimulates closure of stomata.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which hormone reverses apical dominance effect? [MHT-CET 2024]",
+    "question_latex": "Which hormone reverses apical dominance effect? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. Auxins",
+      "C. Cytokinins",
+      "D. ABA"
+    ],
+    "option_images": [],
+    "answer": "C. Cytokinins",
+    "solution": "Cytokinins also break dormancy and promote the germination of seeds. Cytokinin reverses apical dominance effect. It induces RNA synthesis and formation of inter-fascicular cambium.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Rapid and dramatic increase in shoot length is called",
+    "question_latex": "Rapid and dramatic increase in shoot length is called",
+    "question_images": [],
+    "options": [
+      "A. Triple response growth",
+      "B. Bolting",
+      "C. Scarification",
+      "D. Night break effect"
+    ],
+    "option_images": [],
+    "answer": "B. Bolting",
+    "solution": "Rapid and dramatic increase in shoot length is called bolting. Gibberellins induce stem elongation in rosette plants (e.g., cabbage, henbane). In these plants, just prior to the reproductive phase, the internodes elongate enormously causing a marked increase in stem height, i.e., bolting.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "An enzyme that can stimulate germination of barley seeds is",
+    "question_latex": "An enzyme that can stimulate germination of barley seeds is",
+    "question_images": [],
+    "options": [
+      "A. $\\alpha$-amylase",
+      "B. Lipase",
+      "C. Protease",
+      "D. Invertase"
+    ],
+    "option_images": [],
+    "answer": "A. $\\alpha$-amylase",
+    "solution": "Barley seeds are rich in carbohydrate (starch). The starch is hydrolysed by $\\alpha$-amylase to monosaccharide units at the time of germination of seeds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Match the role given in Column I with the elements given in Column II. Column I: (a) Opening and closing of stomata, (b) Maintains ribosome structure, (c) Oxygen evolution in photosynthesis, (d) Constituent of protein and nucleic acid. Column II: (i) Magnesium, (ii) Chlorine, (iii) Potassium, (iv) Nitrogen. [MHT-CET 2023]",
+    "question_latex": "Match the role given in Column I with the elements given in Column II. [MHT-CET 2023]",
+    "question_images": [
+      "31_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
+      "B. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "C. (a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "D. (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "B. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+    "solution": "Opening and closing of stomata - Potassium (iii); Maintains ribosome structure - Magnesium (i); Oxygen evolution in photosynthesis - Chlorine (ii); Constituent of protein and nucleic acid - Nitrogen (iv).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements: Statement I: Minerals are absorbed by plants with or without expenditure of energy. Statement II: Mineral ion absorption is independent of water absorption. In the light of the above statements, choose the most appropriate answer from the options given below. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements: Statement I: Minerals are absorbed by plants with or without expenditure of energy. Statement II: Mineral ion absorption is independent of water absorption. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is false but statement II is true.",
+      "B. Both statement I and statement II are true.",
+      "C. Both statement I and statement II are false.",
+      "D. Statement I is true but statement II is false."
+    ],
+    "option_images": [],
+    "answer": "B. Both statement I and statement II are true.",
+    "solution": "Both statement I and statement II are true with respect to mineral absorption in plants. Minerals can be absorbed actively (with energy) or passively (without energy), and mineral ion absorption is indeed independent of water absorption.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Intrinsic plasticity is found in ___ [MHT-CET 2023]",
+    "question_latex": "Intrinsic plasticity is found in \\_ \\_ \\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Coriander only",
+      "B. Ranunculus",
+      "C. Cotton only",
+      "D. Cotton and coriander"
+    ],
+    "option_images": [],
+    "answer": "D. Cotton and coriander",
+    "solution": "Intrinsic plasticity is found in cotton and coriander. In these plants, juvenile stage and mature stage show different forms of leaves in the same plant, e.g. heterophylly in cotton, coriander, larkspur (Delphinium). Intrinsic heterophylly can also be called intrinsic plasticity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The shedding of leaves, flowers or fruits due to change in the hormonal balance in plants, is referred as",
+    "question_latex": "The shedding of leaves, flowers or fruits due to change in the hormonal balance in plants, is referred as",
+    "question_images": [],
+    "options": [
+      "A. Senescence",
+      "B. Abscission",
+      "C. Photoperiodism",
+      "D. Vernalization"
+    ],
+    "option_images": [],
+    "answer": "B. Abscission",
+    "solution": "Abscission is the shedding of a body part, commonly refers to the process by which a plant intentionally drops one or more of its parts, such as a leaf, fruit, flower or seed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The discovery of gibberellins is related with one of the following",
+    "question_latex": "The discovery of gibberellins is related with one of the following",
+    "question_images": [],
+    "options": [
+      "A. Blast disease of rice",
+      "B. Rust disease of wheat",
+      "C. Bakane disease of rice",
+      "D. Early blight disease of potato"
+    ],
+    "option_images": [],
+    "answer": "C. Bakane disease of rice",
+    "solution": "Gibberellins are named after the fungus Gibberella fujikuroi which caused disease in rice plants. Japanese plant pathologist Elichi Kurosawa investigated it as the Bakane (foolish seedling) disease.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The response of different organisms to environment rhythms of light and darkness, is called",
+    "question_latex": "The response of different organisms to environment rhythms of light and darkness, is called",
+    "question_images": [],
+    "options": [
+      "A. Phototropism",
+      "B. Phototaxis",
+      "C. Photoperiodism",
+      "D. Vernalization"
+    ],
+    "option_images": [],
+    "answer": "C. Photoperiodism",
+    "solution": "The effect of photoperiods (relative length of day and night) or daily duration of light hours and dark periods on growth and development of plants is called photoperiodism. In other words, it involves the response of the organism to the environmental rhythms of light and darkness.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Short day plant is",
+    "question_latex": "Short day plant is",
+    "question_images": [],
+    "options": [
+      "A. Xanthium",
+      "B. Pisum",
+      "C. Cucumis",
+      "D. Avena"
+    ],
+    "option_images": [],
+    "answer": "A. Xanthium",
+    "solution": "Xanthium is a short day plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Ratio of ........ and ........ plant hormones and their interactions control the morphogenic differentiation. [2022]",
+    "question_latex": "Ratio of \\ldots \\ldots and \\ldots \\ldots plant hormones and their interactions control the morphogenic differentiation. [2022]",
+    "question_images": [],
+    "options": [
+      "A. Auxin and Gibberellin",
+      "B. Cytokinin and Auxin",
+      "C. Gibberellin and Cytokinin",
+      "D. Ethylene and Cytokinin"
+    ],
+    "option_images": [],
+    "answer": "B. Cytokinin and Auxin",
+    "solution": "The ratio of cytokinin and auxin and their interactions control the morphogenic differentiation in tissue culture.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which one of the following elements is an important binding agent in ribosomes during protein synthesis? [MHT-CET 2020]",
+    "question_latex": "Which one of the following elements is an important binding agent in ribosomes during protein synthesis? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Manganese",
+      "B. Phosphorus",
+      "C. Sulphur",
+      "D. Magnesium"
+    ],
+    "option_images": [],
+    "answer": "D. Magnesium",
+    "solution": "Magnesium helps in maintaining the structure of the Ribosome.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Ethylene is connected with",
+    "question_latex": "Ethylene is connected with",
+    "question_images": [],
+    "options": [
+      "A. Aerobic respiration",
+      "B. Climacterics",
+      "C. Anaerobic",
+      "D. Fermentation"
+    ],
+    "option_images": [],
+    "answer": "B. Climacterics",
+    "solution": "Climacteric fruits have high respiration rate during the fruit's ripening. During the ripening process of climacteric fruits, the production of phytohormone ethylene dramatically increases up to 1000 folds of the basal ethylene level.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which hormone induces RNA synthesis? [MHT-CET 2023]",
+    "question_latex": "Which hormone induces RNA synthesis? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Cytokinin",
+      "B. Gibberellins",
+      "C. Ethylene",
+      "D. Auxins"
+    ],
+    "option_images": [],
+    "answer": "A. Cytokinin",
+    "solution": "Cytokinin induces RNA synthesis and formation of interfascicular cambium.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Natural plant growth inhibitor is ___ [MHT-CET 2024]",
+    "question_latex": "Natural plant growth inhibitor is \\_ \\_ \\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Ethylene",
+      "B. Gibberellins",
+      "C. ABA",
+      "D. Auxins"
+    ],
+    "option_images": [],
+    "answer": "C. ABA",
+    "solution": "Natural plant growth inhibitor is ABA (Abscisic acid). It is synthesized in leaves, fruits, roots, seeds etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The most common auxin is",
+    "question_latex": "The most common auxin is",
+    "question_images": [],
+    "options": [
+      "A. GA",
+      "B. ABA",
+      "C. Kinetin",
+      "D. IAA"
+    ],
+    "option_images": [],
+    "answer": "D. IAA",
+    "solution": "The most common auxin is Indole Acetic Acid (IAA), which is the principal naturally occurring auxin in all higher plants. It performs many functions in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which among the following represents the process of reductive amination? [MHT-CET 2024]",
+    "question_latex": "Which among the following represents the process of reductive amination? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. $\\alpha$-ketoglutaric acid + $NH_4$ + $NADPH_2$ $\\rightarrow$ Glutamic acid + $H_2O$ + ADP",
+      "B. Glutamic acid + $NH_4$ + ATP $\\rightarrow$ Glutamine + ADP",
+      "C. Aspartic acid + $NH_4$ + ATP $\\rightarrow$ Asparagine + ADP",
+      "D. Glutamic acid + Oxaloacetic acid $\\rightarrow$ $\\alpha$-ketoglutaric acid + Aspartic acid"
+    ],
+    "option_images": [],
+    "answer": "A. $\\alpha$-ketoglutaric acid + $NH_4$ + $NADPH_2$ $\\rightarrow$ Glutamic acid + $H_2O$ + ADP",
+    "solution": "Reductive amination: $\\alpha$-ketoglutaric acid + $NH_4$ + $NADPH_2$ $\\rightarrow$ Glutamic acid + $H_2O$ + ADP. Ammonia reacts with alpha ketoglutaric acid to form glutamic acid (glutamate).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following hormones does not naturally occur in plants?",
+    "question_latex": "Which of the following hormones does not naturally occur in plants?",
+    "question_images": [],
+    "options": [
+      "A. 2,4-D",
+      "B. IAA",
+      "C. GA",
+      "D. ABA"
+    ],
+    "option_images": [],
+    "answer": "A. 2,4-D",
+    "solution": "Synthetic auxins are synthetic compounds which cause various physiological responses common to IAA. 2,4-D (2,4-dichlorophenoxy acetic acid) is a synthetic auxin and used as a weedicide. It does not naturally occur in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Ethylene is used",
+    "question_latex": "Ethylene is used",
+    "question_images": [],
+    "options": [
+      "A. To decrease the senescence",
+      "B. To increase the heights of stem",
+      "C. For ripening of fruits",
+      "D. For prevention of leaf fall"
+    ],
+    "option_images": [],
+    "answer": "C. For ripening of fruits",
+    "solution": "Ethylene is a ripening agent thus involved in the ripening of fruits.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "How does pruning help in making the hedge dense?",
+    "question_latex": "How does pruning help in making the hedge dense?",
+    "question_images": [],
+    "options": [
+      "A. It induces the differentiation of new shoots from the rootstock",
+      "B. It frees axillary buds from apical dominance",
+      "C. The apical shoot grows faster after pruning",
+      "D. It releases wound hormones"
+    ],
+    "option_images": [],
+    "answer": "B. It frees axillary buds from apical dominance",
+    "solution": "Pruning helps in making the hedge dense as it frees the axillary buds from apical dominance. The apices of the plant axis (e.g., shoot apex) have the highest concentration of auxin, which suppresses the axillary buds while promoting growth of apical bud. When the shoot apex is cut down through pruning, the axillary buds are released and the hedge becomes dense.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The term \"Grand period of growth\" was given by _______",
+    "question_latex": "The term \"Grand period of growth\" was given by \\_ \\_ \\_ \\_ \\_ \\_ \\_",
+    "question_images": [],
+    "options": [
+      "A. Sachs",
+      "B. F.W. Went",
+      "C. Gane",
+      "D. Kurosawa"
+    ],
+    "option_images": [],
+    "answer": "A. Sachs",
+    "solution": "The term Grand period of growth was given by Sachs. It is the total time period during which maximum growth takes place for completing all phases of growth. Went is associated with coleoptile experiment for Auxin release.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "In which one of the following conditions tobacco plants do NOT flower? [MHT-CET 2024]",
+    "question_latex": "In which one of the following conditions tobacco plants do NOT flower? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Long uninterrupted dark period.",
+      "B. Long dark period is interrupted by a flash of red light (660 nm) and immediately followed by far red light (730 nm).",
+      "C. Long uninterrupted light period.",
+      "D. Short light period with long uninterrupted dark period."
+    ],
+    "option_images": [],
+    "answer": "C. Long uninterrupted light period.",
+    "solution": "Short day plants (like tobacco) are also called long night plants, because they require long uninterrupted dark period/night for flowering. A long uninterrupted light period means insufficient dark period and SDP will not flower.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The number of amino groups in the amino acids present in amides is ___ [MHT-CET 2024]",
+    "question_latex": "The number of amino groups in the amino acids present in amides is \\_ \\_ \\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Four",
+      "B. Three",
+      "C. One",
+      "D. Two"
+    ],
+    "option_images": [],
+    "answer": "D. Two",
+    "solution": "The number of amino groups in the amino acids present in amides is two.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Identify the INCORRECT statement from below. [MHT-CET 2024] (A) During night time $P_{fr}$ is converted into $P_r$ and inhibits flowering in long day plants. (B) During night time $P_r$ is converted into $P_{fr}$ and stimulates flowering in short day plants. (C) During day time $P_{fr}$ accumulates in plants and inhibits flowering in short day plants. (D) The phytochromes $P_r$ and $P_{fr}$ are interconvertible.",
+    "question_latex": "Identify the INCORRECT statement from below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. During night time $P_{fr}$ is converted into $P_r$ and inhibits flowering in long day plants.",
+      "B. During night time $P_r$ is converted into $P_{fr}$ and stimulates flowering in short day plants.",
+      "C. During day time $P_{fr}$ accumulates in plants and inhibits flowering in short day plants.",
+      "D. The phytochromes $P_r$ and $P_{fr}$ are interconvertible."
+    ],
+    "option_images": [],
+    "answer": "B. During night time $P_r$ is converted into $P_{fr}$ and stimulates flowering in short day plants.",
+    "solution": "During day time, $P_{fr}$ accumulates in the plants. It inhibits flowering in SDP but initiates flowering in LDP. During dark period $P_{fr}$ changes into $P_r$; $P_r$ stimulates/promotes flowering in SDP and inhibits flowering in LDP. Statement B is incorrect because $P_r$ is converted into $P_{fr}$ during daytime (not nighttime).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "A natural plant hormone is ___ [MHT-CET 2024]",
+    "question_latex": "A natural plant hormone is \\_ \\_ \\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. IAA",
+      "B. IBA",
+      "C. NAA",
+      "D. 2,4-D"
+    ],
+    "option_images": [],
+    "answer": "A. IAA",
+    "solution": "A natural plant hormone is IAA (Indole Acetic Acid). IBA, NAA and 2,4-D are all synthetic auxins.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The only gaseous plant hormone is ___ [MHT-CET 2024]",
+    "question_latex": "The only gaseous plant hormone is \\_ \\_ \\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Auxins",
+      "B. Gibberellins",
+      "C. ABA",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "D. Ethylene",
+    "solution": "Ethylene is the only gaseous growth regulator. Denny (1924) reported ethylene is effective in fruit ripening.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Zinc activates enzyme carbonic dehydrogenase needed for synthesis of ____ hormone. [MHT-CET 2023]",
+    "question_latex": "Zinc activates enzyme carbonic dehydrogenase needed for synthesis of \\_ \\_ \\_ \\_ hormone. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Cytokinins",
+      "B. ABA",
+      "C. Auxins",
+      "D. Gibberellins"
+    ],
+    "option_images": [],
+    "answer": "C. Auxins",
+    "solution": "Zinc activates enzyme especially carboxylases (part of carbonic dehydrogenase) needed for synthesis of auxin hormone.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements: Statement I: If dark period is interrupted by a flash of light, SDP will not flower. Statement II: When long dark period is interrupted by a flash of light, LDP plant can flower. In the light of the above statements, choose the most appropriate answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements: Statement I: If dark period is interrupted by a flash of light, SDP will not flower. Statement II: When long dark period is interrupted by a flash of light, LDP plant can flower. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Statement I is correct but statement II is incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statements are correct with respect to Photoperiodism. SDP require long uninterrupted dark period for flowering; any light interruption prevents flowering. LDP plants can flower when the long dark period is interrupted by a flash of light.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below is a graph drawn on the parameters of growth versus time. A, B and C respectively represent",
+    "question_latex": "Given below is a graph drawn on the parameters of growth versus time. A, B and C respectively represent",
+    "question_images": [
+      "56_qu_1.png"
+    ],
+    "options": [
+      "A. Exponential phase, log phase and steady state phase",
+      "B. Steady state phase, lag phase and log phase",
+      "C. Slow growing phase, lag phase and steady state phase",
+      "D. Lag phase, steady state phase and log phase"
+    ],
+    "option_images": [],
+    "answer": "B. Steady state phase, lag phase and log phase",
+    "solution": "It is the graphic representation of growth against time. If total growth is plotted against time, an S-shaped or sigmoid curve is obtained. Where A is the steady state phase, B is the lag phase and C is the log phase.",
+    "solution_images": [
+      "56_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "A hormone delaying senescence is [MHT CET 2009]",
+    "question_latex": "A hormone delaying senescence is [MHT CET 2009]",
+    "question_images": [],
+    "options": [
+      "A. Auxin",
+      "B. Cytokinin",
+      "C. Ethylene",
+      "D. Gibberellin"
+    ],
+    "option_images": [],
+    "answer": "B. Cytokinin",
+    "solution": "Senescence is the process of ageing which is caused by increased entropy, cellular breakdown, reduced anabolic process and increased catabolic process. Cytokinins are amino purine derivatives which promote cell division and delay senescence by controlling protein synthesis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Chilling treatment of germinating seeds stimulates the formation ________ of hormone that induces flowering. [MHT-CET 2019]",
+    "question_latex": "Chilling treatment of germinating seeds stimulates the formation \\_ \\_ \\_ \\_ \\_ \\_ \\_ \\_ of hormone that induces flowering. [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Auxin",
+      "B. Kinetin",
+      "C. ABA",
+      "D. Vemalin"
+    ],
+    "option_images": [],
+    "answer": "D. Vemalin",
+    "solution": "Chilling treatment of germinating seeds stimulates the formation of Vernalin (a chemical stimulus), which is the hormone that induces flowering.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Generally vernalization is effective at ___ stage in annual plants. [MHT-CET 2023]",
+    "question_latex": "Generally vernalization is effective at \\_ \\_ \\_ stage in annual plants. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Floral bud",
+      "B. Flower",
+      "C. Seedling",
+      "D. Fruit"
+    ],
+    "option_images": [],
+    "answer": "C. Seedling",
+    "solution": "Generally vernalization is effective at seedling stage in annual plants. It is the method of inducing early flowering by pretreatment of seeds/seedlings at low temperature (1-6°C) for one to one and a half months. Vernalization stimulus is also a chemical stimulus named as vernalin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "In plants, photoperiodic stimulus is received by ___ system. [MHT-CET 2024]",
+    "question_latex": "In plants, photoperiodic stimulus is received by \\_ \\_ \\_ system. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Phytochrome",
+      "B. PS-II",
+      "C. PS-I",
+      "D. Cytochrome"
+    ],
+    "option_images": [],
+    "answer": "A. Phytochrome",
+    "solution": "Photochemical receptors in the leaves are the biloproteins (pigments) located in the cell membrane. These are called Phytochromes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Importance of day length in flowering of plants was first shown in",
+    "question_latex": "Importance of day length in flowering of plants was first shown in",
+    "question_images": [],
+    "options": [
+      "A. Lemna",
+      "B. Tobacco",
+      "C. Cotton",
+      "D. Petunia"
+    ],
+    "option_images": [],
+    "answer": "B. Tobacco",
+    "solution": "The phenomenon of photoperiodism was first discovered by Garner and Allard (1920-1922). They observed that Maryland Mammoth variety of tobacco could be made to flower only by reducing the light hours with artificial darkening.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which phytohormone is useful for leaf expansion in leafy vegetables?",
+    "question_latex": "Which phytohormone is useful for leaf expansion in leafy vegetables?",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. Auxins",
+      "C. Cytokinins",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "A. Gibberellins",
+    "solution": "Gibberellins are responsible for leaf expansion of leafy vegetables. Auxins regulate growth, apical dominance and seed dormancy. Cytokinins regulate cell division rate of meristematic tissues. Ethylene is a ripening hormone produced by fruits.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following statements are correct regarding the conditions necessary for plant growth? (I) Microelements and macro elements are required for the proper growth of plants. (II) For proper growth of plants optimum temperature ranges between 15°C - 20°C. (III) In absence of Oxygen process of respiration and release of energy takes place in higher plants. (IV) Gravitational force decides the direction of growth of shoot and root. (V) Light is essential for germination of seed and photosynthesis. [MHT-CET 2024]",
+    "question_latex": "Which of the following statements are correct regarding the conditions necessary for plant growth? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (I), (IV) and (V) only",
+      "B. (II) and (III) only",
+      "C. (I), (III) and (IV) only",
+      "D. (I) and (II) only"
+    ],
+    "option_images": [],
+    "answer": "A. (I), (IV) and (V) only",
+    "solution": "Statement I (microelements and macro elements required), IV (gravitational force decides direction of growth) and V (light essential for germination and photosynthesis) are correct. Statement II is incorrect (optimum temperature is 25-35°C not 15-20°C). Statement III is incorrect (oxygen is essential for respiration).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which one of the following is NOT an example of long day plants?",
+    "question_latex": "Which one of the following is NOT an example of long day plants?",
+    "question_images": [],
+    "options": [
+      "A. Mentha",
+      "B. Lettuce",
+      "C. Poppy",
+      "D. Viola"
+    ],
+    "option_images": [],
+    "answer": "D. Viola",
+    "solution": "Photoperiodism is defined as developmental response of plants to the relative length of light and dark period. Viola, Kalanchoe, onion are short day plants. They require a long night or dark period for their flowering.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The rosette habit of cabbage can be changed by application of",
+    "question_latex": "The rosette habit of cabbage can be changed by application of",
+    "question_images": [],
+    "options": [
+      "A. IAA",
+      "B. GA",
+      "C. ABA",
+      "D. Ethaphon"
+    ],
+    "option_images": [],
+    "answer": "B. GA",
+    "solution": "Gibberellic acids induce sub-apical meristem to develop faster. This causes elongation of reduced stem or bolting in case of rosette plants (e.g., cabbage) and root crops e.g. radish.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Hormone inducing fruit ripening is",
+    "question_latex": "Hormone inducing fruit ripening is",
+    "question_images": [],
+    "options": [
+      "A. Ethylene",
+      "B. Cytokinin",
+      "C. Gibberellic acid",
+      "D. Abscisic acid"
+    ],
+    "option_images": [],
+    "answer": "A. Ethylene",
+    "solution": "Ethylene is the only gaseous hormone. Main roles include: 1. It helps in ripening of fruits like mango, banana, etc. (popularly known as ripening hormone). 2. It accelerates apical dominance and senescence of leaves and flowers. 3. It inhibits geotropism and flowering.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Bolting may be induced by",
+    "question_latex": "Bolting may be induced by",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. ABA",
+      "C. Auxin",
+      "D. Cytokinin"
+    ],
+    "option_images": [],
+    "answer": "A. Gibberellins",
+    "solution": "The rapid growth of internodes of rosette plants prior to flowering is called Bolting. It needs long days or cold nights. The exogenous application of gibberellin induces bolting.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "A graph showing growth rate at three phases of growth in plants is [MHT-CET 2023]",
+    "question_latex": "A graph showing growth rate at three phases of growth in plants is [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Straight line",
+      "B. Zigzag",
+      "C. Linear",
+      "D. Sigmoid"
+    ],
+    "option_images": [],
+    "answer": "D. Sigmoid",
+    "solution": "A graph showing growth rate at three phases of growth (lag phase, exponential phase and stationary phase) in plants is sigmoid (S-shaped curve).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which one is short day plant?",
+    "question_latex": "Which one is short day plant?",
+    "question_images": [],
+    "options": [
+      "A. Brassica compestris",
+      "B. Raphanus sativus",
+      "C. Glycine max",
+      "D. Papaver somniferum"
+    ],
+    "option_images": [],
+    "answer": "C. Glycine max",
+    "solution": "Glycine max (soybean) is a short day plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Two groups of plants 'A' and 'B' were exposed to a flash of light during their dark period. 'A' plants produced flowers but 'B' plants did not produce flowers. Which of the following categories will you place these plants?",
+    "question_latex": "Two groups of plants 'A' and 'B' were exposed to a flash of light during their dark period. 'A' plants produced flowers but 'B' plants did not produce flowers. Which of the following categories will you place these plants?",
+    "question_images": [],
+    "options": [
+      "A. A - day neutral, B - long day",
+      "B. A - short day, B - day neutral",
+      "C. A - long day, B - short day",
+      "D. A - short day, B - long day"
+    ],
+    "option_images": [],
+    "answer": "C. A - long day, B - short day",
+    "solution": "A is a long day plant: a flash of light during their dark period does not affect flowering (they don't need long dark period). B is a short day plant: flashlight in the dark period interrupts the required long dark period and prevents flowering.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements. Statement-I: If dark period is interrupted by flash of light, SDP will not flower. Statement-II: When long dark period is interrupted by a flash of light, SDP can flower. In the light of above two statements choose the correct answer from options given below. [MHT-CET 2024]",
+    "question_latex": "Statement-I: If dark period is interrupted by flash of light, SDP will not flower. Statement-II: When long dark period is interrupted by a flash of light, SDP can flower. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct but statement II is incorrect.",
+    "solution": "Statement I is correct: SDP will not flower if dark period is interrupted by a flash of light. Statement II is incorrect: when long dark period is interrupted by a brief flash of light, LD plants (not SDP) can flower e.g. pea, radish, sugar beet, cabbage, spinach, wheat, poppy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Bakane disease of rice is caused by ____ [MHT-CET 2023]",
+    "question_latex": "Bakane disease of rice is caused by \\_ \\_ \\_ \\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Viruses",
+      "B. Fungus",
+      "C. Bacteria",
+      "D. Viroids"
+    ],
+    "option_images": [],
+    "answer": "B. Fungus",
+    "solution": "When rice plant was infected by fungus Gibberella fujikuroi, it shows extensive stem elongation called bakane (foolish seedling) disease.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Hydroponics is a system of growing plants in",
+    "question_latex": "Hydroponics is a system of growing plants in",
+    "question_images": [],
+    "options": [
+      "A. Soil less culture or solution culture",
+      "B. Acidic soils",
+      "C. Soil less culture with alkaline pH",
+      "D. Soil less culture with acidic pH"
+    ],
+    "option_images": [],
+    "answer": "A. Soil less culture or solution culture",
+    "solution": "Hydro means water and ponic means culture. Thus, hydroponics is related to growing plants in solution culture or soil less culture.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Among the list of following plants, how many of them are short day plants? Cosmos, Beet, Lettuce, Soyabean, Viola, Cucumber, Tomato, Sunflower, Rose",
+    "question_latex": "Among the list of following plants, how many of them are short day plants? Cosmos, Beet, Lettuce, Soyabean, Viola, Cucumber, Tomato, Sunflower, Rose",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 2",
+      "C. 5",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "Soybean, cosmos, and viola are short day plants. Photoperiodism is the physiological relation of organisms to the length of night or dark period. Based on this, plants are classified as long day plants, short day plants and day neutral plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the PGRs induces parthenocarpy in tomatoes?",
+    "question_latex": "Which of the PGRs induces parthenocarpy in tomatoes?",
+    "question_images": [],
+    "options": [
+      "A. Auxin",
+      "B. Gibberellin",
+      "C. Cytokinin",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "A. Auxin",
+    "solution": "Auxin induces parthenocarpy in tomatoes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following induces flowering in long day plants?",
+    "question_latex": "Which of the following induces flowering in long day plants?",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. Cytokinin",
+      "C. Auxins",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "A. Gibberellins",
+    "solution": "Gibberellins are plant hormones, which were first isolated from a fungus Gibberella fujikuroi. They induce flowering in long day plants in short day conditions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Hormone replacing the requirement of vernalization is",
+    "question_latex": "Hormone replacing the requirement of vernalization is",
+    "question_images": [],
+    "options": [
+      "A. Ethylene",
+      "B. Auxin",
+      "C. Gibberellins",
+      "D. Cytokinin"
+    ],
+    "option_images": [],
+    "answer": "C. Gibberellins",
+    "solution": "Vernalization involves the cold treatment of plants to induce flowering. Vernalization treatment of biennial plants for flowering can be replaced by gibberellins.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which auxin was discovered first? [MHT-CET 2023]",
+    "question_latex": "Which auxin was discovered first? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. IBA",
+      "B. 2,4-D",
+      "C. IAA",
+      "D. NAA"
+    ],
+    "option_images": [],
+    "answer": "C. IAA",
+    "solution": "IAA is the most common and important natural auxin. Indole-3-acetic acid (IAA) was first isolated from the urine of a person suffering from Pellagra.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Match terms given in Column I with Characteristics given in Column II. Choose the correct option. Column I: (a) Differentiation, (b) Dedifferentiation, (c) Redifferentiation. Column II: (i) Dedifferentiated cells produce new cells which lose the ability of cell division, become more mature and perform specific function. (ii) Differentiated cells regain the ability of cell division. (iii) Permanent change in structure and function of cells leading to maturation. [MHT-CET 2023]",
+    "question_latex": "Match terms given in Column I with Characteristics given in Column II. [MHT-CET 2023]",
+    "question_images": [
+      "q79_1"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(i), (c)-(iii)",
+      "B. (a)-(iii), (b)-(i), (c)-(ii)",
+      "C. (a)-(iii), (b)-(ii), (c)-(i)",
+      "D. (a)-(i), (b)-(ii), (c)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "C. (a)-(iii), (b)-(ii), (c)-(i)",
+    "solution": "Differentiation - Permanent change in structure and function of cells leading to maturation (iii); Dedifferentiation - Differentiated cells regain the ability of cell division (ii); Redifferentiation - Dedifferentiated cells produce new cells which lose the ability of cell division, become more mature and perform specific function (i).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Gibberellin was first discovered from",
+    "question_latex": "Gibberellin was first discovered from",
+    "question_images": [],
+    "options": [
+      "A. Algae",
+      "B. Fungi",
+      "C. Bacteria",
+      "D. Roots of higher plants"
+    ],
+    "option_images": [],
+    "answer": "B. Fungi",
+    "solution": "Gibberellin was first discovered from fungi Gibberella fujikuroi.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Mevalonic acid is the precursor for the synthesis of which of the following pair of plant hormones? [MHT-CET 2023]",
+    "question_latex": "Mevalonic acid is the precursor for the synthesis of which of the following pair of plant hormones? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Ethylene and Auxins",
+      "B. Cytokinins and Ethylene",
+      "C. Auxins and Cytokinins",
+      "D. Gibberellic acid and Abscisic acid"
+    ],
+    "option_images": [],
+    "answer": "D. Gibberellic acid and Abscisic acid",
+    "solution": "Mevalonic acid is the precursor for the synthesis of Gibberellic acid and Abscisic acid.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "One set of a plant was grown at 12 hours day / 12 hours night period cycles and it flowered, while in the other set night phase was interrupted by flash of light and it did not produce flower. Under which one of the following categories will you place this plant?",
+    "question_latex": "One set of a plant was grown at 12 hours day / 12 hours night period cycles and it flowered, while in the other set night phase was interrupted by flash of light and it did not produce flower. Under which one of the following categories will you place this plant?",
+    "question_images": [],
+    "options": [
+      "A. Long day",
+      "B. Darkness neutral",
+      "C. Day neutral",
+      "D. Short day"
+    ],
+    "option_images": [],
+    "answer": "D. Short day",
+    "solution": "The conditions show that the plant requires photoperiod shorter than the critical day length. This plant needs uninterrupted dark period for flowering. Therefore, it is a short day plant and these plants do not flower if the dark period is interrupted with flashes of light.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following statements are correct regarding the conditions necessary for plant growth? (I) Microelements and macro elements are required for the proper growth of the plant. (II) For proper growth of plant optimum temperature ranges between 15°C - 25°C. (III) In absence of oxygen, process of respiration and release of energy takes place in all plants. (IV) Gravitational force decides the direction of growth of the shoot and root. (V) Light is essential for germination of some seeds and photosynthesis. [MHT-CET 2024]",
+    "question_latex": "Which of the following statements are correct regarding the conditions necessary for plant growth? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (I), (IV) and (V) only",
+      "B. (I), (II), (III) and (IV) only",
+      "C. (I), (II) and (III) only",
+      "D. (II), (III) and (IV) only"
+    ],
+    "option_images": [],
+    "answer": "A. (I), (IV) and (V) only",
+    "solution": "Optimum temperature ranges between 25-35°C (not 15-25°C), so statement II is wrong. Oxygen is essential for respiration and the release of energy, so statement III is incorrect. Statements I, IV and V are correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Nicotiana sylvestris flowers only during long days while N. tobacum flowers only during short days. If raised in the laboratory under different photoperiods, they can be induced to flower at the same time and can be cross fertilized to produce self-fertile offspring. What is the best reason for considering N. sylvestris and N. tobacum to be separate species?",
+    "question_latex": "Nicotiana sylvestris flowers only during long days while N. tobacum flowers only during short days. What is the best reason for considering N. sylvestris and N. tobacum to be separate species?",
+    "question_images": [],
+    "options": [
+      "A. They are physiologically distinct",
+      "B. They are morphologically distinct",
+      "C. They cannot interbreed in nature",
+      "D. They are reproductively distinct"
+    ],
+    "option_images": [],
+    "answer": "D. They are reproductively distinct",
+    "solution": "The biological concept of species says that only the members of a species can breed freely in nature to produce fertile offsprings. The plant tobacco (Nicotiana) has two different species - Nicotiana tobaccum and Nicotiana sylvestris. These two species cannot reproduce freely in nature.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Richmond-Lang effect is concerned with",
+    "question_latex": "Richmond-Lang effect is concerned with",
+    "question_images": [],
+    "options": [
+      "A. Delay in senescence",
+      "B. Breaking dormancy",
+      "C. Suppression of apical dominance",
+      "D. Cell elongation"
+    ],
+    "option_images": [],
+    "answer": "A. Delay in senescence",
+    "solution": "Richmond and Lang (1967) observed that degradation of proteins and chlorophyll was delayed in the detached leaves of Xanthium by the application of cytokinin. This effect of cytokinin in delaying senescence is called the Richmond-Lang effect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which of the following is an anti-gibberellin?",
+    "question_latex": "Which of the following is an anti-gibberellin?",
+    "question_images": [],
+    "options": [
+      "A. Auxin",
+      "B. ABA",
+      "C. Ethylene",
+      "D. Cytokinin"
+    ],
+    "option_images": [],
+    "answer": "B. ABA",
+    "solution": "ABA inhibits gibberellin-induced growth activities. On account of this antagonistic behaviour, it is often called anti-gibberellin.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The phytohormone that induces cell elongation is known to be produced by a fungus. The asexual stage of this fungus is called",
+    "question_latex": "The phytohormone that induces cell elongation is known to be produced by a fungus. The asexual stage of this fungus is called",
+    "question_images": [],
+    "options": [
+      "A. Rhizopus sexualis",
+      "B. Fusarium moniliformae",
+      "C. Gibberella fujikuroi",
+      "D. Fusarium oxysporum"
+    ],
+    "option_images": [],
+    "answer": "B. Fusarium moniliformae",
+    "solution": "The phytohormone that induces cell elongation is gibberellin, produced by the fungus Gibberella fujikuroi. The asexual stage of this fungus is Fusarium moniliformae.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements. Statement-I: Gibberellins promote flowering in long day plants. Statement-II: ABA inhibits flowering in long day plants but stimulates flowering in short day plants. In the light of above statements, choose the correct option given below. [MHT-CET 2024]",
+    "question_latex": "Statement-I: Gibberellins promote flowering in long day plants. Statement-II: ABA inhibits flowering in long day plants but stimulates flowering in short day plants. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "B. Both statement I and statement II are correct.",
+    "solution": "Both the statements are correct with respect to plant growth regulators.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "How many of the following plants are Day Neutral plants (DNP)? Dahlia, Pea, Aster, Tobacco, Wheat, Poppy, Tomato, Cotton, Soyabean, Sugarbeet, Cabbage, Maize, Balsam, Spinach. [MHT-CET 2024]",
+    "question_latex": "How many of the following plants are Day Neutral plants (DNP)? Dahlia, Pea, Aster, Tobacco, Wheat, Poppy, Tomato, Cotton, Soyabean, Sugarbeet, Cabbage, Maize, Balsam, Spinach. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Three",
+      "B. Five",
+      "C. Six",
+      "D. Four"
+    ],
+    "option_images": [],
+    "answer": "D. Four",
+    "solution": "Day Neutral Plants flower throughout the year, independent of duration of light (photoperiod). Examples include cucumber, tomato, cotton, sunflower, maize, balsam. From the given list: Tomato, Cotton, Maize and Balsam are DNPs = 4.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "The size of grape fruits is enlarged by using which of the following plant growth hormones? [MHT-CET 2024]",
+    "question_latex": "The size of grape fruits is enlarged by using which of the following plant growth hormones? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Gibberellins",
+      "B. Cytokinins",
+      "C. Auxin",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "A. Gibberellins",
+    "solution": "The size of grape fruits is enlarged by using Gibberellins.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which hormone is used to increase fruit size and bunch length of grapes? [MHT-CET 2023]",
+    "question_latex": "Which hormone is used to increase fruit size and bunch length of grapes? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Auxins",
+      "B. Ethylene",
+      "C. Cytokinins",
+      "D. Gibberellins"
+    ],
+    "option_images": [],
+    "answer": "D. Gibberellins",
+    "solution": "Gibberellins hormone is used to increase fruit size and bunch length of grapes as it increases fruit size and bunch length in grapes, increases nodes length and delays senescence.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Given below are two statements. Statement I: If the long dark period is interrupted by a brief flash of light, short day plants will not flower. Statement II: When the long dark period is interrupted by a brief flash of light, long day plants can flower. In the light of above statements, choose the most appropriate answer from the options given below. [MHT-CET 2024]",
+    "question_latex": "Statement I: If the long dark period is interrupted by a brief flash of light, short day plants will not flower. Statement II: When the long dark period is interrupted by a brief flash of light, long day plants can flower. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Both statement I and statement II are correct.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to photoperiods effect on flowering.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "During hypogeal germination, _____ elongates quickly.",
+    "question_latex": "During hypogeal germination, \\_ \\_ \\_ \\_ \\_ elongates quickly.",
+    "question_images": [],
+    "options": [
+      "A. Hypocotyl",
+      "B. Epicotyl",
+      "C. Cotyledon",
+      "D. Tigellum"
+    ],
+    "option_images": [],
+    "answer": "B. Epicotyl",
+    "solution": "In hypogeal germination, the cotyledon remains in the soil. Epicotyl grows while hypocotyl remains same in the soil, so epicotyl pushes plumule above the ground. E.g. Peas and corn.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Match the minerals given in Column I with their sources given in Column II from where terrestrial plants derive them. Column I: (a) Hydrogen, (b) Oxygen, (c) Carbon, (d) Nitrogen. Column II: (i) Soil, (ii) Water, (iii) Air and water, (iv) Atmosphere. [MHT-CET 2023]",
+    "question_latex": "Match the minerals given in Column I with their sources given in Column II from where terrestrial plants derive them. [MHT-CET 2023]",
+    "question_images": [
+      "q94_1"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "B. (a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "C. (a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Hydrogen - Water (ii); Oxygen - Air and water (iii); Carbon - Atmosphere/CO2 (iv); Nitrogen - Soil (i).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "In plant growth formative phase is a phase of _______ [MHT-CET 2019]",
+    "question_latex": "In plant growth formative phase is a phase of \\_ \\_ \\_ \\_ \\_ \\_ \\_ [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Cell maturation",
+      "B. Cell division",
+      "C. Cell enlargement",
+      "D. Cell differentiation"
+    ],
+    "option_images": [],
+    "answer": "B. Cell division",
+    "solution": "In plant growth, the formative phase is a phase of cell division.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Mobilization of stored food in germinating seed is triggered by",
+    "question_latex": "Mobilization of stored food in germinating seed is triggered by",
+    "question_images": [],
+    "options": [
+      "A. ABA",
+      "B. GA",
+      "C. Cytokinin",
+      "D. Ethylene"
+    ],
+    "option_images": [],
+    "answer": "B. GA",
+    "solution": "One of the most dramatic effects of GA is its induction of $\\alpha$-hydrolytic enzymes like proteases, $\\alpha$-amylases, lipases, which help to mobilize stored nutrients in the aleurone layer of endosperm of germinating barley seeds and cereal grains.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which is used as weedicide?",
+    "question_latex": "Which is used as weedicide?",
+    "question_images": [],
+    "options": [
+      "A. 2,4-D",
+      "B. IBA",
+      "C. IAA",
+      "D. ABA"
+    ],
+    "option_images": [],
+    "answer": "A. 2,4-D",
+    "solution": "2,4-D (2,4-dichloro-phenoxy acetic acid) is a synthetic auxin. It is a selective weedicide and kills broad-leaved dicot plants only.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Which phytohormones promote seed germination in cereals by synthesizing amylase enzyme?",
+    "question_latex": "Which phytohormones promote seed germination in cereals by synthesizing amylase enzyme?",
+    "question_images": [],
+    "options": [
+      "A. Cytokinins",
+      "B. Gibberellin",
+      "C. Abscisic acid",
+      "D. Auxin"
+    ],
+    "option_images": [],
+    "answer": "B. Gibberellin",
+    "solution": "Gibberellins are phytohormones that promote seed germination in cereals by synthesizing amylase. ABA is a growth inhibitor. Auxins are growth promoters and Cytokinins promote cell division rate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "Select the correct statements from the following regarding gaseous exchange in plants. Choose the correct option given below. (i) A terrestrial plant has many air spaces between the cells of leaf and root. (ii) Woody trees have stomata on bark. (iii) In aerated soil, oxygen dissolved in water enters root tissue by diffusion. (iv) Vascular bundles provide thin and large surface area for exchange of gases. (v) Carbon dioxide and water vapour diffuse into lenticels. [MHT-CET 2023]",
+    "question_latex": "Select the correct statements regarding gaseous exchange in plants. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. III, IV, V only",
+      "B. II, III and IV only",
+      "C. I and II only",
+      "D. I and III only"
+    ],
+    "option_images": [],
+    "answer": "D. I and III only",
+    "solution": "Many air spaces between the cells of leaf and root help in gaseous exchange in plants (Statement I is correct). In aerated soil, oxygen dissolved in water enters root tissue by diffusion (Statement III is correct). Woody trees have lenticels (not stomata) on bark; vascular bundles do not provide large surface area for gas exchange; CO2 and water vapour diffuse out (not into) lenticels.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Plant Growth and Mineral Nutrition",
+    "question": "A natural plant hormone is ___ [MHT-CET 2024]",
+    "question_latex": "A natural plant hormone is \\_ \\_ \\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. NAA",
+      "B. IBA",
+      "C. IAA",
+      "D. 2,4-D"
+    ],
+    "option_images": [],
+    "answer": "C. IAA",
+    "solution": "A natural plant hormone is IAA (Indole Acetic Acid). NAA, IBA and 2,4-D are all synthetic hormones.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

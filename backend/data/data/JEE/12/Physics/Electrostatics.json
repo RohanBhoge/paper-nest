@@ -1,0 +1,1994 @@
+[
+  {
+    "id": 1,
+    "chapter": "Electrostatics",
+    "question": "Six identical capacitors are joined in parallel, charged to a potential difference of 10 V, separated and then connected in series, ie, the positive plate of one is connected to negative plate of other. Then potential difference between free plates is",
+    "question_latex": "Six identical capacitors are joined in parallel, charged to a potential difference of $10~V$, separated and then connected in series, ie, the positive plate of one is connected to negative plate of other. Then potential difference between free plates is",
+    "question_images": [],
+    "options": [
+      "A. $10~V$",
+      "B. $30~V$",
+      "C. $60~V$",
+      "D. $\\frac{10}{6}~V$"
+    ],
+    "option_images": [],
+    "answer": "C. $60~V$",
+    "solution": "If $C$ is capacity of each condenser, then charge on each capacitor $q = CV = 10C$. When connected in series, potential difference between free plates $= \\frac{\\text{total charge}}{\\text{total capacity}} = \\frac{10C \\times 6}{C} = 60~V$. Note: Since they are in series, the potentials add up: $10V + 10V + 10V + 10V + 10V + 10V = 60V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Electrostatics",
+    "question": "A hollow charged metal sphere has radius r. If the potential difference between its surface and a point at a distance 3r from the centre is V, then electric field intensity at distance 3r is",
+    "question_latex": "A hollow charged metal sphere has radius $r$. If the potential difference between its surface and a point at a distance $3r$ from the centre is $V$, then electric field intensity at distance $3r$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{V}{2r}$",
+      "B. $\\frac{V}{3r}$",
+      "C. $\\frac{V}{6r}$",
+      "D. $\\frac{V}{4r}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{V}{6r}$",
+    "solution": "Here $V = \\frac{q}{4\\pi\\epsilon_{0}r} - \\frac{q}{4\\pi\\epsilon_{0}(3r)} = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{2q}{3r}$. The electric field at distance $3r$ is $E = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{q}{(3r)^{2}} = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{q}{9r^{2}}$. On simplification, we get $\\frac{E}{V} = \\frac{1}{6r} \\Rightarrow E = \\frac{V}{6r}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Electrostatics",
+    "question": "Two electrons each are fixed at a distance '2d'. A third charge proton placed at the midpoint is displaced slightly by a distance x (x << d) perpendicular to the line joining the two fixed charges. Proton will execute simple harmonic motion having angular frequency (m = mass of charged particle)",
+    "question_latex": "Two electrons each are fixed at a distance '$2d$'. A third charge proton placed at the midpoint is displaced slightly by a distance $x (x \\ll d)$ perpendicular to the line joining the two fixed charges. Proton will execute simple harmonic motion having angular frequency ($m$ = mass of charged particle)",
+    "question_images": [],
+    "options": [
+      "A. $(\\frac{2q^{2}}{\\pi\\epsilon_{o}m d^{3}})^{1/2}$",
+      "B. $(\\frac{\\pi\\epsilon_{0}md^{5}}{2a^{5}})^{4/2}$",
+      "C. $(\\frac{q^{2}}{2\\pi\\epsilon_{o}md^{3}})^{1/2}$",
+      "D. $(\\frac{2\\pi\\epsilon_{o}md^{3}}{q^{2}})^{1/2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $(\\frac{q^{2}}{2\\pi\\epsilon_{o}md^{3}})^{1/2}$",
+    "solution": "Net force on the proton along Y-direction is $F_{y} = 2F_{e} \\sin \\theta = 2 F_{e} \\frac{x}{\\sqrt{x^2+d^2}}$. Given $x \\ll d$, $F_{e} \\approx \\frac{Kq^2}{d^2}$ and $F_{y} \\approx \\frac{2Kq^2}{d^3}x = \\frac{q^2}{2\\pi\\epsilon_0 d^3}x$. Since $F_{y} \\propto -x$, the motion is SHM with $\\omega = \\sqrt{\\frac{K_{eff}}{m}} = \\sqrt{\\frac{q^2}{2\\pi\\epsilon_0 m d^3}}$.",
+    "solution_images": [
+      "3_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Electrostatics",
+    "question": "An electron enters the space between the plates of a charged capacitor as shown. The charge density on the plate is sigma. Electric intensity in the space between the plates is E. A uniform magnetic field B also exists in the space perpendicular to the direction of E. The electron moves perpendicular to both E and B without any change in direction. The time taken by the electron to travel a distance l in the space is",
+    "question_latex": "An electron enters the space between the plates of a charged capacitor as shown. The charge density on the plate is $\\sigma$. Electric intensity in the space between the plates is $E$. A uniform magnetic field $B$ also exists in the space perpendicular to the direction of $E$. The electron moves perpendicular to both $E$ and $B$ without any change in direction. The time taken by the electron to travel a distance $l$ in the space is",
+    "question_images": [
+      "4_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{\\sigma l}{\\epsilon_{0}B}$",
+      "B. $\\frac{\\sigma B}{\\epsilon_{0}l}$",
+      "C. $\\frac{\\epsilon_{0}lB}{\\sigma}$",
+      "D. $\\frac{\\epsilon_{0}l}{\\sigma B}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{\\epsilon_{0}lB}{\\sigma}$",
+    "solution": "For no deviation, magnetic force = electrostatic force: $qvB = qE \\Rightarrow v = \\frac{E}{B}$. Since $E = \\frac{\\sigma}{\\epsilon_0}$, then $v = \\frac{\\sigma}{\\epsilon_0 B}$. Time taken $t = \\frac{l}{v} = \\frac{l}{\\sigma / \\epsilon_0 B} = \\frac{\\epsilon_0 l B}{\\sigma}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Electrostatics",
+    "question": "A 40 µF capacitor in a defibrillator is charged to 3000 V. The energy stored in the capacitor is sent through the patient during a pulse of duration 2 ms. The power delivered to the patient is",
+    "question_latex": "A $40~\\mu F$ capacitor in a defibrillator is charged to $3000~V$. The energy stored in the capacitor is sent through the patient during a pulse of duration $2~ms$. The power delivered to the patient is",
+    "question_images": [],
+    "options": [
+      "A. 45 kW",
+      "B. 90 kW",
+      "C. 180 kW",
+      "D. 360 kW"
+    ],
+    "option_images": [],
+    "answer": "B. 90 kW",
+    "solution": "$Power = \\frac{Energy}{Time} = \\frac{\\frac{1}{2}CV^2}{t}$. Substituting values: $P = \\frac{1/2 \\times 40 \\times 10^{-6} \\times (3000)^2}{2 \\times 10^{-3}} = \\frac{20 \\times 10^{-6} \\times 9 \\times 10^6}{2 \\times 10^{-3}} = 90 \\times 10^3 = 90~kW$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Electrostatics",
+    "question": "Consider two infinitely large parallel conducting plates as shown below. The plates are uniformly charged with a surface charge density +sigma and -2sigma. The force experienced by a point charge +q placed at the mid point between two plates will be :",
+    "question_latex": "Consider two infinitely large parallel conducting plates as shown below. The plates are uniformly charged with a surface charge density $+\\sigma$ and $-2\\sigma$. The force experienced by a point charge $+q$ placed at the mid point between two plates will be :",
+    "question_images": [
+      "6_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{\\sigma q}{2\\epsilon_{0}}$",
+      "B. $\\frac{3\\sigma q}{4\\epsilon_{0}}$",
+      "C. $\\frac{3\\sigma q}{2\\epsilon_{0}}$",
+      "D. $\\frac{\\sigma q}{4\\epsilon_{0}}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{3\\sigma q}{2\\epsilon_{0}}$",
+    "solution": "Net electric field $E = E_1 + E_2 = \\frac{\\sigma}{2\\epsilon_0} + \\frac{2\\sigma}{2\\epsilon_0} = \\frac{3\\sigma}{2\\epsilon_0}$. Force $F_{net} = qE = \\frac{3\\sigma q}{2\\epsilon_0}$.",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Electrostatics",
+    "question": "Given below are two statements: one is labelled a Assertion (A) and the other is labelled as Reason(R)\nAssertion (A): Work done by electric field on moving a positive charge on an equipotential surface is always zero.\nReason (R): Electric lines of forces are always perpendicular to equipotential surfaces.",
+    "question_latex": "Given below are two statements: one is labelled a Assertion (A) and the other is labelled as Reason(R)\nAssertion (A): Work done by electric field on moving a positive charge on an equipotential surface is always zero.\nReason (R): Electric lines of forces are always perpendicular to equipotential surfaces.",
+    "question_images": [],
+    "options": [
+      "A. (A) is not correct but (R) is correct",
+      "B. (A) is correct but (R) is not correct",
+      "C. Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "D. Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+    ],
+    "option_images": [],
+    "answer": "D. Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "solution": "Angle between force and displacement will always be $90^{\\circ}$ as electric lines of force are always perpendicular to an equipotential surface. Therefore, work done $W = Fd\\cos(90^{\\circ}) = 0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Electrostatics",
+    "question": "Two isolated metallic solid spheres of radii R and 2R are charged such that both have same charge density sigma. The spheres are then connected by a thin conducting wire. If the new charge density of the bigger sphere is sigma prime. The ratio sigma prime / sigma is",
+    "question_latex": "Two isolated metallic solid spheres of radii $R$ and $2R$ are charged such that both have same charge density $\\sigma$. The spheres are then connected by a thin conducting wire. If the new charge density of the bigger sphere is $\\sigma'$. The ratio $\\frac{\\sigma'}{\\sigma}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{4}{3}$",
+      "B. $\\frac{9}{4}$",
+      "C. $\\frac{5}{6}$",
+      "D. $\\frac{5}{3}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{5}{6}$",
+    "solution": "Initial charges: $q_1 = 4\\pi R^2 \\sigma$ and $q_2 = 16\\pi R^2 \\sigma$. After connection, potential is same: $\\frac{Q_1}{R} = \\frac{Q_2}{2R} \\Rightarrow Q_2 = 2Q_1$. Total charge $Q_1 + Q_2 = 20\\pi R^2 \\sigma$. $3Q_1 = 20\\pi R^2 \\sigma \\Rightarrow Q_2 = \\frac{40}{3}\\pi R^2 \\sigma$. New density $\\sigma' = \\frac{Q_2}{4\\pi(2R)^2} = \\frac{Q_2}{16\\pi R^2}$. Ratio $\\frac{\\sigma'}{\\sigma} = \\frac{40/3}{16} = \\frac{5}{6}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Electrostatics",
+    "question": "Two identical metal plates are given positive charges Q1 and Q2 (Q2 < Q1) respectively. If they are now brought close together to form a parallel plates capacitor with capacitance C, the potential difference between them is",
+    "question_latex": "Two identical metal plates are given positive charges $Q_{1}$ and $Q_{2} (Q_{2} < Q_{1})$ respectively. If they are now brought close together to form a parallel plates capacitor with capacitance $C$, the potential difference between them is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{Q_{1}+Q_{2}}{2C}$",
+      "B. $\\frac{Q_{1}+Q_{2}}{C}$",
+      "C. $\\frac{Q_{1}-Q_{2}}{C}$",
+      "D. $\\frac{Q_{1}-Q_{2}}{2C}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{Q_{1}-Q_{2}}{2C}$",
+    "solution": "Resultant electric field $E = E_1 - E_2 = \\frac{Q_1 - Q_2}{2\\epsilon_0 A}$. Potential difference $V = Ed = \\frac{(Q_1 - Q_2)d}{2\\epsilon_0 A}$. Since $C = \\frac{\\epsilon_0 A}{d}$, $V = \\frac{Q_1 - Q_2}{2C}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Electrostatics",
+    "question": "Three identical charged balls each of charge 2C are suspended from a common point P by silk threads of 2 m each (as shown in figure). They form an equilateral triangle of side 1 m. The ratio of net force on a charged ball to the force between any two charged balls will be",
+    "question_latex": "Three identical charged balls each of charge $2C$ are suspended from a common point $P$ by silk threads of $2~m$ each (as shown in figure). They form an equilateral triangle of side $1~m$. The ratio of net force on a charged ball to the force between any two charged balls will be",
+    "question_images": [
+      "10_qu_1.png"
+    ],
+    "options": [
+      "A. $\\sqrt{3}:2$",
+      "B. $1:4$",
+      "C. $1:1$",
+      "D. $\\sqrt{3}:1$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{3}:1$",
+    "solution": "Force between any two charges $F_1 = F_2 = \\frac{Kq^2}{r^2} = \\frac{K(2)^2}{1^2} = 4K$. The angle between these forces is $60^{\\circ}$. Resultant force $F = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos 60^{\\circ}} = \\sqrt{3}F_1$. Ratio $= \\frac{\\sqrt{3}F_1}{F_1} = \\sqrt{3}:1$.",
+    "solution_images": [
+      "10_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Electrostatics",
+    "question": "In the electric field of a point charge +q, a certain charge is carried from point A to B, C, D and E. Then the work done is",
+    "question_latex": "In the electric field of a point charge $+q$, a certain charge is carried from point $A$ to $B, C, D$ and $E$. Then the work done is",
+    "question_images": [
+      "11_qu_1.png"
+    ],
+    "options": [
+      "A. least along the path AB",
+      "B. least along the path AD",
+      "C. zero along all the paths AB, AC, AD and AE",
+      "D. least along AE"
+    ],
+    "option_images": [],
+    "answer": "C. zero along all the paths AB, AC, AD and AE",
+    "solution": "Points A, B, C, D, and E lie on a circle centered at the point charge $+q$, making it an equipotential surface. On an equipotential surface, no work is done in shifting a charge from one place to another.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Electrostatics",
+    "question": "A hollow metal sphere of radius 5 cm is charged such that potential at its surface is 10V. The potential at the centre of the sphere is",
+    "question_latex": "A hollow metal sphere of radius $5~cm$ is charged such that potential at its surface is $10V$. The potential at the centre of the sphere is",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. 10 V",
+      "C. Same as at point 5cm away from the surface",
+      "D. Same as at point 10cm away from the surface"
+    ],
+    "option_images": [],
+    "answer": "B. 10 V",
+    "solution": "Electric field inside a spherical charge is everywhere zero. Hence, the potential at all points inside is the same as the potential on the surface, which is $10V$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Electrostatics",
+    "question": "A capacitor is connected to a 20 V battery through a resistance of 100 Ohms. It is found that the potential difference across the capacitor rises to 2 V in 1 us. The capacitance of the capacitor is (given ln(10/9) = 0.105)",
+    "question_latex": "A capacitor is connected to a $20~V$ battery through a resistance of $100~\\Omega$. It is found that the potential difference across the capacitor rises to $2~V$ in $1~\\mu s$. The capacitance of the capacitor is (given $\\ln(10/9) = 0.105$)",
+    "question_images": [],
+    "options": [
+      "A. 0.95 uF",
+      "B. 9.52 uF",
+      "C. 0.105 uF",
+      "D. 1.85 uF"
+    ],
+    "option_images": [],
+    "answer": "A. 0.95 uF",
+    "solution": "Using charging equation $V = V_0(1 - e^{-t/RC})$. Given $2 = 20(1 - e^{-t/RC}) \\Rightarrow \\frac{1}{10} = 1 - e^{-t/RC} \\Rightarrow e^{-t/RC} = 0.9$. $\\frac{t}{RC} = \\ln(10/9) = 0.105$. $C = \\frac{10^{-6}}{100 \\times 0.105} \\approx 0.95~\\mu F$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Electrostatics",
+    "question": "A, B, C, D, P And Q are points in a uniform electric field. The potentials at these points are V(A)=2 V. V(P) = V(B) = V(D) = 5 V. V(C)=8 V. the electric field at P is",
+    "question_latex": "$A, B, C, D, P$ and $Q$ are points in a uniform electric field. The potentials at these points are $V(A)=2~V, V(P) = V(B) = V(D) = 5~V, V(C)=8~V$. The electric field at $P$ is",
+    "question_images": [
+      "14_qu_1.png"
+    ],
+    "options": [
+      "A. $10~V/m$ along PQ",
+      "B. $15\\sqrt{2}~V/m$ along PA",
+      "C. $5~V/m$ along PC",
+      "D. $5~V/m$ along PA"
+    ],
+    "option_images": [],
+    "answer": "B. $15\\sqrt{2}~V/m$ along PA",
+    "solution": "Potential decreases in the direction of electric field. Since $V(P) > V(A)$, field is along PA. $E = \\frac{\\Delta V}{\\Delta r} = \\frac{5-2}{0.1\\sqrt{2}} = \\frac{3}{0.1\\sqrt{2}} = \\frac{30}{\\sqrt{2}} = 15\\sqrt{2}~V/m$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Electrostatics",
+    "question": "The electric potential V at any point (x, y, z) in space is given by V=4x^2 V. the electric field at (1,0,2) m in V/m is",
+    "question_latex": "The electric potential $V$ at any point $(x, y, z)$ in space is given by $V=4x^{2}~V$. The electric field at $(1,0,2)~m$ in $V/m$ is",
+    "question_images": [],
+    "options": [
+      "A. 8, along negative X-axis",
+      "B. 8, along positive X-axis",
+      "C. 16, along negative X-axis",
+      "D. 16, along positive X-axis"
+    ],
+    "option_images": [],
+    "answer": "A. 8, along negative X-axis",
+    "solution": "$E = -\\frac{dV}{dx} = -\\frac{d}{dx}(4x^2) = -8x$. At $x=1$, $E = -8(1) = -8~V/m$. Negative sign indicates the direction is along the negative X-axis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Electrostatics",
+    "question": "A charged body has an electric flux associated with it. The body is now placed inside a metallic container. The electric flux phi_1 associated with the container will be",
+    "question_latex": "A charged body has an electric flux $\\phi$ associated with it. The body is now placed inside a metallic container. The electric flux $\\phi_{1}$ associated with the container will be",
+    "question_images": [],
+    "options": [
+      "A. $\\phi_{1}=0$",
+      "B. $0 < \\phi_{1} < \\phi$",
+      "C. $\\phi_{1}=\\phi$",
+      "D. $\\phi_{1} > \\phi$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\phi_{1}=\\phi$",
+    "solution": "According to Gauss's Law, the total electric flux depends only on the net charge enclosed. Since the charge remains constant, $\\phi_1 = \\phi = \\frac{q}{\\epsilon_0}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Electrostatics",
+    "question": "If the electric potential at any point (x, y, z) m in space is given by V=3x^2 volt. The electric field at the point (1,0,3) m will be",
+    "question_latex": "If the electric potential at any point $(x, y, z)~m$ in space is given by $V=3x^{2}$ volt. The electric field at the point $(1,0,3)~m$ will be",
+    "question_images": [],
+    "options": [
+      "A. $6~V~m^{-1}$, directed along positive x -axis",
+      "B. $3~V~m^{-1}$, directed along negative x-axis",
+      "C. $3~V~m^{-1}$, directed along positive x -axis",
+      "D. $6~V~m^{-1}$, directed along negative x -axis"
+    ],
+    "option_images": [],
+    "answer": "D. $6~V~m^{-1}$, directed along negative x -axis",
+    "solution": "$\\vec{E} = -\\frac{dV}{dx}\\hat{i} = -\\frac{d}{dx}(3x^2)\\hat{i} = -6x\\hat{i}$. At $x=1$, $\\vec{E} = -6(1)\\hat{i} = -6\\hat{i}~V/m$. This is $6~V/m$ directed along the negative x-axis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Electrostatics",
+    "question": "The work of electric field done during the displacement of a negatively charged particle towards a fixed positively charged particle is 9 J. As a result the distance between the charges has been decreased by half. What work is done by the electric field over the first half of this distance?",
+    "question_latex": "The work of electric field done during the displacement of a negatively charged particle towards a fixed positively charged particle is $9~J$. As a result the distance between the charges has been decreased by half. What work is done by the electric field over the first half of this distance?",
+    "question_images": [],
+    "options": [
+      "A. 3 J",
+      "B. 6 J",
+      "C. 1.5 J",
+      "D. 9 J"
+    ],
+    "option_images": [],
+    "answer": "A. 3 J",
+    "solution": "$U_1 = -\\frac{KQq}{r}$ and $U_2 = -\\frac{KQq}{r/2} = -\\frac{2KQq}{r}$. Work done $W = U_1 - U_2 = \\frac{KQq}{r} = 9~J$. For the first half of distance travelled, the new distance is $r - r/4 = 3r/4$. $U_3 = -\\frac{KQq}{3r/4} = -\\frac{4KQq}{3r}$. Work done $W' = U_1 - U_3 = -\\frac{KQq}{r} + \\frac{4KQq}{3r} = \\frac{1}{3}\\frac{KQq}{r} = \\frac{9}{3} = 3~J$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Electrostatics",
+    "question": "Two infinite identical charged sheets and a charged spherical body of charge density 'rho' are arranged as shown in figure. Then the correct relation between the electrical fields at A, B, C and D points is:",
+    "question_latex": "Two infinite identical charged sheets and a charged spherical body of charge density '$\\rho$' are arranged as shown in figure. Then the correct relation between the electrical fields at $A, B, C$ and $D$ points is:",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. $\\vec{E}_{A} > \\vec{E}_{B}; \\vec{E}_{C} = \\vec{E}_{D}$",
+      "B. $\\vec{E}_{C} \\ne \\vec{E}_{D}; \\vec{E}_{A} > \\vec{E}_{B}$",
+      "C. $|\\vec{E}_{A}| = |\\vec{E}_{B}|; \\vec{E}_{C} > \\vec{E}_{D}$",
+      "D. $\\vec{E}_{A} = \\vec{E}_{B}; \\vec{E}_{C} = \\vec{E}_{D}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\vec{E}_{C} \\ne \\vec{E}_{D}; \\vec{E}_{A} > \\vec{E}_{B}$",
+    "solution": "$E_{\\text{sheet}} = \\frac{\\sigma}{2\\epsilon_0}$ and $E_{\\text{sphere}} = \\frac{\\rho R^3}{3\\epsilon_0 r^2}$. $E_{\\text{sheet}}$ is same at all points, but $E_{\\text{sphere}}$ varies with distance $r$. $E$ due to sphere is different for $C$ and $D$ as their distances from the center are different. Thus $E_C \\ne E_D$. Similarly, $A$ is closer to the sphere than $B$, so $E_A > E_B$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Electrostatics",
+    "question": "In the given network, the value of C, so that an equivalent capacitance between A and B is 3 uF, is",
+    "question_latex": "In the given network, the value of $C$, so that an equivalent capacitance between $A$ and $B$ is $3~\\mu F$, is",
+    "question_images": [
+      "20_qu_1.png"
+    ],
+    "options": [
+      "A. 36 uF",
+      "B. 48 uF",
+      "C. 31/5 uF",
+      "D. 1/5 uF"
+    ],
+    "option_images": [],
+    "answer": "B. 48 uF",
+    "solution": "Reducing the ladder network, the combination excluding C has an equivalent capacitance of $16/5~\\mu F$. Then $C_{AB} = \\frac{C \\times (16/5)}{C + 16/5} = 3$. Solving for $C$, we get $C = 48~\\mu F$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Electrostatics",
+    "question": "A parallel plate capacitor is charged and then isolated. What is the effect of increasing the plate separation on charge, potential, capacitance, respectively?",
+    "question_latex": "A parallel plate capacitor is charged and then isolated. What is the effect of increasing the plate separation on charge, potential, capacitance, respectively?",
+    "question_images": [],
+    "options": [
+      "A. Constant, decreases, decreases",
+      "B. Increases, decreases, decreases",
+      "C. Constant, decreases, increases",
+      "D. Constant, increases, decreases"
+    ],
+    "option_images": [],
+    "answer": "D. Constant, increases, decreases",
+    "solution": "Since the capacitor is isolated, the charge $Q$ remains constant. $C = \\frac{\\epsilon_0 A}{d}$, so increasing $d$ decreases $C$. Since $V = Q/C$, decreasing $C$ with constant $Q$ increases $V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Electrostatics",
+    "question": "A charged particle q is shot towards another charged particle Q which is fixed, with a speed v. It approaches Q upto a closest distance r and then returns. If q were given a speed 2v, the closest distance of approach would be",
+    "question_latex": "A charged particle $q$ is shot towards another charged particle $Q$ which is fixed, with a speed $v$. It approaches $Q$ upto a closest distance $r$ and then returns. If $q$ were given a speed $2v$, the closest distance of approach would be",
+    "question_images": [],
+    "options": [
+      "A. r/2",
+      "B. 2r",
+      "C. r",
+      "D. r/4"
+    ],
+    "option_images": [],
+    "answer": "D. r/4",
+    "solution": "Initially, $\\frac{1}{2}mv^2 = \\frac{kqQ}{r}$. Finally, $\\frac{1}{2}m(2v)^2 = \\frac{kqQ}{r_1}$. Dividing the two equations: $1/4 = r_1/r \\Rightarrow r_1 = r/4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Electrostatics",
+    "question": "Three charges 2q, -q and -q are located at the vertices of an equilateral triangle. At the centre of the triangle",
+    "question_latex": "Three charges $2q, -q$ and $-q$ are located at the vertices of an equilateral triangle. At the centre of the triangle",
+    "question_images": [],
+    "options": [
+      "A. The field is zero but potential is non-zero",
+      "B. The field is non-zero but potential is zero",
+      "C. Both field and potential are zero",
+      "D. Both field and potential are non-zero"
+    ],
+    "option_images": [],
+    "answer": "B. The field is non-zero but potential is zero",
+    "solution": "Potential is a scalar: $V = \\frac{1}{4\\pi\\epsilon_0}(\\frac{2q}{r} - \\frac{q}{r} - \\frac{q}{r}) = 0$. Electric field is a vector: the components do not cancel out completely, so $E \\ne 0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Electrostatics",
+    "question": "A dielectric slab is inserted between the plates of an isolated charged capacitor. Which of the following quantities remain unchanged?",
+    "question_latex": "A dielectric slab is inserted between the plates of an isolated charged capacitor. Which of the following quantities remain unchanged?",
+    "question_images": [],
+    "options": [
+      "A. The charge on the capacitor",
+      "B. The stored energy in the capacitor",
+      "C. The potential difference between the plates",
+      "D. The electric field in the capacitor"
+    ],
+    "option_images": [],
+    "answer": "A. The charge on the capacitor",
+    "solution": "For an isolated capacitor, the charge cannot go anywhere, so it remains constant. The electric field, potential difference, and stored energy all decrease by a factor of $1/K$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Electrostatics",
+    "question": "A simple pendulum of length L is placed between the plates of a parallel plate capacitor having electric field E, as shown in figure. Its bob has mass m and charge q. The time period of the pendulum is given by",
+    "question_latex": "A simple pendulum of length $L$ is placed between the plates of a parallel plate capacitor having electric field $E$, as shown in figure. Its bob has mass $m$ and charge $q$. The time period of the pendulum is given by",
+    "question_images": [
+      "25_qu_1.png"
+    ],
+    "options": [
+      "A. $2\\pi\\sqrt{\\frac{L}{(g-\\frac{qE}{m})}}$",
+      "B. $2\\pi\\sqrt{\\frac{L}{\\sqrt{g^2+(\\frac{qE}{m})^2}}}$",
+      "C. $2\\pi\\sqrt{\\frac{L}{\\sqrt{g^2-\\frac{q^2E^2}{m^2}}}}$",
+      "D. $2\\pi\\sqrt{\\frac{L}{(g+\\frac{qE}{m})}}$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\pi\\sqrt{\\frac{L}{\\sqrt{g^2+(\\frac{qE}{m})^2}}}$",
+    "solution": "The effective value of $g' = \\sqrt{(\\frac{qE}{m})^2 + g^2}$. Time period $T = 2\\pi\\sqrt{L/g'}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Electrostatics",
+    "question": "In Fig, if the potential at point B is taken as zero, then the potential at point A will be",
+    "question_latex": "In Fig, if the potential at point $B$ is taken as zero, then the potential at point $A$ will be",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. 8 V",
+      "B. 16 V",
+      "C. 24 V",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. 16 V",
+    "solution": "Potential across $6~\\mu F$ capacitor is $V_A - V_B = \\frac{12 \\times 24}{12+6} = 16~V$. Since $V_B = 0$, $V_A = 16~V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Electrostatics",
+    "question": "A 10µC charge is divided into two parts and placed at 1 cm distance so that the repulsive force between them is maximum. The charges of the two parts are",
+    "question_latex": "A $10~\\mu C$ charge is divided into two parts and placed at $1~cm$ distance so that the repulsive force between them is maximum. The charges of the two parts are",
+    "question_images": [],
+    "options": [
+      "A. 9 uC, 1 uC",
+      "B. 7 uC, 3 uC",
+      "C. 8 uC, 2 uC",
+      "D. 5 uC, 5 uC"
+    ],
+    "option_images": [],
+    "answer": "D. 5 uC, 5 uC",
+    "solution": "$F = \\frac{K q_1(10 - q_1)}{r^2}$. For maximum force, $\\frac{dF}{dq_1} = 0 \\Rightarrow 10 - 2q_1 = 0 \\Rightarrow q_1 = 5~\\mu C$. Thus $q_2 = 10 - 5 = 5~\\mu C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Electrostatics",
+    "question": "Assertion: For a point charge, concentric spheres centered at a location of the charge are equipotential surfaces.\nReason: An equipotential surface is a surface over which potential has zero value.",
+    "question_latex": "Assertion: For a point charge, concentric spheres centered at a location of the charge are equipotential surfaces.\nReason: An equipotential surface is a surface over which potential has zero value.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+      "C. Assertion is correct, reason is incorrect.",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Assertion is correct, reason is incorrect.",
+    "solution": "Assertion is correct. The Reason is incorrect because an equipotential surface is a surface where potential is constant at every point, not necessarily zero.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Electrostatics",
+    "question": "Figure shows a network of capacitors where the numbers indicates capacitances in micro Farad. The value of capacitance C if the equivalent capacitance between point A and B is to be 1µF is",
+    "question_latex": "Figure shows a network of capacitors where the numbers indicates capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1~\\mu F$ is",
+    "question_images": [
+      "29_qu_1.png"
+    ],
+    "options": [
+      "A. 32/23 uF",
+      "B. 33/23 uF",
+      "C. 34/23 uF",
+      "D. 31/23 uF"
+    ],
+    "option_images": [],
+    "answer": "A. 32/23 uF",
+    "solution": "Solving the capacitor network step-by-step from right to left. After reduction, the value of $C$ required for $C_{AB} = 1~\\mu F$ is $32/23~\\mu F$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Electrostatics",
+    "question": "An electric dipole of mass m, charge q, and length l is placed in a uniform electric field E=E0i. When the dipole is rotated slightly from its equilibrium position and released, the time period of its oscillations will be:",
+    "question_latex": "An electric dipole of mass $m$, charge $q$, and length $l$ is placed in a uniform electric field $\\vec{E}=E_{0}\\hat{i}$. When the dipole is rotated slightly from its equilibrium position and released, the time period of its oscillations will be:",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2\\pi}\\sqrt{\\frac{2ml}{qE_{0}}}$",
+      "B. $2\\pi\\sqrt{\\frac{ml}{2qE_{0}}}$",
+      "C. $2\\pi\\sqrt{\\frac{ml}{qE_{0}}}$",
+      "D. $\\frac{1}{2\\pi}\\sqrt{\\frac{ml}{2qE_{0}}}$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\pi\\sqrt{\\frac{ml}{2qE_{0}}}$",
+    "solution": "$T = 2\\pi\\sqrt{\\frac{I}{pE}}$. For a dipole, $I = 2 \\times m(l/2)^2 = ml^2/2$ and $p = ql$. $T = 2\\pi\\sqrt{\\frac{ml^2/2}{ql E_0}} = 2\\pi\\sqrt{\\frac{ml}{2qE_0}}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Electrostatics",
+    "question": "The capacitance of an infinite circuit formed by the repetition of the same link consisting of two identical capacitors, each with capacitance C (Fig), is",
+    "question_latex": "The capacitance of an infinite circuit formed by the repetition of the same link consisting of two identical capacitors, each with capacitance $C$ (Fig), is",
+    "question_images": [
+      "31_qu_1.png"
+    ],
+    "options": [
+      "A. Zero",
+      "B. $\\frac{\\sqrt{5}-1}{2}C$",
+      "C. $\\frac{\\sqrt{5}+1}{2}C$",
+      "D. Infinite"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{\\sqrt{5}-1}{2}C$",
+    "solution": "Let capacitance be $x$. If we remove the first two capacitors, the rest of the infinite chain is still $x$. Redrawn circuit: $x = \\frac{C(C+x)}{C+(C+x)}$. Solving $x^2 + Cx - C^2 = 0$ gives $x = \\frac{\\sqrt{5}-1}{2}C$.",
+    "solution_images": [
+      "31_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Electrostatics",
+    "question": "A vertical electric field of magnitude 4.9 x 10^5 N/C just prevents a water droplet of a mass 0.1 g from falling. The value of charge on the droplet will be",
+    "question_latex": "A vertical electric field of magnitude $4.9 \\times 10^{5}~N/C$ just prevents a water droplet of a mass $0.1~g$ from falling. The value of charge on the droplet will be",
+    "question_images": [],
+    "options": [
+      "A. 1.6 x 10^-9 C",
+      "B. 2.0 x 10^-9 C",
+      "C. 3.2 x 10^-9 C",
+      "D. 0.5 x 10^-9 C"
+    ],
+    "option_images": [],
+    "answer": "B. 2.0 x 10^-9 C",
+    "solution": "$qE = mg \\Rightarrow q = \\frac{mg}{E}$. $q = \\frac{0.1 \\times 10^{-3} \\times 9.8}{4.9 \\times 10^5} = 2 \\times 10^{-9}~C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Electrostatics",
+    "question": "The distance between two plates of a capacitor is d and its capacitance is C1, when air is the medium between the plates. If a metal sheet of thickness 2d/3 and of the same area as plate is introduced between the plates, the capacitance of the capacitor becomes C2. The ratio C2/C1 is",
+    "question_latex": "The distance between two plates of a capacitor is $d$ and its capacitance is $C_{1}$, when air is the medium between the plates. If a metal sheet of thickness $2d/3$ and of the same area as plate is introduced between the plates, the capacitance of the capacitor becomes $C_{2}$. The ratio $C_{2}/C_{1}$ is",
+    "question_images": [],
+    "options": [
+      "A. 4:1",
+      "B. 2:1",
+      "C. 3:1",
+      "D. 1:1"
+    ],
+    "option_images": [],
+    "answer": "C. 3:1",
+    "solution": "$C_1 = \\frac{\\epsilon_0 A}{d}$. For metal sheet, $K = \\infty$. $C_2 = \\frac{\\epsilon_0 A}{d - t + t/K} = \\frac{\\epsilon_0 A}{d - 2d/3 + 0} = 3C_1$. Ratio $C_2/C_1 = 3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Electrostatics",
+    "question": "Charge Q is given a displacement r=ai+bj in an electric field E=E1i+E2j. The work done is",
+    "question_latex": "Charge $Q$ is given a displacement $\\vec{r}=a\\hat{i}+b\\hat{j}$ in an electric field $\\vec{E}=E_{1}\\hat{i}+E_{2}\\hat{j}$. The work done is",
+    "question_images": [],
+    "options": [
+      "A. $Q(E_{1}a+E_{2}b)$",
+      "B. $Q\\sqrt{(E_{1}a)^{2}+(E_{2}b)^{2}}$",
+      "C. $Q(E_{1}+E_{2})\\sqrt{a^{2}+b^{2}}$",
+      "D. $Q(\\sqrt{E_{1}^{2}+E_{2}^{2}})\\sqrt{a^{2}+b^{2}}$"
+    ],
+    "option_images": [],
+    "answer": "A. $Q(E_{1}a+E_{2}b)$",
+    "solution": "$W = \\vec{F} \\cdot \\vec{r} = Q\\vec{E} \\cdot \\vec{r}$. $W = Q(E_1\\hat{i} + E_2\\hat{j}) \\cdot (a\\hat{i} + b\\hat{j}) = Q(E_1a + E_2b)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Electrostatics",
+    "question": "In a charged capacitor, the energy resides",
+    "question_latex": "In a charged capacitor, the energy resides",
+    "question_images": [],
+    "options": [
+      "A. in the positive charges.",
+      "B. in both the positive and negative charges.",
+      "C. in the field between the plates.",
+      "D. around the edges of the capacitor plates."
+    ],
+    "option_images": [],
+    "answer": "C. in the field between the plates.",
+    "solution": "In a capacitor, the electrical potential energy is stored in the electric field between the plates.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Electrostatics",
+    "question": "A ring of radius R carries a charge +q. A test charge -q0 is released on its axis at a distance sqrt(3)R from its centre. How much kinetic energy will be acquired by the test charge when it reaches the centre of the ring?",
+    "question_latex": "A ring of radius $R$ carries a charge $+q$. A test charge $-q_{0}$ is released on its axis at a distance $\\sqrt{3}R$ from its centre. How much kinetic energy will be acquired by the test charge when it reaches the centre of the ring?",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{4\\pi\\epsilon_{0}}\\frac{qq_{0}}{R}$",
+      "B. $\\frac{1}{4\\pi\\epsilon_{0}}\\frac{qq_{0}}{2R}$",
+      "C. $\\frac{1}{4\\pi\\epsilon_{0}}\\frac{qq_{0}}{\\sqrt{3}R}$",
+      "D. $\\frac{1}{4\\pi\\epsilon_{0}}\\frac{qq_{0}}{3R}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{4\\pi\\epsilon_{0}}\\frac{qq_{0}}{2R}$",
+    "solution": "$V_1 = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{\\sqrt{R^2 + 3R^2}} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{2R}$. $V_2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{R}$. $K.E. = |q_0 (V_2 - V_1)| = \\frac{1}{4\\pi\\epsilon_0} \\frac{qq_0}{2R}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Electrostatics",
+    "question": "In the given figure, a hollow spherical capacitor is shown. The electric field will not be zero at",
+    "question_latex": "In the given figure, a hollow spherical capacitor is shown. The electric field will not be zero at",
+    "question_images": [
+      "37_qu_1.png"
+    ],
+    "options": [
+      "A. $r < r_{1}$",
+      "B. $r_{1} < r_{2}$",
+      "C. $r < r_{2}$",
+      "D. $r_{1} < r < r_{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $r_{1} < r < r_{2}$",
+    "solution": "The electric field of a hollow spherical capacitor is localized between the inner and outer surfaces of the spherical conductor. Thus, $E \\ne 0$ for $r_1 < r < r_2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Electrostatics",
+    "question": "Small drops of the same size are charged to V volt each. If n such drops coalesce to form a single large drop, its potential will be",
+    "question_latex": "Small drops of the same size are charged to $V$ volt each. If $n$ such drops coalesce to form a single large drop, its potential will be",
+    "question_images": [],
+    "options": [
+      "A. Vn",
+      "B. V/n",
+      "C. Vn^1/3",
+      "D. Vn^2/3"
+    ],
+    "option_images": [],
+    "answer": "D. Vn^2/3",
+    "solution": "$V \\propto q/r$. For large drop, $q' = nq$ and volume conservation gives $r' = n^{1/3}r$. $V' = \\frac{K(nq)}{n^{1/3}r} = n^{2/3}V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Electrostatics",
+    "question": "The equivalent capacitance of the combination of three capacitors, each of capacitance C shown in figure between points A and B is",
+    "question_latex": "The equivalent capacitance of the combination of three capacitors, each of capacitance $C$ shown in figure between points $A$ and $B$ is",
+    "question_images": [
+      "39_qu_1.png"
+    ],
+    "options": [
+      "A. C/2",
+      "B. 3C/2",
+      "C. 1/3C",
+      "D. 2C"
+    ],
+    "option_images": [],
+    "answer": "D. 2C",
+    "solution": "$C_3$ is short-circuited as both its plates are joined to point B. $C_1$ and $C_2$ are in parallel, so $C_{AB} = C + C = 2C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Electrostatics",
+    "question": "The variation of electric potential with distance from a fixed point is shown in figure. What is the value of electric field at x=2 m.",
+    "question_latex": "The variation of electric potential with distance from a fixed point is shown in figure. What is the value of electric field at $x=2~m$.",
+    "question_images": [
+      "40_qu_1.png"
+    ],
+    "options": [
+      "A. Zero",
+      "B. 6/2",
+      "C. 6/1",
+      "D. 6/3"
+    ],
+    "option_images": [],
+    "answer": "A. Zero",
+    "solution": "$E = -\\frac{dV}{dx}$. Between $x=1$ and $x=3$, the potential is constant ($V=6V$), meaning its derivative (slope) is zero.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Electrostatics",
+    "question": "Charges 2q, -q and -q lie at the vertices of an equilateral triangle. The value of E and V at the centroid of the triangle will be",
+    "question_latex": "Charges $2q, -q$ and $-q$ lie at the vertices of an equilateral triangle. The value of $E$ and $V$ at the centroid of the triangle will be",
+    "question_images": [],
+    "options": [
+      "A. $E \\ne 0$ and $V \\ne 0$",
+      "B. $E=0$ and $V=0$",
+      "C. $E \\ne 0$ and $V=0$",
+      "D. $E=0$ and $V \\ne 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $E \\ne 0$ and $V=0$",
+    "solution": "$V = \\frac{1}{4\\pi\\epsilon_0}(\\frac{2q}{r} - \\frac{q}{r} - \\frac{q}{r}) = 0$. The fields due to $-q$ and $-q$ combine to a vector in the same direction as the field due to $2q$, so they do not cancel. Thus $E \\ne 0$.",
+    "solution_images": [
+      "41_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Electrostatics",
+    "question": "Capacitor C1 is connected to a battery and charged till the magnitude of the charge on each plate is q0 then, the battery is disconnected and C1 is connected to two other uncharged capacitor C2 and C3 as shown (figure) final charge on the capacitors (q1 and q3) are related by",
+    "question_latex": "Capacitor $C_{1}$ is connected to a battery and charged till the magnitude of the charge on each plate is $q_{0}$ then, the battery is disconnected and $C_{1}$ is connected to two other uncharged capacitor $C_{2}$ and $C_{3}$ as shown (figure) final charge on the capacitors ($q_{1}$ and $q_{3}$) are related by",
+    "question_images": [
+      "42_qu_1.png"
+    ],
+    "options": [
+      "A. $q_{0}=q_{1}+q_{2}+q_{3}$",
+      "B. $q_{1}+q_{2}+q_{3}=0$",
+      "C. $q_{0}=q_{3}+q_{2}+q_{1}=0$",
+      "D. $q_{0}=q_{1}+q_{2}; q_{2}=q_{3}$"
+    ],
+    "option_images": [],
+    "answer": "D. $q_{0}=q_{1}+q_{2}; q_{2}=q_{3}$",
+    "solution": "Charge transferred by $C_1$ is distributed between $C_2$ and $C_3$. By charge conservation, $q_0 = q_1 + q_{transferred}$. Since $C_2$ and $C_3$ are in series, they must have the same charge: $q_2 = q_3$. Thus $q_0 = q_1 + q_2$.",
+    "solution_images": [
+      "42_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Electrostatics",
+    "question": "Shown in the figure are two point charges +Q and -Q inside the cavity of a spherical shell. The charges are kept near the surface of the cavity on opposite sides of the centre of the shell. If sigma_1 is the surface charge on the inner surface and Q1 net charge on it and sigma_2 the surface charge on the outer surface and Q2 net charge on it then",
+    "question_latex": "Shown in the figure are two point charges $+Q$ and $-Q$ inside the cavity of a spherical shell. The charges are kept near the surface of the cavity on opposite sides of the centre of the shell. If $\\sigma_{1}$ is the surface charge on the inner surface and $Q_{1}$ net charge on it and $\\sigma_{2}$ the surface charge on the outer surface and $Q_{2}$ net charge on it then",
+    "question_images": [
+      "43_qu_1.png"
+    ],
+    "options": [
+      "A. $\\sigma_{1} \\ne 0, Q_{1}=0; \\sigma_{2} \\ne 0, Q_{2}=0$",
+      "B. $\\sigma_{1}=0, Q_{1}=0; \\sigma_{2}=0, Q_{2}=0$",
+      "C. $\\sigma_{1} \\ne 0, Q_{1}=0; \\sigma_{2}=0, Q_{2}=0$",
+      "D. $\\sigma_{1} \\ne 0, Q_{1} \\ne 0; \\sigma_{2} \\ne 0, Q_{2} \\ne 0$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sigma_{1} \\ne 0, Q_{1}=0; \\sigma_{2}=0, Q_{2}=0$",
+    "solution": "Total charge inside the cavity is $+Q - Q = 0$, so by Gauss's Law, the net charge on the inner surface $Q_1 = 0$. However, the local charge distribution $\\sigma_1$ is non-zero due to the internal charges. On the outer surface, both $Q_2$ and $\\sigma_2$ are zero.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Electrostatics",
+    "question": "Three charges 2q, -q, -q are located at the vertices of an equilateral triangle. At the circumcentre of the triangle",
+    "question_latex": "Three charges $2q, -q, -q$ are located at the vertices of an equilateral triangle. At the circumcentre of the triangle",
+    "question_images": [],
+    "options": [
+      "A. The field is zero but potential is non-zero",
+      "B. Potential is zero and the field is infinity",
+      "C. Both the field and potential are zero",
+      "D. The field is non-zero but potential is zero"
+    ],
+    "option_images": [],
+    "answer": "D. The field is non-zero but potential is zero",
+    "solution": "$V = V_A + V_B + V_C = 0$ because distances from vertices are equal. The electric field vectors do not cancel each other out.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Electrostatics",
+    "question": "Electric field on the axis of a small electric dipole at a distance r is E1 and E2 at a distance of 2r on a line of perpendicular dissector. Then",
+    "question_latex": "Electric field on the axis of a small electric dipole at a distance $r$ is $\\vec{E}_{1}$ and $E_{2}$ at a distance of $2r$ on a line of perpendicular dissector. Then",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{E}_{2} = -\\frac{\\vec{E}_{1}}{8}$",
+      "B. $\\vec{E}_{2} = -\\frac{\\vec{E}_{1}}{16}$",
+      "C. $\\vec{E}_{2} = -\\frac{\\vec{E}_{1}}{4}$",
+      "D. $\\vec{E}_{2} = \\frac{\\vec{E}_{1}}{8}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\vec{E}_{2} = -\\frac{\\vec{E}_{1}}{16}$",
+    "solution": "$E_1 = \\frac{2P}{4\\pi\\epsilon_0 r^3}$ and $E_2 = -\\frac{P}{4\\pi\\epsilon_0 (2r)^3} = -\\frac{P}{32\\pi\\epsilon_0 r^3}$. Thus $\\vec{E}_2 = -\\frac{\\vec{E}_1}{16}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Electrostatics",
+    "question": "A positive charge particle of 100mg is thrown in opposite direction to a uniform electric field of strength 1 x 10^5 N/C. If the charge on the particle is 40 µC and the initial velocity is 200 m/s, how much distance it will travel before coming to the rest momentarily?",
+    "question_latex": "A positive charge particle of $100~mg$ is thrown in opposite direction to a uniform electric field of strength $1 \\times 10^{5}~N/C$. If the charge on the particle is $40~\\mu C$ and the initial velocity is $200~m/s$, how much distance it will travel before coming to the rest momentarily?",
+    "question_images": [],
+    "options": [
+      "A. 1 m",
+      "B. 5 m",
+      "C. 10 m",
+      "D. 0.5 m"
+    ],
+    "option_images": [],
+    "answer": "D. 0.5 m",
+    "solution": "$a = \\frac{-qE}{m} = \\frac{-40 \\times 10^{-6} \\times 10^5}{100 \\times 10^{-6}} = -4 \\times 10^4~m/s^2$. Using $v^2 - u^2 = 2aS \\Rightarrow 0 - (200)^2 = 2 \\times (-4 \\times 10^4) \\times S$. $S = \\frac{40000}{80000} = 0.5~m$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Electrostatics",
+    "question": "Using a battery, a 100 pF capacitor is charged to 60 V and then the battery is removed. After that, a second uncharged capacitor is connected to the first capacitor in parallel. If the final voltage across the second capacitor is 20 V, its capacitance is: (in pF)",
+    "question_latex": "Using a battery, a $100~pF$ capacitor is charged to $60~V$ and then the battery is removed. After that, a second uncharged capacitor is connected to the first capacitor in parallel. If the final voltage across the second capacitor is $20~V$, its capacitance is: (in $pF$)",
+    "question_images": [],
+    "options": [
+      "A. 400",
+      "B. 100",
+      "C. 200",
+      "D. 600"
+    ],
+    "option_images": [],
+    "answer": "C. 200",
+    "solution": "$V_c = \\frac{C_1V_1 + C_2V_2}{C_1+C_2}$. $20 = \\frac{100 \\times 60 + C_2 \\times 0}{100 + C_2}$. $20(100 + C_2) = 6000 \\Rightarrow 2000 + 20C_2 = 6000 \\Rightarrow C_2 = 200~pF$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Electrostatics",
+    "question": "Identify the wrong statement.",
+    "question_latex": "Identify the wrong statement.",
+    "question_images": [],
+    "options": [
+      "A. In an electric field two equipotential surfaces can never intersect.",
+      "B. A charged particle free to move in an electric field shall always move in the direction of E.",
+      "C. Electric field at the surface of a charged conductor is always normal to the surface.",
+      "D. The electric potential decrease along a line of force in an electric field."
+    ],
+    "option_images": [],
+    "answer": "B. A charged particle free to move in an electric field shall always move in the direction of E.",
+    "solution": "Statement B is wrong because only a positively charged particle moves in the direction of the field; a negatively charged particle moves in the opposite direction. Note: In the source text, Ans (C) is marked but solution explains why (B) is wrong. Standard physics theory supports (B) being wrong.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Electrostatics",
+    "question": "In a region of space, the electric field is given by E=8i+4j+3k. The electric flux through a surface of area of 100 units x-y plane is",
+    "question_latex": "In a region of space, the electric field is given by $\\vec{E}=8\\hat{i}+4\\hat{j}+3\\hat{k}$. The electric flux through a surface of area of $100$ units $x-y$ plane is",
+    "question_images": [],
+    "options": [
+      "A. 800 units",
+      "B. 300 units",
+      "C. 400 units",
+      "D. 1500 units"
+    ],
+    "option_images": [],
+    "answer": "B. 300 units",
+    "solution": "Area vector $\\vec{S} = 100\\hat{k}$. Flux $\\phi = \\vec{E} \\cdot \\vec{S} = (8\\hat{i} + 4\\hat{j} + 3\\hat{k}) \\cdot (100\\hat{k}) = 300$ units.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Electrostatics",
+    "question": "Two charges q1 and q2 are placed 30 cm apart, as shown in the figure. A third charge q3 is moved along the arc of a circle of radius 40 cm from C to D. The change in the potential energy of the system is (q3 / 4*pi*epsilon_0) * k, where k is",
+    "question_latex": "Two charges $q_{1}$ and $q_{2}$ are placed $30~cm$ apart, as shown in the figure. A third charge $q_{3}$ is moved along the arc of a circle of radius $40~cm$ from $C$ to $D$. The change in the potential energy of the system is $\\frac{q_{3}}{4\\pi\\epsilon_{0}}k$, where $k$ is",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. $8q_{2}$",
+      "B. $8q_{1}$",
+      "C. $6q_{2}$",
+      "D. $6q_{1}$"
+    ],
+    "option_images": [],
+    "answer": "A. $8q_{2}$",
+    "solution": "$U_C = \\frac{1}{4\\pi\\epsilon_0}(\\frac{q_1q_3}{0.4} + \\frac{q_2q_3}{0.5})$. $U_D = \\frac{1}{4\\pi\\epsilon_0}(\\frac{q_1q_3}{0.4} + \\frac{q_2q_3}{0.1})$. $\\Delta U = U_D - U_C = \\frac{q_2q_3}{4\\pi\\epsilon_0}(\\frac{1}{0.1} - \\frac{1}{0.5}) = \\frac{q_2q_3}{4\\pi\\epsilon_0}(10 - 2) = \\frac{q_3}{4\\pi\\epsilon_0}(8q_2)$. Thus $k = 8q_2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Electrostatics",
+    "question": "Assertion: Work done in moving a charge between any two points in an electric field is independent of the path followed by the charge, between these points.\nReason: Electrostatic force is a non conservative force.",
+    "question_latex": "Assertion: Work done in moving a charge between any two points in an electric field is independent of the path followed by the charge, between these points.\nReason: Electrostatic force is a non conservative force.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+      "C. Assertion is correct, reason is incorrect",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Assertion is correct, reason is incorrect",
+    "solution": "Assertion is true because the electrostatic field is a conservative field. Reason is false because electrostatic force is a conservative force.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Electrostatics",
+    "question": "Two parallel conducting plates, each of area A, are separated by a distance d. Now, the left plate is given a positive charge Q. A positive charge q of mass m is released from a point near the left plate. Find the time taken by the charge to reach the right plate",
+    "question_latex": "Two parallel conducting plates, each of area $A$, are separated by a distance $d$. Now, the left plate is given a positive charge $Q$. A positive charge $q$ of mass $m$ is released from a point near the left plate. Find the time taken by the charge to reach the right plate",
+    "question_images": [
+      "52_qu_1.png"
+    ],
+    "options": [
+      "A. $\\sqrt{\\frac{3dm\\epsilon_{0}A}{qQ}}$",
+      "B. $\\sqrt{\\frac{4dm\\epsilon_{0}A}{qQ}}$",
+      "C. $\\sqrt{\\frac{2dm\\epsilon_{0}A}{qQ}}$",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sqrt{\\frac{4dm\\epsilon_{0}A}{qQ}}$",
+    "solution": "Electric field $E = \\frac{Q}{2A\\epsilon_{0}}$. Acceleration $a = \\frac{qE}{m} = \\frac{qQ}{2A\\epsilon_{0}m}$. Using $d = \\frac{1}{2}at^{2}$, we get $t = \\sqrt{\\frac{2d}{a}} = \\sqrt{\\frac{2d(2A\\epsilon_{0}m)}{qQ}} = \\sqrt{\\frac{4dm\\epsilon_{0}A}{qQ}}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Electrostatics",
+    "question": "If the potential of a capacitor having capacity 6 µF is increased from 10 V to 20 V, then increase in its energy is",
+    "question_latex": "If the potential of a capacitor having capacity $6~\\mu F$ is increased from $10~V$ to $20~V$, then increase in its energy is",
+    "question_images": [],
+    "options": [
+      "A. $12\\times10^{-6} J$",
+      "B. $9\\times10^{-4} J$",
+      "C. $4.5\\times10^{-6} J$",
+      "D. $2.25\\times10^{-6} J$"
+    ],
+    "option_images": [],
+    "answer": "B. $9\\times10^{-4} J$",
+    "solution": "$\\Delta U = \\frac{1}{2}C(V_{f}^{2} - V_{i}^{2}) = \\frac{1}{2} \\times 6 \\times 10^{-6} [(20)^{2} - (10)^{2}] = 3 \\times 10^{-6} \\times 300 = 9 \\times 10^{-4} J$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Electrostatics",
+    "question": "Three identical metallic uncharged spheres A, B and C each of radius a, are kept at the corners of an equilateral triangle of side d (d >> a) as shown in Fig. The fourth sphere (of radius a), which has a charge q, touches A and is then removed to a position far away. B is earthed and then the earth connection is removed. C is then earthed. The charge on C is",
+    "question_latex": "Three identical metallic uncharged spheres $A, B$ and $C$ each of radius $a$, are kept at the corners of an equilateral triangle of side $d (d \\gg a)$ as shown in Fig. The fourth sphere (of radius $a$), which has a charge $q$, touches $A$ and is then removed to a position far away. $B$ is earthed and then the earth connection is removed. $C$ is then earthed. The charge on $C$ is",
+    "question_images": [
+      "54_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{qa}{2d}(\\frac{2d-a}{2d})$",
+      "B. $\\frac{qa}{2d}(\\frac{2d-a}{d})$",
+      "C. $-\\frac{qa}{2d}(\\frac{d-a}{d})$",
+      "D. $\\frac{2qa}{d}(\\frac{d-a}{2d})$"
+    ],
+    "option_images": [],
+    "answer": "C. $-\\frac{qa}{2d}(\\frac{d-a}{d})$",
+    "solution": "1. Charge on A after touching is $q/2$. 2. Potential at B (earthed): $\\frac{k(q/2)}{d} + \\frac{kq_B}{a} = 0 \\Rightarrow q_B = -\\frac{qa}{2d}$. 3. Potential at C (earthed): $\\frac{k(q/2)}{d} + \\frac{kq_B}{d} + \\frac{kq_C}{a} = 0$. Substituting $q_B$: $\\frac{kq}{2d} - \\frac{kqa}{2d^2} + \\frac{kq_C}{a} = 0$. Since $d \\gg a$, approximations can be made, but strictly following the steps leads to $q_C = -\\frac{qa}{2d}(\\frac{d-a}{d})$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Electrostatics",
+    "question": "Three parallel plate capacitors C1, C2 and C3 each of capacitance 5 µF are connected as shown in figure. The effective capacitance between points A and B, when the space between the parallel plates of C1 capacitor is filled with a dielectric medium having dielectric constant of 4, is:",
+    "question_latex": "Three parallel plate capacitors $C_{1}, C_{2}$ and $C_{3}$ each of capacitance $5~\\mu F$ are connected as shown in figure. The effective capacitance between points $A$ and $B$, when the space between the parallel plates of $C_{1}$ capacitor is filled with a dielectric medium having dielectric constant of $4$, is:",
+    "question_images": [
+      "55_qu_1.png"
+    ],
+    "options": [
+      "A. 7.5 µF",
+      "B. 9 µF",
+      "C. 30 µF",
+      "D. 22.5 µF"
+    ],
+    "option_images": [],
+    "answer": "B. 9 µF",
+    "solution": "$C_{1}' = KC_{1} = 4 \\times 5 = 20~\\mu F$. $C_1'$ and $C_2$ are in series: $C_{12} = \\frac{20 \\times 5}{20 + 5} = \\frac{100}{25} = 4~\\mu F$. This combination is in parallel with $C_3$. $C_{eq} = 4 + 5 = 9~\\mu F$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Electrostatics",
+    "question": "If two charges q1 and q2 are separated with distance 'd' and placed in a medium of dielectric constant k. What will be the equivalent distance between charges in air for the same electrostatic force?",
+    "question_latex": "If two charges $q_{1}$ and $q_{2}$ are separated with distance '$d$' and placed in a medium of dielectric constant $k$. What will be the equivalent distance between charges in air for the same electrostatic force?",
+    "question_images": [],
+    "options": [
+      "A. $1.5d\\sqrt{k}$",
+      "B. $2d\\sqrt{k}$",
+      "C. $k\\sqrt{d}$",
+      "D. $d\\sqrt{k}$"
+    ],
+    "option_images": [],
+    "answer": "D. $d\\sqrt{k}$",
+    "solution": "Force in medium $F_m = \\frac{1}{4\\pi\\epsilon_0 k} \\frac{q_1 q_2}{d^2}$. Force in air $F_a = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{d_0^2}$. Equating $F_m = F_a \\Rightarrow k d^2 = d_0^2 \\Rightarrow d_0 = d\\sqrt{k}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Electrostatics",
+    "question": "A parallel plate capacitor with square plates is filled with four dielectrics of dielectric constants K1, K2, K3 and K4 arranged as shown in figure. The effective dielectric constant K will be",
+    "question_latex": "A parallel plate capacitor with square plates is filled with four dielectrics of dielectric constants $K_{1}, K_{2}, K_{3}$ and $K_{4}$ arranged as shown in figure. The effective dielectric constant $K$ will be",
+    "question_images": [
+      "57_qu_1.png"
+    ],
+    "options": [
+      "A. Formula A",
+      "B. Formula B",
+      "C. Formula C",
+      "D. Formula D"
+    ],
+    "option_images": [],
+    "answer": "D. Formula D",
+    "solution": "The system consists of capacitors in series and parallel. The top half ($K_1, K_2$) and bottom half ($K_3, K_4$) are in parallel. Within each half, the dielectrics are in series. The effective K formula is $K = \\frac{(K_1+K_2)(K_3+K_4)}{2(K_1+K_2+K_3+K_4)}$. (Note: The solution text in the source corresponds to a specific formula derived from the diagram configuration).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Electrostatics",
+    "question": "Consider the following statements and select the correct option\nI. In an external electric field, the positive and negative charges of a non-polar molecule are displaced in opposite directions.\nII. In non-polar molecules displacement stops when the external force on the constituent charges of the molecule is balanced by the restoring force.\nIII. The non-polar molecule develops an induced dipole moment.",
+    "question_latex": "Consider the following statements and select the correct option\nI. In an external electric field, the positive and negative charges of a non-polar molecule are displaced in opposite directions.\nII. In non-polar molecules displacement stops when the external force on the constituent charges of the molecule is balanced by the restoring force.\nIII. The non-polar molecule develops an induced dipole moment.",
+    "question_images": [],
+    "options": [
+      "A. I and II",
+      "B. II and III",
+      "C. I and III",
+      "D. I, II and III"
+    ],
+    "option_images": [],
+    "answer": "D. I, II and III",
+    "solution": "All three statements describe the mechanism of polarization of a non-polar dielectric in an external electric field correctly.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Electrostatics",
+    "question": "The SI unit of surface integral of electric field is",
+    "question_latex": "The SI unit of surface integral of electric field is",
+    "question_images": [],
+    "options": [
+      "A. V-m",
+      "B. V",
+      "C. $NC^{-1} m$",
+      "D. $C m^{-3}$"
+    ],
+    "option_images": [],
+    "answer": "A. V-m",
+    "solution": "$\\int \\vec{E} \\cdot d\\vec{S}$ has units $(N/C) \\cdot m^2 = (V/m) \\cdot m^2 = V-m$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Electrostatics",
+    "question": "A capacitor is connected to a 20 V battery through a resistance of 10 Ohm. It is found that the potential difference across the capacitor rises to 2 V in 1 µs. The capacitance of the capacitor is (Given ln(10/9)=0.105)",
+    "question_latex": "A capacitor is connected to a $20~V$ battery through a resistance of $10~\\Omega$. It is found that the potential difference across the capacitor rises to $2~V$ in $1~\\mu s$. The capacitance of the capacitor is (Given $\\ln(10/9)=0.105$)",
+    "question_images": [],
+    "options": [
+      "A. 0.95 µF",
+      "B. 9.52 µF",
+      "C. 0.105 µF",
+      "D. 1.85 µF"
+    ],
+    "option_images": [],
+    "answer": "A. 0.95 µF",
+    "solution": "$V = V_0(1 - e^{-t/RC}) \\Rightarrow 2 = 20(1 - e^{-t/RC}) \\Rightarrow e^{-t/RC} = 0.9$. $t/RC = \\ln(10/9) = 0.105$. $C = \\frac{1 \\times 10^{-6}}{10 \\times 0.105} \\approx 0.95~\\mu F$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Electrostatics",
+    "question": "Two capacitor of capacity 6µF and 12µF in series are connected by potential of 150 V. the potential of capacitor of capacity 12µF will be",
+    "question_latex": "Two capacitor of capacity $6\\mu F$ and $12\\mu F$ in series are connected by potential of $150~V$. the potential of capacitor of capacity $12\\mu F$ will be",
+    "question_images": [
+      "61_qu_1.png"
+    ],
+    "options": [
+      "A. 25 V",
+      "B. 50 V",
+      "C. 100 V",
+      "D. 150 V"
+    ],
+    "option_images": [],
+    "answer": "B. 50 V",
+    "solution": "Equivalent capacitance $C_{eq} = \\frac{6 \\times 12}{6 + 12} = 4~\\mu F$. Total charge $Q = C_{eq}V = 4 \\times 150 = 600~\\mu C$. Potential across $12\\mu F$ is $V = Q/C = 600/12 = 50~V$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Electrostatics",
+    "question": "In the figure, a very large plane sheet of positive charge is shown. P1 and P2 are two points at distance l and 2l from the charge distribution. If sigma is the surface charge density, then the magnitude of electric fields E1 and E2 at P1 and P2 respectively are",
+    "question_latex": "In the figure, a very large plane sheet of positive charge is shown. $P_{1}$ and $P_{2}$ are two points at distance $l$ and $2l$ from the charge distribution. If $\\sigma$ is the surface charge density, then the magnitude of electric fields $E_{1}$ and $E_{2}$ at $P_{1}$ and $P_{2}$ respectively are",
+    "question_images": [
+      "62_qu_1.png"
+    ],
+    "options": [
+      "A. $E_{1}=\\sigma/\\epsilon_{0}, E_{2}=\\sigma/2\\epsilon_{0}$",
+      "B. $E_{1}=2\\sigma/\\epsilon_{0}, E_{2}=\\sigma/\\epsilon_{0}$",
+      "C. $E_{1}=E_{2}=\\sigma/2\\epsilon_{0}$",
+      "D. $E_{1}=E_{2}=\\sigma/\\epsilon_{0}$"
+    ],
+    "option_images": [],
+    "answer": "C. $E_{1}=E_{2}=\\sigma/2\\epsilon_{0}$",
+    "solution": "The electric field due to an infinite plane sheet of charge is $E = \\frac{\\sigma}{2\\epsilon_0}$. It is independent of the distance from the sheet. Thus, $E_1 = E_2 = \\frac{\\sigma}{2\\epsilon_0}$.",
+    "solution_images": [
+      "62_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Electrostatics",
+    "question": "An electric dipole of moment P placed in a uniform electric field E. Then which of the following is/are correct? I. The torque on the dipole is p x E II. The potential energy of the system is -p.E III. The resultant force on the dipole is zero.",
+    "question_latex": "An electric dipole of moment $\\vec{P}$ placed in a uniform electric field $\\vec{E}$. Then which of the following is/are correct? I. The torque on the dipole is $\\vec{p}\\times\\vec{E}$ II. The potential energy of the system is $-\\vec{p} \\cdot \\vec{E}$ III. The resultant force on the dipole is zero.",
+    "question_images": [],
+    "options": [
+      "A. I, II and II",
+      "B. I and III",
+      "C. II and III",
+      "D. I, II and III"
+    ],
+    "option_images": [],
+    "answer": "B. I and III",
+    "solution": "I is correct: Torque $\\tau = \\vec{p} \\times \\vec{E}$. III is correct: In a uniform field, force is zero. II is strictly correct (formula is $-\\vec{p} \\cdot \\vec{E}$), but option B is selected in source likely focusing on force/torque properties or there was a typo in statement II in the question text. Standard physics: I, II, III are all correct equations. The solution text mentions torque and force, implying those are the focus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Electrostatics",
+    "question": "Consider a parallel plate capacitor of area A (of each plate) and separation 'd' between the plates. If E is the electric field and epsilon_0 is the permittivity of free space between the plates, then potential energy stored in the capacitor is",
+    "question_latex": "Consider a parallel plate capacitor of area $A$ (of each plate) and separation '$d$' between the plates. If $E$ is the electric field and $\\epsilon_{0}$ is the permittivity of free space between the plates, then potential energy stored in the capacitor is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{4}\\epsilon_{0}E^{2}Ad$",
+      "B. $\\epsilon_{0}E^{2}Ad$",
+      "C. $\\frac{1}{2}\\epsilon_{0}E^{2}Ad$",
+      "D. $\\frac{3}{4}\\epsilon_{0}E^{2}Ad$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{2}\\epsilon_{0}E^{2}Ad$",
+    "solution": "Energy density $u = \\frac{1}{2}\\epsilon_0 E^2$. Total energy $U = u \\times \\text{Volume} = \\frac{1}{2}\\epsilon_0 E^2 (Ad)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Electrostatics",
+    "question": "An electric charge 10^-3 µC is placed at the origin (0, 0) of X-Y coordinate system. Two points A and B are situated at (sqrt(2), sqrt(2)) and (2,0) respectively. The potential difference between the points A and B will be",
+    "question_latex": "An electric charge $10^{-3}\\mu C$ is placed at the origin $(0, 0)$ of X-Y coordinate system. Two points $A$ and $B$ are situated at $(\\sqrt{2},\\sqrt{2})$ and $(2,0)$ respectively. The potential difference between the points $A$ and $B$ will be",
+    "question_images": [
+      "65_qu_1.png"
+    ],
+    "options": [
+      "A. 9V",
+      "B. Zero",
+      "C. 2V",
+      "D. 4.5V"
+    ],
+    "option_images": [],
+    "answer": "B. Zero",
+    "solution": "Distance $OA = \\sqrt{(\\sqrt{2})^2 + (\\sqrt{2})^2} = \\sqrt{4} = 2$. Distance $OB = 2$. Since distances are equal, potential $V_A = V_B = \\frac{kq}{r}$. Potential difference $V_A - V_B = 0$.",
+    "solution_images": [
+      "65_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Electrostatics",
+    "question": "In the given circuit diagram (figure), switch Sw is shifted from position 1 to position 2. Then",
+    "question_latex": "In the given circuit diagram (figure), switch Sw is shifted from position 1 to position 2. Then",
+    "question_images": [
+      "66_qu_1.png"
+    ],
+    "options": [
+      "A. A charge of amount $CE_{2}$ will be supplied to battery $E_{1}$",
+      "B. Heat generated in the circuit is $\\frac{1}{2}CE_{2}^{2}$",
+      "C. A charge of amount $\\frac{1}{2}CE_{1}E_{2}$ will be supplied by battery $E_{1}$",
+      "D. Heat generated in the circuit is $CE_{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. Heat generated in the circuit is $\\frac{1}{2}CE_{2}^{2}$",
+    "solution": "Initial charge $Q_i = C(E_2 - E_1)$ (assuming polarity). Final charge $Q_f = -CE_1$. Charge flow involves calculation of work done by batteries and change in stored energy. The heat generated comes out to be $\\frac{1}{2}CE_2^2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Electrostatics",
+    "question": "A point charge moves from point P to point S along the path PQRS in a uniform electric field E pointing parallel to the positive direction of the x-axis, figure. The coordinates of the points P, Q, R and S are (a, b, 0), (2a, 0, 0), (a, -b, 0) and (0, 0, 0) respectively. The work done by the field in the above process is given by the expression",
+    "question_latex": "A point charge moves from point $P$ to point $S$ along the path $PQRS$ in a uniform electric field $\\vec{E}$ pointing parallel to the positive direction of the x-axis, figure. The coordinates of the points $P, Q, R$ and $S$ are $(a, b, 0), (2a, 0, 0), (a, -b, 0)$ and $(0, 0, 0)$ respectively. The work done by the field in the above process is given by the expression",
+    "question_images": [
+      "67_qu_1.png"
+    ],
+    "options": [
+      "A. qE",
+      "B. -qaE",
+      "C. q(sqrt(a^2 + b^2))E",
+      "D. 3qE(a^2 + b^2)"
+    ],
+    "option_images": [],
+    "answer": "B. -qaE",
+    "solution": "Work done is independent of path. $W = q\\vec{E} \\cdot \\vec{d}$. Displacement along x-axis from P(a,...) to S(0,...) is $0 - a = -a$. Work = $qE(-a) = -qaE$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Electrostatics",
+    "question": "The energy stored in a condenser of capacity C which has been raised to a potential V is given by",
+    "question_latex": "The energy stored in a condenser of capacity $C$ which has been raised to a potential $V$ is given by",
+    "question_images": [],
+    "options": [
+      "A. $u=\\frac{1}{2}CV$",
+      "B. $u=\\frac{1}{2}CV^2$",
+      "C. $u=CV$",
+      "D. $u=\\frac{1}{2CV}$"
+    ],
+    "option_images": [],
+    "answer": "B. $u=\\frac{1}{2}CV^2$",
+    "solution": "$U = \\int_0^V CV dV = \\frac{1}{2}CV^2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Electrostatics",
+    "question": "The negative charge -q2 is fixed, while positive charge q1 as well as the conducting sphere 'S' is free to move (figure). if the system is released from rest,",
+    "question_latex": "The negative charge $-q_{2}$ is fixed, while positive charge $q_{1}$ as well as the conducting sphere 'S' is free to move (figure). if the system is released from rest,",
+    "question_images": [
+      "69_qu_1.png"
+    ],
+    "options": [
+      "A. Both S and $q_{1}$ move towards left",
+      "B. $q_{1}$ moves towards right while S move towards left",
+      "C. $q_{1}$ remains at rest, S moves toward left",
+      "D. Both $q_{1}$ and S remain at rest"
+    ],
+    "option_images": [],
+    "answer": "C. $q_{1}$ remains at rest, S moves toward left",
+    "solution": "The conducting sphere shields $q_1$ from $-q_2$. Net force on $q_1$ is zero. The sphere $S$ is attracted by $-q_2$ due to induction or direct interaction (if charged, though it implies neutral initially). The external field of $-q_2$ exerts force on the sphere.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Electrostatics",
+    "question": "Potential energy of two equal negative point charges 2 µC each held 1 m apart in air is",
+    "question_latex": "Potential energy of two equal negative point charges $2~\\mu C$ each held $1~m$ apart in air is",
+    "question_images": [],
+    "options": [
+      "A. 2 J",
+      "B. 2 eV",
+      "C. 4 J",
+      "D. 0.036 J"
+    ],
+    "option_images": [],
+    "answer": "D. 0.036 J",
+    "solution": "$U = \\frac{9 \\times 10^9 \\times (2 \\times 10^{-6})^2}{1} = 9 \\times 4 \\times 10^{-3} = 36 \\times 10^{-3} = 0.036~J$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Electrostatics",
+    "question": "Figure shows a charge +Q placed at origin. Another charge +q is brought from infinity to (9,0,0) from positive direction of x-axis in case I and from infinity to (-9,0,0) from negative direction of x-axis in case II. Which one of the following is true?",
+    "question_latex": "Figure shows a charge $+Q$ placed at origin. Another charge $+q$ is brought from infinity to $(9,0,0)$ from positive direction of x-axis in case I and from infinity to $(-9,0,0)$ from negative direction of x-axis in case II. Which one of the following is true?",
+    "question_images": [
+      "71_qu_1.png"
+    ],
+    "options": [
+      "A. The potential energy is positive in case I and negative in case II.",
+      "B. The potential energy is negative in case I and positive in case II.",
+      "C. The potential energy is same in both the cases and is negative.",
+      "D. The potential energy is same in both the cases and is positive."
+    ],
+    "option_images": [],
+    "answer": "D. The potential energy is same in both the cases and is positive.",
+    "solution": "Potential energy depends on distance $r$. In both cases, $r=9$. Since both charges are positive, $U = kQq/r$ is positive and equal.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Electrostatics",
+    "question": "In finding the electric field using Gauss law the formula is applicable. In the formula epsilon_0 is permittivity of free space, A is the area of Gaussian surface and q_enc is charge enclosed by the Gaussian surface. This equation can be used in which of the following situation?",
+    "question_latex": "In finding the electric field using Gauss law the formula is applicable. In the formula $\\epsilon_{0}$ is permittivity of free space, $A$ is the area of Gaussian surface and $q_{enc}$ is charge enclosed by the Gaussian surface. This equation can be used in which of the following situation?",
+    "question_images": [],
+    "options": [
+      "A. Only when $|\\vec{E}|=$ constant on the surface.",
+      "B. Only when the Gaussian surface is an equipotential surface.",
+      "C. Only when the Gaussian surface is an equipotential surface and $|\\vec{E}|$ is constant on the surface.",
+      "D. For any choice of Gaussian surface."
+    ],
+    "option_images": [],
+    "answer": "C. Only when the Gaussian surface is an equipotential surface and $|\\vec{E}|$ is constant on the surface.",
+    "solution": "For Gauss's law to be practically useful for calculating E, the Gaussian surface must be chosen such that E is constant and perpendicular (or parallel) to the surface.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Electrostatics",
+    "question": "Three large plates are arranged as shown. How much charge will flow through the key k if it closed?",
+    "question_latex": "Three large plates are arranged as shown. How much charge will flow through the key k if it closed?",
+    "question_images": [
+      "73_qu_1.png"
+    ],
+    "options": [
+      "A. 5Q/6",
+      "B. 3Q/2",
+      "C. 4Q/3",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. 5Q/6",
+    "solution": "By solving the equivalent circuit formed by the plates (two capacitors), charge distribution changes when the switch closes. The calculation yields a charge flow of $5Q/6$.",
+    "solution_images": [
+      "73_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Electrostatics",
+    "question": "Which of the following is / are true about the principle of Van de Graaff generator?",
+    "question_latex": "Which of the following is / are true about the principle of Van de Graaff generator?",
+    "question_images": [],
+    "options": [
+      "A. The action of sharp points.",
+      "B. The charge given to a hollow conductor is tranferred to outer surface and is distributed uniformly over it.",
+      "C. It is used for accelerating uncharged particle.",
+      "D. Both (a) and (b)"
+    ],
+    "option_images": [],
+    "answer": "D. Both (a) and (b)",
+    "solution": "Van de Graaff generator works on the principle of corona discharge (action of sharp points) and the property that charge resides on the outer surface of a conductor.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Electrostatics",
+    "question": "A parallel plate capacitor of capacitance 90pF is connected to a battery of emf 20 V. If a dielectric material of dielectric constant K=5/3 is inserted between the plates, the magnitude of the induced charge will be",
+    "question_latex": "A parallel plate capacitor of capacitance $90pF$ is connected to a battery of emf $20 V$. If a dielectric material of dielectric constant $K=5/3$ is inserted between the plates, the magnitude of the induced charge will be",
+    "question_images": [],
+    "options": [
+      "A. 1.2 nC",
+      "B. 0.9 nC",
+      "C. 0.3 nC",
+      "D. 2.4 nC"
+    ],
+    "option_images": [],
+    "answer": "A. 1.2 nC",
+    "solution": "Final charge $Q = KC_0 V = (5/3)(90 \\times 10^{-12})(20) = 3 \\text{ nC}$. Induced charge $Q_{ind} = Q(1 - 1/K) = 3(1 - 3/5) = 1.2 \\text{ nC}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Electrostatics",
+    "question": "When air in a capacitor is replaced by a medium of dielectric constant K, the capacity",
+    "question_latex": "When air in a capacitor is replaced by a medium of dielectric constant $K$, the capacity",
+    "question_images": [],
+    "options": [
+      "A. decreases K times",
+      "B. increases K times",
+      "C. increases $K^{2}$ times",
+      "D. remains constant"
+    ],
+    "option_images": [],
+    "answer": "B. increases K times",
+    "solution": "$C_{medium} = K C_{air}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Electrostatics",
+    "question": "The capacitance C of a capacitor is",
+    "question_latex": "The capacitance $C$ of a capacitor is",
+    "question_images": [],
+    "options": [
+      "A. Independent of the charge and potential of the capacitor",
+      "B. Dependent on the charge and independent of potential",
+      "C. Independent of the geometrical configuration of the capacitor",
+      "D. Independent of the dielectric medium between the two conducting surface of the capacitor"
+    ],
+    "option_images": [],
+    "answer": "C. Independent of the geometrical configuration of the capacitor",
+    "solution": "Note: The option C text in the source actually says 'Independent of the geometrical configuration', which is FALSE. Capacitance DEPENDS on geometry. However, option A is 'Independent of the charge and potential', which is TRUE. The Answer Key says (C). The solution text says 'Capacitance C of a capacitor is independent of the geometrical configuration', which contradicts physics ($C=\\epsilon A/d$). It also says $C=Q/V$. But standard physics says C depends on A, d, and medium. The most likely intended answer for 'What is C independent of?' would be Q and V. If the question asks what it depends on, it's geometry. Given the conflict, I will record the source's answer (C) but note the solution text.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Electrostatics",
+    "question": "A spherical drop of mercury having a potential of 2.5V is obtained as a result of merging 125 droplets. The potential of a constituent droplets would be",
+    "question_latex": "A spherical drop of mercury having a potential of $2.5V$ is obtained as a result of merging $125$ droplets. The potential of a constituent droplets would be",
+    "question_images": [],
+    "options": [
+      "A. 1.0V",
+      "B. 0.5V",
+      "C. 0.2V",
+      "D. 0.1V"
+    ],
+    "option_images": [],
+    "answer": "D. 0.1V",
+    "solution": "$V_{big} = n^{2/3} V_{small}$. $2.5 = (125)^{2/3} V_{small} = 25 V_{small}$. $V_{small} = 0.1 \\text{ V}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Electrostatics",
+    "question": "The work done in placing a charge of 8 x 10^-18 C on a condenser of capacity 100 µF is",
+    "question_latex": "The work done in placing a charge of $8 \\times 10^{-18} C$ on a condenser of capacity $100~\\mu F$ is",
+    "question_images": [],
+    "options": [
+      "A. $16\\times10^{-32}$ J",
+      "B. $3.1 \\times 10^{-26}$ J",
+      "C. $4 \\times 10^{-10}$ J",
+      "D. $32 \\times 10^{-32}$ J"
+    ],
+    "option_images": [],
+    "answer": "D. $32 \\times 10^{-32}$ J",
+    "solution": "$W = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} \\frac{(8 \\times 10^{-18})^2}{100 \\times 10^{-6}} = 32 \\times 10^{-32} \\text{ J}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Electrostatics",
+    "question": "The energy required to charge a parallel plate condenser of plate separation d and plate area of cross-section A such that the uniform electric field between the plates is E, is",
+    "question_latex": "The energy required to charge a parallel plate condenser of plate separation $d$ and plate area of cross-section $A$ such that the uniform electric field between the plates is $E$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\epsilon_{0}E^{2}Ad$",
+      "B. $\\frac{1}{2}\\epsilon_{0}E^{2}Ad$",
+      "C. $\\frac{1}{2}\\epsilon_{0}E^{2}/Ad$",
+      "D. $\\epsilon_{0}E^{2}/Ad$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\epsilon_{0}E^{2}Ad$",
+    "solution": "Wait, standard energy is $1/2 \\epsilon_0 E^2 Ad$. The source marks (A) $\\epsilon_0 E^2 Ad$. Let's check the solution text: $U = QW$? No, $U = CV^2$. $C = \\epsilon_0 A/d$. $V = Ed$. $U = (\\epsilon_0 A/d)(Ed)^2 = \\epsilon_0 E^2 Ad$. Wait, $U = 1/2 CV^2$. The solution text dropped the 1/2 factor in the derivation step ($U=CV^2$). This is a likely error in the source material. Standard physics says $1/2 \\epsilon_0 E^2 Ad$. I will transcribe as per source (A) but note the discrepancy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Electrostatics",
+    "question": "Figure below shows a hollow conducting body placed in an electric field. Which of the quantities are zero inside the body?",
+    "question_latex": "Figure below shows a hollow conducting body placed in an electric field. Which of the quantities are zero inside the body?",
+    "question_images": [
+      "81_qu_1.png"
+    ],
+    "options": [
+      "A. Electric field and potential",
+      "B. Electric field and charge density",
+      "C. Electric potential and charge density",
+      "D. Electric field, potential and charge density"
+    ],
+    "option_images": [],
+    "answer": "B. Electric field and charge density",
+    "solution": "Inside a conductor in electrostatic equilibrium, $E=0$ and charge density $\\rho=0$. Potential is constant, not necessarily zero.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Electrostatics",
+    "question": "Two capacitors having capacitance C1 and C2 respectively are connected as shown in figure. Initially, capacitor C1 is charged to a potential difference V volt by a battery. The battery is then removed and the charged capacitor C1 is now connected to uncharged capacitor C2 by closing the switch S. The amount of charge on the capacitor C2, after equilibrium, is",
+    "question_latex": "Two capacitors having capacitance $C_{1}$ and $C_{2}$ respectively are connected as shown in figure. Initially, capacitor $C_{1}$ is charged to a potential difference $V$ volt by a battery. The battery is then removed and the charged capacitor $C_{1}$ is now connected to uncharged capacitor $C_{2}$ by closing the switch $S$. The amount of charge on the capacitor $C_{2}$, after equilibrium, is",
+    "question_images": [
+      "82_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{C_{1}C_{2}}{(C_{1}+C_{2})}V$",
+      "B. $\\frac{(C_{1}+C_{2})}{C_{1}C_{2}}V$",
+      "C. $(C_{1}+C_{2})V$",
+      "D. $(C_{1}-C_{2})V$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{C_{1}C_{2}}{(C_{1}+C_{2})}V$",
+    "solution": "Common potential $V' = \\frac{C_1 V}{C_1 + C_2}$. Charge on $C_2$ is $q_2 = C_2 V' = \\frac{C_1 C_2 V}{C_1 + C_2}$.",
+    "solution_images": [
+      "82_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Electrostatics",
+    "question": "A capacitor with capacitance 5µF is charged to 5µC. If the plates are pulled apart to reduce the capacitance to 2µF, how much work is done?",
+    "question_latex": "A capacitor with capacitance $5\\mu F$ is charged to $5\\mu C$. If the plates are pulled apart to reduce the capacitance to $2\\mu F$, how much work is done?",
+    "question_images": [],
+    "options": [
+      "A. $16.25\\times10^{-6} J$",
+      "B. $3.75\\times10^{-6} J$",
+      "C. $2.16\\times10^{-6} J$",
+      "D. $2.55\\times10^{-6} J$"
+    ],
+    "option_images": [],
+    "answer": "B. $3.75\\times10^{-6} J$",
+    "solution": "Work done = Change in energy = $\\frac{q^2}{2}(\\frac{1}{C_f} - \\frac{1}{C_i}) = \\frac{(5 \\times 10^{-6})^2}{2}(\\frac{1}{2 \\times 10^{-6}} - \\frac{1}{5 \\times 10^{-6}}) = 3.75 \\times 10^{-6} \\text{ J}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Electrostatics",
+    "question": "A spring block system undergoes vertical oscillations above a large horizontal metal sheet with uniform positive charge. The time period of the oscillation is T. If the block is given a charge Q, its time period of oscillation will be",
+    "question_latex": "A spring block system undergoes vertical oscillations above a large horizontal metal sheet with uniform positive charge. The time period of the oscillation is $T$. If the block is given a charge $Q$, its time period of oscillation will be",
+    "question_images": [],
+    "options": [
+      "A. T",
+      "B. > T",
+      "C. < T",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. T",
+    "solution": "The electric force is constant ($F = QE$) because the field is uniform. A constant force changes the equilibrium position but does not affect the time period of a spring-mass system ($T = 2\\pi\\sqrt{m/k}$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Electrostatics",
+    "question": "The electric potential at the surface of an atomic nucleus (Z=50) of radius of 9 x 10^-15 m is",
+    "question_latex": "The electric potential at the surface of an atomic nucleus $(Z=50)$ of radius of $9 \\times 10^{-15} m$ is",
+    "question_images": [],
+    "options": [
+      "A. 80 V",
+      "B. $8 \\times 10^{6} V$",
+      "C. 9 V",
+      "D. $9 \\times 10^{5} V$"
+    ],
+    "option_images": [],
+    "answer": "B. $8 \\times 10^{6} V$",
+    "solution": "$V = \\frac{kQ}{R} = \\frac{9 \\times 10^9 \\times 50 \\times 1.6 \\times 10^{-19}}{9 \\times 10^{-15}} = 8 \\times 10^6 \\text{ V}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Electrostatics",
+    "question": "Taking earth to be a metallic spheres, its capacity will approximately be",
+    "question_latex": "Taking earth to be a metallic spheres, its capacity will approximately be",
+    "question_images": [],
+    "options": [
+      "A. $6.4 \\times 10^{6} F$",
+      "B. 700 F",
+      "C. 711 µF",
+      "D. 700 pF"
+    ],
+    "option_images": [],
+    "answer": "C. 711 µF",
+    "solution": "$C = 4\\pi\\epsilon_0 R = \\frac{6.4 \\times 10^6}{9 \\times 10^9} \\approx 711 \\mu F$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Electrostatics",
+    "question": "Three charges are placed at the vertex of an equilateral triangle as shown in figure. For what value of Q, the electrostatic potential energy of the system is zero?",
+    "question_latex": "Three charges are placed at the vertex of an equilateral triangle as shown in figure. For what value of $Q$, the electrostatic potential energy of the system is zero?",
+    "question_images": [
+      "87_qu_1.png"
+    ],
+    "options": [
+      "A. -q",
+      "B. q/2",
+      "C. -2q",
+      "D. -q/2"
+    ],
+    "option_images": [],
+    "answer": "D. -q/2",
+    "solution": "$U = k(\\frac{Qq}{a} + \\frac{Qq}{a} + \\frac{q^2}{a}) = 0$. $2Qq + q^2 = 0 \\Rightarrow Q = -q/2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Electrostatics",
+    "question": "4 point charges each +q is placed on the circumference of a circle of diameter 2d in such a way that they form a square. The potential at the centre is",
+    "question_latex": "4 point charges each $+q$ is placed on the circumference of a circle of diameter $2d$ in such a way that they form a square. The potential at the centre is",
+    "question_images": [
+      "88_qu_1.png"
+    ],
+    "options": [
+      "A. 0",
+      "B. $\\frac{q}{\\pi\\epsilon_0 d}$",
+      "C. $\\frac{4q}{d}$ (CGS)",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{q}{\\pi\\epsilon_0 d}$",
+    "solution": "Radius $r=d$. Potential $V = 4 \\times \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{d} = \\frac{q}{\\pi\\epsilon_0 d}$. (Source marks B and calculation matches SI unit structure, though B in source text might be missing constants).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Electrostatics",
+    "question": "When a metal plate is introduced between the two plates of a charged capacitor and insulated from them, then",
+    "question_latex": "When a metal plate is introduced between the two plates of a charged capacitor and insulated from them, then",
+    "question_images": [],
+    "options": [
+      "A. The metal plate divides the capacitor into two capacitors connected in parallel to each other",
+      "B. The metal plate divides the capacitor into two capacitors connected in series with each other",
+      "C. The metal plate is equivalent to a dielectric of zero dielectric constant",
+      "D. Capacitance of the capacitor decreases"
+    ],
+    "option_images": [],
+    "answer": "B. The metal plate divides the capacitor into two capacitors connected in series with each other",
+    "solution": "A metal plate acts as an equipotential region, effectively creating two capacitors in series.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Electrostatics",
+    "question": "If the electric potential at any point (x, y, z)m in space is given by V=3x^2 volt. The electric field at the point (1,0,3) m will be",
+    "question_latex": "If the electric potential at any point $(x, y, z)m$ in space is given by $V=3x^{2}$ volt. The electric field at the point $(1,0,3) m$ will be",
+    "question_images": [],
+    "options": [
+      "A. 6 V/m, directed along positive x-axis",
+      "B. 3 V/m, directed along negative x-axis",
+      "C. 3 V/m, directed along positive x-axis",
+      "D. 6 V/m, directed along negative x-axis"
+    ],
+    "option_images": [],
+    "answer": "D. 6 V/m, directed along negative x-axis",
+    "solution": "$E = -\\frac{dV}{dx}\\hat{i} = -6x\\hat{i}$. At $x=1$, $E = -6\\hat{i} \\text{ V/m}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Electrostatics",
+    "question": "A capacitor of capacitance C0 charged to a potential V0 and then isolated. A small capacitor C is then charged from C0, discharged and charged again; the process being repeated n times. Due to this, potential of the larger capacitor us decreased to V. The value of C is",
+    "question_latex": "A capacitor of capacitance $C_{0}$ charged to a potential $V_{0}$ and then isolated. A small capacitor $C$ is then charged from $C_{0}$, discharged and charged again; the process being repeated $n$ times. Due to this, potential of the larger capacitor us decreased to $V$. The value of $C$ is",
+    "question_images": [],
+    "options": [
+      "A. $C_{0}(\\frac{V_{0}}{V})^{1/n}$",
+      "B. $C_{0}[(\\frac{V_{0}}{V})^{1/n}-1]$",
+      "C. $C_{0}[(\\frac{V}{V_{0}})-1]^{n}$",
+      "D. $C_{0}[(\\frac{V}{V_{0}})^{n}+1]$"
+    ],
+    "option_images": [],
+    "answer": "B. $C_{0}[(\\frac{V_{0}}{V})^{1/n}-1]$",
+    "solution": "After n chargings, $V_n = V_0 (\\frac{C_0}{C_0 + C})^n$. Solving for C gives the result.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Electrostatics",
+    "question": "Consider a circular loop that is uniformly charged and has a radius a*sqrt(2). Find the position along the positive z-axis of the cartesian coordinate system where the electric field is maximum if the ring was assumed to be placed in xy-plane at the origin:",
+    "question_latex": "Consider a circular loop that is uniformly charged and has a radius $a\\sqrt{2}$. Find the position along the positive z-axis of the cartesian coordinate system where the electric field is maximum if the ring was assumed to be placed in xy-plane at the origin:",
+    "question_images": [],
+    "options": [
+      "A. $a/\\sqrt{2}$",
+      "B. a",
+      "C. $a/2$",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "B. a",
+    "solution": "Field is maximum at $z = R/\\sqrt{2}$. Here $R = a\\sqrt{2}$. Thus $z = (a\\sqrt{2})/\\sqrt{2} = a$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Electrostatics",
+    "question": "A uniformly charged disc of radius R having surface charge density sigma is placed in the xy plane with its center at the origin. Find the electric field intensity along the z-axis at a distance Z from origin.",
+    "question_latex": "A uniformly charged disc of radius $R$ having surface charge density $\\sigma$ is placed in the xy plane with its center at the origin. Find the electric field intensity along the z-axis at a distance $Z$ from origin.",
+    "question_images": [
+      "93_qu_1.png"
+    ],
+    "options": [
+      "A. Formula A",
+      "B. Formula B",
+      "C. $E=\\frac{\\sigma}{2\\epsilon_{0}}[1-\\frac{z}{(z^{2}+R^{2})^{1/2}}]$",
+      "D. Formula D"
+    ],
+    "option_images": [],
+    "answer": "C. $E=\\frac{\\sigma}{2\\epsilon_{0}}[1-\\frac{z}{(z^{2}+R^{2})^{1/2}}]$",
+    "solution": "Integration of rings leads to $E = \\frac{\\sigma}{2\\epsilon_0}[1 - \\frac{z}{\\sqrt{z^2+R^2}}]$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Electrostatics",
+    "question": "A 2 µF capacitor is charged to 100 V and then its plates are connected by a conducting wire. The heat produced is",
+    "question_latex": "A $2~\\mu F$ capacitor is charged to $100~V$ and then its plates are connected by a conducting wire. The heat produced is",
+    "question_images": [],
+    "options": [
+      "A. 0.001 J",
+      "B. 0.01 J",
+      "C. 0.1 J",
+      "D. 1 J"
+    ],
+    "option_images": [],
+    "answer": "B. 0.01 J",
+    "solution": "Heat = Energy stored = $\\frac{1}{2}CV^2 = \\frac{1}{2} \\times 2 \\times 10^{-6} \\times (100)^2 = 0.01 \\text{ J}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Electrostatics",
+    "question": "The work done in placing a charge of 8 x 10^-18 coulomb on a condenser of capacity 100 microfarad is",
+    "question_latex": "The work done in placing a charge of $8 \\times 10^{-18}$ coulomb on a condenser of capacity $100$ microfarad is",
+    "question_images": [],
+    "options": [
+      "A. $3.1 \\times 10^{-26}$ joule",
+      "B. $4 \\times 10^{-10}$ joule",
+      "C. $16 \\times 10^{-32}$ joule",
+      "D. $32 \\times 10^{-32}$ joule"
+    ],
+    "option_images": [],
+    "answer": "D. $32 \\times 10^{-32}$ joule",
+    "solution": "Same as Question 29.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Electrostatics",
+    "question": "Two infinitely long parallel wires having linear charge densities lambda_1 and lambda_2, respectively, are placed at a distance R. The force per length on either wire will be",
+    "question_latex": "Two infinitely long parallel wires having linear charge densities $\\lambda_{1}$ and $\\lambda_{2}$, respectively, are placed at a distance $R$. The force per length on either wire will be",
+    "question_images": [],
+    "options": [
+      "A. $k\\frac{2\\lambda_{1}\\lambda_{2}}{R^{2}}$",
+      "B. $k\\frac{2\\lambda_{1}\\lambda_{2}}{R}$",
+      "C. $k\\frac{\\lambda_{1}\\lambda_{2}}{R^{2}}$",
+      "D. $k\\frac{\\lambda_{1}\\lambda_{2}}{R}$"
+    ],
+    "option_images": [],
+    "answer": "B. $k\\frac{2\\lambda_{1}\\lambda_{2}}{R}$",
+    "solution": "Field of wire 1 at R is $E = \\frac{2k\\lambda_1}{R}$. Force on wire 2 is $\\lambda_2 E = \\frac{2k\\lambda_1\\lambda_2}{R}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Electrostatics",
+    "question": "Consider two charged metallic spheres S1 and S2 of radii R1 and R2, respectively. The electric fields E1 on their surfaces are such that E1/E2 = R1/R2. Then the ratio V1/V2 of the electrostatic potentials on each sphere is",
+    "question_latex": "Consider two charged metallic spheres $S_{1}$ and $S_{2}$ of radii $R_{1}$ and $R_{2}$, respectively. The electric fields $E_{1}$ on their surfaces are such that $E_{1}/E_{2} = R_{1}/R_{2}$. Then the ratio $V_{1}/V_{2}$ of the electrostatic potentials on each sphere is",
+    "question_images": [],
+    "options": [
+      "A. $R_{2}/R_{1}$",
+      "B. $R_{1}/R_{2}$",
+      "C. $(R_{1}/R_{2})^{3}$",
+      "D. $(R_{1}/R_{2})^{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $(R_{1}/R_{2})^{2}$",
+    "solution": "$\\frac{E_1}{E_2} = \\frac{Q_1 R_2^2}{Q_2 R_1^2} = \\frac{R_1}{R_2} \\Rightarrow \\frac{Q_1}{Q_2} = (\\frac{R_1}{R_2})^3$. $\\frac{V_1}{V_2} = \\frac{Q_1 R_2}{Q_2 R_1} = (\\frac{R_1}{R_2})^3 \\frac{R_2}{R_1} = (\\frac{R_1}{R_2})^2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Electrostatics",
+    "question": "An electric dipole of moment p is placed normal to the lines of force of electric intensity E, then the work done in deflecting it through an angle of 180 degrees is",
+    "question_latex": "An electric dipole of moment $\\vec{p}$ is placed normal to the lines of force of electric intensity $\\vec{E}$, then the work done in deflecting it through an angle of $180^{\\circ}$ is",
+    "question_images": [],
+    "options": [
+      "A. pE",
+      "B. -2pE",
+      "C. +2pE",
+      "D. zero"
+    ],
+    "option_images": [],
+    "answer": "D. zero",
+    "solution": "Initial angle $90^{\\circ}$. Final angle $270^{\\circ}$ (or $-90^{\\circ}$). $W = pE(\\cos \\theta_1 - \\cos \\theta_2) = pE(\\cos 90^{\\circ} - \\cos 270^{\\circ}) = 0$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Electrostatics",
+    "question": "A hollow charged metal sphere has radius r. If the potential difference between its surface and a point at a distance 3r from the centre is V, then electric field intensity at a distance 3r is",
+    "question_latex": "A hollow charged metal sphere has radius $r$. If the potential difference between its surface and a point at a distance $3r$ from the centre is $V$, then electric field intensity at a distance $3r$ is",
+    "question_images": [],
+    "options": [
+      "A. V/2r",
+      "B. V/3r",
+      "C. V/6r",
+      "D. V/4r"
+    ],
+    "option_images": [],
+    "answer": "C. V/6r",
+    "solution": "Same as Question 2 in previous set. $E = V/6r$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Electrostatics",
+    "question": "In the case of a charged metallic sphere, potential (V) changes with respect to distance(r) from the centre as",
+    "question_latex": "In the case of a charged metallic sphere, potential ($V$) changes with respect to distance($r$) from the centre as",
+    "question_images": [],
+    "options": [
+      "A. Graph A",
+      "B. Graph B",
+      "C. Graph C",
+      "D. Graph D"
+    ],
+    "option_images": [
+      "100_op_1.png"
+    ],
+    "answer": "C. Graph C",
+    "solution": "For a conducting sphere, potential is constant inside ($V \\propto r^0$) and decreases as $1/r$ outside. Graph C (as referenced in source solution) represents this behavior.",
+    "solution_images": [
+      "100_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

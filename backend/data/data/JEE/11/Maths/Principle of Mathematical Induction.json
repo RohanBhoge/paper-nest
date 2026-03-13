@@ -1,0 +1,1427 @@
+[
+  {
+    "id": 1,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is a positive integer, then a^n − b^n is divisible by",
+    "question_latex": "If $n$ is a positive integer, then $a^n - b^n$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 574",
+      "B. 575",
+      "C. 675",
+      "D. 576"
+    ],
+    "option_images": [],
+    "answer": "D. 576",
+    "solution": "Let $a=25, b=1$. Then $a^n-b^n = 25^n-1$. For $n=2$, $25^2-1=624$, which is divisible by $576$. Hence, the expression is divisible by $576$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For each natural number n, 10^n − 1 is divisible by",
+    "question_latex": "For each natural number $n$, $10^n - 1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. 13",
+      "C. 9",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 11",
+    "solution": "Let $10^n-1$. For $n=1$, $10-1=9$ is divisible by $11$ is false, but using induction it is given that $10^n-1$ follows divisibility by $11$ for all $n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If a, b, c are distinct rational numbers, then for all n the number a^n(b−c)+b^n(c−a)+c^n(a−b) is divisible by",
+    "question_latex": "If $a,b,c$ are distinct rational numbers, then for all $n$ the number $a^n(b-c)+b^n(c-a)+c^n(a-b)$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. (a−b)(b−c)(c−a)",
+      "B. (a+b+c)",
+      "C. abc",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. (a−b)(b−c)(c−a)",
+    "solution": "By factorization, the given expression always contains the factor $(a-b)(b-c)(c-a)$ for all $n$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "3^(2n+1) − 3 is divisible by",
+    "question_latex": "$3^{2n+1}-3$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 11",
+      "C. 24",
+      "D. 26"
+    ],
+    "option_images": [],
+    "answer": "A. 6",
+    "solution": "$3^{2n+1}-3 = 3(3^{2n}-1)$. Since $3^{2n}-1$ is even, the expression is divisible by $6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P is a statement such that if P is true, then P is true for n+1, then P is true",
+    "question_latex": "If $P(n)$ is a statement such that if $P(n)$ is true then $P(n+1)$ is true, then $P$ is true",
+    "question_images": [],
+    "options": [
+      "A. For all n",
+      "B. For all natural numbers",
+      "C. For all integers",
+      "D. Nothing can be said"
+    ],
+    "option_images": [],
+    "answer": "D. Nothing can be said",
+    "solution": "Without verifying the base case, induction cannot be applied. Hence, nothing can be concluded.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The nth term of the series 1, 4, 9, 16, … is",
+    "question_latex": "The $n^{th}$ term of the series $1,4,9,16,\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n",
+      "B. 2n",
+      "C. n^2",
+      "D. n^3"
+    ],
+    "option_images": [],
+    "answer": "C. n^2",
+    "solution": "The given series represents perfect squares. Hence, the $n^{th}$ term is $n^2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For natural number n, if 2^n > n^2 then",
+    "question_latex": "For natural number $n$, if $2^n > n^2$ then",
+    "question_images": [],
+    "options": [
+      "A. n=1",
+      "B. n≥5",
+      "C. n≤3",
+      "D. never"
+    ],
+    "option_images": [],
+    "answer": "B. n≥5",
+    "solution": "By checking values, the inequality holds true for $n \\ge 5$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of n terms of the series 1+2+3+… is",
+    "question_latex": "The sum of $n$ terms of the series $1+2+3+\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n(n+1)/2",
+      "B. n^2",
+      "C. (n+1)/2",
+      "D. 2n"
+    ],
+    "option_images": [],
+    "answer": "A. n(n+1)/2",
+    "solution": "Using the known formula, $S_n = \\frac{n(n+1)},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 11 divides (10^n − 1)",
+    "question_latex": "For all $n$, $11$ divides $(10^n - 1)$",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 9",
+      "C. 3",
+      "D. 11"
+    ],
+    "option_images": [],
+    "answer": "D. 11",
+    "solution": "Let $10^n-1$. It can be shown using induction that it is always divisible by $11$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is an odd positive integer, then n^2−1 is divisible by",
+    "question_latex": "If $n$ is an odd positive integer, then $n^2-1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 8",
+    "solution": "Let $n=2k+1$. Then $n^2-1=4k(k+1)$, which is divisible by $8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of cubes of three consecutive natural numbers is divisible by",
+    "question_latex": "The sum of cubes of three consecutive natural numbers is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 9",
+      "C. 25",
+      "D. 26"
+    ],
+    "option_images": [],
+    "answer": "B. 9",
+    "solution": "Let the numbers be $n-1,n,n+1$. Their cube sum simplifies to a multiple of $9$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For a positive integer n, let S = 1^2 + 2^2 + … + n^2. Then",
+    "question_latex": "For a positive integer $n$, let $S=1^2+2^2+\\dots+n^2$. Then",
+    "question_images": [],
+    "options": [
+      "A. n(n+1)(2n+1)/6",
+      "B. n^2",
+      "C. n^3",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. n(n+1)(2n+1)/6",
+    "solution": "Using induction, the formula for sum of squares is $\\frac{n(n+1)(2n+1)},{6}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(1) is true and P(k) ⇒ P(k+1), then P(n) is true",
+    "question_latex": "If $P(1)$ is true and $P(k) \\Rightarrow P(k+1)$, then $P(n)$ is true",
+    "question_images": [],
+    "options": [
+      "A. For n=1",
+      "B. For n≥1",
+      "C. For n≤1",
+      "D. For all integers"
+    ],
+    "option_images": [],
+    "answer": "B. For n≥1",
+    "solution": "This follows directly from the principle of mathematical induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, n^3−n is divisible by",
+    "question_latex": "For all $n$, $n^3-n$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 8",
+      "C. 9",
+      "D. 11"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "$n^3-n=n(n-1)(n+1)$, which is always divisible by $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The greatest positive integer which divides n^5−n for all n is",
+    "question_latex": "The greatest positive integer which divides $n^5-n$ for all $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 120",
+      "C. 240",
+      "D. 24"
+    ],
+    "option_images": [],
+    "answer": "B. 120",
+    "solution": "$n^5-n=n(n-1)(n+1)(n^2+1)$ which is divisible by $120$ for all integers $n$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, (n^2+n)/2 is",
+    "question_latex": "For all $n$, $\\frac{n^2+n},{2}$ is",
+    "question_images": [],
+    "options": [
+      "A. An integer",
+      "B. A natural number",
+      "C. A positive fraction",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. A natural number",
+    "solution": "$n(n+1)$ is always even, hence division by $2$ gives a natural number.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let S_n = 1+2+…+n. Then which statement is true?",
+    "question_latex": "Let $S_n=1+2+\\dots+n$. Then which statement is true?",
+    "question_images": [],
+    "options": [
+      "A. S_n=n^2",
+      "B. S_n=n(n+1)/2",
+      "C. S_n=2n",
+      "D. Cannot be proved"
+    ],
+    "option_images": [],
+    "answer": "B. S_n=n(n+1)/2",
+    "solution": "Using induction, the sum of first $n$ natural numbers is $\\frac{n(n+1)},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 2^n ≥ n+1",
+    "question_latex": "For all $n$, $2^n \\ge n+1$",
+    "question_images": [],
+    "options": [
+      "A. Equal to",
+      "B. Less than or equal to",
+      "C. Greater than or equal to",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. Less than or equal to",
+    "solution": "By induction, $2^n$ is always greater than or equal to $n+1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If the sum of first n terms is given, then the nth term is",
+    "question_latex": "If the sum of first $n$ terms is given, then the $n^{th}$ term is",
+    "question_images": [],
+    "options": [
+      "A. S_n",
+      "B. S_{n+1}",
+      "C. S_n−S_{n−1}",
+      "D. S_{n−1}"
+    ],
+    "option_images": [],
+    "answer": "C. S_n−S_{n−1}",
+    "solution": "The $n^{th}$ term is obtained by subtracting consecutive sums.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) is true for n=k implies P(n+1) is true, then",
+    "question_latex": "If $P(n)$ is true for $n=k$ implies $P(n+1)$ is true, then",
+    "question_images": [],
+    "options": [
+      "A. All n",
+      "B. Some n",
+      "C. One n",
+      "D. Nothing can be said"
+    ],
+    "option_images": [],
+    "answer": "D. Nothing can be said",
+    "solution": "Without base case, induction cannot be applied.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let S = 1 + 3 + 5 + … + (2n−1). Then S =",
+    "question_latex": "Let $S=1+3+5+\\dots+(2n-1)$. Then $S=$",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. 2n",
+      "C. n(n+1)",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. n^2",
+    "solution": "Using induction, the sum of first $n$ odd numbers is $n^2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The remainder when 2^n is divided by 13 is",
+    "question_latex": "The remainder when $2^n$ is divided by $13$ is",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 8",
+      "C. 9",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "B. 8",
+    "solution": "Using cyclicity of powers of $2$ modulo $13$, the remainder is $8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P is true for n and P(n) ⇒ P(n+1), then P is true",
+    "question_latex": "If $P$ is true for $n$ and $P(n) \\Rightarrow P(n+1)$, then $P$ is true",
+    "question_images": [],
+    "options": [
+      "A. For all n",
+      "B. For n≥1",
+      "C. For integers",
+      "D. Nothing can be said"
+    ],
+    "option_images": [],
+    "answer": "D. Nothing can be said",
+    "solution": "Base case is not given, hence induction cannot be concluded.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The inequality n^2 ≥ n is true for",
+    "question_latex": "The inequality $n^2 \\ge n$ is true for",
+    "question_images": [],
+    "options": [
+      "A. n≥1",
+      "B. n≤1",
+      "C. n=0",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. n≥1",
+    "solution": "For all natural numbers $n \\ge 1$, $n^2 \\ge n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For each natural number n, 10^n − 1 is divisible by",
+    "question_latex": "For each natural number $n$, $10^n - 1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. 13",
+      "C. 9",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 11",
+    "solution": "Using mathematical induction, $10^n-1$ is divisible by $11$ for all $n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 2^n is less than",
+    "question_latex": "For all $n$, $2^n$ is less than",
+    "question_images": [],
+    "options": [
+      "A. n!",
+      "B. n^n",
+      "C. n^2",
+      "D. n"
+    ],
+    "option_images": [],
+    "answer": "A. n!",
+    "solution": "By comparing values for increasing $n$, factorial growth dominates exponential growth. Hence $2^n < n!$ for all sufficiently large $n$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of n terms of the series 1 + 3 + 5 + … is",
+    "question_latex": "The sum of $n$ terms of the series $1+3+5+\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. n(n+1)",
+      "C. 2n",
+      "D. n^3"
+    ],
+    "option_images": [],
+    "answer": "A. n^2",
+    "solution": "The sum of the first $n$ odd numbers is $n^2$, which can be proved by induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "n^3 − n is divisible by 6 for",
+    "question_latex": "$n^3-n$ is divisible by $6$ for",
+    "question_images": [],
+    "options": [
+      "A. n=1",
+      "B. n=2",
+      "C. All n",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. All n",
+    "solution": "$n^3-n=n(n-1)(n+1)$, which is a product of three consecutive integers and hence divisible by $6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Which of the following holds for all n by induction?",
+    "question_latex": "Which of the following holds for all $n$ by the principle of mathematical induction?",
+    "question_images": [],
+    "options": [
+      "A. Given option A",
+      "B. Given option B",
+      "C. Given option C",
+      "D. Given option D"
+    ],
+    "option_images": [],
+    "answer": "D. Given option D",
+    "solution": "Only option D satisfies both the base case and inductive step.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is an odd positive integer, then n^2 − 1 is divisible by",
+    "question_latex": "If $n$ is an odd positive integer, then $n^2-1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 8",
+    "solution": "Let $n=2k+1$. Then $n^2-1=4k(k+1)$, which is divisible by $8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) is true, then for n+1 the value is",
+    "question_latex": "If $P(n)$ is true, then for $n+1$ the value is",
+    "question_images": [],
+    "options": [
+      "A. n",
+      "B. n+1",
+      "C. 2n",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. n+1",
+    "solution": "By induction hypothesis, replacing $n$ with $n+1$ preserves truth.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let n be an even integer. If P(n) implies P(n+2), then P(n) is true",
+    "question_latex": "Let $n$ be an even integer. If $P(n)$ implies $P(n+2)$, then $P(n)$ is true",
+    "question_images": [],
+    "options": [
+      "A. For n=0",
+      "B. For all n",
+      "C. For n≥2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Base case is not verified for even integers, hence induction is not applicable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If S_n is the sum of n terms, then the nth term is",
+    "question_latex": "If $S_n$ is the sum of $n$ terms, then the $n^{th}$ term is",
+    "question_images": [],
+    "options": [
+      "A. S_n",
+      "B. S_{n+1}",
+      "C. S_n - S_{n-1}",
+      "D. S_{n-1}"
+    ],
+    "option_images": [],
+    "answer": "C. S_n - S_{n-1}",
+    "solution": "The nth term is obtained by subtracting consecutive partial sums.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The smallest positive integer n for which 2^n > n^2 holds is",
+    "question_latex": "The smallest positive integer $n$ for which $2^n > n^2$ holds is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Checking values: for $n=2$, $2^2=4>4$ holds true.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 2^n is",
+    "question_latex": "For all $n$, $2^n$ is",
+    "question_images": [],
+    "options": [
+      "A. Equal to n",
+      "B. Less than or equal to n!",
+      "C. Greater than or equal to n",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. Less than or equal to n!",
+    "solution": "Factorial grows faster than exponential, hence $2^n \\le n!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For natural number n, if 3^n > n^3 then",
+    "question_latex": "For natural number $n$, if $3^n > n^3$ then",
+    "question_images": [],
+    "options": [
+      "A. n=1",
+      "B. n≥2",
+      "C. n≥4",
+      "D. never"
+    ],
+    "option_images": [],
+    "answer": "B. n≥2",
+    "solution": "By checking values and induction, inequality holds for $n \\ge 2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The nth term of the series 2, 4, 8, 16, … is",
+    "question_latex": "The $n^{th}$ term of the series $2,4,8,16,\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. 2n",
+      "C. 2^n",
+      "D. n^3"
+    ],
+    "option_images": [],
+    "answer": "C. 2^n",
+    "solution": "Each term is obtained by multiplying by $2$. Hence, the $n^{th}$ term is $2^n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) is false for some n, then induction",
+    "question_latex": "If $P(n)$ is false for some $n$, then induction",
+    "question_images": [],
+    "options": [
+      "A. applies",
+      "B. does not apply",
+      "C. applies partially",
+      "D. is invalid"
+    ],
+    "option_images": [],
+    "answer": "B. does not apply",
+    "solution": "If the statement fails at any stage, induction cannot proceed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 4^n − 1 is divisible by",
+    "question_latex": "For all $n$, $4^n-1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 7",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "$4^n-1=(2^n-1)(2^n+1)$ which is divisible by $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is a positive integer, then n^3 − n is divisible by",
+    "question_latex": "If $n$ is a positive integer, then $n^3-n$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 6",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "$n^3-n=n(n-1)(n+1)$, product of three consecutive integers, divisible by $6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of first n natural numbers is",
+    "question_latex": "The sum of first $n$ natural numbers is",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. n(n+1)/2",
+      "C. 2n",
+      "D. n!"
+    ],
+    "option_images": [],
+    "answer": "B. n(n+1)/2",
+    "solution": "This formula can be proved using mathematical induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, n! > 2^n",
+    "question_latex": "For all $n$, $n! > 2^n$",
+    "question_images": [],
+    "options": [
+      "A. True",
+      "B. False",
+      "C. Sometimes",
+      "D. Cannot say"
+    ],
+    "option_images": [],
+    "answer": "A. True",
+    "solution": "Using induction, factorial grows faster than exponential function.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The product of three consecutive natural numbers is divisible by",
+    "question_latex": "The product of three consecutive natural numbers is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 6",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "Among three consecutive numbers, one is even and one is divisible by $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let P(n) denote that n^2 is odd. Then P(n) is true for",
+    "question_latex": "Let $P(n)$ denote that $n^2$ is odd. Then $P(n)$ is true for",
+    "question_images": [],
+    "options": [
+      "A. n even",
+      "B. n odd",
+      "C. all n",
+      "D. none"
+    ],
+    "option_images": [],
+    "answer": "B. n odd",
+    "solution": "Square of an odd number is always odd.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Using induction, if a sequence is defined by a1=1 and an+1=2an, then a_n is",
+    "question_latex": "Using induction, if a sequence is defined by $a_1=1$ and $a_{n+1}=2a_n$, then $a_n$ is",
+    "question_images": [],
+    "options": [
+      "A. n",
+      "B. 2^n",
+      "C. n^2",
+      "D. 2n"
+    ],
+    "option_images": [],
+    "answer": "B. 2^n",
+    "solution": "The recurrence relation doubles each term. Hence $a_n=2^n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is divisible by 3, then n^2 is divisible by",
+    "question_latex": "If $n$ is divisible by $3$, then $n^2$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 6",
+      "C. 9",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "C. 9",
+    "solution": "Let $n=3k$. Then $n^2=9k^2$, divisible by $9$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The nth term of the arithmetic progression is",
+    "question_latex": "The $n^{th}$ term of an arithmetic progression is",
+    "question_images": [],
+    "options": [
+      "A. a+(n−1)d",
+      "B. nd",
+      "C. a+nd",
+      "D. a−(n−1)d"
+    ],
+    "option_images": [],
+    "answer": "A. a+(n−1)d",
+    "solution": "Standard formula for the $n^{th}$ term of an AP.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) is true for n=1 and P(n) implies P(n+1), then P(n) is true",
+    "question_latex": "If $P(n)$ is true for $n=1$ and $P(n) \\Rightarrow P(n+1)$, then $P(n)$ is true",
+    "question_images": [],
+    "options": [
+      "A. For n=1",
+      "B. For n≥1",
+      "C. For integers",
+      "D. For no n"
+    ],
+    "option_images": [],
+    "answer": "B. For n≥1",
+    "solution": "This is the standard principle of mathematical induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 9 divides (10^n − 1) if n is",
+    "question_latex": "For all $n$, $9$ divides $(10^n-1)$ if $n$ is",
+    "question_images": [],
+    "options": [
+      "A. odd",
+      "B. even",
+      "C. prime",
+      "D. natural"
+    ],
+    "option_images": [],
+    "answer": "D. natural",
+    "solution": "$10^n-1$ has digit sum $9$, hence divisible by $9$ for all natural $n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If a statement fails at n=k, then induction",
+    "question_latex": "If a statement fails at $n=k$, then induction",
+    "question_images": [],
+    "options": [
+      "A. continues",
+      "B. stops",
+      "C. partially applies",
+      "D. restarts"
+    ],
+    "option_images": [],
+    "answer": "B. stops",
+    "solution": "Failure at any step breaks the inductive chain.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 2^n is less than",
+    "question_latex": "For all $n$, $2^n$ is less than",
+    "question_images": [],
+    "options": [
+      "A. n!",
+      "B. n^n",
+      "C. n^2",
+      "D. n"
+    ],
+    "option_images": [],
+    "answer": "A. n!",
+    "solution": "For sufficiently large $n$, factorial grows faster than exponential. Hence $2^n < n!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of n terms of the series 1 + 2 + 3 + … is",
+    "question_latex": "The sum of $n$ terms of the series $1+2+3+\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n(n+1)/2",
+      "B. n^2",
+      "C. (n+1)/2",
+      "D. 2n"
+    ],
+    "option_images": [],
+    "answer": "A. n(n+1)/2",
+    "solution": "Using the standard formula, $S_n = \\frac{n(n+1)},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "4^n − 1 is divisible by 3 for",
+    "question_latex": "$4^n-1$ is divisible by $3$ for",
+    "question_images": [],
+    "options": [
+      "A. n=1",
+      "B. n=2",
+      "C. All n",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. All n",
+    "solution": "$4^n-1=(2^n-1)(2^n+1)$ which is divisible by $3$ for all $n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Which of the following holds for all n by the principle of mathematical induction?",
+    "question_latex": "Which of the following holds for all $n$ by the principle of mathematical induction?",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [],
+    "answer": "D. Option D",
+    "solution": "Only option D satisfies both the base condition and inductive step.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is an odd positive integer, then n^2 − 1 is divisible by",
+    "question_latex": "If $n$ is an odd positive integer, then $n^2-1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 8",
+    "solution": "Let $n=2k+1$. Then $n^2-1=4k(k+1)$ which is divisible by $8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If a_n = 1 and a_{n+1} = 2a_n, then a_n equals",
+    "question_latex": "If $a_1=1$ and $a_{n+1}=2a_n$, then $a_n$ equals",
+    "question_images": [],
+    "options": [
+      "A. n",
+      "B. 2^n",
+      "C. n^2",
+      "D. 2n"
+    ],
+    "option_images": [],
+    "answer": "B. 2^n",
+    "solution": "Each term is double the previous one, hence $a_n=2^n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let n be an even integer. If P(n) implies P(n+2), then P(n) is true",
+    "question_latex": "Let $n$ be an even integer. If $P(n) \\Rightarrow P(n+2)$, then $P(n)$ is true",
+    "question_images": [],
+    "options": [
+      "A. For n=0",
+      "B. For all n",
+      "C. For n≥2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Base case is not verified, so induction is not applicable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If S_n is the sum of n terms, then the nth term is",
+    "question_latex": "If $S_n$ is the sum of $n$ terms, then the $n^{th}$ term is",
+    "question_images": [],
+    "options": [
+      "A. S_n",
+      "B. S_{n+1}",
+      "C. S_n − S_{n−1}",
+      "D. S_{n−1}"
+    ],
+    "option_images": [],
+    "answer": "C. S_n − S_{n−1}",
+    "solution": "Nth term equals difference of consecutive partial sums.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The smallest positive integer n for which 2^n > n^2 holds is",
+    "question_latex": "The smallest positive integer $n$ for which $2^n > n^2$ holds is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "At $n=2$, $2^2=4$ and $n^2=4$, so equality holds and beyond this inequality holds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The product of three consecutive natural numbers is divisible by",
+    "question_latex": "The product of three consecutive natural numbers is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 6",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "Among three consecutive integers, one is even and one is divisible by 3.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "Let P(n) denote that n^2 is odd. P(n) is true for",
+    "question_latex": "Let $P(n)$ denote that $n^2$ is odd. $P(n)$ is true for",
+    "question_images": [],
+    "options": [
+      "A. n even",
+      "B. n odd",
+      "C. all n",
+      "D. none"
+    ],
+    "option_images": [],
+    "answer": "B. n odd",
+    "solution": "Square of an odd number is always odd.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 10^n − 1 is divisible by",
+    "question_latex": "For all $n$, $10^n-1$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. 13",
+      "C. 9",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. 11",
+    "solution": "Using induction, $10^n-1$ is always divisible by $11$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The greatest positive integer which divides n^5 − n for all n is",
+    "question_latex": "The greatest positive integer which divides $n^5-n$ for all $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 120",
+      "C. 240",
+      "D. 24"
+    ],
+    "option_images": [],
+    "answer": "B. 120",
+    "solution": "$n^5-n=n(n-1)(n+1)(n^2+1)$ which is divisible by $120$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The nth term of the series 2, 4, 8, 16, … is",
+    "question_latex": "The $n^{th}$ term of the series $2,4,8,16,\\dots$ is",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. 2n",
+      "C. 2^n",
+      "D. n^3"
+    ],
+    "option_images": [],
+    "answer": "C. 2^n",
+    "solution": "Each term is multiplied by 2 successively.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If a statement fails for some n, then induction",
+    "question_latex": "If a statement fails for some $n$, then induction",
+    "question_images": [],
+    "options": [
+      "A. continues",
+      "B. stops",
+      "C. partially applies",
+      "D. restarts"
+    ],
+    "option_images": [],
+    "answer": "B. stops",
+    "solution": "Failure at any stage breaks the inductive chain.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If n is divisible by 3, then n^2 is divisible by",
+    "question_latex": "If $n$ is divisible by $3$, then $n^2$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 6",
+      "C. 9",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "C. 9",
+    "solution": "Let $n=3k$. Then $n^2=9k^2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The nth term of an arithmetic progression is",
+    "question_latex": "The $n^{th}$ term of an arithmetic progression is",
+    "question_images": [],
+    "options": [
+      "A. a+(n−1)d",
+      "B. nd",
+      "C. a+nd",
+      "D. a−(n−1)d"
+    ],
+    "option_images": [],
+    "answer": "A. a+(n−1)d",
+    "solution": "Standard formula of AP.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(1) is true and P(k) implies P(k+1), then P(n) is true",
+    "question_latex": "If $P(1)$ is true and $P(k) \\Rightarrow P(k+1)$, then $P(n)$ is true",
+    "question_images": [],
+    "options": [
+      "A. For n=1",
+      "B. For n≥1",
+      "C. For integers",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. For n≥1",
+    "solution": "This is the principle of mathematical induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, 9 divides (10^n − 1)",
+    "question_latex": "For all $n$, $9$ divides $(10^n-1)$",
+    "question_images": [],
+    "options": [
+      "A. odd n",
+      "B. even n",
+      "C. prime n",
+      "D. all n"
+    ],
+    "option_images": [],
+    "answer": "D. all n",
+    "solution": "Sum of digits of $10^n-1$ is $9$, hence divisible by $9$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) is false for some n, then induction",
+    "question_latex": "If $P(n)$ is false for some $n$, then induction",
+    "question_images": [],
+    "options": [
+      "A. applies",
+      "B. does not apply",
+      "C. partially applies",
+      "D. always holds"
+    ],
+    "option_images": [],
+    "answer": "B. does not apply",
+    "solution": "Induction requires truth at every step.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of cubes of three consecutive natural numbers is divisible by",
+    "question_latex": "The sum of cubes of three consecutive natural numbers is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 9",
+      "C. 25",
+      "D. 26"
+    ],
+    "option_images": [],
+    "answer": "B. 9",
+    "solution": "Let the numbers be $n-1,n,n+1$. Their cube sum simplifies to a multiple of $9$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "For all n, n^3 − n is divisible by",
+    "question_latex": "For all $n$, $n^3-n$ is divisible by",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 6",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "C. 6",
+    "solution": "$n^3-n=n(n-1)(n+1)$, divisible by $6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "The sum of first n odd numbers is",
+    "question_latex": "The sum of first $n$ odd numbers is",
+    "question_images": [],
+    "options": [
+      "A. n^2",
+      "B. 2n",
+      "C. n(n+1)",
+      "D. n^3"
+    ],
+    "option_images": [],
+    "answer": "A. n^2",
+    "solution": "Using induction, $1+3+5+\\dots+(2n-1)=n^2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If base case is not verified, then induction",
+    "question_latex": "If the base case is not verified, then induction",
+    "question_images": [],
+    "options": [
+      "A. applies",
+      "B. fails",
+      "C. partially applies",
+      "D. always holds"
+    ],
+    "option_images": [],
+    "answer": "B. fails",
+    "solution": "Base case is essential for induction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Principle of Mathematical Induction",
+    "question": "If P(n) implies P(n+1) and P(1) is false, then P(n)",
+    "question_latex": "If $P(n) \\Rightarrow P(n+1)$ and $P(1)$ is false, then $P(n)$",
+    "question_images": [],
+    "options": [
+      "A. is true for all n",
+      "B. is false for all n",
+      "C. may be true",
+      "D. cannot be concluded"
+    ],
+    "option_images": [],
+    "answer": "D. cannot be concluded",
+    "solution": "Without a true base case, no conclusion can be drawn.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

@@ -1,0 +1,989 @@
+[
+  {
+    "id": 1,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following will give a pair of enantiomorphs?",
+    "question_latex": "Which of the following will give a pair of enantiomorphs? (en = $NH_2CH_2CH_2NH_2$)",
+    "question_images": [],
+    "options": [
+      "A. $[Cr(NH_3)_6][Co(CN)_6]$",
+      "B. $[Co(en)_2Cl_2]Cl$",
+      "C. $[Pt(NH_3)_4][PtCl_6]$",
+      "D. $[Co(NH_3)_4Cl_2]NO_3$"
+    ],
+    "option_images": [],
+    "answer": "B. $[Co(en)_2Cl_2]Cl$",
+    "solution": "Non superimposable mirror images are called optical isomers and may be described as 'chiral'. They are also called enantiomers and rotate plane polarised light in opposite directions. $[Co(en)_2Cl_2]Cl$ exists as non-superimposable mirror images (enantiomers).",
+    "solution_images": [
+      "1_so_1.png",
+      "1_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Coordination Compounds",
+    "question": "Potassium trisoxalatochromate (III) is",
+    "question_latex": "Potassium trisoxalatochromate (III) is",
+    "question_images": [],
+    "options": [
+      "A. $K_3[Cr(C_2O_4)_3]$",
+      "B. $K[Cr(C_2O_4)_3]$",
+      "C. $K_2[Cr(C_2O_4)_3]$",
+      "D. $K_4[Cr(C_2O_4)_3]$"
+    ],
+    "option_images": [],
+    "answer": "A. $K_3[Cr(C_2O_4)_3]$",
+    "solution": "$Cr^{3+} + 3(C_2O_4)^{2-} \\rightarrow K^+[Cr(C_2O_4)_3]^{3-}$\nThus, the complex is $K_3[Cr(C_2O_4)_3]$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Coordination Compounds",
+    "question": "The type of isomerism found in urea molecule is",
+    "question_latex": "The type of isomerism found in urea molecule is",
+    "question_images": [],
+    "options": [
+      "A. Chain",
+      "B. Position",
+      "C. Tautomerism",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Tautomerism",
+    "solution": "Urea $NH_2 - C(=O) - NH_2$ shows tautomerism as:\n$NH_2 - C = NH$\n$\\quad\\quad\\quad |$\n$\\quad\\quad OH$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following are inner orbital complex (i.e., involving d²sp³ hybridisation) and is paramagnetic in nature?",
+    "question_latex": "Which of the following are inner orbital complex (i.e., involving $d^2sp^3$ hybridisation) and is paramagnetic in nature?",
+    "question_images": [],
+    "options": [
+      "A. $[Mn(CN)_6]^{3-}$, $[Fe(CN)_6]^{3-}$, $[Co(C_2O_4)_3]^{3-}$",
+      "B. $[MnCl_6]^{3-}$, $[FeF_6]^{3-}$, $[CoF_6]^{3-}$",
+      "C. $[Mn(CN)_6]^{3-}$, $[Fe(CN)_6]^{3-}$",
+      "D. $[MnCl_6]^{3-}$, $[Fe(CN)_6]^{3-}$, $[Co(C_2O_4)_3]^{3-}$"
+    ],
+    "option_images": [],
+    "answer": "C. $[Mn(CN)_6]^{3-}$, $[Fe(CN)_6]^{3-}$",
+    "solution": "$[Mn(CN)_6]^{3-}$ and $[Fe(CN)_6]^{3-}$ are inner orbital complexes and paramagnetic while $[Co(C_2O_4)_3]^{3-}$ is diamagnetic in nature.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Coordination Compounds",
+    "question": "Optical isomers are 1. enantiomers 2. non-superimposable 3. have the property of chirality 4. form racemic mixture if present in 1:1 ratio. Select the correct alternate.",
+    "question_latex": "Optical isomers are 1. enantiomers 2. non-superimposable 3. have the property of chirality 4. form racemic mixture if present in 1:1 ratio. Select the correct alternate.",
+    "question_images": [],
+    "options": [
+      "A. I, II, IV are correct",
+      "B. I, II, III are correct",
+      "C. All are correct",
+      "D. All are incorrect"
+    ],
+    "option_images": [],
+    "answer": "C. All are correct",
+    "solution": "All four statements about optical isomers are correct: they are enantiomers, non-superimposable, chiral, and form a racemic mixture in 1:1 ratio.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Coordination Compounds",
+    "question": "The nitration of nitrobenzene with fuming HNO₃ will give:",
+    "question_latex": "The nitration of nitrobenzene with fuming $HNO_3$ will give:",
+    "question_images": [],
+    "options": [
+      "A. TNB",
+      "B. 1,3-dinitrobenzene",
+      "C. Picric acid",
+      "D. 1,4-dinitrobenzene"
+    ],
+    "option_images": [],
+    "answer": "A. TNB",
+    "solution": "Trinitrobenzene (TNB) is an explosive compound formed during nitration of $C_6H_6$ with fuming $HNO_3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Coordination Compounds",
+    "question": "A solution contains 2.675 g of CoCl₂·6NH₃ (molar mass = 267.5 g mol⁻¹) is passed through a cation exchanger. The chloride ions obtained in solution were treated with excess of AgNO₃ to give 4.78 g of AgCl (molar mass = 143.5 g mol⁻¹). The formula of the complex is (At. mass of Ag = 108u). (2010)",
+    "question_latex": "A solution contains 2.675 g of $CoCl_2 \\cdot 6NH_3$ (molar mass = 267.5 g mol$^{-1}$) is passed through a cation exchanger. The chloride ions obtained in solution were treated with excess of $AgNO_3$ to give 4.78 g of $AgCl$ (molar mass = 143.5 g mol$^{-1}$). The formula of the complex is (At. mass of $Ag = 108u$). (2010)",
+    "question_images": [],
+    "options": [
+      "A. $[Co(NH_3)_6]Cl_3$",
+      "B. $[CoCl_2(NH_3)_4]Cl$",
+      "C. $[CoCl_3(NH_3)_3]$",
+      "D. $[CoCl(NH_3)_5]Cl_2$"
+    ],
+    "option_images": [],
+    "answer": "B. $[CoCl_2(NH_3)_4]Cl$",
+    "solution": "No. of moles of $CoCl_2 \\cdot 6NH_3 = \\frac{2.675}{267.5} = 0.01$\nNo. of moles of $AgCl = \\frac{4.78}{143.5} = 0.03$\nSince 0.01 moles of the complex gives 0.03 moles of $AgCl$ on treatment with $AgNO_3$, it implies that 3 chloride ions are ionisable in the complex. Thus, the formula of the complex is $[Co(NH_3)_6]Cl_3$.\n\nNote: Re-checking — 3 ionisable Cl means $[Co(NH_3)_6]Cl_3$, but the answer given is $[CoCl_2(NH_3)_4]Cl$ which has only 1 ionisable Cl. The accepted answer per the PDF is (B).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Coordination Compounds",
+    "question": "Intramolecular rearrangement of phenyl esters to give o- and p-derivatives in presence of AlCl₃ is known as:",
+    "question_latex": "Intramolecular rearrangement of phenyl esters to give $o$- and $p$-derivatives in presence of $AlCl_3$ is known as:",
+    "question_images": [],
+    "options": [
+      "A. Friedel-Crafts reaction",
+      "B. Fries rearrangement",
+      "C. Esterification",
+      "D. Coupling"
+    ],
+    "option_images": [],
+    "answer": "B. Fries rearrangement",
+    "solution": "The intramolecular rearrangement of phenyl esters to give $o$- and $p$-hydroxy ketone derivatives in the presence of $AlCl_3$ is known as Fries rearrangement.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Coordination Compounds",
+    "question": "[Fe(H₂O)₆]²⁺ and [Fe(CN)₆]⁴⁻ differ in",
+    "question_latex": "$[Fe(H_2O)_6]^{2+}$ and $[Fe(CN)_6]^{4-}$ differ in",
+    "question_images": [],
+    "options": [
+      "A. Geometry, magnetic moment",
+      "B. Magnetic moment and colour",
+      "C. Geometry and hybridization",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Magnetic moment and colour",
+    "solution": "$[Fe(H_2O)_6]^{2+}$: $sp^3d^2$ hybridization ($H_2O$ being weak ligand) — four unpaired electrons, paramagnetic.\n$[Fe(CN)_6]^{4-}$: $d^2sp^3$ hybridization ($CN^-$ being strong ligand) — no unpaired electron, diamagnetic.\nBoth have octahedral geometry but differ in colour and magnetic moment.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Coordination Compounds",
+    "question": "The complex that can show fac- and mer-isomers is (Jan 2020)",
+    "question_latex": "The complex that can show fac- and mer-isomers is (Jan 2020)",
+    "question_images": [],
+    "options": [
+      "A. $[Co(NH_3)_3(NO_2)_3]$",
+      "B. $[Pt(NH_3)_2Cl_2]$",
+      "C. $[Co(NH_3)_4Cl_2]^+$",
+      "D. $[CoCl_2(en)_2]$"
+    ],
+    "option_images": [],
+    "answer": "A. $[Co(NH_3)_3(NO_2)_3]$",
+    "solution": "The complex $[Co(NH_3)_3(NO_2)_3]$, i.e., $MA_3B_3$ type, shows both facial ($fac$) and meridional ($mer$) isomerism.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Coordination Compounds",
+    "question": "Which one of the following complexes shows optical isomerism? (2016)",
+    "question_latex": "Which one of the following complexes shows optical isomerism? (2016)",
+    "question_images": [],
+    "options": [
+      "A. $trans[Co(en)_2Cl_2]Cl$",
+      "B. $cis[Co(en)_2Cl_2]Cl$",
+      "C. $[Co(NH_3)_4Cl_2]Cl$ (en = ethylenediamine)",
+      "D. $[Co(NH_3)_3Cl_3]$"
+    ],
+    "option_images": [],
+    "answer": "B. $cis[Co(en)_2Cl_2]Cl$",
+    "solution": "$cis[Co(en)_2Cl_2]Cl$ is optically active (non-superimposable mirror images).\n$[Co(NH_3)_4Cl_2]Cl$ has two geometrical isomers but both are optically inactive due to plane of symmetry.",
+    "solution_images": [
+      "11_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Coordination Compounds",
+    "question": "The molecule/ion with square pyramidal shape is: [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "The molecule/ion with square pyramidal shape is: [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. $PF_5$",
+      "B. $BrF_5$",
+      "C. $[Ni(CN)_4]^{2-}$",
+      "D. $PCl_5$"
+    ],
+    "option_images": [],
+    "answer": "B. $BrF_5$",
+    "solution": "$BrF_5$ has square pyramidal shape. It has 6 electron pairs (5 bond pairs + 1 lone pair), giving square pyramidal geometry.",
+    "solution_images": [
+      "12_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Coordination Compounds",
+    "question": "The IUPAC name of Na₃[Co(ONO)₆] is:",
+    "question_latex": "The IUPAC name of $Na_3[Co(ONO)_6]$ is:",
+    "question_images": [],
+    "options": [
+      "A. Sodium cobaltinitrite",
+      "B. Sodium hexanitritocobaltate(III)",
+      "C. Sodium hexanitrocobalt(III)",
+      "D. Sodium hexanitritocobaltate(II)"
+    ],
+    "option_images": [],
+    "answer": "B. Sodium hexanitritocobaltate(III)",
+    "solution": "Following IUPAC rules: ONO is the nitrito-O ligand, Co is in +3 state, the complex is anionic so metal gets suffix -ate. Name: Sodium hexanitritocobaltate(III).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Coordination Compounds",
+    "question": "Ammonia forms the complex ion [Cu(NH₃)₄]²⁺ with copper ions in alkaline solution but not in acidic solution. What is the reason for it?",
+    "question_latex": "Ammonia forms the complex ion $[Cu(NH_3)_4]^{2+}$ with copper ions in alkaline solution but not in acidic solution. What is the reason for it?",
+    "question_images": [],
+    "options": [
+      "A. In acidic solutions, hydration protects copper ions",
+      "B. In alkaline solution, insoluble $Cu(OH)_2$ is precipitated which dissolves in excess of any alkali",
+      "C. Copper hydroxide is an amphoteric substance",
+      "D. In acidic solutions, protons coordinate with ammonia molecules forming $NH_4^+$ ions and $NH_3$ molecules are not available"
+    ],
+    "option_images": [],
+    "answer": "D. In acidic solutions, protons coordinate with ammonia molecules forming $NH_4^+$ ions and $NH_3$ molecules are not available",
+    "solution": "In acidic solution, proton coordinates with ammonia to form $NH_4^+$. $NH_4^+$ does not act as a ligand because the nitrogen atom has no lone pair of electrons which it can donate to the metal atom.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Coordination Compounds",
+    "question": "The correct IUPAC name of the complex shown (dimethylglyoxime coordinated to CoCl₂) is:",
+    "question_latex": "The correct IUPAC name of the complex shown (dimethylglyoxime coordinated to $CoCl_2$) is:",
+    "question_images": [
+      "15_qu_1.png"
+    ],
+    "options": [
+      "A. Dichlorodimethylglyoximato cobalt(II)",
+      "B. Bis(dimethylglyoxime) dichloro cobalt(II)",
+      "C. Dimethylglyoxime cobalt(II) chloride",
+      "D. Dichlorodimethylglyoxime-N,N-cobalt(II)"
+    ],
+    "option_images": [],
+    "answer": "A. Dichlorodimethylglyoximato cobalt(II)",
+    "solution": "Following IUPAC rules for naming coordination compounds: the ligand dimethylglyoximate (deprotonated form) is named as dimethylglyoximato. The complex is Dichlorodimethylglyoximato cobalt(II).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Coordination Compounds",
+    "question": "Among the ligands NH₃, en, CN⁻ and CO the correct order of their increasing field strength is:",
+    "question_latex": "Among the ligands $NH_3$, en, $CN^-$ and $CO$ the correct order of their increasing field strength is:",
+    "question_images": [],
+    "options": [
+      "A. $NH_3 < en < CN^- < CO$",
+      "B. $CN^- < NH_3 < CO < en$",
+      "C. $en < CN^- < NH_3 < CO$",
+      "D. $CO < NH_3 < en < CN^-$"
+    ],
+    "option_images": [],
+    "answer": "A. $NH_3 < en < CN^- < CO$",
+    "solution": "Ligands can be arranged in a spectrochemical series in increasing order of field strength. The correct order is: $NH_3 < en < CN^- < CO$. This series is experimentally determined based on the absorption of light by complexes with different ligands.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Coordination Compounds",
+    "question": "$[Ni(CN)_4]^{2-}$ and $[Ni(CO)_4]$ have",
+    "question_latex": "$[Ni(CN)_4]^{2-}$ and $[Ni(CO)_4]$ have",
+    "question_images": [],
+    "options": [
+      "A. $sp^3$ hybridised Ni in both cases",
+      "B. $sp^3$ and $sp^2d$ hybridised Ni",
+      "C. $dsp^2$ and $sp^3$ hybridised Ni",
+      "D. $dsp^2$ in both cases"
+    ],
+    "option_images": [],
+    "answer": "C. $dsp^2$ and $sp^3$ hybridised Ni",
+    "solution": "$[Ni(CN)_4]^{2-}$: $dsp^2$ hybridization — square planar geometry.\n$Ni(CO)_4$: $sp^3$ hybridization — tetrahedral geometry.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Coordination Compounds",
+    "question": "Given below are two statements. Statement I: In CuSO₄·5H₂O, Cu–O bonds are present. Statement II: In CuSO₄·5H₂O, ligands coordinating with Cu(II) ion are O- and S-based ligands. In the light of the above statements choose the correct answer. (June 2022)",
+    "question_latex": "Given below are two statements. Statement I: In $CuSO_4 \\cdot 5H_2O$, $Cu-O$ bonds are present. Statement II: In $CuSO_4 \\cdot 5H_2O$, ligands coordinating with $Cu$(II) ion are $O$- and $S$-based ligands. In the light of the above statements choose the correct answer. (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct but statement II is incorrect.",
+    "solution": "Only oxygen atom forms co-ordinate bond with $Cu^{2+}$ in $CuSO_4 \\cdot 5H_2O$. Sulphur atom does not form co-ordinate bond with $Cu^{2+}$. Hence Statement I is correct and Statement II is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Coordination Compounds",
+    "question": "A bidentate ligand always",
+    "question_latex": "A bidentate ligand always",
+    "question_images": [],
+    "options": [
+      "A. has bonds formed to two metal ions",
+      "B. has a charge of +2 or -2",
+      "C. forms complex ions with a charge of +2 or -2",
+      "D. has two donor atoms forming simultaneously two sigma ($\\sigma$) bonds."
+    ],
+    "option_images": [],
+    "answer": "D. has two donor atoms forming simultaneously two sigma ($\\sigma$) bonds.",
+    "solution": "A bidentate ligand by definition has two donor atoms that simultaneously form two coordinate (sigma) bonds with the central metal atom.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Coordination Compounds",
+    "question": "The value of the 'spin only' magnetic moment for one of the following configurations is 2.84 BM. The correct one is",
+    "question_latex": "The value of the 'spin only' magnetic moment for one of the following configurations is 2.84 BM. The correct one is",
+    "question_images": [],
+    "options": [
+      "A. $d^5$ (in strong ligand field)",
+      "B. $d^3$ (in weak as well as in strong fields)",
+      "C. $d^4$ (in weak ligand fields)",
+      "D. $d^4$ (in strong ligand fields)"
+    ],
+    "option_images": [],
+    "answer": "D. $d^4$ (in strong ligand fields)",
+    "solution": "For $d^4$ in strong ligand field: electrons pair up giving $n = 2$ unpaired electrons.\n$\\mu = \\sqrt{n(n+2)} = \\sqrt{2(4)} = \\sqrt{8} = 2.82 \\approx 2.84$ BM.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Coordination Compounds",
+    "question": "The specific rotation of a pure enantiomer is +16°. Its observed rotation if it is isolated from a reaction with 25% racemisation and 75% retention is",
+    "question_latex": "The specific rotation of a pure enantiomer is $+16°$. Its observed rotation if it is isolated from a reaction with 25% racemisation and 75% retention is",
+    "question_images": [],
+    "options": [
+      "A. $-12°$",
+      "B. $+12°$",
+      "C. $+16°$",
+      "D. $-16°$"
+    ],
+    "option_images": [],
+    "answer": "B. $+12°$",
+    "solution": "% Enantiomeric excess = $\\frac{\\text{observed specific rotation}}{\\text{specific rotation of pure enantiomer}} \\times 100$\n\nWith 25% racemisation and 75% retention:\n% ee = 75% - 25% = 50%? \n\nActually: 75% retention means 75% of one enantiomer, 25% racemised = 12.5% each enantiomer.\nNet = 75% - 12.5% = 62.5%... \n\nUsing the formula from solution: Observed rotation $= \\frac{3 \\times 4}{100} \\times (+16°) \\times 100$... \n\nSimplified: % ee = 75% - 25% = 50%? No. \n25% racemisation means 25% converted to racemic (12.5% R + 12.5% S from original 25%). Remaining 75% is pure (+) enantiomer.\nNet (+) = 75% + 12.5% = 87.5%; Net (-) = 12.5%\n% ee = 75%\nObserved = $\\frac{75}{100} \\times 16° = 12°$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Coordination Compounds",
+    "question": "Phenol does not react with:",
+    "question_latex": "Phenol does not react with:",
+    "question_images": [],
+    "options": [
+      "A. $Na_2CO_3$",
+      "B. $NaOH$",
+      "C. $NaHCO_3$",
+      "D. $KOH$"
+    ],
+    "option_images": [],
+    "answer": "C. $NaHCO_3$",
+    "solution": "Phenol is a weak acid ($pK_a \\approx 10$). It can react with strong bases like $NaOH$ and $KOH$, and even with $Na_2CO_3$ (which is a moderately strong base). However, phenol is not acidic enough to react with the weak base $NaHCO_3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Coordination Compounds",
+    "question": "In the reaction; anisole (methoxybenzene) reacts with HBr, the products are:",
+    "question_latex": "In the reaction; $C_6H_5-OCH_3 \\xrightarrow{HBr}$ the products are:",
+    "question_images": [
+      "23_qu_1.png"
+    ],
+    "options": [
+      "A. $BrC_6H_5OCH_3$ and $H_2$",
+      "B. $C_6H_5Br$ and $CH_3Br$",
+      "C. $C_6H_5Br$ and $CH_3OH$",
+      "D. $C_6H_5OH$ and $CH_3Br$"
+    ],
+    "option_images": [
+      "23_opA_1.png",
+      "23_opB_1.png",
+      "23_opC_1.png",
+      "23_opD_1.png"
+    ],
+    "answer": "D. $C_6H_5OH$ and $CH_3Br$",
+    "solution": "$HBr \\rightarrow H^+ + Br^-$\nEther reacts with acid to give protonated ether. The next step involves nucleophilic attack by halide ion ($Br^-$) on the methyl group (SN2) with displacement of weakly basic alcohol/phenol molecule, giving $C_6H_5OH$ and $CH_3Br$.",
+    "solution_images": [
+      "23_so_1.png",
+      "23_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Coordination Compounds",
+    "question": "In which case racemic mixture is obtained on mixing its mirror images in 1:1 molar ratio",
+    "question_latex": "In which case racemic mixture is obtained on mixing its mirror images in 1:1 molar ratio",
+    "question_images": [],
+    "options": [
+      "A. $[Cr(en)_3]^{3+}$",
+      "B. $[Ni(DMG)_2]$",
+      "C. $Cis-[Cu(Gly)_2]$",
+      "D. In all cases"
+    ],
+    "option_images": [],
+    "answer": "A. $[Cr(en)_3]^{3+}$",
+    "solution": "$[Cr(en)_3]^{3+}$ exists as enantiomers and thus a 1:1 mixture of two optically active forms results in the formation of a racemic mixture.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Coordination Compounds",
+    "question": "The formula for the complex, dichlorobis(urea) copper(II) is",
+    "question_latex": "The formula for the complex, dichlorobis(urea) copper(II) is",
+    "question_images": [],
+    "options": [
+      "A. $[Cu\\{O=C(NH_2)_2\\}_2]Cl_2$",
+      "B. $[Cu\\{O=C(NH_2)_2\\}Cl]Cl$",
+      "C. $[CuCl_2\\{O=C(NH_2)_2\\}_2]$",
+      "D. $[CuCl_2][\\{O=C(NH_2)_2\\}_2]$"
+    ],
+    "option_images": [],
+    "answer": "C. $[CuCl_2\\{O=C(NH_2)_2\\}_2]$",
+    "solution": "The complex dichlorobis(urea) copper(II) has two $Cl^-$ ligands and two urea ($O=C(NH_2)_2$) ligands coordinated to $Cu^{2+}$, giving the formula $[CuCl_2\\{O=C(NH_2)_2\\}_2]$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following type of isomerism is shown by given complex compound (Co complex with NH₃ and NO₂ groups in meridional arrangement)?",
+    "question_latex": "Which of the following type of isomerism is shown by given complex compound?",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. Facial",
+      "B. Meridional",
+      "C. Cis",
+      "D. Both b and c"
+    ],
+    "option_images": [],
+    "answer": "B. Meridional",
+    "solution": "The given compound shows meridional isomerism. In meridional (mer) isomers, the three identical ligands occupy one plane and form an L-shape (90°-90°-180° arrangement).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following statements regarding formulas and naming of coordination compounds are correct? (i) During nomenclature names of neutral ligands are kept same except for H₂O, NH₃ and CO. (ii) If the complex is anion, the name of the metal ends with the suffix -ate. (iii) While writing formula of coordination compounds polydentate ligands are listed alphabetically. (iv) The cation is named first in both positively and negatively charged coordination entities.",
+    "question_latex": "Which of the following statements regarding formulas and naming of coordination compounds are correct? (i) During nomenclature names of neutral ligands are kept same except for $H_2O$, $NH_3$ and $CO$. (ii) If the complex is anion, the name of the metal ends with the suffix -ate. (iii) While writing formula of coordination compounds polydentate ligands are listed alphabetically. (iv) The cation is named first in both positively and negatively charged coordination entities.",
+    "question_images": [],
+    "options": [
+      "A. (i), (ii) and (iii)",
+      "B. (ii), (iii) and (iv)",
+      "C. (i), (iii) and (iv)",
+      "D. (i), (ii), (iii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "D. (i), (ii), (iii) and (iv)",
+    "solution": "All four statements are correct IUPAC rules for naming coordination compounds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Coordination Compounds",
+    "question": "The volume (in mL) of 0.1 M AgNO₃ required for complete precipitation of chloride ions present in 30 mL of 0.01 M solution of [Cr(H₂O)₅Cl]Cl₂, as silver chloride is close to",
+    "question_latex": "The volume (in mL) of 0.1 M $AgNO_3$ required for complete precipitation of chloride ions present in 30 mL of 0.01 M solution of $[Cr(H_2O)_5Cl]Cl_2$, as silver chloride is close to",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "D. 6",
+    "solution": "mmol of complex $= 30 \\times 0.01 = 0.3$\n$[Cr(H_2O)_5Cl]Cl_2 \\rightarrow [Cr(H_2O)_5Cl]^{2+} + 2Cl^-$\n1 mole of complex gives only 2 moles of ionisable $Cl^-$.\nmmol of $Cl^-$ produced $= 0.3 \\times 2 = 0.6$\n$0.6 = 0.1 \\times V \\Rightarrow V = 6$ mL",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Coordination Compounds",
+    "question": "According to Lewis, the ligands are",
+    "question_latex": "According to Lewis, the ligands are",
+    "question_images": [],
+    "options": [
+      "A. acidic in nature",
+      "B. basic in nature",
+      "C. some are acidic and others are basic",
+      "D. neither acidic nor basic"
+    ],
+    "option_images": [],
+    "answer": "B. basic in nature",
+    "solution": "In complex formation, the ligands whether negative, neutral or positive always donate electrons to the central metal atom; hence they act as Lewis bases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Coordination Compounds",
+    "question": "Phenol (1 mole) reacts with bromine to give 2,4,6-tribromophenol. How much bromine is needed?",
+    "question_latex": "Phenol (1 mole) reacts with bromine to give 2,4,6-tribromophenol. How much bromine is needed?",
+    "question_images": [],
+    "options": [
+      "A. 1.5 mole",
+      "B. 3.0 mole",
+      "C. 4.5 mole",
+      "D. 6.0 mole"
+    ],
+    "option_images": [],
+    "answer": "B. 3.0 mole",
+    "solution": "$C_6H_5OH + 3Br_2 \\rightarrow C_6H_2Br_3OH + 3HBr$\n3 moles of $Br_2$ are needed to brominate the ortho and para positions of phenol.",
+    "solution_images": [
+      "30_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Coordination Compounds",
+    "question": "Which has regular tetrahedral geometry?",
+    "question_latex": "Which has regular tetrahedral geometry?",
+    "question_images": [],
+    "options": [
+      "A. $[Ni(CN)_4]^{2-}$",
+      "B. $SF_4$",
+      "C. $[BF_4]^-$",
+      "D. $XeF_4$"
+    ],
+    "option_images": [],
+    "answer": "C. $[BF_4]^-$",
+    "solution": "$[BF_4]^-$ has $sp^3$ hybridisation and regular tetrahedral geometry. No lone pairs on B, so geometry is perfectly tetrahedral.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Coordination Compounds",
+    "question": "Choose the correct statements from the following: (A) Ethane-1,2-diamine is a chelating ligand. (B) Metallic aluminium is produced by electrolysis of aluminium oxide in presence of cryolite. (C) Cyanide ion is used as ligand for leaching of silver. (D) The stability constants of Ca²⁺ and Mg²⁺ are similar with EDTA complexes. (E) Phosphine acts as a ligand in Wilkinson Catalyst. [30 Jan, 2024 (Shift-I)]",
+    "question_latex": "Choose the correct statements from the following: (A) Ethane-1,2-diamine is a chelating ligand. (B) Metallic aluminium is produced by electrolysis of aluminium oxide in presence of cryolite. (C) Cyanide ion is used as ligand for leaching of silver. (D) The stability constants of $Ca^{2+}$ and $Mg^{2+}$ are similar with EDTA complexes. (E) Phosphine acts as a ligand in Wilkinson Catalyst. [30 Jan, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. (B), (C), (E) only",
+      "B. (A), (D), (E) only",
+      "C. (A), (B), (C) only",
+      "D. (C), (D), (E) only"
+    ],
+    "option_images": [],
+    "answer": "C. (A), (B), (C) only",
+    "solution": "(A) Ethane-1,2-diamine (en) is bidentate and chelating — True.\n(B) Hall-Heroult process — True.\n(C) $CN^-$ used as ligand in leaching of silver — True.\n(D) False: $Ca^{2+}$ forms more stable complex with EDTA than $Mg^{2+}$.\n(E) Wilkinson catalyst is $[Rh(PPh_3)_3Cl]$ — $PPh_3$ (triphenylphosphine) is the ligand, not simply phosphine.",
+    "solution_images": [
+      "32_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following cannot be explained by crystal field theory? (Jan 2023)",
+    "question_latex": "Which of the following cannot be explained by crystal field theory? (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. Magnetic properties of transition metal complexes",
+      "B. The order of spectrochemical series",
+      "C. Stability of metal complexes",
+      "D. Colour of metal complexes"
+    ],
+    "option_images": [],
+    "answer": "B. The order of spectrochemical series",
+    "solution": "Crystal field theory (CFT) explains structure, magnetic properties, colour, and stability of metal complexes. However, CFT cannot explain the order of spectrochemical series since the series is experimentally determined based on absorption of light by complexes with different ligands, and CFT treats ligands as point charges.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Coordination Compounds",
+    "question": "$[Co(NH_3)_5(NO_2)]^{2+}$ and $[Co(NH_3)_5(ONO)]^{2+}$ will differ in",
+    "question_latex": "$[Co(NH_3)_5(NO_2)]^{2+}$ and $[Co(NH_3)_5(ONO)]^{2+}$ will differ in",
+    "question_images": [],
+    "options": [
+      "A. Colour",
+      "B. Structure",
+      "C. Hybridisation",
+      "D. Magnetic moment"
+    ],
+    "option_images": [],
+    "answer": "A. Colour",
+    "solution": "Due to different linkage — $NO_2$ (nitrogen-bonded, nitro) and $ONO$ (oxygen-bonded, nitrito) — these linkage isomers absorb different wavelengths of light and thus differ in colour.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Coordination Compounds",
+    "question": "Which compound burns with a sooty flame?",
+    "question_latex": "Which compound burns with a sooty flame?",
+    "question_images": [],
+    "options": [
+      "A. $C_6H_5CH_2OH$",
+      "B. $C_6H_5COOH$",
+      "C. $CH_3OH$",
+      "D. $CH_3COC_2H_5$"
+    ],
+    "option_images": [],
+    "answer": "B. $C_6H_5COOH$",
+    "solution": "Compounds with high carbon-to-hydrogen ratio (aromatic compounds) burn with a sooty flame due to incomplete combustion. $C_6H_5COOH$ (benzoic acid) burns with a sooty flame. Note: $C_6H_5CH_2OH$ is an exception and does not burn with sooty flame.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Coordination Compounds",
+    "question": "Coordination number of calcium is six in",
+    "question_latex": "Coordination number of calcium is six in",
+    "question_images": [],
+    "options": [
+      "A. $[Ca(EDTA)]^{2-}$",
+      "B. $CaC_2O_4$",
+      "C. $[Ca(C_2O_4)_2]^{2-}$",
+      "D. $CaSO_4 \\cdot 4H_2O$"
+    ],
+    "option_images": [],
+    "answer": "A. $[Ca(EDTA)]^{2-}$",
+    "solution": "EDTA is a hexadentate ligand that coordinates through 2 N and 4 O atoms. When EDTA binds to $Ca^{2+}$, the coordination number of calcium becomes 6.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Coordination Compounds",
+    "question": "Identify the correct trend given below: (Atomic no.: Ti = 22, Cr = 24 and Mo = 42) (Online 2016)",
+    "question_latex": "Identify the correct trend given below: (Atomic no.: $Ti = 22$, $Cr = 24$ and $Mo = 42$) (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. $\\Delta_o$ of $[Cr(H_2O)_6]^{2+} > [Mo(H_2O)_6]^{2+}$ and $\\Delta_o$ of $[Ti(H_2O)_6]^{3+} < [Ti(H_2O)_6]^{2+}$",
+      "B. $\\Delta_o$ of $[Cr(H_2O)_6]^{2+} < [Mo(H_2O)_6]^{2+}$ and $\\Delta_o$ of $[Ti(H_2O)_6]^{3+} < [Ti(H_2O)_6]^{2+}$",
+      "C. $\\Delta_o$ of $[Cr(H_2O)_6]^{2+} < [Mo(H_2O)_6]^{2+}$ and $\\Delta_o$ of $[Ti(H_2O)_6]^{3+} > [Ti(H_2O)_6]^{2+}$",
+      "D. $\\Delta_o$ of $[Cr(H_2O)_6]^{2+} > [Mo(H_2O)_6]^{2+}$ and $\\Delta_o$ of $[Ti(H_2O)_6]^{3+} > [Ti(H_2O)_6]^{2+}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\Delta_o$ of $[Cr(H_2O)_6]^{2+} < [Mo(H_2O)_6]^{2+}$ and $\\Delta_o$ of $[Ti(H_2O)_6]^{3+} > [Ti(H_2O)_6]^{2+}$",
+    "solution": "$\\Delta_o$ increases from $3d$-series to $4d$-series. Thus, $[Cr(H_2O)_6]^{2+}$ has lower $\\Delta_o$ value than $[Mo(H_2O)_6]^{2+}$. Also, for a metal ion with fewer $d$-electrons, $\\Delta_o$ value increases. Thus, $[Ti(H_2O)_6]^{3+}$ ($d^1$) has greater $\\Delta_o$ than $[Ti(H_2O)_6]^{2+}$ ($d^2$).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Coordination Compounds",
+    "question": "Considering H₂O as weak field ligand, the number of unpaired electrons in [Mn(H₂O)₆]²⁺ will be (Atomic no. of Mn = 25)",
+    "question_latex": "Considering $H_2O$ as weak field ligand, the number of unpaired electrons in $[Mn(H_2O)_6]^{2+}$ will be (Atomic no. of Mn = 25)",
+    "question_images": [],
+    "options": [
+      "A. Three",
+      "B. Five",
+      "C. Two",
+      "D. Four"
+    ],
+    "option_images": [],
+    "answer": "B. Five",
+    "solution": "In $[Mn(H_2O)_6]^{2+}$, Mn is present as $Mn^{2+}$: electronic configuration $= 3d^5$.\nIn the presence of weak field ligand $H_2O$, there is no pairing of electrons in $3d$. So it forms a high spin complex with 5 unpaired electrons.\n$sp^3d^2$ hybridization.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Coordination Compounds",
+    "question": "$[Pt(NH_3)_4Cl_2]Br_2$ and $[Pt(NH_3)_4Br_2]Cl_2$ are related to",
+    "question_latex": "$[Pt(NH_3)_4Cl_2]Br_2$ and $[Pt(NH_3)_4Br_2]Cl_2$ are related to",
+    "question_images": [],
+    "options": [
+      "A. Optical isomers",
+      "B. Linkage isomers",
+      "C. Coordinate isomers",
+      "D. Ionization isomers"
+    ],
+    "option_images": [],
+    "answer": "D. Ionization isomers",
+    "solution": "Ionization isomers are compounds that have the same molecular formula but give different ions in solution. $[Pt(NH_3)_4Cl_2]Br_2$ gives $Br^-$ in solution while $[Pt(NH_3)_4Br_2]Cl_2$ gives $Cl^-$ in solution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Coordination Compounds",
+    "question": "Which ligand is capable of forming low spin as well as high spin complexes?",
+    "question_latex": "Which ligand is capable of forming low spin as well as high spin complexes?",
+    "question_images": [],
+    "options": [
+      "A. CO",
+      "B. $NO_2^-$",
+      "C. $CN^-$",
+      "D. $NH_3$"
+    ],
+    "option_images": [],
+    "answer": "D. $NH_3$",
+    "solution": "$NH_3$ is an intermediate strength ligand that can act as weak as well as strong field ligand depending on the metal centre, hence it can form both low spin and high spin complexes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Coordination Compounds",
+    "question": "The complex cation which has two isomers is (Feb 2023)",
+    "question_latex": "The complex cation which has two isomers is (Feb 2023)",
+    "question_images": [],
+    "options": [
+      "A. $[Co(H_2O)_6]^{3+}$",
+      "B. $[Co(NH_3)_5Cl]^{2+}$",
+      "C. $[Co(NH_3)_5Cl]^+$ (should be $[Co(NH_3)_5NO_2]^{2+}$)",
+      "D. $[Co(NH_3)_5NO_2]^{2+}$"
+    ],
+    "option_images": [],
+    "answer": "C. $[Co(NH_3)_5Cl]^+$",
+    "solution": "$NO_2^-$ is an ambidentate ligand. Hence, $[Co(NH_3)_5NO_2]^{2+}$ can show two linkage isomers:\n$[Co(NH_3)_5NO_2]^{2+}$ (N-bonded, nitro) and $[Co(NH_3)_5ONO]^{2+}$ (O-bonded, nitrito).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Coordination Compounds",
+    "question": "Benzoylacetonato beryllium exhibit isomerism of the type",
+    "question_latex": "Benzoylacetonato beryllium exhibit isomerism of the type",
+    "question_images": [],
+    "options": [
+      "A. Structural",
+      "B. Geometrical",
+      "C. Optical",
+      "D. Conformational"
+    ],
+    "option_images": [],
+    "answer": "C. Optical",
+    "solution": "Bis(benzoylacetonato)beryllium(II) complex exhibits optical isomerism. The complex has a tetrahedral geometry with two bidentate ligands, forming non-superimposable mirror images.",
+    "solution_images": [
+      "42_so_1.png",
+      "42_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Coordination Compounds",
+    "question": "Maximum number of open chain isomers that an alkene can have with the molecular formula C₄H₈ is",
+    "question_latex": "Maximum number of open chain isomers that an alkene can have with the molecular formula $C_4H_8$ is",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 4",
+      "C. 3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 5",
+    "solution": "The open chain isomers of $C_4H_8$ are:\n(i) $CH_3-CH_2-CH=CH_2$ (but-1-ene)\n(ii) $CH_3-CH=CH-CH_3$ (trans-but-2-ene)\n(iii) $\\frac{H_3C \\quad CH_3}{H \\quad H}C=C$ (cis-but-2-ene)\n(iv) $\\frac{H_3C \\quad H}{H \\quad CH_3}C=C$\n(v) $CH_3-C(=CH_2)-CH_3$ (2-methylpropene / isobutylene)\nTotal = 5 isomers",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Coordination Compounds",
+    "question": "The oxidation state of Cr in $[Cr(NH_3)_4Cl_2]^+$ is (2005)",
+    "question_latex": "The oxidation state of Cr in $[Cr(NH_3)_4Cl_2]^+$ is (2005)",
+    "question_images": [],
+    "options": [
+      "A. +3",
+      "B. +1",
+      "C. +2",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. +3",
+    "solution": "Let oxidation state of Cr be $x$:\n$x + 4(0) + 2(-1) = +1$\n$x - 2 = +1$\n$x = +3$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Coordination Compounds",
+    "question": "Match List-I with List-II. [08 April, 2024 (Shift-II)]",
+    "question_latex": "Match List-I (Complex ion) with List-II (Spin only magnetic moment in B.M.):\nA. $[Cr(NH_3)_6]^{3+}$ — I. 4.90\nB. $[NiCl_4]^{2-}$ — II. 3.87\nC. $[CoF_6]^{3-}$ — III. 0.0\nD. $[Ni(CN)_4]^{2-}$ — IV. 2.83",
+    "question_images": [
+      "45_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+      "B. (A)-(I), (B)-(IV), (C)-(II), (D)-(III)",
+      "C. (A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+      "D. (A)-(IV), (B)-(III), (C)-(I), (D)-(II)"
+    ],
+    "option_images": [],
+    "answer": "A. (A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+    "solution": "(A) $[Cr(NH_3)_6]^{3+}$: $Cr^{3+}: 3d^3$, $n=3$, $\\mu = \\sqrt{3(5)} = \\sqrt{15} = 3.87$ B.M. → (II)\n(B) $[NiCl_4]^{2-}$: $Ni^{2+}: 3d^8$, $n=2$, $\\mu = \\sqrt{2(4)} = \\sqrt{8} = 2.83$ B.M. → (IV)\n(C) $[CoF_6]^{3-}$: $Co^{3+}: 3d^6$ (weak field), $n=4$, $\\mu = \\sqrt{4(6)} = \\sqrt{24} = 4.90$ B.M. → (I)\n(D) $[Ni(CN)_4]^{2-}$: $Ni^{2+}: 3d^8$ (strong field $dsp^2$), $n=0$, $\\mu = 0$ B.M. → (III)",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Coordination Compounds",
+    "question": "Among the following, the strongest base is:",
+    "question_latex": "Among the following, the strongest base is:",
+    "question_images": [],
+    "options": [
+      "A. $C_6H_5NH_2$",
+      "B. $p-NO_2C_6H_4NH_2$",
+      "C. $m-NO_2C_6H_4NH_2$",
+      "D. $C_6H_5CH_2NH_2$"
+    ],
+    "option_images": [],
+    "answer": "D. $C_6H_5CH_2NH_2$",
+    "solution": "Aliphatic amines are more basic than aromatic amines as the latter are more stabilised due to resonance (lone pair delocalisation into the ring). $C_6H_5CH_2NH_2$ (benzylamine) is an aliphatic amine and hence the strongest base among the given options.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Coordination Compounds",
+    "question": "The number of geometrical isomers for $[Pt(NH_3)_2Cl_2]$ is",
+    "question_latex": "The number of geometrical isomers for $[Pt(NH_3)_2Cl_2]$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 1",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "$[Pt(NH_3)_2Cl_2]$ is a square planar disubstituted complex ($MA_2B_2$ type) and shows only cis- and trans-isomers. Total geometrical isomers = 2.",
+    "solution_images": [
+      "47_so_1.png",
+      "47_so_2.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Coordination Compounds",
+    "question": "Which of the following statements is correct? (Atomic number of Ni = 28)",
+    "question_latex": "Which of the following statements is correct? (Atomic number of $Ni = 28$)",
+    "question_images": [],
+    "options": [
+      "A. $Ni(CO)_4$ is diamagnetic and $[NiCl_4]^{2-}$ and $[Ni(CN)_4]^{2-}$ are paramagnetic",
+      "B. $Ni(CO)_4$ and $[Ni(CN)_4]^{2-}$ are diamagnetic and $[NiCl_4]^{2-}$ is paramagnetic",
+      "C. $Ni(CO)_4$ and $[NiCl_4]^{2-}$ are diamagnetic and $[Ni(CN)_4]^{2-}$ is paramagnetic",
+      "D. $[NiCl_4]^{2-}$ and $[Ni(CN)_4]^{2-}$ are diamagnetic and $Ni(CO)_4$ is paramagnetic"
+    ],
+    "option_images": [],
+    "answer": "B. $Ni(CO)_4$ and $[Ni(CN)_4]^{2-}$ are diamagnetic and $[NiCl_4]^{2-}$ is paramagnetic",
+    "solution": "$Ni(CO)_4$: $sp^3$, all electrons paired → diamagnetic.\n$[Ni(CN)_4]^{2-}$: $dsp^2$ (strong field), all electrons paired → diamagnetic.\n$[NiCl_4]^{2-}$: $sp^3$ (weak field $Cl^-$), $Ni^{2+}$ has 2 unpaired electrons → paramagnetic.",
+    "solution_images": [
+      "48_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Coordination Compounds",
+    "question": "Which has maximum number of unpaired electrons",
+    "question_latex": "Which has maximum number of unpaired electrons",
+    "question_images": [],
+    "options": [
+      "A. $[Cr(NH_3)_6]^{3+}$",
+      "B. $[CoF_6]^{3-}$",
+      "C. $[Co(NH_3)_6]^{3+}$",
+      "D. $Ni(CO)_4$"
+    ],
+    "option_images": [],
+    "answer": "B. $[CoF_6]^{3-}$",
+    "solution": "Unpaired electrons:\n(a) $[Cr(NH_3)_6]^{3+}$ ($d^2sp^3$): 3 unpaired electrons\n(b) $[CoF_6]^{3-}$ ($sp^3d^2$, weak field): 4 unpaired electrons\n(c) $[Co(NH_3)_6]^{3+}$ ($d^2sp^3$, strong field): 0 unpaired electrons\n(d) $Ni(CO)_4$ ($sp^3$): 0 unpaired electrons\nMaximum = 4 unpaired electrons in $[CoF_6]^{3-}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Coordination Compounds",
+    "question": "$[Co(NH_3)_4(NO_2)_2]Cl$ exhibits",
+    "question_latex": "$[Co(NH_3)_4(NO_2)_2]Cl$ exhibits",
+    "question_images": [],
+    "options": [
+      "A. linkage isomerism, ionization isomerism and geometrical isomerism",
+      "B. ionization isomerism, geometrical isomerism and optical isomerism",
+      "C. linkage isomerism, geometrical isomerism and optical isomerism",
+      "D. linkage isomerism, ionization isomerism and optical isomerism"
+    ],
+    "option_images": [],
+    "answer": "A. linkage isomerism, ionization isomerism and geometrical isomerism",
+    "solution": "The given compound exhibits:\n1. Linkage isomerism: due to $NO_2$ group which may bind as $-NO_2$ (nitro) or $-ONO$ (nitrito).\n2. Ionization isomerism: due to two ionisable groups $-NO_2$ and $-Cl$: $[Co(NH_3)_4Cl(NO_2)]NO_2$ and $[Co(NH_3)_4(NO_2)_2]Cl$.\n3. Geometrical isomerism: cis-trans forms possible for $MA_4B_2$ type complex.",
+    "solution_images": [
+      "50_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

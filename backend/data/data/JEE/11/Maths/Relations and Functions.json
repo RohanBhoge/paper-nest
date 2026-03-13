@@ -1,0 +1,472 @@
+[
+  {
+    "id": 1,
+    "chapter": "Relations and Functions",
+    "question": "4. If is defined by Then (A) (B) (C) (D) Ans:-(C) Solution:-(c) We have,",
+    "question_latex": "4. If is defined by Then (A) (B) (C) (D) Ans:-(C) Solution:-(c) We have,",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Relations and Functions",
+    "question": "5. The domain of the function is (A) (B) (C) (D) Ans:-(B) ---PAGE 2--- Solution:-(b) We observe that is defined for Hence, domain of 6 . If is an even function and exists, then is (A) >0 (B) = 0 (C) (D) <0 Ans:-(B) Solution:-(b) Since, is an even function, therefore is an odd function Y M 7 . The range of the function is E (A) (B) (C) (D) None of these D Ans:-(B) A Solution:-(b) C For to be defined, we must have A S Let Then, R E P P O T For to be real, we must have and and and For we have and Domain Hence, range 8 . Let be a function defined by If is invertible, then (A) (B) (C) (D) Ans:-(A) Solution:-(a) We have, ---PAGE 3--- Clearly, will be a bijection, if is a bijection Now, is a bijection For we have Hence, and",
+    "question_latex": "5. The domain of the function is (A) (B) (C) (D) Ans:-(B) ---PAGE 2--- Solution:-(b) We observe that is defined for Hence, domain of 6 . If is an even function and exists, then is (A) >0 (B) = 0 (C) (D) <0 Ans:-(B) Solution:-(b) Since, is an even function, therefore is an odd function Y M 7 . The range of the function is E (A) (B) (C) (D) None of these D Ans:-(B) A Solution:-(b) C For to be defined, we must have A S Let Then, R E P P O T For to be real, we must have and and and For we have and Domain Hence, range 8 . Let be a function defined by If is invertible, then (A) (B) (C) (D) Ans:-(A) Solution:-(a) We have, ---PAGE 3--- Clearly, will be a bijection, if is a bijection Now, is a bijection For we have Hence, and",
+    "question_images": [
+      "q2_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Relations and Functions",
+    "question": "9. The function is Y (A) Even (B) Odd (C) Neither even nor odd (D) Periodic with period M Ans:-(B) Solution:- E 1 0 . The period of is (2002) D (A) (B) (C) (D) A Ans:-(B) Solution:-(b) : Let . Period of C is . A 11 . The value of and for which the identify is satisfied, where , are S (A) (B) (C) R (D) Ans:-(B) E Solution:-(b) Since, P P O 1 2 . If then is T (A) (B) (C) (D) Ans:-(B) Solution:-(b) We have, [Applying componendo-dividendo] ---PAGE 4---",
+    "question_latex": "9. The function is Y (A) Even (B) Odd (C) Neither even nor odd (D) Periodic with period M Ans:-(B) Solution:- E 1 0 . The period of is (2002) D (A) (B) (C) (D) A Ans:-(B) Solution:-(b) : Let . Period of C is . A 11 . The value of and for which the identify is satisfied, where , are S (A) (B) (C) R (D) Ans:-(B) E Solution:-(b) Since, P P O 1 2 . If then is T (A) (B) (C) (D) Ans:-(B) Solution:-(b) We have, [Applying componendo-dividendo] ---PAGE 4---",
+    "question_images": [
+      "q3_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Relations and Functions",
+    "question": "13. If , then the set to (A) (-1, 3) (B) [-1, 3) (C) (-1, 3] (D) [-1, 3] Ans:-(A) Solution:-(a) Given, When When When The set .",
+    "question_latex": "13. If , then the set to (A) (-1, 3) (B) [-1, 3) (C) (-1, 3] (D) [-1, 3] Ans:-(A) Solution:-(a) Given, When When When The set .",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Relations and Functions",
+    "question": "14. If and , then is equal to Y (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 Ans:-(A) M Solution:-(a) Here, E Given that, D A C A S R 1 5 . Which of the following functions is periodic? E (A) (B) (C) (D) P Ans:-(D) Solution:- P O 1 6 . The number of reflexive relations of a set with four elements is equal to T (A) (B) (C) (D) Ans:-(B) Solution:-(b) Number of reflexive relations of a set of 4 elements",
+    "question_latex": "14. If and , then is equal to Y (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 Ans:-(A) M Solution:-(a) Here, E Given that, D A C A S R 1 5 . Which of the following functions is periodic? E (A) (B) (C) (D) P Ans:-(D) Solution:- P O 1 6 . The number of reflexive relations of a set with four elements is equal to T (A) (B) (C) (D) Ans:-(B) Solution:-(b) Number of reflexive relations of a set of 4 elements",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Relations and Functions",
+    "question": "17. Let . Define a relation from to by: . Then, the sum of all the elements in the range of -s equal to[Jan. 29, 2025 (II)] (A) (B) (C) (D) Ans:-(D) Solution:-(d) ---PAGE 5--- Required sum 1 8 . The domain of function is (A) (B) (C) (D) Y Ans:-(C) M Solution:-(c) We have, E Clearly, is defined for satisfying the following conditions D Now, A and, C and and A Hence, the domain of is S 1 9 . Let and be bijectRions, then (A) (B) fog (C) (D) E Ans:-(C) P Solution:- P O 2 0 . The maximum possible domain and the corresponding range for the real function to exist is T (A) (B) (the set of integers), (C) (D) Ans:-(D) Solution:-",
+    "question_latex": "17. Let . Define a relation from to by: . Then, the sum of all the elements in the range of -s equal to[Jan. 29, 2025 (II)] (A) (B) (C) (D) Ans:-(D) Solution:-(d) ---PAGE 5--- Required sum 1 8 . The domain of function is (A) (B) (C) (D) Y Ans:-(C) M Solution:-(c) We have, E Clearly, is defined for satisfying the following conditions D Now, A and, C and and A Hence, the domain of is S 1 9 . Let and be bijectRions, then (A) (B) fog (C) (D) E Ans:-(C) P Solution:- P O 2 0 . The maximum possible domain and the corresponding range for the real function to exist is T (A) (B) (the set of integers), (C) (D) Ans:-(D) Solution:-",
+    "question_images": [
+      "q6_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Relations and Functions",
+    "question": "21. If , and the period of is , then is equal to (A) 4 (B) 3 (C) 2 (D) 1 Ans:-(C) Solution:-(c) Since, period of And period of Period of is ---PAGE 6--- 2 2 . Let . Then, provided that (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given, and 2 3 . The domain of the function is (A) (B) (C) (D) Y Ans:-(A) M Solution:-(a) Clearly, exists if E D Hence, domain of is A",
+    "question_latex": "21. If , and the period of is , then is equal to (A) 4 (B) 3 (C) 2 (D) 1 Ans:-(C) Solution:-(c) Since, period of And period of Period of is ---PAGE 6--- 2 2 . Let . Then, provided that (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given, and 2 3 . The domain of the function is (A) (B) (C) (D) Y Ans:-(A) M Solution:-(a) Clearly, exists if E D Hence, domain of is A",
+    "question_images": [
+      "q7_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Relations and Functions",
+    "question": "24. The domain of is C (A) [2, 12] (B) [-1, 1] (C) (D) [6, 24] A Ans:-(D) S Solution:-(d) For domain of given function R E P P O 2 5 . Let T and , then is (A) (B) (C) (D) Ans:-(D) Solution:-(d) 2 6 . If is the period of the function and is the period of the function ( denotes the greatest integer function), then (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) We have, Clearly,",
+    "question_latex": "24. The domain of is C (A) [2, 12] (B) [-1, 1] (C) (D) [6, 24] A Ans:-(D) S Solution:-(d) For domain of given function R E P P O 2 5 . Let T and , then is (A) (B) (C) (D) Ans:-(D) Solution:-(d) 2 6 . If is the period of the function and is the period of the function ( denotes the greatest integer function), then (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) We have, Clearly,",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Relations and Functions",
+    "question": "27. If then is equal to (A) (B) (C) (D) Ans:-(C) ---PAGE 7--- Solution:-(c) We have, 2 8 . The period of the function is (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given Y Period of M 2 9 . The domain of the function is E D (A) [0, 2] (B) [0, 2) (C) [1, 2) (D) [1, 2] Ans:-(C) A Solution:-(c) Given, C For to be defined and A ; and Domian of is . S R 3 0 . The function defined by for where reduces to a constant function, if E (A) (B) (C) (D) P Ans:-(C) Solution:-(c) Given, P It reduces the constant Ofunction if T 3 1 . The relation on the set {1, 2, 3} is (A) Symmetric only (B) Reflexive only (C) An equivalence relation (D) Transitive only Ans:-(C) Solution:-(c) The relation on the set is an equivalent relation. 3 2 . If is defined by , then the range is contained in the interval (A) [1, 12] (B) [12, 34] (C) [35, 50] (D) [-12, 12] Ans:-(B) Solution:-(b) Given, On differentiating w.r.t. , we get Put is either increasing or decreasing. At ---PAGE 8--- At",
+    "question_latex": "27. If then is equal to (A) (B) (C) (D) Ans:-(C) ---PAGE 7--- Solution:-(c) We have, 2 8 . The period of the function is (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given Y Period of M 2 9 . The domain of the function is E D (A) [0, 2] (B) [0, 2) (C) [1, 2) (D) [1, 2] Ans:-(C) A Solution:-(c) Given, C For to be defined and A ; and Domian of is . S R 3 0 . The function defined by for where reduces to a constant function, if E (A) (B) (C) (D) P Ans:-(C) Solution:-(c) Given, P It reduces the constant Ofunction if T 3 1 . The relation on the set {1, 2, 3} is (A) Symmetric only (B) Reflexive only (C) An equivalence relation (D) Transitive only Ans:-(C) Solution:-(c) The relation on the set is an equivalent relation. 3 2 . If is defined by , then the range is contained in the interval (A) [1, 12] (B) [12, 34] (C) [35, 50] (D) [-12, 12] Ans:-(B) Solution:-(b) Given, On differentiating w.r.t. , we get Put is either increasing or decreasing. At ---PAGE 8--- At",
+    "question_images": [
+      "q9_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Relations and Functions",
+    "question": "33. If and , then is equal to (A) 1 (B) -1 (C) 2 (D) -2 Ans:-(A) Solution:-(a) Given, Y M E D A (given) C",
+    "question_latex": "33. If and , then is equal to (A) 1 (B) -1 (C) 2 (D) -2 Ans:-(A) Solution:-(a) Given, Y M E D A (given) C",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Relations and Functions",
+    "question": "34. A The function satisfies the functional equation for all real . The value of is S (A) 8 (B) 4 (C) -8 (D) 11 R Ans:-(B) Solution:-(b) Since, E P Replacing by in Eq. (i), we get P (ii) O On solving Eqs. (i) and (ii), we get T",
+    "question_latex": "34. A The function satisfies the functional equation for all real . The value of is S (A) 8 (B) 4 (C) -8 (D) 11 R Ans:-(B) Solution:-(b) Since, E P Replacing by in Eq. (i), we get P (ii) O On solving Eqs. (i) and (ii), we get T",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Relations and Functions",
+    "question": "35. If defined on by the rule Then, for all is (A) Constant (B) (C) (D) None of these Ans:-(C) Solution:- 3 6 . is given by its even extension to is (A) (B) (C) (D) Ans:-(B) Solution:-(b) Let be the even extension of on Then, ---PAGE 9--- for 3 7 . Let a set , where for . Define the relation from to by if and only if . Then is (June 2022) (A) reflexive but not symmetric and transitive (B) reflexive, transitive but not symmetric (C) reflexive, symmetric but not transitive (D) an equivalence relation Ans:-(D) Solution:-(d) : iff (i) Reflexive : ; as iff is reflexive. (ii) Symmetric: Let i.e., is symmetric. (iii) Transitive : Let and iff and iff iff is transitive. Hence, is an equivalence relation. Y",
+    "question_latex": "35. If defined on by the rule Then, for all is (A) Constant (B) (C) (D) None of these Ans:-(C) Solution:- 3 6 . is given by its even extension to is (A) (B) (C) (D) Ans:-(B) Solution:-(b) Let be the even extension of on Then, ---PAGE 9--- for 3 7 . Let a set , where for . Define the relation from to by if and only if . Then is (June 2022) (A) reflexive but not symmetric and transitive (B) reflexive, transitive but not symmetric (C) reflexive, symmetric but not transitive (D) an equivalence relation Ans:-(D) Solution:-(d) : iff (i) Reflexive : ; as iff is reflexive. (ii) Symmetric: Let i.e., is symmetric. (iii) Transitive : Let and iff and iff iff is transitive. Hence, is an equivalence relation. Y",
+    "question_images": [
+      "q12_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Relations and Functions",
+    "question": "38. The inverse of the function is given by M (A) (B) (C) (D) None of these E Ans:-(A) D Solution:-(a) We have, A C A where S R E P P O T 3 9 . The domain of the definition of the function is (A) (B) (C) (D) Ans:-(B) Solution:-(b) Given, For domain, and and and 4 0 . If and then, is equal to (A) (B) (C) (D) Ans:-(B) ---PAGE 10--- Solution:-(b) We have, and Now,",
+    "question_latex": "38. The inverse of the function is given by M (A) (B) (C) (D) None of these E Ans:-(A) D Solution:-(a) We have, A C A where S R E P P O T 3 9 . The domain of the definition of the function is (A) (B) (C) (D) Ans:-(B) Solution:-(b) Given, For domain, and and and 4 0 . If and then, is equal to (A) (B) (C) (D) Ans:-(B) ---PAGE 10--- Solution:-(b) We have, and Now,",
+    "question_images": [
+      "q13_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Relations and Functions",
+    "question": "41. The domain of the real valued function is (A) (B) (C) (D) Ans:-(D) Solution:-(d) The given function is Y For domain of and M and and E Domain of D A 4 2 . Which one is not periodic? (2002) C (A) (B) (C) (D) Ans:-(B) A Solution:-(b) S 4 3 . The domain of the function R is (A) (B) (C) (D) E Ans:-(B) P Solution:-(b) Given, P We know, is defined, if For to be defined.O and T and",
+    "question_latex": "41. The domain of the real valued function is (A) (B) (C) (D) Ans:-(D) Solution:-(d) The given function is Y For domain of and M and and E Domain of D A 4 2 . Which one is not periodic? (2002) C (A) (B) (C) (D) Ans:-(B) A Solution:-(b) S 4 3 . The domain of the function R is (A) (B) (C) (D) E Ans:-(B) P Solution:-(b) Given, P We know, is defined, if For to be defined.O and T and",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Relations and Functions",
+    "question": "44. The domain of the function is(2011) (A) (B) (C) (D) Ans:-(A) Solution:-(a) 4 5 . Let Let be defined by .Then, (A) is bijective (B) is one-one but not onto (C) is onto but not one-one (D) None of the above Ans:-(A) Solution:-(a) Let and be two arbitary elements in . Then, ---PAGE 11--- So, is an injective mapping. Again, let be an orbitary element in , then Clearly, , thus for all there exists such that Thus, every element in the codomain has its preimage in , so is a surjection. Hence, is bijective. Y M 4 6 . If and , then is (A) (B) (C) (D) E Ans:-(C) Solution:-(c) D A C 4 7 . The domain of the function A is (A) (B) (C) (D) S Ans:-(C) R Solution:-(c) The given function is defined when and E and , P Domain of the function isP O T",
+    "question_latex": "44. The domain of the function is(2011) (A) (B) (C) (D) Ans:-(A) Solution:-(a) 4 5 . Let Let be defined by .Then, (A) is bijective (B) is one-one but not onto (C) is onto but not one-one (D) None of the above Ans:-(A) Solution:-(a) Let and be two arbitary elements in . Then, ---PAGE 11--- So, is an injective mapping. Again, let be an orbitary element in , then Clearly, , thus for all there exists such that Thus, every element in the codomain has its preimage in , so is a surjection. Hence, is bijective. Y M 4 6 . If and , then is (A) (B) (C) (D) E Ans:-(C) Solution:-(c) D A C 4 7 . The domain of the function A is (A) (B) (C) (D) S Ans:-(C) R Solution:-(c) The given function is defined when and E and , P Domain of the function isP O T",
+    "question_images": [
+      "q15_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Relations and Functions",
+    "question": "48. The domain of the function is (A) [0, 2] (B) [0, 2) (C) [1, 2) (D) [1, 2] Ans:-(C) Solution:-(c) Given, For to be defined and ; and Domian of is . 4 9 . Let {(3, 3), (6, 6), (9, 9), (12, 12), (6, 12), (3, 9), (3, 12), (3, 6)} be a relation on the set . The relation is (A) Reflexive and symmetric only (B) An equivalence relation (C) Reflexive only (D) Reflexive and transitive only Ans:-(D) Solution:-(d) Since, is reflexive. Now, but is not symmetric. ---PAGE 12--- Also, is transitive. 5 0 . Let Let be defined by .Then, (A) is bijective (B) is one-one but not onto (C) is onto but not one-one (D) None of the above Ans:-(A) Solution:-(a) Let and be two arbitary elements in . Then, So, is an injective mapping. Again, let be an orbitary element in , then Y M E Clearly, , thus for all there exists D such that A C Thus, every element in the codomain has its prAeimage in , so is a surjection. Hence, is bijective. S R E P P O T",
+    "question_latex": "48. The domain of the function is (A) [0, 2] (B) [0, 2) (C) [1, 2) (D) [1, 2] Ans:-(C) Solution:-(c) Given, For to be defined and ; and Domian of is . 4 9 . Let {(3, 3), (6, 6), (9, 9), (12, 12), (6, 12), (3, 9), (3, 12), (3, 6)} be a relation on the set . The relation is (A) Reflexive and symmetric only (B) An equivalence relation (C) Reflexive only (D) Reflexive and transitive only Ans:-(D) Solution:-(d) Since, is reflexive. Now, but is not symmetric. ---PAGE 12--- Also, is transitive. 5 0 . Let Let be defined by .Then, (A) is bijective (B) is one-one but not onto (C) is onto but not one-one (D) None of the above Ans:-(A) Solution:-(a) Let and be two arbitary elements in . Then, So, is an injective mapping. Again, let be an orbitary element in , then Y M E Clearly, , thus for all there exists D such that A C Thus, every element in the codomain has its prAeimage in , so is a surjection. Hence, is bijective. S R E P P O T",
+    "question_images": [
+      "q16_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Relations and Functions",
+    "question": "5. The function which satisfies , is given by (A) (B) (C) (D) Ans:-(D) Solution:-(d) Let And ---PAGE 2--- 6 . The range of the function is (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) The function is defined for all Therefore, domain of is Let Then, Y Now, if M E D A C A S",
+    "question_latex": "5. The function which satisfies , is given by (A) (B) (C) (D) Ans:-(D) Solution:-(d) Let And ---PAGE 2--- 6 . The range of the function is (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) The function is defined for all Therefore, domain of is Let Then, Y Now, if M E D A C A S",
+    "question_images": [
+      "q17_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Relations and Functions",
+    "question": "7. The domain of definition of R E (A) (B) (C) (D) P Ans:-(C) Solution:-(c) We observe thPat is not defined for O Also, is a real number, if T Hence, domain of",
+    "question_latex": "7. The domain of definition of R E (A) (B) (C) (D) P Ans:-(C) Solution:-(c) We observe thPat is not defined for O Also, is a real number, if T Hence, domain of",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Relations and Functions",
+    "question": "8. Let , be a function defined by , then is both one-one and onto when is the interval (2005) (A) (B) (C) (D) Ans:-(C) Solution:-(c) ---PAGE 3--- 9 . Let , be a relation on the set . The relation is (2005) (A) reflexive only (B) an equivalence relation (C) reflexive and symmetric only (D) reflexive and transitive only Ans:-(D) Solution:-(d) : For Relation is not symmetric which means our choice (a) and (b) are out of court. We need to prove reflexivity and transitivity. For reflexivity which is hold i.e. is reflexive. Again, for transitivity of which is also true in , . Sets, Relations and Functions",
+    "question_latex": "8. Let , be a function defined by , then is both one-one and onto when is the interval (2005) (A) (B) (C) (D) Ans:-(C) Solution:-(c) ---PAGE 3--- 9 . Let , be a relation on the set . The relation is (2005) (A) reflexive only (B) an equivalence relation (C) reflexive and symmetric only (D) reflexive and transitive only Ans:-(D) Solution:-(d) : For Relation is not symmetric which means our choice (a) and (b) are out of court. We need to prove reflexivity and transitivity. For reflexivity which is hold i.e. is reflexive. Again, for transitivity of which is also true in , . Sets, Relations and Functions",
+    "question_images": [
+      "q19_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Relations and Functions",
+    "question": "10. The domain of definition of the function is (A) [1, 4] (B) [1, 0] (C) [0, 5] (D) [5, 0] Ans:-(A) Solution:-(a) For to be defined Y M E D",
+    "question_latex": "10. The domain of definition of the function is (A) [1, 4] (B) [1, 0] (C) [0, 5] (D) [5, 0] Ans:-(A) Solution:-(a) For to be defined Y M E D",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Relations and Functions",
+    "question": "11. If for then A (A) (B) (C) (D) Ans:-(D) C Solution:-(d) We have, A S R E P ALITER We have, P O T 1 2 . The function defined by where denotes the greatest integer less than or equal to is (A) One-one (B) Onto (C) One-one and onto (D) Neither one-one nor onto Ans:-(D) Solution:-(d) We have, for where So, is many-one into 1 3 . The function defined by is (A) One-one and onto (B) Many one and onto (C) One-one and into (D) Many one and into Ans:-(C) Solution:-(c) We have, for all ---PAGE 4--- So, is an into function For any we find that So, is one-one Hence, is a one-one into function 1 4 . If then the domain of the function is (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) We have, Y M E Since therefore is defined for and D A C 1 5 . If is defined on then the domain of is A (A) (B) (C) (D) None of these Ans:-(B) S Solution:-(b) We have, Domain R is defined, if E P P O 1 6 . Let . Let be the equivalence relation on , cartesian product of and , T defined by if , then the number of ordered pairs of the equivalence class of (3, 2) is (A) 4 (B) 5 (C) 6 (D) 7 Ans:-(C) Solution:-(c) Given, And Equivalence class of is Number of ordered pairs of the equivalence class=6. 1 7 . Let and be two non-void relations on a set . Which of the following statements is false? (A) and are transitive implies is transitive. (B) and are transitive implies is transitive. (C) and are symmetric implies is symmetric. (D) and are reflexive implies is reflexive. ---PAGE 5--- Ans:-(B) Solution:-(b) Let Let two transitive relations on the set are And Now, Here, is not transitive.",
+    "question_latex": "11. If for then A (A) (B) (C) (D) Ans:-(D) C Solution:-(d) We have, A S R E P ALITER We have, P O T 1 2 . The function defined by where denotes the greatest integer less than or equal to is (A) One-one (B) Onto (C) One-one and onto (D) Neither one-one nor onto Ans:-(D) Solution:-(d) We have, for where So, is many-one into 1 3 . The function defined by is (A) One-one and onto (B) Many one and onto (C) One-one and into (D) Many one and into Ans:-(C) Solution:-(c) We have, for all ---PAGE 4--- So, is an into function For any we find that So, is one-one Hence, is a one-one into function 1 4 . If then the domain of the function is (A) (B) (C) (D) None of these Ans:-(C) Solution:-(c) We have, Y M E Since therefore is defined for and D A C 1 5 . If is defined on then the domain of is A (A) (B) (C) (D) None of these Ans:-(B) S Solution:-(b) We have, Domain R is defined, if E P P O 1 6 . Let . Let be the equivalence relation on , cartesian product of and , T defined by if , then the number of ordered pairs of the equivalence class of (3, 2) is (A) 4 (B) 5 (C) 6 (D) 7 Ans:-(C) Solution:-(c) Given, And Equivalence class of is Number of ordered pairs of the equivalence class=6. 1 7 . Let and be two non-void relations on a set . Which of the following statements is false? (A) and are transitive implies is transitive. (B) and are transitive implies is transitive. (C) and are symmetric implies is symmetric. (D) and are reflexive implies is reflexive. ---PAGE 5--- Ans:-(B) Solution:-(b) Let Let two transitive relations on the set are And Now, Here, is not transitive.",
+    "question_images": [
+      "q21_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Relations and Functions",
+    "question": "18. The domain of is (A) [1, 9] (B) [-1, 9] (C) [-9, 1] (D) [-9, -1] Ans:-(A) Solution:-(a) Let Y M E 1 9 . If is defined by , then the raDnge is contained in the interval (A) [1, 12] (B) [12, 34] (C) [35, 50] (D) [-12, 12] A Ans:-(B) Solution:-(b) Given, C On differentiating w.r.t. , we get A Put S R is either increasing or decreasing. At E At P P O 2 0 . The minimum number of elements that must be added to the relation on the set , so that it becoTmes symmetric and transitive is(Jan 2023) (A) 3 (B) 7 (C) 4 (D) 5 Ans:-(B) Solution:-(b) : Given relation; and set For symmetric, Since So, be in . For transitive, Since So, should be in . then should also be in since lies in . Since, . So, should also lie in . Since . So, should also lie in . Since . So, should also lie in . Elements to be added are : . Total no. of elements to be added . 2 1 . If then one-one onto mappings such that are given by (A) (B) (C) (D) None of these Ans:-(A) Solution:-(a) Clearly, mapping given in option (a) satisfies the given conditions ---PAGE 6--- 2 2 . If , defined by , is onto, then the intervel of is (A) [0, 3] (B) [-1, 1] (C) [0, 1] (D) [-1, 3] Ans:-(D) Solution:-(d) Since, Range of 2 3 . If then (A) (B) (C) (D) Ans:-(A) Solution:-(a) Let Then, Y M E D",
+    "question_latex": "18. The domain of is (A) [1, 9] (B) [-1, 9] (C) [-9, 1] (D) [-9, -1] Ans:-(A) Solution:-(a) Let Y M E 1 9 . If is defined by , then the raDnge is contained in the interval (A) [1, 12] (B) [12, 34] (C) [35, 50] (D) [-12, 12] A Ans:-(B) Solution:-(b) Given, C On differentiating w.r.t. , we get A Put S R is either increasing or decreasing. At E At P P O 2 0 . The minimum number of elements that must be added to the relation on the set , so that it becoTmes symmetric and transitive is(Jan 2023) (A) 3 (B) 7 (C) 4 (D) 5 Ans:-(B) Solution:-(b) : Given relation; and set For symmetric, Since So, be in . For transitive, Since So, should be in . then should also be in since lies in . Since, . So, should also lie in . Since . So, should also lie in . Since . So, should also lie in . Elements to be added are : . Total no. of elements to be added . 2 1 . If then one-one onto mappings such that are given by (A) (B) (C) (D) None of these Ans:-(A) Solution:-(a) Clearly, mapping given in option (a) satisfies the given conditions ---PAGE 6--- 2 2 . If , defined by , is onto, then the intervel of is (A) [0, 3] (B) [-1, 1] (C) [0, 1] (D) [-1, 3] Ans:-(D) Solution:-(d) Since, Range of 2 3 . If then (A) (B) (C) (D) Ans:-(A) Solution:-(a) Let Then, Y M E D",
+    "question_images": [
+      "q22_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Relations and Functions",
+    "question": "24. If and , then is equal to A (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 Ans:-(A) C Solution:-(a) Here, A Given that, S R E P P O T 2 5 . If then equals (A) (B) (C) (D) None of these Ans:-(D) Solution:-(d) We have, 2 6 . The range of the function is (A) (B) (C) (D) None of these Ans:-(B) Solution:-(b) For to be defined, we must have Let Then, ---PAGE 7--- For to be real, we must have and and and For we have and Domain Hence, range Y 2 7 . The domain of definition of Mis (A) (B) (C) (D) Ans:-(D) E Solution:-(d) We have, D Clearly, assumes real values, if A C A and S R 2 8 . Let be a set containing 10 distinct elements, then the total number of distinct function from to is (A) (B) 101 (C) (D) E Ans:-(A) P Solution:-(a) Given a set containing 10 distinct elements and Now, every element of a set can P make image in 10 ways. Total number of wayOs in which each element make images . T",
+    "question_latex": "24. If and , then is equal to A (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 Ans:-(A) C Solution:-(a) Here, A Given that, S R E P P O T 2 5 . If then equals (A) (B) (C) (D) None of these Ans:-(D) Solution:-(d) We have, 2 6 . The range of the function is (A) (B) (C) (D) None of these Ans:-(B) Solution:-(b) For to be defined, we must have Let Then, ---PAGE 7--- For to be real, we must have and and and For we have and Domain Hence, range Y 2 7 . The domain of definition of Mis (A) (B) (C) (D) Ans:-(D) E Solution:-(d) We have, D Clearly, assumes real values, if A C A and S R 2 8 . Let be a set containing 10 distinct elements, then the total number of distinct function from to is (A) (B) 101 (C) (D) E Ans:-(A) P Solution:-(a) Given a set containing 10 distinct elements and Now, every element of a set can P make image in 10 ways. Total number of wayOs in which each element make images . T",
+    "question_images": [
+      "q23_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Relations and Functions",
+    "question": "29. Let be real valued function defined as . Then range of is(Jan 2023) (A) (B) (C) (D) Ans:-(C) Solution:-(c) : Let By cross multiplying, we get Case I, when Case II, when So, can be 1. Hence,",
+    "question_latex": "29. Let be real valued function defined as . Then range of is(Jan 2023) (A) (B) (C) (D) Ans:-(C) Solution:-(c) : Let By cross multiplying, we get Case I, when Case II, when So, can be 1. Hence,",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Relations and Functions",
+    "question": "30. The domain of definition of is (A) (B) (C) (D) None of these Ans:-(A) Solution:-(a) We have, ---PAGE 8--- is defined if and and",
+    "question_latex": "30. The domain of definition of is (A) (B) (C) (D) None of these Ans:-(A) Solution:-(a) We have, ---PAGE 8--- is defined if and and",
+    "question_images": [
+      "q25_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Relations and Functions",
+    "question": "31. If then is equal to (A) (B) (C) (D) Ans:-(A) Solution:-(a) We have, Y M E D A C A 3 2 . The domain of the function S is (A) (B) R (C) (D) E Ans:-(C) Solution:- P P 3 3 . If is dOefined by for , then is equal to T (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given, Now, Now, Again, Now,",
+    "question_latex": "31. If then is equal to (A) (B) (C) (D) Ans:-(A) Solution:-(a) We have, Y M E D A C A 3 2 . The domain of the function S is (A) (B) R (C) (D) E Ans:-(C) Solution:- P P 3 3 . If is dOefined by for , then is equal to T (A) (B) (C) (D) Ans:-(A) Solution:-(a) Given, Now, Now, Again, Now,",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Relations and Functions",
+    "question": "34. The domain of the real valued function is (A) (B) (C) (D) ---PAGE 9--- Ans:-(D) Solution:-(d) The given function is For domain of and and and Domain of 3 5 . Which of the following functions have period ? (A) (B) (C) (D) None of the above Ans:-(C) Solution:-(c) The period of the function in option (a) is 2. The period of the fYunction in option (b) is 24. The period of the function in option (c) is . M 3 6 . The composite mapping fog of the maps and is E (A) (B) (C) (D) D Ans:-(C) A Solution:-(c) We have, C A 3 7 . Let be a function defined by S then the graph of lies in the (A) I and II quadrants (B) I and III quaRdrants (C) II and III quadrants (D) III and IV quadrants Ans:-(D) E Solution:-(d) Clearly, is an even function and for all P Therefore, the graph of lies in the third and fourth quadrants P O 3 8 . Let for every Then, T (A) (B) (C) (D) Ans:-(A) Solution:-(a) For we have For we have, For , we have ALITER Draw the graphs of and to obtain",
+    "question_latex": "34. The domain of the real valued function is (A) (B) (C) (D) ---PAGE 9--- Ans:-(D) Solution:-(d) The given function is For domain of and and and Domain of 3 5 . Which of the following functions have period ? (A) (B) (C) (D) None of the above Ans:-(C) Solution:-(c) The period of the function in option (a) is 2. The period of the fYunction in option (b) is 24. The period of the function in option (c) is . M 3 6 . The composite mapping fog of the maps and is E (A) (B) (C) (D) D Ans:-(C) A Solution:-(c) We have, C A 3 7 . Let be a function defined by S then the graph of lies in the (A) I and II quadrants (B) I and III quaRdrants (C) II and III quadrants (D) III and IV quadrants Ans:-(D) E Solution:-(d) Clearly, is an even function and for all P Therefore, the graph of lies in the third and fourth quadrants P O 3 8 . Let for every Then, T (A) (B) (C) (D) Ans:-(A) Solution:-(a) For we have For we have, For , we have ALITER Draw the graphs of and to obtain",
+    "question_images": [
+      "q27_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Relations and Functions",
+    "question": "39. Let . Define a relation from to by: . Then, the sum of all the elements in the range of -s equal to[Jan. 29, 2025 (II)] ---PAGE 10--- (A) (B) (C) (D) Ans:-(D) Solution:-(d) Y Required sum M 4 0 . If is defined by for all , where is the greatest integer not exceeding E , then the range of is D (A) (B) {0, 1} (C) (D) Ans:-(B) A Solution:-(b) Given, C If is an integer, then A And if is an integer, then is either 1 or 0. S Range of R E 4 1 . The range of is P (A) [-1, 1] (B) (-1, 2) (C) (D) P Ans:-(D) O Solution:-(d) Given, T Since, Range is 4 2 . If the function is defined by then (A) (B) (C) (D) Ans:-(C) Solution:-(c) Also, Hence, ---PAGE 11---",
+    "question_latex": "39. Let . Define a relation from to by: . Then, the sum of all the elements in the range of -s equal to[Jan. 29, 2025 (II)] ---PAGE 10--- (A) (B) (C) (D) Ans:-(D) Solution:-(d) Y Required sum M 4 0 . If is defined by for all , where is the greatest integer not exceeding E , then the range of is D (A) (B) {0, 1} (C) (D) Ans:-(B) A Solution:-(b) Given, C If is an integer, then A And if is an integer, then is either 1 or 0. S Range of R E 4 1 . The range of is P (A) [-1, 1] (B) (-1, 2) (C) (D) P Ans:-(D) O Solution:-(d) Given, T Since, Range is 4 2 . If the function is defined by then (A) (B) (C) (D) Ans:-(C) Solution:-(c) Also, Hence, ---PAGE 11---",
+    "question_images": [
+      "q28_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Relations and Functions",
+    "question": "43. The inverse function of , is(Jan 2020) (A) (B) (C) (D) Ans:-(B) Solution:-(b): Let 4 4 . The period of the function is (A) (B) (C) (D) None of these Ans:-(B) Solution:-(b) Y M E The period of D A",
+    "question_latex": "43. The inverse function of , is(Jan 2020) (A) (B) (C) (D) Ans:-(B) Solution:-(b): Let 4 4 . The period of the function is (A) (B) (C) (D) None of these Ans:-(B) Solution:-(b) Y M E The period of D A",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Relations and Functions",
+    "question": "45. The function defined by , where is the set of natural numbers and C denotes the greatest integer less than or equal to , is(Online 2017) A (A) one-one but not onto. (B) onto but not one-one. (C) neither one-one nor onto. (D) one-one and onto. Ans:-(C) S Solution:-(c) R 4 6 . is given by E its even extension to is (A) (B) (C) (D) P Ans:-(B) P Solution:-(b) Let be the even extension of on O Then, T for 4 7 . Let defined by , then is (A) One-one onto (B) Many-one onto (C) One -one but not onto (D) None of these Ans:-(C) Solution:-(c) Let such that or one-one. Also, is not onto. ---PAGE 12---",
+    "question_latex": "45. The function defined by , where is the set of natural numbers and C denotes the greatest integer less than or equal to , is(Online 2017) A (A) one-one but not onto. (B) onto but not one-one. (C) neither one-one nor onto. (D) one-one and onto. Ans:-(C) S Solution:-(c) R 4 6 . is given by E its even extension to is (A) (B) (C) (D) P Ans:-(B) P Solution:-(b) Let be the even extension of on O Then, T for 4 7 . Let defined by , then is (A) One-one onto (B) Many-one onto (C) One -one but not onto (D) None of these Ans:-(C) Solution:-(c) Let such that or one-one. Also, is not onto. ---PAGE 12---",
+    "question_images": [
+      "q30_1.png"
+    ],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Relations and Functions",
+    "question": "48. The domain of definition of the function (A) (B) (C) (D) Ans:-(C) Solution:-(c) We have, now, is defined for is defined for So, domain of 4 9 . Let the function are defined from the set of real numbers to such that Y and then is defined by M (A) (B) (C) 0 (D) None of these Ans:-(B) E Solution:-(b) D A C A 5 0 . Let be defined by S then is (A) One-one onto (B) Many one onto (RC) One-one but not onto (D) None of these Ans:-(C) E Solution:-(c) Let be such that P P O is one-oTne is not onto, because for all So, 1, 2 do not have their pre-image",
+    "question_latex": "48. The domain of definition of the function (A) (B) (C) (D) Ans:-(C) Solution:-(c) We have, now, is defined for is defined for So, domain of 4 9 . Let the function are defined from the set of real numbers to such that Y and then is defined by M (A) (B) (C) 0 (D) None of these Ans:-(B) E Solution:-(b) D A C A 5 0 . Let be defined by S then is (A) One-one onto (B) Many one onto (RC) One-one but not onto (D) None of these Ans:-(C) E Solution:-(c) Let be such that P P O is one-oTne is not onto, because for all So, 1, 2 do not have their pre-image",
+    "question_images": [],
+    "options": [],
+    "option_images": [],
+    "answer": "",
+    "solution": "",
+    "solution_images": [],
+    "difficulty": "",
+    "marks": 4
+  }
+]

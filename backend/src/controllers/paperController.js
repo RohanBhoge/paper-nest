@@ -61,18 +61,20 @@ export const getAllPaperSummaries = asyncHandler(async (req, res) => {
 
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 20;
+  const sortBy = req.query.sort || 'created_at DESC';
+  const examFilter = req.query.exam || '';
 
-  const result = await paperService.getAllPaperSummaries(userId, page, limit);
+  const result = await paperService.getAllPaperSummaries(userId, page, limit, sortBy, examFilter);
 
   res.json(
-    ApiResponse.success(
+    ApiResponse.paginated(
       result.papers,
-      'Papers fetched successfully',
-      200
+      page,
+      limit,
+      result.pagination.total,
+      'Papers fetched successfully'
     )
   );
-
-  res.locals.pagination = result.pagination;
 });
 export const generatePaper = asyncHandler(async (req, res) => {
   try {

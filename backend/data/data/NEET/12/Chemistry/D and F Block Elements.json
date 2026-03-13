@@ -1,0 +1,954 @@
+[
+  {
+    "id": 1,
+    "chapter": "D and F Block Elements",
+    "question": "Refining of impure copper with zinc impurity is to be done by electrolysis using electrodes as Cathode | Anode",
+    "question_latex": "Refining of impure copper with zinc impurity is to be done by electrolysis using electrodes as Cathode | Anode",
+    "question_images": [],
+    "options": [
+      "A. Pure copper | Pure zinc",
+      "B. Pure zinc | Pure copper",
+      "C. Pure copper | Impure copper",
+      "D. Pure zinc | Impure zinc"
+    ],
+    "option_images": [],
+    "answer": "C. Pure copper | Impure copper",
+    "solution": "Pure copper as a cathode and impure copper as anode is used in refining of impure copper.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "D and F Block Elements",
+    "question": "Which one of the following statement is not true with regard to transition elements?",
+    "question_latex": "Which one of the following statement is not true with regard to transition elements?",
+    "question_images": [],
+    "options": [
+      "A. They readily form complex compounds.",
+      "B. They show variable oxidation states.",
+      "C. All their ions are colourless.",
+      "D. Their ions contain partially filled $d$-electrons."
+    ],
+    "option_images": [],
+    "answer": "C. All their ions are colourless.",
+    "solution": "Most of the transition metal ions due to presence of unpaired $d$-electrons are coloured.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "D and F Block Elements",
+    "question": "Match column I with Column II and select the correct answer using the codes given below the Columns. Column I (Metals): A. Zinc, B. Tin, C. Copper, D. Magnesium. Column II (Ores): 1. Azurite, 2. Carnallite, 3. Calamine, 4. Cassiterite.",
+    "question_latex": "Match column I (Metals) with Column II (Ores): A. Zinc, B. Tin, C. Copper, D. Magnesium with 1. Azurite, 2. Carnallite, 3. Calamine, 4. Cassiterite.",
+    "question_images": [
+      "3_qu_1.png"
+    ],
+    "options": [
+      "A. 3 4 2 1",
+      "B. 3 4 1 2",
+      "C. 4 1 3 2",
+      "D. 4 3 2 1"
+    ],
+    "option_images": [],
+    "answer": "B. 3 4 1 2",
+    "solution": "Zinc - Calamine (3), Tin - Cassiterite (4), Copper - Azurite (1), Magnesium - Carnallite (2).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "D and F Block Elements",
+    "question": "A certain metal will liberate hydrogen from dilute acids. It will react with water to form hydrogen only when the metal is heated and the water is in the form of steam. The metal is probably",
+    "question_latex": "A certain metal will liberate hydrogen from dilute acids. It will react with water to form hydrogen only when the metal is heated and the water is in the form of steam. The metal is probably",
+    "question_images": [],
+    "options": [
+      "A. Iron",
+      "B. Potassium",
+      "C. Copper",
+      "D. Mercury"
+    ],
+    "option_images": [],
+    "answer": "A. Iron",
+    "solution": "Iron liberates hydrogen from dilute acids and reacts with steam when heated, but not with cold water. Potassium reacts with cold water. Copper and Mercury do not liberate hydrogen from dilute acids.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "D and F Block Elements",
+    "question": "Corrosive sublimate (HgCl2) can be used to distinguish between",
+    "question_latex": "Corrosive sublimate ($HgCl_2$) can be used to distinguish between",
+    "question_images": [],
+    "options": [
+      "A. Formic acid and acetic acid",
+      "B. Acetaldehyde and butanone",
+      "C. Formaldehyde and propanone",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Formic acid and acetic acid",
+    "solution": "Corrosive sublimate gives black ppt. of calomel with formic acid but does not react with acetic acid.\n$2HCOOH + 2HgCl_2 \\rightarrow Hg_2Cl_2 + CO_2 + H_2O$\n$CH_3COOH + HgCl_2 \\rightarrow$ No reaction",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "D and F Block Elements",
+    "question": "Mohr salt is made up of which combination of salt?",
+    "question_latex": "Mohr salt is made up of which combination of salt?",
+    "question_images": [],
+    "options": [
+      "A. Ammonium sulphate and potash.",
+      "B. Ammonium sulphate and ferrous sulphate.",
+      "C. Ammonium sulphate and copper sulphate.",
+      "D. Ammonium sulphate and magnesium sulphate."
+    ],
+    "option_images": [],
+    "answer": "B. Ammonium sulphate and ferrous sulphate.",
+    "solution": "Mohr salt is $FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$. It is a double salt having $FeSO_4$ and $(NH_4)_2SO_4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "D and F Block Elements",
+    "question": "VO2 is an amphoteric oxide and in acidic medium it forms",
+    "question_latex": "$VO_2$ is an amphoteric oxide and in acidic medium it forms",
+    "question_images": [],
+    "options": [
+      "A. $VO^{2+}$",
+      "B. $VO_2^+$",
+      "C. $V^{3+}$",
+      "D. $VO_2^{2+}$"
+    ],
+    "option_images": [],
+    "answer": "A. $VO^{2+}$",
+    "solution": "$VO_2 + 2H^+ \\rightarrow VO^{2+} + H_2O$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "D and F Block Elements",
+    "question": "Dichromate [Cr(VI)] is a strong oxidizing agent whereas Mo(VI) and W(VI) are found to be not. This is due to",
+    "question_latex": "Dichromate $[Cr(VI)]$ is a strong oxidizing agent whereas $Mo(VI)$ and $W(VI)$ are found to be not. This is due to",
+    "question_images": [],
+    "options": [
+      "A. Lanthanoid contraction",
+      "B. Down the group metallic character increases",
+      "C. Down the group metallic character decreases",
+      "D. Both (a) and (b)"
+    ],
+    "option_images": [],
+    "answer": "B. Down the group metallic character increases",
+    "solution": "Down the group metallic character increases hence tendency to lose electron increases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "D and F Block Elements",
+    "question": "Assertion: Cuprous ion (Cu+) has unpaired electrons while cupric ion (Cu2+) does not. Reason: Cuprous ion (Cu+) is colourless whereas cupric ion (Cu2+) is blue in the aqueous solution.",
+    "question_latex": "Assertion: Cuprous ion ($Cu^+$) has unpaired electrons while cupric ion ($Cu^{2+}$) does not. Reason: Cuprous ion ($Cu^+$) is colourless whereas cupric ion ($Cu^{2+}$) is blue in the aqueous solution.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+      "C. Assertion is correct, reason is incorrect.",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "D. Assertion is incorrect, reason is correct.",
+    "solution": "$Cu^+$: $[Ar]3d^{10}$ - no unpaired electrons (assertion is incorrect). $Cu^{2+}$: $[Ar]3d^9$ - has unpaired electrons. $Cu^+$ is colourless (no unpaired d-electrons) and $Cu^{2+}$ is blue (reason is correct).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "D and F Block Elements",
+    "question": "Ferrous ion changes to X ion, on reacting with acidified hydrogen peroxide. The number of d-electrons present in X and its magnetic moment (in BM) are, respectively",
+    "question_latex": "Ferrous ion changes to $X$ ion, on reacting with acidified hydrogen peroxide. The number of $d$-electrons present in $X$ and its magnetic moment (in BM) are, respectively",
+    "question_images": [],
+    "options": [
+      "A. 6 and 6.93",
+      "B. 5 and 5.92",
+      "C. 5 and 4.9",
+      "D. 4 and 5.92"
+    ],
+    "option_images": [],
+    "answer": "B. 5 and 5.92",
+    "solution": "Ferrous ion ($Fe^{2+}$) changes to ferric ion $Fe^{3+}$ on reacting with acidified $H_2O_2$.\nElectronic configuration of $Fe^{3+} = 1s^2, 2s^2, 2p^6, 3s^2, 3p^6, 3d^5$\nNumber of $d$-electrons = 5\nMagnetic moment $= \\sqrt{n(n+2)} = \\sqrt{5(5+2)} = 5.92$ BM",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "D and F Block Elements",
+    "question": "At pH = 4, Cr2O4(2-) exists as",
+    "question_latex": "At $pH = 4$, $CrO_4^{2-}$ exists as",
+    "question_images": [],
+    "options": [
+      "A. $CrO_4^{2-}$",
+      "B. $CrO_3$",
+      "C. $CrO_2^+$",
+      "D. $Cr_2O_7^{2-}$"
+    ],
+    "option_images": [],
+    "answer": "D. $Cr_2O_7^{2-}$",
+    "solution": "$2CrO_4^{2-} + 2H^+ \\rightarrow Cr_2O_7^{2-} + H_2O$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "D and F Block Elements",
+    "question": "Select the correct order of sizes of different species",
+    "question_latex": "Select the correct order of sizes of different species",
+    "question_images": [],
+    "options": [
+      "A. $Zr = Hf$; $Nb = Ta$; $Fe = Co = Ni$",
+      "B. $Zr^{4+} < Zr$; $Nb^{3+} < Ta^{3+}$; $Fe^{3+} < Fe^{2+} < Fe$",
+      "C. $Zr^{4+} = Hf^{4+}$; $Nb^{3+} = Ta^{3+}$; $Fe < Co < Ni$",
+      "D. $Zr^{4+} < Hf^{4+}$; $Nb^{3+} = Ta^{3+}$; $Ni < Cu < Co$"
+    ],
+    "option_images": [],
+    "answer": "A. $Zr = Hf$; $Nb = Ta$; $Fe = Co = Ni$",
+    "solution": "Due to lanthanide contraction, Zr and Hf have nearly the same atomic size. Similarly Nb and Ta have nearly the same size. Fe, Co and Ni have nearly the same size across the transition series.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "D and F Block Elements",
+    "question": "The correct order of E°(M2+/M) values with negative sign for the four successive elements Cr, Mn, Fe and Co is",
+    "question_latex": "The correct order of $E^\\circ_{M^{2+}/M}$ values with negative sign for the four successive elements Cr, Mn, Fe and Co is",
+    "question_images": [],
+    "options": [
+      "A. $Mn > Cr > Fe > Co$",
+      "B. $Cr > Fe > Mn > Co$",
+      "C. $Fe > Mn > Cr > Co$",
+      "D. $Cr > Mn > Fe > Co$"
+    ],
+    "option_images": [],
+    "answer": "A. $Mn > Cr > Fe > Co$",
+    "solution": "Usually across the first transition series, the negative values for standard electrode potential decrease except for Mn due to stable $d^5$ configuration.\nCorrect order: $Mn > Cr > Fe > Co$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "D and F Block Elements",
+    "question": "Sugar in urine sample can be detected by I. Fehling's solution II. Benedict's solution III. Tollen's solution. Select the correct alternate",
+    "question_latex": "Sugar in urine sample can be detected by I. Fehling's solution II. Benedict's solution III. Tollen's solution. Select the correct alternate",
+    "question_images": [],
+    "options": [
+      "A. I, II, III",
+      "B. I, III",
+      "C. I, II",
+      "D. II, III"
+    ],
+    "option_images": [],
+    "answer": "A. I, II, III",
+    "solution": "Sugar (glucose) is a reducing sugar and can be detected by all three: Fehling's solution, Benedict's solution, and Tollen's reagent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "D and F Block Elements",
+    "question": "Cl2 gas is obtained by various reactions but not by",
+    "question_latex": "$Cl_2$ gas is obtained by various reactions but not by",
+    "question_images": [],
+    "options": [
+      "A. $KMnO_4 + conc. HCl \\xrightarrow{\\Delta}$",
+      "B. $KCl + K_2Cr_2O_7 + conc. H_2SO_4 \\xrightarrow{\\Delta}$",
+      "C. $MnO_2 + conc. HCl \\xrightarrow{\\Delta}$",
+      "D. $KCl + F_2 \\rightarrow$"
+    ],
+    "option_images": [],
+    "answer": "B. $KCl + K_2Cr_2O_7 + conc. H_2SO_4 \\xrightarrow{\\Delta}$",
+    "solution": "In this reaction, $CrO_2Cl_2$ (chromyl chloride) is formed instead of $Cl_2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "D and F Block Elements",
+    "question": "Misch metal is",
+    "question_latex": "Misch metal is",
+    "question_images": [],
+    "options": [
+      "A. An alloy of lanthanide and copper",
+      "B. An alloy of lanthanide and nickel",
+      "C. An alloy of lanthanide, iron and carbon",
+      "D. An alloy of calcium and copper"
+    ],
+    "option_images": [],
+    "answer": "C. An alloy of lanthanide, iron and carbon",
+    "solution": "Misch metal is an alloy containing lanthanide metals (~95%), iron (~5%), and traces of carbon and other elements. It is used in lighter flints.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "D and F Block Elements",
+    "question": "Blister copper is",
+    "question_latex": "Blister copper is",
+    "question_images": [],
+    "options": [
+      "A. Impure Cu",
+      "B. Cu alloy",
+      "C. Pure Cu",
+      "D. Cu having 1% impurity"
+    ],
+    "option_images": [],
+    "answer": "D. Cu having 1% impurity",
+    "solution": "Blister copper is obtained by the process of bessemerisation from the copper matte in the metallurgy of Cu. It is impure. Blister copper contains about 98 to 99% pure copper and 1 to 2% impurities like Ag, Au, Zn, Ni etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "D and F Block Elements",
+    "question": "In the form of dichromate, Cr(VI) is a strong oxidising agent in acidic medium but Mo(VI) in MoO3 and W(VI) in WO3 are not because (i) Cr(VI) is more stable than Mo(VI) and W(VI). (ii) Mo(VI) and W(VI) are more stable than Cr(VI). (iii) Higher oxidation states of heavier members of group 6 of transition series are more stable. (iv) Lower oxidation states of heavier members of group-6 of transition series are more stable.",
+    "question_latex": "In the form of dichromate, $Cr(VI)$ is a strong oxidising agent in acidic medium but $Mo(VI)$ in $MoO_3$ and $W(VI)$ in $WO_3$ are not because (i) $Cr(VI)$ is more stable than $Mo(VI)$ and $W(VI)$. (ii) $Mo(VI)$ and $W(VI)$ are more stable than $Cr(VI)$. (iii) Higher oxidation states of heavier members of group 6 of transition series are more stable. (iv) Lower oxidation states of heavier members of group-6 of transition series are more stable.",
+    "question_images": [],
+    "options": [
+      "A. (i) and (ii)",
+      "B. (ii) and (iii)",
+      "C. (i) and (iv)",
+      "D. (ii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "B. (ii) and (iii)",
+    "solution": "Mo(VI) and W(VI) are more stable than Cr(VI), and higher oxidation states of heavier members of group 6 are more stable. Therefore Cr(VI) is a stronger oxidising agent.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "D and F Block Elements",
+    "question": "Read the following statements. (i) Chemistry of actinoids is complex in comparison to chemistry of lanthanoids. (ii) Ce4+ is very good reducing agent. (iii) Eu2+ is a strong reducing agent. (iv) Out of all lanthanides Ce, Pr, Nd, Dy and Ho shows +4 oxidation state. Which of the following is the correct code for the statements above?",
+    "question_latex": "Read the following statements. (i) Chemistry of actinoids is complex in comparison to chemistry of lanthanoids. (ii) $Ce^{4+}$ is very good reducing agent. (iii) $Eu^{2+}$ is a strong reducing agent. (iv) Out of all lanthanides Ce, Pr, Nd, Dy and Ho shows $+4$ oxidation state. Which of the following is the correct code for the statements above?",
+    "question_images": [],
+    "options": [
+      "A. TTFF",
+      "B. TFTF",
+      "C. FTFT",
+      "D. FTTF"
+    ],
+    "option_images": [],
+    "answer": "B. TFTF",
+    "solution": "(i) True - Actinoids show more complex chemistry. (ii) False - $Ce^{4+}$ is a strong oxidant reverting to the common $+3$ state. (iii) True - $Eu^{2+}$ is a strong reducing agent. (iv) False - Ho does not show oxidation state of $+4$. Lanthanoids showing $+4$ oxidation state are Ce, Pr, Nd, Dy and Tb.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "D and F Block Elements",
+    "question": "Transition elements form coloured ions due to",
+    "question_latex": "Transition elements form coloured ions due to",
+    "question_images": [],
+    "options": [
+      "A. $d - d$ transition",
+      "B. fully filled $d$-orbitals",
+      "C. smaller atomic radii",
+      "D. availability of $s$-electrons"
+    ],
+    "option_images": [],
+    "answer": "A. $d - d$ transition",
+    "solution": "Transition elements form coloured ions due to $d - d$ transitions. In the presence of ligands, there is splitting of energy levels of $d$-orbitals. They no longer remain degenerated. Electronic transition may occur between two $d$-orbitals. The required energy is obtained by absorption of light of a particular wavelength in the visible region.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "D and F Block Elements",
+    "question": "Iron is dropped in very dil. HNO3, it gives",
+    "question_latex": "Iron is dropped in very dil. $HNO_3$, it gives",
+    "question_images": [],
+    "options": [
+      "A. Ferric nitrate",
+      "B. Ferric nitrate and $NO_2$",
+      "C. Ferrous nitrate and ammonium nitrate",
+      "D. Ferrous nitrate and nitric oxide"
+    ],
+    "option_images": [],
+    "answer": "C. Ferrous nitrate and ammonium nitrate",
+    "solution": "Nascent H reduces $NO$ to $NH_3$ which changes to $NH_4NO_3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "D and F Block Elements",
+    "question": "Fe3O4 is called",
+    "question_latex": "$Fe_3O_4$ is called",
+    "question_images": [],
+    "options": [
+      "A. Haematite",
+      "B. Magnetite",
+      "C. Casserite",
+      "D. Dolomite"
+    ],
+    "option_images": [],
+    "answer": "B. Magnetite",
+    "solution": "$Fe_3O_4$ is the chemical formula of Magnetite, which is an important iron ore.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "D and F Block Elements",
+    "question": "Based on the following equilibria: Fe2+ ⇌ Fe3+ + e−; E° = −0.771V and [Fe(CN)6]4− ⇌ [Fe(CN)6]3− + e−; E° = −0.36V. Select the correct statements",
+    "question_latex": "Based on the following equilibria: $Fe^{2+} \\rightleftharpoons Fe^{3+} + e^-$; $E^\\circ = -0.771$ V and $[Fe(CN)_6]^{4-} \\rightleftharpoons [Fe(CN)_6]^{3-} + e^-$; $E^\\circ = -0.36$ V. Select the correct statements",
+    "question_images": [],
+    "options": [
+      "A. Iron in +2 state is more stable than in +3 state",
+      "B. Unstable ion can be stabilized by complexing it with a suitable ligand",
+      "C. Both (a) and (b)",
+      "D. None of the above are correct statements"
+    ],
+    "option_images": [],
+    "answer": "C. Both (a) and (b)",
+    "solution": "$E^\\circ < 0$, it means forward equilibria are not spontaneous. Thus $Fe^{2+}$ is more stable than $Fe^{3+}$. In $[Fe(CN)_6]^{4-}$ oxidation number of $Fe = +2$ and in $[Fe(CN)_6]^{3-}$ oxidation number of $Fe = +3$. Due to complex ion, $E^\\circ$ decreases, thus stability can be increased by complexing.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "D and F Block Elements",
+    "question": "Lanthanide contraction can be observed in",
+    "question_latex": "Lanthanide contraction can be observed in",
+    "question_images": [],
+    "options": [
+      "A. At",
+      "B. Gd",
+      "C. Ac",
+      "D. Lw"
+    ],
+    "option_images": [],
+    "answer": "B. Gd",
+    "solution": "Amongst the given elements, only Gd (Gadolinium) is a lanthanide. Lanthanide contraction is observed in lanthanide elements (atomic numbers 57-71).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "D and F Block Elements",
+    "question": "Which one of the following is an amphoteric oxide? (i) Mn2O7 (ii) CrO (iii) V2O4 (iv) Cr2O3",
+    "question_latex": "Which one of the following is an amphoteric oxide? (i) $Mn_2O_7$ (ii) $CrO$ (iii) $V_2O_4$ (iv) $Cr_2O_3$",
+    "question_images": [],
+    "options": [
+      "A. (i) and (ii)",
+      "B. (ii), (iii) and (iv)",
+      "C. (iii) and (iv)",
+      "D. (ii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "C. (iii) and (iv)",
+    "solution": "$Mn_2O_7 \\rightarrow$ acidic\n$CrO \\rightarrow$ basic\n$V_2O_4 \\rightarrow$ amphoteric\n$Cr_2O_3 \\rightarrow$ amphoteric",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "D and F Block Elements",
+    "question": "In [Fe(CN)5(NO+)]2−, Fe has +3 state. It can be decided by",
+    "question_latex": "In $[Fe(CN)_5(NO^+)]^{2-}$, $Fe$ has $+3$ state. It can be decided by",
+    "question_images": [],
+    "options": [
+      "A. Magnetic measurement",
+      "B. Colligative property",
+      "C. Colour",
+      "D. Hybridization"
+    ],
+    "option_images": [],
+    "answer": "A. Magnetic measurement",
+    "solution": "Oxidation state of $Fe$ can be confirmed by magnetic measurement. $Fe^{3+}$ has $[Ar]3d^5$ configuration with 5 unpaired electrons giving high spin paramagnetic behaviour, which can be measured magnetically.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "D and F Block Elements",
+    "question": "When acidified K2Cr2O7 solution is added to Sn2+ salts then Sn2+ changes to",
+    "question_latex": "When acidified $K_2Cr_2O_7$ solution is added to $Sn^{2+}$ salts then $Sn^{2+}$ changes to",
+    "question_images": [],
+    "options": [
+      "A. $Sn$",
+      "B. $Sn^{3+}$",
+      "C. $Sn^{4+}$",
+      "D. $Sn^+$"
+    ],
+    "option_images": [],
+    "answer": "C. $Sn^{4+}$",
+    "solution": "$K_2Cr_2O_7$ is a strong oxidising agent. It oxidises $Sn^{2+}$ to $Sn^{4+}$ while $Cr^{6+}$ is reduced to $Cr^{3+}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "D and F Block Elements",
+    "question": "If a person is asked to prepare the blue print of a building plan, he can use",
+    "question_latex": "If a person is asked to prepare the blue print of a building plan, he can use",
+    "question_images": [],
+    "options": [
+      "A. $FeCl_3 + K_4[Fe(CN)_6]$",
+      "B. $FeCl_2 + K_3[Fe(CN)_6]$",
+      "C. $FeCl_2 + K_4[Fe(CN)_6]$",
+      "D. $Fe(Ct) + K_3[Fe(CN)_6]$ (Ct is citrate)"
+    ],
+    "option_images": [],
+    "answer": "A. $FeCl_3 + K_4[Fe(CN)_6]$",
+    "solution": "Blueprint paper uses a photosensitive mixture of $FeCl_3$ (ferric chloride) and $K_4[Fe(CN)_6]$ (potassium ferrocyanide). Under UV/sunlight, $Fe^{3+}$ is reduced to $Fe^{2+}$ which reacts with $[Fe(CN)_6]^{4-}$ to form Turnbull's blue (prussian blue).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "D and F Block Elements",
+    "question": "Identify the incorrect statement among the following:",
+    "question_latex": "Identify the incorrect statement among the following:",
+    "question_images": [],
+    "options": [
+      "A. $4f$ and $5f$ orbitals are equally shielded.",
+      "B. $d$-Block elements show irregular and erratic chemical properties among themselves.",
+      "C. La and Lu have partially filled $d$-orbitals and no other partially filled orbitals.",
+      "D. The chemistry of various lanthanoids is very similar."
+    ],
+    "option_images": [],
+    "answer": "A. $4f$ and $5f$ orbitals are equally shielded.",
+    "solution": "$4f$ orbital is nearer to nucleus as compared to $5f$ orbital, therefore, shielding of $4f$ is more than $5f$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "D and F Block Elements",
+    "question": "The standard redox potentials for the reactions Mn2+ + 2e− → Mn and Mn3+ + e− → Mn2+ are −1.18 V and 1.51 V respectively. What is the redox potential for the reaction Mn3+ + 3e− → Mn?",
+    "question_latex": "The standard redox potentials for the reactions $Mn^{2+} + 2e^- \\rightarrow Mn$ and $Mn^{3+} + e^- \\rightarrow Mn^{2+}$ are $-1.18$ V and $1.51$ V respectively. What is the redox potential for the reaction $Mn^{3+} + 3e^- \\rightarrow Mn$?",
+    "question_images": [],
+    "options": [
+      "A. 0.33 V",
+      "B. 1.69 V",
+      "C. −0.28 V",
+      "D. −0.85 V"
+    ],
+    "option_images": [],
+    "answer": "C. −0.28 V",
+    "solution": "Using $\\Delta G^\\circ = -nFE^\\circ$:\n$\\Delta G_1^\\circ = -2F(-1.18) = 2.36F$ (for $Mn^{2+} + 2e^- \\rightarrow Mn$)\n$\\Delta G_2^\\circ = -1F(1.51) = -1.51F$ (for $Mn^{3+} + e^- \\rightarrow Mn^{2+}$)\nFor $Mn^{3+} + 3e^- \\rightarrow Mn$: $\\Delta G^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ = 2.36F - 1.51F = 0.85F$\n$E^\\circ = -\\frac{0.85F}{3F} = -0.28$ V",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "D and F Block Elements",
+    "question": "A reduction in atomic size with increase in atomic number is a characteristic of elements of",
+    "question_latex": "A reduction in atomic size with increase in atomic number is a characteristic of elements of",
+    "question_images": [],
+    "options": [
+      "A. high atomic masses",
+      "B. $d$-block",
+      "C. f-block",
+      "D. radioactive series"
+    ],
+    "option_images": [],
+    "answer": "C. f-block",
+    "solution": "Lanthanide contraction results into decrease in atomic and ionic radii in f-block elements.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "D and F Block Elements",
+    "question": "Electronic configuration of a transition element X in +3 oxidation state is [Ar]3d5. What is its atomic number?",
+    "question_latex": "Electronic configuration of a transition element $X$ in $+3$ oxidation state is $[Ar]3d^5$. What is its atomic number?",
+    "question_images": [],
+    "options": [
+      "A. 25",
+      "B. 26",
+      "C. 27",
+      "D. 24"
+    ],
+    "option_images": [],
+    "answer": "B. 26",
+    "solution": "In $+3$ oxidation state, the element has $[Ar]3d^5$ configuration. This means it lost 3 electrons to achieve this. Adding back 3 electrons: $[Ar]3d^5 \\rightarrow [Ar]4s^23d^6$. This corresponds to $Fe$ with atomic number 26.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "D and F Block Elements",
+    "question": "Which of the following is not an actinide?",
+    "question_latex": "Which of the following is not an actinide?",
+    "question_images": [],
+    "options": [
+      "A. Curium",
+      "B. Californium",
+      "C. Uranium",
+      "D. Terbium"
+    ],
+    "option_images": [],
+    "answer": "D. Terbium",
+    "solution": "Terbium (Tb, atomic number 65) is a lanthanide, not an actinide. Curium (96), Californium (98), and Uranium (92) are all actinides.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "D and F Block Elements",
+    "question": "The standard electrode potential (M3+/M2+) for V, Cr, Mn and Co are −0.26 V, −0.41 V, +1.57 V and +1.97 V respectively. The metal ions which can liberate H2 from a dilute acid are (Jan 2023)",
+    "question_latex": "The standard electrode potential $(M^{3+}/M^{2+})$ for V, Cr, Mn and Co are $-0.26$ V, $-0.41$ V, $+1.57$ V and $+1.97$ V respectively. The metal ions which can liberate $H_2$ from a dilute acid are",
+    "question_images": [],
+    "options": [
+      "A. $Mn^{2+}$ and $Co^{2+}$",
+      "B. $V^{2+}$ and $Mn^{2+}$",
+      "C. $Cr^{2+}$ and $Co^{2+}$",
+      "D. $V^{2+}$ and $Cr^{2+}$"
+    ],
+    "option_images": [],
+    "answer": "D. $V^{2+}$ and $Cr^{2+}$",
+    "solution": "Metals having negative reduction potential can reduce hydrogen from dilute acid. $V^{2+}/V^{3+}$ has $E^\\circ = -0.26$ V and $Cr^{2+}/Cr^{3+}$ has $E^\\circ = -0.41$ V. Both are negative, so $V^{2+}$ and $Cr^{2+}$ can liberate $H_2$ from dilute acids.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "D and F Block Elements",
+    "question": "Metallic radii of some transition elements are given below. Which of these elements will have highest density? Element: Fe, Co, Ni, Cu. Metallic radii/pm: 126, 125, 125, 128",
+    "question_latex": "Metallic radii of some transition elements are given below. Which of these elements will have highest density? Element: Fe, Co, Ni, Cu. Metallic radii/pm: 126, 125, 125, 128",
+    "question_images": [],
+    "options": [
+      "A. Fe",
+      "B. Ni",
+      "C. Co",
+      "D. Cu"
+    ],
+    "option_images": [],
+    "answer": "D. Cu",
+    "solution": "Density is proportional to atomic mass and inversely proportional to atomic volume. Cu has the highest atomic mass (63.5) among the four elements and a comparable radius (128 pm), giving it the highest density.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "D and F Block Elements",
+    "question": "The Mohr's salt is shown by",
+    "question_latex": "The Mohr's salt is shown by",
+    "question_images": [],
+    "options": [
+      "A. $FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$",
+      "B. $FeSO_4 \\cdot (NH_3)_2SO_4 \\cdot 6H_2O$",
+      "C. $K_2SO_4 \\cdot Al_2(SO_4)_3 \\cdot 24H_2O$",
+      "D. $FeSO_2 \\cdot (NH_4)_4SO_4 \\cdot 6H_2O$"
+    ],
+    "option_images": [],
+    "answer": "A. $FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$",
+    "solution": "Mohr's salt is ferrous ammonium sulphate with formula $FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "D and F Block Elements",
+    "question": "Which of the following mixture is chromic acid",
+    "question_latex": "Which of the following mixture is chromic acid",
+    "question_images": [],
+    "options": [
+      "A. $K_2Cr_2O_7 + HCl$",
+      "B. $K_2SO_4 + conc. H_2SO_4$",
+      "C. $K_2Cr_2O_7 + conc. H_2SO_4$",
+      "D. $H_2SO_4 + HCl$"
+    ],
+    "option_images": [],
+    "answer": "C. $K_2Cr_2O_7 + conc. H_2SO_4$",
+    "solution": "Chromic acid is formed by dissolving $K_2Cr_2O_7$ in concentrated $H_2SO_4$. It contains $CrO_3$ as the active oxidising species.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "D and F Block Elements",
+    "question": "In Na2[Fe(CN)5NO], sodium nitroprusside,",
+    "question_latex": "In $Na_2[Fe(CN)_5NO]$, sodium nitroprusside,",
+    "question_images": [],
+    "options": [
+      "A. Oxidation state of Fe is +2",
+      "B. This has $NO^+$ as ligand",
+      "C. Both (a) and (b)",
+      "D. None of the above is correct"
+    ],
+    "option_images": [],
+    "answer": "C. Both (a) and (b)",
+    "solution": "$NO \\rightarrow NO^+ + e^-$\n$Fe^{3+} + e^- \\rightarrow Fe^{2+}$\nOxidation state of $Fe$ is $+2$ and $NO^+$ is the ligand.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "D and F Block Elements",
+    "question": "The compound that get oxidized even on exposure to air is",
+    "question_latex": "The compound that get oxidized even on exposure to air is",
+    "question_images": [],
+    "options": [
+      "A. $Fe_2O_3$",
+      "B. $FeCl_2$",
+      "C. $FeCl_3$",
+      "D. $Fe_2(SO_4)_3$"
+    ],
+    "option_images": [],
+    "answer": "B. $FeCl_2$",
+    "solution": "$FeCl_2$ contains $Fe^{2+}$ which is easily oxidised by atmospheric oxygen to $Fe^{3+}$, forming $FeCl_3$. The other compounds already have iron in the $+3$ state or are stable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "D and F Block Elements",
+    "question": "Which one of the following transition elements does not exhibit variable oxidation state?",
+    "question_latex": "Which one of the following transition elements does not exhibit variable oxidation state?",
+    "question_images": [],
+    "options": [
+      "A. Ni",
+      "B. Fe",
+      "C. Cu",
+      "D. Sc"
+    ],
+    "option_images": [],
+    "answer": "D. Sc",
+    "solution": "Sc does not show variable valency. Sc has electronic configuration $[Ar]3d^14s^2$ and always shows $+3$ oxidation state by losing all 3 valence electrons.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "D and F Block Elements",
+    "question": "Which of the following is the use of potassium permanganate?",
+    "question_latex": "Which of the following is the use of potassium permanganate?",
+    "question_images": [],
+    "options": [
+      "A. Bleaching of wool, cotton and silk fibers.",
+      "B. Decolourisation of oils.",
+      "C. In analytical chemistry.",
+      "D. All of these."
+    ],
+    "option_images": [],
+    "answer": "D. All of these.",
+    "solution": "Potassium permanganate ($KMnO_4$) is a versatile oxidising agent used for bleaching wool, cotton and silk fibers, decolourisation of oils, and widely in analytical chemistry (redox titrations).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "D and F Block Elements",
+    "question": "Identify the element for which electronic configuration in +3 oxidation state is [Ar]3d5. (Sept 2021)",
+    "question_latex": "Identify the element for which electronic configuration in $+3$ oxidation state is $[Ar]3d^5$. (Sept 2021)",
+    "question_images": [],
+    "options": [
+      "A. Mn",
+      "B. Ru",
+      "C. Co",
+      "D. Fe"
+    ],
+    "option_images": [],
+    "answer": "D. Fe",
+    "solution": "Fe(26): $[Ar]4s^23d^6 \\rightarrow$ in $+3$ state: $[Ar]3d^5$\nMn(25): $[Ar]4s^23d^5 \\rightarrow$ in $+3$ state: $[Ar]3d^4$\nCo(27): $[Ar]4s^23d^7 \\rightarrow$ in $+3$ state: $[Ar]3d^6$\nRu(44): $[Kr]4d^75s^1 \\rightarrow$ in $+3$ state: $[Kr]4d^5$\nFe gives $[Ar]3d^5$ in $+3$ state.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "D and F Block Elements",
+    "question": "The number of unpaired electrons in a nickel atom in ground state are (At. No. of Ni = 28)",
+    "question_latex": "The number of unpaired electrons in a nickel atom in ground state are (At. No. of $Ni = 28$)",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 3",
+      "D. 7"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "$Ni(28)$: $[Ar]3d^84s^2$ contains 2 unpaired electrons in the $3d^8$ configuration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "D and F Block Elements",
+    "question": "Which of the following is most stable among Cu+, Fe+, Fe2+ and Fe3+?",
+    "question_latex": "Which of the following is most stable among $Cu^+$, $Fe^+$, $Fe^{2+}$ and $Fe^{3+}$?",
+    "question_images": [],
+    "options": [
+      "A. $Cu^+$",
+      "B. $Fe^+$",
+      "C. $Fe^{2+}$",
+      "D. $Fe^{3+}$"
+    ],
+    "option_images": [],
+    "answer": "A. $Cu^+$",
+    "solution": "$Fe^{3+}$: $[Ar]3d^5$ - half-filled d-orbital, stable\n$Cu^+$: $[Ar]3d^{10}$ - completely filled d-orbital, most stable\n$Cu^+$ with completely filled $3d^{10}$ configuration is the most stable.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "D and F Block Elements",
+    "question": "Roasting of HgS in air produces:",
+    "question_latex": "Roasting of $HgS$ in air produces:",
+    "question_images": [],
+    "options": [
+      "A. HgO",
+      "B. $HgSO_3$",
+      "C. $HgSO_4$",
+      "D. Hg"
+    ],
+    "option_images": [],
+    "answer": "D. Hg",
+    "solution": "$2HgS + 3O_2 \\rightarrow 2HgO + 2SO_2$\n$2HgO + HgS \\rightarrow 3Hg + SO_2$\nFinal product is mercury metal (Hg).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "D and F Block Elements",
+    "question": "Which of the following is amphoteric oxide? Mn2O7, CrO3, Cr2O3, CrO, V2O5, V2O4",
+    "question_latex": "Which of the following is amphoteric oxide? $Mn_2O_7$, $CrO_3$, $Cr_2O_3$, $CrO$, $V_2O_5$, $V_2O_4$",
+    "question_images": [],
+    "options": [
+      "A. $V_2O_5, Cr_2O_3$",
+      "B. $Mn_2O_7, CrO_3$",
+      "C. $CrO, V_2O_5$",
+      "D. $V_2O_5, V_2O_4$"
+    ],
+    "option_images": [],
+    "answer": "A. $V_2O_5, Cr_2O_3$",
+    "solution": "$V_2O_5$ and $Cr_2O_3$ are amphoteric oxides - they react with both acids and bases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "D and F Block Elements",
+    "question": "Na2S2O3",
+    "question_latex": "$Na_2S_2O_3$",
+    "question_images": [],
+    "options": [
+      "A. Reduces $Cu^{2+}$ to $Cu^+$",
+      "B. Reduces $I_2$ to $I^-$",
+      "C. Complexes $AgBr$ as $[Ag(S_2O_3)_2]^{3-}$",
+      "D. Undergoes all the above are correct"
+    ],
+    "option_images": [],
+    "answer": "D. Undergoes all the above are correct",
+    "solution": "$Na_2S_2O_3$ (sodium thiosulphate) can reduce $Cu^{2+}$ to $Cu^+$, reduce $I_2$ to $I^-$ (used in iodometric titrations), and complexes $AgBr$ as $[Ag(S_2O_3)_2]^{3-}$ (used in photography as fixing agent).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "D and F Block Elements",
+    "question": "A red solid is insoluble in water. However, it becomes soluble if some KI is added to water. Heating the red solid in a test tube results in liberation of some violet coloured fumes and droplets of a metal appear on the cooler parts of the test tube. The red solid is",
+    "question_latex": "A red solid is insoluble in water. However, it becomes soluble if some KI is added to water. Heating the red solid in a test tube results in liberation of some violet coloured fumes and droplets of a metal appear on the cooler parts of the test tube. The red solid is",
+    "question_images": [],
+    "options": [
+      "A. $(NH_4)_2Cr_2O_7$",
+      "B. $HgI_2$",
+      "C. $HgO$",
+      "D. $Pb_3O_4$"
+    ],
+    "option_images": [],
+    "answer": "B. $HgI_2$",
+    "solution": "$HgI_2 + 2KI \\rightarrow K_2HgI_4$ (soluble complex)\n$HgI_2 \\xrightarrow{\\Delta} Hg + I_2$ (violet fumes)\nMercury droplets appear on cooler parts of the test tube.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "D and F Block Elements",
+    "question": "At 300°C, FeCl3",
+    "question_latex": "At $300°C$, $FeCl_3$",
+    "question_images": [],
+    "options": [
+      "A. Decomposes into $FeCl_2$ and $Cl_2$",
+      "B. Decomposes into $Fe$ and $Cl_2$",
+      "C. Sublimes to give liquid $FeCl_3$",
+      "D. Sublimes to give gaseous dimer $(FeCl_3)_2$"
+    ],
+    "option_images": [],
+    "answer": "D. Sublimes to give gaseous dimer $(FeCl_3)_2$",
+    "solution": "At $300°C$, $FeCl_3$ sublimes to give gaseous dimer $(FeCl_3)_2$. The dimer is formed by sharing of chlorine atoms between two $FeCl_3$ units.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "D and F Block Elements",
+    "question": "Transition metals show catalytic activity",
+    "question_latex": "Transition metals show catalytic activity",
+    "question_images": [],
+    "options": [
+      "A. Due to their ability to form complexes.",
+      "B. Due to their ability to show multiple oxidation state.",
+      "C. Due to availability of $d$ orbitals for bond formation.",
+      "D. Both (a) and (b)."
+    ],
+    "option_images": [],
+    "answer": "D. Both (a) and (b).",
+    "solution": "Transition metals show catalytic activity due to their ability to form complexes (which can act as intermediates) and their ability to show multiple oxidation states (which allows them to accept and donate electrons in catalytic cycles).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

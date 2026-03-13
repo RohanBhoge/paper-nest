@@ -1,0 +1,2018 @@
+[
+  {
+    "id": 1,
+    "chapter": "Current Electricity",
+    "question": "A battery of e.m.f. 10 V and internal resistance 0.5 $\\Omega$ is connected across a variable resistance R. The value of R for which the power delivered in it is maximum is given by",
+    "question_latex": "A battery of e.m.f. $10~V$ and internal resistance $0.5~\\Omega$ is connected across a variable resistance $R$. The value of $R$ for which the power delivered in it is maximum is given by",
+    "question_images": [],
+    "options": [
+      "A. 0.5 $\\Omega$",
+      "B. 1.0 $\\Omega$",
+      "C. 2.0 $\\Omega$",
+      "D. 0.25 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "A. 0.5 $\\Omega$",
+    "solution": "According to maximum power theorem, the power in the circuit is maximum if the value of external resistance is equal to the internal resistance of battery. Thus $R = r = 0.5~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Current Electricity",
+    "question": "A cable of resistance 10 $\\Omega$ carries electric power from a generator producing 250 kW at 10,000 V. The current in the cable is",
+    "question_latex": "A cable of resistance $10~\\Omega$ carries electric power from a generator producing $250~kW$ at $10,000~V$. The current in the cable is",
+    "question_images": [],
+    "options": [
+      "A. 1,000 A",
+      "B. 250 A",
+      "C. 100 A",
+      "D. 25 A"
+    ],
+    "option_images": [],
+    "answer": "D. 25 A",
+    "solution": "$P = VI \\Rightarrow I = \\frac{P}{V} = \\frac{250 \\times 1000}{10000} = 25~A$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Current Electricity",
+    "question": "In the circuit shown (Figure), the batteries have e.m.f. $E_{1}=E_{2}=1~V, E_{3}=2.5~V$ and the resistance $R_{1}=10\\Omega$, $R_{2}=20\\Omega$, capacitance $C=10\\mu F.$ The charge on the left plate of the capacitor C at steady state is",
+    "question_latex": "In the circuit shown (Figure), the batteries have e.m.f. $E_{1}=E_{2}=1~V, E_{3}=2.5~V$ and the resistance $R_{1}=10\\Omega$, $R_{2}=20\\Omega$, capacitance $C=10\\mu F.$ The charge on the left plate of the capacitor $C$ at steady state is",
+    "question_images": [
+      "3_qu_1.png"
+    ],
+    "options": [
+      "A. $+2~\\mu C$",
+      "B. $-4~\\mu C$",
+      "C. $-5~\\mu C$",
+      "D. $+12~\\mu C$"
+    ],
+    "option_images": [],
+    "answer": "C. $-5~\\mu C$",
+    "solution": "Current $i = \\frac{2.5 - 1}{30} = 0.05 A$. Applying KVL: $-20i + 2.5 = V_{capacitor} + 1 \\Rightarrow V_{capacitor} = 1.5 - 20(0.05) = 1.5 - 1 = 0.5 V$. The left plate is connected to the negative terminal side relative to the potential drop, so charge is negative. $q = -CV = -10 \\times 0.5 = -5~\\mu C$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Current Electricity",
+    "question": "What is the equivalent resistance between points A and B in the circuit if figure, if R = 3 $\\Omega$?",
+    "question_latex": "What is the equivalent resistance between points $A$ and $B$ in the circuit if figure, if $R=3~\\Omega$?",
+    "question_images": [
+      "4_qu_1.png"
+    ],
+    "options": [
+      "A. 8 $\\Omega$",
+      "B. 9 $\\Omega$",
+      "C. 12 $\\Omega$",
+      "D. 15 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "A. 8 $\\Omega$",
+    "solution": "Effective resistance of three resistances between C and D:- $R_{CD} = \\frac{R \\times 2R}{R + 2R} = \\frac{2}{3}R$. Total resistance $R_{AB} = R + \\frac{2}{3}R + R = \\frac{8}{3}R$. Given $R=3$, $R_{AB} = \\frac{8}{3}(3) = 8~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Current Electricity",
+    "question": "Nichrome or Manganin is widely used in wire bound standard resistors because of their",
+    "question_latex": "Nichrome or Manganin is widely used in wire bound standard resistors because of their",
+    "question_images": [],
+    "options": [
+      "A. temperature independent resistivity",
+      "B. very weak temperature dependent resistivity.",
+      "C. strong dependence of resistivity with temperature.",
+      "D. mechanical strength."
+    ],
+    "option_images": [],
+    "answer": "B. very weak temperature dependent resistivity.",
+    "solution": "These materials exhibit a very weak dependence of resistivity on temperature. Their resistance values change very little with temperature.",
+    "solution_images": [
+      "5_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Current Electricity",
+    "question": "The resistance of all the wires between any two adjacent dots is R. The equivalent resistance between A and B as shown in Fig. is",
+    "question_latex": "The resistance of all the wires between any two adjacent dots is $R$. The equivalent resistance between $A$ and $B$ as shown in Fig. is",
+    "question_images": [
+      "6_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{7}{3}R$",
+      "B. $\\frac{7}{6}R$",
+      "C. $\\frac{14}{8}R$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{7}{6}R$",
+    "solution": "$R_{AB} = \\frac{7}{6}R$. (Standard result for this specific grid lattice configuration).",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Current Electricity",
+    "question": "The equivalent resistance between points A and B of an infinite network of resistances each of 1 $\\Omega$ connected as shown in figure, is",
+    "question_latex": "The equivalent resistance between points $A$ and $B$ of an infinite network of resistances each of $1~\\Omega$ connected as shown in figure, is",
+    "question_images": [
+      "7_qu_1.png"
+    ],
+    "options": [
+      "A. Infinite",
+      "B. Zero",
+      "C. 2 $\\Omega$",
+      "D. $(1+\\sqrt{5})/2~\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "D. $(1+\\sqrt{5})/2~\\Omega$",
+    "solution": "Let $x$ be the total resistance. Since it's infinite, adding one more stage doesn't change it. $x = 1 + \\frac{1 \\cdot x}{1 + x} = \\frac{1 + 2x}{1 + x}$. Solving $x^2 - x - 1 = 0$, we get $x = \\frac{1 \\pm \\sqrt{5}}{2}$. Since resistance is positive, $x = \\frac{1 + \\sqrt{5}}{2}~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Current Electricity",
+    "question": "In a meter bridge experiment, null point is obtained at 20cm from one end of the wire when resistance X is balanced against another resistance Y. If X<Y, then where will be the new position of the null point from the same end, if one decides to, balance a resistance of 4X against Y?",
+    "question_latex": "In a meter bridge experiment, null point is obtained at $20cm$ from one end of the wire when resistance $X$ is balanced against another resistance $Y$. If $X<Y$, then where will be the new position of the null point from the same end, if one decides to, balance a resistance of $4X$ against $Y$?",
+    "question_images": [],
+    "options": [
+      "A. 50 cm",
+      "B. 80 cm",
+      "C. 40 cm",
+      "D. 70 cm"
+    ],
+    "option_images": [],
+    "answer": "A. 50 cm",
+    "solution": "Case 1: $\\frac{X}{Y} = \\frac{20}{80} = \\frac{1}{4}$. Case 2: Resistance is $4X$. $\\frac{4X}{Y} = \\frac{l}{100-l}$. Substituting ratio: $4(\\frac{1}{4}) = \\frac{l}{100-l} \\Rightarrow 1 = \\frac{l}{100-l} \\Rightarrow 100-l = l \\Rightarrow l = 50$ cm.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Current Electricity",
+    "question": "A capacitor is charged and then made to discharge through a resistance. The time constant is $\\tau$. In what time will the potential difference across the capacitor decreases by 10%?",
+    "question_latex": "A capacitor is charged and then made to discharge through a resistance. The time constant is $\\tau$. In what time will the potential difference across the capacitor decreases by 10%?",
+    "question_images": [],
+    "options": [
+      "A. $\\tau \\ln(0.1)$",
+      "B. $\\tau \\ln(0.9)$",
+      "C. $\\tau \\ln(10/9)$",
+      "D. $\\tau \\ln(11/10)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\tau \\ln(10/9)$",
+    "solution": "Potential decreases *by* 10%, so it becomes 90% of initial. $V = 0.9 V_0$. $V = V_0 e^{-t/\\tau} \\Rightarrow 0.9 = e^{-t/\\tau} \\Rightarrow e^{t/\\tau} = \\frac{1}{0.9} = \\frac{10}{9}$. $t = \\tau \\ln(10/9)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Current Electricity",
+    "question": "A 25 W and 100 W bulbs are joined in series and connected to the mains. Which bulb will glow brighter?",
+    "question_latex": "A $25~W$ and $100~W$ bulbs are joined in series and connected to the mains. Which bulb will glow brighter?",
+    "question_images": [],
+    "options": [
+      "A. 25 W bulb",
+      "B. 100 W bulb",
+      "C. Both bulb will glow brighter",
+      "D. None will glow brighter"
+    ],
+    "option_images": [],
+    "answer": "A. 25 W bulb",
+    "solution": "Resistance $R = V^2/P$. $R_{25} > R_{100}$. In series, current $I$ is same. Power consumed $P = I^2 R$. Since $R_{25} > R_{100}$, $P_{25} > P_{100}$. The 25 W bulb glows brighter.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Current Electricity",
+    "question": "When a potential difference V is applied across a conductor at a temperature T, the drift velocity of electrons is proportional to",
+    "question_latex": "When a potential difference $V$ is applied across a conductor at a temperature $T$, the drift velocity of electrons is proportional to",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{V}$",
+      "B. V",
+      "C. $\\sqrt{T}$",
+      "D. T"
+    ],
+    "option_images": [],
+    "answer": "B. V",
+    "solution": "Drift velocity $v_d = \\frac{eE\\tau}{m} = \\frac{eV\\tau}{mL}$. Thus $v_d \\propto V$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Current Electricity",
+    "question": "The value of unknown resistance (x) for which the potential difference between B and D will be zero in the arrangement shown, is:",
+    "question_latex": "The value of unknown resistance ($x$) for which the potential difference between $B$ and $D$ will be zero in the arrangement shown, is:",
+    "question_images": [
+      "12_qu_1.png"
+    ],
+    "options": [
+      "A. 3 $\\Omega$",
+      "B. 42 $\\Omega$",
+      "C. 6 $\\Omega$",
+      "D. 9 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "C. 6 $\\Omega$",
+    "solution": "For potential difference between B and D to be zero, the Wheatstone bridge must be balanced. $\\frac{12}{6+x} = \\frac{0.5}{0.5} \\Rightarrow 12 = 6+x \\Rightarrow x = 6~\\Omega$.",
+    "solution_images": [
+      "12_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Current Electricity",
+    "question": "The charge flowing through a resistance R varies with time t as $Q=at-bt^{2}$. The total heat produced in R is",
+    "question_latex": "The charge flowing through a resistance $R$ varies with time $t$ as $Q=at-bt^{2}$. The total heat produced in $R$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{a^{3}R}{6b}$",
+      "B. $\\frac{a^{3}R}{3b}$",
+      "C. $\\frac{a^{3}R}{2b}$",
+      "D. $\\frac{a^{3}R}{b}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{a^{3}R}{6b}$",
+    "solution": "$I = \\frac{dQ}{dt} = a - 2bt$. Current stops when $I=0 \\Rightarrow t = a/2b$. Total heat $H = \\int_0^{a/2b} I^2 R dt = R \\int_0^{a/2b} (a-2bt)^2 dt = \\frac{a^3 R}{6b}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Current Electricity",
+    "question": "The thermistors are usually made of",
+    "question_latex": "The thermistors are usually made of",
+    "question_images": [],
+    "options": [
+      "A. metals with high temperature coefficient of resistivity",
+      "B. metals with low temperature coefficient of resistivity",
+      "C. metal oxides with high temperature coefficient of resistivity",
+      "D. semiconducting materials having low temperature coefficient of resistivity."
+    ],
+    "option_images": [],
+    "answer": "C. metal oxides with high temperature coefficient of resistivity",
+    "solution": "Thermistors are typically made of metal oxides (semiconductors) which have a high negative temperature coefficient of resistivity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Current Electricity",
+    "question": "In the given circuit the internal resistance of the 18 V cell is negligible. If $R_{1}=400\\Omega, R_{3}=100\\Omega$ and $R_{4}=500\\Omega$ and the reading of an ideal voltmeter across $R_{4}$ is 5 V, then the value of $R_{2}$ will be",
+    "question_latex": "In the given circuit the internal resistance of the $18~V$ cell is negligible. If $R_{1}=400\\Omega, R_{3}=100\\Omega$ and $R_{4}=500\\Omega$ and the reading of an ideal voltmeter across $R_{4}$ is $5~V$, then the value of $R_{2}$ will be",
+    "question_images": [
+      "15_qu_1.png"
+    ],
+    "options": [
+      "A. 230 $\\Omega$",
+      "B. 450 $\\Omega$",
+      "C. 550 $\\Omega$",
+      "D. 300 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "D. 300 $\\Omega$",
+    "solution": "Current in branch with $R_4$: $I_1 = V_4/R_4 = 5/500 = 0.01 A$. Voltage across $R_3$: $V_3 = I_1 R_3 = 0.01 \\times 100 = 1 V$. Total voltage across parallel branch ($R_3+R_4$) is $V_2 = 5+1 = 6 V$. Total voltage is 18V, so voltage across $R_1$ is $18-6=12V$. Total current $I = 12/400 = 0.03 A$. Current in $R_2$ branch is $I_2 = I - I_1 = 0.03 - 0.01 = 0.02 A$. $R_2 = V_2/I_2 = 6/0.02 = 300 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Current Electricity",
+    "question": "A galvanmeter has a coil of resistance 200 $\\Omega$ with a full scale deflection at 20 $\\mu$A. The value of resistance to be added to use it as an ammeter of range (0-20) mA is:",
+    "question_latex": "A galvanmeter has a coil of resistance $200~\\Omega$ with a full scale deflection at $20~\\mu A$. The value of resistance to be added to use it as an ammeter of range $(0-20)~mA$ is:",
+    "question_images": [],
+    "options": [
+      "A. 0.40 $\\Omega$",
+      "B. 0.20 $\\Omega$",
+      "C. 0.50 $\\Omega$",
+      "D. 0.10 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "B. 0.20 $\\Omega$",
+    "solution": "$S = \\frac{I_g G}{I - I_g} \\approx \\frac{I_g G}{I} = \\frac{20 \\times 10^{-6} \\times 200}{20 \\times 10^{-3}} = \\frac{4000 \\times 10^{-6}}{20 \\times 10^{-3}} = 0.2~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Current Electricity",
+    "question": "Each of the resistors shown in the figure has resistance R. Find the equivalent resistance between A and B.",
+    "question_latex": "Each of the resistors shown in the figure has resistance $R$. Find the equivalent resistance between $A$ and $B$.",
+    "question_images": [
+      "17_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{7R}{4}$",
+      "B. $\\frac{5R}{4}$",
+      "C. $\\frac{9R}{4}$",
+      "D. $\\frac{11R}{4}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{11R}{4}$",
+    "solution": "The circuit simplifies due to symmetry and connections. The middle part forms a balanced structure or simple parallel/series combinations. $R_{eq} = R + \\frac{3R}{4} + R = \\frac{11R}{4}$.",
+    "solution_images": [
+      "17_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Current Electricity",
+    "question": "A 1 µF capacitor holding a charge of $1\\times10^{-5}C$ is connected to a 10 $\\Omega$ resistor via a switch. What current will flow after the switch is closed?",
+    "question_latex": "A $1~\\mu F$ capacitor holding a charge of $1\\times10^{-5}C$ is connected to a $10~\\Omega$ resistor via a switch. What current will flow after the switch is closed?",
+    "question_images": [
+      "18_qu_1.png"
+    ],
+    "options": [
+      "A. 0",
+      "B. $10^{-5}$ A",
+      "C. 1 A",
+      "D. 10 A"
+    ],
+    "option_images": [],
+    "answer": "C. 1 A",
+    "solution": "Initial voltage $V = Q/C = \\frac{10^{-5}}{10^{-6}} = 10~V$. Current $I = V/R = 10/10 = 1~A$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Current Electricity",
+    "question": "Two capacitors $C_{1}$ and $C_{2} (C_{1} > C_{2})$ are charged separately to same potential. Now they are allowed to discharge through similar resistors. Initial rate of discharging will be",
+    "question_latex": "Two capacitors $C_{1}$ and $C_{2} (C_{1} > C_{2})$ are charged separately to same potential. Now they are allowed to discharge through similar resistors. Initial rate of discharging will be",
+    "question_images": [],
+    "options": [
+      "A. More for $C_{1}$",
+      "B. More for $C_{2}$",
+      "C. Same for both",
+      "D. Cannot say"
+    ],
+    "option_images": [],
+    "answer": "C. Same for both",
+    "solution": "Initial rate of discharging is the initial current $I_0 = V/R$. Since both are charged to the same potential $V$ and discharge through similar resistors $R$, the initial current is the same.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Current Electricity",
+    "question": "The resistance of a wire is 5 $\\Omega$. It's new resistance in ohm if stretched to 5 times of it's original length will be",
+    "question_latex": "The resistance of a wire is $5~\\Omega$. It's new resistance in ohm if stretched to 5 times of it's original length will be",
+    "question_images": [],
+    "options": [
+      "A. 125",
+      "B. 5",
+      "C. 25",
+      "D. 625"
+    ],
+    "option_images": [],
+    "answer": "A. 125",
+    "solution": "When stretched to $n$ times length, resistance becomes $n^2 R$. Here $n=5$, $R=5$. $R' = 5^2 \\times 5 = 25 \\times 5 = 125~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Current Electricity",
+    "question": "A piece of copper and another of germanium are cooled from room temperature to 80 K. The resistance of",
+    "question_latex": "A piece of copper and another of germanium are cooled from room temperature to $80~K$. The resistance of",
+    "question_images": [],
+    "options": [
+      "A. Each of them increases",
+      "B. Each of them decreases",
+      "C. Copper increases and germanium decreases",
+      "D. Copper decreases and germanium increases"
+    ],
+    "option_images": [],
+    "answer": "D. Copper decreases and germanium increases",
+    "solution": "Copper is a metal (resistance decreases with temperature drop). Germanium is a semiconductor (resistance increases with temperature drop).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Current Electricity",
+    "question": "An electric appliance supplies 6000 J per min heat to the system. If the system delivers a power of 90 W, how long it would take to increase the internal energy by $2.5\\times10^{3}$ J?",
+    "question_latex": "An electric appliance supplies $6000~J$ per min heat to the system. If the system delivers a power of $90~W$, how long it would take to increase the internal energy by $2.5\\times10^{3}~J$?",
+    "question_images": [],
+    "options": [
+      "A. $2.5\\times10^{1}$ s",
+      "B. $2.5\\times10^{2}$ s",
+      "C. $2.4\\times10^{3}$ s",
+      "D. $4.1\\times10^{1}$ s"
+    ],
+    "option_images": [],
+    "answer": "B. $2.5\\times10^{2}$ s",
+    "solution": "Heat supplied $\\frac{dQ}{dt} = 6000/60 = 100~W$. Work done by system $\\frac{dW}{dt} = 90~W$. Rate of change of internal energy $\\frac{dU}{dt} = 100 - 90 = 10~W$. Time $t = \\frac{\\Delta U}{dU/dt} = \\frac{2500}{10} = 250~s = 2.5 \\times 10^2~s$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Current Electricity",
+    "question": "Two bulbs when connected in parallel to a source take 100 W each. The total power consumed when they are connected in series with the same source is",
+    "question_latex": "Two bulbs when connected in parallel to a source take $100~W$ each. The total power consumed when they are connected in series with the same source is",
+    "question_images": [],
+    "options": [
+      "A. 25 W",
+      "B. 50 W",
+      "C. 100 W",
+      "D. 200 W"
+    ],
+    "option_images": [],
+    "answer": "B. 50 W",
+    "solution": "Power of each bulb $P = V^2/R = 100$. So $R = V^2/100$. In series, total resistance $2R$. Total power $P' = V^2 / 2R = \\frac{1}{2} (V^2/R) = \\frac{1}{2} (100) = 50~W$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Current Electricity",
+    "question": "A potentiometer wire PQ of 1 m length is connected to a standard cell $E_{1}$. Another cell $E_{2}$ of emf 1.02 V is connected with a resistance 'r' and switch S (as shown in figure). With switch S open, the null position is obtained at a distance of 49 cm from Q. The potential gradient in the potentiometer wire is",
+    "question_latex": "A potentiometer wire $PQ$ of $1~m$ length is connected to a standard cell $E_{1}$. Another cell $E_{2}$ of emf $1.02~V$ is connected with a resistance '$r$' and switch $S$ (as shown in figure). With switch $S$ open, the null position is obtained at a distance of $49~cm$ from $Q$. The potential gradient in the potentiometer wire is",
+    "question_images": [
+      "24_qu_1.png"
+    ],
+    "options": [
+      "A. 0.04 V/cm",
+      "B. 0.02 V/cm",
+      "C. 0.03 V/cm",
+      "D. 0.01 V/cm"
+    ],
+    "option_images": [],
+    "answer": "B. 0.02 V/cm",
+    "solution": "Length $PQ = 100$ cm. Null point from Q is 49 cm, so length from P (balancing length) $l = 100 - 49 = 51$ cm. $E_2 = k l \\Rightarrow 1.02 = k \\times 51 \\Rightarrow k = 1.02/51 = 0.02~V/cm$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Current Electricity",
+    "question": "If in the experiment of Wheatstone's bridge, the positions of cells and galvanometer are interchanged, then balance point will",
+    "question_latex": "If in the experiment of Wheatstone's bridge, the positions of cells and galvanometer are interchanged, then balance point will",
+    "question_images": [],
+    "options": [
+      "A. change",
+      "B. remain unchanged",
+      "C. depend on the internal resistance of cell and resistance of galvanometer",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. remain unchanged",
+    "solution": "The condition for a balanced Wheatstone bridge ($P/Q = R/S$) remains valid even if the galvanometer and battery are interchanged (conjugate arms property).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Current Electricity",
+    "question": "The value of current in the 6 $\\Omega$ resistance is",
+    "question_latex": "The value of current in the $6~\\Omega$ resistance is",
+    "question_images": [
+      "26_qu_1.png"
+    ],
+    "options": [
+      "A. 6 A",
+      "B. 8 A",
+      "C. 4 A",
+      "D. 10 A"
+    ],
+    "option_images": [],
+    "answer": "D. 10 A",
+    "solution": "Using KVL in loops. Loop 1: $140 = 26i_1 + 6i_2$. Loop 2: $90 = 6i_1 + 11i_2$. Solving these equations gives $i_1 = 4A$ and $i_2 = 6A$. Current in $6\\Omega$ resistor (common arm) is $i_1 + i_2 = 4 + 6 = 10A$.",
+    "solution_images": [
+      "26_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Current Electricity",
+    "question": "The charge flowing in a conductor changes with time as $Q(t)=\\alpha t-\\beta t^{2}+\\gamma t^{3}$. Where $\\alpha, \\beta$ and $\\gamma$ are constants. Minimum value of current is",
+    "question_latex": "The charge flowing in a conductor changes with time as $Q(t)=\\alpha t-\\beta t^{2}+\\gamma t^{3}$. Where $\\alpha, \\beta$ and $\\gamma$ are constants. Minimum value of current is",
+    "question_images": [],
+    "options": [
+      "A. $\\alpha-\\frac{\\gamma^{2}}{3\\beta}$",
+      "B. $\\beta-\\frac{3\\gamma}{\\alpha}$",
+      "C. $\\alpha-\\frac{\\beta^{2}}{3\\gamma}$",
+      "D. $\\alpha-\\frac{3\\beta^{2}}{\\gamma}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\alpha-\\frac{\\beta^{2}}{3\\gamma}$",
+    "solution": "$I(t) = dQ/dt = \\alpha - 2\\beta t + 3\\gamma t^2$. For minimum current, $dI/dt = 0 \\Rightarrow -2\\beta + 6\\gamma t = 0 \\Rightarrow t = \\beta / 3\\gamma$. Substitute this $t$ back into $I(t)$: $I_{min} = \\alpha - 2\\beta(\\beta/3\\gamma) + 3\\gamma(\\beta/3\\gamma)^2 = \\alpha - \\frac{2\\beta^2}{3\\gamma} + \\frac{\\beta^2}{3\\gamma} = \\alpha - \\frac{\\beta^2}{3\\gamma}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Current Electricity",
+    "question": "In the given circuit (Figure), when key K is open, reading of ammeter is I. Now key K is closed then the correct statement is",
+    "question_latex": "In the given circuit (Figure), when key $K$ is open, reading of ammeter is $I$. Now key $K$ is closed then the correct statement is",
+    "question_images": [
+      "28_qu_1.png"
+    ],
+    "options": [
+      "A. If $\\epsilon_{1}<IR$, reading of the ammeter is less then I",
+      "B. If $IR<\\epsilon_{1}$, reading of the ammeter is greater than I",
+      "C. If $\\epsilon_{1}<2IR$, reading of the ammeter will be zero",
+      "D. Reading of ammeter will not change"
+    ],
+    "option_images": [],
+    "answer": "B. If $IR<\\epsilon_{1}$, reading of the ammeter is greater than I",
+    "solution": "When K is closed, the circuit has two loops. Analysis shows that the current depends on the EMFs and resistance. If $\\epsilon_1 > IR$ (where $IR = \\epsilon_2$ basically from open state), current increases.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Current Electricity",
+    "question": "The length of a wire of a potentiometer is 100 cm, and the e.m.f. of its standard cell is E volt. It is employed to measure the e.m.f. of a battery whose internal resistance is 0.5 $\\Omega$. If the balance point is obtained at l = 30 cm from the positive end, e.m.f. of the battery is",
+    "question_latex": "The length of a wire of a potentiometer is $100~cm$, and the e.m.f. of its standard cell is $E$ volt. It is employed to measure the e.m.f. of a battery whose internal resistance is $0.5~\\Omega$. If the balance point is obtained at $l=30~cm$ from the positive end, e.m.f. of the battery is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{30E}{100}$",
+      "B. $\\frac{30E}{100.5}$",
+      "C. $\\frac{30E}{(100-0.5)}$",
+      "D. $\\frac{30(E-0.5i)}{100}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{30E}{100}$",
+    "solution": "$V \\propto l$. $\\frac{V}{E} = \\frac{l}{L} \\Rightarrow V = \\frac{30}{100}E$. Potentiometer measures EMF at null point (no current), so internal resistance doesn't affect the reading of EMF.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Current Electricity",
+    "question": "Initially, switch S is connected to position 1 for a long time (Figure) the net amount of heat generated in the circuit after it is shifted to position 2 is",
+    "question_latex": "Initially, switch $S$ is connected to position 1 for a long time (Figure) the net amount of heat generated in the circuit after it is shifted to position 2 is",
+    "question_images": [
+      "30_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{C}{2}(\\epsilon_{1}+\\epsilon_{2})\\epsilon_{2}$",
+      "B. $C(\\epsilon_{1}+\\epsilon_{2})\\epsilon_{2}$",
+      "C. $\\frac{C}{2}(\\epsilon_{1}+\\epsilon_{2})^{2}$",
+      "D. $C(\\epsilon_{1}+\\epsilon_{2})^{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{C}{2}(\\epsilon_{1}+\\epsilon_{2})^{2}$",
+    "solution": "Initial energy $U_1 = \\frac{1}{2}C\\epsilon_1^2$. Final energy $U_2 = \\frac{1}{2}C\\epsilon_2^2$. Charge flow $\\Delta q = C(\\epsilon_2 - (-\\epsilon_1))$? Polarity matters. If shifted, charge changes from $C\\epsilon_1$ to $-C\\epsilon_2$. $\\Delta q = -C\\epsilon_2 - C\\epsilon_1$. Work done by battery $W = \\epsilon_2 \\Delta q$. Heat = Work - Change in Energy. Calculation yields $\\frac{1}{2}C(\\epsilon_1 + \\epsilon_2)^2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Current Electricity",
+    "question": "The charge on the capacitor in steady state in the circuit shown (Figure) is",
+    "question_latex": "The charge on the capacitor in steady state in the circuit shown (Figure) is",
+    "question_images": [
+      "31_qu_1.png"
+    ],
+    "options": [
+      "A. $0.5~\\mu C$",
+      "B. $1~\\mu C$",
+      "C. $2~\\mu C$",
+      "D. $4~\\mu C$"
+    ],
+    "option_images": [],
+    "answer": "B. $1~\\mu C$",
+    "solution": "Calculate potentials at nodes A and B using voltage divider rule or loop currents. $V_A = 3V$, $V_B = 2.5V$. $\\Delta V = 0.5V$. Charge $q = C \\Delta V = 2\\mu F \\times 0.5V = 1~\\mu C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Current Electricity",
+    "question": "$V_{c}$ is the ideal voltmeter in the figure. Resistance of the resistor shown in R. Initially the switch is in position 2 when charging of the capacitor starts. Initially the capacitor was uncharged. The switch in circuit shifts automatically from 2 to 1 when $V_{c}>2V/3$ and goes back to 2 from 1 when $V_{c}<V/3$. The ideal voltmeter reads voltage across capacitor as plotted. What is the period T of the wave form in terms of R and C?",
+    "question_latex": "$V_{c}$ is the ideal voltmeter in the figure. Resistance of the resistor shown in $R$. Initially the switch is in position 2 when charging of the capacitor starts. Initially the capacitor was uncharged. The switch in circuit shifts automatically from 2 to 1 when $V_{c}>2V/3$ and goes back to 2 from 1 when $V_{c}<V/3$. The ideal voltmeter reads voltage across capacitor as plotted. What is the period $T$ of the wave form in terms of $R$ and $C$?",
+    "question_images": [
+      "32_qu_1.png"
+    ],
+    "options": [
+      "A. 3RC ln 3",
+      "B. 2RC ln 2",
+      "C. (RC/2) ln 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2RC ln 2",
+    "solution": "Charging time from $V/3$ to $2V/3$ and discharging time from $2V/3$ to $V/3$. Both processes involve $ln(2)$. Total period $T = t_1 + t_2 = RC \\ln 2 + RC \\ln 2 = 2RC \\ln 2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Current Electricity",
+    "question": "The circuit shown in Figure contains a battery, a rheostat and two identical lamps. What will happen to the brightness of the lamps if the resistance of the rheostat is increased?",
+    "question_latex": "The circuit shown in Figure contains a battery, a rheostat and two identical lamps. What will happen to the brightness of the lamps if the resistance of the rheostat is increased?",
+    "question_images": [
+      "33_qu_1.png"
+    ],
+    "options": [
+      "A. Lamp P: Less bright, Lamp Q: Brighter",
+      "B. Lamp P: Less bright, Lamp Q: Less bright",
+      "C. Lamp P: Brighter, Lamp Q: Less bright",
+      "D. Lamp P: No change, Lamp Q: Less bright"
+    ],
+    "option_images": [],
+    "answer": "A. Lamp P: Less bright, Lamp Q: Brighter",
+    "solution": "Increasing rheostat resistance increases the total resistance of the parallel branch, increasing the voltage across that branch (and Lamp Q) while decreasing the total current (and thus brightness of Lamp P which is in series). Wait, if P is in series with the parallel combo: Total R increases $\\rightarrow$ Total I decreases $\\rightarrow$ P is less bright. Voltage across parallel combo $V_Q = E - I R_P$. If I decreases, term $IR_P$ decreases? No, logic: Voltage divider. $V_Q$ increases. So Q becomes brighter.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Current Electricity",
+    "question": "The deflection in a moving coil galvanometer is reduced to half when it is shunted with a 40 $\\Omega$ coil. The resistance of the galvanometer is",
+    "question_latex": "The deflection in a moving coil galvanometer is reduced to half when it is shunted with a $40~\\Omega$ coil. The resistance of the galvanometer is",
+    "question_images": [],
+    "options": [
+      "A. 15 $\\Omega$",
+      "B. 20 $\\Omega$",
+      "C. 40 $\\Omega$",
+      "D. 80 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "C. 40 $\\Omega$",
+    "solution": "Current divides equally when deflection is halved (assuming linear). $I_g = I/2$. This implies current in shunt is also $I/2$. Thus $G = S = 40~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Current Electricity",
+    "question": "Two wires have lengths, diameters and specific resistances all in the ratio of 1: 2. The resistance of the first wire is 10 $\\Omega$. Resistance of the second wire in ohm will be",
+    "question_latex": "Two wires have lengths, diameters and specific resistances all in the ratio of $1: 2$. The resistance of the first wire is $10~\\Omega$. Resistance of the second wire in ohm will be",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 10",
+      "C. 20",
+      "D. Infinite"
+    ],
+    "option_images": [],
+    "answer": "B. 10",
+    "solution": "Ratio $R_2/R_1 = (\\rho_2/\\rho_1)(l_2/l_1)(d_1/d_2)^2 = (2)(2)(1/2)^2 = 4/4 = 1$. So $R_2 = R_1 = 10~\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Current Electricity",
+    "question": "The equivalent resistance of the given circuit between the terminals A and B is",
+    "question_latex": "The equivalent resistance of the given circuit between the terminals $A$ and $B$ is",
+    "question_images": [
+      "36_qu_1.png"
+    ],
+    "options": [
+      "A. 2 $\\Omega$",
+      "B. 0 $\\Omega$",
+      "C. 3 $\\Omega$",
+      "D. 1 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "D. 1 $\\Omega$",
+    "solution": "Simplifying the circuit (series/parallel reductions shown in solution steps) yields $1~\\Omega$.",
+    "solution_images": [
+      "36_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Current Electricity",
+    "question": "n identical cells, each of e.m.f $\\epsilon$ and internal resistance r, are joined in series to form a closed circuit. One cell A is joined with reversed polarity. The potential difference across each cell, except A, is",
+    "question_latex": "$n$ identical cells, each of e.m.f $\\epsilon$ and internal resistance $r$, are joined in series to form a closed circuit. One cell $A$ is joined with reversed polarity. The potential difference across each cell, except $A$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2\\epsilon}{n}$",
+      "B. $\\frac{n-1}{n}\\epsilon$",
+      "C. $\\frac{n-2}{n}\\epsilon$",
+      "D. $\\frac{2n}{n-2}\\epsilon$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{2\\epsilon}{n}$",
+    "solution": "Total EMF = $(n-1)\\epsilon - \\epsilon = (n-2)\\epsilon$. Total resistance $nr$. Current $i = (n-2)\\epsilon / nr$. PD across normal cell = $\\epsilon - ir = \\epsilon - \\frac{(n-2)\\epsilon}{n} = \\epsilon (1 - \\frac{n-2}{n}) = \\epsilon(\\frac{2}{n}) = \\frac{2\\epsilon}{n}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Current Electricity",
+    "question": "A torch bulb rated as 4.5 W, 1.5 V is connected as shown in fig. The e.m.f. of the cell, needed to make the bulb glow at full intensity is",
+    "question_latex": "A torch bulb rated as $4.5~W, 1.5~V$ is connected as shown in fig. The e.m.f. of the cell, needed to make the bulb glow at full intensity is",
+    "question_images": [
+      "38_qu_1.png"
+    ],
+    "options": [
+      "A. 4.5 V",
+      "B. 1.5 V",
+      "C. 2.67 V",
+      "D. 13.5 V"
+    ],
+    "option_images": [],
+    "answer": "D. 13.5 V",
+    "solution": "Resistance of bulb $R = V^2/P = 1.5^2/4.5 = 0.5 \\Omega$. Circuit analysis involves finding E such that voltage across bulb is 1.5V. Calculation leads to $E = 13.5 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Current Electricity",
+    "question": "Match the Column I and Column II",
+    "question_latex": "Match the Column I and Column II",
+    "question_images": [
+      "39_qu_1.png"
+    ],
+    "options": [
+      "A. A-2, B-1, C-3, D-4",
+      "B. A-1, B-3, C-2, D-4",
+      "C. A-4, B-3, C-2, D-1",
+      "D. A-2, B-1, C-4, D-3"
+    ],
+    "option_images": [],
+    "answer": "B. A-1, B-3, C-2, D-4",
+    "solution": "Ohm's law applies to Metals (1). Not applicable to Diodes/Semiconductors (3). Alloys have Greater resistivity (2). Thermistors are heat sensitive (4).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Current Electricity",
+    "question": "In the given figure, there is a circuit of potentiometer of length AB = 10 m. The resistance per unit length is 0.1 $\\Omega$ per cm. Across AB, a battery of emf E and internal resistance 'r' is connected. The maximum value of emf measured by this potentiometer is",
+    "question_latex": "In the given figure, there is a circuit of potentiometer of length $AB = 10~m$. The resistance per unit length is $0.1~\\Omega$ per cm. Across $AB$, a battery of emf $E$ and internal resistance '$r$' is connected. The maximum value of emf measured by this potentiometer is",
+    "question_images": [
+      "40_qu_1.png"
+    ],
+    "options": [
+      "A. 6 V",
+      "B. 2.25 V",
+      "C. 2.75 V",
+      "D. 5 V"
+    ],
+    "option_images": [],
+    "answer": "D. 5 V",
+    "solution": "Max EMF measured is the potential drop across the wire AB. Total resistance of wire $R = 0.1 \\Omega/cm \\times 1000 cm = 100 \\Omega$. Total circuit resistance $100 + 20 = 120 \\Omega$. Current $I = 6/120$. $V_{AB} = I \\times 100 = (6/120) \\times 100 = 5V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Current Electricity",
+    "question": "If the experiment of Wheatstone bridge, the positions of cells and galvanometer are interchanged, then the balance points will",
+    "question_latex": "If the experiment of Wheatstone bridge, the positions of cells and galvanometer are interchanged, then the balance points will",
+    "question_images": [],
+    "options": [
+      "A. Change",
+      "B. Remain unchanged",
+      "C. Depend on the internal resistance of the cell and resistance of the galvanometer",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Remain unchanged",
+    "solution": "Conjugate arms property of Wheatstone bridge.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Current Electricity",
+    "question": "A motor operating on 100 V draws a current of 1 A. If the efficiency of the motor is 91.6%, then the loss of power in units of cal/s is",
+    "question_latex": "A motor operating on $100~V$ draws a current of $1~A$. If the efficiency of the motor is $91.6\\%$, then the loss of power in units of $cal/s$ is",
+    "question_images": [],
+    "options": [
+      "A. 6.2",
+      "B. 2",
+      "C. 8.4",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Input power $P_{in} = 100 \\times 1 = 100W$. Output $P_{out} = 91.6W$. Loss = $8.4 J/s$. In cal/s: $8.4 / 4.2 = 2 cal/s$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Current Electricity",
+    "question": "If a shunt of 1/10th of the coil resistance is applied to a moving coil galvanometer, its sensitivity becomes",
+    "question_latex": "If a shunt of $1/10th$ of the coil resistance is applied to a moving coil galvanometer, its sensitivity becomes",
+    "question_images": [],
+    "options": [
+      "A. 10-fold",
+      "B. 11-fold",
+      "C. 1/11-fold",
+      "D. 1/10-fold"
+    ],
+    "option_images": [],
+    "answer": "C. 1/11-fold",
+    "solution": "New current sensitivity decreases as current required for full scale increases. Calculation shows it becomes $1/11$ of original.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Current Electricity",
+    "question": "The electric field intensity E, current density J and specific resistance k are related to each other through the relation",
+    "question_latex": "The electric field intensity $E$, current density $J$ and specific resistance $k$ are related to each other through the relation",
+    "question_images": [],
+    "options": [
+      "A. E = J/k",
+      "B. E = Jk",
+      "C. E = k/J",
+      "D. k = JE"
+    ],
+    "option_images": [],
+    "answer": "B. E = Jk",
+    "solution": "$E = \\rho J = k J$ (where k is resistivity/specific resistance).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Current Electricity",
+    "question": "In the circuit shown in the figure, the current through the 40 resistor is",
+    "question_latex": "In the circuit shown in the figure, the current through the $40$ resistor is",
+    "question_images": [
+      "45_qu_1.png"
+    ],
+    "options": [
+      "A. The 30 resistor is 0.50 A",
+      "B. The 30 resistor is 0.25 A",
+      "C. The 40 resistor is 0.50 A",
+      "D. The 40 resistor is 0.25 A"
+    ],
+    "option_images": [],
+    "answer": "D. The 40 resistor is 0.25 A",
+    "solution": "Wait, the options phrasing is odd (\"The 30 resistor is...\", \"The 40 resistor is...\"). The question asks for current through \"the\" resistor (image presumably shows values like 40, 30, etc. or labels). The solution says \"After proper distribution, the current through 40 resistance is 0.25 A\". Option D matches this conclusion.",
+    "solution_images": [
+      "45_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Current Electricity",
+    "question": "The figure shows three circuits I, II and III which are connected to a 3 V battery. If the powers dissipated by the configurations I, II and III are $P_{1}, P_{2}$ and $P_{3}$, then",
+    "question_latex": "The figure shows three circuits $I, II$ and $III$ which are connected to a $3~V$ battery. If the powers dissipated by the configurations $I, II$ and $III$ are $P_{1}, P_{2}$ and $P_{3}$, then",
+    "question_images": [
+      "46_qu_1.png"
+    ],
+    "options": [
+      "A. $P_{3}>P_{2}>P_{1}$",
+      "B. $P_{2}>P_{1}>P_{3}$",
+      "C. $P_{1}>P_{3}>P_{2}$",
+      "D. $P_{1}>P_{2}>P_{3}$"
+    ],
+    "option_images": [],
+    "answer": "B. $P_{2}>P_{1}>P_{3}$",
+    "solution": "Calculate equivalent resistance for each. $P = V^2/R$. $R_1 = 1\\Omega \\Rightarrow P_1 = 9W$. $R_2 = 0.5\\Omega \\Rightarrow P_2 = 18W$. $R_3 = 2\\Omega \\Rightarrow P_3 = 4.5W$. Order: $P_2 > P_1 > P_3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Current Electricity",
+    "question": "In the circuit shown in the figure the heat produced in the 5 ohm resistor due to the current flowing through it is 10 calories per second. The heat generated in the 4 ohm resistor is",
+    "question_latex": "In the circuit shown in the figure the heat produced in the $5~ohm$ resistor due to the current flowing through it is $10$ calories per second. The heat generated in the $4~ohm$ resistor is",
+    "question_images": [
+      "47_qu_1.png"
+    ],
+    "options": [
+      "A. 1 caloric/sec",
+      "B. 2 caloric/sec",
+      "C. 3 caloric/sec",
+      "D. 4 caloric/sec"
+    ],
+    "option_images": [],
+    "answer": "B. 2 caloric/sec",
+    "solution": "Power in $5\\Omega$: $I_1^2 R = I_1^2(5) \\propto 10$. $I_1 = \\sqrt{2}$ units? Calculations in solution: $4.2 \\times 10 = I_1^2(5) \\Rightarrow I_1 = 2.9A$. Voltage across parallel branches is equal. Solve for current in 4 ohm. Result is 2 cal/s.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Current Electricity",
+    "question": "Figure shows a circuit model for the transmission of an electrical signal, such as cable TV, to a large number of subscribers. Each subscriber connects a load resistance $R_{L}$ between the transmission line and the ground. Assume the ground to be at zero potential and to have negligible resistance. The resistance of the transmission line between the connection points of different subscribers is modelled as the constant resistance $R_{T}$. The equivalent resistance across the signal source is",
+    "question_latex": "Figure shows a circuit model for the transmission of an electrical signal, such as cable TV, to a large number of subscribers. Each subscriber connects a load resistance $R_{L}$ between the transmission line and the ground. Assume the ground to be at zero potential and to have negligible resistance. The resistance of the transmission line between the connection points of different subscribers is modelled as the constant resistance $R_{T}$. The equivalent resistance across the signal source is",
+    "question_images": [
+      "48_qu_1.png"
+    ],
+    "options": [
+      "A. 10 $\\Omega$",
+      "B. 5 $\\Omega$",
+      "C. $\\sqrt{55} \\Omega$",
+      "D. $\\sqrt{65} \\Omega$"
+    ],
+    "option_images": [],
+    "answer": "B. 5 $\\Omega$",
+    "solution": "Infinite ladder network problem. $R_{eq} = R_T + (R_L || R_{eq})$. Quadratic equation leads to $R_{eq} = 5~\\Omega$ (for given values $R_T=1, R_L=20$ in example, or derived generally).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Current Electricity",
+    "question": "To get the maximum current through a resistance of 2.5 $\\Omega$, one can use m rows of cells, each row having n cells. The internal resistance of each cell is 0.5 $\\Omega$. What are the values of n and m, if the total number of cells is 45?",
+    "question_latex": "To get the maximum current through a resistance of $2.5~\\Omega$, one can use $m$ rows of cells, each row having $n$ cells. The internal resistance of each cell is $0.5~\\Omega$. What are the values of $n$ and $m$, if the total number of cells is $45$?",
+    "question_images": [],
+    "options": [
+      "A. 3, 15",
+      "B. 5, 9",
+      "C. 9, 5",
+      "D. 15, 3"
+    ],
+    "option_images": [],
+    "answer": "D. 15, 3",
+    "solution": "Condition for max current in mixed grouping: External R = Total Internal Resistance ($nR/m$? No, $nr/m$). $2.5 = n(0.5)/m \\Rightarrow n/m = 5 \\Rightarrow n=5m$. Also $mn = 45$. $m(5m) = 45 \\Rightarrow m^2 = 9 \\Rightarrow m=3$. Then $n=15$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Current Electricity",
+    "question": "A conductor with rectangular cross-section has dimensions (a x 2a x 4a) as shown in figure. Resistance across AB is $R_{1}$, across CD is $R_{2}$ and across EF is $R_{3}$. Then",
+    "question_latex": "A conductor with rectangular cross-section has dimensions $(a \\times 2a \\times 4a)$ as shown in figure. Resistance across $AB$ is $R_{1}$, across $CD$ is $R_{2}$ and across $EF$ is $R_{3}$. Then",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. $R_{1}=R_{2}=R_{3}$",
+      "B. $R_{1}>R_{2}>R_{3}$",
+      "C. $R_{2}>R_{3}>R_{1}$",
+      "D. $R_{1}>R_{3}>R_{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $R_{1}>R_{3}>R_{2}$",
+    "solution": "$R = \\rho L / A$. Calculate L and A for each case. $R_1$: $L=4a, A=2a^2 \\rightarrow 2\\rho/a$. $R_2$: $L=a, A=8a^2 \\rightarrow \\rho/8a$. $R_3$: $L=2a, A=4a^2 \\rightarrow \\rho/2a$. Order: $2 > 0.5 > 0.125$. So $R_1 > R_3 > R_2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Current Electricity",
+    "question": "Find the potential drop across the capacitor in the given circuit.",
+    "question_latex": "Find the potential drop across the capacitor in the given circuit.",
+    "question_images": [
+      "51_qu_1.png"
+    ],
+    "options": [
+      "A. 6 V",
+      "B. 6.5 V",
+      "C. 7 V",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 6.5 V",
+    "solution": "The current will pass through only resistance part of the circuit. Hence, $I = \\frac{9}{1+6+2} = 1 A$. Potential drop across $3 \\mu F$ capacitance is $V_{AB} = V_{AB} + V_{BC} = 1 \\times 6 + \\frac{1}{2} \\times 1 = 6.5~V$. (Apply current division for current in branch BC which is $1/2$ A).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Current Electricity",
+    "question": "A 100 W bulb designed to operate on 100 V is to be connected across a 500 V source. Find the resistance to be put in series so that bulb consumes 100 W only.",
+    "question_latex": "A $100~W$ bulb designed to operate on $100~V$ is to be connected across a $500~V$ source. Find the resistance to be put in series so that bulb consumes $100~W$ only.",
+    "question_images": [],
+    "options": [
+      "A. 100 $\\Omega$",
+      "B. 500 $\\Omega$",
+      "C. 400 $\\Omega$",
+      "D. 300 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "C. 400 $\\Omega$",
+    "solution": "Resistance of bulb: $R_{b} = \\frac{V^{2}}{P} = \\frac{(100)^{2}}{100} = 100 \\Omega$. If bulb consumes 100 W, then p.d. across the bulb should be 100 V. So $I = 100/100 = 1 A$. The p.d. across resistance R is $500 - 100 = 400 V$. So $R = \\frac{400}{I} = \\frac{400}{1} = 400~\\Omega$.",
+    "solution_images": [
+      "52_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Current Electricity",
+    "question": "A 5 V battery with internal resistance 2$\\Omega$ and 2 V battery with internal resistance 1$\\Omega$ are connected to a 10$\\Omega$ resistor as shown in the figure. The current in the 10$\\Omega$ resistor is",
+    "question_latex": "A $5~V$ battery with internal resistance $2\\Omega$ and $2~V$ battery with internal resistance $1\\Omega$ are connected to a $10\\Omega$ resistor as shown in the figure. The current in the $10\\Omega$ resistor is",
+    "question_images": [
+      "53_qu_1.png"
+    ],
+    "options": [
+      "A. 0.03 A $P_{1}$ to $P_{2}$",
+      "B. 0.27 A $P_{2}$ to $P_{1}$",
+      "C. 0.27 A $P_{1}$ to $P_{2}$",
+      "D. 0.03 A $P_{2}$ to $P_{1}$"
+    ],
+    "option_images": [],
+    "answer": "D. 0.03 A $P_{2}$ to $P_{1}$",
+    "solution": "Applying Kirchhoff's law for the loops $AP_{2}P_{1}CA$ and $P_{2}BDP_{1}P_{2}$, one gets $-10y - 2x + 5 = 0 \\Rightarrow 2x + 10y = 5$ ...(i) and $+2 - 1(x - y) + 10y = 0 \\Rightarrow x - 11y = 2$ ...(ii). Solving gives $32y = 1 \\Rightarrow y = 1/32 A \\approx 0.03 A$ from $P_{2}$ to $P_{1}$.",
+    "solution_images": [
+      "53_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Current Electricity",
+    "question": "In the circuit given in Fig. switch S is at position 1 for long time. Find the total heat generated in resistor of resistance ($2 r_{0}$), when the switch S is shifted from position 1 to position 2",
+    "question_latex": "In the circuit given in Fig. switch $S$ is at position 1 for long time. Find the total heat generated in resistor of resistance ($2 r_{0}$), when the switch $S$ is shifted from position 1 to position 2",
+    "question_images": [
+      "54_qu_1.png"
+    ],
+    "options": [
+      "A. $\\frac{C_{0}E_{0}^{2}}{2}$",
+      "B. $C_{0}E_{0}^{2}$",
+      "C. $\\frac{C_{0}E_{0}^{2}}{3}$",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{C_{0}E_{0}^{2}}{3}$",
+    "solution": "Step I: when switch is at position 1, steady state current is zero. $q_0 = C_0 E_0$. Step II: Switch at position 2, energy stored appears as heat. $R_1 = r_0$, $R_2 = 2r_0$. $\\Delta H \\propto R$. $\\Delta H_2 = \\frac{2}{3} \\Delta H_{total} = \\frac{2}{3} (\\frac{1}{2} C_0 E_0^2) = \\frac{1}{3} C_0 E_0^2$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Current Electricity",
+    "question": "Resistors P, Q and R in the circuit have equal resistances. If the battery is supplying a total power of 12 W, what is the power dissipated as heat in resistor R?",
+    "question_latex": "Resistors $P, Q$ and $R$ in the circuit have equal resistances. If the battery is supplying a total power of $12~W$, what is the power dissipated as heat in resistor $R$?",
+    "question_images": [
+      "55_qu_1.png"
+    ],
+    "options": [
+      "A. 2 W",
+      "B. 6 W",
+      "C. 3 W",
+      "D. 8 W"
+    ],
+    "option_images": [],
+    "answer": "A. 2 W",
+    "solution": "Let resistors P, Q and R have resistance r. The effective resistance across the source is $R_{eff} = r + r||r = r + \\frac{r}{2} = \\frac{3r}{2}$. Current drawn from source is determined by $I_{s}^{2}R_{eff} = 12$. Since Q and R are in parallel and equal, each draws $I = I_s/2$. Power in R is $I^2 r = (I_s/2)^2 r$. Calculating yields 2 W.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Current Electricity",
+    "question": "Which of the two switches, $S_{1}$ and $S_{2}$ shown in Figure will produce short-circuiting?",
+    "question_latex": "Which of the two switches, $S_{1}$ and $S_{2}$ shown in Figure will produce short-circuiting?",
+    "question_images": [
+      "56_qu_1.png"
+    ],
+    "options": [
+      "A. $S_{1}$",
+      "B. $S_{2}$",
+      "C. Both $S_{1}$ and $S_{2}$",
+      "D. Neither $S_{1}$ and $S_{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. $S_{2}$",
+    "solution": "When switch $S_{2}$ is closed, the whole of current shall flow through the connecting wire only which is supposed to have zero resistance, thus short-circuiting the device.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Current Electricity",
+    "question": "A uniform metallic wire carries a current 2 A, when 3.4 V battery is connected across it. The mass of uniform metallic wire is $8.92 \\times 10^{-3}$ kg, density is $8.92 \\times 10^{3} kg/m^{3}$ and resistivity is $1.7 \\times 10^{-8} \\Omega m$. The length of wire is",
+    "question_latex": "A uniform metallic wire carries a current $2~A$, when $3.4~V$ battery is connected across it. The mass of uniform metallic wire is $8.92 \\times 10^{-3}~kg$, density is $8.92 \\times 10^{3}~kg/m^{3}$ and resistivity is $1.7 \\times 10^{-8}~\\Omega m$. The length of wire is",
+    "question_images": [],
+    "options": [
+      "A. $l=10$ m",
+      "B. $l=100$ m",
+      "C. $l=5$ m",
+      "D. $l=6.8$ m"
+    ],
+    "option_images": [],
+    "answer": "A. $l=10$ m",
+    "solution": "$R = V/I = 3.4/2 = 1.7 \\Omega$. Mass $m = volume \\times density = (Al)d$. $A = m/(ld)$. $R = \\rho l / A = \\rho l^2 d / m$. $l^2 = Rm / (\\rho d)$. Substituting values gives $l = 10$ m.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Current Electricity",
+    "question": "The Kirchhoff's second law, where the symbols have their usual meanings, is based on",
+    "question_latex": "The Kirchhoff's second law, where the symbols have their usual meanings, is based on",
+    "question_images": [],
+    "options": [
+      "A. conservation of momentum",
+      "B. conservation of charge",
+      "C. conservation of potential",
+      "D. conservation of energy"
+    ],
+    "option_images": [],
+    "answer": "D. conservation of energy",
+    "solution": "Kirchhoff's first law is based on conservation of charge and Kirchhoff's second law is based on conservation of energy.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Current Electricity",
+    "question": "In a metre bridge, the balancing length from the left end (standard resistance of one ohm is in the right gap) is found to be 20 cm. The value of the unknown resistance is",
+    "question_latex": "In a metre bridge, the balancing length from the left end (standard resistance of one ohm is in the right gap) is found to be $20~cm$. The value of the unknown resistance is",
+    "question_images": [],
+    "options": [
+      "A. 0.8 $\\Omega$",
+      "B. 0.5 $\\Omega$",
+      "C. 0.4 $\\Omega$",
+      "D. 0.25 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "D. 0.25 $\\Omega$",
+    "solution": "$\\frac{P}{Q} = \\frac{l}{100-l}$. $P = \\frac{20}{80} \\times 1 = 0.25 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Current Electricity",
+    "question": "A capacitor of capacitance 10 $\\mu$F is charged up to a potential difference of 2 V and then the cell is removed. Now it is connected to a cell of e.m.f 4 V and is charged fully. In both cases the polarities of the two cells are In the same directions. Total heat produced In the complete charging process is",
+    "question_latex": "A capacitor of capacitance $10~\\mu F$ is charged up to a potential difference of $2~V$ and then the cell is removed. Now it is connected to a cell of e.m.f $4~V$ and is charged fully. In both cases the polarities of the two cells are In the same directions. Total heat produced In the complete charging process is",
+    "question_images": [],
+    "options": [
+      "A. 10 $\\mu$J",
+      "B. 20 $\\mu$J",
+      "C. 40 $\\mu$J",
+      "D. 80 $\\mu$J"
+    ],
+    "option_images": [],
+    "answer": "B. 20 $\\mu$J",
+    "solution": "$U_1 = \\frac{1}{2} C V_1^2 = 20 \\mu J$. $U_2 = \\frac{1}{2} C V_2^2 = 80 \\mu J$. Change in energy $\\Delta U = 60 \\mu J$. Work done by battery $W = \\Delta Q \\times V = (C V_2 - C V_1) V_2 = (40 - 20) \\times 4 = 80 \\mu J$. Heat produced = $W - \\Delta U = 80 - 60 = 20 \\mu J$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Current Electricity",
+    "question": "In potentiometer a balance point is obtained, when",
+    "question_latex": "In potentiometer a balance point is obtained, when",
+    "question_images": [],
+    "options": [
+      "A. the e.m.f. of the battery becomes equal to the e.m.f of the experimental cell",
+      "B. the p.d. of the wire between the +ve end of battery to jockey becomes equal to the e.m.f. of the experimental cell",
+      "C. the p.d. of the wire between +ve point of cell and jockey becomes equal to the e.m.f. of the battery",
+      "D. the p.d. across the potentiometer wire becomes equal to the e.m.f. of the battery"
+    ],
+    "option_images": [],
+    "answer": "B. the p.d. of the wire between the +ve end of battery to jockey becomes equal to the e.m.f. of the experimental cell",
+    "solution": "Balance point is obtained when the potential difference across the balancing length of the wire equals the emf of the cell in the secondary circuit.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Current Electricity",
+    "question": "An aluminium wire is stretched to make its length, 0.4% larger. The percentage change in resistance is",
+    "question_latex": "An aluminium wire is stretched to make its length, $0.4\\%$ larger. The percentage change in resistance is",
+    "question_images": [],
+    "options": [
+      "A. 0.2%",
+      "B. 0.6%",
+      "C. 0.8%",
+      "D. 0.4%"
+    ],
+    "option_images": [],
+    "answer": "C. 0.8%",
+    "solution": "$R \\propto l^2$ (since volume is constant). $\\frac{\\Delta R}{R} \\times 100 = 2 \\frac{\\Delta l}{l} \\times 100 = 2 \\times 0.4\\% = 0.8\\%$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Current Electricity",
+    "question": "If a given volume of water in a 220 V heater is boiled in 5 min, then how much time will it take for the same volume of water in a 110 V heater to be boiled?",
+    "question_latex": "If a given volume of water in a $220~V$ heater is boiled in $5~min$, then how much time will it take for the same volume of water in a $110~V$ heater to be boiled?",
+    "question_images": [],
+    "options": [
+      "A. 20 min",
+      "B. 30 min",
+      "C. 25 min",
+      "D. 40 min"
+    ],
+    "option_images": [],
+    "answer": "A. 20 min",
+    "solution": "$H = V^2 t / R$. If V is halved, Power becomes $1/4$. To produce same heat, time must be quadrupled. $5 \\times 4 = 20$ min.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Current Electricity",
+    "question": "A cell having an emf $\\epsilon$ and internal resistance $r$ is connected across a variable external resistance R. As the resistance R is increased, the plot of potential difference V across R is given by",
+    "question_latex": "A cell having an emf $\\epsilon$ and internal resistance $r$ is connected across a variable external resistance $R$. As the resistance $R$ is increased, the plot of potential difference $V$ across $R$ is given by",
+    "question_images": [
+      "64_qu_1.png"
+    ],
+    "options": [
+      "A. Graph A",
+      "B. Graph B",
+      "C. Graph C",
+      "D. Graph D"
+    ],
+    "option_images": [],
+    "answer": "B. Graph B",
+    "solution": "$V = \\frac{\\epsilon R}{R+r} = \\frac{\\epsilon}{1+r/R}$. When $R=0, V=0$. When $R \\to \\infty, V \\to \\epsilon$. The curve increases and saturates at $\\epsilon$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Current Electricity",
+    "question": "In a Wheatstone bridge, resistance P, Q and R are connected in the three arms and the fourth arm is formed by two resistance $S_{1}$ and $S_{2}$ connected in parallel. The condition for the bridge to be balanced will be",
+    "question_latex": "In a Wheatstone bridge, resistance $P, Q$ and $R$ are connected in the three arms and the fourth arm is formed by two resistance $S_{1}$ and $S_{2}$ connected in parallel. The condition for the bridge to be balanced will be",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{P}{Q}=\\frac{R(S_{1}+S_{2})}{2S_{1}S_{2}}$",
+      "B. $\\frac{P}{Q}=\\frac{R}{S_{1}+S_{2}}$",
+      "C. $\\frac{P}{Q}=\\frac{2R}{S_{1}+S_{2}}$",
+      "D. $\\frac{P}{Q}=\\frac{R(S_{1}+S_{2})}{S_{1}S_{2}}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{P}{Q}=\\frac{R(S_{1}+S_{2})}{S_{1}S_{2}}$",
+    "solution": "For balance $\\frac{P}{Q} = \\frac{R}{S_{eq}}$. $S_{eq} = \\frac{S_1 S_2}{S_1 + S_2}$. Thus $\\frac{P}{Q} = R \\times \\frac{S_1 + S_2}{S_1 S_2}$.",
+    "solution_images": [
+      "65_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Current Electricity",
+    "question": "What is the potential drop between points A and C in the following circuit? Resistances 1 and 2 $\\Omega$ represent the internal resistance of the respective cells",
+    "question_latex": "What is the potential drop between points $A$ and $C$ in the following circuit? Resistances $1$ and $2~\\Omega$ represent the internal resistance of the respective cells",
+    "question_images": [
+      "66_qu_1.png"
+    ],
+    "options": [
+      "A. 1.75V",
+      "B. 2.25V",
+      "C. 5/4 V",
+      "D. 4/5 V"
+    ],
+    "option_images": [],
+    "answer": "B. 2.25V",
+    "solution": "Current $i = \\frac{4-2}{5+1+2} = \\frac{2}{8} = 0.25 A$. $V_A - V_C = E_1 + i r_1 = 2 + (0.25 \\times 1) = 2.25 V$. (Note: Polarity and direction determine $+ir$ or $-ir$. Source solution says 2.25V).",
+    "solution_images": [
+      "66_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Current Electricity",
+    "question": "A potentiometer wire of length 10 m and resistance 20 $\\Omega$ is connected is series with a 15V battery and an external resistance 40 $\\Omega$. A secondary cell of emf E in the secondary circuit is balanced by 240 cm long length of the potentiometer wire. The emf E of the cell is",
+    "question_latex": "A potentiometer wire of length $10~m$ and resistance $20~\\Omega$ is connected is series with a $15V$ battery and an external resistance $40~\\Omega$. A secondary cell of emf $E$ in the secondary circuit is balanced by $240~cm$ long length of the potentiometer wire. The emf $E$ of the cell is",
+    "question_images": [],
+    "options": [
+      "A. 2.4V",
+      "B. 1.2V",
+      "C. 2.0V",
+      "D. 3V"
+    ],
+    "option_images": [],
+    "answer": "B. 1.2V",
+    "solution": "Current $I = \\frac{15}{20+40} = 0.25 A$. Potential drop across wire $V = I \\times 20 = 5 V$. Potential gradient $k = 5V / 10m = 0.5 V/m$. $E = k l = 0.5 \\times 2.4 m = 1.2 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Current Electricity",
+    "question": "The resistance of a wire is 5ohm at $50^{\\circ}C$ and 6ohm at $100^{\\circ}C$. The resistance of the wire at $0^{\\circ}C$ will be",
+    "question_latex": "The resistance of a wire is $5ohm$ at $50^{\\circ}C$ and $6ohm$ at $100^{\\circ}C$. The resistance of the wire at $0^{\\circ}C$ will be",
+    "question_images": [],
+    "options": [
+      "A. 3ohm",
+      "B. 1ohm",
+      "C. 2ohm",
+      "D. 4ohm"
+    ],
+    "option_images": [],
+    "answer": "D. 4ohm",
+    "solution": "Using $R_t = R_0(1+\\alpha t)$. $5 = R_0(1+50\\alpha)$ and $6 = R_0(1+100\\alpha)$. Solving these equations gives $R_0 = 4 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Current Electricity",
+    "question": "Match the physical quantities in Column I and their mathematical expressions in Column II.",
+    "question_latex": "Match the physical quantities in Column I and their mathematical expressions in Column II.",
+    "question_images": [
+      "69_qu_1.png"
+    ],
+    "options": [
+      "A. A-2, B-1, C-3, D-4",
+      "B. A-2, B-2, C-4, D-3",
+      "C. A-3, B-1, C-4, D-2",
+      "D. A-2, B-1, C-4, D-3"
+    ],
+    "option_images": [],
+    "answer": "C. A-3, B-1, C-4, D-2",
+    "solution": "Current (A) $\\to$ $\\int j.dS$ (3). Conductivity (B) $\\to ne^2\\tau/m$ (1). Current density (C) $\\to nqv_d$ (4). Temp coeff (D) $\\to (1/p)(dp/dT)$ (2).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Current Electricity",
+    "question": "A voltmeter has a resistance of G ohm and range V volt. The value of resistance used in series to convert it into a voltmeter of range nV volt is",
+    "question_latex": "A voltmeter has a resistance of $G$ ohm and range $V$ volt. The value of resistance used in series to convert it into a voltmeter of range $nV$ volt is",
+    "question_images": [],
+    "options": [
+      "A. nG",
+      "B. G/n",
+      "C. (n-1)G",
+      "D. G/(n-1)"
+    ],
+    "option_images": [],
+    "answer": "C. (n-1)G",
+    "solution": "$V = I_g G$. New range $V' = nV = I_g(G+R)$. $nV = (V/G)(G+R) \\Rightarrow nG = G+R \\Rightarrow R = (n-1)G$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Current Electricity",
+    "question": "Different combination of 3 resistors of equal resistance R are shown in the figures. The increasing order for power dissipation is",
+    "question_latex": "Different combination of 3 resistors of equal resistance $R$ are shown in the figures. The increasing order for power dissipation is",
+    "question_images": [
+      "71_qu_1.png"
+    ],
+    "options": [
+      "A. $P_{B}<P_{C}<P_{D}<P_{A}$",
+      "B. $P_{C}<P_{D}<P_{A}<P_{B}$",
+      "C. $P_{A}<P_{B}<P_{C}<P_{D}$",
+      "D. $P_{C}<P_{B}<P_{A}<P_{D}$"
+    ],
+    "option_images": [],
+    "answer": "D. $P_{C}<P_{B}<P_{A}<P_{D}$",
+    "solution": "Calculate $R_{eq}$ for each. Power $P \\propto I^2 R$ (if series) or $V^2/R$ (if parallel source). Assuming constant current source I: $P_A = 1.5 I^2 R$. $P_B = 0.67 I^2 R$. $P_C = 0.33 I^2 R$. $P_D = 3 I^2 R$. Order $P_C < P_B < P_A < P_D$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Current Electricity",
+    "question": "A cell of emf E is connected across a resistance R. the potential difference between the terminals of the cell is found to be V volt. Then the internal resistance of the cell must be",
+    "question_latex": "A cell of emf $E$ is connected across a resistance $R$. the potential difference between the terminals of the cell is found to be $V$ volt. Then the internal resistance of the cell must be",
+    "question_images": [],
+    "options": [
+      "A. (E-V)",
+      "B. (E-V)R/V",
+      "C. 2(E-V)R",
+      "D. 2(E-V)V/R"
+    ],
+    "option_images": [],
+    "answer": "B. (E-V)R/V",
+    "solution": "$r = (\\frac{E}{V} - 1)R$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Current Electricity",
+    "question": "Consider the following statements and select the correct statement(s). I. Current is the time rate of flow of charge through any cross-section II. For a given conductor current does not change with change in cross-sectional area III. The net charge in a current carrying conductor is infinite",
+    "question_latex": "Consider the following statements and select the correct statement(s). I. Current is the time rate of flow of charge through any cross-section II. For a given conductor current does not change with change in cross-sectional area III. The net charge in a current carrying conductor is infinite",
+    "question_images": [],
+    "options": [
+      "A. I and II",
+      "B. II and III",
+      "C. I and III",
+      "D. I, II and III"
+    ],
+    "option_images": [],
+    "answer": "A. I and II",
+    "solution": "Statement I is definition. Statement II is continuity equation (conservation of charge flow). Statement III is false; a conductor is electrically neutral overall.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Current Electricity",
+    "question": "In the absence of an electric field, the mean velocity of free electrons in a conductor at absolute temperature (T) is",
+    "question_latex": "In the absence of an electric field, the mean velocity of free electrons in a conductor at absolute temperature ($T$) is",
+    "question_images": [],
+    "options": [
+      "A. zero",
+      "B. independent of T",
+      "C. proportional to T",
+      "D. proportional to $T^{2}$"
+    ],
+    "option_images": [],
+    "answer": "A. zero",
+    "solution": "Random thermal motion averages to zero velocity vector.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Current Electricity",
+    "question": "A number of resistors are connected as shown in the figure. The equivalent resistance Between A and B",
+    "question_latex": "A number of resistors are connected as shown in the figure. The equivalent resistance Between $A$ and $B$",
+    "question_images": [
+      "75_qu_1.png"
+    ],
+    "options": [
+      "A. 6 $\\Omega$",
+      "B. 12 $\\Omega$",
+      "C. 9 $\\Omega$",
+      "D. 15 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "A. 6 $\\Omega$",
+    "solution": "Due to symmetry, the circuit can be folded or points can be equipotential. The reduction leads to $R_{eq} = 6 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Current Electricity",
+    "question": "In the circuit shown in Fig. $E_{1}=E_{2}=E_{3}=2V$ and $R_{1}=R_{2}=4\\Omega$. The current flowing between points A and B through battery $E_{2}$ is",
+    "question_latex": "In the circuit shown in Fig. $E_{1}=E_{2}=E_{3}=2V$ and $R_{1}=R_{2}=4\\Omega$. The current flowing between points $A$ and $B$ through battery $E_{2}$ is",
+    "question_images": [
+      "76_qu_1.png"
+    ],
+    "options": [
+      "A. Zero",
+      "B. 2 A from A to B",
+      "C. 2 A from B to A",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "B. 2 A from A to B",
+    "solution": "By loop analysis, $I_1 = 1A$ and $I_2 = 1A$. The current through the central branch (battery $E_2$) is $I_1 + I_2 = 2A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Current Electricity",
+    "question": "At temperature 0 K, the germanium behaves as a / an",
+    "question_latex": "At temperature $0~K$, the germanium behaves as a / an",
+    "question_images": [],
+    "options": [
+      "A. conductor",
+      "B. insulator",
+      "C. super-conductor",
+      "D. ferromagnetic"
+    ],
+    "option_images": [],
+    "answer": "B. insulator",
+    "solution": "At absolute zero, semiconductors have no thermal carriers and behave as insulators.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Current Electricity",
+    "question": "A potentiometer wire AB as shown is 40 cm long of resistance 50 $\\Omega$/m free end of an ideal voltmeter is touching the potentiometer wire. What should be the velocity of the jockey as a function of time so that reading in voltmeter varies with times as $(2 sin \\pi t)$?",
+    "question_latex": "A potentiometer wire $AB$ as shown is $40~cm$ long of resistance $50~\\Omega/m$ free end of an ideal voltmeter is touching the potentiometer wire. What should be the velocity of the jockey as a function of time so that reading in voltmeter varies with times as $(2 sin \\pi t)$?",
+    "question_images": [
+      "78_qu_1.png"
+    ],
+    "options": [
+      "A. $10\\pi sin \\pi t$ cm/s",
+      "B. $10\\pi cos \\pi t$ cm/s",
+      "C. $20\\pi sin \\pi t$ cm/s",
+      "D. $20\\pi cos \\pi t$ cm/s"
+    ],
+    "option_images": [],
+    "answer": "D. $20\\pi cos \\pi t$ cm/s",
+    "solution": "Potential gradient calculation. $x = 20 \\sin \\pi t$. Velocity $v = dx/dt = 20 \\pi \\cos \\pi t$ cm/s.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Current Electricity",
+    "question": "A cell of internal resistances r is connected to a load of resistance R. Energy is dissipated in the load, but some thermal energy is also wasted in the cell. The efficiency of such an arrangement is found from the expression Energy dissipated in the load / Energy dissipated in the complete circuit. Which of the following gives the efficiency in this case?",
+    "question_latex": "A cell of internal resistances $r$ is connected to a load of resistance $R$. Energy is dissipated in the load, but some thermal energy is also wasted in the cell. The efficiency of such an arrangement is found from the expression Energy dissipated in the load / Energy dissipated in the complete circuit. Which of the following gives the efficiency in this case?",
+    "question_images": [],
+    "options": [
+      "A. r/R",
+      "B. R/r",
+      "C. r/(R+r)",
+      "D. R/(R+r)"
+    ],
+    "option_images": [],
+    "answer": "D. R/(R+r)",
+    "solution": "Efficiency $\\eta = \\frac{I^2 R}{I^2 (R+r)} = \\frac{R}{R+r}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Current Electricity",
+    "question": "In a Wheatstone's bridge, three resistances P, Q and R connected in the three arms and the fourth arm is formed by two resistances $S_{1}$ and $S_{2}$ connected in parallel. The condition for the bridge to be balanced will be",
+    "question_latex": "In a Wheatstone's bridge, three resistances $P, Q$ and $R$ connected in the three arms and the fourth arm is formed by two resistances $S_{1}$ and $S_{2}$ connected in parallel. The condition for the bridge to be balanced will be",
+    "question_images": [],
+    "options": [
+      "A. P/Q = 2R/(S1+S2)",
+      "B. P/Q = R(S1+S2)/S1S2",
+      "C. P/Q = R(S1+S2)/2S1S2",
+      "D. P/Q = R/(S1+S2)"
+    ],
+    "option_images": [],
+    "answer": "B. P/Q = R(S1+S2)/S1S2",
+    "solution": "Same as Question 65.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Current Electricity",
+    "question": "In a Wheatstone bridge (see figure), Resistances P and Q are approximately equal. When $R=400\\Omega$ the bridge is balanced. On interchanging P and Q, the value of R, for balance, is 405$\\Omega$. The value of X is close to",
+    "question_latex": "In a Wheatstone bridge (see figure), Resistances $P$ and $Q$ are approximately equal. When $R=400\\Omega$ the bridge is balanced. On interchanging $P$ and $Q$, the value of $R$, for balance, is $405\\Omega$. The value of $X$ is close to",
+    "question_images": [
+      "81_qu_1.png"
+    ],
+    "options": [
+      "A. 403.5 ohm",
+      "B. 401.5 ohm",
+      "C. 404.5 ohm",
+      "D. 402.5 ohm"
+    ],
+    "option_images": [],
+    "answer": "D. 402.5 ohm",
+    "solution": "$X = \\sqrt{R_1 R_2} = \\sqrt{400 \\times 405} \\approx 402.5 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Current Electricity",
+    "question": "Two filaments of same length are connected first in series and then in parallel. For the same amount of main current flowing the ratio of the heat produced is",
+    "question_latex": "Two filaments of same length are connected first in series and then in parallel. For the same amount of main current flowing the ratio of the heat produced is",
+    "question_images": [],
+    "options": [
+      "A. 2:1",
+      "B. 1:2",
+      "C. 4:1",
+      "D. 1:4"
+    ],
+    "option_images": [],
+    "answer": "C. 4:1",
+    "solution": "$R_s = 2R$. $R_p = R/2$. For same current I, ratio $H_s/H_p = R_s/R_p = 2R / (R/2) = 4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Current Electricity",
+    "question": "A strip of copper and another of germanium are cooled from room temperature to 80 K. The resistance of",
+    "question_latex": "A strip of copper and another of germanium are cooled from room temperature to $80~K$. The resistance of",
+    "question_images": [],
+    "options": [
+      "A. each of these increases",
+      "B. each of these decreases",
+      "C. copper strip increases and that of germanium decreases",
+      "D. copper strip decreases and that of germanium increases"
+    ],
+    "option_images": [],
+    "answer": "D. copper strip decreases and that of germanium increases",
+    "solution": "Copper is metallic (resistance decreases with cooling). Germanium is semiconductor (resistance increases with cooling).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Current Electricity",
+    "question": "Four resistances 40$\\Omega$, 60$\\Omega$, 90$\\Omega$ and 110$\\Omega$ make the arms of a quadrilateral ABCD. Across AC is the battery circuit, the emf of the battery being 4V and internal resistance negligible. The potential difference across BD is",
+    "question_latex": "Four resistances $40\\Omega, 60\\Omega, 90\\Omega$ and $110\\Omega$ make the arms of a quadrilateral $ABCD$. Across $AC$ is the battery circuit, the emf of the battery being $4V$ and internal resistance negligible. The potential difference across $BD$ is",
+    "question_images": [
+      "84_qu_1.png"
+    ],
+    "options": [
+      "A. 1 V",
+      "B. -1 V",
+      "C. -0.2 V",
+      "D. 0.2 V"
+    ],
+    "option_images": [],
+    "answer": "D. 0.2 V",
+    "solution": "Calculate potentials at B and D by voltage divider rule. $V_B = 4 \\times \\frac{60}{100} = 2.4V$ (relative to A? No, depends on connection). Using solution steps: $V_B = V_A - I_1(40)$. $V_D = V_A - I_2(90)$. Difference is 0.2 V.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Current Electricity",
+    "question": "Drift speed of electrons, when 1.5 A of current flows in a copper wire of cross section 5 mm$^2$, is v. If the electron density in copper is $9\\times10^{28}/m^{3}$ the value of v in mm/s is close to (Take charge of electron to be $1.6\\times10^{-19}C$)",
+    "question_latex": "Drift speed of electrons, when $1.5~A$ of current flows in a copper wire of cross section $5~mm^{2}$, is $v$. If the electron density in copper is $9\\times10^{28}/m^{3}$ the value of $v$ in $mm/s$ is close to (Take charge of electron to be $1.6\\times10^{-19}C$)",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 0.2",
+      "C. 3",
+      "D. 0.02"
+    ],
+    "option_images": [],
+    "answer": "D. 0.02",
+    "solution": "$v = I / (neA) = 1.5 / (9 \\times 10^{28} \\times 1.6 \\times 10^{-19} \\times 5 \\times 10^{-6}) = 0.02$ mm/s.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Current Electricity",
+    "question": "Drift velocity of electrons is due to",
+    "question_latex": "Drift velocity of electrons is due to",
+    "question_images": [],
+    "options": [
+      "A. motion of conduction electrons due to random collisions.",
+      "B. motion of conduction electrons due to electric field E",
+      "C. repulsion to the conduction electrons due to inner electrons of ions.",
+      "D. collision of conduction electrons with each other."
+    ],
+    "option_images": [],
+    "answer": "B. motion of conduction electrons due to electric field E",
+    "solution": "Drift velocity is the average velocity acquired by electrons due to the applied electric field.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Current Electricity",
+    "question": "The equivalent resistance between A and B (of the circuit as shown in Fig.) is",
+    "question_latex": "The equivalent resistance between $A$ and $B$ (of the circuit as shown in Fig.) is",
+    "question_images": [
+      "87_qu_1.png"
+    ],
+    "options": [
+      "A. 4.5 $\\Omega$",
+      "B. 12 $\\Omega$",
+      "C. 5.4 $\\Omega$",
+      "D. 20 $\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "A. 4.5 $\\Omega$",
+    "solution": "Resistors 7 and 3 are in parallel? No, solution says 7 and 3 are in series? Diagram shows: $R_{eq} = \\frac{7 \\times 3}{7+3} + \\frac{4 \\times 6}{4+6} = 2.1 + 2.4 = 4.5 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Current Electricity",
+    "question": "The supply voltage to a room is 120 V. The resistance of the lead wires is 6$\\Omega$. A 60 W bulb is already switched on. What is the decrease of voltage across the bulb, when a 240 W heater is switched on in parallel to the bulb?",
+    "question_latex": "The supply voltage to a room is $120~V$. The resistance of the lead wires is $6\\Omega$. A $60~W$ bulb is already switched on. What is the decrease of voltage across the bulb, when a $240~W$ heater is switched on in parallel to the bulb?",
+    "question_images": [],
+    "options": [
+      "A. 10.04 Volt",
+      "B. 2.9 Volt",
+      "C. 13.3 Volt",
+      "D. zero Volt"
+    ],
+    "option_images": [],
+    "answer": "A. 10.04 Volt",
+    "solution": "Calculate initial current and voltage drop. Calculate new current with heater. Find difference in voltage across the bulb terminals. Calculation gives approx 10.04 V.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Current Electricity",
+    "question": "In conductor when electrons move between two collisons, their paths are ... A... when external fields are absent and ... B...when external filed is present. Here, A and B refer to",
+    "question_latex": "In conductor when electrons move between two collisons, their paths are ... A... when external fields are absent and ... B...when external filed is present. Here, A and B refer to",
+    "question_images": [],
+    "options": [
+      "A. straight lines, straight lines",
+      "B. straight lines, curved lines",
+      "C. curved lines, straight lines",
+      "D. curved lines, curved lines"
+    ],
+    "option_images": [],
+    "answer": "B. straight lines, curved lines",
+    "solution": "Straight paths between collisions in absence of field; curved (parabolic) paths in presence of electric field.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Current Electricity",
+    "question": "A constant voltage is applied between the two ends of a uniform metallic wire. Some heat is developed in it. The heat developed is doubled if",
+    "question_latex": "A constant voltage is applied between the two ends of a uniform metallic wire. Some heat is developed in it. The heat developed is doubled if",
+    "question_images": [],
+    "options": [
+      "A. Both the length and radius of the wire are halved",
+      "B. Both the length and radius of the wire are doubled",
+      "C. The radius of the wire is doubled",
+      "D. The length of the wire is doubled"
+    ],
+    "option_images": [],
+    "answer": "B. Both the length and radius of the wire are doubled",
+    "solution": "$H \\propto 1/R \\propto r^2/l$. If both r and l are doubled, $H' \\propto (2r)^2 / (2l) = 2 (r^2/l) = 2H$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Current Electricity",
+    "question": "For a certain thermocouple the emf is $E=aT+bT^{2}$, where t is the temperature of hot junction, the cold junction is at $0^{\\circ}C$. The value of contants a and b are $10\\times10^{-6}$ and $0.02\\times10^{-6}$ respectively, then the temperature of inversion will be",
+    "question_latex": "For a certain thermocouple the emf is $E=aT+bT^{2}$, where t is the temperature of hot junction, the cold junction is at $0^{\\circ}C$. The value of contants a and b are $10\\times10^{-6}$ and $0.02\\times10^{-6}$ respectively, then the temperature of inversion will be",
+    "question_images": [],
+    "options": [
+      "A. 150",
+      "B. 250",
+      "C. 500",
+      "D. 750"
+    ],
+    "option_images": [],
+    "answer": "C. 500",
+    "solution": "$T_i = -a/b = -10/( -0.02) = 500^{\\circ}C$. (Note: usually $E = at - bt^2$, here given plus, so $a+2bT_{inv}=0$? No, condition $E=0$ at inversion temperature. $aT + bT^2 = 0 \\Rightarrow T = -a/b$. With negative b usually. Here values are given positive? Solution assumes one is negative or uses formula magnitude).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Current Electricity",
+    "question": "Four resistances carrying a current shown in Figure are immersed in a box containing ice at $0^{\\circ}C$. How much ice must be put in the box every 10 min to keep the average quantity of ice in the box constant?",
+    "question_latex": "Four resistances carrying a current shown in Figure are immersed in a box containing ice at $0^{\\circ}C$. How much ice must be put in the box every 10 min to keep the average quantity of ice in the box constant?",
+    "question_images": [
+      "92_qu_1.png"
+    ],
+    "options": [
+      "A. 1.190 kg",
+      "B. 3.20 kg",
+      "C. 4.2 kg",
+      "D. 0.25 kg"
+    ],
+    "option_images": [],
+    "answer": "A. 1.190 kg",
+    "solution": "Calculate equivalent resistance and total heat produced in 10 mins. $Q = mL$. $m = Q/L$. Result is 1.19 kg.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Current Electricity",
+    "question": "In the given circuit (Figure) in which case will the ammeter reading not change when $R_{2}$ is varied?",
+    "question_latex": "In the given circuit (Figure) in which case will the ammeter reading not change when $R_{2}$ is varied?",
+    "question_images": [
+      "93_qu_1.png"
+    ],
+    "options": [
+      "A. $R_{1}=r$",
+      "B. $R_{1}=2r$",
+      "C. $R_{1}>R_{2}$",
+      "D. $r=0$"
+    ],
+    "option_images": [],
+    "answer": "D. $r=0$",
+    "solution": "If internal resistance $r=0$, the potential difference across the branch containing ammeter depends only on the source emf and $R_1$, and is independent of the parallel branch $R_2$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Current Electricity",
+    "question": "Two bulbs when connected in parallel to a source take 100 W each. The total power consumed when they are connected in series with the same source is",
+    "question_latex": "Two bulbs when connected in parallel to a source take $100~W$ each. The total power consumed when they are connected in series with the same source is",
+    "question_images": [],
+    "options": [
+      "A. 25 W",
+      "B. 50 W",
+      "C. 100 W",
+      "D. 200 W"
+    ],
+    "option_images": [],
+    "answer": "B. 50 W",
+    "solution": "Same as previous similar question. $P_{series} = P/2 = 50 W$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Current Electricity",
+    "question": "The operating temperature of the filament of lamp is $2000^{\\circ}$ C. The temperature coefficient of the material of filament is $0.005^{\\circ}C^{-1}$. If the atmospheric temperature is $0^{\\circ}C,$ then the current in the 100 W- 200 V lamp when it is switched on is nearest to",
+    "question_latex": "The operating temperature of the filament of lamp is $2000^{\\circ}$ C. The temperature coefficient of the material of filament is $0.005^{\\circ}C^{-1}$. If the atmospheric temperature is $0^{\\circ}C,$ then the current in the $100~W$- $200~V$ lamp when it is switched on is nearest to",
+    "question_images": [],
+    "options": [
+      "A. 2.5 A",
+      "B. 3.5 A",
+      "C. 4.5 A",
+      "D. 5.5 A"
+    ],
+    "option_images": [],
+    "answer": "D. 5.5 A",
+    "solution": "Resistance at 2000C: $R_{hot} = V^2/P = 400 \\Omega$. $R_{hot} = R_0(1+\\alpha ΔT)$. $400 = R_0(1 + 0.005 \\times 2000) = 11 R_0$. $R_0 = 400/11 \\approx 36 \\Omega$. Initial current $I = V/R_0 = 200/36 \\approx 5.5 A$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Current Electricity",
+    "question": "A capacitor $C=1\\mu F$ is suddenly connected to a source of 100 V through a resistance $R=100\\Omega$. The time taken for the capacitor to be charged to get 50 V is [Take ln 2 = 0.69]",
+    "question_latex": "A capacitor $C=1\\mu F$ is suddenly connected to a source of $100~V$ through a resistance $R=100\\Omega$. The time taken for the capacitor to be charged to get $50~V$ is [Take ln 2 = 0.69]",
+    "question_images": [
+      "96_qu_1.png"
+    ],
+    "options": [
+      "A. $3.33\\times10^{-4} s$",
+      "B. $0.30\\times10^{-4} s$",
+      "C. $1.44\\times10^{-4} s$",
+      "D. $0.69\\times10^{-4} s$"
+    ],
+    "option_images": [],
+    "answer": "D. $0.69\\times10^{-4} s$",
+    "solution": "$50 = 100(1 - e^{-t/RC}) \\Rightarrow e^{-t/RC} = 0.5 \\Rightarrow t = RC \\ln 2$. $t = 100 \\times 10^{-6} \\times 0.69 = 0.69 \\times 10^{-4} s$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Current Electricity",
+    "question": "Three resistances are joined together to form a letter Y, as shown in Fig. If the potentials of the terminals A, B and C are $V_{1}$, $V_{2}$ and $V_{3}$, respectively, then determine the potential of the node O",
+    "question_latex": "Three resistances are joined together to form a letter Y, as shown in Fig. If the potentials of the terminals A, B and C are $V_{1}$, $V_{2}$ and $V_{3}$, respectively, then determine the potential of the node O",
+    "question_images": [
+      "97_qu_1.png"
+    ],
+    "options": [
+      "A. Formula A",
+      "B. Formula B",
+      "C. Formula C",
+      "D. Formula D"
+    ],
+    "option_images": [],
+    "answer": "B. Formula B",
+    "solution": "Using Millman's theorem or nodal analysis: $V_O = \\frac{V_1/R_1 + V_2/R_2 + V_3/R_3}{1/R_1 + 1/R_2 + 1/R_3}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Current Electricity",
+    "question": "In the electric circuit shown each cell has an emf of 2V and internal resistance of 1$\\Omega$. The external resistance is 2 $\\Omega$. The value of the current I is(in ampere)",
+    "question_latex": "In the electric circuit shown each cell has an emf of $2V$ and internal resistance of $1\\Omega$. The external resistance is $2~\\Omega$. The value of the current I is(in ampere)",
+    "question_images": [
+      "98_qu_1.png"
+    ],
+    "options": [
+      "A. 2",
+      "B. 1.25",
+      "C. 0.4",
+      "D. 1.2"
+    ],
+    "option_images": [],
+    "answer": "D. 1.2",
+    "solution": "Total EMF = 6V (3 cells). Total R = $1+1+1+2 = 5 \\Omega$. Current $I = 6/5 = 1.2 A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Current Electricity",
+    "question": "A, B and C are voltmeters of resistance R, 1.5 R and 3 R, respectively. When some potential difference $V_{A}$ is applied between X and Y, the voltmeter reading are , $V_{B}$ and $V_{c}$, respectively. Then",
+    "question_latex": "A, B and C are voltmeters of resistance $R, 1.5 R$ and $3 R$, respectively. When some potential difference $V_{A}$ is applied between $X$ and $Y$, the voltmeter reading are , $V_{B}$ and $V_{c}$, respectively. Then",
+    "question_images": [
+      "99_qu_1.png"
+    ],
+    "options": [
+      "A. $V_{A}=V_{B}=V_{C}$",
+      "B. $V_{A}\\ne V_{B}=V_{C}$",
+      "C. $V_{A}=V_{B}\\ne V_{C}$",
+      "D. $V_{B}\\ne V_{A}=V_{C}$"
+    ],
+    "option_images": [],
+    "answer": "A. $V_{A}=V_{B}=V_{C}$",
+    "solution": "Analyze the circuit. The combination of resistances results in equal potential drops across the relevant components due to the specific values (R, 1.5R, 3R) creating a balanced distribution.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Current Electricity",
+    "question": "In the given figure, a battery of emf E is connected across a conductor PQ of length and different area of cross-section having radii $r_{1}$ and $r_{2}(r_{2}<r_{1})$. Choose the correct option as one moves from P to Q. Drift velocity of electron increases.",
+    "question_latex": "In the given figure, a battery of emf $E$ is connected across a conductor $PQ$ of length and different area of cross-section having radii $r_{1}$ and $r_{2}(r_{2}<r_{1})$. Choose the correct option as one moves from $P$ to $Q$. Drift velocity of electron increases.",
+    "question_images": [
+      "100_qu_1.png"
+    ],
+    "options": [
+      "A. All of these.",
+      "B. Drift velocity of electron increases.",
+      "C. Electric field decreases.",
+      "D. Electron current decreases."
+    ],
+    "option_images": [],
+    "answer": "B. Drift velocity of electron increases.",
+    "solution": "Current I is constant. $v_d = I / (neA)$. Since Area decreases from P to Q, drift velocity increases.",
+    "solution_images": [
+      "100_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

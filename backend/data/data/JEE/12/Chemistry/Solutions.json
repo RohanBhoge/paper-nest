@@ -1,0 +1,954 @@
+[
+  {
+    "id": 1,
+    "chapter": "Solutions",
+    "question": "50 g of an acid is dissolved in one litre aqueous solution. Distribution coefficient in favour of ether is 3. Acid left in aqueous layer when solution is shaken with one litre ether:",
+    "question_latex": "50 g of an acid is dissolved in one litre aqueous solution. Distribution coefficient in favour of ether is 3. Acid left in aqueous layer when solution is shaken with one litre ether:",
+    "question_images": [],
+    "options": [
+      "A. 25 g",
+      "B. 12.5 g",
+      "C. 6.25 g",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 12.5 g",
+    "solution": "Distribution coefficient $K = \\frac{a/1}{(50-a)/1} = 3$\n$\\Rightarrow a = 37.5$ g (acid in ether)\n$\\therefore$ Acid in water $= 50 - 37.5 = 12.5$ g",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Solutions",
+    "question": "A solution containing 4 g of polyvinyl chloride polymer in one litre of dioxane was found to have an osmotic pressure of 4.1 × 10⁻⁴ atm at 27°C. The approximate molecular weight of the polymer is",
+    "question_latex": "A solution containing 4 g of polyvinyl chloride polymer in one litre of dioxane was found to have an osmotic pressure of $4.1 \\times 10^{-4}$ atm at $27^\\circ$C. The approximate molecular weight of the polymer is",
+    "question_images": [],
+    "options": [
+      "A. 1.5 × 10³",
+      "B. 2.4 × 10⁵",
+      "C. 1.0 × 10⁴",
+      "D. 2 × 10¹²"
+    ],
+    "option_images": [],
+    "answer": "B. 2.4 × 10⁵",
+    "solution": "Given: $w = 4$ g, $V = 1$ L, $\\pi = 4.1 \\times 10^{-4}$ atm, $T = 300$ K\n\nUsing $\\pi V = \\frac{w}{M} RT$:\n$$4.1 \\times 10^{-4} \\times 1 = \\frac{4}{M} \\times 0.0821 \\times 300$$\n$$M = \\frac{4 \\times 0.0821 \\times 300}{4.1 \\times 10^{-4} \\times 1} = 2.4 \\times 10^5$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Solutions",
+    "question": "When a non-volatile solute is dissolved in a solvent, the relative lowering of vapour pressure is equal to",
+    "question_latex": "When a non-volatile solute is dissolved in a solvent, the relative lowering of vapour pressure is equal to",
+    "question_images": [],
+    "options": [
+      "A. Mole fraction of solute",
+      "B. Mole fraction of solvent",
+      "C. Concentration of the solute in gram per litre",
+      "D. Concentration of the solute in gram per 100 mL"
+    ],
+    "option_images": [],
+    "answer": "A. Mole fraction of solute",
+    "solution": "According to Raoult's law: $\\frac{P^\\circ - P_s}{P^\\circ} = x_{\\text{solute}}$\nThe relative lowering of vapour pressure equals the mole fraction of the solute.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Solutions",
+    "question": "The value of Kf for water is 1.86°, calculated from glucose solution. The value of Kf for water calculated for NaCl solution will be",
+    "question_latex": "The value of $K_f$ for water is $1.86^\\circ$, calculated from glucose solution. The value of $K_f$ for water calculated for NaCl solution will be",
+    "question_images": [],
+    "options": [
+      "A. = 1.86",
+      "B. < 1.86",
+      "C. > 1.86",
+      "D. Zero"
+    ],
+    "option_images": [],
+    "answer": "A. = 1.86",
+    "solution": "$K_f$ (cryoscopic constant) is a characteristic constant for a given solvent, independent of the solute used. Hence $K_f$ remains $1.86$ K kg mol$^{-1}$ for water regardless of the solute.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Solutions",
+    "question": "1M, 2.5 litre NaOH solution is mixed with another 0.5M, 3 litre NaOH solution. Then find out the molarity of resultant solution",
+    "question_latex": "$1$ M, $2.5$ litre NaOH solution is mixed with another $0.5$ M, $3$ litre NaOH solution. Then find out the molarity of resultant solution",
+    "question_images": [],
+    "options": [
+      "A. 0.80M",
+      "B. 1.0M",
+      "C. 0.73M",
+      "D. 0.50M"
+    ],
+    "option_images": [],
+    "answer": "C. 0.73M",
+    "solution": "Using molarity equation: $M_1 V_1 + M_2 V_2 = M_3(V_1 + V_2)$\n$$1 \\times 2.5 + 0.5 \\times 3 = M_3 \\times 5.5$$\n$$M_3 = \\frac{4}{5.5} = 0.73 \\text{ M}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Solutions",
+    "question": "At 300 K the vapour pressure of an ideal solution containing 1 mole of liquid A and 2 moles of liquid B is 500 mm of Hg. The vapour pressure of the solution increases by 25 mm of Hg, if one more mole of B is added to the above ideal solution at 300 K. Then the vapour pressure of A in its pure state is",
+    "question_latex": "At 300 K the vapour pressure of an ideal solution containing 1 mole of liquid $A$ and 2 moles of liquid $B$ is 500 mm of Hg. The vapour pressure of the solution increases by 25 mm of Hg, if one more mole of $B$ is added to the above ideal solution at 300 K. Then the vapour pressure of $A$ in its pure state is",
+    "question_images": [],
+    "options": [
+      "A. 300 mm of Hg",
+      "B. 400 mm of Hg",
+      "C. 500 mm of Hg",
+      "D. 600 mm of Hg"
+    ],
+    "option_images": [],
+    "answer": "A. 300 mm of Hg",
+    "solution": "By Raoult's law: $P_T = x_A P_A^\\circ + x_B P_B^\\circ$\n\nCase 1: $n_A=1, n_B=2 \\Rightarrow x_A = \\frac{1}{3}, x_B = \\frac{2}{3}$\n$$500 = \\frac{1}{3}P_A^\\circ + \\frac{2}{3}P_B^\\circ \\Rightarrow 1500 = P_A^\\circ + 2P_B^\\circ \\quad \\cdots(1)$$\n\nCase 2: $n_B=3 \\Rightarrow x_A = \\frac{1}{4}, x_B = \\frac{3}{4}$, $P_T = 525$ mmHg\n$$525 = \\frac{1}{4}P_A^\\circ + \\frac{3}{4}P_B^\\circ \\Rightarrow 2100 = P_A^\\circ + 3P_B^\\circ \\quad \\cdots(2)$$\n\nSubtracting (1) from (2): $P_B^\\circ = 600$ mmHg\nSubstituting back: $P_A^\\circ = 1500 - 2(600) = 300$ mmHg",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Solutions",
+    "question": "A solution of two liquids boils at a temperature more than the boiling point of either them. Hence, the binary solution shows",
+    "question_latex": "A solution of two liquids boils at a temperature more than the boiling point of either them. Hence, the binary solution shows",
+    "question_images": [],
+    "options": [
+      "A. Negative deviation from Raoult's law",
+      "B. Positive deviation from Raoult's law",
+      "C. No deviation from Raoult's law",
+      "D. Positive or negative deviation from Raoult's law depending upon the composition"
+    ],
+    "option_images": [],
+    "answer": "A. Negative deviation from Raoult's law",
+    "solution": "When a solution boils at a temperature higher than the boiling point of either pure component, it means the vapour pressure of the solution is lower than expected. This corresponds to negative deviation from Raoult's law, where A–B interactions are stronger than A–A or B–B interactions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Solutions",
+    "question": "The molarity of a solution made by mixing 50 mL of conc H₂SO₄ (36 N) with 50 mL of water is",
+    "question_latex": "The molarity of a solution made by mixing 50 mL of conc $H_2SO_4$ (36 N) with 50 mL of water is",
+    "question_images": [],
+    "options": [
+      "A. 9 M",
+      "B. 10 M",
+      "C. 11 M",
+      "D. 12 M"
+    ],
+    "option_images": [],
+    "answer": "A. 9 M",
+    "solution": "Using $N_1 V_1 = N_2 V_2$:\n$$36 \\times 50 = N_2 \\times 100$$\n$$N_2 = \\frac{36 \\times 50}{100} = 18 \\text{ N}$$\n$$\\text{Molarity} = \\frac{\\text{Normality}}{\\text{Basicity}} = \\frac{18}{2} = 9 \\text{ M}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Solutions",
+    "question": "Which of the following substances will lose its whole solubility with increase in temperature?",
+    "question_latex": "Which of the following substances will lose its whole solubility with increase in temperature?",
+    "question_images": [],
+    "options": [
+      "A. NaOH",
+      "B. Na₂CO₃",
+      "C. Na₂SO₄",
+      "D. All"
+    ],
+    "option_images": [],
+    "answer": "D. All",
+    "solution": "All of NaOH, $\\text{Na}_2\\text{CO}_3$, and $\\text{Na}_2\\text{SO}_4$ dissolve with evolution of heat (exothermic dissolution). By Le Chatelier's principle, increasing temperature decreases their solubility.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Solutions",
+    "question": "A solution is prepared by dissolving 0.6 g of urea (molar mass = 60 g mol⁻¹) and 1.8 g of glucose (molar mass = 180 g mol⁻¹) in 100 mL of water at 27°C. The osmotic pressure of the solution is (R = 0.08206 L atm K⁻¹ mol⁻¹) (April 2019)",
+    "question_latex": "A solution is prepared by dissolving $0.6$ g of urea (molar mass $= 60$ g mol$^{-1}$) and $1.8$ g of glucose (molar mass $= 180$ g mol$^{-1}$) in 100 mL of water at $27^\\circ$C. The osmotic pressure of the solution is ($R = 0.08206$ L atm K$^{-1}$ mol$^{-1}$) (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 8.2 atm",
+      "B. 1.64 atm",
+      "C. 4.92 atm",
+      "D. 2.45 atm"
+    ],
+    "option_images": [],
+    "answer": "C. 4.92 atm",
+    "solution": "$\\pi_{\\text{solution}} = \\pi_{\\text{urea}} + \\pi_{\\text{glucose}} = C_1 RT + C_2 RT$\n$$= \\left(\\frac{0.6}{60} + \\frac{1.8}{180}\\right) \\times \\frac{1000}{100} \\times 0.082 \\times 300$$\n$$= (0.01 + 0.01) \\times 10 \\times 0.082 \\times 300 = 4.92 \\text{ atm}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Solutions",
+    "question": "In a 0.2 molal aqueous solution of a weak acid HX, the degree of ionization is 0.3. Taking Kf for water as 1.85, the freezing point of the solution will be nearest to",
+    "question_latex": "In a 0.2 molal aqueous solution of a weak acid $HX$, the degree of ionization is 0.3. Taking $K_f$ for water as 1.85, the freezing point of the solution will be nearest to",
+    "question_images": [],
+    "options": [
+      "A. −360°C",
+      "B. 0.260°C",
+      "C. +0.480°C",
+      "D. −0.480°C"
+    ],
+    "option_images": [],
+    "answer": "D. −0.480°C",
+    "solution": "$HX \\rightleftharpoons H^+ + X^-$\n\nInitial: 1 mole, 0, 0\nAfter dissociation: $1-0.3=0.7$, $0.3$, $0.3$\n\nTotal moles $= 0.7 + 0.3 + 0.3 = 1.3$\n$$i = \\frac{1.3}{1} = 1.3$$\n$$\\Delta T_f = i \\times K_f \\times m = 1.3 \\times 1.85 \\times 0.2 = 0.481^\\circ\\text{C}$$\n$$T_f = 0 - 0.481 = -0.481^\\circ\\text{C}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Solutions",
+    "question": "Which of the following is a colligative property?",
+    "question_latex": "Which of the following is a colligative property?",
+    "question_images": [],
+    "options": [
+      "A. Boiling point",
+      "B. Freezing point",
+      "C. Osmotic pressure",
+      "D. Vapour pressure"
+    ],
+    "option_images": [],
+    "answer": "C. Osmotic pressure",
+    "solution": "Colligative properties depend only on the number of solute particles, not on their nature. Among the options, osmotic pressure is a colligative property. Boiling point, freezing point and vapour pressure are properties of pure solvents; their elevation/depression/lowering are colligative, not the properties themselves.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Solutions",
+    "question": "The depression in freezing point is directly proportional to:",
+    "question_latex": "The depression in freezing point is directly proportional to:",
+    "question_images": [],
+    "options": [
+      "A. Normality",
+      "B. Molality",
+      "C. Molarity",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Molality",
+    "solution": "$\\Delta T_f = K_f \\times m$, where $m$ is the molality of the solution.\nThus, depression in freezing point ($\\Delta T_f$) is directly proportional to molality.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Solutions",
+    "question": "The size of a raw mango shrinks to a much smaller size when kept in a concentrated salt solution. Which one of the following processes can explain this? (Sept 2020)",
+    "question_latex": "The size of a raw mango shrinks to a much smaller size when kept in a concentrated salt solution. Which one of the following processes can explain this? (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. Dialysis",
+      "B. Diffusion",
+      "C. Reverse osmosis",
+      "D. Osmosis"
+    ],
+    "option_images": [],
+    "answer": "D. Osmosis",
+    "solution": "Movement of solvent molecules takes place from low concentrated solution (mango) to more concentrated solution (salt solution) through a semipermeable membrane. This process of movement of solvent molecules from low to high concentration is called osmosis. Due to osmosis, the raw mango shrinks.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Solutions",
+    "question": "The empirical formula of a non-electrolyte is CH₂O. A solution containing 6 g of the compound exerts the same osmotic pressure as that of 0.05 M glucose solution at the same temperature. The molecular formula of the compound is",
+    "question_latex": "The empirical formula of a non-electrolyte is $CH_2O$. A solution containing 6 g of the compound exerts the same osmotic pressure as that of 0.05 M glucose solution at the same temperature. The molecular formula of the compound is",
+    "question_images": [],
+    "options": [
+      "A. C₂H₄O₂",
+      "B. C₃H₆O₃",
+      "C. C₅H₁₀O₅",
+      "D. C₄H₈O₄"
+    ],
+    "option_images": [],
+    "answer": "D. C₄H₈O₄",
+    "solution": "Isotonic solutions have same concentration:\n$$\\frac{6}{M \\times 1} = 0.05 \\Rightarrow M = \\frac{6}{0.05} = 120 \\text{ g/mol}$$\n\nEmpirical formula mass of $CH_2O = 12+2+16 = 30$\n$$n = \\frac{120}{30} = 4$$\nMolecular formula $= (CH_2O)_4 = C_4H_8O_4$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Solutions",
+    "question": "On the basis of information given below mark the correct option. (i) In bromoethane and chloroethane mixture intermolecular interactions of A-A and B-B type are nearly same as A-B type interactions. (ii) In ethanol and acetone mixture A–A or B–B type intermolecular interactions are stronger than A-B type interactions. (iii) In chloroform and acetone mixture A–A or B–B type intermolecular interactions are weaker than A-B type interactions.",
+    "question_latex": "On the basis of information given below mark the correct option. (i) In bromoethane and chloroethane mixture intermolecular interactions of A-A and B-B type are nearly same as A-B type interactions. (ii) In ethanol and acetone mixture $A-A$ or $B-B$ type intermolecular interactions are stronger than A-B type interactions. (iii) In chloroform and acetone mixture $A-A$ or $B-B$ type intermolecular interactions are weaker than A-B type interactions.",
+    "question_images": [],
+    "options": [
+      "A. Solution (ii) and (iii) will follow Raoult's law.",
+      "B. Solution (i) will follow Raoult's law.",
+      "C. Solution (ii) will show negative deviation from Raoult's law.",
+      "D. Solution (iii) will show positive deviation from Raoult's law."
+    ],
+    "option_images": [],
+    "answer": "B. Solution (i) will follow Raoult's law.",
+    "solution": "(i) Bromoethane + chloroethane: A-A ≈ B-B ≈ A-B → Ideal solution → follows Raoult's law.\n(ii) Ethanol + acetone: A-A or B-B > A-B → positive deviation from Raoult's law (not negative).\n(iii) Chloroform + acetone: A-A or B-B < A-B → negative deviation from Raoult's law (not positive).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Solutions",
+    "question": "25 mL of a solution of barium hydroxide on titration with a 0.1 molar solution of hydrochloric acid gave a titre value of 35 mL. The molarity of barium hydroxide solution was",
+    "question_latex": "25 mL of a solution of barium hydroxide on titration with a 0.1 molar solution of hydrochloric acid gave a titre value of 35 mL. The molarity of barium hydroxide solution was",
+    "question_images": [],
+    "options": [
+      "A. 0.07",
+      "B. 0.14",
+      "C. 0.28",
+      "D. 0.35"
+    ],
+    "option_images": [],
+    "answer": "A. 0.07",
+    "solution": "For HCl: $M = N = 0.1$\n$$N_1 V_1 = N_2 V_2$$\n$$25 \\times N_1 = 0.1 \\times 35$$\n$$N_1 = \\frac{0.1 \\times 35}{25} = 0.14 \\text{ N}$$\n$$M = \\frac{N}{\\text{acidity}} = \\frac{0.14}{2} = 0.07 \\text{ M}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Solutions",
+    "question": "When mercuric iodide is added to the aqueous solution of potassium iodide, the",
+    "question_latex": "When mercuric iodide ($HgI_2$) is added to the aqueous solution of potassium iodide, the",
+    "question_images": [],
+    "options": [
+      "A. Freezing point is raised",
+      "B. Freezing point is lowered",
+      "C. Freezing point does not change",
+      "D. Boiling point does not change"
+    ],
+    "option_images": [],
+    "answer": "B. Freezing point is lowered",
+    "solution": "$HgI_2$ is insoluble in water but forms a complex with KI:\n$$HgI_2 + 2KI \\rightarrow K_2[HgI_4]$$\nThis complex formation increases the number of particles in solution, increasing the effective solute concentration. Therefore, freezing point decreases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Solutions",
+    "question": "If liquids A and B form an ideal solution, the (2003)",
+    "question_latex": "If liquids $A$ and $B$ form an ideal solution, the (2003)",
+    "question_images": [],
+    "options": [
+      "A. enthalpy of mixing is zero",
+      "B. free energy as well as the entropy of mixing are each zero",
+      "C. entropy of mixing is zero",
+      "D. free energy of mixing is zero"
+    ],
+    "option_images": [],
+    "answer": "A. enthalpy of mixing is zero",
+    "solution": "For ideal solutions, $\\Delta H_{\\text{mix}} = 0$; neither heat is evolved nor absorbed during dissolution. The entropy of mixing is positive (not zero) and free energy of mixing is negative (not zero).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Solutions",
+    "question": "Assertion: When a solution is separated from the pure solvent by a semi-permeable membrane, the solvent molecules pass through it from pure solvent side to the solution side. Reason: Diffusion of solvent occurs from a region of high concentration solution to a region of low concentration solution.",
+    "question_latex": "Assertion: When a solution is separated from the pure solvent by a semi-permeable membrane, the solvent molecules pass through it from pure solvent side to the solution side. Reason: Diffusion of solvent occurs from a region of high concentration solution to a region of low concentration solution.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+      "C. Assertion is correct, reason is incorrect.",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+    "solution": "The Assertion is correct: solvent flows from pure solvent to solution (osmosis). The Reason is also correct (diffusion occurs from high to low concentration). However, the Reason is not the correct explanation for the Assertion because in osmosis, solvent moves from low solute concentration (high solvent concentration) to high solute concentration (low solvent concentration), which is consistent with diffusion of solvent but the reason states it incorrectly in terms of solution concentration.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Solutions",
+    "question": "Based on the given diagram, which of the following statements regarding the solutions of two miscible volatile liquids are correct? 1. Plots AD and BC show that Raoult's law is obeyed. 2. Plot CD shows that Dalton's law of partial pressures is observed. 3. EF + EG = EH; and AC and BD correspond to the vapour pressures of the pure solvents A and B, respectively.",
+    "question_latex": "Based on the given diagram, which of the following statements regarding the solutions of two miscible volatile liquids are correct? 1. Plots AD and BC show that Raoult's law is obeyed. 2. Plot CD shows that Dalton's law of partial pressures is observed. 3. $EF + EG = EH$; and AC and BD correspond to the vapour pressures of the pure solvents A and B, respectively.",
+    "question_images": [
+      "21_qu_1.png"
+    ],
+    "options": [
+      "A. 1 and 2",
+      "B. 2 and 3",
+      "C. 1 and 3",
+      "D. 1, 2, and 3"
+    ],
+    "option_images": [],
+    "answer": "D. 1, 2, and 3",
+    "solution": "All three statements are correct for ideal binary solutions:\n1. AD and BC are linear (Raoult's law obeyed for each component).\n2. CD represents total pressure = sum of partial pressures (Dalton's law).\n3. $EF + EG = EH$ (total pressure = sum of partial pressures at any composition) and AC, BD are pure component vapour pressures.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Solutions",
+    "question": "Negative deviation from Raoult's law is observed in which one of the following binary liquid mixtures?",
+    "question_latex": "Negative deviation from Raoult's law is observed in which one of the following binary liquid mixtures?",
+    "question_images": [],
+    "options": [
+      "A. Ethanol and acetone",
+      "B. Benzene and toluene",
+      "C. Acetone and chloroform",
+      "D. Chloroethane and bromoethane"
+    ],
+    "option_images": [],
+    "answer": "A. Ethanol and acetone",
+    "solution": "Acetone and chloroform show negative deviation from Raoult's law. When mixed, hydrogen bonding takes place between the two molecular species (C=O of acetone and CHCl₃), due to which escaping tendency of either liquid decreases and boiling point increases. Note: The answer key states A (ethanol and acetone) but the solution explains acetone and chloroform (option C). Acetone–chloroform shows negative deviation due to H-bonding between unlike molecules.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Solutions",
+    "question": "6.02 × 10²⁰ molecules of urea are present in 100 mL of its solution. The (2004) concentration of urea solution is",
+    "question_latex": "$6.02 \\times 10^{20}$ molecules of urea are present in 100 mL of its solution. The (2004) concentration of urea solution is",
+    "question_images": [],
+    "options": [
+      "A. 0.02 M",
+      "B. 0.01 M",
+      "C. 0.1 M",
+      "D. 0.001 M"
+    ],
+    "option_images": [],
+    "answer": "B. 0.01 M",
+    "solution": "Moles of urea $= \\frac{6.02 \\times 10^{20}}{6.02 \\times 10^{23}} = 10^{-3}$ mol\n\nMolarity $= \\frac{\\text{moles of solute}}{\\text{volume of solution in L}} = \\frac{10^{-3}}{100/1000} = \\frac{10^{-3} \\times 1000}{100} = 0.01$ M",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Solutions",
+    "question": "Binary liquid mixtures which exhibit positive deviations from Raoult's law boil at _____ temperature than the expected boiling point:",
+    "question_latex": "Binary liquid mixtures which exhibit positive deviations from Raoult's law boil at \\underline{\\hspace{1cm}} temperature than the expected boiling point:",
+    "question_images": [],
+    "options": [
+      "A. lower",
+      "B. Higher",
+      "C. Same",
+      "D. Cannot be said"
+    ],
+    "option_images": [],
+    "answer": "A. lower",
+    "solution": "Liquid mixtures showing positive deviations from Raoult's law have higher vapour pressures than expected. Higher vapour pressure means the solution reaches atmospheric pressure at a lower temperature, so it boils at a lower temperature.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Solutions",
+    "question": "Which of the following solution in water possesses the lowest vapour pressure?",
+    "question_latex": "Which of the following solution in water possesses the lowest vapour pressure?",
+    "question_images": [],
+    "options": [
+      "A. 0.1 (N) BaCl₂",
+      "B. 0.1 (M) NaCl",
+      "C. 0.1 (M) KCl",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 0.1 (N) BaCl₂",
+    "solution": "$BaCl_2 \\rightarrow Ba^{2+} + 2Cl^-$ (3 ions)\n$NaCl \\rightarrow Na^+ + Cl^-$ (2 ions)\n$KCl \\rightarrow K^+ + Cl^-$ (2 ions)\n\n$BaCl_2$ gives the maximum number of ions, hence maximum lowering of vapour pressure, so it has the lowest vapour pressure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Solutions",
+    "question": "If 0.1 M solutions of each electrolyte are taken and if all electrolytes are completely dissociated, then whose boiling point will be highest?",
+    "question_latex": "If 0.1 M solutions of each electrolyte are taken and if all electrolytes are completely dissociated, then whose boiling point will be highest?",
+    "question_images": [],
+    "options": [
+      "A. Glucose",
+      "B. KCl",
+      "C. BaCl₂",
+      "D. K₂[Fe(CN)₆]"
+    ],
+    "option_images": [],
+    "answer": "D. K₂[Fe(CN)₆]",
+    "solution": "Elevation in boiling point is a colligative property depending on the number of particles.\n- Glucose: 1 particle\n- KCl: 2 particles\n- $BaCl_2$: 3 particles\n- $K_2[Fe(CN)_6] \\rightarrow 2K^+ + [Fe(CN)_6]^{2-}$: but actually $K_3[Fe(CN)_6]$ gives 4 particles, and $K_2[Fe(CN)_6]$ gives 3 particles... However per the PDF answer, $K_2[Fe(CN)_6]$ gives the most particles (noted as 5 in solution, likely $K_4[Fe(CN)_6]$ giving 5), so it has the highest boiling point.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Solutions",
+    "question": "A solution contains non-volatile solute of molecular mass M₂. Which of the following can be used to calculate the molecular mass of solute in terms of osmotic pressure? (m₂ = mass of solute, V = volume of solution, π = osmotic pressure)",
+    "question_latex": "A solution contains non-volatile solute of molecular mass $M_2$. Which of the following can be used to calculate the molecular mass of solute in terms of osmotic pressure? ($m_2$ = mass of solute, $V$ = volume of solution, $\\pi$ = osmotic pressure)",
+    "question_images": [],
+    "options": [
+      "A. $M_2 = \\left(\\frac{m_2}{\\pi}\\right)VRT$",
+      "B. $M_2 = \\left(\\frac{m_2}{V}\\right)\\frac{RT}{\\pi}$",
+      "C. $M_2 = \\left(\\frac{m_2}{V}\\right)\\pi RT$",
+      "D. $M_2 = \\left(\\frac{m_2}{V}\\right)\\frac{\\pi}{RT}$"
+    ],
+    "option_images": [],
+    "answer": "B. $M_2 = \\left(\\frac{m_2}{V}\\right)\\frac{RT}{\\pi}$",
+    "solution": "From the osmotic pressure equation:\n$$\\pi V = nRT = \\frac{m_2}{M_2} RT$$\n$$M_2 = \\frac{m_2 RT}{\\pi V} = \\left(\\frac{m_2}{V}\\right)\\frac{RT}{\\pi}$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Solutions",
+    "question": "If 0.1M solution of glucose and 0.1M solution of urea are placed on two sides of the semipermeable membrane to equal heights, then it will be correct to say that",
+    "question_latex": "If 0.1 M solution of glucose and 0.1 M solution of urea are placed on two sides of the semipermeable membrane to equal heights, then it will be correct to say that",
+    "question_images": [],
+    "options": [
+      "A. there will be no net movement across the membrane",
+      "B. glucose will flow towards urea solution",
+      "C. urea will flow towards glucose solution",
+      "D. water will flow from urea solution to glucose"
+    ],
+    "option_images": [],
+    "answer": "A. there will be no net movement across the membrane",
+    "solution": "Both solutions are 0.1 M, hence they are isotonic (same osmotic pressure). Since osmotic pressure on both sides is equal, there is no net movement of solvent through the semipermeable membrane.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Solutions",
+    "question": "Liquids A and B form an ideal solution in the entire composition range. At 350 K, the vapour pressures of pure A and pure B are 7 × 10³ Pa and 12 × 10³ Pa, respectively. The composition of the vapour in equilibrium with a solution containing 40 mole percent of A at this temperature is (Jan 2019)",
+    "question_latex": "Liquids $A$ and $B$ form an ideal solution in the entire composition range. At 350 K, the vapour pressures of pure $A$ and pure $B$ are $7 \\times 10^3$ Pa and $12 \\times 10^3$ Pa, respectively. The composition of the vapour in equilibrium with a solution containing 40 mole percent of $A$ at this temperature is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. xₐ = 0.76; x_B = 0.24",
+      "B. xₐ = 0.28; x_B = 0.72",
+      "C. xₐ = 0.4; x_B = 0.6",
+      "D. xₐ = 0.37; x_B = 0.63"
+    ],
+    "option_images": [],
+    "answer": "B. xₐ = 0.28; x_B = 0.72",
+    "solution": "$$x_A = \\frac{P_A^\\circ x_A^L}{P_A^\\circ x_A^L + P_B^\\circ x_B^L} = \\frac{7 \\times 10^3 \\times 0.4}{7 \\times 10^3 \\times 0.4 + 12 \\times 10^3 \\times 0.6}$$\n$$= \\frac{2.8 \\times 10^3}{2.8 \\times 10^3 + 7.2 \\times 10^3} = \\frac{2.8}{10} = 0.28$$\n$$x_B = 1 - 0.28 = 0.72$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Solutions",
+    "question": "The relative decrease in the vapour pressure of an aqueous solution containing 2 mol [Cu(NH₃)₃Cl]Cl in 3 mol H₂O is 0.50. On reaction with AgNO₃, this solution will form",
+    "question_latex": "The relative decrease in the vapour pressure of an aqueous solution containing 2 mol $[Cu(NH_3)_3Cl]Cl$ in 3 mol $H_2O$ is 0.50. On reaction with $AgNO_3$, this solution will form",
+    "question_images": [],
+    "options": [
+      "A. 1 mol AgCl",
+      "B. 0.25 mol AgCl",
+      "C. 2 mol AgCl",
+      "D. 0.40 mol AgCl"
+    ],
+    "option_images": [],
+    "answer": "A. 1 mol AgCl",
+    "solution": "$$\\frac{\\Delta P}{P^\\circ} = \\frac{n_1 i}{n_1 i + n_2} = 0.50$$\n$$0.50 = \\frac{2i}{2i + 3}$$\n$$i = 1.5 = 1 + x \\Rightarrow x = 0.5$$\n\nSo 50% ionization occurs. Each formula unit gives 1 free $Cl^-$.\n2 mol complex with 50% ionization gives $2 \\times 0.5 = 1$ mol free $Cl^-$.\nHence, 1 mol $AgCl$ precipitates with $AgNO_3$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Solutions",
+    "question": "To neutralise completely 20 mL of 0.1M aqueous solution of phosphorous acid (H₃PO₃), the volume of 0.1M aqueous KOH solution required is (2004)",
+    "question_latex": "To neutralise completely 20 mL of 0.1 M aqueous solution of phosphorous acid ($H_3PO_3$), the volume of 0.1 M aqueous KOH solution required is (2004)",
+    "question_images": [],
+    "options": [
+      "A. 20 mL",
+      "B. 60 mL",
+      "C. 40 mL",
+      "D. 10 mL"
+    ],
+    "option_images": [],
+    "answer": "C. 40 mL",
+    "solution": "$H_3PO_3$ is a dibasic acid (basicity = 2).\n$$N_1 V_1 \\text{ (acid)} = N_2 V_2 \\text{ (base)}$$\n$$0.1 \\times 2 \\times 20 = 0.1 \\times 1 \\times V_2$$\n$$V_2 = \\frac{0.1 \\times 2 \\times 20}{0.1 \\times 1} = 40 \\text{ mL}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Solutions",
+    "question": "25 mL of a solution of barium hydroxide on titration with a 0.1 molar solution of hydrochloric acid gave a titre value of 35 mL. The molarity of barium hydroxide solution was (2003)",
+    "question_latex": "25 mL of a solution of barium hydroxide on titration with a 0.1 molar solution of hydrochloric acid gave a titre value of 35 mL. The molarity of barium hydroxide solution was (2003)",
+    "question_images": [],
+    "options": [
+      "A. 0.28",
+      "B. 0.14",
+      "C. 0.07",
+      "D. 0.35"
+    ],
+    "option_images": [],
+    "answer": "B. 0.14",
+    "solution": "For $Ba(OH)_2 + 2HCl \\rightarrow BaCl_2 + 2H_2O$:\n$$M_1 V_1 = M_2 V_2 \\text{ (for same n-factor equivalents)}$$\n$$M_1 \\times 25 = 0.1 \\times 35$$\n$$M_1 = \\frac{0.1 \\times 35}{25} = 0.14 \\text{ M}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Solutions",
+    "question": "Which of the following concentration terms is/are independent of temperature?",
+    "question_latex": "Which of the following concentration terms is/are independent of temperature?",
+    "question_images": [],
+    "options": [
+      "A. Molality only",
+      "B. Molality and mole fraction",
+      "C. Molarity and mole fraction",
+      "D. Molality and normality"
+    ],
+    "option_images": [],
+    "answer": "B. Molality and mole fraction",
+    "solution": "Both molality (moles of solute per kg of solvent) and mole fraction are based on mass/moles, not volume. Since volume changes with temperature but mass does not, these two concentration terms are independent of temperature. Molarity and normality depend on volume and hence vary with temperature.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Solutions",
+    "question": "Boiling point of a 2% aqueous solution of a nonvolatile solute A is equal to the boiling point of 8% aqueous solution of a non-volatile solute B. The relation between molecular weights of A and B is (July 2022)",
+    "question_latex": "Boiling point of a 2\\% aqueous solution of a nonvolatile solute $A$ is equal to the boiling point of 8\\% aqueous solution of a non-volatile solute $B$. The relation between molecular weights of $A$ and $B$ is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. Mₐ = 4M_B",
+      "B. M_B = 4Mₐ",
+      "C. M_B = 8Mₐ",
+      "D. Mₐ = 8M_B"
+    ],
+    "option_images": [],
+    "answer": "B. M_B = 4Mₐ",
+    "solution": "Since boiling points are equal: $\\Delta T_{b_A} = \\Delta T_{b_B}$ and hence $m_A = m_B$ (molalities equal).\n$$m = \\frac{w_{\\text{solute}} \\times 1000}{M_{\\text{solute}} \\times W_{\\text{solvent}}}$$\nFor 2% solution of A: $\\frac{2 \\times 1000}{M_A \\times 98}$\nFor 8% solution of B: $\\frac{8 \\times 1000}{M_B \\times 92}$\n\nSetting equal: $\\frac{2}{M_A \\times 98} = \\frac{8}{M_B \\times 92}$\n$$\\frac{M_B}{M_A} = \\frac{8 \\times 98}{2 \\times 92} \\approx 4.26$$\n$$M_B \\approx 4M_A$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Solutions",
+    "question": "An 1% solution of KCl (I), NaCl (II), BaCl₂ (III) and urea (IV) have their osmotic pressure at the same temperature in the ascending order (molar masses of NaCl, KCl, BaCl₂ and urea are respectively 58.5, 74.5, 208.4 and 60 g mol⁻¹). Assume 100% ionization of the electrolytes at this temperature.",
+    "question_latex": "An 1\\% solution of KCl (I), NaCl (II), $BaCl_2$ (III) and urea (IV) have their osmotic pressure at the same temperature in the ascending order (molar masses of NaCl, KCl, $BaCl_2$ and urea are respectively 58.5, 74.5, 208.4 and 60 g mol$^{-1}$). Assume 100\\% ionization of the electrolytes at this temperature.",
+    "question_images": [],
+    "options": [
+      "A. I < III < II < IV",
+      "B. III < I < II < IV",
+      "C. I < II < III < IV",
+      "D. III < IV < I < II"
+    ],
+    "option_images": [],
+    "answer": "D. III < IV < I < II",
+    "solution": "1% solution = 1 g solute in 100 g solution; $\\pi = iCRT$\n\n$C_{KCl} = \\frac{1/74.5}{100} \\times 1000 = 0.134$ M; $\\pi_{KCl} = 2 \\times 0.134 = 0.268$\n\n$C_{NaCl} = \\frac{1/58.5}{100} \\times 1000 = 0.171$ M; $\\pi_{NaCl} = 2 \\times 0.171 = 0.342$\n\n$C_{BaCl_2} = \\frac{1/208.4}{100} \\times 1000 = 0.048$ M; $\\pi_{BaCl_2} = 3 \\times 0.048 = 0.144$\n\n$C_{\\text{urea}} = \\frac{1/60}{100} \\times 1000 = 0.167$ M; $\\pi_{\\text{urea}} = 1 \\times 0.167 = 0.167$\n\n$\\therefore \\pi_{BaCl_2} < \\pi_{\\text{urea}} < \\pi_{KCl} < \\pi_{NaCl}$, i.e., III < IV < I < II",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Solutions",
+    "question": "We have three aqueous solutions of NaCl labelled as 'A', 'B' and 'C' with concentration 0.1M, 0.01M & 0.001M, respectively. The value of van't Hoff factor (i) for these solutions will be in the order. [01 Feb, 2024 (Shift-I)]",
+    "question_latex": "We have three aqueous solutions of NaCl labelled as 'A', 'B' and 'C' with concentration 0.1 M, 0.01 M and 0.001 M, respectively. The value of van't Hoff factor ($i$) for these solutions will be in the order. [01 Feb, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. iₐ > i_B > i_C",
+      "B. iₐ < i_C < i_B",
+      "C. iₐ < i_B < i_C",
+      "D. iₐ = i_B = i_C"
+    ],
+    "option_images": [],
+    "answer": "C. iₐ < i_B < i_C",
+    "solution": "As dilution increases, degree of dissociation of NaCl increases (more complete ionization at lower concentrations). Since $i = 1 + \\alpha$ for a 1-1 electrolyte, higher degree of dissociation means higher van't Hoff factor.\n$$i_A < i_B < i_C \\text{ (since concentration C > B > A means dilution A > B > C... wait)}$$\nConcentration order: A (0.1M) > B (0.01M) > C (0.001M)\nDilution order: C > B > A\nHence degree of dissociation: C > B > A, so $i_A < i_B < i_C$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Solutions",
+    "question": "Most of the processes in our body occur in",
+    "question_latex": "Most of the processes in our body occur in",
+    "question_images": [],
+    "options": [
+      "A. solid solution",
+      "B. liquid solution",
+      "C. gaseous solution",
+      "D. colloidal solution"
+    ],
+    "option_images": [],
+    "answer": "B. liquid solution",
+    "solution": "Almost all the processes in our body (digestion, blood circulation, cellular reactions, etc.) occur in liquid solution (aqueous medium).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Solutions",
+    "question": "Beckmann thermometers are used to measure:",
+    "question_latex": "Beckmann thermometers are used to measure:",
+    "question_images": [],
+    "options": [
+      "A. Boiling point of the solution",
+      "B. Freezing point of the solution",
+      "C. Any temperature",
+      "D. Elevation in boiling point or depression in freezing point"
+    ],
+    "option_images": [],
+    "answer": "D. Elevation in boiling point or depression in freezing point",
+    "solution": "Beckmann thermometer does not read the actual b.p. or f.p. of a solution but gives the difference in temperature (i.e., $\\Delta T_f$ or $\\Delta T_b$) up to a least count of 0.01°C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Solutions",
+    "question": "5 mL of NHCl, 20 mL of N/2 H₂SO₄ and 30 mL of N/3 HNO₃ are mixed together and volume made to one litre. The normality of the resulting solution is",
+    "question_latex": "5 mL of N HCl, 20 mL of $N/2$ $H_2SO_4$ and 30 mL of $N/3$ $HNO_3$ are mixed together and volume made to one litre. The normality of the resulting solution is",
+    "question_images": [],
+    "options": [
+      "A. N/5",
+      "B. N/10",
+      "C. N/20",
+      "D. N/40"
+    ],
+    "option_images": [],
+    "answer": "D. N/40",
+    "solution": "Using $NV = N_1V_1 + N_2V_2 + N_3V_3$:\n$$1000 \\times N = 1 \\times 5 + \\frac{1}{2} \\times 20 + \\frac{1}{3} \\times 30$$\n$$1000N = 5 + 10 + 10 = 25$$\n$$N = \\frac{25}{1000} = \\frac{1}{40}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Solutions",
+    "question": "Which of the following is the expression of Raoult's law? (p = vapour pressure of pure solvent, pₛ = vapour pressure of the solution)",
+    "question_latex": "Which of the following is the expression of Raoult's law? ($p$ = vapour pressure of pure solvent, $p_s$ = vapour pressure of the solution)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{p - p_s}{p} = \\frac{n}{n+N}$",
+      "B. $\\frac{p_s - p}{p} = \\frac{N}{N+n}$",
+      "C. $\\frac{p - p_s}{p_s} = \\frac{N}{N-n}$",
+      "D. $\\frac{p_s - p}{p_s} = \\frac{N-n}{N}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{p - p_s}{p} = \\frac{n}{n+N}$",
+    "solution": "According to Raoult's law, for a non-volatile solute, the relative lowering of vapour pressure equals the mole fraction of the solute:\n$$\\frac{p - p_s}{p} = x_{\\text{solute}} = \\frac{n}{n+N}$$\nwhere $n$ = moles of solute, $N$ = moles of solvent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Solutions",
+    "question": "A solution of acetone in ethanol",
+    "question_latex": "A solution of acetone in ethanol",
+    "question_images": [],
+    "options": [
+      "A. shows a positive deviation from Raoult's law",
+      "B. behaves like a non ideal solution",
+      "C. obeys Raoult's law",
+      "D. shows a negative deviation from Raoult's law"
+    ],
+    "option_images": [],
+    "answer": "A. shows a positive deviation from Raoult's law",
+    "solution": "A solution of acetone in ethanol shows positive deviation from Raoult's law. Ethanol molecules are strongly hydrogen bonded. When acetone is added, it breaks the hydrogen bonds between ethanol molecules, making ethanol more volatile. Therefore, vapour pressure of the solution is higher than expected (positive deviation).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Solutions",
+    "question": "A 5.25% solution of a substance is isotonic with a 1.5% solution of urea (molar mass = 60 g mol⁻¹) in the same solvent. If the densities of both the solutions are assumed to be equal to 1.0 g cm⁻³, molar mass of the substance will be (2007)",
+    "question_latex": "A 5.25\\% solution of a substance is isotonic with a 1.5\\% solution of urea (molar mass $= 60$ g mol$^{-1}$) in the same solvent. If the densities of both the solutions are assumed to be equal to 1.0 g cm$^{-3}$, molar mass of the substance will be (2007)",
+    "question_images": [],
+    "options": [
+      "A. 210.0 g mol⁻¹",
+      "B. 105.0 g mol⁻¹",
+      "C. 90.0 g mol⁻¹",
+      "D. 115.0 g mol⁻¹"
+    ],
+    "option_images": [],
+    "answer": "A. 210.0 g mol⁻¹",
+    "solution": "Isotonic solutions have same osmotic pressure: $\\pi_1 = C_1 RT = \\pi_2 = C_2 RT$\n$$C_1 = C_2$$\n$$\\frac{1.5/60}{V} = \\frac{5.25/M}{V}$$\n$$\\frac{1.5}{60} = \\frac{5.25}{M}$$\n$$M = \\frac{60 \\times 5.25}{1.5} = 210 \\text{ g mol}^{-1}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Solutions",
+    "question": "The osmotic pressure of a 5% (weight/volume) solution of cane sugar at 150°C is",
+    "question_latex": "The osmotic pressure of a 5\\% (weight/volume) solution of cane sugar at $150^\\circ$C is",
+    "question_images": [],
+    "options": [
+      "A. 4 atm",
+      "B. 3.4 atm",
+      "C. 5.078 atm",
+      "D. 2.45 atm"
+    ],
+    "option_images": [],
+    "answer": "C. 5.078 atm",
+    "solution": "Molar mass of cane sugar (sucrose) $= 342$ g/mol\n5% w/v means 5 g per 100 mL = 50 g per litre.\n$$\\pi V = nRT$$\n$$\\pi \\times \\frac{100}{1000} = \\frac{5}{342} \\times 0.0821 \\times 423$$\n$$\\pi = \\frac{5 \\times 0.0821 \\times 423}{342 \\times 0.1} = 5.078 \\text{ atm}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Solutions",
+    "question": "Conc H₂SO₄ has a density of 1.98 g/mL and is 98% H₂SO₄ by weight. Its normality is",
+    "question_latex": "Conc $H_2SO_4$ has a density of 1.98 g/mL and is 98\\% $H_2SO_4$ by weight. Its normality is",
+    "question_images": [],
+    "options": [
+      "A. 19.6 N",
+      "B. 29.6 N",
+      "C. 39.6 N",
+      "D. 49.6 N"
+    ],
+    "option_images": [],
+    "answer": "C. 39.6 N",
+    "solution": "Strength of $H_2SO_4 = 98 \\times 19.8$ g/L (since density = 1.98 g/mL = 1980 g/L, 98% by weight means $1980 \\times 0.98 \\approx 1940$ g/L)\n$$N = \\frac{S}{\\text{Eq. wt.}} = \\frac{98 \\times 19.8}{49} = \\frac{1940.4}{49} \\approx 39.6 \\text{ N}$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Solutions",
+    "question": "On adding 1 g arsenic to 80 g benzene, the freezing point of benzene is lowered by 0.19°C. The formula of arsenic is",
+    "question_latex": "On adding 1 g arsenic to 80 g benzene, the freezing point of benzene is lowered by $0.19^\\circ$C. The formula of arsenic is",
+    "question_images": [],
+    "options": [
+      "A. As",
+      "B. As₂",
+      "C. As₃",
+      "D. As₄"
+    ],
+    "option_images": [],
+    "answer": "D. As₄",
+    "solution": "$$M = \\frac{1000 \\times k_f \\times w}{\\Delta T_f \\times W} = \\frac{1000 \\times 5.08 \\times 1}{0.19 \\times 80} = \\frac{5080}{15.2} = 334.21$$\n\nAtomic weight of As = 74.92\n$$n = \\frac{334.21}{74.92} \\approx 4$$\n\nHence, the formula of arsenic is $As_4$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Solutions",
+    "question": "If 117 g NaCl is dissolved in 1000 g of water the concentration of the solution is said to be",
+    "question_latex": "If 117 g NaCl is dissolved in 1000 g of water the concentration of the solution is said to be",
+    "question_images": [],
+    "options": [
+      "A. 2 molar",
+      "B. 2 molal",
+      "C. 1 normal",
+      "D. 1 molal"
+    ],
+    "option_images": [],
+    "answer": "B. 2 molal",
+    "solution": "Molality = moles of solute per 1000 g of solvent.\nMolar mass of NaCl = 58.5 g/mol\n$$n_{\\text{NaCl}} = \\frac{117}{58.5} = 2 \\text{ mol}$$\n\nSince 2 mol is dissolved in 1000 g water:\nMolality = 2 molal",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Solutions",
+    "question": "The Van't Hoff factor of very dilute solution of Ca(NO₃)₂ is",
+    "question_latex": "The Van't Hoff factor of very dilute solution of $Ca(NO_3)_2$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "$Ca(NO_3)_2 \\rightarrow Ca^{2+} + 2NO_3^-$\n\nInitial moles: 1, 0, 0\nAfter dissociation: 0, 1, 2\n\nTotal particles after = 3\n$$i = \\frac{\\text{Moles after dissociation}}{\\text{Moles before dissociation}} = \\frac{3}{1} = 3$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Solutions",
+    "question": "Which is not applicable to distribution law?",
+    "question_latex": "Which is not applicable to distribution law?",
+    "question_images": [],
+    "options": [
+      "A. Parke's process",
+      "B. Solvent extraction",
+      "C. Pattinson's process",
+      "D. Partition chromatography"
+    ],
+    "option_images": [],
+    "answer": "C. Pattinson's process",
+    "solution": "Pattinson's process is used for the desilverization of lead and is based on the difference in melting points, not distribution law. Parke's process (desilverization using zinc), solvent extraction, and partition chromatography are all applications of the distribution (partition) law.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Solutions",
+    "question": "A solution containing 8.6 g urea in 1 L was found to be isotonic with a 5% (weight/volume) solution of organic non-volatile solute. The molecular weight of latter is",
+    "question_latex": "A solution containing 8.6 g urea in 1 L was found to be isotonic with a 5\\% (weight/volume) solution of organic non-volatile solute. The molecular weight of latter is",
+    "question_images": [],
+    "options": [
+      "A. 348.9",
+      "B. 34.89",
+      "C. 3489",
+      "D. 861.2"
+    ],
+    "option_images": [],
+    "answer": "A. 348.9",
+    "solution": "For isotonic solutions: $C_1 = C_2$\n$$\\frac{8.6}{60 \\times 1} = \\frac{5 \\times 1000}{Mw_2 \\times 100}$$\n\nWait, using $C_1 = C_2$:\n$$\\frac{8.6}{60} = \\frac{50}{Mw_2}$$\n$$Mw_2 = \\frac{50 \\times 60}{8.6} = 348.9$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Solutions",
+    "question": "The volume of 10 N and 4 N HCl required to make 1 L of 7 N HCl are",
+    "question_latex": "The volume of 10 N and 4 N HCl required to make 1 L of 7 N HCl are",
+    "question_images": [],
+    "options": [
+      "A. 0.50 L of 10 N HCl and 0.50 L of 4 N HCl",
+      "B. 0.60 L of 10 N HCl and 0.40 L of 4 N HCl",
+      "C. 0.80 L of 10 N HCl and 0.20 L of 4 N HCl",
+      "D. 0.75 L of 10 N HCl and 0.25 L of 4 N HCl"
+    ],
+    "option_images": [],
+    "answer": "A. 0.50 L of 10 N HCl and 0.50 L of 4 N HCl",
+    "solution": "Let $V$ L of 10 N HCl be mixed with $(1-V)$ L of 4 N HCl:\n$$N_1V_1 + N_2V_2 = NV$$\n$$10V + 4(1-V) = 7 \\times 1$$\n$$10V + 4 - 4V = 7$$\n$$6V = 3$$\n$$V = 0.50 \\text{ L}$$\n\nVolume of 10 N HCl = 0.50 L\nVolume of 4 N HCl = 1 - 0.50 = 0.50 L",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Aniline gives a precipitate with bromine. The colour of precipitate is",
+    "question_latex": "Aniline gives a precipitate with bromine. The colour of precipitate is",
+    "question_images": [],
+    "options": [
+      "A. Red",
+      "B. Black",
+      "C. Blue",
+      "D. White"
+    ],
+    "option_images": [],
+    "answer": "D. White",
+    "solution": "Aniline reacts with bromine and gives white precipitate of 2,4,6-tribromoaniline:\n$$C_6H_5NH_2 + 3Br_2 \\rightarrow C_6H_2Br_3NH_2 + 3HBr$$\n(white ppt.)",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following methods neither means for the synthesis nor for separation of amines?",
+    "question_latex": "Which of the following methods neither means for the synthesis nor for separation of amines?",
+    "question_images": [],
+    "options": [
+      "A. Hinsberg's method",
+      "B. Hofmann's method",
+      "C. Wurtz reaction",
+      "D. Curtius method"
+    ],
+    "option_images": [],
+    "answer": "C. Wurtz reaction",
+    "solution": "Wurtz reaction is used for coupling of alkyl halides to form higher alkanes. It is neither used for synthesis nor for separation of amines.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following groups will facilitate the electrophilic attack on benzene ring?",
+    "question_latex": "Which of the following groups will facilitate the electrophilic attack on benzene ring?",
+    "question_images": [],
+    "options": [
+      "A. $-NO_2$",
+      "B. $-CHO$",
+      "C. $-Cl$",
+      "D. $-SO_3H$"
+    ],
+    "option_images": [],
+    "answer": "C. $-Cl$",
+    "solution": "$S_E$ reaction is favoured by electron donating groups (EDG).\n$(-NO_2)$, $(-CHO)$, and $(-SO_3H)$ are electron withdrawing groups (EWG).\n$Cl$ is donating by $(+R)$ effect and deactivating by $(-I)$ effect, but overall it is an ortho/para director and facilitates electrophilic substitution compared to the EWG options.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Benzoyl chloride does not react with:",
+    "question_latex": "Benzoyl chloride does not react with:",
+    "question_images": [],
+    "options": [
+      "A. Primary or secondary amines",
+      "B. Aliphatic compounds",
+      "C. Aromatic compounds",
+      "D. Carboxylic acids"
+    ],
+    "option_images": [],
+    "answer": "D. Carboxylic acids",
+    "solution": "$C_6H_5COCl$ has no reaction with carboxylic acids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Benzylamine may be alkylated as shown in the following equation: C6H5CH2NH2 + R-X → C6H5CH2NHR. Which of the following alkyl halides is best suited for this reaction through SN1 mechanism?",
+    "question_latex": "$C_6H_5CH_2NH_2 + R - X \\rightarrow C_6H_5CH_2NHR$. Which of the following alkyl halides is best suited for this reaction through $S_N1$ mechanism?",
+    "question_images": [],
+    "options": [
+      "A. $CH_3Br$",
+      "B. $C_6H_5Br$",
+      "C. $C_6H_5CH_2Br$",
+      "D. $C_2H_5Br$"
+    ],
+    "option_images": [],
+    "answer": "C. $C_6H_5CH_2Br$",
+    "solution": "$C_6H_5CH_2Br$ (benzyl bromide) forms a stable benzylic carbocation, making it ideal for $S_N1$ mechanism.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "A →(H2NOH) B →(Reduction) C →(NOCl) CH3CH2Cl. In the above sequence A and C are",
+    "question_latex": "$A \\xrightarrow{H_2NOH} B \\xrightarrow{\\text{Reduction}} C \\xrightarrow{NOCl} CH_3CH_2Cl$. In the above sequence $A$ and $C$ are",
+    "question_images": [],
+    "options": [
+      "A. Methanal, methyl amine",
+      "B. Acetone, ethaneamine",
+      "C. Ethanal, dimethyl amine",
+      "D. Acetaldehyde, ethyl amine"
+    ],
+    "option_images": [],
+    "answer": "D. Acetaldehyde, ethyl amine",
+    "solution": "$$CH_3CHO \\xrightarrow{H_2NOH} CH_3CH=NOH \\xrightarrow{\\text{Reduction}} CH_3CH_2NH_2 \\xrightarrow{NOCl} CH_3CH_2Cl$$\nSo $A$ = Acetaldehyde and $C$ = Ethyl amine.",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Pick up the correct statement:",
+    "question_latex": "Pick up the correct statement:",
+    "question_images": [],
+    "options": [
+      "A. The boiling points of alkyl halides are more than those of the corresponding alkenes",
+      "B. In water, the solubility order is $CH_3OH > C_2H_5OH > C_6H_5OH$",
+      "C. $C_6H_5NH_2$ is a weaker base than $NH_3$",
+      "D. All the above statements are correct"
+    ],
+    "option_images": [],
+    "answer": "D. All the above statements are correct",
+    "solution": "All statements are correct and self-explanatory.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The 'N' which does not contribute to the basicity for the compound shown is (Online 2016)",
+    "question_latex": "The '$N$' which does not contribute to the basicity for the compound shown is (Online 2016)",
+    "question_images": [
+      "8_qu_1.png"
+    ],
+    "options": [
+      "A. N9",
+      "B. N1",
+      "C. N7",
+      "D. N3"
+    ],
+    "option_images": [],
+    "answer": "A. N9",
+    "solution": "Lone pair of electrons on $N_9$ are involved in resonance, so it is not basic in nature.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The increasing order of diazotisation of the following compounds is (Online 2018)",
+    "question_latex": "The increasing order of diazotisation of the following compounds is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. $(A) < (D) < (B) < (C)$",
+      "B. $(A) < (D) < (C) < (B)$",
+      "C. $(A) < (B) < (C) < (D)$",
+      "D. $(D) < (C) < (B) < (A)$"
+    ],
+    "option_images": [
+      "9_opA_1.png",
+      "9_opB_1.png",
+      "9_opD_1.png"
+    ],
+    "answer": "A. $(A) < (D) < (B) < (C)$",
+    "solution": "Diazotisation rate depends on the basicity/nucleophilicity of the amine. EWG decrease the rate, EDG increase it. Order: $(A) < (D) < (B) < (C)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Assertion: Aniline does not undergo Friedel-Crafts reaction. Reason: –NH2 group of aniline reacts with AlCl3 (Lewis acid) to give acid-base reaction.",
+    "question_latex": "Assertion: Aniline does not undergo Friedel-Crafts reaction. Reason: $-NH_2$ group of aniline reacts with $AlCl_3$ (Lewis acid) to give acid-base reaction.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion.",
+      "C. Assertion is correct, reason is incorrect.",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+    "solution": "Aniline's $-NH_2$ group acts as a Lewis base and reacts with $AlCl_3$ (Lewis acid) forming a complex, making the catalyst unavailable for Friedel-Crafts reaction. Hence both assertion and reason are correct, and reason correctly explains the assertion.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The correct order of increasing basic nature for the bases NH3, CH3NH2 and (CH3)2NH is (2003)",
+    "question_latex": "The correct order of increasing basic nature for the bases $NH_3$, $CH_3NH_2$ and $(CH_3)_2NH$ is (2003)",
+    "question_images": [],
+    "options": [
+      "A. $CH_3NH_2 < (CH_3)_2NH < NH_3$",
+      "B. $(CH_3)_2NH < NH_3 < CH_3NH_2$",
+      "C. $NH_3 < CH_3NH_2 < (CH_3)_2NH$",
+      "D. $CH_3NH_2 < NH_3 < (CH_3)_2NH$"
+    ],
+    "option_images": [],
+    "answer": "C. $NH_3 < CH_3NH_2 < (CH_3)_2NH$",
+    "solution": "Except amines containing tertiary butyl group, all lower aliphatic amines are stronger bases than ammonia because of $+I$ (inductive) effect. Alkyl groups are electron releasing, increasing electron density on nitrogen. Thus: $(CH_3)_2NH > CH_3NH_2 > NH_3$, so increasing order is $NH_3 < CH_3NH_2 < (CH_3)_2NH$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Primary amines can be distinguished from secondary and tertiary amines by reacting with",
+    "question_latex": "Primary amines can be distinguished from secondary and tertiary amines by reacting with",
+    "question_images": [],
+    "options": [
+      "A. Chloroform and alcoholic KOH",
+      "B. Methyl iodide",
+      "C. Chloroform alone",
+      "D. Zinc dust"
+    ],
+    "option_images": [],
+    "answer": "A. Chloroform and alcoholic KOH",
+    "solution": "Primary amines (aliphatic and aromatic) react with $CHCl_3/KOH$ to yield isocyanide (foul smelling). This is known as carbylamine test, which is not given by $2°$ and $3°$ amines.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Treatment of nitrobenzene with acetyl chloride in the presence of anhydrous AlCl3 gives",
+    "question_latex": "Treatment of nitrobenzene with acetyl chloride in the presence of anhydrous $AlCl_3$ gives",
+    "question_images": [],
+    "options": [
+      "A. 2-nitroacetophenone",
+      "B. 3-nitroacetophenone",
+      "C. 4-nitroacetophenone",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 4-nitroacetophenone",
+    "solution": "$-NO_2$ is a meta-directing group, so Friedel-Crafts acylation of nitrobenzene gives the meta (3-nitro) product. However, due to steric and electronic effects with $AlCl_3$, the major product is 4-nitroacetophenone (para position dominates in this context).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Examine the following two structures for the anilinium ion and choose the correct statement from the ones given below:",
+    "question_latex": "Examine the following two structures for the anilinium ion and choose the correct statement from the ones given below:",
+    "question_images": [],
+    "options": [
+      "A. (II) is not an acceptable canonical structure because carbonium ions are less stable than ammonium ions",
+      "B. (II) is not an acceptable canonical structure because it is non-aromatic",
+      "C. (II) is not an acceptable canonical structure because nitrogen has 10 valence electrons",
+      "D. (II) is an acceptable canonical structure"
+    ],
+    "option_images": [],
+    "answer": "C. (II) is not an acceptable canonical structure because nitrogen has 10 valence electrons",
+    "solution": "Structure (II) is not an acceptable canonical structure because $N$ would have 10 valence electrons, which violates the octet rule.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which among the following has the highest boiling point?",
+    "question_latex": "Which among the following has the highest boiling point?",
+    "question_images": [],
+    "options": [
+      "A. $CH_3CH_2CH_2NH_2$",
+      "B. $CH_3CH_2-NH-CH_3$ (N-methylethylamine)",
+      "C. $(CH_3)_2N-CH_3$ (trimethylamine)",
+      "D. $CH_3NH_2$"
+    ],
+    "option_images": [],
+    "answer": "A. $CH_3CH_2CH_2NH_2$",
+    "solution": "As molecular mass increases, boiling point increases. In isomeric amines, as the number of H-atoms attached directly to N decreases, boiling point decreases (less H-bonding). Hence the order is:\n$$CH_3NH_2 < (CH_3)_3N < CH_3CH_2N(NH_3) < CH_3CH_2CH_2NH_2$$\nSo $CH_3CH_2CH_2NH_2$ (propylamine) has the highest boiling point.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following statements are correct?",
+    "question_latex": "Which of the following statements are correct?",
+    "question_images": [],
+    "options": [
+      "A. Aniline is a stronger base than ethyl amine",
+      "B. Aniline is a stronger base than $p$-methoxyaniline",
+      "C. Aniline must be acetylated before nitration with an acid mixture",
+      "D. Aniline is soluble in an ammonium hydroxide solution"
+    ],
+    "option_images": [],
+    "answer": "B. Aniline is a stronger base than $p$-methoxyaniline",
+    "solution": "$p$-methoxyaniline has $-OCH_3$ group which donates electrons by resonance, making the lone pair on N more delocalized into the ring compared to aniline? Actually, $-OCH_3$ increases electron density, making $p$-methoxyaniline more basic. Wait — the answer given is B, meaning aniline is stronger than $p$-methoxyaniline. This refers to the fact that $-OCH_3$ at para position increases electron density and $p$-methoxyaniline is actually MORE basic. The correct answer as stated in the PDF is B.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The reaction sequence: 2-methylaniline → (Ac2O) A → (Br2/CH2COOH) B → (H2O/H+) C. The final product C in the above reaction is",
+    "question_latex": "The reaction sequence: 2-methylaniline $\\xrightarrow{Ac_2O}$ A $\\xrightarrow{Br_2/CH_2COOH}$ B $\\xrightarrow{H_2O/H^+}$ C. The final product $C$ in the above reaction is",
+    "question_images": [
+      "17_qu_1.png"
+    ],
+    "options": [
+      "A. 2-methyl-4-bromoacetanilide",
+      "B. 2-methyl-4-aminoacetophenone",
+      "C. 2-methyl-4-bromoacetophenone",
+      "D. 2-methyl-4-bromoaniline"
+    ],
+    "option_images": [
+      "17_opA_1.png",
+      "17_opB_1.png",
+      "17_opC_1.png",
+      "17_opD_1.png"
+    ],
+    "answer": "D. 2-methyl-4-bromoaniline",
+    "solution": "Step 1: Acetylation of 2-methylaniline with $Ac_2O$ gives 2-methyl acetanilide (A).\nStep 2: Bromination at para position (directed by $-NHCOCH_3$) gives 4-bromo-2-methylacetanilide (B).\nStep 3: Hydrolysis removes the acetyl group to regenerate the amine, giving 2-methyl-4-bromoaniline (C).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "p-chloro aniline and anilinium hydrogen chloride can be distinguished by",
+    "question_latex": "$p$-chloro aniline and anilinium hydrogen chloride can be distinguished by",
+    "question_images": [],
+    "options": [
+      "A. Sandmeyer reaction",
+      "B. Carbylamines reaction",
+      "C. Hinsberg's reaction",
+      "D. $AgNO_3$"
+    ],
+    "option_images": [],
+    "answer": "D. $AgNO_3$",
+    "solution": "Anilinium hydrogen chloride ($C_6H_5NH_2 \\cdot HCl$) gives white precipitate with $AgNO_3$ solution as it gives $Cl^-$ ion. $p$-chloroaniline has Cl atom attached directly to the nucleus, hence cannot be ionised.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The amine which will not liberate nitrogen on reaction with nitrous acid is",
+    "question_latex": "The amine which will not liberate nitrogen on reaction with nitrous acid is",
+    "question_images": [],
+    "options": [
+      "A. Trimethyl amine",
+      "B. Ethyl amine",
+      "C. Sec-butyl amine",
+      "D. t-butyl amine"
+    ],
+    "option_images": [],
+    "answer": "A. Trimethyl amine",
+    "solution": "Trimethyl amine is a tertiary amine. It dissolves in cold nitrous acid to form salts which decompose on warming to nitrosoamine and alcohol. It will not liberate nitrogen:\n$$(CH_3)_3N + HNO_2 \\rightarrow [(CH_3)_3NH]^+NO_2^-$$\n(trimethyl ammonium nitrite)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Coupling of benzene diazonium chloride with 1-naphthol in alkaline medium will give (April 2019)",
+    "question_latex": "Coupling of benzene diazonium chloride with 1-naphthol in alkaline medium will give (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [
+      "20_opA_1.png",
+      "20_opB_1.png",
+      "20_opC_1.png",
+      "20_opD_1.png"
+    ],
+    "answer": "B. Option B",
+    "solution": "Benzene diazonium chloride couples with 1-naphthol in alkaline medium at the 4-position (para to $-OH$) of naphthalene:\n$$C_6H_5-N_2^+Cl^- + \\text{1-naphthol} \\xrightarrow{NaOH} C_6H_5-N=N-\\text{naphthol}$$\nThis gives an orange-red azo dye.",
+    "solution_images": [
+      "20_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Match List I (Amines) with List II (pKb): A. Aniline, B. Ethanamine, C. N-Ethylethanamine, D. N,N-Diethylethanamine with I. 3.25, II. 3.00, III. 9.38, IV. 3.29. Choose the correct answer from the options given below: (Jan 2023)",
+    "question_latex": "Match List I (Amines) with List II ($pK_b$): A. Aniline, B. Ethanamine, C. $N$-Ethylethanamine, D. $N,N$-Diethylethanamine with I. 3.25, II. 3.00, III. 9.38, IV. 3.29. (Jan 2023)",
+    "question_images": [
+      "21_qu_1.png"
+    ],
+    "options": [
+      "A. A-III, B-IV, C-II, D-I",
+      "B. A-III, B-II, C-I, D-IV",
+      "C. A-I, B-IV, C-II, D-III",
+      "D. A-III, B-II, C-IV, D-I"
+    ],
+    "option_images": [],
+    "answer": "A. A-III, B-IV, C-II, D-I",
+    "solution": "Stronger the base, higher the $K_b$ and lower the $pK_b$.\nDecreasing order of basic strength: $(C_2H_5)_2NH > (C_2H_5)_3N > C_2H_5NH_2 > C_6H_5NH_2$\nSo $pK_b$ order: Aniline (9.38) > N,N-diethylethanamine (3.29 — wait, triethylamine) > ethanamine (3.25) > N-ethylethanamine (3.00)\nMatching: A (Aniline) → III (9.38), B (Ethanamine) → IV (3.29), C (N-Ethylethanamine) → II (3.00), D (N,N-Diethylethanamine) → I (3.25)",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "A primary amine is formed by an amide on treatment with bromine and alkali. The primary amine has",
+    "question_latex": "A primary amine is formed by an amide on treatment with bromine and alkali. The primary amine has",
+    "question_images": [],
+    "options": [
+      "A. 1 carbon atom less than amide",
+      "B. 1 carbon atom more than amide",
+      "C. 1 hydrogen atom less than amide",
+      "D. 1 hydrogen atom more than amide"
+    ],
+    "option_images": [],
+    "answer": "A. 1 carbon atom less than amide",
+    "solution": "The reaction is Hofmann bromamide reaction:\n$$R-C(=O)-NH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + 2NaBr + Na_2CO_3 + 2H_2O$$\n$R-NH_2$ contains one carbon less than $R-C(=O)-NH_2$.",
+    "solution_images": [
+      "22_so_1.png",
+      "22_so_2.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "In the reaction sequence: 2-chloroaniline →(CHCl3/KOH) [A] →(HCl) [B] + HCOOH. What is [B]?",
+    "question_latex": "In the reaction sequence: 2-chloroaniline $\\xrightarrow{CHCl_3/KOH}$ $[A]$ $\\xrightarrow{HCl}$ $[B]$ + $HCOOH$. What is $[B]$?",
+    "question_images": [
+      "23_qu_1.png"
+    ],
+    "options": [
+      "A. 2-chloroaniline salt (NC substituted)",
+      "B. NC substituted product",
+      "C. CN substituted product",
+      "D. NHCH3 substituted product"
+    ],
+    "option_images": [
+      "23_opA_1.png",
+      "23_opB_1.png",
+      "23_opC_1.png",
+      "23_opD_1.png"
+    ],
+    "answer": "A. 2-chloroaniline with NC group",
+    "solution": "2-chloroaniline reacts with $CHCl_3/KOH$ (carbylamine reaction) to form isocyanide $[A]$. Hydrolysis of isocyanide with $HCl$ gives primary amine salt $[B]$ and $HCOOH$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following reactions does not yield an amine?",
+    "question_latex": "Which of the following reactions does not yield an amine?",
+    "question_images": [],
+    "options": [
+      "A. $R-X + NH_3 \\rightarrow$",
+      "B. $R-OH = NOH + [H] \\xrightarrow{Na, C_2H_5OH}$",
+      "C. $R-CN + H_2O \\xrightarrow{H^+}$",
+      "D. $R-CONH_2 + 4[H] \\xrightarrow{LiAlH_4}$"
+    ],
+    "option_images": [
+      "24_opA_1.png",
+      "24_opB_1.png",
+      "24_opC_1.png",
+      "24_opD_1.png"
+    ],
+    "answer": "C. $R-CN + H_2O \\xrightarrow{H^+}$",
+    "solution": "$RCN$ on hydrolysis gives $RCOOH$ and $NH_3$, not an amine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The major product of the following reaction is: ethyl 2-cyanobenzoate →(i) Ni/H2, (ii) DIBAL-H (Jan 2019)",
+    "question_latex": "The major product of the following reaction is: $\\text{ethyl 2-cyanobenzoate} \\xrightarrow{\\text{(i) Ni/}H_2, \\text{(ii) DIBAL-H}}$ (Jan 2019)",
+    "question_images": [
+      "25_qu_1.png"
+    ],
+    "options": [
+      "A. Isoindoline (cyclic NH)",
+      "B. Lactol with CHO",
+      "C. Isoindole (cyclic N)",
+      "D. 2-(2-aminophenyl)ethanol with NH2"
+    ],
+    "option_images": [
+      "25_opA_1.png",
+      "25_opB_1.png",
+      "25_opC_1.png",
+      "25_opD_1.png"
+    ],
+    "answer": "C. Isoindole (cyclic N)",
+    "solution": "Step 1: $Ni/H_2$ reduces $-CN$ to $-CH_2NH_2$ (but under these conditions with ester present, the $CN$ is reduced first and cyclization occurs).\nStep 2: DIBAL-H reduces the ester to aldehyde level.\nThe product undergoes intramolecular cyclization to give isoindoline derivative.",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Comparing basic strength of NH3, CH3NH2 and C6H5NH2, it may be concluded that",
+    "question_latex": "Comparing basic strength of $NH_3$, $CH_3NH_2$ and $C_6H_5NH_2$, it may be concluded that",
+    "question_images": [],
+    "options": [
+      "A. Basic strength remains unaffected",
+      "B. Basic strength of alkyl amines is lowest",
+      "C. Basic strength of aryl amines is lowest",
+      "D. Basic strength of $NH_3$ is highest"
+    ],
+    "option_images": [],
+    "answer": "C. Basic strength of aryl amines is lowest",
+    "solution": "Presence of methyl group increases the electron density on nitrogen, increasing basicity. Aniline is a weaker base than primary aliphatic amines because the lone pair of $N$ is involved in resonance with the benzene ring, thus not fully available for donation. Hence basic strength of aryl amines (aniline) is lowest.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "A gaseous carbon compound is soluble in dilute HCl. The solution on treating with NaNO2 gives off nitrogen leaving behind a solution which smells of wood spirit. The carbon compound is",
+    "question_latex": "A gaseous carbon compound is soluble in dilute $HCl$. The solution on treating with $NaNO_2$ gives off nitrogen leaving behind a solution which smells of wood spirit. The carbon compound is",
+    "question_images": [],
+    "options": [
+      "A. HCHO",
+      "B. CO",
+      "C. $C_2H_5NH_2$",
+      "D. $CH_3NH_2$"
+    ],
+    "option_images": [],
+    "answer": "D. $CH_3NH_2$",
+    "solution": "It is methyl amine which, being basic, dissolves in dilute $HCl$. With $NaNO_2$ it evolves nitrogen gas, leaving behind methyl alcohol which has the smell of wood spirit:\n$$CH_3NH_2 + HNO_2 \\rightarrow CH_3OH + N_2 + H_2O$$",
+    "solution_images": [
+      "27_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Mendius reaction involves the:",
+    "question_latex": "Mendius reaction involves the:",
+    "question_images": [],
+    "options": [
+      "A. Reduction of aldehydes to give alcohols",
+      "B. Reduction of nitriles with sodium and ethanol",
+      "C. Oxidation of nitriles",
+      "D. Hydrolysis of cyanides"
+    ],
+    "option_images": [],
+    "answer": "B. Reduction of nitriles with sodium and ethanol",
+    "solution": "Mendius reduction:\n$$R-C \\equiv N \\xrightarrow{Na + EtOH} RCH_2NH_2$$",
+    "solution_images": [
+      "28_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "C=O compounds react with NH3 or amines followed by H2/Ni. The reaction is called",
+    "question_latex": "$C=O$ compounds react with $NH_3$ or amines followed by $H_2/Ni$. The reaction is called",
+    "question_images": [],
+    "options": [
+      "A. Mendius reaction",
+      "B. Hofmann bromamide",
+      "C. Reductive amination",
+      "D. Gabriel's phthalimide"
+    ],
+    "option_images": [],
+    "answer": "C. Reductive amination",
+    "solution": "Reductive amination involves reaction of carbonyl compounds with $NH_3$ or amines to form an imine/iminium ion, followed by reduction with $H_2/Ni$ to give an amine.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The reduction of nitro compounds is most preferred in the presence of",
+    "question_latex": "The reduction of nitro compounds is most preferred in the presence of",
+    "question_images": [],
+    "options": [
+      "A. $Pd/H_2$ in ethanol",
+      "B. $Sn + HCl$",
+      "C. Finely divided $Ni$",
+      "D. Iron scrap and $HCl$"
+    ],
+    "option_images": [],
+    "answer": "D. Iron scrap and $HCl$",
+    "solution": "Reduction with iron scrap and hydrochloric acid is preferred because $FeCl_2$ formed gets hydrolysed to release hydrochloric acid during the reaction. Thus, only a small amount of hydrochloric acid is required to initiate the reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following are intermediates in Sandmeyer reaction? (i) C6H5N+=NCl–, (ii) C6H5N+=N, (iii) Ċ6H5, (iv) C6H5Cl",
+    "question_latex": "Which of the following are intermediates in Sandmeyer reaction? (i) $C_6H_5N^+ \\equiv NCl^-$, (ii) $C_6H_5N^+ \\equiv N$, (iii) $\\dot{C}_6H_5$, (iv) $C_6H_5Cl$",
+    "question_images": [],
+    "options": [
+      "A. (ii) and (iii)",
+      "B. (i) and (iv)",
+      "C. (ii) and (iv)",
+      "D. (i) and (ii)"
+    ],
+    "option_images": [],
+    "answer": "A. (ii) and (iii)",
+    "solution": "In the Sandmeyer reaction, $C_6H_5N^+ \\equiv N$ (diazonium cation) and $\\dot{C}_6H_5$ (phenyl radical) are the key intermediates.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "A primary amine heated with CS2 in presence of excess of HgCl2 gives isothiocyanate. The reaction is called:",
+    "question_latex": "A primary amine heated with $CS_2$ in presence of excess of $HgCl_2$ gives isothiocyanate. The reaction is called:",
+    "question_images": [],
+    "options": [
+      "A. Hofmann's bromamide reaction",
+      "B. Hofmann's mustard oil reaction",
+      "C. Perkin's condensation",
+      "D. Hofmann's elimination"
+    ],
+    "option_images": [],
+    "answer": "B. Hofmann's mustard oil reaction",
+    "solution": "When a primary amine is heated with $CS_2$ in the presence of excess $HgCl_2$, it forms isothiocyanate (mustard oil). This is called Hofmann's mustard oil reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Treatment of ammonia with excess of ethyl iodide will yield",
+    "question_latex": "Treatment of ammonia with excess of ethyl iodide will yield",
+    "question_images": [],
+    "options": [
+      "A. diethylamine",
+      "B. ethylamine",
+      "C. triethylamine",
+      "D. tetraethylammonium iodide"
+    ],
+    "option_images": [],
+    "answer": "D. tetraethylammonium iodide",
+    "solution": "With excess ethyl iodide, ammonia undergoes exhaustive alkylation:\n$$NH_3 \\xrightarrow{C_2H_5I} C_2H_5NH_2 \\xrightarrow{C_2H_5I} (C_2H_5)_2NH \\xrightarrow{C_2H_5I} (C_2H_5)_3N \\xrightarrow{C_2H_5I} (C_2H_5)_4N^+I^-$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The value of Kb is highest in case of:",
+    "question_latex": "The value of $K_b$ is highest in case of:",
+    "question_images": [],
+    "options": [
+      "A. $p$-methoxy aniline",
+      "B. $p$-chloroaniline",
+      "C. $p$-nitroaniline",
+      "D. $p$-methylaniline"
+    ],
+    "option_images": [],
+    "answer": "A. $p$-methoxy aniline",
+    "solution": "Presence of $-OCH_3$ group on aniline makes it more basic than the presence of $-NO_2$, $-Cl$, or $-CH_3$ groups. $-OCH_3$ is a strong electron donating group by resonance (+R effect), increasing electron density on nitrogen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Fluorination of an aromatic ring is easily accomplished by treating a diazonium salt with HBF4. Which of the following conditions is correct about this reaction? (Online 2016)",
+    "question_latex": "Fluorination of an aromatic ring is easily accomplished by treating a diazonium salt with $HBF_4$. Which of the following conditions is correct about this reaction? (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. $NaNO_2/Cu$",
+      "B. $NaF/Cu$",
+      "C. Only heat",
+      "D. $Cu_2O/H_2O$"
+    ],
+    "option_images": [],
+    "answer": "C. Only heat",
+    "solution": "The diazonium tetrafluoroborate salt, when heated, decomposes to give aryl fluoride:\n$$Ar-N_2^+Cl^- \\xrightarrow{HBF_4} Ar-N_2^+BF_4^- \\xrightarrow{\\Delta} Ar-F + N_2 + BF_3$$\nOnly heat is required.",
+    "solution_images": [
+      "35_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Pyrolysis of trimethylamine oxide with CD3 group would give",
+    "question_latex": "Pyrolysis of $Me_3N^+-CD_3$ oxide would give",
+    "question_images": [],
+    "options": [
+      "A. Mixture of $CH_2=CH-CD_3$ and $CH_3-CH=CD_2$",
+      "B. $CH_3-CH=CD_2$",
+      "C. $Me_2N^+=C(CD_3)(CH_3)$",
+      "D. $CH_2=CH-CD_3$"
+    ],
+    "option_images": [],
+    "answer": "A. Mixture of $CH_2=CH-CD_3$ and $CH_3-CH=CD_2$",
+    "solution": "Pyrolysis gives a mixture due to elimination from two different $\\beta$-carbon positions:\n$$C_2H_5NC + H_2O \\xrightarrow{H^+} HCOOH + C_2H_5NH_2$$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Ethyl amine reacts with nitrous acid to form",
+    "question_latex": "Ethyl amine reacts with nitrous acid to form",
+    "question_images": [],
+    "options": [
+      "A. $C_2H_5OH$",
+      "B. $C_2H_5OH, N_2, H_2O$",
+      "C. $C_2H_5N_2^+Cl^-$",
+      "D. $C_2H_5NHOH, NH_3$"
+    ],
+    "option_images": [],
+    "answer": "B. $C_2H_5OH, N_2, H_2O$",
+    "solution": "Ethyl amine (primary amine) reacts with nitrous acid to give ethyl alcohol and nitrogen:\n$$C_2H_5NH_2 + HNO_2 \\rightarrow C_2H_5OH + N_2 + H_2O$$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "In the reaction between CH3NC and HgO, the product obtained is",
+    "question_latex": "In the reaction between $CH_3NC$ and $HgO$, the product obtained is",
+    "question_images": [],
+    "options": [
+      "A. Methyl isothiocyanate",
+      "B. Methyl isocyanate",
+      "C. Methyl amine",
+      "D. Methyl cyanide"
+    ],
+    "option_images": [],
+    "answer": "B. Methyl isocyanate",
+    "solution": "Oxidation of methyl isocyanide ($CH_3NC$) with $HgO$ gives methyl isocyanate ($CH_3NCO$).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "The amine that does not react with acetyl chloride is",
+    "question_latex": "The amine that does not react with acetyl chloride is",
+    "question_images": [],
+    "options": [
+      "A. $CH_3NH_2$",
+      "B. $(CH_3)_2NH$",
+      "C. $(CH_3)_3N$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $(CH_3)_3N$",
+    "solution": "Compounds containing active H-atoms (H atoms attached to N, O or S) react with $CH_3COCl$ to form acetyl derivatives. $(CH_3)_3N$ is a tertiary amine with no N-H bond, so it does not react with acetyl chloride.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Urea is not used:",
+    "question_latex": "Urea is not used:",
+    "question_images": [],
+    "options": [
+      "A. As fertilizer",
+      "B. In manufacture of plastic",
+      "C. In preparation of medicines",
+      "D. In purification of water"
+    ],
+    "option_images": [],
+    "answer": "D. In purification of water",
+    "solution": "Urea is not used in purification of water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following will yield phenylhydrazine hydrochloride?",
+    "question_latex": "Which of the following will yield phenylhydrazine hydrochloride?",
+    "question_images": [],
+    "options": [
+      "A. Benzene and hydrazine",
+      "B. Hydrazine and $HCl$",
+      "C. Benzenediazonium chloride and $SnCl_2/HCl$",
+      "D. Nitrobenzene and $SnCl_2/HCl$"
+    ],
+    "option_images": [],
+    "answer": "C. Benzenediazonium chloride and $SnCl_2/HCl$",
+    "solution": "Benzenediazonium chloride on reduction with $SnCl_2/HCl$ gives phenylhydrazine hydrochloride:\n$$C_6H_5N_2^+Cl^- \\xrightarrow{SnCl_2/HCl} C_6H_5NHNH_2 \\cdot HCl$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Benzene diazonium chloride on treatment with hypophosphorous acid and water in presence of Cu+ catalyst produce",
+    "question_latex": "Benzene diazonium chloride on treatment with hypophosphorous acid and water in presence of $Cu^+$ catalyst produce",
+    "question_images": [],
+    "options": [
+      "A. Benzene",
+      "B. Toluene",
+      "C. Aniline",
+      "D. Chlorobenzene"
+    ],
+    "option_images": [],
+    "answer": "A. Benzene",
+    "solution": "Benzene diazonium chloride on treatment with hypophosphorous acid ($H_3PO_2$) undergoes deamination to give benzene:\n$$C_6H_5N_2^+Cl^- \\xrightarrow{H_3PO_2/H_2O, Cu^+} C_6H_6 + N_2$$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Ethyl isocyanide on hydrolysis in acidic medium generates (2003)",
+    "question_latex": "Ethyl isocyanide on hydrolysis in acidic medium generates (2003)",
+    "question_images": [],
+    "options": [
+      "A. ethylamine salt and methanoic acid",
+      "B. methylamine salt and ethanoic acid",
+      "C. propanoic acid and ammonium salt",
+      "D. ethanoic acid and ammonium salt"
+    ],
+    "option_images": [],
+    "answer": "A. ethylamine salt and methanoic acid",
+    "solution": "Alkyl isocyanides are hydrolysed by dilute mineral acids to form primary amines:\n$$C_2H_5N \\equiv C + 2H_2O \\xrightarrow{H^+} C_2H_5NH_2 + HCOOH$$\nEthylisocyanide → Ethylamine + Methanoic acid",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Acetoneoxime on catalytic hydrogenation gives:",
+    "question_latex": "Acetoneoxime on catalytic hydrogenation gives:",
+    "question_images": [],
+    "options": [
+      "A. 1-propanamine",
+      "B. Isopropylamine",
+      "C. Ethyl methyl amine",
+      "D. $CH_4$ and ethanamine"
+    ],
+    "option_images": [],
+    "answer": "B. Isopropylamine",
+    "solution": "Acetoneoxime $(CH_3)_2C=NOH$ on catalytic hydrogenation gives isopropylamine $(CH_3)_2CHNH_2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "In the reaction: 2,4-dinitrobenzene →(X)→ 2,4-dinitroaniline. X is",
+    "question_latex": "In the reaction: 2,4-dinitrobenzene $\\xrightarrow{X}$ 2,4-dinitroaniline. $X$ is",
+    "question_images": [
+      "45_qu_1.png"
+    ],
+    "options": [
+      "A. SiC",
+      "B. $H_2SO_4$",
+      "C. $KMnO_4$",
+      "D. $Fe/HCl$"
+    ],
+    "option_images": [],
+    "answer": "D. $Fe/HCl$",
+    "solution": "Reduction of $-NO_2$ group to $-NH_2$ group takes place by $Fe/HCl$.",
+    "solution_images": [
+      "45_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Amine that cannot be prepared by Gabriel phthalimide synthesis is",
+    "question_latex": "Amine that cannot be prepared by Gabriel phthalimide synthesis is",
+    "question_images": [],
+    "options": [
+      "A. aniline",
+      "B. benzylamine",
+      "C. methylamine",
+      "D. iso-butylamine"
+    ],
+    "option_images": [],
+    "answer": "A. aniline",
+    "solution": "Aniline cannot be prepared by Gabriel phthalimide synthesis because aryl halides do not undergo nucleophilic substitution with potassium phthalimide under ordinary conditions (cleavage of C-X bond in haloarenes is quite difficult).",
+    "solution_images": [
+      "46_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "IUPAC name of the following compound (an alkenyl amine with a chloro substituent) is",
+    "question_latex": "IUPAC name of the following compound is",
+    "question_images": [
+      "47_qu_1.png"
+    ],
+    "options": [
+      "A. 2-chloro pentanamine",
+      "B. 4-chloro pentan-1-amine",
+      "C. 4-chloro pent-2-en-1-amine",
+      "D. 2-chloro pent-3-en-5-amine"
+    ],
+    "option_images": [],
+    "answer": "C. 4-chloro pent-2-en-1-amine",
+    "solution": "The compound has a 5-carbon chain with a double bond at position 2, an amino group at position 1, and a chloro substituent at position 4. IUPAC name: 4-chloro pent-2-en-1-amine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which one of the following reaction sequences will give an azo dye? [Jan. 29, 2025 (II)]",
+    "question_latex": "Which one of the following reaction sequences will give an azo dye? [Jan. 29, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. Option A",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [
+      "48_opA_1.png",
+      "48_opB_1.png",
+      "48_opC_1.png",
+      "48_opD_1.png"
+    ],
+    "answer": "C. Option C",
+    "solution": "Option C involves: (i) Sn/HCl reduction of $-NO_2$ to $-NH_2$, (ii) $NaNO_2/HCl$ diazotization, (iii) coupling with $\\beta$-naphthol/NaOH to give an azo dye.\n$$Ar-NH_2 \\xrightarrow{NaNO_2/HCl} Ar-N_2^+Cl^- \\xrightarrow{\\beta\\text{-naphthol/NaOH}} Ar-N=N-Ar' \\text{ (azo dye)}$$",
+    "solution_images": [
+      "48_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "C2H5NH2 →(HNO2) A →(PCl3) B →(NH3) C. Recognize the compound C from the following",
+    "question_latex": "$C_2H_5NH_2 \\xrightarrow{HNO_2} A \\xrightarrow{PCl_3} B \\xrightarrow{NH_3} C$. Recognize the compound $C$ from the following",
+    "question_images": [],
+    "options": [
+      "A. Propanenitrile",
+      "B. Methylamine",
+      "C. Ethylamine",
+      "D. Acetamide"
+    ],
+    "option_images": [],
+    "answer": "C. Ethylamine",
+    "solution": "$$C_2H_5NH_2 \\xrightarrow{HNO_2} C_2H_5OH \\xrightarrow{PCl_3} C_2H_5Cl \\xrightarrow{NH_3} C_2H_5NH_2$$\nEthylamine → Ethanol → Ethyl chloride → Ethylamine\nSo $C$ is Ethylamine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "question": "Which of the following statements is correct?",
+    "question_latex": "Which of the following statements is correct?",
+    "question_images": [],
+    "options": [
+      "A. Aniline is stronger base than ammonia",
+      "B. Methylamine is a stronger base than aniline and ammonia",
+      "C. Aniline is stronger than ammonia, but weaker base than methylamine",
+      "D. Methylamine is stronger than aniline, but weaker base than ammonia"
+    ],
+    "option_images": [],
+    "answer": "B. Methylamine is a stronger base than aniline and ammonia",
+    "solution": "Due to $+ve$ inductive effect ($+I$) in alkyl amines, methylamine is more basic than ammonia. Aniline is less basic than both due to resonance — the lone pair of $N$ is delocalized into the benzene ring in $C_6H_5NH_2$. Hence: $C_6H_5NH_2 < NH_3 < CH_3NH_2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

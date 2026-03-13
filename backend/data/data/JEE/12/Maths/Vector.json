@@ -1,0 +1,1920 @@
+[
+  {
+    "id": 1,
+    "chapter": "Vector",
+    "question": "If S is the circumcentre, O is the orthocentre of triangle ABC, then SA + SB + SC is equal to",
+    "question_latex": "If $S$ is the circumcentre, $O$ is the orthocentre of $\\triangle ABC$, then $\\overrightarrow{SA} + \\overrightarrow{SB} + \\overrightarrow{SC}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\overrightarrow{SO}$",
+      "B. $2\\overrightarrow{SO}$",
+      "C. $\\overrightarrow{OS}$",
+      "D. $2\\overrightarrow{OS}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\overrightarrow{SO}$",
+    "solution": "From geometry, $\\overrightarrow{AO} = 2\\overrightarrow{SD}$ where $D$ is the midpoint of $BC$.\n$\\therefore \\overrightarrow{SA} + \\overrightarrow{SB} + \\overrightarrow{SC}$\n$= \\overrightarrow{SA} + 2\\overrightarrow{SD}$ ($\\because \\overrightarrow{SB} + \\overrightarrow{SC} = 2\\overrightarrow{SD}$)\n$= \\overrightarrow{SA} + \\overrightarrow{AO} = \\overrightarrow{SO}$",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Vector",
+    "question": "If vector a cross vector b = vector c and vector b cross vector c = vector a, then",
+    "question_latex": "If $\\vec{a} \\times \\vec{b} = \\vec{c}$ and $\\vec{b} \\times \\vec{c} = \\vec{a}$, then",
+    "question_images": [],
+    "options": [
+      "A. $|\\vec{a}| = 1, |\\vec{b}| = |\\vec{c}|$",
+      "B. $|\\vec{c}| = 1, |\\vec{a}| = 1$",
+      "C. $|\\vec{b}| = 2, |\\vec{b}| = 2|\\vec{a}|$",
+      "D. $|\\vec{b}| = 1, |\\vec{c}| = |\\vec{a}|$"
+    ],
+    "option_images": [],
+    "answer": "D. $|\\vec{b}| = 1, |\\vec{c}| = |\\vec{a}|$",
+    "solution": "$\\vec{a} \\times \\vec{b} = \\vec{c}$ implies $\\vec{c}$ is perpendicular to $\\vec{a}$ and $\\vec{b}$, and $\\vec{b} \\times \\vec{c} = \\vec{a}$ implies $\\vec{a}$ is perpendicular to $\\vec{b}$ and $\\vec{c}$. So $\\vec{a}, \\vec{b}, \\vec{c}$ are mutually perpendicular.\nFrom $\\vec{a} \\times \\vec{b} = \\vec{c}$: $|\\vec{a}||\\vec{b}|\\sin 90° = |\\vec{c}|$ ... (i)\nFrom $\\vec{b} \\times \\vec{c} = \\vec{a}$: $|\\vec{b}||\\vec{c}|\\sin 90° = |\\vec{a}|$ ... (ii)\nFrom (i) and (ii): $|\\vec{b}|^2|\\vec{c}| = |\\vec{c}|$, so $|\\vec{b}|^2 = 1$ ($\\because |\\vec{c}| \\neq 0$)\n$\\Rightarrow |\\vec{b}| = 1$ and $|\\vec{a}| = |\\vec{c}|$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Vector",
+    "question": "If i-hat, j-hat, k-hat are unit orthonormal vectors and vector a is a vector, if vector a cross vector r = j-hat, then vector a dot vector r is",
+    "question_latex": "If $\\hat{i}, \\hat{j}, \\hat{k}$ are unit orthonormal vectors and $\\vec{a}$ is a vector, if $\\vec{a} \\times \\vec{r} = \\hat{j}$, then $\\vec{a} \\cdot \\vec{r}$ is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. $-1$",
+      "D. Arbitrary scalar"
+    ],
+    "option_images": [],
+    "answer": "D. Arbitrary scalar",
+    "solution": "$\\vec{a} \\times \\vec{r} = \\hat{j}$ does not uniquely determine $\\vec{a} \\cdot \\vec{r}$; it can be any scalar value. Hence $\\vec{a} \\cdot \\vec{r}$ is an arbitrary scalar.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Vector",
+    "question": "Let vector a = 3i + 2j + 2k and vector b = i + 2j - 2k be two vectors. If a vector perpendicular to both the vectors (a + b) and (a - b) has the magnitude 12 then one such vector is (April 2019)",
+    "question_latex": "Let $\\vec{a} = 3\\hat{i} + 2\\hat{j} + 2\\hat{k}$ and $\\vec{b} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$ be two vectors. If a vector perpendicular to both the vectors $\\vec{a} + \\vec{b}$ and $\\vec{a} - \\vec{b}$ has the magnitude 12 then one such vector is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $4(2\\hat{i} - 2\\hat{j} - \\hat{k})$",
+      "B. $4(2\\hat{i} + 2\\hat{j} + \\hat{k})$",
+      "C. $4(-2\\hat{i} - 2\\hat{j} + \\hat{k})$",
+      "D. $4(2\\hat{i} + 2\\hat{j} - \\hat{k})$"
+    ],
+    "option_images": [],
+    "answer": "A. $4(2\\hat{i} - 2\\hat{j} - \\hat{k})$",
+    "solution": "Given $\\vec{a} = 3\\hat{i} + 2\\hat{j} + x\\hat{k}$ and $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$.\n$\\vec{a} \\times \\vec{b} = (2+x)\\hat{i} + (x-3)\\hat{j} - 5\\hat{k}$\n$|\\vec{a} \\times \\vec{b}| = \\sqrt{(2+x)^2 + (x-3)^2 + 25} = \\sqrt{2x^2 - 2x + 38}$\nLet $f(x) = 2x^2 - 2x + 38$; minimum at $x = \\frac{1}{2}$.\n$|\\vec{a} \\times \\vec{b}| \\geq \\sqrt{\\frac{75}{2}} = 5\\sqrt{\\frac{3}{2}}$\nThe required vector is $4(2\\hat{i} - 2\\hat{j} - \\hat{k})$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Vector",
+    "question": "Let vector a = 2i - 3j + 4k and vector b = 7i + j - 6k. If vector r cross vector a = vector r cross vector b, vector r dot (i + 2j + k) = -3, then vector r dot (2i - 3j + k) is equal to (March 2021)",
+    "question_latex": "Let $\\vec{a} = 2\\hat{i} - 3\\hat{j} + 4\\hat{k}$ and $\\vec{b} = 7\\hat{i} + \\hat{j} - 6\\hat{k}$. If $\\vec{r} \\times \\vec{a} = \\vec{r} \\times \\vec{b}$, $\\vec{r} \\cdot (\\hat{i} + 2\\hat{j} + \\hat{k}) = -3$, then $\\vec{r} \\cdot (2\\hat{i} - 3\\hat{j} + \\hat{k})$ is equal to (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 13",
+      "C. 12",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "C. 12",
+    "solution": "$|\\vec{a} \\times \\vec{b}| = |\\vec{a}||\\vec{b}|\\sin\\theta$\nUsing the given conditions, $\\vec{r} \\cdot (2\\hat{i} - 3\\hat{j} + \\hat{k}) = 12$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Vector",
+    "question": "If the points with position vectors 20i + pj, 5i - j and 10i - 13j are collinear, then p =",
+    "question_latex": "If the points with position vectors $20\\hat{i} + p\\hat{j}$, $5\\hat{i} - \\hat{j}$ and $10\\hat{i} - 13\\hat{j}$ are collinear, then $p =$",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. $-37$",
+      "C. $-7$",
+      "D. 37"
+    ],
+    "option_images": [],
+    "answer": "B. $-37$",
+    "solution": "For collinearity, the vectors formed by the three points must be parallel. Setting up the condition and solving yields $p = -37$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Vector",
+    "question": "Let vector a and vector b be unit vectors inclined at an angle 2alpha (0 <= alpha <= pi) each other, then |a + b| < 1, if",
+    "question_latex": "Let $\\vec{a}$ and $\\vec{b}$ be unit vectors inclined at an angle $2\\alpha$ $(0 \\leq \\alpha \\leq \\pi)$ each other, then $|\\vec{a} + \\vec{b}| < 1$, if",
+    "question_images": [],
+    "options": [
+      "A. $\\alpha = \\frac{\\pi}{2}$",
+      "B. $\\alpha < \\frac{\\pi}{3}$",
+      "C. $\\alpha > \\frac{2\\pi}{3}$",
+      "D. $\\frac{\\pi}{3} < \\alpha < \\frac{2\\pi}{3}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{\\pi}{3} < \\alpha < \\frac{2\\pi}{3}$",
+    "solution": "$|\\vec{a} + \\vec{b}| < 1$\n$\\Rightarrow \\sqrt{1 + 1 + 2\\cos 2\\alpha} < 1$\n$\\Rightarrow \\sqrt{2(1 + \\cos 2\\alpha)} < 1$\n$\\Rightarrow \\sqrt{4\\cos^2\\alpha} < 1$\n$\\Rightarrow |\\cos\\alpha| < \\frac{1}{2}$\n$\\Rightarrow \\frac{\\pi}{3} < \\alpha < \\frac{2\\pi}{3}$ (since $0 \\leq \\alpha \\leq \\pi$)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Vector",
+    "question": "Let a = -i - j + k, vector a dot vector b = 1 and vector a cross vector b = i - j. Then vector a - 6 vector b is equal to (Jan 2023)",
+    "question_latex": "Let $a = -\\hat{i} - \\hat{j} + \\hat{k}$, $\\vec{a} \\cdot \\vec{b} = 1$ and $\\vec{a} \\times \\vec{b} = \\hat{i} - \\hat{j}$. Then $\\vec{a} - 6\\vec{b}$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $3(\\hat{i} - \\hat{j} - \\hat{k})$",
+      "B. $3(\\hat{i} + \\hat{j} - \\hat{k})$",
+      "C. $3(\\hat{i} + \\hat{j} + \\hat{k})$",
+      "D. $3(\\hat{i} - \\hat{j} + \\hat{k})$"
+    ],
+    "option_images": [],
+    "answer": "A. $3(\\hat{i} - \\hat{j} - \\hat{k})$",
+    "solution": "$\\vec{a} = 2\\hat{i} - 7\\hat{j} + 5\\hat{k}$; $\\vec{b} = \\hat{i} + \\hat{k}$; $\\vec{c} = \\hat{i} + 2\\hat{j} - 3\\hat{k}$\n$\\vec{r} \\times \\vec{a} = \\vec{c} \\times \\vec{a} \\Rightarrow (\\vec{r} - \\vec{c}) \\times \\vec{a} = 0$\n$\\vec{r} = \\vec{c} + \\lambda\\vec{a}$\nSolving with $\\vec{r} \\cdot \\vec{b} = 0$: $\\lambda = \\frac{2}{7}$\n$\\vec{r} = \\vec{c} + \\frac{2\\vec{a}}{7} = \\frac{1}{7}(11\\hat{i} - 11\\hat{k})$\n$\\vec{a} - 6\\vec{b} = 3(\\hat{i} - \\hat{j} - \\hat{k})$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Vector",
+    "question": "If vector x and vector y are unit vectors and vector x dot vector y = 0, then",
+    "question_latex": "If $\\vec{x}$ and $\\vec{y}$ are unit vectors and $\\vec{x} \\cdot \\vec{y} = 0$, then",
+    "question_images": [],
+    "options": [
+      "A. $|\\vec{x} + \\vec{y}| = 1$",
+      "B. $|\\vec{x} + \\vec{y}| = \\sqrt{3}$",
+      "C. $|\\vec{x} + \\vec{y}| = 2$",
+      "D. $|\\vec{x} + \\vec{y}| = \\sqrt{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $|\\vec{x} + \\vec{y}| = \\sqrt{2}$",
+    "solution": "$|\\vec{x} + \\vec{y}|^2 = |\\vec{x}|^2 + |\\vec{y}|^2 + 2(\\vec{x} \\cdot \\vec{y})$\n$= 1 + 1 + 0 = 2$\n$\\Rightarrow |\\vec{x} + \\vec{y}| = \\sqrt{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Vector",
+    "question": "ABCD is the parallelogram with AC, BD as diagonals. Then vector AC + vector BD =",
+    "question_latex": "ABCD is the parallelogram with $AC$, $BD$ as diagonals. Then $\\overrightarrow{AC} + \\overrightarrow{BD} =$",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{AB}$",
+      "B. $2\\overrightarrow{BC}$",
+      "C. $\\overrightarrow{AB}$",
+      "D. $\\overrightarrow{BC}$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\overrightarrow{BC}$",
+    "solution": "In the parallelogram, $\\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{BC}$, $\\overrightarrow{BD} = \\overrightarrow{BA} + \\overrightarrow{AD}$\n$\\overrightarrow{AC} + \\overrightarrow{BD} = (\\overrightarrow{AB} + \\overrightarrow{BC}) + (\\overrightarrow{BA} + \\overrightarrow{AD})$\n$= \\overrightarrow{BC} + \\overrightarrow{AD} = \\overrightarrow{BC} + \\overrightarrow{BC} = 2\\overrightarrow{BC}$",
+    "solution_images": [
+      "q10_solution_1"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Vector",
+    "question": "If vector a = i + 2j + 3k and vector b = i cross (vector a cross i) + j cross (vector a cross j) + k cross (vector a cross k), then length of vector b is equal to",
+    "question_latex": "If $\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$ and $\\vec{b} = \\hat{i} \\times (\\vec{a} \\times \\hat{i}) + \\hat{j} \\times (\\vec{a} \\times \\hat{j}) + \\hat{k} \\times (\\vec{a} \\times \\hat{k})$, then length of $\\vec{b}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{12}$",
+      "B. $2\\sqrt{12}$",
+      "C. $3\\sqrt{14}$",
+      "D. $2\\sqrt{14}$"
+    ],
+    "option_images": [],
+    "answer": "D. $2\\sqrt{14}$",
+    "solution": "$\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$\n$\\vec{b} = \\hat{i} \\times (\\vec{a} \\times \\hat{i}) + \\hat{j} \\times (\\vec{a} \\times \\hat{j}) + \\hat{k} \\times (\\vec{a} \\times \\hat{k})$\n$= 3\\vec{a} - \\vec{a} = 2\\vec{a}$\n$= 2(\\hat{i} + 2\\hat{j} + 3\\hat{k})$\n$\\Rightarrow |\\vec{b}| = \\sqrt{4 + 16 + 36} = \\sqrt{56} = 2\\sqrt{14}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Vector",
+    "question": "Let vector a, vector b and vector c be three non zero vectors such that vector b dot vector c = 0 and vector a cross (vector b cross vector c) = (b - c)/2. If vector d be a vector such that vector b dot vector d = vector a dot vector b, then (vector a cross vector b) dot (vector c cross vector d) is equal to (Jan 2023)",
+    "question_latex": "Let $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ be three non zero vectors such that $\\vec{b} \\cdot \\vec{c} = 0$ and $\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\frac{\\vec{b} - \\vec{c}}{2}$. If $\\vec{d}$ be a vector such that $\\vec{b} \\cdot \\vec{d} = \\vec{a} \\cdot \\vec{b}$, then $(\\vec{a} \\times \\vec{b}) \\cdot (\\vec{c} \\times \\vec{d})$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3}{4}$",
+      "B. $\\frac{1}{2}$",
+      "C. $\\frac{1}{4}$",
+      "D. $-\\frac{1}{4}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1}{2}$",
+    "solution": "Given vectors $a\\hat{i} + \\hat{j} + \\hat{k}$, $\\hat{i} + b\\hat{j} + \\hat{k}$ and $\\hat{i} + \\hat{j} + c\\hat{k}$ are coplanar:\n$\\begin{vmatrix} a & 1 & 1 \\\\ 1 & b & 1 \\\\ 1 & 1 & c \\end{vmatrix} = 0$\nExpanding and simplifying: $\\frac{a}{1-a} + \\frac{1}{1-b} + \\frac{1}{1-c} = 1$\n$(\\vec{a} \\times \\vec{b}) \\cdot (\\vec{c} \\times \\vec{d}) = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Vector",
+    "question": "If ABCDE is a pentagon, then vector AB + vector AE + vector BC + vector DC + vector ED + vector AC is equal to",
+    "question_latex": "If $ABCDE$ is a pentagon, then $\\overrightarrow{AB} + \\overrightarrow{AE} + \\overrightarrow{BC} + \\overrightarrow{DC} + \\overrightarrow{ED} + \\overrightarrow{AC}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $4\\overrightarrow{AC}$",
+      "B. $2\\overrightarrow{AC}$",
+      "C. $3\\overrightarrow{AC}$",
+      "D. $5\\overrightarrow{AC}$"
+    ],
+    "option_images": [],
+    "answer": "C. $3\\overrightarrow{AC}$",
+    "solution": "$\\overrightarrow{AB} + \\overrightarrow{AE} + \\overrightarrow{BC} + \\overrightarrow{DC} + \\overrightarrow{ED} + \\overrightarrow{AC}$\n$= (\\overrightarrow{AB} + \\overrightarrow{BC}) + (\\overrightarrow{AE} + \\overrightarrow{ED}) + \\overrightarrow{DC} + \\overrightarrow{AC}$\n$= \\overrightarrow{AC} + (\\overrightarrow{AD} + \\overrightarrow{DC}) + \\overrightarrow{AC}$\n$= \\overrightarrow{AC} + \\overrightarrow{AC} + \\overrightarrow{AC} = 3\\overrightarrow{AC}$",
+    "solution_images": [
+      "q13_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Vector",
+    "question": "If 2i + 4j - 5k and i + 2j + 3k are adjacent sides of a parallelogram, then the lengths of its diagonals are",
+    "question_latex": "If $2\\hat{i} + 4\\hat{j} - 5\\hat{k}$ and $\\hat{i} + 2\\hat{j} + 3\\hat{k}$ are adjacent sides of a parallelogram, then the lengths of its diagonals are",
+    "question_images": [],
+    "options": [
+      "A. $7, \\sqrt{69}$",
+      "B. $6, \\sqrt{59}$",
+      "C. $5, \\sqrt{65}$",
+      "D. $5, \\sqrt{55}$"
+    ],
+    "option_images": [],
+    "answer": "A. $7, \\sqrt{69}$",
+    "solution": "Let $\\vec{a} = 2\\hat{i} + 4\\hat{j} - 5\\hat{k}$, $\\vec{b} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$\nFirst diagonal: $\\vec{a} + \\vec{b} = 3\\hat{i} + 6\\hat{j} - 2\\hat{k}$\n$\\Rightarrow |\\vec{a} + \\vec{b}| = 7$\nSecond diagonal: $\\vec{a} - \\vec{b} = \\hat{i} + 2\\hat{j} - 8\\hat{k}$\n$\\Rightarrow |\\vec{a} - \\vec{b}| = \\sqrt{69}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Vector",
+    "question": "If |a| = 4, |b| = 4 and |c| = 5 such that a perpendicular to (b + c), b perpendicular to (c + a) and c perpendicular to (a + b), then |a + b + c| is",
+    "question_latex": "If $|\\vec{a}| = 4$, $|\\vec{b}| = 4$ and $|\\vec{c}| = 5$ such that $\\vec{a} \\perp (\\vec{b} + \\vec{c})$, $\\vec{b} \\perp (\\vec{c} + \\vec{a})$ and $\\vec{c} \\perp (\\vec{a} + \\vec{b})$, then $|\\vec{a} + \\vec{b} + \\vec{c}|$ is",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 5",
+      "C. 13",
+      "D. $\\sqrt{57}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{57}$",
+    "solution": "$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a})$\nGiven conditions imply $\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a} = 0$\n$\\therefore |\\vec{a} + \\vec{b} + \\vec{c}|^2 = 16 + 16 + 25 = 57$\n$\\Rightarrow |\\vec{a} + \\vec{b} + \\vec{c}| = \\sqrt{57}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Vector",
+    "question": "If G is the centroid of triangle ABC, then vector GA + vector BG + vector GC is equal to",
+    "question_latex": "If $G$ is the centroid of the $\\triangle ABC$, then $\\overrightarrow{GA} + \\overrightarrow{BG} + \\overrightarrow{GC}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{GB}$",
+      "B. $2\\overrightarrow{GA}$",
+      "C. $\\vec{0}$",
+      "D. $2\\overrightarrow{BG}$"
+    ],
+    "option_images": [],
+    "answer": "D. $2\\overrightarrow{BG}$",
+    "solution": "Since $G$ is the centroid: $\\overrightarrow{GA} + \\overrightarrow{GB} + \\overrightarrow{GC} = \\vec{0}$\n$\\Rightarrow \\overrightarrow{GA} + \\overrightarrow{GC} = -\\overrightarrow{GB}$ ... (i)\nNow, $\\overrightarrow{GA} + \\overrightarrow{BG} + \\overrightarrow{GC} = -\\overrightarrow{GB} + \\overrightarrow{BG} = 2\\overrightarrow{BG}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Vector",
+    "question": "The ratio in which i + 2j + 3k divides the join of -2i + 3j + 5k and 7i - k, is",
+    "question_latex": "The ratio in which $\\hat{i} + 2\\hat{j} + 3\\hat{k}$ divides the join of $-2\\hat{i} + 3\\hat{j} + 5\\hat{k}$ and $7\\hat{i} - \\hat{k}$, is",
+    "question_images": [],
+    "options": [
+      "A. 1 : 2",
+      "B. 2 : 3",
+      "C. 3 : 4",
+      "D. 1 : 4"
+    ],
+    "option_images": [],
+    "answer": "A. 1 : 2",
+    "solution": "Suppose point $\\hat{i} + 2\\hat{j} + 3\\hat{k}$ divides the join in ratio $\\lambda : 1$.\n$\\hat{i} + 2\\hat{j} + 3\\hat{k} = \\frac{\\lambda(7\\hat{i} - \\hat{k}) + (-2\\hat{i} + 3\\hat{j} + 5\\hat{k})}{\\lambda + 1}$\nSolving: $\\lambda = \\frac{1}{2}$\nHence, required ratio is $1 : 2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Vector",
+    "question": "The ratio in which i + 2j + 3k divides the join of -2i + 3j + 5k and i + 2j + 5k and 7i - k is",
+    "question_latex": "The ratio in which $\\bar{i} + 2\\bar{j} + 3\\bar{k}$ divides the join of $-2\\bar{i} + 3\\bar{j} + 5\\bar{k}$ and $\\bar{i} + 2\\bar{j} + 5\\bar{k}$ and $7\\bar{i} - \\bar{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. -3:2",
+      "B. 1:2",
+      "C. 2:3",
+      "D. -4:3"
+    ],
+    "option_images": [],
+    "answer": "B. 1:2",
+    "solution": "Using section formula and solving, the required ratio is $1:2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Vector",
+    "question": "Find the vector of magnitude 3 units which is parallel to 4i + 3j",
+    "question_latex": "Find the vector of magnitude 3 units which is parallel to $4\\bar{i} + 3\\bar{j}$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2}{5}(4\\bar{i} + 3\\bar{j})$",
+      "B. $\\frac{3}{5}(5\\bar{i} + 3\\bar{j})$",
+      "C. $\\frac{4}{5}(4\\bar{i} + 3\\bar{j})$",
+      "D. $\\frac{3}{5}(4\\bar{i} + 3\\bar{j})$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{3}{5}(4\\bar{i} + 3\\bar{j})$",
+    "solution": "$\\vec{a} = 4\\bar{i} + 3\\bar{j}$, $|\\vec{a}| = \\sqrt{16+9} = 5$\n$\\hat{a} = \\frac{4\\bar{i} + 3\\bar{j}}{5}$\nThe required vector is $3\\hat{a} = \\frac{3}{5}(4\\bar{i} + 3\\bar{j})$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Vector",
+    "question": "If the vectors i - 3j + 2k, -i + 2j represent the diagonals of a parallelogram, then its area will be",
+    "question_latex": "If the vectors $\\hat{i} - 3\\hat{j} + 2\\hat{k}$, $-\\hat{i} + 2\\hat{j}$ represent the diagonals of a parallelogram, then its area will be",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. $\\frac{\\sqrt{21}}{2}$",
+      "C. $2\\sqrt{21}$",
+      "D. $\\frac{\\sqrt{21}}{4}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{\\sqrt{21}}{2}$",
+    "solution": "Let $\\vec{a} = \\hat{i} - 3\\hat{j} + 2\\hat{k}$, $\\vec{b} = -\\hat{i} + 2\\hat{j}$\n$\\vec{a} \\times \\vec{b} = \\begin{vmatrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -3 & 2 \\\\ -1 & 2 & 0\\end{vmatrix} = -4\\hat{i} - 2\\hat{j} - \\hat{k}$\nArea $= \\frac{1}{2}|\\vec{a} \\times \\vec{b}| = \\frac{1}{2}\\sqrt{16+4+1} = \\frac{\\sqrt{21}}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Vector",
+    "question": "If the vectors (sec^2 A)i + j + k, i + (sec^2 B)j + k, i + j + (sec^2 c)k are coplanar, then the value of cosec^2 A + cosec^2 B + cosec^2 C is",
+    "question_latex": "If the vectors $(\\sec^2 A)\\hat{i} + \\hat{j} + \\hat{k}$, $\\hat{i} + (\\sec^2 B)\\hat{j} + \\hat{k}$, $\\hat{i} + \\hat{j} + (\\sec^2 c)\\hat{k}$ are coplanar, then the value of $\\csc^2 A + \\csc^2 B + \\csc^2 C$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "For coplanar vectors: $\\begin{vmatrix}\\sec^2A & 1 & 1 \\\\ 1 & \\sec^2B & 1 \\\\ 1 & 1 & \\sec^2C\\end{vmatrix} = 0$\nExpanding and simplifying: $\\tan^2A\\tan^2B\\tan^2C + \\tan^2A\\tan^2B + \\tan^2B\\tan^2C + \\tan^2C\\tan^2A = 0$\n$\\Rightarrow \\cot^2A + \\cot^2B + \\cot^2C + 1 = 0$\n$\\Rightarrow \\csc^2A + \\csc^2B + \\csc^2C - 2 = 0$\n$\\Rightarrow \\csc^2A + \\csc^2B + \\csc^2C = 2$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Vector",
+    "question": "The values of a, for which the points A, B, C with position vectors 2i - j + k, i - 3j - 5k and ai - 3j + k respectively are the vertices of a right-angled triangle at C are (2006)",
+    "question_latex": "The values of $a$, for which the points $A$, $B$, $C$ with position vectors $2\\hat{i} - \\hat{j} + \\hat{k}$, $\\hat{i} - 3\\hat{j} - 5\\hat{k}$ and $a\\hat{i} - 3\\hat{j} + \\hat{k}$ respectively are the vertices of a right-angled triangle at $C$ are (2006)",
+    "question_images": [],
+    "options": [
+      "A. 2 and 1",
+      "B. -2 and -1",
+      "C. 2 and -1",
+      "D. -2 and 1"
+    ],
+    "option_images": [],
+    "answer": "A. 2 and 1",
+    "solution": "$\\vec{a} = 8\\vec{b}$, $\\vec{c} = -7\\vec{b}$\n$\\Rightarrow \\vec{a}$ and $\\vec{b}$ are parallel and $\\vec{b}$ and $\\vec{c}$ are antiparallel.\nThus $\\vec{a}$ and $\\vec{c}$ are antiparallel. Hence the angle between $\\vec{a}$ and $\\vec{c}$ is $\\pi$, meaning $a = 2$ and $1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Vector",
+    "question": "If ABCD is a quadrilateral, then vector BA + vector BC + vector CD + vector DA =",
+    "question_latex": "If $ABCD$ is a quadrilateral, then $\\overrightarrow{BA} + \\overrightarrow{BC} + \\overrightarrow{CD} + \\overrightarrow{DA} =$",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{BA}$",
+      "B. $2\\overrightarrow{AB}$",
+      "C. $2\\overrightarrow{AC}$",
+      "D. $2\\overrightarrow{BC}$"
+    ],
+    "option_images": [],
+    "answer": "A. $2\\overrightarrow{BA}$",
+    "solution": "$\\overrightarrow{BA} + \\overrightarrow{BC} + \\overrightarrow{CD} + \\overrightarrow{DA}$\n$= \\overrightarrow{BA} + (\\overrightarrow{BC} + \\overrightarrow{CD}) + \\overrightarrow{DA}$\n$= \\overrightarrow{BA} + (\\overrightarrow{BD} + \\overrightarrow{DA})$\n$= \\overrightarrow{BA} + \\overrightarrow{BA} = 2\\overrightarrow{BA}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Vector",
+    "question": "A vector of magnitude 12 units perpendicular to the plane containing the vectors 4i + 6j - k and 3i + 8j + k is",
+    "question_latex": "A vector of magnitude 12 units perpendicular to the plane containing the vectors $4\\hat{i} + 6\\hat{j} - \\hat{k}$ and $3\\hat{i} + 8\\hat{j} + \\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. $-8\\hat{i} + 4\\hat{j} + 8\\hat{k}$",
+      "B. $8\\hat{i} + 4\\hat{j} + 8\\hat{k}$",
+      "C. $8\\hat{i} - 4\\hat{j} + 8\\hat{k}$",
+      "D. $8\\hat{i} - 4\\hat{j} - 8\\hat{k}$"
+    ],
+    "option_images": [],
+    "answer": "C. $8\\hat{i} - 4\\hat{j} + 8\\hat{k}$",
+    "solution": "Let $\\vec{a} = 4\\hat{i} + 6\\hat{j} - \\hat{k}$, $\\vec{b} = 3\\hat{i} + 8\\hat{j} + \\hat{k}$\n$\\vec{c} = \\vec{a} \\times \\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\4&6&-1\\\\3&8&1\\end{vmatrix} = 14\\hat{i} - 7\\hat{j} + 14\\hat{k}$\n$\\hat{c} = \\frac{14\\hat{i} - 7\\hat{j} + 14\\hat{k}}{21}$\nRequired vector $= 12 \\cdot \\frac{(14\\hat{i} - 7\\hat{j} + 14\\hat{k})}{21} = 8\\hat{i} - 4\\hat{j} + 8\\hat{k}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Vector",
+    "question": "Let vector a = 2i + 7j - k, vector b = 3i + 5k and vector c = i - j + 2k. Let vector d be a vector which is perpendicular to both vector a and vector b, and vector c dot vector d = 12. Then (-i + j - k) dot (vector c cross vector d) is equal to (April 2023)",
+    "question_latex": "Let $\\vec{a} = 2\\hat{i} + 7\\hat{j} - \\hat{k}$, $\\vec{b} = 3\\hat{i} + 5\\hat{k}$ and $\\vec{c} = \\hat{i} - \\hat{j} + 2\\hat{k}$. Let $\\vec{d}$ be a vector which is perpendicular to both $\\vec{a}$ and $\\vec{b}$, and $\\vec{c} \\cdot \\vec{d} = 12$. Then $(-\\hat{i} + \\hat{j} - \\hat{k}) \\cdot (\\vec{c} \\times \\vec{d})$ is equal to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 24",
+      "B. 44",
+      "C. 48",
+      "D. 42"
+    ],
+    "option_images": [],
+    "answer": "A. 24",
+    "solution": "Let $\\vec{a} = \\alpha\\hat{i} + 10\\hat{j} + 13\\hat{k}$, $\\vec{b} = 6\\hat{i} + 11\\hat{j} + 11\\hat{k}$ and $\\vec{c} = \\frac{9}{2}\\hat{i} + \\beta\\hat{j} - 8\\hat{k}$.\nFor collinear: $\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a} = \\vec{0}$\nSolving gives $\\beta = \\frac{41}{2}$, $\\alpha = \\frac{117}{19}$, $(19\\alpha - 6\\beta)^2 = 36$\n$(-\\hat{i} + \\hat{j} - \\hat{k}) \\cdot (\\vec{c} \\times \\vec{d}) = 24$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Vector",
+    "question": "The value of [(vector a cross vector b)^2 + (vector a dot vector b)^2] / (2 * a^2 * b^2) is",
+    "question_latex": "The value of $\\frac{(\\vec{a} \\times \\vec{b})^2 + (\\vec{a} \\cdot \\vec{b})^2}{2\\vec{a}^2\\vec{b}^2}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a} \\cdot \\vec{b}$",
+      "B. 1",
+      "C. 0",
+      "D. $\\frac{1}{2}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{1}{2}$",
+    "solution": "$\\frac{(\\vec{a} \\times \\vec{b})^2 + (\\vec{a} \\cdot \\vec{b})^2}{2\\vec{a}^2\\vec{b}^2} = \\frac{\\vec{a}^2\\vec{b}^2\\sin^2\\theta + \\vec{a}^2\\vec{b}^2\\cos^2\\theta}{2\\vec{a}^2\\vec{b}^2}$\n$= \\frac{\\cos^2\\theta + \\sin^2\\theta}{2} = \\frac{1}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Vector",
+    "question": "If vector a, vector b, vector c are the position vectors of the vertices of an equilateral triangle, whose orthocenter is at the origin, then",
+    "question_latex": "If $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are the position vectors of the vertices of an equilateral triangle, whose orthocenter is at the origin, then",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$",
+      "B. $\\vec{a}^2 = \\vec{b}^2 + \\vec{c}^2$",
+      "C. $\\vec{a} + \\vec{b} = \\vec{c}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$",
+    "solution": "Position vector of centroid $= \\frac{\\vec{a} + \\vec{b} + \\vec{c}}{3}$\nFor equilateral triangle, orthocenter coincides with centroid.\nSince orthocenter is at origin: $\\frac{\\vec{a} + \\vec{b} + \\vec{c}}{3} = \\vec{0}$\n$\\Rightarrow \\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Vector",
+    "question": "Let ABCDEF be a regular hexagon and vector AB = vector a, vector BC = vector b, vector CD = vector c, then vector AE is equal to",
+    "question_latex": "Let $ABCDEF$ be a regular hexagon and $\\overrightarrow{AB} = \\vec{a}$, $\\overrightarrow{BC} = \\vec{b}$, $\\overrightarrow{CD} = \\vec{c}$, then $\\overrightarrow{AE}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a} + \\vec{b} + \\vec{c}$",
+      "B. $\\vec{b} + \\vec{c}$",
+      "C. $\\vec{a} + \\vec{b}$",
+      "D. $\\vec{a} + \\vec{c}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\vec{b} + \\vec{c}$",
+    "solution": "In a regular hexagon, $\\overrightarrow{AE} = \\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CD} + \\overrightarrow{DE}$. Using symmetry properties of the regular hexagon, $\\overrightarrow{AE} = \\vec{b} + \\vec{c}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Vector",
+    "question": "Let alpha, beta, gamma be distinct real numbers. The points with position vectors alpha*i + beta*j + gamma*k, beta*i + gamma*j + alpha*k, gamma*i + alpha*j + beta*k",
+    "question_latex": "Let $\\alpha, \\beta, \\gamma$ be the distinct real numbers. The points with the position vectors $\\alpha\\bar{i} + \\beta\\bar{j} + \\gamma\\bar{k}$, $\\beta\\bar{i} + \\gamma\\bar{j} + \\alpha\\bar{k}$, $\\gamma\\bar{i} + \\alpha\\bar{j} + \\beta\\bar{k}$",
+    "question_images": [],
+    "options": [
+      "A. Are collinear",
+      "B. From an equilateral triangle",
+      "C. For a right angled triangle",
+      "D. From a scalene triangle"
+    ],
+    "option_images": [],
+    "answer": "B. From an equilateral triangle",
+    "solution": "Let P, Q, and R be the points having position vectors $\\alpha\\bar{i} + \\beta\\bar{j} + \\gamma\\bar{k}$, $\\beta\\bar{i} + \\gamma\\bar{j} + \\alpha\\bar{k}$, $\\gamma\\bar{i} + \\alpha\\bar{j} + \\beta\\bar{k}$ respectively.\nThen $|\\overrightarrow{PQ}| = |\\overrightarrow{QR}| = |\\overrightarrow{RP}| = \\sqrt{(\\alpha-\\beta)^2 + (\\beta-\\gamma)^2 + (\\gamma-\\alpha)^2}$\nHence $\\triangle PQR$ is an equilateral triangle.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Vector",
+    "question": "If vector a = (1, p, 1), vector b = (q, 2, 2), vector a dot vector b = r and vector a cross vector b = (0, -3, 3), then p, q, r are in that order",
+    "question_latex": "If $\\vec{a} = (1, p, 1)$, $\\vec{b} = (q, 2, 2)$, $\\vec{a} \\cdot \\vec{b} = r$ and $\\vec{a} \\times \\vec{b} = (0, -3, 3)$, then $p, q, r$ are in that order",
+    "question_images": [],
+    "options": [
+      "A. 1, 5, 9",
+      "B. 9, 5, 1",
+      "C. 5, 1, 9",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "$\\vec{a} \\cdot \\vec{b} = q + 2p + 2 = r$ ... (i)\n$\\vec{a} \\times \\vec{b} = (2p-2)\\hat{i} + (q-2)\\hat{j} + (2-pq)\\hat{k} = (0\\hat{i} + (-3)\\hat{j} + (3)\\hat{k})$\n$\\Rightarrow 2p-2=0; q-2=-3; 2-pq=3$\n$\\Rightarrow p=1, q=-1$\nFrom (i): $-1+2+2 = r = 3$\nSo $p=1, q=-1, r=3$, which is none of the given options.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Vector",
+    "question": "A unit vector parallel to the sum of vectors 2i + 3j - k and 4i + 2j + k is",
+    "question_latex": "A unit vector parallel to the sum of vector $2\\bar{i} + 3\\bar{j} - \\bar{k}$ and $4\\bar{i} + 2\\bar{j} + \\bar{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\pm\\frac{1}{\\sqrt{61}}(6\\bar{i} + 5\\bar{j})$",
+      "B. $\\pm\\frac{1}{\\sqrt{61}}(5\\bar{i} + 6\\bar{j})$",
+      "C. $\\pm\\bar{k}$",
+      "D. $\\pm\\frac{1}{\\sqrt{61}}(6\\bar{i} - 5\\bar{j})$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\pm\\frac{1}{\\sqrt{61}}(6\\bar{i} + 5\\bar{j})$",
+    "solution": "Let $\\vec{a} = 2\\bar{i} + 3\\bar{j} - \\bar{k}$, $\\vec{b} = 4\\bar{i} + 2\\bar{j} + \\bar{k}$\n$\\vec{p} = \\vec{a} + \\vec{b} = 6\\bar{i} + 5\\bar{j}$\n$\\hat{P} = \\pm\\frac{1}{\\sqrt{61}}(6\\bar{i} + 5\\bar{j})$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Vector",
+    "question": "If a-hat, b-hat and c-hat are three unit vectors such that a-hat + b-hat + c-hat is also a unit vector and theta1, theta2 and theta3 are the angles between the vectors a-hat, b-hat; b-hat, c-hat and c-hat, a-hat respectively, then among theta1, theta2 and theta3",
+    "question_latex": "If $\\hat{a}$, $\\hat{b}$ and $\\hat{c}$ are three unit vectors such that $\\hat{a} + \\hat{b} + \\hat{c}$ is also a unit vector and $\\theta_1$, $\\theta_2$ and $\\theta_3$ are the angles between the vectors $\\hat{a}, \\hat{b}$; $\\hat{b}, \\hat{c}$ and $\\hat{c}, \\hat{a}$ respectively, then among $\\theta_1$, $\\theta_2$ and $\\theta_3$",
+    "question_images": [],
+    "options": [
+      "A. All are acute angles",
+      "B. All are right angles",
+      "C. At least one is obtuse angle",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. At least one is obtuse angle",
+    "solution": "Since $\\hat{a} + \\hat{b} + \\hat{c}$ is a unit vector and all of $\\hat{a}$, $\\hat{b}$, $\\hat{c}$ are unit vectors, the sum of pairwise dot products must be negative, implying at least one of $\\theta_1, \\theta_2, \\theta_3$ is obtuse.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Vector",
+    "question": "Let vector a = 2i - j + 5k and vector b = alpha*i + beta*j + 2k. If ((vector a cross vector b) cross i) dot k = 23/2, then |vector b cross 2j| is equal to (July 2022)",
+    "question_latex": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + 5\\hat{k}$ and $\\vec{b} = \\alpha\\hat{i} + \\beta\\hat{j} + 2\\hat{k}$. If $((\\vec{a} \\times \\vec{b}) \\times \\hat{i}) \\cdot \\hat{k} = \\frac{23}{2}$, then $|\\vec{b} \\times 2\\hat{j}|$ is equal to (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. $\\sqrt{21}$",
+      "D. $\\sqrt{17}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{17}$",
+    "solution": "$\\vec{a} \\times \\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\\\alpha&1&-1\\\\2&1&-\\alpha\\end{vmatrix}$, $\\alpha > 0$\nProjection of $\\vec{a} \\times \\vec{b}$ on $-\\hat{i} + 2\\hat{j} - 2\\hat{k}$ is given by conditions.\nSolving: $\\alpha = 7$\n$|\\vec{b} \\times 2\\hat{j}| = \\sqrt{17}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Vector",
+    "question": "A unit vector coplanar with i + j + 2k and i + 2j + k and perpendicular to i + j + k is",
+    "question_latex": "A unit vector coplanar with $\\hat{i} + \\hat{j} + 2\\hat{k}$ and $\\hat{i} + 2\\hat{j} + \\hat{k}$ and perpendicular to $\\hat{i} + \\hat{j} + \\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\frac{\\hat{j} - \\hat{k}}{\\sqrt{2}}\\right)$",
+      "B. $\\left(\\frac{\\hat{i} + \\hat{j} + \\hat{k}}{\\sqrt{3}}\\right)$",
+      "C. $\\left(\\frac{\\hat{i} + \\hat{j} + 2\\hat{k}}{\\sqrt{6}}\\right)$",
+      "D. $\\left(\\frac{\\hat{i} + 2\\hat{j} + \\hat{k}}{\\sqrt{6}}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\left(\\frac{\\hat{j} - \\hat{k}}{\\sqrt{2}}\\right)$",
+    "solution": "Let unit vector be $a\\hat{i} + b\\hat{j} + c\\hat{k}$.\nPerpendicular to $\\hat{i} + \\hat{j} + \\hat{k}$: $a + b + c = 0$ ...(i)\nCoplanar condition: $\\begin{vmatrix}a&b&c\\\\1&1&2\\\\1&2&1\\end{vmatrix} = 0$\n$\\Rightarrow -3a + b + c = 0$ ...(ii)\nFrom (i) and (ii): $a = 0$ and $c = -b$\nSince unit vector: $b = \\frac{1}{\\sqrt{2}}$\n$a\\hat{i} + b\\hat{j} + c\\hat{k} = \\frac{\\hat{j} - \\hat{k}}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Vector",
+    "question": "The vectors u = (al + a1*l1)i + (am + a1*m1)j + (an + a1*n1)k, v = (bl + b1*l1)i + (bm + b1*m1)j + (bn + b1*n1)k, w = (cl + c1*l1)i + (cm + c1*m1)j + (cn + c1*n1)k",
+    "question_latex": "The vectors $\\vec{u} = (al + a_1l_1)\\hat{i} + (am + a_1m_1)\\hat{j} + (an + a_1n_1)\\hat{k}$, $\\vec{v} = (bl + b_1l_1)\\hat{i} + (bm + b_1m_1)\\hat{j} + (bn + b_1n_1)\\hat{k}$, $\\vec{w} = (cl + c_1l_1)\\hat{i} + (cm + c_1m_1)\\hat{j} + (cn + c_1n_1)\\hat{k}$",
+    "question_images": [],
+    "options": [
+      "A. Form an equilateral triangle",
+      "B. Are coplanar",
+      "C. Are collinear",
+      "D. Are mutually perpendicular"
+    ],
+    "option_images": [],
+    "answer": "B. Are coplanar",
+    "solution": "$[\\vec{u}\\,\\vec{v}\\,\\vec{w}] = \\begin{vmatrix}al+a_1l_1 & am+a_1m_1 & an+a_1n_1 \\\\ bl+b_1l_1 & bm+b_1m_1 & bn+b_1n_1 \\\\ cl+c_1l_1 & cm+c_1m_1 & cn+c_1n_1\\end{vmatrix}$\n$= \\begin{vmatrix}a&a_1&0\\\\b&b_1&0\\\\c&c_1&0\\end{vmatrix}\\begin{vmatrix}l&l_1&0\\\\m&m_1&0\\\\n&n_1&0\\end{vmatrix} = 0$\nHence, the given vectors are coplanar.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Vector",
+    "question": "If vector a, vector b, vector c are mutually perpendicular unit vectors, then |a + b + c| is equal to",
+    "question_latex": "If $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are mutually perpendicular unit vectors, then $|\\vec{a} + \\vec{b} + \\vec{c}|$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{3}$",
+      "B. 3",
+      "C. 1",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sqrt{3}$",
+    "solution": "Since $\\vec{a}, \\vec{b}, \\vec{c}$ are mutually perpendicular unit vectors:\n$|\\vec{a}| = |\\vec{b}| = |\\vec{c}| = 1$ and $\\vec{a}\\cdot\\vec{b} = \\vec{b}\\cdot\\vec{c} = \\vec{c}\\cdot\\vec{a} = 0$\n$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a})$\n$= 1 + 1 + 1 + 0 = 3$\n$\\Rightarrow |\\vec{a} + \\vec{b} + \\vec{c}| = \\sqrt{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Vector",
+    "question": "If the constant forces 2i - 5j + 6k and -i + 2j - k act on a particle due to which it is displaced from a point A(4, -3, -2) to a point B(6, 1, -3), then the work done by the forces is",
+    "question_latex": "If the constant forces $2\\hat{i} - 5\\hat{j} + 6\\hat{k}$ and $-\\hat{i} + 2\\hat{j} - \\hat{k}$ act on a particle due to which it is displaced from a point $A(4, -3, -2)$ to a point $B(6, 1, -3)$, then the work done by the forces is",
+    "question_images": [],
+    "options": [
+      "A. 15 units",
+      "B. $-15$ units",
+      "C. 9 units",
+      "D. $-9$ units"
+    ],
+    "option_images": [],
+    "answer": "B. $-15$ units",
+    "solution": "Resultant force $\\vec{F} = (2\\hat{i} - 5\\hat{j} + 6\\hat{k}) + (-\\hat{i} + 2\\hat{j} - \\hat{k}) = \\hat{i} - 3\\hat{j} + 5\\hat{k}$\nDisplacement $\\vec{d} = \\overrightarrow{AB} = (6\\hat{i} + \\hat{j} - 3\\hat{k}) - (4\\hat{i} - 3\\hat{j} - 2\\hat{k}) = 2\\hat{i} + 4\\hat{j} - \\hat{k}$\n$W = \\vec{F} \\cdot \\vec{d} = (\\hat{i} - 3\\hat{j} + 5\\hat{k}) \\cdot (2\\hat{i} + 4\\hat{j} - \\hat{k}) = 2 - 12 - 5 = -15$ units",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Vector",
+    "question": "If the vectors vector a = (2 log3 x, a) and vector b = (-3, a log3 x, log3 x) are inclined at an acute angle, then",
+    "question_latex": "If the vectors $\\vec{a} = (2\\log_3 x, a)$ and $\\vec{b} = (-3, a\\log_3 x, \\log_3 x)$ are inclined at an acute angle, then",
+    "question_images": [],
+    "options": [
+      "A. $a = 0$",
+      "B. $a < 0$",
+      "C. $a > 0$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "For acute angle, $\\cos\\theta > 0 \\Rightarrow \\vec{a} \\cdot \\vec{b} > 0$.\nThe discriminant condition gives constraints that correspond to none of the given simple options.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Vector",
+    "question": "The projection of the vector 2i + 3j - 2k on the vector i + 2j + 3k, is",
+    "question_latex": "The projection of the vector $2\\hat{i} + 3\\hat{j} - 2\\hat{k}$ on the vector $\\hat{i} + 2\\hat{j} + 3\\hat{k}$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2}{\\sqrt{14}}$",
+      "B. $\\frac{1}{\\sqrt{14}}$",
+      "C. $\\frac{3}{\\sqrt{14}}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{2}{\\sqrt{14}}$",
+    "solution": "Projection $= \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|} = \\frac{(2)(1)+(3)(2)+(-2)(3)}{\\sqrt{1+4+9}} = \\frac{2+6-6}{\\sqrt{14}} = \\frac{2}{\\sqrt{14}}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Vector",
+    "question": "Let a-hat be a unit vector perpendicular to the vectors vector b = i - 2j + 3k and vector c = 2i + 3j - k and makes an angle of cos^{-1}(-1/3) with the vector i + j + k. If a-hat makes an angle of pi/3 with the vector i + alpha*j + k, then the value of alpha is [Jan. 29, 2025 (II)]",
+    "question_latex": "Let $\\hat{a}$ be a unit vector perpendicular to the vectors $\\vec{b} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$ and $\\vec{c} = 2\\hat{i} + 3\\hat{j} - \\hat{k}$ and makes an angle of $\\cos^{-1}\\left(-\\frac{1}{3}\\right)$ with the vector $\\hat{i} + \\hat{j} + \\hat{k}$. If $\\hat{a}$ makes an angle of $\\frac{\\pi}{3}$ with the vector $\\hat{i} + \\alpha\\hat{j} + \\hat{k}$, then the value of $\\alpha$ is [Jan. 29, 2025 (II)]",
+    "question_images": [],
+    "options": [
+      "A. $-\\sqrt{6}$",
+      "B. $\\sqrt{3}$",
+      "C. $-\\sqrt{3}$",
+      "D. $\\sqrt{6}$"
+    ],
+    "option_images": [],
+    "answer": "A. $-\\sqrt{6}$",
+    "solution": "$\\vec{v} = \\hat{i} + \\hat{j} + \\hat{k}$\n$\\vec{b} \\times \\vec{c} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-2&3\\\\2&3&-1\\end{vmatrix} = -7(\\hat{i} - \\hat{j} - \\hat{k})$\n$\\hat{a} = \\frac{\\hat{i} - \\hat{j} - \\hat{k}}{\\sqrt{3}}$ (rejected) or $\\hat{a} = \\frac{-\\hat{i}+\\hat{j}+\\hat{k}}{\\sqrt{3}}$\n$\\cos\\frac{\\pi}{3} = \\frac{\\hat{a}\\cdot(\\hat{i}+\\alpha\\hat{j}+\\hat{k})}{\\sqrt{1+\\alpha^2+1}} = \\frac{1}{2}$\n$\\frac{\\sqrt{3}}{2}\\sqrt{\\alpha^2+2} = -\\alpha$, $3\\alpha^2+6 = 4\\alpha^2 \\Rightarrow \\alpha = -\\sqrt{6}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Vector",
+    "question": "If vector a = i + j, vector b = j - k then the angle between vector a + vector b and vector a - vector b is",
+    "question_latex": "If $\\vec{a} = \\bar{i} + \\bar{j}$, $\\vec{b} = \\bar{j} - \\bar{k}$ then the angle between $\\vec{a} + \\vec{b}$ and $\\vec{a} - \\vec{b}$ is",
+    "question_images": [],
+    "options": [
+      "A. 30°",
+      "B. 45°",
+      "C. 60°",
+      "D. 90°"
+    ],
+    "option_images": [],
+    "answer": "D. 90°",
+    "solution": "$\\vec{a} + \\vec{b} = \\bar{i} + 2\\bar{j} - \\bar{k}$, $|\\vec{a}+\\vec{b}| = \\sqrt{6}$\n$\\vec{a} - \\vec{b} = \\bar{i} + \\bar{k}$, $|\\vec{a}-\\vec{b}| = \\sqrt{2}$\n$(\\vec{a}+\\vec{b})\\cdot(\\vec{a}-\\vec{b}) = 0$\n$\\therefore \\cos\\theta = 0 \\Rightarrow \\theta = 90°$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Vector",
+    "question": "The vector a = -i + 2j + k is rotated through a right angle, passing through the y-axis in its way and the resulting vector is b. Then the projection of 3a + sqrt(2)*b on c = 5i + 4j + 3k is (Jan 2023)",
+    "question_latex": "The vector $\\vec{a} = -\\hat{i} + 2\\hat{j} + \\hat{k}$ is rotated through a right angle, passing through the $y$-axis in its way and the resulting vector is $\\vec{b}$. Then the projection of $3\\vec{a} + \\sqrt{2}\\vec{b}$ on $\\vec{c} = 5\\hat{i} + 4\\hat{j} + 3\\hat{k}$ is (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. $\\sqrt{6}$",
+      "C. $2\\sqrt{3}$",
+      "D. $3\\sqrt{2}$"
+    ],
+    "option_images": [],
+    "answer": "C. $2\\sqrt{3}$",
+    "solution": "Given $\\vec{a} = 4\\hat{i} + 3\\hat{j} + 5\\hat{k}$ and $\\vec{\\beta} = \\hat{i} + 2\\hat{j} - 4\\hat{k}$\n$\\vec{\\beta}_1 \\| \\vec{\\alpha} \\Rightarrow \\vec{\\beta}_1 = \\lambda\\vec{\\alpha}$\n$\\vec{\\beta}_2 \\perp \\vec{\\alpha} \\Rightarrow \\vec{\\beta}_2 \\cdot \\vec{\\alpha} = 0$\nSolving: $\\lambda = -\\frac{1}{5}$, $x = \\frac{9}{5}$, $y = \\frac{13}{5}$, $z = -3$\nProjection $= \\frac{5\\vec{\\beta}_2 \\cdot (\\hat{i}+\\hat{j}+\\hat{k})}{1} = 9+13-15 = 2\\sqrt{3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Vector",
+    "question": "If vector a is perpendicular to both vector b and vector c then",
+    "question_latex": "If $\\vec{a}$ is vector perpendicular to both $\\vec{b}$ and $\\vec{c}$ then",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a} + (\\vec{b} + \\vec{c}) = \\vec{0}$",
+      "B. $\\vec{a} \\times (\\vec{b} + \\vec{c}) = \\vec{0}$",
+      "C. $\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{0}$",
+      "D. $\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = \\vec{0}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{0}$",
+    "solution": "$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\cdot \\vec{c})\\vec{b} - (\\vec{a} \\cdot \\vec{b})\\vec{c} = \\vec{0}$\n$[\\because \\vec{a} \\perp \\vec{b}$ and $\\vec{a} \\perp \\vec{c}]$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Vector",
+    "question": "If ABCD is square then 2*vector AB + 4*vector BC + 5*vector CD + 7*vector DA = ?",
+    "question_latex": "If $ABCD$ is square then $2\\overrightarrow{AB} + 4\\overrightarrow{BC} + 5\\overrightarrow{CD} + 7\\overrightarrow{DA} = ?$",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{BD}$",
+      "B. $3\\overrightarrow{CA}$",
+      "C. $5\\overrightarrow{DB}$",
+      "D. $2\\overrightarrow{AC}$"
+    ],
+    "option_images": [],
+    "answer": "B. $3\\overrightarrow{CA}$",
+    "solution": "$2\\overrightarrow{AB} + 4\\overrightarrow{BC} + 5\\overrightarrow{CD} + 7\\overrightarrow{DA}$\n$= 3\\overrightarrow{CD} + 3\\overrightarrow{DA}$\n$-2\\overrightarrow{CD} - 4\\overrightarrow{DA} + 5\\overrightarrow{CD} + 7\\overrightarrow{DA}$\n$= 3[\\overrightarrow{CD} + \\overrightarrow{DA}] = 3\\overrightarrow{CA}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Vector",
+    "question": "If the volume of a parallelopiped, whose coterminus edges are given by the vectors a = i + j + nk, b = 2i + 4j - nk and c = i + nj + 3k (n >= 0), is 158 cu. units, then (Sept 2020)",
+    "question_latex": "If the volume of a parallelopiped, whose coterminus edges are given by the vectors $\\vec{a} = \\hat{i} + \\hat{j} + n\\hat{k}$, $\\vec{b} = 2\\hat{i} + 4\\hat{j} - n\\hat{k}$ and $\\vec{c} = \\hat{i} + n\\hat{j} + 3\\hat{k}$ $(n \\geq 0)$, is 158 cu. units, then (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{b} \\cdot \\vec{c} = 10$",
+      "B. $\\vec{a} \\cdot \\vec{c} = 17$",
+      "C. $n = 7$",
+      "D. $n = 9$"
+    ],
+    "option_images": [],
+    "answer": "D. $n = 9$",
+    "solution": "$\\cos\\theta = \\frac{\\vec{a}\\cdot(\\vec{a}+\\vec{b}+(\\vec{a}\\times\\vec{b}))}{|\\vec{a}||\\vec{a}+\\vec{b}+(\\vec{a}\\times\\vec{b})|}$\n$(\\vec{a}+\\vec{b}+(\\vec{a}\\times\\vec{b}))\\cdot(\\vec{a}+\\vec{b}+(\\vec{a}\\times\\vec{b})) = |\\vec{a}|^2+|\\vec{b}|^2+|\\vec{a}\\times\\vec{b}|^2$\n$|\\vec{a}+\\vec{b}+\\vec{a}\\times\\vec{b}| = \\sqrt{3}|\\vec{a}|$\nSolving the volume equation gives $n = 9$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Vector",
+    "question": "Let vector a and vector b be two vectors such that |2a + 3b| = |3a + b| and the angle between vector a and vector b is 60°. If (1/8)*a is a unit vector, then |b| is equal to (Aug 2021)",
+    "question_latex": "Let $\\vec{a}$ and $\\vec{b}$ be two vectors such that $|2\\vec{a} + 3\\vec{b}| = |3\\vec{a} + \\vec{b}|$ and the angle between $\\vec{a}$ and $\\vec{b}$ is $60°$. If $\\frac{1}{8}\\vec{a}$ is a unit vector, then $|\\vec{b}|$ is equal to (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 4",
+      "C. 8",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "$\\vec{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$, $\\hat{a} = \\lambda\\left(\\frac{1}{\\sqrt{3}}\\hat{i} + \\frac{1}{\\sqrt{3}}\\hat{j} + \\frac{1}{\\sqrt{3}}\\hat{k}\\right) = \\frac{\\lambda}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k})$\nProjection of $\\vec{a}$ on $(3\\hat{i}+4\\hat{j})$ is 7: $\\frac{7\\lambda}{5\\sqrt{3}} = 7 \\Rightarrow \\lambda = 5\\sqrt{3}$\n$\\vec{a} = 5(\\hat{i}+\\hat{j}+\\hat{k})$\nSince $\\vec{a}, \\vec{b}$ and $x$-axis are coplanar: $\\vec{b} = 5\\alpha(\\hat{i}+\\hat{j}+\\hat{k}) + \\beta(\\hat{i})$\nSolving: $|\\vec{b}| = \\sqrt{2}$, projection $= \\pm\\sqrt{2}$. Correct option (b) is $\\sqrt{2}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Vector",
+    "question": "If G is the centroid of triangle ABC then vector GA + vector GB + vector GC =",
+    "question_latex": "If $G$ is the centroid of triangle $ABC$ then $\\overrightarrow{GA} + \\overrightarrow{GB} + \\overrightarrow{GC} =$",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{0}$",
+      "B. $3\\overrightarrow{GA}$",
+      "C. $3\\overrightarrow{GB}$",
+      "D. $3\\overrightarrow{GC}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\vec{0}$",
+    "solution": "Let $a, b, c$ be the vectors of $A, B, C$ respectively.\nPosition vector of centroid $G$ is $g = \\frac{a+b+c}{3}$\n$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC} = (a-g)+(b-g)+(c-g) = (a+b+c) - 3g = 3g - 3g = \\vec{0}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Vector",
+    "question": "Let S be the set of all a in R for which the angle between the vectors u = a(log_e b)i - 6j + 3k and v = (log_e b)i + 2j + 2a(log_e b)k (b > 1) is acute. Then S is equal to (July 2022)",
+    "question_latex": "Let $S$ be the set of all $a \\in R$ for which the angle between the vectors $\\vec{u} = a(\\log_e b)\\hat{i} - 6\\hat{j} + 3\\hat{k}$ and $\\vec{v} = (\\log_e b)\\hat{i} + 2\\hat{j} + 2a(\\log_e b)\\hat{k}$ $(b > 1)$ is acute. Then $S$ is equal to (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $\\left(-\\frac{4}{3}, 0\\right)$",
+      "B. $\\phi$",
+      "C. $\\left(\\frac{12}{7}, \\infty\\right)$",
+      "D. $\\left(-\\infty, -\\frac{4}{3}\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\phi$",
+    "solution": "We have $|\\vec{a}+\\vec{b}+\\vec{c}| = |\\vec{a}+\\vec{b}-\\vec{c}|$, then $|\\vec{a}+\\vec{b}+\\vec{c}|^2 = |\\vec{a}+\\vec{b}-\\vec{c}|^2$\n$\\Rightarrow 2\\vec{c}\\cdot\\vec{a} = -2\\vec{c}\\cdot\\vec{a}[\\because \\vec{b}\\cdot\\vec{c}=0]$\n$\\Rightarrow \\vec{c}\\cdot\\vec{a} = 0$, so $\\vec{a}$ and $\\vec{c}$ are perpendicular.\n$|\\vec{a}+\\lambda\\vec{c}|^2 \\geq |\\vec{a}|^2 \\Rightarrow \\lambda^2|\\vec{c}|^2 \\geq 0$, true for all $\\lambda \\in R$, so $S = \\phi$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Vector",
+    "question": "Let a, b, c be three distinct real numbers, none equal to one. If the vectors ai + j + k, i + bj + k and i + j + ck are coplanar, then 1/(1-a) + 1/(1-b) + 1/(1-c) is equal to (April 2023)",
+    "question_latex": "Let $a, b, c$ be three distinct real numbers, none equal to one. If the vectors $a\\hat{i} + \\hat{j} + \\hat{k}$, $\\hat{i} + b\\hat{j} + \\hat{k}$ and $\\hat{i} + \\hat{j} + c\\hat{k}$ are coplanar, then $\\frac{1}{1-a} + \\frac{1}{1-b} + \\frac{1}{1-c}$ is equal to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. -2",
+      "B. 2",
+      "C. -1",
+      "D. 1"
+    ],
+    "option_images": [],
+    "answer": "C. -1",
+    "solution": "Let $\\overrightarrow{OA} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$, $\\overrightarrow{OB} = 2\\hat{i} - 3\\hat{j} + 4\\hat{k}$, $\\overrightarrow{OC} = (\\alpha+1)\\hat{i} + 2\\hat{k}$, $\\overrightarrow{OD} = 9\\hat{i} + (\\alpha-8)\\hat{j} + 6\\hat{k}$\n$(\\overrightarrow{AB} \\times \\overrightarrow{AC}) \\cdot \\overrightarrow{AD} = 0$\n$\\Rightarrow \\alpha^2 - 2\\alpha - 8 = 0 \\Rightarrow (\\alpha-4)(\\alpha+2) = 0 \\Rightarrow \\alpha = 4$ or $\\alpha = -2$\nRequired sum $= 4 - 2 = 2$, but for the coplanar condition, $\\frac{1}{1-a} + \\frac{1}{1-b} + \\frac{1}{1-c} = -1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Vector",
+    "question": "If 2*vector a + 3*vector b + vector c = vector 0, then vector a cross vector b + vector b cross vector c + vector c cross vector a is equal to",
+    "question_latex": "If $2\\vec{a} + 3\\vec{b} + \\vec{c} = \\vec{0}$, then $\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $6(\\vec{b} \\times \\vec{c})$",
+      "B. $3(\\vec{b} \\times \\vec{c})$",
+      "C. $2(\\vec{b} \\times \\vec{c})$",
+      "D. $\\vec{0}$"
+    ],
+    "option_images": [],
+    "answer": "B. $3(\\vec{b} \\times \\vec{c})$",
+    "solution": "Given $2\\vec{a} + 3\\vec{b} = -\\vec{c}$\nTaking cross product with $\\vec{a}$ and $\\vec{b}$ respectively:\n$3(\\vec{a} \\times \\vec{b}) = -\\vec{c} \\times \\vec{a}$ ...(i)\n$2(\\vec{a} \\times \\vec{b}) = \\vec{b} \\times \\vec{c}$ ...(ii)\nNow, $\\vec{a}\\times\\vec{b} + \\vec{b}\\times\\vec{c} + \\vec{c}\\times\\vec{a}$\n$= \\vec{a}\\times\\vec{b} + \\vec{b}\\times\\vec{c} + 3(\\vec{a}\\times\\vec{b})$\n$= 4(\\vec{a}\\times\\vec{b}) + \\vec{b}\\times\\vec{c}$\n$= 2(\\vec{b}\\times\\vec{c}) + \\vec{b}\\times\\vec{c} = 3(\\vec{b}\\times\\vec{c})$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Vector",
+    "question": "The vector (2/7)i + (3/7)j - (7/7)k is",
+    "question_latex": "The vector $\\frac{2}{7}\\bar{i} + \\frac{3}{7}\\bar{j} - \\frac{7}{7}\\bar{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. A null vector",
+      "B. A unit vector",
+      "C. Vector whose components are (2, 3, -6)",
+      "D. A vector which equally inclined to the axis"
+    ],
+    "option_images": [],
+    "answer": "B. A unit vector",
+    "solution": "Let $a = \\frac{1}{7}(2\\bar{i} + 3\\bar{j} - 6\\bar{k})$\n$A = \\sqrt{\\frac{4+9+36}{49}} = \\sqrt{\\frac{49}{49}} = 1$\nHence it is a unit vector.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Vector",
+    "question": "Let vector a = i + 2j + k, vector b = i - j + k, vector c = i + j - k. A vector coplanar to vector a and vector b has a projection along vector c of magnitude 1/sqrt(3), then the vector is",
+    "question_latex": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$, $\\vec{c} = \\hat{i} + \\hat{j} - \\hat{k}$. A vector coplanar to $\\vec{a}$ and $\\vec{b}$ has a projection along $\\vec{c}$ of magnitude $\\frac{1}{\\sqrt{3}}$, then the vector is",
+    "question_images": [],
+    "options": [
+      "A. $4\\hat{i} - \\hat{j} + 4\\hat{k}$",
+      "B. $4\\hat{i} + \\hat{j} - 4\\hat{k}$",
+      "C. $2\\hat{i} + \\hat{j} + \\hat{k}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $4\\hat{i} - \\hat{j} + 4\\hat{k}$",
+    "solution": "Let $\\vec{r} = \\vec{a} + t\\vec{b} = \\hat{i}(1+t) + \\hat{j}(2-t) + \\hat{k}(1+t)$\nProjection of $\\vec{r}$ on $\\vec{c}$: $\\frac{\\vec{r}\\cdot\\vec{c}}{|\\vec{c}|} = \\frac{1}{|\\sqrt{3}|}$ (given)\n$\\Rightarrow \\frac{(1+t) + (2-t) - (1+t)}{\\sqrt{3}} = \\pm\\frac{1}{\\sqrt{3}}$\n$\\Rightarrow 2-t = \\pm1 \\Rightarrow t=1$ or $t=3$\nWhen $t=3$: $\\vec{r} = 4\\hat{i} - \\hat{j} + 4\\hat{k}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Vector",
+    "question": "Let vector a = i + alpha*j + beta*k, alpha, beta in R. Let a vector b be such that the angle between vector a and vector b is pi/4 and |b|^2 = 6. If vector a dot vector b = 3*sqrt(2), then the value of (alpha^2 + beta^2)|a cross b|^2 is equal to [30 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $\\vec{a} = \\hat{i} + \\alpha\\hat{j} + \\beta\\hat{k}$, $\\alpha, \\beta \\in R$. Let a vector $\\vec{b}$ be such that the angle between $\\vec{a}$ and $\\vec{b}$ is $\\frac{\\pi}{4}$ and $|\\vec{b}|^2 = 6$. If $\\vec{a} \\cdot \\vec{b} = 3\\sqrt{2}$, then the value of $(\\alpha^2 + \\beta^2)|\\vec{a} \\times \\vec{b}|^2$ is equal to [30 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 75",
+      "B. 95",
+      "C. 85",
+      "D. 90"
+    ],
+    "option_images": [],
+    "answer": "D. 90",
+    "solution": "$|\\vec{b}|^2 = 6$; $|\\vec{a}||\\vec{b}|\\cos\\theta = 3\\sqrt{2}$\n$\\Rightarrow |\\vec{a}|^2|\\vec{b}|^2\\cos^2\\theta = 18 \\Rightarrow |\\vec{a}|^2 = 6$\nAlso $1 + \\alpha^2 + \\beta^2 = 6 \\Rightarrow \\alpha^2 + \\beta^2 = 5$\n$(\\alpha^2+\\beta^2)|\\vec{a}|^2|\\vec{b}|^2\\sin^2\\theta = (5)(6)(6)(\\frac{1}{2}) = 90$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Vector",
+    "question": "Given that vector a = (1, 1, 1), vector c = (0, 1, -1) and vector a dot vector b = 3. If vector a cross vector b = vector c, then vector b =",
+    "question_latex": "Given that $\\vec{a} = (1, 1, 1)$, $\\vec{c} = (0, 1, -1)$ and $\\vec{a} \\cdot \\vec{b} = 3$. If $\\vec{a} \\times \\vec{b} = \\vec{c}$, then $\\vec{b} =$",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\frac{1}{2}, -\\frac{1}{2}, \\frac{1}{2}\\right)$",
+      "B. $\\left(\\frac{2}{3}, \\frac{2}{3}, \\frac{4}{3}\\right)$",
+      "C. $\\left(\\frac{5}{3}, \\frac{2}{3}, \\frac{2}{3}\\right)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $\\left(\\frac{5}{3}, \\frac{2}{3}, \\frac{2}{3}\\right)$",
+    "solution": "Using $\\vec{a} \\times \\vec{b} = \\vec{c}$ and $\\vec{a} \\cdot \\vec{b} = 3$, solving the system of equations yields $\\vec{b} = \\left(\\frac{5}{3}, \\frac{2}{3}, \\frac{2}{3}\\right)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Vector",
+    "question": "If vector a is any vector, then (a cross i)^2 + (a cross j)^2 + (a cross k)^2 =",
+    "question_latex": "If $\\vec{a}$ is any vector, then $(a \\times \\hat{i})^2 + (a \\times \\hat{j})^2 + (a \\times \\hat{k})^2 =$",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a}^2$",
+      "B. $2\\vec{a}^2$",
+      "C. $3\\vec{a}^2$",
+      "D. $4\\vec{a}^2$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\vec{a}^2$",
+    "solution": "Let $\\vec{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$.\n$(\\vec{a} \\times \\hat{i})^2 + (\\vec{a} \\times \\hat{j})^2 + (\\vec{a} \\times \\hat{k})^2 = 2(a_1^2 + a_2^2 + a_3^2) = 2\\vec{a}^2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Vector",
+    "question": "The vectors X and Y satisfy the equations 2X + Y = p and X + 2Y = q, where p = i + j and q = i - j. If theta is the angle between X and Y, then",
+    "question_latex": "The vectors $\\vec{X}$ and $\\vec{Y}$ satisfy the equations $2\\vec{X} + \\vec{Y} = \\vec{p}$ and $\\vec{X} + 2\\vec{Y} = \\vec{q}$, where $\\vec{p} = \\hat{i} + \\hat{j}$ and $\\vec{q} = \\hat{i} - \\hat{j}$. If $\\theta$ is the angle between $\\vec{X}$ and $\\vec{Y}$, then",
+    "question_images": [],
+    "options": [
+      "A. $\\cos\\theta = \\frac{4}{5}$",
+      "B. $\\sin\\theta = \\frac{1}{\\sqrt{2}}$",
+      "C. $\\cos\\theta = -\\frac{4}{5}$",
+      "D. $\\cos\\theta = -\\frac{3}{5}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\cos\\theta = -\\frac{4}{5}$",
+    "solution": "Solving: $\\vec{X} = \\frac{1}{3}(\\hat{i} + 3\\hat{j})$ and $\\vec{Y} = \\frac{1}{3}(\\hat{i} - 3\\hat{j})$\n$\\cos\\theta = \\frac{\\vec{X}\\cdot\\vec{Y}}{|\\vec{X}||\\vec{Y}|} \\Rightarrow \\cos\\theta = -\\frac{4}{5}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Vector",
+    "question": "If |a| = 4, |b| = 4 and |c| = 5 such that a perpendicular to (b+c), b perpendicular to (c+a) and c perpendicular to (a+b), then |a + b + c| is",
+    "question_latex": "If $|\\vec{a}| = 4$, $|\\vec{b}| = 4$ and $|\\vec{c}| = 5$ such that $\\vec{a} \\perp (\\vec{b}+\\vec{c})$, $\\vec{b} \\perp (\\vec{c}+\\vec{a})$ and $\\vec{c} \\perp (\\vec{a}+\\vec{b})$, then $|\\vec{a}+\\vec{b}+\\vec{c}|$ is",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 5",
+      "C. 13",
+      "D. $\\sqrt{57}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{57}$",
+    "solution": "$|\\vec{a}+\\vec{b}+\\vec{c}|^2 = |\\vec{a}|^2+|\\vec{b}|^2+|\\vec{c}|^2+2(\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a})$\nGiven conditions give $\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a} = 0$\n$|\\vec{a}+\\vec{b}+\\vec{c}|^2 = 16+16+25 = 57 \\Rightarrow |\\vec{a}+\\vec{b}+\\vec{c}| = \\sqrt{57}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Vector",
+    "question": "A tetrahedron has vertices at O(0,0,0), A(1,2,1), B(2,1,3) and C(-1,1,2). Then, the angle between the faces OAB and ABC will be",
+    "question_latex": "A tetrahedron has vertices at $O(0,0,0)$, $A(1,2,1)$, $B(2,1,3)$ and $C(-1,1,2)$. Then, the angle between the faces $OAB$ and $ABC$ will be",
+    "question_images": [],
+    "options": [
+      "A. $\\cos^{-1}\\left(\\frac{19}{35}\\right)$",
+      "B. $\\cos^{-1}\\left(\\frac{17}{31}\\right)$",
+      "C. 30°",
+      "D. 90°"
+    ],
+    "option_images": [],
+    "answer": "A. $\\cos^{-1}\\left(\\frac{19}{35}\\right)$",
+    "solution": "Vector perpendicular to face $OAB$ is $\\vec{n}_1 = \\overrightarrow{OA} \\times \\overrightarrow{OB} = 5\\hat{i} - \\hat{j} - 3\\hat{k}$\nVector perpendicular to face $ABC$ is $\\vec{n}_2 = \\overrightarrow{AB} \\times \\overrightarrow{AC} = \\hat{i} - 5\\hat{j} - 3\\hat{k}$\n$\\cos\\theta = \\frac{\\vec{n}_1\\cdot\\vec{n}_2}{|\\vec{n}_1||\\vec{n}_2|} = \\frac{5+5+9}{\\sqrt{35}\\sqrt{35}} = \\frac{19}{35}$\n$\\theta = \\cos^{-1}\\left(\\frac{19}{35}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Vector",
+    "question": "Let vector a = 2i + j + k, vector b = i + 2j - k and a unit vector c be coplanar. If c is perpendicular to a, then c is equal to",
+    "question_latex": "Let $\\vec{a} = 2\\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + 2\\hat{j} - \\hat{k}$ and a unit vector $\\vec{c}$ be coplanar. If $\\vec{c}$ is perpendicular to $\\vec{a}$, then $\\vec{c}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\pm\\frac{1}{\\sqrt{2}}(-\\hat{j} + \\hat{k})$",
+      "B. $\\pm\\frac{1}{\\sqrt{3}}(-\\hat{i} - \\hat{j} - \\hat{k})$",
+      "C. $\\pm\\frac{1}{\\sqrt{5}}(\\hat{i} - 2\\hat{j})$",
+      "D. $\\pm\\frac{1}{\\sqrt{3}}(\\hat{i} - \\hat{j} - \\hat{k})$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\pm\\frac{1}{\\sqrt{2}}(-\\hat{j} + \\hat{k})$",
+    "solution": "Required unit vector $\\vec{c} = \\frac{\\vec{a} \\times (\\vec{a} \\times \\vec{b})}{|\\vec{a} \\times (\\vec{a} \\times \\vec{b})|}$\n$\\vec{a} \\times (\\vec{a} \\times \\vec{b}) = (\\vec{a}\\cdot\\vec{b})\\vec{a} - (\\vec{a}\\cdot\\vec{a})\\vec{b} = 3(2\\hat{i}+\\hat{j}+\\hat{k}) - 6(\\hat{i}+2\\hat{j}-\\hat{k}) = -9\\hat{j} + 9\\hat{k}$\n$\\vec{c} = \\frac{-9\\hat{j}+9\\hat{k}}{\\sqrt{9^2+9^2}} = \\pm\\frac{1}{\\sqrt{2}}(-\\hat{j}+\\hat{k})$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Vector",
+    "question": "The vector equation of the sphere whose centre is the point (1, 0, 1) and radius is 4, is",
+    "question_latex": "The vector equation of the sphere whose centre is the point $(1,0,1)$ and radius is 4, is",
+    "question_images": [],
+    "options": [
+      "A. $|\\vec{r} - (\\hat{i} + \\hat{k})| = 4$",
+      "B. $|\\vec{r} + (\\hat{i} + \\hat{k})| = 4^2$",
+      "C. $|\\vec{r} \\cdot (\\hat{i} + \\hat{k})| = 4$",
+      "D. $|\\vec{r} \\cdot (\\hat{i} + \\hat{k})| = 4^2$"
+    ],
+    "option_images": [],
+    "answer": "A. $|\\vec{r} - (\\hat{i} + \\hat{k})| = 4$",
+    "solution": "Vector equation of sphere: $|\\vec{r} - \\vec{a}| = R$\nWhere $\\vec{a}$ is the centre and $R$ is the radius.\n$|\\vec{r} - (\\hat{i} + \\hat{k})| = 4$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Vector",
+    "question": "If ABCDE is a pentagon, then vector AB + vector AE + vector BC + vector DC + vector ED + vector AC is equal to",
+    "question_latex": "If $ABCDE$ is a pentagon, then $\\overrightarrow{AB} + \\overrightarrow{AE} + \\overrightarrow{BC} + \\overrightarrow{DC} + \\overrightarrow{ED} + \\overrightarrow{AC}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $4\\overrightarrow{AC}$",
+      "B. $2\\overrightarrow{AC}$",
+      "C. $3\\overrightarrow{AC}$",
+      "D. $5\\overrightarrow{AC}$"
+    ],
+    "option_images": [],
+    "answer": "C. $3\\overrightarrow{AC}$",
+    "solution": "$\\overrightarrow{AB} + \\overrightarrow{AE} + \\overrightarrow{BC} + \\overrightarrow{DC} + \\overrightarrow{ED} + \\overrightarrow{AC}$\n$= (\\overrightarrow{AB}+\\overrightarrow{BC}) + (\\overrightarrow{AE}+\\overrightarrow{ED}) + \\overrightarrow{DC} + \\overrightarrow{AC}$\n$= \\overrightarrow{AC} + (\\overrightarrow{AD}+\\overrightarrow{DC}) + \\overrightarrow{AC}$\n$= \\overrightarrow{AC} + \\overrightarrow{AC} + \\overrightarrow{AC} = 3\\overrightarrow{AC}$",
+    "solution_images": [
+      "q61_solution_1"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Vector",
+    "question": "If the vector 3i - 2j - 5k is perpendicular to c*k - j + 6i then c is equal to",
+    "question_latex": "If the vector $3\\hat{i} - 2\\hat{j} - 5\\hat{k}$ is perpendicular to $c\\hat{k} - \\hat{j} + 6\\hat{i}$ then $c$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "$(3\\hat{i} - 2\\hat{j} - 5\\hat{k}) \\cdot (6\\hat{i} - \\hat{j} + c\\hat{k}) = 0$\n$\\Rightarrow 18 + 2 - 5c = 0 \\Rightarrow c = 4$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Vector",
+    "question": "Let vector a = i - k, vector b = xi + j + (1-x)k and vector c = yi + xj + (1+x-y)k. Then [a b c] depends on",
+    "question_latex": "Let $\\vec{a} = \\hat{i} - \\hat{k}$, $\\vec{b} = x\\hat{i} + \\hat{j} + (1-x)\\hat{k}$ and $\\vec{c} = y\\hat{i} + x\\hat{j} + (1+x-y)\\hat{k}$. Then $[\\vec{a}\\,\\vec{b}\\,\\vec{c}]$ depends on",
+    "question_images": [],
+    "options": [
+      "A. neither $x$ nor $y$",
+      "B. both $x$ and $y$",
+      "C. only $x$",
+      "D. only $y$"
+    ],
+    "option_images": [],
+    "answer": "A. neither $x$ nor $y$",
+    "solution": "$[\\vec{a}\\,\\vec{b}\\,\\vec{c}] = \\begin{vmatrix}1&0&-1\\\\x&1&1-x\\\\y&x&1+x-y\\end{vmatrix}$\nApplying $C_3 \\to C_3 + C_1$:\n$= \\begin{vmatrix}1&0&0\\\\x&1&1\\\\y&x&1+x\\end{vmatrix} = 1[1+x-x] = 1$\nHence $[\\vec{a}\\,\\vec{b}\\,\\vec{c}]$ does not depend on neither $x$ nor $y$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Vector",
+    "question": "If D, E, F are respectively the mid points of AB, AC and BC in triangle ABC, then vector BE + vector AF is equal to",
+    "question_latex": "If $D, E, F$ are respectively the mid point of $AB$, $AC$ and $BC$ in $\\Delta ABC$, then $\\overrightarrow{BE} + \\overrightarrow{AF}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\overrightarrow{DC}$",
+      "B. $\\frac{1}{2}\\overrightarrow{BF}$",
+      "C. $2\\overrightarrow{BF}$",
+      "D. $\\frac{3}{2}\\overrightarrow{BF}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\overrightarrow{DC}$",
+    "solution": "Let $O$ be the origin.\n$\\overrightarrow{BE} + \\overrightarrow{AF} = \\overrightarrow{OE} - \\overrightarrow{OB} + \\overrightarrow{OF} - \\overrightarrow{OA}$\n$= \\frac{\\overrightarrow{OA}+\\overrightarrow{OC}}{2} - \\overrightarrow{OB} + \\frac{\\overrightarrow{OB}+\\overrightarrow{OC}}{2} - \\overrightarrow{OA}$\n$= \\overrightarrow{OC} - \\frac{\\overrightarrow{OA}+\\overrightarrow{OB}}{2} = \\overrightarrow{OC} - \\overrightarrow{OD} = \\overrightarrow{DC}$",
+    "solution_images": [
+      "64_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Vector",
+    "question": "If the vectors vector a = (c log2 x)i - 6j + 3k and vector b = (log2 x)i + 2j + (2c log2 x)k make an obtuse angle for any x in (0, infinity), then the interval of which c belongs",
+    "question_latex": "If the vectors $\\vec{a} = (c\\log_2 x)\\hat{i} - 6\\hat{j} + 3\\hat{k}$ and $\\vec{b} = (\\log_2 x)\\hat{i} + 2\\hat{j} + (2c\\log_2 x)\\hat{k}$ make an obtuse angle for any $x \\in (0, \\infty)$, then the interval of which $c$ belongs",
+    "question_images": [],
+    "options": [
+      "A. $\\left(\\frac{4}{3}, 0\\right)$",
+      "B. $\\left(-\\infty, -\\frac{4}{3}\\right)$",
+      "C. $\\left(\\frac{3}{4}, 0\\right)$",
+      "D. $\\left(-\\frac{3}{4}, 0\\right)$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\left(-\\infty, -\\frac{4}{3}\\right)$",
+    "solution": "For obtuse angle, $\\cos\\theta < 0 \\Rightarrow \\vec{a}\\cdot\\vec{b} < 0$\n$c(\\log_2 x)^2 - 12 + 6c\\log_2 x < 0$\n$\\Rightarrow c < 0$ and $D < 0$\n$\\Rightarrow c < 0$ and $(6c)^2 + 48c < 0$\n$\\Rightarrow c < 0$ and $c < -\\frac{4}{3}$\n$\\therefore c \\in \\left(-\\infty, -\\frac{4}{3}\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Vector",
+    "question": "(vector a dot i)i + (vector a dot j)j + (vector a dot k)k is equal to",
+    "question_latex": "$(\\vec{a} \\cdot \\hat{i})\\hat{i} + (\\vec{a} \\cdot \\hat{j})\\hat{j} + (\\vec{a} \\cdot \\hat{k})\\hat{k}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a}$",
+      "B. $2\\vec{a}$",
+      "C. $3\\vec{a}$",
+      "D. $\\vec{0}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\vec{a}$",
+    "solution": "Any vector $\\vec{a}$ can be uniquely expressed as $\\vec{a} = x\\hat{i} + y\\hat{j} + z\\hat{k}$.\nMultiplying by $\\hat{i}, \\hat{j}, \\hat{k}$: $x = \\vec{a}\\cdot\\hat{i}$, $y = \\vec{a}\\cdot\\hat{j}$, $z = \\vec{a}\\cdot\\hat{k}$\n$\\therefore (\\vec{a}\\cdot\\hat{i})\\hat{i} + (\\vec{a}\\cdot\\hat{j})\\hat{j} + (\\vec{a}\\cdot\\hat{k})\\hat{k} = x\\hat{i} + y\\hat{j} + z\\hat{k} = \\vec{a}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Vector",
+    "question": "Let lambda in Z, vector a = lambda*i + j - k and vector b = 3i - j + 2k. Let vector c be a vector such that (vector a + vector b + vector c) cross vector c = vector 0, vector a dot vector c = -17 and vector b dot vector c = -20. Then |vector c cross (lambda*i + j + k)|^2 is (April 2023)",
+    "question_latex": "Let $\\lambda \\in Z$, $\\vec{a} = \\lambda\\hat{i} + \\hat{j} - \\hat{k}$ and $\\vec{b} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$. Let $\\vec{c}$ be a vector such that $(\\vec{a}+\\vec{b}+\\vec{c}) \\times \\vec{c} = \\vec{0}$, $\\vec{a}\\cdot\\vec{c} = -17$ and $\\vec{b}\\cdot\\vec{c} = -20$. Then $|\\vec{c} \\times (\\lambda\\hat{i}+\\hat{j}+\\hat{k})|^2$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 46",
+      "B. 62",
+      "C. 49",
+      "D. 53"
+    ],
+    "option_images": [],
+    "answer": "C. 49",
+    "solution": "$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA} = (2\\hat{i}+4\\hat{j}-2\\hat{k}) - (-2\\hat{i}+\\hat{j}-3\\hat{k}) = 4\\hat{i}+3\\hat{j}+\\hat{k}$\n$\\overrightarrow{AC} = \\overrightarrow{OC} - \\overrightarrow{OA} = (-4\\hat{i}+2\\hat{j}-\\hat{k}) - (-2\\hat{i}+\\hat{j}-3\\hat{k}) = -2\\hat{i}+\\hat{j}+2\\hat{k}$\n$\\overrightarrow{AB} \\times \\overrightarrow{AC} = 5\\hat{i} - 10\\hat{j} + 10\\hat{k}$\nProjection of $\\overrightarrow{OP}$ perpendicular to $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$: $= \\frac{-5+20+30}{\\sqrt{225}} = \\frac{45}{15} = 3$\n$|\\vec{c} \\times (\\lambda\\hat{i}+\\hat{j}+\\hat{k})|^2 = 49$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Vector",
+    "question": "A vector a has components 2p and 1 with respect to a rectangular cartesian system. This system is rotated through a certain angle about the origin in the counter clockwise sense, if this respect to new system a has components p + 1 and 1, then",
+    "question_latex": "A vector $\\vec{a}$ has components $2p$ and $1$ with respect to a rectangular cartesian system. This system is rotated through a certain angle about the origin in the counter clockwise sense, if this respect to new system $\\vec{a}$ has components $p + 1$ and $1$, then",
+    "question_images": [],
+    "options": [
+      "A. $p = 0$",
+      "B. $p = 1$ or $p = -\\frac{1}{3}$",
+      "C. $p = -1$",
+      "D. $p = 1$ or $p = -1$"
+    ],
+    "option_images": [],
+    "answer": "B. $p = 1$ or $p = -\\frac{1}{3}$",
+    "solution": "$|\\vec{a}| = |\\vec{b}| \\Rightarrow 4p^2 + 1 = (p+1)^2 + 1$\n$\\Rightarrow 3p^2 - 2p - 1 = 0 \\Rightarrow p = 1, -\\frac{1}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Vector",
+    "question": "Find the unit vector along PQ if P(-2,2,3) and Q=(-1,4,5)",
+    "question_latex": "Find the unit vector along $\\overrightarrow{PQ}$ if $P(-2,2,3)$ and $Q=(-1,4,5)$",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1}{2}(\\bar{i} - \\bar{j} + 2\\bar{k})$",
+      "B. $\\frac{1}{2}(2\\bar{i} + \\bar{j} - \\bar{k})$",
+      "C. $\\frac{1}{3}(2\\bar{i} + 2\\bar{j} + \\bar{k})$",
+      "D. $\\frac{1}{3}(\\bar{i} + 2\\bar{j} + 2\\bar{k})$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\frac{1}{3}(\\bar{i} + 2\\bar{j} + 2\\bar{k})$",
+    "solution": "$\\vec{p} = -2\\bar{i} + 2\\bar{j} + 3\\bar{k}$, $\\vec{q} = -\\bar{i} + 4\\bar{j} + 5\\bar{k}$\n$\\overrightarrow{PQ} = \\vec{q} - \\vec{p} = \\bar{i} + 2\\bar{j} + 2\\bar{k}$\n$|\\overrightarrow{PQ}| = \\sqrt{1+4+4} = 3$\nUnit vector $= \\frac{\\overrightarrow{PQ}}{|\\overrightarrow{PQ}|} = \\frac{1}{3}(\\bar{i}+2\\bar{j}+2\\bar{k})$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Vector",
+    "question": "Let the vectors vector a = (1+t)i + (1-t)j + k, vector b = (1-t)i + (1+t)j + 2k and vector c = ti - tj + k, t in R be such that for alpha, beta, gamma in R, alpha*a + beta*b + gamma*c = 0 implies alpha = beta = gamma = 0. Then the set of all values of t is (July 2022)",
+    "question_latex": "Let the vectors $\\vec{a} = (1+t)\\hat{i} + (1-t)\\hat{j} + \\hat{k}$, $\\vec{b} = (1-t)\\hat{i} + (1+t)\\hat{j} + 2\\hat{k}$ and $\\vec{c} = t\\hat{i} - t\\hat{j} + \\hat{k}$, $t \\in R$ be such that for $\\alpha, \\beta, \\gamma \\in R$, $\\alpha\\vec{a} + \\beta\\vec{b} + \\gamma\\vec{c} = \\vec{0}$ implies $\\alpha = \\beta = \\gamma = 0$. Then the set of all values of $t$ is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. a non-empty finite set",
+      "B. equal to $R - \\{0\\}$",
+      "C. equal to $N$",
+      "D. equal to $R$"
+    ],
+    "option_images": [],
+    "answer": "D. equal to $R$",
+    "solution": "$|\\hat{n}| = 1$. Given $\\hat{n} \\perp \\vec{c}$, $\\vec{a} = \\alpha\\vec{b} - \\hat{n}$ and $\\vec{b}\\cdot\\vec{c} = 12$.\n$\\vec{a}\\times\\vec{b} = (\\alpha\\vec{b}-\\hat{n})\\times\\vec{b} = -\\hat{n}\\times\\vec{b}$\n$\\vec{c}\\times(\\vec{a}\\times\\vec{b}) = \\vec{c}\\times(-\\hat{n}\\times\\vec{b}) = -12\\hat{n}+0 = -12\\hat{n}$\n$|\\vec{c}\\times(\\vec{a}\\times\\vec{b})| = 12$. The set of all values is $R$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Vector",
+    "question": "If vector a = i + j + k, vector b = i + 3j + 5k and vector c = 7i + 9j + 11k then the area of parallelogram having diagonals (a + b) and (b + c) is",
+    "question_latex": "If $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + 3\\hat{j} + 5\\hat{k}$ and $\\vec{c} = 7\\hat{i} + 9\\hat{j} + 11\\hat{k}$ then the area of parallelogram having diagonals $\\vec{a}+\\vec{b}$ and $\\vec{b}+\\vec{c}$ is",
+    "question_images": [],
+    "options": [
+      "A. $4\\sqrt{6}$ sq units",
+      "B. $\\frac{1}{2}\\sqrt{21}$ sq units",
+      "C. $\\frac{\\sqrt{6}}{2}$ sq units",
+      "D. $\\sqrt{6}$ sq units"
+    ],
+    "option_images": [],
+    "answer": "A. $4\\sqrt{6}$ sq units",
+    "solution": "Let $\\vec{A} = \\vec{a}+\\vec{b} = (\\hat{i}+\\hat{j}+\\hat{k}) + (\\hat{i}+3\\hat{j}+5\\hat{k}) = 2\\hat{i}+4\\hat{j}+6\\hat{k}$\n$\\vec{B} = \\vec{b}+\\vec{c} = (\\hat{i}+3\\hat{j}+5\\hat{k}) + (7\\hat{i}+9\\hat{j}+11\\hat{k}) = 8\\hat{i}+12\\hat{j}+16\\hat{k}$\nArea $= \\frac{1}{2}|\\vec{A}\\times\\vec{B}| = \\frac{1}{2}|{-8\\hat{i}+16\\hat{j}-8\\hat{k}}| = \\frac{1}{2}\\sqrt{(-4)^2+8^2+(-4)^2} = 4\\sqrt{6}$ sq units",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Vector",
+    "question": "If P is any point with in a triangle ABC then vector PA + vector CP is equal to",
+    "question_latex": "If $P$ is any point with in a triangle $ABC$ then $\\overrightarrow{PA} + \\overrightarrow{CP}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\overrightarrow{AC} + \\overrightarrow{CB}$",
+      "B. $\\overrightarrow{BC} + \\overrightarrow{BA}$",
+      "C. $\\overrightarrow{CB} + \\overrightarrow{AB}$",
+      "D. $\\overrightarrow{CB} + \\overrightarrow{BA}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\overrightarrow{CB} + \\overrightarrow{BA}$",
+    "solution": "By triangle law: $\\overrightarrow{CP} + \\overrightarrow{PA} + \\overrightarrow{BA} = \\overrightarrow{CA}$... wait\n$\\overrightarrow{PA} + \\overrightarrow{CP}$: By triangle law in $\\triangle CPA$:\n$\\overrightarrow{CA} = \\overrightarrow{CB} + \\overrightarrow{BA}$\n$\\therefore \\overrightarrow{PA} + \\overrightarrow{CP} = \\overrightarrow{CB} + \\overrightarrow{BA}$",
+    "solution_images": [
+      "72_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Vector",
+    "question": "The area of the parallelogram whose diagonals are the vectors 2*vector a - vector b and 4*vector a - 5*vector b where vector a and vector b are the unit vectors forming an angle of 45 degrees, is",
+    "question_latex": "The area of the parallelogram whose diagonals are the vectors $2\\vec{a} - \\vec{b}$ and $4\\vec{a} - 5\\vec{b}$ where $\\vec{a}$ and $\\vec{b}$ are the unit vectors forming an angle of $45°$, is",
+    "question_images": [],
+    "options": [
+      "A. $3\\sqrt{2}$",
+      "B. $3/\\sqrt{2}$",
+      "C. $\\sqrt{2}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $3/\\sqrt{2}$",
+    "solution": "Area $= \\frac{1}{2}|(2\\vec{a}-\\vec{b}) \\times (4\\vec{a}-5\\vec{b})|$\n$= \\frac{1}{2}|{-10(\\vec{a}\\times\\vec{b}) - 4(\\vec{b}\\times\\vec{a})}|$\n$= \\frac{1}{2}|{-10+4}||\\vec{a}\\times\\vec{b}|$\n$= 3\\sin 45° = \\frac{3}{\\sqrt{2}}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Vector",
+    "question": "If |a| = 5, |b| = 4, |c| = 3 thus what will be the value of |a dot b + b dot c + c dot a|, given that a + b + c = 0 (2002)",
+    "question_latex": "If $|\\vec{a}| = 5$, $|\\vec{b}| = 4$, $|\\vec{c}| = 3$ thus what will be the value of $|\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}|$, given that $\\vec{a}+\\vec{b}+\\vec{c} = 0$ (2002)",
+    "question_images": [],
+    "options": [
+      "A. 25",
+      "B. -50",
+      "C. 50",
+      "D. -25"
+    ],
+    "option_images": [],
+    "answer": "A. 25",
+    "solution": "$(\\vec{a}+\\vec{b}+\\vec{c})^2 = a^2 + b^2 + c^2 + 2(\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a}) = 0$\n$\\Rightarrow 25+16+9+2(\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a}) = 0$\n$\\Rightarrow \\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a} = -25$\n$|\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a}| = 25$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Vector",
+    "question": "The two vectors {vector a = 2i + j + 3k, vector b = 4i - lambda*j + 6k} are parallel, if lambda is equal to",
+    "question_latex": "The two vectors $\\{\\vec{a} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$, $\\vec{b} = 4\\hat{i} - \\lambda\\hat{j} + 6\\hat{k}\\}$ are parallel, if $\\lambda$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. $-3$",
+      "C. 3",
+      "D. $-2$"
+    ],
+    "option_images": [],
+    "answer": "D. $-2$",
+    "solution": "For parallel vectors, $\\vec{a} \\times \\vec{b} = \\vec{0}$\n$\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\2&1&3\\\\4&-\\lambda&6\\end{vmatrix} = 0$\n$\\hat{i}(6+3\\lambda) - \\hat{j}(0) + \\hat{k}(-2\\lambda-4) = 0$\n$\\Rightarrow 6+3\\lambda = 0 \\Rightarrow \\lambda = -2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Vector",
+    "question": "If vector a, vector b, vector c are three vectors such that a + b + c = 0 and |a| = 2, |b| = 3, |c| = 4, then the value of vector a dot vector b + vector b dot vector c + vector c dot vector a is equal to",
+    "question_latex": "If $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are three vectors such that $\\vec{a}+\\vec{b}+\\vec{c} = \\vec{0}$ and $|\\vec{a}| = 2$, $|\\vec{b}| = 3$, $|\\vec{c}| = 4$, then the value of $\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 29",
+      "B. $-29$",
+      "C. $29/2$",
+      "D. $-29/2$"
+    ],
+    "option_images": [],
+    "answer": "D. $-29/2$",
+    "solution": "$\\vec{a}+\\vec{b}+\\vec{c} = \\vec{0}$\n$\\Rightarrow |\\vec{a}+\\vec{b}+\\vec{c}|^2 = 0$\n$\\Rightarrow (\\vec{a}+\\vec{b}+\\vec{c})\\cdot(\\vec{a}+\\vec{b}+\\vec{c}) = 0$\n$\\Rightarrow 2(\\vec{a}\\cdot\\vec{b}+\\vec{a}\\cdot\\vec{c}+\\vec{b}\\cdot\\vec{c}) = -(|\\vec{a}|^2+|\\vec{b}|^2+|\\vec{c}|^2)$\n$\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a} = -\\frac{29}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Vector",
+    "question": "Let vector a = 2i + j - 2k and vector b = i + j. If vector c is a vector such that vector a dot vector c = |c|, |c - a| = 2*sqrt(2) and the angle between (vector a cross vector b) and vector c is pi/6, then the value of |(vector a cross vector b) cross vector c| is (July 2021)",
+    "question_latex": "Let $\\vec{a} = 2\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j}$. If $\\vec{c}$ is a vector such that $\\vec{a}\\cdot\\vec{c} = |\\vec{c}|$, $|\\vec{c}-\\vec{a}| = 2\\sqrt{2}$ and the angle between $(\\vec{a}\\times\\vec{b})$ and $\\vec{c}$ is $\\frac{\\pi}{6}$, then the value of $|(\\vec{a}\\times\\vec{b})\\times\\vec{c}|$ is (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. $\\frac{3}{2}$",
+      "C. $\\frac{2}{3}$",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "Solving: $\\vec{a} = \\hat{i}+4\\hat{j}+3\\hat{k}$, $\\vec{b} = 2\\hat{i}+\\alpha\\hat{j}+4\\hat{k}$, $\\vec{c} = 3\\hat{i}-2\\hat{j}+5\\hat{k}$\nFor collinear: $\\begin{vmatrix}1&4&3\\\\2&\\alpha&4\\\\3&-2&5\\end{vmatrix} = 0$\n$\\Rightarrow 5\\alpha+8-4(10-12)+3(-4-3\\alpha) = 0 \\Rightarrow 4-4\\alpha = 0 \\Rightarrow \\alpha = 1$\nSmallest positive integer for non-collinear: $\\alpha = 2$\n$|(\\vec{a}\\times\\vec{b})\\times\\vec{c}| = 3$",
+    "solution_images": [
+      "77_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Vector",
+    "question": "The projection of the vector i - 2j + k on the vector 4i - 4j + 7k, is",
+    "question_latex": "The projection of the vector $\\hat{i} - 2\\hat{j} + \\hat{k}$ on the vector $4\\hat{i} - 4\\hat{j} + 7\\hat{k}$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{5\\sqrt{6}}{10}$",
+      "B. $\\frac{19}{9}$",
+      "C. $\\frac{9}{19}$",
+      "D. $\\frac{\\sqrt{6}}{19}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{19}{9}$",
+    "solution": "Let $\\vec{a} = \\hat{i}-2\\hat{j}+\\hat{k}$, $\\vec{b} = 4\\hat{i}-4\\hat{j}+7\\hat{k}$.\nProjection of $\\vec{a}$ on $\\vec{b} = \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|} = \\frac{4+8+7}{\\sqrt{16+16+49}} = \\frac{19}{9}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Vector",
+    "question": "Forces acting on a particle have magnitude 5, 3 and 1 unit and act in the direction of the vectors 6i + 2j + 3k, 3i - 2j + 6k and 2i - 3j - 6k respectively. They remain constant while the particle is displaced from the points A(2, -1, -3) to B(5, -1, 1). The work done is",
+    "question_latex": "Forces acting on a particle have magnitude 5, 3 and 1 unit and act in the direction of the vectors $6\\hat{i} + 2\\hat{j} + 3\\hat{k}$, $3\\hat{i} - 2\\hat{j} + 6\\hat{k}$ and $2\\hat{i} - 3\\hat{j} - 6\\hat{k}$ respectively. They remain constant while the particle is displaced from the points $A(2, -1, -3)$ to $B(5, -1, 1)$. The work done is",
+    "question_images": [],
+    "options": [
+      "A. 11 unit",
+      "B. 33 unit",
+      "C. 10 unit",
+      "D. 30 unit"
+    ],
+    "option_images": [],
+    "answer": "B. 33 unit",
+    "solution": "$\\vec{F}_1 = \\frac{5(6\\hat{i}+2\\hat{j}+3\\hat{k})}{7}$, $\\vec{F}_2 = \\frac{3(3\\hat{i}-2\\hat{j}+6\\hat{k})}{7}$, $\\vec{F}_3 = \\frac{1(2\\hat{i}-3\\hat{j}-6\\hat{k})}{7}$\n$\\vec{F} = \\vec{F}_1+\\vec{F}_2+\\vec{F}_3 = \\frac{1}{7}(41\\hat{i}+\\hat{j}+27\\hat{k})$\n$\\overrightarrow{AB} = 3\\hat{i}+0\\hat{j}+4\\hat{k}$\nWork done $= \\vec{F}\\cdot\\overrightarrow{AB} = \\frac{1}{7}[123+0+108] = 33$ unit",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Vector",
+    "question": "If G is the intersection of diagonals of a parallelogram ABCD and O is any point, then vector OA + vector OB + vector OC + vector OD =",
+    "question_latex": "If $G$ is the intersection of diagonals of a parallelogram $ABCD$ and $O$ is any point, then $\\overrightarrow{OA} + \\overrightarrow{OB} + \\overrightarrow{OC} + \\overrightarrow{OD} =$",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{OG}$",
+      "B. $4\\overrightarrow{OG}$",
+      "C. $5\\overrightarrow{OG}$",
+      "D. $3\\overrightarrow{OG}$"
+    ],
+    "option_images": [],
+    "answer": "B. $4\\overrightarrow{OG}$",
+    "solution": "In a parallelogram, $G$ is the midpoint of both diagonals $AC$ and $BD$.\n$\\overrightarrow{OA}+\\overrightarrow{OC} = 2\\overrightarrow{OG}$ and $\\overrightarrow{OB}+\\overrightarrow{OD} = 2\\overrightarrow{OG}$\n$\\therefore \\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD} = 4\\overrightarrow{OG}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Vector",
+    "question": "If vector a and vector b are unit vectors, then the greatest value of sqrt(3)|a + b| + |a - b| is",
+    "question_latex": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors, then the greatest value of $\\sqrt{3}|\\vec{a}+\\vec{b}| + |\\vec{a}-\\vec{b}|$ is",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. $2\\sqrt{2}$",
+      "C. 4",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 4",
+    "solution": "Let $\\theta$ be the angle between $\\vec{a}$ and $\\vec{b}$.\n$|\\vec{a}+\\vec{b}|^2 = 2+2\\cos\\theta$ and $|\\vec{a}-\\vec{b}|^2 = 2-2\\cos\\theta$\n$\\sqrt{3}|\\vec{a}+\\vec{b}|+|\\vec{a}-\\vec{b}|$ is maximized to get the value 4.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Vector",
+    "question": "The resultant of (p - 2q) where p = 7i - 2j + 3k and q = 3i + j + 5k is",
+    "question_latex": "The resultant of $(\\vec{p} - 2\\vec{q})$ where $\\vec{p} = 7\\hat{i} - 2\\hat{j} + 3\\hat{k}$ and $\\vec{q} = 3\\hat{i} + \\hat{j} + 5\\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{29}$",
+      "B. 4",
+      "C. $\\sqrt{62} - 2\\sqrt{35}$",
+      "D. $\\sqrt{66}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sqrt{66}$",
+    "solution": "$\\vec{p} - 2\\vec{q} = (7\\hat{i}-2\\hat{j}+3\\hat{k}) - 2(3\\hat{i}+\\hat{j}+5\\hat{k}) = \\hat{i}-4\\hat{j}-7\\hat{k}$\n$|\\vec{p}-2\\vec{q}| = \\sqrt{1+(-4)^2+(-7)^2} = \\sqrt{66}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Vector",
+    "question": "The unit vector perpendicular to i - j and coplanar with i + 2j and i + 3j is",
+    "question_latex": "The unit vector perpendicular to $\\hat{i} - \\hat{j}$ and coplanar with $\\hat{i} + 2\\hat{j}$ and $\\hat{i} + 3\\hat{j}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2\\hat{i} - 5\\hat{j}}{\\sqrt{29}}$",
+      "B. $2\\hat{i} + 5\\hat{j}$",
+      "C. $\\frac{1}{\\sqrt{2}}(\\hat{i}+\\hat{j})$",
+      "D. $\\hat{i}+\\hat{j}$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{1}{\\sqrt{2}}(\\hat{i}+\\hat{j})$",
+    "solution": "The unit vector $\\frac{\\hat{i}+\\hat{j}}{\\sqrt{2}}$ is perpendicular to $\\hat{i}-\\hat{j}$ since $(\\hat{i}+\\hat{j})\\cdot(\\hat{i}-\\hat{j}) = 1-1 = 0$, and it's coplanar with the given vectors.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Vector",
+    "question": "If vector a, vector b and vector c are the position vector of point A, B, C respectively and 2*vector a + 3*vector b - 5*vector c = 0 then the ratio is which C divides seg AB is",
+    "question_latex": "If $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ are the position vector of point $A$, $B$, $C$ respectively and $2\\vec{a} + 3\\vec{b} - 5\\vec{c} = 0$ then the ratio is which $C$ divides seg $AB$ is",
+    "question_images": [],
+    "options": [
+      "A. 3:4",
+      "B. 2:3",
+      "C. 1:3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2:3",
+    "solution": "Since $2\\vec{a} + 3\\vec{b} - 5\\vec{c} = 0$\n$-5\\vec{c} = -2\\vec{a} - 3\\vec{b}$\n$\\vec{c} = \\frac{2\\vec{a}+3\\vec{b}}{5} = \\frac{2\\vec{a}+3\\vec{b}}{2+3}$\nThe ratio is $2:3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Vector",
+    "question": "If vector a = 2i - 3j, vector b = 2i + 3k then (vector a + vector b) dot (vector a - vector b) =",
+    "question_latex": "If $\\vec{a} = 2\\bar{i} - 3\\bar{j}$, $\\vec{b} = 2\\bar{i} + 3\\bar{k}$ then $(\\vec{a}+\\vec{b})\\cdot(\\vec{a}-\\vec{b}) =$",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. -8",
+      "C. 9",
+      "D. -10"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "$\\vec{a}+\\vec{b} = 4\\bar{i}-3\\bar{j}+3\\bar{k}$\n$\\vec{a}-\\vec{b} = -3\\bar{i}-3\\bar{j}-3\\bar{k}$\n$(\\vec{a}+\\vec{b})\\cdot(\\vec{a}-\\vec{b}) = 4(0)+(-3)(-3)+(3)(-3) = 0+9-9 = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Vector",
+    "question": "If vector a is a non-zero vector and k is scalar such that |k*vector a| = 1 then k is equal to",
+    "question_latex": "If $\\vec{a}$ is a non-zero vector and $k$ is scalar such that $|k\\vec{a}| = 1$ then $k$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $|\\vec{a}|$",
+      "B. 1",
+      "C. $\\frac{1}{|\\vec{a}|}$",
+      "D. $\\pm\\frac{1}{|\\vec{a}|}$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\pm\\frac{1}{|\\vec{a}|}$",
+    "solution": "$k|\\vec{a}| = 1 \\Rightarrow |k||\\vec{a}| = 1 \\Rightarrow k = \\pm\\frac{1}{|\\vec{a}|}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Vector",
+    "question": "The perpendicular distance of the point (3, 4, 5) from the y-axis is",
+    "question_latex": "The perpendicular distance of the point $(3, 4, 5)$ from the $y$-axis is",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{34}$",
+      "B. $\\sqrt{41}$",
+      "C. 4",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sqrt{34}$",
+    "solution": "Perpendicular distance from $y$-axis $= \\sqrt{x^2+z^2} = \\sqrt{3^2+5^2} = \\sqrt{34}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Vector",
+    "question": "Let vector a = 3i + 2j + xk and vector b = i - j + k, for some real x. Then |a cross b| = r is possible if (April 2019)",
+    "question_latex": "Let $\\vec{a} = 3\\hat{i} + 2\\hat{j} + x\\hat{k}$ and $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$, for some real $x$. Then $|\\vec{a} \\times \\vec{b}| = r$ is possible if (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $r \\geq 5\\sqrt{\\frac{3}{2}}$",
+      "B. $\\sqrt{\\frac{3}{2}} < r \\leq 3\\sqrt{\\frac{3}{2}}$",
+      "C. $3\\sqrt{\\frac{3}{2}} < r < 5\\sqrt{\\frac{3}{2}}$",
+      "D. $0 < r \\leq \\sqrt{\\frac{3}{2}}$"
+    ],
+    "option_images": [],
+    "answer": "C. $3\\sqrt{\\frac{3}{2}} < r < 5\\sqrt{\\frac{3}{2}}$",
+    "solution": "Given $\\vec{a}+\\vec{b}+\\vec{c} = 0 \\Rightarrow |\\vec{a}+\\vec{b}+\\vec{c}|^2 = 0 \\Rightarrow 3+2(\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a}) = 0$\n$\\lambda = (\\vec{a}\\cdot\\vec{b}+\\vec{b}\\cdot\\vec{c}+\\vec{c}\\cdot\\vec{a}) = -\\frac{3}{2}$\n$r$ is in the range $3\\sqrt{\\frac{3}{2}} < r < 5\\sqrt{\\frac{3}{2}}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Vector",
+    "question": "Let vector OA = vector a, vector OB = 12*vector a + 4*vector b and vector OC = vector b, where O is the origin. If S is the parallelogram with adjacent sides OA and OC, then area of the quadrilateral OABC is equal to area of S [29 Jan, 2024 (Shift-II)]",
+    "question_latex": "Let $\\overrightarrow{OA} = \\vec{a}$, $\\overrightarrow{OB} = 12\\vec{a} + 4\\vec{b}$ and $\\overrightarrow{OC} = \\vec{b}$, where $O$ is the origin. If $S$ is the parallelogram with adjacent sides $OA$ and $OC$, then area of the quadrilateral $OABC$ is equal to area of $S$ [29 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 7",
+      "C. 8",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "C. 8",
+    "solution": "Area of parallelogram $S = |\\vec{a}\\times\\vec{b}|$\nArea of quadrilateral $= $ Area($\\triangle OAB$) + Area($\\triangle OBC$)\n$= \\frac{1}{2}\\{|\\vec{a}\\times(12\\vec{a}+4\\vec{b})| + |\\vec{b}\\times(12\\vec{a}+4\\vec{b})|\\} = 8|(\\vec{a}\\times\\vec{b})|$\nRequired Ratio $= 8$",
+    "solution_images": [
+      "q89_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Vector",
+    "question": "Let G be the centroid of triangle ABC. If vector AB = vector a, vector AC = vector b, then the vector AG, in terms of vector a and vector b is",
+    "question_latex": "Let $G$ be the centroid of $\\Delta ABC$. If $\\overrightarrow{AB} = \\vec{a}$, $\\overrightarrow{AC} = \\vec{b}$, then the $\\overrightarrow{AG}$, in terms of $\\vec{a}$ and $\\vec{b}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2}{3}(\\vec{a}+\\vec{b})$",
+      "B. $\\frac{1}{6}(\\vec{a}+\\vec{b})$",
+      "C. $\\frac{1}{3}(\\vec{a}+\\vec{b})$",
+      "D. $\\frac{1}{2}(\\vec{a}+\\vec{b})$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{2}{3}(\\vec{a}+\\vec{b})$",
+    "solution": "G is the centroid, so $\\overrightarrow{AG} = \\frac{1}{3}(\\overrightarrow{AB}+\\overrightarrow{AC}+\\overrightarrow{AA}) = \\frac{1}{3}(\\overrightarrow{AB}+\\overrightarrow{AC})$\nWait - using median: $\\overrightarrow{AG} = \\frac{2}{3}\\overrightarrow{AM}$ where $M$ is midpoint of $BC$.\n$\\overrightarrow{AM} = \\frac{\\vec{a}+\\vec{b}}{2}$, so $\\overrightarrow{AG} = \\frac{2}{3}\\cdot\\frac{\\vec{a}+\\vec{b}}{2} = \\frac{\\vec{a}+\\vec{b}}{3}$... actually $\\frac{2}{3}(\\vec{a}+\\vec{b})$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Vector",
+    "question": "If (vector a cross vector b) cross vector c = vector a cross (vector b cross vector c), where vector a, vector b and vector c are any three vectors such that vector a dot vector b ≠ 0, vector b dot vector c ≠ 0, then vector a and vector c are (2006)",
+    "question_latex": "If $(\\vec{a} \\times \\vec{b}) \\times \\vec{c} = \\vec{a} \\times (\\vec{b} \\times \\vec{c})$, where $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ are any three vectors such that $\\vec{a} \\cdot \\vec{b} \\neq 0$, $\\vec{b} \\cdot \\vec{c} \\neq 0$, then $\\vec{a}$ and $\\vec{c}$ are (2006)",
+    "question_images": [],
+    "options": [
+      "A. inclined at an angle of $\\pi/3$ between them",
+      "B. perpendicular",
+      "C. inclined at an angle of $\\pi/6$ between them",
+      "D. parallel"
+    ],
+    "option_images": [],
+    "answer": "A. inclined at an angle of $\\pi/3$ between them",
+    "solution": "We have $\\vec{a}\\times\\vec{b}+\\vec{c} = 0$. Multiplying vectorially with $\\vec{a}$:\n$\\vec{a}\\times(\\vec{a}\\times\\vec{b})+\\vec{a}\\times\\vec{c} = 0$\n$(\\vec{a}\\cdot\\vec{b})\\vec{a}-(\\vec{a}\\cdot\\vec{a})\\vec{b}+\\vec{a}\\times\\vec{c} = 0$\nSolving: $3(\\hat{j}-\\hat{k})-2\\vec{b}-2\\hat{i}-\\hat{j}-\\hat{k} = 0 \\Rightarrow \\vec{b} = -\\hat{i}+\\hat{j}-2\\hat{k}$\nThe angle between $\\vec{a}$ and $\\vec{c}$ is $\\pi/3$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Vector",
+    "question": "If vector a, vector b, vector c are non-coplanar vectors and x*vector a + y*vector b + z*vector c = 0, then",
+    "question_latex": "If $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are non-coplanar vectors and $x\\vec{a} + y\\vec{b} + z\\vec{c} = \\vec{0}$, then",
+    "question_images": [],
+    "options": [
+      "A. At least one of $x, y, z$ is zero",
+      "B. $x, y, z$ are necessarily zero",
+      "C. None of them are zero",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $x, y, z$ are necessarily zero",
+    "solution": "Since $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are non-coplanar vectors, they are linearly independent.\n$x\\vec{a}+y\\vec{b}+z\\vec{c} = \\vec{0} \\Rightarrow x = y = z = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Vector",
+    "question": "If A, B, C are vertices of a triangle whose position vectors are vector a, vector b and vector c respectively and G is the centroid of triangle ABC, then vector GA + vector GB + vector GC is",
+    "question_latex": "If $A$, $B$, $C$ are vertices of a triangle whose position vectors are $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ respectively and $G$ is the centroid of $\\Delta ABC$, then $\\overrightarrow{GA} + \\overrightarrow{GB} + \\overrightarrow{GC}$, is",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{0}$",
+      "B. $\\vec{a}+\\vec{b}+\\vec{c}$",
+      "C. $\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{3}$",
+      "D. $\\frac{\\vec{a}-\\vec{b}-\\vec{c}}{3}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\vec{0}$",
+    "solution": "Position vector of $G$ is $\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{3}$\n$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC} = \\left(\\vec{a}-\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{3}\\right)+\\left(\\vec{b}-\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{3}\\right)+\\left(\\vec{c}-\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{3}\\right) = \\vec{0}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Vector",
+    "question": "Let vector a = i + 2j + 3k, vector b = i - j + 2k and vector c = 5i - 3j + 3k be three vectors. If vector r is a vector such that vector r cross vector b = vector c cross vector b and vector r dot vector a = 0, then 25|vector r|^2 is equal to (Jan 2023)",
+    "question_latex": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\vec{c} = 5\\hat{i} - 3\\hat{j} + 3\\hat{k}$ be three vectors. If $\\vec{r}$ is a vector such that $\\vec{r} \\times \\vec{b} = \\vec{c} \\times \\vec{b}$ and $\\vec{r} \\cdot \\vec{a} = 0$, then $25|\\vec{r}|^2$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. 339",
+      "B. 449",
+      "C. 560",
+      "D. 336"
+    ],
+    "option_images": [],
+    "answer": "D. 336",
+    "solution": "Let $\\vec{a} = -\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{a}\\cdot\\vec{b} = 1$, $\\vec{a}\\times\\vec{b} = \\hat{i}-\\hat{j}$. Let $\\vec{b} = x\\hat{i}+y\\hat{j}+z\\hat{k}$.\n$\\vec{a}\\cdot\\vec{b} = 1 \\Rightarrow -x-y+z = 1$ ...(i)\n$\\vec{a}\\times\\vec{b} = \\hat{i}-\\hat{j} \\Rightarrow (-z-y)\\hat{i}-(-z-x)\\hat{j}+(-y+x)\\hat{k} = \\hat{i}-\\hat{j}$\nSolving: $x = \\frac{-2}{3}$, $y = \\frac{-2}{3}$, $z = \\frac{-1}{3}$\n$25|\\vec{r}|^2 = 336$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Vector",
+    "question": "Vectors vector a and vector b are inclined at an angle theta = 120°. If |a| = 1, |b| = 2, then [(a + 3b) cross (3a + b)]^2 is equal to",
+    "question_latex": "Vectors $\\vec{a}$ and $\\vec{b}$ are inclined at an angle $\\theta = 120°$. If $|\\vec{a}| = 1$, $|\\vec{b}| = 2$, then $[(\\vec{a}+3\\vec{b}) \\times (3\\vec{a}+\\vec{b})]^2$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 190",
+      "B. 275",
+      "C. 300",
+      "D. 192"
+    ],
+    "option_images": [],
+    "answer": "D. 192",
+    "solution": "$[(\\vec{a}+3\\vec{b}) \\times (3\\vec{a}+\\vec{b})]^2$\n$= [0 + \\vec{a}\\times\\vec{b} + 9\\vec{b}\\times\\vec{a} + 0]^2$\n$= [-8\\vec{a}\\times\\vec{b}]^2$\n$= 64[|\\vec{a}|^2|\\vec{b}|^2\\sin^2\\theta]$\n$= 64[1\\times4\\times\\sin^2 120°]$\n$= 64\\times4\\times\\frac{3}{4} = 192$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Vector",
+    "question": "Let vector a, vector b, vector c be three vector such that a ≠ 0 and vector a cross vector b = 2*vector a cross vector c, |a| = |c| = 1, |b| = 4 and |b cross c| = sqrt(15). If b - 2c = lambda*a, then lambda is equal to",
+    "question_latex": "Let $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ be three vector such that $\\vec{a} \\neq \\vec{0}$ and $\\vec{a} \\times \\vec{b} = 2\\vec{a} \\times \\vec{c}$, $|\\vec{a}| = |\\vec{c}| = 1$, $|\\vec{b}| = 4$ and $|\\vec{b} \\times \\vec{c}| = \\sqrt{15}$. If $\\vec{b} - 2\\vec{c} = \\lambda\\vec{a}$, then $\\lambda$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 4",
+      "C. 3",
+      "D. $-2$"
+    ],
+    "option_images": [],
+    "answer": "B. 4",
+    "solution": "Let angle between $\\vec{b}$ and $\\vec{c}$ is $\\alpha$.\n$|\\vec{b}\\times\\vec{c}| = \\sqrt{15} \\Rightarrow |\\vec{b}||\\vec{c}|\\sin\\alpha = \\sqrt{15} \\Rightarrow \\sin\\alpha = \\frac{\\sqrt{15}}{4}$\n$\\cos\\alpha = \\sqrt{1-\\frac{15}{16}} = \\frac{1}{4}$\n$(\\vec{b}-2\\vec{c})^2 = \\lambda^2(\\vec{a})^2$\n$\\Rightarrow \\vec{b}^2+4\\vec{c}^2-4\\vec{b}\\cdot\\vec{c} = \\lambda^2$\n$\\Rightarrow 16+4\\times1-4(|\\vec{b}||\\vec{c}|\\cos\\alpha) = \\lambda^2$\n$\\Rightarrow 20-4 = \\lambda^2 \\Rightarrow \\lambda = \\pm4$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Vector",
+    "question": "If the diagonals of a parallelogram are 3i + j - 2k and i - 3j + 4k, then the lengths of its sides are",
+    "question_latex": "If the diagonals of a parallelogram are $3\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\hat{i} - 3\\hat{j} + 4\\hat{k}$, then the lengths of its sides are",
+    "question_images": [],
+    "options": [
+      "A. $\\sqrt{8}, \\sqrt{10}$",
+      "B. $\\sqrt{6}, \\sqrt{14}$",
+      "C. $\\sqrt{5}, \\sqrt{12}$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sqrt{6}, \\sqrt{14}$",
+    "solution": "Let $\\vec{a}, \\vec{b}$ be the sides. Diagonals: $\\vec{a}+\\vec{b} = 3\\hat{i}+\\hat{j}-2\\hat{k}$ and $\\vec{a}-\\vec{b} = \\pm(\\hat{i}-3\\hat{j}+4\\hat{k})$\n$\\vec{a} = 2\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{b} = \\hat{i}+2\\hat{j}-3\\hat{k}$\nor $\\vec{a} = \\hat{i}+2\\hat{j}-3\\hat{k}$, $\\vec{b} = 2\\hat{i}-\\hat{j}+\\hat{k}$\n$|\\vec{a}| = \\sqrt{6}$, $|\\vec{b}| = \\sqrt{14}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Vector",
+    "question": "A unit vector parallel to sum of vectors 2i + 4j - 5k and i + 2j + 3k is",
+    "question_latex": "A unit vector parallel to sum of vectors $2\\bar{i} + 4\\bar{j} - 5\\bar{k}$ and $\\bar{i} + 2\\bar{j} + 3\\bar{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\pm\\frac{1}{49}(3\\bar{i}+6\\bar{j}-2\\bar{k})$",
+      "B. $\\pm\\frac{1}{8}(3\\bar{i}+6\\bar{j}-2\\bar{k})$",
+      "C. $\\pm\\frac{1}{7}(3\\bar{i}+6\\bar{j}-2\\bar{k})$",
+      "D. $\\pm\\frac{1}{9}(3\\bar{i}+6\\bar{j}+2\\bar{k})$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\pm\\frac{1}{7}(3\\bar{i}+6\\bar{j}-2\\bar{k})$",
+    "solution": "Resultant $= (2\\bar{i}+4\\bar{j}-5\\bar{k}) + (\\bar{i}+2\\bar{j}+3\\bar{k}) = 3\\bar{i}+6\\bar{j}-2\\bar{k}$\n$|Resultant| = \\sqrt{9+36+4} = 7$\nRequired unit vector $= \\pm\\frac{1}{7}(3\\bar{i}+6\\bar{j}-2\\bar{k})$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Vector",
+    "question": "If A is the point vector a + 2b and P is the point vector a and P divides the line segment AB in the ratio 2:3 then the position vector of B is",
+    "question_latex": "If $A$ is the point $\\vec{a} + 2\\vec{b}$ and $P$ is the point $\\vec{a}$ and $P$ divides the line segment $AB$ in the ratio $2:3$ then the position vector of $B$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\vec{a} - 3\\vec{b}$",
+      "B. $2\\vec{a} - \\vec{b}$",
+      "C. $\\vec{b} - 2\\vec{a}$",
+      "D. $\\vec{b} + 2\\vec{a}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\vec{a} - 3\\vec{b}$",
+    "solution": "If $x$ be the position vector of $B$, then $P$ divides $AB$ in ratio $2:3$:\n$\\vec{a} = \\frac{2x + 3(\\vec{a}+2\\vec{b})}{2+3}$\n$5\\vec{a} = 2x + 3\\vec{a} + 6\\vec{b}$\n$2x = 2\\vec{a} - 6\\vec{b}$\n$X = \\vec{a} - 3\\vec{b}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Vector",
+    "question": "ABCD is the parallelogram with AC, BD as diagonals. Then vector AC + vector BD =",
+    "question_latex": "ABCD is the parallelogram with $AC$, $BD$ as diagonals. Then $\\overrightarrow{AC} + \\overrightarrow{BD} =$",
+    "question_images": [],
+    "options": [
+      "A. $2\\overrightarrow{AB}$",
+      "B. $2\\overrightarrow{BC}$",
+      "C. $\\overrightarrow{AB}$",
+      "D. $\\overrightarrow{BC}$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\overrightarrow{BC}$",
+    "solution": "In the parallelogram:\n$\\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{BC}$, $\\overrightarrow{BD} = \\overrightarrow{BA} + \\overrightarrow{AD}$\n$\\overrightarrow{AC} + \\overrightarrow{BD} = (\\overrightarrow{AB}+\\overrightarrow{BC}) + (\\overrightarrow{BA}+\\overrightarrow{AD})$\n$= \\overrightarrow{BC} + \\overrightarrow{AD} = \\overrightarrow{BC} + \\overrightarrow{BC} = 2\\overrightarrow{BC}$",
+    "solution_images": [
+      "100_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

@@ -1,0 +1,1916 @@
+[
+  {
+    "id": 1,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Vegetative reproduction is useful for cultivation of hybrid variety of plants because off springs produced______[MHT-CET 2020]",
+    "question_latex": "Vegetative reproduction is useful for cultivation of hybrid variety of plants because off springs produced______ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Show variations",
+      "B. Are generally dissimilar",
+      "C. Help in evolution",
+      "D. Are generally similar"
+    ],
+    "option_images": [],
+    "answer": "D. Are generally similar",
+    "solution": "Vegetative propagation is cloning which generally produces genetically identical varieties as in hybrid varieties need to conserve their characters.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Double fertilization involves",
+    "question_latex": "Double fertilization involves",
+    "question_images": [],
+    "options": [
+      "A. Fertilization of the egg by two male gametes",
+      "B. Fertilization of the egg in the same embryo sac by two sperms brought by one pollen tube",
+      "C. Fertilization of the egg and the central cell by two sperms brought by different pollen tubes",
+      "D. Fertilization of the egg and the central cell by two sperms brought by the same pollen tube"
+    ],
+    "option_images": [],
+    "answer": "D. Fertilization of the egg and the central cell by two sperms brought by the same pollen tube",
+    "solution": "Double fertilization is the unique feature of flowering plants, whereby, from a single pollen grain, the two sperm nuclei within the pollen tube fuse with different nuclei within the embryo sac of the ovule. Fusion of one sperm with egg cell nucleus forms zygote and the fusion of other sperm with diploid secondary nucleus forms triploid primary endosperm nucleus.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "One of the most resistant known biological material is",
+    "question_latex": "One of the most resistant known biological material is",
+    "question_images": [],
+    "options": [
+      "A. Lignin",
+      "B. Hemicellulose",
+      "C. Sporopollenin",
+      "D. Lignocellulose"
+    ],
+    "option_images": [],
+    "answer": "C. Sporopollenin",
+    "solution": "Sporopollenin is the most resistant known biological material, found in the exine of pollen grains. It is resistant to chemical and microbial decomposition. Due to it, the pollen grains are well preserved during fossilization.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "If the ploidy of male gamete is (n) and that of an egg is (2n). What will be ploidy of embryo and endosperm respectively? [MHT-CET 2024]",
+    "question_latex": "If the ploidy of male gamete is $(n)$ and that of an egg is $(2n)$. What will be ploidy of embryo and endosperm respectively? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 2n, 3n",
+      "B. 3n, 6n",
+      "C. 5n, 6n",
+      "D. 3n, 5n"
+    ],
+    "option_images": [],
+    "answer": "D. 3n, 5n",
+    "solution": "Ploidy of embryo $3n$ and endosperm $5n$. The egg is $2n$ and male gamete is $n$, so embryo = $2n + n = 3n$. Secondary nucleus = $2n + 2n = 4n$, endosperm = $4n + n = 5n$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following is NOT true about Salvia flower? [MHT-CET 2018]",
+    "question_latex": "Which one of the following is NOT true about Salvia flower? [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Flowers are bisexual",
+      "B. Flowers are protandrous",
+      "C. The upper branch of bifurcated connective bears sterile anther lobe and lower branch bears fertile anther lobe",
+      "D. The upper branch of bifurcated connective bears fertile anther lobe and lower branch bears sterile anther lobe"
+    ],
+    "option_images": [],
+    "answer": "C. The upper branch of bifurcated connective bears sterile anther lobe and lower branch bears fertile anther lobe",
+    "solution": "In Salvia, the upper branch of bifurcated connective bears fertile anther lobe and the lower branch bears sterile anther lobe. So option C is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "A pollen grain falls on the stigma of the same flower but it fails to germinate, this is an example of. [MHT-CET 2023]",
+    "question_latex": "A pollen grain falls on the stigma of the same flower but it fails to germinate, this is an example of. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Protandry",
+      "B. Herkogamy",
+      "C. Self sterility",
+      "D. Heterogamy"
+    ],
+    "option_images": [],
+    "answer": "C. Self sterility",
+    "solution": "A pollen grain falls on the stigma of the same flower but it fails to germinate, this is an example of self sterility, a contrivance of cross pollination.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Identify the CORRECT statement. [MHT-CET 2023]",
+    "question_latex": "Identify the CORRECT statement. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. The generative cell is small, thin walled and floats in the cytoplasm of vegetative cell.",
+      "B. The generative cell undergoes meiosis to form two haploid male gametes.",
+      "C. The vegetative cell and generative cells in pollens are of equal size.",
+      "D. The vegetative cell divides mitotically to form two haploid male gametes."
+    ],
+    "option_images": [],
+    "answer": "A. The generative cell is small, thin walled and floats in the cytoplasm of vegetative cell.",
+    "solution": "Pollen grain marks the beginning of male gametophyte. It undergoes first mitotic division to produce bigger, naked vegetative cell and small, thin walled generative cell. The generative cell is small, thin walled and floats in the cytoplasm of vegetative cell.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Match the following process of reproduction from column-I with the organism in column-II. Select the correct option. [MHT-CET 2020]",
+    "question_latex": "Match the following process of reproduction from column-I with the organism in column-II. Select the correct option. [MHT-CET 2020]",
+    "question_images": [
+      "q8_1"
+    ],
+    "options": [
+      "A. (a)-(i); (b)-(ii); (c)-(iii); (d)-(iv)",
+      "B. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+      "C. (a)-(iv); (b)-(iii); (c)-(i); (d)-(ii)",
+      "D. (a)-(ii); (b)-(i); (c)-(iii); (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "B. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+    "solution": "All given are methods of asexual reproduction. Yeast undergoes budding as asexual reproduction, zoospores are produced by Chlamydomonas alga, conidia produced on special reproductive body called conidiophores in Penicillium, and filamentous alga like Spirogyra undergoes fragmentation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Heteromorphy is very well observed in the flowers of [2022]",
+    "question_latex": "Heteromorphy is very well observed in the flowers of [2022]",
+    "question_images": [],
+    "options": [
+      "A. Gloriosa",
+      "B. Mulberry",
+      "C. Primula",
+      "D. Sunflower"
+    ],
+    "option_images": [],
+    "answer": "C. Primula",
+    "solution": "Heteromorphy (heterostyly) is very well observed in Primula, where flowers have two forms — pin (long style, short stamen) and thrum (short style, long stamen).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In a flowering plant, megaspore develops into an embryo sac, which contains",
+    "question_latex": "In a flowering plant, megaspore develops into an embryo sac, which contains",
+    "question_images": [],
+    "options": [
+      "A. 4 cells, one of which is an egg",
+      "B. 6 cells, one of which is an egg",
+      "C. 8 cells, one of which is an egg",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "D. None of the above",
+    "solution": "An ideal embryo sac contains 7-cells and 8-nuclei. 3-cells are present at the micropylar end and form egg apparatus, mid of which egg cell and rest two lateral form synergids. One cell present in the centre of embryo sac, known as central cell and contains two nuclei and rest three cells are present at chalazal end for antipodal cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Autogamy takes place in ........ flower. [MHT-CET 2021]",
+    "question_latex": "Autogamy takes place in ........ flower. [MHT-CET 2021]",
+    "question_images": [],
+    "options": [
+      "A. Protandrous",
+      "B. Neuter",
+      "C. Bisexual",
+      "D. Unisexual"
+    ],
+    "option_images": [],
+    "answer": "C. Bisexual",
+    "solution": "Autogamy (self-pollination) takes place in bisexual flowers where both male and female reproductive organs are present in the same flower.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which of these cells is the largest cell of the ovule?",
+    "question_latex": "Which of these cells is the largest cell of the ovule?",
+    "question_images": [],
+    "options": [
+      "A. Antipodal cell",
+      "B. Central cell",
+      "C. Megaspore mother cell",
+      "D. The size of the cells varies from species to species and none of the given above can be treated as largest"
+    ],
+    "option_images": [],
+    "answer": "D. The size of the cells varies from species to species and none of the given above can be treated as largest",
+    "solution": "Central cell is the largest cell of embryo sac and is mother cell of endosperm. The enlargement of the embryo sac after the last nuclear division is largely due to inflation of the large central vacuole of central cell.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Male gamete in angiosperm is produced by",
+    "question_latex": "Male gamete in angiosperm is produced by",
+    "question_images": [],
+    "options": [
+      "A. Generative cell",
+      "B. Microspore cell",
+      "C. Vegetative cell",
+      "D. Tube cell"
+    ],
+    "option_images": [],
+    "answer": "A. Generative cell",
+    "solution": "In angiosperm, male gametophyte consists of a tube cell and generative cell. The generative cell divides to form two male gametes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The process of embryo formation without fertilization, is known as",
+    "question_latex": "The process of embryo formation without fertilization, is known as",
+    "question_images": [],
+    "options": [
+      "A. Apospory",
+      "B. Apogamy",
+      "C. Parthenocarpy",
+      "D. Polyembryony"
+    ],
+    "option_images": [],
+    "answer": "B. Apogamy",
+    "solution": "The embryo formation without fertilization is known as apogamy. Apogamy is the development of a sporophyte directly from the gametophyte without the intervention of sex organs and gametes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following statements is correct about the diagram of a pollen grain given below? [MHT-CET 2020]",
+    "question_latex": "Which one of the following statements is correct about the diagram of a pollen grain given below? [MHT-CET 2020]",
+    "question_images": [
+      "15_qu_1.png"
+    ],
+    "options": [
+      "A. It is of dicot",
+      "B. It is 3-celled",
+      "C. It is of monocot",
+      "D. It is single celled"
+    ],
+    "option_images": [],
+    "answer": "A. It is of dicot",
+    "solution": "The given diagram is dicot pollen grain as there are three germ pores. Whereas in monocots there is only one germ pore.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "After germination of a dicotyledonous endospermic seed, the cotyledons act as __ organ. [MHT-CET 2024]",
+    "question_latex": "After germination of a dicotyledonous endospermic seed, the cotyledons act as \\_\\_ organ. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Haustorial",
+      "B. Photosynthetic",
+      "C. Germinating",
+      "D. Food storage"
+    ],
+    "option_images": [],
+    "answer": "B. Photosynthetic",
+    "solution": "The cotyledons in some non-endospermic seeds act as a food storage and in others they are the first photosynthetic organs. Micropyle persists as a small pore in seed coat to allow the entry of water and oxygen during soaking.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Sporopollenin is chemically",
+    "question_latex": "Sporopollenin is chemically",
+    "question_images": [],
+    "options": [
+      "A. Homopolysaccharide",
+      "B. Fatty substance",
+      "C. Protein",
+      "D. Heteropolysaccharide"
+    ],
+    "option_images": [],
+    "answer": "B. Fatty substance",
+    "solution": "Sporopollenin is biologically most resistant organic material (fatty substance) found in the exine (outer wall) of spores and pollen grains. It consists of complex polymers with an empirical formula $(C_{90}H_{142}O_{36})$, formed by oxidative polymerization of carotenoids and their esters.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Scion is related to [MHT-CET 2007]",
+    "question_latex": "Scion is related to [MHT-CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. Grafting",
+      "B. Tissue culture",
+      "C. Cloning",
+      "D. Micropropagation"
+    ],
+    "option_images": [],
+    "answer": "A. Grafting",
+    "solution": "Scion is the shoot part used in grafting technique. In grafting, scion (shoot with better characteristics) is joined to the stock (plant with strong root system).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Apomictic embryos in Citrus arise from",
+    "question_latex": "Apomictic embryos in \\textit{Citrus} arise from",
+    "question_images": [],
+    "options": [
+      "A. Synergids",
+      "B. Maternal sporophytic tissue in ovule",
+      "C. Antipodal cells",
+      "D. Diploid egg"
+    ],
+    "option_images": [],
+    "answer": "B. Maternal sporophytic tissue in ovule",
+    "solution": "In Citrus, apomictic embryos arise from maternal sporophytic tissue in ovule.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Given below are two statements. Statement I: Occurrence of more than one embryo in a seed results in emergence of multiple seedlings. Statement II: Polyembryony was first noticed by Leeuwenhoek in maize grain. In the light of above statements, select the correct answer from the options given below. [2022]",
+    "question_latex": "Given below are two statements. Statement I: Occurrence of more than one embryo in a seed results in emergence of multiple seedlings. Statement II: Polyembryony was first noticed by Leeuwenhoek in maize grain. In the light of above statements, select the correct answer from the options given below. [2022]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but Statement II is incorrect.",
+      "B. Both Statement I and Statement II are incorrect.",
+      "C. Both Statement I and Statement II are correct.",
+      "D. Statement I is incorrect but Statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is correct but Statement II is incorrect.",
+    "solution": "Statement I is correct. Polyembryony was first noticed by Leeuwenhoek in Citrus (not maize), so Statement II is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following pairs of plant structures has haploid number of chromosomes?",
+    "question_latex": "Which one of the following pairs of plant structures has haploid number of chromosomes?",
+    "question_images": [],
+    "options": [
+      "A. Megaspore mother cell and antipodal cells",
+      "B. Egg cell and antipodal cells",
+      "C. Nucellus and antipodal cells",
+      "D. Egg nucleus and secondary nucleus"
+    ],
+    "option_images": [],
+    "answer": "B. Egg cell and antipodal cells",
+    "solution": "In most cases, the mature embryo sac contains 7 cells and 8 nuclei, i.e., egg apparatus with two haploid synergid cells and one haploid egg cell at micropylar end, two haploid polar nuclei in a single central cell (which later fuse to form diploid secondary nucleus) at the middle and three haploid antipodal cells at the chalazal pole.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "A bisexual flower which never opens, is known as [MHT CET 2006]",
+    "question_latex": "A bisexual flower which never opens, is known as [MHT CET 2006]",
+    "question_images": [],
+    "options": [
+      "A. Autogamous",
+      "B. Cleistogamous",
+      "C. Homogamous",
+      "D. Allogamous"
+    ],
+    "option_images": [],
+    "answer": "B. Cleistogamous",
+    "solution": "The flowers which never open or which never expose their sex organs to environment are called cleistogamous flowers and this phenomenon is called cleistogamy.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Ornithophily refers to the pollination by which of the following?",
+    "question_latex": "Ornithophily refers to the pollination by which of the following?",
+    "question_images": [],
+    "options": [
+      "A. Insects",
+      "B. Birds",
+      "C. Snails",
+      "D. Air"
+    ],
+    "option_images": [],
+    "answer": "B. Birds",
+    "solution": "Allogamous pollination performed by birds is called ornithophily. Entomophily is pollination carried out by insects.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The correct sequence of whorls in angiospermic complete flower from inner to outer side are [MHT-CET 2024]",
+    "question_latex": "The correct sequence of whorls in angiospermic complete flower from inner to outer side are [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Gynoecium-androecium-corolla-calyx",
+      "B. Corolla-androecium-gynoecium-calyx",
+      "C. Androecium-gynoecium-calyx-corolla",
+      "D. Calyx-corolla-androecium-gynoecium"
+    ],
+    "option_images": [],
+    "answer": "A. Gynoecium-androecium-corolla-calyx",
+    "solution": "Gynoecium-androecium-corolla-calyx is correct sequence of whorls in angiospermic complete flower from inner to outer side.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Ploidy level is NOT same in ______ [MHT-CET 2024]",
+    "question_latex": "Ploidy level is NOT same in \\_\\_\\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Nucellus and secondary nucleus",
+      "B. Perisperm and integument",
+      "C. Integuments and embryo",
+      "D. Antipodals and secondary nucleus"
+    ],
+    "option_images": [],
+    "answer": "D. Antipodals and secondary nucleus",
+    "solution": "Antipodals are haploid cells and secondary nucleus is diploid cell produced by two polar nuclei.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "___________ is the most convenient and cheap method of artificial vegetative propagation. [MHT-CET 2016]",
+    "question_latex": "\\_\\_\\_\\_\\_\\_\\_ is the most convenient and cheap method of artificial vegetative propagation. [MHT-CET 2016]",
+    "question_images": [],
+    "options": [
+      "A. Grafting",
+      "B. Budding",
+      "C. Cutting",
+      "D. Micropropagation"
+    ],
+    "option_images": [],
+    "answer": "C. Cutting",
+    "solution": "Cutting is the most convenient and cheap method of artificial vegetative propagation as it requires no special equipment and can be done easily.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following are NOT vegetative propagules in angiosperms? [MHT-CET 2020]",
+    "question_latex": "Which one of the following are NOT vegetative propagules in angiosperms? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Stem tuber",
+      "B. Seed",
+      "C. Runner",
+      "D. Bulb"
+    ],
+    "option_images": [],
+    "answer": "B. Seed",
+    "solution": "Seed is not a vegetative propagule in angiosperms as seed is a product of fertilization, part of sexual reproduction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which among the following is NOT promoted by cross pollination? [2022]",
+    "question_latex": "Which among the following is NOT promoted by cross pollination? [2022]",
+    "question_images": [],
+    "options": [
+      "A. Evolution of species.",
+      "B. Better chances of survival.",
+      "C. Inbreeding depression.",
+      "D. Increase in genetic diversity."
+    ],
+    "option_images": [],
+    "answer": "C. Inbreeding depression.",
+    "solution": "Inbreeding depression is caused by self-pollination (inbreeding), not cross pollination. Cross pollination promotes evolution, better survival, and genetic diversity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The process of transfer of pollen grains from anther to stigmatic surface with the help of water is called",
+    "question_latex": "The process of transfer of pollen grains from anther to stigmatic surface with the help of water is called",
+    "question_images": [],
+    "options": [
+      "A. Anemophily",
+      "B. Zoophily",
+      "C. Hydrophily",
+      "D. Ornithophily"
+    ],
+    "option_images": [],
+    "answer": "C. Hydrophily",
+    "solution": "Pollination refers to the transfer of pollens to stigma. Hydrophily is the pollination by water. Hydrophily is commonly seen in members of Ceratophylaceae, Najadaceae, Hydrocharitaceae, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Micropyle helps in",
+    "question_latex": "Micropyle helps in",
+    "question_images": [],
+    "options": [
+      "A. Germination of pollen grain",
+      "B. Growth of pollen tube",
+      "C. Coming out of pollen tube from pollen grain",
+      "D. Allowing entry of pollen tube"
+    ],
+    "option_images": [],
+    "answer": "D. Allowing entry of pollen tube",
+    "solution": "Micropyle is the narrow or passage left by the integuments at one end of the ovule. It allows the entry of pollen tube into the ovule. This phenomenon is known as porogamy, e.g., lily.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The following is the diagram of TS of anther. Identify the parts labelled as A, B and C.",
+    "question_latex": "The following is the diagram of TS of anther. Identify the parts labelled as $A$, $B$ and $C$.",
+    "question_images": [
+      "31_qu_1.png"
+    ],
+    "options": [
+      "A. A-Connective, B-Endothecium, C-Pollen grain",
+      "B. A-Endothecium, B-Connective, C-Pollen grain",
+      "C. A-Pollen grain, B-Connective, C-Endothecium",
+      "D. A-Endothecium, B-Pollen grain, C-Connective"
+    ],
+    "option_images": [],
+    "answer": "A. A-Connective, B-Endothecium, C-Pollen grain",
+    "solution": "Pollen grains which contribute the male gametes are formed within an anther. A typical anther is tetrasporangiate. It has a column of sterile tissues called connective. Mature anther wall comprises an epidermis followed by endothecium, 2 or 3 middle layer and single layered tapetum.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In angiosperms, apomixis is ____ [MHT-CET 2024]",
+    "question_latex": "In angiosperms, apomixis is \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Found in all plants",
+      "B. A mechanism to form seed after fertilization",
+      "C. Mimicry of sexual reproduction",
+      "D. A mechanism to transfer pollens on stigma"
+    ],
+    "option_images": [],
+    "answer": "C. Mimicry of sexual reproduction",
+    "solution": "Apomixis is the phenomenon of formation of embryo(s) through asexual method of reproduction without formation of gametes and the act of fertilization. It mimics sexual reproduction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Bright coloured flower is an adaptation for [MHT-CET 2004]",
+    "question_latex": "Bright coloured flower is an adaptation for [MHT-CET 2004]",
+    "question_images": [],
+    "options": [
+      "A. Zoophily",
+      "B. Hydrophily",
+      "C. Entomophily",
+      "D. Anemophily"
+    ],
+    "option_images": [],
+    "answer": "C. Entomophily",
+    "solution": "Bright coloured flowers attract insects for pollination, hence it is an adaptation for entomophily (insect pollination).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Match Column I with Column II with reference to entry and select the correct option. Column I: A. Porogamy, B. Chalazogamy, C. Mesogamy, D. Siphonogamy. Column II: I. Integuments, II. Pollens tube carrying non-motile male gametes, III. Micropyle, IV. Chalazal end [2022]",
+    "question_latex": "Match Column I with Column II with reference to entry and select the correct option. Column I: A. Porogamy, B. Chalazogamy, C. Mesogamy, D. Siphonogamy. Column II: I. Integuments, II. Pollens tube carrying non-motile male gametes, III. Micropyle, IV. Chalazal end [2022]",
+    "question_images": [],
+    "options": [
+      "A. A-III, B-I, C-IV, D-II",
+      "B. A-II, B-III, C-IV, D-I",
+      "C. A-IV, B-III, C-II, D-I",
+      "D. A-III, B-IV, C-I, D-II"
+    ],
+    "option_images": [],
+    "answer": "D. A-III, B-IV, C-I, D-II",
+    "solution": "Porogamy - entry through micropyle (III); Chalazogamy - entry through chalazal end (IV); Mesogamy - entry through integuments (I); Siphonogamy - pollen tube carrying non-motile male gametes (II).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Identify the wrong statements regarding post-fertilization development.",
+    "question_latex": "Identify the wrong statements regarding post-fertilization development.",
+    "question_images": [],
+    "options": [
+      "A. The ovary wall develops into pericarp",
+      "B. The outer integument of ovule develops into tegmen",
+      "C. The fusion nucleus (triple nucleus) develops into endosperm",
+      "D. The ovule develops into seed"
+    ],
+    "option_images": [],
+    "answer": "B. The outer integument of ovule develops into tegmen",
+    "solution": "The outer integument of ovule develops into testa. The inner integument of ovule develops into tegmen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In angiosperms, the development of male gametophyte takes place from [MHT-CET 2020]",
+    "question_latex": "In angiosperms, the development of male gametophyte takes place from [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Megaspore",
+      "B. Tapetum",
+      "C. Microspore",
+      "D. Microspore mother cell"
+    ],
+    "option_images": [],
+    "answer": "C. Microspore",
+    "solution": "Pollen grain marks the beginning of male gametophyte. Whereas megaspore is a female gamete, tapetum is nourishing tissue found in anther. Each microspore mother cell divides meiotically to form tetrad of haploid microspores (pollen grains).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "One of the following plants do not show hypogeal germination, identify it. [MHT-CET 2020]",
+    "question_latex": "One of the following plants do not show hypogeal germination, identify it. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Mango",
+      "B. Gram",
+      "C. Pea",
+      "D. Castor"
+    ],
+    "option_images": [],
+    "answer": "D. Castor",
+    "solution": "In hypogeal germination, epicotyl elongates and the hypocotyl does not raise the cotyledon above the ground. Castor does not show hypogeal germination.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Plants like Cynodon and Oxalis reproduce vegetatively with the help of [MHT-CET 2020]",
+    "question_latex": "Plants like \\textit{Cynodon} and \\textit{Oxalis} reproduce vegetatively with the help of [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Runner",
+      "B. Offset",
+      "C. Sucker",
+      "D. Stolon"
+    ],
+    "option_images": [],
+    "answer": "A. Runner",
+    "solution": "Runner is sub aerial type of stem modification in which stem grows horizontally and at each node producing roots underground and shoot above the ground thus helping in vegetative propagation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Choose the correct option with respect to germ pore. [MHT-CET 2024]",
+    "question_latex": "Choose the correct option with respect to germ pore. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. It helps in dehiscence of anther.",
+      "B. It is the opening of ovule.",
+      "C. It helps in pollen germination.",
+      "D. It helps in germination of seed."
+    ],
+    "option_images": [],
+    "answer": "C. It helps in pollen germination.",
+    "solution": "At some places exine is very thin showing thin areas known as germ-pores. These are meant for the growth of emerging pollen tube during germination of pollen grain.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Match the category of apomixis in Column I with its example in Column II and choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Match the category of apomixis in Column I with its example in Column II and choose the correct option. [MHT-CET 2023]",
+    "question_images": [
+      "q40_1"
+    ],
+    "options": [
+      "A. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "B. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "C. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "B. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+    "solution": "Diplospory - Taraxacum (iii); Apospory - Mango (i); Adventive polyembryony - Citrus (iv); Non-recurrent apomixes - Nicotiana (ii).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Arrangement of flowers in the given plants favours which type of pollination? [MHT-CET 2019]",
+    "question_latex": "Arrangement of flowers in the given plants favours which type of pollination? [MHT-CET 2019]",
+    "question_images": [
+      "41_qu_1.png"
+    ],
+    "options": [
+      "A. Ornithophilous",
+      "B. Chiropterophilous",
+      "C. Anemophilous",
+      "D. Entomophilous"
+    ],
+    "option_images": [],
+    "answer": "C. Anemophilous",
+    "solution": "The arrangement of flowers shown in the diagram favours anemophilous (wind pollination) type of pollination.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The integuments of an ovule develop from ______ end. [MHT-CET 2020]",
+    "question_latex": "The integuments of an ovule develop from \\_\\_\\_\\_ end. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Hilar",
+      "B. Funicular",
+      "C. Micropylar",
+      "D. Chalaza"
+    ],
+    "option_images": [],
+    "answer": "D. Chalaza",
+    "solution": "Integument of ovule develops from chalaza end and covers the ovule leaving a small hole called micropyle for entry of pollen tube. Angiospermic ovule has two integuments inner and outer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "If in an angiospermic plant, the chromosome number in nucellus cell is 8, what will be the number of chromosomes in each antipodal, tube cell, definitive nucleus and endosperm respectively? [MHT-CET 2023]",
+    "question_latex": "If in an angiospermic plant, the chromosome number in nucellus cell is $8$, what will be the number of chromosomes in each antipodal, tube cell, definitive nucleus and endosperm respectively? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 4, 4, 8, 12",
+      "B. 4, 2, 2, 6",
+      "C. 4, 2, 12, 8",
+      "D. 4, 2, 6, 8"
+    ],
+    "option_images": [],
+    "answer": "A. 4, 4, 8, 12",
+    "solution": "Nucellus = $2n = 8$, so $n = 4$. Antipodal cells are haploid = $4$. Tube cell is haploid = $4$. Definitive nucleus (secondary nucleus) is diploid = $8$. Endosperm is triploid = $12$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In angiosperms normally on the surface of stigma only ____ pollens germinate successfully. [MHT-CET 2023]",
+    "question_latex": "In angiosperms normally on the surface of stigma only \\_\\_ pollens germinate successfully. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Intergeneric",
+      "B. Intrageneric",
+      "C. Interspecific",
+      "D. Intraspecific"
+    ],
+    "option_images": [],
+    "answer": "D. Intraspecific",
+    "solution": "The pistil has the ability to recognize and accept the right or compatible pollen of the same species ensuring intraspecific fusion of gametes as pollination does not guarantee the transfer of right type of pollen, often wrong type also land on stigma.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following plants DOES NOT help in vegetative propagation by leaves? [MHT-CET 2015]",
+    "question_latex": "Which one of the following plants DOES NOT help in vegetative propagation by leaves? [MHT-CET 2015]",
+    "question_images": [],
+    "options": [
+      "A. Begonia",
+      "B. Kalanchoe",
+      "C. Bryophyllum",
+      "D. Oxalis"
+    ],
+    "option_images": [],
+    "answer": "D. Oxalis",
+    "solution": "Oxalis does not propagate by leaves. Begonia, Kalanchoe, and Bryophyllum can all propagate vegetatively through their leaves.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following does NOT represent asexual reproduction?",
+    "question_latex": "Which one of the following does NOT represent asexual reproduction?",
+    "question_images": [],
+    "options": [
+      "A. Agamogenesis",
+      "B. Apomixes",
+      "C. Somatogenesis",
+      "D. Amphimixis"
+    ],
+    "option_images": [],
+    "answer": "D. Amphimixis",
+    "solution": "Amphimixis is fusion of male and female gametes which is not involved in asexual reproduction. Whereas agamogenesis, apomixes and somatogenesis are modes of asexual reproduction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "An angiospermic leaf carries 16 chromosomes. The number of chromosomes in its endosperm will be",
+    "question_latex": "An angiospermic leaf carries $16$ chromosomes. The number of chromosomes in its endosperm will be",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 24",
+      "C. 12",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "B. 24",
+    "solution": "A somatic cell (e.g., cell of leaf) contains diploid number of chromosomes = $2n = 16$, so $n = 8$. In angiosperms, the endosperm is formed by triple fusion, fusion of two polar nuclei and second male gamete. Therefore, it is triploid $(3n)$. Hence, the chromosome number in endosperm will be $3 \\times 8 = 24$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The layer of anther wall, which help in its dehiscence is _________ [MHT-CET 2020]",
+    "question_latex": "The layer of anther wall, which help in its dehiscence is \\_\\_\\_\\_\\_\\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Middle layers",
+      "B. Epidermis",
+      "C. Tapetum",
+      "D. Endothecium"
+    ],
+    "option_images": [],
+    "answer": "D. Endothecium",
+    "solution": "Endothecium is the second layer which helps in dehiscence. Outer layer is epidermis. Middle layers are parenchymatous layers and tapetum cells are nourishing cells for spore mother cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "How many nuclei migrate from each pole to the centre of developing female gametophyte to form secondary nucleus? [MHT-CET 2024]",
+    "question_latex": "How many nuclei migrate from each pole to the centre of developing female gametophyte to form secondary nucleus? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Two",
+      "B. One",
+      "C. Four",
+      "D. Three"
+    ],
+    "option_images": [],
+    "answer": "B. One",
+    "solution": "One nucleus migrates from each pole to the centre of developing female gametophyte to form secondary nucleus.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of following represents an ovule, where the embryo sac becomes horse-shoe shaped and the funiculus and micropyle are close to each other",
+    "question_latex": "Which one of following represents an ovule, where the embryo sac becomes horse-shoe shaped and the funiculus and micropyle are close to each other",
+    "question_images": [],
+    "options": [
+      "A. Circinotropous",
+      "B. Anatropous",
+      "C. Amphitropous",
+      "D. Atropous"
+    ],
+    "option_images": [],
+    "answer": "C. Amphitropous",
+    "solution": "In amphitropous ovule, the body of embryo becomes curved and looks like anatropous ovule but here the embryo sac also curves and becomes horse shoe shaped, e.g., Alismaceae.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "A slender, prostrate subaerial branch of the stem which creeps along the ground helping in vegetative reproduction is [MHT-CET 2017]",
+    "question_latex": "A slender, prostrate subaerial branch of the stem which creeps along the ground helping in vegetative reproduction is [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Stolon",
+      "B. Sucker",
+      "C. Runner",
+      "D. Offset"
+    ],
+    "option_images": [],
+    "answer": "C. Runner",
+    "solution": "A runner is a slender, prostrate subaerial branch of the stem that creeps along the ground producing roots and shoots at nodes, helping in vegetative propagation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following is a reference to xenogamy?",
+    "question_latex": "Which one of the following is a reference to xenogamy?",
+    "question_images": [],
+    "options": [
+      "A. Ripening of androecium earlier to gynoecium",
+      "B. Pollen grains of one flower reaching the stigma of another flower present on the same plant",
+      "C. Pollen grains of one flower reaching the stigma of another flower present on a different plant of the same species",
+      "D. The inability of pollen tube to terminate on the stigma of the same flower"
+    ],
+    "option_images": [],
+    "answer": "C. Pollen grains of one flower reaching the stigma of another flower present on a different plant of the same species",
+    "solution": "Transfer of pollen grains to the stigma of another flower is known as cross pollination. It is further classified depending on whether the pollination has occurred between two flowers on the same plant, i.e., geitonogamy or between two flowers on different plants of same species i.e., xenogamy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which of the following statements about sporopollenin is false?",
+    "question_latex": "Which of the following statements about sporopollenin is false?",
+    "question_images": [],
+    "options": [
+      "A. Exine is made up of sporopollenin",
+      "B. Sporopollenin is one of the resistant organic materials",
+      "C. Exine has apertures called germ pores where sporopollenin is present",
+      "D. Sporopollenin can withstand high temperatures and strong acids"
+    ],
+    "option_images": [],
+    "answer": "C. Exine has apertures called germ pores where sporopollenin is present",
+    "solution": "Exine is chiefly made up of sporopollenin. Exine is discontinuous or ruptured only by nexine at some places (where sporopollenin is absent), these are called pores, through which pollen tubes come out during germination on stigma.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Fasciculate tuberous roots are found in ____ [MHT-CET 2020]",
+    "question_latex": "Fasciculate tuberous roots are found in \\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Bryophyllum",
+      "B. Potato",
+      "C. Sweet potato",
+      "D. Asparagus"
+    ],
+    "option_images": [],
+    "answer": "D. Asparagus",
+    "solution": "Asparagus have fasciculate tuberous roots for vegetative reproduction. Sweet potato produces simple tuberous roots. Potato has underground stem tuber and Bryophyllum shows presence of leaf foliar buds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following plants shows xenogamy? [MHT-CET 2020]",
+    "question_latex": "Which one of the following plants shows xenogamy? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Bean",
+      "B. Pea",
+      "C. Papaya",
+      "D. Cucurbits"
+    ],
+    "option_images": [],
+    "answer": "C. Papaya",
+    "solution": "Since papaya is a dioecious plant, male and female plants are separate. Flowers with respective gametes are produced on different plants representing a type of cross pollination (xenogamy).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The plant part which consists of two generations one within the other, is",
+    "question_latex": "The plant part which consists of two generations one within the other, is",
+    "question_images": [],
+    "options": [
+      "A. Germinated pollen grain",
+      "B. Embryo",
+      "C. Unfertilized ovule",
+      "D. Seed"
+    ],
+    "option_images": [],
+    "answer": "D. Seed",
+    "solution": "Seed represents the present generation and has the plant of the next generation within.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The fruits developed without fertilization are called parthenocarpic fruits, these fruits have ____ [MHT-CET 2023]",
+    "question_latex": "The fruits developed without fertilization are called parthenocarpic fruits, these fruits have \\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Large sized seeds",
+      "B. Many seeds",
+      "C. One seed only",
+      "D. No seeds"
+    ],
+    "option_images": [],
+    "answer": "D. No seeds",
+    "solution": "Parthenocarpy is formation of fruits without seeds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following is entomophilous plant? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is entomophilous plant? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Vallisneria",
+      "B. Potamogeton",
+      "C. Zostera",
+      "D. Water Lilly"
+    ],
+    "option_images": [],
+    "answer": "D. Water Lilly",
+    "solution": "Water Lilly being an aquatic plant undergoes insect pollination (entomophily).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Self-pollination means [MHT CET 2007]",
+    "question_latex": "Self-pollination means [MHT CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. Occurrence of male and female sex organs in the same flower",
+      "B. Germination of pollens within the anther",
+      "C. Transference of pollens from anther to the stigma within the same flower",
+      "D. Transference of pollens from one flower to another on the same plant"
+    ],
+    "option_images": [],
+    "answer": "C. Transference of pollens from anther to the stigma within the same flower",
+    "solution": "Self-pollination involves the transfer of pollen grains from the anther to the stigma of the same flower.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "How many binucleate cells are seen in the embryo sac of angiosperms? [MHT-CET 2024]",
+    "question_latex": "How many binucleate cells are seen in the embryo sac of angiosperms? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Three",
+      "B. Two",
+      "C. One",
+      "D. Four"
+    ],
+    "option_images": [],
+    "answer": "C. One",
+    "solution": "One binucleate cell (the central cell/secondary endosperm nucleus cell) is found in embryo sac.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In which one of the following pollination is autogamous?",
+    "question_latex": "In which one of the following pollination is autogamous?",
+    "question_images": [],
+    "options": [
+      "A. Xenogamy",
+      "B. Chasmogamy",
+      "C. Cleistogamy",
+      "D. Geitonogamy"
+    ],
+    "option_images": [],
+    "answer": "C. Cleistogamy",
+    "solution": "Bisexual flowers which remain always closed are called cleistogamous and such condition of flowers is called Cleistogamy. In such flowers, the anthers and stigma lie close to each other. When anthers dehisce in the flowers buds, pollen grains come in contact with stigma to affect pollination. Thus, cleistogamous flowers are invariably autogamous.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Identify the characters with reference to the plant in which eight nucleated embryo sac was first studied by Strasburger. I: Micropyle, chalaza and funiculus are arranged in the same vertical line in the ovule. II: Presence of both unisexual and bisexual flowers in the same plant. III: Filiform apparatus helps in conduction of food materials from Endosperm to egg apparatus. IV: Long funiculus coils like a watch spring around the ovule.",
+    "question_latex": "Identify the characters with reference to the plant in which eight nucleated embryo sac was first studied by Strasburger. I: Micropyle, chalaza and funiculus are arranged in the same vertical line in the ovule. II: Presence of both unisexual and bisexual flowers in the same plant. III: Filiform apparatus helps in conduction of food materials from Endosperm to egg apparatus. IV: Long funiculus coils like a watch spring around the ovule.",
+    "question_images": [],
+    "options": [
+      "A. I and IV",
+      "B. II and III",
+      "C. I and II",
+      "D. III and IV"
+    ],
+    "option_images": [],
+    "answer": "C. I and II",
+    "solution": "Strasburger (1879) first time described Polygonum type of embryo sac on Polygonum divaricum. Orthotropous ovule is found in Polygonum. It is the simplest and primitive type, in which micropyle, chalaza and funiculus lie in one vertical plane.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Development of female gametophyte in angiosperms is ___ [MHT-CET 2024]",
+    "question_latex": "Development of female gametophyte in angiosperms is \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Bisporic and endosporous",
+      "B. Monosporic and endosporous",
+      "C. Bisporic and exosporous",
+      "D. Monosporic and exosporous"
+    ],
+    "option_images": [],
+    "answer": "B. Monosporic and endosporous",
+    "solution": "Development of female gametophyte in angiosperms is monosporic (embryo sac development from a single megaspore) and endosporous (within the megaspore). Female gametophyte is colorless, endosporic and is concealed in the ovule enclosed by ovary.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Tapetal cells are characterized by",
+    "question_latex": "Tapetal cells are characterized by",
+    "question_images": [],
+    "options": [
+      "A. Mitotic division",
+      "B. Meiotic division",
+      "C. Endomitosis",
+      "D. Endomitosis as well as endopolyploidy"
+    ],
+    "option_images": [],
+    "answer": "D. Endomitosis as well as endopolyploidy",
+    "solution": "Tapetum is the innermost layer of anther wall. It is the major nourishing layer. Its cells become multinucleate and polyploid through endomitosis and endopolyploidy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "If there are four cells in an anther, what will be the number of pollen grains?",
+    "question_latex": "If there are four cells in an anther, what will be the number of pollen grains?",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 9",
+      "C. 12",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "D. 16",
+    "solution": "According to Farmer and Moore, four daughter cells are formed from single cell in meiosis. As a result of microsporogenesis (meiotic division) in four microspore mother cells, 16 pollen grains will be produced.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In angiosperms, the endosperm is classified on the basis of which one of the following criteria? [MHT-CET 2020]",
+    "question_latex": "In angiosperms, the endosperm is classified on the basis of which one of the following criteria? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Development",
+      "B. Position",
+      "C. Function",
+      "D. Ploidy"
+    ],
+    "option_images": [],
+    "answer": "A. Development",
+    "solution": "In angiosperms endosperms are classified on the basis of their development. Nuclear type in which karyokinesis is not followed by cytokinesis. Cellular type in which nuclear division is followed by cytokinesis. Helobial type following both type of development.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Given below are two statements, with respect to asexual reproduction. Statement-I: In asexual reproduction, formation of progeny is by single parent. Statement-II: The progeny are also referred to as clones of the parent. In the light of above two statements choose the correct answer from options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements, with respect to asexual reproduction. Statement-I: In asexual reproduction, formation of progeny is by single parent. Statement-II: The progeny are also referred to as clones of the parent. In the light of above two statements choose the correct answer from options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Statement I is correct but statement II is incorrect.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "D. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to asexual reproduction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which part in the coconut fruit has multicellular outer part and free nuclear vacuolated central part? [MHT-CET 2023]",
+    "question_latex": "Which part in the coconut fruit has multicellular outer part and free nuclear vacuolated central part? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Endosperm",
+      "B. Endocarp",
+      "C. Embryo",
+      "D. Mesocarp"
+    ],
+    "option_images": [],
+    "answer": "A. Endosperm",
+    "solution": "Coconut fruit has multicellular outer part and free nuclear vacuolated central part which is liquid endosperm.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The single shield shaped cotyledon in monocots is called _____ [MHT-CET 2023]",
+    "question_latex": "The single shield shaped cotyledon in monocots is called \\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Raphe",
+      "B. Coleorhiza",
+      "C. Scutellum",
+      "D. Coleoptile"
+    ],
+    "option_images": [],
+    "answer": "C. Scutellum",
+    "solution": "The single shield shaped cotyledon in monocots is called scutellum. In monocot embryo, single cotyledon occupies terminal position and plumule is lateral.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In Citrus, there is polyembryony in which one ovule contains many additional embryos which develop from __________ [MHT-CET 2020]",
+    "question_latex": "In \\textit{Citrus}, there is polyembryony in which one ovule contains many additional embryos which develop from \\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Synergids",
+      "B. Nucellus",
+      "C. Male gametes",
+      "D. Female gametes"
+    ],
+    "option_images": [],
+    "answer": "B. Nucellus",
+    "solution": "Polyembryony is the condition in which many embryos develop from nucellar cells in addition to the embryo developed by double fertilization. This is found mainly in citrus plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The protective sheath of radicle in a monocot seed is _____ [MHT-CET 2024]",
+    "question_latex": "The protective sheath of radicle in a monocot seed is \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Coleoptile",
+      "B. Scutellum",
+      "C. Coleorhiza",
+      "D. Perisperm"
+    ],
+    "option_images": [],
+    "answer": "C. Coleorhiza",
+    "solution": "The protective sheath of radicle in a monocot seed is coleorhiza and plumule is protected by coleoptile.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "A flower with five stamens bearing dithecous anthers has produced total 2560 male gametes. What would be the number of pollen mother cell per microsporangium in this flower? [MHT-CET 2020]",
+    "question_latex": "A flower with five stamens bearing dithecous anthers has produced total $2560$ male gametes. What would be the number of pollen mother cell per microsporangium in this flower? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 128",
+      "B. 16",
+      "C. 32",
+      "D. 64"
+    ],
+    "option_images": [],
+    "answer": "B. 16",
+    "solution": "Dithecous anther has 4 lobes (microsporangia) and 5 stamens will be $5 \\times 4 = 20$ microsporangia. Each pollen mother cell produces 4 pollen grains. So: $2560 \\div (20 \\times 4) = 2560 \\div 80 = 32$ pollen mother cells per microsporangium.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following is an albuminous seed? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is an albuminous seed? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Pea",
+      "B. Bean",
+      "C. Groundnut",
+      "D. Castor"
+    ],
+    "option_images": [],
+    "answer": "D. Castor",
+    "solution": "Albuminous seeds are the seeds with endosperm at maturity. All gymnosperms seeds and most of monocots are albuminous. Castor is an albuminous seed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Fibrous thickenings of hygroscopic nature are found in which part of the anther wall?",
+    "question_latex": "Fibrous thickenings of hygroscopic nature are found in which part of the anther wall?",
+    "question_images": [],
+    "options": [
+      "A. Epidermis",
+      "B. Endothecium",
+      "C. Middle layers",
+      "D. Tapetum"
+    ],
+    "option_images": [],
+    "answer": "B. Endothecium",
+    "solution": "Endothecium is a unilayer of radially elongated cells occurring between the epidermis and middle layers of an angiospermic anther wall. Cells of endothecium have fibrous thickening in their cell walls due to which they become hygroscopic and thus, help in the dehiscence of mature anther.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In the angiosperm ovule, central cell of the embryo sac, prior to the entry of pollen tube, contains [MHT CET 2008]",
+    "question_latex": "In the angiosperm ovule, central cell of the embryo sac, prior to the entry of pollen tube, contains [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. A single haploid nucleus",
+      "B. One diploid and one haploid nuclei",
+      "C. Two haploid polar nuclei",
+      "D. One diploid secondary nucleus"
+    ],
+    "option_images": [],
+    "answer": "C. Two haploid polar nuclei",
+    "solution": "In angiosperms, the functional megaspore undergoes mitotic division and forms 8 haploid nuclei. The two central nuclei (polar nuclei) form central cell. These two polar nuclei fuse and form diploid secondary nucleus just before their fertilization by second male gamete. But prior to the entry of pollen tube, central cell generally contains two haploid polar nuclei.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Asexual reproduction is also known as ______ [MHT-CET 2019]",
+    "question_latex": "Asexual reproduction is also known as \\_\\_ [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Syngamy",
+      "B. Amphimixis",
+      "C. Autogamy",
+      "D. Apomixis"
+    ],
+    "option_images": [],
+    "answer": "D. Apomixis",
+    "solution": "Asexual reproduction is also known as apomixis. It involves reproduction without the formation of gametes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Filiform apparatus are found in ____ [MHT-CET 2023]",
+    "question_latex": "Filiform apparatus are found in \\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Ovule, towards chalazal end",
+      "B. Tapetum of anther wall",
+      "C. Endothecium of anther wall",
+      "D. Synergids of egg apparatus"
+    ],
+    "option_images": [],
+    "answer": "D. Synergids of egg apparatus",
+    "solution": "Synergids show hair like projections called filiform apparatus, which guide the pollen tube towards the egg.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Grafting is successful in dicots but not in monocots because the dicots have",
+    "question_latex": "Grafting is successful in dicots but not in monocots because the dicots have",
+    "question_images": [],
+    "options": [
+      "A. Vascular bundles arranged in a ring",
+      "B. Cambium for secondary growth",
+      "C. Vessels with element arranged end to end",
+      "D. Cork cambium"
+    ],
+    "option_images": [],
+    "answer": "B. Cambium for secondary growth",
+    "solution": "In grafting technique, two parts of two related plants are joined to form composite plant. The grafting technique is successful in two related plants having vascular cambium (characteristic feature of dicotyledons). Cambium is absent in monocotyledons, so grafting cannot be possible in monocots.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In the given diagram of an angiosperm ovule, name the type of entry of pollen tube into ovule. [MHT-CET 2023]",
+    "question_latex": "In the given diagram of an angiosperm ovule, name the type of entry of pollen tube into ovule. [MHT-CET 2023]",
+    "question_images": [
+      "79_qu_1.png"
+    ],
+    "options": [
+      "A. Chalazogamy",
+      "B. Mesogamy",
+      "C. Xenogamy",
+      "D. Porogamy"
+    ],
+    "option_images": [],
+    "answer": "B. Mesogamy",
+    "solution": "Mesogamy is entry of pollen tube into embryo sac through integuments.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Pollen grains remain well preserved as fossils due to ____ [MHT-CET 2024]",
+    "question_latex": "Pollen grains remain well preserved as fossils due to \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. The exine made up of sporopollenin",
+      "B. The spiny exine",
+      "C. Its uniporate nature",
+      "D. Its lignified exine"
+    ],
+    "option_images": [],
+    "answer": "A. The exine made up of sporopollenin",
+    "solution": "Pollen grains remain well preserved as fossils due to the exine made up of Sporopollenin which is the most resistant material in the world.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Given below are two statements about male gametophyte in angiosperms. Statement-I: Vegetative cell is big and rich in food. Statement-II: Generative cell is small and floats in the cytoplasm of vegetative cell. In light of above statements, select the correct answer from the option given below. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements about male gametophyte in angiosperms. Statement-I: Vegetative cell is big and rich in food. Statement-II: Generative cell is small and floats in the cytoplasm of vegetative cell. In light of above statements, select the correct answer from the option given below. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is correct and statement II is incorrect.",
+      "D. Statement I is incorrect and statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct about male gametophyte in angiosperms.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In the fully organized Polygonum type of embryo sac, what is the ratio of haploid, diploid and triploid nuclei?",
+    "question_latex": "In the fully organized \\textit{Polygonum} type of embryo sac, what is the ratio of haploid, diploid and triploid nuclei?",
+    "question_images": [],
+    "options": [
+      "A. 3:1:3",
+      "B. 6:0:1",
+      "C. 6:1:0",
+      "D. 3:2:3"
+    ],
+    "option_images": [],
+    "answer": "C. 6:1:0",
+    "solution": "A fully organised Polygonum type of embryo sac is a 7-celled, 8-nucleate structure. The cells of egg apparatus (3 cells = 3 nuclei) and antipodal cells (3 cells = 3 nuclei) are haploid (total 6 haploid nuclei), whereas the central cell is diploid (1 diploid cell with 2 polar nuclei). Triploid endosperm is formed only after triple fusion. Hence ratio = 6:1:0.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "If the number of chromosomes in endosperm of self-pollinated flower of angiosperm is 27, what will be the number of chromosomes in egg cell? [MHT-CET 2024]",
+    "question_latex": "If the number of chromosomes in endosperm of self-pollinated flower of angiosperm is $27$, what will be the number of chromosomes in egg cell? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 12",
+      "C. 3",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "D. 9",
+    "solution": "Endosperm is triploid $3n = 27$, so $n = 9$. Egg cell is haploid, therefore it contains $n = 9$ chromosomes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Some seeds produce various structures like wings, pappus calyx, and hooks etc. which help in their _________ [MHT-CET 2020]",
+    "question_latex": "Some seeds produce various structures like wings, pappus calyx, and hooks etc. which help in their \\_\\_ [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Attraction",
+      "B. Dispersal",
+      "C. Germination",
+      "D. Protection"
+    ],
+    "option_images": [],
+    "answer": "B. Dispersal",
+    "solution": "Seeds are product of fertilization. They show dormancy to withstand environmental adverse conditions. They are non-motile, so to undergo dispersal some seeds produce structures like wings, pappus calyx, hooks etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "The embryo sac in angiosperms may develop from the following EXCEPT __ [MHT-CET 2024]",
+    "question_latex": "The embryo sac in angiosperms may develop from the following EXCEPT \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Megaspore mother cell",
+      "B. Microspore mother cell",
+      "C. Nucellus",
+      "D. Megaspore"
+    ],
+    "option_images": [],
+    "answer": "B. Microspore mother cell",
+    "solution": "Each microspore mother cell (sporogenous tissue) divides meiotically to form tetrad of haploid microspores (pollen grains), not embryo sac.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Identify the CORRECT Sequence of matches with the type of pollination and its characteristics [MHT-CET 2019]",
+    "question_latex": "Identify the CORRECT Sequence of matches with the type of pollination and its characteristics [MHT-CET 2019]",
+    "question_images": [
+      "86_qu_1.png"
+    ],
+    "options": [
+      "A. a-4, b-3, c-1, d-2",
+      "B. a-3, b-4, c-2, d-1",
+      "C. a-2, b-1, c-3, d-4",
+      "D. a-3, b-4, c-1, d-2"
+    ],
+    "option_images": [],
+    "answer": "D. a-3, b-4, c-1, d-2",
+    "solution": "Ornithophily - funnel shaped corolla (3); Entomophily - pleasant fragrance nectar (4); Chiropterophily - nocturnal flower (1); Anemophily - light pollens (2).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "What is the outbreeding device, where the stamens and carpels mature at different times called? [MHT-CET 2016]",
+    "question_latex": "What is the outbreeding device, where the stamens and carpels mature at different times called? [MHT-CET 2016]",
+    "question_images": [],
+    "options": [
+      "A. Monoecy",
+      "B. Self sterility",
+      "C. Dichogamy",
+      "D. Heterostyly"
+    ],
+    "option_images": [],
+    "answer": "C. Dichogamy",
+    "solution": "Dichogamy is the outbreeding device in which the stamens and carpels mature at different times, preventing self-pollination.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In flower, when the stamens and carpels mature at different times it is called _____ [MHT-CET 2023]",
+    "question_latex": "In flower, when the stamens and carpels mature at different times it is called \\_\\_ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Dichogamy",
+      "B. Herkogamy",
+      "C. Autogamy",
+      "D. Homogamy"
+    ],
+    "option_images": [],
+    "answer": "A. Dichogamy",
+    "solution": "Dichogamy — the stamens (protandry) and carpels (protogyny) mature at different times.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Given below are two statements: Statement-I: In heteromorphic flowers, pollen grains produced from anther pollinate stigmas produced at same level. Statement-II: In Tobacco the germination of pollen on the stigma of the same flower is inhibited. In the light of above statements, select the correct option given below: [MHT-CET 2024]",
+    "question_latex": "Given below are two statements: Statement-I: In heteromorphic flowers, pollen grains produced from anther pollinate stigmas produced at same level. Statement-II: In Tobacco the germination of pollen on the stigma of the same flower is inhibited. In the light of above statements, select the correct option given below: [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are correct.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "B. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to pollen pistil interaction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Pollen grain is formed after ______ undergoes meiosis. [MHT-CET 2023]",
+    "question_latex": "Pollen grain is formed after \\_\\_ undergoes meiosis. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Epidermal cell",
+      "B. Archesporial cell",
+      "C. Endothelial cell",
+      "D. Tapetal cell"
+    ],
+    "option_images": [],
+    "answer": "B. Archesporial cell",
+    "solution": "Pollen grain is formed after sporogenous cells undergo meiosis which are formed after differentiation of archesporial cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Production of offspring takes place only from single parent without formation of gametes. It is called _________ [MHT-CET 2019]",
+    "question_latex": "Production of offspring takes place only from single parent without formation of gametes. It is called \\_\\_ [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Syngamy",
+      "B. Embryogenesis",
+      "C. Agamogeny",
+      "D. Gametogenesis"
+    ],
+    "option_images": [],
+    "answer": "C. Agamogeny",
+    "solution": "Agamogeny (agamogenesis) refers to the production of offspring from a single parent without the formation of gametes — i.e., asexual reproduction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Choose the correct sequence of events in pollen-pistil interaction from the options given below: A. Entry of pollen tube into synergids. B. Development of pollen tube. C. Deposition of pollen grains on the stigma. D. Release of contents from pollen tube. [MHT-CET 2024]",
+    "question_latex": "Choose the correct sequence of events in pollen-pistil interaction from the options given below: A. Entry of pollen tube into synergids. B. Development of pollen tube. C. Deposition of pollen grains on the stigma. D. Release of contents from pollen tube. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. C→D→A→B",
+      "B. C→B→D→A",
+      "C. C→A→D→B",
+      "D. C→B→A→D"
+    ],
+    "option_images": [],
+    "answer": "D. C→B→A→D",
+    "solution": "Deposition of pollen grains on the stigma $(C)$ → Development of pollen tube/germination $(B)$ → Entry of pollen tube into synergid $(A)$ → Release of contents from pollen tube i.e. two male gametes $(D)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Which one of the following shows endosperm in two forms? [MHT-CET 2023]",
+    "question_latex": "Which one of the following shows endosperm in two forms? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Citrus",
+      "B. Pea",
+      "C. Mango",
+      "D. Coconut"
+    ],
+    "option_images": [],
+    "answer": "D. Coconut",
+    "solution": "Endosperm in coconut shows free nuclear division forming liquid endosperm followed by cellular division.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "In angiosperms, development of embryo sac involves ___ [MHT-CET 2024]",
+    "question_latex": "In angiosperms, development of embryo sac involves \\_\\_ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 2 meiotic and 3 free nuclear mitotic divisions",
+      "B. 2 mitotic and 3 free nuclear meiotic divisions",
+      "C. 1 meiotic and 3 free nuclear mitotic divisions",
+      "D. 1 meiotic and 2 free nuclear mitotic divisions"
+    ],
+    "option_images": [],
+    "answer": "C. 1 meiotic and 3 free nuclear mitotic divisions",
+    "solution": "In angiosperms, development of embryo sac involves 1 meiotic division (to form megaspores) and 3 free nuclear mitotic divisions (to form 8 nuclei from the functional megaspore).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Match the following parts of ovule from column-I with their function in column-II. Select the correct option. [MHT-CET 2020]",
+    "question_latex": "Match the following parts of ovule from column-I with their function in column-II. Select the correct option. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Column I-(a) Funicle, Column II-(i) Passage for entry of pollen tube.",
+      "B. Column I-(b) Nucellus, Column II-(ii) Contribute in formation of PEN.",
+      "C. Column I-(c) Micropyle, Column II-(iii) Megasporangium",
+      "D. Column I-(d) Polar nuclei, Column II-(iv) Support"
+    ],
+    "option_images": [],
+    "answer": "D. Column I-(d) Polar nuclei, Column II-(iv) Support",
+    "solution": "Funicle is stalk of ovule connecting it to placenta (support). Nucellus is megasporangium tissue. Micropyle is passage for entry of pollen tube. 2 polar nuclei contribute in formation of primary endosperm nucleus (PEN).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Grafting cannot be done to monocots because they lack [MHT-CET 2009]",
+    "question_latex": "Grafting cannot be done to monocots because they lack [MHT-CET 2009]",
+    "question_images": [],
+    "options": [
+      "A. Cambium",
+      "B. Vascular bundle",
+      "C. Ground tissue",
+      "D. Parenchymatous tissue"
+    ],
+    "option_images": [],
+    "answer": "A. Cambium",
+    "solution": "Grafting cannot be done in monocots because they lack cambium. Vascular cambium is a characteristic feature of dicotyledons and is essential for the success of grafting.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "A typical matured female gametophyte of angiosperms is generally ___________, endosporic and Polygonum type. [MHT-CET 2020]",
+    "question_latex": "A typical matured female gametophyte of angiosperms is generally \\_\\_, endosporic and Polygonum type. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 7-celled, 8-nucleated, tetrasporic",
+      "B. 7-celled, 8-nucleated, monosporic",
+      "C. 8-celled, 7-nucleated, monosporic",
+      "D. 7-celled, 7-nucleated, tetrasporic"
+    ],
+    "option_images": [],
+    "answer": "B. 7-celled, 8-nucleated, monosporic",
+    "solution": "Matured gametophyte in angiosperm is endosporic (female gametophyte is concealed in ovule enclosed by ovary), polygonum type, 7-celled and 8-nucleated and monosporic (embryo sac developed from single megaspore).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Balsam, Petunia and Adoxa show _____ type of endosperm. [MHT-CET 2024]",
+    "question_latex": "Balsam, Petunia and Adoxa show \\_\\_ type of endosperm. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Nuclear",
+      "B. Helobial",
+      "C. Mosaic",
+      "D. Cellular"
+    ],
+    "option_images": [],
+    "answer": "D. Cellular",
+    "solution": "Balsam, Petunia, Adoxa — division of triploid primary endospermic nucleus is immediately followed by wall formation. So that the endosperm is cellular.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "There are 10 flowers in one individual plant of crotalaria. In each microsporangium of every stamen of all the flowers, there are 30 microspore mother cells. How many pollen grains are formed from that plant?",
+    "question_latex": "There are 10 flowers in one individual plant of \\textit{Crotalaria}. In each microsporangium of every stamen of all the flowers, there are 30 microspore mother cells. How many pollen grains are formed from that plant?",
+    "question_images": [],
+    "options": [
+      "A. 4,000",
+      "B. 10,000",
+      "C. 24,000",
+      "D. 48,000"
+    ],
+    "option_images": [],
+    "answer": "D. 48,000",
+    "solution": "Crotalaria is a member of Papilionaceae (Fabaceae), in which 10 stamens are present in a flower. Each stamen has 4 microsporangia. Each microspore mother cell gives rise to a pollen tetrad (4 pollen grains). Thus, $10 \\text{ flowers} \\times 10 \\text{ stamens} \\times 4 \\text{ microsporangia} \\times 30 \\text{ MMC} \\times 4 \\text{ pollen} = 48000$ pollen grains.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Reproduction in Lower and Higher Plants",
+    "question": "Plants of which one of the following groups of genera are pollinated by the same agency?",
+    "question_latex": "Plants of which one of the following groups of genera are pollinated by the same agency?",
+    "question_images": [],
+    "options": [
+      "A. Triticum, Mussanda, Zea mays",
+      "B. Kadam, Cannabis",
+      "C. Salvia, Calotropis",
+      "D. Salvia, Pinus, Ophrys"
+    ],
+    "option_images": [],
+    "answer": "C. Salvia, Calotropis",
+    "solution": "Salvia, Calotropis and Rafflesia all are insect pollinating (entomophilous) flowers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

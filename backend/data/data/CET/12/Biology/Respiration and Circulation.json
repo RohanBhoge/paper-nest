@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 1,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the set of structures lined by squamous epithelium.[MHT-CET 2023]",
+    "question_latex": "Select the set of structures lined by squamous epithelium.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Alveoli of lungs, epicardium, endocardium",
+      "B. Myocardium, myometrium, tunica Dartos of scrotum",
+      "C. Trachea, thyroid follicles and seminiferous tubules",
+      "D. Epicardium, Myocardium, thyroid follicle"
+    ],
+    "option_images": [],
+    "answer": "A. Alveoli of lungs, epicardium, endocardium",
+    "solution": "Alveoli of lungs, epicardium, endocardium are lined by squamous epithelium as epithelium is always lining inner or outer lining of the organs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match with respect to WBCs.[MHT-CET 2023]",
+    "question_latex": "Select the correct match with respect to WBCs.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Lymphocytes - humoral immunity",
+      "B. Monocyte - production of antitoxins",
+      "C. Neutrophils - secrete heparin and histamine",
+      "D. Eosinophils - phagocytosis"
+    ],
+    "option_images": [],
+    "answer": "A. Lymphocytes - humoral immunity",
+    "solution": "Neutrophils and Monocyte undergoes phagocytosis, Eosinophils produces anti histamine molecules.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Respiration and Circulation",
+    "question": "In the treatment of ....... use of protective mask and gear, minimize the inflammatory fibrosis.[MHT-CET 2021]",
+    "question_latex": "In the treatment of ....... use of protective mask and gear, minimize the inflammatory fibrosis.[MHT-CET 2021]",
+    "question_images": [],
+    "options": [
+      "A. Emphysema",
+      "B. Silicosis",
+      "C. Asthma",
+      "D. Laryngitis"
+    ],
+    "option_images": [],
+    "answer": "B. Silicosis",
+    "solution": "In the treatment of Silicosis, use of protective mask and gear minimizes the inflammatory fibrosis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match from the given pulmonary volumes, their values and explanation.[MHT-CET 2023]",
+    "question_latex": "Select the correct match from the given pulmonary volumes, their values and explanation.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Inspiratory reserve volume - 4100 to 4600 ml of air that can be breathed out after maximum inspiration.",
+      "B. Residual volume - 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration.",
+      "C. Vital capacity - 500 ml, volume of air inspired or expired during normal breathing.",
+      "D. Tidal volume - 2000 to 3000 ml, maximum volume of air inspired during forced breathing."
+    ],
+    "option_images": [],
+    "answer": "B. Residual volume - 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration.",
+    "solution": "Residual volume is 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration. Tidal volume is normal effortless breathing.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Respiration and Circulation",
+    "question": "Match the type of blood cells in Column I with their respective function in Column II and select the correct option. [2022]\nColumn I: A. Eosinophils, B. Lymphocytes, C. Monocytes, D. Thrombocytes\nColumn II: I. Coagulation of blood, II. Phagocytosis, III. Production of antitoxins and having antihistaminic property, IV. Production of antibodies for immunity.",
+    "question_latex": "Match the type of blood cells in Column I with their respective function in Column II and select the correct option. [2022]",
+    "question_images": [
+      "q5_1"
+    ],
+    "options": [
+      "A. A - III, B - IV, C - II, D - I",
+      "B. A - IV, B - I, C - III, D - II",
+      "C. A - I, B - III, C - II, D - IV",
+      "D. A - I, B - II, C - IV, D - III"
+    ],
+    "option_images": [],
+    "answer": "A. A - III, B - IV, C - II, D - I",
+    "solution": "Eosinophils - Production of antitoxins and having antihistaminic property; Lymphocytes - Production of antibodies for immunity; Monocytes - Phagocytosis; Thrombocytes - Coagulation of blood.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Respiration and Circulation",
+    "question": "The erythropoietic organs of a foetus are ___ and _____[MHT-CET 2024]",
+    "question_latex": "The erythropoietic organs of a foetus are ___ and _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. lymph nodes; kidneys",
+      "B. spleen; kidneys",
+      "C. kidneys; yellow bone marrow",
+      "D. liver; spleen"
+    ],
+    "option_images": [],
+    "answer": "D. liver; spleen",
+    "solution": "Liver and spleen are erythropoietic organs of a foetus and bone marrow in adult.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Respiration and Circulation",
+    "question": "Which of the following causes decrease in blood pressure?[MHT-CET 2024]",
+    "question_latex": "Which of the following causes decrease in blood pressure?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Increase in secretion of ADH",
+      "B. Inelasticity of blood vessels",
+      "C. Blood loss in accident",
+      "D. Increase in peripheral resistance"
+    ],
+    "option_images": [],
+    "answer": "C. Blood loss in accident",
+    "solution": "Blood loss in accident causes decrease in blood pressure; rest of the other options are causes of increase in B.P.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Respiration and Circulation",
+    "question": "Which is the difference between systolic and diastolic blood pressure?[MHT-CET 2006]",
+    "question_latex": "Which is the difference between systolic and diastolic blood pressure?[MHT-CET 2006]",
+    "question_images": [],
+    "options": [
+      "A. 120 mm",
+      "B. 60 mm",
+      "C. 80 mm",
+      "D. 40 mm"
+    ],
+    "option_images": [],
+    "answer": "D. 40 mm",
+    "solution": "The difference between systolic (120 mm Hg) and diastolic (80 mm Hg) blood pressure is 40 mm Hg.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Respiration and Circulation",
+    "question": "Match the valves of human heart in column I with the respective opening they guard in column II and select the correct option.[MHT-CET 2024]",
+    "question_latex": "Match the valves of human heart in column I with the respective opening they guard in column II and select the correct option.[MHT-CET 2024]",
+    "question_images": [
+      "q9_1"
+    ],
+    "options": [
+      "A. (a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B. (a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "C. (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "D. (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+    "solution": "Match the columns for valves in heart and their location in human heart: Eustachian valve - Opening of inferior vena cava; Thebesian valve - Opening of coronary sinus; Mitral valve - Left atrioventricular aperture; Semilunar valve - Opening of pulmonary aorta.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Respiration and Circulation",
+    "question": "Select CORRECT match.[MHT-CET 2024]",
+    "question_latex": "Select CORRECT match.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Diapedesis - Condition of decrease in total number of RBCs in blood below normal.",
+      "B. Haematocrit - Ratio of volume of RBCs to total blood volume.",
+      "C. Electrocardiogram - An instrument called ECG machine used for recording heart function.",
+      "D. Polycythemia - Process by which WBCs move out of capillary walls into tissue."
+    ],
+    "option_images": [],
+    "answer": "B. Haematocrit - Ratio of volume of RBCs to total blood volume.",
+    "solution": "Condition with increase in the number of RBCs is called polycythemia. Due to their amoeboid movement WBC can move out of the capillary walls by a process called diapedesis. Graphical recording of electrical variations detected at the surface of body during their propagation through the wall of heart is electrocardiogram (ECG).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Respiration and Circulation",
+    "question": "During conversion of pyruvic acid into acetyl Co-A, pyruvic acid is",
+    "question_latex": "During conversion of pyruvic acid into acetyl Co-A, pyruvic acid is",
+    "question_images": [],
+    "options": [
+      "A. Oxidized",
+      "B. Reduced",
+      "C. Isomerized",
+      "D. Condensed"
+    ],
+    "option_images": [],
+    "answer": "A. Oxidized",
+    "solution": "Pyruvic acid forms as a result of glycolysis in cytoplasm of cell. Oxidation of pyruvic acid into acetyl Co-A begins the citric acid cycle (Krebs cycle) in mitochondria.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the CORRECT statement with respect to human respiration.[MHT-CET 2024]",
+    "question_latex": "Select the CORRECT statement with respect to human respiration.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. In Hamburger's phenomenon, chloride ions diffuse out of RBCs into plasma, to maintain ionic balance.",
+      "B. Carbon-dioxide binds with amino group of haemoglobin to form loosely bound carboxyhaemoglobin.",
+      "C. Carbonic anhydrase enzyme is found in RBCs and absent in blood plasma.",
+      "D. Degree of saturation of Hb with $O_2$ is maximum at 30 mmHg of $ppO_2$."
+    ],
+    "option_images": [],
+    "answer": "C. Carbonic anhydrase enzyme is found in RBCs and absent in blood plasma.",
+    "solution": "Carbonic anhydrase enzyme is found in RBCs and absent in blood plasma.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct statement.[MHT-CET 2024]",
+    "question_latex": "Select the correct statement.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. The Apneustic centre and pneumotaxic centre are complementary to each other.",
+      "B. Apneustic centre is situated in cerebellum.",
+      "C. Apneustic centre in the medulla oblongata is antagonistic to pneumotaxic centre in pons.",
+      "D. Pneumotaxic centre is situated in medulla oblongata."
+    ],
+    "option_images": [],
+    "answer": "C. Apneustic centre in the medulla oblongata is antagonistic to pneumotaxic centre in pons.",
+    "solution": "Apneustic centre in the medulla oblongata is antagonistic to pneumotaxic centre in pons.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Respiration and Circulation",
+    "question": "$CO_2$ carried from the tissue cells in the blood is in the form of _________[MHT-CET 2019]",
+    "question_latex": "$CO_2$ carried from the tissue cells in the blood is in the form of _________[MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. $Na_2CO_3$ only",
+      "B. $NaHCO_3$ only",
+      "C. $NaHCO_3$ & $KHCO_3$",
+      "D. $NaCO_3$ & $NaOH$"
+    ],
+    "option_images": [],
+    "answer": "B. $NaHCO_3$ only",
+    "solution": "$CO_2$ carried from the tissue cells in the blood is in the form of $NaHCO_3$ only.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Respiration and Circulation",
+    "question": "About 97% oxygen in inhaled air is transported by respiratory carrier in the form of[MHT-CET 2024]",
+    "question_latex": "About 97\\% oxygen in inhaled air is transported by respiratory carrier in the form of[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. carbaminohaemoglobin",
+      "B. oxyhaemoglobin",
+      "C. deoxyhaemoglobin",
+      "D. carboxyhaemoglobin"
+    ],
+    "option_images": [],
+    "answer": "B. oxyhaemoglobin",
+    "solution": "About 97% oxygen in inhaled air is transported by respiratory carrier in the form of oxyhaemoglobin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct statements regarding Hering-Breuer reflex.\n(I) Stretch receptors of the lungs are stimulated during maximum forceful expiration.\n(II) Vagus nerve sends impulses to expiratory center.\n(III) Prevents lungs from inflation to the point of bursting.\n(IV) Controls depth and rhythm of respiration.\n(V) Promotes the lungs for maximum inflation.\nChoose the correct option:[MHT-CET 2024]",
+    "question_latex": "Select the correct statements regarding Hering-Breuer reflex.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (I), (IV) and (V) only",
+      "B. (I), (II) and (III) only",
+      "C. (II), (III) and (IV) only",
+      "D. (III), (IV) and (V) only"
+    ],
+    "option_images": [],
+    "answer": "C. (II), (III) and (IV) only",
+    "solution": "During inspiration when the lungs expand to a critical point, the stretch receptors are stimulated and impulses are sent along the vagus nerves to the expiratory centre. It then sends out inhibitory impulses to the inspiratory center. It also prevents the lungs from inflating to the point of bursting.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Respiration and Circulation",
+    "question": "Blood pressure is directly proportional to the following EXCEPT ........[2022]",
+    "question_latex": "Blood pressure is directly proportional to the following EXCEPT ........[2022]",
+    "question_images": [],
+    "options": [
+      "A. length of blood vessel",
+      "B. venous return",
+      "C. vasoconstriction",
+      "D. increased level of ANF"
+    ],
+    "option_images": [],
+    "answer": "D. increased level of ANF",
+    "solution": "ANF (Atrial Natriuretic Factor) causes vasodilation and decreases blood pressure, so blood pressure is inversely proportional to ANF levels.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Respiration and Circulation",
+    "question": "(I) Monocytes\n(II) Erythrocytes\n(III) Platelets\n(IV) Neutrophils\nSelect the correct sequence of blood corpuscles as per their number per cu.mm in human blood.[MHT-CET 2024]",
+    "question_latex": "Select the correct sequence of blood corpuscles as per their number per cu.mm in human blood.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. II > IV > III > I",
+      "B. I > III > IV > II",
+      "C. IV > III > I > II",
+      "D. II > III > IV > I"
+    ],
+    "option_images": [],
+    "answer": "D. II > III > IV > I",
+    "solution": "Maximum are Erythrocytes. In males, their average number is about 5.1-5.8 million/mm3 and in females about 4.3-5.2 million/mm3. Minimum are monocytes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Respiration and Circulation",
+    "question": "Internal bleeding or haemorrhage takes place due to _____[MHT-CET 2024]",
+    "question_latex": "Internal bleeding or haemorrhage takes place due to _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. thrombocytopenia",
+      "B. polycythemia",
+      "C. leukocytosis",
+      "D. leucopenia"
+    ],
+    "option_images": [],
+    "answer": "A. thrombocytopenia",
+    "solution": "Normal count of thrombocytes in human blood is about 2.5-4.5 lakh/mm3 of blood. If number of thrombocytes decreases than normal, condition is called as thrombocytopenia. This condition causes internal bleeding (haemorrhage).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Respiration and Circulation",
+    "question": "Percentage of $CO_2$ transport by RBCs and plasma, in the form of carbonic acid, $NaHCO_3$ ions and carbaminohemoglobin respectively is _____[MHT-CET 2023]",
+    "question_latex": "Percentage of $CO_2$ transport by RBCs and plasma, in the form of carbonic acid, $NaHCO_3$ ions and carbaminohemoglobin respectively is _____[MHT-CET 2023]",
+    "question_images": [
+      "20_qu_1.png"
+    ],
+    "options": [
+      "A. A",
+      "B. C",
+      "C. B",
+      "D. D"
+    ],
+    "option_images": [],
+    "answer": "A. A",
+    "solution": "7% by RBCs, 70% in the form of carbonic acid/$NaHCO_3$ ions, 23% in form of carbaminohemoglobin respectively.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Respiration and Circulation",
+    "question": "These blood corpuscles are also called polymorphs.[MHT-CET 2020]",
+    "question_latex": "These blood corpuscles are also called polymorphs.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Monocytes",
+      "B. Basophils",
+      "C. Eosinophils",
+      "D. Neutrophils"
+    ],
+    "option_images": [],
+    "answer": "D. Neutrophils",
+    "solution": "Polymorphs are those cells which exist in many forms. Neutrophils of WBCs show different shapes in nucleus (multilobed nucleus) and so are called polymorphonuclear cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Respiration and Circulation",
+    "question": "In photosynthesis, $NADPH_2$ is formed but in respiration it forms during",
+    "question_latex": "In photosynthesis, $NADPH_2$ is formed but in respiration it forms during",
+    "question_images": [],
+    "options": [
+      "A. HMP",
+      "B. ETS",
+      "C. Krebs cycle",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. HMP",
+    "solution": "NADPH is formed during light reaction of photosynthesis and also formed during hexose monophosphate shunt (HMP shunt) of glucose oxidation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Respiration and Circulation",
+    "question": "Given below are two statements.\nStatement-I: Respiratory membrane is composed of two layers of squamous epithelia, each resting on a thick basement membrane.\nStatement-II: The diffusion of a respiratory gas takes place from lower partial pressure to higher partial pressure of the same.\nIn the light of above statements, choose the most appropriate answer from the options given below:[MHT-CET 2024]",
+    "question_latex": "Given below are two statements. Statement-I: Respiratory membrane is composed of two layers of squamous epithelia, each resting on a thick basement membrane. Statement-II: The diffusion of a respiratory gas takes place from lower partial pressure to higher partial pressure of the same.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Both statement I and statement II are incorrect.",
+    "solution": "Each lung is enclosed and protected by a double pleural membrane, outer parietal and inner visceral membrane. The diffusion of a respiratory gas takes place from higher partial pressure to lower partial pressure of the same.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Respiration and Circulation",
+    "question": "Match pulmonary volumes/capacity given in Column I with their respective maximum values in Column II. Select the correct option given below. [2022]\nColumn I: A. Inspiratory reserve volume, B. Residual volume, C. Vital capacity, D. Tidal volume\nColumn II: I. 500 ml, II. 4600 ml, III. 1200 ml, IV. 3000 ml",
+    "question_latex": "Match pulmonary volumes/capacity given in Column I with their respective maximum values in Column II. [2022]",
+    "question_images": [
+      "q24_1"
+    ],
+    "options": [
+      "A. A - IV, B - II, C - III, D - I",
+      "B. A - IV, B - III, C - II, D - I",
+      "C. A - III, B - IV, C - I, D - II",
+      "D. A - I, B - IV, C - III, D - II"
+    ],
+    "option_images": [],
+    "answer": "B. A - IV, B - III, C - II, D - I",
+    "solution": "Inspiratory reserve volume - 3000 ml; Residual volume - 1200 ml; Vital capacity - 4600 ml; Tidal volume - 500 ml.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Respiration and Circulation",
+    "question": "At the level of lungs, following events occur during transport of respiratory gases except ____[MHT-CET 2024]",
+    "question_latex": "At the level of lungs, following events occur during transport of respiratory gases except ____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Chloride ions ($Cl^-$) diffuse into RBCs",
+      "B. Carbaminohaemoglobin dissociates into haemoglobin and $CO_2$",
+      "C. Formation of reduced haemoglobin decreases",
+      "D. $H_2CO_3$ dissociates to form $H_2O$ and $CO_2$"
+    ],
+    "option_images": [],
+    "answer": "A. Chloride ions ($Cl^-$) diffuse into RBCs",
+    "solution": "At tissue level to maintain the ionic balance between the RBCs and the plasma, $Cl^-$ diffuses into the RBCs. This movement of chloride ions is known as chloride shift or Hamburger's phenomenon.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Respiration and Circulation",
+    "question": "Which one of the following is also called as mitral valve?[MHT-CET 2024]",
+    "question_latex": "Which one of the following is also called as mitral valve?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Tricuspid valve",
+      "B. Eustachian valve",
+      "C. Bicuspid valve",
+      "D. Thebesian valve"
+    ],
+    "option_images": [],
+    "answer": "C. Bicuspid valve",
+    "solution": "Bicuspid valve is also called as mitral valve present between left atrium and left ventricle.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Respiration and Circulation",
+    "question": "Book lungs are the organs of respiration in[MHT-CET 2024]",
+    "question_latex": "Book lungs are the organs of respiration in[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. scorpion",
+      "B. Limulus",
+      "C. frog",
+      "D. leech"
+    ],
+    "option_images": [],
+    "answer": "A. scorpion",
+    "solution": "Book lungs are the organs of respiration in Arachnids like spiders and scorpions which are terrestrial.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct statement with respect to expiration process.[2022]",
+    "question_latex": "Select the correct statement with respect to expiration process.[2022]",
+    "question_images": [],
+    "options": [
+      "A. Diaphragm relaxes and becomes dome shaped.",
+      "B. Intercostal muscles contract.",
+      "C. Rib cage is pulled upward and outward.",
+      "D. There is increase in thoracic volume."
+    ],
+    "option_images": [],
+    "answer": "A. Diaphragm relaxes and becomes dome shaped.",
+    "solution": "During expiration, the diaphragm relaxes and becomes dome shaped, intercostal muscles relax, rib cage moves downward and inward, and thoracic volume decreases.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Respiration and Circulation",
+    "question": "The QRS complex in a normal ECG represents _____[MHT-CET 2024]",
+    "question_latex": "The QRS complex in a normal ECG represents _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Ventricular depolarization",
+      "B. Ventricular repolarization",
+      "C. Atrial repolarization",
+      "D. Atrial depolarization"
+    ],
+    "option_images": [],
+    "answer": "A. Ventricular depolarization",
+    "solution": "The QRS complex in a normal ECG represents Ventricular depolarization. T wave is small, wide and upwardly elevated wave and represents the ventricular repolarization.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Respiration and Circulation",
+    "question": "Match pulmonary volumes in Column I, their values in Column II and explanation in Column III. Select the correct answer from the options given below.[MHT-CET 2023]",
+    "question_latex": "Match pulmonary volumes in Column I, their values in Column II and explanation in Column III. Select the correct answer from the options given below.[MHT-CET 2023]",
+    "question_images": [
+      "q30_1"
+    ],
+    "options": [
+      "A. B",
+      "B. A",
+      "C. D",
+      "D. C"
+    ],
+    "option_images": [],
+    "answer": "A. B",
+    "solution": "Match the columns with pulmonary volumes, their terminologies and the meaning: TV - 500 ml - Volume of air inspired or expired during normal breathing; RV - 1100 to 1200 ml - Volume of air that remains in the lungs even after maximum expiration; IRV - 4100 to 4600 ml - Maximum amount of air that can be breathed out after maximum inspiration; VC - 2000 to 3000 ml.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Respiration and Circulation",
+    "question": "Respiratory centers are located in ____ of brain.[MHT-CET 2023]",
+    "question_latex": "Respiratory centers are located in ____ of brain.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Epithalamus and hypothalamus",
+      "B. Pons and medulla",
+      "C. Cerebrum and cerebellum",
+      "D. Superior and inferior colliculi"
+    ],
+    "option_images": [],
+    "answer": "B. Pons and medulla",
+    "solution": "Respiratory centers are located in pons and medulla of brain as group of neurons.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Respiration and Circulation",
+    "question": "Palate bone is present between _____[MHT-CET 2023]",
+    "question_latex": "Palate bone is present between _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Nasopharynx and oropharynx",
+      "B. Nasopharynx and laryngopharynx",
+      "C. Laryngopharynx and Nasopharynx",
+      "D. Oropharynx and laryngopharynx"
+    ],
+    "option_images": [],
+    "answer": "A. Nasopharynx and oropharynx",
+    "solution": "Palate bone is present between nasopharynx and oropharynx i.e. nasal and oral opening in pharynx.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Respiration and Circulation",
+    "question": "In frogs, $CO_2$ is eliminated more efficiently through _________[MHT-CET 2020]",
+    "question_latex": "In frogs, $CO_2$ is eliminated more efficiently through _________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Gills",
+      "B. Skin",
+      "C. Bucco-pharyngeal lining",
+      "D. Lungs"
+    ],
+    "option_images": [],
+    "answer": "B. Skin",
+    "solution": "In frogs $CO_2$ is more efficiently eliminated through skin as it is moist and helps in respiration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Respiration and Circulation",
+    "question": "Which one of the following structures is devoid of cardiac muscles?[MHT-CET 2024]",
+    "question_latex": "Which one of the following structures is devoid of cardiac muscles?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Purkinje fibres",
+      "B. Chordae tendinae",
+      "C. Ventricles of heart",
+      "D. Interventricular septum"
+    ],
+    "option_images": [],
+    "answer": "B. Chordae tendinae",
+    "solution": "The lumen of ventricles also shows inelastic fibers called chordae tendinae. These attach the bicuspid and tricuspid valves to the ventricular wall (papillary muscles) and regulate their opening and closing.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Respiration and Circulation",
+    "question": "Nodal tissue present in the upper right corner of right atrium is _____[MHT-CET 2023]",
+    "question_latex": "Nodal tissue present in the upper right corner of right atrium is _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. AV Node",
+      "B. SA Node",
+      "C. Bundle of Tawara",
+      "D. Purkinje fibres"
+    ],
+    "option_images": [],
+    "answer": "B. SA Node",
+    "solution": "Nodal tissue present in the upper right corner of right atrium is SA Node. It acts as pacemaker of heart because it has the power of generating a new wave of contraction and making the pace of contraction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Respiration and Circulation",
+    "question": "If $ppCO_2$ is high and pH is low, then it will result in _____\nI. Increase in affinity of haemoglobin for $O_2$.\nII. Decrease in affinity of haemoglobin for $O_2$.\nIII. Oxygen dissociation curve shifts to left.\nIV. Causes release of $O_2$ for diffusion into tissue cells.\nV. $H^+$ and $HCO_3^-$ ions combine to form carbonic acid.[MHT-CET 2023]",
+    "question_latex": "If $ppCO_2$ is high and pH is low, then it will result in _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. II and IV only",
+      "B. IV and V only",
+      "C. II and III only",
+      "D. I and II only"
+    ],
+    "option_images": [],
+    "answer": "A. II and IV only",
+    "solution": "If $ppCO_2$ is high and pH is low, then it will result in decrease in affinity of haemoglobin for $O_2$ that causes release of $O_2$ for diffusion into tissue cells.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Respiration and Circulation",
+    "question": "The platelets contain the substance ___________[MHT-CET 2020]",
+    "question_latex": "The platelets contain the substance ___________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Prothrombin",
+      "B. Fibrin",
+      "C. Prothrombinase",
+      "D. Thromboplastin"
+    ],
+    "option_images": [],
+    "answer": "D. Thromboplastin",
+    "solution": "Thromboplastin is also called platelet factor which is released after injury and damage of platelet. Thromboplastin induces activation of clotting enzyme cascade system for clot formation and prevents blood loss during injury.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Respiration and Circulation",
+    "question": "Ligamentum arteriosum of heart joins[MHT-CET 2024]",
+    "question_latex": "Ligamentum arteriosum of heart joins[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. pulmonary trunk and aortic arch",
+      "B. right and left pulmonary arteries",
+      "C. right and left pulmonary veins",
+      "D. precaval and postcaval"
+    ],
+    "option_images": [],
+    "answer": "A. pulmonary trunk and aortic arch",
+    "solution": "Ligamentum arteriosum of heart joins pulmonary trunk and aortic arch.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Respiration and Circulation",
+    "question": "In succulent plants like Opuntia, the RQ value will be",
+    "question_latex": "In succulent plants like Opuntia, the RQ value will be",
+    "question_images": [],
+    "options": [
+      "A. Less than one",
+      "B. More than one",
+      "C. Infinite",
+      "D. Zero"
+    ],
+    "option_images": [],
+    "answer": "D. Zero",
+    "solution": "Respiratory quotient (RQ) is the ratio of the volume of carbon dioxide produced to the volume of oxygen consumed in respiration over a period of time. Succulents have RQ = Zero as they fix $CO_2$ via CAM pathway without releasing it.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Respiration and Circulation",
+    "question": "Which enzyme inactivates heparin during the clotting of blood?[2022]",
+    "question_latex": "Which enzyme inactivates heparin during the clotting of blood?[2022]",
+    "question_images": [],
+    "options": [
+      "A. Thromboplastin",
+      "B. Inactive prothrombin",
+      "C. Prothrombinase",
+      "D. Thrombin"
+    ],
+    "option_images": [],
+    "answer": "C. Prothrombinase",
+    "solution": "Prothrombinase inactivates heparin during the clotting of blood.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Respiration and Circulation",
+    "question": "In mitochondria, enzyme cytochrome oxidase is present in",
+    "question_latex": "In mitochondria, enzyme cytochrome oxidase is present in",
+    "question_images": [],
+    "options": [
+      "A. Outer membrane",
+      "B. Perimitochondrial space",
+      "C. Inner membrane",
+      "D. Matrix"
+    ],
+    "option_images": [],
+    "answer": "C. Inner membrane",
+    "solution": "Mitochondria contains various enzymes. Inner Membrane contains: Cytochrome oxidase, dehydrogenase, succinate, NADH dehydrogenase, ATPase, etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Respiration and Circulation",
+    "question": "Identify the specific group, which carries out the following biochemical reaction: Aspartic acid + $\\alpha$-ketoglutaric acid $\\rightarrow$ Oxaloacetic acid + Glutamic acid",
+    "question_latex": "Identify the specific group, which carries out the following biochemical reaction: Aspartic acid + $\\alpha$-ketoglutaric acid $\\rightarrow$ Oxaloacetic acid + Glutamic acid",
+    "question_images": [],
+    "options": [
+      "A. Synthetases",
+      "B. Peptidases",
+      "C. Transaminases",
+      "D. Lyases"
+    ],
+    "option_images": [],
+    "answer": "C. Transaminases",
+    "solution": "Aspartic acid + $\\alpha$-ketoglutaric acid $\\rightarrow$ oxaloacetic acid + glutamic acid. This is an example of transamination reaction. In this, amino group of aspartic acid is transferred to glutamic acid.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Respiration and Circulation",
+    "question": "$CO_2$ is transported mainly as:",
+    "question_latex": "$CO_2$ is transported mainly as:",
+    "question_images": [],
+    "options": [
+      "A. Carbaminohaemoglobin",
+      "B. Oxyhaemoglobin",
+      "C. Bicarbonate",
+      "D. Carboxyhaemoglobin"
+    ],
+    "option_images": [],
+    "answer": "C. Bicarbonate",
+    "solution": "$CO_2$ is transported mainly as bicarbonate ($HCO_3^-$) ions in the blood plasma.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Respiration and Circulation",
+    "question": "The blood pressure will be minimum in the ________[MHT-CET 2020]",
+    "question_latex": "The blood pressure will be minimum in the ________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Renal vein",
+      "B. Coronary artery",
+      "C. Pulmonary artery",
+      "D. Systemic aorta"
+    ],
+    "option_images": [],
+    "answer": "A. Renal vein",
+    "solution": "Blood pressure is always higher in artery as they carry blood from heart to different parts. The pressure is very low in veins so they are provided by valves at regular intervals to prevent back flow of blood.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Respiration and Circulation",
+    "question": "Which of the following organelles/components are present in mature erythrocytes of adult human?\nA. Nucleus\nB. Mitochondria\nC. Haemoglobin\nD. Carbonic anhydrase\nSelect the correct answer from options given below.[2022]",
+    "question_latex": "Which of the following organelles/components are present in mature erythrocytes of adult human? [2022]",
+    "question_images": [],
+    "options": [
+      "A. B, C and D only",
+      "B. A only",
+      "C. A and B only",
+      "D. C and D only"
+    ],
+    "option_images": [],
+    "answer": "D. C and D only",
+    "solution": "Mature erythrocytes (RBCs) in adult humans lack nucleus and mitochondria. They contain haemoglobin and carbonic anhydrase enzyme.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Respiration and Circulation",
+    "question": "In human beings, diffusion of gases takes place in respiratory membrane _____[MHT-CET 2024]",
+    "question_latex": "In human beings, diffusion of gases takes place in respiratory membrane _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. If osmotic pressure of plasma increases.",
+      "B. From an area of high partial pressure to low partial pressure of gas.",
+      "C. From an area of low partial pressure to high partial pressure of gas.",
+      "D. Because low temperature favors diffusion of gases."
+    ],
+    "option_images": [],
+    "answer": "B. From an area of high partial pressure to low partial pressure of gas.",
+    "solution": "Diffusion of gases takes place in respiratory membrane from an area of high partial pressure to low partial pressure of gas.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Respiration and Circulation",
+    "question": "The $pCO_2$ of alveolar blood is ________ mmHg.[MHT-CET 2020]",
+    "question_latex": "The $pCO_2$ of alveolar blood is ________ mmHg.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 30",
+      "B. 104",
+      "C. 90",
+      "D. 45"
+    ],
+    "option_images": [],
+    "answer": "D. 45",
+    "solution": "$pCO_2$ of alveolar blood is 45 mm of Hg. As it is deoxygenated blood brought around the alveoli for oxygenation. In alveoli carbon dioxide will be given out and oxygen is absorbed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the mismatched pair from the following.[MHT-CET 2024]",
+    "question_latex": "Select the mismatched pair from the following.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Myocardium - Systole and diastole",
+      "B. Pericardial fluid - shock absorber",
+      "C. Epicardium - protection",
+      "D. Thebesian valve - guards the opening of postcaval"
+    ],
+    "option_images": [],
+    "answer": "D. Thebesian valve - guards the opening of postcaval",
+    "solution": "Thebesian valve guards the opening of coronary sinus into right atrium. Opening of the postcaval is guarded by a Eustachian valve.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the INCORRECT statement with respect to breathing process.[MHT-CET 2024]",
+    "question_latex": "Select the INCORRECT statement with respect to breathing process.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. During inspiration, there is low pressure inside lungs, hence air from atmosphere rushes into lungs.",
+      "B. Thoracic volume increases during inspiration.",
+      "C. Diaphragm becomes relaxed and dome shaped during inspiration.",
+      "D. It is physical process that involves thoracic cage, diaphragm and intercostal muscles."
+    ],
+    "option_images": [],
+    "answer": "C. Diaphragm becomes relaxed and dome shaped during inspiration.",
+    "solution": "Diaphragm becomes relaxed and dome shaped during expiration, not inspiration. During inspiration, the diaphragm contracts and flattens.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Respiration and Circulation",
+    "question": "The circulatory fluids flow at low pressure in one of the following pairs of vessels.[MHT-CET 2020]",
+    "question_latex": "The circulatory fluids flow at low pressure in one of the following pairs of vessels.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Inferior venacava and pulmonary artery",
+      "B. Lymph vessels and blood capillaries",
+      "C. Pulmonary vein and systemic aorta",
+      "D. Superior venacava and pulmonary artery"
+    ],
+    "option_images": [],
+    "answer": "B. Lymph vessels and blood capillaries",
+    "solution": "The blood pressure is highest in dorsal aorta and pulmonary artery and the blood is pumped to the respective site. Blood pressure is lowest in capillaries, and further lowered in veins and lymph vessels.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Respiration and Circulation",
+    "question": "Polycythemia is increase in________[MHT-CET 2020]",
+    "question_latex": "Polycythemia is increase in________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Platelet count",
+      "B. Hemoglobin percentage",
+      "C. Number of RBC's",
+      "D. Number of WBC's"
+    ],
+    "option_images": [],
+    "answer": "C. Number of RBC's",
+    "solution": "Polycythemia is increase in number of RBCs. Leucocytosis is increased number of WBCs in cell.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Respiration and Circulation",
+    "question": "If cardiac output is 4200 ml/min, then x beats/min is the heart rate and y is the term for pulse rate.[MHT-CET 2024]",
+    "question_latex": "If cardiac output is 4200 ml/min, then $x$ beats/min is the heart rate and $y$ is the term for pulse rate.[MHT-CET 2024]",
+    "question_images": [
+      "52_qu_1.png"
+    ],
+    "options": [
+      "A. C",
+      "B. B",
+      "C. D",
+      "D. A"
+    ],
+    "option_images": [],
+    "answer": "A. C",
+    "solution": "Cardiac output = Stroke volume × Heart rate. 4200 ml/min ÷ 70 ml/beat = 60 beats/min. Pulse rate higher than normal (above 100 beats/min) is called Tachycardia and slower pulse rate (below 60 beats/min) than normal is called Bradycardia. At 60 beats/min, it is Bradycardia.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match regarding WBCS.[MHT-CET 2023]",
+    "question_latex": "Select the correct match regarding WBCS.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Eosinophil - serotonin",
+      "B. Thrombocytes - histamine",
+      "C. Basophils - antitoxins",
+      "D. Lymphocytes - antibody"
+    ],
+    "option_images": [],
+    "answer": "D. Lymphocytes - antibody",
+    "solution": "Basophils release histamine and heparin, Acidophil release antihistamine. Thrombocytes are related with platelet formation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Respiration and Circulation",
+    "question": "Which one of the following blood vessels carries oxygenated blood?[MHT-CET 2020]",
+    "question_latex": "Which one of the following blood vessels carries oxygenated blood?[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Coronary sinus",
+      "B. Pulmonary artery",
+      "C. Coronary artery",
+      "D. Coronary vein"
+    ],
+    "option_images": [],
+    "answer": "C. Coronary artery",
+    "solution": "Coronary artery carries oxygenated blood towards heart. Pulmonary artery carries deoxygenated blood towards lungs. Coronary sinus and coronary veins carry deoxygenated blood from heart.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct statements from the following.\n(I) The right lung is divided into three lobes and is longer than left.\n(II) The right lung is divided into two lobes.\n(III) Right and left lungs are divided into three lobes.\n(IV) Only left lung is divided into two lobes.\nSelect the correct answer.[MHT-CET 2024]",
+    "question_latex": "Select the correct statements from the following regarding lung lobes.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (I) and (IV)",
+      "B. (III) and (IV)",
+      "C. (II) and (III)",
+      "D. (I) and (II)"
+    ],
+    "option_images": [],
+    "answer": "A. (I) and (IV)",
+    "solution": "The right lung is larger and divided into 3 lobes, while the left lung is smaller and divided into 2 lobes. Each lobe of the lung has the terminal bronchioles ending in a bunch of air sacs, each with 10 to 12 alveoli.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Respiration and Circulation",
+    "question": "During recording of ECG, how many electrodes are positioned on chest and limbs respectively?[MHT-CET 2024]",
+    "question_latex": "During recording of ECG, how many electrodes are positioned on chest and limbs respectively?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 4 and 6",
+      "B. 6 and 2",
+      "C. 2 and 6",
+      "D. 6 and 4"
+    ],
+    "option_images": [],
+    "answer": "D. 6 and 4",
+    "solution": "Four electrodes are positioned on limbs; two on arms and two on legs (limb electrodes). Six electrodes are positioned on chest (chest electrodes).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Respiration and Circulation",
+    "question": "Internal valves are present in the ___________[MHT-CET 2020]",
+    "question_latex": "Internal valves are present in the ___________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Vascular capillaries",
+      "B. Lymphatic vessels",
+      "C. Lymph capillaries",
+      "D. Arterioles"
+    ],
+    "option_images": [],
+    "answer": "B. Lymphatic vessels",
+    "solution": "Lymphatic vessels and veins are broad vessels with fluid flowing under very low pressure. This creates chances of back flow, in order to maintain unidirectional flow in vessels they are provided with valves at regular intervals.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Respiration and Circulation",
+    "question": "Given below are some statements regarding the antibody.\nA. Antibodies are produced in response to antigenic stimulation.\nB. Antibodies are produced by suppressor T-cells.\nC. Antibodies are generally glycoproteins.\nD. The variable region of light as well as heavy chains enable the antibody to recognize the specific antigen.\nE. During the antigen-antibody reaction, the paratope of antigen binds with the epitope of an antibody.\nWhich of these statements are INCORRECT?[2022]",
+    "question_latex": "Which of the statements regarding antibodies are INCORRECT?[2022]",
+    "question_images": [],
+    "options": [
+      "A. A and C both",
+      "B. A, C and D only",
+      "C. B and E both",
+      "D. B and D only"
+    ],
+    "option_images": [],
+    "answer": "C. B and E both",
+    "solution": "Antibodies are produced by plasma cells (B-cells), not suppressor T-cells (B is incorrect). In antigen-antibody reaction, the epitope of antigen binds with the paratope of antibody, not vice versa (E is incorrect).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Respiration and Circulation",
+    "question": "Right atrium receives deoxygenated blood from _____[MHT-CET 2024]",
+    "question_latex": "Right atrium receives deoxygenated blood from _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Brachiocephalic artery, left common carotid artery, left subclavian artery.",
+      "B. Right and left pulmonary artery, coronary vein.",
+      "C. Pulmonary vein, systemic aorta and pulmonary aorta.",
+      "D. Superior vena cava, inferior vena cava and coronary sinus."
+    ],
+    "option_images": [],
+    "answer": "D. Superior vena cava, inferior vena cava and coronary sinus.",
+    "solution": "Right atrium receives deoxygenated blood from Superior vena cava, inferior vena cava and coronary sinus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Respiration and Circulation",
+    "question": "The maximum volume of air that is expired during forced breathing after normal expiration is _____[MHT-CET 2024]",
+    "question_latex": "The maximum volume of air that is expired during forced breathing after normal expiration is _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Tidal volume",
+      "B. Residual volume",
+      "C. Inspiratory reserve volume",
+      "D. Expiratory reserve volume"
+    ],
+    "option_images": [],
+    "answer": "D. Expiratory reserve volume",
+    "solution": "The maximum volume of air that is expired during forced breathing after normal expiration is Expiratory reserve volume (ERV).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Respiration and Circulation",
+    "question": "Polymorphonuclear leucocytes are nothing but ........[2022]",
+    "question_latex": "Polymorphonuclear leucocytes are nothing but ........[2022]",
+    "question_images": [],
+    "options": [
+      "A. granulocytes",
+      "B. erythrocytes",
+      "C. agranulocytes",
+      "D. thrombocytes"
+    ],
+    "option_images": [],
+    "answer": "A. granulocytes",
+    "solution": "Polymorphonuclear leucocytes (neutrophils, eosinophils, basophils) are granulocytes due to their lobed/polymorphic nuclei and cytoplasmic granules.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Respiration and Circulation",
+    "question": "Formation of prothrombinase is initiated by ________[MHT-CET 2020]",
+    "question_latex": "Formation of prothrombinase is initiated by ________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Heparin",
+      "B. Prothrombin",
+      "C. Thromboplastin",
+      "D. Fibrinogen"
+    ],
+    "option_images": [],
+    "answer": "C. Thromboplastin",
+    "solution": "Formation of prothrombinase is initiated by thromboplastin. Thromboplastin are also called as platelet factors released by damaged platelets during injury.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Respiration and Circulation",
+    "question": "Properdin present in blood plasma is _____[MHT-CET 2023]",
+    "question_latex": "Properdin present in blood plasma is _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Steroid",
+      "B. Oligosaccharide",
+      "C. Protein",
+      "D. Fatty acid"
+    ],
+    "option_images": [],
+    "answer": "C. Protein",
+    "solution": "Proteins (albumen, globulin, properdin, prothrombin, fibrinogen) found in plasma forms 7-8%.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Respiration and Circulation",
+    "question": "Conditioner region of nasal chamber is meant for _____[MHT-CET 2024]",
+    "question_latex": "Conditioner region of nasal chamber is meant for _____[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. detection of smell",
+      "B. trapping of dust particles",
+      "C. warming and moistening of inhaled air",
+      "D. filtering of inhaled air"
+    ],
+    "option_images": [],
+    "answer": "C. warming and moistening of inhaled air",
+    "solution": "Conditioner region of nasal chamber is meant for warming and moistening of inhaled air.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Respiration and Circulation",
+    "question": "In round worms, transportation and exchange of materials between body fluids and visceral organs occurs by[2022]",
+    "question_latex": "In round worms, transportation and exchange of materials between body fluids and visceral organs occurs by[2022]",
+    "question_images": [],
+    "options": [
+      "A. Contraction of body wall and muscles",
+      "B. Cyclosis",
+      "C. Parenchymal circulation",
+      "D. Blood vessels"
+    ],
+    "option_images": [],
+    "answer": "A. Contraction of body wall and muscles",
+    "solution": "In round worms (nematodes), transportation and exchange of materials occurs by contraction of body wall and muscles as they lack a circulatory system.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Respiration and Circulation",
+    "question": "Difference between systolic and diastolic pressure is _____[MHT-CET 2023]",
+    "question_latex": "Difference between systolic and diastolic pressure is _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Pulse pressure",
+      "B. Heart rate",
+      "C. Pulse rate",
+      "D. Joint diastole"
+    ],
+    "option_images": [],
+    "answer": "A. Pulse pressure",
+    "solution": "Difference between systolic and diastolic pressure is pulse pressure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Respiration and Circulation",
+    "question": "In the following diagram of T.S. of Artery, the region marked 'X' is _________[MHT-CET 2018]",
+    "question_latex": "In the following diagram of T.S. of Artery, the region marked 'X' is _________[MHT-CET 2018]",
+    "question_images": [
+      "67_qu_1.png"
+    ],
+    "options": [
+      "A. Tunica media",
+      "B. Tunica externa",
+      "C. Tunica interna",
+      "D. Tunica albuginea"
+    ],
+    "option_images": [],
+    "answer": "C. Tunica interna",
+    "solution": "The innermost layer of an artery is Tunica interna (also called Tunica intima), which is marked as X in the diagram.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Respiration and Circulation",
+    "question": "The $pO_2$ of inspired air is ___________ mmHg.[MHT-CET 2020]",
+    "question_latex": "The $pO_2$ of inspired air is ___________ mmHg.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 104",
+      "B. 90",
+      "C. 45",
+      "D. 40"
+    ],
+    "option_images": [],
+    "answer": "A. 104",
+    "solution": "$pO_2$ of inspired air is 104 mm of Hg. As it is higher in Oxygen concentration than carbon dioxide concentration and so oxygen diffuses into blood.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Respiration and Circulation",
+    "question": "Pace-setter of the heart is present _____[MHT-CET 2023]",
+    "question_latex": "Pace-setter of the heart is present _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. At the base of opening of superior vena cava.",
+      "B. In interauricular septum.",
+      "C. In ventricular wall in the form of network.",
+      "D. In the right atrial wall near the base of interatrial septum."
+    ],
+    "option_images": [],
+    "answer": "D. In the right atrial wall near the base of interatrial septum.",
+    "solution": "Pace-setter of the heart is present in the right atrial wall near the base of interatrial septum. It is also called SAN or sino atrial node.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the INCORRECT statement.[MHT-CET 2023]",
+    "question_latex": "Select the INCORRECT statement.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Study of blood is called hematology.",
+      "B. Blood is heavier than water.",
+      "C. Blood is a fluid connective tissue derived from endoderm.",
+      "D. Blood is slightly alkaline, salty and viscous fluid."
+    ],
+    "option_images": [],
+    "answer": "C. Blood is a fluid connective tissue derived from endoderm.",
+    "solution": "Blood is a fluid connective tissue derived from mesoderm, not endoderm.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Respiration and Circulation",
+    "question": "By using the stain methylene blue, the __ can be differentiated from other corpuscles.[MHT-CET 2024]",
+    "question_latex": "By using the stain methylene blue, the __ can be differentiated from other corpuscles.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. acidophils",
+      "B. monocytes",
+      "C. cyanophils",
+      "D. neutrophils"
+    ],
+    "option_images": [],
+    "answer": "C. cyanophils",
+    "solution": "Basophils/Cyanophils - These cells have very few granules of large size, and stain with basic stains like methylene blue.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match:[MHT-CET 2016]\nColumn I: i) Monocyte, ii) Lymphocyte, iii) Basophil, iv) Eosinophil\nColumn II: a) Large round nucleus, b) Twisted nucleus, c) Bilobed nucleus, d) Kidney shaped nucleus\nColumn III: l) Antihistamine property, m) Release heparin, n) Phagocytic, o) Produce antibodies",
+    "question_latex": "Select the correct match:[MHT-CET 2016]",
+    "question_images": [
+      "q72_1"
+    ],
+    "options": [
+      "A. i-d-n, ii-a-o, iii-b-m, iv-c-l",
+      "B. i-b-m, ii-a-l, iii-c-n, iv-d-o",
+      "C. i-c-n, ii-b-o, iii-d-m, iv-a-l",
+      "D. i-a-o, ii-d-m, iii-c-l, iv-b-n"
+    ],
+    "option_images": [],
+    "answer": "A. i-d-n, ii-a-o, iii-b-m, iv-c-l",
+    "solution": "Monocyte - Kidney shaped nucleus - Phagocytic; Lymphocyte - Large round nucleus - Produce antibodies; Basophil - Twisted nucleus - Release heparin; Eosinophil - Bilobed nucleus - Antihistamine property.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match regarding respiration.[MHT-CET 2023]",
+    "question_latex": "Select the correct match regarding respiration.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Larynx - Vocal cords",
+      "B. Vestibule of nasal chamber - Highly vascularized",
+      "C. Bronchus - complete ring of cartilage",
+      "D. Right lung - Two lobes"
+    ],
+    "option_images": [],
+    "answer": "A. Larynx - Vocal cords",
+    "solution": "Larynx is a part of respiratory tract with vocal cords for sound production.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Respiration and Circulation",
+    "question": "Match the column I with column II and select the correct option given below.[MHT-CET 2024]\nColumn I (Type of WBC): (a) Lymphocyte, (b) Eosinophils, (c) Basophils, (d) Neutrophils, (e) Monocytes\nColumn II (Percentage): (i) 1% to 3%, (ii) About 70%, (iii) 3% to 5%, (iv) 25% to 30%, (v) 0.5% to 1%",
+    "question_latex": "Match the column I (Type of WBC) with column II (Percentage) and select the correct option.[MHT-CET 2024]",
+    "question_images": [
+      "q74_1"
+    ],
+    "options": [
+      "A. (a)-(iv); (b)-(i); (c)-(v); (d)-(ii); (e)-(iii)",
+      "B. (a)-(i); (b)-(iv); (c)-(iii); (d)-(v); (e)-(ii)",
+      "C. (a)-(iv); (b)-(v); (c)-(i); (d)-(iii); (e)-(ii)",
+      "D. (a)-(v); (b)-(ii); (c)-(iv); (d)-(i); (e)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(iv); (b)-(i); (c)-(v); (d)-(ii); (e)-(iii)",
+    "solution": "Lymphocyte - 25% to 30%; Eosinophils - 1% to 3%; Basophils - 0.5% to 1%; Neutrophils - About 70%; Monocytes - 3% to 5%.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Respiration and Circulation",
+    "question": "Out of the total $CO_2$ formed, about 70% enters into the RBCs and forms_____.[MHT-CET 2023]",
+    "question_latex": "Out of the total $CO_2$ formed, about 70\\% enters into the RBCs and forms_____.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Carbonic acid",
+      "B. Carbamino haemoglobin",
+      "C. Oxyhemoglobin",
+      "D. Carboxyhemoglobin"
+    ],
+    "option_images": [],
+    "answer": "A. Carbonic acid",
+    "solution": "Out of the total $CO_2$ formed, about 70% enters into the RBCs and forms Carbonic acid in presence of carbonic anhydrase.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Respiration and Circulation",
+    "question": "Which one of following is complex V of the ETS of inner mitochondrial membrane?",
+    "question_latex": "Which one of following is complex V of the ETS of inner mitochondrial membrane?",
+    "question_images": [],
+    "options": [
+      "A. NADH Dehydrogenase",
+      "B. Cytochrome oxidase",
+      "C. Ubiquinone",
+      "D. ATP synthase"
+    ],
+    "option_images": [],
+    "answer": "D. ATP synthase",
+    "solution": "The complex V of ETS of mitochondrial membrane is ATP synthase, which has a head piece ($F_1$), stalk and a base piece ($F_0$). The head piece is identified as the coupling factor 1.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Respiration and Circulation",
+    "question": "Air filled in dead space is",
+    "question_latex": "Air filled in dead space is",
+    "question_images": [],
+    "options": [
+      "A. 150 cc",
+      "B. 350 cc",
+      "C. 500 cc",
+      "D. 1500 cc"
+    ],
+    "option_images": [],
+    "answer": "A. 150 cc",
+    "solution": "Air filled in dead space is 150 cc (ml). Dead space is the volume of air present in the respiratory tract but not involved in gaseous exchange.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Respiration and Circulation",
+    "question": "The remnant of which embryonic aperture lies on the inter-atrial septum?[MHT-CET 2024]",
+    "question_latex": "The remnant of which embryonic aperture lies on the inter-atrial septum?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Foramen of Luschka",
+      "B. Foramen ovalis",
+      "C. Foramen of Magendie",
+      "D. Foramen of Monro"
+    ],
+    "option_images": [],
+    "answer": "B. Foramen ovalis",
+    "solution": "Inter auricular septum has an oval depression called fossa ovalis. It is a remnant of the embryonic aperture called foramen ovalis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Respiration and Circulation",
+    "question": "A stent is inserted at the site of blockage in coronary blood vessel to restore the blood supply, in[MHT-CET 2023]",
+    "question_latex": "A stent is inserted at the site of blockage in coronary blood vessel to restore the blood supply, in[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Angioplasty",
+      "B. ECG",
+      "C. Bypass",
+      "D. Angiography"
+    ],
+    "option_images": [],
+    "answer": "A. Angioplasty",
+    "solution": "In angioplasty, a stent is inserted at the site of blockage to restore the blood supply while in by-pass surgery, the atherosclerotic region is by-passed with part of vein or artery taken from any other suitable part of the body.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Respiration and Circulation",
+    "question": "The smallest WBC is ___[MHT-CET 2024]",
+    "question_latex": "The smallest WBC is ___[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Neutrophil",
+      "B. Lymphocyte",
+      "C. Basophil",
+      "D. Monocyte"
+    ],
+    "option_images": [],
+    "answer": "B. Lymphocyte",
+    "solution": "Lymphocytes are the smallest of all WBCs and have a large spherical nucleus. They constitute about 25-30% of total WBCs.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Respiration and Circulation",
+    "question": "Hering-Breuer reflex controls_____.[MHT-CET 2024]",
+    "question_latex": "Hering-Breuer reflex controls_____.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. dissociation of oxyhaemoglobin",
+      "B. excessive expiration",
+      "C. depth and rhythm of respiration",
+      "D. synthesis of carbonic anhydrase"
+    ],
+    "option_images": [],
+    "answer": "C. depth and rhythm of respiration",
+    "solution": "Hering-Breuer reflex controls depth and rhythm of respiration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Respiration and Circulation",
+    "question": "The $pCO_2$ of inspired air is _________ mmHg during external respiration.[MHT-CET 2020]",
+    "question_latex": "The $pCO_2$ of inspired air is _________ mmHg during external respiration.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. 30",
+      "B. 100",
+      "C. 80",
+      "D. 40"
+    ],
+    "option_images": [],
+    "answer": "D. 40",
+    "solution": "$pCO_2$ of inspired air is 40 mm of Hg. Whereas in expired air it is 45 mm of Hg.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match regarding circulation in animals.[MHT-CET 2024]",
+    "question_latex": "Select the correct match regarding circulation in animals.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Double circulation - Venous heart",
+      "B. Open circulation - Network of blood vessels",
+      "C. Closed circulation - Transport of gases through haemoglobin",
+      "D. Parenchymal circulation - Round worm"
+    ],
+    "option_images": [],
+    "answer": "C. Closed circulation - Transport of gases through haemoglobin",
+    "solution": "Closed circulation - Transport of gases through haemoglobin of blood densely packed in RBC.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Respiration and Circulation",
+    "question": "Suresh slipped and fell in a swimming pool. He did not know swimming. He tried for safety but was drowning. Which of the following safety measures would save his life?\nI. Make air passage open in upper respiratory tract.\nII. Forced breathing as in mouth to mouth respiration.\nIII. By using ventilator.\nIV. By checking hemoglobin percentage.[MHT-CET 2023]",
+    "question_latex": "Which of the following safety measures would save the life of a drowning person?[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. III and IV only",
+      "B. II, III and IV only",
+      "C. I, II and III only",
+      "D. I and II only"
+    ],
+    "option_images": [],
+    "answer": "C. I, II and III only",
+    "solution": "Checking hemoglobin percentage is for finding out anemic condition in an individual, not helpful in drowning emergency. Making air passage open, mouth-to-mouth breathing, and ventilator are appropriate measures.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Respiration and Circulation",
+    "question": "CO is more toxic than $CO_2$ because it:",
+    "question_latex": "CO is more toxic than $CO_2$ because it:",
+    "question_images": [],
+    "options": [
+      "A. Damages lungs",
+      "B. It destroys haemoglobin",
+      "C. Affects the nervous system",
+      "D. Reduces the oxygen carrying capacity of Haemoglobin"
+    ],
+    "option_images": [],
+    "answer": "D. Reduces the oxygen carrying capacity of Haemoglobin",
+    "solution": "CO (carbon monoxide) is more toxic than $CO_2$ because it reduces the oxygen carrying capacity of Haemoglobin by forming carboxyhaemoglobin which is a stable compound.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Respiration and Circulation",
+    "question": "$Rh^{+ve}$ antigen induces a strong immunogenic response when introduced into $Rh^{-ve}$ mother and results in ________ disease of fetus in subsequent pregnancy.[MHT-CET 2020]",
+    "question_latex": "$Rh^{+ve}$ antigen induces a strong immunogenic response when introduced into $Rh^{-ve}$ mother and results in ________ disease of fetus in subsequent pregnancy.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Pneumonia",
+      "B. Dermatophytosis",
+      "C. Erythroblastosis foetalis",
+      "D. Acute coryza"
+    ],
+    "option_images": [],
+    "answer": "C. Erythroblastosis foetalis",
+    "solution": "Erythroblastosis foetalis is the condition arising by Rh-ve mother and Rh+ve father with a fetus Rh+ve developing in Rh-ve mother uterus. This causes strong immunological responses and causing destructions of fetal RBCs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Respiration and Circulation",
+    "question": "Pneumotaxic center in pons is responsible for following EXCEPT _____[MHT-CET 2023]",
+    "question_latex": "Pneumotaxic center in pons is responsible for following EXCEPT _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Rapid eye movements",
+      "B. Limiting inspiration",
+      "C. Slow wave sleep",
+      "D. Wakefulness"
+    ],
+    "option_images": [],
+    "answer": "D. Wakefulness",
+    "solution": "Apneustic center in the medulla is antagonistic to the pneumotaxic center. It controls non rapid eye movement sleep and wakefulness.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct match from the given pulmonary volumes, their values and explanation.[MHT-CET 2023]",
+    "question_latex": "Select the correct match from the given pulmonary volumes, their values and explanation.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Tidal volume - 2000 to 3000 ml, maximum volume of air inspired during forced breathing.",
+      "B. Inspiratory reserve volume - 4100 to 4600 ml of air that can be breathed out after maximum inspiration.",
+      "C. Residual volume - 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration.",
+      "D. Vital capacity - 500 ml, volume of air inspired or expired during normal breathing."
+    ],
+    "option_images": [],
+    "answer": "C. Residual volume - 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration.",
+    "solution": "Residual volume is 1100 to 1200 ml, volume of air that remains in the lungs even after maximum expiration. It is the maximum volume of air that is inspired during forceful breathing.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the INCORRECT statement.[MHT-CET 2020]",
+    "question_latex": "Select the INCORRECT statement.[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Cardiac activity is regulated by autonomic nerves supply to SA node.",
+      "B. QRS complex represents spreading of impulse from SA node to bundle of His, AV node and Purkinje fibers.",
+      "C. Conducting gel is applied between electrodes and skin to detect tiny impulses in the record of electrocardiogram.",
+      "D. Degeneration of heart muscles may result from factors such as malnutrition, chronic infection etc."
+    ],
+    "option_images": [],
+    "answer": "B. QRS complex represents spreading of impulse from SA node to bundle of His, AV node and Purkinje fibers.",
+    "solution": "QRS complex represents ventricular contraction during cardiac cycle which is studied with the help of electrocardiograph.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Respiration and Circulation",
+    "question": "Which of the following are modified respiratory movements?[MHT-CET 2024]",
+    "question_latex": "Which of the following are modified respiratory movements?[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Movement of sternum outward and upwards",
+      "B. Rapid eye movements",
+      "C. Coughing and yawning",
+      "D. Pulling the ribcage inward and downwards"
+    ],
+    "option_images": [],
+    "answer": "C. Coughing and yawning",
+    "solution": "Some respiratory movements are different from the normal movements and help express emotion or clear the air passage, some may be reflexes, but others can be initiated voluntarily e.g. coughing and yawning.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Respiration and Circulation",
+    "question": "Heart attack is also called _________[MHT-CET 2018]",
+    "question_latex": "Heart attack is also called _________[MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Arteriosclerosis",
+      "B. Angina pectoris",
+      "C. Bradycardia",
+      "D. Myocardial infarction"
+    ],
+    "option_images": [],
+    "answer": "D. Myocardial infarction",
+    "solution": "Heart attack is also called Myocardial infarction. It occurs due to blockage of coronary arteries leading to death of cardiac muscle cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Respiration and Circulation",
+    "question": "The self-excitable and autorhythmic tissue located in the human heart is ________[MHT-CET 2020]",
+    "question_latex": "The self-excitable and autorhythmic tissue located in the human heart is ________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. SAN",
+      "B. AVN",
+      "C. Bundle of HIS",
+      "D. Bundle branch"
+    ],
+    "option_images": [],
+    "answer": "A. SAN",
+    "solution": "SAN in human heart is also called pace maker which consists of self excitable and auto rhythmic tissue which generates the impulse for conduction of heart.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Respiration and Circulation",
+    "question": "Volume of air that is present in respiratory tract and not involved in gaseous exchange is[MHT-CET 2024]",
+    "question_latex": "Volume of air that is present in respiratory tract and not involved in gaseous exchange is[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Dead space",
+      "B. Tidal volume",
+      "C. Vital capacity",
+      "D. Residual volume"
+    ],
+    "option_images": [],
+    "answer": "A. Dead space",
+    "solution": "Dead space (DS) is the volume of air that is present in the respiratory tract (from nose to the terminal bronchioles), but not involved in gaseous exchange. It is 150 ml.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Respiration and Circulation",
+    "question": "Leucocytes which release heparin and histamine are ___________[MHT-CET 2020]",
+    "question_latex": "Leucocytes which release heparin and histamine are ___________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Monocytes",
+      "B. Basophils",
+      "C. Acidophils",
+      "D. Neutrophils"
+    ],
+    "option_images": [],
+    "answer": "B. Basophils",
+    "solution": "Granulocytes are of three types: Neutrophils - Phagocytic, Acidophils - antihistamine, Basophils - releasing heparin and histamine. Agranulocytes are of two types: Lymphocytes - antibody production and Monocytes - Phagocytic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Respiration and Circulation",
+    "question": "Match the animals given in Column I with their respiratory organs in Column II and select the correct option. [2022]\nColumn I: A. Turtles, B. Limulus, C. Insects, D. Spiders\nColumn II: I. Tracheal tubes and spiracle, II. Cloaca, III. Book Lungs, IV. Book gills",
+    "question_latex": "Match the animals given in Column I with their respiratory organs in Column II. [2022]",
+    "question_images": [
+      "q95_1"
+    ],
+    "options": [
+      "A. A - II, B - IV, C - III, D - I",
+      "B. A - II, B - IV, C - I, D - III",
+      "C. A - III, B - II, C - IV, D - I",
+      "D. A - IV, B - III, C - I, D - II"
+    ],
+    "option_images": [],
+    "answer": "B. A - II, B - IV, C - I, D - III",
+    "solution": "Turtles - Cloaca; Limulus - Book gills; Insects - Tracheal tubes and spiracle; Spiders - Book Lungs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Respiration and Circulation",
+    "question": "Select the correct statements about alveoli from the following.\n(I) Air sac of each tertiary bronchi shows 10 to 12 alveoli.\n(II) Each alveolus is surrounded by a network of capillaries.\n(III) They are lined by ciliated pseudostratified epithelium.\n(IV) They provide surface area for exchange of gases.\n(V) There are about 700 million alveoli in the lungs.[MHT-CET 2024]",
+    "question_latex": "Select the correct statements about alveoli from the following.[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. (III), (IV) and (V) only",
+      "B. (II), (IV) and (V) only",
+      "C. (II), (III) and (IV) only",
+      "D. (I), (II) and (III) only"
+    ],
+    "option_images": [],
+    "answer": "B. (II), (IV) and (V) only",
+    "solution": "Terminal bronchioles ending in a bunch of air sacs, each with 10 to 12 alveoli. These have highly elastic wall made up of a single layer of squamous epithelium resting on a basement membrane of connective tissue. Each alveolus is surrounded by a network of capillaries and they provide surface area for exchange of gases.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Respiration and Circulation",
+    "question": "Given below are two statements.\nStatement-I: Energy obtained from respiration is useful for synthesis of biomolecules.\nStatement-II: Respiration is not the source of energy for repairs and replacement of worn out parts.\nIn the light of above statements, choose the correct answer from the options given below.[MHT-CET 2023]",
+    "question_latex": "Given below are two statements about respiration. Choose the correct answer.[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement-I is incorrect but statement-II is correct.",
+      "B. Both statement-I and statement-II are correct.",
+      "C. Both statement-I and statement-II are incorrect.",
+      "D. Statement-I is correct but statement-II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "D. Statement-I is correct but statement-II is incorrect.",
+    "solution": "Respiration is the only source of energy for repairs and replacement of worn out parts through the energy released in form of ATP.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Respiration and Circulation",
+    "question": "Heart failure occurs due to following factors EXCEPT ________[MHT-CET 2020]",
+    "question_latex": "Heart failure occurs due to following factors EXCEPT ________[MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. adequate supply of nutrients and oxygen.",
+      "B. progressive weakening of cardiac muscles.",
+      "C. increase in the afterload on the heart due to hypertension.",
+      "D. degeneration of cardiac muscles."
+    ],
+    "option_images": [],
+    "answer": "A. adequate supply of nutrients and oxygen.",
+    "solution": "Adequate supply of nutrient and oxygen will provide ideal conditions for the organ to work, hence it prevents heart failure rather than causing it.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Respiration and Circulation",
+    "question": "The center antagonistic to pneumotaxic center in the medulla is _____[MHT-CET 2023]",
+    "question_latex": "The center antagonistic to pneumotaxic center in the medulla is _____[MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Expiratory",
+      "B. Inspiratory",
+      "C. Cardiac",
+      "D. Apneustic"
+    ],
+    "option_images": [],
+    "answer": "D. Apneustic",
+    "solution": "The center antagonistic to pneumotaxic center in the medulla is apneustic. It controls non rapid eye movement, sleep, wakefulness.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Respiration and Circulation",
+    "question": "SA Node is called pacemaker of heart because it[MHT-CET 2024]",
+    "question_latex": "SA Node is called pacemaker of heart because it[MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. has power of generating a new wave of contraction",
+      "B. passes the wave of contraction to AV Node",
+      "C. is dependent on nervous inputs",
+      "D. spreads the wave of contraction in atrial wall"
+    ],
+    "option_images": [],
+    "answer": "A. has power of generating a new wave of contraction",
+    "solution": "SA Node is called pacemaker of heart because it has power of generating a new wave of contraction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

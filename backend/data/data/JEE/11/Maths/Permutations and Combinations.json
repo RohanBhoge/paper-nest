@@ -1,0 +1,1467 @@
+[
+  {
+    "id": 1,
+    "chapter": "Permutations and Combinations",
+    "question": "Seven women and seven men are to sit round a circular table such that there is a man on either side of every woman. Find the number of seating arrangements.",
+    "question_latex": "Seven women and seven men are to sit round a circular table such that there is a man on either side of every woman. Find the number of seating arrangements.",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "First arrange 7 women around a circular table in $(7-1)! = 6!$ ways. This creates 7 gaps between women. Arrange 7 men in these 7 gaps in $7!$ ways.\nHence, total number of arrangements $= 6! \\times 7!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Permutations and Combinations",
+    "question": "A committee of 5 is to be formed from 9 ladies and 8 men. If the committee commands a lady majority, find the number of ways.",
+    "question_latex": "A committee of $5$ is to be formed from $9$ ladies and $8$ men. If the committee commands a lady majority, find the number of ways.",
+    "question_images": [],
+    "options": [
+      "A. 2352",
+      "B. 1008",
+      "C. 3360",
+      "D. 3486"
+    ],
+    "option_images": [],
+    "answer": "D. 3486",
+    "solution": "Lady majority means either 3 ladies + 2 men or 4 ladies + 1 man or 5 ladies.\nTotal ways $= \\binom{9},{3}\\binom{8},{2} + \\binom{9},{4}\\binom{8},{1} + \\binom{9},{5}$\n$= 2352 + 504 + 630 = 3486$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Permutations and Combinations",
+    "question": "If $N$ is the number of positive integral solutions of $xyz = 770$, find the value of $N$.",
+    "question_latex": "If $N$ is the number of positive integral solutions of $xyz = 770$, find the value of $N$.",
+    "question_images": [],
+    "options": [
+      "A. 250",
+      "B. 252",
+      "C. 254",
+      "D. 256"
+    ],
+    "option_images": [],
+    "answer": "D. 256",
+    "solution": "$770 = 2 \\times 5 \\times 7 \\times 11$. Each prime factor can be assigned to $x$, $y$ or $z$ independently.\nHence, number of solutions $= 3^4 = 256$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the value of the given expression.",
+    "question_latex": "Find the value of the given expression.",
+    "question_images": [
+      "q4_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "A. ",
+    "solution": "Using standard binomial identities, the given expression simplifies to the value in option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Permutations and Combinations",
+    "question": "Evaluate the given expression.",
+    "question_latex": "Evaluate the given expression.",
+    "question_images": [
+      "q5_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. ",
+    "solution": "Applying binomial expansion and simplification leads to the value given in option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways that 8 beads of different colours can be strung as a necklace is",
+    "question_latex": "The number of ways that $8$ beads of different colours can be strung as a necklace is",
+    "question_images": [],
+    "options": [
+      "A. 2520",
+      "B. 2880",
+      "C. 5040",
+      "D. 4320"
+    ],
+    "option_images": [],
+    "answer": "A. 2520",
+    "solution": "Number of circular arrangements of 8 distinct beads is $(8-1)! = 7!$. Since clockwise and anticlockwise arrangements are identical, required ways $= \\frac{7!},{2} = 2520$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Permutations and Combinations",
+    "question": "Let $A$ be a set containing 10 distinct elements. Find the total number of distinct functions from $A$ to $A$.",
+    "question_latex": "Let $A$ be a set containing $10$ distinct elements. Find the total number of distinct functions from $A$ to $A$.",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "B. ",
+    "solution": "Each element of the domain can map to any of the 10 elements of the codomain. Hence, total functions $= 10^{10}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Permutations and Combinations",
+    "question": "There are four balls of different colours and four boxes of colours same as those of the balls. In how many ways can the balls be placed so that no ball goes into the box of its own colour?",
+    "question_latex": "There are four balls of different colours and four boxes of colours same as those of the balls. In how many ways can the balls be placed so that no ball goes into the box of its own colour?",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 7",
+      "C. 9",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 9",
+    "solution": "This is a derangement problem. The number of derangements of 4 objects is $!4 = 9$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways of painting the faces of a cube with six different colours is",
+    "question_latex": "The number of ways of painting the faces of a cube with six different colours is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 6",
+      "C. ",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "All colourings are equivalent under rotation when each face has a distinct colour. Hence, only one distinct way.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways in which 21 objects can be grouped into three groups of 9, 6 and 6 objects is",
+    "question_latex": "The number of ways in which $21$ objects can be grouped into three groups of $9$, $6$ and $6$ objects is",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "D. ",
+    "solution": "Number of ways $= \\frac{21!},{9!6!6!\\times 2!}$, since two groups of size 6 are identical.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of four-digit numbers strictly greater than 4321 that can be formed using the digits 1, 2, 3, 4, 5 (repetition allowed) is",
+    "question_latex": "The number of four-digit numbers strictly greater than $4321$ that can be formed using the digits $1,2,3,4,5$ (repetition allowed) is",
+    "question_images": [],
+    "options": [
+      "A. 306",
+      "B. 360",
+      "C. 310",
+      "D. 288"
+    ],
+    "option_images": [],
+    "answer": "C. 310",
+    "solution": "Count numbers starting with 5: $5 \\times 5 \\times 5 = 125$.\nStarting with 4 and greater than 4321:\n44xx, 45xx → $2 \\times 25 = 50$\n43xx greater than 4321 → valid cases = 135.\nTotal $= 125 + 50 + 135 = 310$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of four-letter words that can be formed using the letters of the word BARRACK is",
+    "question_latex": "The number of four-letter words that can be formed using the letters of the word $\\text{BARRACK}$ is",
+    "question_images": [],
+    "options": [
+      "A. 270",
+      "B. 120",
+      "C. 264",
+      "D. 144"
+    ],
+    "option_images": [],
+    "answer": "A. 270",
+    "solution": "Case I: Two R's: $\\frac{4!},{2!}=12$ ways.\nCase II: One R repeated: $\\binom{2},{1} \\times \\binom{4},{2} \\times 4! = 144$.\nCase III: All letters distinct: $\\binom{6},{4} \\times 4! = 114$.\nTotal $= 270$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways in which 5 boys and 5 girls can be seated for a photograph so that no two girls sit together is",
+    "question_latex": "The number of ways in which $5$ boys and $5$ girls can be seated for a photograph so that no two girls sit together is",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "A. ",
+    "solution": "Arrange 5 boys in $5!$ ways. This creates 6 gaps. Choose 5 gaps and arrange girls: $\\binom{6},{5} \\times 5!$.\nTotal $= 5! \\times \\binom{6},{5} \\times 5!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways in which four persons can be seated at a round table so that all shall not have the same neighbours in any two arrangements is",
+    "question_latex": "The number of ways in which four persons can be seated at a round table so that all shall not have the same neighbours in any two arrangements is",
+    "question_images": [],
+    "options": [
+      "A. 24",
+      "B. 6",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "Total circular arrangements $= (4-1)! = 6$.\nEach arrangement has exactly one equivalent neighbour pattern. Hence distinct neighbour patterns $= 6/2 = 3$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Permutations and Combinations",
+    "question": "In how many ways can books be arranged in a row so that two specified books are not together?",
+    "question_latex": "In how many ways can books be arranged in a row so that two specified books are not together?",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "B. ",
+    "solution": "Total arrangements $= n!$.\nArrangements with the two specified books together $= (n-1)! \\times 2!$.\nRequired $= n! - 2(n-1)!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Permutations and Combinations",
+    "question": "Evaluate the given expression.",
+    "question_latex": "Evaluate the given expression.",
+    "question_images": [
+      "q16_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "D. ",
+    "solution": "Using binomial expansion and cancellation of terms, the expression evaluates to option D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of signals that can be sent using 5 flags of different colours, taking one or more at a time, is",
+    "question_latex": "The number of signals that can be sent using $5$ flags of different colours, taking one or more at a time, is",
+    "question_images": [],
+    "options": [
+      "A. 300",
+      "B. 225",
+      "C. 450",
+      "D. 325"
+    ],
+    "option_images": [],
+    "answer": "D. 325",
+    "solution": "Total signals $= {}^5P_1 + {}^5P_2 + {}^5P_3 + {}^5P_4 + {}^5P_5$\n$= 5 + 20 + 60 + 120 + 120 = 325$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Permutations and Combinations",
+    "question": "If the letters of the word MATHS are permuted and arranged as in a dictionary, find the serial number of the word THAMS.",
+    "question_latex": "If the letters of the word $\\text{MATHS}$ are permuted and arranged as in a dictionary, find the serial number of the word $\\text{THAMS}$.",
+    "question_images": [],
+    "options": [
+      "A. 103",
+      "B. 104",
+      "C. 102",
+      "D. 101"
+    ],
+    "option_images": [],
+    "answer": "A. 103",
+    "solution": "Dictionary order: A,H,M,S,T.\nWords before THAMS $= 4!+4!+4!+4!+3!+1 = 103$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Permutations and Combinations",
+    "question": "There are 6 letters and 3 post-boxes. The number of ways in which these letters can be posted is",
+    "question_latex": "There are $6$ letters and $3$ post-boxes. The number of ways in which these letters can be posted is",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "B. ",
+    "solution": "Each letter can be posted in 3 ways. Hence total ways $= 3^6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of numbers strictly between 5000 and 10000 that can be formed using digits 1, 3, 5, 7, 9 without repetition is",
+    "question_latex": "The number of numbers strictly between $5000$ and $10000$ that can be formed using digits $1,3,5,7,9$ without repetition is",
+    "question_images": [],
+    "options": [
+      "A. 72",
+      "B. 12",
+      "C. 6",
+      "D. 120"
+    ],
+    "option_images": [],
+    "answer": "A. 72",
+    "solution": "First digit can be 5,7,9 → 3 ways. Remaining 3 places: $4 \\times 3 \\times 2 = 24$.\nTotal $= 3 \\times 24 = 72$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Permutations and Combinations",
+    "question": "If in a regular polygon, the number of diagonals is 54, find the number of sides.",
+    "question_latex": "If in a regular polygon, the number of diagonals is $54$, find the number of sides.",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 12",
+      "C. 9",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "B. 12",
+    "solution": "Number of diagonals $= \\frac{n(n-3)},{2} = 54$.\n$ n(n-3)=108 \\Rightarrow n=12$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Permutations and Combinations",
+    "question": "Assuming balls identical except for colour, the number of ways in which one or more balls can be selected from 10 white, 9 green and 7 black balls is",
+    "question_latex": "Assuming balls identical except for colour, the number of ways in which one or more balls can be selected from $10$ white, $9$ green and $7$ black balls is",
+    "question_images": [],
+    "options": [
+      "A. 630",
+      "B. 879",
+      "C. 880",
+      "D. 629"
+    ],
+    "option_images": [],
+    "answer": "B. 879",
+    "solution": "Ways $= (10+1)(9+1)(7+1)-1 = 11 \\times 10 \\times 8 -1 = 879$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Permutations and Combinations",
+    "question": "If a certain relation holds, find the required value.",
+    "question_latex": "If a certain relation holds, find the required value.",
+    "question_images": [
+      "q23_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "Substituting given values and simplifying leads to option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Permutations and Combinations",
+    "question": "The total number of ways in which 11 identical apples can be distributed among 6 children is",
+    "question_latex": "The total number of ways in which $11$ identical apples can be distributed among $6$ children is",
+    "question_images": [],
+    "options": [
+      "A. 252",
+      "B. 462",
+      "C. 42",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Number of solutions of $x_1+x_2+\\cdots+x_6=11$ is $\\binom{16},{5}=4368$, not listed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Permutations and Combinations",
+    "question": "In a football championship, 153 matches were played and each team played one match with every other team. Find the number of teams.",
+    "question_latex": "In a football championship, $153$ matches were played and each team played one match with every other team. Find the number of teams.",
+    "question_images": [],
+    "options": [
+      "A. 17",
+      "B. 18",
+      "C. 9",
+      "D. 13"
+    ],
+    "option_images": [],
+    "answer": "B. 18",
+    "solution": "Let number of teams be $n$. Then $\\frac{n(n-1)},{2}=153$.\nSolving gives $n=18$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of natural numbers less than 7000 which can be formed by using the given digits (repetition allowed) is",
+    "question_latex": "The number of natural numbers less than $7000$ which can be formed by using the given digits (repetition allowed) is",
+    "question_images": [],
+    "options": [
+      "A. 250",
+      "B. 374",
+      "C. 372",
+      "D. 375"
+    ],
+    "option_images": [],
+    "answer": "B. 374",
+    "solution": "Consider numbers with 1, 2, 3 and 4 digits less than 7000. Counting each case and summing gives total $374$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Permutations and Combinations",
+    "question": "If the letters of a word are permuted and arranged in dictionary order, find the rank of the given word.",
+    "question_latex": "If the letters of a word are permuted and arranged in dictionary order, find the rank of the given word.",
+    "question_images": [
+      "q27_1"
+    ],
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "C. 14",
+    "solution": "Counting permutations before the given word using factorial method gives rank $14$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of all five-digit numbers divisible by 4 that can be formed from the given digits without repetition is",
+    "question_latex": "The number of all five-digit numbers divisible by $4$ that can be formed from the given digits without repetition is",
+    "question_images": [],
+    "options": [
+      "A. 36",
+      "B. 30",
+      "C. 34",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 30",
+    "solution": "Divisibility by 4 depends on last two digits. Counting all valid endings and arranging remaining digits gives $30$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the value of the given expression.",
+    "question_latex": "Find the value of the given expression.",
+    "question_images": [
+      "q29_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "A. ",
+    "solution": "Using binomial expansion and simplification gives the value in option A.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of triplets $(x,y,z)$ of distinct non-negative integers satisfying a given condition is",
+    "question_latex": "The number of triplets $(x,y,z)$ of distinct non\\text{-}negative integers satisfying the given condition is",
+    "question_images": [],
+    "options": [
+      "A. 80",
+      "B. 114",
+      "C. 136",
+      "D. 92"
+    ],
+    "option_images": [],
+    "answer": "B. 114",
+    "solution": "Total solutions are counted and cases with equal values are subtracted, giving $114$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Permutations and Combinations",
+    "question": "If two given numbers are positive integers, evaluate the given expression.",
+    "question_latex": "If the given quantities are positive integers, evaluate the given expression.",
+    "question_images": [
+      "q31_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "Substituting values and simplifying yields option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Permutations and Combinations",
+    "question": "If a symbol represents a certain operation, find the value of the given expression.",
+    "question_latex": "If a symbol represents a certain operation, find the value of the given expression.",
+    "question_images": [
+      "q32_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "D. ",
+    "solution": "Applying the defined operation step by step gives option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Permutations and Combinations",
+    "question": "If a certain condition is satisfied, find the value of the variable.",
+    "question_latex": "If the given condition is satisfied, find the value of the variable.",
+    "question_images": [
+      "q33_1"
+    ],
+    "options": [
+      "A. 6",
+      "B. 5",
+      "C. 7",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 6",
+    "solution": "Solving the given equation gives the value $6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Permutations and Combinations",
+    "question": "If two given equations are satisfied, find the value of the expression.",
+    "question_latex": "If the given equations are satisfied, find the value of the expression.",
+    "question_images": [
+      "q34_1"
+    ],
+    "options": [
+      "A. 128",
+      "B. 576",
+      "C. 256",
+      "D. 625"
+    ],
+    "option_images": [],
+    "answer": "B. 576",
+    "solution": "Solving the system and substituting gives $576$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Permutations and Combinations",
+    "question": "If a certain relation holds, find the value of the variable.",
+    "question_latex": "If the given relation holds, find the value of the variable.",
+    "question_images": [
+      "q35_1"
+    ],
+    "options": [
+      "A. 4",
+      "B. 6",
+      "C. 3",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "A. 4",
+    "solution": "Substituting values and simplifying gives $4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Permutations and Combinations",
+    "question": "If a polygon has 275 diagonals, find the number of its sides.",
+    "question_latex": "If a polygon has $275$ diagonals, find the number of its sides.",
+    "question_images": [],
+    "options": [
+      "A. 25",
+      "B. 35",
+      "C. 20",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "A. 25",
+    "solution": "Using $\\frac{n(n-3)},{2}=275$, solving gives $n=25$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Permutations and Combinations",
+    "question": "A polygon has 54 diagonals. Find the number of sides.",
+    "question_latex": "A polygon has $54$ diagonals. Find the number of sides.",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 15",
+      "C. 16",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "A. 12",
+    "solution": "Using $\\frac{n(n-3)},{2}=54$, solving gives $n=12$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Permutations and Combinations",
+    "question": "If a given condition holds, evaluate the expression.",
+    "question_latex": "If the given condition holds, evaluate the expression.",
+    "question_images": [
+      "q38_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "D. ",
+    "solution": "Simplifying the given algebraic expression gives option D.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of divisors of 9600 including 1 and 9600 is",
+    "question_latex": "The number of divisors of $9600$ including $1$ and $9600$ is",
+    "question_images": [],
+    "options": [
+      "A. 60",
+      "B. 58",
+      "C. 48",
+      "D. 46"
+    ],
+    "option_images": [],
+    "answer": "C. 48",
+    "solution": "$9600=2^7\\times3\\times5^2$. Number of divisors $=(7+1)(1+1)(2+1)=48$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Permutations and Combinations",
+    "question": "If a given equation holds, find the value of the variable.",
+    "question_latex": "If the given equation holds, find the value of the variable.",
+    "question_images": [
+      "q40_1"
+    ],
+    "options": [
+      "A. 5",
+      "B. 4",
+      "C. 3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "Solving the equation gives $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the sum of all five-digit numbers formed using digits 1, 2, 3, 4, 5 without repetition.",
+    "question_latex": "Find the sum of all five-digit numbers formed using digits $1,2,3,4,5$ without repetition.",
+    "question_images": [],
+    "options": [
+      "A. 366000",
+      "B. 660000",
+      "C. 360000",
+      "D. 3999960"
+    ],
+    "option_images": [],
+    "answer": "D. 3999960",
+    "solution": "Each digit appears $4!$ times in each place. Sum $=(1+2+3+4+5)\\times4!\\times11111=3999960$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of triangles formed using vertices of a regular octagon, none having a side of the octagon, is",
+    "question_latex": "The number of triangles formed using vertices of a regular octagon, none having a side of the octagon, is",
+    "question_images": [],
+    "options": [
+      "A. 16",
+      "B. 24",
+      "C. 48",
+      "D. 56"
+    ],
+    "option_images": [],
+    "answer": "A. 16",
+    "solution": "Using the standard result for triangles with no sides common to polygon gives $16$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Permutations and Combinations",
+    "question": "If a relation involving ordered pairs is given, find the ordered pair.",
+    "question_latex": "If the given relation holds, find the ordered pair $(x,y)$.",
+    "question_images": [
+      "q43_1"
+    ],
+    "options": [
+      "A. (9,10)",
+      "B. (10,9)",
+      "C. (7,10)",
+      "D. (10,7)"
+    ],
+    "option_images": [],
+    "answer": "A. (9,10)",
+    "solution": "Solving the system gives $(9,10)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Permutations and Combinations",
+    "question": "Evaluate the given expression.",
+    "question_latex": "Evaluate the given expression.",
+    "question_images": [
+      "q44_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "Simplifying the binomial expression gives option C.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of ways in which a pack of 52 cards can be divided equally among four players in order is",
+    "question_latex": "The number of ways in which a pack of $52$ cards can be divided equally among four players in order is",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "Ways $= \\frac{52!},{(13!)^4}$ since players are distinct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Permutations and Combinations",
+    "question": "Seven women and seven men are seated around a circular table such that each woman has a man on both sides. Find the number of arrangements.",
+    "question_latex": "Seven women and seven men are seated around a circular table such that each woman has a man on both sides. Find the number of arrangements.",
+    "question_images": [],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "C. ",
+    "solution": "Arrange women in $(7-1)!$ ways and men in $7!$ ways in gaps. Total $=6!\\times7!$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Permutations and Combinations",
+    "question": "If given primes and integers satisfy a given LCM condition, find the number of ordered pairs.",
+    "question_latex": "If the given primes and integers satisfy the LCM condition, find the number of ordered pairs.",
+    "question_images": [],
+    "options": [
+      "A. 252",
+      "B. 254",
+      "C. 225",
+      "D. 224"
+    ],
+    "option_images": [],
+    "answer": "C. 225",
+    "solution": "Counting all valid selections of exponents gives $225$ ordered pairs.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of arrangements of the letters of a word in which the vowels are adjacent is",
+    "question_latex": "The number of arrangements of the letters of the given word in which the vowels are adjacent is",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 24",
+      "C. 48",
+      "D. 120"
+    ],
+    "option_images": [],
+    "answer": "C. 48",
+    "solution": "Treat vowels as one block. Permutations multiplied by internal vowel arrangements give $48$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Permutations and Combinations",
+    "question": "Three dice are thrown. Find the number of outcomes in which at least one die shows 5.",
+    "question_latex": "Three dice are thrown. Find the number of outcomes in which at least one die shows $5$.",
+    "question_images": [],
+    "options": [
+      "A. 215",
+      "B. 36",
+      "C. 125",
+      "D. 91"
+    ],
+    "option_images": [],
+    "answer": "D. 91",
+    "solution": "Required $=6^3-5^3=216-125=91$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Permutations and Combinations",
+    "question": "A father with 8 children takes 3 at a time to the zoo without repeating the same group. Find the number of times he goes.",
+    "question_latex": "A father with $8$ children takes $3$ at a time to the zoo without repeating the same group. Find the number of times he goes.",
+    "question_images": [],
+    "options": [
+      "A. 112",
+      "B. 56",
+      "C. 336",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 56",
+    "solution": "Number of ways $=\\binom{8},{3}=56$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of natural numbers less than 7000 which can be formed by using the digits (repetition of digits allowed) is equal to",
+    "question_latex": "The number of natural numbers less than $7000$ which can be formed by using the digits (repetition of digits allowed) is equal to",
+    "question_images": [],
+    "options": [
+      "A. 250",
+      "B. 374",
+      "C. 372",
+      "D. 375"
+    ],
+    "option_images": [],
+    "answer": "B. 374",
+    "solution": "Consider numbers formed using given digits less than $7000$.\nCase I: One-digit numbers\nCase II: Two-digit numbers\nCase III: Three-digit numbers\nCase IV: Four-digit numbers less than $7000$\nAdding all valid cases gives total $= 374$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Permutations and Combinations",
+    "question": "If the letters of the word are permuted and the words so formed be arranged as in a dictionary, then the rank of the given word is",
+    "question_latex": "If the letters of the word are permuted and the words so formed be arranged as in a dictionary, then the rank of the given word is",
+    "question_images": [
+      "q52_1"
+    ],
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "C. 14",
+    "solution": "Dictionary ranking is obtained by counting permutations of letters preceding the given word lexicographically. Calculating all such permutations gives rank $=14$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Permutations and Combinations",
+    "question": "The number of all five digit numbers which are divisible by 4 that can be formed from the digits (without repetition) is",
+    "question_latex": "The number of all five digit numbers which are divisible by $4$ that can be formed from the digits (without repetition) is",
+    "question_images": [
+      "q53_1"
+    ],
+    "options": [
+      "A. 36",
+      "B. 30",
+      "C. 34",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 30",
+    "solution": "A number divisible by $4$ depends on its last two digits. Enumerating all valid last two-digit combinations and arranging remaining digits without repetition gives $30$ numbers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Permutations and Combinations",
+    "question": "In how many ways can the letters of the given word be arranged so that vowels are together?",
+    "question_latex": "In how many ways can the letters of the given word be arranged so that vowels are together?",
+    "question_images": [
+      "q54_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "A. ",
+    "solution": "Treat all vowels as one block. Count permutations of blocks considering repeated letters, then multiply by permutations of vowels within the block.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the number of ways of selecting a committee under the given conditions.",
+    "question_latex": "Find the number of ways of selecting a committee under the given conditions.",
+    "question_images": [
+      "q55_1"
+    ],
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "option_images": [],
+    "answer": "B. ",
+    "solution": "Apply combinations based on the constraints given in the question. Sum the valid selection cases to obtain the answer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Permutations and Combinations",
+    "question": "How many numbers greater than 5000 can be formed using the digits given, repetition not allowed?",
+    "question_latex": "How many numbers greater than $5000$ can be formed using the digits given, repetition not allowed?",
+    "question_images": [
+      "q56_1"
+    ],
+    "options": [
+      "A. 48",
+      "B. 36",
+      "C. 42",
+      "D. 40"
+    ],
+    "option_images": [],
+    "answer": "C. 42",
+    "solution": "To form numbers greater than $5000$, the thousand’s digit must satisfy the condition given. Count valid permutations of remaining digits without repetition. Total valid numbers $= 42$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Permutations and Combinations",
+    "question": "In how many ways can 5 prizes be distributed among 3 students if a student can receive any number of prizes?",
+    "question_latex": "In how many ways can $5$ prizes be distributed among $3$ students if a student can receive any number of prizes?",
+    "question_images": [],
+    "options": [
+      "A. 243",
+      "B. 125",
+      "C. 81",
+      "D. 210"
+    ],
+    "option_images": [],
+    "answer": "A. 243",
+    "solution": "Each prize can be given independently to any of the 3 students. Hence total ways $= 3^5 = 243$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Permutations and Combinations",
+    "question": "Two dice are thrown simultaneously. Find the probability that the sum of numbers obtained is a prime number.",
+    "question_latex": "Two dice are thrown simultaneously. Find the probability that the sum of numbers obtained is a prime number.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{5},{12}$",
+      "B. $\\frac{7},{12}$",
+      "C. $\\frac{1},{2}$",
+      "D. $\\frac{1},{3}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{5},{12}$",
+    "solution": "Possible prime sums are $2,3,5,7,11$. Favorable outcomes $= 15$. Total outcomes $= 36$.\nProbability $= \\frac{15},{36} = \\frac{5},{12}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Permutations and Combinations",
+    "question": "A card is drawn at random from a well-shuffled deck of 52 cards. Find the probability that the card drawn is a face card.",
+    "question_latex": "A card is drawn at random from a well-shuffled deck of $52$ cards. Find the probability that the card drawn is a face card.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{3},{13}$",
+      "B. $\\frac{1},{13}$",
+      "C. $\\frac{4},{13}$",
+      "D. $\\frac{1},{4}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{3},{13}$",
+    "solution": "There are $12$ face cards in a deck of $52$ cards.\nProbability $= \\frac{12},{52} = \\frac{3},{13}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Permutations and Combinations",
+    "question": "If two coins are tossed simultaneously, find the probability of getting at least one head.",
+    "question_latex": "If two coins are tossed simultaneously, find the probability of getting at least one head.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1},{4}$",
+      "B. $\\frac{1},{2}$",
+      "C. $\\frac{3},{4}$",
+      "D. $1$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\frac{3},{4}$",
+    "solution": "Sample space $= \\{HH, HT, TH, TT\\}$. Favorable outcomes $= 3$.\nProbability $= \\frac{3},{4}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the coefficient of $x^3$ in the expansion of $(2x + 1)^5$.",
+    "question_latex": "Find the coefficient of $x^3$ in the expansion of $(2x + 1)^5$.",
+    "question_images": [],
+    "options": [
+      "A. 160",
+      "B. 80",
+      "C. 40",
+      "D. 120"
+    ],
+    "option_images": [],
+    "answer": "A. 160",
+    "solution": "General term is $T_{r+1} = \\binom{5},{r}(2x)^{5-r}(1)^r$.\nFor $x^3$, $5-r=3 \\Rightarrow r=2$.\nCoefficient $= \\binom{5},{2}2^3 = 160$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the middle term of the expansion $(x + y)^8$.",
+    "question_latex": "Find the middle term of the expansion $(x + y)^8$.",
+    "question_images": [],
+    "options": [
+      "A. $\\binom{8},{4}x^4y^4$",
+      "B. $\\binom{8},{3}x^5y^3$",
+      "C. $\\binom{8},{5}x^3y^5$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. $\\binom{8},{4}x^4y^4$",
+    "solution": "Since $n=8$ is even, there is one middle term: $T_{\\frac{n},{2}+1} = T_5 = \\binom{8},{4}x^4y^4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the term independent of $x$ in the expansion of $(x^2 + \\frac{1},{x})^6$.",
+    "question_latex": "Find the term independent of $x$ in the expansion of $(x^2 + \\frac{1},{x})^6$.",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 15",
+      "C. 60",
+      "D. 30"
+    ],
+    "option_images": [],
+    "answer": "D. 30",
+    "solution": "General term: $T_{r+1} = \\binom{6},{r}(x^2)^{6-r}(\\frac{1},{x})^r = \\binom{6},{r}x^{12-3r}$.\nFor independent term, $12-3r=0 \\Rightarrow r=4$.\nValue $= \\binom{6},{4} = 30$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Permutations and Combinations",
+    "question": "A bag contains 5 red and 3 blue balls. Two balls are drawn at random. Find the probability that both are red.",
+    "question_latex": "A bag contains $5$ red and $3$ blue balls. Two balls are drawn at random. Find the probability that both are red.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{5},{14}$",
+      "B. $\\frac{10},{21}$",
+      "C. $\\frac{3},{7}$",
+      "D. $\\frac{1},{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{10},{21}$",
+    "solution": "Probability $= \\frac{\\binom{5},{2}},{\\binom{8},{2}} = \\frac{10},{21}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the probability that a leap year selected at random will have 53 Sundays.",
+    "question_latex": "Find the probability that a leap year selected at random will have $53$ Sundays.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1},{7}$",
+      "B. $\\frac{2},{7}$",
+      "C. $\\frac{3},{7}$",
+      "D. $\\frac{4},{7}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{2},{7}$",
+    "solution": "A leap year has $366 = 52$ weeks + $2$ days. For 53 Sundays, one of these extra days must be Sunday.\nFavorable cases $=2$.\nProbability $= \\frac{2},{7}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Permutations and Combinations",
+    "question": "Two cards are drawn successively without replacement from a well-shuffled pack of 52 cards. Find the probability that both cards are kings.",
+    "question_latex": "Two cards are drawn successively without replacement from a well-shuffled pack of $52$ cards. Find the probability that both cards are kings.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1},{221}$",
+      "B. $\\frac{1},{169}$",
+      "C. $\\frac{2},{221}$",
+      "D. $\\frac{1},{52}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{1},{221}$",
+    "solution": "There are $4$ kings.\nProbability $= \\frac{4},{52} \\times \\frac{3},{51} = \\frac{12},{2652} = \\frac{1},{221}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Permutations and Combinations",
+    "question": "A coin is tossed until a head appears. Find the probability that the first head appears on the third toss.",
+    "question_latex": "A coin is tossed until a head appears. Find the probability that the first head appears on the third toss.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1},{4}$",
+      "B. $\\frac{1},{8}$",
+      "C. $\\frac{3},{8}$",
+      "D. $\\frac{1},{2}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{1},{8}$",
+    "solution": "First head on third toss means: $TT H$.\nProbability $= \\frac{1},{2} \\times \\frac{1},{2} \\times \\frac{1},{2} = \\frac{1},{8}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the coefficient of $x^5$ in the expansion of $(1 + x)^9$.",
+    "question_latex": "Find the coefficient of $x^5$ in the expansion of $(1 + x)^9$.",
+    "question_images": [],
+    "options": [
+      "A. 84",
+      "B. 126",
+      "C. 252",
+      "D. 36"
+    ],
+    "option_images": [],
+    "answer": "B. 126",
+    "solution": "General term: $T_{r+1} = \\binom{9},{r}x^r$.\nFor $x^5$, $r=5$.\nCoefficient $= \\binom{9},{5} = 126$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the constant term in the expansion of $(2x - \\frac{1},{x})^8$.",
+    "question_latex": "Find the constant term in the expansion of $(2x - \\frac{1},{x})^8$.",
+    "question_images": [],
+    "options": [
+      "A. 70",
+      "B. 1120",
+      "C. 560",
+      "D. 280"
+    ],
+    "option_images": [],
+    "answer": "C. 560",
+    "solution": "General term: $T_{r+1} = \\binom{8},{r}(2x)^{8-r}(-\\frac{1},{x})^r = \\binom{8},{r}2^{8-r}(-1)^r x^{8-2r}$.\nFor constant term, $8-2r=0 \\Rightarrow r=4$.\nValue $= \\binom{8},{4}2^4 = 560$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Permutations and Combinations",
+    "question": "How many different 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+    "question_latex": "How many different $4$-digit numbers can be formed using the digits $1,2,3,4,5$ without repetition?",
+    "question_images": [],
+    "options": [
+      "A. 120",
+      "B. 240",
+      "C. 60",
+      "D. 480"
+    ],
+    "option_images": [],
+    "answer": "B. 240",
+    "solution": "Number of ways $= {}^5P_4 = 5 \\times 4 \\times 3 \\times 2 = 240$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Permutations and Combinations",
+    "question": "In how many ways can the letters of the word PROBABILITY be arranged?",
+    "question_latex": "In how many ways can the letters of the word $\\text{PROBABILITY}$ be arranged?",
+    "question_images": [],
+    "options": [
+      "A. 907200",
+      "B. 1814400",
+      "C. 453600",
+      "D. 362880"
+    ],
+    "option_images": [],
+    "answer": "A. 907200",
+    "solution": "The word has 11 letters with repetition: B(2).\nNumber of arrangements $= \\frac{11!},{2!} = 907200$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Permutations and Combinations",
+    "question": "Three coins are tossed simultaneously. Find the probability of getting exactly two heads.",
+    "question_latex": "Three coins are tossed simultaneously. Find the probability of getting exactly two heads.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{1},{8}$",
+      "B. $\\frac{3},{8}$",
+      "C. $\\frac{1},{2}$",
+      "D. $\\frac{3},{4}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{3},{8}$",
+    "solution": "Total outcomes $= 2^3 = 8$.\nFavorable outcomes: HHT, HTH, THH (3).\nProbability $= \\frac{3},{8}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the number of ways in which 6 people can be seated around a round table.",
+    "question_latex": "Find the number of ways in which $6$ people can be seated around a round table.",
+    "question_images": [],
+    "options": [
+      "A. 120",
+      "B. 720",
+      "C. 24",
+      "D. 60"
+    ],
+    "option_images": [],
+    "answer": "A. 120",
+    "solution": "Circular permutations of $n$ persons $= (n-1)!$.\nHence, arrangements $= 5! = 120$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Permutations and Combinations",
+    "question": "Find the coefficient of $x^4$ in the expansion of $(3x + 2)^6$.",
+    "question_latex": "Find the coefficient of $x^4$ in the expansion of $(3x + 2)^6$.",
+    "question_images": [],
+    "options": [
+      "A. 2160",
+      "B. 4320",
+      "C. 1080",
+      "D. 3240"
+    ],
+    "option_images": [],
+    "answer": "B. 4320",
+    "solution": "General term: $T_{r+1} = \\binom{6},{r}(3x)^{6-r}2^r$.\nFor $x^4$, $6-r=4 \\Rightarrow r=2$.\nCoefficient $= \\binom{6},{2}3^4 2^2 = 4320$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Permutations and Combinations",
+    "question": "A bag contains 4 white and 6 black balls. One ball is drawn at random. Find the probability that the ball drawn is white.",
+    "question_latex": "A bag contains $4$ white and $6$ black balls. One ball is drawn at random. Find the probability that the ball drawn is white.",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{2},{5}$",
+      "B. $\\frac{3},{5}$",
+      "C. $\\frac{1},{5}$",
+      "D. $\\frac{4},{5}$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\frac{2},{5}$",
+    "solution": "Probability $= \\frac{4},{10} = \\frac{2},{5}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

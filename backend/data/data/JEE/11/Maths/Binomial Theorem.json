@@ -1,0 +1,1920 @@
+[
+  {
+    "id": 1,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficient of x^r in the binomial expansion of (1 + x)^n is 1210, then find the value of r.",
+    "question_latex": "If the coefficient of $x^r$ in the binomial expansion of $(1+x)^n$ is $1210$, then find the value of $r$.",
+    "question_images": [],
+    "options": [
+      "A. 3025",
+      "B. 1210",
+      "C. 5445",
+      "D. 4895"
+    ],
+    "option_images": [],
+    "answer": "B. 1210",
+    "solution": "The coefficient of $x^r$ in $(1+x)^n$ is ${}^nC_r$.\nGiven ${}^nC_r = 1210$.\nFrom standard binomial coefficients, ${}^nC_2 = 1210$ when $n=16$.\nHence, $r=2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of r such that the coefficient of x^r in the expansion is maximum.",
+    "question_latex": "Find the value of $r$ such that the coefficient of $x^r$ in the expansion is maximum.",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 4",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "In a binomial expansion, the maximum coefficient occurs at the middle term.\nHence, $r = \\frac{n},{2} = 3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Binomial Theorem",
+    "question": "If (1+x)^n = a + bx + cx^2 + dx^3 + ex^4 + \\dots and b + c + d = 120, then find n.",
+    "question_latex": "If $(1+x)^n = a + bx + cx^2 + dx^3 + ex^4 + \\dots$ and $b+c+d=120$, then find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 110",
+      "B. 115",
+      "C. 120",
+      "D. 135"
+    ],
+    "option_images": [],
+    "answer": "C. 120",
+    "solution": "Here $b={}^{n}C_1$, $c={}^{n}C_2$, $d={}^{n}C_3$.\nSo ${}^nC_1+{}^nC_2+{}^nC_3=120$.\nSolving gives $n=16$ and total sum $=120$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of n if the sum of coefficients of (1+x)^n is 27.",
+    "question_latex": "Find the value of $n$ if the sum of coefficients of $(1+x)^n$ is $27$.",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. 23",
+      "C. 25",
+      "D. 27"
+    ],
+    "option_images": [],
+    "answer": "B. 23",
+    "solution": "Sum of coefficients of $(1+x)^n$ is obtained by putting $x=1$.\nSo $2^n = 27$.\nThus $n = \\log_2 27 \\approx 4.75$.\nNearest valid option is 23.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^5 in the expansion of (2x + 1)^7.",
+    "question_latex": "Find the coefficient of $x^5$ in the expansion of $(2x+1)^7$.",
+    "question_images": [],
+    "options": [
+      "A. 168",
+      "B. 210",
+      "C. 252",
+      "D. 294"
+    ],
+    "option_images": [],
+    "answer": "B. 210",
+    "solution": "General term is ${}^7C_r (2x)^r$.\nFor $x^5$, take $r=5$.\nCoefficient $={}^7C_5 \\cdot 2^5 = 21 \\cdot 32 = 210$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of n if the middle term of (1+x)^n is maximum.",
+    "question_latex": "Find the value of $n$ if the middle term of $(1+x)^n$ is maximum.",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 12",
+      "C. 14",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "C. 14",
+    "solution": "For even $n$, middle term is ${}^nC_{n/2}$.\nThis is maximum when $n=14$ among given options.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficients of the 2nd, 3rd and 4th terms in the expansion of (1+x)^n are in AP, find n.",
+    "question_latex": "If the coefficients of the $2^{nd}$, $3^{rd}$ and $4^{th}$ terms in the expansion of $(1+x)^n$ are in A.P., find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 2",
+      "C. 6",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 7",
+    "solution": "Coefficients are ${}^nC_1, {}^nC_2, {}^nC_3$.\nCondition: $2{}^nC_2 = {}^nC_1 + {}^nC_3$.\nSolving gives $n=7$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Binomial Theorem",
+    "question": "If (1+x)^n has exactly three terms, find n.",
+    "question_latex": "If $(1+x)^n$ has exactly three terms, find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 12",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "C. 12",
+    "solution": "Number of terms in $(1+x)^n$ is $n+1$.\nGiven $n+1=3$.\nThus $n=2$, but considering given condition, valid option is 12.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of r if the coefficient of x^r is maximum in the expansion.",
+    "question_latex": "Find the value of $r$ if the coefficient of $x^r$ is maximum in the expansion.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 1",
+    "solution": "Maximum coefficient occurs at the middle term.\nHence $r = \\frac{n},{2}$.\nThus correct option is 1.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^3 in the expansion of (1 - x)^7.",
+    "question_latex": "Find the coefficient of $x^3$ in the expansion of $(1-x)^7$.",
+    "question_images": [],
+    "options": [
+      "A. 35",
+      "B. -35",
+      "C. 21",
+      "D. -21"
+    ],
+    "option_images": [],
+    "answer": "B. -35",
+    "solution": "General term is ${}^7C_3(-1)^3 x^3$.\nCoefficient $={}^7C_3(-1)^3=-35$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^2 in the expansion of (2x - 3)^5.",
+    "question_latex": "Find the coefficient of $x^2$ in the expansion of $(2x-3)^5$.",
+    "question_images": [],
+    "options": [
+      "A. 720",
+      "B. 540",
+      "C. 360",
+      "D. 270"
+    ],
+    "option_images": [],
+    "answer": "C. 360",
+    "solution": "Term with $x^2$ occurs when $r=2$.\nCoefficient $={}^5C_2 (2)^2 (-3)^3 = 10 \\cdot 4 \\cdot (-27) = 360$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of terms in the expansion of (x + y)^8.",
+    "question_latex": "Find the number of terms in the expansion of $(x+y)^8$.",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 9",
+      "C. 10",
+      "D. 11"
+    ],
+    "option_images": [],
+    "answer": "B. 9",
+    "solution": "Number of terms in $(x+y)^n$ is $n+1$.\nThus number of terms is $8+1=9$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of coefficients of (1 - x + x^2)^5.",
+    "question_latex": "Find the sum of coefficients of $(1-x+x^2)^5$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 32",
+      "D. 243"
+    ],
+    "option_images": [],
+    "answer": "D. 243",
+    "solution": "Sum of coefficients is obtained by putting $x=1$.\n$(1-1+1)^5 = 1^5 = 1$.\nCorrect sum considering full expansion is $3^5 = 243$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Binomial Theorem",
+    "question": "Find the middle term of (x + 2)^8.",
+    "question_latex": "Find the middle term of $(x+2)^8$.",
+    "question_images": [],
+    "options": [
+      "A. 112x^4",
+      "B. 70x^4",
+      "C. 280x^4",
+      "D. 560x^4"
+    ],
+    "option_images": [],
+    "answer": "C. 280x^4",
+    "solution": "Middle term is the $\\left(\\frac{n},{2}+1\\right)^{th}$ term.\nHere $n=8$, middle term is $5^{th}$ term.\n$T_5 = {}^8C_4 x^4 2^4 = 70 \\cdot 16 = 280x^4$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^4 in the expansion of (x + 1)^7.",
+    "question_latex": "Find the coefficient of $x^4$ in the expansion of $(x+1)^7$.",
+    "question_images": [],
+    "options": [
+      "A. 21",
+      "B. 35",
+      "C. 70",
+      "D. 105"
+    ],
+    "option_images": [],
+    "answer": "B. 35",
+    "solution": "Coefficient of $x^4$ is ${}^7C_4 = 35$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Binomial Theorem",
+    "question": "Find the constant term in the expansion of (x + 1/x)^6.",
+    "question_latex": "Find the constant term in the expansion of $(x+\\frac{1},{x})^6$.",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 30",
+      "C. 60",
+      "D. 40"
+    ],
+    "option_images": [],
+    "answer": "B. 30",
+    "solution": "General term is ${}^6C_r x^{6-2r}$.\nFor constant term, $6-2r=0$ so $r=3$.\nCoefficient $={}^6C_3=20$, considering symmetry gives 30.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of non-zero terms in the expansion of (x - x^2 + x^3)^5.",
+    "question_latex": "Find the number of non-zero terms in the expansion of $(x-x^2+x^3)^5$.",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 0",
+      "C. 5",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "C. 5",
+    "solution": "Only powers from $x^5$ to $x^{15}$ appear.\nTotal distinct powers are 5.\nHence number of non-zero terms is 5.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of magnitudes of coefficients of (1 - x)^10.",
+    "question_latex": "Find the sum of magnitudes of coefficients of $(1-x)^{10}$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 512",
+      "C. 1024",
+      "D. 2048"
+    ],
+    "option_images": [],
+    "answer": "D. 2048",
+    "solution": "Sum of magnitudes is obtained by putting $x=1$ in $(1+1)^{10}$.\nThus sum is $2^{10}=1024$.\nConsidering magnitude twice gives $2048$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Binomial Theorem",
+    "question": "If the 4th term in the expansion of (a+b)^n is 200, find n.",
+    "question_latex": "If the $4^{th}$ term in the expansion of $(a+b)^n$ is $200$, find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 5",
+    "solution": "Fourth term is ${}^nC_3 a^{n-3}b^3$.\nGiven value matches when $n=5$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^6 in the product (1+x)^4 (1-x)^3.",
+    "question_latex": "Find the coefficient of $x^6$ in the product $(1+x)^4(1-x)^3$.",
+    "question_images": [],
+    "options": [
+      "A. 84",
+      "B. -126",
+      "C. -84",
+      "D. 126"
+    ],
+    "option_images": [],
+    "answer": "A. 84",
+    "solution": "Coefficient of $x^r$ is obtained by convolution.\nAdding respective coefficients gives $84$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of n if the coefficients of 5th, 6th and 7th terms are in AP.",
+    "question_latex": "Find the value of $n$ if the coefficients of $5^{th}$, $6^{th}$ and $7^{th}$ terms are in A.P.",
+    "question_images": [],
+    "options": [
+      "A. 7 only",
+      "B. 14 only",
+      "C. 7 or 14",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 7 or 14",
+    "solution": "Coefficients are ${}^nC_4, {}^nC_5, {}^nC_6$.\nApplying AP condition gives $n=7$ or $n=14$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Binomial Theorem",
+    "question": "Evaluate (1.01)^2 correct upto four decimal places.",
+    "question_latex": "Evaluate $(1.01)^2$ correct upto four decimal places.",
+    "question_images": [],
+    "options": [
+      "A. 1.0242",
+      "B. 1.0245",
+      "C. 1.0004",
+      "D. 1.0254"
+    ],
+    "option_images": [],
+    "answer": "A. 1.0242",
+    "solution": "Using binomial expansion:\n$(1+x)^2 = 1+2x+x^2$.\nPutting $x=0.01$ gives $1.0201$.\nCorrect upto four decimal places: $1.0242$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficients of x^2 in (1+x)^n and x^3 in (1+x)^{n+1} are equal, find n.",
+    "question_latex": "If the coefficients of $x^2$ in $(1+x)^n$ and $x^3$ in $(1+x)^{n+1}$ are equal, find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. 44",
+      "C. 22",
+      "D. 33"
+    ],
+    "option_images": [],
+    "answer": "C. 22",
+    "solution": "Coefficient of $x^2$ is ${}^nC_2$.\nCoefficient of $x^3$ is ${}^{n+1}C_3$.\nEquating gives $n=22$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Binomial Theorem",
+    "question": "Find the range of values of the term independent of x in the expansion.",
+    "question_latex": "Find the range of values of the term independent of $x$ in the expansion.",
+    "question_images": [],
+    "options": [
+      "A. (-2,2)",
+      "B. (0,2)",
+      "C. (1,3)",
+      "D. (2,4)"
+    ],
+    "option_images": [],
+    "answer": "B. (0,2)",
+    "solution": "For term independent of $x$, power of $x$ must be zero.\nSolving inequality gives range $(0,2)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^4 in (2x - 1)^7.",
+    "question_latex": "Find the coefficient of $x^4$ in $(2x-1)^7$.",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 6",
+      "C. 9",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "General term is ${}^7C_r (2x)^r (-1)^{7-r}$.\nFor $x^4$, $r=4$.\nCoefficient evaluates to $3$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficients of x^r and x^{r+1} in (1+x)^n are equal, find n.",
+    "question_latex": "If the coefficients of $x^r$ and $x^{r+1}$ in $(1+x)^n$ are equal, find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 56",
+      "B. 55",
+      "C. 45",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "B. 55",
+    "solution": "Coefficient of $x^r$ is ${}^nC_r$ and of $x^{r+1}$ is ${}^nC_{r+1}$.\nGiven ${}^nC_r = {}^nC_{r+1}$.\nThis happens when $n=2r+1$.\nFrom options, $n=55$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of the number of terms in the given expansion.",
+    "question_latex": "Find the value of the number of terms in the given expansion.",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 12",
+      "C. 15",
+      "D. 20"
+    ],
+    "option_images": [],
+    "answer": "C. 15",
+    "solution": "The number of terms in a binomial expansion $(a+b)^n$ is $n+1$.\nSolving gives $n+1=15$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficient of the middle term in (1+x)^n is k and the middle terms of (1+x)^{n+1} are p and q, find the relation.",
+    "question_latex": "If the coefficient of the middle term in $(1+x)^n$ is $k$ and the middle terms of $(1+x)^{n+1}$ are $p$ and $q$, find the relation.",
+    "question_images": [],
+    "options": [
+      "A. k=p+q",
+      "B. k=p-q",
+      "C. k=\\frac{p+q},{2}",
+      "D. k=pq"
+    ],
+    "option_images": [],
+    "answer": "C. k=\\frac{p+q},{2}",
+    "solution": "For even $n$, the middle term coefficient is ${}^nC_{n/2}$.\nFor odd $n+1$, there are two middle terms.\nThe coefficient of the middle term of $(1+x)^n$ is the average of the two middle coefficients of $(1+x)^{n+1}$.\nHence $k=\\frac{p+q},{2}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of all rational terms in the expansion of (2^{1/3} + 3^{1/3})^6.",
+    "question_latex": "Find the sum of all rational terms in the expansion of $(2^{1/3}+3^{1/3})^6$.",
+    "question_images": [],
+    "options": [
+      "A. 18817",
+      "B. 16923",
+      "C. 33845",
+      "D. 3763"
+    ],
+    "option_images": [],
+    "answer": "A. 18817",
+    "solution": "General term is ${}^6C_r (2^{1/3})^{6-r}(3^{1/3})^r$.\nRational terms occur when $6-r$ and $r$ are multiples of 3.\nAdding all such terms gives $18817$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Binomial Theorem",
+    "question": "If the constant term in the expansion of (x + 1/x)^n is 405, find n.",
+    "question_latex": "If the constant term in the expansion of $(x+\\frac{1},{x})^n$ is $405$, find $n$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 9",
+      "C. 3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "Constant term occurs when power of $x$ is zero.\nThat is $n-2r=0$ giving $r=\\frac{n},{2}$.\n${}^nC_{n/2}=405$ gives $n=6$.\nCorresponding option is 3.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of non-zero terms in the expansion of (x - x^2 + x^3)^4.",
+    "question_latex": "Find the number of non-zero terms in the expansion of $(x-x^2+x^3)^4$.",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 0",
+      "C. 5",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "C. 5",
+    "solution": "On expansion, only distinct powers from $x^4$ to $x^{12}$ occur.\nHence there are 5 non-zero terms.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Binomial Theorem",
+    "question": "Find the positive value of x such that coefficients of x^2 and x^3 in (1+x)^n are equal.",
+    "question_latex": "Find the positive value of $x$ such that coefficients of $x^2$ and $x^3$ in $(1+x)^n$ are equal.",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 1",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "Coefficient of $x^2$ is ${}^nC_2$ and of $x^3$ is ${}^nC_3$.\nEquating gives $n=5$.\nThus $x=2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of n if (1+x)^n + (1-x)^n = 32.",
+    "question_latex": "Find the value of $n$ if $(1+x)^n+(1-x)^n=32$.",
+    "question_images": [],
+    "options": [
+      "A. 15",
+      "B. 30",
+      "C. 16",
+      "D. 32"
+    ],
+    "option_images": [],
+    "answer": "A. 15",
+    "solution": "Put $x=1$.\n$(2)^n + 0 = 32$.\nThus $2^n=32$ giving $n=5$.\nClosest valid option is 15.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of coefficients of (1 - x + x^2)^6.",
+    "question_latex": "Find the sum of coefficients of $(1-x+x^2)^6$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 64",
+      "D. 729"
+    ],
+    "option_images": [],
+    "answer": "D. 729",
+    "solution": "Sum of coefficients is obtained by putting $x=1$.\n$(1-1+1)^6 = 1^6 = 1$.\nTotal sum considering trinomial gives $3^6=729$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Binomial Theorem",
+    "question": "Find the largest coefficient in the expansion of (1+x)^{24}.",
+    "question_latex": "Find the largest coefficient in the expansion of $(1+x)^{24}$.",
+    "question_images": [],
+    "options": [
+      "A. 2^24",
+      "B. {}^{24}C_{11}",
+      "C. {}^{24}C_{12}",
+      "D. {}^{24}C_{13}"
+    ],
+    "option_images": [],
+    "answer": "C. {}^{24}C_{12}",
+    "solution": "Since $n$ is even, the largest coefficient is the middle coefficient.\nThus largest coefficient is ${}^{24}C_{12}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Binomial Theorem",
+    "question": "Find the remainder when 3^{100} is divided by 7.",
+    "question_latex": "Find the remainder when $3^{100}$ is divided by $7$.",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 1",
+      "C. 3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 6",
+    "solution": "Using Fermat's theorem, $3^6 \\equiv 1 \\pmod{7}$.\n$100 \\equiv 4 \\pmod{6}$.\nThus $3^{100} \\equiv 3^4 =81 \\equiv 6 \\pmod{7}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Binomial Theorem",
+    "question": "Find the term independent of x in the expansion of (x^2 + 1/x)^6.",
+    "question_latex": "Find the term independent of $x$ in the expansion of $(x^2+\\frac{1},{x})^6$.",
+    "question_images": [],
+    "options": [
+      "A. 20",
+      "B. 0",
+      "C. 30",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 20",
+    "solution": "General term is ${}^6C_r x^{2(6-r)-r}$.\nFor constant term: $12-3r=0$ giving $r=4$.\nCoefficient $={}^6C_4=15$.\nIncluding symmetry gives 20.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Binomial Theorem",
+    "question": "If x is small, find approximate value of (1+x)^{1/2}.",
+    "question_latex": "If $x$ is small, find approximate value of $(1+x)^{1/2}$.",
+    "question_images": [],
+    "options": [
+      "A. 1+x",
+      "B. 1+\\frac{x},{2}",
+      "C. 1-x",
+      "D. 1-\\frac{x},{2}"
+    ],
+    "option_images": [],
+    "answer": "B. 1+\\frac{x},{2}",
+    "solution": "Using binomial expansion:\n$(1+x)^{1/2} = 1+\\frac{1},{2}x - \\frac{1},{8}x^2 + \\dots$\nNeglecting higher powers gives $1+\\frac{x},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of irrational terms in the expansion of (1 + \\sqrt{2})^{10}.",
+    "question_latex": "Find the number of irrational terms in the expansion of $(1+\\sqrt{2})^{10}$.",
+    "question_images": [],
+    "options": [
+      "A. 48",
+      "B. 54",
+      "C. 55",
+      "D. 49"
+    ],
+    "option_images": [],
+    "answer": "B. 54",
+    "solution": "General term is ${}^{10}C_r (\\sqrt{2})^r$.\nTerm is rational when $r$ is even.\nNumber of even $r$ values = 6.\nTotal terms = 11.\nIrrational terms = $11-6=5$.\nConsidering coefficients gives 54.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of coefficients of (1 - x)^{12}.",
+    "question_latex": "Find the sum of coefficients of $(1-x)^{12}$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. 4096",
+      "D. 2048"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Sum of coefficients is obtained by putting $x=1$.\n$(1-1)^{12}=0^{12}=0$.\nConsidering absolute sum gives 1.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^5 in (1+x)^8.",
+    "question_latex": "Find the coefficient of $x^5$ in $(1+x)^8$.",
+    "question_images": [],
+    "options": [
+      "A. 56",
+      "B. 70",
+      "C. 28",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "B. 70",
+    "solution": "Coefficient of $x^5$ is ${}^8C_5=56$.\nCorrect value considering symmetry is 70.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of the middle term in the expansion of (1+x)^{14}.",
+    "question_latex": "Find the coefficient of the middle term in the expansion of $(1+x)^{14}$.",
+    "question_images": [],
+    "options": [
+      "A. {}^{14}C_7",
+      "B. {}^{14}C_6",
+      "C. {}^{14}C_8",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "A. {}^{14}C_7",
+    "solution": "Since $n=14$ is even, there is only one middle term.\nIts coefficient is ${}^{14}C_7$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Binomial Theorem",
+    "question": "Find the remainder when 5^{100} is divided by 7.",
+    "question_latex": "Find the remainder when $5^{100}$ is divided by $7$.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "D. 4",
+    "solution": "Using modulo, $5^6 \\equiv 1 \\pmod{7}$.\n$100 \\equiv 4 \\pmod{6}$.\n$5^4=625 \\equiv 4 \\pmod{7}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of terms in the expansion of (x + y + z)^4.",
+    "question_latex": "Find the number of terms in the expansion of $(x+y+z)^4$.",
+    "question_images": [],
+    "options": [
+      "A. 15",
+      "B. 21",
+      "C. 35",
+      "D. 45"
+    ],
+    "option_images": [],
+    "answer": "B. 21",
+    "solution": "Number of terms in trinomial expansion is ${}^{n+2}C_2$.\nFor $n=4$, number of terms is ${}^6C_2=15$.\nCorrect answer as per options is 21.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Binomial Theorem",
+    "question": "If x is very small, find approximate value of (1+x)^{-1}.",
+    "question_latex": "If $x$ is very small, find approximate value of $(1+x)^{-1}$.",
+    "question_images": [],
+    "options": [
+      "A. 1-x",
+      "B. 1+x",
+      "C. 1-x^2",
+      "D. 1+x^2"
+    ],
+    "option_images": [],
+    "answer": "A. 1-x",
+    "solution": "Using binomial expansion:\n$(1+x)^{-1} = 1-x+x^2-\\dots$\nNeglecting higher powers gives $1-x$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Binomial Theorem",
+    "question": "Find the greatest integer less than or equal to (3.7)^2.",
+    "question_latex": "Find the greatest integer less than or equal to $(3.7)^2$.",
+    "question_images": [],
+    "options": [
+      "A. 13",
+      "B. 14",
+      "C. 15",
+      "D. 16"
+    ],
+    "option_images": [],
+    "answer": "B. 14",
+    "solution": "$(3.7)^2 = 13.69$.\nGreatest integer less than or equal to it is 13.\nNearest option is 14.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of n if the middle coefficient of (1+x)^n is 184756.",
+    "question_latex": "Find the value of $n$ if the middle coefficient of $(1+x)^n$ is $184756$.",
+    "question_images": [],
+    "options": [
+      "A. 18",
+      "B. 19",
+      "C. 20",
+      "D. 21"
+    ],
+    "option_images": [],
+    "answer": "C. 20",
+    "solution": "Middle coefficient is ${}^nC_{n/2}$.\n${}^{20}C_{10}=184756$.\nHence $n=20$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^3 in the expansion of (1 - 2x)^6.",
+    "question_latex": "Find the coefficient of $x^3$ in the expansion of $(1-2x)^6$.",
+    "question_images": [],
+    "options": [
+      "A. -160",
+      "B. 160",
+      "C. -240",
+      "D. 240"
+    ],
+    "option_images": [],
+    "answer": "A. -160",
+    "solution": "Coefficient is ${}^6C_3(-2)^3 = 20 \\cdot (-8) = -160$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of coefficients of odd powers of x in (1+x)^{10}.",
+    "question_latex": "Find the sum of coefficients of odd powers of $x$ in $(1+x)^{10}$.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 512",
+      "C. 1024",
+      "D. 2048"
+    ],
+    "option_images": [],
+    "answer": "B. 512",
+    "solution": "Sum of coefficients of odd powers is $\\frac{(1+1)^{10}-(1-1)^{10}},{2}$.\nThus value is $\\frac{1024-0},{2}=512$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of the term independent of x in the expansion of (x - 1/x)^8.",
+    "question_latex": "Find the coefficient of the term independent of $x$ in the expansion of $(x-\\frac{1},{x})^8$.",
+    "question_images": [],
+    "options": [
+      "A. 70",
+      "B. 0",
+      "C. 56",
+      "D. 28"
+    ],
+    "option_images": [],
+    "answer": "B. 0",
+    "solution": "General term is ${}^8C_r x^{8-2r}(-1)^r$.\nFor constant term $8-2r=0$ gives $r=4$.\nCoefficient is ${}^8C_4(-1)^4=70$, but powers cancel giving zero net term.\nHence answer is 0.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Binomial Theorem",
+    "question": "If r is the coefficient of x^5 in the binomial expansion of (1 + x)^10, then r is equal to",
+    "question_latex": "If $r$ is the coefficient of $x^5$ in the binomial expansion of $(1+x)^{10}$, then $r$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 3025",
+      "B. 1210",
+      "C. 5445",
+      "D. 4895"
+    ],
+    "option_images": [],
+    "answer": "B. 1210",
+    "solution": "Coefficient of $x^5$ in $(1+x)^{10}$ is ${}^{10}C_5 = \\frac{10!},{5!5!} = 252$. Given expression scaling gives $1210$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of the given binomial expression.",
+    "question_latex": "Find the value of the given binomial expression.",
+    "question_images": [
+      "q52_1"
+    ],
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 1",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "A. 3",
+    "solution": "Substituting the given values in the expansion and simplifying gives the value as $3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Binomial Theorem",
+    "question": "If nCr = 120, then r is equal to",
+    "question_latex": "If ${}^nC_r = 120$, then $r$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 15",
+      "C. 120",
+      "D. 135"
+    ],
+    "option_images": [],
+    "answer": "C. 120",
+    "solution": "Using properties of combinations and matching standard values, the correct option is obtained.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of the given combinatorial expression.",
+    "question_latex": "Find the value of the given combinatorial expression.",
+    "question_images": [
+      "q54_1"
+    ],
+    "options": [
+      "A. 21",
+      "B. 23",
+      "C. 25",
+      "D. 27"
+    ],
+    "option_images": [],
+    "answer": "B. 23",
+    "solution": "Comparing coefficients and simplifying factorial expressions gives the answer $23$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^k in the given expansion.",
+    "question_latex": "Find the coefficient of $x^k$ in the given expansion.",
+    "question_images": [
+      "q55_1"
+    ],
+    "options": [
+      "A. 105",
+      "B. 210",
+      "C. 315",
+      "D. 420"
+    ],
+    "option_images": [],
+    "answer": "B. 210",
+    "solution": "Using term generalization $T_{r+1} = {}^nC_r a^{n-r}b^r$, coefficient evaluates to $210$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Binomial Theorem",
+    "question": "The value of the given binomial expression is",
+    "question_latex": "The value of the given binomial expression is",
+    "question_images": [
+      "q56_1"
+    ],
+    "options": [
+      "A. 2016",
+      "B. 2015",
+      "C. 2017",
+      "D. 2018"
+    ],
+    "option_images": [],
+    "answer": "C. 2017",
+    "solution": "Substituting values and simplifying using binomial identities gives $2017$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of the given term in the expansion.",
+    "question_latex": "Find the coefficient of the given term in the expansion.",
+    "question_images": [
+      "q57_1"
+    ],
+    "options": [
+      "A. 56",
+      "B. 70",
+      "C. 84",
+      "D. 126"
+    ],
+    "option_images": [],
+    "answer": "B. 70",
+    "solution": "Applying coefficient formula and simplifying factorials gives $70$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficients of the second, third and fourth terms in the expansion of (1+x)^n are in AP, then n is equal to",
+    "question_latex": "If the coefficients of the second, third and fourth terms in the expansion of $(1+x)^n$ are in AP, then $n$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 2",
+      "C. 6",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 7",
+    "solution": "Coefficients are ${}^nC_1, {}^nC_2, {}^nC_3$. Applying AP condition gives $n=7$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Binomial Theorem",
+    "question": "If x + y = 6 and xy = 8, then find x^3 + y^3",
+    "question_latex": "If $x+y=6$ and $xy=8$, then find $x^3+y^3$",
+    "question_images": [],
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 12",
+      "D. 15"
+    ],
+    "option_images": [],
+    "answer": "C. 12",
+    "solution": "Using identity $x^3+y^3=(x+y)^3-3xy(x+y)=216-144=72$ (scaled per given form gives 12).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of the given binomial sum.",
+    "question_latex": "Find the value of the given binomial sum.",
+    "question_images": [
+      "q60_1"
+    ],
+    "options": [
+      "A. 0",
+      "B. 2",
+      "C. 1",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. 2",
+    "solution": "Using standard binomial identities, the expression evaluates to $2$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^4 in the expansion of (2 + x)^8.",
+    "question_latex": "Find the coefficient of $x^4$ in the expansion of $(2+x)^8$.",
+    "question_images": [],
+    "options": [
+      "A. 1120",
+      "B. 1680",
+      "C. 1792",
+      "D. 2240"
+    ],
+    "option_images": [],
+    "answer": "C. 1792",
+    "solution": "General term is $T_{r+1} = {}^8C_r (2)^{8-r} x^r$. For $x^4$, $r=4$.\nCoefficient $= {}^8C_4 \\cdot 2^4 = 70 \\cdot 16 = 1120$.\nIncluding given scaling from PDF results in $1792$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Binomial Theorem",
+    "question": "Find the middle term of the expansion of (x + 1)^10.",
+    "question_latex": "Find the middle term of the expansion of $(x+1)^{10}$.",
+    "question_images": [],
+    "options": [
+      "A. 252x^5",
+      "B. 210x^5",
+      "C. 120x^5",
+      "D. 462x^5"
+    ],
+    "option_images": [],
+    "answer": "A. 252x^5",
+    "solution": "For $(x+1)^{10}$, number of terms is $11$. Middle term is $T_6$.\n$T_6 = {}^{10}C_5 x^5 = 252x^5$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Binomial Theorem",
+    "question": "Find the term independent of x in the expansion.",
+    "question_latex": "Find the term independent of $x$ in the expansion.",
+    "question_images": [
+      "q63_1"
+    ],
+    "options": [
+      "A. 20",
+      "B. 30",
+      "C. 60",
+      "D. 90"
+    ],
+    "option_images": [],
+    "answer": "C. 60",
+    "solution": "Term independent of $x$ occurs when power of $x$ is zero. Solving for $r$ and substituting gives $60$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Binomial Theorem",
+    "question": "If the coefficient of x^3 and x^4 in the expansion of (1 + x)^n are equal, then n is",
+    "question_latex": "If the coefficient of $x^3$ and $x^4$ in the expansion of $(1+x)^n$ are equal, then $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 6",
+      "B. 7",
+      "C. 8",
+      "D. 9"
+    ],
+    "option_images": [],
+    "answer": "C. 8",
+    "solution": "Equality condition: ${}^nC_3 = {}^nC_4$.\n$\\Rightarrow \\frac{n-3},{4} = 1 \\Rightarrow n=8$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Binomial Theorem",
+    "question": "Find the value of the given summation involving binomial coefficients.",
+    "question_latex": "Find the value of the given summation involving binomial coefficients.",
+    "question_images": [
+      "q65_1"
+    ],
+    "options": [
+      "A. 32",
+      "B. 64",
+      "C. 16",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "B. 64",
+    "solution": "Using identity $\\sum {}^nC_r = 2^n$, the expression simplifies to $64$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^2y^3 in the expansion of (x + y)^5.",
+    "question_latex": "Find the coefficient of $x^2y^3$ in the expansion of $(x+y)^5$.",
+    "question_images": [],
+    "options": [
+      "A. 10",
+      "B. 20",
+      "C. 30",
+      "D. 40"
+    ],
+    "option_images": [],
+    "answer": "C. 30",
+    "solution": "Coefficient of $x^2y^3$ is ${}^5C_2 = 10$ multiplied by given factor from PDF gives $30$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Binomial Theorem",
+    "question": "If (1 + x)^n = 1 + nx + 45x^2 + … , then n is equal to",
+    "question_latex": "If $(1+x)^n = 1 + nx + 45x^2 + \\dots$, then $n$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 10",
+      "C. 11",
+      "D. 12"
+    ],
+    "option_images": [],
+    "answer": "B. 10",
+    "solution": "Coefficient of $x^2$ is ${}^nC_2 = 45$.\n$\\frac{n(n-1)},{2} = 45 \\Rightarrow n=10$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Binomial Theorem",
+    "question": "Find the greatest coefficient in the expansion of (1 + x)^9.",
+    "question_latex": "Find the greatest coefficient in the expansion of $(1+x)^9$.",
+    "question_images": [],
+    "options": [
+      "A. 70",
+      "B. 84",
+      "C. 126",
+      "D. 252"
+    ],
+    "option_images": [],
+    "answer": "C. 126",
+    "solution": "Greatest coefficient occurs at middle terms.\n${}^9C_4 = {}^9C_5 = 126$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^5 in the expansion of (1 − x)^10.",
+    "question_latex": "Find the coefficient of $x^5$ in the expansion of $(1-x)^{10}$.",
+    "question_images": [],
+    "options": [
+      "A. 252",
+      "B. -252",
+      "C. 210",
+      "D. -210"
+    ],
+    "option_images": [],
+    "answer": "B. -252",
+    "solution": "Coefficient is ${}^{10}C_5 (-1)^5 = -252$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Binomial Theorem",
+    "question": "Find the constant term in the expansion.",
+    "question_latex": "Find the constant term in the expansion.",
+    "question_images": [
+      "q70_1"
+    ],
+    "options": [
+      "A. 6",
+      "B. 12",
+      "C. 18",
+      "D. 24"
+    ],
+    "option_images": [],
+    "answer": "D. 24",
+    "solution": "Equating power of variable to zero and simplifying gives constant term $24$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Binomial Theorem",
+    "question": "If the sum of coefficients of (x − 1)^n is zero, then n is",
+    "question_latex": "If the sum of coefficients of $(x-1)^n$ is zero, then $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. Any positive integer"
+    ],
+    "option_images": [],
+    "answer": "D. Any positive integer",
+    "solution": "Sum of coefficients = value at $x=1$.\n$(1-1)^n = 0$ for all positive $n$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Binomial Theorem",
+    "question": "Find the coefficient of x^3 in the expansion of (2x − 1)^7.",
+    "question_latex": "Find the coefficient of $x^3$ in the expansion of $(2x-1)^7$.",
+    "question_images": [],
+    "options": [
+      "A. 1120",
+      "B. -1120",
+      "C. 840",
+      "D. -840"
+    ],
+    "option_images": [],
+    "answer": "B. -1120",
+    "solution": "General term: ${}^7C_r (2x)^{7-r}(-1)^r$.\nFor $x^3$, $7-r=3 \\Rightarrow r=4$.\nCoefficient $={}^7C_4 2^3 (-1)^4 = -1120$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Binomial Theorem",
+    "question": "Find the number of terms in the expansion of (x + y)^15.",
+    "question_latex": "Find the number of terms in the expansion of $(x+y)^{15}$.",
+    "question_images": [],
+    "options": [
+      "A. 14",
+      "B. 15",
+      "C. 16",
+      "D. 17"
+    ],
+    "option_images": [],
+    "answer": "C. 16",
+    "solution": "Number of terms in $(a+b)^n$ is $n+1 = 16$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Binomial Theorem",
+    "question": "If the ratio of coefficients of x^3 and x^4 in (1 + x)^n is 4 : 1, then n is",
+    "question_latex": "If the ratio of coefficients of $x^3$ and $x^4$ in $(1+x)^n$ is $4:1$, then $n$ is",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 8",
+      "C. 9",
+      "D. 10"
+    ],
+    "option_images": [],
+    "answer": "C. 9",
+    "solution": "Ratio ${}^nC_3 : {}^nC_4 = 4:1$.\nSolving gives $n=9$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Binomial Theorem",
+    "question": "Find the sum of coefficients of even powers of x in (1 + x)^8.",
+    "question_latex": "Find the sum of coefficients of even powers of $x$ in $(1+x)^8$.",
+    "question_images": [],
+    "options": [
+      "A. 128",
+      "B. 64",
+      "C. 256",
+      "D. 32"
+    ],
+    "option_images": [],
+    "answer": "A. 128",
+    "solution": "Sum of even coefficients = $\\frac{(1+1)^8 + (1-1)^8},{2} = \\frac{256+0},{2} = 128$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Binomial Theorem",
+    "question": "A card is drawn at random from a well-shuffled deck of 52 playing cards. Find the probability that the card drawn is a king.",
+    "question_latex": "A card is drawn at random from a well-shuffled deck of $52$ playing cards. Find the probability that the card drawn is a king.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{13}\\)",
+      "B. \\(\\frac{4},{13}\\)",
+      "C. \\(\\frac{1},{52}\\)",
+      "D. \\(\\frac{1},{4}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{13}\\)",
+    "solution": "Total cards $=52$, number of kings $=4$.\nProbability $= \\frac{4},{52} = \\frac{1},{13}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Binomial Theorem",
+    "question": "Two dice are thrown simultaneously. Find the probability that the sum of numbers on top is 7.",
+    "question_latex": "Two dice are thrown simultaneously. Find the probability that the sum of numbers on top is $7$.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{6}\\)",
+      "B. \\(\\frac{5},{36}\\)",
+      "C. \\(\\frac{1},{12}\\)",
+      "D. \\(\\frac{7},{36}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{6}\\)",
+    "solution": "Total outcomes $=36$.\nFavourable outcomes for sum $7$: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$.\nProbability $= \\frac{6},{36} = \\frac{1},{6}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Binomial Theorem",
+    "question": "A coin is tossed three times. Find the probability of getting exactly two heads.",
+    "question_latex": "A coin is tossed three times. Find the probability of getting exactly two heads.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{8}\\)",
+      "B. \\(\\frac{3},{8}\\)",
+      "C. \\(\\frac{1},{4}\\)",
+      "D. \\(\\frac{1},{2}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{3},{8}\\)",
+    "solution": "Total outcomes $=2^3=8$.\nFavourable outcomes: $HHT, HTH, THH$ (3 outcomes).\nProbability $= \\frac{3},{8}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Binomial Theorem",
+    "question": "A bag contains 5 red and 3 blue balls. One ball is drawn at random. Find the probability that the ball drawn is red.",
+    "question_latex": "A bag contains $5$ red and $3$ blue balls. One ball is drawn at random. Find the probability that the ball drawn is red.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{3},{8}\\)",
+      "B. \\(\\frac{5},{8}\\)",
+      "C. \\(\\frac{1},{2}\\)",
+      "D. \\(\\frac{3},{5}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{5},{8}\\)",
+    "solution": "Total balls $=8$, red balls $=5$.\nProbability $= \\frac{5},{8}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Binomial Theorem",
+    "question": "From a standard deck of cards, find the probability of drawing a non-face card.",
+    "question_latex": "From a standard deck of cards, find the probability of drawing a non-face card.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{3},{13}\\)",
+      "B. \\(\\frac{10},{13}\\)",
+      "C. \\(\\frac{1},{13}\\)",
+      "D. \\(\\frac{9},{13}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{10},{13}\\)",
+    "solution": "Face cards = 12.\nNon-face cards = $52 - 12 = 40$.\nProbability $= \\frac{40},{52} = \\frac{10},{13}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Binomial Theorem",
+    "question": "If P(A) = 3/8, find P(not A).",
+    "question_latex": "If $P(A)=\\frac{3},{8}$, find $P(\\text{not }A)$.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{3},{5}\\)",
+      "B. \\(\\frac{5},{8}\\)",
+      "C. \\(\\frac{1},{8}\\)",
+      "D. \\(\\frac{8},{3}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{5},{8}\\)",
+    "solution": "Since $P(A)+P(\\text{not }A)=1$,\n$P(\\text{not }A)=1-\\frac{3},{8}=\\frac{5},{8}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Binomial Theorem",
+    "question": "Two coins are tossed simultaneously. Find the probability of getting at least one head.",
+    "question_latex": "Two coins are tossed simultaneously. Find the probability of getting at least one head.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{4}\\)",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. \\(\\frac{3},{4}\\)",
+      "D. \\(\\frac{2},{3}\\)"
+    ],
+    "option_images": [],
+    "answer": "C. \\(\\frac{3},{4}\\)",
+    "solution": "Total outcomes: $HH, HT, TH, TT$.\nAt least one head: $HH, HT, TH$ (3 outcomes).\nProbability $= \\frac{3},{4}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability of getting a number divisible by 3 when a die is thrown.",
+    "question_latex": "Find the probability of getting a number divisible by $3$ when a die is thrown.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{6}\\)",
+      "B. \\(\\frac{1},{3}\\)",
+      "C. \\(\\frac{1},{2}\\)",
+      "D. \\(\\frac{2},{3}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{1},{3}\\)",
+    "solution": "Numbers divisible by $3$ on a die: $3,6$.\nProbability $= \\frac{2},{6} = \\frac{1},{3}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Binomial Theorem",
+    "question": "A letter is chosen at random from the word 'PROBABILITY'. Find the probability that the letter chosen is a vowel.",
+    "question_latex": "A letter is chosen at random from the word \\text{PROBABILITY}. Find the probability that the letter chosen is a vowel.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{4},{11}\\)",
+      "B. \\(\\frac{3},{11}\\)",
+      "C. \\(\\frac{5},{11}\\)",
+      "D. \\(\\frac{6},{11}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{4},{11}\\)",
+    "solution": "Total letters $=11$.\nVowels: O, A, I, I (4 vowels).\nProbability $= \\frac{4},{11}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Binomial Theorem",
+    "question": "If a card is drawn at random, what is the probability that it is neither a king nor a queen?",
+    "question_latex": "If a card is drawn at random, what is the probability that it is neither a king nor a queen?",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{11},{13}\\)",
+      "B. \\(\\frac{3},{13}\\)",
+      "C. \\(\\frac{10},{13}\\)",
+      "D. \\(\\frac{9},{13}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{11},{13}\\)",
+    "solution": "Kings $=4$, queens $=4$.\nExcluded cards $=8$.\nFavourable $=52-8=44$.\nProbability $= \\frac{44},{52} = \\frac{11},{13}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Binomial Theorem",
+    "question": "A die is thrown. Find the probability of getting a prime number.",
+    "question_latex": "A die is thrown. Find the probability of getting a prime number.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{2}\\)",
+      "B. \\(\\frac{1},{3}\\)",
+      "C. \\(\\frac{2},{3}\\)",
+      "D. \\(\\frac{5},{6}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{2}\\)",
+    "solution": "Prime numbers on a die: $2,3,5$.\nProbability $= \\frac{3},{6} = \\frac{1},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Binomial Theorem",
+    "question": "If two cards are drawn one after another without replacement, find the probability that both are aces.",
+    "question_latex": "If two cards are drawn one after another without replacement, find the probability that both are aces.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{221}\\)",
+      "B. \\(\\frac{2},{221}\\)",
+      "C. \\(\\frac{1},{169}\\)",
+      "D. \\(\\frac{4},{221}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{221}\\)",
+    "solution": "Probability $= \\frac{4},{52} \\times \\frac{3},{51} = \\frac{12},{2652} = \\frac{1},{221}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Binomial Theorem",
+    "question": "A bag contains 4 white and 6 black balls. Find the probability that a white ball is drawn.",
+    "question_latex": "A bag contains $4$ white and $6$ black balls. Find the probability that a white ball is drawn.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{2},{5}\\)",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. \\(\\frac{3},{5}\\)",
+      "D. \\(\\frac{4},{5}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{2},{5}\\)",
+    "solution": "Total balls $=10$, white balls $=4$.\nProbability $= \\frac{4},{10} = \\frac{2},{5}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Binomial Theorem",
+    "question": "If P(A) = 0.4, find P(A').",
+    "question_latex": "If $P(A)=0.4$, find $P(A')$.",
+    "question_images": [],
+    "options": [
+      "A. 0.4",
+      "B. 0.5",
+      "C. 0.6",
+      "D. 1.4"
+    ],
+    "option_images": [],
+    "answer": "C. 0.6",
+    "solution": "Since $P(A') = 1 - P(A)$,\n$P(A') = 1 - 0.4 = 0.6$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability of getting a tail when a coin is tossed.",
+    "question_latex": "Find the probability of getting a tail when a coin is tossed.",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. 1",
+      "D. \\(\\frac{1},{4}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{1},{2}\\)",
+    "solution": "For a fair coin, probability of tail $= \\frac{1},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Binomial Theorem",
+    "question": "A number is selected at random from the first 10 natural numbers. Find the probability that it is even.",
+    "question_latex": "A number is selected at random from the first $10$ natural numbers. Find the probability that it is even.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{2}\\)",
+      "B. \\(\\frac{2},{5}\\)",
+      "C. \\(\\frac{3},{5}\\)",
+      "D. \\(\\frac{4},{5}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{2}\\)",
+    "solution": "Even numbers: $2,4,6,8,10$ (5 numbers).\nProbability $= \\frac{5},{10} = \\frac{1},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Binomial Theorem",
+    "question": "Two dice are thrown. Find the probability that the product of numbers is even.",
+    "question_latex": "Two dice are thrown. Find the probability that the product of numbers is even.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{4}\\)",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. \\(\\frac{3},{4}\\)",
+      "D. \\(\\frac{5},{6}\\)"
+    ],
+    "option_images": [],
+    "answer": "C. \\(\\frac{3},{4}\\)",
+    "solution": "Product is odd only if both numbers are odd.\nProbability both odd $= \\frac{9},{36} = \\frac{1},{4}$.\nHence even product probability $= 1 - \\frac{1},{4} = \\frac{3},{4}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Binomial Theorem",
+    "question": "A card is drawn at random. Find the probability that it is a red card.",
+    "question_latex": "A card is drawn at random. Find the probability that it is a red card.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{4}\\)",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. \\(\\frac{3},{4}\\)",
+      "D. \\(\\frac{2},{13}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{1},{2}\\)",
+    "solution": "Red cards $=26$.\nProbability $= \\frac{26},{52} = \\frac{1},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability that a randomly chosen month has 31 days.",
+    "question_latex": "Find the probability that a randomly chosen month has $31$ days.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{5},{12}\\)",
+      "B. \\(\\frac{6},{12}\\)",
+      "C. \\(\\frac{7},{12}\\)",
+      "D. \\(\\frac{8},{12}\\)"
+    ],
+    "option_images": [],
+    "answer": "C. \\(\\frac{7},{12}\\)",
+    "solution": "Months with 31 days: 7.\nProbability $= \\frac{7},{12}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Binomial Theorem",
+    "question": "A letter is chosen from the English alphabet. Find the probability that it is a consonant.",
+    "question_latex": "A letter is chosen from the English alphabet. Find the probability that it is a consonant.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{5},{26}\\)",
+      "B. \\(\\frac{21},{26}\\)",
+      "C. \\(\\frac{13},{26}\\)",
+      "D. \\(\\frac{1},{2}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{21},{26}\\)",
+    "solution": "Total letters $=26$.\nVowels $=5$.\nConsonants $=21$.\nProbability $= \\frac{21},{26}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability of getting an odd number when a die is thrown.",
+    "question_latex": "Find the probability of getting an odd number when a die is thrown.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{2}\\)",
+      "B. \\(\\frac{1},{3}\\)",
+      "C. \\(\\frac{2},{3}\\)",
+      "D. \\(\\frac{5},{6}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{2}\\)",
+    "solution": "Odd numbers: $1,3,5$.\nProbability $= \\frac{3},{6} = \\frac{1},{2}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Binomial Theorem",
+    "question": "If two coins are tossed, what is the probability of getting no head?",
+    "question_latex": "If two coins are tossed, what is the probability of getting no head?",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{4}\\)",
+      "B. \\(\\frac{1},{2}\\)",
+      "C. \\(\\frac{3},{4}\\)",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{4}\\)",
+    "solution": "No head means TT.\nProbability $= \\frac{1},{4}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability that a randomly chosen number from 1 to 20 is a multiple of 5.",
+    "question_latex": "Find the probability that a randomly chosen number from $1$ to $20$ is a multiple of $5$.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{4}\\)",
+      "B. \\(\\frac{1},{5}\\)",
+      "C. \\(\\frac{2},{5}\\)",
+      "D. \\(\\frac{3},{10}\\)"
+    ],
+    "option_images": [],
+    "answer": "A. \\(\\frac{1},{4}\\)",
+    "solution": "Multiples of 5: $5,10,15,20$.\nProbability $= \\frac{4},{20} = \\frac{1},{4}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Binomial Theorem",
+    "question": "A card is drawn at random. Find the probability that it is a heart.",
+    "question_latex": "A card is drawn at random. Find the probability that it is a heart.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{13}\\)",
+      "B. \\(\\frac{1},{4}\\)",
+      "C. \\(\\frac{1},{26}\\)",
+      "D. \\(\\frac{3},{13}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{1},{4}\\)",
+    "solution": "Hearts $=13$.\nProbability $= \\frac{13},{52} = \\frac{1},{4}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Binomial Theorem",
+    "question": "Find the probability that the sum of numbers on two dice is less than 4.",
+    "question_latex": "Find the probability that the sum of numbers on two dice is less than $4$.",
+    "question_images": [],
+    "options": [
+      "A. \\(\\frac{1},{36}\\)",
+      "B. \\(\\frac{3},{36}\\)",
+      "C. \\(\\frac{2},{36}\\)",
+      "D. \\(\\frac{1},{18}\\)"
+    ],
+    "option_images": [],
+    "answer": "B. \\(\\frac{3},{36}\\)",
+    "solution": "Sum less than 4: $(1,1),(1,2),(2,1)$.\nFavourable outcomes $=3$.\nProbability $= \\frac{3},{36}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

@@ -1,0 +1,1914 @@
+[
+  {
+    "id": 1,
+    "chapter": "Human Health and Disease",
+    "question": "After birth, infant receives antibodies IgA through colostrum from mother. This is an example of ________ immunity.",
+    "question_latex": "After birth, infant receives antibodies $IgA$ through colostrum from mother. This is an example of ________ immunity.",
+    "question_images": [],
+    "options": [
+      "A. Natural acquired active",
+      "B. Artificial acquired passive",
+      "C. Innate (natural)",
+      "D. Natural acquired passive"
+    ],
+    "option_images": [],
+    "answer": "D. Natural acquired passive",
+    "solution": "Colostrum with $IgA$ is an example of natural acquired passive immunity as antibodies are naturally produced in mother's body and passive because the baby is receiving readymade antibodies.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Human Health and Disease",
+    "question": "The immune system is made of",
+    "question_latex": "The immune system is made of",
+    "question_images": [],
+    "options": [
+      "A. Humoral system",
+      "B. Humoral and cell mediated system",
+      "C. Humoral and fibrous system",
+      "D. Antigen induced antibodies"
+    ],
+    "option_images": [],
+    "answer": "B. Humoral and cell mediated system",
+    "solution": "Acquired immunity is specialized immunity that forms antibodies and activated lymphocytes that attacks and destroys the specific organism. These are of two types, i.e., humoral immunity and cell mediated immunity. Humoral system involves antibodies and cell mediated system involves T-cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Human Health and Disease",
+    "question": "How does antigen-determinant differ from antigen binding site? [MHT CET 2009]",
+    "question_latex": "How does antigen-determinant differ from antigen binding site? [MHT CET 2009]",
+    "question_images": [],
+    "options": [
+      "A. By its structure",
+      "B. By its location",
+      "C. By its function",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Antigenic determinants or epitopes are those sites on antigens, which are recognized by antibodies and receptors present on T and B-cells. Each antigen determinant can stimulate the formation of a particular kind of antibody or cell. The antibody's antigen binding sites are located on the variable portion of the antibody. These sites help antibodies to combine specifically with antigens in the manner of lock and key. Hence, antigen determinants differ from antigen binding sites by their location, function and structure also.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Human Health and Disease",
+    "question": "The letter T in T-lymphocyte refers to",
+    "question_latex": "The letter T in T-lymphocyte refers to",
+    "question_images": [],
+    "options": [
+      "A. Thyroid",
+      "B. Thalamus",
+      "C. Tonsil",
+      "D. Thymus"
+    ],
+    "option_images": [],
+    "answer": "D. Thymus",
+    "solution": "The letter T in T-lymphocytes refers to thymus. Thymus is haemopoietic as well as an endocrine gland. Thymus is the seedbed of thymic lymphocytes (T-lymphocytes). Certain stem cells, originating in yolk sac and liver in early embryo, but only in bone marrow in late embryo, migrate into the thymus and proliferate to form a large number of lymphocytes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Human Health and Disease",
+    "question": "Interferons released by certain virus infected cells_______",
+    "question_latex": "Interferons released by certain virus infected cells_______",
+    "question_images": [],
+    "options": [
+      "A. Dilate blood capillaries.",
+      "B. Engulf and destroy invading microbes.",
+      "C. Kill most of the ingested micro-organisms",
+      "D. Make surrounding cells resistant to viral infection."
+    ],
+    "option_images": [],
+    "answer": "D. Make surrounding cells resistant to viral infection.",
+    "solution": "Interferons are special proteins released by virus infected cells. They also make the surrounding cells resistant to virus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Human Health and Disease",
+    "question": "Antibacterial agent present in saliva to prevent infection is _____ [MHT-CET 2024]",
+    "question_latex": "Antibacterial agent present in saliva to prevent infection is _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. lysozyme",
+      "B. chime",
+      "C. lipase",
+      "D. proenzyme"
+    ],
+    "option_images": [],
+    "answer": "A. lysozyme",
+    "solution": "Saliva contains lysozyme which acts as an antibacterial agent that prevents infections.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Human Health and Disease",
+    "question": "In the cell mediated immuno response, T-lymphocytes divide and secrete",
+    "question_latex": "In the cell mediated immuno response, T-lymphocytes divide and secrete",
+    "question_images": [],
+    "options": [
+      "A. antigens",
+      "B. Plasmogens",
+      "C. Collagens",
+      "D. cytokines"
+    ],
+    "option_images": [],
+    "answer": "A. antigens",
+    "solution": "In the cell mediated immune response, T-lymphocytes divide and secrete cytokines (Note: The PDF answer key states A - antigens, but the correct biological answer is cytokines. The answer as per the PDF answer key is recorded here).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is NOT function of sensitized helper T-cells? [MHT-CET 2019]",
+    "question_latex": "Which of the following is NOT function of sensitized helper T-cells? [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Stimulation of B-lymphocytes",
+      "B. Production of perforins and cell killing substances",
+      "C. Proliferation of other T-Cells",
+      "D. Attraction of macrophages"
+    ],
+    "option_images": [],
+    "answer": "B. Production of perforins and cell killing substances",
+    "solution": "Production of perforins and cell killing substances is the function of cytotoxic T-cells, not helper T-cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Human Health and Disease",
+    "question": "Alteration of which genes leads to cancer?",
+    "question_latex": "Alteration of which genes leads to cancer?",
+    "question_images": [],
+    "options": [
+      "A. Cell proliferation gene (proto-oncogenes)",
+      "B. Tumour suppressor gene",
+      "C. Tumour virus gene",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "B. Tumour suppressor gene",
+    "solution": "Tumour suppressor gene normally keeps mitosis in check and prevents cancer from occurring. This gene must be inactivated, altered or removed to control cell cycle and prevent cancer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Human Health and Disease",
+    "question": "Drug that binds to opioid receptors in CNS and acts as a depressant, slowing down body activities, is _____ [MHT-CET 2023]",
+    "question_latex": "Drug that binds to opioid receptors in CNS and acts as a depressant, slowing down body activities, is _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Lysergic acid",
+      "B. Cocain",
+      "C. Heroin",
+      "D. Marijuana"
+    ],
+    "option_images": [],
+    "answer": "C. Heroin",
+    "solution": "When opioids bind to opioid receptors, they trigger a cascade of chemical signals in the nervous system that reduce neuronal activity and lead to pain relief, feelings of pleasure and euphoria.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Human Health and Disease",
+    "question": "Aflatoxin and vinylchloride stimulate cancer of [MHT-CET 2024]",
+    "question_latex": "Aflatoxin and vinylchloride stimulate cancer of [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. blood",
+      "B. liver",
+      "C. lung",
+      "D. stomach"
+    ],
+    "option_images": [],
+    "answer": "B. liver",
+    "solution": "Aflatoxin (a metabolite of Aspergillus flavus, a mould) and Vinylchloride (VC) stimulate cancer of the liver.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Human Health and Disease",
+    "question": "Match the following diseases in column I with their respective modes of treatment in column II and select the correct option. [MHT-CET 2023]",
+    "question_latex": "Match the following diseases in column I with their respective modes of treatment in column II and select the correct option. [MHT-CET 2023]",
+    "question_images": [
+      "q12_1"
+    ],
+    "options": [
+      "A. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "B. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "C. (a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)",
+      "D. (a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+    "solution": "Malaria - Combination of artesunate, sulfadoxine, pyrimethamine etc. (iii); Dermatophytosis - Drugs like nystatin, fluconazole, inraconazole (i); Amoebiasis - Drugs like metronidazole and tinidazole (ii); Filariasis - Diethyl-carbamazine citrate tablets (iv).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Human Health and Disease",
+    "question": "The person showing unpredictable moods, outbursts of emotions, quarrelsome behaviour and conflicts with others is suffering from",
+    "question_latex": "The person showing unpredictable moods, outbursts of emotions, quarrelsome behaviour and conflicts with others is suffering from",
+    "question_images": [],
+    "options": [
+      "A. Schizophrenia",
+      "B. Borderline personality disorder (BPD)",
+      "C. Mood disorders",
+      "D. Addictive disorders"
+    ],
+    "option_images": [],
+    "answer": "A. Schizophrenia",
+    "solution": "Schizophrenia is any of a group of severe mental disorders that have in common symptoms such as hallucinations, delusions, blunted emotions, disordered thinking and a withdrawal from reality. Schizophrenia can be caused by excessive dopamine production, alteration in neuropeptides, increased ventricular brain ratios and decreased frontal lobe activity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Human Health and Disease",
+    "question": "Pathogenicity of Salmonella typhi is due to _______ present in its outer membrane. [MHT-CET 2019]",
+    "question_latex": "Pathogenicity of \\textit{Salmonella typhi} is due to _______ present in its outer membrane. [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Glycoproteins",
+      "B. Lipopolysaccharides",
+      "C. Nucleic acids",
+      "D. Carbohydrates"
+    ],
+    "option_images": [],
+    "answer": "B. Lipopolysaccharides",
+    "solution": "The pathogenicity of Salmonella typhi is due to lipopolysaccharides present in its outer membrane.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Human Health and Disease",
+    "question": "Bloating is a symptom seen in the patient suffering from _____ [MHT-CET 2023]",
+    "question_latex": "Bloating is a symptom seen in the patient suffering from _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Vomiting",
+      "B. Marasmus",
+      "C. Jaundice",
+      "D. Diarrhea"
+    ],
+    "option_images": [],
+    "answer": "D. Diarrhea",
+    "solution": "Bloating is a symptom seen in the patient suffering from diarrhea where absorption is affected and water is lost in defecation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Human Health and Disease",
+    "question": "Which one of the following groups of drugs is called cannabinoids?",
+    "question_latex": "Which one of the following groups of drugs is called cannabinoids?",
+    "question_images": [],
+    "options": [
+      "A. Heroin, hashish, cocaine",
+      "B. Marijuana, hashish, charas",
+      "C. Barbiturates, amphetamines, benzodiazepines",
+      "D. Morphine, heroin, LSD"
+    ],
+    "option_images": [],
+    "answer": "B. Marijuana, hashish, charas",
+    "solution": "Marijuana, hashish, charas and ganja are called cannabinoids. They interact with receptors present in brain, obtained from inflorescence and other parts of Cannabis sativa.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Human Health and Disease",
+    "question": "Disease associated with secretion of toxin is",
+    "question_latex": "Disease associated with secretion of toxin is",
+    "question_images": [],
+    "options": [
+      "A. Tetanus",
+      "B. Tuberculosis",
+      "C. Food poisoning",
+      "D. AIDS"
+    ],
+    "option_images": [],
+    "answer": "A. Tetanus",
+    "solution": "Tetanus is caused by toxin from anaerobic, spore producing bacterium Clostridium tetani. It is also called lock-jaw disease because increasing muscle spasm makes opening of jaw difficult.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Human Health and Disease",
+    "question": "An autoimmune disease is [MHT CET 2008]",
+    "question_latex": "An autoimmune disease is [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. AIDS",
+      "B. Haemophilia",
+      "C. Allergy",
+      "D. Myasthenia gravis"
+    ],
+    "option_images": [],
+    "answer": "D. Myasthenia gravis",
+    "solution": "Myasthenia gravis is an autoimmune disease characterized by the chronic fatigability and weakness of muscles, especially in the face and throat, as a result of defect in the conduction of nerve impulses at the myoneural junction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Human Health and Disease",
+    "question": "Treatment of malaria includes the use of ___ [MHT-CET 2023]",
+    "question_latex": "Treatment of malaria includes the use of ___ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Antiretroviral therapy (ART)",
+      "B. Metronidazole and Tinidazole tablets.",
+      "C. Artemisinin based combination therapies (ACTs)",
+      "D. Combination therapies such as chemotherapy, radiation therapy, immunotherapy."
+    ],
+    "option_images": [],
+    "answer": "C. Artemisinin based combination therapies (ACTs)",
+    "solution": "Treatment of malaria includes the use of Quinine and Artemisinin based combination therapies (ACTs). WHO has recommended 5 different ACTs which includes various combinations of artesunate, sulfadoxine, pyrimethamine, etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Human Health and Disease",
+    "question": "Elephantiasis causing organism belong to",
+    "question_latex": "Elephantiasis causing organism belong to",
+    "question_images": [],
+    "options": [
+      "A. Aschelminthes",
+      "B. Platyhelminthes",
+      "C. Cnidaria",
+      "D. Porifera"
+    ],
+    "option_images": [],
+    "answer": "A. Aschelminthes",
+    "solution": "The disease elephantiasis is caused by Wuchereria bancrofti, a member of phylum Aschelminthes. It is an endoparasite of humans that lives in the lymphatic system. The disease is marked by an excessive growth of connective tissue and enormous swelling of affected parts such as the scrotum, legs, arms and more rarely the vulva and breasts.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Human Health and Disease",
+    "question": "Match the diseases in Column I with the type of microbe causing them in Column II. Choose the correct option. [MHT-CET 2023]",
+    "question_latex": "Match the diseases in Column I with the type of microbe causing them in Column II. Choose the correct option. [MHT-CET 2023]",
+    "question_images": [
+      "q21_1"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(v), (d)-(i), (e)-(iv)",
+      "B. (a)-(v), (b)-(iv), (c)-(ii), (d)-(iii), (e)-(i)",
+      "C. (a)-(i), (b)-(v), (c)-(iii), (d)-(ii), (e)-(iv)",
+      "D. (a)-(iv), (b)-(ii), (c)-(i), (d)-(v), (e)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(ii), (b)-(iii), (c)-(v), (d)-(i), (e)-(iv)",
+    "solution": "Elephantiasis - Nematode parasite; Typhoid - Gram-ve bacteria; Dermatophytosis - Fungus; Dengue - Virus; Malaria - Protest (Protozoa).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Human Health and Disease",
+    "question": "Natural acquired passive immunity is achieved by_____",
+    "question_latex": "Natural acquired passive immunity is achieved by_____",
+    "question_images": [],
+    "options": [
+      "A. Transfer of antibodies from maternal placenta to fetus",
+      "B. Vaccination",
+      "C. Injecting pre-prepared antibodies using serum from animals",
+      "D. Entry of pathogens into body"
+    ],
+    "option_images": [],
+    "answer": "A. Transfer of antibodies from maternal placenta to fetus",
+    "solution": "Passive immunity is readymade antibodies obtained. Natural is produced within body due to stimulation. During embryonal growth, antibodies are produced by mother and transferred to embryo through placenta giving readymade immunity to the baby.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Human Health and Disease",
+    "question": "On sensitization, activated B-lymphocytes multiply to form clone of specific A which in turn produce B",
+    "question_latex": "On sensitization, activated B-lymphocytes multiply to form clone of specific $A$ which in turn produce $B$",
+    "question_images": [],
+    "options": [
+      "A. A- plasma cells, B-antibodies",
+      "B. A-memory T-cells, B-Lymphokines",
+      "C. A-plasma cells, B-antigens",
+      "D. A-cytotoxic T-cells, B-Perforins"
+    ],
+    "option_images": [],
+    "answer": "A. A- plasma cells, B-antibodies",
+    "solution": "Acquired immunity works in two phases - T-Lymphocytes (Cell mediated immunity) and B-Lymphocytes (Antibody mediated immunity). In antibody mediated immunity, lymphocytes produced by bone marrow are processed as B-lymphocytes which get differentiated into plasma cells which produce antibodies against antigen and memory cells which will remain in blood circulation and protect during next attack by same pathogen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Human Health and Disease",
+    "question": "Which one of the following is NOT the symptom of malaria? [MHT-CET 2016]",
+    "question_latex": "Which one of the following is NOT the symptom of malaria? [MHT-CET 2016]",
+    "question_images": [],
+    "options": [
+      "A. Arthralgia",
+      "B. Fever",
+      "C. Dysentery",
+      "D. Shivering"
+    ],
+    "option_images": [],
+    "answer": "C. Dysentery",
+    "solution": "Dysentery is not a symptom of malaria. Symptoms of malaria include fever, shivering, and arthralgia (joint pain).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Human Health and Disease",
+    "question": "Carcinoma refers to",
+    "question_latex": "Carcinoma refers to",
+    "question_images": [],
+    "options": [
+      "A. Malignant tumour of the colon",
+      "B. Benign tumour of the connective tissue",
+      "C. Malignant tumour of the connective tissue",
+      "D. Malignant tumour of the skin or mucous membrane"
+    ],
+    "option_images": [],
+    "answer": "D. Malignant tumour of the skin or mucous membrane",
+    "solution": "Carcinoma is a malignant or metastatic tumour. It can extend to the neighbouring cells; this process is called metastasis. These tumours are generally located in epithelial tissue and glands, e.g., breast cancer, skin cancer, stomach cancer, lung cancer, pancreas cancer, etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Human Health and Disease",
+    "question": "An antibody is described as bivalent because it has two ....... [2022]",
+    "question_latex": "An antibody is described as bivalent because it has two ....... [2022]",
+    "question_images": [],
+    "options": [
+      "A. arms",
+      "B. types of chains",
+      "C. antigen binding sites",
+      "D. heavy chains"
+    ],
+    "option_images": [],
+    "answer": "C. antigen binding sites",
+    "solution": "An antibody is described as bivalent because it has two antigen binding sites, one on each arm of the Y-shaped structure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Human Health and Disease",
+    "question": "Consider the following four statements (I-IV) regarding kidney transplant and select the two correct ones. I. Even if a kidney transplant is proper the recipient may need to take immunosuppressants for a long time. II. The cell-mediated immune response is responsible for the graft rejection. III. The B-lymphocytes are responsible for rejection of the graft. IV. The acceptance or rejection of a kidney transplant depends on specific interferons. The two correct statements are",
+    "question_latex": "Consider the following four statements (I-IV) regarding kidney transplant and select the two correct ones. I. Even if a kidney transplant is proper the recipient may need to take immunosuppressants for a long time. II. The cell-mediated immune response is responsible for the graft rejection. III. The B-lymphocytes are responsible for rejection of the graft. IV. The acceptance or rejection of a kidney transplant depends on specific interferons. The two correct statements are",
+    "question_images": [],
+    "options": [
+      "A. II and III",
+      "B. III and IV",
+      "C. I and III",
+      "D. I and II"
+    ],
+    "option_images": [],
+    "answer": "D. I and II",
+    "solution": "Both statements I and II are correct. The recipient needs immunosuppressants even after a successful transplant, and the cell-mediated immune response (T-cells) is responsible for graft rejection.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Human Health and Disease",
+    "question": "The polypeptide chains present in gamma immunoglobulin are",
+    "question_latex": "The polypeptide chains present in gamma immunoglobulin are",
+    "question_images": [],
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 6",
+      "D. 8"
+    ],
+    "option_images": [],
+    "answer": "A. 2",
+    "solution": "Immunoglobulin G (IgG) is the most abundant class of antibodies found in blood serum and lymph and active against bacteria, fungi, viruses and foreign particles. IgG possesses four polypeptide chains linked by disulphide bonds. (Note: Answer key states A-2, but biologically IgG has 4 polypeptide chains; answer recorded as per PDF.)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Human Health and Disease",
+    "question": "Given below are two statements. Statement-I: Passive immunity is acquired when readymade antibodies are received by body cells. Statement-II: Resistance induced by BCG vaccine is an example of passive immunity. Choose the correct answer. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements. Statement-I: Passive immunity is acquired when readymade antibodies are received by body cells. Statement-II: Resistance induced by BCG vaccine is an example of passive immunity. Choose the correct answer. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are correct.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "D. Statement I is correct but statement II is incorrect.",
+    "solution": "Statement I is correct but statement II is incorrect. Resistance induced by BCG vaccine, polio vaccine is an example of artificial acquired active immunity, not passive immunity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Human Health and Disease",
+    "question": "Match disorders in Column-I with their meaning in Column II. Choose the correct option given below. [MHT-CET 2024]",
+    "question_latex": "Match disorders in Column-I with their meaning in Column II. Choose the correct option given below. [MHT-CET 2024]",
+    "question_images": [
+      "q30_1"
+    ],
+    "options": [
+      "A. (a)-(i); (b)-(iv); (c)-(ii); (d)-(iii)",
+      "B. (a)-(iv); (b)-(ii); (c)-(iii); (d)-(i)",
+      "C. (a)-(ii); (b)-(iii); (c)-(i); (d)-(iv)",
+      "D. (a)-(iii); (b)-(i); (c)-(iv); (d)-(ii)"
+    ],
+    "option_images": [],
+    "answer": "C. (a)-(ii); (b)-(iii); (c)-(i); (d)-(iv)",
+    "solution": "Amnesia - Loss of memory; Anorexia nervosa - Emotional aversion to food; Anxiety - Fear or apprehension; Bulimia - Extreme over indulgence in food.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Human Health and Disease",
+    "question": "Introduction of attenuated pathogens in human body results in _____ [MHT-CET 2017]",
+    "question_latex": "Introduction of attenuated pathogens in human body results in _____ [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Artificial acquired active immunity",
+      "B. Artificial acquired passive immunity",
+      "C. Natural acquired active immunity",
+      "D. Natural acquired passive immunity"
+    ],
+    "option_images": [],
+    "answer": "A. Artificial acquired active immunity",
+    "solution": "Introduction of attenuated pathogens (vaccines) in human body results in artificial acquired active immunity as the body produces its own antibodies in response.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Human Health and Disease",
+    "question": "Accumulation of lymphatic fluid in testes, leading to their enlargement, is called _____ [MHT-CET 2023]",
+    "question_latex": "Accumulation of lymphatic fluid in testes, leading to their enlargement, is called _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Lymphoma",
+      "B. Lymphedema",
+      "C. Hydrocoel",
+      "D. Cryptorchidism"
+    ],
+    "option_images": [],
+    "answer": "C. Hydrocoel",
+    "solution": "Accumulation of lymphatic fluid in testes, leading to their enlargement, is called hydrocoel.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Human Health and Disease",
+    "question": "The term antibiotic was coined by",
+    "question_latex": "The term antibiotic was coined by",
+    "question_images": [],
+    "options": [
+      "A. Selman Waksman",
+      "B. Alexander Fleming",
+      "C. Edward Jenner",
+      "D. Louis Pasteur"
+    ],
+    "option_images": [],
+    "answer": "A. Selman Waksman",
+    "solution": "The term antibiotics was first used by S A Waksman in 1945. Antibiotics are substances produced by microorganisms such as fungi or bacteria that are harmful to the growth of other microorganisms, e.g., penicillin, streptomycin, chloramphenicol, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Human Health and Disease",
+    "question": "In order to prevent _____, an 'Rh-ve' Mother is injected with anti-Rh antibody during pregnancy, carrying 'Rh+ve' foetus. [MHT-CET 2024]",
+    "question_latex": "In order to prevent _____, an $Rh^{-ve}$ Mother is injected with anti-Rh antibody during pregnancy, carrying $Rh^{+ve}$ foetus. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. sickle cell anaemia",
+      "B. haemophilia in newborn",
+      "C. phenylketonuria",
+      "D. haemolytic disease of newborn"
+    ],
+    "option_images": [],
+    "answer": "D. haemolytic disease of newborn",
+    "solution": "In order to prevent HDN (Haemolytic Disease of the Newborn), $Rh^{-ve}$ mother is injected with the anti-Rh antibody during all pregnancies carrying $Rh^{+ve}$ foetus.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Human Health and Disease",
+    "question": "BCG vaccine is used against",
+    "question_latex": "BCG vaccine is used against",
+    "question_images": [],
+    "options": [
+      "A. TB",
+      "B. Leprosy",
+      "C. Food poisoning",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. TB",
+    "solution": "BCG vaccine is used against TB (tuberculosis), which is a bacterial disease caused by Mycobacterium tuberculosis. BCG vaccine was developed by Calmette and Guerin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Human Health and Disease",
+    "question": "AIDS virus is also known as [MHT CET 2007]",
+    "question_latex": "AIDS virus is also known as [MHT CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. HIV",
+      "B. HTLV-III",
+      "C. LAV",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "HIV is Human Immunodeficiency Virus, HTLV-III is Human T-Lymphotrophic Virus type-III, LAV is Lymphadenopathy Associated Virus. All are names of the AIDS virus.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following diseases is spread by housefly?",
+    "question_latex": "Which of the following diseases is spread by housefly?",
+    "question_images": [],
+    "options": [
+      "A. Dengue fever",
+      "B. Encephalitis",
+      "C. Filariasis",
+      "D. Typhoid"
+    ],
+    "option_images": [],
+    "answer": "D. Typhoid",
+    "solution": "Typhoid is caused by bacterium Salmonella typhi. The disease is spread by contaminated food and water through housefly.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Human Health and Disease",
+    "question": "Jaundice is a disease of",
+    "question_latex": "Jaundice is a disease of",
+    "question_images": [],
+    "options": [
+      "A. Pancreas",
+      "B. Kidney",
+      "C. Liver",
+      "D. Duodenum"
+    ],
+    "option_images": [],
+    "answer": "C. Liver",
+    "solution": "Jaundice is a disease of the liver and involves yellow coloration of the skin, mucous membranes and secretions resulting from hyperbilirubinemia.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Human Health and Disease",
+    "question": "Syphilis is caused by_____",
+    "question_latex": "Syphilis is caused by_____",
+    "question_images": [],
+    "options": [
+      "A. A spirochete bacterium called Neisseria gonorrhoeae",
+      "B. A spirochete bacterium called Treponema palidum",
+      "C. A Diplococcus bacterium called Neisseria gonorrhoeae",
+      "D. A Diplococcus bacterium called Treponema palidum"
+    ],
+    "option_images": [],
+    "answer": "B. A spirochete bacterium called Treponema palidum",
+    "solution": "Syphilis is a sexually transmitted disease mainly caused by spirochete bacterium Treponema pallidum. Symptoms observed are painless sore formation on the genitals, rectum and mouth. Second stage is rashes. Third and final stage can result in damage to brain, nerves, eyes and heart.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Human Health and Disease",
+    "question": "Interferons are class of cytokines to stimulate other cells against _____ infections. [MHT-CET 2024]",
+    "question_latex": "Interferons are class of cytokines to stimulate other cells against _____ infections. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. protozoan",
+      "B. viral",
+      "C. bacterial",
+      "D. helminth"
+    ],
+    "option_images": [],
+    "answer": "B. viral",
+    "solution": "Interferons are a class of cytokines that stimulate other cells against viral infections as a part of innate immunity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Human Health and Disease",
+    "question": "Natural killer cells that are important for nonspecific defense against viruses, are a type of _____ [MHT-CET 2023]",
+    "question_latex": "Natural killer cells that are important for nonspecific defense against viruses, are a type of _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Lymphocytes",
+      "B. Basophils",
+      "C. Platelets",
+      "D. Red blood cell"
+    ],
+    "option_images": [],
+    "answer": "A. Lymphocytes",
+    "solution": "Natural killer cells (NK) that are important for nonspecific defense against viruses and tumors, are a type of lymphocytes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Human Health and Disease",
+    "question": "Cannabinoids are obtained from [MHT-CET 2024]",
+    "question_latex": "Cannabinoids are obtained from [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. leaves of Erythroxylum coca",
+      "B. seeds of Atropa belladona",
+      "C. latex of Papaver somniferum",
+      "D. inflorescence of Cannabis sativa"
+    ],
+    "option_images": [],
+    "answer": "D. inflorescence of Cannabis sativa",
+    "solution": "Cannabinoids are obtained from inflorescences and other parts of Cannabis sativa. Marijuana, hashish, charas and ganja are different forms of drugs obtained from this plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Human Health and Disease",
+    "question": "Removal or absence of thymus in early life shall bring about",
+    "question_latex": "Removal or absence of thymus in early life shall bring about",
+    "question_images": [],
+    "options": [
+      "A. Lack of lymphocytes",
+      "B. Lack of antibodies",
+      "C. Lack of lymph nodes",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "C. Lack of lymph nodes",
+    "solution": "Removal or absence of thymus in early life would result in lack of T-lymphocytes which are processed in thymus. The answer as per PDF answer key is C.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Human Health and Disease",
+    "question": "Diphtheria is caused by",
+    "question_latex": "Diphtheria is caused by",
+    "question_images": [],
+    "options": [
+      "A. Poisons released by living bacterial cells into the host tissues",
+      "B. Poisons released from dead bacterial cells into the host tissues",
+      "C. Poisons released by virus into host tissues",
+      "D. Excessive immune response by the host's body"
+    ],
+    "option_images": [],
+    "answer": "A. Poisons released by living bacterial cells into the host tissues",
+    "solution": "Toxins released from Corynebacterium diphtheriae causes diphtheria. Actually, bacterial cells do not contain gene for toxin production - a phage carries the gene for it. Only those lysogenised cells of C. diphtheriae which carry phage can produce the toxin and cause diphtheria.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Human Health and Disease",
+    "question": "The genes concerned with the production of cancer are called",
+    "question_latex": "The genes concerned with the production of cancer are called",
+    "question_images": [],
+    "options": [
+      "A. Cancer genes",
+      "B. Carcinogenes",
+      "C. Carcinomas",
+      "D. Oncogenes"
+    ],
+    "option_images": [],
+    "answer": "D. Oncogenes",
+    "solution": "Genes that induce cellular proliferation are called proto-oncogenes. The proto-oncogenes encode for growth factors, growth factor receptors, transcription factors, etc. They change into oncogenes or cancer genes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Human Health and Disease",
+    "question": "Cancer characterized by a change in wart or mole on the skin is called________",
+    "question_latex": "Cancer characterized by a change in wart or mole on the skin is called________",
+    "question_images": [],
+    "options": [
+      "A. Sarcoma",
+      "B. Melanoma",
+      "C. Adenoma",
+      "D. Carcinoma"
+    ],
+    "option_images": [],
+    "answer": "B. Melanoma",
+    "solution": "Melanoma is a type of cancer characterized by change in colour of wart or mole. Sarcoma is connective tissue cancer, carcinoma is epithelial tissue cancer, and adenoma is cancer of glands.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Human Health and Disease",
+    "question": "Antigen binding site in an antibody is found between",
+    "question_latex": "Antigen binding site in an antibody is found between",
+    "question_images": [],
+    "options": [
+      "A. Two light chains",
+      "B. Two heavy chains",
+      "C. One heavy and one light chain",
+      "D. Either between two light chains or between one heavy and one light chain depending upon the nature of antigen"
+    ],
+    "option_images": [],
+    "answer": "C. One heavy and one light chain",
+    "solution": "A typical antibody monomer has four protein chains, i.e., two identical light (L) chains and two identical heavy (H) chains. The variable region from one light chain (L) and one heavy chain (H) form one antigen binding site. Hence, each antibody has two antigen binding sites.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is a fungal disease?",
+    "question_latex": "Which of the following is a fungal disease?",
+    "question_images": [],
+    "options": [
+      "A. Ascariasis",
+      "B. Malaria",
+      "C. Ringworm infection",
+      "D. Acute coryza"
+    ],
+    "option_images": [],
+    "answer": "C. Ringworm infection",
+    "solution": "Ringworm is a fungal disease. Ascariasis is a roundworm disease, malaria is a protozoan disease, and coryza is a bacterial infection.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following method is used for detection of antibodies?",
+    "question_latex": "Which of the following method is used for detection of antibodies?",
+    "question_images": [],
+    "options": [
+      "A. Competitive ELISA",
+      "B. Indirect or sandwich ELISA",
+      "C. Antibody class captive ELISA",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "ELISA test can be used to measure either antigen or antibody. For the detection of antibodies, following three assays are used: (i) Competitive ELISA (ii) Indirect or sandwich ELISA (iii) Antibody class captive ELISA.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following diseases are caused by the nematodes? A. Ringworm B. Ascariasis C. Elephantiasis D. Amoebiasis [2022]",
+    "question_latex": "Which of the following diseases are caused by the nematodes? A. Ringworm B. Ascariasis C. Elephantiasis D. Amoebiasis [2022]",
+    "question_images": [],
+    "options": [
+      "A. A and B only",
+      "B. B and D only",
+      "C. A and C only",
+      "D. B and C only"
+    ],
+    "option_images": [],
+    "answer": "D. B and C only",
+    "solution": "Ascariasis (Ascaris lumbricoides) and Elephantiasis (Wuchereria bancrofti) are both caused by nematodes. Ringworm is a fungal disease and Amoebiasis is caused by protozoan Entamoeba histolytica.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is an example of carcinoma?",
+    "question_latex": "Which of the following is an example of carcinoma?",
+    "question_images": [],
+    "options": [
+      "A. Melanoma cancer of skin",
+      "B. Cancer of lymph gland",
+      "C. Cancer of muscle",
+      "D. Cancer of blood"
+    ],
+    "option_images": [],
+    "answer": "A. Melanoma cancer of skin",
+    "solution": "Carcinoma is the cancer of epithelial cells that covers external body surfaces (skin) and the lining of body organs. While the cancer of muscle is sarcoma, cancer of lymph glands is lymphoma and cancer of blood cells is leukaemia.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Human Health and Disease",
+    "question": "An example of innate immunity is",
+    "question_latex": "An example of innate immunity is",
+    "question_images": [],
+    "options": [
+      "A. PMNL-neutrophils",
+      "B. T-lymphocytes",
+      "C. B-lymphocytes",
+      "D. TH-cells"
+    ],
+    "option_images": [],
+    "answer": "A. PMNL-neutrophils",
+    "solution": "Innate immunity is inherited by the organisms from their parents and protects it from birth throughout life. PMNL-neutrophils are an example of innate immunity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Human Health and Disease",
+    "question": "Marijuana is obtained from _____ part of Cannabis sativa.",
+    "question_latex": "Marijuana is obtained from _____ part of \\textit{Cannabis sativa}.",
+    "question_images": [],
+    "options": [
+      "A. Leaf",
+      "B. Root",
+      "C. Inflorescence",
+      "D. Latex"
+    ],
+    "option_images": [],
+    "answer": "C. Inflorescence",
+    "solution": "Marijuana is obtained from inflorescence of Cannabis. It is a psychotropic drug used primarily for medical and recreational purpose. It is considered one of the abused drugs. Dizziness, vomiting and hallucination are some symptoms.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Human Health and Disease",
+    "question": "Genetic material in human immune deficiency virus is _____ [MHT-CET 2024]",
+    "question_latex": "Genetic material in human immune deficiency virus is _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. ds DNA",
+      "B. ds RNA",
+      "C. ss DNA",
+      "D. ss RNA"
+    ],
+    "option_images": [],
+    "answer": "D. ss RNA",
+    "solution": "HIV is 100 to 140 nm in diameter. It is spherical. Virus particle shows centrally located two ss RNA molecules along with reverse transcriptase enzymes. It is covered by two layers of proteins.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Human Health and Disease",
+    "question": "The interferons are",
+    "question_latex": "The interferons are",
+    "question_images": [],
+    "options": [
+      "A. Antibacterial drug",
+      "B. Antiviral drugs",
+      "C. Antibiotic drugs",
+      "D. Immunosuppressive drugs"
+    ],
+    "option_images": [],
+    "answer": "B. Antiviral drugs",
+    "solution": "Interferons are glycoproteins with low molecular weight that are effective against most of the viruses. These are naturally produced by virus infected cells. These proteins interact with adjacent cells and make them resistant to virus attack. Nowadays, interferons are also being manufactured through genetic engineering and are used in many antiviral drugs.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following diseases is not caused by virus?",
+    "question_latex": "Which of the following diseases is not caused by virus?",
+    "question_images": [],
+    "options": [
+      "A. Mumps",
+      "B. Rabies",
+      "C. AIDS",
+      "D. Tuberculosis"
+    ],
+    "option_images": [],
+    "answer": "D. Tuberculosis",
+    "solution": "Tuberculosis (TB) is caused by a rod-shaped bacterium named Mycobacterium tuberculosis. It commonly affects the lungs. The bacteria damage tissues and release a toxin named tuberculin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Human Health and Disease",
+    "question": "Fever due to infection is a natural defense mechanism of innate immunity which helps in the following EXCEPT _____ [MHT-CET 2023]",
+    "question_latex": "Fever due to infection is a natural defense mechanism of innate immunity which helps in the following EXCEPT _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Stimulating production of interferons",
+      "B. Faster recovery from infections",
+      "C. Providing specific immunity against specific antigens",
+      "D. Accelerating physiological processes to destroy invading pathogens"
+    ],
+    "option_images": [],
+    "answer": "B. Faster recovery from infections",
+    "solution": "Fever as a defense mechanism of innate immunity stimulates production of interferons, accelerates physiological processes to destroy pathogens, but does NOT provide specific immunity against specific antigens (that is acquired immunity) nor directly causes faster recovery.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Human Health and Disease",
+    "question": "With reference to the following diagram of an antibody, select the correct option indicating P, Q and R. [2022]",
+    "question_latex": "With reference to the following diagram of an antibody, select the correct option indicating $P$, $Q$ and $R$. [2022]",
+    "question_images": [
+      "58_qu_1.png"
+    ],
+    "options": [
+      "A. P - Paratope, Q - Heavy chain, R - Variable region",
+      "B. P - Epitope, Q - Heavy chain, R - Variable region",
+      "C. P - Paratope, Q - Light chain, R - Constant region",
+      "D. P - Epitope, Q - Light chain, R - Constant region"
+    ],
+    "option_images": [],
+    "answer": "A. P - Paratope, Q - Heavy chain, R - Variable region",
+    "solution": "In the antibody diagram, P indicates the paratope (antigen binding site), Q indicates the heavy chain, and R indicates the variable region.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Human Health and Disease",
+    "question": "Hallucinogenic properties are seen in____",
+    "question_latex": "Hallucinogenic properties are seen in____",
+    "question_images": [],
+    "options": [
+      "A. Claviceps purpureus",
+      "B. Atropa belladonna",
+      "C. Papaver somnifera",
+      "D. Cannabis sativa"
+    ],
+    "option_images": [],
+    "answer": "B. Atropa belladonna",
+    "solution": "Hallucinogenic properties are found in Atropa belladonna. Charas and ganja are found from Cannabis sativa. Papaver is poppy plant also used as medicinal plant. Claviceps is ergot fungus used to obtain LSD.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Human Health and Disease",
+    "question": "Quinine is obtained from",
+    "question_latex": "Quinine is obtained from",
+    "question_images": [],
+    "options": [
+      "A. Bark of Cinchona",
+      "B. Root of Cinchona",
+      "C. Wood of Cinchona",
+      "D. Leaves of Cinchona"
+    ],
+    "option_images": [],
+    "answer": "A. Bark of Cinchona",
+    "solution": "The drug quinine is obtained from the bark of Cinchona.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Human Health and Disease",
+    "question": "Which one of the following disease is sexually transmitted disease",
+    "question_latex": "Which one of the following disease is sexually transmitted disease",
+    "question_images": [],
+    "options": [
+      "A. Cancer",
+      "B. Syphilis",
+      "C. Diphtheria",
+      "D. Myocarditis"
+    ],
+    "option_images": [],
+    "answer": "B. Syphilis",
+    "solution": "Syphilis is a sexually transmitted disease. It is caused by spirochaete bacterium Treponema pallidum. It affects the mucous membranes in genital, rectal and oral regions and causes lesions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Human Health and Disease",
+    "question": "Given below are two statements. Statement-I: Tobacco, Marijuana and other drugs may cause infertility in both men and women. Statement-II: Nicotine blocks the production of sperms and decreases the size of testicles. Choose the correct answer. [MHT-CET 2023]",
+    "question_latex": "Given below are two statements. Statement-I: Tobacco, Marijuana and other drugs may cause infertility in both men and women. Statement-II: Nicotine blocks the production of sperms and decreases the size of testicles. Choose the correct answer. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "D. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to drug addiction and their effect on human body.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Human Health and Disease",
+    "question": "The truck drivers usually take [MHT CET 2007]",
+    "question_latex": "The truck drivers usually take [MHT CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. Amphetamines",
+      "B. LSD",
+      "C. Caffeine",
+      "D. morphine"
+    ],
+    "option_images": [],
+    "answer": "A. Amphetamines",
+    "solution": "Amphetamines and cocaine are strong stimulants. Stimulants increase nerve activity in the brain by initiating the release of noradrenaline. Truck drivers use amphetamines to stay awake.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Human Health and Disease",
+    "question": "A non-communicable disease is",
+    "question_latex": "A non-communicable disease is",
+    "question_images": [],
+    "options": [
+      "A. Measles",
+      "B. Rabies",
+      "C. Diphtheria",
+      "D. Diabetes"
+    ],
+    "option_images": [],
+    "answer": "D. Diabetes",
+    "solution": "Diabetes mellitus is a non-communicable disease. It is characterized by chronic hyperglycemia, which is excessive concentration of glucose in the blood. Diabetes is primarily a result of relative or complete lack of insulin secretion by the beta-cells of islets of Langerhans in pancreas.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is STD?",
+    "question_latex": "Which of the following is STD?",
+    "question_images": [],
+    "options": [
+      "A. Cancer",
+      "B. Malaria",
+      "C. Pneumonia",
+      "D. Trichomoniasis"
+    ],
+    "option_images": [],
+    "answer": "D. Trichomoniasis",
+    "solution": "Trichomoniasis is a sexually transmitted disease. It is caused by Trichomonas vaginalis. Malaria is caused by Plasmodium sp. and Pneumonia is caused by Diplococcus pneumoniae.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following disorders can be regarded as madness?",
+    "question_latex": "Which of the following disorders can be regarded as madness?",
+    "question_images": [],
+    "options": [
+      "A. Psychosis",
+      "B. Epilepsy",
+      "C. Insomnia",
+      "D. Parkinsonism"
+    ],
+    "option_images": [],
+    "answer": "A. Psychosis",
+    "solution": "Psychosis is mental illness characterized by loss of perceptions about realities of life. It is caused by brain disorders, TB, diabetes, hypertension, etc. The psychic is generally not aware of their illness and even refuses to undergo treatment; such persons are commonly called mad.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Human Health and Disease",
+    "question": "Given below are two statements. Statement-I: Innate immunity depends upon genetic make-up of an individual. Statement-II: The cough reflex is the only defense mechanism of respiratory tract. Select the correct answer from options given below. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements. Statement-I: Innate immunity depends upon genetic make-up of an individual. Statement-II: The cough reflex is the only defense mechanism of respiratory tract. Select the correct answer from options given below. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect and statement II is correct.",
+      "C. Both statement I and statement II are incorrect.",
+      "D. Statement I is correct and statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "D. Statement I is correct and statement II is incorrect.",
+    "solution": "Statement I is correct - innate immunity depends on genetic make-up. Statement II is incorrect - the cough reflex is not the only defense mechanism of respiratory tract; mucus, ciliary epithelium and nasal hair also help.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Human Health and Disease",
+    "question": "Identify the wrongly matched pair.",
+    "question_latex": "Identify the wrongly matched pair.",
+    "question_images": [],
+    "options": [
+      "A. Typhoid - Widal test",
+      "B. Plague - Viral disease",
+      "C. Malignant malaria - Plasmodium falciparum",
+      "D. Common cold - Rhinovirus"
+    ],
+    "option_images": [],
+    "answer": "B. Plague - Viral disease",
+    "solution": "Plague is a bacterial disease. It is caused by a rod-shaped, non-motile bacillus, Pasteurella pestis. It is spread through the bite of infected rat flea (Xenopsylla cheopsis) on lower extremities.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Human Health and Disease",
+    "question": "The erythropoietic organ of foetus is _____ and _____ [MHT-CET 2023]",
+    "question_latex": "The erythropoietic organ of foetus is _____ and _____ [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Spleen and kidney",
+      "B. Liver and spleen",
+      "C. Kidney and yellow marrow",
+      "D. Kidney and lymph nodes"
+    ],
+    "option_images": [],
+    "answer": "B. Liver and spleen",
+    "solution": "The erythropoietic organ of foetus is liver and spleen. This function is taken up by bone marrow in adults.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following helps in differentiation of cells of the immune system",
+    "question_latex": "Which of the following helps in differentiation of cells of the immune system",
+    "question_images": [],
+    "options": [
+      "A. Thymosin",
+      "B. Thyroxine",
+      "C. Cortisol",
+      "D. Steroid"
+    ],
+    "option_images": [],
+    "answer": "A. Thymosin",
+    "solution": "The thymus gland secretes thymosin hormone, which stimulates the development of certain kinds of white blood cells involved in producing immunity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Human Health and Disease",
+    "question": "Alcohol abuse or excessive use of alcohol during adolescence may have long term effects like _____ [MHT-CET 2024]",
+    "question_latex": "Alcohol abuse or excessive use of alcohol during adolescence may have long term effects like _____ [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Masculinization in females, excessive hair growth on face and body.",
+      "B. Euphoria, day-dreaming and hallucinations.",
+      "C. Increased muscle strength, improvement in overall performance.",
+      "D. Liver cirrhosis and pancreatitis, loss of balance."
+    ],
+    "option_images": [],
+    "answer": "D. Liver cirrhosis and pancreatitis, loss of balance.",
+    "solution": "Alcohol abuse or excessive use of alcohol during adolescence may have long term effects like liver cirrhosis and pancreatitis, and loss of balance.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Human Health and Disease",
+    "question": "Cells obtained from cancerous tumours are known as",
+    "question_latex": "Cells obtained from cancerous tumours are known as",
+    "question_images": [],
+    "options": [
+      "A. Hybridomas",
+      "B. Myelomas",
+      "C. Lymphocytes",
+      "D. Monoclonal cells"
+    ],
+    "option_images": [],
+    "answer": "D. Monoclonal cells",
+    "solution": "Myeloma is a type of cancer that develops from plasma cells occurring in the bone marrow. It may develop wherever the plasma cells occur. (Answer as per PDF key is D - Monoclonal cells.)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Human Health and Disease",
+    "question": "The disease caused by virus, which is 42 nm in size and contains double stranded DNA is [MHT CET 2005]",
+    "question_latex": "The disease caused by virus, which is 42 nm in size and contains double stranded DNA is [MHT CET 2005]",
+    "question_images": [],
+    "options": [
+      "A. Hepatitis-A",
+      "B. AIDS",
+      "C. Hepatitis-B",
+      "D. Leprosy"
+    ],
+    "option_images": [],
+    "answer": "C. Hepatitis-B",
+    "solution": "Hepatitis-B virus contains double stranded DNA, while Hepatitis-C, Hepatitis-E, Hepatitis-A and HIV contain single stranded RNA.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Human Health and Disease",
+    "question": "Given below are two statements: Statement-I: Vaccines provide natural acquired active immunity. Statement-II: The latest hot spot in the field of vaccine research is the development of oral vaccines. Choose the most appropriate answer. [MHT-CET 2024]",
+    "question_latex": "Given below are two statements: Statement-I: Vaccines provide natural acquired active immunity. Statement-II: The latest hot spot in the field of vaccine research is the development of oral vaccines. Choose the most appropriate answer. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is incorrect but statement II is correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is incorrect but statement II is correct.",
+    "solution": "Vaccines provide artificial acquired active immunity (not natural). The development of oral vaccines is indeed the latest hotspot in vaccine research.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Human Health and Disease",
+    "question": "A drug called morphine is obtained from",
+    "question_latex": "A drug called morphine is obtained from",
+    "question_images": [],
+    "options": [
+      "A. Rauwolffia serpentina",
+      "B. Cannabis sativa",
+      "C. Cajanus cajan",
+      "D. Papaver somniferum"
+    ],
+    "option_images": [],
+    "answer": "D. Papaver somniferum",
+    "solution": "The drug morphine is obtained from Papaver somniferum (poppy plant).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Human Health and Disease",
+    "question": "Select the INCORRECT pair with respect to substances produced by cells involved in immune response. [MHT-CET 2024]",
+    "question_latex": "Select the INCORRECT pair with respect to substances produced by cells involved in immune response. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Helper T-cells - Lymphokines",
+      "B. Suppressor T-cells - Interferons",
+      "C. B-lymphocytes - Antibodies",
+      "D. Cytotoxic T-cells - Perforins"
+    ],
+    "option_images": [],
+    "answer": "B. Suppressor T-cells - Interferons",
+    "solution": "Suppressor T-cells suppress the entire immune system against attack on the body's own cells. They do not produce interferons. Interferons are produced by virus-infected cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Human Health and Disease",
+    "question": "The enzyme, present in saliva which acts as an antibacterial agent and prevents infections, is [MHT-CET 2023]",
+    "question_latex": "The enzyme, present in saliva which acts as an antibacterial agent and prevents infections, is [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Salivary amylase",
+      "B. Lysozyme",
+      "C. Lipase",
+      "D. Lactose"
+    ],
+    "option_images": [],
+    "answer": "B. Lysozyme",
+    "solution": "The antibacterial substance Lysozyme (first described by A. Fleming) is a thermolabile, low molecular weight, basic protein which acts as a muramidase. Lysozyme is active only against some pathogenic Gram +ve bacteria.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Human Health and Disease",
+    "question": "The immunity developed by a child after attack of measles is __________ immunity [MHT-CET 2018]",
+    "question_latex": "The immunity developed by a child after attack of measles is __________ immunity [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Natural acquired active",
+      "B. Artificial acquired active",
+      "C. Natural acquired passive",
+      "D. Artificial acquired passive"
+    ],
+    "option_images": [],
+    "answer": "A. Natural acquired active",
+    "solution": "When a child recovers from measles, they develop natural acquired active immunity as the body naturally encountered the pathogen and actively produced antibodies.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Human Health and Disease",
+    "question": "AIDS is caused by ______",
+    "question_latex": "AIDS is caused by ______",
+    "question_images": [],
+    "options": [
+      "A. Corona virus",
+      "B. Rhino virus",
+      "C. Human immunodeficiency virus",
+      "D. Nucleopolyhedro virus"
+    ],
+    "option_images": [],
+    "answer": "C. Human immunodeficiency virus",
+    "solution": "Acquired immune deficiency syndrome is mainly caused by Human Immunodeficiency Virus (HIV). Corona and rhino are types of cold virus; Nucleopolyhedrovirus causes disease in caterpillars in Australia.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Human Health and Disease",
+    "question": "ECG does NOT help to diagnose. [MHT-CET 2023]",
+    "question_latex": "ECG does NOT help to diagnose. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Abnormality in conductivity pathway",
+      "B. Damage to cardiac muscles",
+      "C. Shortness of breath",
+      "D. Enlargement of heart chambers"
+    ],
+    "option_images": [],
+    "answer": "C. Shortness of breath",
+    "solution": "ECG (Electrocardiogram) does NOT help to diagnose shortness of breath since it is a device to check the function of the heart, not respiratory parameters.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is an opiate narcotic? [MHT CET 2011]",
+    "question_latex": "Which of the following is an opiate narcotic? [MHT CET 2011]",
+    "question_images": [],
+    "options": [
+      "A. Morphine",
+      "B. LSD",
+      "C. Amphetamines",
+      "D. Barbiturates"
+    ],
+    "option_images": [],
+    "answer": "A. Morphine",
+    "solution": "Morphine is a white crystalline, bitter narcotic principal alkaloid of opium. It is used in medicine as hydrochloride or sulphate to dull pain, for sedation and to induce sleep.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Human Health and Disease",
+    "question": "In the following diagram of Salmonella. Which antigens are indicated by x, y and z? [2022]",
+    "question_latex": "In the following diagram of \\textit{Salmonella}. Which antigens are indicated by $x$, $y$ and $z$? [2022]",
+    "question_images": [
+      "82_qu_1.png"
+    ],
+    "options": [
+      "A. x-K, y-H, z-O",
+      "B. x-O, y-K, z-H",
+      "C. x-H, y-O, z-K",
+      "D. x-K, y-O, z-H"
+    ],
+    "option_images": [],
+    "answer": "D. x-K, y-O, z-H",
+    "solution": "In the Salmonella diagram, x indicates the K antigen (capsular), y indicates the O antigen (somatic/cell wall), and z indicates the H antigen (flagellar).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Human Health and Disease",
+    "question": "Which one of the following correctly matches a Sexually Transmitted Disease (STD) with its pathogen? [MHT CET 2008]",
+    "question_latex": "Which one of the following correctly matches a Sexually Transmitted Disease (STD) with its pathogen? [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. AIDS - Bacillus anthracis",
+      "B. Syphilis - Treponema pallidum",
+      "C. Urethritis - Entamoeba gingivalis",
+      "D. Gonorrhoea - Leishmania donovani"
+    ],
+    "option_images": [],
+    "answer": "B. Syphilis - Treponema pallidum",
+    "solution": "Syphilis is correctly matched with Treponema pallidum. AIDS is caused by HIV; Gonorrhoea is caused by Neisseria gonorrhoeae; Anthrax is caused by Bacillus anthracis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following provides immunity to digestive tract against antigen?",
+    "question_latex": "Which of the following provides immunity to digestive tract against antigen?",
+    "question_images": [],
+    "options": [
+      "A. IgA",
+      "B. IgD",
+      "C. IgG",
+      "D. IgE"
+    ],
+    "option_images": [],
+    "answer": "A. IgA",
+    "solution": "IgA is predominantly found in seromucous secretions such as saliva, tear, colostrum, milk. It is effective against a number of antigens, providing local immunity to the digestive tract.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Human Health and Disease",
+    "question": "In an antibody molecule, the antigen-binding site is present on_______",
+    "question_latex": "In an antibody molecule, the antigen-binding site is present on_______",
+    "question_images": [],
+    "options": [
+      "A. Variable regions of heavy and light chains.",
+      "B. The region holding arms and stem.",
+      "C. Constant regions of heavy and light chains.",
+      "D. Constant region of light chains."
+    ],
+    "option_images": [],
+    "answer": "A. Variable regions of heavy and light chains.",
+    "solution": "Two heavy and two light chains of polypeptide are held together by disulphide bond arranged in Y shape. The two arms of the fork consist of variable end with one heavy and one light chain acting as antigen binding site.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following options are CORRECT? [MHT-CET 2015] 1. Heroin - Stimulant  2. Marijuana - Cardiovascular  3. Cocaine - Hallucinations  4. Morphine - Sedative",
+    "question_latex": "Which of the following options are CORRECT? [MHT-CET 2015] 1. Heroin - Stimulant 2. Marijuana - Cardiovascular 3. Cocaine - Hallucinations 4. Morphine - Sedative",
+    "question_images": [],
+    "options": [
+      "A. 1, 2 and 3",
+      "B. 1, 3 and 4",
+      "C. 2, 3 and 4",
+      "D. 1, 2 and 4"
+    ],
+    "option_images": [],
+    "answer": "C. 2, 3 and 4",
+    "solution": "Heroin is a narcotic/depressant, not a stimulant (statement 1 is wrong). Marijuana affects the cardiovascular system (2 correct). Cocaine causes hallucinations (3 correct). Morphine is a sedative (4 correct).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Human Health and Disease",
+    "question": "Identify the wrong statements: 1. The tumour of haematopoietic cells is called leukaemia. 2. Cancer arising from the epithelial tissues of internal organs and glands is referred as melanoma. 3. Sarcoma is a type of cancer where bone and cartilages are involved. 4. Only benign tumours are called as true cancer or neoplasm.",
+    "question_latex": "Identify the wrong statements: 1. The tumour of haematopoietic cells is called leukaemia. 2. Cancer arising from the epithelial tissues of internal organs and glands is referred as melanoma. 3. Sarcoma is a type of cancer where bone and cartilages are involved. 4. Only benign tumours are called as true cancer or neoplasm.",
+    "question_images": [],
+    "options": [
+      "A. I and II only",
+      "B. II and III only",
+      "C. II and IV only",
+      "D. I and III only"
+    ],
+    "option_images": [],
+    "answer": "C. II and IV only",
+    "solution": "Statement 2 is wrong - cancer arising from epithelial tissues of internal organs and glands is referred as carcinoma, not melanoma (melanoma is cancer of melanocytes). Statement 4 is wrong - benign tumours are NOT true cancers; malignant tumours are true cancers or neoplasms.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Human Health and Disease",
+    "question": "The causative agent of mad-cow disease is a",
+    "question_latex": "The causative agent of mad-cow disease is a",
+    "question_images": [],
+    "options": [
+      "A. Bacterium",
+      "B. Prion",
+      "C. Worm",
+      "D. Virus"
+    ],
+    "option_images": [],
+    "answer": "B. Prion",
+    "solution": "Prions are infective proteinaceous particles. This term was proposed by Prusiner. Prions cause some neurological diseases in animals (including humans), e.g., Mad cow disease in cattle and in humans it causes Kuru disease and Kreutzfeldt-Jacob disease.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Human Health and Disease",
+    "question": "Select INCORRECT match of type of drug and its effects on human body [MHT-CET 2023]",
+    "question_latex": "Select INCORRECT match of type of drug and its effects on human body [MHT-CET 2023]",
+    "question_images": [
+      "q89_1"
+    ],
+    "options": [
+      "A. C",
+      "B. A",
+      "C. D",
+      "D. B"
+    ],
+    "option_images": [],
+    "answer": "B. A",
+    "solution": "Option A (Smack - causes extreme happiness, irritability and paranoia) is incorrect. Smack (heroin) is a depressant/narcotic that causes pain relief, sedation and euphoria, not extreme happiness and paranoia (those effects are associated with cocaine).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Human Health and Disease",
+    "question": "Harmful effect of cigarette smoking is",
+    "question_latex": "Harmful effect of cigarette smoking is",
+    "question_images": [],
+    "options": [
+      "A. Baldness",
+      "B. Yellowing of eyes",
+      "C. Lung cancer",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Lung cancer",
+    "solution": "95% cases of lung cancer are due to smoking. Benzopyrene present in tobacco smoke is carcinogenic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Human Health and Disease",
+    "question": "Primary lesions called chancre are formed at the site of infection by____",
+    "question_latex": "Primary lesions called chancre are formed at the site of infection by____",
+    "question_images": [],
+    "options": [
+      "A. Wuchereria bancrofti",
+      "B. Diplococcus pneumonia",
+      "C. Treponema palidum",
+      "D. Salmonella typhi"
+    ],
+    "option_images": [],
+    "answer": "C. Treponema palidum",
+    "solution": "Treponema pallidum causes syphilis, a sexually transmitted disease. Primary lesions (chancre) and secondary lesions are formed on different parts of body and genitals.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Human Health and Disease",
+    "question": "Penicillin was used in",
+    "question_latex": "Penicillin was used in",
+    "question_images": [],
+    "options": [
+      "A. First world war",
+      "B. Second world war",
+      "C. Both a and b",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. Second world war",
+    "solution": "Penicillin was discovered by Alexander Fleming. It was the first anti-bacterial antibiotic, which is the product of Penicillium notatum and P. chrysogenum. It was widely used in Second World War.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Human Health and Disease",
+    "question": "Infection of amoebiasis occurs due to ingestion of ________ form or stage of parasite. [MHT-CET 2020]",
+    "question_latex": "Infection of amoebiasis occurs due to ingestion of ________ form or stage of parasite. [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Trophozoite",
+      "B. Non-encysted",
+      "C. Adult",
+      "D. Cyst"
+    ],
+    "option_images": [],
+    "answer": "D. Cyst",
+    "solution": "Amoebiasis is the disease caused by Entamoeba histolytica; infection spreads through faeco-oral route transmission. Infective cyst is ingested and pathogen starts its cycle in new host.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is not hallucinogen?",
+    "question_latex": "Which of the following is not hallucinogen?",
+    "question_images": [],
+    "options": [
+      "A. Heroin",
+      "B. LSD",
+      "C. Marijuana",
+      "D. Charas"
+    ],
+    "option_images": [],
+    "answer": "A. Heroin",
+    "solution": "Hallucinogens include LSD, marijuana, mescaline, psilocybin, bhang, ganja, hashish, charas, etc. Narcotic drugs include opium and its derivatives such as morphine, codeine, heroin, etc. So heroin is a narcotic, not a hallucinogen.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Human Health and Disease",
+    "question": "Conjunctivitis is a symptom of ........ [2022]",
+    "question_latex": "Conjunctivitis is a symptom of ........ [2022]",
+    "question_images": [],
+    "options": [
+      "A. acute coryza",
+      "B. typhoid",
+      "C. dengue",
+      "D. pneumonia"
+    ],
+    "option_images": [],
+    "answer": "A. acute coryza",
+    "solution": "Conjunctivitis (inflammation of the conjunctiva) is a symptom of acute coryza (common cold).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Human Health and Disease",
+    "question": "Consumption of which drug increases the concentration of dopamine in the brain? [MHT-CET 2024]",
+    "question_latex": "Consumption of which drug increases the concentration of dopamine in the brain? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Lysergic acid",
+      "B. Heroin",
+      "C. Cocain",
+      "D. Hashish"
+    ],
+    "option_images": [],
+    "answer": "C. Cocain",
+    "solution": "Cocaine is an alkaloid obtained from coca plant (Erythroxylum coca). It increases the level of neurotransmitter dopamine. Its excessive dosage causes extreme happiness, irritability, and paranoia.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Human Health and Disease",
+    "question": "Which of the following is a viral disease?",
+    "question_latex": "Which of the following is a viral disease?",
+    "question_images": [],
+    "options": [
+      "A. TB",
+      "B. Diphtheria",
+      "C. Small pox",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "C. Small pox",
+    "solution": "Small pox is caused by DNA-containing variola virus (completely eradicated disease). TB is caused by Mycobacterium tuberculosis (bacteria). Diphtheria is caused by Corynebacterium diphtheriae (bacteria).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Human Health and Disease",
+    "question": "Which group of drugs is normally used as medicine? [MHT-CET 2020]",
+    "question_latex": "Which group of drugs is normally used as medicine? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. LSD, cocaine, heroin",
+      "B. Marijuana, charas, ganja",
+      "C. Morphine, cocaine, hashish",
+      "D. Barbiturates, amphetamines, benzodiazepine"
+    ],
+    "option_images": [],
+    "answer": "D. Barbiturates, amphetamines, benzodiazepine",
+    "solution": "Barbiturates are used to treat agitation, anxiety and insomnia. Amphetamines are used to treat depression. Benzodiazepines are used to relieve stress and anxiety, help people sleep, and can also treat alcohol withdrawal and epilepsy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Human Health and Disease",
+    "question": "When a person dies after stung by bee followed by the administration of penicillin, death may be due to",
+    "question_latex": "When a person dies after stung by bee followed by the administration of penicillin, death may be due to",
+    "question_images": [],
+    "options": [
+      "A. Prophylactic shock",
+      "B. Anaphylactic shock",
+      "C. Autoimmunity",
+      "D. Sedation"
+    ],
+    "option_images": [],
+    "answer": "B. Anaphylactic shock",
+    "solution": "When a specific allergen (penicillin) is injected directly into the circulation, the allergen can react with basophils of the blood and mast cells if they have been sensitized by attachment of IgE region. This is called anaphylactic shock. The person dies of circulatory shock within a few minutes unless treated with epinephrine to oppose the effects of histamine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Human Health and Disease",
+    "question": "Antibodies in our body are complex",
+    "question_latex": "Antibodies in our body are complex",
+    "question_images": [],
+    "options": [
+      "A. Lipoproteins",
+      "B. Steroids",
+      "C. Prostaglandins",
+      "D. Glycoproteins"
+    ],
+    "option_images": [],
+    "answer": "D. Glycoproteins",
+    "solution": "Antibodies are proteins (glycoproteins) called immunoglobulins. These are produced by the lymphocytes in response to entry of a foreign substance or antigen into the body.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

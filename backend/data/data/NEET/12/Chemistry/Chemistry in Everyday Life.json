@@ -1,0 +1,969 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "The functional groups present in salol are",
+    "question_latex": "The functional groups present in salol are",
+    "question_images": [],
+    "options": [
+      "A. —NH₂ and —OR",
+      "B. —OH and —COR",
+      "C. —NH₂ and —COOH",
+      "D. —OH and —COOR"
+    ],
+    "option_images": [],
+    "answer": "D. —OH and —COOR",
+    "solution": "The functional groups present in salol are $-OH$ and $-COOR$. Salol is phenyl salicylate.",
+    "solution_images": [
+      "1_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is an ingrain dye?",
+    "question_latex": "Which of the following is an ingrain dye?",
+    "question_images": [],
+    "options": [
+      "A. Congo-red",
+      "B. Aniline black",
+      "C. Alizarin",
+      "D. Indigo"
+    ],
+    "option_images": [],
+    "answer": "B. Aniline black",
+    "solution": "(i) Congo red is a direct dye.\n(ii) Alizarin is an anthraquinone dye.\n(iii) Aniline black is an ingrain dye. The last process of dyeing is done on fabric for such dyes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Given below are two statements: Statement I: Noradrenaline is a neurotransmitter. Statement II: Low level of noradrenaline is not the cause of depression. In the light of the above statements, choose the correct answer from the options given below. (Jan 2023)",
+    "question_latex": "Given below are two statements: Statement I: Noradrenaline is a neurotransmitter. Statement II: Low level of noradrenaline is not the cause of depression. In the light of the above statements, choose the correct answer from the options given below. (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct but statement II is incorrect.",
+    "solution": "If the level of noradrenaline in the body is low, then the message transfer process becomes slow and the person suffers from depression. Hence Statement I is correct but Statement II is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Terfenadine is commonly used as a/an",
+    "question_latex": "Terfenadine is commonly used as a/an",
+    "question_images": [],
+    "options": [
+      "A. tranquilizer",
+      "B. antihistamine",
+      "C. antimicrobial",
+      "D. antibiotic"
+    ],
+    "option_images": [],
+    "answer": "B. antihistamine",
+    "solution": "Terfenadine is commonly used as an antihistamine.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is a dye?",
+    "question_latex": "Which of the following is a dye?",
+    "question_images": [],
+    "options": [
+      "A. Methyl orange",
+      "B. Orange I",
+      "C. Aniline yellow",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "All of the given compounds — Methyl orange, Orange I, and Aniline yellow — are dyes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "The reagent(s) used in the preparation of aspirin from salicylic acid",
+    "question_latex": "The reagent(s) used in the preparation of aspirin from salicylic acid",
+    "question_images": [],
+    "options": [
+      "A. SOCl₂, pyridine",
+      "B. (CH₃CO)₂O, H⁺",
+      "C. CH₃CO₂H, HCl",
+      "D. CH₃Cl, AlCl₃"
+    ],
+    "option_images": [],
+    "answer": "B. (CH₃CO)₂O, H⁺",
+    "solution": "Aspirin (2-acetoxy benzoic acid) is an analgesic. It is obtained by acetylating salicylic acid with acetic anhydride $(CH_3CO)_2O$ and conc. $H_2SO_4$.",
+    "solution_images": [
+      "6_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following forms cationic micelles above certain concentration?",
+    "question_latex": "Which of the following forms cationic micelles above certain concentration?",
+    "question_images": [],
+    "options": [
+      "A. Sodium ethyl sulphate",
+      "B. Sodium acetate",
+      "C. Urea",
+      "D. Cetyltrimethylammonium bromide"
+    ],
+    "option_images": [],
+    "answer": "B. Sodium acetate",
+    "solution": "Sodium acetate has group $(-COO^-)$ at one end and $Na^+$ ions at the other end, thus a cationic micelle is formed. In polar medium like water, the negative ion has a long hydrocarbon chain and a polar group.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Various phenol derivatives, tincture of iodine (2-3% I₂ in water/alcohol) and some dyes like methylene blue are:",
+    "question_latex": "Various phenol derivatives, tincture of iodine ($2$-$3\\%$ $I_2$ in water/alcohol) and some dyes like methylene blue are:",
+    "question_images": [],
+    "options": [
+      "A. Antiseptics",
+      "B. Disinfectants",
+      "C. Analgesics",
+      "D. Antipyretics"
+    ],
+    "option_images": [],
+    "answer": "A. Antiseptics",
+    "solution": "Antiseptic drugs cause destruction of microorganisms that produce septic diseases, e.g., dettol, savlon, acriflavin, boric acid, phenol, iodoform, $KMnO_4$ and some dyes such as chloramine-T, methylene blue, gentian violet.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Antiseptic chloroxylenol is",
+    "question_latex": "Antiseptic chloroxylenol is",
+    "question_images": [],
+    "options": [
+      "A. 4-chloro-3,5-dimethylphenol",
+      "B. 3-chloro-4,5-dimethylphenol",
+      "C. 4-chloro-2,5-dimethylphenol",
+      "D. 5-chloro-3,4-dimethylphenol"
+    ],
+    "option_images": [],
+    "answer": "A. 4-chloro-3,5-dimethylphenol",
+    "solution": "Chloroxylenol is 4-chloro-3,5-dimethylphenol. It has an $-OH$ group on the benzene ring with two methyl groups at positions 3 and 5, and a chlorine atom at position 4.",
+    "solution_images": [
+      "9_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "The reason for \"drug induced poisoning\" is (Online 2017)",
+    "question_latex": "The reason for \"drug induced poisoning\" is (Online 2017)",
+    "question_images": [],
+    "options": [
+      "A. binding irreversibly to the active site of the enzyme.",
+      "B. bringing conformational changes in the binding site of enzyme",
+      "C. binding at the allosteric sites of the enzyme",
+      "D. binding reversibly at the active site of the enzyme"
+    ],
+    "option_images": [],
+    "answer": "C. binding at the allosteric sites of the enzyme",
+    "solution": "Binding at the allosteric sites of the enzyme changes the conformation of the enzyme so that the affinity of the substrate for the active site is reduced, causing drug-induced poisoning.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is not a function of aspirin?",
+    "question_latex": "Which of the following is not a function of aspirin?",
+    "question_images": [],
+    "options": [
+      "A. Relief from arthritic pain",
+      "B. Relief from postoperative pain.",
+      "C. Prevents platelet coagulation.",
+      "D. Prevention of heart attacks."
+    ],
+    "option_images": [],
+    "answer": "B. Relief from postoperative pain.",
+    "solution": "Morphine narcotics are chiefly used for the relief of postoperative pain, not aspirin.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Given below are two statements: Statement I: Morphine is a narcotic analgesic. It helps in relieving pain without producing sleep. Statement II: Morphine and its derivatives are obtained from opium poppy. In the light of the above statements, choose the correct answer from the options given below. (April 2023)",
+    "question_latex": "Given below are two statements: Statement I: Morphine is a narcotic analgesic. It helps in relieving pain without producing sleep. Statement II: Morphine and its derivatives are obtained from opium poppy. In the light of the above statements, choose the correct answer from the options given below. (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are true.",
+      "B. Statement I is true but statement II is false.",
+      "C. Both statement I and statement II are false.",
+      "D. Statement I is false but statement II is true."
+    ],
+    "option_images": [],
+    "answer": "D. Statement I is false but statement II is true.",
+    "solution": "Correct Statement I: Drugs which when administered in small doses relieve pain and produce sleep are called narcotics. Hence Statement I is false (morphine does produce sleep). Statement II is correct — morphine and its derivatives are obtained from opium poppy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is not an antipyretic?",
+    "question_latex": "Which of the following is not an antipyretic?",
+    "question_images": [],
+    "options": [
+      "A. Aspirin",
+      "B. Paracetamol",
+      "C. Barbituric acid",
+      "D. Phenacetin"
+    ],
+    "option_images": [],
+    "answer": "C. Barbituric acid",
+    "solution": "Aspirin, Paracetamol and Phenacetin are all antipyretics. Barbituric acid is a tranquillizer, not an antipyretic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "A space rocket is propelled by:",
+    "question_latex": "A space rocket is propelled by:",
+    "question_images": [],
+    "options": [
+      "A. An automobilic engine",
+      "B. Nuclear engine",
+      "C. Steam engine",
+      "D. Mixture of fuel and oxidiser called propellant"
+    ],
+    "option_images": [],
+    "answer": "D. Mixture of fuel and oxidiser called propellant",
+    "solution": "The energy is provided by propellant, which is a mixture of fuel and oxidiser.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "The detergent which is used as a germicide is",
+    "question_latex": "The detergent which is used as a germicide is",
+    "question_images": [],
+    "options": [
+      "A. Sodium lauryl sulphate",
+      "B. Cetyltrimethylammonium chloride",
+      "C. Lauryl alcohol ethoxylate",
+      "D. Sodium-2-dodecylbenzenesulphonate"
+    ],
+    "option_images": [],
+    "answer": "B. Cetyltrimethylammonium chloride",
+    "solution": "Cationic detergents are used as germicides. Cationic detergents are usually quaternary ammonium salts. Thus, cetyltrimethyl ammonium chloride, a quaternary ammonium salt, is a cationic detergent and is used as a germicide.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is an alkaloid?",
+    "question_latex": "Which of the following is an alkaloid?",
+    "question_images": [],
+    "options": [
+      "A. Nicotine",
+      "B. Piperine",
+      "C. Codeine",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Nicotine, Piperine, and Codeine are all alkaloids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Anti-allergy drugs are",
+    "question_latex": "Anti-allergy drugs are",
+    "question_images": [],
+    "options": [
+      "A. Antimicrobials",
+      "B. Antihistamines",
+      "C. Antivirals",
+      "D. Antifungals"
+    ],
+    "option_images": [],
+    "answer": "B. Antihistamines",
+    "solution": "Anti-allergy drugs are antihistamines. They work by blocking histamine receptors to reduce allergic reactions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is a natural dye?",
+    "question_latex": "Which of the following is a natural dye?",
+    "question_images": [],
+    "options": [
+      "A. Martius yellow",
+      "B. Alizarin",
+      "C. Phenolphthalein",
+      "D. Orange I"
+    ],
+    "option_images": [],
+    "answer": "B. Alizarin",
+    "solution": "Alizarin (orange-red) is a natural dye extracted from the root of the madder plant, though it is also synthesised nowadays.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is bacteriostatic?",
+    "question_latex": "Which of the following is bacteriostatic?",
+    "question_images": [],
+    "options": [
+      "A. Penicillin",
+      "B. Erythromycin",
+      "C. Amino glycodine",
+      "D. Ofloxacin"
+    ],
+    "option_images": [],
+    "answer": "B. Erythromycin",
+    "solution": "Erythromycin is a bacteriostatic drug — it inhibits the growth of organisms rather than killing them outright.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Amongst the following compounds, which one is an antacid? (Jan 2023)",
+    "question_latex": "Amongst the following compounds, which one is an antacid? (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. Ranitidine",
+      "B. Terfenadine",
+      "C. Brompheniramine",
+      "D. Meprobamate"
+    ],
+    "option_images": [],
+    "answer": "A. Ranitidine",
+    "solution": "Ranitidine is an antacid that reduces the formation of acid in the stomach. It is used for indigestion, heartburn, gastric reflux, and intestinal ulcers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which is correct about vanillin?",
+    "question_latex": "Which is correct about vanillin?",
+    "question_images": [],
+    "options": [
+      "A. A flavouring agent having vanilla flavour",
+      "B. o-hydroxy-m-methoxy benzaldehyde",
+      "C. A food additive",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "All the given characteristics are true for vanillin: it is a flavouring agent with vanilla flavour, it is $o$-hydroxy-$m$-methoxy benzaldehyde, and it is a food additive.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Match List I with List II. Choose the correct answer from the options given below: (Feb 2023)",
+    "question_latex": "Match List I with List II. Choose the correct answer from the options given below: (Feb 2023)",
+    "question_images": [
+      "22_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-II, (B)-IV, (C)-I, (D)-III",
+      "B. (A)-II, (B)-I, (C)-III, (D)-IV",
+      "C. (A)-III, (B)-I, (C)-II, (D)-IV",
+      "D. (A)-IV, (B)-II, (C)-I, (D)-III"
+    ],
+    "option_images": [],
+    "answer": "C. (A)-III, (B)-I, (C)-II, (D)-IV",
+    "solution": "(A) Tranquilizers → Antidepressant drugs (A-III)\n(B) Aspirin → Anti blood clotting (B-I)\n(C) Antibiotic → Salvarsan (C-II)\n(D) Antiseptic → Soframicine (D-IV)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Medicine which is antibiotic is",
+    "question_latex": "Medicine which is antibiotic is",
+    "question_images": [],
+    "options": [
+      "A. Ampicillin",
+      "B. Phenacetin",
+      "C. Calmpose",
+      "D. Chloroquine"
+    ],
+    "option_images": [],
+    "answer": "A. Ampicillin",
+    "solution": "Ampicillin is an antibiotic. Phenacetin is an analgesic/antipyretic, Calmpose is a tranquillizer, and Chloroquine is an antimalarial.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following are anionic detergents? (i) Sodium salts of sulphonated long chain alcohol. (ii) Ester of stearic acid and polyethylene glycol. (iii) Quaternary ammonium salt of amine with acetate ion. (iv) Sodium salts of sulphonated long chain hydrocarbons.",
+    "question_latex": "Which of the following are anionic detergents? (i) Sodium salts of sulphonated long chain alcohol. (ii) Ester of stearic acid and polyethylene glycol. (iii) Quaternary ammonium salt of amine with acetate ion. (iv) Sodium salts of sulphonated long chain hydrocarbons.",
+    "question_images": [],
+    "options": [
+      "A. (i) and (iv)",
+      "B. (iii) and (iv)",
+      "C. (ii) and (iii)",
+      "D. (i), (ii) and (iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (i) and (iv)",
+    "solution": "Anionic detergents contain a negatively charged hydrophilic group. Sodium salts of sulphonated long chain alcohols (i) and sodium salts of sulphonated long chain hydrocarbons (iv) both qualify as anionic detergents.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of these is not used as a fuel in the rocket propellants?",
+    "question_latex": "Which of these is not used as a fuel in the rocket propellants?",
+    "question_images": [],
+    "options": [
+      "A. Liquid He",
+      "B. Liquid hydrogen",
+      "C. Kerosene",
+      "D. Liquid hydrazine"
+    ],
+    "option_images": [],
+    "answer": "A. Liquid He",
+    "solution": "Liquid helium (He) is an inert noble gas and is not used as a fuel in rocket propellants. Liquid hydrogen, kerosene, and liquid hydrazine are all used as fuels.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following drugs is a tranquilizer and sedative?",
+    "question_latex": "Which of the following drugs is a tranquilizer and sedative?",
+    "question_images": [],
+    "options": [
+      "A. Sulphadiazine",
+      "B. Papaverine",
+      "C. Equanil",
+      "D. Mescaline"
+    ],
+    "option_images": [],
+    "answer": "C. Equanil",
+    "solution": "Tranquilizers reduce anxiety and tension and are also called psychotropic drugs.\n(i) Sedatives are drugs used for violent and mentally agitated patients, e.g., Equanil and diazepam.\n(ii) Antidepressants are drugs used for patients who are highly depressed, e.g., tofranil, vitalin, amphetamine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "An insoluble dye is reduced to a soluble colourless leuco form by an alkaline reducing agent. The fibre is soaked in the dye solution and then exposed to air to develop the colour. The dye is",
+    "question_latex": "An insoluble dye is reduced to a soluble colourless leuco form by an alkaline reducing agent. The fibre is soaked in the dye solution and then exposed to air to develop the colour. The dye is",
+    "question_images": [],
+    "options": [
+      "A. Mordant dye",
+      "B. Vat dye",
+      "C. Azo dye",
+      "D. Direct dye"
+    ],
+    "option_images": [],
+    "answer": "B. Vat dye",
+    "solution": "Vat dyes are insoluble in water and cannot be directly applied. They are reduced to a soluble colourless leuco form by an alkaline reducing agent. The fibre is soaked in this leuco form and on exposure to air, gets oxidised back to the original insoluble coloured form. Indigo is a classic example.",
+    "solution_images": [
+      "27_so_1.png",
+      "27_so_2.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is an anionic detergent?",
+    "question_latex": "Which of the following is an anionic detergent?",
+    "question_images": [],
+    "options": [
+      "A. CH₃(CH₂)₁₆CH₂OSO₃Na",
+      "B. CH₃(CH₂)₁₆N⁺(CH₃)₃Cl⁻",
+      "C. CH₃(CH₂)₁₆COO(CH₂CH₂O)ₙCH₂CH₂OH",
+      "D. C₆H₅SO₃Na"
+    ],
+    "option_images": [],
+    "answer": "A. CH₃(CH₂)₁₆CH₂OSO₃Na",
+    "solution": "$CH_3(CH_2)_{16}CH_2OSO_3Na$ is an anionic detergent (sodium salt of a sulphonated long chain alcohol). Option B is a cationic detergent, option C is a non-ionic detergent.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is used for inducing sleep?",
+    "question_latex": "Which of the following is used for inducing sleep?",
+    "question_images": [],
+    "options": [
+      "A. Paracetamol",
+      "B. Chloroquine",
+      "C. Bithional",
+      "D. Barbituric acid derivatives"
+    ],
+    "option_images": [],
+    "answer": "D. Barbituric acid derivatives",
+    "solution": "Barbituric acid derivatives (barbiturates) are used as hypnotic sedatives to induce sleep.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Placebo is often given to patients. It is:",
+    "question_latex": "Placebo is often given to patients. It is:",
+    "question_images": [],
+    "options": [
+      "A. An antidepressant",
+      "B. A broad spectrum antibiotic",
+      "C. A sugar pill",
+      "D. A tonic"
+    ],
+    "option_images": [],
+    "answer": "C. A sugar pill",
+    "solution": "A placebo is a sugar pill or inert substance given to patients, often used in clinical trials as a control.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following statement is not true about the drug barbital?",
+    "question_latex": "Which of the following statement is not true about the drug barbital?",
+    "question_images": [],
+    "options": [
+      "A. It causes addiction",
+      "B. It is a non-hypnotic drug",
+      "C. It is a tranquillizer",
+      "D. It is used in sleeping pills"
+    ],
+    "option_images": [],
+    "answer": "B. It is a non-hypnotic drug",
+    "solution": "Barbital (veronal) is a sleep-producing, hypnotic tranquillizer. It is used in sleeping pills and causes addiction. Hence, saying it is a non-hypnotic drug is false.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Match List I with List II. Choose the correct answer from the options given below: (June 2022)",
+    "question_latex": "Match List I with List II. Choose the correct answer from the options given below: (June 2022)",
+    "question_images": [
+      "32_qu_1.png"
+    ],
+    "options": [
+      "A. A-III, B-I, C-II, D-IV",
+      "B. A-I, B-IV, C-II, D-III",
+      "C. A-I, B-III, C-II, D-IV",
+      "D. A-III, B-I, C-IV, D-II"
+    ],
+    "option_images": [],
+    "answer": "A. A-III, B-I, C-II, D-IV",
+    "solution": "Antipyretic → Reduces fever (A-III)\nAnalgesic → Reduces pain (B-I)\nTranquilizer → Reduces stress (C-II)\nAntacid → Reduces acidity (stomach) (D-IV)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is not a target molecule for drug function in body?",
+    "question_latex": "Which of the following is not a target molecule for drug function in body?",
+    "question_images": [],
+    "options": [
+      "A. Carbohydrates",
+      "B. Lipids",
+      "C. Vitamins",
+      "D. Proteins"
+    ],
+    "option_images": [],
+    "answer": "C. Vitamins",
+    "solution": "The target molecules for drug function in the body are carbohydrates, lipids, proteins, and nucleic acids. Vitamins are not target molecules for drug function.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which one of the following is not a tranquilizer?",
+    "question_latex": "Which one of the following is not a tranquilizer?",
+    "question_images": [],
+    "options": [
+      "A. Equanil",
+      "B. Veronal",
+      "C. Salvarsan",
+      "D. Serotonin"
+    ],
+    "option_images": [],
+    "answer": "C. Salvarsan",
+    "solution": "Salvarsan is an organoarsenic compound used in the treatment of syphilis. It was the first modern chemotherapeutic agent, not a tranquilizer.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Veronal, a barbiturate drug is used as",
+    "question_latex": "Veronal, a barbiturate drug is used as",
+    "question_images": [],
+    "options": [
+      "A. anaesthetic",
+      "B. sedative",
+      "C. antiseptic",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. sedative",
+    "solution": "Veronal (barbital) is a barbiturate drug used as a sedative to induce sleep and reduce anxiety.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Identify the wrong statement regarding alizarin:",
+    "question_latex": "Identify the wrong statement regarding alizarin:",
+    "question_images": [],
+    "options": [
+      "A. Alizarin was extracted from the roots of the madder plant",
+      "B. Its chemical name is 1,2-dihydroxy anthraquinone",
+      "C. It is fixed to fabrics by using mordants like aluminium sulphate giving fast red colour",
+      "D. It has red crystal soluble in alkalies and the solution imparts red colour to fabrics"
+    ],
+    "option_images": [],
+    "answer": "D. It has red crystal soluble in alkalies and the solution imparts red colour to fabrics",
+    "solution": "Alizarin is fixed to fabrics using mordants and gives different colours with different mordants (e.g., red with aluminium, black with iron). The statement in option D is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Sulpha drugs are used for:",
+    "question_latex": "Sulpha drugs are used for:",
+    "question_images": [],
+    "options": [
+      "A. Precipitating bacteria",
+      "B. Removing bacteria",
+      "C. Decreasing the size of bacteria",
+      "D. Stopping the growth of bacteria"
+    ],
+    "option_images": [],
+    "answer": "D. Stopping the growth of bacteria",
+    "solution": "Sulpha drugs (antibacterial and non-antibiotic) are a group of drugs which are derivatives of sulphanilamide. They work by stopping the growth of bacteria (bacteriostatic action).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "With respect to drug-enzyme interaction, identify the wrong statement. (March 2021)",
+    "question_latex": "With respect to drug-enzyme interaction, identify the wrong statement. (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. Allosteric inhibitor competes with the enzyme's active site.",
+      "B. Non-Competitive inhibitor binds to the allosteric site.",
+      "C. Competitive inhibitor binds to the enzyme's active site.",
+      "D. Allosteric inhibitor changes the enzyme's active site."
+    ],
+    "option_images": [],
+    "answer": "A. Allosteric inhibitor competes with the enzyme's active site.",
+    "solution": "Allosteric inhibitor binds to an enzyme at a site other than the active site (allosteric site), resulting in a change in the shape of the active site so that the enzyme can no longer bind to its substrate. It does NOT compete with the active site.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which one is an antibiotic?",
+    "question_latex": "Which one is an antibiotic?",
+    "question_images": [],
+    "options": [
+      "A. Aspirin",
+      "B. Chloromycetin",
+      "C. Chloroquin",
+      "D. Madribon"
+    ],
+    "option_images": [],
+    "answer": "B. Chloromycetin",
+    "solution": "Chloromycetin (chloramphenicol) is a broad-spectrum antibiotic. Aspirin is an analgesic, chloroquine is an antimalarial, and madribon is a sulpha drug.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Penicillin was first discovered by",
+    "question_latex": "Penicillin was first discovered by",
+    "question_images": [],
+    "options": [
+      "A. A. Fleming",
+      "B. Tence and Salke",
+      "C. S.A. Waksna",
+      "D. Lewis Pasteur"
+    ],
+    "option_images": [],
+    "answer": "A. A. Fleming",
+    "solution": "A. Fleming discovered penicillin in 1929.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is not an antiseptic drug?",
+    "question_latex": "Which of the following is not an antiseptic drug?",
+    "question_images": [],
+    "options": [
+      "A. Iodoform",
+      "B. Dettol",
+      "C. Lindane",
+      "D. Gentian violet"
+    ],
+    "option_images": [],
+    "answer": "C. Lindane",
+    "solution": "Iodoform, Dettol, and Gentian violet are antiseptics. Lindane is an insecticide/pesticide, not an antiseptic.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Assertion: Sodium chloride is added to precipitate soap after saponification. Reason: Hydrolysis of esters of long chain fatty acids by alkali produces soap in colloidal form.",
+    "question_latex": "Assertion: Sodium chloride is added to precipitate soap after saponification. Reason: Hydrolysis of esters of long chain fatty acids by alkali produces soap in colloidal form.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+      "C. Assertion is correct, reason is incorrect",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+    "solution": "Both statements are correct. NaCl is indeed added to precipitate soap (salting out). Saponification does produce soap in colloidal form. However, the reason (saponification producing colloidal soap) is not the direct explanation for why NaCl is added — NaCl reduces soap's solubility causing it to precipitate.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Antiseptics are different from disinfectants as",
+    "question_latex": "Antiseptics are different from disinfectants as",
+    "question_images": [],
+    "options": [
+      "A. Antiseptics merely inhibit the growth and disinfectants kill the microorganism",
+      "B. Antiseptics are used against microorganism while disinfectants are used against insects",
+      "C. Antiseptics are used only over skin while disinfectants can be taken orally also",
+      "D. Antiseptics are used over living tissues while disinfectants cannot be used over living tissues"
+    ],
+    "option_images": [],
+    "answer": "D. Antiseptics are used over living tissues while disinfectants cannot be used over living tissues",
+    "solution": "Antiseptics and disinfectants both inhibit and kill microorganisms, but disinfectants are not safe to apply over living tissues. Antiseptics can be safely applied to living tissues such as cuts and wounds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "The drug shown (a bicyclic compound with two nitrogen atoms and a CH₂-NH₂ side chain) is used as",
+    "question_latex": "The drug shown is used as",
+    "question_images": [
+      "44_qu_1.png"
+    ],
+    "options": [
+      "A. Antacid",
+      "B. Analgesic",
+      "C. Antimicrobial",
+      "D. Antiseptic"
+    ],
+    "option_images": [],
+    "answer": "A. Antacid",
+    "solution": "The drug shown (ranitidine-like structure) is used as an antacid.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following does not behave as a surfactant?",
+    "question_latex": "Which of the following does not behave as a surfactant?",
+    "question_images": [],
+    "options": [
+      "A. Soap",
+      "B. Detergent",
+      "C. Phospholipid",
+      "D. Triglycerides"
+    ],
+    "option_images": [],
+    "answer": "D. Triglycerides",
+    "solution": "Surfactants are compounds that lower the surface tension between two liquids or between a liquid and a solid. Soaps, detergents, and phospholipids are surfactants. Triglycerides do not have the amphiphilic structure required to act as surfactants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Cocaine is:",
+    "question_latex": "Cocaine is:",
+    "question_images": [],
+    "options": [
+      "A. Vitamin",
+      "B. Poison",
+      "C. Medicine",
+      "D. Antipyretic"
+    ],
+    "option_images": [],
+    "answer": "C. Medicine",
+    "solution": "Cocaine ($C_{17}H_{21}O_4N$) is an alkaloid and a local anaesthetic, but it is also a dangerous habit-forming drug.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is an artificial edible colour?",
+    "question_latex": "Which of the following is an artificial edible colour?",
+    "question_images": [],
+    "options": [
+      "A. Saffron",
+      "B. Carotene",
+      "C. Tetrazine",
+      "D. Melamine"
+    ],
+    "option_images": [],
+    "answer": "C. Tetrazine",
+    "solution": "Tetrazine (also called tartrazine) is an artificial edible colour (synthetic food dye). Saffron and carotene are natural colours. Melamine is not a food colour.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Match List-I and List-II. Choose the most appropriate match. (March 2021)",
+    "question_latex": "Match List-I and List-II. Choose the most appropriate match. (March 2021)",
+    "question_images": [
+      "48_qu_1.png"
+    ],
+    "options": [
+      "A. (A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)",
+      "B. (A)-(ii), (B)-(iii), (C)-(iv), (D)-(i)",
+      "C. (A)-(iii), (B)-(iv), (C)-(i), (D)-(ii)",
+      "D. (A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "C. (A)-(iii), (B)-(iv), (C)-(i), (D)-(ii)",
+    "solution": "(A) Antifertility drug → Norethindrone (A-iii)\n(B) Antibiotic → Salvarsan (B-iv)\n(C) Tranquilizer → Meprobamate (C-i)\n(D) Artificial Sweetener → Alitame (D-ii)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Assertion: Antiseptics are applied to living tissues. Reason: Iodine is a powerful antiseptic.",
+    "question_latex": "Assertion: Antiseptics are applied to living tissues. Reason: Iodine is a powerful antiseptic.",
+    "question_images": [],
+    "options": [
+      "A. Assertion is correct, reason is correct; reason is a correct explanation for assertion.",
+      "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+      "C. Assertion is correct, reason is incorrect",
+      "D. Assertion is incorrect, reason is correct."
+    ],
+    "option_images": [],
+    "answer": "B. Assertion is correct, reason is correct; reason is not a correct explanation for assertion",
+    "solution": "Both the assertion and reason are correct. Antiseptics are indeed applied to living tissues and iodine is a powerful antiseptic. However, the fact that iodine is a powerful antiseptic does not explain why antiseptics are applied to living tissues (as opposed to disinfectants). Hence reason is not a correct explanation of the assertion.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Chemistry in Everyday Life",
+    "question": "Which of the following is used as an oxidiser in rocket propellants?",
+    "question_latex": "Which of the following is used as an oxidiser in rocket propellants?",
+    "question_images": [],
+    "options": [
+      "A. Kerosene",
+      "B. Nitric acid",
+      "C. Liquid oxygen",
+      "D. Liquid hydrogen"
+    ],
+    "option_images": [],
+    "answer": "B. Nitric acid",
+    "solution": "Nitric acid is used as an oxidiser in rocket fuel. Kerosene and liquid hydrogen are fuels (not oxidisers).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

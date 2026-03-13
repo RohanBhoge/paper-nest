@@ -1,0 +1,1912 @@
+[
+  {
+    "id": 1,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ranthambor national park is situated in",
+    "question_latex": "Ranthambor national park is situated in",
+    "question_images": [],
+    "options": [
+      "A. Asom",
+      "B. Jharkhand",
+      "C. Uttarakhand",
+      "D. Rajasthan"
+    ],
+    "option_images": [],
+    "answer": "D. Rajasthan",
+    "solution": "Ranthambor national park is situated in Rajasthan.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "One of the most important functions of botanical gardens is that [MHT CET 2008]",
+    "question_latex": "One of the most important functions of botanical gardens is that [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. One can observe tropical plants there",
+      "B. They allow ex situ conservation of germplasm",
+      "C. They provide the natural habitat for wild life",
+      "D. They provide a beautiful area for recreation"
+    ],
+    "option_images": [],
+    "answer": "B. They allow ex situ conservation of germplasm",
+    "solution": "Botanical gardens are collection of various types of living plants. Ex situ conservation means conservation of plants or animals in the artificial habitats, which are quite similar to the normal habitats of these organisms. In this way, botanical gardens provide ex situ conservation of germplasm.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following heavy metals in water is responsible to cause growth retardation and bone deformation in humans?",
+    "question_latex": "Which one of the following heavy metals in water is responsible to cause growth retardation and bone deformation in humans?",
+    "question_images": [],
+    "options": [
+      "A. Cadmium",
+      "B. Arsenic",
+      "C. Lead",
+      "D. Mercury"
+    ],
+    "option_images": [],
+    "answer": "A. Cadmium",
+    "solution": "Cadmium causes growth retardation and bone deformation in humans. Arsenic causes disturbances in blood circulation and nervous disturbances. Lead causes lead poisoning. Mercury also causes poisoning.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ozone depletion from the stratosphere has become reason for causing which of the following diseases? [MHT-CET 2024]",
+    "question_latex": "Ozone depletion from the stratosphere has become reason for causing which of the following diseases? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Pneumonia",
+      "B. Tuberculosis",
+      "C. Skin Cancer",
+      "D. Heart attack"
+    ],
+    "option_images": [],
+    "answer": "C. Skin Cancer",
+    "solution": "Ozone depletion from the stratosphere has become reason for causing Skin Cancer.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "After completing his civil engineering degree, Ramesh was appointed as trainee in the R and D city development office. He was to work on the project of laying water repellent roads in the city. Which one of the following method will he decide to implement for sustainability?",
+    "question_latex": "After completing his civil engineering degree, Ramesh was appointed as trainee in the R and D city development office. He was to work on the project of laying water repellent roads in the city. Which one of the following method will he decide to implement for sustainability?",
+    "question_images": [],
+    "options": [
+      "A. Mixing wax in the cement to be used.",
+      "B. Adding plastic powder in the cement to be used.",
+      "C. Mixing 'Polyblend' in bitumen to be used.",
+      "D. Adding cement in the mixture to be used."
+    ],
+    "option_images": [],
+    "answer": "C. Mixing 'Polyblend' in bitumen to be used.",
+    "solution": "Polyblend is type of polymer made up of plastic. It helps in sustainable use of plastics for road and construction activities with environmental and economic advantages. Blends of polyblend when used to lay roads enhance the bitumen's water repellent properties and helped to increase the road life. Ahmed Khan was first to use it. He is founder of K.K. Plastic waste management Pvt. Ltd.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Fluoride pollution mainly affects",
+    "question_latex": "Fluoride pollution mainly affects",
+    "question_images": [],
+    "options": [
+      "A. Teeth",
+      "B. Kidney",
+      "C. Brain",
+      "D. Heart"
+    ],
+    "option_images": [],
+    "answer": "A. Teeth",
+    "solution": "Prolonged intake of fluoride polluted water causes stiffening of bone and joints particularly spinal cord. Due to affinity with calcium, fluoride stores in bones which causes mottling of teeth, bone pains and outward bending of legs from the knees. This is known as Knock Knee Syndrome.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "SO2 pollution is indicated by",
+    "question_latex": "$SO_2$ pollution is indicated by",
+    "question_images": [],
+    "options": [
+      "A. Desmodium (grasses)",
+      "B. Sphagnum (mosses)",
+      "C. Usnea (lichens)",
+      "D. Cucurbita (climbers)"
+    ],
+    "option_images": [],
+    "answer": "C. Usnea (lichens)",
+    "solution": "Lichens (Usnea) are the indicator of air pollution, as these are very sensitive to air pollution (particularly $SO_2$ pollution).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "A lake with nutrients is called",
+    "question_latex": "A lake with nutrients is called",
+    "question_images": [],
+    "options": [
+      "A. Trophic",
+      "B. Euphotic",
+      "C. Oligotrophic",
+      "D. Eutrophic"
+    ],
+    "option_images": [],
+    "answer": "D. Eutrophic",
+    "solution": "A lake highly enriched with nutrients is called eutrophic.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Match Column I with Column-II and select the correct option.",
+    "question_latex": "Match Column I with Column-II and select the correct option.\n\nColumn I: (i) High levels of Sulphur dioxide, (ii) Endosulfan, (iii) Pollen, (iv) Gaseous and particulate lead\nColumn II: (a) Natural pollutant, (b) Agricultural practices, (c) Automobile exhaust, (d) Electric power plants",
+    "question_images": [
+      "q9_1"
+    ],
+    "options": [
+      "A. (i)-(d); (ii)-(c); (iii)-(a); (iv)-(b)",
+      "B. (i)-(d); (ii)-(a); (iii)-(b); (iv)-(c)",
+      "C. (i)-(d); (ii)-(b); (iii)-(a); (iv)-(c)",
+      "D. (i)-(d); (ii)-(b); (iii)-(c); (iv)-(a)"
+    ],
+    "option_images": [],
+    "answer": "C. (i)-(d); (ii)-(b); (iii)-(a); (iv)-(c)",
+    "solution": "Pollen grains released in large numbers also act as natural pollutants. Endosulfan is an agricultural pesticide used in large quantity causing pollution. Gaseous and particulate lead cause various health hazardous effects to man and other animals and plants. High levels of sulphur dioxide cause air pollution causing ill effects on human health.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is used to reduce industrial exhaust emissions to the atmosphere to control air pollution? [MHT-CET 2020]",
+    "question_latex": "Which one of the following is used to reduce industrial exhaust emissions to the atmosphere to control air pollution? [MHT-CET 2020]",
+    "question_images": [],
+    "options": [
+      "A. Electrodialysis",
+      "B. Reverse Osmosis",
+      "C. Ion-exchange technique",
+      "D. Catalytic Converter"
+    ],
+    "option_images": [],
+    "answer": "D. Catalytic Converter",
+    "solution": "Catalytic converter helps to reduce exhaust emission to atmosphere to control air pollution. It uses catalyst conducting redox reaction to reduce the harmful emissions.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Megadiversity countries of the globe are ___ in number. [MHT-CET 2023]",
+    "question_latex": "Megadiversity countries of the globe are ___ in number. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 07",
+      "C. 07",
+      "D. 20"
+    ],
+    "option_images": [],
+    "answer": "C. 07",
+    "solution": "One of the 12 megadiversity countries of the globe, India has 2.4% of total land area of the world. We have identified around 45000 plant species and nearly double the number of animal varieties from our natural wealth.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following is not shortwave radiation?",
+    "question_latex": "Which of the following is not shortwave radiation?",
+    "question_images": [],
+    "options": [
+      "A. X-rays",
+      "B. Radio waves",
+      "C. Ultra-violet rays",
+      "D. Cosmic rays"
+    ],
+    "option_images": [],
+    "answer": "B. Radio waves",
+    "solution": "Radio waves are not short wave radiations. These have high wavelength, i.e., $10^3$ m.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Manas sanctuary is located at",
+    "question_latex": "Manas sanctuary is located at",
+    "question_images": [],
+    "options": [
+      "A. Rajasthan",
+      "B. Asom",
+      "C. Bihar",
+      "D. Gujarat"
+    ],
+    "option_images": [],
+    "answer": "B. Asom",
+    "solution": "Manas Wildlife Sanctuary is situated at Kamrup (Asom). It covers 80 sq km area. Its key vertebrate species are tiger, wild boar, sambhar, golden langoor, one-horned rhino, swamp deer, wild dog and wild buffalo.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is NOT caused by global warming? [MHT-CET 2018]",
+    "question_latex": "Which one of the following is NOT caused by global warming? [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Melting of glacier",
+      "B. Change in rainfall pattern",
+      "C. Increase in sea level",
+      "D. Increase in crop production"
+    ],
+    "option_images": [],
+    "answer": "D. Increase in crop production",
+    "solution": "Increase in crop production is not caused by global warming. Global warming causes melting of glaciers, changes in rainfall patterns, and increase in sea level.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following is NOT a source of air pollutant?",
+    "question_latex": "Which of the following is NOT a source of air pollutant?",
+    "question_images": [],
+    "options": [
+      "A. Industrial processes",
+      "B. Use of CNG as fuel",
+      "C. Electric power plants",
+      "D. Automobiles"
+    ],
+    "option_images": [],
+    "answer": "B. Use of CNG as fuel",
+    "solution": "Use of CNG as fuel will help to reduce air pollution as it does not release pollutants in atmosphere. In Delhi most of the public transport vehicles are running with CNG as a measure of air pollution control.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The species listed in Red Data Book are",
+    "question_latex": "The species listed in Red Data Book are",
+    "question_images": [],
+    "options": [
+      "A. Threatened",
+      "B. Endangered",
+      "C. Rare",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Those species whose population has been greatly reduced or whose natural habitats have been disturbed due to which these are near the extinction are grouped under the category of threatened species. IUCN maintains a Red Data Book which contains a record of threatened species. These include vulnerable, endangered and rare species.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "One of the ex situ conservation method for endangered species is",
+    "question_latex": "One of the ex situ conservation method for endangered species is",
+    "question_images": [],
+    "options": [
+      "A. Wildlife sanctuaries",
+      "B. Biosphere reserves",
+      "C. Cryopreservation",
+      "D. National parks"
+    ],
+    "option_images": [],
+    "answer": "C. Cryopreservation",
+    "solution": "Ex situ conservation is the preservation of components of biological diversity outside their natural habitat. It includes cryopreservation, off site collections, gene banks and tissue culture. In situ conservation is the preservation of biological diversity in their natural wild conditions, usually in the form of biosphere reserves, national parks and wild life sanctuaries.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Global agreement in specific control strategies to reduce the release of ozone depleting substances was adopted by",
+    "question_latex": "Global agreement in specific control strategies to reduce the release of ozone depleting substances was adopted by",
+    "question_images": [],
+    "options": [
+      "A. Rio de Janerio Conference",
+      "B. Montreal Protocol",
+      "C. Kyoto Protocol",
+      "D. Vienna Convention"
+    ],
+    "option_images": [],
+    "answer": "B. Montreal Protocol",
+    "solution": "The Montreal protocol on substances that deplete the ozone layer is a landmark international agreement designed to protect the stratospheric ozone layer. The treaty was originally signed in 1987 (effected in 1989) and substantially amended in 1990 and 1992. The Montreal protocol stipulates that the production and consumption of compounds that deplete ozone in the stratosphere — $CFC_s$, halons, carbon tetrachloride and methyl chloroform — are to be phased out by 2000 (2005 for methyl chloroform).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Common indicator organism of water pollution is",
+    "question_latex": "Common indicator organism of water pollution is",
+    "question_images": [],
+    "options": [
+      "A. Lemna pancicostata",
+      "B. Eichhorniacrassipes",
+      "C. Escherichia coli",
+      "D. Entamoeba histolytica"
+    ],
+    "option_images": [],
+    "answer": "C. Escherichia coli",
+    "solution": "Since large populations of Escherichia coli are found in human colon, the presence of E. coli in water indicates that it has been contaminated with faecal matter. Thus, E. coli is commonly known as indicator of water pollution.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ozone depletion in stratosphere shall result in",
+    "question_latex": "Ozone depletion in stratosphere shall result in",
+    "question_images": [],
+    "options": [
+      "A. Forest fires",
+      "B. Green house effect",
+      "C. Global warming",
+      "D. Increased incidence of skin cancer"
+    ],
+    "option_images": [],
+    "answer": "D. Increased incidence of skin cancer",
+    "solution": "Ozone depletion in stratosphere shall result in increased incidence of skin cancer and cataract.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Particulate pollution from industries and power generation plants can be controlled by [MHT-CET 2019]",
+    "question_latex": "Particulate pollution from industries and power generation plants can be controlled by [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Catalytic converter",
+      "B. Scrubber",
+      "C. Positive crankcase ventilation valve",
+      "D. Electrostatic precipitators"
+    ],
+    "option_images": [],
+    "answer": "D. Electrostatic precipitators",
+    "solution": "Electrostatic precipitators are used to control particulate pollution from industries and power generation plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Fly ash is a/an",
+    "question_latex": "Fly ash is a/an",
+    "question_images": [],
+    "options": [
+      "A. Insectivorous plant",
+      "B. Light airborne particulate matter",
+      "C. New name of orchid plant",
+      "D. Causal organism of various disease"
+    ],
+    "option_images": [],
+    "answer": "B. Light airborne particulate matter",
+    "solution": "Fly ash is a light airborne particulate matter. Fly ash is mainly produced by coal based thermal plants. It should be removed through wet method and used in building material. Insectivorous plants are plants which use insects for $N_2$ requirement, e.g., Drosera. Orchid plants are epiphytic, which grow on other plants for support only.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which element is the cause of itai-itai disease?",
+    "question_latex": "Which element is the cause of itai-itai disease?",
+    "question_images": [],
+    "options": [
+      "A. Hg",
+      "B. Pb",
+      "C. Cd",
+      "D. As"
+    ],
+    "option_images": [],
+    "answer": "C. Cd",
+    "solution": "Cadmium (Cd) poisoning leads to itai-itai (ouch-ouch) disease. Cadmium consumption causes diarrhea, bone deformation, kidney damage, retarded growth, CNS injury etc. Mercury (Hg) poisoning causes Minamata disease, lead (Pb) consumption causes damage to liver, heart, kidney and reduction in haemoglobin formation, while black-foot disease is caused by chronic exposure to arsenic.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The oxygen concentration at the floor of the deep ponds and lakes is very low because of the [MHT CET 2007]",
+    "question_latex": "The oxygen concentration at the floor of the deep ponds and lakes is very low because of the [MHT CET 2007]",
+    "question_images": [],
+    "options": [
+      "A. Over-hanging column of water",
+      "B. Lesser amount of sunlight",
+      "C. Decomposers",
+      "D. Large number of annual inhabitants"
+    ],
+    "option_images": [],
+    "answer": "B. Lesser amount of sunlight",
+    "solution": "The oxygen concentration at the floor of the deep ponds and lakes is very low because of the lesser amount of sunlight.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "CFCs are responsible for",
+    "question_latex": "$CFCs$ are responsible for",
+    "question_images": [],
+    "options": [
+      "A. Ozone layer depletion",
+      "B. Global warming",
+      "C. Acid rain",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Ozone layer depletion",
+    "solution": "$CFC_s$ (Chlorofluorocarbons) are mainly responsible for ozone layer depletion. $CFC_s$ are used as cooling materials in refrigerators and air conditioners, propel aerosol sprays, etc. UV ray breaks $CFC$ molecules and release chlorine molecules, which reduce the ozone content in the atmosphere. One chlorine free radical is sufficient to destroy a lac of ozone molecules.",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Green house effect is due to the increased concentration of",
+    "question_latex": "Green house effect is due to the increased concentration of",
+    "question_images": [],
+    "options": [
+      "A. CO2",
+      "B. Ne",
+      "C. SO2",
+      "D. NO2"
+    ],
+    "option_images": [],
+    "answer": "A. CO2",
+    "solution": "Due to increase in $CO_2$ concentration, a thick layer of $CO_2$ is formed, which functions as glass panel of a green house that prevents the heat from being re-radiated out. This is called green house effect.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Identify the sacred groves found in India from the following list. Choose the correct option given below. [MHT-CET 2023]\n(i) Khasi and Jaintia hills in Meghalaya.\n(ii) Western ghat region of Maharashtra.\n(iii) Aravalli Hills of Rajasthan.\n(iv) Chanda and Sarguja areas of Madhya Pradesh.\n(v) Ladakh region of Himalaya.",
+    "question_latex": "Identify the sacred groves found in India from the following list. Choose the correct option given below. [MHT-CET 2023]\n(i) Khasi and Jaintia hills in Meghalaya.\n(ii) Western ghat region of Maharashtra.\n(iii) Aravalli Hills of Rajasthan.\n(iv) Chanda and Sarguja areas of Madhya Pradesh.\n(v) Ladakh region of Himalaya.",
+    "question_images": [],
+    "options": [
+      "A. (i), (ii), (iii) and (v) only",
+      "B. (i), (ii) and (v) only",
+      "C. (i), (ii), (iii) and (iv) only",
+      "D. (i), (ii) and (iii) only"
+    ],
+    "option_images": [],
+    "answer": "C. (i), (ii), (iii) and (iv) only",
+    "solution": "This is called in situ conservation. This is the most appropriate method of conservation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "In 1984, Bhopal gas tragedy was caused due to leakage of [MHT-CET 2014]",
+    "question_latex": "In 1984, Bhopal gas tragedy was caused due to leakage of [MHT-CET 2014]",
+    "question_images": [],
+    "options": [
+      "A. Sodium monoxide",
+      "B. Sodium thiocyanate",
+      "C. Potassium isocyanate",
+      "D. Methyl isocyanate"
+    ],
+    "option_images": [],
+    "answer": "D. Methyl isocyanate",
+    "solution": "In 1984, Bhopal gas tragedy was caused due to leakage of Methyl isocyanate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Total number of all species of organisms in a given region is known as the region's",
+    "question_latex": "Total number of all species of organisms in a given region is known as the region's",
+    "question_images": [],
+    "options": [
+      "A. Biota",
+      "B. Flora",
+      "C. Fauna",
+      "D. Diversity"
+    ],
+    "option_images": [],
+    "answer": "A. Biota",
+    "solution": "Biota is the total number of all species of organisms in a given region. Flora is the plant species of a region while fauna is the animal species in an area.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is also called 'Terror of Bengal'? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is also called 'Terror of Bengal'? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Clarias gariepinus",
+      "B. Eicchornia crassipes",
+      "C. Commelina benghalensis",
+      "D. Parthenium"
+    ],
+    "option_images": [],
+    "answer": "B. Eicchornia crassipes",
+    "solution": "Eicchornia crassipes is an alien species which grows tremendously causing threat to native species and can be one of the causes of Biodiversity loss.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ozone (O3) depletion is due to",
+    "question_latex": "Ozone ($O_3$) depletion is due to",
+    "question_images": [],
+    "options": [
+      "A. PAN",
+      "B. NOx",
+      "C. CFCs",
+      "D. Sulphates"
+    ],
+    "option_images": [],
+    "answer": "C. CFCs",
+    "solution": "The main cause of ozone layer depletion is chlorofluorocarbons ($CFCs$) released from aerosol spray cans, polyurethane foams, air conditioners and refrigerators.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Carbon dioxide is called green house gas because it is",
+    "question_latex": "Carbon dioxide is called green house gas because it is",
+    "question_images": [],
+    "options": [
+      "A. Used in green house to increase plant growth",
+      "B. Transparent to heat but traps sunlight",
+      "C. Transparent to sunlight but traps heat",
+      "D. Transparent to both sunlight and heat"
+    ],
+    "option_images": [],
+    "answer": "C. Transparent to sunlight but traps heat",
+    "solution": "The excess amount of $CO_2$ forms a thick blanket in the atmosphere which is transparent to sunlight but absorbs infra-red radiation trapping heat near the earth's surface. In this way, due to $CO_2$ blanket, the earth's atmosphere works very much like a green house which causes warming up of the interior. So, carbon dioxide is called green house gas.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is a natural cause of extinction of flora and fauna?",
+    "question_latex": "Which one of the following is a natural cause of extinction of flora and fauna?",
+    "question_images": [],
+    "options": [
+      "A. Building roads",
+      "B. Construction of rail tracks",
+      "C. Wild fires",
+      "D. Mining activities"
+    ],
+    "option_images": [],
+    "answer": "C. Wild fires",
+    "solution": "The natural cause of habitat destruction is forest fire which destroys flora and fauna of that region completely.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The animal, extincted from India is",
+    "question_latex": "The animal, extincted from India is",
+    "question_images": [],
+    "options": [
+      "A. Lion",
+      "B. Cheetah",
+      "C. Deer",
+      "D. Peacock"
+    ],
+    "option_images": [],
+    "answer": "B. Cheetah",
+    "solution": "The cheetah (Acinonyx jubatus) is a member of cat family. Cheetah have been known to exist in India for a very long time. But due to hunting and other purposes, cheetah in India became extinct before the twentieth century.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "It is used in refrigerator and air conditioners and it is a source of Cl-",
+    "question_latex": "It is used in refrigerator and air conditioners and it is a source of $Cl^-$",
+    "question_images": [],
+    "options": [
+      "A. Benzopyrene",
+      "B. Freon",
+      "C. Benzene",
+      "D. CH4"
+    ],
+    "option_images": [],
+    "answer": "B. Freon",
+    "solution": "Freon and other chlorofluorocarbon ($CFC$) compounds are used in refrigerators, air conditioners and as filling agent in aerosol, also cause pollution. CFCs do not degrade easily in the troposphere due to which they rise into the stratosphere, where they are broken by UV light. These are mainly responsible for ozone depletion.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "All are sources of particulate pollutants EXCEPT _____ [MHT-CET 2023]",
+    "question_latex": "All are sources of particulate pollutants EXCEPT \\underline{\\hspace{1cm}} [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Smoke",
+      "B. Pesticides",
+      "C. Nitrogen Oxide",
+      "D. Dust"
+    ],
+    "option_images": [],
+    "answer": "C. Nitrogen Oxide",
+    "solution": "Nitrogen dioxide ($NO_2$) and nitrogen monoxide ($NO$) are released by automobiles and chemical industries as waste gases. These are gaseous pollutants, not particulate pollutants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "SO2 pollution affects",
+    "question_latex": "$SO_2$ pollution affects",
+    "question_images": [],
+    "options": [
+      "A. Chloroplast",
+      "B. Nucleus",
+      "C. Mitochondria",
+      "D. Cell membrane"
+    ],
+    "option_images": [],
+    "answer": "D. Cell membrane",
+    "solution": "At cellular level, $SO_2$ pollution destroys all membrane systems. In intense exposure to $SO_2$, there is bleaching of leaf pigments due to conversion of chl.-a to phaeophytin-a. Thus, $SO_2$ exposure has an impact on plant productivity. $SO_2$ pollution is the main cause of acid rain, which is threatening the shining of Taj Mahal. Mosses and lichens are very sensitive (indicator) to $SO_2$ pollution.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is the correct percentage of the two (out of the total of four) green house gases that contribute to the total global warming?",
+    "question_latex": "Which one of the following is the correct percentage of the two (out of the total of four) green house gases that contribute to the total global warming?",
+    "question_images": [],
+    "options": [
+      "A. CFCs 14%, CH4 20%",
+      "B. CO2 40%, CFCs 30%",
+      "C. N2O 6%, CO2 86%",
+      "D. CH4 20%, N2O 18%"
+    ],
+    "option_images": [],
+    "answer": "A. CFCs 14%, CH4 20%",
+    "solution": "The various green house gases are $CO_2$ (warming effect 60%), $CH_4$ (20%), $CFC_s$ (14%) and nitrous oxide $N_2O$ (6%).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following is exhaustible but limited source of energy?",
+    "question_latex": "Which of the following is exhaustible but limited source of energy?",
+    "question_images": [],
+    "options": [
+      "A. Nuclear fuel",
+      "B. Water energy",
+      "C. Fossil fuel",
+      "D. Solar energy"
+    ],
+    "option_images": [],
+    "answer": "C. Fossil fuel",
+    "solution": "Exhaustible resources are natural resources with finite supply, which if used indiscriminately are likely to diminish and then get exhausted. Fossil fuel is a non-renewable (limited) exhaustible source of energy.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Out of total incident solar radiation, which type of radiations are absorbed by plants and photo synthetic bacteria? [MHT-CET 2023]",
+    "question_latex": "Out of total incident solar radiation, which type of radiations are absorbed by plants and photo synthetic bacteria? [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Ultra violet rays",
+      "B. Photo synthetically active radiation (PAR)",
+      "C. Infrared rays",
+      "D. Gamma rays"
+    ],
+    "option_images": [],
+    "answer": "B. Photo synthetically active radiation (PAR)",
+    "solution": "The type of radiations absorbed by plants and photosynthetic bacteria is Photo synthetically active radiation (PAR).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is a major pollutant of automobile gases?",
+    "question_latex": "Which one of the following is a major pollutant of automobile gases?",
+    "question_images": [],
+    "options": [
+      "A. Carbon monoxide",
+      "B. Oxides of nitrogen",
+      "C. Oxides of sulphur",
+      "D. Carbon dioxide"
+    ],
+    "option_images": [],
+    "answer": "A. Carbon monoxide",
+    "solution": "80% of automobiles exhaust is carbon monoxide. It is a colorless, odourless gas. When inhaled, this gas combines with blood haemoglobin about 200 times faster than does oxygen and results in oxygen deficiency.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following is non-biodegradable?",
+    "question_latex": "Which of the following is non-biodegradable?",
+    "question_images": [],
+    "options": [
+      "A. Sewage",
+      "B. DDT",
+      "C. Livestock waste",
+      "D. Market garbage"
+    ],
+    "option_images": [],
+    "answer": "B. DDT",
+    "solution": "The materials and poisons such as aluminium ions, mercurial salts and DDT that either do not degrade or degrade only extremely slowly in the natural environment are called non-biodegradable pollutants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "A taxon, which is facing an extremely high risk of extinction in the wild in immediate future is known as",
+    "question_latex": "A taxon, which is facing an extremely high risk of extinction in the wild in immediate future is known as",
+    "question_images": [],
+    "options": [
+      "A. Rare",
+      "B. Exotic",
+      "C. Vulnerable",
+      "D. Critically endangered"
+    ],
+    "option_images": [],
+    "answer": "D. Critically endangered",
+    "solution": "A taxon is critically endangered when it is facing an extremely high risk of extinction in the wild in the near future.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following strategies is not a correct approach to reduce global warming?",
+    "question_latex": "Which of the following strategies is not a correct approach to reduce global warming?",
+    "question_images": [],
+    "options": [
+      "A. Reducing the green-house gas emission by limiting the use of fossil fuels",
+      "B. Increase the vegetation cover particularly the forest for photosynthetic utilization of CO2",
+      "C. Minimising the use of nitrogen fertilizers in agriculture for reducing NO2 emission",
+      "D. Increasing the use of air conditioners, refrigeration unit and production of plastic"
+    ],
+    "option_images": [],
+    "answer": "D. Increasing the use of air conditioners, refrigeration unit and production of plastic",
+    "solution": "Global warming is the warming/heating up of the earth's atmosphere due to depletion of ozone in the stratosphere. Major pollutants responsible for this depletion are chlorofluoro carbons ($CFCs$), nitrogen oxides and hydrocarbons. $CFCs$ are widely used as coolants in air conditioners and refrigerators, cleaning solvents, aerosol propellants and in foam insulation. So, decreasing the use of air conditioners, jet planes, green house gases, etc, or developing substitutes for $CFCs$ can reduce global warming.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Biodiversity Act of India was passed by the Parliament in the year",
+    "question_latex": "Biodiversity Act of India was passed by the Parliament in the year",
+    "question_images": [],
+    "options": [
+      "A. 1996",
+      "B. 1992",
+      "C. 2002",
+      "D. 2000"
+    ],
+    "option_images": [],
+    "answer": "C. 2002",
+    "solution": "Biodiversity Act of India was passed by the Parliament in the year 2002.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The total number of biodiversity hot spots in the world are",
+    "question_latex": "The total number of biodiversity hot spots in the world are",
+    "question_images": [],
+    "options": [
+      "A. 24",
+      "B. 12",
+      "C. 34",
+      "D. 52"
+    ],
+    "option_images": [],
+    "answer": "C. 34",
+    "solution": "A biodiversity hotspot is a biogeographic region with a significant reservoir of biodiversity that is threatened with destruction. Initially, 25 biodiversity hotspots were identified but subsequently nine more have been added to the list bringing the total number of biodiversity hotspots in the world to 34.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Acid rain is mainly caused due to increase in the levels of the gas(es)",
+    "question_latex": "Acid rain is mainly caused due to increase in the levels of the gas(es)",
+    "question_images": [],
+    "options": [
+      "A. SO2 only",
+      "B. CO2 only",
+      "C. SO2, CO2",
+      "D. NO2 and SO2"
+    ],
+    "option_images": [],
+    "answer": "D. NO2 and SO2",
+    "solution": "Acid rain problem can be attributed mainly to atmospheric pollutants such as oxides of sulphur and nitrogen. The oxides of sulphur are released from the smoke stacks of coal fired power plants, smelters and other industries. The oxides of nitrogen came from combustion of fuels in automobiles as well as in power plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Rivet popper Hypothesis was given by ______ [MHT-CET 2023]",
+    "question_latex": "Rivet popper Hypothesis was given by \\underline{\\hspace{1cm}} [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Edward Wilson",
+      "B. Alexander Von Humboldt",
+      "C. Walter Rosen",
+      "D. Paul Ehrlich"
+    ],
+    "option_images": [],
+    "answer": "D. Paul Ehrlich",
+    "solution": "Rivet popper Hypothesis was given by Paul Ehrlich, an ecologist from Stanford, who gave an analogy to explain significance of diversity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Industrial effluents rich in phosphorus causes overgrowth of algae. This is known as [MHT-CET 2024]",
+    "question_latex": "Industrial effluents rich in phosphorus causes overgrowth of algae. This is known as [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. eutrophication",
+      "B. stratification",
+      "C. succession",
+      "D. biomagnification"
+    ],
+    "option_images": [],
+    "answer": "A. eutrophication",
+    "solution": "Sudden influx of phosphorus in the form of agricultural runoff or industrial effluents rich in phosphate content leads to eutrophication in water bodies causing overgrowth of algae.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is NOT an example of ex-situ conservation of endangered species? [MHT-CET 2017]",
+    "question_latex": "Which one of the following is NOT an example of ex-situ conservation of endangered species? [MHT-CET 2017]",
+    "question_images": [],
+    "options": [
+      "A. Zoological park",
+      "B. National park",
+      "C. Culture collection",
+      "D. Botanical garden"
+    ],
+    "option_images": [],
+    "answer": "B. National park",
+    "solution": "National park is an example of in-situ conservation, not ex-situ conservation. Ex-situ conservation includes zoological parks, botanical gardens, culture collections, gene banks and cryopreservation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Species richness is ______ at lower latitudes and there is steady ______ towards the poles. [2022]",
+    "question_latex": "Species richness is \\underline{\\hspace{1cm}} at lower latitudes and there is steady \\underline{\\hspace{1cm}} towards the poles. [2022]",
+    "question_images": [],
+    "options": [
+      "A. moderate, decline",
+      "B. uniform, rise",
+      "C. high, decline",
+      "D. low, rise"
+    ],
+    "option_images": [],
+    "answer": "C. high, decline",
+    "solution": "Species richness is high at lower latitudes and there is a steady decline towards the poles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following are exotic herbs that affect the growth of native species?\n(I) Rauwolfia Serpentina, (II) Parthenium sps, (III) Gnetum ula, (IV) Lantana camara",
+    "question_latex": "Which of the following are exotic herbs that affect the growth of native species?\n(I) Rauwolfia Serpentina, (II) Parthenium sps, (III) Gnetum ula, (IV) Lantana camara",
+    "question_images": [],
+    "options": [
+      "A. I and II",
+      "B. I and IV",
+      "C. II and III",
+      "D. II and IV"
+    ],
+    "option_images": [],
+    "answer": "D. II and IV",
+    "solution": "Exotic species can threaten native species by outcompeting them for resources. Some exotic species in India includes Lantana, Parthenium, Siam weed, Mexican devil etc.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Paul Ehrlich suggested Rivet Popper Hypothesis in which he compared the ecosystem and species to ______ and ______ respectively. [MHT-CET 2024]",
+    "question_latex": "Paul Ehrlich suggested Rivet Popper Hypothesis in which he compared the ecosystem and species to \\underline{\\hspace{1cm}} and \\underline{\\hspace{1cm}} respectively. [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. chandrayan and pragyan",
+      "B. venus and its satellites",
+      "C. aeroplane and rivets",
+      "D. sun and earth"
+    ],
+    "option_images": [],
+    "answer": "C. aeroplane and rivets",
+    "solution": "Paul Ehrlich suggested Rivet Popper Hypothesis in which he compared the ecosystem and species to airplane and rivets respectively to explain significance of diversity. Loss of species may not pose threat to the ecosystem only initially. Loss of key species will certainly cause threat in very short span of time. It will affect food chains, food web, energy flow, natural cycles, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is INCORRECT with respect to Verhulst-Pearl Logistic Growth? [MHT-CET 2024]",
+    "question_latex": "Which one of the following is INCORRECT with respect to Verhulst-Pearl Logistic Growth? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. It shows geometric growth in population",
+      "B. It is more realistic",
+      "C. It is a sigmoid curve",
+      "D. It occurs when resources are limited"
+    ],
+    "option_images": [],
+    "answer": "A. It shows geometric growth in population",
+    "solution": "A population growing in a habitat with limited resources shows initially a lag phase, followed by phases of acceleration and deceleration and finally an asymptote, when the population density reaches the carrying capacity. It shows logistic growth, not geometric growth.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The thickness of ozone in a column of air from the ground to the top of the atmosphere is measured in terms of",
+    "question_latex": "The thickness of ozone in a column of air from the ground to the top of the atmosphere is measured in terms of",
+    "question_images": [],
+    "options": [
+      "A. Decibel units",
+      "B. Pascal units",
+      "C. Svedberg units",
+      "D. Dobson units"
+    ],
+    "option_images": [],
+    "answer": "D. Dobson units",
+    "solution": "The thickness of the ozone in a column of air from the ground to the top of the atmosphere is measured in terms of Dobson Units (DU).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Conservation in natural habitat is",
+    "question_latex": "Conservation in natural habitat is",
+    "question_images": [],
+    "options": [
+      "A. In situ",
+      "B. Ex situ",
+      "C. Zoo",
+      "D. Botanic garden"
+    ],
+    "option_images": [],
+    "answer": "A. In situ",
+    "solution": "In situ conservation is the conservation of living resources through their maintenance within the natural ecosystems in which they occur. In situ conservation includes a comprehensive system of protected areas such as the national parks, sanctuaries, natural reserves, biosphere reserves, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is NOT the in-situ conservation of biodiversity? [MHT-CET 2018]",
+    "question_latex": "Which one of the following is NOT the in-situ conservation of biodiversity? [MHT-CET 2018]",
+    "question_images": [],
+    "options": [
+      "A. Zoological parks",
+      "B. Wildlife sanctuaries",
+      "C. National parks",
+      "D. Biosphere reserves"
+    ],
+    "option_images": [],
+    "answer": "A. Zoological parks",
+    "solution": "Zoological parks are an example of ex-situ conservation. In-situ conservation includes wildlife sanctuaries, national parks and biosphere reserves.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "World Summit on Sustainable Development (2002) was held in",
+    "question_latex": "World Summit on Sustainable Development (2002) was held in",
+    "question_images": [],
+    "options": [
+      "A. Brazil",
+      "B. Sweden",
+      "C. Argentina",
+      "D. South Africa"
+    ],
+    "option_images": [],
+    "answer": "D. South Africa",
+    "solution": "In 1992, world leaders convened an Earth Summit in Rio de Janeiro, Brazil. Another Earth Summit was convened from 26th August to 4th September 2002 in Johannesburg, South Africa.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The cause of decline in the population of reptiles and birds is",
+    "question_latex": "The cause of decline in the population of reptiles and birds is",
+    "question_images": [],
+    "options": [
+      "A. DDT",
+      "B. Biofertilizer",
+      "C. Bioinsecticides",
+      "D. Sewage"
+    ],
+    "option_images": [],
+    "answer": "A. DDT",
+    "solution": "The reptiles and birds are mostly secondary or tertiary consumers. The concentration of DDT is increased in them. DDT is non-biodegradable pollutant, responsible for decline in the population of birds and reptiles.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The behavioural response to cope with the hot weather in their environment is very well exhibited by ..[2022]",
+    "question_latex": "The behavioural response to cope with the hot weather in their environment is very well exhibited by ..[2022]",
+    "question_images": [],
+    "options": [
+      "A. butterfly",
+      "B. lizard",
+      "C. opuntia",
+      "D. seal"
+    ],
+    "option_images": [],
+    "answer": "B. lizard",
+    "solution": "Lizard exhibits behavioural response to cope with hot weather by moving to shaded areas or adjusting their body orientation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "It has been observed that species richness is very low in north and south poles. Which one of the following could be a possible reason for it? [MHT-CET 2024]",
+    "question_latex": "It has been observed that species richness is very low in north and south poles. Which one of the following could be a possible reason for it? [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Periodic glaciations like drastic climate changes.",
+      "B. Lesser drastic climatic changes throughout the year.",
+      "C. Availability of plenty of sunlight.",
+      "D. Lesser migrations have reduced gene flow and favored speciation."
+    ],
+    "option_images": [],
+    "answer": "A. Periodic glaciations like drastic climate changes.",
+    "solution": "Species richness or diversity for plants and animals decreases as we move away from equator to the poles. It is maximum in tropical rain forests. Species richness is high at lower latitudes and there is a steady decline towards the poles due to periodic glaciations and drastic climate changes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Approval of Utilization of any biological resources for commercial or industrial purpose at local level is taken from [2022]",
+    "question_latex": "Approval of Utilization of any biological resources for commercial or industrial purpose at local level is taken from [2022]",
+    "question_images": [],
+    "options": [
+      "A. State Biodiversity Boards",
+      "B. National Biodiversity Authority",
+      "C. IUCN",
+      "D. Biodiversity Management Committees"
+    ],
+    "option_images": [],
+    "answer": "D. Biodiversity Management Committees",
+    "solution": "Biodiversity Management Committees operate at the local level and are responsible for approving utilization of biological resources for commercial or industrial purposes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Select the correct option with respect to in situ type of conservation of biodiversity from the following. [MHT-CET 2023]\nI) Botanical garden\nII) National park\nIII) Seed bank\nIV) Zoological park\nV) Sacred groves\nVI) Wildlife sanctuaries\nVII) Biosphere reserve",
+    "question_latex": "Select the correct option with respect to in situ type of conservation of biodiversity from the following. [MHT-CET 2023]\nI) Botanical garden\nII) National park\nIII) Seed bank\nIV) Zoological park\nV) Sacred groves\nVI) Wildlife sanctuaries\nVII) Biosphere reserve",
+    "question_images": [],
+    "options": [
+      "A. I, III, IV, VII",
+      "B. III, IV, V, VI",
+      "C. I, III, V, VI",
+      "D. II, V, VI, VII"
+    ],
+    "option_images": [],
+    "answer": "D. II, V, VI, VII",
+    "solution": "In situ conservation of biodiversity involves conserving living organisms in their natural habitat. National park (II), Sacred groves (V), Wildlife sanctuaries (VI) and Biosphere reserves (VII) are all examples of in situ conservation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Supreme Court of India has banned loudspeakers at public gatherings after ___ [MHT-CET 2024]",
+    "question_latex": "Supreme Court of India has banned loudspeakers at public gatherings after \\underline{\\hspace{1cm}} [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. 10 am",
+      "B. 12 noon",
+      "C. 8 pm",
+      "D. 10 pm"
+    ],
+    "option_images": [],
+    "answer": "D. 10 pm",
+    "solution": "Supreme Court of India has banned loudspeakers at public gatherings after 10 pm. Laws which prohibit blowing horn in the areas of schools and hospitals need to be implemented strictly to curb decibel levels.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Match the scientist in column I with their contribution in column II and choose the correct option. [MHT-CET 2024]",
+    "question_latex": "Match the scientist in column I with their contribution in column II and choose the correct option. [MHT-CET 2024]\n\nColumn I: (a) Alexander Van Humboldt, (b) Robert May, (c) David Tillman, (d) Paul Ehrlich\nColumn II: (i) Estimated 7 million species round the globe, (ii) Rivet popper hypothesis, (iii) Species Area Relationship, (iv) Productivity stability hypothesis",
+    "question_images": [
+      "65_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "B. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "C. (a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)",
+      "D. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+    "solution": "Alexander Van Humboldt - Species Area Relationship; Robert May - Estimated 7 million species round the globe; David Tillman - Productivity stability hypothesis; Paul Ehrlich - Rivet popper hypothesis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Biosphere reserves differ from national parks and wild life sanctuaries because in the former",
+    "question_latex": "Biosphere reserves differ from national parks and wild life sanctuaries because in the former",
+    "question_images": [],
+    "options": [
+      "A. Human beings are not allowed to enter",
+      "B. People are an integral part of the system",
+      "C. Plants are paid greater attention than the animals",
+      "D. Living organisms are brought from all over the world and preserved for posterity"
+    ],
+    "option_images": [],
+    "answer": "B. People are an integral part of the system",
+    "solution": "In the biosphere reserve, people are an integral part, but not in National Parks and wild life sanctuaries.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Psilotum nudum is a/an ______ species.",
+    "question_latex": "Psilotum nudum is a/an \\underline{\\hspace{1cm}} species.",
+    "question_images": [],
+    "options": [
+      "A. Extinct",
+      "B. Exotic",
+      "C. Rare",
+      "D. Endangered"
+    ],
+    "option_images": [],
+    "answer": "D. Endangered",
+    "solution": "Psilotum nudum, also known as whisk fern, is an endangered species and is endemic to Sheshachalam Hills, Andhra Pradesh.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Tiger is not resident in which one of the following national park?",
+    "question_latex": "Tiger is not resident in which one of the following national park?",
+    "question_images": [],
+    "options": [
+      "A. Ranthambhor",
+      "B. Sunderbans",
+      "C. Gir",
+      "D. Jim Corbett"
+    ],
+    "option_images": [],
+    "answer": "C. Gir",
+    "solution": "Gir National Park (Gujarat) is not concerned with tiger. The animals found in Gir national park are Asiatic lion, panther, striped hyaena, sambar, nilgai, cheetal, four-horned antelope and chinkara. Ranthambhor National Park, Sunderbans and Jim Corbett National Park (Uttarakhand) are tiger reserves.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "During the tertiary treatment of sewage, chlorination is done to ____. [2022]",
+    "question_latex": "During the tertiary treatment of sewage, chlorination is done to \\underline{\\hspace{1cm}}. [2022]",
+    "question_images": [],
+    "options": [
+      "A. set free H2S",
+      "B. kill pathogenic bacteria",
+      "C. set free CH4",
+      "D. precipitate inorganic effluents"
+    ],
+    "option_images": [],
+    "answer": "B. kill pathogenic bacteria",
+    "solution": "During tertiary treatment of sewage, chlorination is done to kill pathogenic bacteria.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which of the following is not used for disinfection of drinking water?",
+    "question_latex": "Which of the following is not used for disinfection of drinking water?",
+    "question_images": [],
+    "options": [
+      "A. Phenyl",
+      "B. Chloramines",
+      "C. Chlorine",
+      "D. Ozone"
+    ],
+    "option_images": [],
+    "answer": "A. Phenyl",
+    "solution": "Phenyl is not used for disinfection of drinking water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Chlorofluorocarbon is responsible for ______ [MHT-CET 2023]",
+    "question_latex": "Chlorofluorocarbon is responsible for \\underline{\\hspace{1cm}} [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. Acid rain",
+      "B. Thermal pollution",
+      "C. Ozone depletion",
+      "D. Biodegradation"
+    ],
+    "option_images": [],
+    "answer": "C. Ozone depletion",
+    "solution": "Chlorofluorocarbon is responsible for ozone depletion. CFCs move upwards and reach stratosphere. UV rays act on them and release Cl atoms. Cl degrades ozone releasing molecular oxygen.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Kyoto protocol has specified the commitments of different countries",
+    "question_latex": "Kyoto protocol has specified the commitments of different countries",
+    "question_images": [],
+    "options": [
+      "A. To mitigate climate changes",
+      "B. Limit production of chlorofluorocarbons",
+      "C. To prepare a world climate programme",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. To mitigate climate changes",
+    "solution": "Kyoto protocol has specified the commitments of different countries to mitigate climate changes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Identify the correct matched pair. [MHT CET 2008]",
+    "question_latex": "Identify the correct matched pair. [MHT CET 2008]",
+    "question_images": [],
+    "options": [
+      "A. Gir forest - Rhino",
+      "B. Kaziranga - Elephant",
+      "C. Corbett park - Aves",
+      "D. Rann of Kutch - Wild ass"
+    ],
+    "option_images": [],
+    "answer": "D. Rann of Kutch - Wild ass",
+    "solution": "The Rann of Kutch is the correct matched pair with Wild ass. Kaziranga is famous for one-horned rhino, Gir for Asiatic lion, and Corbett for tigers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Nitrogen oxides produced from the emission of automobiles and power plants are the source of fine air borne particles which lead to",
+    "question_latex": "Nitrogen oxides produced from the emission of automobiles and power plants are the source of fine air borne particles which lead to",
+    "question_images": [],
+    "options": [
+      "A. Photochemical smog",
+      "B. Dry acid deposition",
+      "C. Industrial smog",
+      "D. Wet acid deposition"
+    ],
+    "option_images": [],
+    "answer": "A. Photochemical smog",
+    "solution": "Depending on climate conditions, tiny particles of nitrogen and sulphur oxides may be airborne for a while and then fall to earth as dry acid deposition. Most of sulphur and nitrogen dioxides dissolve in atmospheric water to form weak solutions of $H_2SO_4$ and $HNO_3$. Winds can distribute them over great distances before they fall to earth in rain — this is called wet acid deposition.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Chipko movement is related to",
+    "question_latex": "Chipko movement is related to",
+    "question_images": [],
+    "options": [
+      "A. Swaminathan",
+      "B. Bahuguna",
+      "C. Odum",
+      "D. Misra"
+    ],
+    "option_images": [],
+    "answer": "B. Bahuguna",
+    "solution": "In 1973 the Chipko movement was launched by Chandi Prasad Bhatt and Sundar Lal Bahuguna against large scale felling of trees by timber contractors in Uttaranchal hills.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Following are the advantages of using CNG as a fuel EXCEPT ______ [MHT-CET 2023]",
+    "question_latex": "Following are the advantages of using CNG as a fuel EXCEPT \\underline{\\hspace{1cm}} [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. It is economic",
+      "B. It is adulteration proof fuel",
+      "C. It will never get exhausted",
+      "D. It burns efficiently"
+    ],
+    "option_images": [],
+    "answer": "C. It will never get exhausted",
+    "solution": "CNG is advantageous over other fuels because it is economic, burns efficiently and is adulteration proof fuel but it may get exhausted.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Given below are two statements. [2022]\nStatement I: Availability of intense sunlight, warmer temperature and higher annual rainfall in tropics are responsible for species richness of fruit yielding trees.\nStatement II: The variety of frugivorous organisms is more in tropics as compared to the temperate regions.\nIn the light of above statements, choose the most appropriate answer.",
+    "question_latex": "Given below are two statements. [2022]\nStatement I: Availability of intense sunlight, warmer temperature and higher annual rainfall in tropics are responsible for species richness of fruit yielding trees.\nStatement II: The variety of frugivorous organisms is more in tropics as compared to the temperate regions.\nIn the light of above statements, choose the most appropriate answer.",
+    "question_images": [],
+    "options": [
+      "A. Both Statement I and Statement II are correct.",
+      "B. Statement I is correct but Statement II is incorrect.",
+      "C. Both Statement I and Statement II are incorrect.",
+      "D. Statement I is incorrect but Statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Both Statement I and Statement II are correct.",
+    "solution": "Both statements are correct. Availability of intense sunlight, warmer temperature and higher annual rainfall in tropics favor high species richness. The variety of frugivorous organisms is also more in tropics.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ban on use, sale, distribution and storage of plastic was implemented by the Maharashtra government in ______ year. [MHT-CET 2023]",
+    "question_latex": "Ban on use, sale, distribution and storage of plastic was implemented by the Maharashtra government in \\underline{\\hspace{1cm}} year. [MHT-CET 2023]",
+    "question_images": [],
+    "options": [
+      "A. 2010",
+      "B. 2020",
+      "C. 2016",
+      "D. 2018"
+    ],
+    "option_images": [],
+    "answer": "D. 2018",
+    "solution": "Ban on use, sale, distribution and storage of plastic was implemented by the Maharashtra government in 2018.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Polyblend, a fine powder of recycled modified plastic, was used _____",
+    "question_latex": "Polyblend, a fine powder of recycled modified plastic, was used \\underline{\\hspace{1cm}}",
+    "question_images": [],
+    "options": [
+      "A. In aircraft",
+      "B. To lay roads",
+      "C. In automobiles",
+      "D. As refrigerant"
+    ],
+    "option_images": [],
+    "answer": "B. To lay roads",
+    "solution": "Polyblend, a form of recycled plastic, was used to lay roads. First attempted by Ahmed Khan as a recycling method.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Given below are two statements: [MHT-CET 2024]\nStatement-I: The particles with size 1.0 nm to 2.5 nm remains suspended in the air are known as particulate pollutants.\nStatement-II: Particulate pollutants damage lungs by going deep into it.\nIn the light of above statements, choose the most appropriate answer.",
+    "question_latex": "Given below are two statements: [MHT-CET 2024]\nStatement-I: The particles with size 1.0 nm to 2.5 nm remains suspended in the air are known as particulate pollutants.\nStatement-II: Particulate pollutants damage lungs by going deep into it.\nIn the light of above statements, choose the most appropriate answer.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "B. Both statement I and statement II are correct.",
+    "solution": "Both statement I and statement II are correct with respect to size of particles and their effect on human body.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Green house effect with respect to global climate refers to",
+    "question_latex": "Green house effect with respect to global climate refers to",
+    "question_images": [],
+    "options": [
+      "A. Cooling and moist condition",
+      "B. Warming effect",
+      "C. Increase rainfall and greenery",
+      "D. Desertification"
+    ],
+    "option_images": [],
+    "answer": "B. Warming effect",
+    "solution": "Green house effect involves the heating (warming) up of earth's surface due to increasing amount of $CO_2$ in the atmosphere as its thick layer prevents the solar heat from being reradiated out of the earth's surface.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Kyoto protocol is related with",
+    "question_latex": "Kyoto protocol is related with",
+    "question_images": [],
+    "options": [
+      "A. Ozone layer depletion",
+      "B. Green house effect",
+      "C. Water pollution",
+      "D. Conservation of wildlife"
+    ],
+    "option_images": [],
+    "answer": "B. Green house effect",
+    "solution": "An international conference was held in Kyoto, the ancient capital of Japan on 1 to 10 December, 1997 of G-77 countries. It is popularly known as Kyoto protocol. In this, emphasis is given on global warming. It is the result of increasing use of green house gases such as $CO_2$, methane, oxides of nitrogen, $CFC_s$, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Match the following in Column-I with their number found in India given in Column-II and choose the correct option. [MHT-CET 2024]",
+    "question_latex": "Match the following in Column-I with their number found in India given in Column-II and choose the correct option. [MHT-CET 2024]\n\nColumn I: (a) Varieties of mango, (b) Biosphere reserves, (c) National parks, (d) Wildlife sanctuaries\nColumn II: (i) 14, (ii) 448, (iii) 2000, (iv) 90",
+    "question_images": [
+      "83_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(iii); (b)-(i); (c)-(iv); (d)-(ii)",
+      "B. (a)-(i); (b)-(ii); (c)-(iii); (d)-(iv)",
+      "C. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+      "D. (a)-(ii); (b)-(iii); (c)-(iv); (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(iii); (b)-(i); (c)-(iv); (d)-(ii)",
+    "solution": "Varieties of mango = 2000, Biosphere reserves = 14, National parks = 90, Wildlife sanctuaries = 448.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "With reference to given Pie-chart, identify the correct statement. [2022]",
+    "question_latex": "With reference to given Pie-chart, identify the correct statement. [2022]",
+    "question_images": [
+      "84_qu_1.png"
+    ],
+    "options": [
+      "A. The species diversity of monocots is equal to the species diversity of dicots.",
+      "B. Flowering plants are the dominant group of plants showing highest species diversity.",
+      "C. Diversity of conifers is equal to the sum of diversity of ferns and mosses.",
+      "D. Diversity of dicot species is equal to the sum of ferns and moss species diversity."
+    ],
+    "option_images": [],
+    "answer": "B. Flowering plants are the dominant group of plants showing highest species diversity.",
+    "solution": "From the pie chart, flowering plants (both monocots and dicots) together represent the dominant group of plants showing the highest species diversity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which insecticide is more hazardous to human health?",
+    "question_latex": "Which insecticide is more hazardous to human health?",
+    "question_images": [],
+    "options": [
+      "A. Rotenone",
+      "B. Pyrethrum",
+      "C. DDT",
+      "D. Humulin"
+    ],
+    "option_images": [],
+    "answer": "C. DDT",
+    "solution": "DDT is the most hazardous, non-biodegradable insecticide, which is fat soluble but insoluble in water. It persists in the environment for a very long period. Being fat soluble, it accumulates in the animal tissues and gets concentrated at different trophic levels of food chain. In each step, DDT is more concentrated — this is called biomagnification.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Green-house effect refers to",
+    "question_latex": "Green-house effect refers to",
+    "question_images": [],
+    "options": [
+      "A. Cooling of earth",
+      "B. Trapping of UV rays",
+      "C. Production of cereals",
+      "D. Warming of earth"
+    ],
+    "option_images": [],
+    "answer": "D. Warming of earth",
+    "solution": "Green house effect is the warming up of earth due to accumulation of green house gases. Green house gases mainly include carbon dioxide ($CO_2$), methane ($CH_4$), chlorofluorocarbons ($CFCs$), etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Foul smell in the water bodies of tanks, ponds, etc., is due to",
+    "question_latex": "Foul smell in the water bodies of tanks, ponds, etc., is due to",
+    "question_images": [],
+    "options": [
+      "A. Aerobiosis",
+      "B. Anaerobiosis",
+      "C. Psammophytes",
+      "D. Biological magnification"
+    ],
+    "option_images": [],
+    "answer": "B. Anaerobiosis",
+    "solution": "Eutrophication is natural state in many lakes and ponds, which have a rich supply of nutrients. This leads to decomposition of nutrients through bacteria and other decomposers by the process of anaerobic respiration. This causes foul smell.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Heating up of earth's atmosphere occurs due to _____ from earth's surface. [MHT-CET 2019]",
+    "question_latex": "Heating up of earth's atmosphere occurs due to \\underline{\\hspace{1cm}} from earth's surface. [MHT-CET 2019]",
+    "question_images": [],
+    "options": [
+      "A. Emission of smoke",
+      "B. Trapped infrared rays reflected",
+      "C. Emission of more O2",
+      "D. Trapped infrared rays reflected"
+    ],
+    "option_images": [],
+    "answer": "D. Trapped infrared rays reflected",
+    "solution": "Heating up of earth's atmosphere occurs due to trapped infrared rays reflected from earth's surface. The greenhouse gases trap the heat radiating from the earth's surface.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The percentage of forest cover recommended by the national forest policy (1988) is",
+    "question_latex": "The percentage of forest cover recommended by the national forest policy (1988) is",
+    "question_images": [],
+    "options": [
+      "A. 33% for plains and 67% for hills",
+      "B. 37% for plains and 63% for hills",
+      "C. 20% for plains and 70% for hills",
+      "D. 23% for plains and 77% for hills"
+    ],
+    "option_images": [],
+    "answer": "A. 33% for plains and 67% for hills",
+    "solution": "The National Forest Policy (1988) aims at increasing forest cover of the country both in plains and hills. The percentage of forest cover recommended by the National Forest Policy (1988) is 33% for plains and 67% for hills.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The term ........ is used for category of species that possesses high risk of extinction with very few surviving members. [2022]",
+    "question_latex": "The term ........ is used for category of species that possesses high risk of extinction with very few surviving members. [2022]",
+    "question_images": [],
+    "options": [
+      "A. least concerned",
+      "B. critically endangered",
+      "C. near threatened",
+      "D. extinct in the wild"
+    ],
+    "option_images": [],
+    "answer": "B. critically endangered",
+    "solution": "The term 'critically endangered' is used for category of species that possesses high risk of extinction with very few surviving members.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Action of UV rays on ______ forms ozone layer.",
+    "question_latex": "Action of UV rays on \\underline{\\hspace{1cm}} forms ozone layer.",
+    "question_images": [],
+    "options": [
+      "A. CO2",
+      "B. O2",
+      "C. H2O",
+      "D. CFC"
+    ],
+    "option_images": [],
+    "answer": "B. O2",
+    "solution": "Action of UV rays on Oxygen ($O_2$) forms ozone layer situated in stratosphere as about 5 km thick blanket. $CFC$ on reacting with UV will degrade ozone.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Ozone hole results in",
+    "question_latex": "Ozone hole results in",
+    "question_images": [],
+    "options": [
+      "A. UV radiation reaches the earth",
+      "B. Cataract",
+      "C. Increase in skin cancer",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "Ozone is formed in the stratosphere by UV-radiation. Ozone layer of stratosphere protects the earth's living organisms from UV rays (less than 300 nm). Depletion or thinning of ozone layer allows harmful UV rays to reach earth and causes skin cancer, cataract, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The water hyacinth (Eichhornia crassipes) is a native of ______ [MHT-CET 2024]",
+    "question_latex": "The water hyacinth (Eichhornia crassipes) is a native of \\underline{\\hspace{1cm}} [MHT-CET 2024]",
+    "question_images": [],
+    "options": [
+      "A. Amazon basin",
+      "B. Bay of Bengal",
+      "C. Central Europe",
+      "D. Central Africa"
+    ],
+    "option_images": [],
+    "answer": "A. Amazon basin",
+    "solution": "Water hyacinth (Eichhornia crassipes) is an aquatic plant, native of Amazon basin, highly problematic invasive species. It was first introduced in India for its lovely purple coloured flowers. But now it is a nuisance as it grows excessively and covers entire water body. It is commonly called 'Terror of Bengal'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "In India, hot spot area is found in",
+    "question_latex": "In India, hot spot area is found in",
+    "question_images": [],
+    "options": [
+      "A. Eastern Himalaya",
+      "B. Tropical Andes",
+      "C. Madagascar",
+      "D. Meso America"
+    ],
+    "option_images": [],
+    "answer": "A. Eastern Himalaya",
+    "solution": "Out of the 25 hotspots of the world, two are found in India. These are Western Ghats and Eastern Himalayas and these extend to the neighbouring countries also. These areas show high degree of endemism and are inhabited by a wide variety of flowering plants, swallow-tailed butterflies, amphibians, reptiles and mammals.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Recent reports of acid rains in big industrial cities are due to the effect of atmospheric pollution by",
+    "question_latex": "Recent reports of acid rains in big industrial cities are due to the effect of atmospheric pollution by",
+    "question_images": [],
+    "options": [
+      "A. More release of NO2 and SO2 by burning of fossil fuels",
+      "B. More release of CO2 by burning of coal/wood cutting of forests and increasing populations",
+      "C. Excessive release of NH3 by coal gas/industries",
+      "D. Excessive release of CO by incomplete combustion of carbonaceous fuels"
+    ],
+    "option_images": [],
+    "answer": "A. More release of NO2 and SO2 by burning of fossil fuels",
+    "solution": "The acid rain is the cocktail of $H_2SO_4$ and $HNO_3$. The $SO_2$ and $NO_2$ produced during the combustion of coal and petroleum reacts with water vapour and forms $H_2SO_4$ and $HNO_3$ respectively.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Taj Mahal marble is affected by",
+    "question_latex": "Taj Mahal marble is affected by",
+    "question_images": [],
+    "options": [
+      "A. SO2",
+      "B. O2",
+      "C. O3",
+      "D. NO2"
+    ],
+    "option_images": [],
+    "answer": "A. SO2",
+    "solution": "$SO_2$ emitted from Mathura refinery (located about 40 km from Taj Mahal) as well as from foundries, power houses and railway yards get mixed with the atmospheric moisture and get converted into sulphuric acid, which settle down on the exterior of Taj Mahal. It reacts with marble ($CaCO_3$) leading to corrosion and discolouration of the monument.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Given below are two statements. [MHT-CET 2024]\nStatement-I: Rauwolfia vomitoria found in Himalayan ranges shows variation in potency and concentration of active component reserpine.\nStatement-II: Ecosystem diversity is observed in regions of Rann of Kutch.\nIn the light of above statement, choose the correct option.",
+    "question_latex": "Given below are two statements. [MHT-CET 2024]\nStatement-I: Rauwolfia vomitoria found in Himalayan ranges shows variation in potency and concentration of active component reserpine.\nStatement-II: Ecosystem diversity is observed in regions of Rann of Kutch.\nIn the light of above statement, choose the correct option.",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct but statement II is incorrect.",
+    "solution": "Ecosystem diversity is not observed in regions of Rann of Kutch. Statement I is correct as Rauwolfia vomitoria found in Himalayan ranges does show variation in potency and concentration of active component reserpine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Nutrient enrichment of a lake will cause",
+    "question_latex": "Nutrient enrichment of a lake will cause",
+    "question_images": [],
+    "options": [
+      "A. Eutrophication",
+      "B. Stratification",
+      "C. Biomagnifications",
+      "D. Bioaccumulation"
+    ],
+    "option_images": [],
+    "answer": "A. Eutrophication",
+    "solution": "Eutrophication is the increase in amount of nutrients in water due to detergents, pesticides, etc., and it leads to organic loading, depletion of $O_2$, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "Which one of the following is non-renewable exhaustible natural resource?",
+    "question_latex": "Which one of the following is non-renewable exhaustible natural resource?",
+    "question_images": [],
+    "options": [
+      "A. Water",
+      "B. Wildlife",
+      "C. Soil fertility",
+      "D. Aquatic animals"
+    ],
+    "option_images": [],
+    "answer": "D. Aquatic animals",
+    "solution": "Minerals and fossil fuels are the non-renewable (cannot be regenerated after being used up) and exhaustible (limited) resources, while water, wildlife, soil fertility and aquatic plants and animals all are renewable resources.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Biodiversity Conservation and Environmental Management",
+    "question": "The dolphin found in Chilka lake is",
+    "question_latex": "The dolphin found in Chilka lake is",
+    "question_images": [],
+    "options": [
+      "A. Delphinus",
+      "B. Irrawady",
+      "C. Sotalia",
+      "D. Tursiops"
+    ],
+    "option_images": [],
+    "answer": "B. Irrawady",
+    "solution": "The Irrawady dolphin (Orcaella brevirotris) is the flagship species of Chilka lake. Chilka is home to the only known population of Irrawady dolphins of India and one of only two lagoons in the world that are home to this species.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

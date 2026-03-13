@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If 7 cos x - 24 sin x = λ cos(x + α), 0 < α < π/2 be true for all x ∈ R, then",
     "question_latex": "If $7 \\\\cos x - 24 \\\\sin x = \\\\lambda \\\\cos(x + \\\\alpha), 0 < \\\\alpha < \\\\frac{\\\\pi}{2}$ be true for all $x \\\\in R$, then",
     "question_images": [],
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "sin 12° sin 48° sin 54° is equal to",
     "question_latex": "$\\sin 12^{\\circ} \\sin 48^{\\circ} \\sin 54^{\\circ}$ is equal to",
     "question_images": [],
@@ -39,7 +39,7 @@
   },
   {
     "id": 3,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "solution of the equation 3^{sin 2x + 2 cos^2 x} + 3^{1 - sin 2x + 2 sin^2 x} = 28 is:",
     "question_latex": "solution of the equation $3^{\\sin 2x + 2 \\cos^{2} x} + 3^{1 - \\sin 2x + 2 \\sin^{2} x} = 28$ is:",
     "question_images": [],
@@ -58,7 +58,7 @@
   },
   {
     "id": 4,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The least difference between the roots, in the first quadrant (0 ≤ x ≤ π/2) of the equation 4 cos x(2 - 3 sin^2 x) + (cos 2x + 1) = 0, is:",
     "question_latex": "The least difference between the roots, in the first quadrant $(0 \\le x \\le \\frac{\\pi}{2})$ of the equation $4 \\cos x(2 - 3 \\sin^{2} x) + (\\cos 2x + 1) = 0$, is:",
     "question_images": [],
@@ -77,7 +77,7 @@
   },
   {
     "id": 5,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The sides of an equilateral triangle, a square and a regular hexagon circumscribed in a circle are in",
     "question_latex": "The sides of an equilateral triangle, a square and a regular hexagon circumscribed in a circle are in",
     "question_images": [],
@@ -96,7 +96,7 @@
   },
   {
     "id": 6,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If A + B = 45°, then (cot A - 1)(cot B - 1) is equal to",
     "question_latex": "If $A + B = 45^{\\circ}$, then $(\\cot A - 1)(\\cot B - 1)$ is equal to",
     "question_images": [],
@@ -115,7 +115,7 @@
   },
   {
     "id": 7,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The quadratic equation whose roots are sec^2 θ and cosec^2 θ can be",
     "question_latex": "The quadratic equation whose roots are $\\sec^{2} \\theta$ and $\\csc^{2} \\theta$ can be",
     "question_images": [],
@@ -134,7 +134,7 @@
   },
   {
     "id": 8,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "From the identity sin 3x = 3 sin x - 4 sin^3 x it follows that if x is real and |x| < 1, then",
     "question_latex": "From the identity $\\sin 3x = 3 \\sin x - 4 \\sin^{3} x$ it follows that if $x$ is real and $|x| < 1$, then",
     "question_images": [],
@@ -153,7 +153,7 @@
   },
   {
     "id": 9,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cos(θ + φ) = m cos(θ - φ), then tan θ is equal to",
     "question_latex": "If $\\cos(\\theta + \\phi) = m \\cos(\\theta - \\phi)$, then $\\tan \\theta$ is equal to",
     "question_images": [],
@@ -172,7 +172,7 @@
   },
   {
     "id": 10,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The most general solutions of the equation sec x - 1 = (√2 - 1) tan x are given by",
     "question_latex": "The most general solutions of the equation $\\sec x - 1 = (\\sqrt{2} - 1) \\tan x$ are given by",
     "question_images": [],
@@ -191,7 +191,7 @@
   },
   {
     "id": 11,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If A + C = 2B, then (cos C - cos A) / (sin A - sin C) =",
     "question_latex": "If $A + C = 2B$, then $\\frac{\\cos C - \\cos A}{\\sin A - \\sin C} =$",
     "question_images": [],
@@ -210,7 +210,7 @@
   },
   {
     "id": 12,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Let ABC be a triangle such that ∠A = 45°, ∠B = 75° then a + c√2 is equal to",
     "question_latex": "Let $ABC$ be a triangle such that $\\angle A = 45^{\\circ}$, $\\angle B = 75^{\\circ}$ then $a + c\\sqrt{2}$ is equal to",
     "question_images": [],
@@ -229,7 +229,7 @@
   },
   {
     "id": 13,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos(π/15) cos(2π/15) cos(3π/15) cos(4π/15) cos(5π/15) cos(6π/15) cos(7π/15) is",
     "question_latex": "The value of $\\cos\\frac{\\pi}{15} \\cos\\frac{2\\pi}{15} \\cos\\frac{3\\pi}{15} \\cos\\frac{4\\pi}{15} \\cos\\frac{5\\pi}{15} \\cos\\frac{6\\pi}{15} \\cos\\frac{7\\pi}{15}$ is",
     "question_images": [],
@@ -248,7 +248,7 @@
   },
   {
     "id": 14,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The general solution of the equation (√3 - 1) sin θ + (√3 + 1) cos θ = 2 is",
     "question_latex": "The general solution of the equation $(\\sqrt{3} - 1) \\sin \\theta + (\\sqrt{3} + 1) \\cos \\theta = 2$ is",
     "question_images": [],
@@ -267,7 +267,7 @@
   },
   {
     "id": 15,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If θ = 2 sin x / (1 + sin x + cos x) then (1 + sin x - cos x) / (1 + sin x) is",
     "question_latex": "If $\\theta = \\frac{2 \\sin x}{1 + \\sin x + \\cos x}$ then $\\frac{1 + \\sin x - \\cos x}{1 + \\sin x}$ is",
     "question_images": [],
@@ -286,7 +286,7 @@
   },
   {
     "id": 16,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of sin^-1(12/13) - sin^-1(3/5) is equal to",
     "question_latex": "The value of $\\sin^{-1}(\\frac{12}{13}) - \\sin^{-1}(\\frac{3}{5})$ is equal to",
     "question_images": [],
@@ -305,7 +305,7 @@
   },
   {
     "id": 17,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cos(θ - α) = a, cos(θ - β) = b, then sin^2(α - β) + 2ab cos(α - β) is equal to",
     "question_latex": "If $\\cos(\\theta - \\alpha) = a, \\cos(\\theta - \\beta) = b$, then $\\sin^{2}(\\alpha - \\beta) + 2ab \\cos(\\alpha - \\beta)$ is equal to",
     "question_images": [],
@@ -324,7 +324,7 @@
   },
   {
     "id": 18,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If α + β + γ = 2π, then",
     "question_latex": "If $\\alpha + \\beta + \\gamma = 2\\pi$, then",
     "question_images": [],
@@ -343,7 +343,7 @@
   },
   {
     "id": 19,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of sin 10° + sin 20° + sin 30° + ... + sin 360° is",
     "question_latex": "The value of $\\sin 10^{\\circ} + \\sin 20^{\\circ} + \\sin 30^{\\circ} + \\dots + \\sin 360^{\\circ}$ is",
     "question_images": [],
@@ -362,7 +362,7 @@
   },
   {
     "id": 20,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "cos 1° + cos 2° + cos 3° + ... + cos 180° =",
     "question_latex": "$\\cos 1^{\\circ} + \\cos 2^{\\circ} + \\cos 3^{\\circ} + \\dots + \\cos 180^{\\circ} =$",
     "question_images": [],
@@ -381,7 +381,7 @@
   },
   {
     "id": 21,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The equation sin x + sin y + sin z = -3 for 0 ≤ x ≤ 2π, 0 ≤ y ≤ 2π, 0 ≤ z ≤ 2π has",
     "question_latex": "The equation $\\sin x + \\sin y + \\sin z = -3$ for $0 \\le x \\le 2\\pi, 0 \\le y \\le 2\\pi, 0 \\le z \\le 2\\pi$ has",
     "question_images": [],
@@ -400,7 +400,7 @@
   },
   {
     "id": 22,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The general solution of sin x - 3 sin 2x + sin 3x = cos x - 3 cos 2x + cos 3x is",
     "question_latex": "The general solution of $\\sin x - 3 \\sin 2x + \\sin 3x = \\cos x - 3 \\cos 2x + \\cos 3x$ is",
     "question_images": [],
@@ -419,7 +419,7 @@
   },
   {
     "id": 23,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "All the pairs (x, y) that satisfy the inequality 2^{sqrt(sin^2 x - 2 sin x + 5)} ⋅ 4^{-sin^2 y} ≤ 1 also satisfy the equation",
     "question_latex": "All the pairs $(x, y)$ that satisfy the inequality $2^{\\sqrt{\\sin^{2}x - 2 \\sin x + 5}} \\cdot 4^{-\\sin^{2} y} \\le 1$ also satisfy the equation",
     "question_images": [],
@@ -438,7 +438,7 @@
   },
   {
     "id": 24,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If in a triangle ABC, (a^2 - b^2) / (a^2 + b^2) = sin(A - B) / sin(A + B), then the triangle is",
     "question_latex": "If in a triangle $ABC$, $\\frac{a^{2}-b^{2}}{a^{2}+b^{2}} = \\frac{\\sin(A-B)}{\\sin(A+B)}$, then the triangle is",
     "question_images": [],
@@ -457,7 +457,7 @@
   },
   {
     "id": 25,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If A + B + C = 3π/2, then cos 2A + cos 2B + cos 2C =",
     "question_latex": "If $A + B + C = \\frac{3\\pi}{2}$, then $\\cos 2A + \\cos 2B + \\cos 2C =$",
     "question_images": [],
@@ -476,7 +476,7 @@
   },
   {
     "id": 26,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The most general solution of √3 cos θ + sin θ = √2 is",
     "question_latex": "The most general solution of $\\sqrt{3}\\cos\\theta + \\sin\\theta = \\sqrt{2}$ is",
     "question_images": [],
@@ -495,7 +495,7 @@
   },
   {
     "id": 27,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The general solution of the equation 7 cos^2 θ + 3 sin^2 θ = 4 is:",
     "question_latex": "The general solution of the equation $7 \\cos^{2}\\theta + 3 \\sin^{2}\\theta = 4$ is:",
     "question_images": [],
@@ -514,7 +514,7 @@
   },
   {
     "id": 28,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "In a Δ ABC if a = 5, b = 4 and tan(C/2) = √7/3 then c =",
     "question_latex": "In a $\\Delta ABC$ if $a = 5, b = 4$ and $\\tan\\frac{C}{2} = \\frac{\\sqrt{7}}{3}$ then $c =$",
     "question_images": [],
@@ -533,7 +533,7 @@
   },
   {
     "id": 29,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The sides of a triangle are in A.P. and its area is 3/5 times the area of an equilateral triangle of the same perimeter. Then, the ratio of the sides is",
     "question_latex": "The sides of a triangle are in A.P. and its area is $3/5$ times the area of an equilateral triangle of the same perimeter. Then, the ratio of the sides is",
     "question_images": [],
@@ -552,7 +552,7 @@
   },
   {
     "id": 30,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of tan θ tan(θ + 60°) + tan θ tan(θ - 60°) + tan(θ + 60°) tan(θ - 60°) + 3 is:",
     "question_latex": "The value of $\\tan\\theta \\tan(\\theta + 60^{\\circ}) + \\tan\\theta \\tan(\\theta - 60^{\\circ}) + \\tan(\\theta + 60^{\\circ}) \\tan(\\theta - 60^{\\circ}) + 3$ is:",
     "question_images": [],
@@ -571,7 +571,7 @@
   },
   {
     "id": 31,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The number of values of x in the interval [0, 3π] satisfying the equation 2 sin^2 x + 5 sin x - 3 = 0 is",
     "question_latex": "The number of values of $x$ in the interval $[0, 3\\pi]$ satisfying the equation $2 \\sin^{2} x + 5 \\sin x - 3 = 0$ is",
     "question_images": [
@@ -592,7 +592,7 @@
   },
   {
     "id": 32,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cosec θ = x + 1/(4x), then the value of cosec θ + cot θ is:",
     "question_latex": "If $\\csc\\theta = x + \\frac{1}{4x}$, then the value of $\\csc\\theta + \\cot\\theta$ is:",
     "question_images": [],
@@ -611,7 +611,7 @@
   },
   {
     "id": 33,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If 10 sin^4 θ + 15 cos^4 θ = 6, then the value of 27 cosec^6 θ + 8 sec^6 θ is:",
     "question_latex": "If $10 \\sin^{4}\\theta + 15 \\cos^{4}\\theta = 6$, then the value of $27 \\csc^{6}\\theta + 8 \\sec^{6}\\theta$ is:",
     "question_images": [],
@@ -630,7 +630,7 @@
   },
   {
     "id": 34,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cos(A - B) = 3/5 and tan A tan B = 2, then",
     "question_latex": "If $\\cos(A - B) = 3/5$ and $\\tan A \\tan B = 2$, then",
     "question_images": [],
@@ -649,7 +649,7 @@
   },
   {
     "id": 35,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If tan(θ/2) = √[(1-e)/(1+e)] tan(φ/2), then cos φ =",
     "question_latex": "If $\\tan\\frac{\\theta}{2} = \\sqrt{\\frac{1-e}{1+e}} \\tan\\frac{\\phi}{2}$, then $\\cos\\phi =$",
     "question_images": [],
@@ -668,7 +668,7 @@
   },
   {
     "id": 36,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "{x ∈ R : cos 2x + 2 cos^2 x = 2} is equal to",
     "question_latex": "$\\{x \\in R : \\cos 2x + 2 \\cos^{2} x = 2\\}$ is equal to",
     "question_images": [],
@@ -687,7 +687,7 @@
   },
   {
     "id": 37,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If 3 cos x ≠ 2 sin x, then the general solution of sin^2 x - cos 2x = 2 - sin 2x is",
     "question_latex": "If $3 \\cos x \\ne 2 \\sin x$, then the general solution of $\\sin^{2} x - \\cos 2x = 2 - \\sin 2x$ is",
     "question_images": [],
@@ -706,7 +706,7 @@
   },
   {
     "id": 38,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If y = cos^2 x + sec^2 x, then",
     "question_latex": "If $y = \\cos^2 x + \\sec^2 x$, then",
     "question_images": [],
@@ -725,7 +725,7 @@
   },
   {
     "id": 39,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If y + cos θ = sin θ has a real solution, then",
     "question_latex": "If $y + \\cos\\theta = \\sin\\theta$ has a real solution, then",
     "question_images": [],
@@ -744,10 +744,12 @@
   },
   {
     "id": 40,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If the median of ΔABC through A is perpendicular to AB, then",
     "question_latex": "If the median of $\\triangle ABC$ through $A$ is perpendicular to $AB$, then",
-    "question_images": ["q40_1"],
+    "question_images": [
+      "q40_1"
+    ],
     "options": [
       "A. $\\tan A + \\tan B = 0$",
       "B. $2\\tan A + \\tan B = 0$",
@@ -757,13 +759,15 @@
     "option_images": [],
     "answer": "C. $\\tan A + 2\\tan B = 0$",
     "solution": "Let $BD = DC$ and $\\angle DAB = 90^\\circ$. Draw $CN \\perp BA$. Then $DA = \\frac{1}{2}CN$ and $AB = AN$.\nLet $\\angle CAN = \\alpha$. Then $\\tan A = -\\tan\\alpha$.\nAlso, $\\tan B = \\frac{CN}{AB} = 2\\tan\\alpha$.\nHence, $\\tan A + 2\\tan B = 0$.",
-    "solution_images": ["q40_solution_1"],
+    "solution_images": [
+      "q40_solution_1"
+    ],
     "difficulty": "",
     "marks": 4
   },
   {
     "id": 41,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If cos θ = 1/2 (x + 1/x), then 1/2 (x^2 + 1/x^2) is equal to",
     "question_latex": "If $\\cos\\theta = \\frac{1}{2}\\left(x + \\frac{1}{x}\\right)$, then $\\frac{1}{2}\\left(x^2 + \\frac{1}{x^2}\\right)$ is equal to",
     "question_images": [],
@@ -782,7 +786,7 @@
   },
   {
     "id": 42,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "In ΔABC, if sin 2A = sin 2B + sin 2C, then",
     "question_latex": "In $\\triangle ABC$, if $\\sin 2A = \\sin 2B + \\sin 2C$, then",
     "question_images": [],
@@ -801,7 +805,7 @@
   },
   {
     "id": 43,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos^2(π/4 + θ) − sin^2(π/4 − θ) is",
     "question_latex": "The value of $\\cos^2\\left(\\frac{\\pi}{4}+\\theta\\right) - \\sin^2\\left(\\frac{\\pi}{4}-\\theta\\right)$ is",
     "question_images": [],
@@ -820,7 +824,7 @@
   },
   {
     "id": 44,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "The sides of a triangle are 13, 14, 15 then the radius of its in-circle is",
     "question_latex": "The sides of a triangle are $13,14,15$. The radius of its incircle is",
     "question_images": [],
@@ -839,7 +843,7 @@
   },
   {
     "id": 45,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If tan(θ/2) = 5/2 and tan(φ/2) = 3/4, the value of cos(θ + φ) is",
     "question_latex": "If $\\tan\\frac{\\theta}{2}=\\frac{5}{2}$ and $\\tan\\frac{\\phi}{2}=\\frac{3}{4}$, then $\\cos(\\theta+\\phi)$ is",
     "question_images": [],
@@ -858,7 +862,7 @@
   },
   {
     "id": 46,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos(2π/7) + cos(4π/7) + cos(6π/7) is",
     "question_latex": "The value of $\\cos\\frac{2\\pi}{7}+\\cos\\frac{4\\pi}{7}+\\cos\\frac{6\\pi}{7}$ is",
     "question_images": [],
@@ -877,7 +881,7 @@
   },
   {
     "id": 47,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "The value of (sin 85° − sin 35°) / cos 65° is",
     "question_latex": "The value of $\\frac{\\sin85^\\circ-\\sin35^\\circ}{\\cos65^\\circ}$ is",
     "question_images": [],
@@ -896,7 +900,7 @@
   },
   {
     "id": 48,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If A + B + C = π, then sin 2A + sin 2B + sin 2C is equal to",
     "question_latex": "If $A+B+C=\\pi$, then $\\sin2A+\\sin2B+\\sin2C$ is equal to",
     "question_images": [],
@@ -915,7 +919,7 @@
   },
   {
     "id": 49,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "ABC is a triangle such that sin(2A+B) = sin(C−A) = −sin(B+2C) = 1/2. If A, B, C are in A.P., then",
     "question_latex": "In $\\triangle ABC$, $\\sin(2A+B)=\\sin(C-A)=-\\sin(B+2C)=\\frac12$. If $A,B,C$ are in A.P., then",
     "question_images": [],
@@ -934,7 +938,7 @@
   },
   {
     "id": 50,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If tan(cot x) = cot(tan x), then",
     "question_latex": "If $\\tan(\\cot x)=\\cot(\\tan x)$, then",
     "question_images": [],
@@ -953,7 +957,7 @@
   },
   {
     "id": 51,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Solution of the equation cos²(1/2 px) + cos²(1/2 qx) = 1 form an arithmetic progression with common difference",
     "question_latex": "Solution of the equation $\\cos^{2}(\\frac{1}{2}px)+\\cos^{2}(\\frac{1}{2}qx)=1$ form an arithmetic progression with common difference",
     "question_images": [],
@@ -972,7 +976,7 @@
   },
   {
     "id": 52,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cosec²(π/7) + cosec²(2π/7) + cosec²(3π/7) is:",
     "question_latex": "The value of $\\text{cosec}^{2}\\frac{\\pi}{7}+\\text{cosec}^{2}\\frac{2\\pi}{7}+\\text{cosec}^{2}\\frac{3\\pi}{7}$ is:",
     "question_images": [],
@@ -991,7 +995,7 @@
   },
   {
     "id": 53,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The number of distinct values of satisfying 0 ≤ θ ≤ π and satisfying the equation sin θ + sin 5θ = sin 3θ, is:",
     "question_latex": "The number of distinct values of satisfying $0\\le\\theta\\le\\pi$ and satisfying the equation $\\sin\\theta+\\sin 5\\theta=\\sin 3\\theta$, is:",
     "question_images": [],
@@ -1010,7 +1014,7 @@
   },
   {
     "id": 54,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Which of the following is correct?",
     "question_latex": "Which of the following is correct?",
     "question_images": [],
@@ -1029,7 +1033,7 @@
   },
   {
     "id": 55,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The maximum value of 1 + 8 sin²x² cos²x² is",
     "question_latex": "The maximum value of $1+8 \\sin^{2}x^{2}\\cos^{2}x^{2}$, is",
     "question_images": [],
@@ -1048,7 +1052,7 @@
   },
   {
     "id": 56,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of the expression 1 - sin²y/(1 + cos y) + (1 + cos y)/sin y - sin y/(1 - cos y) is equal to",
     "question_latex": "The value of the expression $1-\\frac{\\sin^{2}y}{1+\\cos y}+\\frac{1+\\cos y}{\\sin y}-\\frac{\\sin y}{1-\\cos y}$ is equal to",
     "question_images": [],
@@ -1067,7 +1071,7 @@
   },
   {
     "id": 57,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cos θ = 8/17 and θ lies in the first quadrant, then the value of cos(30° + θ) + cos(45° - θ) + cos(120° - θ), is",
     "question_latex": "If $\\cos\\theta=\\frac{8}{17}$ and $\\theta$ lies in the first quadrant, then the value of $\\cos(30^{\\circ}+\\theta)+\\cos(45^{\\circ}-\\theta)+\\cos(120^{\\circ}-\\theta)$, is",
     "question_images": [],
@@ -1086,7 +1090,7 @@
   },
   {
     "id": 58,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The sides of a triangle are 13, 14, 15 then the radius of its in-circle is",
     "question_latex": "The sides of a triangle are 13, 14, 15 then the radius of its in-circle is",
     "question_images": [],
@@ -1105,7 +1109,7 @@
   },
   {
     "id": 59,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of tan θ tan(θ + 60°) + tan θ tan(θ - 60°) + tan(θ + 60°) tan(θ - 60°) + 3 is:",
     "question_latex": "The value of $\\tan\\theta\\tan(\\theta+60^{\\circ})+\\tan\\theta\\tan(\\theta-60^{\\circ})+\\tan(\\theta+60^{\\circ})\\tan(\\theta-60^{\\circ})+3$ is:",
     "question_images": [],
@@ -1124,7 +1128,7 @@
   },
   {
     "id": 60,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The number of values of x in the interval [0, 5π] satisfying the equation 3 sin²x - 7 sin x + 2 = 0 is",
     "question_latex": "The number of values of $x$ in the interval $[0, 5\\pi]$ satisfying the equation $3\\sin^{2}x-7\\sin x+2=0$ is",
     "question_images": [],
@@ -1143,7 +1147,7 @@
   },
   {
     "id": 61,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Solution of the equation tan 3θ + tan θ = 2 tan 2θ; is:",
     "question_latex": "Solution of the equation $\\tan 3\\theta+\\tan\\theta=2\\tan 2\\theta;$ is:",
     "question_images": [],
@@ -1162,7 +1166,7 @@
   },
   {
     "id": 62,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Let n be a positive integer such that: sin(π/2n) + cos(π/2n) = √n/2, then:",
     "question_latex": "Let $n$ be a positive integer such that: $\\sin\\frac{\\pi}{2n}+\\cos\\frac{\\pi}{2n}=\\frac{\\sqrt{n}}{2}$, then:",
     "question_images": [],
@@ -1181,7 +1185,7 @@
   },
   {
     "id": 63,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If tan²θ = 2 tan²φ + 1, then cos 2θ + sin²φ equals",
     "question_latex": "If $\\tan^{2}\\theta=2\\tan^{2}\\phi+1$, then $\\cos 2\\theta+\\sin^{2}\\phi$ equals",
     "question_images": [],
@@ -1200,7 +1204,7 @@
   },
   {
     "id": 64,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "For m ≠ n, if tan mθ = tan nθ the different values of θ are in",
     "question_latex": "For $m\\ne n,$ if $\\tan m\\theta=\\tan n\\theta$ the different values of $\\theta$ are in",
     "question_images": [],
@@ -1219,7 +1223,7 @@
   },
   {
     "id": 65,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The equation sin⁴x - 2 cos²x + a² = 0 is solvable for",
     "question_latex": "The equation $\\sin^{4}x-2\\cos^{2}x+a^{2}=0$ is solvable for",
     "question_images": [],
@@ -1238,7 +1242,7 @@
   },
   {
     "id": 66,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of the series cos 12° + cos 84° + cos 132° + cos 156° is",
     "question_latex": "The value of the series $\\cos 12^{\\circ}+\\cos 84^{\\circ}+\\cos 132^{\\circ}+\\cos 156^{\\circ}$ is",
     "question_images": [],
@@ -1257,7 +1261,7 @@
   },
   {
     "id": 67,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If cos A / cos B = n and sin A / sin B = m, then (m² - n²) sin² B =",
     "question_latex": "If $\\frac{\\cos A}{\\cos B}=n$ and $\\frac{\\sin A}{\\sin B}=m$, then $(m^{2}-n^{2})\\sin^{2}B=$",
     "question_images": [],
@@ -1276,7 +1280,7 @@
   },
   {
     "id": 68,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of tan⁻¹([cos(25π/4) - 1] / sin(π/4)) is equal to:",
     "question_latex": "The value of $\\tan^{-1}(\\frac{\\cos(\\frac{25\\pi}{4})-1}{\\sin(\\frac{\\pi}{4})})$ is equal to:",
     "question_images": [],
@@ -1295,7 +1299,7 @@
   },
   {
     "id": 69,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If sin A = 1/√10 and sin B = 1/√5 where A and B are positive acute angles, then A + B is equal to",
     "question_latex": "If $\\sin A = \\frac{1}{\\sqrt{10}}$ and $\\sin B=\\frac{1}{\\sqrt{5}}$ where $A$ and $B$ are positive acute angles, then $A+B$ is equal to",
     "question_images": [],
@@ -1314,7 +1318,7 @@
   },
   {
     "id": 70,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos(π/15) cos(2π/15) cos(4π/15) cos(8π/15) is",
     "question_latex": "The value of $\\cos\\frac{\\pi}{15}\\cos\\frac{2\\pi}{15}\\cos\\frac{4\\pi}{15}\\cos\\frac{8\\pi}{15}$ is",
     "question_images": [],
@@ -1333,7 +1337,7 @@
   },
   {
     "id": 71,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If sin θ + cos θ = x, then sin⁶θ + cos⁶θ = 1/4 [4 - 3(x² - 1)²] for",
     "question_latex": "If $\\sin\\theta+\\cos\\theta=x,$ then $\\sin^{6}\\theta+\\cos^{6}\\theta=\\frac{1}{4}[4-3(x^{2}-1)^{2}]$ for",
     "question_images": [],
@@ -1352,7 +1356,7 @@
   },
   {
     "id": 72,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of 1 + cos 56° + cos 58° - cos 66° is",
     "question_latex": "The value of $1+\\cos 56^{\\circ}+\\cos 58^{\\circ}-\\cos 66^{\\circ}$ is",
     "question_images": [],
@@ -1371,7 +1375,7 @@
   },
   {
     "id": 73,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If in a ΔABC, cos A + 2 cos B + cos C = 2 then a, b, c are in",
     "question_latex": "If in a $\\triangle ABC$ $\\cos A+2\\cos B+\\cos C=2$ then $a, b, c$ are in",
     "question_images": [],
@@ -1390,7 +1394,7 @@
   },
   {
     "id": 74,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos(π/15) cos(2π/15) cos(3π/15) cos(4π/15) cos(5π/15) cos(6π/15) cos(7π/15) is",
     "question_latex": "The value of $\\cos\\frac{\\pi}{15}\\cos\\frac{2\\pi}{15}\\cos\\frac{3\\pi}{15}\\cos\\frac{4\\pi}{15}\\cos\\frac{5\\pi}{15}\\cos\\frac{6\\pi}{15}\\cos\\frac{7\\pi}{15}$ is",
     "question_images": [],
@@ -1409,7 +1413,7 @@
   },
   {
     "id": 75,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If A + B + C = 180° then cot B cot C + cot C cot A + cot A cot B =",
     "question_latex": "If $A+B+C=180^{\\circ}$ then $\\cot B \\cot C + \\cot C \\cot A + \\cot A \\cot B =$",
     "question_images": [],
@@ -1428,7 +1432,7 @@
   },
   {
     "id": 76,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of 3[sin⁴(3π/2 - α) + sin⁴(3π + α)] - 2[sin⁶(π/2 + α) + sin⁶(5π - α)] is equal to",
     "question_latex": "The value of $3[\\sin^{4}(\\frac{3\\pi}{2}-\\alpha)+\\sin^{4}(3\\pi+\\alpha)]-2[\\sin^{6}(\\frac{\\pi}{2}+\\alpha)+\\sin^{6}(5\\pi-\\alpha)]$ is equal to",
     "question_images": [],
@@ -1447,7 +1451,7 @@
   },
   {
     "id": 77,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The general solution of the equation tan 2θ . tan θ = 1 for n ∈ Z is",
     "question_latex": "The general solution of the equation $\\tan 2\\theta \\cdot \\tan \\theta=1$ for $n\\in Z$ is",
     "question_images": [],
@@ -1466,7 +1470,7 @@
   },
   {
     "id": 78,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If sin⁴x + cos⁴y + 2 = 4 sin x cos y and 0 ≤ x, y ≤ π/2 then sin x + cos y is equal to",
     "question_latex": "If $\\sin^{4}x+\\cos^{4}y+2=4\\sin x\\cos y$ and $0\\le x, y\\le\\frac{\\pi}{2}$ then $\\sin x+\\cos y$ is equal to",
     "question_images": [],
@@ -1485,7 +1489,7 @@
   },
   {
     "id": 79,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The number of solutions of the equation tan x + sec x = 2 cos x lying in the interval [0, 2π] is",
     "question_latex": "The number of solutions of the equation $\\tan x+\\sec x=2\\cos x$ lying in the interval $[0,2\\pi]$ is",
     "question_images": [],
@@ -1504,7 +1508,7 @@
   },
   {
     "id": 80,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "The value of cos⁴(π/8) + cos⁴(3π/8) + cos⁴(5π/8) + cos⁴(7π/8) is",
     "question_latex": "The value of $\\cos^{4}\\frac{\\pi}{8}+\\cos^{4}\\frac{3\\pi}{8}+\\cos^{4}\\frac{5\\pi}{8}+\\cos^{4}\\frac{7\\pi}{8}$ is",
     "question_images": [],
@@ -1523,7 +1527,7 @@
   },
   {
     "id": 81,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If P is the product of the sines of angles of a triangle, and q the product of their cosines, then tangents of the angles are roots of the equation",
     "question_latex": "If $P$ is the product of the sines of angles of a triangle, and $q$ the product of their cosines, then tangents of the angles are roots of the equation",
     "question_images": [],
@@ -1542,7 +1546,7 @@
   },
   {
     "id": 82,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If b sin β = a sin(2α + β) then cot(α + β) / cot α =",
     "question_latex": "If $b\\sin\\beta=a\\sin(2\\alpha+\\beta)$ then $\\frac{\\cot(\\alpha+\\beta)}{\\cot\\alpha}=$",
     "question_images": [],
@@ -1561,7 +1565,7 @@
   },
   {
     "id": 83,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "Solution of the equation tan θ + tan(θ + π/3) + tan(θ + 2π/3) = 3 is:",
     "question_latex": "Solution of the equation $\\tan\\theta+\\tan(\\theta+\\frac{\\pi}{3})+\\tan(\\theta+\\frac{2\\pi}{3})=3$ is:",
     "question_images": [],
@@ -1580,7 +1584,7 @@
   },
   {
     "id": 84,
-    "chapter": "Trigonometry",
+    "chapter": "Trigonometric Functions",
     "question": "If the angles of a triangle are in the ratio 1:2:3 the corresponding sides are in the ratio",
     "question_latex": "If the angles of a triangle are in the ratio $1:2:3$ the corresponding sides are in the ratio",
     "question_images": [],
@@ -1599,7 +1603,7 @@
   },
   {
     "id": 85,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "Let f(θ) = sin θ (sin θ + sin 3θ). Then f(θ):",
     "question_latex": "Let \\ f(\\theta)=\\sin\\theta(\\sin\\theta+\\sin3\\theta). \\text{ Then } f(\\theta):",
     "question_images": [],
@@ -1618,7 +1622,7 @@
   },
   {
     "id": 86,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "Let α, β be such that π < α − β < 3π. If sin α + sin β = −21/65 and cos α + cos β = −27/65, then the value of cos((α − β)/2) is",
     "question_latex": "Let \\ \\alpha,\\beta \\text{ be such that } \\pi<\\alpha-\\beta<3\\pi. \\\\\n\\text{If } \\sin\\alpha+\\sin\\beta=-\\frac{21}{65} \\text{ and } \\cos\\alpha+\\cos\\beta=-\\frac{27}{65}, \\\\\n\\text{ then find } \\cos\\frac{\\alpha-\\beta}{2}.",
     "question_images": [],
@@ -1637,10 +1641,12 @@
   },
   {
     "id": 87,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If A₁A₂A₃A₄A₅ be a regular pentagon inscribed in a unit circle, then (A₁A₂)(A₁A₃) is equal to",
     "question_latex": "If \\ A_1A_2A_3A_4A_5 \\text{ is a regular pentagon inscribed in a unit circle, then } (A_1A_2)(A_1A_3) \\text{ is equal to}",
-    "question_images": ["q37_1"],
+    "question_images": [
+      "q37_1"
+    ],
     "options": [
       "A. 1",
       "B. 3",
@@ -1650,13 +1656,15 @@
     "option_images": [],
     "answer": "D. √5",
     "solution": "Let $O$ be the centre of the pentagon.\nEach central angle $=\\frac{360^\\circ}{5}=72^\\circ$.\n\nIn $\\triangle A_1OA_2$:\n$A_1A_2^2=1^2+1^2-2\\cos72^\\circ$\n\nIn $\\triangle A_1OA_3$:\n$A_1A_3^2=1^2+1^2-2\\cos144^\\circ$\n\n$(A_1A_2)(A_1A_3)=\\sqrt{2-2\\cos72^\\circ}\\sqrt{2-2\\cos144^\\circ}$\n$=2\\sqrt{(1-\\cos72^\\circ)(1-\\cos144^\\circ)}$\n$=\\sqrt{5}$.",
-    "solution_images": ["q37_solution_1"],
+    "solution_images": [
+      "q37_solution_1"
+    ],
     "difficulty": "",
     "marks": 4
   },
   {
     "id": 88,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If |k| = 5 and 0° ≤ θ ≤ 360°, then the number of different solutions of 3 cos θ + 4 sin θ = k is",
     "question_latex": "If \\ |k|=5 \\text{ and } 0^\\circ \\le \\theta \\le 360^\\circ, \\text{ then the number of different solutions of } 3\\cos\\theta+4\\sin\\theta=k \\text{ is}",
     "question_images": [],
@@ -1675,7 +1683,7 @@
   },
   {
     "id": 89,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If cos x + cos² x = 1, then the value of sin¹² x + 3 sin¹⁰ x + 3 sin⁸ x + sin⁶ x − 1 is equal to",
     "question_latex": "If \\ \\cos x+\\cos^2 x=1, \\text{ then find the value of } \\\\\n\\sin^{12}x+3\\sin^{10}x+3\\sin^8x+\\sin^6x-1.",
     "question_images": [],
@@ -1694,7 +1702,7 @@
   },
   {
     "id": 90,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If sec α and cosec α are the roots of the equation x² − ax + b = 0, then",
     "question_latex": "If \\ \\sec\\alpha \\text{ and } \\cosec\\alpha \\text{ are the roots of the equation } x^2-ax+b=0, \\text{ then}",
     "question_images": [],
@@ -1713,7 +1721,7 @@
   },
   {
     "id": 91,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "In triangles ABC and DEF, AB = DE, AC = EF and ∠A = 2∠E. Two triangles will have the same area if angle A is equal to",
     "question_latex": "In \\triangle ABC \\text{ and } \\triangle DEF, \\ AB=DE,\\ AC=EF \\text{ and } \\angle A=2\\angle E. \\\\\n\\text{Two triangles will have the same area if } \\angle A \\text{ is equal to}",
     "question_images": [],
@@ -1732,7 +1740,7 @@
   },
   {
     "id": 92,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If α is an acute angle and sin(α/2) = √((x − 1)/(2x)), then tan α is",
     "question_latex": "If \\ \\alpha \\text{ is an acute angle and } \\sin\\frac{\\alpha}{2}=\\sqrt{\\frac{x-1}{2x}}, \\text{ then } \\tan\\alpha \\text{ is}",
     "question_images": [],
@@ -1751,7 +1759,7 @@
   },
   {
     "id": 93,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If AD, BE and CF are the medians of a ΔABC, then (AD² + BE² + CF²) : (BC² + CA² + AB²) is equal to",
     "question_latex": "If \\ AD, BE \\text{ and } CF \\text{ are the medians of } \\triangle ABC, \\\\\n\\text{ then } (AD^2+BE^2+CF^2):(BC^2+CA^2+AB^2) \\text{ is}",
     "question_images": [],
@@ -1770,7 +1778,7 @@
   },
   {
     "id": 94,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If x + y + z = xyz, then \\( \\frac{2x}{1-x^2} + \\frac{2y}{1-y^2} + \\frac{2z}{1-z^2} = \\frac{kxyz}{(1-x^2)(1-y^2)(1-z^2)} \\), where k =",
     "question_latex": "If \\ x+y+z=xyz, \\text{ then } \\frac{2x}{1-x^2}+\\frac{2y}{1-y^2}+\\frac{2z}{1-z^2}=\\frac{kxyz}{(1-x^2)(1-y^2)(1-z^2)}, \\text{ where } k=",
     "question_images": [],
@@ -1789,7 +1797,7 @@
   },
   {
     "id": 95,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "In a ΔABC if a = 2, b = √6, c = √3 + 1, then cos A =",
     "question_latex": "In \\triangle ABC, \\text{ if } a=2,\\ b=\\sqrt6,\\ c=\\sqrt3+1, \\text{ then } \\cos A=",
     "question_images": [],
@@ -1808,7 +1816,7 @@
   },
   {
     "id": 96,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "In a ΔABC if a = 26, b = 30 and cos C = 63/65, then r₂ =",
     "question_latex": "In \\triangle ABC, \\text{ if } a=26,\\ b=30 \\text{ and } \\cos C=\\frac{63}{65}, \\text{ then } r_2=",
     "question_images": [],
@@ -1827,7 +1835,7 @@
   },
   {
     "id": 97,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If sin θ + cosec θ = 2, then sin² θ + cosec² θ is equal to",
     "question_latex": "If \\ \\sin\\theta+\\cosec\\theta=2, \\text{ then } \\sin^2\\theta+\\cosec^2\\theta \\text{ is equal to}",
     "question_images": [],
@@ -1846,7 +1854,7 @@
   },
   {
     "id": 98,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "The common roots of the equations 2 sin² x + sin² 2x = 2 and sin 2x + cos 2x = tan x are",
     "question_latex": "The common roots of the equations \\\\\n2\\sin^2 x+\\sin^2 2x=2 \\text{ and } \\sin2x+\\cos2x=\\tan x \\text{ are}",
     "question_images": [],
@@ -1865,7 +1873,7 @@
   },
   {
     "id": 99,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If sin B = (1/5) sin(2A + B), then tan(A + B)/tan A is equal to",
     "question_latex": "If \\ \\sin B=\\frac{1}{5}\\sin(2A+B), \\text{ then } \\frac{\\tan(A+B)}{\\tan A} \\text{ is equal to}",
     "question_images": [],
@@ -1884,7 +1892,7 @@
   },
   {
     "id": 100,
-    "chapter": "Motion of System of Particles and Rigid Body",
+    "chapter": "Trigonometric Functions",
     "question": "If cos θ = 8/17 and θ lies in the first quadrant, then the value of cos(30° + θ) + cos(45° − θ) + cos(120° − θ) is",
     "question_latex": "If \\ \\cos\\theta=\\frac{8}{17} \\text{ and } \\theta \\text{ lies in the first quadrant, find } \\\\\n\\cos(30^\\circ+\\theta)+\\cos(45^\\circ-\\theta)+\\cos(120^\\circ-\\theta).",
     "question_images": [],
@@ -1901,4 +1909,4 @@
     "difficulty": "",
     "marks": 4
   }
-  ]
+]

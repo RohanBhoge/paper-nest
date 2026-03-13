@@ -1,0 +1,1972 @@
+[
+  {
+    "id": 1,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a reverse biased diode when the applied voltage changes by 1 V, the current is found to change by 0.5 µA. The reverse bias resistance of the diode is",
+    "question_latex": "In a reverse biased diode when the applied voltage changes by $1 V$, the current is found to change by $0.5 \\mu A$. The reverse bias resistance of the diode is",
+    "question_images": [],
+    "options": [
+      "A. $2\\times10^{5}\\Omega$",
+      "B. $2\\times10^{6}\\Omega$",
+      "C. $200\\Omega$",
+      "D. $20\\Omega$"
+    ],
+    "option_images": [],
+    "answer": "B. $2\\times10^{6}\\Omega$",
+    "solution": "Reverse resistance $R = \\frac{\\Delta V}{\\Delta I} = \\frac{1}{0.5 \\times 10^{-6}} = 2 \\times 10^6 \\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Semiconductor Electronics",
+    "question": "Copper has face centered cubic (fcc) lattice with interatomic spacing equal to 2.54 Å. The value of the lattice constant for this lattice is",
+    "question_latex": "Copper has face centered cubic (fcc) lattice with interatomic spacing equal to $2.54 \\mathring{A}$. The value of the lattice constant for this lattice is",
+    "question_images": [],
+    "options": [
+      "A. 1.27 Å",
+      "B. 5.08 Å",
+      "C. 2.54 Å",
+      "D. 3.59 Å"
+    ],
+    "option_images": [],
+    "answer": "D. 3.59 Å",
+    "solution": "For fcc, distance between nearest neighbors (interatomic spacing) $d = \\frac{a}{\\sqrt{2}}$. Given $d = 2.54$. Lattice constant $a = d\\sqrt{2} = 2.54 \\times 1.414 = 3.59 \\mathring{A}$. Note: Solution in source uses $\\sqrt{2}a = 4r$ and $2r = d$, leading to same result.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a half wave rectifier, the r.m.s. value of the a.c. component of the wave is",
+    "question_latex": "In a half wave rectifier, the r.m.s. value of the a.c. component of the wave is",
+    "question_images": [],
+    "options": [
+      "A. equal to d.c. value",
+      "B. more than d.c. value",
+      "C. less than d.c. value",
+      "D. zero"
+    ],
+    "option_images": [],
+    "answer": "B. more than d.c. value",
+    "solution": "The r.m.s. value of a.c. component of wave is more than d.c. value due to barrier voltage of p-n junction used as rectifier.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Semiconductor Electronics",
+    "question": "P-type semiconductors are made by adding impurity element",
+    "question_latex": "P-type semiconductors are made by adding impurity element",
+    "question_images": [],
+    "options": [
+      "A. As",
+      "B. P",
+      "C. B",
+      "D. Bi"
+    ],
+    "option_images": [],
+    "answer": "C. B",
+    "solution": "Boron (B) is a trivalent impurity, which creates holes, making a P-type semiconductor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the given circuit, the breakdown voltage of the Zener diode is 3.0 V. What is the value of Iz? [29 Jan, 2024 (Shift-I)]",
+    "question_latex": "In the given circuit, the breakdown voltage of the Zener diode is $3.0 V$. What is the value of $I_{z}$? [29 Jan, 2024 (Shift-I)]",
+    "question_images": [
+      "5_qu_1.png"
+    ],
+    "options": [
+      "A. 3.3 mA",
+      "B. 5.5 mA",
+      "C. 7 mA",
+      "D. 10 mA"
+    ],
+    "option_images": [],
+    "answer": "B. 5.5 mA",
+    "solution": "Voltage across Zener is constant at 3V. Voltage across $1k\\Omega$ resistor is $10 - 3 = 7V$. Total current $I = 7V / 1k\\Omega = 7 mA$. Current through $2k\\Omega$ resistor is $I_L = 3V / 2k\\Omega = 1.5 mA$. Zener current $I_z = I - I_L = 7 - 1.5 = 5.5 mA$.",
+    "solution_images": [
+      "5_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Semiconductor Electronics",
+    "question": "A diode is connected to 220 V (rms) ac in series with a capacitor as shown in figure. The voltage across the capacitor is",
+    "question_latex": "A diode is connected to $220 V (rms)$ ac in series with a capacitor as shown in figure. The voltage across the capacitor is",
+    "question_images": [
+      "6_qu_1.png"
+    ],
+    "options": [
+      "A. 220 V",
+      "B. 110 V",
+      "C. 311.1 V",
+      "D. $220/\\sqrt{2}$ V"
+    ],
+    "option_images": [],
+    "answer": "D. $220/\\sqrt{2}$ V",
+    "solution": "The diode conducts only during the positive half cycle. The capacitor charges to the peak voltage? No, the solution provided says 'half wave rectified output... $V_{cmax} = V_0/2$'. Actually, usually C charges to peak $V_0 = 220\\sqrt{2}$. However, following the provided solution logic: $V_{cmax} = \\frac{200\\sqrt{2}}{2} = \\frac{200}{\\sqrt{2}}$. The options include $220/\\sqrt{2}$. Let's stick to the provided Answer D.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a PN-junction diode",
+    "question_latex": "In a PN-junction diode",
+    "question_images": [],
+    "options": [
+      "A. The current in the reverse biased condition is generally very small",
+      "B. The current in the reverse biased condition is small but the forward biased current is independent of the bias voltage",
+      "C. The reverse biased current is strongly dependent on the applied bias voltage",
+      "D. The forward biased current is very small in comparison to reverse biased current"
+    ],
+    "option_images": [],
+    "answer": "A. The current in the reverse biased condition is generally very small",
+    "solution": "In reverse bias, the potential barrier increases, leading to a very small leakage current (minority carriers).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Semiconductor Electronics",
+    "question": "A NPN transistor conducts when",
+    "question_latex": "A NPN transistor conducts when",
+    "question_images": [
+      "8_qu_1.png"
+    ],
+    "options": [
+      "A. Both collector and emitter are positive with respect to the base",
+      "B. Collector is positive and emitter is negative with respect to the base",
+      "C. Collector is positive and emitter is at same potential as the base",
+      "D. Both collector and emitter are negative with respect to the base"
+    ],
+    "option_images": [],
+    "answer": "B. Collector is positive and emitter is negative with respect to the base",
+    "solution": "For an NPN transistor to conduct (active region), the base-emitter junction must be forward biased (Base positive relative to Emitter, so Emitter negative relative to Base) and collector-base reverse biased (Collector positive relative to Base).",
+    "solution_images": [
+      "8_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the circuit given below, V(t) is the sinusoidal voltage source, voltage drop VAB(t) across the resistance R is",
+    "question_latex": "In the circuit given below, $V(t)$ is the sinusoidal voltage source, voltage drop $V_{AB}(t)$ across the resistance $R$ is",
+    "question_images": [
+      "9_qu_1.png"
+    ],
+    "options": [
+      "A. Is half wave rectified",
+      "B. Is full wave rectified",
+      "C. Has the same peak value in the positive and negative half cycles",
+      "D. Has different peak values during positive and negative half cycle"
+    ],
+    "option_images": [],
+    "answer": "D. Has different peak values during positive and negative half cycle",
+    "solution": "In positive half cycle, one diode path with $R_1$ conducts. In negative half cycle, the other diode path with $R_2$ conducts. Since $R_1 \\ne R_2$, the effective resistance and thus voltage drop will differ for the two half cycles.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Semiconductor Electronics",
+    "question": "Consider the following statements: A. The junction area of solar cell is made very narrow compared to a photodiode. B. Solar cells are not connected with any external bias. C. LED is made of lightly doped p-n junction. D. Increase of forward current results in continuous increase of LED light intensity. E. LEDs have to be connected in forward bias for emission of light. [Jan. 24, 2025(1)]",
+    "question_latex": "Consider the following statements: A. The junction area of solar cell is made very narrow compared to a photodiode. B. Solar cells are not connected with any external bias. C. LED is made of lightly doped p-n junction. D. Increase of forward current results in continuous increase of LED light intensity. E. LEDs have to be connected in forward bias for emission of light. [Jan. 24, 2025(1)]",
+    "question_images": [],
+    "options": [
+      "A. B, D, E Only",
+      "B. A, C Only",
+      "C. B, E Only",
+      "D. A, C, E Only"
+    ],
+    "option_images": [],
+    "answer": "C. B, E Only",
+    "solution": "Solar cells have large area and no external bias (B is correct). LEDs are heavily doped (C incorrect). LED intensity saturates/damage at high current (D incorrect). LEDs need forward bias (E is correct). Solar cells area is large (A incorrect).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Semiconductor Electronics",
+    "question": "A PN- junction has a thickness of the order of",
+    "question_latex": "A PN- junction has a thickness of the order of",
+    "question_images": [],
+    "options": [
+      "A. 1cm",
+      "B. 1mm",
+      "C. $10^{-6}m$",
+      "D. $10^{-12}$ cm"
+    ],
+    "option_images": [],
+    "answer": "C. $10^{-6}m$",
+    "solution": "The depletion layer thickness is typically of the order of microns ($10^{-6}$ m).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Semiconductor Electronics",
+    "question": "This symbol represents",
+    "question_latex": "This symbol represents",
+    "question_images": [
+      "12_qu_1.png"
+    ],
+    "options": [
+      "A. NOT gate",
+      "B. OR gate",
+      "C. AND gate",
+      "D. NOR gate"
+    ],
+    "option_images": [],
+    "answer": "A. NOT gate",
+    "solution": "The triangle with a circle at the tip represents a NOT gate (Inverter).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Semiconductor Electronics",
+    "question": "A semiconductor device is connected in a series circuit with a battery and a resistance. A current is found to pass through the circuit. If the polarity of the battery is reversed, the current drops to almost zero. The device may be a/an",
+    "question_latex": "A semiconductor device is connected in a series circuit with a battery and a resistance. A current is found to pass through the circuit. If the polarity of the battery is reversed, the current drops to almost zero. The device may be a/an",
+    "question_images": [],
+    "options": [
+      "A. intrinsic semiconductor",
+      "B. p-type semiconductor",
+      "C. n-type semiconductor",
+      "D. p-n junction diode"
+    ],
+    "option_images": [],
+    "answer": "D. p-n junction diode",
+    "solution": "A p-n junction diode allows current in forward bias and blocks it in reverse bias.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Semiconductor Electronics",
+    "question": "Temperature coefficient of resistance of semiconductor is",
+    "question_latex": "Temperature coefficient of resistance of semiconductor is",
+    "question_images": [],
+    "options": [
+      "A. zero",
+      "B. constant",
+      "C. positive",
+      "D. negative"
+    ],
+    "option_images": [],
+    "answer": "D. negative",
+    "solution": "For semiconductors, resistance decreases as temperature increases, so the temperature coefficient is negative.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Semiconductor Electronics",
+    "question": "The current gain of a transistor in common base mode is 0.995. The current gain of the same transistor in common emitter mode is",
+    "question_latex": "The current gain of a transistor in common base mode is $0.995$. The current gain of the same transistor in common emitter mode is",
+    "question_images": [],
+    "options": [
+      "A. 197",
+      "B. 201",
+      "C. 198",
+      "D. 199"
+    ],
+    "option_images": [],
+    "answer": "D. 199",
+    "solution": "Given $\\alpha = 0.995$. $\\beta = \\frac{\\alpha}{1-\\alpha} = \\frac{0.995}{1-0.995} = \\frac{0.995}{0.005} = 199$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Semiconductor Electronics",
+    "question": "A half-wave rectifier is being used to rectify an alternating voltage of frequency 50 Hz. The number of pulses of rectified current obtained in one second is",
+    "question_latex": "A half-wave rectifier is being used to rectify an alternating voltage of frequency $50 Hz$. The number of pulses of rectified current obtained in one second is",
+    "question_images": [],
+    "options": [
+      "A. 50",
+      "B. 25",
+      "C. 100",
+      "D. 2000"
+    ],
+    "option_images": [],
+    "answer": "B. 25",
+    "solution": "In a half-wave rectifier, output pulses occur once per cycle. Frequency is 50 Hz, so 50 pulses per second. Wait, the provided answer key says (B) 25. This contradicts standard theory ($f_{out} = f_{in}$ for half wave). However, solution text says 'In half wave rectifier only half of the wave is rectified'. If the question implies pulses *obtained*, it should be 50. If the source marks 25, it might be an error or referring to something specific. Based on provided solution choice, B is marked.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Semiconductor Electronics",
+    "question": "Which of the diode circuit shows correct biasing used for the measurement of dynamic resistance of P-n junction diode: [04 April, 2024 (Shift-II)]",
+    "question_latex": "Which of the diode circuit shows correct biasing used for the measurement of dynamic resistance of P-n junction diode: [04 April, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. c",
+      "B. a",
+      "C. d",
+      "D. b"
+    ],
+    "option_images": [
+      "17_opA_1.png",
+      "17_opB_1.png",
+      "17_opC_1.png",
+      "17_opD_1.png"
+    ],
+    "answer": "D. b",
+    "solution": "To measure dynamic resistance, the diode is forward biased. Option (b) (referred to as D in answer key logic, possibly image labels are a,b,c,d) shows forward biasing.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Semiconductor Electronics",
+    "question": "The forbidden energy band gap in conductors, semiconductors and insulators are EG1, EG2 and EG3 respectively. The relation among them is",
+    "question_latex": "The forbidden energy band gap in conductors, semiconductors and insulators are $EG_{1}, EG_{2}$ and $EG_{3}$ respectively. The relation among them is",
+    "question_images": [],
+    "options": [
+      "A. $EG_{1}=EG$",
+      "B. $EG_{1} < EG_{2} < EG_{3}$",
+      "C. $EG_{1}>EG_{2}>EG_{1}$",
+      "D. $EG_{1}<EG_{2}>EG$"
+    ],
+    "option_images": [],
+    "answer": "B. $EG_{1} < EG_{2} < EG_{3}$",
+    "solution": "Conductors have approx zero gap ($EG_1 \\approx 0$), Semiconductors have moderate gap ($EG_2$), Insulators have large gap ($EG_3$). So $EG_1 < EG_2 < EG_3$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Semiconductor Electronics",
+    "question": "Which logic gate is represented by the following combination of logic gates?",
+    "question_latex": "Which logic gate is represented by the following combination of logic gates?",
+    "question_images": [
+      "19_qu_1.png"
+    ],
+    "options": [
+      "A. OR",
+      "B. NOR",
+      "C. AND",
+      "D. NAND"
+    ],
+    "option_images": [],
+    "answer": "C. AND",
+    "solution": "$Y = \\overline{\\overline{A} + \\overline{B}} = \\overline{\\overline{A}} \\cdot \\overline{\\overline{B}} = A \\cdot B$. This is an AND gate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Semiconductor Electronics",
+    "question": "The maximum efficiency of full wave rectifier is",
+    "question_latex": "The maximum efficiency of full wave rectifier is",
+    "question_images": [],
+    "options": [
+      "A. 100%",
+      "B. 25.20%",
+      "C. 40.2%",
+      "D. 81.2%"
+    ],
+    "option_images": [],
+    "answer": "D. 81.2%",
+    "solution": "Theoretical maximum efficiency of a full wave rectifier is 81.2%.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a transistor configuration b-parameter is",
+    "question_latex": "In a transistor configuration $\\beta$-parameter is",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{I_{s}}{I_{c}}$",
+      "B. $\\frac{I_{c}}{I_{b}}$",
+      "C. $\\frac{I_{c}}{I_{e}}$",
+      "D. $\\frac{I_{b}}{I_{e}}$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\frac{I_{c}}{I_{b}}$",
+    "solution": "$\\beta = \\frac{I_c}{I_b}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Semiconductor Electronics",
+    "question": "Carbon, Silicon and Germanium atoms have four valence electrons each. Their valence and conduction bands are separated by energy band gaps represented by (Eg)C, (Eg)Si and (Eg)Ge respectively. Which one of the following relationship is true in their case?",
+    "question_latex": "Carbon, Silicon and Germanium atoms have four valence electrons each. Their valence and conduction bands are separated by energy band gaps represented by $(E_{g})_{C}, (E_{g})_{Si}$ and $(E_{g})_{Ge}$ respectively. Which one of the following relationship is true in their case?",
+    "question_images": [],
+    "options": [
+      "A. $(E_{g})_{C}>(E_{g})_{Si}$",
+      "B. $(E_{g})_{C}<(E_{g})_{Si}$",
+      "C. $(E_{g})_{C}=(E_{g})_{Si}$",
+      "D. $(E_{g})_{C}<(E_{g})_{Ge}$"
+    ],
+    "option_images": [],
+    "answer": "A. $(E_{g})_{C}>(E_{g})_{Si}$",
+    "solution": "Energy gap order: Carbon (Diamond) > Silicon > Germanium. $(E_g)_C > (E_g)_{Si} > (E_g)_{Ge}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Semiconductor Electronics",
+    "question": "If Rp = 7 kΩ, gm = 2.5 millimho, then on increasing plate voltage by 50V, how much the grid voltage is changed so that plate current remains the same",
+    "question_latex": "If $R_{p}=7K\\Omega$, $g_{m}=2.5$ millimho, then on increasing plate voltage by $50V$, how much the grid voltage is changed so that plate current remains the same",
+    "question_images": [],
+    "options": [
+      "A. 2.86 V",
+      "B. 4 V",
+      "C. +4 V",
+      "D. +2 V"
+    ],
+    "option_images": [],
+    "answer": "A. 2.86 V",
+    "solution": "Amplification factor $\\mu = R_p \\times g_m = 7000 \\times 2.5 \\times 10^{-3} = 17.5$. Relation: $\\Delta V_p = \\mu \\Delta V_g$. $50 = 17.5 \\times \\Delta V_g$. $\\Delta V_g = 50 / 17.5 = 2.86$ V.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Semiconductor Electronics",
+    "question": "The output (Y) of logic circuit given below is 0 only when :",
+    "question_latex": "The output (Y) of logic circuit given below is 0 only when :",
+    "question_images": [
+      "24_qu_1.png"
+    ],
+    "options": [
+      "A. A=1, B=1",
+      "B. A=0, B=0",
+      "C. A=1, B=0",
+      "D. A=0, B=1"
+    ],
+    "option_images": [],
+    "answer": "B. A=0, B=0",
+    "solution": "The circuit is an OR gate followed by AND gate. $Y = (A+B) \\cdot (A \\cdot B)?$ No, analyzing the diagram: It looks like OR and AND inputs feeding into an OR gate? From solution table: 0,0->0. 0,1->1. 1,0->1. 1,1->1. This is OR gate behavior. Output is 0 only when A=0, B=0.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Semiconductor Electronics",
+    "question": "The following truth table corresponds to the logic gate [BHU 1994; CPMT 2000; J & K CET 2004] A 0 0 1 1, B 0 1 0 1, X 0 1 1 1",
+    "question_latex": "The following truth table corresponds to the logic gate [BHU 1994; CPMT 2000; J & K CET 2004] A 0 0 1 1, B 0 1 0 1, X 0 1 1 1",
+    "question_images": [],
+    "options": [
+      "A. NAND",
+      "B. OR",
+      "C. AND",
+      "D. XOR"
+    ],
+    "option_images": [],
+    "answer": "B. OR",
+    "solution": "0,0->0; 0,1->1; 1,0->1; 1,1->1. This is the truth table for OR gate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a junction diode, the holes are due to",
+    "question_latex": "In a junction diode, the holes are due to",
+    "question_images": [],
+    "options": [
+      "A. Protons",
+      "B. Neutrons",
+      "C. Extra electrons",
+      "D. Missing of electrons"
+    ],
+    "option_images": [],
+    "answer": "D. Missing of electrons",
+    "solution": "Holes represent the vacancy created by the missing electrons in the covalent bonds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Semiconductor Electronics",
+    "question": "The resistance of a reverse biased P-N junction diode is about",
+    "question_latex": "The resistance of a reverse biased P-N junction diode is about",
+    "question_images": [],
+    "options": [
+      "A. 1 ohm",
+      "B. $10^{2}$ ohm",
+      "C. 10 ohm",
+      "D. $10^{6}$ ohm"
+    ],
+    "option_images": [],
+    "answer": "D. $10^{6}$ ohm",
+    "solution": "Reverse bias resistance is very high, typically in the range of mega-ohms ($10^6 \\Omega$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a full wave rectifier circuit operating from 50 Hz mains frequency, the fundamental frequency in the ripple would be",
+    "question_latex": "In a full wave rectifier circuit operating from $50 Hz$ mains frequency, the fundamental frequency in the ripple would be",
+    "question_images": [],
+    "options": [
+      "A. 25 Hz",
+      "B. 50 Hz",
+      "C. 70.7 Hz",
+      "D. 100 Hz"
+    ],
+    "option_images": [],
+    "answer": "D. 100 Hz",
+    "solution": "For full wave rectifier, ripple frequency is $2f = 2 \\times 50 = 100$ Hz.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Semiconductor Electronics",
+    "question": "Given below are four logic gate symbol (figure). Those for OR, NOR and NAND are respectively",
+    "question_latex": "Given below are four logic gate symbol (figure). Those for OR, NOR and NAND are respectively",
+    "question_images": [
+      "29_qu_1.png"
+    ],
+    "options": [
+      "A. 1, 4, 3",
+      "B. 4, 1, 2",
+      "C. 1, 3, 4",
+      "D. 4, 2, 1"
+    ],
+    "option_images": [],
+    "answer": "C. 1, 3, 4",
+    "solution": "(1) is OR. (2) is AND. (3) is NOR. (4) is NAND. So OR, NOR, NAND are 1, 3, 4.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Semiconductor Electronics",
+    "question": "For a transistor amplifier in common emitter configuration for load impedance of 1kΩ( hfe=50 and hoe=25µs) the current gain is",
+    "question_latex": "For a transistor amplifier in common emitter configuration for load impedance of $1k\\Omega$ ($h_{fe}=50$ and $h_{oe}=25\\mu s$) the current gain is",
+    "question_images": [],
+    "options": [
+      "A. -24.8",
+      "B. -15.7",
+      "C. -5.2",
+      "D. -48.78"
+    ],
+    "option_images": [],
+    "answer": "D. -48.78",
+    "solution": "Current gain $A_i = \\frac{-h_{fe}}{1 + h_{oe}R_L} = \\frac{-50}{1 + 25 \\times 10^{-6} \\times 10^3} = \\frac{-50}{1 + 0.025} = \\frac{-50}{1.025} = -48.78$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Semiconductor Electronics",
+    "question": "Truth table for system of four NAND gates as shown in figure is",
+    "question_latex": "Truth table for system of four NAND gates as shown in figure is",
+    "question_images": [
+      "31_qu_1.png",
+      "31_qu_2.png"
+    ],
+    "options": [
+      "A. Table A",
+      "B. Table B",
+      "C. Table C",
+      "D. Table D"
+    ],
+    "option_images": [],
+    "answer": "A. Table A",
+    "solution": "This configuration of NAND gates (XOR equivalent) gives output 1 when inputs are different (0,1 or 1,0) and 0 when same? Wait, let's trace: $Y_1 = \\overline{AB}$. $Y_2 = \\overline{A \\cdot \\overline{AB}} = \\overline{A(\\bar{A}+\\bar{B})} = \\overline{AB} = \\bar{A}+\\bar{B}$? No. $\\overline{A(1)} = \\bar{A}$. Wait. $Y_1 = \\overline{AB}$. $Y_2 = \\overline{A Y_1}$. $Y_3 = \\overline{B Y_1}$. $Y = \\overline{Y_2 Y_3}$. This is the standard XOR construction using 4 NANDs. XOR Truth Table: 0,0->0; 0,1->1; 1,0->1; 1,1->0. Solution text refers to expression leading to table (a).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Semiconductor Electronics",
+    "question": "One serious drawback of semi-conductor devices is",
+    "question_latex": "One serious drawback of semi-conductor devices is",
+    "question_images": [],
+    "options": [
+      "A. they do not last for long time.",
+      "B. they are costly",
+      "C. they cannot be used with high voltage.",
+      "D. they pollute the environment."
+    ],
+    "option_images": [],
+    "answer": "C. they cannot be used with high voltage.",
+    "solution": "Semiconductors are sensitive to high voltages and can break down easily.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Semiconductor Electronics",
+    "question": "For a transistor amplifier, the voltage gain",
+    "question_latex": "For a transistor amplifier, the voltage gain",
+    "question_images": [],
+    "options": [
+      "A. Is high at high and low frequencies and constant in the middle frequency range",
+      "B. Is low at high and low frequencies and constant in the middle frequency range",
+      "C. Remains constant for all frequencies",
+      "D. Is high at high frequencies and low at low frequencies and constant in middle frequency range"
+    ],
+    "option_images": [],
+    "answer": "B. Is low at high and low frequencies and constant in the middle frequency range",
+    "solution": "Due to coupling capacitors and bypass capacitors (low freq drop) and internal capacitances (high freq drop), the gain is constant only in mid-frequency range.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the forward bias arrangement of a PN-junction diode",
+    "question_latex": "In the forward bias arrangement of a PN-junction diode",
+    "question_images": [],
+    "options": [
+      "A. The N-end is connected to the positive terminal of the battery",
+      "B. The P-end is connected to the positive terminal of the battery",
+      "C. The direction of current is from N-end to P-end in the diode",
+      "D. The P-end is connected to the negative terminal of battery"
+    ],
+    "option_images": [],
+    "answer": "B. The P-end is connected to the positive terminal of the battery",
+    "solution": "Forward bias means P is connected to Positive and N to Negative.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a common emitter transistor amplifier beta=60, Ro=5000 Ω and internal resistance of a transistor is 500 Ω. The voltage amplification of amplifier will be",
+    "question_latex": "In a common emitter transistor amplifier $\\beta=60$, $R_{o}=5000\\Omega$ and internal resistance of a transistor is $500 \\Omega$. The voltage amplification of amplifier will be",
+    "question_images": [],
+    "options": [
+      "A. 500",
+      "B. 460",
+      "C. 600",
+      "D. 560"
+    ],
+    "option_images": [],
+    "answer": "C. 600",
+    "solution": "Voltage gain $A_v = \\beta \\frac{R_{out}}{R_{in}} = 60 \\times \\frac{5000}{500} = 60 \\times 10 = 600$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Semiconductor Electronics",
+    "question": "A triode has a mutual conductance of 2 x 10^-3 mho and an amplification factor of 50. The anode is connected through a resistance of 25 x 10^3 ohms to a 250 volts supply. The voltage gain of this amplifier is",
+    "question_latex": "A triode has a mutual conductance of $2\\times10^{-3} mho$ and an amplification factor of $50$. The anode is connected through a resistance of $25\\times10^{3}$ ohms to a $250$ volts supply. The voltage gain of this amplifier is",
+    "question_images": [],
+    "options": [
+      "A. 50",
+      "B. 25",
+      "C. 100",
+      "D. 12.5"
+    ],
+    "option_images": [],
+    "answer": "B. 25",
+    "solution": "Plate resistance $r_p = \\mu / g_m = 50 / (2 \\times 10^{-3}) = 25 \\times 10^3 \\Omega$. Voltage gain $A = \\frac{\\mu R_L}{r_p + R_L} = \\frac{50 \\times 25 \\times 10^3}{25 \\times 10^3 + 25 \\times 10^3} = \\frac{1250}{50} = 25$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Semiconductor Electronics",
+    "question": "While a collector to emitter voltage is constant in a transistor, the collector current changes by 8.2 mA when the emitter current changes by 8.3 mA. The value of forward current ratio hfe is",
+    "question_latex": "While a collector to emitter voltage is constant in a transistor, the collector current changes by $8.2 mA$ when the emitter current changes by $8.3 mA$. The value of forward current ratio $h_{fe}$ is",
+    "question_images": [],
+    "options": [
+      "A. 82",
+      "B. 83",
+      "C. 8.2",
+      "D. 8.3"
+    ],
+    "option_images": [],
+    "answer": "A. 82",
+    "solution": "$h_{fe} = \\beta = \\frac{\\Delta I_c}{\\Delta I_b}$. $\\Delta I_e = 8.3$. $\\Delta I_c = 8.2$. $\\Delta I_b = \\Delta I_e - \\Delta I_c = 0.1$. $\\beta = 8.2 / 0.1 = 82$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Semiconductor Electronics",
+    "question": "In case of a semiconductor, which of the following statement is wrong",
+    "question_latex": "In case of a semiconductor, which of the following statement is wrong",
+    "question_images": [],
+    "options": [
+      "A. Doping increases conductivity",
+      "B. Temperature coefficient of resistance is negative",
+      "C. Resisitivity is in between that of a conductor and insulator",
+      "D. At absolute zero temperature, it behaves like a conductor"
+    ],
+    "option_images": [],
+    "answer": "D. At absolute zero temperature, it behaves like a conductor",
+    "solution": "At absolute zero, a semiconductor behaves like an insulator, not a conductor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Semiconductor Electronics",
+    "question": "The following figure shows a logic gate circuit with two inputs A and B and the output C. The voltage waveforms of A, B and C are as shown below. The logic gate is",
+    "question_latex": "The following figure shows a logic gate circuit with two inputs A and B and the output C. The voltage waveforms of A, B and C are as shown below. The logic gate is",
+    "question_images": [
+      "39_qu_1.png"
+    ],
+    "options": [
+      "A. AND gate",
+      "B. NAND gate",
+      "C. NOR gate",
+      "D. OR gate"
+    ],
+    "option_images": [],
+    "answer": "A. AND gate",
+    "solution": "Analyzing the waveforms: Output C is high only when both A and B are high. This corresponds to an AND gate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Semiconductor Electronics",
+    "question": "The output Y of following circuit for given inputs is: [08 April, 2024 (Shift-I)]",
+    "question_latex": "The output Y of following circuit for given inputs is: [08 April, 2024 (Shift-I)]",
+    "question_images": [
+      "40_qu_1.png"
+    ],
+    "options": [
+      "A. AB",
+      "B. $A \\cdot B(A+B)$",
+      "C. A B",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "D. 0",
+    "solution": "From truth table construction or Boolean reduction, the output is always 0.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Semiconductor Electronics",
+    "question": "The combination of NAND gates shown here under (figure) are equivalent to [Haryana CEET 1996]",
+    "question_latex": "The combination of NAND gates shown here under (figure) are equivalent to [Haryana CEET 1996]",
+    "question_images": [
+      "41_qu_1.png"
+    ],
+    "options": [
+      "A. An OR gate and an AND gate respectively",
+      "B. An AND gate and a NOT gate respectively",
+      "C. An AND gate and an OR gate respectively",
+      "D. An OR gate and a NOT gate respectively"
+    ],
+    "option_images": [],
+    "answer": "A. An OR gate and an AND gate respectively",
+    "solution": "First circuit: Inputs A, B to NANDs then to NAND = OR. Second circuit: A, B to NAND then NOT = AND? No, check specific diagrams. Standard: 3 NANDs make OR. 2 NANDs make AND. Solution (a) indicates OR and AND.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Semiconductor Electronics",
+    "question": "An oscillator is nothing but an amplifier with",
+    "question_latex": "An oscillator is nothing but an amplifier with",
+    "question_images": [],
+    "options": [
+      "A. positive feedback",
+      "B. large gain",
+      "C. negative feedback",
+      "D. no feedback"
+    ],
+    "option_images": [],
+    "answer": "A. positive feedback",
+    "solution": "Oscillators use positive feedback to sustain oscillations.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Semiconductor Electronics",
+    "question": "Given below are symbols for some logic gates. The XOR gate and NOR gate respectively are",
+    "question_latex": "Given below are symbols for some logic gates. The XOR gate and NOR gate respectively are",
+    "question_images": [
+      "43_qu_1.png"
+    ],
+    "options": [
+      "A. 1 and 2",
+      "B. 2 and 3",
+      "C. 3 and 4",
+      "D. 1 and 4"
+    ],
+    "option_images": [],
+    "answer": "B. 2 and 3",
+    "solution": "Symbol (2) is XOR. Symbol (3) is NOR. (1) is NAND? (4) is OR?",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Semiconductor Electronics",
+    "question": "Which of the following statements is/are correct? I. Pure Si doped with trivalent impurities gives a p-type semiconductor II. Majority carriers in a n-type semiconductor are holes III. Minority carriers in a p-type semiconductor are electrons IV. The resistance of intrinsic semiconductor decreases with increase of temperature",
+    "question_latex": "Which of the following statements is/are correct? I. Pure Si doped with trivalent impurities gives a p-type semiconductor II. Majority carriers in a n-type semiconductor are holes III. Minority carriers in a p-type semiconductor are electrons IV. The resistance of intrinsic semiconductor decreases with increase of temperature",
+    "question_images": [],
+    "options": [
+      "A. I only",
+      "B. I, III and IV",
+      "C. I and IV",
+      "D. II only"
+    ],
+    "option_images": [],
+    "answer": "B. I, III and IV",
+    "solution": "I is correct (Trivalent -> p-type). II is incorrect (n-type majority is electrons). III is correct (p-type minority is electrons). IV is correct (Temp coeff is negative).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Semiconductor Electronics",
+    "question": "To a germanium crystal equal number of aluminium and indium atoms are added. Then",
+    "question_latex": "To a germanium crystal equal number of aluminium and indium atoms are added. Then",
+    "question_images": [],
+    "options": [
+      "A. It remains an intrinsic semiconductor",
+      "B. It becomes a n -type semiconductor",
+      "C. It becomes a p-type semiconductor",
+      "D. It becomes an insulator"
+    ],
+    "option_images": [],
+    "answer": "C. It becomes a p-type semiconductor",
+    "solution": "Both Aluminum (Al) and Indium (In) are trivalent impurities. Adding trivalent impurities creates p-type semiconductor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Semiconductor Electronics",
+    "question": "The transistor are usually made of",
+    "question_latex": "The transistor are usually made of",
+    "question_images": [],
+    "options": [
+      "A. metal oxides with high temperature coefficient of resistivity",
+      "B. metals with high temperature coefficient of resistivity",
+      "C. metals with low temperature coefficient of resistivity",
+      "D. semiconducting materials having low temperature coefficient of resistivity"
+    ],
+    "option_images": [],
+    "answer": "A",
+    "solution": " Metal oxides with high temperature coefficient of resistivity.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Semiconductor Electronics",
+    "question": "The current in a triode at anode potential 100 V and grid potential 1.2 V is 7.5 mA. If grid potential is changed to 2.2 V, the current becomes 5.5 mA. the value of trans conductance (gm) will be",
+    "question_latex": "The current in a triode at anode potential $100 V$ and grid potential $1.2 V$ is $7.5 mA$. If grid potential is changed to $2.2 V$, the current becomes $5.5 mA$. the value of trans conductance $(g_{m})$ will be",
+    "question_images": [],
+    "options": [
+      "A. 2 mili mho",
+      "B. 3 mili mho",
+      "C. 4 mili mho",
+      "D. 0.2 mili mho"
+    ],
+    "option_images": [],
+    "answer": "A. 2 mili mho",
+    "solution": "$g_m = \\frac{\\Delta I_p}{\\Delta V_g} = \\frac{(7.5 - 5.5) \\times 10^{-3}}{(2.2 - 1.2)} = \\frac{2 \\times 10^{-3}}{1} = 2$ millimho.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Semiconductor Electronics",
+    "question": "For a common base configuration of PNP transistor Ic/Ie = 0.98 then maximum current gain in common emitter configuration will be",
+    "question_latex": "For a common base configuration of PNP transistor $\\frac{I_{c}}{I_{e}}=0.98$ then maximum current gain in common emitter configuration will be",
+    "question_images": [],
+    "options": [
+      "A. 12",
+      "B. 24",
+      "C. 6",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "B. 24",
+    "solution": "Given $\\alpha = 0.98$. $\\beta = \\frac{\\alpha}{1-\\alpha} = \\frac{0.98}{1-0.98} = \\frac{0.98}{0.02} = 49$. Wait, the option B is 24. Solution says $\\beta = \\frac{0.96}{1-0.96} = 24$. This implies $\\alpha=0.96$. But question text says 0.98. If $\\alpha=0.98$, $\\beta=49$. If $\\alpha=0.96$, $\\beta=24$. There is a mismatch. I will provide the extracted text (0.98) and the answer key (B) which corresponds to 24, noting the discrepancy.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Semiconductor Electronics",
+    "question": "In N-type semiconductors, majority charge carriers are",
+    "question_latex": "In N-type semiconductors, majority charge carriers are",
+    "question_images": [],
+    "options": [
+      "A. Holes",
+      "B. Protons",
+      "C. Neutrons",
+      "D. Electrons"
+    ],
+    "option_images": [],
+    "answer": "D. Electrons",
+    "solution": "In N-type, electrons are majority carriers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Semiconductor Electronics",
+    "question": "Current in the circuit will be [CBSE PMT 2001]",
+    "question_latex": "Current in the circuit will be [CBSE PMT 2001]",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. 5/40 A",
+      "B. 5/50 A",
+      "C. 5/10 A",
+      "D. 5/20 A"
+    ],
+    "option_images": [],
+    "answer": "B. 5/50 A",
+    "solution": "The diode in lower branch is forward biased and upper is reverse biased (assuming standard diode orientation in diagram). Total R = 30 + 20 = 50. I = 5/50 A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a PN-junction",
+    "question_latex": "In a PN-junction",
+    "question_images": [],
+    "options": [
+      "A. P and N both are at same potential",
+      "B. High potential at N side and low potential at P side",
+      "C. High potential at P side and low potential at N side",
+      "D. Low potential at N side and zero potential at P side"
+    ],
+    "option_images": [],
+    "answer": "B. High potential at N side and low potential at P side",
+    "solution": "In a p-n junction, the n-side is at a higher potential and the p-side is at a lower potential due to the depletion region barrier.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Semiconductor Electronics",
+    "question": "The transfer ratio of a transistor is 50. The input resistance of the transistor when used in the common-emitter configuration is 1 KΩ. The peak value for an A.C input voltage of 0.01 V peak is",
+    "question_latex": "The transfer ratio of a transistor is $50$. The input resistance of the transistor when used in the common-emitter configuration is $1 K\\Omega$. The peak value for an A.C input voltage of $0.01 V$ peak is",
+    "question_images": [],
+    "options": [
+      "A. 100 m A",
+      "B. 0.01 mA",
+      "C. 0.25 mA",
+      "D. 500 µA"
+    ],
+    "option_images": [],
+    "answer": "D. 500 µA",
+    "solution": "Given $\\beta=50$, $R_{i}=1000\\Omega$, $V_{i}=0.01V$. $\\beta=\\frac{i_{c}}{i_{b}}$ and $i_{b}=\\frac{V_{i}}{R_{i}}=\\frac{0.01}{10^{3}}=10^{-5}A$. Hence $i_{c}=50\\times10^{-5}A=500~\\mu A$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Semiconductor Electronics",
+    "question": "The junction diode in the following circuit requires a minimum current of 1mA to be above the knee point (0.7 V) of its I - V characteristic curve. The voltage across the junction diode is independent of current above the knee point, if V_B = 4V, then the maximum value of R so that the voltage is above knee point will be",
+    "question_latex": "The junction diode in the following circuit requires a minimum current of $1mA$ to be above the knee point ($0.7 V$) of its I - V characteristic curve. The voltage across the junction diode is independent of current above the knee point, if $V_{B}=4V$, then the maximum value of $R$ so that the voltage is above knee point will be",
+    "question_images": [
+      "53_qu_1.png"
+    ],
+    "options": [
+      "A. 3.3 kΩ",
+      "B. 4.0 kΩ",
+      "C. 4.7 kΩ",
+      "D. 6.6 kΩ"
+    ],
+    "option_images": [],
+    "answer": "A. 3.3 kΩ",
+    "solution": "$V_{B}=V_{knee}+IR$ or $4=0.7+10^{-3}R$ or $R=3.3/10^{-3}=3.3\\times10^{3}\\Omega$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Semiconductor Electronics",
+    "question": "The resistance of a germanium junction diode whose V-I is shown in figure is (V_k = 0.3V)",
+    "question_latex": "The resistance of a germanium junction diode whose V-I is shown in figure is $(V_{k}=0.3V)$",
+    "question_images": [
+      "54_qu_1.png"
+    ],
+    "options": [
+      "A. 5 kΩ",
+      "B. 0.2 kΩ",
+      "C. 2.3 kΩ",
+      "D. (10/2.3) kΩ"
+    ],
+    "option_images": [],
+    "answer": "B. 0.2 kΩ",
+    "solution": "$V_{k}=\\text{knee voltage}=0.3~V$. Resistance $=\\frac{\\Delta V}{\\Delta I}=\\frac{(2.3-0.3)}{(10-0)\\times10^{-3}}=200\\Omega=0.2k\\Omega$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Semiconductor Electronics",
+    "question": "NAND and NOR gates are called universal gates primarily because they",
+    "question_latex": "NAND and NOR gates are called universal gates primarily because they",
+    "question_images": [],
+    "options": [
+      "A. are available universally",
+      "B. can be combined to produce OR, AND and NOT gates",
+      "C. are widely used in Integrated circuit packages",
+      "D. are easiest to manufacture"
+    ],
+    "option_images": [],
+    "answer": "B. can be combined to produce OR, AND and NOT gates",
+    "solution": "Combination of NAND & NOR gates can produce OR, AND & NOT gates.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Semiconductor Electronics",
+    "question": "A transistor is operated in common emitter configuration at V_c = 2 V such that a change in the base current from 100μA to 300μA produces a change in the collector current from 10 mA to 20 mA. The current gain is",
+    "question_latex": "A transistor is operated in common emitter configuration at $V_{c}=2$ V such that a change in the base current from $100\\mu A$ to $300\\mu A$ produces a change in the collector current from $10 mA$ to $20 mA$. The current gain is",
+    "question_images": [],
+    "options": [
+      "A. 50",
+      "B. 75",
+      "C. 100",
+      "D. 25"
+    ],
+    "option_images": [],
+    "answer": "A. 50",
+    "solution": "The current gain $\\beta=\\frac{\\Delta I_{C}}{\\Delta I_{B}}=\\frac{10~mA}{200\\mu A}=\\frac{10\\times10^{-3}}{200\\times10^{-6}}=50$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Semiconductor Electronics",
+    "question": "Following diagram performs the logic function of",
+    "question_latex": "Following diagram performs the logic function of",
+    "question_images": [
+      "57_qu_1.png"
+    ],
+    "options": [
+      "A. XOR gate",
+      "B. AND gate",
+      "C. NAND gate",
+      "D. OR gate"
+    ],
+    "option_images": [],
+    "answer": "B. AND gate",
+    "solution": "$X=\\overline{AB}$, $Y=\\overline{X}=\\overline{\\overline{AB}}$. $Y=AB$ by Demorgan theorem. This diagram performs the function of AND gate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Semiconductor Electronics",
+    "question": "A diode is connected to 220 V(rms) ac in series with a capacitor as shown in figure. The voltage across the capacitor is",
+    "question_latex": "A diode is connected to $220 V(rms)$ ac in series with a capacitor as shown in figure. The voltage across the capacitor is",
+    "question_images": [
+      "58_qu_1.png"
+    ],
+    "options": [
+      "A. 220 V",
+      "B. 110 V",
+      "C. 311.1 V",
+      "D. 220\\sqrt{2} V"
+    ],
+    "option_images": [],
+    "answer": "D. 220\\sqrt{2} V",
+    "solution": "The diode D will conduct for positive half cycle of a.c. supply because this is forward biased. For negative half cycle of a.c. supply, this is reverse biased and does not conduct. Output would be half wave rectified, but a capacitor connected in series with a diode will charge up to the peak voltage $V_0 = 220\\sqrt{2} V$. Note: The textual option D has been interpreted as $220\\sqrt{2}$ V.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Semiconductor Electronics",
+    "question": "What is the value of A.C + A.B.C where A, B and C are inputs?",
+    "question_latex": "What is the value of $A.C + A.B.C$ where $A, B$ and $C$ are inputs?",
+    "question_images": [],
+    "options": [
+      "A. A.C",
+      "B. A.B",
+      "C. A",
+      "D. B"
+    ],
+    "option_images": [],
+    "answer": "B. A.B",
+    "solution": "Note: According to the source key, the answer is (B). Mathematically, A.C + A.B.C = A.C(1+B) = A.C, which points to option (A). The key may contain an error but is transcribed faithfully.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Semiconductor Electronics",
+    "question": "Bridge type rectifier uses",
+    "question_latex": "Bridge type rectifier uses",
+    "question_images": [],
+    "options": [
+      "A. four diodes",
+      "B. six diodes",
+      "C. two diodes",
+      "D. one diode"
+    ],
+    "option_images": [],
+    "answer": "A. four diodes",
+    "solution": "A bridge rectifier inherently requires four diodes to provide full wave rectification.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a semiconductor, the concentration of electrons is 8x10^14 /cm^3 and that of the holes is 5x10^12 cm^3. The semiconductor is",
+    "question_latex": "In a semiconductor, the concentration of electrons is $8\\times10^{14}/cm^{3}$ and that of the holes is $5\\times10^{12}cm^{3}$ The semiconductor is",
+    "question_images": [],
+    "options": [
+      "A. P-type",
+      "B. N-type",
+      "C. Intrinsic",
+      "D. PNP-type"
+    ],
+    "option_images": [],
+    "answer": "B. N-type",
+    "solution": "Since $n_{e} > n_{h}$, the semiconductor is N-type.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Semiconductor Electronics",
+    "question": "The frequency response curve of RC coupled amplifier is shown in figure. The band width of the amplifier will be",
+    "question_latex": "The frequency response curve of RC coupled amplifier is shown in figure. The band width of the amplifier will be",
+    "question_images": [
+      "62_qu_1.png"
+    ],
+    "options": [
+      "A. $f_{1}-f_{2}$",
+      "B. $f_{4}-f_{1}$",
+      "C. $\\frac{f_{4}-f_{2}}{2}$",
+      "D. $f_{3}-f_{1}$"
+    ],
+    "option_images": [],
+    "answer": "B. $f_{4}-f_{1}$",
+    "solution": "The band width is defined as the frequency band in which the amplifier gain remains above $\\frac{1}{\\sqrt{2}}=0.707$ of the mid frequency gain $(A_{max})$. The low frequency $f_{1}$ and the high frequency $f_{4}$ define this range. Bandwidth = $f_{4}-f_{1}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Semiconductor Electronics",
+    "question": "If R_p = 7 KΩ, g_m = 2.5 millimho, then on increasing plate voltage by 50V, how much the grid voltage is changed so that plate current remains the same",
+    "question_latex": "If $R_{p}=7K\\Omega$, $g_{m}=2.5$ millimho, then on increasing plate voltage by $50V$, how much the grid voltage is changed so that plate current remains the same",
+    "question_images": [],
+    "options": [
+      "A. -2.86 V",
+      "B. 4 V",
+      "C. +4 V",
+      "D. +2 V"
+    ],
+    "option_images": [],
+    "answer": "A. -2.86 V",
+    "solution": "By using $\\mu=-\\frac{\\Delta V_{p}}{\\Delta V_{g}}=r_{p}\\times g_{m} \\Rightarrow 7\\times10^{3}\\times2.5\\times10^{-3}=-\\frac{50}{\\Delta V_{g}} \\Rightarrow \\Delta V_{g}=-2.86~V$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Semiconductor Electronics",
+    "question": "A zener diode with 5 V zener is used to regulate an unregulated dc voltage input of 25 V. For a 400Ω resistor connected in series, the zener current is found to be 4 times load current. The load current (I_L) and load resistance (R_L) are:",
+    "question_latex": "A zener diode with $5 V$ zener is used to regulate an unregulated dc voltage input of $25 V$. For a $400\\Omega$ resistor connected in series, the zener current is found to be 4 times load current. The load current $(I_{L})$ and load resistance $(R_{L})$ are:",
+    "question_images": [
+      "64_qu_1.png"
+    ],
+    "options": [
+      "A. I_L = 10 mA; R_L = 500Ω",
+      "B. I_L = 20 mA; R_L = 250Ω",
+      "C. I_L = 0.02 mA; R_L = 250Ω",
+      "D. I_L = 10 A; R_L = 0.5Ω"
+    ],
+    "option_images": [],
+    "answer": "B. I_L = 20 mA; R_L = 250Ω",
+    "solution": "Note: The provided source key marks B as the answer, but the step-by-step solution yields $I_L = 10mA$ and $R_L = 500\\Omega$ which matches option A. From the circuit diagram, $5i = \\frac{25-5}{400} = \\frac{20}{400} = \\frac{1}{20} A = 50mA$. So $i = 10mA$. Load current $I_L = i = 10mA$. Load voltage $V_L = 5V$. Load resistance $R_L = \\frac{5}{10\\times10^{-3}} = 500\\Omega$. This accurately matches option A. Extracted answer remains 'B' to reflect the document's printed answer key strictly.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Semiconductor Electronics",
+    "question": "At room temperature, a P-type semiconductor has",
+    "question_latex": "At room temperature, a P-type semiconductor has",
+    "question_images": [],
+    "options": [
+      "A. Large number of holes and few electrons",
+      "B. Large number of free electrons and few holes",
+      "C. Equal number of free electrons and holes",
+      "D. No electrons or holes"
+    ],
+    "option_images": [],
+    "answer": "A. Large number of holes and few electrons",
+    "solution": "In a P-type semi conductor, holes are majority charge carriers.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Semiconductor Electronics",
+    "question": "The Bohr radius of the fifth electron of phosphorus (atomic number = 15) acting as dopant in silicon (relative dielectric constant = 12) is",
+    "question_latex": "The Bohr radius of the fifth electron of phosphorus (atomic number $=15$) acting as dopant in silicon (relative dielectric constant $=12$) is",
+    "question_images": [],
+    "options": [
+      "A. 10.6 Å",
+      "B. 0.53 Å",
+      "C. 21.2 Å",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. 10.6 Å",
+    "solution": "$r_{0}=\\epsilon_{0}(\\frac{n^{2}}{Z})a_{0}=12\\times\\frac{(5^{2})}{15}\\times0.53=10.6\\mathring{A}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Semiconductor Electronics",
+    "question": "Zener breakdown in a semi-conductor diode occurs when",
+    "question_latex": "Zener breakdown in a semi-conductor diode occurs when",
+    "question_images": [],
+    "options": [
+      "A. Forward current exceeds certain value",
+      "B. Reverse bias exceeds certain value",
+      "C. Forward bias exceeds certain value",
+      "D. Potential barrier is reduced to zero"
+    ],
+    "option_images": [],
+    "answer": "B. Reverse bias exceeds certain value",
+    "solution": "When reverse bias is increased, the electric field at the junction also increases. At some stage the electric field breaks the covalent bond, thus large numbers of charge carriers are generated. This is called Zener breakdown.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Semiconductor Electronics",
+    "question": "When plate voltage in diode valve is increased from 100 volt to 150 volt then plate current increases from 7.5 mA to 12 mA. The dynamic plastic resistance will be",
+    "question_latex": "When plate voltage in diode valve is increased from $100$ volt to $150$ volt then plate current increases from $7.5 mA$ to $12 mA$. The dynamic plastic resistance will be",
+    "question_images": [],
+    "options": [
+      "A. 10 k Ω",
+      "B. 11 k Ω",
+      "C. 15 k Ω",
+      "D. 11.1 k Ω"
+    ],
+    "option_images": [],
+    "answer": "D. 11.1 k Ω",
+    "solution": "$r_{p}=\\frac{\\Delta V_{p}}{\\Delta I_{p}}=\\frac{150-100}{(12-7.5)\\times10^{-3}}=\\frac{50}{4.5}\\times10^{3}=11.1k\\Omega$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the diagram, the input is across the terminals A and C and the output is across the terminals B and D, then the output is",
+    "question_latex": "In the diagram, the input is across the terminals A and C and the output is across the terminals B and D, then the output is",
+    "question_images": [
+      "69_qu_1.png"
+    ],
+    "options": [
+      "A. Zero",
+      "B. Same as input",
+      "C. Full wave rectifier",
+      "D. Half wave rectifier"
+    ],
+    "option_images": [],
+    "answer": "C. Full wave rectifier",
+    "solution": "The given circuit represents a bridge rectifier configuration which functions as a full wave rectifier.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Semiconductor Electronics",
+    "question": "A zener diode, having breakdown voltage equal to 15 V, is used in a voltage regulator circuit shown in figure. The current through the diode is",
+    "question_latex": "A zener diode, having breakdown voltage equal to $15 V$, is used in a voltage regulator circuit shown in figure. The current through the diode is",
+    "question_images": [
+      "70_qu_1.png"
+    ],
+    "options": [
+      "A. 10 mA",
+      "B. 15 mA",
+      "C. 20 mA",
+      "D. 5 mA"
+    ],
+    "option_images": [],
+    "answer": "D. 5 mA",
+    "solution": "Voltage across zener diode is constant at $15V$. Current in $1k\\Omega$ resistor, $i_{1k\\Omega} = \\frac{15V}{1k\\Omega} = 15 mA$. Current in $250\\Omega$ resistor, $i_{250\\Omega} = \\frac{(20-15)V}{250\\Omega} = \\frac{5V}{250\\Omega} = 20mA$. Zener current $I_z = i_{250\\Omega} - i_{1k\\Omega} = 20 - 15 = 5 mA$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Semiconductor Electronics",
+    "question": "Filter circuit",
+    "question_latex": "Filter circuit",
+    "question_images": [],
+    "options": [
+      "A. eliminates a.c. component",
+      "B. eliminates d.c. component",
+      "C. does not eliminate a.c. component",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. eliminates a.c. component",
+    "solution": "A filter circuit eliminates a.c. component of rectified voltage obtained from p-n junction as a rectifier.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Semiconductor Electronics",
+    "question": "In P-N junction, the barrier potential offers resistance to",
+    "question_latex": "In P-N junction, the barrier potential offers resistance to",
+    "question_images": [],
+    "options": [
+      "A. Free electrons in N region and holes in P region",
+      "B. Free electrons in P region and holes in N region",
+      "C. Only free electrons in N region",
+      "D. Only holes in P region"
+    ],
+    "option_images": [],
+    "answer": "A. Free electrons in N region and holes in P region",
+    "solution": "The barrier potential opposes the diffusion of majority charge carriers, which are free electrons in the N region and holes in the P region.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Semiconductor Electronics",
+    "question": "The part of a transistor which is most heavily doped to produce large number of majority carriers is",
+    "question_latex": "The part of a transistor which is most heavily doped to produce large number of majority carriers is",
+    "question_images": [],
+    "options": [
+      "A. emmiter",
+      "B. base",
+      "C. collector",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. emmiter",
+    "solution": "The emitter is heavily doped because its primary function is to inject a large number of charge carriers into the base.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a P-type semi-conductor, germanium is dopped with",
+    "question_latex": "In a P-type semi-conductor, germanium is dopped with",
+    "question_images": [],
+    "options": [
+      "A. Gallium",
+      "B. Boron",
+      "C. Aluminium",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "Gallium, boron and aluminum are all trivalent impurities which produce p-type semiconductors.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Semiconductor Electronics",
+    "question": "Identify the logic gate given in the circuit:",
+    "question_latex": "Identify the logic gate given in the circuit:",
+    "question_images": [
+      "75_qu_1.png"
+    ],
+    "options": [
+      "A. OR - gate",
+      "B. NAND gate",
+      "C. NOR gate",
+      "D. AND gate"
+    ],
+    "option_images": [],
+    "answer": "A. OR - gate",
+    "solution": "Output for the given logic gate $Y=\\overline{\\overline{A}\\cdot\\overline{B}}$. By applying De-Morgan Law, $Y=\\overline{\\overline{A+B}} \\Rightarrow Y=A+B$. This represents an OR gate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Semiconductor Electronics",
+    "question": "An oscillator is nothing but an amplifier with",
+    "question_latex": "An oscillator is nothing but an amplifier with",
+    "question_images": [],
+    "options": [
+      "A. Positive feed back",
+      "B. Large gain",
+      "C. No feedback",
+      "D. Negative feedback"
+    ],
+    "option_images": [],
+    "answer": "A. Positive feed back",
+    "solution": "In an oscillator, a portion of the output power is returned back (feed back) to the input in phase with the starting power. This process is termed as positive feedback.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Semiconductor Electronics",
+    "question": "The amplification factor of a triode valve is 15. If the grid voltage is changed by 0.3 volt the change in plate voltage in order to keep the plate current constant (in volt) is",
+    "question_latex": "The amplification factor of a triode valve is $15$. If the grid voltage is changed by $0.3$ volt the change in plate voltage in order to keep the plate current constant (in volt) is",
+    "question_images": [],
+    "options": [
+      "A. 0.02",
+      "B. 0.002",
+      "C. 4.5",
+      "D. 5.0"
+    ],
+    "option_images": [],
+    "answer": "C. 4.5",
+    "solution": "$\\mu=\\frac{\\Delta V_{p}}{\\Delta V_{g}}\\Rightarrow\\Delta V_{p}=\\mu\\Delta V_{g}=15 \\times 0.3=4.5~volt$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Semiconductor Electronics",
+    "question": "A P-type semiconductor has acceptor levels 57 meV above the valence band. The maximum wavelength of light required to create a hole is (Planck's constant h = 6.6 x 10^-34 J-s)",
+    "question_latex": "A P-type semiconductor has acceptor levels $57 meV$ above the valence band. The maximum wavelength of light required to create a hole is (Planck's constant $h=6.6\\times10^{-34}J-s$)",
+    "question_images": [],
+    "options": [
+      "A. 57 Å",
+      "B. 57x10^-3 Å",
+      "C. 217100 Å",
+      "D. 11.61x10^-13 Å"
+    ],
+    "option_images": [],
+    "answer": "C. 217100 Å",
+    "solution": "$E=\\frac{hc}{\\lambda} \\implies \\lambda=\\frac{hc}{E}=\\frac{6.6\\times10^{-34}\\times3\\times10^{8}}{57\\times10^{-3}\\times1.6\\times10^{-19}}=217100 \\mathring{A}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Semiconductor Electronics",
+    "question": "The mutual characteristic curves of a triode are as shown in figure. The cut off voltage for the triode is",
+    "question_latex": "The mutual characteristic curves of a triode are as shown in figure. The cut off voltage for the triode is",
+    "question_images": [
+      "79_qu_1.png"
+    ],
+    "options": [
+      "A. 0 V",
+      "B. 2 V",
+      "C. 4 V",
+      "D. 6 V"
+    ],
+    "option_images": [],
+    "answer": "C. 4 V",
+    "solution": "From the graph it is clear that for $V_{g}=-4V$ the plate current $I_{p}=0$, so the magnitude of the cut off voltage is 4 volt.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Semiconductor Electronics",
+    "question": "Bonding in a germanium crystal (semi- conductor) is",
+    "question_latex": "Bonding in a germanium crystal (semi- conductor) is",
+    "question_images": [],
+    "options": [
+      "A. Metallic",
+      "B. Ionic",
+      "C. Vander Waal's type",
+      "D. Covalent"
+    ],
+    "option_images": [],
+    "answer": "D. Covalent",
+    "solution": "Covalent bonding exists in semi-conductors like germanium and silicon.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Semiconductor Electronics",
+    "question": "The figure shows a logic circuit with two inputs A and B and the output C. The voltage wave forms across A, B and C are as given. The logic gate circuit is:",
+    "question_latex": "The figure shows a logic circuit with two inputs A and B and the output C. The voltage wave forms across A, B and C are as given. The logic gate circuit is:",
+    "question_images": [
+      "81_qu_1.png"
+    ],
+    "options": [
+      "A. OR gate",
+      "B. NOR gate",
+      "C. AND gate",
+      "D. NAND gate"
+    ],
+    "option_images": [],
+    "answer": "A. OR gate",
+    "solution": "Analyzing the waveforms gives the truth table: A=0, B=0 -> C=0; A=1, B=0 -> C=1; A=1, B=1 -> C=1; A=0, B=1 -> C=1. This corresponds to an OR gate.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Semiconductor Electronics",
+    "question": "An alternating voltage of 141.4V (rms) is applied to a vacuum diode as shown in the figure. The maximum potential difference across the condenser will be",
+    "question_latex": "An alternating voltage of $141.4V$ (rms) is applied to a vacuum diode as shown in the figure. The maximum potential difference across the condenser will be",
+    "question_images": [
+      "82_qu_1.png"
+    ],
+    "options": [
+      "A. 100 V",
+      "B. 200 V",
+      "C. 100√2 V",
+      "D. 200√2 V"
+    ],
+    "option_images": [],
+    "answer": "B. 200 V",
+    "solution": "The maximum potential difference across the capacitor is the peak voltage. $V_{peak}=\\sqrt{2} V_{rms} = \\sqrt{2} \\times 141.4 \\approx 200 V$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Semiconductor Electronics",
+    "question": "The grid voltage of any triode valve is changed from -1 volt to -3 volt and the mutual conductance is 3x10^-4 mho. The change in plate circuit current will be",
+    "question_latex": "The grid voltage of any triode valve is changed from $-1$ volt to $-3$ volt and the mutual conductance is $3\\times10^{-4}$ mho. The change in plate circuit current will be",
+    "question_images": [],
+    "options": [
+      "A. 0.8 mA",
+      "B. 0.6 mA",
+      "C. 0.4 mA",
+      "D. 1 mA"
+    ],
+    "option_images": [],
+    "answer": "B. 0.6 mA",
+    "solution": "By using $g_{m}=\\frac{\\Delta I_{p}}{\\Delta V_{g}} \\implies 3\\times10^{-4}=\\frac{\\Delta I_{p}}{-1-(-3)} \\implies \\Delta I_{p}=6\\times10^{-4}A=0.6~mA$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Semiconductor Electronics",
+    "question": "Two PN-junctions can be connected in series by three different methods as shown in the figure. If the potential difference in the junctions is the same, then the correct connections will be",
+    "question_latex": "Two PN-junctions can be connected in series by three different methods as shown in the figure. If the potential difference in the junctions is the same, then the correct connections will be",
+    "question_images": [
+      "84_qu_1.png"
+    ],
+    "options": [
+      "A. In the circuit (1) and (2)",
+      "B. In the circuit (2) and (3)",
+      "C. In the circuit (1) and (3)",
+      "D. Only in the circuit (1)"
+    ],
+    "option_images": [],
+    "answer": "B. In the circuit (2) and (3)",
+    "solution": "Because in case (1) N is connected with N, this forms a back-to-back arrangement which does not act as a simple series combination sharing the same potential profile identically. Configurations (2) and (3) align P to N creating continuous valid series loops.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Semiconductor Electronics",
+    "question": "For a crystal system, a=b=c, α=β=γ ≠ 90° the system is",
+    "question_latex": "For a crystal system, $a=b=c$, $\\alpha=\\beta=\\gamma \\neq 90^{\\circ}$ the system is",
+    "question_images": [],
+    "options": [
+      "A. Tetragonal system",
+      "B. Cubic system",
+      "C. Orthorhombic system",
+      "D. Rhombohedral system"
+    ],
+    "option_images": [],
+    "answer": "D. Rhombohedral system",
+    "solution": "The condition $a=b=c$ and $\\alpha=\\beta=\\gamma \\neq 90^{\\circ}$ defines the Rhombohedral (trigonal) crystal system. (Note: The provided answer key explicitly states D, while the solution text justifies why it's not A, B, or C).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Semiconductor Electronics",
+    "question": "A transistor has three impurity regions. All the three regions have different doping levels. In order of increasing doping level, the regions are",
+    "question_latex": "A transistor has three impurity regions. All the three regions have different doping levels. In order of increasing doping level, the regions are",
+    "question_images": [],
+    "options": [
+      "A. emitter, base and collector",
+      "B. collector, base and emitter",
+      "C. base, emitter and collector",
+      "D. base, collector and emitter"
+    ],
+    "option_images": [],
+    "answer": "D. base, collector and emitter",
+    "solution": "The base is very lightly doped, the collector is moderately doped, and the emitter is heavily doped. Thus, increasing order is Base, Collector, Emitter.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the case of forward biasing of p-n junction, which one of the following figures correctly depicts the direction of flow of carriers?",
+    "question_latex": "In the case of forward biasing of p-n junction, which one of the following figures correctly depicts the direction of flow of carriers?",
+    "question_images": [
+      "87_qu_1.png"
+    ],
+    "options": [
+      "A. (A)",
+      "B. (B)",
+      "C. (C)",
+      "D. (D)"
+    ],
+    "option_images": [],
+    "answer": "D. (D)",
+    "solution": "Positive charge (i.e., holes) should move in the direction of current and negative charge (i.e., electrons) should move opposite to the direction of current. In forward bias, they both move towards the junction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Semiconductor Electronics",
+    "question": "A common emitter amplifier has a voltage gain of 50, an input impedance of 100Ω and an output impedance of 200Ω. The power gain of the amplifier is",
+    "question_latex": "A common emitter amplifier has a voltage gain of $50$, an input impedance of $100\\Omega$ and an output impedance of $200\\Omega$. The power gain of the amplifier is",
+    "question_images": [],
+    "options": [
+      "A. 500",
+      "B. 1000",
+      "C. 1250",
+      "D. 50"
+    ],
+    "option_images": [],
+    "answer": "C. 1250",
+    "solution": "Power gain = voltage gain $\\times$ current gain. $A_p = A_v \\times A_i = A_v \\times (A_v \\times \\frac{R_{in}}{R_{out}}) = \\frac{A_v^2 \\times R_{in}}{R_{out}} = 50 \\times 50 \\times \\frac{100}{200} = \\frac{2500}{2} = 1250$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Semiconductor Electronics",
+    "question": "For the given combination of gates, if the logic states of inputs A, B, C are as follows A=B=C=0 and A=B=1, C=0 then the logic states of output D are",
+    "question_latex": "For the given combination of gates, if the logic states of inputs A, B, C are as follows $A=B=C=0$ and $A=B=1$, $C=0$ then the logic states of output D are",
+    "question_images": [
+      "89_qu_1.png"
+    ],
+    "options": [
+      "A. 0, 0",
+      "B. 0, 1",
+      "C. 1, 0",
+      "D. 1, 1"
+    ],
+    "option_images": [],
+    "answer": "D. 1, 1",
+    "solution": "The output D for the given combination $D=\\overline{(A+B)\\cdot C}=\\overline{(A+B)}+\\overline{C}$. If $A=B=C=0$ then $D=\\overline{(0+0)}+\\overline{0}=\\overline{0}+1=1+1=1$. If $A=B=1$, $C=0$ then $D=\\overline{(1+1)}+\\overline{0}=\\overline{1}+1=0+1=1$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Semiconductor Electronics",
+    "question": "Name the gate, which represents the Boolean expression Y = \\overline{A \\cdot B}",
+    "question_latex": "Name the gate, which represents the Boolean expression $Y=\\overline{A\\cdot B}$",
+    "question_images": [],
+    "options": [
+      "A. NAND",
+      "B. AND",
+      "C. NOT",
+      "D. NOR"
+    ],
+    "option_images": [],
+    "answer": "A. NAND",
+    "solution": "The Boolean equation for a NAND gate is $Y=\\overline{A\\cdot B}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Semiconductor Electronics",
+    "question": "When Ge crystals are doped with phosphorus atom, then it becomes",
+    "question_latex": "When Ge crystals are doped with phosphorus atom, then it becomes",
+    "question_images": [],
+    "options": [
+      "A. Insulator",
+      "B. P-type",
+      "C. N-type",
+      "D. Superconductor"
+    ],
+    "option_images": [],
+    "answer": "C. N-type",
+    "solution": "Phosphorus is a pentavalent impurity, which provides extra electrons and creates an N-type semiconductor.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Semiconductor Electronics",
+    "question": "The nature of binding for a crystal with alternate and evenly spaced positive and negative ions is",
+    "question_latex": "The nature of binding for a crystal with alternate and evenly spaced positive and negative ions is",
+    "question_images": [],
+    "options": [
+      "A. Covalent",
+      "B. Metallic",
+      "C. Dipolar",
+      "D. Ionic"
+    ],
+    "option_images": [],
+    "answer": "D. Ionic",
+    "solution": "Ionic bonds come into being when atoms that have low ionization energies interact with other atoms that tend to acquire excess electrons, becoming positive and negative ions respectively, forming an alternating structure.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Semiconductor Electronics",
+    "question": "Following is the relation between current and charge I = AT^2 e^{-V_L/kT} then value of V_L will be",
+    "question_latex": "Following is the relation between current and charge $I=AT^{2}e^{-V_{L}/kT}$ then value of $V_{L}$ will be",
+    "question_images": [],
+    "options": [
+      "A. $\\frac{V}{kT}$",
+      "B. $\\frac{kV}{T}$",
+      "C. $\\frac{kT}{V}$",
+      "D. $\\frac{VT}{k}$"
+    ],
+    "option_images": [],
+    "answer": "C. \\frac{kT}{V}",
+    "solution": "Note: According to the source key, the answer is (C). Comparing the given equation with standard thermionic emission equation $i=AT^{2}e^{-\\phi/kT}$, $V_L$ represents the work function, but the options are transcribed verbatim from the source.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Semiconductor Electronics",
+    "question": "Match Column I and Column II.",
+    "question_latex": "Match Column I and Column II.",
+    "question_images": [
+      "94_qu_1.png"
+    ],
+    "options": [
+      "A. (A)->(3); (B)->(2); (C)->(1); (D)->(4)",
+      "B. (A)->(1); (B)->(2); (C)->(4); (D)->(3)",
+      "C. (A)->(3); (B)->(1); (C)->(2); (D)->(4)",
+      "D. (A)->(2); (B)->(1); (C)->(3); (D)->(4)"
+    ],
+    "option_images": [],
+    "answer": "B. (A)->(1); (B)->(2); (C)->(4); (D)->(3)",
+    "solution": "Note: Based strictly on the provided text, 'Ans:-(B)'. The solution text implies the matching is (A)->(3); (B)->(2); (C)->(1); (D)->(4) but Option B was selected in the source text.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Semiconductor Electronics",
+    "question": "Current gain in common base configuration is less than 1 because",
+    "question_latex": "Current gain in common base configuration is less than 1 because",
+    "question_images": [],
+    "options": [
+      "A. I_c < I_b",
+      "B. I_b < I_e",
+      "C. I_c < I_e",
+      "D. I_e < I_c"
+    ],
+    "option_images": [],
+    "answer": "C. I_c < I_e",
+    "solution": "In common base configuration, $\\alpha=\\frac{I_{c}}{I_{e}}<1$ which means $I_{c}<I_{e}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Semiconductor Electronics",
+    "question": "In semiconductor the concentrations of electrons and holes are 8x10^{18}/m^3 and 5x10^{18}/m^3 respectively. If the mobilities of electrons and hole are 2.3 m^2/volt-sec and 0.01 m^2/volt-sec respectively, then semiconductor is",
+    "question_latex": "In semiconductor the concentrations of electrons and holes are $8\\times10^{18}/m^{3}$ and $5\\times10^{18}/m^{3}$ respectively. If the mobilities of electrons and hole are 2.3 m²/volt-sec and 0.01 m²/volt-sec respectively, then semiconductor is",
+    "question_images": [],
+    "options": [
+      "A. N-type and its resistivity is 0.34 ohm-metre",
+      "B. P-type and its resistivity is 0.034 ohm-metre",
+      "C. N-type and its resistivity is 0.034 ohm-metre",
+      "D. P-type and its resistivity is 3.40 ohm-metre"
+    ],
+    "option_images": [],
+    "answer": "A. N-type and its resistivity is 0.34 ohm-metre",
+    "solution": "$n_{e}=8\\times10^{18}/m^{3}$, $n_{h}=5\\times10^{18}/m^{3}$. Since $n_{e}>n_{h}$, so semiconductor is N-type. Conductivity $\\sigma=\\frac{1}{\\rho}=e(n_{e}\\mu_{e}+n_{h}\\mu_{h}) = 1.6\\times10^{-19}[8\\times10^{18}\\times2.3+5\\times10^{18}\\times0.01]$. Calculating yields $\\rho \\approx 0.34 \\Omega-m$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Semiconductor Electronics",
+    "question": "Zener diode is used for",
+    "question_latex": "Zener diode is used for",
+    "question_images": [],
+    "options": [
+      "A. amplification",
+      "B. rectification",
+      "C. stabilisation",
+      "D. all of the above"
+    ],
+    "option_images": [],
+    "answer": "C. stabilisation",
+    "solution": "Zener diode operates in the breakdown region with a constant voltage and is used as a voltage regulator i.e. for stabilization purposes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Semiconductor Electronics",
+    "question": "Crystal structure of NaCl is",
+    "question_latex": "Crystal structure of NaCl is",
+    "question_images": [],
+    "options": [
+      "A. Fcc",
+      "B. Bcc",
+      "C. Both of the above",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Fcc",
+    "solution": "The sodium chloride crystal structure has a fcc lattice with one chloride ion at each lattice point and one sodium ion half a cube length above it.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Semiconductor Electronics",
+    "question": "In the middle of the depletion layer of a reverse- biased p n junction, the",
+    "question_latex": "In the middle of the depletion layer of a reverse- biased p n junction, the",
+    "question_images": [],
+    "options": [
+      "A. electric field is zero",
+      "B. potential is maximum",
+      "C. electric field is maximum",
+      "D. potential is zero"
+    ],
+    "option_images": [],
+    "answer": "C. electric field is maximum",
+    "solution": "The electric field inside the depletion layer points from n-side to p-side and is strongest exactly at the metallurgical junction (middle) where the charge distribution transitions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Semiconductor Electronics",
+    "question": "In a good conductor the energy gap between conduction band and the valence band is",
+    "question_latex": "In a good conductor the energy gap between conduction band and the valence band is",
+    "question_images": [],
+    "options": [
+      "A. Infinite",
+      "B. Wide",
+      "C. Narrow",
+      "D. Zero"
+    ],
+    "option_images": [],
+    "answer": "D. Zero",
+    "solution": "The conduction and valence bands in conductors overlap or merge into each other, meaning the band gap is zero.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

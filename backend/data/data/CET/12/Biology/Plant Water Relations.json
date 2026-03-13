@@ -1,0 +1,1914 @@
+[
+  {
+    "id": 1,
+    "chapter": "Plant Water Relations",
+    "question": "The most widely accepted theory of ascent of sap is",
+    "question_latex": "The most widely accepted theory of ascent of sap is",
+    "question_images": [],
+    "options": [
+      "A. capillarity",
+      "B. pulsatory movement of living tissue",
+      "C. role of atmospheric pressure",
+      "D. transpiration pull and cohesion theory"
+    ],
+    "option_images": [],
+    "answer": "D. transpiration pull and cohesion theory",
+    "solution": "The transpiration pull and cohesion theory (Dixon and Jolly) is the most widely accepted theory for ascent of sap in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Plant Water Relations",
+    "question": "Which is true for fully turgid cell?",
+    "question_latex": "Which is true for fully turgid cell?",
+    "question_images": [],
+    "options": [
+      "A. O.P. = 0",
+      "B. D.P.D. = 0",
+      "C. O.P. = D.P.D.",
+      "D. T.P. = 0"
+    ],
+    "option_images": [],
+    "answer": "B. D.P.D. = 0",
+    "solution": "In a fully turgid cell, the Diffusion Pressure Deficit (D.P.D.) = 0, meaning the cell has no tendency to absorb more water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Plant Water Relations",
+    "question": "Capillarity is due to ____",
+    "question_latex": "Capillarity is due to ____",
+    "question_images": [],
+    "options": [
+      "A. surface tension and forces of cohesion and adhesion only",
+      "B. Surface tension only",
+      "C. Surface tension and forces of adhesion only",
+      "D. Surface tension and forces of cohesion only"
+    ],
+    "option_images": [],
+    "answer": "A. surface tension and forces of cohesion and adhesion only",
+    "solution": "Capillarity is due to surface tension and forces of cohesion and adhesion only. Water column exists because of combined cohesive and adhesive forces of water and xylem wall. It is because of capillarity water is raised or conducted upwards against the gravity, to few centimeters only.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Plant Water Relations",
+    "question": "Given below are two statements. Statement-I: Root hair is composed of two layers. Statement-II: Outer layer of root hair cell wall is composed of cellulose and inner layer is made up of pectin. In light of above statements, choose the most appropriate answer from the option given below.",
+    "question_latex": "Given below are two statements. Statement-I: Root hair is composed of two layers. Statement-II: Outer layer of root hair cell wall is composed of cellulose and inner layer is made up of pectin. In light of above statements, choose the most appropriate answer from the option given below.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct and statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is incorrect and statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is correct and statement II is incorrect.",
+    "solution": "Outer layer of root hair is composed of pectin and inner layer is cellulose. So Statement I is correct but Statement II is incorrect (the layers are reversed in Statement II).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Plant Water Relations",
+    "question": "A cell is equally permeable to sucrose solutions and NaCl solution. First the cell is put in 0.6M sucrose solution there is no change in size but when put in 0.6M NaCl solution the size will",
+    "question_latex": "A cell is equally permeable to sucrose solutions and $\\text{NaCl}$ solution. First the cell is put in $0.6\\text{M}$ sucrose solution there is no change in size but when put in $0.6\\text{M}$ NaCl solution the size will",
+    "question_images": [],
+    "options": [
+      "A. increase",
+      "B. decrease",
+      "C. remain same",
+      "D. can't be said"
+    ],
+    "option_images": [],
+    "answer": "B. decrease",
+    "solution": "NaCl dissociates into Na⁺ and Cl⁻ ions, effectively doubling the particle concentration compared to 0.6M sucrose. This makes the NaCl solution hypertonic relative to the cell, causing water to exit the cell (exosmosis), thus the cell size decreases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Plant Water Relations",
+    "question": "The glucose is prepared by process of photosynthesis in leaves acts as",
+    "question_latex": "The glucose is prepared by process of photosynthesis in leaves acts as",
+    "question_images": [],
+    "options": [
+      "A. sink",
+      "B. consuming organ",
+      "C. source",
+      "D. both (a) & (b)"
+    ],
+    "option_images": [],
+    "answer": "C. source",
+    "solution": "Leaves that prepare glucose by photosynthesis act as a source in the phloem transport system, supplying food to other parts of the plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Plant Water Relations",
+    "question": "When cell is placed in hypotonic solution takes place",
+    "question_latex": "When cell is placed in hypotonic solution takes place",
+    "question_images": [],
+    "options": [
+      "A. endosmosis and cell become turgid",
+      "B. exo-osmosis and cell become turgid",
+      "C. no endo-osmosis & exo-osmosis",
+      "D. exo-osmosis and cell become flaccid"
+    ],
+    "option_images": [],
+    "answer": "A. endosmosis and cell become turgid",
+    "solution": "When a cell is placed in a hypotonic solution (less concentrated than the cell sap), water moves into the cell by endosmosis and the cell becomes turgid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Plant Water Relations",
+    "question": "What will be the direction of net osmotic movement of water if solution 'A', enclosed in a semipermeable membrane, having an osmotic potential of '-30' bars and turgor pressure of '5' bars is submerged in a solution 'B' with an osmotic potential of '-10' bars and '0' turgor pressure?",
+    "question_latex": "What will be the direction of net osmotic movement of water if solution $A$, enclosed in a semipermeable membrane, having an osmotic potential of $-30$ bars and turgor pressure of $5$ bars is submerged in a solution $B$ with an osmotic potential of $-10$ bars and $0$ turgor pressure?",
+    "question_images": [],
+    "options": [
+      "A. B to A",
+      "B. equal movement in both direction",
+      "C. A to B",
+      "D. no movement"
+    ],
+    "option_images": [],
+    "answer": "C. A to B",
+    "solution": "Water potential of A = Osmotic potential + Turgor pressure = $-30 + 5 = -25$ bars. Water potential of B = $-10 + 0 = -10$ bars. Water moves from higher water potential (B = $-10$) to lower water potential (A = $-25$), i.e., from B to A. Wait — the answer given is C (A to B), which seems inconsistent. Based on the given answer key: Ans C (A to B).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Plant Water Relations",
+    "question": "What is similarity between cuticular & lenticular transpiration?",
+    "question_latex": "What is similarity between cuticular \\& lenticular transpiration?",
+    "question_images": [],
+    "options": [
+      "A. both opens during day & close during night",
+      "B. both opens during night & close during day",
+      "C. transpiration takes place during night",
+      "D. transpiration takes place throughout day"
+    ],
+    "option_images": [],
+    "answer": "D. transpiration takes place throughout day",
+    "solution": "Both cuticular and lenticular transpiration occur throughout the day (and night), unlike stomatal transpiration which mainly occurs during the day when stomata are open.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Plant Water Relations",
+    "question": "Osmotic pressure of a pure solvent at 25°C and 1 atm is always",
+    "question_latex": "Osmotic pressure of a pure solvent at $25^\\circ$C and 1 atm is always",
+    "question_images": [],
+    "options": [
+      "A. less than its solution",
+      "B. more than its solution",
+      "C. constant",
+      "D. zero"
+    ],
+    "option_images": [],
+    "answer": "D. zero",
+    "solution": "Osmotic pressure of a pure solvent is zero because there are no solute particles present. Osmotic pressure arises only when solutes are dissolved in a solvent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Plant Water Relations",
+    "question": "Chemical potential or potential energy of water is called",
+    "question_latex": "Chemical potential or potential energy of water is called",
+    "question_images": [],
+    "options": [
+      "A. solute potential",
+      "B. water potential",
+      "C. solvent potential",
+      "D. solution potential"
+    ],
+    "option_images": [],
+    "answer": "B. water potential",
+    "solution": "The chemical potential or potential energy of water is called water potential. It is denoted by the Greek letter psi ($\\Psi$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Plant Water Relations",
+    "question": "Guard cells in monocot leaves are",
+    "question_latex": "Guard cells in monocot leaves are",
+    "question_images": [],
+    "options": [
+      "A. dumbell shaped",
+      "B. kidney shaped",
+      "C. heart shaped",
+      "D. horseshoe shaped"
+    ],
+    "option_images": [],
+    "answer": "A. dumbell shaped",
+    "solution": "Guard cells in monocot leaves (grasses) are dumbbell-shaped, while in dicots they are kidney-shaped.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Plant Water Relations",
+    "question": "When humidity in atmosphere is high it",
+    "question_latex": "When humidity in atmosphere is high it",
+    "question_images": [],
+    "options": [
+      "A. increase rate of transpiration",
+      "B. decrease rate of transpiration",
+      "C. decrease the rate of water absorption",
+      "D. both (B) and (C)"
+    ],
+    "option_images": [],
+    "answer": "D. both (B) and (C)",
+    "solution": "High humidity in the atmosphere decreases the rate of transpiration (as the vapor pressure gradient between leaf and atmosphere is reduced) and also decreases the rate of water absorption.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Plant Water Relations",
+    "question": "Water present in the form of hydrated oxides of silicon and aluminium in soil is called ________ water.",
+    "question_latex": "Water present in the form of hydrated oxides of silicon and aluminium in soil is called \\underline{\\hspace{2cm}} water.",
+    "question_images": [],
+    "options": [
+      "A. Combined",
+      "B. Capillary",
+      "C. Hygroscopic",
+      "D. Gravitational"
+    ],
+    "option_images": [],
+    "answer": "A. Combined",
+    "solution": "Combined water is water present in soil combined with minerals in soil which is not available for plant absorption. Only capillary water found between soil particles is available for plant absorption. Gravitational water is water that flows down and reaches the water table.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Plant Water Relations",
+    "question": "Identify the CORRECT statement about the active absorption of water.",
+    "question_latex": "Identify the CORRECT statement about the active absorption of water.",
+    "question_images": [],
+    "options": [
+      "A. There is no expenditure of energy",
+      "B. The water enters the root hair by osmosis",
+      "C. The suction force is not transmitted from leaf veins to root hair",
+      "D. Living cells and root do not play an important role in water absorption"
+    ],
+    "option_images": [],
+    "answer": "B. The water enters the root hair by osmosis",
+    "solution": "In active absorption, the water enters the root hair by osmosis. Active absorption involves living cells and expenditure of metabolic energy, and the suction force is transmitted from leaf veins to root hair.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Plant Water Relations",
+    "question": "When temperature increases the rate of transpiration",
+    "question_latex": "When temperature increases the rate of transpiration",
+    "question_images": [],
+    "options": [
+      "A. remain same",
+      "B. increases",
+      "C. decreases",
+      "D. no transpiration"
+    ],
+    "option_images": [],
+    "answer": "B. increases",
+    "solution": "When temperature increases, the rate of transpiration increases because higher temperature increases the kinetic energy of water molecules, increasing evaporation from mesophyll cells and widening the vapor pressure gradient.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Plant Water Relations",
+    "question": "Water in tall plants (100 ft) rises because of",
+    "question_latex": "Water in tall plants (100 ft) rises because of",
+    "question_images": [],
+    "options": [
+      "A. root pressure",
+      "B. capillary action",
+      "C. transpiration pull",
+      "D. atmospheric pressure"
+    ],
+    "option_images": [],
+    "answer": "C. transpiration pull",
+    "solution": "In tall plants, water rises primarily due to transpiration pull (cohesion-tension theory). Root pressure and capillary action are insufficient to raise water to great heights.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Plant Water Relations",
+    "question": "Following diagram shows internal structure of root hair. Identify the parts labeled as 'X' and 'Y'.",
+    "question_latex": "Following diagram shows internal structure of root hair. Identify the parts labeled as $X$ and $Y$.",
+    "question_images": [
+      "18_qu_1.png"
+    ],
+    "options": [
+      "A. X-Nucleus, Y-Mitochondria",
+      "B. X-Nucleus, Y-cell wall",
+      "C. X-Cytoplasm, Y-Root epithelial cell",
+      "D. X-Root epithelial cell, Y-Nucleus"
+    ],
+    "option_images": [],
+    "answer": "A. X-Nucleus, Y-Mitochondria",
+    "solution": "X-Nucleus, Y-Mitochondria. The root hair has a large vacuole surrounded by a thin film of cytoplasm, plasma membrane and thin cell wall, which is two-layered.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Plant Water Relations",
+    "question": "Long distance bulk transport of substance through conducting or vascular tissue is called as",
+    "question_latex": "Long distance bulk transport of substance through conducting or vascular tissue is called as",
+    "question_images": [],
+    "options": [
+      "A. diffusion",
+      "B. imbibitions",
+      "C. translocation",
+      "D. transpiration"
+    ],
+    "option_images": [],
+    "answer": "C. translocation",
+    "solution": "Translocation is the long distance bulk transport of substances through conducting or vascular tissue (xylem and phloem) in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Plant Water Relations",
+    "question": "Transpiration through small openings present in bark of woody stem surrounded by complementary cells is",
+    "question_latex": "Transpiration through small openings present in bark of woody stem surrounded by complementary cells is",
+    "question_images": [],
+    "options": [
+      "A. stomatal transpiration",
+      "B. cuticular transpiration",
+      "C. lenticular transpiration",
+      "D. foliar transpiration"
+    ],
+    "option_images": [],
+    "answer": "C. lenticular transpiration",
+    "solution": "Lenticular transpiration occurs through lenticels — small openings present in the bark of woody stems, surrounded by loosely arranged complementary cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Plant Water Relations",
+    "question": "Which one of the following elements in plants is not remobilised?",
+    "question_latex": "Which one of the following elements in plants is not remobilised?",
+    "question_images": [],
+    "options": [
+      "A. Calcium",
+      "B. Potassium",
+      "C. Sulphur",
+      "D. Phosphorus"
+    ],
+    "option_images": [],
+    "answer": "A. Calcium",
+    "solution": "Elements like calcium are a part of structural component of the cell and hence are not released/remobilised. The deficiency symptoms tend to appear first in the young tissues whenever elements are not demobilized.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Plant Water Relations",
+    "question": "Minerals like phosphorous, sulphur, nitrogen, potassium are transported to young growing parts from",
+    "question_latex": "Minerals like phosphorous, sulphur, nitrogen, potassium are transported to young growing parts from",
+    "question_images": [],
+    "options": [
+      "A. old leaves",
+      "B. senescing parts",
+      "C. storage organs",
+      "D. both (a) & (b)"
+    ],
+    "option_images": [],
+    "answer": "D. both (a) & (b)",
+    "solution": "Minerals like phosphorous, sulphur, nitrogen and potassium are remobilised from old leaves and senescing parts and transported to young growing parts of the plant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Plant Water Relations",
+    "question": "Match Column I with Column II and select the correct option given below.",
+    "question_latex": "Match Column I with Column II and select the correct option given below.",
+    "question_images": [
+      "q23_1"
+    ],
+    "options": [
+      "A. A-I, B-II, C-III, D-IV",
+      "B. A-I, B-IV, C-III, D-II",
+      "C. A-III, B-I, C-IV, D-II",
+      "D. A-II, B-I, C-III, D-IV"
+    ],
+    "option_images": [],
+    "answer": "B. A-I, B-IV, C-III, D-II",
+    "solution": "Combined water (A) - Water present in the form of hydrated compounds (I). Hygroscopic water (B) - Water adsorbed by fine soil particles and held by them (IV). Gravitational water (C) - Water that percolates deep due to gravity (III). Capillary water (D) - Water held in pores present between the neighbouring soil particles due to capillarity (II).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Plant Water Relations",
+    "question": "Plants irrigated with salty water, show wilting of leaves due to",
+    "question_latex": "Plants irrigated with salty water, show wilting of leaves due to",
+    "question_images": [],
+    "options": [
+      "A. nutrient deficiency",
+      "B. translocation",
+      "C. xylem damage",
+      "D. poor root aeration"
+    ],
+    "option_images": [],
+    "answer": "D. poor root aeration",
+    "solution": "Plants irrigated with salty water show wilting due to poor root aeration (exosmosis). The salty water is hypertonic relative to root cells, causing water to leave the cells resulting in wilting.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Plant Water Relations",
+    "question": "Stomata is absent in",
+    "question_latex": "Stomata is absent in",
+    "question_images": [],
+    "options": [
+      "A. submerged plants",
+      "B. bottom plants in water",
+      "C. floating plants",
+      "D. aquatic plants"
+    ],
+    "option_images": [],
+    "answer": "A. submerged plants",
+    "solution": "Stomata are absent in completely submerged aquatic plants as they do not need to regulate water loss since they are surrounded by water.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Plant Water Relations",
+    "question": "How much of water is lost through cuticular transpiration?",
+    "question_latex": "How much of water is lost through cuticular transpiration?",
+    "question_images": [],
+    "options": [
+      "A. 2%",
+      "B. 3-10%",
+      "C. 80-95%",
+      "D. 99%"
+    ],
+    "option_images": [],
+    "answer": "B. 3-10%",
+    "solution": "Cuticular transpiration accounts for about 3-10% of the total water lost. The majority (80-95%) is lost through stomatal transpiration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Plant Water Relations",
+    "question": "Transpiration is very important for plants because it helps in",
+    "question_latex": "Transpiration is very important for plants because it helps in",
+    "question_images": [],
+    "options": [
+      "A. the absorption of water from soil",
+      "B. the cooling of leaves at high temperature",
+      "C. the movement of water and minerals absorbed by roots to various parts of the plant",
+      "D. all of the above"
+    ],
+    "option_images": [],
+    "answer": "D. all of the above",
+    "solution": "Transpiration is important because it helps in water absorption from soil, cooling of leaves at high temperature, and movement of water and minerals to various plant parts. Hence all of the above is correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Plant Water Relations",
+    "question": "Rate of transpiration can be measured by using",
+    "question_latex": "Rate of transpiration can be measured by using",
+    "question_images": [],
+    "options": [
+      "A. Ganong's photometer",
+      "B. Promoter",
+      "C. Auxanometer",
+      "D. Respirometer"
+    ],
+    "option_images": [],
+    "answer": "A. Ganong's photometer",
+    "solution": "The rate of transpiration is measured using Ganong's photometer (also called a potometer). It measures the rate of water uptake which is approximately equal to the rate of transpiration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Plant Water Relations",
+    "question": "Increase of ___ decreases the rate of transpiration",
+    "question_latex": "Increase of \\underline{\\hspace{1cm}} decreases the rate of transpiration",
+    "question_images": [],
+    "options": [
+      "A. light",
+      "B. humidity",
+      "C. CO₂ conc. of atmosphere",
+      "D. temperature"
+    ],
+    "option_images": [],
+    "answer": "B. humidity",
+    "solution": "Increase of humidity in the atmosphere decreases the rate of transpiration as it reduces the vapor pressure gradient between the leaf interior and the surrounding air.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Plant Water Relations",
+    "question": "As intensity of light increases",
+    "question_latex": "As intensity of light increases",
+    "question_images": [],
+    "options": [
+      "A. rate of transpiration increases",
+      "B. rate of photosynthesis increases",
+      "C. rate of absorption of water increases",
+      "D. all of the above"
+    ],
+    "option_images": [],
+    "answer": "D. all of the above",
+    "solution": "As light intensity increases, stomata open wider increasing transpiration, photosynthesis rate increases due to more light energy, and hence rate of water absorption also increases. All of the above are correct.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Plant Water Relations",
+    "question": "During osmosis water moves from ___ through semi-permeable membrane",
+    "question_latex": "During osmosis water moves from \\underline{\\hspace{2cm}} through semi-permeable membrane",
+    "question_images": [],
+    "options": [
+      "A. isotonic solution to hypotonic solution",
+      "B. hypertonic solution to isotonic solution",
+      "C. hypertonic solution to hypotonic solution",
+      "D. hypotonic solution to hypertonic solution"
+    ],
+    "option_images": [],
+    "answer": "D. hypotonic solution to hypertonic solution",
+    "solution": "During osmosis, water moves from a region of lower solute concentration (hypotonic solution / higher water potential) to a region of higher solute concentration (hypertonic solution / lower water potential) through a semi-permeable membrane.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following is true about cohesion tension theory?",
+    "question_latex": "Which of the following is true about cohesion tension theory?",
+    "question_images": [],
+    "options": [
+      "A. the process is purely physical",
+      "B. generally does not require energy, if required it is very less",
+      "C. tensile strength of xylem sap is 25-300 atm",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "D. all of these",
+    "solution": "All statements are true about cohesion tension theory: (A) the process is purely physical, (B) it generally does not require energy, and (C) the tensile strength of xylem sap is $25-300$ atm.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Plant Water Relations",
+    "question": "Given below are two statements. Statement I: Minerals are absorbed by the plants from soil and surroundings. Statement II: Absorption of minerals is dependent on water absorption. In light of above statements, choose the correct answer from the options given below.",
+    "question_latex": "Given below are two statements. Statement I: Minerals are absorbed by the plants from soil and surroundings. Statement II: Absorption of minerals is dependent on water absorption. In light of above statements, choose the correct answer from the options given below.",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are correct.",
+      "B. Statement I is incorrect and statement II is correct.",
+      "C. Statement I is correct and statement II is incorrect.",
+      "D. Both statement I and statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Statement I is correct and statement II is incorrect.",
+    "solution": "Absorption of minerals is independent of water absorption. Minerals are absorbed with water and translocated with ascent of sap, but their absorption mechanism is independent. They are also remobilized within parts of plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Plant Water Relations",
+    "question": "In plants, active absorption usually does NOT occur when",
+    "question_latex": "In plants, active absorption usually does NOT occur when",
+    "question_images": [],
+    "options": [
+      "A. It is night time",
+      "B. Stomata are closed",
+      "C. Stomata are open",
+      "D. Transpiration stops"
+    ],
+    "option_images": [],
+    "answer": "C. Stomata are open",
+    "solution": "When stomata are open, transpiration pull helps in absorption of water upward which is a passive process. Active absorption is not required when stomata are open and passive absorption via transpiration pull occurs.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Plant Water Relations",
+    "question": "The reduction in the diffusion pressure of a substance in a system over its pure state, is known as",
+    "question_latex": "The reduction in the diffusion pressure of a substance in a system over its pure state, is known as",
+    "question_images": [],
+    "options": [
+      "A. turgor pressure",
+      "B. osmotic pressure",
+      "C. diffusion pressure deficit",
+      "D. turgor pressure deficit"
+    ],
+    "option_images": [],
+    "answer": "C. diffusion pressure deficit",
+    "solution": "Diffusion Pressure Deficit (DPD) is the reduction in the diffusion pressure of a substance in a system over its pure state. It represents the capacity of a cell to absorb water.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Plant Water Relations",
+    "question": "Most widely accepted explanation for ascent of sap in plant is",
+    "question_latex": "Most widely accepted explanation for ascent of sap in plant is",
+    "question_images": [],
+    "options": [
+      "A. root pressure theory",
+      "B. capillary theory",
+      "C. physical theory",
+      "D. cohesion-tension theory"
+    ],
+    "option_images": [],
+    "answer": "D. cohesion-tension theory",
+    "solution": "The cohesion-tension theory (proposed by Dixon and Jolly) is the most widely accepted explanation for ascent of sap in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Plant Water Relations",
+    "question": "The most common pathway of translocation from leaves to stem and roots is",
+    "question_latex": "The most common pathway of translocation from leaves to stem and roots is",
+    "question_images": [],
+    "options": [
+      "A. upward translocation",
+      "B. radial translocation",
+      "C. downward translocation",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "C. downward translocation",
+    "solution": "The most common pathway of translocation from leaves (source) to stem and roots (sink) is downward translocation through the phloem.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Plant Water Relations",
+    "question": "Movement of particles of solute across a membrane independent of particles of other solutes is called as",
+    "question_latex": "Movement of particles of solute across a membrane independent of particles of other solutes is called as",
+    "question_images": [],
+    "options": [
+      "A. uniport",
+      "B. symport",
+      "C. antiport",
+      "D. aport"
+    ],
+    "option_images": [],
+    "answer": "A. uniport",
+    "solution": "Uniport is the movement of a single type of molecule across a membrane independently, without coupling it to the transport of another molecule.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Plant Water Relations",
+    "question": "During germination of seed, water absorption takes place by _________",
+    "question_latex": "During germination of seed, water absorption takes place by \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. Imbibitions",
+      "B. Endosmosis",
+      "C. Osmotic pressure",
+      "D. Exosmosis"
+    ],
+    "option_images": [],
+    "answer": "A. Imbibitions",
+    "solution": "First step in the process of germination is imbibition. Water is absorbed by solid colloids causing increasing in volume. Endo-osmosis is inward movement of water and exo-osmosis is outward movement of water. OP is pressure exerted on plasma membrane.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Plant Water Relations",
+    "question": "In monocot guard cells are thick only in",
+    "question_latex": "In monocot guard cells are thick only in",
+    "question_images": [],
+    "options": [
+      "A. middle",
+      "B. outer",
+      "C. inner",
+      "D. upper"
+    ],
+    "option_images": [],
+    "answer": "A. middle",
+    "solution": "In monocot guard cells (dumbbell-shaped), the walls are thick only in the middle region, making them bulge at the ends when turgid, thus opening the stomatal pore.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following facilitate the water movement in plants?",
+    "question_latex": "Which of the following facilitate the water movement in plants?",
+    "question_images": [],
+    "options": [
+      "A. simple proteins",
+      "B. aquaporins",
+      "C. simple lipids",
+      "D. phospholipids"
+    ],
+    "option_images": [],
+    "answer": "B. aquaporins",
+    "solution": "Aquaporins are channel proteins embedded in the cell membrane that facilitate the movement of water molecules across the membrane in plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Plant Water Relations",
+    "question": "The additional apoplastic route of water that allows direct access to xylem and phloem is along the margins of ____",
+    "question_latex": "The additional apoplastic route of water that allows direct access to xylem and phloem is along the margins of \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. root hair",
+      "B. primary root",
+      "C. secondary root",
+      "D. casperian strips"
+    ],
+    "option_images": [],
+    "answer": "C. secondary root",
+    "solution": "The additional apoplastic route of water that allows direct access to xylem and phloem is along the margins of secondary root as they show well developed vascular tissues.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Plant Water Relations",
+    "question": "Which water is absorbed by roots present in soil?",
+    "question_latex": "Which water is absorbed by roots present in soil?",
+    "question_images": [],
+    "options": [
+      "A. hygroscopic",
+      "B. Gravitational",
+      "C. Capillary",
+      "D. Combined"
+    ],
+    "option_images": [],
+    "answer": "C. Capillary",
+    "solution": "Some amount of water is held in pores present between the neighboring soil particles, due to capillarity. This is called capillary water that is available for absorption by roots.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Plant Water Relations",
+    "question": "Flow of water through passage cells and pericycle is through",
+    "question_latex": "Flow of water through passage cells and pericycle is through",
+    "question_images": [],
+    "options": [
+      "A. transmembrane",
+      "B. intercellular spaces",
+      "C. symplast",
+      "D. apoplast"
+    ],
+    "option_images": [],
+    "answer": "C. symplast",
+    "solution": "Flow of water through passage cells and pericycle is through the symplast pathway, which involves movement through the cytoplasm (protoplasm) and plasmodesmata of cells.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Plant Water Relations",
+    "question": "Water potential of pure water at normal temperature and pressure is________",
+    "question_latex": "Water potential of pure water at normal temperature and pressure is \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. Zero",
+      "B. Always positive",
+      "C. One",
+      "D. Less than one"
+    ],
+    "option_images": [],
+    "answer": "A. Zero",
+    "solution": "Water potential ($\\Psi_w$) is the amount of energy with water molecules. It is maximum in pure water form so it is considered $\\Psi_w = 0$ in pure water. As we add solute, water potential decreases and is measured as negative.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Plant Water Relations",
+    "question": "The correct sequence of pathway of water is",
+    "question_latex": "The correct sequence of pathway of water is",
+    "question_images": [],
+    "options": [
+      "A. Soil water → Root hair → Cortex → Passage cells → Pericycle → Xylem → Xylem vessel → Leaves",
+      "B. Soil water → Cortex → Root hair → Passage cells → Xylem → Xylem vessel → Leaves",
+      "C. Soil water → Cortex → Passage cells → Root hair → Xylem → Xylem vessel → Leaves",
+      "D. Soil water → Cortex → Xylem → Root hair → Passage cells → Xylem vessel → Leaves"
+    ],
+    "option_images": [],
+    "answer": "A. Soil water → Root hair → Cortex → Passage cells → Pericycle → Xylem → Xylem vessel → Leaves",
+    "solution": "The correct sequence of water pathway in plants is: Soil water → Root hair → Cortex → Passage cells → Pericycle → Xylem → Xylem vessel → Leaves.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Plant Water Relations",
+    "question": "D.P.D. is equal to",
+    "question_latex": "D.P.D. is equal to",
+    "question_images": [],
+    "options": [
+      "A. T.P. - W.P.",
+      "B. O.P. + T.P.",
+      "C. O.P. - T.P.",
+      "D. O.P. + W.P."
+    ],
+    "option_images": [],
+    "answer": "B. O.P. + T.P.",
+    "solution": "Wait — this formula appears to have an error. The standard formula is DPD = OP - TP. However, as per the given answer key, the answer is B (O.P. + T.P.). Following the given answer: $\\text{D.P.D.} = \\text{O.P.} - \\text{T.P.}$ is the standard formula, but the given answer is B.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Plant Water Relations",
+    "question": "During phase of cell enlargement in plant growth, solute concentration favors________",
+    "question_latex": "During phase of cell enlargement in plant growth, solute concentration favors \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. Endosmosis",
+      "B. Exosmosis",
+      "C. Imbibition",
+      "D. Plasmolysis"
+    ],
+    "option_images": [],
+    "answer": "A. Endosmosis",
+    "solution": "Cell enlargement is the second phase of growth. The solute concentration favors endosmosis and the cell becomes turgid. More cellulose is added for expansion and a large vacuole appears at the center of the cell.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Plant Water Relations",
+    "question": "When two types of molecules cross the membrane in same direction it is called as",
+    "question_latex": "When two types of molecules cross the membrane in same direction it is called as",
+    "question_images": [],
+    "options": [
+      "A. uniport",
+      "B. symport",
+      "C. antiport",
+      "D. aport"
+    ],
+    "option_images": [],
+    "answer": "B. symport",
+    "solution": "Symport is the transport of two different molecules across a membrane in the same direction simultaneously. Antiport is transport in opposite directions. Uniport is transport of a single molecule type.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Plant Water Relations",
+    "question": "In transpiration water loss is in _____ form.",
+    "question_latex": "In transpiration water loss is in \\underline{\\hspace{1cm}} form.",
+    "question_images": [],
+    "options": [
+      "A. liquid state",
+      "B. solid state",
+      "C. vapour state",
+      "D. gel state"
+    ],
+    "option_images": [],
+    "answer": "C. vapour state",
+    "solution": "In transpiration, water is lost in the form of water vapour through stomata, cuticle, or lenticels. This differentiates it from guttation where water is lost in liquid form.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Plant Water Relations",
+    "question": "When water moves through a semipermeable membrane then which of the following pressure develops?",
+    "question_latex": "When water moves through a semipermeable membrane then which of the following pressure develops?",
+    "question_images": [],
+    "options": [
+      "A. osmotic pressure",
+      "B. suction pressure",
+      "C. turgor pressure",
+      "D. wall pressure"
+    ],
+    "option_images": [],
+    "answer": "A. osmotic pressure",
+    "solution": "When water moves through a semipermeable membrane by osmosis, osmotic pressure develops. Osmotic pressure is the pressure required to prevent the net flow of water across the membrane.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Plant Water Relations",
+    "question": "The following figure shows the stomatal apparatus. Identify the parts labelled as A, B, C and D. Choose the correct answer from the following.",
+    "question_latex": "The following figure shows the stomatal apparatus. Identify the parts labelled as $A$, $B$, $C$ and $D$. Choose the correct answer from the following.",
+    "question_images": [
+      "52_qu_1.png"
+    ],
+    "options": [
+      "A. A=Guard cells, B=Stoma, C=Chloroplasts, D=Subsidiary cells",
+      "B. A=Subsidiary cells, B=Chloroplasts, C=Stoma, D=Guard cells",
+      "C. A=Guard cells, B=Chloroplasts, C=Stoma, D=Subsidiary cells",
+      "D. A=Subsidiary cells, B=Stoma, C=Chloroplasts, D=Guard cells"
+    ],
+    "option_images": [],
+    "answer": "C. A=Guard cells, B=Chloroplasts, C=Stoma, D=Subsidiary cells",
+    "solution": "In the stomatal apparatus: A = Guard cells (outer bean/kidney-shaped cells), B = Chloroplasts (present in guard cells), C = Stoma (the pore), D = Subsidiary cells (surrounding the guard cells).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Plant Water Relations",
+    "question": "Given below are two statements. Statement-I: Guard cells of stomata are kidney shaped in dicotyledons and dumbbell shaped in monocotyledons. Statement-II: In Cyperus, both kidney and dumbbell shaped guard cells are present. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_latex": "Given below are two statements. Statement-I: Guard cells of stomata are kidney shaped in dicotyledons and dumbbell shaped in monocotyledons. Statement-II: In $Cyperus$, both kidney and dumbbell shaped guard cells are present. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "D. Both statement I and statement II are correct.",
+    "solution": "Both statements are correct. Guard cells are kidney-shaped in dicots and dumbbell-shaped in monocots. In Cyperus (a monocot sedge), both kidney and dumbbell shaped guard cells are present.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Plant Water Relations",
+    "question": "When the membranes allow free passage of solvent (water) and most of the dissolved substances are called as",
+    "question_latex": "When the membranes allow free passage of solvent (water) and most of the dissolved substances are called as",
+    "question_images": [],
+    "options": [
+      "A. semipermeable membrane",
+      "B. permeable membrane",
+      "C. selectively permeable membrane",
+      "D. impermeable membrane"
+    ],
+    "option_images": [],
+    "answer": "B. permeable membrane",
+    "solution": "A permeable membrane allows free passage of both solvent (water) and most dissolved substances. A semipermeable membrane allows only the solvent to pass, and a selectively permeable membrane allows passage of specific molecules.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Plant Water Relations",
+    "question": "Continuous system of cell walls and intercellular spaces without crossing any membrane in plant tissues is",
+    "question_latex": "Continuous system of cell walls and intercellular spaces without crossing any membrane in plant tissues is",
+    "question_images": [],
+    "options": [
+      "A. symplast",
+      "B. apoplast",
+      "C. transmembrane",
+      "D. diffusion"
+    ],
+    "option_images": [],
+    "answer": "B. apoplast",
+    "solution": "The apoplast is the continuous system of cell walls and intercellular spaces through which water can move without crossing any membrane. The symplast involves movement through the cytoplasm and plasmodesmata.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Plant Water Relations",
+    "question": "Enzyme required for nitrogen fixation is",
+    "question_latex": "Enzyme required for nitrogen fixation is",
+    "question_images": [],
+    "options": [
+      "A. Nitrogenase",
+      "B. Nitroreductase",
+      "C. transaminase",
+      "D. Transferase"
+    ],
+    "option_images": [],
+    "answer": "A. Nitrogenase",
+    "solution": "Nitrogenase is the enzyme required for nitrogen fixation. It is anaerobic in nature and is destroyed in the presence of oxygen.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Plant Water Relations",
+    "question": "Transpiration is 'unavoidable evil' is termed by",
+    "question_latex": "Transpiration is 'unavoidable evil' is termed by",
+    "question_images": [],
+    "options": [
+      "A. Curtis",
+      "B. Steward",
+      "C. Boehm",
+      "D. Stocking"
+    ],
+    "option_images": [],
+    "answer": "A. Curtis",
+    "solution": "Curtis termed transpiration as 'unavoidable evil' because while transpiration helps in creating transpiration pull for ascent of sap, it also leads to harmful water loss from the plant.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Plant Water Relations",
+    "question": "Which form of water is absorbed by roots?",
+    "question_latex": "Which form of water is absorbed by roots?",
+    "question_images": [],
+    "options": [
+      "A. hygroscopic",
+      "B. Gravitational",
+      "C. Combined",
+      "D. Capillary"
+    ],
+    "option_images": [],
+    "answer": "D. Capillary",
+    "solution": "Some amount of water is held in pores present between the neighboring soil particles, due to capillarity. This is called capillary water that is available for absorption by roots.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Plant Water Relations",
+    "question": "Which one of the following is NOT a property of water?",
+    "question_latex": "Which one of the following is NOT a property of water?",
+    "question_images": [],
+    "options": [
+      "A. Water is in liquid form at room temperature.",
+      "B. Water is best solvent for most of the solutes.",
+      "C. Water is inert inorganic compound in pure form.",
+      "D. pH of pure water is acidic."
+    ],
+    "option_images": [],
+    "answer": "D. pH of pure water is acidic.",
+    "solution": "pH of pure water is neutral (7), not acidic. Water is an inert inorganic compound with neutral pH when in pure form. Due to this, water is the best transporting medium for dissolved minerals and food molecules.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Plant Water Relations",
+    "question": "A soil is physiologically dry when",
+    "question_latex": "A soil is physiologically dry when",
+    "question_images": [],
+    "options": [
+      "A. soil sap is hypotonic to cell",
+      "B. soil sap is isotonic to cell",
+      "C. soil sap is hypertonic to cell sap",
+      "D. soil sap is dilute to cell sap"
+    ],
+    "option_images": [],
+    "answer": "C. soil sap is hypertonic to cell sap",
+    "solution": "A soil is physiologically dry when soil sap is hypertonic to cell sap. In this condition, water moves out of the root cells by exosmosis and the plant cannot absorb water even if water is present in the soil.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Plant Water Relations",
+    "question": "Stomata are found on",
+    "question_latex": "Stomata are found on",
+    "question_images": [],
+    "options": [
+      "A. epidermis of leaves",
+      "B. epidermis of underground parts",
+      "C. epidermis of subaerial parts",
+      "D. epiblema"
+    ],
+    "option_images": [],
+    "answer": "A. epidermis of leaves",
+    "solution": "Stomata are found on the epidermis of leaves (and sometimes on young green stems). They are absent in underground parts and are not found on epiblema (root epidermis).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Plant Water Relations",
+    "question": "The figure below is showing two chambers A and B having different concentration of solutions separated by a semi-permeable membrane. Identify the correct statement.",
+    "question_latex": "The figure below is showing two chambers $A$ and $B$ having different concentration of solutions separated by a semi-permeable membrane. Identify the correct statement.",
+    "question_images": [
+      "62_qu_1.png"
+    ],
+    "options": [
+      "A. Movement of solvent molecules takes place from chamber 'A' to chamber 'B' till equilibrium.",
+      "B. There is no movement of solvent between chamber 'A' and 'B'.",
+      "C. Movement of solvent molecules takes place from chamber 'B' to chamber 'A' till equilibrium.",
+      "D. Movement of solute molecules takes place from chamber 'B' to chamber 'A' till equilibrium."
+    ],
+    "option_images": [],
+    "answer": "C. Movement of solvent molecules takes place from chamber 'B' to chamber 'A' till equilibrium.",
+    "solution": "Osmosis is the movement of water from higher concentration to lower concentration across a semipermeable membrane. In the given diagram, solution B is dilute (more water molecules) and solution A is concentrated (fewer water molecules), so solvent (water) moves from B to A.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Plant Water Relations",
+    "question": "High rate of transpiration is found in plants growing",
+    "question_latex": "High rate of transpiration is found in plants growing",
+    "question_images": [],
+    "options": [
+      "A. at sea level",
+      "B. on small hills",
+      "C. on mountains of high altitude",
+      "D. on other trees"
+    ],
+    "option_images": [],
+    "answer": "C. on mountains of high altitude",
+    "solution": "High rate of transpiration is found in plants growing at high altitude mountains because the atmospheric pressure is lower at high altitude, causing the vapor pressure gradient to increase, thus increasing the rate of transpiration.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Plant Water Relations",
+    "question": "All of the following are true about imbibition except",
+    "question_latex": "All of the following are true about imbibition except",
+    "question_images": [],
+    "options": [
+      "A. the proteins have high imbibing capacity than starch",
+      "B. the cellulose has least capacity of imbibitions",
+      "C. agar-agar imbibe maximum i.e. 99 times",
+      "D. wood is bad imbibant"
+    ],
+    "option_images": [],
+    "answer": "B. the cellulose has least capacity of imbibitions",
+    "solution": "Cellulose does NOT have the least capacity for imbibition. The order of imbibing capacity is: proteins > starch > cellulose. Agar-agar has maximum imbibition capacity. Hence option B is false — cellulose has more imbibing capacity than claimed in B.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Plant Water Relations",
+    "question": "___form of water, which reaches at the soil water table due to the gravitational force after the rainfall and may be available by mechanical methods or by tubewell irrigation is called as",
+    "question_latex": "\\underline{\\hspace{1cm}} form of water, which reaches at the soil water table due to the gravitational force after the rainfall and may be available by mechanical methods or by tubewell irrigation is called as",
+    "question_images": [],
+    "options": [
+      "A. hygroscopic water",
+      "B. capillary water",
+      "C. gravitational water",
+      "D. run away water"
+    ],
+    "option_images": [],
+    "answer": "C. gravitational water",
+    "solution": "Gravitational water is the form of water that percolates down to reach the water table due to gravitational force after rainfall. It can be made available to plants by mechanical methods like tube-well irrigation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following statements are correct regarding the factors affecting absorption by plants? (I) In dicots, the guard cells are dumbbell shaped. (II) The transport of food through phloem is bidirectional. (III) Capillary water is available to plants. (IV) Lenticels are small, raised structures composed of compactly arranged complementary cells. (V) Stomatal transpiration occurs during day time only. Choose the correct option.",
+    "question_latex": "Which of the following statements are correct regarding the factors affecting absorption by plants? (I) In dicots, the guard cells are dumbbell shaped. (II) The transport of food through phloem is bidirectional. (III) Capillary water is available to plants. (IV) Lenticels are small, raised structures composed of compactly arranged complementary cells. (V) Stomatal transpiration occurs during day time only. Choose the correct option.",
+    "question_images": [],
+    "options": [
+      "A. (II), (III) and (IV) only",
+      "B. (I), (III) and (IV) only",
+      "C. (II), (III) and (V) only",
+      "D. (I), (II) and (III) only"
+    ],
+    "option_images": [],
+    "answer": "C. (II), (III) and (V) only",
+    "solution": "Statement I is incorrect: In dicots, guard cells are kidney-shaped, not dumbbell-shaped. Statement IV is incorrect: Lenticels are composed of loosely arranged (not compactly arranged) complementary cells. Statements II, III, and V are correct.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Plant Water Relations",
+    "question": "Root pressure occurs due to",
+    "question_latex": "Root pressure occurs due to",
+    "question_images": [],
+    "options": [
+      "A. high imbibitional pressure of leaves",
+      "B. low imbibitional pressure of leaves",
+      "C. osmotic flow of water into xylem of absorbing part of root",
+      "D. diffusion pressure of root becomes higher"
+    ],
+    "option_images": [],
+    "answer": "C. osmotic flow of water into xylem of absorbing part of root",
+    "solution": "Root pressure occurs due to osmotic flow of water into the xylem of the absorbing part of root. Active transport of ions into the xylem lowers water potential, causing water to flow in osmotically.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Plant Water Relations",
+    "question": "Rate of transpiration can be measured by",
+    "question_latex": "Rate of transpiration can be measured by",
+    "question_images": [],
+    "options": [
+      "A. Ganong's photometer",
+      "B. porometer",
+      "C. auxanometer",
+      "D. respirometer"
+    ],
+    "option_images": [],
+    "answer": "A. Ganong's photometer",
+    "solution": "The rate of transpiration can be measured by Ganong's photometer (potometer). A porometer measures the degree of stomatal opening, auxanometer measures plant growth, and respirometer measures respiration rate.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Plant Water Relations",
+    "question": "When membranes do not allow the entry of water & dissolved substances are called as",
+    "question_latex": "When membranes do not allow the entry of water \\& dissolved substances are called as",
+    "question_images": [],
+    "options": [
+      "A. semipermeable membrane",
+      "B. permeable membrane",
+      "C. selectively permeable membrane",
+      "D. impermeable membrane"
+    ],
+    "option_images": [],
+    "answer": "D. impermeable membrane",
+    "solution": "An impermeable membrane does not allow the entry of water or any dissolved substances. A semipermeable membrane allows only the solvent to pass, and a selectively permeable membrane allows selected substances to pass.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Plant Water Relations",
+    "question": "The movement of molecules from the region of higher concentration to lower concentration until equilibrium is maintained is known as",
+    "question_latex": "The movement of molecules from the region of higher concentration to lower concentration until equilibrium is maintained is known as",
+    "question_images": [],
+    "options": [
+      "A. diffusion",
+      "B. imbibition",
+      "C. absorption",
+      "D. adsorption"
+    ],
+    "option_images": [],
+    "answer": "A. diffusion",
+    "solution": "Diffusion is the passive movement of molecules from a region of higher concentration to a region of lower concentration until equilibrium is reached.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Plant Water Relations",
+    "question": "Water is the best medium for the transport of dissolved minerals and food molecules because it has____.",
+    "question_latex": "Water is the best medium for the transport of dissolved minerals and food molecules because it has \\underline{\\hspace{2cm}}.",
+    "question_images": [],
+    "options": [
+      "A. neutral pH",
+      "B. high adhesive force",
+      "C. high surface tension",
+      "D. high cohesive force"
+    ],
+    "option_images": [],
+    "answer": "A. neutral pH",
+    "solution": "Water is the best medium for the transport of dissolved minerals and food molecules because it has neutral pH. This neutral pH ensures minerals and food molecules can remain dissolved without chemical alteration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Plant Water Relations",
+    "question": "During translocation the glucose synthesized in leaves is",
+    "question_latex": "During translocation the glucose synthesized in leaves is",
+    "question_images": [],
+    "options": [
+      "A. directly translocated to sink",
+      "B. converted into starch",
+      "C. converted into sucrose",
+      "D. converted into insoluble sugar"
+    ],
+    "option_images": [],
+    "answer": "C. converted into sucrose",
+    "solution": "During translocation, glucose synthesized in leaves by photosynthesis is first converted into sucrose (a transport sugar) which is then loaded into the phloem and translocated to sink regions.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following is true for mineral absorption?",
+    "question_latex": "Which of the following is true for mineral absorption?",
+    "question_images": [],
+    "options": [
+      "A. endodermal cells thus function as control points",
+      "B. due to casparian strips endodermis transports ions only inwardly towards xylem",
+      "C. transport ions not in the reverse direction",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "D. all of these",
+    "solution": "All statements are true for mineral absorption: endodermal cells function as control points, the casparian strips of endodermis ensure ions are transported only inwardly towards xylem, and ions cannot be transported in the reverse direction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Plant Water Relations",
+    "question": "Root hair absorbs water from soil by the process of",
+    "question_latex": "Root hair absorbs water from soil by the process of",
+    "question_images": [],
+    "options": [
+      "A. Turgor pressure",
+      "B. Osmosis",
+      "C. Ion exchange",
+      "D. D.P.D."
+    ],
+    "option_images": [],
+    "answer": "B. Osmosis",
+    "solution": "Root hairs absorb water by the process of osmosis. DPD, ion exchange, and TP are terms used for internal factors in the cell. Water moves from the soil (higher water potential) into the root hair (lower water potential) by osmosis.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Plant Water Relations",
+    "question": "For vertical translocation in plants, the most ideal and structurally suited elements are ___",
+    "question_latex": "For vertical translocation in plants, the most ideal and structurally suited elements are \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. companion cells only",
+      "B. sieve tube and vessels only",
+      "C. bast fibres only",
+      "D. sieve tubes only"
+    ],
+    "option_images": [],
+    "answer": "B. sieve tube and vessels only",
+    "solution": "Sieve tubes and vessels are the most ideal and structurally suited elements for vertical translocation in plants. Sieve tubes transport food in phloem and vessels transport water in xylem.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Plant Water Relations",
+    "question": "Total amount of water present in the soil is called.... Water absorbed by plant is called as... Water which is not available by plant is called as",
+    "question_latex": "Total amount of water present in the soil is called.... Water absorbed by plant is called as... Water which is not available by plant is called as",
+    "question_images": [],
+    "options": [
+      "A. chesard, echard, holard",
+      "B. holard, chesard, echard",
+      "C. echard, chesard, holard",
+      "D. capillary water, holard, chesard"
+    ],
+    "option_images": [],
+    "answer": "B. holard, chesard, echard",
+    "solution": "Holard is the total amount of water present in the soil. Chesard is the water absorbed by the plant (available water). Echard is the water not available to the plant (unavailable water).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Plant Water Relations",
+    "question": "Rate of transpiration is inversely proportional to",
+    "question_latex": "Rate of transpiration is inversely proportional to",
+    "question_images": [],
+    "options": [
+      "A. light",
+      "B. availability of soil water",
+      "C. temperature",
+      "D. humidity of air"
+    ],
+    "option_images": [],
+    "answer": "D. humidity of air",
+    "solution": "Rate of transpiration is inversely proportional to humidity of air. When humidity increases, the vapor pressure gradient between the leaf and atmosphere decreases, reducing transpiration.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Plant Water Relations",
+    "question": "Transpiration pull will be maximum under which of the following conditions?",
+    "question_latex": "Transpiration pull will be maximum under which of the following conditions?",
+    "question_images": [],
+    "options": [
+      "A. open stomata, high humid condition and well irrigated soil",
+      "B. open stomata, dry atmosphere and moist soil",
+      "C. open stomata, high humid atmosphere and high light intensity",
+      "D. open stomata, low light intensity and humid atmosphere"
+    ],
+    "option_images": [],
+    "answer": "B. open stomata, dry atmosphere and moist soil",
+    "solution": "Transpiration pull will be maximum when stomata are open (allowing maximum water vapor exit), atmosphere is dry (high vapor pressure gradient), and soil is moist (adequate water supply to roots).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Plant Water Relations",
+    "question": "Which one of the following will have minimum water potential?",
+    "question_latex": "Which one of the following will have minimum water potential?",
+    "question_images": [],
+    "options": [
+      "A. Hypotonic solution",
+      "B. Pure water",
+      "C. Dilute solution",
+      "D. Saturated solution"
+    ],
+    "option_images": [],
+    "answer": "D. Saturated solution",
+    "solution": "Water potential is the amount of energy with water molecules which is considered zero in pure water. It goes on decreasing with increase in solute concentration and is considered negative. A saturated solution has maximum solute concentration, hence minimum (most negative) water potential.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Plant Water Relations",
+    "question": "During night time, guard cells",
+    "question_latex": "During night time, guard cells",
+    "question_images": [],
+    "options": [
+      "A. shows swelling",
+      "B. convert starch to sugar",
+      "C. become flaccid",
+      "D. increases turgor pressure"
+    ],
+    "option_images": [],
+    "answer": "C. become flaccid",
+    "solution": "During night time, guard cells become flaccid because photosynthesis stops, CO₂ accumulates, pH decreases, sugar is converted back to starch, and osmotic potential decreases, causing water to leave the guard cells making them flaccid and closing the stomata.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Plant Water Relations",
+    "question": "In apoplast pathway, movement of water takes place through ______ in root.",
+    "question_latex": "In apoplast pathway, movement of water takes place through \\underline{\\hspace{2cm}} in root.",
+    "question_images": [],
+    "options": [
+      "A. Endodermis cells with Casperian strips",
+      "B. Cytoplasmic bridges called Plasmodesmata",
+      "C. Osmosis and diffusion",
+      "D. Cell walls and intercellular spaces"
+    ],
+    "option_images": [],
+    "answer": "D. Cell walls and intercellular spaces",
+    "solution": "Transport of water in root cells occurs by two ways: apoplast and symplast pathway. In apoplast pathway, water moves through cell walls and intercellular spaces. In symplast pathway, water moves through the protoplasm of cells via plasmodesmata.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Plant Water Relations",
+    "question": "Match column I with column II.",
+    "question_latex": "Match column I with column II.",
+    "question_images": [
+      "82_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(i), (b)-(iii), (c)-(ii)",
+      "B. (a)-(i), (b)-(ii), (c)-(iii)",
+      "C. (a)-(ii), (b)-(iii), (c)-(i)",
+      "D. (a)-(ii), (b)-(i), (c)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(ii), (b)-(i), (c)-(iii)",
+    "solution": "Radial translocation (a) - Translocation of food from phloem to pith (ii). Tangential translocation (b) - Translocation of food from phloem to cortex (i). Longitudinal translocation (c) - Translocation of food from source to sink (iii).",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Plant Water Relations",
+    "question": "Final stage of plasmolysis when protoplasm separates from cell wall & becomes spherical is called.",
+    "question_latex": "Final stage of plasmolysis when protoplasm separates from cell wall \\& becomes spherical is called.",
+    "question_images": [],
+    "options": [
+      "A. evident plasmolysis",
+      "B. incipient plasmolysis",
+      "C. deplasmolysis",
+      "D. replasmolysis"
+    ],
+    "option_images": [],
+    "answer": "A. evident plasmolysis",
+    "solution": "Evident plasmolysis (also called extreme or complete plasmolysis) is the final stage when the protoplasm completely separates from the cell wall and becomes spherical.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Plant Water Relations",
+    "question": "A metal ion involved in stomatal regulation is",
+    "question_latex": "A metal ion involved in stomatal regulation is",
+    "question_images": [],
+    "options": [
+      "A. Iron",
+      "B. Potassium",
+      "C. Zinc",
+      "D. Magnesium"
+    ],
+    "option_images": [],
+    "answer": "B. Potassium",
+    "solution": "According to the proton transport theory proposed by Levitt (1974), the regulation of stomata (opening and closing) depends upon the entry and exit of potassium ions ($K^+$) in the guard cells.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Plant Water Relations",
+    "question": "Identify the correct sequence of path of water across the root.",
+    "question_latex": "Identify the correct sequence of path of water across the root.",
+    "question_images": [],
+    "options": [
+      "A. Endodermis → cortical cells → epiblema → pericycle → protoxylem",
+      "B. Protoxylem → pericycle → endodermis → epiblema → cortical cells",
+      "C. Epiblema → protoxylem → endodermis → pericycle → cortical cells",
+      "D. Epiblema → cortical cells → endodermis → pericycle → protoxylem"
+    ],
+    "option_images": [],
+    "answer": "D. Epiblema → cortical cells → endodermis → pericycle → protoxylem",
+    "solution": "Epiblema → cortical cells → endodermis → pericycle → protoxylem is the correct sequence of path of water across the root. Water enters the root through epiblema (root epidermis) and moves inward.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Plant Water Relations",
+    "question": "Given below are two statements in relation to limitation of capillarity theory. Statement-I: Xylem, i.e. capillarity tube, must be with closed end walls and not hollow. Statement-II: The capillarity tube i.e. xylem is not in direct contact with soil water and contains barrier of root between xylem and soil water. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_latex": "Given below are two statements in relation to limitation of capillarity theory. Statement-I: Xylem, i.e. capillarity tube, must be with closed end walls and not hollow. Statement-II: The capillarity tube i.e. xylem is not in direct contact with soil water and contains barrier of root between xylem and soil water. In the light of above statements, choose the most appropriate answer from the options given below.",
+    "question_images": [],
+    "options": [
+      "A. Statement-I is correct but Statement-II is incorrect.",
+      "B. Both statement-I and Statement-II are correct.",
+      "C. Statement-I is incorrect but Statement-II is correct.",
+      "D. Both statement-I and Statement-II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Statement-I is incorrect but Statement-II is correct.",
+    "solution": "Xylem (capillarity tube) must be with open end walls and hollow (found in angiosperms) — so Statement I is incorrect. Statement II is correct — xylem is not in direct contact with soil water and there is a barrier of root tissue between xylem and soil water.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following are hydrophilic substances?",
+    "question_latex": "Which of the following are hydrophilic substances?",
+    "question_images": [],
+    "options": [
+      "A. cellulose",
+      "B. pectin",
+      "C. hemicellulose",
+      "D. all of these"
+    ],
+    "option_images": [],
+    "answer": "D. all of these",
+    "solution": "Cellulose, pectin, and hemicellulose are all hydrophilic substances (water-loving) as they have many hydroxyl groups that can form hydrogen bonds with water molecules.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Plant Water Relations",
+    "question": "The exo-osmosis leads to",
+    "question_latex": "The exo-osmosis leads to",
+    "question_images": [],
+    "options": [
+      "A. turgidity",
+      "B. plasmolysis",
+      "C. deplasmolysis",
+      "D. replasmolysis"
+    ],
+    "option_images": [],
+    "answer": "B. plasmolysis",
+    "solution": "Exo-osmosis is the outward movement of water from the cell when placed in a hypertonic solution. This loss of water causes the cell to shrink, leading to plasmolysis (shrinkage of protoplast away from cell wall).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Plant Water Relations",
+    "question": "If a cell 'A' is having osmotic pressure = 100 bars, turgor pressure = 50 bars and cell 'B' is having osmotic pressure = 100 bars and turgor pressure = 60 bars then, the flow of water occurs ____",
+    "question_latex": "If a cell $A$ is having osmotic pressure $= 100$ bars, turgor pressure $= 50$ bars and cell $B$ is having osmotic pressure $= 100$ bars and turgor pressure $= 60$ bars then, the flow of water occurs \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. From both cell 'A' to cell 'B' and cell 'B' to cell 'A'",
+      "B. From cell 'A' to cell 'B'",
+      "C. From cell 'B' to cell 'A'",
+      "D. In neither direction"
+    ],
+    "option_images": [],
+    "answer": "C. From cell 'B' to cell 'A'",
+    "solution": "DPD of A = OP - TP = $100 - 50 = 50$ bars. DPD of B = OP - TP = $100 - 60 = 40$ bars. Water moves from lower DPD (B = 40 bars) to higher DPD (A = 50 bars). Hence, water flows from cell B to cell A.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Plant Water Relations",
+    "question": "Select the INCORRECT statement.",
+    "question_latex": "Select the INCORRECT statement.",
+    "question_images": [],
+    "options": [
+      "A. Length of root hair is 1-10 mm.",
+      "B. Root hairs are colourless and unbranched.",
+      "C. Root hair is prolongation of epiblema cell.",
+      "D. Root hairs are long lived."
+    ],
+    "option_images": [],
+    "answer": "D. Root hairs are long lived.",
+    "solution": "Root hairs are NOT long lived — they are short-lived and constantly replaced as the root grows. All other statements (A, B, C) are correct about root hairs.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Plant Water Relations",
+    "question": "Match Column I with Column II. Choose the correct option.",
+    "question_latex": "Match Column I with Column II. Choose the correct option.",
+    "question_images": [
+      "91_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(i)",
+      "B. (a)-(iii), (b)-(ii), (c)-(i)",
+      "C. (a)-(ii), (b)-(i), (c)-(iii)",
+      "D. (a)-(i), (b)-(ii), (c)-(iii)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)-(ii), (b)-(iii), (c)-(i)",
+    "solution": "Turgid cell (a) - DPD = 0 (ii), because in a fully turgid cell, OP = TP and DPD = 0. Pure water (b) - Water potential = 0 (iii), since pure water has maximum water potential considered as 0. Flaccid cell (c) - T.P. = 0 (i), because a flaccid cell has no turgor pressure.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Plant Water Relations",
+    "question": "Rate of transpiration is",
+    "question_latex": "Rate of transpiration is",
+    "question_images": [],
+    "options": [
+      "A. faster in blue light than that of red light",
+      "B. faster in green light than that of red light",
+      "C. faster in yellow light than that of red light",
+      "D. faster in far-red light than that of red light"
+    ],
+    "option_images": [],
+    "answer": "A. faster in blue light than that of red light",
+    "solution": "Rate of transpiration is faster in blue light than red light because blue light causes more stomatal opening (blue light activates proton pumps in guard cells more effectively), increasing transpiration.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Plant Water Relations",
+    "question": "Which of the following is NOT true about turgor pressure & wall pressure?",
+    "question_latex": "Which of the following is NOT true about turgor pressure \\& wall pressure?",
+    "question_images": [],
+    "options": [
+      "A. turgor pressure and wall pressure are equal and opposite in direction",
+      "B. the turgor pressure maintains the shape of cell",
+      "C. it helps to maintain the proper position of leaves & helps in opening, closing of stomata",
+      "D. it is not necessary to plant for above processes"
+    ],
+    "option_images": [],
+    "answer": "D. it is not necessary to plant for above processes",
+    "solution": "Option D is NOT true. Turgor pressure is indeed necessary for plants for maintaining cell shape, position of leaves, and opening/closing of stomata. All other statements (A, B, C) are true about turgor pressure and wall pressure.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Plant Water Relations",
+    "question": "Stomatal apparatus consist of",
+    "question_latex": "Stomatal apparatus consist of",
+    "question_images": [],
+    "options": [
+      "A. epidermis, stomata",
+      "B. guard cells, trichomes",
+      "C. guard cells, stoma and accessory cells",
+      "D. subsidiary cells & stoma"
+    ],
+    "option_images": [],
+    "answer": "C. guard cells, stoma and accessory cells",
+    "solution": "The stomatal apparatus consists of guard cells (which regulate the opening and closing), the stoma (the pore itself), and accessory/subsidiary cells (epidermal cells surrounding the guard cells).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Plant Water Relations",
+    "question": "Given below are two statements. Statement I: Cell wall is freely permeable. Statement II: Plasma membrane is selectively permeable. Choose the correct answer from the options given below with reference to structure of root hair.",
+    "question_latex": "Given below are two statements. Statement I: Cell wall is freely permeable. Statement II: Plasma membrane is selectively permeable. Choose the correct answer from the options given below with reference to structure of root hair.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but Statement II is incorrect.",
+      "B. Statement I is incorrect but Statement II is correct.",
+      "C. Both Statement I and Statement II are correct.",
+      "D. Both Statement I and Statement II are incorrect."
+    ],
+    "option_images": [],
+    "answer": "C. Both Statement I and Statement II are correct.",
+    "solution": "Both statements are correct. The cell wall is freely permeable, allowing water and dissolved substances to pass through it. The plasma membrane is selectively permeable, regulating what substances enter and exit the cell.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Plant Water Relations",
+    "question": "Water in plants acts as a thermal buffer because ____",
+    "question_latex": "Water in plants acts as a thermal buffer because \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. it can easily evaporate",
+      "B. it can easily freeze",
+      "C. it has high surface tension",
+      "D. of the hydrogen bonds between water molecules"
+    ],
+    "option_images": [],
+    "answer": "D. of the hydrogen bonds between water molecules",
+    "solution": "Water in plants acts as a thermal buffer because of the hydrogen bonds between water molecules. Water also has high specific heat, high heat of vaporization, and high heat of fusion, all of which help in moderating temperature changes.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Plant Water Relations",
+    "question": "Capillarity theory was proposed by _____",
+    "question_latex": "Capillarity theory was proposed by \\underline{\\hspace{2cm}}",
+    "question_images": [],
+    "options": [
+      "A. Dixon and Jolly",
+      "B. Levitt",
+      "C. J. Priestley",
+      "D. Bohem"
+    ],
+    "option_images": [],
+    "answer": "D. Bohem",
+    "solution": "The capillarity theory was proposed by Bohem in 1863. According to this theory, physical forces and dead cells are responsible for the ascent of sap in plants.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Plant Water Relations",
+    "question": "CO₂ concentration around the leaf increases suddenly, following events occur",
+    "question_latex": "$\\text{CO}_2$ concentration around the leaf increases suddenly, following events occur",
+    "question_images": [],
+    "options": [
+      "A. stomata open gradually",
+      "B. stomata close gradually",
+      "C. transpiration will not be affected",
+      "D. transpiration decreases due to sudden closure of stomata"
+    ],
+    "option_images": [],
+    "answer": "D. transpiration decreases due to sudden closure of stomata",
+    "solution": "When $\\text{CO}_2$ concentration around the leaf increases suddenly, the stomata close rapidly (as high $\\text{CO}_2$ triggers stomatal closure). This leads to a sudden decrease in transpiration.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Plant Water Relations",
+    "question": "The loss of water in the form of liquid occurs through",
+    "question_latex": "The loss of water in the form of liquid occurs through",
+    "question_images": [],
+    "options": [
+      "A. Hydathode",
+      "B. Root",
+      "C. Stomata",
+      "D. Trichome"
+    ],
+    "option_images": [],
+    "answer": "A. Hydathode",
+    "solution": "The loss of water in the form of liquid occurs through hydathodes and the process is called guttation. Stomata lose water in the form of vapor (transpiration), not liquid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Plant Water Relations",
+    "question": "Transpiration takes place by all of the following except",
+    "question_latex": "Transpiration takes place by all of the following except",
+    "question_images": [],
+    "options": [
+      "A. cuticle",
+      "B. lenticels",
+      "C. stomata",
+      "D. hydathode"
+    ],
+    "option_images": [],
+    "answer": "D. hydathode",
+    "solution": "Transpiration occurs through cuticle (cuticular transpiration), lenticels (lenticular transpiration), and stomata (stomatal transpiration). Hydathodes are involved in guttation (loss of liquid water), NOT transpiration.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]

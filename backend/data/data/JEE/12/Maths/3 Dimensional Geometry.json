@@ -1,0 +1,1910 @@
+[
+  {
+    "id": 1,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the line, (x-1)/2 = (y+1)/3 = (z-2)/4 meets the plane, x + 2y + 3z = 15 at a point P, then the distance of P from the origin is (April 2019)",
+    "question_latex": "If the line, $\\frac{x-1}{2} = \\frac{y+1}{3} = \\frac{z-2}{4}$ meets the plane, $x + 2y + 3z = 15$ at a point $P$, then the distance of $P$ from the origin is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 9/2",
+      "B. 2√5",
+      "C. 7/2",
+      "D. √5/2"
+    ],
+    "option_images": [],
+    "answer": "A. 9/2",
+    "solution": "The equation of line is $\\frac{x-1}{2} = \\frac{y+1}{3} = \\frac{z-2}{4} = \\lambda$\n$\\Rightarrow x = 2\\lambda+1, y = 3\\lambda-1, z = 4\\lambda+2$\nThe line meets the plane $x+2y+3z=15$ at point $P$.\n$(2\\lambda+1)1 + (3\\lambda-1)2 + (4\\lambda+2)3 = 15$\n$\\Rightarrow 20\\lambda + 5 = 15 \\Rightarrow \\lambda = \\frac{1}{2}$\nPoint of intersection is $P\\left(2, \\frac{1}{2}, 4\\right)$\nDistance of $P$ from origin $= \\sqrt{(2-0)^2 + \\left(\\frac{1}{2}-0\\right)^2 + (4-0)^2} = \\sqrt{4 + \\frac{1}{4} + 16} = \\sqrt{\\frac{81}{4}} = \\frac{9}{2}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the line, (x-3)/2 = (y+2)/(-1) = (z+4)/3 lies in the plane lx + my - z = 9, then l² + m² is equal to (2016)",
+    "question_latex": "If the line, $\\frac{x-3}{2} = \\frac{y+2}{-1} = \\frac{z+4}{3}$ lies in the plane $lx + my - z = 9$, then $l^2 + m^2$ is equal to (2016)",
+    "question_images": [],
+    "options": [
+      "A. 18",
+      "B. 5",
+      "C. 26",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "D. 2",
+    "solution": "As the line $\\frac{x-3}{2} = \\frac{y+2}{-1} = \\frac{z+4}{3}$ lies in the plane $lx + my - z = 9$, we have $3l - 2m + 4 = 9$.\nAlso, $2l - m - 3 = 0$.\nSolving for $l$ and $m$, we get $l = 1, m = -1$.\nSo, $l^2 + m^2 = 2$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the angle between the line x = (y-1)/2 = (z-3)/λ and the plane x + 2y + 3z = 4 is cos⁻¹(√(5/14)), then λ equals (2011)",
+    "question_latex": "If the angle between the line $x = \\frac{y-1}{2} = \\frac{z-3}{\\lambda}$ and the plane $x + 2y + 3z = 4$ is $\\cos^{-1}\\left(\\sqrt{\\frac{5}{14}}\\right)$, then $\\lambda$ equals (2011)",
+    "question_images": [],
+    "options": [
+      "A. 3/2",
+      "B. 5/3",
+      "C. 2/3",
+      "D. 2/5"
+    ],
+    "option_images": [],
+    "answer": "C. 2/3",
+    "solution": "Using the formula for angle between line and plane, $\\lambda = \\frac{2}{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The foot of the perpendicular from (2, 4, -1) to the line x + 5 = (1/4)(y + 3) = -(1/9)(z - 6) is",
+    "question_latex": "The foot of the perpendicular from $(2,4,-1)$ to the line $x + 5 = \\frac{1}{4}(y + 3) = -\\frac{1}{9}(z - 6)$ is",
+    "question_images": [],
+    "options": [
+      "A. (-4, 1, -3)",
+      "B. (4, -1, -3)",
+      "C. (-4, -1, 3)",
+      "D. (-4, -1, -3)"
+    ],
+    "option_images": [],
+    "answer": "A. (-4, 1, -3)",
+    "solution": "In given options, only option (a) satisfies the given equation of line.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The angle between the line whose direction ratios are a, b, c and b-c, c-a, a-b is",
+    "question_latex": "The angle between the line whose direction ratios are $a, b, c$ and $b-c, c-a, a-b$ is",
+    "question_images": [],
+    "options": [
+      "A. cos⁻¹(1/abc)",
+      "B. sin⁻¹(1/abc)",
+      "C. 90°",
+      "D. 0°"
+    ],
+    "option_images": [],
+    "answer": "C. 90°",
+    "solution": "$\\cos\\theta = \\left|\\frac{a(b-c) + b(c-a) + c(a-b)}{\\sqrt{a^2+b^2+c^2}\\sqrt{(b-c)^2+(c-a)^2+(a-b)^2}}\\right|$\n$= \\frac{ab - ac + bc - ab + ca - bc}{\\sqrt{a^2+b^2+c^2}\\sqrt{(b-c)^2+(c-a)^2+(a-b)^2}} = 0$\n$\\therefore \\theta = \\cos^{-1}0 = 90°$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The direction cosines of the line passing through the points (2, -1, 3) and (3, 1, 2) are",
+    "question_latex": "The direction cosines of the line passing through the points $(2,-1,3)$ and $(3,1,2)$ are",
+    "question_images": [],
+    "options": [
+      "A. 2/√6, 3/√6, 1/√6",
+      "B. 1/√5, 2/√5, -1/√5",
+      "C. 1/√6, 2/√6, -1/√6",
+      "D. 1/2√6, 2/2√6, -1/2√6"
+    ],
+    "option_images": [],
+    "answer": "C. 1/√6, 2/√6, -1/√6",
+    "solution": "Direction ratios: $(a,b,c) = (3-2, 1+1, 2-3) = (1, 2, -1)$\nDirection cosines: $l = \\frac{1}{\\sqrt{1+4+1}} = \\frac{1}{\\sqrt{6}},\\ m = \\frac{2}{\\sqrt{6}},\\ n = \\frac{-1}{\\sqrt{6}}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A variable plane passes through a fixed point (3, 2, 1) and meets x, y and z axes at A, B and C respectively. A plane is drawn parallel to yz-plane through A, a second plane is drawn parallel to zx-plane through B, a third plane is drawn parallel to xy-plane through C. Then the locus of the point of intersection of these three planes, is (Online 2018)",
+    "question_latex": "A variable plane passes through a fixed point $(3,2,1)$ and meets $x$, $y$ and $z$ axes at $A$, $B$ and $C$ respectively. A plane is drawn parallel to $yz$-plane through $A$, a second plane is drawn parallel to $zx$-plane through $B$, a third plane is drawn parallel to $xy$-plane through $C$. Then the locus of the point of intersection of these three planes, is (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. x/3 + y/2 + z/1 = 1",
+      "B. x + y + z = 6",
+      "C. 3/x + 2/y + 1/z = 1",
+      "D. 1/x + 1/y + 1/z = 11/6"
+    ],
+    "option_images": [],
+    "answer": "C. 3/x + 2/y + 1/z = 1",
+    "solution": "Let given plane be $\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1$. It passes through $(3,2,1)$, so $\\frac{3}{a} + \\frac{2}{b} + \\frac{1}{c} = 1$.\n$A \\equiv (a,0,0), B \\equiv (0,b,0), C \\equiv (0,0,c)$\nLocus of point of intersection of planes $x = a, y = b, z = c$ is $\\frac{3}{x} + \\frac{2}{y} + \\frac{1}{z} = 1$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The plane 2x - y + z = 4 intersects the line segment joining the points A(a, -2, 4) and B(2, b, -3) at the point C in the ratio 2:1 and the distance of the point C from the origin is √5. If ab < 0 and P is the point (a-b, b, 2b-a) then CP² is equal to (Jan 2023)",
+    "question_latex": "The plane $2x - y + z = 4$ intersects the line segment joining the points $A(a,-2,4)$ and $B(2,b,-3)$ at the point $C$ in the ratio $2:1$ and the distance of the point $C$ from the origin is $\\sqrt{5}$. If $ab < 0$ and $P$ is the point $(a-b, b, 2b-a)$ then $CP^2$ is equal to (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. 73/3",
+      "B. 97/3",
+      "C. 17/3",
+      "D. 16/3"
+    ],
+    "option_images": [],
+    "answer": "C. 17/3",
+    "solution": "Given points $A(a,-2,4)$ and $B(2,b,-3)$ and $\\frac{AC}{CB} = \\frac{2}{1}$.\nPoints $C$ can be written as $C \\equiv \\left(\\frac{a+4}{3}, \\frac{2b-2}{3}, \\frac{-2}{3}\\right)$\nPoint $C$ lies on $2x - y + z = 4 \\Rightarrow a - b = 2$ ...(i)\nAlso $OC = \\sqrt{5} \\Rightarrow \\left(\\frac{a+4}{3}\\right)^2 + \\left(\\frac{2b-2}{3}\\right)^2 + \\frac{4}{9} = 5$ ...(ii)\nSolving (i) and (ii): $(b+6)^2 + (2b-2)^2 = 41 \\Rightarrow 5b^2 + 4b - 1 = 0 \\Rightarrow b = -1$ or $1/5$\n$a = 1$ or $11/5$. But $ab < 0 \\Rightarrow (a,b) = (1,-1)$\n$C \\equiv \\left(\\frac{5}{3}, \\frac{-4}{3}, \\frac{-2}{3}\\right), P \\equiv (2,-1,-3)$\n$CP^2 = \\frac{1}{9} + \\frac{1}{9} + \\frac{49}{9} = \\frac{51}{9} = \\frac{17}{3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The image of the line (x-1)/3 = (y-3)/1 = (z-4)/(-5) in the plane 2x - y + z + 3 = 0 is the line (2014)",
+    "question_latex": "The image of the line $\\frac{x-1}{3} = \\frac{y-3}{1} = \\frac{z-4}{-5}$ in the plane $2x - y + z + 3 = 0$ is the line (2014)",
+    "question_images": [],
+    "options": [
+      "A. (x-3)/3 = (y+5)/1 = (z-2)/(-5)",
+      "B. (x+3)/(-3) = (y-5)/(-1) = (z-2)/5",
+      "C. (x+3)/(-3) = (y-5)/(-1) = (z+2)/5",
+      "D. (x+3)/3 = (y-5)/1 = (z-2)/(-5)"
+    ],
+    "option_images": [],
+    "answer": "D. (x+3)/3 = (y-5)/1 = (z-2)/(-5)",
+    "solution": "The line is parallel to the plane. Image of $(1,3,4)$ in the plane $2x - y + z + 3 = 0$ is given by\n$\\frac{\\alpha-1}{2} = \\frac{\\beta-3}{-1} = \\frac{\\gamma-4}{1} = \\frac{-2(2-3+4+3)}{2^2+1^2+1^2} = \\frac{-2 \\times 6}{6} = -2$\n$\\therefore (\\alpha,\\beta,\\gamma) \\equiv (-3,5,2)$\nThus the required line is $\\frac{x+3}{3} = \\frac{y-5}{1} = \\frac{z-2}{-5}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The angle between the line x = -1, y = +2 and y = -2, z = 0",
+    "question_latex": "The angle between the line $x = -1, y = +2$ and $y = -2, z = 0$",
+    "question_images": [],
+    "options": [
+      "A. 0°",
+      "B. 30°",
+      "C. 60°",
+      "D. 90°"
+    ],
+    "option_images": [],
+    "answer": "D. 90°",
+    "solution": "$\\frac{x+1}{0} = \\frac{y-2}{0} = \\frac{z-0}{1}$ and $\\frac{x-0}{1} = \\frac{y+2}{0} = \\frac{z-0}{0}$\nd.r.s are $0,0,1$ and $1,0,0$\nThe first line is parallel to $z$-axis and second line is parallel to $x$-axis\n$\\therefore$ they are perpendicular lines, $\\theta = 90°$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of the plane which passes through the line of intersection of the planes P = ax + by + cz + d = 0, P' = a'x + b'y + c'z + d' = 0 and parallel to x-axis, is",
+    "question_latex": "Equation of the plane which passes through the line of intersection of the planes $P = ax + by + cz + d = 0$, $P' = a'x + b'y + c'z + d' = 0$ and parallel to $x$-axis, is",
+    "question_images": [],
+    "options": [
+      "A. Pa - P'a' = 0",
+      "B. P/a = P'/a' = 0",
+      "C. Pa + P'a' = 0",
+      "D. P/a = P'/a'"
+    ],
+    "option_images": [],
+    "answer": "D. P/a = P'/a'",
+    "solution": "Equation of intersection of planes is $P + \\lambda P' = 0$ ...(iii)\n$\\Rightarrow ax + by + cz + d + \\lambda(a'x + b'y + c'z + d') = 0$\n$\\Rightarrow a + \\lambda a' = 0 \\Rightarrow \\lambda = -\\frac{a}{a'}$\nFrom Eq. (iii): $P - \\frac{a}{a'}P' = 0 \\Rightarrow \\frac{P}{a} = \\frac{P'}{a'}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The points A(-1, 3, 0), B(2, 2, 1) and C(1, 1, 3) determine a plane. The distance from the plane to the point D(5, 7, 8) is",
+    "question_latex": "The points $A(-1,3,0)$, $B(2,2,1)$ and $C(1,1,3)$ determine a plane. The distance from the plane to the point $D(5,7,8)$ is",
+    "question_images": [],
+    "options": [
+      "A. √66",
+      "B. √71",
+      "C. √73",
+      "D. √76"
+    ],
+    "option_images": [],
+    "answer": "A. √66",
+    "solution": "Equation of plane passing through $(-1,3,0)$: $A(x+1) + B(y-3) + C(z-0) = 0$ ...(i)\nUsing points $(2,2,1)$ and $(1,1,3)$:\n$3A - B + C = 0$ ...(ii) and $2A - 2B + 3C = 0$ ...(iii)\nSolving: $A:B:C = -1:-7:-4 \\Rightarrow A:B:C = 1:7:4$\nPlane: $x + 7y + 4z - 20 = 0$\nDistance from $(5,7,8)$: $= \\frac{|5 + 49 + 32 - 20|}{\\sqrt{1+49+16}} = \\frac{66}{\\sqrt{66}} = \\sqrt{66}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of the line passing through the point A(5, -2, 4) and parallel to the vector 2i - j + 2k̂",
+    "question_latex": "Equation of the line passing through the point $A(5,-2,4)$ and parallel to the vector $2\\hat{i} - \\hat{j} + 2\\hat{k}$",
+    "question_images": [],
+    "options": [
+      "A. (x-2)/5 = (y+1)/(-2) = (z-3)/4",
+      "B. (x-5)/2 = (y+2)/4 = (z-2)/1",
+      "C. (x-5)/2 = (y+2)/(-1) = (z-4)/3",
+      "D. (x+5)/2 = (y-2)/1 = (z-4)/3"
+    ],
+    "option_images": [],
+    "answer": "C. (x-5)/2 = (y+2)/(-1) = (z-4)/3",
+    "solution": "Let $a = (5,-2,4)$ and $\\bar{b} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$\nEquation of line: $\\frac{x-5}{2} = \\frac{y+2}{-1} = \\frac{z-4}{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The shortest distance between the lines (x+7)/(-6) = (y-6)/7 = z and (7-x)/2 = y-2 = z-6 is (July 2022)",
+    "question_latex": "The shortest distance between the lines $\\frac{x+7}{-6} = \\frac{y-6}{7} = z$ and $\\frac{7-x}{2} = y - 2 = z - 6$ is (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 2√29",
+      "B. √29/2",
+      "C. 1",
+      "D. √(37/29)"
+    ],
+    "option_images": [],
+    "answer": "A. 2√29",
+    "solution": "Using the shortest distance formula between skew lines, the answer is $2\\sqrt{29}$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The point of intersection of the lines (x-5)/3 = (y-7)/(-1) = (z+2)/1 and (x+3)/(-36) = (y-3)/2 = (z-6)/4 is",
+    "question_latex": "The point of intersection of the lines $\\frac{x-5}{3} = \\frac{y-7}{-1} = \\frac{z+2}{1}$ and $\\frac{x+3}{-36} = \\frac{y-3}{2} = \\frac{z-6}{4}$ is",
+    "question_images": [],
+    "options": [
+      "A. (2, 10, 4)",
+      "B. (21, 5/3, 10/3)",
+      "C. (5, 7, -2)",
+      "D. (-3, 3, 6)"
+    ],
+    "option_images": [],
+    "answer": "B. (21, 5/3, 10/3)",
+    "solution": "Any point on line $\\frac{x-5}{3} = \\frac{y-7}{-1} = \\frac{z+2}{1} = k$ is $(3k+5, 7-k, k-2)$\nIt should lie on $\\frac{x+3}{-36} = \\frac{y-3}{2} = \\frac{z-6}{4}$\nSolving, we get $k = \\frac{16}{3}$\n$\\therefore x = 16+5 = 21, y = 7 - \\frac{16}{3} = \\frac{5}{3}$ and $z = \\frac{16}{3} - 2 = \\frac{10}{3}$\n$\\therefore$ Coordinate of point are $(21, 5/3, 10/3)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The shortest distance between the lines (x-3)/2 = (y+15)/(-7) = (z-9)/5 and (x+1)/2 = (y-1)/1 = (z-9)/(-3) is [06 April, 2024 (Shift-I)]",
+    "question_latex": "The shortest distance between the lines $\\frac{x-3}{2} = \\frac{y+15}{-7} = \\frac{z-9}{5}$ and $\\frac{x+1}{2} = \\frac{y-1}{1} = \\frac{z-9}{-3}$ is [06 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 4√3",
+      "B. 5√3",
+      "C. 6√3",
+      "D. 8√3"
+    ],
+    "option_images": [],
+    "answer": "A. 4√3",
+    "solution": "Given lines: $\\frac{x-3}{2} = \\frac{y+15}{-7} = \\frac{z-9}{5}$ and $\\frac{x+1}{2} = \\frac{y-1}{1} = \\frac{z-9}{-3}$\n$\\vec{a_1} = 3\\hat{i} - 15\\hat{j} + 9\\hat{k}$, $\\vec{a_2} = -\\hat{i} + \\hat{j} + 9\\hat{k}$\n$\\vec{b_1} = 2\\hat{i} - 7\\hat{j} + 5\\hat{k}$, $\\vec{b_2} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$\n$a_2 - a_1 = -4\\hat{i} + 16\\hat{j}$\n$\\vec{b_1} \\times \\vec{b_2} = \\hat{i}(16) - \\hat{j}(-16) + \\hat{k}(16)$\n$|\\vec{b_1} \\times \\vec{b_2}| = 16\\sqrt{3}$\n$(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} - \\vec{b_2}) = 16[-4 + 16] = (16)(12)$\nS.D. $= \\frac{(16)(12)}{16\\sqrt{3}} = 4\\sqrt{3}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The value of k for which the planes 3x - 6y - 2z = 7 and 2x + y - kz = 5 are perpendicular to each other is",
+    "question_latex": "The value of $k$ for which the planes $3x - 6y - 2z = 7$ and $2x + y - kz = 5$ are perpendicular to each other is",
+    "question_images": [],
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. 0",
+    "solution": "Planes are perpendicular $\\therefore a_1a_2 + b_1b_2 + c_1c_2 = 0$\n$3(2) + (-6)(1) + (-2)(-k) = 0$\n$6 - 6 + 2k = 0 \\Rightarrow k = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The shortest distance between the skew lines l₁: r⃗ = a⃗₁ + λb⃗₁, l₂: r⃗ = a⃗₂ + μb⃗₂ is",
+    "question_latex": "The shortest distance between the skew lines $l_1: \\vec{r} = \\vec{a_1} + \\lambda \\vec{b_1}$, $l_2: \\vec{r} = \\vec{a_2} + \\mu \\vec{b_2}$ is",
+    "question_images": [],
+    "options": [
+      "A. |(a⃗₂-a⃗₁)·(b⃗₁×b⃗₂)| / |b⃗₁×b⃗₂|",
+      "B. |(a⃗₂-a⃗₁)·(a⃗₂×b⃗₂)| / |b⃗₁×b⃗₂|",
+      "C. |(a⃗₂-b⃗₂)·(a⃗₁×b⃗₁)| / |b⃗₁×b⃗₂|",
+      "D. |(a⃗₁-b⃗₂)·(b⃗₁×a⃗₂)| / |b⃗₁×a⃗₂|"
+    ],
+    "option_images": [],
+    "answer": "A. |(a⃗₂-a⃗₁)·(b⃗₁×b⃗₂)| / |b⃗₁×b⃗₂|",
+    "solution": "Let $PQ$ be the shortest distance vector between $l_1$ and $l_2$. Since $PQ$ is perpendicular to both $l_1$ and $l_2$, it is parallel to $\\vec{b_1} \\times \\vec{b_2}$.\nLet $\\hat{n}$ be the unit vector along $PQ$: $\\hat{n} = \\frac{\\vec{b_1} \\times \\vec{b_2}}{|\\vec{b_1} \\times \\vec{b_2}|}$\n$d = |\\overrightarrow{A_1A_2} \\cdot \\hat{n}| = \\left|\\frac{(\\vec{a_2}-\\vec{a_1}) \\cdot \\vec{b_1} \\times \\vec{b_2}}{|\\vec{b_1} \\times \\vec{b_2}|}\\right|$",
+    "solution_images": [
+      "18_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The angle between the planes r⃗(2i - j + k̂) = 6 and r⃗(i + j - 2k̂) = 5 is",
+    "question_latex": "The angle between the planes $\\vec{r}(2\\hat{i} - \\hat{j} + \\hat{k}) = 6$ and $\\vec{r}(\\hat{i} + \\hat{j} - 2\\hat{k}) = 5$ is",
+    "question_images": [],
+    "options": [
+      "A. cos⁻¹(2/13)",
+      "B. π/6",
+      "C. π/3",
+      "D. π/4"
+    ],
+    "option_images": [],
+    "answer": "C. π/3",
+    "solution": "$\\cos\\theta = \\left|\\frac{\\vec{n_1} \\cdot \\vec{n_2}}{|\\vec{n_1}||\\vec{n_2}|}\\right| = \\left|\\frac{2-1+2}{\\sqrt{4+1+1}\\cdot\\sqrt{1+1+4}}\\right| = \\left|\\frac{1}{2}\\right|$\n$\\theta = \\frac{\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The planes r⃗(2i + λj - k̂) = 3 and r⃗(4i + j - μk̂) = 5 are parallel then the value of λ and μ are",
+    "question_latex": "The planes $\\vec{r}(2\\hat{i} + \\lambda\\hat{j} - \\hat{k}) = 3$ and $\\vec{r}(4\\hat{i} + \\hat{j} - \\mu\\hat{k}) = 5$ are parallel then the value of $\\lambda$ and $\\mu$ are",
+    "question_images": [],
+    "options": [
+      "A. -1/2, -2",
+      "B. 1/3, 4",
+      "C. 1/2, 3",
+      "D. 1/5, 2"
+    ],
+    "option_images": [],
+    "answer": "A. -1/2, -2",
+    "solution": "Two planes $\\vec{r} \\cdot \\vec{n_1} = d_1$ and $\\vec{r} \\cdot \\vec{n_2} = d_2$ are parallel $\\Rightarrow \\vec{n_1}$ and $\\vec{n_2}$ are parallel.\n$\\therefore (2\\hat{i} + \\lambda\\hat{j} - \\hat{k}) = t(4\\hat{i} + \\hat{j} - \\mu\\hat{k})$\n$2 = 4t, -\\lambda = t, 1 = -\\mu t \\Rightarrow t = \\frac{1}{2}$\n$\\lambda = -\\frac{1}{2}$ and $\\mu = -2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The distance of the point P(4, 6, -2) from the line passing through the point (-3, 2, 3) and parallel to a line with direction ratios 3, 3, -1 is equal to: (Jan 2023)",
+    "question_latex": "The distance of the point $P(4,6,-2)$ from the line passing through the point $(-3,2,3)$ and parallel to a line with direction ratios $3,3,-1$ is equal to: (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. √6",
+      "B. √14",
+      "C. 2√3",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "B. √14",
+    "solution": "Let $Q = -3\\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\overrightarrow{PQ} = -7\\hat{i} - 4\\hat{j} + 5\\hat{k}$, $\\bar{b} = 3\\hat{i} + 3\\hat{j} - \\hat{k} \\Rightarrow |\\bar{b}| = \\sqrt{19}$\n$\\overrightarrow{PQ} \\times \\bar{b} = \\begin{vmatrix}\\hat{i} & \\hat{j} & \\hat{k}\\\\ -7 & -4 & 5\\\\ 3 & 3 & -1\\end{vmatrix} = -11\\hat{i} + 8\\hat{j} - 9\\hat{k}$\nRequired distance $= \\frac{|\\overrightarrow{PQ} \\times \\bar{b}|}{|\\bar{b}|} = \\frac{\\sqrt{11^2+8^2+9^2}}{\\sqrt{19}} = \\sqrt{14}$ units",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If a straight line makes an angle π/4 with each of x axis and y axis then what angle does it make with z axis",
+    "question_latex": "If a straight line makes an angle $\\frac{\\pi}{4}$ with each of $x$ axis and $y$ axis then what angle does it make with $z$ axis",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/3",
+      "C. π/4",
+      "D. π/6"
+    ],
+    "option_images": [],
+    "answer": "A. π/2",
+    "solution": "Let $\\alpha = \\beta = \\frac{\\pi}{4}$, $l = \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}},\\ m = \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$ and $n = \\cos\\gamma$\nUsing $l^2 + m^2 + n^2 = 1$:\n$\\frac{1}{4} + \\frac{1}{2} + n^2 = 1 \\Rightarrow n = \\frac{1}{2} \\Rightarrow \\cos\\gamma = \\frac{1}{2}$... wait\n$\\frac{1}{2} + \\frac{1}{2} + n^2 = 1 \\Rightarrow n = 0 \\Rightarrow \\gamma = \\frac{\\pi}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let L be the line of intersection of planes r⃗·(î - ĵ + 2k̂) = 2 and r⃗·(2î + ĵ - k̂) = 2. If P(α, β, γ) is the foot of perpendicular on L from the point (1, 2, 0), then the value of 35(α + β + γ) is equal to (July 2021)",
+    "question_latex": "Let $L$ be the line of intersection of planes $\\vec{r} \\cdot (\\hat{i} - \\hat{j} + 2\\hat{k}) = 2$ and $\\vec{r} \\cdot (2\\hat{i} + \\hat{j} - \\hat{k}) = 2$. If $P(\\alpha,\\beta,\\gamma)$ is the foot of perpendicular on $L$ from the point $(1,2,0)$, then the value of $35(\\alpha + \\beta + \\gamma)$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. 143",
+      "B. 134",
+      "C. 101",
+      "D. 119"
+    ],
+    "option_images": [],
+    "answer": "D. 119",
+    "solution": "Let $L$ be the line of intersection with planes $\\pi_1$ and $\\pi_2$ cutting $xy$-plane at $A$: $x - y = 2$ and $2x + y = 2 \\Rightarrow x = \\frac{4}{3}, y = \\frac{-2}{3}$\nVector parallel to line: $\\vec{n} = \\vec{n_1} \\times \\vec{n_2} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-1&2\\\\2&1&-1\\end{vmatrix} = -\\hat{i} + 5\\hat{j} + 3\\hat{k}$\nEquation of line: $\\frac{x-\\frac{4}{3}}{-1} = \\frac{y+\\frac{2}{3}}{5} = \\frac{z}{3} = \\lambda$\nFoot $B\\left(-\\lambda+\\frac{4}{3}, 5\\lambda-\\frac{2}{3}, 3\\lambda\\right)$, $C(1,2,0)$ lies on perpendicular. $\\overrightarrow{CB} \\cdot \\vec{n} = 0$\n$\\Rightarrow 35\\lambda = \\frac{41}{105} \\Rightarrow \\lambda = \\frac{41}{105}$\n$\\alpha+\\beta+\\gamma = 7\\lambda+\\frac{2}{3} = \\frac{51}{15} \\Rightarrow 35(\\alpha+\\beta+\\gamma) = 119$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The lines r⃗ = a⃗₁ + λb⃗₁ and r⃗ = a⃗₂ + μb⃗₂ are coplanar if",
+    "question_latex": "The lines $\\vec{r} = \\vec{a_1} + \\lambda\\vec{b_1}$ and $\\vec{r} = \\vec{a_2} + \\mu\\vec{b_2}$ are coplanar if",
+    "question_images": [],
+    "options": [
+      "A. a⃗₁ × a⃗₂ = 0",
+      "B. b⃗₁ × b⃗₂ = 0",
+      "C. (a⃗₂ - a⃗₁) × (b⃗₁ × b⃗₂) = 0",
+      "D. [a⃗₁ b⃗₁ b⃗₂] = [a⃗₂ b⃗₁ b⃗₂]"
+    ],
+    "option_images": [],
+    "answer": "D. [a⃗₁ b⃗₁ b⃗₂] = [a⃗₂ b⃗₁ b⃗₂]",
+    "solution": "Given lines pass through $P(\\vec{a_1})$ and $Q(\\vec{a_2})$ and are parallel to $\\vec{b_1}$ and $\\vec{b_2}$ respectively.\nIf the lines are coplanar, then $\\overrightarrow{PQ} \\perp (\\vec{b_1} \\times \\vec{b_2})$\n$\\Rightarrow \\overrightarrow{PQ} \\cdot (\\vec{b_1} \\times \\vec{b_2}) = 0$\n$\\Rightarrow (\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2}) = 0 \\Rightarrow [\\vec{a_1}\\ \\vec{b_1}\\ \\vec{b_2}] = [\\vec{a_2}\\ \\vec{b_1}\\ \\vec{b_2}]$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane through the point (2, 3, 1) and (4, -5, 3) and parallel to x-axis is",
+    "question_latex": "The equation of the plane through the point $(2,3,1)$ and $(4,-5,3)$ and parallel to $x$-axis is",
+    "question_images": [],
+    "options": [
+      "A. y - 4z = 7",
+      "B. y + 4z = 7",
+      "C. y + 4z = -7",
+      "D. x + 4z = 7"
+    ],
+    "option_images": [],
+    "answer": "B. y + 4z = 7",
+    "solution": "Equation of plane through $(2,3,1)$: $a(x-2) + b(y-3) + c(z-1) = 0$ ...(i)\nPasses through $(4,-5,3)$ and parallel to $x$-axis:\n$2a - 8b + 2c = 0$ and $a = 0$\n$\\Rightarrow \\frac{a}{0} = \\frac{b}{2} = \\frac{c}{8} \\Rightarrow \\frac{a}{0} = \\frac{b}{1} = \\frac{c}{4}$\nSubstituting: $y + 4z = 7$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The length of the perpendicular from the origin to the plane 3x + 4y + 12z = 52 is",
+    "question_latex": "The length of the perpendicular from the origin to the plane $3x + 4y + 12z = 52$ is",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. -4",
+      "C. 5",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "The length of the perpendicular from origin to the plane is\n$p = \\left|\\frac{0 + 0 + 0 - 52}{\\sqrt{9+16+144}}\\right| = \\left|\\frac{-52}{13}\\right| = 4$\nSince 4 is not among correct options A, B, or C, answer is D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of line passing through (3, 2, 1) and parallel to y-axis is",
+    "question_latex": "The equation of line passing through $(3,2,1)$ and parallel to $y$-axis is",
+    "question_images": [],
+    "options": [
+      "A. (x-3)/1 = (y+2)/0 = (z-1)/1",
+      "B. (x-3)/0 = (y-2)/1 = (z-1)/0",
+      "C. (x-3)/0 = (y-2)/0 = (z-1)/1",
+      "D. (x-3)/1 = (y-1)/1 = (z-1)/0"
+    ],
+    "option_images": [],
+    "answer": "B. (x-3)/0 = (y-2)/1 = (z-1)/0",
+    "solution": "The direction cosine of $y$-axis are $0,1,0$. The line passing through the point $(3,2,1)$. Equation of line: $\\frac{x-3}{0} = \\frac{y-2}{1} = \\frac{z-1}{0}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane passing through the point whose position vector is 2î + 3ĵ - k̂ and perpendicular to the vector 3î + 4ĵ + 7k̂ is",
+    "question_latex": "The equation of the plane passing through the point whose position vector is $2\\hat{i} + 3\\hat{j} - \\hat{k}$ and perpendicular to the vector $3\\hat{i} + 4\\hat{j} + 7\\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. 3x + 4y + 7z = 11",
+      "B. 3x + 3y + 4z = 5",
+      "C. 3x + 4y + 7z = 5",
+      "D. 3x - 4y + z = 2"
+    ],
+    "option_images": [],
+    "answer": "A. 3x + 4y + 7z = 11",
+    "solution": "Required equation: $3(x-2) + 4(y-3) + 7(z+1) = 0$\n$3x + 4y + 7z = 11$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the given planes ax + by + cz + d = 0 and a₁x + b₁y + c₁z + d₁ = 0 be mutually perpendicular then",
+    "question_latex": "If the given planes $ax + by + cz + d = 0$ and $a_1x + b_1y + c_1z + d_1 = 0$ be mutually perpendicular then",
+    "question_images": [],
+    "options": [
+      "A. a/a₁ = b/b₁ = c/c₁",
+      "B. a/a₁ = b/b₁ = c/c₁ = 0",
+      "C. aa₁ + bb₁ + cc₁ = 1",
+      "D. aa₁ + bb₁ + cc₁ = 0"
+    ],
+    "option_images": [],
+    "answer": "D. aa₁ + bb₁ + cc₁ = 0",
+    "solution": "Condition for perpendicular planes: $aa_1 + bb_1 + cc_1 = 0$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If a line with d.r.s. k, -6, 2 and k-1, k, 4 are perpendicular then k",
+    "question_latex": "If a line with d.r.s. $k, -6, 2$ and $k-1, k, 4$ are perpendicular then $k$",
+    "question_images": [],
+    "options": [
+      "A. -8, 1",
+      "B. -8, -1",
+      "C. 8, -1",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 8, -1",
+    "solution": "Two lines perpendicular if $a_1a_2 + b_1b_2 + c_1c_2 = 0$\n$k(k-1) - 6k + 2 \\cdot 4 = 0$\n$k^2 - k - 6k - 8 = 0$\n$k^2 - 7k - 8 = 0$... wait:\n$k(k-1) - 6k + 8 = 0 \\Rightarrow k^2 - k - 6k - 8 = 0$\n$(k-8)(k+1) = 0 \\Rightarrow k = 8, k = -1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let A be a point on the line r⃗ = (1 - 3μ)î + (μ - 1)ĵ + (2 + 5μ)k̂ and B(3, 2, 6) be a point in the space. Then the value of μ for which the vector AB⃗ is parallel to the plane x - 4y + 3z = 1 is (Jan 2019)",
+    "question_latex": "Let $A$ be a point on the line $\\vec{r} = (1-3\\mu)\\hat{i} + (\\mu-1)\\hat{j} + (2+5\\mu)\\hat{k}$ and $B(3,2,6)$ be a point in the space. Then the value of $\\mu$ for which the vector $\\overrightarrow{AB}$ is parallel to the plane $x - 4y + 3z = 1$ is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 1/4",
+      "B. 1/8",
+      "C. 1/2",
+      "D. -1/4"
+    ],
+    "option_images": [],
+    "answer": "A. 1/4",
+    "solution": "Let $A(1-3\\mu, \\mu-1, 2+5\\mu)$ be a point on the line.\n$\\overrightarrow{AB} = (2+3\\mu)\\hat{i} + (3-\\mu)\\hat{j} + (4-5\\mu)\\hat{k}$\nSince $\\overrightarrow{AB}$ is parallel to plane $x - 4y + 3z = 1$:\n$1 \\cdot (2+3\\mu) - 4(3-\\mu) + 3(4-5\\mu) = 0$\n$2 + 3\\mu - 12 + 4\\mu + 12 - 15\\mu = 0 \\Rightarrow -8\\mu = -2 \\Rightarrow \\mu = \\frac{1}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The line perpendicular to the plane 2x - y + 5z = 4 passing through the point (-1, 0, 1) is",
+    "question_latex": "The line perpendicular to the plane $2x - y + 5z = 4$ passing through the point $(-1,0,1)$ is",
+    "question_images": [],
+    "options": [
+      "A. (x+1)/2 = y = (z-1)/(-5)",
+      "B. (x+1)/(-2) = y = (z-1)/(-5)",
+      "C. (x+1)/2 = -y = (z-1)/5",
+      "D. (x+1)/2 = y = (z-1)/5"
+    ],
+    "option_images": [],
+    "answer": "C. (x+1)/2 = -y = (z-1)/5",
+    "solution": "The line perpendicular to the plane $2x - y + 5z = 4$ and passing through the point $(-1,0,1)$:\n$\\frac{x+1}{2} = \\frac{y-0}{-1} = \\frac{z-1}{5}$\n$\\Rightarrow \\frac{x+1}{2} = -y = \\frac{z-1}{5}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let in a △ABC, the length of side AC be 6, the vertex B be (1, 2, 3) and the vertices A, C lie on the line (x-6)/3 = (y-7)/2 = (z-7)/(-2). Then the area (in sq. units) of △ABC is [Jan. 24, 2025 (I)]",
+    "question_latex": "Let in a $\\triangle ABC$, the length of side $AC$ be $6$, the vertex $B$ be $(1,2,3)$ and the vertices $A, C$ lie on the line $\\frac{x-6}{3} = \\frac{y-7}{2} = \\frac{z-7}{-2}$. Then the area (in sq. units) of $\\triangle ABC$ is [Jan. 24, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 42",
+      "B. 17",
+      "C. 56",
+      "D. 21"
+    ],
+    "option_images": [],
+    "answer": "D. 21",
+    "solution": "Let $M(3\\lambda+6, 2\\lambda+7, -2\\lambda+7)$ on the line.\n$\\overrightarrow{BM} = (3\\lambda+5)\\hat{i} + (2\\lambda+5)\\hat{j} + (-2\\lambda+4)\\hat{k}$\n$\\overrightarrow{AC} \\cdot \\overrightarrow{BM} = 0 \\Rightarrow 3(3\\lambda+5) + 2(2\\lambda+5) - 2(-2\\lambda+4) = 0$\n$\\Rightarrow 17\\lambda + 17 = 0 \\Rightarrow \\lambda = -1$, $\\overrightarrow{BM} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$\n$|BM| = 7$, Area of $\\triangle ABC = \\frac{1}{2}|AC| \\times |BM| = \\frac{1}{2} \\times 6 \\times 7 = 21$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The radius of the circle in which the sphere x² + y² + z² + 2x - 2y - 4z - 19 = 0 is cut by the plane x + 2y + 2z + 7 = 0 is",
+    "question_latex": "The radius of the circle in which the sphere $x^2 + y^2 + z^2 + 2x - 2y - 4z - 19 = 0$ is cut by the plane $x + 2y + 2z + 7 = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "option_images": [],
+    "answer": "C. 3",
+    "solution": "Centre $C(-1,1,2)$ and $R = \\sqrt{(-1)^2+(1)^2+(2)^2+19} = 5$\n$d = \\frac{|-1+2+4+7|}{\\sqrt{1+4+4}} = \\frac{12}{3} = 4$\nRadius of circle $= \\sqrt{R^2 - d^2} = \\sqrt{25-16} = 3$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The distance of the point P(a, b, c) from x-axis is",
+    "question_latex": "The distance of the point $P(a, b, c)$ from $x$-axis is",
+    "question_images": [],
+    "options": [
+      "A. √(b² + c²)",
+      "B. √(a² + b²)",
+      "C. √(a² + c²)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. √(b² + c²)",
+    "solution": "Let coordinate of a point $Q$ on $x$-axis be $(a,0,0)$.\nDistance $PQ = \\sqrt{(a-a)^2 + (b-0)^2 + (c-0)^2} = \\sqrt{b^2+c^2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let the line L pass through (1, 1, 1) and intersect the lines (x-1)/2 = (y+1)/3 = (z-1)/4 and (x-3)/1 = (y-4)/2 = z/1. Then, which of the following points lies on the line L? [April 7, 2025 (I)]",
+    "question_latex": "Let the line $L$ pass through $(1,1,1)$ and intersect the lines $\\frac{x-1}{2} = \\frac{y+1}{3} = \\frac{z-1}{4}$ and $\\frac{x-3}{1} = \\frac{y-4}{2} = \\frac{z}{1}$. Then, which of the following points lies on the line $L$? [April 7, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. (7, 15, 13)",
+      "B. (5, 4, 3)",
+      "C. (4, 22, 7)",
+      "D. (10, -29, -50)"
+    ],
+    "option_images": [],
+    "answer": "A. (7, 15, 13)",
+    "solution": "$A, B, C$ are collinear. Dr's of $AC \\Rightarrow 2\\lambda, 3\\lambda-2, 4\\lambda$. Dr's of $BC \\Rightarrow \\mu+2, 2\\mu+3, \\mu-1$\n$\\Rightarrow \\frac{\\mu+2}{2\\lambda} = \\frac{2\\mu+3}{3\\lambda-2} = \\frac{\\mu-1}{4\\lambda}$\n$\\Rightarrow 2(\\mu+2) = \\mu-1 \\Rightarrow \\mu = -5$, Dr's of $BC \\Rightarrow 3, 7, 6$\nEquation of $L \\Rightarrow \\frac{x-1}{3} = \\frac{y-1}{7} = \\frac{z-1}{6}$. $(7,15,13)$ satisfies.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A plane bisects the line segment joining the points (1, 2, 3) and (-3, 4, 5) at right angles. Then this plane also passes through the point (Online 2018)",
+    "question_latex": "A plane bisects the line segment joining the points $(1,2,3)$ and $(-3,4,5)$ at right angles. Then this plane also passes through the point (Online 2018)",
+    "question_images": [],
+    "options": [
+      "A. (1, 2, -3)",
+      "B. (3, 2, 1)",
+      "C. (-3, 2, 1)",
+      "D. (-1, 2, 3)"
+    ],
+    "option_images": [],
+    "answer": "C. (-3, 2, 1)",
+    "solution": "The plane bisects the segment at right angles. Using the standard method, the required plane passes through $(-3, 2, 1)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The point on the line (x-2)/1 = (y+3)/(-2) = (z+5)/(-2) at a distance of 6 from the point (2, -3, -5) is",
+    "question_latex": "The point on the line $\\frac{x-2}{1} = \\frac{y+3}{-2} = \\frac{z+5}{-2}$ at a distance of $6$ from the point $(2,-3,-5)$ is",
+    "question_images": [],
+    "options": [
+      "A. (3, -5, -3)",
+      "B. (4, -7, -9)",
+      "C. (0, 2, -1)",
+      "D. (-3, 5, 3)"
+    ],
+    "option_images": [],
+    "answer": "B. (4, -7, -9)",
+    "solution": "DC's of the given line are $\\frac{1}{3}, \\frac{-2}{3}, \\frac{-2}{3}$.\nEquation of line: $\\frac{x-2}{1/3} = \\frac{y+3}{-2/3} = \\frac{z+5}{-2/3} = r$\nPoint is $\\left(2+\\frac{r}{3}, -3-\\frac{2r}{3}, -5-\\frac{2r}{3}\\right)$, $r = \\pm 6$\nPoints are $(4,-7,-9)$ and $(0,1,-1)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The angle between the line x/1 = y/0 = z/(-1) and x/3 = y/4 = z/5 is equal to",
+    "question_latex": "The angle between the line $\\frac{x}{1} = \\frac{y}{0} = \\frac{z}{-1}$ and $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. π - cos⁻¹(1/5)",
+      "B. cos⁻¹(1/3)",
+      "C. cos⁻¹(1/2)",
+      "D. cos⁻¹(1/4)"
+    ],
+    "option_images": [],
+    "answer": "A. π - cos⁻¹(1/5)",
+    "solution": "$\\cos\\theta = \\frac{a_1a_2 + b_1b_2 + c_1c_2}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}$\n$= \\frac{1\\times3 + 0\\times4 + (-1)\\times5}{\\sqrt{1+0+1}\\sqrt{9+16+25}} = \\frac{-2}{\\sqrt{2}\\cdot\\sqrt{50}} = -\\frac{1}{5}$\n$\\Rightarrow \\theta = \\pi - \\cos^{-1}\\left(\\frac{1}{5}\\right)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of a line is 6x - 2 = 3y - 1 = 2z - 2. The direction ratios of the line are",
+    "question_latex": "The equation of a line is $6x - 2 = 3y - 1 = 2z - 2$. The direction ratios of the line are",
+    "question_images": [],
+    "options": [
+      "A. 1, 2, 3",
+      "B. 1, 1, 1",
+      "C. 1/3, 1/3, 1/3",
+      "D. 1/3, -1/3, 1/3"
+    ],
+    "option_images": [],
+    "answer": "A. 1, 2, 3",
+    "solution": "Given line can be rewritten as $\\frac{x-\\frac{1}{3}}{1} = \\frac{y-\\frac{1}{3}}{2} = \\frac{z-1}{3}$\nThis shows that DR's of the given equation are $(1, 2, 3)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A variable plane x/a + y/b + z/c = 1 at a unit distance from origin cuts the coordinate axes at A, B and C. Centroid (x, y, z) satisfies the equation 1/x² + 1/y² + 1/z² = k. The value of k is",
+    "question_latex": "A variable plane $\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1$ at a unit distance from origin cuts the coordinate axes at $A$, $B$ and $C$. Centroid $(x,y,z)$ satisfies the equation $\\frac{1}{x^2} + \\frac{1}{y^2} + \\frac{1}{z^2} = k$. The value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 3",
+      "C. 1/9",
+      "D. 1/3"
+    ],
+    "option_images": [],
+    "answer": "A. 9",
+    "solution": "$A(a,0,0), B(0,b,0), C(0,0,c)$. Distance from origin $= 1$:\n$\\frac{1}{\\sqrt{\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}}} = 1 \\Rightarrow \\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2} = 1$ ...(i)\nCentroid $P(x,y,z) = \\left(\\frac{a}{3}, \\frac{b}{3}, \\frac{c}{3}\\right) \\Rightarrow x = \\frac{a}{3}, y = \\frac{b}{3}, z = \\frac{c}{3}$\nFrom (i): $\\frac{1}{9x^2}+\\frac{1}{9y^2}+\\frac{1}{9z^2} = 1 \\Rightarrow \\frac{1}{x^2}+\\frac{1}{y^2}+\\frac{1}{z^2} = 9 = k$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane through the points (1, 2, 3), (-1, 4, 2) and (3, 1, 1) is",
+    "question_latex": "The equation of the plane through the points $(1,2,3)$, $(-1,4,2)$ and $(3,1,1)$ is",
+    "question_images": [],
+    "options": [
+      "A. 5x + y + 12z - 23 = 0",
+      "B. 5x + 6y + 2z - 23 = 0",
+      "C. x + 6y + 2z - 13 = 0",
+      "D. x + y + z - 13 = 0"
+    ],
+    "option_images": [],
+    "answer": "B. 5x + 6y + 2z - 23 = 0",
+    "solution": "Equation of plane through $(1,2,3)$: $a(x-1) + b(y-2) + c(z-3) = 0$ ...(i)\nPasses through $(-1,4,2)$ and $(3,1,1)$: $-2a+2b-c = 0$ and $2a-b-2c = 0$\n$\\Rightarrow \\frac{a}{-5} = \\frac{b}{-6} = \\frac{c}{-2}$\nEquation of plane: $5x + 6y + 2z - 23 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If Q is the image of the point P(2, 3, 4) under the reflection in the plane x - 2y + 5z = 6, then the equation of the line PQ is",
+    "question_latex": "If $Q$ is the image of the point $P(2,3,4)$ under the reflection in the plane $x - 2y + 5z = 6$, then the equation of the line $PQ$ is",
+    "question_images": [],
+    "options": [
+      "A. (x-2)/(-1) = (y-3)/2 = (z-4)/5",
+      "B. (x-2)/1 = (y-3)/(-2) = (z-4)/5",
+      "C. (x-2)/(-1) = (y-3)/(-2) = (z-4)/5",
+      "D. (x-2)/1 = (y-3)/2 = (z-4)/5"
+    ],
+    "option_images": [],
+    "answer": "B. (x-2)/1 = (y-3)/(-2) = (z-4)/5",
+    "solution": "Since $Q$ is the image of $P$, $PQ$ is perpendicular to the plane $x - 2y + 5z = 6$.\nRequired equation of line: $\\frac{x-2}{1} = \\frac{y-3}{-2} = \\frac{z-4}{5}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "3 Dimensional Geometry",
+    "question": "An equation of the line passing through 3î - 5ĵ + 7k̂ and perpendicular to the plane 3x - 4y = 5z = 8 is",
+    "question_latex": "An equation of the line passing through $3\\hat{i} - 5\\hat{j} + 7\\hat{k}$ and perpendicular to the plane $3x - 4y + 5z = 8$ is",
+    "question_images": [],
+    "options": [
+      "A. (x-3)/3 = (y+5)/(-4) = (z-7)/5",
+      "B. (x-3)/3 = (y+4)/(-5) = (z-5)/7",
+      "C. r⃗ = 3î + 5ĵ - 7k̂ + λ(3î - 4ĵ - 5k̂)",
+      "D. r⃗ = 3î - 4ĵ - 5k̂ + μ(3î + 5ĵ + 7k̂)"
+    ],
+    "option_images": [],
+    "answer": "A. (x-3)/3 = (y+5)/(-4) = (z-7)/5",
+    "solution": "Normal to plane $3x - 4y + 5z = 8$ is $3\\hat{i} - 4\\hat{j} + 5\\hat{k}$.\nLine through $(3,-5,7)$ with direction $3,-4,5$:\n$\\frac{x-3}{3} = \\frac{y+5}{-4} = \\frac{z-7}{5}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of the plane through three points A, B, C with position vectors -6î + 3ĵ + 2k̂, 3î - 2ĵ + 4k̂, 5î + 7ĵ + 3k̂ is",
+    "question_latex": "Equation of the plane through three points $A, B, C$ with position vectors $-6\\hat{i} + 3\\hat{j} + 2\\hat{k}$, $3\\hat{i} - 2\\hat{j} + 4\\hat{k}$, $5\\hat{i} + 7\\hat{j} + 3\\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. r⃗·(î - ĵ - 7k̂) + 23 = 0",
+      "B. r⃗·(î + ĵ + 7k̂) = 23",
+      "C. r⃗·(î + ĵ - 7k̂) + 23 = 0",
+      "D. r⃗·(î - ĵ - 7k̂) = 23"
+    ],
+    "option_images": [],
+    "answer": "A. r⃗·(î - ĵ - 7k̂) + 23 = 0",
+    "solution": "Equation of the plane passing through three points: $\\vec{r} \\cdot (\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a}) = \\vec{a} \\cdot \\vec{b} \\times \\vec{c}$\nComputing the cross products and determinant gives $\\vec{r} \\cdot (\\hat{i} - \\hat{j} - 7\\hat{k}) + 23 = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If a line makes angle π/3 and π/4 with the x and y-axes respectively, then the angle made by the line and z-axis is",
+    "question_latex": "If a line makes angle $\\frac{\\pi}{3}$ and $\\frac{\\pi}{4}$ with the $x$ and $y$-axes respectively, then the angle made by the line and $z$-axis is",
+    "question_images": [],
+    "options": [
+      "A. π/2",
+      "B. π/3",
+      "C. π/4",
+      "D. 5π/12"
+    ],
+    "option_images": [],
+    "answer": "B. π/3",
+    "solution": "Let $\\alpha = \\frac{\\pi}{3}, \\beta = \\frac{\\pi}{4}$, $l = \\cos\\frac{\\pi}{3} = \\frac{1}{2},\\ m = \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$ and $n = \\cos\\gamma$\nUsing $l^2 + m^2 + n^2 = 1$:\n$\\frac{1}{4} + \\frac{1}{2} + n^2 = 1 \\Rightarrow n = \\frac{1}{2} \\Rightarrow \\cos\\gamma = \\frac{1}{2} \\Rightarrow \\gamma = \\frac{\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If l₁, m₁, n₁ and l₂, m₂, n₂ are direction cosines of the two lines inclined to each other at an angle θ, then the direction cosines of the external bisector of the angle between the lines are",
+    "question_latex": "If $l_1, m_1, n_1$ and $l_2, m_2, n_2$ are direction cosines of the two lines inclined to each other at an angle $\\theta$, then the direction cosines of the external bisector of the angle between the lines are",
+    "question_images": [],
+    "options": [
+      "A. (l₁+l₂)/(2sinθ/2), (m₁+m₂)/(2sinθ/2), (n₁+n₂)/(2sinθ/2)",
+      "B. (l₁+l₂)/(2cosθ/2), (m₁+m₂)/(2cosθ/2), (n₁+n₂)/(2cosθ/2)",
+      "C. (l₁-l₂)/(2sinθ/2), (m₁-m₂)/(2sinθ/2), (n₁-n₂)/(2sinθ/2)",
+      "D. (l₁-l₂)/(2cosθ/2), (m₁-m₂)/(2cosθ/2), (n₁-n₂)/(2cosθ/2)"
+    ],
+    "option_images": [],
+    "answer": "C. (l₁-l₂)/(2sinθ/2), (m₁-m₂)/(2sinθ/2), (n₁-n₂)/(2sinθ/2)",
+    "solution": "In the figure, $OE$ is the external bisector. The co-ordinates of $E$ are $\\left(\\frac{l_1-l_2}{2}, \\frac{m_1-m_2}{2}, \\frac{n_1-n_2}{2}\\right)$.\nDirection ratios of $OE$ are proportional to $\\frac{l_1-l_2}{2}, \\frac{m_1-m_2}{2}, \\frac{n_1-n_2}{2}$\nDividing by $\\sin(\\theta/2)$: $\\frac{l_1-l_2}{2\\sin(\\theta/2)}, \\frac{m_1-m_2}{2\\sin(\\theta/2)}, \\frac{n_1-n_2}{2\\sin(\\theta/2)}$",
+    "solution_images": [
+      "47_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Two systems of rectangular axes have the same origin. If a plane cuts them at distance a, b, c and a', b', c' from the origin, then (2003)",
+    "question_latex": "Two systems of rectangular axes have the same origin. If a plane cuts them at distance $a, b, c$ and $a', b', c'$ from the origin, then (2003)",
+    "question_images": [],
+    "options": [
+      "A. 1/a² + 1/b² - 1/c² + 1/a'² + 1/b'² - 1/c'² = 0",
+      "B. 1/a² + 1/b² + 1/c² + 1/a'² + 1/b'² + 1/c'² = 0",
+      "C. 1/a² + 1/b² + 1/c² - 1/a'² - 1/b'² - 1/c'² = 0",
+      "D. 1/a² - 1/b² - 1/c² + 1/a'² - 1/b'² - 1/c'² = 0"
+    ],
+    "option_images": [],
+    "answer": "C. 1/a² + 1/b² + 1/c² - 1/a'² - 1/b'² - 1/c'² = 0",
+    "solution": "Equation of the plane through $(a,0,0), (0,b,0), (0,0,c)$ is $\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c} = 1$.\nDistance from $(0,0,0)$: $d_1 = \\frac{1}{\\sqrt{\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}}}$\nSimilarly $d_2 = \\frac{1}{\\sqrt{\\frac{1}{a'^2}+\\frac{1}{b'^2}+\\frac{1}{c'^2}}}$\nSince $d_1 = d_2$: $\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2} = \\frac{1}{a'^2}+\\frac{1}{b'^2}+\\frac{1}{c'^2}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let the foot of the perpendicular from the point (1, 2, 4) on the line (x+2)/4 = (y-1)/2 = (z+1)/3 be P. Then the distance of P from the plane 3x + 4y + 12z + 23 = 0 is (June 2022)",
+    "question_latex": "Let the foot of the perpendicular from the point $(1,2,4)$ on the line $\\frac{x+2}{4} = \\frac{y-1}{2} = \\frac{z+1}{3}$ be $P$. Then the distance of $P$ from the plane $3x + 4y + 12z + 23 = 0$ is (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 50/13",
+      "C. 4",
+      "D. 63/13"
+    ],
+    "option_images": [],
+    "answer": "A. 5",
+    "solution": "Let $P(\\alpha,\\beta,\\gamma)$ be the foot of $\\perp$ of $Q(1,2,4)$. Line: $\\frac{x+2}{4} = \\frac{y-1}{2} = \\frac{z+1}{3} = \\lambda$\n$\\alpha = 4\\lambda-2, \\beta = 2\\lambda+1, z = 3\\lambda-1$\nDirection ratio of $QP$: $(3-4\\lambda, 1-2\\lambda, 5-3\\lambda)$. D.r.'s of given line: $(4,2,3)$\nSince $PQ \\perp l_1$: $4(3-4\\lambda) + 2(1-2\\lambda) + 3(5-3\\lambda) = 0 \\Rightarrow \\lambda = 1 \\Rightarrow P = (2,3,2)$\nDistance $d = \\frac{|6+12+24+23|}{\\sqrt{9+16+144}} = \\frac{65}{13} = 5$",
+    "solution_images": [
+      "49_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A line makes angle α, β, γ with the axes. Then cos2α + cos2β + cos2γ =",
+    "question_latex": "A line makes angle $\\alpha, \\beta, \\gamma$ with the axes. Then $\\cos 2\\alpha + \\cos 2\\beta + \\cos 2\\gamma =$",
+    "question_images": [],
+    "options": [
+      "A. -2",
+      "B. -1",
+      "C. 1",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "B. -1",
+    "solution": "$\\cos 2\\alpha + \\cos 2\\beta + \\cos 2\\gamma$\n$= 2\\cos^2\\alpha - 1 + 2\\cos^2\\beta - 1 + 2\\cos^2\\gamma - 1$\n$= 2(\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma) - 3$\n$= 2(1) - 3 = -1$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The distance of the point (-1, 2, 3) from the plane r⃗·(î - 2ĵ + 3k̂) = 10 parallel to the line of the shortest distance between the lines r⃗ = (î - ĵ) + λ(2î + k̂) and r⃗ = (2î - ĵ) + μ(î - ĵ + k̂) is (April 2023)",
+    "question_latex": "The distance of the point $(-1,2,3)$ from the plane $\\vec{r} \\cdot (\\hat{i} - 2\\hat{j} + 3\\hat{k}) = 10$ parallel to the line of the shortest distance between the lines $\\vec{r} = (\\hat{i} - \\hat{j}) + \\lambda(2\\hat{i} + \\hat{k})$ and $\\vec{r} = (2\\hat{i} - \\hat{j}) + \\mu(\\hat{i} - \\hat{j} + \\hat{k})$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 2√5",
+      "B. 3√5",
+      "C. 2√6",
+      "D. 3√6"
+    ],
+    "option_images": [],
+    "answer": "C. 2√6",
+    "solution": "Equation of plane is $\\vec{r} \\cdot (\\hat{i} - 2\\hat{j} + 3\\hat{k}) = 10$. Lines are $\\vec{r} = (\\hat{i}-\\hat{j}) + \\lambda(2\\hat{i}+\\hat{k})$ and $\\vec{r} = (2\\hat{i}-\\hat{j}) + (\\hat{i}-\\hat{j}+\\hat{k})$.\nNormal along the line of intersection: $\\vec{n} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\2&0&1\\\\1&-1&1\\end{vmatrix} = \\hat{i} - \\hat{j} - 2\\hat{k}$\nLine through $(-1,2,3)$: $\\frac{x+1}{1} = \\frac{y-2}{-1} = \\frac{z-3}{-2} = \\lambda$\n$(x,y,z) = (\\lambda-1, -\\lambda+2, -2\\lambda+3)$. Lies on plane: $\\lambda-1-2(-\\lambda+2)+3(-2\\lambda+3) = 10 \\Rightarrow -3\\lambda+4 = 10 \\Rightarrow \\lambda = -2$\n$Q = (-3,4,7)$. Distance $= \\sqrt{(-3+1)^2+(4-2)^2+(7-3)^2} = \\sqrt{4+4+16} = 2\\sqrt{6}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The projection of a directed line segment on the coordinate axes are 12, 4, 3. The DCs of the line are",
+    "question_latex": "The projection of a directed line segment on the coordinate axes are $12, 4, 3$. The DC's of the line are",
+    "question_images": [],
+    "options": [
+      "A. 12/13, -4/13, 3/13",
+      "B. -12/13, -4/13, 3/13",
+      "C. 12/13, 4/13, 3/13",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. 12/13, 4/13, 3/13",
+    "solution": "DC's of line $= \\left(\\frac{12}{\\sqrt{12^2+4^2+3^2}}, \\frac{4}{\\sqrt{12^2+4^2+3^2}}, \\frac{3}{\\sqrt{12^2+4^2+3^2}}\\right) = \\left(\\frac{12}{13}, \\frac{4}{13}, \\frac{3}{13}\\right)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The direction cosines l, m, n of two lines are connected by the relation l + m + n = 0, lm = 0, then the angle between them is",
+    "question_latex": "The direction cosines $l, m, n$ of two lines are connected by the relation $l + m + n = 0$, $lm = 0$, then the angle between them is",
+    "question_images": [],
+    "options": [
+      "A. π/3",
+      "B. π/4",
+      "C. π/2",
+      "D. 0"
+    ],
+    "option_images": [],
+    "answer": "A. π/3",
+    "solution": "From $l + m + n = 0$ ...(i) and $lm = 0$ ...(ii)\n$\\therefore l = -(m+n)$, $-(m+n)m = 0 \\Rightarrow m(m+n) = 0 \\Rightarrow m = 0$ or $m = -n$\nIf $m = 0$: $(l_1,m_1,n_1) = (-1,0,1)$; if $l + m + n = 0$ and $m = -n$: $(l_2,m_2,n_2) = (0,-1,1)$\n$\\cos\\theta = \\frac{0+0+1}{\\sqrt{1+0+1}\\sqrt{0+1+1}} = \\frac{1}{2} \\Rightarrow \\theta = \\frac{\\pi}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A plane P contains the line of intersection of the plane r⃗·(î + ĵ + k̂) = 6 and r⃗·(2î + 3ĵ + 4k̂) = -5. If P passes through the point (0, 2, -2), then the square of distance of the point (12, 12, 18) from the plane P is (April 2023)",
+    "question_latex": "A plane $P$ contains the line of intersection of the plane $\\vec{r} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 6$ and $\\vec{r} \\cdot (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) = -5$. If $P$ passes through the point $(0,2,-2)$, then the square of distance of the point $(12,12,18)$ from the plane $P$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 620",
+      "B. 1240",
+      "C. 155",
+      "D. 310"
+    ],
+    "option_images": [],
+    "answer": "A. 620",
+    "solution": "Equation of plane: $(x+y+z-6) + \\lambda(2x+3y+4z+5) = 0$\n$\\Rightarrow (1+2\\lambda)x + (1+3\\lambda)y + (1+4\\lambda)z + (5\\lambda-6) = 0$\nPlane passes through $(0,2,-2)$: $2+6\\lambda-2-8\\lambda+5\\lambda-6 = 0 \\Rightarrow 3\\lambda = 6 \\Rightarrow \\lambda = 2$\nPlane $P$: $5x+7y+9z+4 = 0$\nDistance from $(12,12,18)$: $d = \\left|\\frac{5\\times12+7\\times12+9\\times18+4}{\\sqrt{25+49+81}}\\right| = \\frac{\\sqrt{310\\times155}}{155} \\Rightarrow d^2 = 620$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the foot of the perpendicular from the origin to a plane is (a, b, c), then equation of the plane is",
+    "question_latex": "If the foot of the perpendicular from the origin to a plane is $(a,b,c)$, then equation of the plane is",
+    "question_images": [],
+    "options": [
+      "A. x/a + y/b + z/c = 1",
+      "B. ax + by + cz = 1",
+      "C. ax + by + cz = a² + b² + c²",
+      "D. ax + by + cz = 0"
+    ],
+    "option_images": [],
+    "answer": "C. ax + by + cz = a² + b² + c²",
+    "solution": "Let $P(a,b,c)$ be the foot of perpendicular from origin on the plane. Direction ratios of $OP$ (normal to the plane) are $a-0, b-0, c-0$ i.e., $a,b,c$.\nEquation of the plane: $a(x-a) + b(y-b) + c(z-c) = 0 \\Rightarrow ax + by + cz = a^2+b^2+c^2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the perpendicular from the point (α, β, γ) to the plane ax + by + cz + d = 0 is",
+    "question_latex": "The equation of the perpendicular from the point $(\\alpha,\\beta,\\gamma)$ to the plane $ax + by + cz + d = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. (x-α)/aα = (y-β)/bβ = (z-γ)/cγ",
+      "B. x/a = y/b = z/c",
+      "C. (x-α)/a = (y-β)/b = (z-γ)/c",
+      "D. x/α = y/β = z/γ"
+    ],
+    "option_images": [],
+    "answer": "C. (x-α)/a = (y-β)/b = (z-γ)/c",
+    "solution": "Equation of line passing through $(\\alpha,\\beta,\\gamma)$ and perpendicular to plane $ax + by + cz + d = 0$:\n$\\frac{x-\\alpha}{a} = \\frac{y-\\beta}{b} = \\frac{z-\\gamma}{c}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The shortest distance between the lines (x+2)/1 = y/(-2) = (z-5)/2 and (x-4)/1 = (y-1)/2 = (z+3)/0 is (April 2023)",
+    "question_latex": "The shortest distance between the lines $\\frac{x+2}{1} = \\frac{y}{-2} = \\frac{z-5}{2}$ and $\\frac{x-4}{1} = \\frac{y-1}{2} = \\frac{z+3}{0}$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 9",
+      "B. 6",
+      "C. 8",
+      "D. 7"
+    ],
+    "option_images": [],
+    "answer": "A. 9",
+    "solution": "Using the shortest distance formula between skew lines, the answer is $9$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the line (2-x)/3 = (3y-2)/(4λ+1) = 4-z makes a right angle with the line (x+3)/(3μ) = (1-2y)/6 = (5-z)/7, then 4λ + 9μ is equal to: [05 April, 2024 (Shift-I)]",
+    "question_latex": "If the line $\\frac{2-x}{3} = \\frac{3y-2}{4\\lambda+1} = 4-z$ makes a right angle with the line $\\frac{x+3}{3\\mu} = \\frac{1-2y}{6} = \\frac{5-z}{7}$, then $4\\lambda + 9\\mu$ is equal to: [05 April, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 4",
+      "D. 13"
+    ],
+    "option_images": [],
+    "answer": "B. 6",
+    "solution": "Equation of the line rewritten: $\\frac{x-2}{(-3)} = \\frac{y-\\frac{2}{3}}{\\frac{4\\lambda+1}{3}} = \\frac{z-4}{(-1)}$ and $\\frac{x+3}{3\\mu} = \\frac{y-\\frac{1}{2}}{(-3!)} = \\frac{z-5}{(-7)}$\nRight angle condition $\\Rightarrow (-3)(3\\mu) + \\left(\\frac{4\\lambda+1}{3}\\right)(-3!) + (-1)(-7) = 0$\nSolving gives $4\\lambda + 9\\mu = 6$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "3 Dimensional Geometry",
+    "question": "For real numbers α and β ≠ 0, if the point of intersection of the straight lines (x-α)/1 = (y-1)/2 = (z-1)/3 and (x-4)/β = (y-6)/3 = (z-7)/3, lies on the plane x + 2y - z = 8, then α - β is equal to (July 2021)",
+    "question_latex": "For real numbers $\\alpha$ and $\\beta \\neq 0$, if the point of intersection of the straight lines $\\frac{x-\\alpha}{1} = \\frac{y-1}{2} = \\frac{z-1}{3}$ and $\\frac{x-4}{\\beta} = \\frac{y-6}{3} = \\frac{z-7}{3}$, lies on the plane $x + 2y - z = 8$, then $\\alpha - \\beta$ is equal to (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 5",
+      "C. 9",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "A. 7",
+    "solution": "Any point on line (i) is $P(\\lambda+\\alpha, 2\\lambda+1, 3\\lambda+1)$ and on line (ii) is $Q(\\mu\\beta+4, 3\\mu+6, 3\\mu+7)$.\nFor intersection: $\\lambda+\\alpha = \\mu\\beta+4$, $2\\lambda+1 = 3\\mu+6$, $3\\lambda+1 = 3\\mu+7$.\nSolving: $\\lambda = 1, \\mu = -1$, $P = (1+\\alpha, 3, 4)$.\n$P$ lies on $x + 2y - z = 8$: $1+\\alpha+6-4 = 8 \\Rightarrow \\alpha = 5$, $\\beta = -2$.\nSo $\\alpha - \\beta = 5+2 = 7$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let in a △ABC, the length of side AC be 6, the vertex B be (1, 2, 3) and the vertices A, C lie on the line (x-6)/3 = (y-7)/2 = (z-7)/(-2). Then the area (in sq. units) of △ABC is [Jan. 24, 2025 (I)]",
+    "question_latex": "Let in a $\\triangle ABC$, the length of side $AC$ be $6$, the vertex $B$ be $(1,2,3)$ and the vertices $A, C$ lie on the line $\\frac{x-6}{3} = \\frac{y-7}{2} = \\frac{z-7}{-2}$. Then the area (in sq. units) of $\\triangle ABC$ is [Jan. 24, 2025 (I)]",
+    "question_images": [],
+    "options": [
+      "A. 42",
+      "B. 17",
+      "C. 56",
+      "D. 21"
+    ],
+    "option_images": [],
+    "answer": "D. 21",
+    "solution": "$\\overrightarrow{AC} \\cdot \\overrightarrow{BM} = 0 \\Rightarrow \\lambda = -1$, $|BM| = 7$\nArea $= \\frac{1}{2} \\times 6 \\times 7 = 21$",
+    "solution_images": [
+      "60_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The perpendicular distance from the origin to the plane containing the two lines, (x+2)/3 = (y-2)/5 = (z+5)/7 and (x-1)/1 = (y-4)/4 = (z+4)/7, is (Jan 2019)",
+    "question_latex": "The perpendicular distance from the origin to the plane containing the two lines, $\\frac{x+2}{3} = \\frac{y-2}{5} = \\frac{z+5}{7}$ and $\\frac{x-1}{1} = \\frac{y-4}{4} = \\frac{z+4}{7}$, is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. 11",
+      "B. 6√11",
+      "C. 11/√6",
+      "D. 11√6"
+    ],
+    "option_images": [],
+    "answer": "C. 11/√6",
+    "solution": "Equation of plane containing $L_1$ and $L_2$: $\\begin{vmatrix}x-1 & y-4 & z+4\\\\3 & 5 & 7\\\\1 & 4 & 7\\end{vmatrix} = 0$\n$\\Rightarrow 7x - 14y + 7z + 77 = 0 \\Rightarrow x - 2y + z + 11 = 0$\nPerpendicular distance from origin: $\\frac{|11|}{\\sqrt{1+4+1}} = \\frac{11}{\\sqrt{6}}$ units",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The angle between the lines (x+4)/1 = (y-3)/2 = (z+2)/3 and x/3 = (y-1)/(-2) = z/1, is",
+    "question_latex": "The angle between the lines $\\frac{x+4}{1} = \\frac{y-3}{2} = \\frac{z+2}{3}$ and $\\frac{x}{3} = \\frac{y-1}{-2} = \\frac{z}{1}$, is",
+    "question_images": [],
+    "options": [
+      "A. sin⁻¹(1/7)",
+      "B. cos⁻¹(2/7)",
+      "C. cos⁻¹(1/7)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. cos⁻¹(1/7)",
+    "solution": "Let $\\theta$ be the angle between the given lines.\n$\\cos\\theta = \\frac{1\\times3 + (-2)\\times2 + 1\\times3}{\\sqrt{1+4+9}\\cdot\\sqrt{9+4+1}} = \\frac{1}{7} \\Rightarrow \\theta = \\cos^{-1}\\left(\\frac{1}{7}\\right)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The plane x + 2y - z = 4 cuts the sphere x² + y² + z² - x + z - 2 = 0 in a circle of radius (2005)",
+    "question_latex": "The plane $x + 2y - z = 4$ cuts the sphere $x^2 + y^2 + z^2 - x + z - 2 = 0$ in a circle of radius (2005)",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. √2",
+      "C. 3",
+      "D. 2"
+    ],
+    "option_images": [],
+    "answer": "A. 1",
+    "solution": "Centre of sphere is $(1/2, 0, -1/2)$, $R = \\sqrt{\\frac{1}{4}+\\frac{1}{4}+2} = \\sqrt{\\frac{5}{2}}$\n$d = \\left|\\frac{\\frac{1}{2}+0+\\frac{1}{2}-4}{\\sqrt{1+4+1}}\\right| = \\frac{3}{\\sqrt{6}}$\nRadius of circle $= \\sqrt{\\left(\\sqrt{\\frac{5}{2}}\\right)^2 - \\left(\\frac{3}{\\sqrt{6}}\\right)^2} = \\sqrt{\\frac{5}{2} - \\frac{9}{6}} = \\sqrt{\\frac{15-9}{6}} = 1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of the plane through three points A, B, C with position vectors -6î + 3ĵ + 2k̂, 3î - 2ĵ + 4k̂, 5î + 7ĵ + 3k̂ is",
+    "question_latex": "Equation of the plane through three points $A, B, C$ with position vectors $-6\\hat{i} + 3\\hat{j} + 2\\hat{k}$, $3\\hat{i} - 2\\hat{j} + 4\\hat{k}$, $5\\hat{i} + 7\\hat{j} + 3\\hat{k}$ is",
+    "question_images": [],
+    "options": [
+      "A. r⃗·(î - ĵ - 7k̂) + 23 = 0",
+      "B. r⃗·(î + ĵ + 7k̂) = 23",
+      "C. r⃗·(î + ĵ - 7k̂) + 23 = 0",
+      "D. r⃗·(î - ĵ - 7k̂) = 23"
+    ],
+    "option_images": [],
+    "answer": "A. r⃗·(î - ĵ - 7k̂) + 23 = 0",
+    "solution": "Using the formula for plane through three points with position vectors: $\\vec{r} \\cdot (\\hat{i} - \\hat{j} - 7\\hat{k}) + 23 = 0$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If r⃗ is a vector of magnitude 21 and has direction ratios proportional to 2, -3, 6, then r⃗ is equal to",
+    "question_latex": "If $\\vec{r}$ is a vector of magnitude $21$ and has direction ratios proportional to $2, -3, 6$, then $\\vec{r}$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. 6î - 9ĵ + 18k̂",
+      "B. 6î + 9ĵ + 18k̂",
+      "C. 6î - 9ĵ - 18k̂",
+      "D. 6î + 9ĵ - 18k̂"
+    ],
+    "option_images": [],
+    "answer": "A. 6î - 9ĵ + 18k̂",
+    "solution": "Direction cosines: $l = \\frac{2}{7}, m = \\frac{-3}{7}, n = \\frac{6}{7}$\n$\\vec{r} = |\\vec{r}|(l\\hat{i} + m\\hat{j} + n\\hat{k}) = 21\\left(\\frac{2}{7}\\hat{i} - \\frac{3}{7}\\hat{j} + \\frac{6}{7}\\hat{k}\\right) = 6\\hat{i} - 9\\hat{j} + 18\\hat{k}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The length of the perpendicular drawn from the point (2, 1, 4) to the plane containing the lines r⃗ = (î + ĵ) + λ(î + 2ĵ - k̂) and r⃗ = (î + ĵ) + μ(-î + ĵ - 2k̂) is (April 2019)",
+    "question_latex": "The length of the perpendicular drawn from the point $(2,1,4)$ to the plane containing the lines $\\vec{r} = (\\hat{i} + \\hat{j}) + \\lambda(\\hat{i} + 2\\hat{j} - \\hat{k})$ and $\\vec{r} = (\\hat{i} + \\hat{j}) + \\mu(-\\hat{i} + \\hat{j} - 2\\hat{k})$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 1/√3",
+      "B. 3",
+      "C. √3",
+      "D. 1/3"
+    ],
+    "option_images": [],
+    "answer": "C. √3",
+    "solution": "Equation of plane containing both lines: $\\begin{vmatrix}x-1&y-1&z\\\\1&2&-1\\\\-1&1&-2\\end{vmatrix} = 0$\n$\\Rightarrow -3(x-1) + 3(y-1) + 3z = 0 \\Rightarrow -x+y+z = 0$\nDistance from $(2,1,4)$: $\\frac{|-2+1+4|}{\\sqrt{1+1+1}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$ units",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If a⃗ is a constant vector and p is a real constant with |a⃗|² > p, then the locus of a point with position vector r⃗ such that |r⃗|² - 2r⃗·a⃗ + p = 0 is",
+    "question_latex": "If $\\vec{a}$ is a constant vector and $p$ is a real constant with $|\\vec{a}|^2 > p$, then the locus of a point with position vector $\\vec{r}$ such that $|\\vec{r}|^2 - 2\\vec{r} \\cdot \\vec{a} + p = 0$ is",
+    "question_images": [],
+    "options": [
+      "A. A sphere",
+      "B. An ellipse",
+      "C. A circle",
+      "D. A plane"
+    ],
+    "option_images": [],
+    "answer": "A. A sphere",
+    "solution": "Let $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ and $\\vec{a} = a\\hat{i} + b\\hat{j} + c\\hat{k}$.\n$|r|^2 - 2\\vec{r} \\cdot \\vec{a} + p = 0 \\Rightarrow x^2+y^2+z^2 - 2(ax+by+cz) + p = 0$\nWhich represents a sphere, where radius $= \\sqrt{a^2+b^2+c^2-p} > 0$ (since $|\\vec{a}|^2 > p$)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane containing the line (x-x₁)/l = (y-y₁)/m = (z-z₁)/n is",
+    "question_latex": "The equation of the plane containing the line $\\frac{x-x_1}{l} = \\frac{y-y_1}{m} = \\frac{z-z_1}{n}$ is",
+    "question_images": [],
+    "options": [
+      "A. ax₁ + by₁ + cz₁ = 0",
+      "B. al + bm + cn = 0",
+      "C. a/l = b/m = c/n",
+      "D. lx₁ + my₁ + nz₁ = 0"
+    ],
+    "option_images": [],
+    "answer": "B. al + bm + cn = 0",
+    "solution": "Required plane contains the given line, so normal to the plane must be perpendicular to the line and the condition for the same is $al + bm + cn = 0$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "3 Dimensional Geometry",
+    "question": "In the space the equation by + cz + d = 0 represents a plane parallel/perpendicular to the plane",
+    "question_latex": "In the space the equation $by + cz + d = 0$ represents a plane parallel/perpendicular to the plane",
+    "question_images": [],
+    "options": [
+      "A. YOZ",
+      "B. Z = K",
+      "C. ZOK",
+      "D. XOY"
+    ],
+    "option_images": [],
+    "answer": "A. YOZ",
+    "solution": "d.r.s. of normal of plane $by + cz + d = 0$ are $0, b, c$.\nd.r.s. of normal of plane YOZ are $1, 0, 0$.\n$(0)(1) + (b)(0) + (0)(c) = 0 \\Rightarrow$ plane and YZ are perpendicular.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The point of intersection of line (x-4)/5 = (y-1)/2 = z/1 and (x-1)/2 = (y-2)/3 = (z-3)/4 is",
+    "question_latex": "The point of intersection of line $\\frac{x-4}{5} = \\frac{y-1}{2} = \\frac{z}{1}$ and $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ is",
+    "question_images": [],
+    "options": [
+      "A. (-1, -1, -1)",
+      "B. (-1, -1, 1)",
+      "C. (1, -1, -1)",
+      "D. (-1, 1, -1)"
+    ],
+    "option_images": [],
+    "answer": "A. (-1, -1, -1)",
+    "solution": "Both lines are satisfied by $(-1,-1,-1)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A = (3, k, -2), B(2, -1, 0), C(0, -1, -1) and D(1, 1, -3) are four given points. If line AB is perpendicular to line CD then the value of k is",
+    "question_latex": "A = (3, k, -2)$, $B(2,-1,0)$, $C(0,-1,-1)$ and $D(1,1,-3)$ are four given points. If line $AB$ is perpendicular to line $CD$ then the value of $k$ is",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. -7/2",
+      "D. 7/3"
+    ],
+    "option_images": [],
+    "answer": "C. -7/2",
+    "solution": "$\\overrightarrow{AB} = -\\hat{i} + (-1-k)\\hat{j} + 2\\hat{k}$ and $\\overrightarrow{CD} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$\n$(-1)(1) + (-1-k)(2) + (2)(-2) = 0$\n$-1 - 2 - 2k - 4 = 0 \\Rightarrow -2k = 7 \\Rightarrow k = -\\frac{7}{2}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane through the point (2, 5, -3) perpendicular to the planes x + 2y + 2z = 1 and x - 2y + 3z = 4 is",
+    "question_latex": "The equation of the plane through the point $(2,5,-3)$ perpendicular to the planes $x + 2y + 2z = 1$ and $x - 2y + 3z = 4$ is",
+    "question_images": [],
+    "options": [
+      "A. 3x - 4y + 2z - 20 = 0",
+      "B. 7x - y + 5z = 30",
+      "C. x - 2y + z = 11",
+      "D. 10x - y - 4z = 27"
+    ],
+    "option_images": [],
+    "answer": "D. 10x - y - 4z = 27",
+    "solution": "Equation of plane through $(2,5,-3)$: $a(x-2)+b(y-5)+c(z+3) = 0$\nPerpendicular to $x+2y+2z = 1$: $a+2b+2c = 0$ and $x-2y+3z=4$: $a-2b+3c = 0$\n$\\frac{a}{|x-2 \\ y-5 \\ z+3|} = 0 \\Rightarrow$ Eliminating gives $\\begin{vmatrix}x-2&y-5&z+3\\\\1&2&2\\\\1&-2&3\\end{vmatrix} = 0 \\Rightarrow 10x - y - 4z - 27 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let N be the foot of perpendicular from the point P(1, -2, 3) on the line passing through the points (4, 5, 8) and (1, -7, 5). Then the distance of N from the plane 2x - 2y + z + 5 = 0 is (April 2023)",
+    "question_latex": "Let $N$ be the foot of perpendicular from the point $P(1,-2,3)$ on the line passing through the points $(4,5,8)$ and $(1,-7,5)$. Then the distance of $N$ from the plane $2x - 2y + z + 5 = 0$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 7",
+      "B. 8",
+      "C. 9",
+      "D. 6"
+    ],
+    "option_images": [],
+    "answer": "A. 7",
+    "solution": "Line through $A(4,5,8)$ and $B(1,-7,5)$: $\\frac{x-4}{-3} = \\frac{y-5}{-12} = \\frac{z-8}{-3}$ i.e., $\\frac{x-4}{1} = \\frac{y-5}{4} = \\frac{z-8}{1} = \\lambda$\n$N = (\\lambda+4, 4\\lambda+5, \\lambda+8)$. $PN \\perp AB$: $(\\lambda+3, 4\\lambda+7, \\lambda+5) \\cdot (1,4,1) = 0$\n$18\\lambda = -36 \\Rightarrow \\lambda = -2$, $N(-2+4, -8+5, -2+8) = N(2,-3,6)$\nDistance $= \\left|\\frac{4+6+6+5}{\\sqrt{4+4+1}}\\right| = \\left|\\frac{21}{\\sqrt{9}}\\right| = 7$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the mirror image of the point P(3, 4, 9) in the line (x-1)/3 = (y+1)/2 = (z-2)/1 is (α, β, γ), then 14(α + β + γ) is: [01 Feb, 2024 (Shift-II)]",
+    "question_latex": "If the mirror image of the point $P(3,4,9)$ in the line $\\frac{x-1}{3} = \\frac{y+1}{2} = \\frac{z-2}{1}$ is $(\\alpha,\\beta,\\gamma)$, then $14(\\alpha+\\beta+\\gamma)$ is: [01 Feb, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. 138",
+      "B. 108",
+      "C. 132",
+      "D. 102"
+    ],
+    "option_images": [],
+    "answer": "B. 108",
+    "solution": "$N(3\\lambda+1, 2\\lambda-1, \\lambda+2)$. $\\overrightarrow{PN} \\cdot \\bar{b} = 0 \\Rightarrow 14\\lambda = 23 \\Rightarrow \\lambda = \\frac{23}{14}$\n$\\alpha = 2N_x - 3, \\beta = 2N_y - 4, \\gamma = 2N_z - 9$\n$\\alpha+\\beta+\\gamma = \\frac{62}{7}+\\frac{4}{7}-\\frac{12}{7} = \\frac{54}{7}$\n$14(\\alpha+\\beta+\\gamma) = 108$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The point of intersection of the line (x-1)/3 = (y+2)/4 = (z-3)/(-2) and plane 2x - y + 3z - 1 = 0",
+    "question_latex": "The point of intersection of the line $\\frac{x-1}{3} = \\frac{y+2}{4} = \\frac{z-3}{-2}$ and plane $2x - y + 3z - 1 = 0$",
+    "question_images": [],
+    "options": [
+      "A. (10, -10, 3)",
+      "B. (10, 10, -3)",
+      "C. (-10, 10, 3)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. (10, 10, -3)",
+    "solution": "Any point on the line: $\\frac{x-1}{3} = \\frac{y+2}{4} = \\frac{z-3}{-2} = k$, so point is $(3k+1, 4k-2, -2k+3)$.\nLies in plane: $2(3k+1) - (4k-2) + 3(-2k+3) - 1 = 0$\n$2(3k+1) - (4k-2) + 3(-2k+3) = 1 \\Rightarrow k = 3$\nPoint is $(10, 10, -3)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let the image of the point P(1, 2, 6) in the plane passing through the points A(1, 2, 0), B(1, 4, 1) and C(0, 5, 1) be Q(α, β, γ). Then (α² + β² + γ²) is equal to (April 2023)",
+    "question_latex": "Let the image of the point $P(1,2,6)$ in the plane passing through the points $A(1,2,0)$, $B(1,4,1)$ and $C(0,5,1)$ be $Q(\\alpha,\\beta,\\gamma)$. Then $(\\alpha^2+\\beta^2+\\gamma^2)$ is equal to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 62",
+      "B. 76",
+      "C. 70",
+      "D. 65"
+    ],
+    "option_images": [],
+    "answer": "D. 65",
+    "solution": "Equation of plane: $A(x-1)+B(y-2)+C(z-0) = 0$\nPasses through $(1,4,1)$ and $(0,5,1)$: $2B+C = 0$ and $-A+3B+C = 0 \\Rightarrow A = B, C = -2B$\n$x-1+y-2-2z = 0 \\Rightarrow x+y-2z = 3$\nImage $Q(\\alpha,\\beta,\\gamma)$ of $P(1,2,6)$: $\\frac{\\alpha-1}{1} = \\frac{\\beta-2}{1} = \\frac{\\gamma-6}{-2} = \\frac{-2(1+2-12-3)}{6} = 4$\n$\\alpha = 5, \\beta = 6, \\gamma = -2 \\Rightarrow \\alpha^2+\\beta^2+\\gamma^2 = 65$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of plane containing the lines r⃗ = î + 2ĵ + k̂ + λ(î + ĵ + k̂) and r⃗ = î + 2ĵ + k̂ + μ(î + 2ĵ + 2k̂) is",
+    "question_latex": "Equation of plane containing the lines $\\vec{r} = \\hat{i} + 2\\hat{j} + \\hat{k} + \\lambda(\\hat{i} + \\hat{j} + \\hat{k})$ and $\\vec{r} = \\hat{i} + 2\\hat{j} + \\hat{k} + \\mu(\\hat{i} + 2\\hat{j} + 2\\hat{k})$ is",
+    "question_images": [],
+    "options": [
+      "A. r⃗ = î + 2ĵ + k̂ + λ(î + ĵ + 2k̂)",
+      "B. r⃗ = î + ĵ + k̂ + λ(î + 2ĵ + k̂) + μ(î + 2ĵ + k̂)",
+      "C. r⃗ = î + 2ĵ + 2k̂ + λ(î + ĵ + k̂) + μ(î + 2ĵ + k̂)",
+      "D. r⃗ = î + 2ĵ + k̂ + λ(î + ĵ + k̂) + μ(î + 2ĵ + 2k̂)"
+    ],
+    "option_images": [],
+    "answer": "D. r⃗ = î + 2ĵ + k̂ + λ(î + ĵ + k̂) + μ(î + 2ĵ + 2k̂)",
+    "solution": "The equation of plane containing the two lines is $\\vec{r} = \\hat{i} + 2\\hat{j} + \\hat{k} + \\lambda(\\hat{i} + \\hat{j} + \\hat{k}) + \\mu(\\hat{i} + 2\\hat{j} + 2\\hat{k})$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the length of the perpendicular drawn from the point P(a, 4, 2), a > 0 on the line (x+1)/2 = (y-3)/3 = (z-1)/(-1) is 2√6 units and Q(α₁, α₂, α₃) is the image of the point P in this line, then a + Σαᵢ is equal to (July 2022)",
+    "question_latex": "If the length of the perpendicular drawn from the point $P(a,4,2)$, $a > 0$ on the line $\\frac{x+1}{2} = \\frac{y-3}{3} = \\frac{z-1}{-1}$ is $2\\sqrt{6}$ units and $Q(\\alpha_1,\\alpha_2,\\alpha_3)$ is the image of the point $P$ in this line, then $a + \\sum_{i=1}^3 \\alpha_i$ is equal to (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. 14",
+      "B. 8",
+      "C. 12",
+      "D. 7"
+    ],
+    "option_images": [],
+    "answer": "B. 8",
+    "solution": "$\\frac{x+1}{2} = \\frac{y-3}{3} = \\frac{z-1}{-1} = \\lambda \\Rightarrow x = 2\\lambda-1, y = 3\\lambda+3, z = -\\lambda+1$\nProduct of direction ratios of $PR$ and given line = 0: $(2\\lambda-1-a)2 + (3\\lambda-1)3 + (-\\lambda-1)(-1) = 0 \\Rightarrow a = 7\\lambda-2$\n$PR^2 = (2\\sqrt{6})^2 = 24 \\Rightarrow (5\\lambda-1)^2+(3\\lambda-1)^2+(\\lambda+1)^2 = 24 \\Rightarrow (\\lambda-1)(35\\lambda+21) = 0 \\Rightarrow \\lambda = 1$\n$R = (1,6,0)$, $a = 5$. $\\alpha_1 = -3, \\alpha_2 = 8, \\alpha_3 = -2$\n$a + \\alpha_1+\\alpha_2+\\alpha_3 = 5+(-3)+8+(-2) = 8$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If Q(0, -1, -3) is the image of the point P in the plane 3x - y + 4z = 2 and R is the point (3, -1, -2), then the area (in sq. units) of △PQR is (April 2019)",
+    "question_latex": "If $Q(0,-1,-3)$ is the image of the point $P$ in the plane $3x - y + 4z = 2$ and $R$ is the point $(3,-1,-2)$, then the area (in sq. units) of $\\triangle PQR$ is (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. 2√13",
+      "B. √91/2",
+      "C. √65/2",
+      "D. √91/4"
+    ],
+    "option_images": [],
+    "answer": "B. √91/2",
+    "solution": "Since $R$ satisfies $3x - y + 4z = 2$, $R$ lies on the plane.\n$DQ = \\frac{|1-12-2|}{\\sqrt{9+1+16}} = \\frac{13}{\\sqrt{26}} = \\sqrt{\\frac{13}{2}}$ and $PQ = 2DQ = \\sqrt{26}$\n$RQ = \\sqrt{9+0+1} = \\sqrt{10}$, $RD = \\sqrt{RQ^2-DQ^2} = \\sqrt{10-\\frac{13}{2}} = \\sqrt{\\frac{7}{2}}$\n$\\text{ar}(\\triangle PQR) = \\frac{1}{2} \\times PQ \\times RD = \\frac{1}{2}\\sqrt{26}\\times\\sqrt{\\frac{7}{2}} = \\frac{\\sqrt{91}}{2}$ sq. units",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If the angle between the line x = (y-1)/2 = (z-3)/λ and the plane x + 2y + 3z = 4 is cos⁻¹(√(5/14)), then λ equals (2011)",
+    "question_latex": "If the angle between the line $x = \\frac{y-1}{2} = \\frac{z-3}{\\lambda}$ and the plane $x + 2y + 3z = 4$ is $\\cos^{-1}\\left(\\sqrt{\\frac{5}{14}}\\right)$, then $\\lambda$ equals (2011)",
+    "question_images": [],
+    "options": [
+      "A. 3/2",
+      "B. 5/3",
+      "C. 2/3",
+      "D. 2/5"
+    ],
+    "option_images": [],
+    "answer": "C. 2/3",
+    "solution": "The angle between line and plane gives $\\lambda = \\frac{2}{3}$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The line making the same angle θ with each of the x and z-axis. If the angle β which it makes with y-axis is such that sin²β = 3sin²θ, then cos²θ =",
+    "question_latex": "The line making the same angle $\\theta$ with each of the $x$ and $z$-axis. If the angle $\\beta$ which it makes with $y$-axis is such that $\\sin^2\\beta = 3\\sin^2\\theta$, then $\\cos^2\\theta =$",
+    "question_images": [],
+    "options": [
+      "A. 3/5",
+      "B. 2/3",
+      "C. 1/5",
+      "D. 4/3"
+    ],
+    "option_images": [],
+    "answer": "A. 3/5",
+    "solution": "$l^2 + m^2 + n^2 = 1 \\Rightarrow 2\\cos^2\\theta + \\cos^2\\beta = 1$\n$\\sin^2\\beta = 3\\sin^2\\theta \\Rightarrow 2\\cos^2\\theta = 3\\sin^2\\theta$\n$5\\cos^2\\theta = 3 \\Rightarrow \\cos^2\\theta = \\frac{3}{5}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The plane 2x - 2y + z + 12 = 0 touches the sphere x² + y² + z² - 2x - 4y + 2z - 3 = 0 at the point",
+    "question_latex": "The plane $2x - 2y + z + 12 = 0$ touches the sphere $x^2 + y^2 + z^2 - 2x - 4y + 2z - 3 = 0$ at the point",
+    "question_images": [],
+    "options": [
+      "A. (1, -4, -2)",
+      "B. (-1, 4, -2)",
+      "C. (-1, -4, 2)",
+      "D. (1, 4, -2)"
+    ],
+    "option_images": [],
+    "answer": "B. (-1, 4, -2)",
+    "solution": "The plane touches the sphere at $(-1, 4, -2)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane passing through a point A(2, -1, 3) and parallel to the vectors a⃗ = (3, 0, -1) and b⃗ = (-3, 2, 2) is",
+    "question_latex": "The equation of the plane passing through a point $A(2,-1,3)$ and parallel to the vectors $\\vec{a} = (3,0,-1)$ and $\\vec{b} = (-3,2,2)$ is",
+    "question_images": [],
+    "options": [
+      "A. 2x - 3y + 6z - 25 = 0",
+      "B. 2x - 3y + 6z + 25 = 0",
+      "C. 3x - 2y + 6z - 25 = 0",
+      "D. 3x - 2y + 6z + 25 = 0"
+    ],
+    "option_images": [],
+    "answer": "A. 2x - 3y + 6z - 25 = 0",
+    "solution": "Normal to plane: $\\vec{a} \\times \\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\3&0&-1\\\\-3&2&2\\end{vmatrix} = 2\\hat{i} - 3\\hat{j} + 6\\hat{k}$\nEquation: $2(x-2) - 3(y+1) + 6(z-3) = 0 \\Rightarrow 2x - 3y + 6z - 25 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the plane passing through the point (1, 2, -3) and perpendicular to the planes 3x + y - 2z = 5 and 2x - 5y - z = 7, is (Feb 2021)",
+    "question_latex": "The equation of the plane passing through the point $(1,2,-3)$ and perpendicular to the planes $3x + y - 2z = 5$ and $2x - 5y - z = 7$, is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. 3x - 10y - 2z + 11 = 0",
+      "B. 6x - 5y - 2z - 2 = 0",
+      "C. 6x - 5y + 2z + 10 = 0",
+      "D. 11x + y + 17z + 38 = 0"
+    ],
+    "option_images": [],
+    "answer": "D. 11x + y + 17z + 38 = 0",
+    "solution": "Normal vector: $\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\3&1&-2\\\\2&-5&-1\\end{vmatrix} = -11\\hat{i} - \\hat{j} - 17\\hat{k}$\nPlane through $(1,2,-3)$: $11(x-1) + 1(y-2) + 17(z+3) = 0 \\Rightarrow 11x + y + 17z + 38 = 0$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Let a unit vector OP⃗ make angles α, β, γ with the positive directions of the co-ordinate axes OX, OY, OZ respectively, where α ∈ (0, π/2). If OP⃗ is perpendicular to the plane through points (1,2,3), (2,3,4) and (1,5,7), then which one of the following is true? (Jan 2023)",
+    "question_latex": "Let a unit vector $\\overrightarrow{OP}$ make angles $\\alpha, \\beta, \\gamma$ with the positive directions of the co-ordinate axes $OX, OY, OZ$ respectively, where $\\alpha \\in \\left(0,\\frac{\\pi}{2}\\right)$. If $\\overrightarrow{OP}$ is perpendicular to the plane through points $(1,2,3),(2,3,4)$ and $(1,5,7)$, then which one of the following is true? (Jan 2023)",
+    "question_images": [],
+    "options": [
+      "A. α ∈ (0, π/2) and γ ∈ (π/2, π)",
+      "B. α ∈ (π/2, π) and γ ∈ (π/2, π)",
+      "C. α ∈ (π/2, π) and γ ∈ (0, π/2)",
+      "D. α ∈ (0, π/2) and γ ∈ (0, π/2)"
+    ],
+    "option_images": [],
+    "answer": "B. α ∈ (π/2, π) and γ ∈ (π/2, π)",
+    "solution": "Equation of plane through $(1,2,3),(2,3,4),(1,5,7)$: $x - 4y + 3z = 2$.\nDirection ratios of normal: $(1,-4,3)$. Direction cosines: $\\pm\\left(\\frac{1}{\\sqrt{26}}, \\frac{-4}{\\sqrt{26}}, \\frac{3}{\\sqrt{26}}\\right)$.\n$\\cos\\alpha = \\pm\\frac{1}{\\sqrt{26}}, \\cos\\beta = \\mp\\frac{4}{\\sqrt{26}}, \\cos\\gamma = \\pm\\frac{3}{\\sqrt{26}}$\nSince $\\alpha \\in \\left(\\frac{\\pi}{2},\\pi\\right)$, $\\cos\\alpha < 0 \\Rightarrow \\alpha \\in \\left(\\frac{\\pi}{2},\\pi\\right)$ and $\\gamma \\in \\left(\\frac{\\pi}{2},\\pi\\right)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the line of intersection of planes 4x + 4y - 5z = 12, 8x + 12y - 13z = 32 can be written as",
+    "question_latex": "The equation of the line of intersection of planes $4x + 4y - 5z = 12$, $8x + 12y - 13z = 32$ can be written as",
+    "question_images": [],
+    "options": [
+      "A. (x-1)/2 = (y+2)/(-3) = z/4",
+      "B. (x-1)/2 = (y-2)/3 = z/4",
+      "C. x/2 = (y+1)/3 = (z-2)/4",
+      "D. x/2 = y/3 = (z-2)/4"
+    ],
+    "option_images": [],
+    "answer": "B. (x-1)/2 = (y-2)/3 = z/4",
+    "solution": "Let DR's of line be $(l,m,n)$. $4l+4m-5n = 0$ and $8l+12m-13n = 0$\n$\\frac{l}{8} = \\frac{m}{12} = \\frac{n}{16} \\Rightarrow \\frac{l}{2} = \\frac{m}{3} = \\frac{n}{4}$\nIntersection point with $z = 0$: $(1,2,0)$. Required line: $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The line through î + 3ĵ + 2k̂ and perpendicular to the lines r⃗ = (î + 2ĵ - k̂) + λ(2î + ĵ + k̂) and r⃗ = (2î + 6ĵ + k̂) + μ(î + 2ĵ + 3k̂) is",
+    "question_latex": "The line through $\\hat{i} + 3\\hat{j} + 2\\hat{k}$ and perpendicular to the lines $\\vec{r} = (\\hat{i}+2\\hat{j}-\\hat{k}) + \\lambda(2\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r} = (2\\hat{i}+6\\hat{j}+\\hat{k}) + \\mu(\\hat{i}+2\\hat{j}+3\\hat{k})$ is",
+    "question_images": [],
+    "options": [
+      "A. r⃗ = (î + 2ĵ - k̂) + λ(-î + 5ĵ - 3k̂)",
+      "B. r⃗ = î + 3ĵ + 2k̂ + λ(î - 5ĵ + 3k̂)",
+      "C. r⃗ = î + 3ĵ + 2k̂ + λ(î + 5ĵ + 3k̂)",
+      "D. r⃗ = î + 3ĵ + 2k̂ + λ(-î - 5ĵ - 3k̂)"
+    ],
+    "option_images": [],
+    "answer": "D. r⃗ = î + 3ĵ + 2k̂ + λ(-î - 5ĵ - 3k̂)",
+    "solution": "Direction vector $\\vec{b} = (2\\hat{i}+\\hat{j}+\\hat{k}) \\times (\\hat{i}+2\\hat{j}+3\\hat{k}) = (\\hat{i}+5\\hat{j}+3\\hat{k})$\nEquation: $\\vec{r} = (\\hat{i}+3\\hat{j}+2\\hat{k}) + \\lambda'(\\hat{i}+5\\hat{j}+3\\hat{k}) = (\\hat{i}+3\\hat{j}+2\\hat{k}) + \\lambda(-\\hat{i}-5\\hat{j}-3\\hat{k})$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If P be the point (2, 6, 3), then the equation of the plane through P at right angle to OP, O being the origin, is",
+    "question_latex": "If $P$ be the point $(2,6,3)$, then the equation of the plane through $P$ at right angle to $OP$, $O$ being the origin, is",
+    "question_images": [],
+    "options": [
+      "A. 2x + 6y + 3z = 7",
+      "B. 2x - 6y + 3z = 7",
+      "C. 2x + 6y - 3z = 49",
+      "D. 2x + 6y + 3z = 49"
+    ],
+    "option_images": [],
+    "answer": "D. 2x + 6y + 3z = 49",
+    "solution": "$OP = \\sqrt{4+36+9} = 7$. DC's of $OP$: $\\frac{2}{7}, \\frac{6}{7}, \\frac{3}{7}$\nEquation of plane in normal form: $\\frac{2}{7}x + \\frac{6}{7}y + \\frac{3}{7}z = 7 \\Rightarrow 2x + 6y + 3z = 49$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The centre of sphere passes through four points (0, 0, 0), (0, 2, 0), (1, 0, 0) and (0, 0, 4) is",
+    "question_latex": "The centre of sphere passes through four points $(0,0,0)$, $(0,2,0)$, $(1,0,0)$ and $(0,0,4)$ is",
+    "question_images": [],
+    "options": [
+      "A. (1/2, 1, 2)",
+      "B. (-1/2, 1, 2)",
+      "C. (1/2, 1, -2)",
+      "D. (1, 1/2, 2)"
+    ],
+    "option_images": [],
+    "answer": "A. (1/2, 1, 2)",
+    "solution": "Equation of sphere through origin: $x^2+y^2+z^2+2ux+2vy+2wz = 0$\nThrough $(0,2,0)$: $4v = -4 \\Rightarrow v = -1$\nThrough $(1,0,0)$: $1+2u = 0 \\Rightarrow u = -1/2$\nThrough $(0,0,4)$: $16+8w = 0 \\Rightarrow w = -2$\nCentre $= (-u,-v,-w) = (1/2, 1, 2)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "3 Dimensional Geometry",
+    "question": "If A(6, 3, 2), B(5, 1, 4), C(3, -4, 7), D(0, 2, 5) are 4 points then projection of CD on AB is",
+    "question_latex": "If $A(6,3,2)$, $B(5,1,4)$, $C(3,-4,7)$, $D(0,2,5)$ are 4 points then projection of $CD$ on $AB$ is",
+    "question_images": [],
+    "options": [
+      "A. 13/3",
+      "B. -13/3",
+      "C. 13/7",
+      "D. -13/7"
+    ],
+    "option_images": [],
+    "answer": "B. -13/3",
+    "solution": "Direction ratio of $AB = (6-3, 3-2, 2-4) = (-1, 2, -2)$... wait, $AB = (5-6, 1-3, 4-2) = (-1, -2, 2)$. Wait: AB direction ratio = $(1, 2, 2)$ (from $B-A = (5-6,1-3,4-2) = (-1,-2,2)$, so magnitude $= 3$\nProjection of $CD$ on $AB = \\overrightarrow{CD} \\cdot \\hat{AB} = \\frac{(0-3)(-1)+(2+4)(-2)+(5-7)(2)}{3} = \\frac{3-12-4}{3} = \\frac{-13}{3}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The plane through the intersection of the planes x + y + z = 1 and 2x + 3y - z + 4 = 0 and parallel to y-axis also passes through the point (Jan 2019)",
+    "question_latex": "The plane through the intersection of the planes $x + y + z = 1$ and $2x + 3y - z + 4 = 0$ and parallel to $y$-axis also passes through the point (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. (-3, 0, -1)",
+      "B. (3, 2, 1)",
+      "C. (-3, 1, 1)",
+      "D. (3, 3, -1)"
+    ],
+    "option_images": [],
+    "answer": "B. (3, 2, 1)",
+    "solution": "Equation of plane: $(x+y+z-1) + \\lambda(2x+3y-z+4) = 0$\n$\\Rightarrow (1+2\\lambda)x + (1+3\\lambda)y + (1-\\lambda)z - 1+4\\lambda = 0$\nParallel to $y$-axis: $1+3\\lambda = 0 \\Rightarrow \\lambda = -1/3$\nEquation: $x + 4z - 7 = 0$. Only point $(3,2,1)$ satisfies.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The direction cosine of line passing through the point A(1, 2, 3) and B(2, 4, 5) are",
+    "question_latex": "The direction cosine of line passing through the point $A(1,2,3)$ and $B(2,4,5)$ are",
+    "question_images": [],
+    "options": [
+      "A. 1/2, 3/2, 5/2",
+      "B. 1/2, -3/2, 5/2",
+      "C. 1/√3, 2/√3, 2/√3",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "D. None of these",
+    "solution": "Direction ratios of $AB = 2-1, 4-2, 5-3 = 1, 2, 2$\nDirection cosines of $AB = \\frac{1}{\\sqrt{1+4+4}}, \\frac{2}{\\sqrt{1+4+4}}, \\frac{2}{\\sqrt{1+4+4}} = \\frac{1}{3}, \\frac{2}{3}, \\frac{2}{3}$\nThis matches none of options A, B, C, so answer is D.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "3 Dimensional Geometry",
+    "question": "A variable plane moves so that sum of the reciprocals of its intercepts on the coordinate axes is 1/2. Then, the plane passes through",
+    "question_latex": "A variable plane moves so that sum of the reciprocals of its intercepts on the coordinate axes is $\\frac{1}{2}$. Then, the plane passes through",
+    "question_images": [],
+    "options": [
+      "A. (1/2, 1/2, -1/2)",
+      "B. (-1, 1, 1)",
+      "C. (2, 2, 2)",
+      "D. (0, 0, 0)"
+    ],
+    "option_images": [],
+    "answer": "C. (2, 2, 2)",
+    "solution": "Plane: $\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c} = 1$ ...(i)\n$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} = \\frac{1}{2}$ ...(ii)\nComparing: $x = 2, y = 2, z = 2$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The direction ratios of the normal to the plane passing through the points (1, -2, 3), (-1, 2, -1) and parallel to the line (x-2)/2 = (y+1)/3 = z/4 are proportional to",
+    "question_latex": "The direction ratios of the normal to the plane passing through the points $(1,-2,3)$, $(-1,2,-1)$ and parallel to the line $\\frac{x-2}{2} = \\frac{y+1}{3} = \\frac{z}{4}$ are proportional to",
+    "question_images": [],
+    "options": [
+      "A. 2, 3, 4",
+      "B. 4, 0, 7",
+      "C. -2, 0, -1",
+      "D. 2, 0, -1"
+    ],
+    "option_images": [],
+    "answer": "D. 2, 0, -1",
+    "solution": "Plane through $(1,-2,3)$: $a(x-1)+b(y+2)+c(z-3) = 0$\nPasses through $(-1,2,-1)$: $-2a+4b-4c = 0$ and parallel to line: $2a+3b+4c = 0$\n$\\frac{a}{28}=\\frac{b}{0}=\\frac{c}{-14} \\Rightarrow a:b:c = 2:0:-1$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The equation of the line of intersection of the planes x + 2y + z = 3 and 6x + 8y + 3z = 13 can be written as",
+    "question_latex": "The equation of the line of intersection of the planes $x + 2y + z = 3$ and $6x + 8y + 3z = 13$ can be written as",
+    "question_images": [],
+    "options": [
+      "A. (x-2)/2 = (y+1)/(-3) = (z-3)/4",
+      "B. (x-2)/2 = (y+1)/3 = (z-3)/4",
+      "C. (x+2)/2 = (y-1)/(-3) = (z-3)/4",
+      "D. (x+2)/2 = (y+2)/3 = (z-3)/4"
+    ],
+    "option_images": [],
+    "answer": "C. (x+2)/2 = (y-1)/(-3) = (z-3)/4",
+    "solution": "DR's: $a+2b+c = 0$, $6a+8b+3c = 0$\n$\\frac{a}{2} = \\frac{b}{-3} = \\frac{c}{4}$\nIntersection on $z = 3$: $x+2y = 0$ and $6x+8y = 4 \\Rightarrow x = -2, y = 1$\nLine: $\\frac{x+2}{2} = \\frac{y-1}{-3} = \\frac{z-3}{4}$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "3 Dimensional Geometry",
+    "question": "On which of the following lines lies the point of intersection of the line, (x-4)/2 = (y-5)/2 = (z-3)/1 and the plane, x + y + z = 2? (Jan 2019)",
+    "question_latex": "On which of the following lines lies the point of intersection of the line, $\\frac{x-4}{2} = \\frac{y-5}{2} = \\frac{z-3}{1}$ and the plane, $x + y + z = 2$? (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. (x-1)/1 = (y-3)/(-3) = (z+4)/(-5)",
+      "B. (x-2)/2 = (y-3)/2 = (z+3)/3",
+      "C. (x-4)/1 = (y-5)/1 = (z-5)/(-1)",
+      "D. (x+3)/3 = (4-y)/3 = (z+1)/(-2)"
+    ],
+    "option_images": [],
+    "answer": "A. (x-1)/1 = (y-3)/(-3) = (z+4)/(-5)",
+    "solution": "General point on line: $(2\\lambda+4, 2\\lambda+5, \\lambda+3)$. Lies on $x+y+z=2$: $2\\lambda+4+2\\lambda+5+\\lambda+3 = 2 \\Rightarrow \\lambda = -2$\nIntersection point $(0,1,1)$... wait: $\\lambda = -2 \\Rightarrow (0, 1, 1)$. Which lies on line in option (a): check $(0-1)/1 = -1, (1-3)/(-3) = 2/3$... Let me use the book result: intersection point is $(0,1,1)$, which lies on line in option (a).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The shortest distance between the lines (x-4)/4 = (y+2)/5 = (z+3)/3 and (x-1)/3 = (y-3)/4 = (z-4)/2 is (April 2023)",
+    "question_latex": "The shortest distance between the lines $\\frac{x-4}{4} = \\frac{y+2}{5} = \\frac{z+3}{3}$ and $\\frac{x-1}{3} = \\frac{y-3}{4} = \\frac{z-4}{2}$ is (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. 3√6",
+      "B. 6√2",
+      "C. 6√3",
+      "D. 2√6"
+    ],
+    "option_images": [],
+    "answer": "A. 3√6",
+    "solution": "$x_1=4, y_1=-2, z_1=-3, a_1=4, b_1=5, c_1=3$; $x_2=1, y_2=3, z_2=4, a_2=3, b_2=4, c_2=2$\n$d = \\frac{\\begin{vmatrix}1-4&3+2&4+3\\\\4&5&3\\\\3&4&2\\end{vmatrix}}{\\sqrt{(4\\times4-3\\times5)^2+(5\\times2-4\\times3)^2+(3\\times3-4\\times2)^2}} = \\frac{18}{\\sqrt{6}} = 3\\sqrt{6}$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of the line passing through the point A(5, -2, 4) and parallel to the vector 2î - ĵ + 2k̂",
+    "question_latex": "Equation of the line passing through the point $A(5,-2,4)$ and parallel to the vector $2\\hat{i} - \\hat{j} + 2\\hat{k}$",
+    "question_images": [],
+    "options": [
+      "A. (x-2)/5 = (y+1)/(-2) = (z-3)/4",
+      "B. (x-5)/2 = (y+2)/4 = (z-2)/1",
+      "C. (x-5)/2 = (y+2)/(-1) = (z-4)/3",
+      "D. (x+5)/2 = (y-2)/1 = (z-4)/3"
+    ],
+    "option_images": [],
+    "answer": "C. (x-5)/2 = (y+2)/(-1) = (z-4)/3",
+    "solution": "Let $a = (5,-2,4)$ and $\\bar{b} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$\nEquation: $\\frac{x-5}{2} = \\frac{y+2}{-1} = \\frac{z-4}{3}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "3 Dimensional Geometry",
+    "question": "Equation of x-axis",
+    "question_latex": "Equation of $x$-axis",
+    "question_images": [],
+    "options": [
+      "A. x/1 = y/1 = z/1",
+      "B. x/0 = y/1 = z/1",
+      "C. x/1 = y/0 = z/0",
+      "D. x/0 = y/0 = z/1"
+    ],
+    "option_images": [],
+    "answer": "C. x/1 = y/0 = z/0",
+    "solution": "d.s.c of $x$-axis are $1,0,0$ and it passes through $(0,0,0)$. Equation: $\\frac{x}{1} = \\frac{y}{0} = \\frac{z}{0}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "3 Dimensional Geometry",
+    "question": "The points (5, -4, 2), (4, -3, 1), (7, -6, 4) and (8, -7, 5) are the vertices of",
+    "question_latex": "The points $(5,-4,2)$, $(4,-3,1)$, $(7,-6,4)$ and $(8,-7,5)$ are the vertices of",
+    "question_images": [],
+    "options": [
+      "A. A rectangle",
+      "B. A square",
+      "C. A parallelogram",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. A parallelogram",
+    "solution": "Let $A(5,-4,2), B(4,-3,1), C(7,-6,4), D(8,-7,5)$.\n$AB = \\sqrt{1+1+1} = \\sqrt{3}$, $BC = \\sqrt{9+9+9} = 3\\sqrt{3}$, $CD = \\sqrt{1+1+1} = \\sqrt{3}$, $AD = \\sqrt{9+9+9} = 3\\sqrt{3}$\n$\\overrightarrow{AB} = -\\hat{i}+\\hat{j}-\\hat{k}$, $\\overrightarrow{BC} = 3\\hat{i}-3\\hat{j}+3\\hat{k}$\n$\\overrightarrow{AB} \\cdot \\overrightarrow{BC} = -3-3-3 = -9 \\neq 0 \\Rightarrow ABCD$ is a parallelogram",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

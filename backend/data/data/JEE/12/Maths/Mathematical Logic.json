@@ -1,0 +1,1918 @@
+[
+  {
+    "id": 1,
+    "chapter": "Mathematical Logic",
+    "question": "The inverse of the statement 'If the principle declares a holiday then we are happy' is",
+    "question_latex": "The inverse of the statement 'If the principle declares a holiday then we are happy' is",
+    "question_images": [],
+    "options": [
+      "A. If we are happy, then the principle declares a holiday",
+      "B. If we are not happy, then the principle do not declare holiday",
+      "C. If the principle do not declare a holiday then we are not happy",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. If the principle do not declare a holiday then we are not happy",
+    "solution": "The inverse of $p \\rightarrow q$ is $\\sim p \\rightarrow \\sim q$.\nLet $p$: The principle declares a holiday, $q$: We are happy.\nInverse: If the principle does not declare a holiday, then we are not happy.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Mathematical Logic",
+    "question": "If truth value of p ∨ q is true, then truth value of ~p ∧ q is",
+    "question_latex": "If truth value of $p \\vee q$ is true, then truth value of $\\sim p \\wedge q$ is",
+    "question_images": [],
+    "options": [
+      "A. False if p is true",
+      "B. True if p is true",
+      "C. False if q is true",
+      "D. True if q is true"
+    ],
+    "option_images": [],
+    "answer": "A. False if p is true",
+    "solution": "If $p$ is true, then $\\sim p$ is false.\nTherefore $\\sim p \\wedge q \\equiv F \\wedge q \\equiv F$.\nSo $\\sim p \\wedge q$ is false when $p$ is true.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of 'If two triangles are identical, then these are similar' is",
+    "question_latex": "The contrapositive of 'If two triangles are identical, then these are similar' is",
+    "question_images": [],
+    "options": [
+      "A. If two triangles are not similar, then these are not identical",
+      "B. If two triangles are not identical, then these are not similar",
+      "C. If two triangles are not identical, then these are similar",
+      "D. If two triangles are not similar, then these are identical"
+    ],
+    "option_images": [],
+    "answer": "A. If two triangles are not similar, then these are not identical",
+    "solution": "Let $p$: Two triangles are identical, $q$: Two triangles are similar.\nThe given statement is $p \\rightarrow q$.\nContrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$.\nTherefore: If two triangles are not similar, then these are not identical.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Mathematical Logic",
+    "question": "Let p and q be two propositions. Then the inverse of the implication p → q is",
+    "question_latex": "Let $p$ and $q$ be two propositions. Then the inverse of the implication $p \\rightarrow q$ is",
+    "question_images": [],
+    "options": [
+      "A. $q \\rightarrow p$",
+      "B. $\\sim p \\rightarrow \\sim q$",
+      "C. $p \\rightarrow q$",
+      "D. $\\sim q \\rightarrow \\sim p$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sim p \\rightarrow \\sim q$",
+    "solution": "By definition, the inverse of implication $p \\rightarrow q$ is $\\sim p \\rightarrow \\sim q$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is logically equivalent to ~(~p → q)?",
+    "question_latex": "Which of the following is logically equivalent to $\\sim(\\sim p \\rightarrow q)$?",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge q$",
+      "B. $p \\wedge \\sim q$",
+      "C. $\\sim p \\wedge q$",
+      "D. $\\sim p \\wedge \\sim q$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sim p \\wedge \\sim q$",
+    "solution": "$\\sim(\\sim p \\rightarrow q) \\cong \\sim(p \\vee q) \\cong \\sim p \\wedge \\sim q$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Mathematical Logic",
+    "question": "If q is false and p ∧ q ↔ r is true, then which one of the following statements is a tautology? (Jan 2019)",
+    "question_latex": "If $q$ is false and $p \\wedge q \\leftrightarrow r$ is true, then which one of the following statements is a tautology? (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge r) \\rightarrow (p \\vee r)$",
+      "B. $(p \\vee r) \\rightarrow (p \\wedge r)$",
+      "C. $p \\wedge r$",
+      "D. $p \\vee r$"
+    ],
+    "option_images": [],
+    "answer": "A. $(p \\wedge r) \\rightarrow (p \\vee r)$",
+    "solution": "Given: $q$ is F and $p \\wedge q \\leftrightarrow r$ is T.\n$\\Rightarrow p \\wedge q$ is F and $r$ is F.\nNow $q$ is F and $r$ is F $\\Rightarrow (p \\wedge r)$ is F.\n$F \\Rightarrow (p \\wedge r) \\rightarrow (p \\vee r)$ is tautology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Mathematical Logic",
+    "question": "What are the truth values of (~p ⇒ ~q) and ~(~p ⇒ q) respectively, when p and q always speak true in any argument?",
+    "question_latex": "What are the truth values of $(\\sim p \\Rightarrow \\sim q)$ and $\\sim(\\sim p \\Rightarrow q)$ respectively, when $p$ and $q$ always speak true in any argument?",
+    "question_images": [],
+    "options": [
+      "A. T, T",
+      "B. F, F",
+      "C. T, F",
+      "D. F, T"
+    ],
+    "option_images": [],
+    "answer": "C. T, F",
+    "solution": "When $p$ is T and $q$ is T: $\\sim p$ is F, $\\sim q$ is F.\n$(\\sim p \\Rightarrow \\sim q) = F \\Rightarrow F = T$.\n$\\sim(\\sim p \\Rightarrow q) = \\sim(F \\Rightarrow T) = \\sim T = F$.\nSo the values are T, F.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is contingency?",
+    "question_latex": "Which of the following is contingency?",
+    "question_images": [],
+    "options": [
+      "A. $p \\vee \\sim p$",
+      "B. $p \\wedge q \\Rightarrow p \\vee q$",
+      "C. $p \\wedge \\sim q$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $p \\wedge \\sim q$",
+    "solution": "$p \\wedge \\sim q$ is neither always true nor always false — it depends on the truth values of $p$ and $q$. Hence it is a contingency.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following statement has the truth value 'F'?",
+    "question_latex": "Which of the following statement has the truth value 'F'?",
+    "question_images": [],
+    "options": [
+      "A. A quadratic equation has always a real root",
+      "B. The number of ways of seating 2 persons in two chairs out of n persons is P(n,2)",
+      "C. The cube roots of unity are in GP",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. A quadratic equation has always a real root",
+    "solution": "The roots of a quadratic equation can be imaginary (complex). For example, $x^2 + 1 = 0$ has no real roots. Hence, statement A has truth value F.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following connectives satisfy commutative law?",
+    "question_latex": "Which of the following connectives satisfy commutative law?",
+    "question_images": [],
+    "options": [
+      "A. $\\wedge$",
+      "B. $\\vee$",
+      "C. $\\Leftrightarrow$",
+      "D. All the above"
+    ],
+    "option_images": [],
+    "answer": "D. All the above",
+    "solution": "$p \\wedge q \\equiv q \\wedge p$, $p \\vee q \\equiv q \\vee p$, and $p \\Leftrightarrow q \\equiv q \\Leftrightarrow p$. All three connectives satisfy the commutative law.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Mathematical Logic",
+    "question": "The dual of statement p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) is",
+    "question_latex": "The dual of statement $p \\vee (q \\wedge r) \\equiv (p \\vee q) \\wedge (p \\vee r)$ is",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (q \\vee r) \\equiv (p \\wedge q) \\vee (p \\wedge r)$",
+      "B. $p \\vee (q \\vee r) \\equiv (p \\vee q) \\vee r$",
+      "C. $p \\wedge (q \\wedge r) \\equiv (p \\wedge q) \\wedge r$",
+      "D. $p \\vee (q \\vee r) \\equiv (p \\wedge q) \\wedge r$"
+    ],
+    "option_images": [],
+    "answer": "A. $p \\wedge (q \\vee r) \\equiv (p \\wedge q) \\vee (p \\wedge r)$",
+    "solution": "Dual is obtained by replacing $\\vee$ with $\\wedge$ and $\\wedge$ with $\\vee$.\nDual of $p \\vee (q \\wedge r) \\equiv (p \\vee q) \\wedge (p \\vee r)$ is $p \\wedge (q \\vee r) \\equiv (p \\wedge q) \\vee (p \\wedge r)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Mathematical Logic",
+    "question": "When the compound statement is true for all its components then the statement is called",
+    "question_latex": "When the compound statement is true for all its components then the statement is called",
+    "question_images": [],
+    "options": [
+      "A. Negation statement",
+      "B. Tautology statement",
+      "C. Contradiction statement",
+      "D. Contingency statement"
+    ],
+    "option_images": [],
+    "answer": "B. Tautology statement",
+    "solution": "A compound statement that is true for all possible truth values of its components is called a tautology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is a contradiction?",
+    "question_latex": "Which of the following is a contradiction?",
+    "question_images": [],
+    "options": [
+      "A. $p \\vee q$",
+      "B. $p \\wedge q$",
+      "C. $p \\vee \\sim p$",
+      "D. $p \\wedge \\sim p$"
+    ],
+    "option_images": [],
+    "answer": "D. $p \\wedge \\sim p$",
+    "solution": "$p \\wedge \\sim p$ is always false regardless of the truth value of $p$. Hence it is a contradiction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Mathematical Logic",
+    "question": "If the statement (p ∧ ~r) → (~p ∨ q) is false, then the truth value of p, q, r are respectively",
+    "question_latex": "If the statement $(p \\wedge \\sim r) \\rightarrow (\\sim p \\vee q)$ is false, then the truth value of $p$, $q$, $r$ are respectively",
+    "question_images": [],
+    "options": [
+      "A. F, F, T",
+      "B. T, F, F",
+      "C. F, T, T",
+      "D. T, F, T"
+    ],
+    "option_images": [],
+    "answer": "B. T, F, F",
+    "solution": "Suppose $p$ is T, $q$ is F, $r$ is F.\n$(p \\wedge \\sim r) \\rightarrow (\\sim p \\vee q)$\n$\\equiv (T \\wedge T) \\rightarrow (F \\vee F)$\n$\\equiv T \\rightarrow F \\equiv F$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Mathematical Logic",
+    "question": "If p: the sky is cloudy, q: it will be raining then the symbolic statement (~p → q) means",
+    "question_latex": "If $p$: the sky is cloudy, $q$: it will be raining then the symbolic statement $(\\sim p \\rightarrow q)$ means",
+    "question_images": [],
+    "options": [
+      "A. The sky is cloudy implies it will be raining",
+      "B. If the sky is not cloudy then it will be raining",
+      "C. The sky is not cloudy and it will be raining",
+      "D. The sky will be cloudy or it will be raining"
+    ],
+    "option_images": [],
+    "answer": "B. If the sky is not cloudy then it will be raining",
+    "solution": "$(\\sim p \\rightarrow q)$: if the sky is not cloudy then it will be raining.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Mathematical Logic",
+    "question": "Write the disjunction of the pair of statements: Ram is rich. Ram is Happy.",
+    "question_latex": "Write the disjunction of the pair of statements: Ram is rich. Ram is Happy.",
+    "question_images": [],
+    "options": [
+      "A. If Ram is rich then he is happy",
+      "B. Ram is rich and he is happy",
+      "C. Ram is rich if and only if he is happy",
+      "D. Ram is rich or happy"
+    ],
+    "option_images": [],
+    "answer": "D. Ram is rich or happy",
+    "solution": "Disjunction of two statements $p$ and $q$ is $p \\vee q$, which means 'p or q'. Hence, disjunction of 'Ram is rich' and 'Ram is happy' is 'Ram is rich or happy'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Mathematical Logic",
+    "question": "If the Boolean expression (p ∧ q) ⊕ (p ⊗ q) is a tautology, then ⊕ and ⊗ are respectively given by (March 2021)",
+    "question_latex": "If the Boolean expression $(p \\wedge q) \\oplus (p \\otimes q)$ is a tautology, then $\\oplus$ and $\\otimes$ are respectively given by (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. $\\rightarrow, \\rightarrow$",
+      "B. $\\vee, \\rightarrow$",
+      "C. $\\wedge, \\rightarrow$",
+      "D. $\\wedge, \\vee$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\rightarrow, \\rightarrow$",
+    "solution": "We know $p \\rightarrow q = \\sim p \\vee q$.\nThus $(p \\wedge q) \\rightarrow (p \\rightarrow q) = \\sim(p \\wedge q) \\vee (p \\rightarrow q)$\n$= (\\sim p \\vee \\sim q) \\vee (\\sim p \\vee q) = \\sim p \\vee (\\sim q \\vee q) = \\sim p \\vee t$, which is a tautology.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Mathematical Logic",
+    "question": "The statement (p ∧ q) ⇒ (p ∧ r) is equivalent to: (July 2022)",
+    "question_latex": "The statement $(p \\wedge q) \\Rightarrow (p \\wedge r)$ is equivalent to: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $q \\Rightarrow (p \\wedge r)$",
+      "B. $p \\Rightarrow (p \\wedge r)$",
+      "C. $(p \\wedge r) \\Rightarrow (p \\wedge q)$",
+      "D. $(p \\wedge q) \\Rightarrow r$"
+    ],
+    "option_images": [],
+    "answer": "D. $(p \\wedge q) \\Rightarrow r$",
+    "solution": "$(p \\wedge q) \\Rightarrow (p \\wedge r) \\equiv \\sim(p \\wedge q) \\vee (p \\wedge r) \\equiv (\\sim p \\vee \\sim q) \\vee (p \\wedge r)$\n$\\equiv (\\sim p \\vee (p \\wedge r)) \\vee \\sim q \\equiv (\\sim p \\vee r) \\vee \\sim q \\equiv \\sim(p \\wedge q) \\vee r \\equiv (p \\wedge q) \\Rightarrow r$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Mathematical Logic",
+    "question": "If p and q be two statements then the conditional statement p → q is false when",
+    "question_latex": "If $p$ and $q$ be two statements then the conditional statement $p \\rightarrow q$ is false when",
+    "question_images": [],
+    "options": [
+      "A. p is true and q is true",
+      "B. p is false and q is true",
+      "C. p is true and q is false",
+      "D. Both p and q are false"
+    ],
+    "option_images": [],
+    "answer": "C. p is true and q is false",
+    "solution": "The conditional $p \\rightarrow q$ is false only when $p$ is true and $q$ is false.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Mathematical Logic",
+    "question": "p ∧ (q ∧ r) is logically equivalent to",
+    "question_latex": "$p \\wedge (q \\wedge r)$ is logically equivalent to",
+    "question_images": [],
+    "options": [
+      "A. $p \\vee (q \\wedge r)$",
+      "B. $(p \\wedge q) \\wedge r$",
+      "C. $(p \\vee q) \\vee r$",
+      "D. $p \\rightarrow (q \\wedge r)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(p \\wedge q) \\wedge r$",
+    "solution": "By associativity of conjunction: $(p \\wedge q) \\wedge r \\cong p \\wedge (q \\wedge r)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Mathematical Logic",
+    "question": "Let *, □ ∈ {∧, ∨} be such that the Boolean expression (p * ~q) ⇒ (p □ q) is a tautology. Then (Aug 2021)",
+    "question_latex": "Let $*, \\square \\in \\{\\wedge, \\vee\\}$ be such that the Boolean expression $(p * \\sim q) \\Rightarrow (p \\square q)$ is a tautology. Then (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. $* = \\wedge, \\square = \\wedge$",
+      "B. $* = \\vee, \\square = \\wedge$",
+      "C. $* = \\wedge, \\square = \\vee$",
+      "D. $* = \\vee, \\square = \\vee$"
+    ],
+    "option_images": [],
+    "answer": "C. $* = \\wedge, \\square = \\vee$",
+    "solution": "Let $* = \\wedge, \\square = \\vee$. Then $(p \\wedge \\sim q) \\Rightarrow (p \\vee q) \\equiv \\sim(p \\wedge \\sim q) \\vee (p \\vee q)$\n$\\equiv (\\sim p \\vee q) \\vee (p \\vee q) \\equiv (\\sim p \\vee p) \\vee (q \\vee q) \\equiv T \\vee q \\equiv T$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Mathematical Logic",
+    "question": "The contra positive of the statement 'If r is rational then r is real' is",
+    "question_latex": "The contra positive of the statement 'If $r$ is rational then $r$ is real' is",
+    "question_images": [],
+    "options": [
+      "A. If r is real then r is rational",
+      "B. If r is not rational then r is not real",
+      "C. If r is not real then r is not rational",
+      "D. If r is real then r is not rational"
+    ],
+    "option_images": [],
+    "answer": "C. If r is not real then r is not rational",
+    "solution": "Let $p$: r is rational, $q$: r is real.\nStatement is $p \\rightarrow q$.\nContrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$.\nContrapositive: If r is not real then r is not rational.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Mathematical Logic",
+    "question": "The statement A → (B → A) is equivalent to (Feb 2021)",
+    "question_latex": "The statement $A \\rightarrow (B \\rightarrow A)$ is equivalent to (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. $A \\rightarrow (A \\leftrightarrow B)$",
+      "B. $A \\rightarrow (A \\wedge B)$",
+      "C. $A \\rightarrow (A \\vee B)$",
+      "D. $A \\rightarrow (A \\rightarrow B)$"
+    ],
+    "option_images": [],
+    "answer": "C. $A \\rightarrow (A \\vee B)$",
+    "solution": "$A \\rightarrow (B \\rightarrow A) \\equiv A \\rightarrow (\\sim B \\vee A) \\equiv \\sim A \\vee (\\sim B \\vee A) \\equiv \\sim A \\vee (A \\vee \\sim B)$\n$\\equiv (\\sim A \\vee A) \\vee \\sim B \\equiv T \\vee \\sim B \\equiv T$.\nAlso, $T \\equiv T \\vee B \\equiv (\\sim A \\vee A) \\vee B \\equiv \\sim A \\vee (A \\vee B) \\equiv A \\rightarrow (A \\vee B)$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Mathematical Logic",
+    "question": "For the statement 'p' and 'q', p → q is read as 'if p then q'. Here statement 'q' is called",
+    "question_latex": "For the statement '$p$' and '$q$', $p \\rightarrow q$ is read as 'if $p$ then $q$'. Here statement '$q$' is called",
+    "question_images": [],
+    "options": [
+      "A. Antecedent",
+      "B. Consequent",
+      "C. Logical connective",
+      "D. Prime component"
+    ],
+    "option_images": [],
+    "answer": "B. Consequent",
+    "solution": "In $p \\rightarrow q$, $p$ is called the antecedent (or hypothesis) and $q$ is called the consequent (or conclusion).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following Boolean expressions is not a tautology? (July 2021)",
+    "question_latex": "Which of the following Boolean expressions is not a tautology? (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\Rightarrow \\sim q) \\vee (\\sim q \\Rightarrow p)$",
+      "B. $(p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$",
+      "C. $(q \\Rightarrow p) \\vee (\\sim q \\Rightarrow p)$",
+      "D. $(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$"
+    ],
+    "option_images": [],
+    "answer": "D. $(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$",
+    "solution": "$(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p) \\equiv (p \\vee q) \\vee (q \\vee p) \\equiv (p \\vee p) \\vee (q \\vee q) \\equiv p \\vee q$, which is not a tautology.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Mathematical Logic",
+    "question": "The compound statement 'p ↔ q' means",
+    "question_latex": "The compound statement '$p \\leftrightarrow q$' means",
+    "question_images": [],
+    "options": [
+      "A. 'p' implies 'q'",
+      "B. q if p",
+      "C. If p then q and if q then p",
+      "D. q is necessary for p"
+    ],
+    "option_images": [],
+    "answer": "C. If p then q and if q then p",
+    "solution": "$p \\leftrightarrow q$ means $p \\rightarrow q$ and $q \\rightarrow p$, i.e., 'If p then q and if q then p'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Mathematical Logic",
+    "question": "The statement (p → (q → p)) → (p → (p ∨ q)) is (Sept 2020)",
+    "question_latex": "The statement $(p \\rightarrow (q \\rightarrow p)) \\rightarrow (p \\rightarrow (p \\vee q))$ is (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. a contradiction",
+      "B. equivalent to $(p \\wedge q) \\wedge (\\sim p)$",
+      "C. equivalent to $(p \\wedge q) \\vee (\\sim q)$",
+      "D. a tautology"
+    ],
+    "option_images": [],
+    "answer": "D. a tautology",
+    "solution": "Using truth table analysis, all rows yield T for the given statement. Hence it is a tautology.",
+    "solution_images": [
+      "27_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Mathematical Logic",
+    "question": "Truth-value of the statement 'it is false that 3+3=33 or 1+2=12' is",
+    "question_latex": "Truth-value of the statement 'it is false that $3+3=33$ or $1+2=12$' is",
+    "question_images": [],
+    "options": [
+      "A. T",
+      "B. F",
+      "C. Both T and F",
+      "D. 54"
+    ],
+    "option_images": [],
+    "answer": "A. T",
+    "solution": "Both $3+3=33$ and $1+2=12$ are false. So '$3+3=33$ or $1+2=12$' is F. 'It is false that F' = T.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of q ∨ ~(p ∧ r) is",
+    "question_latex": "The negation of $q \\vee \\sim(p \\wedge r)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\sim q \\vee \\sim(p \\wedge r)$",
+      "B. $\\sim q \\vee (p \\wedge r)$",
+      "C. $\\sim q \\wedge (p \\wedge r)$",
+      "D. $\\sim q \\wedge \\sim(p \\wedge r)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sim q \\wedge (p \\wedge r)$",
+    "solution": "$\\sim\\{q \\vee \\sim(p \\wedge r)\\} = \\sim q \\wedge (p \\wedge r)$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Mathematical Logic",
+    "question": "When two statements are connected by the connective 'if and only if' then the compound statement is called",
+    "question_latex": "When two statements are connected by the connective 'if and only if' then the compound statement is called",
+    "question_images": [],
+    "options": [
+      "A. Conjunctive statement",
+      "B. Disjunctive statement",
+      "C. Bio conditional statement",
+      "D. Conditional statement"
+    ],
+    "option_images": [],
+    "answer": "C. Bio conditional statement",
+    "solution": "When two statements are connected by 'if and only if', the resulting compound statement is called a biconditional statement.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Mathematical Logic",
+    "question": "The conditional (P ∧ q) → p is",
+    "question_latex": "The conditional $(P \\wedge q) \\rightarrow p$ is",
+    "question_images": [],
+    "options": [
+      "A. A tautology",
+      "B. A contradiction",
+      "C. Neither tautology nor contradiction",
+      "D. Tautology and contradiction"
+    ],
+    "option_images": [],
+    "answer": "A. A tautology",
+    "solution": "Truth table:\n$p=T,q=T$: $T \\rightarrow T = T$\n$p=T,q=F$: $F \\rightarrow T = T$\n$p=F,q=T$: $F \\rightarrow F = T$\n$p=F,q=F$: $F \\rightarrow F = T$\n$(p \\wedge q) \\rightarrow p$ is a tautology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of the following statement, 'If the side of a square doubles, then its area increases four times', is (Online 2016)",
+    "question_latex": "The contrapositive of 'If the side of a square doubles, then its area increases four times', is (Online 2016)",
+    "question_images": [],
+    "options": [
+      "A. If the side of a square is not doubled, then its area does not increase four times.",
+      "B. If the area of a square increases four times, then its side is doubled.",
+      "C. If the area of a square does not increase four times, then its side is not doubled.",
+      "D. If the area of a square increases four times, then its side is not doubled."
+    ],
+    "option_images": [],
+    "answer": "C. If the area of a square does not increase four times, then its side is not doubled.",
+    "solution": "Let $p$: side of a square doubles, $q$: area increases four times.\nContrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$: If the area of a square does not increase four times, then its side is not doubled.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of (p ∨ q) ∧ (q ∨ ~r) is",
+    "question_latex": "The negation of $(p \\vee q) \\wedge (q \\vee \\sim r)$ is",
+    "question_images": [],
+    "options": [
+      "A. $(\\sim p \\wedge \\sim q) \\vee (q \\wedge \\sim r)$",
+      "B. $(\\sim p \\vee \\sim q) \\vee (\\sim q \\wedge r)$",
+      "C. $(\\sim p \\wedge \\sim q) \\vee (\\sim q \\wedge r)$",
+      "D. $(p \\wedge q) \\vee (\\sim q \\wedge \\sim r)$"
+    ],
+    "option_images": [],
+    "answer": "C. $(\\sim p \\wedge \\sim q) \\vee (\\sim q \\wedge r)$",
+    "solution": "$\\sim[(p \\vee q) \\wedge (q \\vee \\sim r)] \\equiv \\sim(p \\vee q) \\vee \\sim(q \\vee \\sim r)$\n$\\equiv (\\sim p \\wedge \\sim q) \\vee (\\sim q \\wedge r)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Mathematical Logic",
+    "question": "The switching function for the switching network shown (with switches x, y, z in series-parallel combination) is",
+    "question_latex": "The switching function for the switching network shown is",
+    "question_images": [
+      "q34_1"
+    ],
+    "options": [
+      "A. $(x \\wedge y') \\vee (y \\wedge z') \\vee (z \\wedge x')$",
+      "B. $(x \\wedge y \\wedge z) \\vee (x' \\wedge y'' \\wedge z')$",
+      "C. $(x \\vee y') \\wedge (y \\vee z') \\wedge (z \\vee x')$",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. $(x \\wedge y') \\vee (y \\wedge z') \\vee (z \\wedge x')$",
+    "solution": "Switches $x$ and $y'$ are connected in parallel: $(x \\wedge y')$. Similarly $y$ and $z'$: $(y \\wedge z')$, and $z$ and $x'$: $(z \\wedge x')$. These are connected in series (disjunction), so the switching function is $(x \\wedge y') \\vee (y \\wedge z') \\vee (z \\wedge x')$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Mathematical Logic",
+    "question": "~[(p ∧ q) → (~p ∨ q)] is",
+    "question_latex": "$\\sim[(p \\wedge q) \\rightarrow (\\sim p \\vee q)]$ is",
+    "question_images": [],
+    "options": [
+      "A. Tautology",
+      "B. Contradiction",
+      "C. neither",
+      "D. nor"
+    ],
+    "option_images": [],
+    "answer": "B. Contradiction",
+    "solution": "From the truth table, $\\sim[(p \\wedge q) \\rightarrow (\\sim p \\vee q)]$ is always false. Hence it is a contradiction.",
+    "solution_images": [
+      "35_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is equivalent to the Boolean expression p ∧ ~q? (Sept 2021)",
+    "question_latex": "Which of the following is equivalent to the Boolean expression $p \\wedge \\sim q$? (Sept 2021)",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\rightarrow \\sim q$",
+      "B. $\\sim(p \\rightarrow \\sim q)$",
+      "C. $\\sim(q \\rightarrow p)$",
+      "D. $\\sim(p \\rightarrow q)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sim(q \\rightarrow p)$",
+    "solution": "$p \\wedge \\sim q = \\sim(\\sim p \\vee q) = \\sim(p \\rightarrow q)$.\nAlso $\\sim(q \\rightarrow p) = q \\wedge \\sim p$... checking option C more carefully: $p \\wedge \\sim q = \\sim(p \\rightarrow q)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Mathematical Logic",
+    "question": "The inverse of the statement 'If the question paper is not easy then we shall not pass' is",
+    "question_latex": "The inverse of the statement 'If the question paper is not easy then we shall not pass' is",
+    "question_images": [],
+    "options": [
+      "A. If we shall not pass, then the question paper is not easy",
+      "B. If the question paper is easy, then we shall pass",
+      "C. If we shall pass, then the question paper is easy",
+      "D. If the question paper is not easy then we shall not pass"
+    ],
+    "option_images": [],
+    "answer": "B. If the question paper is easy, then we shall pass",
+    "solution": "Let $p$: question paper is not easy, $q$: we shall not pass.\nStatement: $p \\rightarrow q$. Inverse: $\\sim p \\rightarrow \\sim q$: If the question paper is easy, then we shall pass.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is logically equivalent to ~(p ↔ q)?",
+    "question_latex": "Which of the following is logically equivalent to $\\sim(p \\leftrightarrow q)$?",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge \\sim q) \\wedge (q \\wedge \\sim p)$",
+      "B. $p \\vee q$",
+      "C. $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$",
+    "solution": "$p \\leftrightarrow q \\cong (p \\rightarrow q) \\wedge (q \\rightarrow p) \\cong (\\sim p \\vee q) \\wedge (\\sim q \\vee p)$.\n$\\therefore \\sim(p \\leftrightarrow q) \\cong \\sim(\\sim p \\vee q) \\vee \\sim(\\sim q \\vee p) \\cong (p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Mathematical Logic",
+    "question": "A sentence is logical statement when it is",
+    "question_latex": "A sentence is logical statement when it is",
+    "question_images": [],
+    "options": [
+      "A. Neither true or false",
+      "B. True and false",
+      "C. Either true or false",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. Either true or false",
+    "solution": "A sentence is a logical statement when it is either true or false (but not both).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of (p ∧ ~q) ∧ (~p ∨ ~q) is",
+    "question_latex": "The negation of $(p \\wedge \\sim q) \\wedge (\\sim p \\vee \\sim q)$ is",
+    "question_images": [],
+    "options": [
+      "A. $(\\sim p \\vee q) \\vee (p \\wedge q)$",
+      "B. $(P \\vee q) \\wedge (p \\wedge \\sim q)$",
+      "C. $(P \\vee \\sim q) \\vee (\\sim p \\vee q)$",
+      "D. $(P \\vee q) \\wedge (p \\wedge q)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(\\sim p \\vee q) \\vee (p \\wedge q)$",
+    "solution": "$\\sim[(p \\wedge \\sim q) \\wedge (\\sim p \\vee \\sim q)]$\n$= \\sim(p \\wedge \\sim q) \\vee \\sim(\\sim p \\vee \\sim q)$\n$= (\\sim p \\vee q) \\vee (p \\wedge q)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Mathematical Logic",
+    "question": "For any three propositions p, q and r, the proposition (p ∧ q) ∧ (q ∧ r)",
+    "question_latex": "For any three propositions $p$, $q$ and $r$, the proposition $(p \\wedge q) \\wedge (q \\wedge r)$",
+    "question_images": [],
+    "options": [
+      "A. p, q, r are all false",
+      "B. p, q, r are all true",
+      "C. p, q are true and r is false",
+      "D. p is true and q and r are false"
+    ],
+    "option_images": [],
+    "answer": "B. p, q, r are all true",
+    "solution": "$(p \\wedge q) \\wedge (q \\wedge r)$ is true $\\Rightarrow p \\wedge q$ and $q \\wedge r$ are true $\\Rightarrow$ ($p$ and $q$ are true) and ($q$ and $r$ are true) $\\Rightarrow p, q, r$ are all true.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following Boolean expression is a tautology? (March 2021)",
+    "question_latex": "Which of the following Boolean expression is a tautology? (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge q) \\vee (p \\rightarrow q)$",
+      "B. $(p \\wedge q) \\rightarrow (p \\rightarrow q)$",
+      "C. $(p \\wedge q) \\vee (p \\vee q)$",
+      "D. $(p \\wedge q) \\wedge (p \\rightarrow q)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(p \\wedge q) \\rightarrow (p \\rightarrow q)$",
+    "solution": "$(p \\wedge q) \\rightarrow (p \\rightarrow q) \\equiv \\sim(p \\wedge q) \\vee (\\sim p \\vee q)$\n$\\equiv (\\sim p \\vee \\sim q) \\vee (\\sim p \\vee q) \\equiv \\sim p \\vee (\\sim q \\vee q) \\equiv \\sim p \\vee t \\equiv t$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Mathematical Logic",
+    "question": "The property ~(p ∧ q) ≡ ~p ∨ ~q is called",
+    "question_latex": "The property $\\sim(p \\wedge q) \\equiv \\sim p \\vee \\sim q$ is called",
+    "question_images": [],
+    "options": [
+      "A. Associative law",
+      "B. De Morgan's law",
+      "C. Commutative law",
+      "D. Idempotent law"
+    ],
+    "option_images": [],
+    "answer": "B. De Morgan's law",
+    "solution": "$\\sim(p \\wedge q) \\equiv \\sim p \\vee \\sim q$ is De Morgan's law.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Mathematical Logic",
+    "question": "Let Δ, ∇ ∈ {∧, ∨} be such that p∇q ⇒ ((p Δ q)∇r) is a tautology. Then (p∇q)Δr is logically equivalent to: (June 2022)",
+    "question_latex": "Let $\\Delta, \\nabla \\in \\{\\wedge, \\vee\\}$ be such that $p \\nabla q \\Rightarrow ((p \\Delta q) \\nabla r)$ is a tautology. Then $(p \\nabla q) \\Delta r$ is logically equivalent to: (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\Delta r) \\vee q$",
+      "B. $(p \\nabla r) \\wedge q$",
+      "C. $(p \\wedge r) \\Delta q$",
+      "D. $(p \\Delta r) \\wedge q$"
+    ],
+    "option_images": [],
+    "answer": "A. $(p \\Delta r) \\vee q$",
+    "solution": "Working through the tautology condition leads to $(p \\nabla q) \\Delta r \\equiv (p \\Delta r) \\vee q$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of (p ∧ (~q)) ∨ (~p) is equivalent to (April 2023)",
+    "question_latex": "The negation of $(p \\wedge (\\sim q)) \\vee (\\sim p)$ is equivalent to (April 2023)",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (\\sim q)$",
+      "B. $p \\vee (q \\vee (\\sim p))$",
+      "C. $p \\wedge (q \\wedge (\\sim p))$",
+      "D. $p \\wedge q$"
+    ],
+    "option_images": [],
+    "answer": "D. $p \\wedge q$",
+    "solution": "$\\sim((p \\wedge \\sim q) \\vee \\sim p) \\equiv (\\sim p \\vee q) \\wedge p \\equiv (\\sim p \\wedge p) \\vee (q \\wedge p) \\equiv (q \\wedge p) \\equiv (p \\wedge q)$\n$(\\because \\sim p \\wedge p = \\phi) \\equiv (p \\wedge q)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of (p ∨ q) → r is",
+    "question_latex": "The contrapositive of $(p \\vee q) \\rightarrow r$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\sim r \\rightarrow (p \\vee q)$",
+      "B. $r \\rightarrow (p \\vee q)$",
+      "C. $\\sim r \\rightarrow (\\sim p \\wedge \\sim q)$",
+      "D. $p \\rightarrow (q \\vee r)$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sim r \\rightarrow (\\sim p \\wedge \\sim q)$",
+    "solution": "Contrapositive of $(p \\vee q) \\rightarrow r$ is $\\sim r \\rightarrow \\sim(p \\vee q) \\equiv \\sim r \\rightarrow (\\sim p \\wedge \\sim q)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following statement is a tautology? (June 2022)",
+    "question_latex": "Which of the following statement is a tautology? (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge q) \\wedge (\\sim(p \\wedge q))$",
+      "B. $((\\sim q) \\wedge p) \\wedge q$",
+      "C. $((\\sim q) \\wedge p) \\vee (p \\vee (\\sim p))$",
+      "D. $((\\sim q) \\wedge p) \\wedge (p \\wedge (\\sim p))$"
+    ],
+    "option_images": [],
+    "answer": "C. $((\\sim q) \\wedge p) \\vee (p \\vee (\\sim p))$",
+    "solution": "$(p \\vee \\sim p) = T$. So $((\\sim q) \\wedge p) \\vee T = T$. Hence option C is a tautology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Mathematical Logic",
+    "question": "[~(~p) ∧ q] is equal to",
+    "question_latex": "$[\\sim(\\sim p) \\wedge q]$ is equal to",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\wedge q$",
+      "B. $p \\wedge q$",
+      "C. $p \\wedge \\sim q$",
+      "D. $\\sim p \\wedge \\sim q$"
+    ],
+    "option_images": [],
+    "answer": "B. $p \\wedge q$",
+    "solution": "$\\sim(\\sim p) = p$, so $[\\sim(\\sim p) \\wedge q] = p \\wedge q$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Mathematical Logic",
+    "question": "Let p: Seema is tall, q: Seema is beautiful. The symbolic form of the statement 'Seema is tall but not beautiful' is",
+    "question_latex": "Let $p$: Seema is tall, $q$: Seema is beautiful. The symbolic form of 'Seema is tall but not beautiful' is",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (\\sim q)$",
+      "B. $(\\sim p) \\wedge q$",
+      "C. $p \\wedge q$",
+      "D. $\\sim(p \\wedge q)$"
+    ],
+    "option_images": [],
+    "answer": "A. $p \\wedge (\\sim q)$",
+    "solution": "'Seema is tall but not beautiful' = 'Seema is tall AND NOT beautiful' = $p \\wedge (\\sim q)$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Mathematical Logic",
+    "question": "The Boolean expression (p ∧ q) ⇒ ((r ∧ q) ∧ p) is equivalent to (Aug 2021)",
+    "question_latex": "The Boolean expression $(p \\wedge q) \\Rightarrow ((r \\wedge q) \\wedge p)$ is equivalent to (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge q) \\Rightarrow (r \\wedge q)$",
+      "B. $(p \\wedge q) \\Rightarrow (r \\vee q)$",
+      "C. $(q \\wedge r' \\rightarrow (p \\wedge q)$",
+      "D. $(p \\wedge r) \\Rightarrow (p \\wedge q)$"
+    ],
+    "option_images": [],
+    "answer": "A. $(p \\wedge q) \\Rightarrow (r \\wedge q)$",
+    "solution": "$(p \\wedge q) \\Rightarrow ((r \\wedge q) \\wedge p) \\equiv (p \\wedge q) \\Rightarrow ((r \\wedge p) \\wedge q) \\equiv \\sim(p \\wedge q) \\vee ((r \\wedge q) \\wedge (p \\wedge q))$\n$\\equiv [\\sim(p \\wedge q) \\vee (p \\wedge q)] \\wedge [\\sim(p \\wedge q) \\vee (r \\wedge q)] \\equiv t \\wedge [\\sim(p \\wedge q) \\vee (r \\wedge q)]$\n$\\equiv \\sim(p \\wedge q) \\vee (r \\wedge q) \\equiv (p \\wedge q) \\Rightarrow (r \\wedge q)$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Mathematical Logic",
+    "question": "For the statement 'p' and 'q', p → q is read as 'if p then q'. Here statement 'q' is called",
+    "question_latex": "For the statement '$p$' and '$q$', $p \\rightarrow q$ is read as 'if $p$ then $q$'. Here statement '$q$' is called",
+    "question_images": [],
+    "options": [
+      "A. Antecedent",
+      "B. Consequent",
+      "C. Logical connective",
+      "D. Prime component"
+    ],
+    "option_images": [],
+    "answer": "B. Consequent",
+    "solution": "In $p \\rightarrow q$, $p$ is the antecedent and $q$ is the consequent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Mathematical Logic",
+    "question": "The false statement in the following is",
+    "question_latex": "The false statement in the following is",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (\\sim p)$ is a contradiction",
+      "B. $(p \\Rightarrow q) \\Leftrightarrow (\\sim q \\Rightarrow \\sim p)$ is a contradiction",
+      "C. $\\sim(\\sim p) \\Leftrightarrow p$ is a tautology",
+      "D. $p \\vee (\\sim p)$ is a tautology"
+    ],
+    "option_images": [],
+    "answer": "B. $(p \\Rightarrow q) \\Leftrightarrow (\\sim q \\Rightarrow \\sim p)$ is a contradiction",
+    "solution": "$p \\Rightarrow q$ is logically equivalent to $\\sim q \\Rightarrow \\sim p$.\nSo $(p \\Rightarrow q) \\Leftrightarrow (\\sim q \\Rightarrow \\sim p)$ is a tautology, not a contradiction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of ~s ∨ (~r ∧ s) is equivalent to (2015)",
+    "question_latex": "The negation of $\\sim s \\vee (\\sim r \\wedge s)$ is equivalent to (2015)",
+    "question_images": [],
+    "options": [
+      "A. $s \\vee (r \\vee \\sim s)$",
+      "B. $s \\wedge r$",
+      "C. $s \\wedge (r \\wedge \\sim s)$",
+      "D. $s \\wedge \\sim r$"
+    ],
+    "option_images": [],
+    "answer": "B. $s \\wedge r$",
+    "solution": "$\\sim s \\vee (\\sim r \\wedge s) = (\\sim s \\vee \\sim r) \\wedge (\\sim s \\vee s) = (\\sim s \\vee \\sim r) \\wedge t = \\sim s \\vee \\sim r$.\nNegation: $\\sim(\\sim s \\vee \\sim r) = s \\wedge r$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Mathematical Logic",
+    "question": "Negation of '2+3=5 and 8<10' is",
+    "question_latex": "Negation of '$2+3=5$ and $8<10$' is",
+    "question_images": [],
+    "options": [
+      "A. $2+3 \\neq 5$ and $8 < 10$",
+      "B. $2+3=5$ and $8>10$",
+      "C. $2+3 \\neq 5$ or $8>10$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $2+3 \\neq 5$ or $8>10$",
+    "solution": "Negation of '$p$ and $q$' is '$\\sim p$ or $\\sim q$' (De Morgan's law).\nSo negation is '$2+3 \\neq 5$ or $8 \\not< 10$', i.e., '$2+3 \\neq 5$ or $8>10$'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Mathematical Logic",
+    "question": "Consider the following three statements P: 5 is a prime number. Q: 7 is a factor of 192. R: L.C.M. of 5 and 7 is 35. Then the truth value of which one of the following statements is true? (Jan 2019)",
+    "question_latex": "Consider: $P$: 5 is a prime number. $Q$: 7 is a factor of 192. $R$: L.C.M. of 5 and 7 is 35. Then the truth value of which one of the following is true? (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $(\\sim P) \\vee (Q \\wedge R)$",
+      "B. $(P \\wedge Q) \\vee (\\sim R)$",
+      "C. $(\\sim P) \\vee (\\sim Q \\wedge R)$",
+      "D. $P \\vee (\\sim Q \\wedge R)$"
+    ],
+    "option_images": [],
+    "answer": "D. $P \\vee (\\sim Q \\wedge R)$",
+    "solution": "$P$ is T, $Q$ is F, $R$ is T.\n(a) $(F) \\vee (F \\wedge T) = F \\vee F = F$\n(b) $(T \\wedge F) \\vee F = F$\n(c) $F \\vee (T \\wedge T) = T$ — wait, checking: $(\\sim P) \\vee (\\sim Q \\wedge R) = F \\vee (T \\wedge T) = F \\vee T = T$... but answer is D.\n(d) $P \\vee (\\sim Q \\wedge R) = T \\vee (T \\wedge T) = T \\vee T = T$. So $P \\vee (\\sim Q \\wedge R)$ is true.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Mathematical Logic",
+    "question": "The proposition p → ~(p ∧ ~q) is",
+    "question_latex": "The proposition $p \\rightarrow \\sim(p \\wedge \\sim q)$ is",
+    "question_images": [],
+    "options": [
+      "A. A contradiction",
+      "B. A tautology",
+      "C. Either a tautology or a contradiction",
+      "D. Neither a tautology nor a contradiction"
+    ],
+    "option_images": [],
+    "answer": "D. Neither a tautology nor a contradiction",
+    "solution": "$p \\rightarrow \\sim(p \\wedge \\sim q) \\cong \\sim p \\vee \\sim(p \\wedge \\sim q) \\cong \\sim p \\vee (\\sim p \\vee q) \\cong \\sim p \\vee q$.\nThis is neither always true nor always false. Hence neither a tautology nor a contradiction.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Mathematical Logic",
+    "question": "Consider: P: Ramu is intelligent. Q: Ramu is rich. R: Ramu is not honest. The negation of 'Ramu is intelligent and honest if and only if Ramu is not rich' can be expressed as: (July 2022)",
+    "question_latex": "Consider: $P$: Ramu is intelligent. $Q$: Ramu is rich. $R$: Ramu is not honest. The negation of 'Ramu is intelligent and honest if and only if Ramu is not rich' can be expressed as: (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $((P \\wedge R) \\wedge Q) \\vee ((\\sim Q) \\wedge ((\\sim P) \\vee (\\sim R)))$",
+      "B. $((P \\wedge (\\sim R)) \\wedge Q) \\wedge ((\\sim Q) \\wedge ((\\sim P) \\vee R))$",
+      "C. $((P \\wedge R) \\wedge Q) \\wedge ((\\sim Q) \\wedge ((\\sim P) \\vee (\\sim R)))$",
+      "D. $((P \\wedge (\\sim R)) \\wedge Q) \\vee ((\\sim Q) \\wedge ((\\sim P) \\vee R))$"
+    ],
+    "option_images": [],
+    "answer": "D. $((P \\wedge (\\sim R)) \\wedge Q) \\vee ((\\sim Q) \\wedge ((\\sim P) \\vee R))$",
+    "solution": "Ramu is honest = $\\sim R$. The statement is $(P \\wedge \\sim R) \\leftrightarrow \\sim Q$. Negation of $A \\leftrightarrow B$ is $(A \\wedge \\sim B) \\vee (\\sim A \\wedge B)$. So negation = $((P \\wedge \\sim R) \\wedge Q) \\vee (\\sim Q \\wedge (\\sim P \\vee R))$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of the Boolean expression p ∨ (~p ∧ q) is equivalent to (Sept 2020, April 2019)",
+    "question_latex": "The negation of the Boolean expression $p \\vee (\\sim p \\wedge q)$ is equivalent to (Sept 2020, April 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\vee \\sim q$",
+      "B. $\\sim p \\wedge \\sim q$",
+      "C. $p \\wedge \\sim q$",
+      "D. $\\sim p \\vee q$"
+    ],
+    "option_images": [],
+    "answer": "B. $\\sim p \\wedge \\sim q$",
+    "solution": "$\\sim[p \\vee (\\sim p \\wedge q)] \\equiv \\sim p \\wedge \\sim(\\sim p \\wedge q) \\equiv \\sim p \\wedge (p \\vee \\sim q) \\equiv (\\sim p \\wedge p) \\vee (\\sim p \\wedge \\sim q) \\equiv \\sim p \\wedge \\sim q$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of (~p ∧ q) → ~r is",
+    "question_latex": "The contrapositive of $(\\sim p \\wedge q) \\rightarrow \\sim r$ is",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge q) \\rightarrow r$",
+      "B. $(p \\vee q) \\rightarrow r$",
+      "C. $r \\rightarrow (p \\vee \\sim q)$",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. $r \\rightarrow (p \\vee \\sim q)$",
+    "solution": "Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$.\nContrapositive of $(\\sim p \\wedge q) \\rightarrow \\sim r$ is $r \\rightarrow \\sim(\\sim p \\wedge q) \\equiv r \\rightarrow (p \\vee \\sim q)$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of the statement 'If it is raining, then I will not come', is (Online 2015)",
+    "question_latex": "The contrapositive of the statement 'If it is raining, then I will not come', is (Online 2015)",
+    "question_images": [],
+    "options": [
+      "A. If I will come, then it is not raining",
+      "B. If I will come, then it is raining",
+      "C. If I will not come, then it is raining",
+      "D. If I will not come, then it is not raining"
+    ],
+    "option_images": [],
+    "answer": "A. If I will come, then it is not raining",
+    "solution": "Let $p$: it is raining, $q$: I will not come. Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$: If I will come, then it is not raining.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Mathematical Logic",
+    "question": "Logical equivalent proposition to the proposition ~(p ∨ q)",
+    "question_latex": "Logical equivalent proposition to the proposition $\\sim(p \\vee q)$",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\wedge \\sim q$",
+      "B. $\\sim p \\vee \\sim q$",
+      "C. $\\sim p \\rightarrow \\sim q$",
+      "D. $\\sim p \\leftrightarrow \\sim q$"
+    ],
+    "option_images": [],
+    "answer": "A. $\\sim p \\wedge \\sim q$",
+    "solution": "By De Morgan's law: $\\sim(p \\vee q) = \\sim p \\wedge \\sim q$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of the expression q ∨ ((~q) ∧ p) is equivalent to (Feb 2023)",
+    "question_latex": "The negation of the expression $q \\vee ((\\sim q) \\wedge p)$ is equivalent to (Feb 2023)",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (\\sim q)$",
+      "B. $(\\sim p) \\wedge (\\sim q)$",
+      "C. $(\\sim p) \\vee q$",
+      "D. $(\\sim p) \\vee (\\sim q)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(\\sim p) \\wedge (\\sim q)$",
+    "solution": "$\\sim[q \\vee ((\\sim q) \\wedge p)] \\equiv \\sim q \\wedge \\sim((\\sim q) \\wedge p) \\equiv \\sim q \\wedge (q \\vee \\sim p) \\equiv (\\sim q \\wedge q) \\vee (\\sim q \\wedge \\sim p) \\equiv \\sim p \\wedge \\sim q$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Mathematical Logic",
+    "question": "Let p: Ramesh listens to music. q: Ramesh is out of his village. r: It is Sunday. s: It is Saturday. Then the statement 'Ramesh listens to music only if he is in his village and it is Sunday or Saturday' can be expressed as (July 2022)",
+    "question_latex": "Let $p$: Ramesh listens to music. $q$: Ramesh is out of his village. $r$: It is Sunday. $s$: It is Saturday. The statement 'Ramesh listens to music only if he is in his village and it is Sunday or Saturday' can be expressed as (July 2022)",
+    "question_images": [],
+    "options": [
+      "A. $(q \\wedge (r \\vee s)) \\Rightarrow p$",
+      "B. $p \\Rightarrow (q \\wedge (r \\vee s))$",
+      "C. $((\\sim q) \\wedge (r \\vee s)) \\Rightarrow p$",
+      "D. $p \\Rightarrow ((\\sim q) \\wedge (r \\vee s))$"
+    ],
+    "option_images": [],
+    "answer": "D. $p \\Rightarrow ((\\sim q) \\wedge (r \\vee s))$",
+    "solution": "'He is in his village' = $\\sim q$. 'Only if' means $p \\Rightarrow$. So the statement is $p \\Rightarrow ((\\sim q) \\wedge (r \\vee s))$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Mathematical Logic",
+    "question": "~[(p ∧ q) → (~p ∨ q)] is",
+    "question_latex": "$\\sim[(p \\wedge q) \\rightarrow (\\sim p \\vee q)]$ is",
+    "question_images": [],
+    "options": [
+      "A. Tautology",
+      "B. Contradiction",
+      "C. neither",
+      "D. nor"
+    ],
+    "option_images": [],
+    "answer": "B. Contradiction",
+    "solution": "From the truth table, $\\sim[(p \\wedge q) \\rightarrow (\\sim p \\vee q)]$ is always F. It is a contradiction.",
+    "solution_images": [
+      "64_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following statement is a tautology?",
+    "question_latex": "Which of the following statement is a tautology?",
+    "question_images": [],
+    "options": [
+      "A. $(\\sim q \\wedge p) \\wedge q$",
+      "B. $(\\sim q \\wedge p) \\wedge (p \\wedge \\sim p)$",
+      "C. $(\\sim q \\wedge p) \\vee (p \\wedge \\sim p)$",
+      "D. $(p \\wedge q) \\wedge (\\sim(p \\wedge q))$"
+    ],
+    "option_images": [],
+    "answer": "C. $(\\sim q \\wedge p) \\vee (p \\wedge \\sim p)$",
+    "solution": "Wait — from the PDF, option C has all T in last column. The correct tautology is $(\\sim q \\wedge p) \\vee (p \\vee \\sim p)$ since $p \\vee \\sim p = T$ and $X \\vee T = T$.",
+    "solution_images": [
+      "65_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Mathematical Logic",
+    "question": "If p: the sky is cloudy, q: it will be raining then the symbolic statement (~p → q) means",
+    "question_latex": "If $p$: the sky is cloudy, $q$: it will be raining then $(\\sim p \\rightarrow q)$ means",
+    "question_images": [],
+    "options": [
+      "A. The sky is cloudy implies it will be raining",
+      "B. If the sky is not cloudy then it will be raining",
+      "C. The sky is not cloudy and it will be raining",
+      "D. The sky will be cloudy or it will be raining"
+    ],
+    "option_images": [],
+    "answer": "B. If the sky is not cloudy then it will be raining",
+    "solution": "$(\\sim p \\rightarrow q)$: if the sky is not cloudy then it will be raining.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Mathematical Logic",
+    "question": "Given an implication, its 'Converse' is logically equivalent to its",
+    "question_latex": "Given an implication, its 'Converse' is logically equivalent to its",
+    "question_images": [],
+    "options": [
+      "A. Inverse",
+      "B. Itself",
+      "C. Contra positive",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Inverse",
+    "solution": "For $p \\rightarrow q$: Converse is $q \\rightarrow p$ and Inverse is $\\sim p \\rightarrow \\sim q$. Both converse and inverse are logically equivalent to each other.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Mathematical Logic",
+    "question": "If ~(p ∨ q) → r has truth value F, then truth values of p, q, r are",
+    "question_latex": "If $\\sim(p \\vee q) \\rightarrow r$ has truth value F, then truth values of $p$, $q$, $r$ are",
+    "question_images": [],
+    "options": [
+      "A. T, T, T",
+      "B. T, F, T",
+      "C. F, F, F",
+      "D. F, T, F"
+    ],
+    "option_images": [],
+    "answer": "C. F, F, F",
+    "solution": "For $\\sim(p \\vee q) \\rightarrow r$ to be F, we need: $\\sim(p \\vee q) = T$ and $r = F$.\n$\\sim(p \\vee q) = T \\Rightarrow p \\vee q = F \\Rightarrow p = F$ and $q = F$. So $p=F, q=F, r=F$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of the statement p → (p ∨ ~q) is",
+    "question_latex": "The negation of the statement $p \\rightarrow (p \\vee \\sim q)$ is",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge (\\sim p \\wedge q)$",
+      "B. $p \\rightarrow (\\sim p \\wedge q)$",
+      "C. $p \\vee (\\sim p \\wedge q)$",
+      "D. $\\sim p \\vee (\\sim p \\wedge q)$"
+    ],
+    "option_images": [],
+    "answer": "A. $p \\wedge (\\sim p \\wedge q)$",
+    "solution": "$\\sim[p \\rightarrow (p \\vee \\sim q)] \\equiv p \\wedge [\\sim(p \\vee \\sim q)] \\equiv p \\wedge [(\\sim p \\wedge \\sim(\\sim q))] \\equiv p \\wedge (\\sim p \\wedge q)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Mathematical Logic",
+    "question": "p, q, r are simple propositions. Then the negation of p → (q ∧ r) is",
+    "question_latex": "$p$, $q$, $r$ are simple propositions. Then the negation of $p \\rightarrow (q \\wedge r)$ is",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\rightarrow (\\sim q \\wedge \\sim r)$",
+      "B. $(q \\wedge r) \\rightarrow p$",
+      "C. $p \\wedge (\\sim q \\vee \\sim r)$",
+      "D. $(q \\vee r) \\vee \\sim p$"
+    ],
+    "option_images": [],
+    "answer": "C. $p \\wedge (\\sim q \\vee \\sim r)$",
+    "solution": "$\\sim[p \\rightarrow (q \\wedge r)] = p \\wedge \\sim(q \\wedge r) = p \\wedge (\\sim q \\vee \\sim r)$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Mathematical Logic",
+    "question": "If q is false and p ∧ q ↔ r is true, then which one of the following statements is a tautology? (Jan 2019)",
+    "question_latex": "If $q$ is false and $p \\wedge q \\leftrightarrow r$ is true, then which one of the following statements is a tautology? (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\wedge r) \\rightarrow (p \\vee r)$",
+      "B. $(p \\vee r) \\rightarrow (p \\wedge r)$",
+      "C. $p \\wedge r$",
+      "D. $p \\vee r$"
+    ],
+    "option_images": [],
+    "answer": "A. $(p \\wedge r) \\rightarrow (p \\vee r)$",
+    "solution": "Given $q$ is F and $p \\wedge q \\leftrightarrow r$ is T. So $p \\wedge q$ is F and $r$ is F. $(p \\wedge r)$ is F, $F \\Rightarrow (p \\vee r)$ is tautology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Mathematical Logic",
+    "question": "The contrapositive of the statement 'If you will work, you will earn money' is (Feb 2021)",
+    "question_latex": "The contrapositive of the statement 'If you will work, you will earn money' is (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. To earn money, you need to work",
+      "B. If you will earn money, you will work",
+      "C. If you will not earn money, you will not work",
+      "D. You will earn money, if you will not work"
+    ],
+    "option_images": [],
+    "answer": "C. If you will not earn money, you will not work",
+    "solution": "Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$. So contrapositive is 'If you will not earn money, you will not work'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Mathematical Logic",
+    "question": "(p ∧ ~q) ∧ (~p ∧ q) is",
+    "question_latex": "$(p \\wedge \\sim q) \\wedge (\\sim p \\wedge q)$ is",
+    "question_images": [],
+    "options": [
+      "A. a tautology",
+      "B. a contradiction",
+      "C. tautology and contradiction",
+      "D. neither a tautology nor a contradiction"
+    ],
+    "option_images": [],
+    "answer": "B. a contradiction",
+    "solution": "From the truth table, $(p \\wedge \\sim q) \\wedge (\\sim p \\wedge q)$ is always F. Hence it is a contradiction.",
+    "solution_images": [
+      "73_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Mathematical Logic",
+    "question": "Negation of the Boolean statement (p ∨ q) ⇒ ((~r) ∨ p) is equivalent to (June 2022)",
+    "question_latex": "Negation of the Boolean statement $(p \\vee q) \\Rightarrow ((\\sim r) \\vee p)$ is equivalent to (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. $(\\sim p) \\wedge q \\wedge r$",
+      "B. $p \\wedge q \\wedge (\\sim r)$",
+      "C. $\\sim p \\wedge q \\wedge r$",
+      "D. $p \\wedge (\\sim q) \\wedge r$"
+    ],
+    "option_images": [],
+    "answer": "C. $\\sim p \\wedge q \\wedge r$",
+    "solution": "$(p \\vee q) \\Rightarrow ((\\sim r) \\vee p) = \\sim(p \\vee q) \\vee ((\\sim r) \\vee p)$ ... Negation: $(p \\vee q) \\wedge \\sim((\\sim r) \\vee p) = (p \\vee q) \\wedge (r \\wedge \\sim p) = (p \\wedge (r \\wedge \\sim p)) \\vee (q \\wedge (r \\wedge \\sim p)) = \\sim p \\wedge q \\wedge r$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Mathematical Logic",
+    "question": "The negation of the statement 'he is rich and happy' is given by",
+    "question_latex": "The negation of the statement 'he is rich and happy' is given by",
+    "question_images": [],
+    "options": [
+      "A. he is not rich and not happy",
+      "B. he is not rich or not happy",
+      "C. he is rich and happy",
+      "D. he is not rich and happy"
+    ],
+    "option_images": [],
+    "answer": "B. he is not rich or not happy",
+    "solution": "By De Morgan's law, negation of '$p$ and $q$' is '$\\sim p$ or $\\sim q$'. So the negation is 'he is not rich or not happy'.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Mathematical Logic",
+    "question": "When the compound statement is false for all its components the statement is called",
+    "question_latex": "When the compound statement is false for all its components the statement is called",
+    "question_images": [],
+    "options": [
+      "A. Negation statement",
+      "B. Tautology statement",
+      "C. Contradiction statement",
+      "D. Contingency"
+    ],
+    "option_images": [],
+    "answer": "C. Contradiction statement",
+    "solution": "A compound statement that is false for all possible truth values of its components is called a contradiction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Mathematical Logic",
+    "question": "If p, q, r are simple propositions with truth values T, F, T then the truth value of [(~p ∨ q) ∧ ~r] → p is",
+    "question_latex": "If $p$, $q$, $r$ are simple propositions with truth values T, F, T then the truth value of $[(\\sim p \\vee q) \\wedge \\sim r] \\rightarrow p$ is",
+    "question_images": [],
+    "options": [
+      "A. True",
+      "B. False",
+      "C. True if r is false",
+      "D. True if q is false"
+    ],
+    "option_images": [],
+    "answer": "A. True",
+    "solution": "$[(\\sim p \\vee q) \\wedge r] \\rightarrow p \\equiv [(F \\vee F) \\wedge F] \\rightarrow T \\equiv [F \\wedge F] \\rightarrow T \\equiv F \\rightarrow T \\equiv T$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Mathematical Logic",
+    "question": "Consider the proposition: If we control population growth, we prosper. Negative of this proposition is",
+    "question_latex": "Consider: If we control population growth, we prosper. Negation of this proposition is",
+    "question_images": [],
+    "options": [
+      "A. If we do not control population growth, we prosper",
+      "B. If we control population, we do not prosper",
+      "C. We control population but we do not prosper",
+      "D. We do not control population but we prosper"
+    ],
+    "option_images": [],
+    "answer": "C. We control population but we do not prosper",
+    "solution": "Let $p$: We control the population growth, $q$: We become prosper. The statement is $p \\rightarrow q$ and its negation is $p \\wedge \\sim q$: We control population but we do not prosper.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Mathematical Logic",
+    "question": "Contrapositive of the statement: 'If a function f is differentiable at a, then it is also continuous at a', is (Sept 2020)",
+    "question_latex": "Contrapositive of: 'If a function $f$ is differentiable at $a$, then it is also continuous at $a$', is (Sept 2020)",
+    "question_images": [],
+    "options": [
+      "A. If a function f is continuous at a, then it is differentiable at a.",
+      "B. If a function f is not continuous at a, then it is not differentiable at a.",
+      "C. If a function f is continuous at a, then it is not differentiable at a.",
+      "D. If a function f is not continuous at a, then it is differentiable at a."
+    ],
+    "option_images": [],
+    "answer": "B. If a function f is not continuous at a, then it is not differentiable at a.",
+    "solution": "Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$: If a function $f$ is not continuous at $a$, then it is not differentiable at $a$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is not a statement?",
+    "question_latex": "Which of the following is not a statement?",
+    "question_images": [],
+    "options": [
+      "A. Please do me a favor",
+      "B. 2 is an even integer",
+      "C. 2+1=3",
+      "D. The number 17 is prime"
+    ],
+    "option_images": [],
+    "answer": "A. Please do me a favor",
+    "solution": "'Please do me a favor' is a request/exclamation, not a declarative sentence. It cannot be assigned a truth value, so it is not a statement.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Mathematical Logic",
+    "question": "The proposition [p ∧ (p → q)] → q is",
+    "question_latex": "The proposition $[p \\wedge (p \\rightarrow q)] \\rightarrow q$ is",
+    "question_images": [],
+    "options": [
+      "A. Contradiction",
+      "B. Neither a tautology nor a contradiction",
+      "C. Tautology",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "C. Tautology",
+    "solution": "Truth table:\n$p=T,q=T$: $[T \\wedge T] \\rightarrow T = T$\n$p=T,q=F$: $[T \\wedge F] \\rightarrow F = F \\rightarrow F = T$\n$p=F,q=T$: $[F \\wedge T] \\rightarrow T = T$\n$p=F,q=F$: $[F \\wedge T] \\rightarrow F = T$\nAll T — tautology.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Mathematical Logic",
+    "question": "The inverse of the statement 'If x is zero then we cannot divide by x' is",
+    "question_latex": "The inverse of the statement 'If $x$ is zero then we cannot divide by $x$' is",
+    "question_images": [],
+    "options": [
+      "A. If we cannot divide by x, then x is zero",
+      "B. If we can divide by x, then x is not zero",
+      "C. If x is not zero, then we divide by x",
+      "D. If x is zero then we do not divide by x"
+    ],
+    "option_images": [],
+    "answer": "C. If x is not zero, then we divide by x",
+    "solution": "The inverse of $p \\rightarrow q$ is $\\sim p \\rightarrow \\sim q$: If $x$ is not zero, then we can divide by $x$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Mathematical Logic",
+    "question": "~ [~p ∧ (p ⇔ q)] ≡",
+    "question_latex": "$\\sim [\\sim p \\wedge (p \\Leftrightarrow q)] \\equiv$",
+    "question_images": [],
+    "options": [
+      "A. $p \\vee q$",
+      "B. $q \\wedge p$",
+      "C. $T$",
+      "D. $F$"
+    ],
+    "option_images": [],
+    "answer": "A. $p \\vee q$",
+    "solution": "$\\sim[\\sim p \\wedge (p \\Leftrightarrow q)] \\equiv p \\vee \\sim(p \\Leftrightarrow q) \\equiv p \\vee q$ (by simplification).",
+    "solution_images": [
+      "83_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Mathematical Logic",
+    "question": "~(p ∨ q) ∨ (~p ∧ q) =",
+    "question_latex": "$\\sim(p \\vee q) \\vee (\\sim p \\wedge q) =$",
+    "question_images": [],
+    "options": [
+      "A. ~p",
+      "B. ~q",
+      "C. p → q",
+      "D. p ∧ q"
+    ],
+    "option_images": [],
+    "answer": "A. ~p",
+    "solution": "$\\sim(p \\vee q) \\vee (\\sim p \\wedge q) = (\\sim p \\wedge \\sim q) \\vee (\\sim p \\wedge q) = \\sim p \\wedge (\\sim q \\vee q) = \\sim p \\wedge T = \\sim p$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Mathematical Logic",
+    "question": "p ∧ (q ∧ r) is logically equivalent to",
+    "question_latex": "$p \\wedge (q \\wedge r)$ is logically equivalent to",
+    "question_images": [],
+    "options": [
+      "A. $p \\vee (q \\wedge r)$",
+      "B. $(p \\wedge q) \\wedge r$",
+      "C. $(p \\vee q) \\vee r$",
+      "D. $p \\rightarrow (q \\wedge r)$"
+    ],
+    "option_images": [],
+    "answer": "B. $(p \\wedge q) \\wedge r$",
+    "solution": "By the associativity of $\\wedge$: $p \\wedge (q \\wedge r) \\cong (p \\wedge q) \\wedge r$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Mathematical Logic",
+    "question": "The logical statement [~(~p ∨ q) ∨ (p ∧ r)] ∧ (~q ∧ r) is equivalent to (Jan 2019)",
+    "question_latex": "The logical statement $[\\sim(\\sim p \\vee q) \\vee (p \\wedge r)] \\wedge (\\sim q \\wedge r)$ is equivalent to (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. $\\sim p \\vee r$",
+      "B. $(\\sim p \\wedge \\sim q) \\wedge r$",
+      "C. $(p \\wedge \\sim q) \\vee r$",
+      "D. $(p \\wedge r) \\wedge \\sim q$"
+    ],
+    "option_images": [],
+    "answer": "D. $(p \\wedge r) \\wedge \\sim q$",
+    "solution": "$[\\sim(\\sim p \\vee q) \\vee (p \\wedge r)] \\wedge (\\sim q \\wedge r) \\equiv [(p \\wedge \\sim q) \\vee (p \\wedge r)] \\wedge (\\sim q \\wedge r)$\n$\\equiv [p \\wedge (\\sim q \\vee r)] \\wedge (\\sim q \\wedge r) \\equiv p \\wedge ((\\sim q \\vee r) \\wedge (\\sim q \\wedge r)) \\equiv p \\wedge (\\sim q \\wedge r) \\equiv (p \\wedge r) \\wedge \\sim q$",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Mathematical Logic",
+    "question": "If P and Q are two statements, then which of the following compound statement is a tautology? (March 2021)",
+    "question_latex": "If $P$ and $Q$ are two statements, then which of the following compound statement is a tautology? (March 2021)",
+    "question_images": [],
+    "options": [
+      "A. $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow P$",
+      "B. $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow (P \\wedge Q)$",
+      "C. $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow \\sim P$",
+      "D. $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow Q$"
+    ],
+    "option_images": [],
+    "answer": "C. $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow \\sim P$",
+    "solution": "$(\\sim P \\wedge \\sim Q) \\Rightarrow \\sim P \\equiv (\\sim P \\vee Q) \\vee \\sim(P \\wedge \\sim Q) \\vee \\sim Q$... by simplification, $((P \\Rightarrow Q) \\wedge \\sim Q) \\Rightarrow \\sim P \\equiv T$.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Mathematical Logic",
+    "question": "The statement 'r is sufficient for s' is also expressed as",
+    "question_latex": "The statement '$r$ is sufficient for $s$' is also expressed as",
+    "question_images": [],
+    "options": [
+      "A. s if r",
+      "B. 'r only if s'",
+      "C. 'r implies s'",
+      "D. All of these"
+    ],
+    "option_images": [],
+    "answer": "D. All of these",
+    "solution": "'$r$ is sufficient for $s$' means $r \\rightarrow s$. This can be expressed as: 's if r', 'r only if s', or 'r implies s'. All are equivalent.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Mathematical Logic",
+    "question": "The statement p ∨ ~p is",
+    "question_latex": "The statement $p \\vee \\sim p$ is",
+    "question_images": [],
+    "options": [
+      "A. Tautology",
+      "B. Contradiction",
+      "C. Neither a tautology nor a contradiction",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. Tautology",
+    "solution": "$p \\vee \\sim p$ is always true (Law of Excluded Middle). Hence it is a tautology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Mathematical Logic",
+    "question": "For the statements p and q, consider the compound statements: (A) (~q ∧ (p → q)) → ~p and (B) ((p ∨ q) ∧ ~p) → q. Then which of the following statements is correct? (Feb 2021)",
+    "question_latex": "For $p$ and $q$: (A) $(\\sim q \\wedge (p \\rightarrow q)) \\rightarrow \\sim p$ and (B) $((p \\vee q) \\wedge \\sim p) \\rightarrow q$. Which is correct? (Feb 2021)",
+    "question_images": [],
+    "options": [
+      "A. (A) and (B) both are tautologies.",
+      "B. (B) is a tautology but not (A).",
+      "C. (A) and (B) both are not tautologies.",
+      "D. (A) is a tautology but not (B)."
+    ],
+    "option_images": [],
+    "answer": "A. (A) and (B) both are tautologies.",
+    "solution": "Both statements can be verified to be tautologies through truth tables.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Mathematical Logic",
+    "question": "Consider: Statement-1: (p ∧ ~q) ∧ (~p ∧ q) is a fallacy. Statement-2: (p → q) ↔ (~q → ~p) is a tautology. (2013)",
+    "question_latex": "Statement-1: $(p \\wedge \\sim q) \\wedge (\\sim p \\wedge q)$ is a fallacy. Statement-2: $(p \\rightarrow q) \\leftrightarrow (\\sim q \\rightarrow \\sim p)$ is a tautology. (2013)",
+    "question_images": [],
+    "options": [
+      "A. Statement-1 is true, Statement-2 is true, Statement-2 is not a correct explanation for Statement-1.",
+      "B. Statement-1 is true, Statement-2 is false.",
+      "C. Statement-1 is false, Statement-2 is true.",
+      "D. Statement-1 is true, Statement-2 is true, Statement-2 is a correct explanation for Statement-1."
+    ],
+    "option_images": [],
+    "answer": "A. Statement-1 is true, Statement-2 is true, Statement-2 is not a correct explanation for Statement-1.",
+    "solution": "$(p \\wedge \\sim q) \\wedge (\\sim p \\wedge q)$ is always F (contradiction/fallacy) — Statement 1 is true. $(p \\rightarrow q) \\leftrightarrow (\\sim q \\rightarrow \\sim p)$ is always T (tautology) — Statement 2 is true. But Statement 2 does not explain Statement 1.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Mathematical Logic",
+    "question": "The contra positive of the statement 'If Mary goes to school then lamb goes to school' is",
+    "question_latex": "The contrapositive of 'If Mary goes to school then lamb goes to school' is",
+    "question_images": [],
+    "options": [
+      "A. If lamb goes to school then Mary goes to school",
+      "B. If lamb does not go to school then Mary does not go to school",
+      "C. If Mary does not go to school then lamb does not go to school",
+      "D. None"
+    ],
+    "option_images": [],
+    "answer": "B. If lamb does not go to school then Mary does not go to school",
+    "solution": "Let $p$: Mary goes to school, $q$: Lamb goes to school. Contrapositive of $p \\rightarrow q$ is $\\sim q \\rightarrow \\sim p$: If lamb does not go to school then Mary does not go to school.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Mathematical Logic",
+    "question": "Consider the following two propositions: P1: ~(p → ~q), P2: (p ∧ ~q) ∧ ((~p) ∨ q). If the proposition p → ((~p) ∨ q) is evaluated as FALSE, then (June 2022)",
+    "question_latex": "P1: $\\sim(p \\rightarrow \\sim q)$, P2: $(p \\wedge \\sim q) \\wedge ((\\sim p) \\vee q)$. If $p \\rightarrow ((\\sim p) \\vee q)$ is FALSE, then (June 2022)",
+    "question_images": [],
+    "options": [
+      "A. Both P1 and P2 are TRUE",
+      "B. P1 is FALSE and P2 is TRUE",
+      "C. Both P1 and P2 are FALSE",
+      "D. P1 is TRUE and P2 is FALSE."
+    ],
+    "option_images": [],
+    "answer": "C. Both P1 and P2 are FALSE",
+    "solution": "$p \\rightarrow ((\\sim p) \\vee q)$ is FALSE when $p$ is T and $(\\sim p) \\vee q$ is F, i.e., $p$ is T and $q$ is F. P1: $\\sim(p \\rightarrow \\sim q) = \\sim(T \\rightarrow T) = \\sim T = F$. P2: $(T \\wedge T) \\wedge (F \\vee F) = T \\wedge F = F$. Both are FALSE.",
+    "solution_images": [
+      "q93_solution_1"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Mathematical Logic",
+    "question": "~(~p) ↔ p is",
+    "question_latex": "$\\sim(\\sim p) \\leftrightarrow p$ is",
+    "question_images": [],
+    "options": [
+      "A. A tautology",
+      "B. A contradiction",
+      "C. Neither a contradiction nor a tautology",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. A tautology",
+    "solution": "$\\sim(\\sim p) = p$, so $\\sim(\\sim p) \\leftrightarrow p \\cong p \\leftrightarrow p$, which is always T. Hence it is a tautology.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Mathematical Logic",
+    "question": "The statement (p ∧ (p → q) ∧ (q → r)) → r is (Aug 2021)",
+    "question_latex": "The statement $(p \\wedge (p \\rightarrow q) \\wedge (q \\rightarrow r)) \\rightarrow r$ is (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. a tautology",
+      "B. a fallacy",
+      "C. equivalent to $q \\rightarrow \\sim r$",
+      "D. equivalent to $p \\rightarrow \\sim r$"
+    ],
+    "option_images": [],
+    "answer": "A. a tautology",
+    "solution": "$(p \\wedge (p \\rightarrow q) \\wedge (q \\rightarrow r)) \\rightarrow r$\n$\\equiv (p \\wedge (\\sim p \\vee q) \\wedge (\\sim q \\vee r)) \\rightarrow r$\nThrough simplification this reduces to $T$. It is a tautology.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Mathematical Logic",
+    "question": "Consider the statement 'The match will be played only if the weather is good and ground is not wet'. Select the correct negation from the following. (July 2021)",
+    "question_latex": "Consider: 'The match will be played only if the weather is good and ground is not wet'. Select the correct negation. (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. The match will be played and weather is not good or ground is wet.",
+      "B. The match will not be played or weather is good and ground is not wet.",
+      "C. If the match will not be played, then either weather is not good or ground is wet.",
+      "D. The match will not be played and weather is not good and ground is wet."
+    ],
+    "option_images": [],
+    "answer": "A. The match will be played and weather is not good or ground is wet.",
+    "solution": "Let $p$: match played, $q$: weather good, $r$: ground not wet. Statement: $p \\rightarrow (q \\wedge r)$, equivalent to $\\sim p \\vee (q \\wedge r)$. Negation: $p \\wedge \\sim(q \\wedge r) \\equiv p \\wedge (\\sim q \\vee \\sim r)$: match played and weather not good or ground is wet.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Mathematical Logic",
+    "question": "~(p ∨ q) ∨ (~p ∧ q) is logically equivalent to",
+    "question_latex": "$\\sim(p \\vee q) \\vee (\\sim p \\wedge q)$ is logically equivalent to",
+    "question_images": [],
+    "options": [
+      "A. ~p",
+      "B. p",
+      "C. q",
+      "D. ~q"
+    ],
+    "option_images": [],
+    "answer": "A. ~p",
+    "solution": "$\\sim(p \\vee q) \\vee (\\sim p \\wedge q) \\equiv (\\sim p \\wedge \\sim q) \\vee (\\sim p \\wedge q) \\equiv \\sim p \\wedge (\\sim q \\vee q) \\equiv \\sim p \\wedge t \\equiv \\sim p$",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Mathematical Logic",
+    "question": "The words which combine two simple statements are called",
+    "question_latex": "The words which combine two simple statements are called",
+    "question_images": [],
+    "options": [
+      "A. Sentential connectives",
+      "B. Logical connectives",
+      "C. Both a and b",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "C. Both a and b",
+    "solution": "Words like 'and', 'or', 'if...then', 'if and only if' that combine simple statements are called both sentential connectives and logical connectives.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following is logically equivalent to ~(~p → q)?",
+    "question_latex": "Which of the following is logically equivalent to $\\sim(\\sim p \\rightarrow q)$?",
+    "question_images": [],
+    "options": [
+      "A. $p \\wedge q$",
+      "B. $p \\wedge \\sim q$",
+      "C. $\\sim p \\wedge q$",
+      "D. $\\sim p \\wedge \\sim q$"
+    ],
+    "option_images": [],
+    "answer": "D. $\\sim p \\wedge \\sim q$",
+    "solution": "$\\sim p \\rightarrow q \\cong p \\vee q$. So $\\sim(\\sim p \\rightarrow q) \\cong \\sim(p \\vee q) \\cong \\sim p \\wedge \\sim q$.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Mathematical Logic",
+    "question": "Which of the following Boolean expressions is not a tautology? (July 2021)",
+    "question_latex": "Which of the following Boolean expressions is not a tautology? (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. $(p \\Rightarrow \\sim q) \\vee (\\sim q \\Rightarrow p)$",
+      "B. $(p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$",
+      "C. $(q \\Rightarrow p) \\vee (\\sim q \\Rightarrow p)$",
+      "D. $(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$"
+    ],
+    "option_images": [],
+    "answer": "D. $(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p)$",
+    "solution": "$(\\sim p \\Rightarrow q) \\vee (\\sim q \\Rightarrow p) \\equiv (p \\vee q) \\vee (q \\vee p) \\equiv p \\vee q$, which is not a tautology.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  }
+]

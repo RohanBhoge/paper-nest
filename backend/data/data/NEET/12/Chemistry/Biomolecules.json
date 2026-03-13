@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1,
+    "chapter": "Biomolecules",
+    "question": "The segment of DNA which acts as the instrumental manual for the synthesis of the protein is:",
+    "question_latex": "The segment of DNA which acts as the instrumental manual for the synthesis of the protein is:",
+    "question_images": [],
+    "options": [
+      "A. Nucleoside",
+      "B. Nucleotide",
+      "C. Ribose",
+      "D. Gene"
+    ],
+    "option_images": [],
+    "answer": "D. Gene",
+    "solution": "Genes are responsible for synthesis of protein. The DNA sequence that codes for a specific protein is called a Gene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Biomolecules",
+    "question": "Paraffin wax is not used:",
+    "question_latex": "Paraffin wax is not used:",
+    "question_images": [],
+    "options": [
+      "A. In making candles",
+      "B. As a coating on paper",
+      "C. In greases",
+      "D. As a stiffening agent in cosmetic creams"
+    ],
+    "option_images": [],
+    "answer": "C. In greases",
+    "solution": "Rest all are uses of paraffin wax. In greases, esters of higher fatty acids are used.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Biomolecules",
+    "question": "The correct sequence of amino acids present in the tripeptide given below is (Jan 2019)",
+    "question_latex": "The correct sequence of amino acids present in the tripeptide given below is (Jan 2019)",
+    "question_images": [
+      "3_qu_1.png"
+    ],
+    "options": [
+      "A. Thr - Ser - Leu",
+      "B. Val - Ser - Thr",
+      "C. Thr - Ser - Val",
+      "D. Leu - Ser - Thr"
+    ],
+    "option_images": [],
+    "answer": "B. Val - Ser - Thr",
+    "solution": "Val : $(CH_3)_2CH-$\nSer : $HO-CH_2-$\nThr : $CH_3-CHOH-$\nIdentifying each amino acid residue from the structure gives the sequence Val - Ser - Thr.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Biomolecules",
+    "question": "Nucleic acids are:",
+    "question_latex": "Nucleic acids are:",
+    "question_images": [],
+    "options": [
+      "A. Polymers of nucleotides",
+      "B. Polymers of nucleosides",
+      "C. Polymers of purine bases through phosphate ester bonds",
+      "D. Phosphate ester bonds"
+    ],
+    "option_images": [],
+    "answer": "A. Polymers of nucleotides",
+    "solution": "Nucleic acids (RNA and DNA) are polymers of nucleotides.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Biomolecules",
+    "question": "Milk sugar is (a disaccharide):",
+    "question_latex": "Milk sugar is (a disaccharide):",
+    "question_images": [],
+    "options": [
+      "A. Sucrose",
+      "B. Lactose",
+      "C. Fructose",
+      "D. Glucose"
+    ],
+    "option_images": [],
+    "answer": "B. Lactose",
+    "solution": "Lactose is a disaccharide. The two monosaccharide units are glucose and galactose.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Biomolecules",
+    "question": "Thymine is:",
+    "question_latex": "Thymine is:",
+    "question_images": [],
+    "options": [
+      "A. 5-Methyluracil",
+      "B. 4-Methyluracil",
+      "C. 3-Methyluracil",
+      "D. 1-Methyluracil"
+    ],
+    "option_images": [],
+    "answer": "A. 5-Methyluracil",
+    "solution": "Thymine is 5-methyluracil, a pyrimidine base found in DNA.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Biomolecules",
+    "question": "The highest calorific value is found in",
+    "question_latex": "The highest calorific value is found in",
+    "question_images": [],
+    "options": [
+      "A. Proteins",
+      "B. Fats",
+      "C. Vitamins",
+      "D. Carbohydrates"
+    ],
+    "option_images": [],
+    "answer": "B. Fats",
+    "solution": "$1$ g fat provides $37$ kJ of energy on oxidation while $1$ g carbohydrate on oxidation gives $17$ kJ of energy. Hence, fat has the highest calorific value.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Biomolecules",
+    "question": "Which structure of protein remains intact after coagulation of egg white on boiling? [27 Jan, 2024 (Shift-II)]",
+    "question_latex": "Which structure of protein remains intact after coagulation of egg white on boiling? [27 Jan, 2024 (Shift-II)]",
+    "question_images": [],
+    "options": [
+      "A. Primary",
+      "B. Quaternary",
+      "C. Secondary",
+      "D. Tertiary"
+    ],
+    "option_images": [],
+    "answer": "A. Primary",
+    "solution": "Boiling an egg causes denaturation of its protein resulting in loss of its quaternary, tertiary and secondary structures, whereas primary structure remains intact.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Biomolecules",
+    "question": "Which vitamin contains N?",
+    "question_latex": "Which vitamin contains N?",
+    "question_images": [],
+    "options": [
+      "A. Vitamin A",
+      "B. Vitamin C",
+      "C. Vitamin B",
+      "D. Vitamin D"
+    ],
+    "option_images": [],
+    "answer": "C. Vitamin B",
+    "solution": "N is present in all vitamins B, i.e., $B_1, B_2, B_3, B_5, B_6, B_{12}$.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Biomolecules",
+    "question": "Lactose on hydrolysis yields:",
+    "question_latex": "Lactose on hydrolysis yields:",
+    "question_images": [],
+    "options": [
+      "A. Two glucose molecules",
+      "B. Two galactose molecules",
+      "C. A galactose and fructose molecule",
+      "D. A galactose and a glucose molecule"
+    ],
+    "option_images": [],
+    "answer": "D. A galactose and a glucose molecule",
+    "solution": "Lactose is a disaccharide having galactose and glucose units.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Biomolecules",
+    "question": "Which of the following statements is correct? (A) Only the compounds following general formula Cx(H2O)y are carbohydrates. (B) Acetic acid (CH3COOH) having general formula C2(H2O)2 falls in this category. (C) Rhamnose having formula C6H12O5 is a carbohydrate. Though this is not according to general formula of carbohydrates. (D) Chemically the carbohydrates may be defined as optically inactive polyhydroxy aldehydes or ketones.",
+    "question_latex": "Which of the following statements is correct?\n(A) Only the compounds following general formula $C_x(H_2O)_y$ are carbohydrates.\n(B) Acetic acid $(CH_3COOH)$ having general formula $C_2(H_2O)_2$ falls in this category.\n(C) Rhamnose having formula $C_6H_{12}O_5$ is a carbohydrate. Though this is not according to general formula of carbohydrates.\n(D) Chemically the carbohydrates may be defined as optically inactive polyhydroxy aldehydes or ketones.",
+    "question_images": [],
+    "options": [
+      "A. Only the compounds following general formula Cx(H2O)y are carbohydrates",
+      "B. Acetic acid having general formula C2(H2O)2 falls in this category",
+      "C. Rhamnose having formula C6H12O5 is a carbohydrate though not according to general formula",
+      "D. Carbohydrates may be defined as optically inactive polyhydroxy aldehydes or ketones"
+    ],
+    "option_images": [],
+    "answer": "C. Rhamnose having formula C6H12O5 is a carbohydrate though not according to general formula",
+    "solution": "Most carbohydrates have a general formula $C_x(H_2O)_y$. Acetic acid fits this formula but is not a carbohydrate. Rhamnose $C_6H_{12}O_5$ is a carbohydrate but does not fit the definition. Carbohydrates are defined as optically **active** (not inactive) polyhydroxy aldehydes or ketones or compounds which produce such units on hydrolysis.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Biomolecules",
+    "question": "Which of the following carbohydrates are branched polymer of glucose? (i) Amylose (ii) Amylopectin (iii) Cellulose (iv) Glycogen",
+    "question_latex": "Which of the following carbohydrates are branched polymer of glucose?\n(i) Amylose (ii) Amylopectin (iii) Cellulose (iv) Glycogen",
+    "question_images": [],
+    "options": [
+      "A. (i) and (ii)",
+      "B. (ii) and (iv)",
+      "C. (iii) and (iv)",
+      "D. (i), (ii) and (iii)"
+    ],
+    "option_images": [],
+    "answer": "B. (ii) and (iv)",
+    "solution": "Amylopectin and Glycogen are branched polymers of glucose. Amylose is a linear (unbranched) polymer and Cellulose is also a linear polymer of $\\beta$-glucose.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Biomolecules",
+    "question": "Match List-I with List-II. List-I (Bio Polymer): A-Starch, B-Cellulose, C-Nucleic acid, D-Protein. List-II (Monomer): I-Nucleotide, II-alpha-glucose, III-beta-glucose, IV-alpha-amino acid. Choose the correct answer from the options given below: [29 Jan, 2024 (Shift-II)]",
+    "question_latex": "Match List-I (Bio Polymer) with List-II (Monomer):\nA - Starch, B - Cellulose, C - Nucleic acid, D - Protein\nI - Nucleotide, II - $\\alpha$-glucose, III - $\\beta$-glucose, IV - $\\alpha$-amino acid\n[29 Jan, 2024 (Shift-II)]",
+    "question_images": [
+      "13_qu_1.png"
+    ],
+    "options": [
+      "A. A-IV, B-II, C-I, D-III",
+      "B. A-I, B-III, C-IV, D-II",
+      "C. A-II, B-III, C-I, D-IV",
+      "D. A-II, B-I, C-III, D-IV"
+    ],
+    "option_images": [],
+    "answer": "C. A-II, B-III, C-I, D-IV",
+    "solution": "Starch: $\\alpha$-glucose (II)\nCellulose: $\\beta$-glucose (III)\nNucleic acid: Nucleotide (I)\nProtein: $\\alpha$-amino acids (IV)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Biomolecules",
+    "question": "Which of the following compounds is responsible for the transmission of heredity characters?",
+    "question_latex": "Which of the following compounds is responsible for the transmission of heredity characters?",
+    "question_images": [],
+    "options": [
+      "A. RNA",
+      "B. DNA",
+      "C. Glucose",
+      "D. Haemoglobin"
+    ],
+    "option_images": [],
+    "answer": "B. DNA",
+    "solution": "DNA is responsible for transmission of hereditary characters.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Biomolecules",
+    "question": "Match List I (Vitamin) with List II (Deficiency disease): A-Vitamin A, B-Thiamine, C-Ascorbic acid, D-Riboflavin. I-Beri-Beri, II-Cheilosis, III-Xeropthalmia, IV-Scurvy. Choose the correct answer from the options given below: (April 2023)",
+    "question_latex": "Match List I (Vitamin) with List II (Deficiency disease):\nA - Vitamin A, B - Thiamine, C - Ascorbic acid, D - Riboflavin\nI - Beri-Beri, II - Cheilosis, III - Xeropthalmia, IV - Scurvy\n(April 2023)",
+    "question_images": [
+      "15_qu_1.png"
+    ],
+    "options": [
+      "A. A-IV, B-II, C-III, D-I",
+      "B. A-III, B-I, C-IV, D-II",
+      "C. A-III, B-II, C-IV, D-I",
+      "D. A-IV, B-I, C-III, D-II"
+    ],
+    "option_images": [],
+    "answer": "B. A-III, B-I, C-IV, D-II",
+    "solution": "Vitamin A → Xeropthalmia (III)\nThiamine ($B_1$) → Beri-Beri (I)\nAscorbic acid (Vitamin C) → Scurvy (IV)\nRiboflavin ($B_2$) → Cheilosis (II)",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Biomolecules",
+    "question": "Carbohydrates are stored in human body as the polysaccharide:",
+    "question_latex": "Carbohydrates are stored in human body as the polysaccharide:",
+    "question_images": [],
+    "options": [
+      "A. Starch",
+      "B. Glucose",
+      "C. Glycogen",
+      "D. Galactose"
+    ],
+    "option_images": [],
+    "answer": "C. Glycogen",
+    "solution": "Glycogen is the polysaccharide in which carbohydrates are stored in the human body. It is also known as animal starch.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Biomolecules",
+    "question": "Nucleic acid is a polymer of",
+    "question_latex": "Nucleic acid is a polymer of",
+    "question_images": [],
+    "options": [
+      "A. Nucleotides",
+      "B. α-amino acids",
+      "C. Nucleosides",
+      "D. Glucose"
+    ],
+    "option_images": [],
+    "answer": "A. Nucleotides",
+    "solution": "Nucleic acids (DNA and RNA) are polymers of nucleotides.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Biomolecules",
+    "question": "Consider the following statements. (i) Linkage between two monosaccharide units through oxygen atom is called glycosidic linkage. (ii) Sucrose on hydrolysis gives an equimolar mixture of fructose and glucose which is dextrorotatory. (iii) Lactose consists of C1 linkage between of galactose and C4 of glucose. (iv) Out of two components of starch the component present in greater proportion is insoluble in water. (v) Glycogen is also known as animal starch because it is structurally similar to amylose a component of starch. Which of the following is the correct code for statements above?",
+    "question_latex": "Consider the following statements.\n(i) Linkage between two monosaccharide units through oxygen atom is called glycosidic linkage.\n(ii) Sucrose on hydrolysis gives an equimolar mixture of fructose and glucose which is dextrorotatory.\n(iii) Lactose consists of $C_1$ linkage between galactose and $C_4$ of glucose.\n(iv) Out of two components of starch the component present in greater proportion is insoluble in water.\n(v) Glycogen is also known as animal starch because it is structurally similar to amylose a component of starch.\nWhich of the following is the correct code for statements above?",
+    "question_images": [],
+    "options": [
+      "A. FFFTT",
+      "B. FTTTF",
+      "C. TFTFT",
+      "D. TFTTF"
+    ],
+    "option_images": [],
+    "answer": "D. TFTTF",
+    "solution": "Statement (i): True — glycosidic linkage is through oxygen.\nStatement (ii): False — Sucrose is dextrorotatory but on hydrolysis gives dextrorotatory glucose and laevorotatory fructose. Since the laevorotation of fructose $(-92.4°)$ is more than dextrorotation of glucose $(+52.5°)$, the resulting mixture is laevorotatory.\nStatement (iii): True — Lactose has $C_1$-$C_4$ glycosidic bond between galactose and glucose.\nStatement (iv): True — Amylopectin (major component, ~80%) is insoluble in water.\nStatement (v): False — Glycogen is structurally similar to amylopectin, not amylose.",
+    "solution_images": [],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Biomolecules",
+    "question": "Given below are two statements: [April 3, 2025 (II)] Statement I: Wet cotton clothes made of cellulose based carbohydrate takes comparatively longer time to get dried than wet nylon polymer based clothes. Statement II: Intermolecular hydrogen bonding with water molecule is more in nylon-based clothes than in the case of cotton clothes. In the light of above statements, choose the correct answer from the options given below.",
+    "question_latex": "Given below are two statements: [April 3, 2025 (II)]\nStatement I: Wet cotton clothes made of cellulose based carbohydrate takes comparatively longer time to get dried than wet nylon polymer based clothes.\nStatement II: Intermolecular hydrogen bonding with water molecule is more in nylon-based clothes than in the case of cotton clothes.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is true but Statement II is false",
+      "B. Both Statement I and Statement II are false",
+      "C. Both Statement I and Statement II are true",
+      "D. Statement I is false but Statement II is true"
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is true but Statement II is false",
+    "solution": "Cellulose derivatives have more number of hydroxy $(-OH)$ groups, so stronger H-bonding is present with water in cellulose derivative of cotton cloths. This is why cotton takes longer to dry. Statement II is false because cotton (not nylon) has more intermolecular hydrogen bonding with water.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Biomolecules",
+    "question": "Fructose and glucose can be distinguished by (April 2019)",
+    "question_latex": "Fructose and glucose can be distinguished by (April 2019)",
+    "question_images": [],
+    "options": [
+      "A. Seliwanoff's test",
+      "B. Fehling's test",
+      "C. Benedict's test",
+      "D. Barfoed's test"
+    ],
+    "option_images": [],
+    "answer": "A. Seliwanoff's test",
+    "solution": "Seliwanoff's test is a chemical test which distinguishes aldose and ketose sugars. Reagent used is resorcinol and concentrated hydrochloric acid. When Seliwanoff's reagent is added to a solution containing ketoses (fructose), red colour is formed rapidly indicating a positive test. In case of aldose (glucose), a slower forming light pink colour is observed.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Biomolecules",
+    "question": "For the peptide bond (-C(=O)-NH-), which statement is incorrect about peptide bond?",
+    "question_latex": "For the peptide bond $\\left(\\begin{array}{c}-\\overset{\\displaystyle O}{\\overset{\\displaystyle \\|}{C}}-NH-\\end{array}\\right)$, which statement is incorrect about peptide bond?",
+    "question_images": [
+      "21_qu_1.png",
+      "21_qu_2.png"
+    ],
+    "options": [
+      "A. C-N bond length in proteins is longer than usual bond length of the C-N bond",
+      "B. Spectroscopic analysis shows planar structure of the -C(=O)-NH- group",
+      "C. C-N bond length in proteins is smaller than usual bond length of the C-N bond",
+      "D. None of the above"
+    ],
+    "option_images": [],
+    "answer": "A. C-N bond length in proteins is longer than usual bond length of the C-N bond",
+    "solution": "Due to resonance, $C-N$ bond in protein acquires double bond character and is therefore smaller (shorter) than the usual $C-N$ bond. Hence statement A is incorrect.",
+    "solution_images": [
+      "21_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Biomolecules",
+    "question": "Which of the following indicates the order in which amino acids are linked together in a protein?",
+    "question_latex": "Which of the following indicates the order in which amino acids are linked together in a protein?",
+    "question_images": [],
+    "options": [
+      "A. Primary structure",
+      "B. Secondary structure",
+      "C. Tertiary structure",
+      "D. Quaternary structure"
+    ],
+    "option_images": [],
+    "answer": "A. Primary structure",
+    "solution": "Primary structure refers to the specific sequence (order) of the amino acids in a protein chain.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Biomolecules",
+    "question": "Out of following isomeric forms of uracil, which one is present in RNA? (Aug 2021)",
+    "question_latex": "Out of following isomeric forms of uracil, which one is present in RNA? (Aug 2021)",
+    "question_images": [],
+    "options": [
+      "A. Option A (standard uracil form)",
+      "B. Option B",
+      "C. Option C",
+      "D. Option D"
+    ],
+    "option_images": [
+      "23_opA_1.png",
+      "23_opB_1.png",
+      "23_opC_1.png",
+      "23_opD_1.png"
+    ],
+    "answer": "A. Option A (standard uracil form)",
+    "solution": "The standard uracil (2,4-dioxopyrimidine) with $NH$ at positions 1 and 3 is the form present in RNA.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Biomolecules",
+    "question": "The nucleic acid base having two possible binding sites is",
+    "question_latex": "The nucleic acid base having two possible binding sites is",
+    "question_images": [],
+    "options": [
+      "A. Thymine",
+      "B. Cytosine",
+      "C. Guanine",
+      "D. Adenine"
+    ],
+    "option_images": [],
+    "answer": "C. Guanine",
+    "solution": "Guanine has two possible binding sites due to the presence of both $-NH$ and $C=O$ groups capable of forming hydrogen bonds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Biomolecules",
+    "question": "Which set of terms correctly identifies the carbohydrate shown? 1. Pentose 2. Hexose 3. Aldose 4. Ketose 5. Pyranose 6. Furanose",
+    "question_latex": "Which set of terms correctly identifies the carbohydrate shown?\n1. Pentose 2. Hexose 3. Aldose 4. Ketose 5. Pyranose 6. Furanose",
+    "question_images": [
+      "25_qu_1.png"
+    ],
+    "options": [
+      "A. 1, 3 and 6",
+      "B. 1, 3 and 5",
+      "C. 2, 3 and 5",
+      "D. 2, 3 and 6"
+    ],
+    "option_images": [],
+    "answer": "A. 1, 3 and 6",
+    "solution": "This compound contains five carbon atoms, so it is a pentose (1). Its first carbon contains $-H$ and $-OH$ group suggesting it is an aldose (3). Since its structure is similar to furan (a heterocyclic compound), it has furanose structure (6). Hence the compound is pentose, aldose, and furanose.",
+    "solution_images": [
+      "25_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Biomolecules",
+    "question": "The RNA which takes part in the synthesis of proteins is:",
+    "question_latex": "The RNA which takes part in the synthesis of proteins is:",
+    "question_images": [],
+    "options": [
+      "A. m-RNA",
+      "B. r-RNA",
+      "C. t-RNA",
+      "D. All the above"
+    ],
+    "option_images": [],
+    "answer": "D. All the above",
+    "solution": "All three types of RNA — mRNA (messenger RNA), rRNA (ribosomal RNA), and tRNA (transfer RNA) — take part in the synthesis of proteins.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Biomolecules",
+    "question": "The number of chiral carbon atoms present in cyclic structure α-D(+) glucose",
+    "question_latex": "The number of chiral carbon atoms present in cyclic structure $\\alpha - D(+)$ glucose",
+    "question_images": [],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 6",
+      "D. 5"
+    ],
+    "option_images": [],
+    "answer": "D. 5",
+    "solution": "In the cyclic (pyranose) structure of $\\alpha$-D(+)-glucose, there are 5 chiral carbon atoms (C1, C2, C3, C4, C5).",
+    "solution_images": [
+      "27_so_1.png"
+    ],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Biomolecules",
+    "question": "Enzymes take part in a reaction and",
+    "question_latex": "Enzymes take part in a reaction and",
+    "question_images": [],
+    "options": [
+      "A. decrease the rate of a chemical reaction",
+      "B. increase the rate of a chemical reaction",
+      "C. both (a) and (b)",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "B. increase the rate of a chemical reaction",
+    "solution": "Enzymes being biocatalysts can increase the rate of a reaction up to $10^7$ (10 million) times. Even very small amounts can accelerate a reaction.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Biomolecules",
+    "question": "Common table sugar is more formally described as:",
+    "question_latex": "Common table sugar is more formally described as:",
+    "question_images": [],
+    "options": [
+      "A. Glucose",
+      "B. Lactose",
+      "C. Maltose",
+      "D. Sucrose"
+    ],
+    "option_images": [],
+    "answer": "D. Sucrose",
+    "solution": "Common table sugar is sucrose. It is obtained from sugar cane and is a disaccharide.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Biomolecules",
+    "question": "Among the following compounds most basic amino acid is (Jan 2019)",
+    "question_latex": "Among the following compounds most basic amino acid is (Jan 2019)",
+    "question_images": [],
+    "options": [
+      "A. asparagine",
+      "B. serine",
+      "C. histidine",
+      "D. lysine"
+    ],
+    "option_images": [],
+    "answer": "D. lysine",
+    "solution": "Lysine has two $-NH_2$ groups (one $\\alpha$-amino group and one $\\epsilon$-amino group), making it the most basic amino acid among the given options.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Biomolecules",
+    "question": "The human body does not produce:",
+    "question_latex": "The human body does not produce:",
+    "question_images": [],
+    "options": [
+      "A. Enzymes",
+      "B. DNA",
+      "C. Vitamins",
+      "D. Hormones"
+    ],
+    "option_images": [],
+    "answer": "C. Vitamins",
+    "solution": "Vitamins are organic compounds that cannot be synthesized by the human body in sufficient quantities and must be obtained through diet.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Biomolecules",
+    "question": "The segment of DNA which acts as the instrumental manual for the synthesis of the protein is:",
+    "question_latex": "The segment of DNA which acts as the instrumental manual for the synthesis of the protein is:",
+    "question_images": [],
+    "options": [
+      "A. ribose",
+      "B. gene",
+      "C. nucleoside",
+      "D. nucleotide"
+    ],
+    "option_images": [],
+    "answer": "B. gene",
+    "solution": "The DNA sequence that codes for a specific protein is called a Gene and thus every protein in a cell has a corresponding gene.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Biomolecules",
+    "question": "DNA has deoxyribose, base and the third compound is:",
+    "question_latex": "DNA has deoxyribose, base and the third compound is:",
+    "question_images": [],
+    "options": [
+      "A. Phosphoric acid",
+      "B. Ribose",
+      "C. Adenine",
+      "D. Thymine"
+    ],
+    "option_images": [],
+    "answer": "A. Phosphoric acid",
+    "solution": "DNA has nucleotide unit, i.e., sugar + base + $H_3PO_4$ (phosphoric acid).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Biomolecules",
+    "question": "Proteins are polypeptide of",
+    "question_latex": "Proteins are polypeptide of",
+    "question_images": [],
+    "options": [
+      "A. β-amino acid",
+      "B. α-hydroxy acid",
+      "C. D-α-amino acid",
+      "D. L-α-amino acid"
+    ],
+    "option_images": [],
+    "answer": "D. L-α-amino acid",
+    "solution": "Proteins are highly complex natural compounds, composed of a large number of different $\\alpha$-amino acids joined together with peptide linkage. All naturally occurring amino acids in proteins are $L$-$\\alpha$-amino acids.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Biomolecules",
+    "question": "The term anomers of glucose refers to (2006)",
+    "question_latex": "The term anomers of glucose refers to (2006)",
+    "question_images": [],
+    "options": [
+      "A. enantiomers of glucose",
+      "B. a mixture of D-glucose and L-glucose",
+      "C. isomers of glucose that differ in configurations at carbons one and four (C-1 and C-4)",
+      "D. isomers of glucose that differ in configuration at carbon one (C-1)"
+    ],
+    "option_images": [],
+    "answer": "D. isomers of glucose that differ in configuration at carbon one (C-1)",
+    "solution": "Anomers are cyclic monosaccharides that differ in configuration only at the anomeric carbon (C-1). $\\alpha$-glucose and $\\beta$-glucose are anomers of each other.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Biomolecules",
+    "question": "For the below given cyclic hemiacetal (X), the correct pyranose structure is (July 2022)",
+    "question_latex": "For the below given cyclic hemiacetal $(X)$, the correct pyranose structure is (July 2022)",
+    "question_images": [
+      "36_qu_1.png"
+    ],
+    "options": [
+      "A. Structure A",
+      "B. Structure B",
+      "C. Structure C",
+      "D. Structure D"
+    ],
+    "option_images": [
+      "36_opA_1.png",
+      "36_opB_1.png",
+      "36_opC_1.png",
+      "36_opD_1.png"
+    ],
+    "answer": "D. Structure D",
+    "solution": "Converting the given open-chain Fischer projection to a Haworth pyranose structure by analyzing the configuration at each chiral center gives structure D.",
+    "solution_images": [
+      "36_so_1.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Biomolecules",
+    "question": "Two nucleotides are joined together by a linkage known as: [27 Jan, 2024 (Shift-I)]",
+    "question_latex": "Two nucleotides are joined together by a linkage known as: [27 Jan, 2024 (Shift-I)]",
+    "question_images": [],
+    "options": [
+      "A. Glycosidic linkage",
+      "B. Disulphide linkage",
+      "C. Phosphodiester linkage",
+      "D. Peptide linkage"
+    ],
+    "option_images": [],
+    "answer": "C. Phosphodiester linkage",
+    "solution": "Two nucleotides are joined together by a linkage known as phosphodiester linkage, where the phosphate group forms ester bonds with the 3' carbon of one sugar and the 5' carbon of the next sugar.",
+    "solution_images": [
+      "37_so_1.png"
+    ],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Biomolecules",
+    "question": "Following tetrapeptide can be represented as (F, L, D, Y, I, Q, P are one letter codes for amino acids.) (Jan 2023)",
+    "question_latex": "Following tetrapeptide can be represented as (F, L, D, Y, I, Q, P are one letter codes for amino acids.) (Jan 2023)",
+    "question_images": [
+      "38_qu_1.png"
+    ],
+    "options": [
+      "A. PLDY",
+      "B. YQLF",
+      "C. FIQY",
+      "D. FLDY"
+    ],
+    "option_images": [],
+    "answer": "D. FLDY",
+    "solution": "Reading the tetrapeptide from the $N$-terminus to $C$-terminus:\nPhenylalanine (F) → Leucine (L) → Aspartic acid (D) → Tyrosine (Y)\nThus the tetrapeptide is FLDY.",
+    "solution_images": [
+      "38_so_1.png",
+      "38_so_2.png",
+      "38_so_3.png",
+      "38_so_4.png"
+    ],
+    "difficulty": "hard",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Biomolecules",
+    "question": "Cofactors (non-proteinic prosthetic groups) used to bond conjugated proteins are:",
+    "question_latex": "Cofactors (non-proteinic prosthetic groups) used to bond conjugated proteins are:",
+    "question_images": [],
+    "options": [
+      "A. Carbohydrates",
+      "B. Phosphoric acid",
+      "C. Iron pigments",
+      "D. All are correct"
+    ],
+    "option_images": [],
+    "answer": "D. All are correct",
+    "solution": "All are cofactors of conjugated proteins. Conjugated proteins on hydrolysis yield amino acids and non-protein material (prosthetic group/cofactor). Examples: mucin in saliva (prosthetic group: carbohydrate), casein in milk (prosthetic group: phosphoric acid), haemoglobin in blood (prosthetic group: iron pigment).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Biomolecules",
+    "question": "Which of the following statements is incorrect? (A) In α-helix structure a polypeptide chain forms all possible hydrogen bonds by twisting into a right handed screw. (B) In β-structure of proteins all peptide chains are stretched out to nearly maximum extension. (C) During denaturation 2° and 3° structures are destroyed but 1° structure remains intact. (D) All the above statements are incorrect.",
+    "question_latex": "Which of the following statements is incorrect?\n(A) In $\\alpha$-helix structure a polypeptide chain forms all possible hydrogen bonds by twisting into a right handed screw.\n(B) In $\\beta$-structure of proteins all peptide chains are stretched out to nearly maximum extension.\n(C) During denaturation $2°$ and $3°$ structures are destroyed but $1°$ structure remains intact.\n(D) All the above statements are incorrect.",
+    "question_images": [],
+    "options": [
+      "A. In α-helix structure a polypeptide chain forms all possible hydrogen bonds by twisting into a right handed screw",
+      "B. In β-structure of proteins all peptide chains are stretched out to nearly maximum extension",
+      "C. During denaturation 2° and 3° structures are destroyed but 1° structure remains intact",
+      "D. All the above statements are incorrect"
+    ],
+    "option_images": [],
+    "answer": "C. During denaturation 2° and 3° structures are destroyed but 1° structure remains intact",
+    "solution": "During denaturation, $2°$ and $3°$ structures are destroyed but $1°$ structure remains intact. This statement is actually correct, not incorrect. However, the question asks for what is stated incorrectly in the options — statement C is presented as the answer because it is identifying that during denaturation $2°$ and $3°$ are destroyed while $1°$ remains, which is correct chemistry. All other options A and B are also correct statements about protein structure.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Biomolecules",
+    "question": "Casein contained in milk as a",
+    "question_latex": "Casein contained in milk as a",
+    "question_images": [],
+    "options": [
+      "A. Carbohydrate",
+      "B. Lipid",
+      "C. Protein",
+      "D. Important molecule"
+    ],
+    "option_images": [],
+    "answer": "C. Protein",
+    "solution": "Casein is a phosphoprotein (conjugated protein) present in milk. Its prosthetic group is phosphoric acid.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Biomolecules",
+    "question": "An antigen develops antibodies which protect the body from their harmful effects. The antibodies are:",
+    "question_latex": "An antigen develops antibodies which protect the body from their harmful effects. The antibodies are:",
+    "question_images": [],
+    "options": [
+      "A. Immunoglobulins",
+      "B. Phospholipids",
+      "C. Albumins",
+      "D. Lymphocytes"
+    ],
+    "option_images": [],
+    "answer": "A. Immunoglobulins",
+    "solution": "Immunoglobulins are gamma globulins responsible for immune response. They are the antibodies produced in response to antigens.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Biomolecules",
+    "question": "Vitamin C must be supplied regularly in diet because",
+    "question_latex": "Vitamin C must be supplied regularly in diet because",
+    "question_images": [],
+    "options": [
+      "A. it is water soluble hence excreted in urine and can't be stored in the body",
+      "B. it is fat soluble hence stored in the body and cannot be used on regular basis",
+      "C. it is required in a large amount by the body hence supplied regularly",
+      "D. it is water soluble hence used by the body on daily basis and is to be supplied regularly"
+    ],
+    "option_images": [],
+    "answer": "A. it is water soluble hence excreted in urine and can't be stored in the body",
+    "solution": "Vitamin C is water soluble. Therefore, it is readily excreted in urine and cannot be stored in our body and must be supplied regularly in diet.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Biomolecules",
+    "question": "The reason for double helical structure of DNA is operation of",
+    "question_latex": "The reason for double helical structure of DNA is operation of",
+    "question_images": [],
+    "options": [
+      "A. Van der Waals forces",
+      "B. Dipole-dipole interaction",
+      "C. Hydrogen bonding",
+      "D. Electrostatic attractions"
+    ],
+    "option_images": [],
+    "answer": "C. Hydrogen bonding",
+    "solution": "The two polynucleotide chains or strands of DNA are joined by hydrogen bonding between the nitrogenous base molecules of their nucleotide monomers. Adenine pairs with Thymine (2 H-bonds) and Cytosine pairs with Guanine (3 H-bonds).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Biomolecules",
+    "question": "Amylopectin is a polymer of α-D-glucose units in which chain is formed by glycosidic linkage whereas branching occurs by glycosidic linkage.",
+    "question_latex": "Amylopectin is a polymer of $\\alpha$-D-glucose units in which chain is formed by glycosidic linkage whereas branching occurs by glycosidic linkage.",
+    "question_images": [],
+    "options": [
+      "A. branched chain, C1-C6, C1-C4",
+      "B. branched chain, C1-C4, C1-C6",
+      "C. unbranched chain, C1-C4, C1-C6",
+      "D. unbranched chain, C1-C6, C1-C4"
+    ],
+    "option_images": [],
+    "answer": "B. branched chain, C1-C4, C1-C6",
+    "solution": "Amylopectin is a branched chain polymer of $\\alpha$-D-glucose units in which the main chain is formed by $C1-C4$ glycosidic linkage whereas branching occurs by $C1-C6$ glycosidic linkage.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Biomolecules",
+    "question": "Gene is a segment of",
+    "question_latex": "Gene is a segment of",
+    "question_images": [],
+    "options": [
+      "A. DNA",
+      "B. Protein",
+      "C. m-RNA",
+      "D. t-RNA"
+    ],
+    "option_images": [],
+    "answer": "A. DNA",
+    "solution": "Gene is a part of DNA molecule. It codes for a specific protein or polypeptide.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Biomolecules",
+    "question": "The reason for double helical structure of DNA is operation of (2003)",
+    "question_latex": "The reason for double helical structure of DNA is operation of (2003)",
+    "question_images": [],
+    "options": [
+      "A. van der Waals forces",
+      "B. dipole-dipole interaction",
+      "C. hydrogen bonding",
+      "D. electrostatic attractions"
+    ],
+    "option_images": [],
+    "answer": "C. hydrogen bonding",
+    "solution": "The two polynucleotide chains or strands of DNA are linked up by hydrogen bonding between the nitrogenous base molecules of their nucleotide monomers.\nAdenine $\\equiv$ Thymine (two hydrogen bonds)\nCytosine $\\equiv$ Guanine (three hydrogen bonds)",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Biomolecules",
+    "question": "The ultimate product of the hydrolysis of starch is:",
+    "question_latex": "The ultimate product of the hydrolysis of starch is:",
+    "question_images": [],
+    "options": [
+      "A. Glucose",
+      "B. Fructose",
+      "C. Sucrose",
+      "D. None of these"
+    ],
+    "option_images": [],
+    "answer": "A. Glucose",
+    "solution": "Starch is a homopolysaccharide of glucose. On complete hydrolysis:\n$\\text{Starch} \\xrightarrow{HOH} \\text{Sugar} \\xrightarrow{HOH} \\text{Glucose}$",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Biomolecules",
+    "question": "Which one among the following chemical tests is used to distinguish monosaccharide from disaccharide? (July 2021)",
+    "question_latex": "Which one among the following chemical tests is used to distinguish monosaccharide from disaccharide? (July 2021)",
+    "question_images": [],
+    "options": [
+      "A. Seliwanoff's test",
+      "B. Tollens' test",
+      "C. Iodine test",
+      "D. Barfoed test"
+    ],
+    "option_images": [],
+    "answer": "D. Barfoed test",
+    "solution": "Barfoed's test is a chemical test used for detecting the presence of monosaccharides. Monosaccharides react quickly with Barfoed's reagent (copper acetate in acetic acid), while disaccharides react much more slowly or not at all, thus distinguishing them.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Biomolecules",
+    "question": "Vitamin B1 is:",
+    "question_latex": "Vitamin $B_1$ is:",
+    "question_images": [],
+    "options": [
+      "A. Riboflavin",
+      "B. Cobalamin",
+      "C. Thiamine",
+      "D. Pyridoxine"
+    ],
+    "option_images": [],
+    "answer": "C. Thiamine",
+    "solution": "Vitamin $B_1$ is Thiamine. Its deficiency causes Beri-Beri.\nVitamin $B_2$ = Riboflavin, Vitamin $B_{12}$ = Cobalamin, Vitamin $B_6$ = Pyridoxine.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  }
+]

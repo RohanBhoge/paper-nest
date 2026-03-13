@@ -1,0 +1,1926 @@
+[
+  {
+    "id": 1,
+    "chapter": "Enhancement of Food Production",
+    "question": "Large holes in Swiss cheese are developed due to production of CO2 by the bacterium ___",
+    "question_latex": "Large holes in Swiss cheese are developed due to production of $CO_2$ by the bacterium ___",
+    "question_images": [],
+    "options": [
+      "A. Lactobacillus acidophilus",
+      "B. Streptococcus thermophilus",
+      "C. Lactobacillus bulgaricus",
+      "D. Propionibacterium shermanii"
+    ],
+    "option_images": [],
+    "answer": "D. Propionibacterium shermanii",
+    "solution": "The large holes in Swiss cheese are developed due to production of a large amount of $CO_2$ by a bacterium known as Propionibacterium shermanii.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 2,
+    "chapter": "Enhancement of Food Production",
+    "question": "The term 'hartig-net' is related to ........",
+    "question_latex": "The term 'hartig-net' is related to ........",
+    "question_images": [],
+    "options": [
+      "A. actinobacteria",
+      "B. endomycorrhizae",
+      "C. ectomycorrhizae",
+      "D. cyanobacteria"
+    ],
+    "option_images": [],
+    "answer": "C. ectomycorrhizae",
+    "solution": "The hartig-net is a network of hyphae found in ectomycorrhizae, forming between the cells of the root cortex.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 3,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the Column I (Name of Antibiotic) with Column II (Microbial Source) and select the correct option.",
+    "question_latex": "Match the Column I (Name of Antibiotic) with Column II (Microbial Source) and select the correct option.",
+    "question_images": [
+      "q3_1"
+    ],
+    "options": [
+      "A. A-III, B-I, C-IV, D-II",
+      "B. A-II, B-III, C-IV, D-I",
+      "C. A-II, B-III, C-I, D-IV",
+      "D. A-III, B-I, C-II, D-IV"
+    ],
+    "option_images": [],
+    "answer": "B. A-II, B-III, C-IV, D-I",
+    "solution": "Chloromycetin - Streptomyces venezuelae (II), Erythromycin - Streptomyces erythreus (III), Terramycin - Streptomyces aurifaciens (IV), Streptomycin - Streptomyces griseus (I).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 4,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the crop name given in Column-I with respective improved variety of crop developed by mutation breeding given in Column-II. Select the correct option from the following.",
+    "question_latex": "Match the crop name given in Column-I with respective improved variety of crop developed by mutation breeding given in Column-II. Select the correct option from the following.",
+    "question_images": [
+      "q4_1"
+    ],
+    "options": [
+      "A. (a)→(IV); (b)→(III); (c)→(I); (d)→(II)",
+      "B. (a)→(III); (b)→(I); (c)→(IV); (d)→(II)",
+      "C. (a)→(IV); (b)→(III); (c)→(II); (d)→(I)",
+      "D. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)→(IV); (b)→(III); (c)→(I); (d)→(II)",
+    "solution": "Indore-2 → Cotton (IV), Jagannath → Rice (III), Regina-II → Cabbage (I), NP 836 → Wheat (II). These are improved varieties developed by mutational breeding.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 5,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the column I with column II and select the correct option. (Microbial Herbicides and Their Host)",
+    "question_latex": "Match the column I with column II and select the correct option. (Microbial Herbicides and Their Host)",
+    "question_images": [
+      "q5_1"
+    ],
+    "options": [
+      "A. (a)→(ii); (b)→(iii); (c)→(iv); (d)→(i)",
+      "B. (a)→(iii); (b)→(iv); (c)→(i); (d)→(ii)",
+      "C. (a)→(iv); (b)→(i); (c)→(iii); (d)→(ii)",
+      "D. (a)→(ii); (b)→(iii); (c)→(i); (d)→(iv)"
+    ],
+    "option_images": [],
+    "answer": "A. (a)→(ii); (b)→(iii); (c)→(iv); (d)→(i)",
+    "solution": "Phytophthora palmivora - Controls milk weeds in orchards (ii), Alternaria crassa - Controls water hyacinth (iii), Cactoblastis catrorum - Controls cacti weeds (iv), Tyrea moth - Controls the weed Senecio jacobeae (i).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 6,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match different types of domestic industries in Column I with their respective products in Column II. Choose the correct option.",
+    "question_latex": "Match different types of domestic industries in Column I with their respective products in Column II. Choose the correct option.",
+    "question_images": [
+      "q6_1"
+    ],
+    "options": [
+      "A. (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C. (a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+    "solution": "Apiculture - propolis (iii), Fishery - Isinglass (i), Lac culture - Shellac (ii), Dairy - Khoa (iv). Different methods of culture and products of animals obtained by them.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 7,
+    "chapter": "Enhancement of Food Production",
+    "question": "Inland fisheries is referred to:",
+    "question_latex": "Inland fisheries is referred to:",
+    "question_images": [],
+    "options": [
+      "A. Culturing fish in freshwater",
+      "B. Trapping and capturing fishes from sea coast",
+      "C. Deep sea fishing",
+      "D. Extraction of oil from fishes"
+    ],
+    "option_images": [],
+    "answer": "A. Culturing fish in freshwater",
+    "solution": "Inland fisheries refers to culturing fish in freshwater bodies such as rivers, lakes, ponds, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 8,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which of the following methods is/are used in recovery of healthy plants from diseased plants?",
+    "question_latex": "Which of the following methods is/are used in recovery of healthy plants from diseased plants?",
+    "question_images": [],
+    "options": [
+      "A. Embryo culture",
+      "B. Meristem culture",
+      "C. Suspension culture",
+      "D. Anther culture"
+    ],
+    "option_images": [],
+    "answer": "B. Meristem culture",
+    "solution": "Meristem culture is used to recover healthy plants from diseased plants as the meristematic cells are generally virus-free.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 9,
+    "chapter": "Enhancement of Food Production",
+    "question": "Select correct sequence with respect to the steps of Hybridization technique. I - Hybridization, II - Collection of variable species having desired traits, III - Evaluation and selection of parents, IV - Testing, release and commercialization of new cultivars, V - Selection and testing of superior recombinants",
+    "question_latex": "Select correct sequence with respect to the steps of Hybridization technique. I - Hybridization, II - Collection of variable species having desired traits, III - Evaluation and selection of parents, IV - Testing, release and commercialization of new cultivars, V - Selection and testing of superior recombinants",
+    "question_images": [],
+    "options": [
+      "A. (II)→(III)→(I)→(IV)→(V)",
+      "B. (III)→(II)→(I)→(IV)→(V)",
+      "C. (II)→(III)→(I)→(V)→(IV)",
+      "D. (III)→(II)→(I)→(V)→(IV)"
+    ],
+    "option_images": [],
+    "answer": "C. (II)→(III)→(I)→(V)→(IV)",
+    "solution": "Correct sequence: Collection of variable species having desired traits → Evaluation and selection of parents → Hybridization → Selection and testing of superior recombinants → Testing, release and commercialization of new cultivars.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 10,
+    "chapter": "Enhancement of Food Production",
+    "question": "A draught breed of cattle is:",
+    "question_latex": "A draught breed of cattle is:",
+    "question_images": [],
+    "options": [
+      "A. Red Sindhi",
+      "B. Gir",
+      "C. Malvi",
+      "D. Haryana"
+    ],
+    "option_images": [],
+    "answer": "C. Malvi",
+    "solution": "Malvi is a draught breed of cattle used for pulling heavy loads. Red Sindhi, Gir, and Haryana are milch breeds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 11,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match column I with column II and select the correct option. Column I: Invertase, Pectinase, Lipase, Cellulase. Column II: Trichoderma konigii, Saccharomyces cerevisiae, Sclerotinia libertine, Candida lipolytica.",
+    "question_latex": "Match column I with column II and select the correct option. Column I: Invertase, Pectinase, Lipase, Cellulase. Column II: Trichoderma konigii, Saccharomyces cerevisiae, Sclerotinia libertine, Candida lipolytica.",
+    "question_images": [
+      "q11_1"
+    ],
+    "options": [
+      "A. A-II, B-III, C-IV, D-I",
+      "B. A-IV, B-III, C-II, D-I",
+      "C. A-IV, B-III, C-I, D-II",
+      "D. A-II, B-III, C-I, D-IV"
+    ],
+    "option_images": [],
+    "answer": "A. A-II, B-III, C-IV, D-I",
+    "solution": "Invertase - Saccharomyces cerevisiae (II), Pectinase - Sclerotinia libertine (III), Lipase - Candida lipolytica (IV), Cellulase - Trichoderma konigii (I).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 12,
+    "chapter": "Enhancement of Food Production",
+    "question": "Following are all fungal diseases of poultry EXCEPT_____",
+    "question_latex": "Following are all fungal diseases of poultry EXCEPT_____",
+    "question_images": [],
+    "options": [
+      "A. Aspergillosis",
+      "B. Thrush",
+      "C. Pullorum",
+      "D. Favus"
+    ],
+    "option_images": [],
+    "answer": "C. Pullorum",
+    "solution": "Pullorum disease in poultry is caused by Salmonella (a bacterium) causing very high mortality in chickens and is highly infectious. Aspergillosis, Thrush, and Favus are all fungal diseases.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 13,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the antibiotic in column I with its microbial source in column II and select the correct alternative. (i) Chloromycetin, (ii) Erythromycin, (iii) Penicillin, (iv) Streptomycin vs (a) Streptomyces erythreus, (b) Penicillium chrysogenum, (c) Streptomyces venezuelae, (d) Streptomyces griseus",
+    "question_latex": "Match the antibiotic in column I with its microbial source in column II and select the correct alternative.",
+    "question_images": [
+      "13_qu_1.png"
+    ],
+    "options": [
+      "A. (i)-a, (ii)-d, (iii)-c, (iv)-b",
+      "B. (i)-c, (ii)-a, (iii)-b, (iv)-d",
+      "C. (i)-c, (ii)-b, (iii)-a, (iv)-d",
+      "D. (i)-c, (ii)-a, (iii)-d, (iv)-b"
+    ],
+    "option_images": [],
+    "answer": "B. (i)-c, (ii)-a, (iii)-b, (iv)-d",
+    "solution": "Chloromycetin is obtained from Streptomyces venezuelae (c). Erythromycin is obtained from Streptomyces erythreus (a). Penicillin is obtained from Penicillium chrysogenum (b). Streptomycin is obtained from Streptomyces griseus (d).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 14,
+    "chapter": "Enhancement of Food Production",
+    "question": "A tool in crop improvement involving identification of genes, transfer and integration is:",
+    "question_latex": "A tool in crop improvement involving identification of genes, transfer and integration is:",
+    "question_images": [],
+    "options": [
+      "A. Protoplast fusion and tissue culture",
+      "B. Somaclonal hybridisation",
+      "C. Gene bank technology",
+      "D. Genetic engineering"
+    ],
+    "option_images": [],
+    "answer": "D. Genetic engineering",
+    "solution": "Genetic engineering involves identification of genes of interest, their transfer into a target organism, and integration into the genome for crop improvement.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 15,
+    "chapter": "Enhancement of Food Production",
+    "question": "Explants used for the production of disease free plants is_____",
+    "question_latex": "Explants used for the production of disease free plants is_____",
+    "question_images": [],
+    "options": [
+      "A. Vascular tissue",
+      "B. Apical meristem",
+      "C. Intrafascicular cambium",
+      "D. Cork cambium"
+    ],
+    "option_images": [],
+    "answer": "B. Apical meristem",
+    "solution": "Apical meristem is used for the production of disease free plants as it is generally free from viral infections.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 16,
+    "chapter": "Enhancement of Food Production",
+    "question": "Identify the WRONG statement about micropropagation.",
+    "question_latex": "Identify the WRONG statement about micropropagation.",
+    "question_images": [],
+    "options": [
+      "A. Due to this, multiplication of plants becomes season independent.",
+      "B. Rare plants can be conserved by this technique.",
+      "C. It is useful for obtaining large number of genetically identical plants.",
+      "D. Storage becomes difficult as the micropropagules require large space."
+    ],
+    "option_images": [],
+    "answer": "D. Storage becomes difficult as the micropropagules require large space.",
+    "solution": "Micropropagation is a type of tissue culture where a large number of plantlets can be produced in a small space, very fast within very less time. So storage is easy and requires less space.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 17,
+    "chapter": "Enhancement of Food Production",
+    "question": "\"Pusa Sadabahar\" is resistant to_____ disease.",
+    "question_latex": "\"Pusa Sadabahar\" is resistant to_____ disease.",
+    "question_images": [],
+    "options": [
+      "A. Leaf curl and chilli mosaic virus",
+      "B. Leaf and stripe rust",
+      "C. Black rot",
+      "D. Curl blight black rot"
+    ],
+    "option_images": [],
+    "answer": "A. Leaf curl and chilli mosaic virus",
+    "solution": "Pusa Sadabahar is a variety of chilli that is resistant to leaf curl and chilli mosaic virus disease.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 18,
+    "chapter": "Enhancement of Food Production",
+    "question": "In Multiple Ovulation Embryo Transfer, cow is administered with _______ to induce follicular superovulation.",
+    "question_latex": "In Multiple Ovulation Embryo Transfer, cow is administered with _______ to induce follicular superovulation.",
+    "question_images": [],
+    "options": [
+      "A. Progesterone",
+      "B. Prolactin",
+      "C. Oestrogen",
+      "D. Follicle stimulating hormone"
+    ],
+    "option_images": [],
+    "answer": "D. Follicle stimulating hormone",
+    "solution": "In Multiple Ovulation Embryo Transfer (MOET), the cow is administered with Follicle Stimulating Hormone (FSH) to induce follicular superovulation.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 19,
+    "chapter": "Enhancement of Food Production",
+    "question": "Exotic breeds:",
+    "question_latex": "Exotic breeds:",
+    "question_images": [],
+    "options": [
+      "A. Require specific environment",
+      "B. Hardy and high yielding",
+      "C. Are sturdy",
+      "D. Take less food"
+    ],
+    "option_images": [],
+    "answer": "A. Require specific environment",
+    "solution": "Exotic breeds require a specific environment and are not well adapted to local conditions, unlike indigenous breeds which are hardy and sturdy.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 20,
+    "chapter": "Enhancement of Food Production",
+    "question": "In conventional plant breeding, collection of Germplasm means",
+    "question_latex": "In conventional plant breeding, collection of Germplasm means",
+    "question_images": [],
+    "options": [
+      "A. Entire collection of plants/seeds with diverse alleles for all genes of a particular crop.",
+      "B. Gene library with genome of different varieties of crop plants.",
+      "C. Collection of genes from a particular crop plant.",
+      "D. Gene library with collected genes of same variety of crop."
+    ],
+    "option_images": [],
+    "answer": "A. Entire collection of plants/seeds with diverse alleles for all genes of a particular crop.",
+    "solution": "Germplasm collection refers to the entire collection of plants/seeds having diverse alleles for all genes of a particular crop. Conventional breeding is achieved by crossing plants with relevant characters and selecting offsprings with desired combination of characters.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 21,
+    "chapter": "Enhancement of Food Production",
+    "question": "Antibiotic Chloromycetin is produced from __",
+    "question_latex": "Antibiotic Chloromycetin is produced from __",
+    "question_images": [],
+    "options": [
+      "A. Streptomyces aurifaciens",
+      "B. Streptomyces griseus",
+      "C. Streptomyces venezuelae",
+      "D. Streptomyces erythreus"
+    ],
+    "option_images": [],
+    "answer": "C. Streptomyces venezuelae",
+    "solution": "Antibiotic Chloromycetin (Chloramphenicol) is produced from Streptomyces venezuelae.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 22,
+    "chapter": "Enhancement of Food Production",
+    "question": "The mycorrhiza in relationship with land plants is a_______",
+    "question_latex": "The mycorrhiza in relationship with land plants is a_______",
+    "question_images": [],
+    "options": [
+      "A. Bacterium",
+      "B. Protozoan",
+      "C. Fungus",
+      "D. Virus"
+    ],
+    "option_images": [],
+    "answer": "C. Fungus",
+    "solution": "Myco means fungus and rhizae means roots of higher plants. Thus mycorrhizae is a symbiotic association between fungi and roots of higher plants.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 23,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which of the following is an algal source of SCP?",
+    "question_latex": "Which of the following is an algal source of SCP?",
+    "question_images": [],
+    "options": [
+      "A. Candida",
+      "B. Methanobacillus",
+      "C. Chlorella",
+      "D. Saccharomyces"
+    ],
+    "option_images": [],
+    "answer": "C. Chlorella",
+    "solution": "Chlorella is an algal source of Single Cell Protein (SCP). Candida and Saccharomyces are fungal sources, while Methanobacillus is a bacterial source.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 24,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following disease is caused by bacteria?",
+    "question_latex": "Which one of the following disease is caused by bacteria?",
+    "question_images": [],
+    "options": [
+      "A. Red rot of sugarcane",
+      "B. Black rot of crucifers",
+      "C. Brown rust of wheat",
+      "D. Late blight of potato"
+    ],
+    "option_images": [],
+    "answer": "B. Black rot of crucifers",
+    "solution": "Black rot of crucifers is caused by bacteria (Xanthomonas campestris). Red rot of sugarcane is caused by fungus, Brown rust of wheat by fungus, and Late blight of potato by oomycete Phytophthora infestans.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 25,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the Column I with the Column II and select the correct option. A-Anabaena, B-Tolypothrix, C-Azotobacter, D-Rhizobium vs I-Beans, II-Azolla, III-Lichens, IV-Cotton",
+    "question_latex": "Match the Column I with the Column II and select the correct option.",
+    "question_images": [
+      "q25_1"
+    ],
+    "options": [
+      "A. A-II, B-III, C-I, D-IV",
+      "B. A-II, B-III, C-IV, D-I",
+      "C. A-I, B-II, C-IV, D-III",
+      "D. A-IV, B-I, C-III, D-II"
+    ],
+    "option_images": [],
+    "answer": "B. A-II, B-III, C-IV, D-I",
+    "solution": "Anabaena - Azolla (II), Tolypothrix - Lichens (III), Azotobacter - Cotton (IV), Rhizobium - Beans (I).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 26,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which of the following is NOT a breed of buffalo?",
+    "question_latex": "Which of the following is NOT a breed of buffalo?",
+    "question_images": [],
+    "options": [
+      "A. Gir",
+      "B. Nili",
+      "C. Nagpuri",
+      "D. Surti"
+    ],
+    "option_images": [],
+    "answer": "A. Gir",
+    "solution": "Gir is a breed of cow, not buffalo. Nili, Nagpuri, and Surti are all breeds of buffalo.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 27,
+    "chapter": "Enhancement of Food Production",
+    "question": "The part of the plant used in tissue culture is ____",
+    "question_latex": "The part of the plant used in tissue culture is ____",
+    "question_images": [],
+    "options": [
+      "A. Embryo",
+      "B. Inoculum",
+      "C. Explant",
+      "D. Callus"
+    ],
+    "option_images": [],
+    "answer": "C. Explant",
+    "solution": "The part of the plant used in tissue culture is called an explant. Plant tissue culture is based on the principle of Totipotency, which is the inherent ability of a living plant cell to grow, divide, redivide and give rise to a whole plant.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 28,
+    "chapter": "Enhancement of Food Production",
+    "question": "The large scale production of Swiss cheese is done by using which of the following microorganisms?",
+    "question_latex": "The large scale production of Swiss cheese is done by using which of the following microorganisms?",
+    "question_images": [],
+    "options": [
+      "A. Fungi - Aspergillus niger",
+      "B. Bacteria - Propionibacterium shermanii",
+      "C. Bacteria - Lactobacillus bulgaricus",
+      "D. Fungi - Rhizopus arrhizus"
+    ],
+    "option_images": [],
+    "answer": "B. Bacteria - Propionibacterium shermanii",
+    "solution": "Swiss cheese is produced using the bacterium Propionibacterium shermanii which produces large amounts of $CO_2$ creating the characteristic holes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 29,
+    "chapter": "Enhancement of Food Production",
+    "question": "Given below are two statements: Statement-I: In suspension culture and callus culture technique subculturing is necessary. Statement-II: Subculturing is needed only in suspension culture technique.",
+    "question_latex": "Given below are two statements: Statement-I: In suspension culture and callus culture technique subculturing is necessary. Statement-II: Subculturing is needed only in suspension culture technique.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is correct but statement II is incorrect.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Both statement I and statement II are correct.",
+      "D. Statement I is incorrect but statement II is correct."
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is correct but statement II is incorrect.",
+    "solution": "Both the callus and suspension cultures die in due course of time. Therefore, subculturing is necessary for continuation of both techniques. Hence Statement I is correct and Statement II is incorrect.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 30,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following fungi is NOT used as a mycoherbicide?",
+    "question_latex": "Which one of the following fungi is NOT used as a mycoherbicide?",
+    "question_images": [],
+    "options": [
+      "A. Beauveria bassiana",
+      "B. Fusarium SP.",
+      "C. Phytophthora palmivora",
+      "D. Alternaria crassa"
+    ],
+    "option_images": [],
+    "answer": "A. Beauveria bassiana",
+    "solution": "Beauveria bassiana is used as a mycoinsecticide (to control insects), not as a mycoherbicide. Fusarium sp., Phytophthora palmivora, and Alternaria crassa are used as mycoherbicides.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 31,
+    "chapter": "Enhancement of Food Production",
+    "question": "All of the following are marine fish EXCEPT",
+    "question_latex": "All of the following are marine fish EXCEPT",
+    "question_images": [],
+    "options": [
+      "A. Herpedon",
+      "B. Stromateus",
+      "C. Labeo",
+      "D. Sardinella"
+    ],
+    "option_images": [],
+    "answer": "C. Labeo",
+    "solution": "Labeo (Rohu) is a freshwater fish. Labeo, Catla, Mrigala, Clarius are some of the fresh water edible fishes consumed in India. Herpedon, Stromateus and Sardinella are marine fishes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 32,
+    "chapter": "Enhancement of Food Production",
+    "question": "Taichung native - the dwarf rice variety in India is a native of:",
+    "question_latex": "Taichung native - the dwarf rice variety in India is a native of:",
+    "question_images": [],
+    "options": [
+      "A. Japan",
+      "B. Philippines",
+      "C. Taiwan",
+      "D. Mexico"
+    ],
+    "option_images": [],
+    "answer": "A. Japan",
+    "solution": "Taichung Native-1, a dwarf rice variety, originated from Taiwan but was introduced in India from Japan.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 33,
+    "chapter": "Enhancement of Food Production",
+    "question": "Rice variety with five times more ______ has been developed.",
+    "question_latex": "Rice variety with five times more ______ has been developed.",
+    "question_images": [],
+    "options": [
+      "A. Vitamin B12",
+      "B. Protein",
+      "C. Iron",
+      "D. Tryptophan"
+    ],
+    "option_images": [],
+    "answer": "C. Iron",
+    "solution": "A rice variety with 5 times more iron has been developed. Genes for Ferritin are isolated from soyabean and Phaseolus and have been transferred to rice.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 34,
+    "chapter": "Enhancement of Food Production",
+    "question": "Lac is used in the manufacture of following products EXCEPT",
+    "question_latex": "Lac is used in the manufacture of following products EXCEPT",
+    "question_images": [],
+    "options": [
+      "A. Toys",
+      "B. Polish",
+      "C. Isinglass",
+      "D. Ink"
+    ],
+    "option_images": [],
+    "answer": "C. Isinglass",
+    "solution": "Isinglass is obtained from dried swim bladder of bony fishes, not from lac. Lac is used in the manufacture of toys, polish, ink, sealing wax, varnishes, etc.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 35,
+    "chapter": "Enhancement of Food Production",
+    "question": "In the secondary treatment of STP the masses of bacteria associated with fungal filaments are called_____",
+    "question_latex": "In the secondary treatment of STP the masses of bacteria associated with fungal filaments are called_____",
+    "question_images": [],
+    "options": [
+      "A. Hyphae",
+      "B. Mycelium",
+      "C. Flocs",
+      "D. Flakes"
+    ],
+    "option_images": [],
+    "answer": "C. Flocs",
+    "solution": "In secondary treatment of sewage treatment plant (STP), the masses of bacteria associated with fungal filaments are called flocs. Hyphae and mycelium are fungal components. Flakes are patches or broken away pieces.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 36,
+    "chapter": "Enhancement of Food Production",
+    "question": "Removal of suspended, floating, coarse solid particles in sewage treatment is called____",
+    "question_latex": "Removal of suspended, floating, coarse solid particles in sewage treatment is called____",
+    "question_images": [],
+    "options": [
+      "A. Tertiary treatment",
+      "B. Physical treatment",
+      "C. Biological treatment",
+      "D. Preliminary treatment"
+    ],
+    "option_images": [],
+    "answer": "D. Preliminary treatment",
+    "solution": "Removal of suspended, floating, coarse solid particles in sewage treatment is called Preliminary treatment which includes Screening and Grit Chamber.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 37,
+    "chapter": "Enhancement of Food Production",
+    "question": "The CO2 content in biogas ranges from______",
+    "question_latex": "The $CO_2$ content in biogas ranges from______",
+    "question_images": [],
+    "options": [
+      "A. 10-14%",
+      "B. 15-45%",
+      "C. 50-60%",
+      "D. 70-80%"
+    ],
+    "option_images": [],
+    "answer": "B. 15-45%",
+    "solution": "The $CO_2$ content in biogas ranges from 15-45%. Biogas mainly consists of methane (55-70%) and carbon dioxide (15-45%).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 38,
+    "chapter": "Enhancement of Food Production",
+    "question": "Central Silk Research and Training Institute (CSRTI) is located at:",
+    "question_latex": "Central Silk Research and Training Institute (CSRTI) is located at:",
+    "question_images": [],
+    "options": [
+      "A. Assam",
+      "B. Bahrampur",
+      "C. Tarai region",
+      "D. Shanthivials (Mysore)"
+    ],
+    "option_images": [],
+    "answer": "D. Shanthivials (Mysore)",
+    "solution": "The Central Silk Research and Training Institute (CSRTI) is located at Shanthivials, Mysore.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 39,
+    "chapter": "Enhancement of Food Production",
+    "question": "Silkworm spins its cocoon:",
+    "question_latex": "Silkworm spins its cocoon:",
+    "question_images": [],
+    "options": [
+      "A. From inside to outside",
+      "B. Outside to inside",
+      "C. Random",
+      "D. Inside"
+    ],
+    "option_images": [],
+    "answer": "B. Outside to inside",
+    "solution": "The silkworm spins its cocoon from outside to inside, creating continuous silk filaments around itself.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 40,
+    "chapter": "Enhancement of Food Production",
+    "question": "Murrah is a breed of:",
+    "question_latex": "Murrah is a breed of:",
+    "question_images": [],
+    "options": [
+      "A. Cow",
+      "B. Sheep",
+      "C. Buffaloes",
+      "D. Goat"
+    ],
+    "option_images": [],
+    "answer": "C. Buffaloes",
+    "solution": "Murrah is a well-known high milk-yielding breed of buffalo found mainly in Haryana, Punjab and Delhi.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 41,
+    "chapter": "Enhancement of Food Production",
+    "question": "Identify the correct statement for suspension culture.",
+    "question_latex": "Identify the correct statement for suspension culture.",
+    "question_images": [],
+    "options": [
+      "A. The callus transferred in liquid nutrient medium remains intact even after agitation.",
+      "B. Agitation of the medium is not necessary.",
+      "C. This does not need sub-culturing at all.",
+      "D. This culture grows much faster than callus culture."
+    ],
+    "option_images": [],
+    "answer": "D. This culture grows much faster than callus culture.",
+    "solution": "Suspension culture grows much faster than callus culture. Suspension culture consists of single cells or small groups of cells. Agitation is necessary to keep cells in suspension.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 42,
+    "chapter": "Enhancement of Food Production",
+    "question": "Coccidiosis is a disease related to________",
+    "question_latex": "Coccidiosis is a disease related to________",
+    "question_images": [],
+    "options": [
+      "A. Apiculture",
+      "B. Poultry",
+      "C. Sericulture",
+      "D. Fish hatchery"
+    ],
+    "option_images": [],
+    "answer": "B. Poultry",
+    "solution": "Coccidiosis is a poultry intestinal protozoan disease. It spreads from one animal to another by infected faecal matter or ingestion of infected tissue.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 43,
+    "chapter": "Enhancement of Food Production",
+    "question": "Silk glands of silkworm are modified:",
+    "question_latex": "Silk glands of silkworm are modified:",
+    "question_images": [],
+    "options": [
+      "A. Crop glands",
+      "B. Salivary glands",
+      "C. Gastric glands",
+      "D. Intestinal glands"
+    ],
+    "option_images": [],
+    "answer": "B. Salivary glands",
+    "solution": "The silk glands of silkworm are modified salivary glands that secrete liquid silk protein which hardens on exposure to air.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 44,
+    "chapter": "Enhancement of Food Production",
+    "question": "Maximum contribution to the total milk production of our country comes from:",
+    "question_latex": "Maximum contribution to the total milk production of our country comes from:",
+    "question_images": [],
+    "options": [
+      "A. Cows",
+      "B. Buffaloes",
+      "C. Camels",
+      "D. Goat"
+    ],
+    "option_images": [],
+    "answer": "B. Buffaloes",
+    "solution": "In India, buffaloes contribute maximum to the total milk production of the country, producing high-fat milk.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 45,
+    "chapter": "Enhancement of Food Production",
+    "question": "New varieties of plants can be produced by:",
+    "question_latex": "New varieties of plants can be produced by:",
+    "question_images": [],
+    "options": [
+      "A. Selection and hybridization",
+      "B. Subjecting them to very heavy dose of radiation",
+      "C. Subjecting them to doses of radiation and selection",
+      "D. Subjecting them to continuous radiation"
+    ],
+    "option_images": [],
+    "answer": "A. Selection and hybridization",
+    "solution": "New varieties of plants can be produced by selection and hybridization. These are the primary methods used in conventional plant breeding.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 46,
+    "chapter": "Enhancement of Food Production",
+    "question": "Main composition of lac is:",
+    "question_latex": "Main composition of lac is:",
+    "question_images": [],
+    "options": [
+      "A. Glue, pigment and sugar",
+      "B. Wax, pigment and glue",
+      "C. Resin, pigment, wax and glue",
+      "D. Resin, sugar and wax"
+    ],
+    "option_images": [],
+    "answer": "C. Resin, pigment, wax and glue",
+    "solution": "Lac is mainly composed of resin (70-80%), pigment (10%), wax (5-6%), and glue or albuminous matter. It is secreted by the lac insect Laccifer lacca.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 47,
+    "chapter": "Enhancement of Food Production",
+    "question": "India contributes_____ % of total lac production in the world.",
+    "question_latex": "India contributes_____ \\% of total lac production in the world.",
+    "question_images": [],
+    "options": [
+      "A. 85%",
+      "B. 95%",
+      "C. 75%",
+      "D. 60%"
+    ],
+    "option_images": [],
+    "answer": "A. 85%",
+    "solution": "Lac is an insect product obtained from the abdominal gland of lac insect Laccifer lacca found in tropical and sub-tropical regions on palash, ber and kusum trees. 85% of total lac production takes place in India.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 48,
+    "chapter": "Enhancement of Food Production",
+    "question": "Haploid plants are preferred over diploid plants for study of mutation because in haploids:",
+    "question_latex": "Haploid plants are preferred over diploid plants for study of mutation because in haploids:",
+    "question_images": [],
+    "options": [
+      "A. Culturing is easy",
+      "B. Only dominant mutation expresses",
+      "C. Only recessive mutation expresses",
+      "D. All mutations express"
+    ],
+    "option_images": [],
+    "answer": "D. All mutations express",
+    "solution": "In haploid plants, all mutations (both dominant and recessive) express themselves phenotypically since there is only one copy of each gene.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 49,
+    "chapter": "Enhancement of Food Production",
+    "question": "Androgenic haploids were produced from anther culture for the first time by:",
+    "question_latex": "Androgenic haploids were produced from anther culture for the first time by:",
+    "question_images": [],
+    "options": [
+      "A. Bateson",
+      "B. Ninan",
+      "C. Auerbach and Stadler",
+      "D. Guha and Maheshwari"
+    ],
+    "option_images": [],
+    "answer": "D. Guha and Maheshwari",
+    "solution": "Androgenic haploids were produced from anther culture for the first time by Guha and Maheshwari in 1964 using Datura innoxia.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 50,
+    "chapter": "Enhancement of Food Production",
+    "question": "Find the CORRECT match from the table with Column A (organism), Column B (genus), Column C (product/category): i. Mackeral - Rastrelliger - Freshwater fish, ii. Honey bee - Apis - Wax, iii. Mirgala - Tacchardia - Marine waterfish, iv. Silkworm - Bombyx - Mulberry silk",
+    "question_latex": "Find the CORRECT match from the table.",
+    "question_images": [
+      "50_qu_1.png"
+    ],
+    "options": [
+      "A. ii and iv",
+      "B. i and ii",
+      "C. iv only",
+      "D. i and iii"
+    ],
+    "option_images": [],
+    "answer": "A. ii and iv",
+    "solution": "Honey bee - Apis - Wax (ii) is correct. Silkworm - Bombyx - Mulberry silk (iv) is correct. Mackeral (Rastrelliger) is a marine fish, not freshwater fish. Mirgala is a freshwater fish, not marine.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 51,
+    "chapter": "Enhancement of Food Production",
+    "question": "The amount of protein per 100 g (without water, approximately 2 eggs) is:",
+    "question_latex": "The amount of protein per 100 g (without water, approximately 2 eggs) is:",
+    "question_images": [],
+    "options": [
+      "A. 11.9",
+      "B. 20.1",
+      "C. 16",
+      "D. 45"
+    ],
+    "option_images": [],
+    "answer": "B. 20.1",
+    "solution": "The amount of protein in eggs per 100 g (without water, approximately 2 eggs) is 20.1 g.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 52,
+    "chapter": "Enhancement of Food Production",
+    "question": "Lac is a:",
+    "question_latex": "Lac is a:",
+    "question_images": [],
+    "options": [
+      "A. Plant product",
+      "B. Mineral product",
+      "C. Synthetic product",
+      "D. Animal product"
+    ],
+    "option_images": [],
+    "answer": "D. Animal product",
+    "solution": "Lac is an animal product secreted by the lac insect Laccifer lacca (also called Kerria lacca).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 53,
+    "chapter": "Enhancement of Food Production",
+    "question": "In plant breeding, biofortification is a method_______",
+    "question_latex": "In plant breeding, biofortification is a method_______",
+    "question_images": [],
+    "options": [
+      "A. To increase the nutritional value of crop plants.",
+      "B. To make the crop plants pest resistance.",
+      "C. To improve the yield of the crop plant.",
+      "D. To make the crop plants disease resistant."
+    ],
+    "option_images": [],
+    "answer": "A. To increase the nutritional value of crop plants.",
+    "solution": "Biofortification is a method in plant breeding to increase the nutritional value of food crops. This includes biofortification for vitamins, minerals, proteins, and healthy fats.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 54,
+    "chapter": "Enhancement of Food Production",
+    "question": "Following are the fungal pathogens to control aphids, mealy bugs and mites EXCEPT ........",
+    "question_latex": "Following are the fungal pathogens to control aphids, mealy bugs and mites EXCEPT ........",
+    "question_images": [],
+    "options": [
+      "A. Zoophthora radicans",
+      "B. Nosema locustae",
+      "C. Beauveria bassiana",
+      "D. Entomophthora pallidaroseum"
+    ],
+    "option_images": [],
+    "answer": "B. Nosema locustae",
+    "solution": "Nosema locustae is a protozoan, not a fungal pathogen. It is used to control grasshoppers. Zoophthora radicans, Beauveria bassiana, and Entomophthora pallidaroseum are all fungal pathogens used to control aphids, mealy bugs and mites.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 55,
+    "chapter": "Enhancement of Food Production",
+    "question": "Given below are the steps involved in plant breeding program. Identify correct sequence of these steps. (I) Collection of variability, (II) Hybridization, (III) Evaluation and selection of parents, (IV) Testing, release commercialization of new cultivars, (V) Selection & testing of superior recombinants.",
+    "question_latex": "Given below are the steps involved in plant breeding program. Identify correct sequence of these steps. (I) Collection of variability, (II) Hybridization, (III) Evaluation and selection of parents, (IV) Testing, release commercialization of new cultivars, (V) Selection & testing of superior recombinants.",
+    "question_images": [],
+    "options": [
+      "A. (V)→(I)→(II)→(III)→(IV)",
+      "B. (I)→(III)→(II)→(V)→(IV)",
+      "C. (I)→(II)→(III)→(IV)→(V)",
+      "D. (I)→(II)→(III)→(V)→(IV)"
+    ],
+    "option_images": [],
+    "answer": "B. (I)→(III)→(II)→(V)→(IV)",
+    "solution": "Correct sequence: Collection of variability → Evaluation and selection of parents → Hybridization → Selection and testing of superior recombinants → Testing, release commercialization of new cultivars.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 56,
+    "chapter": "Enhancement of Food Production",
+    "question": "During secondary treatment of sewage, the masses of bacteria held together by fungal hyphae to form mesh like structures called __",
+    "question_latex": "During secondary treatment of sewage, the masses of bacteria held together by fungal hyphae to form mesh like structures called __",
+    "question_images": [],
+    "options": [
+      "A. anaerobic biomass",
+      "B. primary sludge",
+      "C. flocks",
+      "D. activated sludge"
+    ],
+    "option_images": [],
+    "answer": "C. flocks",
+    "solution": "During secondary treatment of sewage, the masses of bacteria held together by fungal hyphae form mesh like structures called flocks.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 57,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which of the following has been recently used for increasing productivity of super milk cows:",
+    "question_latex": "Which of the following has been recently used for increasing productivity of super milk cows:",
+    "question_images": [],
+    "options": [
+      "A. Artificial insemination by a pedigree bull only",
+      "B. Superovulation of a high production cow only",
+      "C. Embryo transplantation only",
+      "D. A combination of superovulation, artificial insemination and embryo transplantation into a carrier cow (surrogate mother)"
+    ],
+    "option_images": [],
+    "answer": "D. A combination of superovulation, artificial insemination and embryo transplantation into a carrier cow (surrogate mother)",
+    "solution": "A combination of superovulation, artificial insemination and embryo transplantation into a carrier cow (surrogate mother) is used for increasing the productivity of super milk cows.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 58,
+    "chapter": "Enhancement of Food Production",
+    "question": "The draught breeds of cattle include:",
+    "question_latex": "The draught breeds of cattle include:",
+    "question_images": [],
+    "options": [
+      "A. Malvi, Nageri and Hallikar",
+      "B. Malvi, Nageri and Ongole",
+      "C. Nageri, Ongole and Haryana",
+      "D. All the above"
+    ],
+    "option_images": [],
+    "answer": "A. Malvi, Nageri and Hallikar",
+    "solution": "Malvi, Nageri and Hallikar are draught breeds of cattle. Ongole and Haryana are dual purpose breeds.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 59,
+    "chapter": "Enhancement of Food Production",
+    "question": "Given below are two statements: Statement-I: Diazotrophs are the nitrogen fixing microorganisms, which are exclusively symbiotic. Statement-II: Organic fertilizers include farm yard manure, compost and green manure.",
+    "question_latex": "Given below are two statements: Statement-I: Diazotrophs are the nitrogen fixing microorganisms, which are exclusively symbiotic. Statement-II: Organic fertilizers include farm yard manure, compost and green manure.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect and statement II is correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is correct and statement II is incorrect.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "A. Statement I is incorrect and statement II is correct.",
+    "solution": "Nitrogen fixing microorganisms, also called diazotrophs, are of two types: symbiotic and free living. Hence Statement I is incorrect. Organic fertilizers do include farm yard manure, compost and green manure. Hence Statement II is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 60,
+    "chapter": "Enhancement of Food Production",
+    "question": "The boll worms attack______",
+    "question_latex": "The boll worms attack______",
+    "question_images": [],
+    "options": [
+      "A. Okra",
+      "B. Maize",
+      "C. Rice",
+      "D. Cotton"
+    ],
+    "option_images": [],
+    "answer": "D. Cotton",
+    "solution": "The bollworms attack cotton. Indore 2 is the variety of cotton resistant to bollworm. Okra is generally affected by fruit and shoot borer (Pusa Sawani and Pusa E-4). Semi dwarf varieties of rice and water stress resistant varieties of maize have been produced.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 61,
+    "chapter": "Enhancement of Food Production",
+    "question": "Given below are two statements with respect to single cell protein. Statement I: Single cell protein refers to the crude, or refined edible protein, extracted from pure microbial cultures or from dead or dried cell biomass. Statement II: SCP can be readily used as fodder for achieving fattening of calves, pigs, in breeding fish and in poultry.",
+    "question_latex": "Given below are two statements with respect to single cell protein. Statement I: Single cell protein refers to the crude, or refined edible protein, extracted from pure microbial cultures or from dead or dried cell biomass. Statement II: SCP can be readily used as fodder for achieving fattening of calves, pigs, in breeding fish and in poultry.",
+    "question_images": [],
+    "options": [
+      "A. Statement I is incorrect but statement II is correct.",
+      "B. Both statement I and statement II are incorrect.",
+      "C. Statement I is correct but statement II is incorrect.",
+      "D. Both statement I and statement II are correct."
+    ],
+    "option_images": [],
+    "answer": "D. Both statement I and statement II are correct.",
+    "solution": "Both the statements are correct for Single Cell Proteins (SCP). SCP is extracted from pure microbial cultures and can be used as animal fodder.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 62,
+    "chapter": "Enhancement of Food Production",
+    "question": "The world's highly prized wool yielding Pashmina breed is:",
+    "question_latex": "The world's highly prized wool yielding Pashmina breed is:",
+    "question_images": [],
+    "options": [
+      "A. Sheep",
+      "B. Goat",
+      "C. Goat-sheep cross",
+      "D. Kashmir sheep-Afghan sheep cross"
+    ],
+    "option_images": [],
+    "answer": "B. Goat",
+    "solution": "Pashmina is a highly prized wool yielding breed of goat (Capra hircus). The Pashmina wool (cashmere) is known for its extreme softness and warmth.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 63,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match column I with column II and select the correct options. (a) spinach - (i) High protein content, (b) Bitter gourd - (ii) More Vit A and Minerals, (c) Maize - (iii) More Vit C, (d) Wheat Atlas-66 - (iv) Twice the amount of lysine and tryptophan",
+    "question_latex": "Match column I with column II and select the correct options.",
+    "question_images": [
+      "63_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "B. (a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "C. (a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
+      "D. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+    "solution": "Spinach - More Vit A and Minerals (ii), Bitter gourd - More Vit C (iii), Maize - Twice the amount of lysine and tryptophan (iv), Wheat Atlas-66 - High protein content (i).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 64,
+    "chapter": "Enhancement of Food Production",
+    "question": "Bactrian camel is characterised by:",
+    "question_latex": "Bactrian camel is characterised by:",
+    "question_images": [],
+    "options": [
+      "A. Two humps and long neck",
+      "B. Two humps and long limbs",
+      "C. Two humps and thick coat",
+      "D. Single hump and thick coat"
+    ],
+    "option_images": [],
+    "answer": "C. Two humps and thick coat",
+    "solution": "The Bactrian camel (Camelus bactrianus) is characterised by two humps and a thick coat of fur to survive cold climates.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 65,
+    "chapter": "Enhancement of Food Production",
+    "question": "Nosema locustae are the ........ which control over the grasshoppers, caterpillars and crickets.",
+    "question_latex": "Nosema locustae are the ........ which control over the grasshoppers, caterpillars and crickets.",
+    "question_images": [],
+    "options": [
+      "A. viruses",
+      "B. bacteria",
+      "C. fungi",
+      "D. protozoans"
+    ],
+    "option_images": [],
+    "answer": "D. protozoans",
+    "solution": "Nosema locustae is a protozoan (microsporidian) used as a biological control agent to control grasshoppers, caterpillars and crickets.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 66,
+    "chapter": "Enhancement of Food Production",
+    "question": "Tyrea moth is used as a herbicide, because it controls the growth of",
+    "question_latex": "Tyrea moth is used as a herbicide, because it controls the growth of",
+    "question_images": [],
+    "options": [
+      "A. Senecio jacobeae",
+      "B. Rauwolfia vomitoria",
+      "C. Eichhornia spp",
+      "D. Mirabilis jalapa"
+    ],
+    "option_images": [],
+    "answer": "A. Senecio jacobeae",
+    "solution": "Tyrea moth controls the weed Senecio jacobeae. Many dicot herbs that grow in the field of cereals as weeds can be killed by certain microbes and insects.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 67,
+    "chapter": "Enhancement of Food Production",
+    "question": "Best egg layer variety among the following is______",
+    "question_latex": "Best egg layer variety among the following is______",
+    "question_images": [],
+    "options": [
+      "A. Kadaknath",
+      "B. Plymouth Rock",
+      "C. Leghorn",
+      "D. Aseel"
+    ],
+    "option_images": [],
+    "answer": "C. Leghorn",
+    "solution": "Leghorn is the best egg laying variety. Kadaknath and Aseel are indigenous varieties. Plymouth Rock is an American breed of domestic chicken.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 68,
+    "chapter": "Enhancement of Food Production",
+    "question": "Mycorrhiza forms symbiotic association with_______",
+    "question_latex": "Mycorrhiza forms symbiotic association with_______",
+    "question_images": [],
+    "options": [
+      "A. Coralloid roots of Cycas",
+      "B. Herbaceous leguminous plants",
+      "C. Leaves of Azolla",
+      "D. Roots of higher plants"
+    ],
+    "option_images": [],
+    "answer": "D. Roots of higher plants",
+    "solution": "Fungi show symbiotic association with the roots of higher plants termed mycorrhizae, which increase the rate of absorption for roots. They exist either as endomycorrhizae or ectomycorrhizae. Coralloid roots are a symbiotic association between Cycas roots and Anabaena, which helps in $N_2$ fixation.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 69,
+    "chapter": "Enhancement of Food Production",
+    "question": "Passive, non-locomotory and non-feeding stage in life history of Silk moth is:",
+    "question_latex": "Passive, non-locomotory and non-feeding stage in life history of Silk moth is:",
+    "question_images": [],
+    "options": [
+      "A. Caterpillar",
+      "B. Imago",
+      "C. Nymph",
+      "D. Pupa"
+    ],
+    "option_images": [],
+    "answer": "D. Pupa",
+    "solution": "The pupa is the passive, non-locomotory, and non-feeding stage in the life history of silk moth. The larva (caterpillar) spins the cocoon around itself and then undergoes metamorphosis into a pupa.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 70,
+    "chapter": "Enhancement of Food Production",
+    "question": "In the process of sewage treatment, the activated sludge is digested by____",
+    "question_latex": "In the process of sewage treatment, the activated sludge is digested by____",
+    "question_images": [],
+    "options": [
+      "A. Anaerobic bacteria",
+      "B. Fungi",
+      "C. Viruses",
+      "D. Aerobic bacteria"
+    ],
+    "option_images": [],
+    "answer": "A. Anaerobic bacteria",
+    "solution": "In the process of sewage treatment, the activated sludge is digested by anaerobic bacteria in anaerobic sludge digesters, producing biogas (methane + $CO_2$).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 71,
+    "chapter": "Enhancement of Food Production",
+    "question": "In poultry, one of the following is best layer.",
+    "question_latex": "In poultry, one of the following is best layer.",
+    "question_images": [],
+    "options": [
+      "A. Kadaknath",
+      "B. Plymouth Rock",
+      "C. Rhode Island Red",
+      "D. Leghorn"
+    ],
+    "option_images": [],
+    "answer": "D. Leghorn",
+    "solution": "Leghorn is the best egg laying breed in poultry. It is an exotic breed known for high egg production.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 72,
+    "chapter": "Enhancement of Food Production",
+    "question": "Honey bees are source of the following EXCEPT",
+    "question_latex": "Honey bees are source of the following EXCEPT",
+    "question_images": [],
+    "options": [
+      "A. Bee venom",
+      "B. Honey and wax",
+      "C. Isinglass",
+      "D. Royal jelly"
+    ],
+    "option_images": [],
+    "answer": "C. Isinglass",
+    "solution": "Isinglass is obtained from dried swim bladder of bony fishes. It is a form of collagen used for clarification of beer or wine. Honey bees are source of honey, wax, bee venom, royal jelly, propolis and bee pollen.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 73,
+    "chapter": "Enhancement of Food Production",
+    "question": "Breeding crops for improved nutritional quality is referred to as",
+    "question_latex": "Breeding crops for improved nutritional quality is referred to as",
+    "question_images": [],
+    "options": [
+      "A. Biomagnification",
+      "B. Biome",
+      "C. Biofortification",
+      "D. Biomining"
+    ],
+    "option_images": [],
+    "answer": "C. Biofortification",
+    "solution": "Biofortification is the process of breeding crops for improved nutritional quality by increasing the content of essential vitamins, minerals, proteins, or healthy fats.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 74,
+    "chapter": "Enhancement of Food Production",
+    "question": "Ferritin, an iron protein, is isolated from A and B is transferred to rice for increasing its iron content. Options: (A) Sugar beet - Arabidopsis, (B) Soya bean - Phaseolus, (C) Arabidopsis - Tomato, (D) Canola - Tobacco",
+    "question_latex": "Ferritin, an iron protein, is isolated from $A$ and $B$ is transferred to rice for increasing its iron content.",
+    "question_images": [
+      "74_qu_1.png"
+    ],
+    "options": [
+      "A. Sugar beet - Arabidopsis",
+      "B. Soya bean - Phaseolus",
+      "C. Arabidopsis - Tomato",
+      "D. Canola - Tobacco"
+    ],
+    "option_images": [],
+    "answer": "B. Soya bean - Phaseolus",
+    "solution": "Ferritin is found in many animals, plants and bacteria. The genes for ferritin protein isolated from soybean and Phaseolus have been transferred to rice as an example of biofortification transgenic crops that will produce food rich in iron.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 75,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following is incorrect regarding cross-breeding?",
+    "question_latex": "Which one of the following is incorrect regarding cross-breeding?",
+    "question_images": [],
+    "options": [
+      "A. New animal breeds of desirable characters are developed.",
+      "B. It increases homozygosity.",
+      "C. Hisardale is a product of cross breeding between Bikaneri ewe and Marino rams in Punjab.",
+      "D. It involves breeding of superior male of one breed with superior female of another breed."
+    ],
+    "option_images": [],
+    "answer": "B. It increases homozygosity.",
+    "solution": "Cross-breeding helps to increase heterozygosity (not homozygosity). Inbreeding increases homozygosity while cross-breeding increases heterozygosity.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 76,
+    "chapter": "Enhancement of Food Production",
+    "question": "The newly selected plants obtained by hybridization are grown in natural fields for at least _____ successive seasons.",
+    "question_latex": "The newly selected plants obtained by hybridization are grown in natural fields for at least _____ successive seasons.",
+    "question_images": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 4",
+      "D. 3"
+    ],
+    "option_images": [],
+    "answer": "D. 3",
+    "solution": "Newly selected plants produced by hybridization are grown in natural fields for at least 3 successive generations to check the characters and their inheritance and to maintain purity of characters.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 77,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following is a common marine fish?",
+    "question_latex": "Which one of the following is a common marine fish?",
+    "question_images": [],
+    "options": [
+      "A. Stromateus",
+      "B. Labeo rohita",
+      "C. Catla",
+      "D. Cirrhkta mrigala"
+    ],
+    "option_images": [],
+    "answer": "A. Stromateus",
+    "solution": "The common marine fishes are Harpadon (Bombay duck), Sardinella (sardine), Rastrelliger (mackerel) and Stromateus (pomphret). Labeo rohita, Catla and Cirrhina mrigala are freshwater fishes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 78,
+    "chapter": "Enhancement of Food Production",
+    "question": "To increase oil content in sunflower and rapeseeds ____ genes are used.",
+    "question_latex": "To increase oil content in sunflower and rapeseeds ____ genes are used.",
+    "question_images": [],
+    "options": [
+      "A. cys E and cys M",
+      "B. Arabidopsis",
+      "C. myc and ras",
+      "D. ery"
+    ],
+    "option_images": [],
+    "answer": "B. Arabidopsis",
+    "solution": "To increase oil content in soybean, oil palm, sunflower and rape seeds, Arabidopsis genes are used and it is an example of biofortification.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 79,
+    "chapter": "Enhancement of Food Production",
+    "question": "Blue green algae are used as bio fertilizers because they",
+    "question_latex": "Blue green algae are used as bio fertilizers because they",
+    "question_images": [],
+    "options": [
+      "A. Can fix atmospheric nitrogen.",
+      "B. Are autotrophs.",
+      "C. Accelerate water and nutrient uptake.",
+      "D. Are free living and filamentous."
+    ],
+    "option_images": [],
+    "answer": "A. Can fix atmospheric nitrogen.",
+    "solution": "Blue green algae (BGA) are used as biofertilizer as they contain special cells called heterocysts with the enzyme nitrogenase which helps in fixing atmospheric nitrogen.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 80,
+    "chapter": "Enhancement of Food Production",
+    "question": "Using biotechnological application of Bacillus thuringiensis (Bt) in agriculture ___ has been designed.",
+    "question_latex": "Using biotechnological application of Bacillus thuringiensis (Bt) in agriculture ___ has been designed.",
+    "question_images": [],
+    "options": [
+      "A. Biofortified plants",
+      "B. Bio-insecticidal plants",
+      "C. Bioherbicides",
+      "D. Biofertilizers"
+    ],
+    "option_images": [],
+    "answer": "B. Bio-insecticidal plants",
+    "solution": "Bio-insecticidal plants are designed using biotechnological applications of Bacillus thuringiensis (Bt) which produces cry proteins toxic to specific insects.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 81,
+    "chapter": "Enhancement of Food Production",
+    "question": "Given below are the two statements with respect to Cheese. Statement I: Milk is coagulated with citric acid bacteria and the curd formed is filtered to separate whey. Statement II: The solid mass is then ripened with growth of mold that develops characteristic texture, flavor and taste.",
+    "question_latex": "Given below are the two statements with respect to Cheese. Statement I: Milk is coagulated with citric acid bacteria and the curd formed is filtered to separate whey. Statement II: The solid mass is then ripened with growth of mold that develops characteristic texture, flavor and taste.",
+    "question_images": [],
+    "options": [
+      "A. Both statement I and statement II are incorrect.",
+      "B. Statement I is incorrect but statement II is correct.",
+      "C. Both statements I and statement II are correct.",
+      "D. Statement I is correct but statement II is incorrect."
+    ],
+    "option_images": [],
+    "answer": "B. Statement I is incorrect but statement II is correct.",
+    "solution": "Milk is coagulated with lactic acid bacteria (not citric acid bacteria) and the curd formed is filtered to separate whey. The solid mass is then ripened with growth of mold that develops characteristic texture, flavor and taste. So Statement I is incorrect and Statement II is correct.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 82,
+    "chapter": "Enhancement of Food Production",
+    "question": "Aquaculture includes:",
+    "question_latex": "Aquaculture includes:",
+    "question_images": [],
+    "options": [
+      "A. Freshwater fishing",
+      "B. Brackish water fishes",
+      "C. Marine fishery",
+      "D. All of the above"
+    ],
+    "option_images": [],
+    "answer": "D. All of the above",
+    "solution": "Aquaculture includes freshwater fishing, brackish water fishes, and marine fishery. It encompasses all forms of cultivation of aquatic organisms.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 83,
+    "chapter": "Enhancement of Food Production",
+    "question": "The length of silk fibre which surrounds a cocoon is about:",
+    "question_latex": "The length of silk fibre which surrounds a cocoon is about:",
+    "question_images": [],
+    "options": [
+      "A. 800 to 1200 yards",
+      "B. 8000 to 12000 yards",
+      "C. 800 to 1200 feet",
+      "D. 8000 to 12000 metres"
+    ],
+    "option_images": [],
+    "answer": "A. 800 to 1200 yards",
+    "solution": "The length of silk fibre which surrounds a cocoon is about 800 to 1200 yards (approximately 700-1100 metres).",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 84,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match causative agent in Column-I with the disease of poultry in Column-II. Select the CORRECT option. (a) Bacteria, (b) Fungus, (c) Virus, (d) Protozoan vs (i) Coccidiosis, (ii) Ranikhet, (iii) Pullorum, (iv) Favus",
+    "question_latex": "Match causative agent in Column-I with the disease of poultry in Column-II. Select the CORRECT option.",
+    "question_images": [
+      "84_qu_1.png"
+    ],
+    "options": [
+      "A. (a)-(i); (b)-(iii); (c)-(ii); (d)-(iv)",
+      "B. (a)-(ii); (b)-(iii); (c)-(iv); (d)-(i)",
+      "C. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+      "D. (a)-(ii); (b)-(iv); (c)-(iii); (d)-(i)"
+    ],
+    "option_images": [],
+    "answer": "C. (a)-(iii); (b)-(iv); (c)-(ii); (d)-(i)",
+    "solution": "Pullorum is a bacterial disease in poultry (a-iii), Favus is an infectious fungal disease in poultry (b-iv), Ranikhet is a viral disease (c-ii), and Coccidiosis is a protozoan disease in poultry birds (d-i).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 85,
+    "chapter": "Enhancement of Food Production",
+    "question": "Himgiri developed by hybridisation and selection for disease resistance against rust pathogens is a variety of:",
+    "question_latex": "Himgiri developed by hybridisation and selection for disease resistance against rust pathogens is a variety of:",
+    "question_images": [],
+    "options": [
+      "A. Chilli",
+      "B. Maize",
+      "C. Sugarcane",
+      "D. Wheat"
+    ],
+    "option_images": [],
+    "answer": "D. Wheat",
+    "solution": "Himgiri is a variety of wheat developed by hybridisation and selection for disease resistance against rust pathogens (leaf and stripe rust).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 86,
+    "chapter": "Enhancement of Food Production",
+    "question": "Triticum aestivum is:",
+    "question_latex": "Triticum aestivum is:",
+    "question_images": [],
+    "options": [
+      "A. Diploid",
+      "B. Triploid",
+      "C. Haploid",
+      "D. Hexaploid"
+    ],
+    "option_images": [],
+    "answer": "D. Hexaploid",
+    "solution": "Triticum aestivum (common bread wheat) is hexaploid (2n = 6x = 42). It arose from hybridisation of three different diploid grass species.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 87,
+    "chapter": "Enhancement of Food Production",
+    "question": "In tissue culture, single germinating pollen grain will form a plant",
+    "question_latex": "In tissue culture, single germinating pollen grain will form a plant",
+    "question_images": [],
+    "options": [
+      "A. Diploid",
+      "B. Haploid",
+      "C. Triploid",
+      "D. Tetraploid"
+    ],
+    "option_images": [],
+    "answer": "B. Haploid",
+    "solution": "In tissue culture (anther culture), a single germinating pollen grain will form a haploid plant since pollen grains contain the haploid (n) number of chromosomes.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 88,
+    "chapter": "Enhancement of Food Production",
+    "question": "High levels of Aspartic acid, low nitrogen and sugar content in maize plants prevent the attack by_____",
+    "question_latex": "High levels of Aspartic acid, low nitrogen and sugar content in maize plants prevent the attack by_____",
+    "question_images": [],
+    "options": [
+      "A. Aphids",
+      "B. Jassids",
+      "C. Boll worms",
+      "D. Stem borers"
+    ],
+    "option_images": [],
+    "answer": "D. Stem borers",
+    "solution": "High levels of aspartic acid, low nitrogen and sugar content in maize plants prevent the attack by stem borers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 89,
+    "chapter": "Enhancement of Food Production",
+    "question": "The initial step in preparation of beer is",
+    "question_latex": "The initial step in preparation of beer is",
+    "question_images": [],
+    "options": [
+      "A. Malting",
+      "B. Carboxylation",
+      "C. Clarification",
+      "D. Distillation"
+    ],
+    "option_images": [],
+    "answer": "A. Malting",
+    "solution": "The initial step in preparation of beer is malting, in which barley seeds are germinated and then dried. This activates amylase enzymes that convert starch into fermentable sugars.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 90,
+    "chapter": "Enhancement of Food Production",
+    "question": "What are the sediments in the settling tanks of tertiary treatment in STP called?",
+    "question_latex": "What are the sediments in the settling tanks of tertiary treatment in STP called?",
+    "question_images": [],
+    "options": [
+      "A. Contaminants",
+      "B. Sewage",
+      "C. Activated Sludge",
+      "D. Effluents"
+    ],
+    "option_images": [],
+    "answer": "C. Activated Sludge",
+    "solution": "Sediments in the settling tanks of tertiary treatment in STP are called activated sludge containing bacteria flocs. A small part of this is passed back to the aeration tank called anaerobic sludge digesters.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 91,
+    "chapter": "Enhancement of Food Production",
+    "question": "Bacillus thuringiensis kills the caterpillars by releasing ____ in their guts.",
+    "question_latex": "Bacillus thuringiensis kills the caterpillars by releasing ____ in their guts.",
+    "question_images": [],
+    "options": [
+      "A. gliovirin",
+      "B. viridian",
+      "C. cry protein",
+      "D. gliotoxin"
+    ],
+    "option_images": [],
+    "answer": "C. cry protein",
+    "solution": "In the gut of the larvae, the toxin (cry protein) is released from Bacillus thuringiensis and the larvae get killed eventually. The cry proteins are crystalline proteinaceous insecticidal delta-endotoxins.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 92,
+    "chapter": "Enhancement of Food Production",
+    "question": "Dr Alexander Fleming discovered antibiotics when he was working with the bacterium____",
+    "question_latex": "Dr Alexander Fleming discovered antibiotics when he was working with the bacterium____",
+    "question_images": [],
+    "options": [
+      "A. Staphylococcus",
+      "B. Pseudomonas",
+      "C. Xanthomonas",
+      "D. Agrobacterium"
+    ],
+    "option_images": [],
+    "answer": "A. Staphylococcus",
+    "solution": "Dr Alexander Fleming discovered penicillin when he was working with Staphylococcus and noticed that Penicillium notatum inhibited its growth.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 93,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of following is our indigenous breed of chicken?",
+    "question_latex": "Which one of following is our indigenous breed of chicken?",
+    "question_images": [],
+    "options": [
+      "A. Plymouth Rock",
+      "B. White Leghorn",
+      "C. Aseel",
+      "D. Rhode Island Red"
+    ],
+    "option_images": [],
+    "answer": "C. Aseel",
+    "solution": "Aseel is an indigenous breed of chicken from India known for its strength and fighting ability. Plymouth Rock, White Leghorn, and Rhode Island Red are exotic (foreign) breeds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 94,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following mollusca groups is primarily used in the pearl formation?",
+    "question_latex": "Which one of the following mollusca groups is primarily used in the pearl formation?",
+    "question_images": [],
+    "options": [
+      "A. Monoplacophorans",
+      "B. Cephalopods",
+      "C. Gastropods",
+      "D. Pelecypods"
+    ],
+    "option_images": [],
+    "answer": "D. Pelecypods",
+    "solution": "Pelecypods (bivalves such as oysters - Pinctada) are primarily used in pearl formation. Pearl oysters belong to the class Pelecypoda (Bivalvia).",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 95,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which among the following is the real product of honey bee?",
+    "question_latex": "Which among the following is the real product of honey bee?",
+    "question_images": [],
+    "options": [
+      "A. Pollen",
+      "B. Bee wax",
+      "C. Honey",
+      "D. Propolis"
+    ],
+    "option_images": [],
+    "answer": "D. Propolis",
+    "solution": "Propolis (bee glue) is the real product made by honey bees from plant resins. Honey is made from nectar, wax is secreted by the bee, and pollen is collected from flowers.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 96,
+    "chapter": "Enhancement of Food Production",
+    "question": "A milch breed of cow is:",
+    "question_latex": "A milch breed of cow is:",
+    "question_images": [],
+    "options": [
+      "A. Haryana",
+      "B. Malvi",
+      "C. Kankrej",
+      "D. Halliker"
+    ],
+    "option_images": [],
+    "answer": "A. Haryana",
+    "solution": "Haryana is a milch (dairy) breed of cow. Malvi and Hallikar are draught breeds. Kankrej is a dual-purpose breed.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 97,
+    "chapter": "Enhancement of Food Production",
+    "question": "Which one of the following processes involved in alcohol production is NOT involved in wine production?",
+    "question_latex": "Which one of the following processes involved in alcohol production is NOT involved in wine production?",
+    "question_images": [],
+    "options": [
+      "A. Malting",
+      "B. Mashing",
+      "C. Fermentation",
+      "D. Distillation"
+    ],
+    "option_images": [],
+    "answer": "D. Distillation",
+    "solution": "Distillation is NOT involved in wine production. Wine is produced by fermentation of grape juice without distillation. Distillation is involved in production of spirits/liquors like whisky, brandy, etc. Malting and mashing are specific to beer production.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 98,
+    "chapter": "Enhancement of Food Production",
+    "question": "Lac is used in the",
+    "question_latex": "Lac is used in the",
+    "question_images": [],
+    "options": [
+      "A. Production of guano",
+      "B. Production of Isinglass",
+      "C. Silvering mirrors",
+      "D. Production of soaps"
+    ],
+    "option_images": [],
+    "answer": "C. Silvering mirrors",
+    "solution": "Lac is used in silvering mirrors. Lac is also used in the manufacture of bangles, toys, gramophone records, varnishes, and sealing wax.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  },
+  {
+    "id": 99,
+    "chapter": "Enhancement of Food Production",
+    "question": "Following are Indian buffalo breeds EXCEPT, ____",
+    "question_latex": "Following are Indian buffalo breeds EXCEPT, ____",
+    "question_images": [],
+    "options": [
+      "A. Surati and Nili",
+      "B. Gir and Sindhi",
+      "C. Murrah and Nagpuri",
+      "D. Mehsana and Jaffarabadi"
+    ],
+    "option_images": [],
+    "answer": "B. Gir and Sindhi",
+    "solution": "Gir and Sindhi are famous Indian cow breeds, not buffalo breeds. Surati, Nili, Murrah, Nagpuri, Mehsana, and Jaffarabadi are all Indian buffalo breeds.",
+    "solution_images": [],
+    "difficulty": "easy",
+    "marks": 4
+  },
+  {
+    "id": 100,
+    "chapter": "Enhancement of Food Production",
+    "question": "Match the Column I containing mutant varieties with Column II containing respective crop plants. (a) Jagannath - (I) Cotton, (b) NP-836 - (II) Cabbage, (c) Indore-2 - (III) Rice, (d) Regina-II - (IV) Wheat",
+    "question_latex": "Match the Column I containing mutant varieties with Column II containing respective crop plants.",
+    "question_images": [
+      "100_qu_1.png"
+    ],
+    "options": [
+      "A. (a)→(I); (b)→(III); (c)→(IV); (d)→(II)",
+      "B. (a)→(II); (b)→(IV); (c)→(III); (d)→(I)",
+      "C. (a)→(III); (b)→(II); (c)→(I); (d)→(IV)",
+      "D. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)"
+    ],
+    "option_images": [],
+    "answer": "D. (a)→(III); (b)→(IV); (c)→(I); (d)→(II)",
+    "solution": "Jagannath → Rice (III), NP-836 → Wheat (IV), Indore-2 → Cotton (I), Regina-II → Cabbage (II). These are mutant varieties of crops produced for food enhancement.",
+    "solution_images": [],
+    "difficulty": "medium",
+    "marks": 4
+  }
+]
